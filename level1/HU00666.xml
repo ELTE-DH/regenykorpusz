@@ -1,0 +1,2137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00666" xml:lang="hu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Egy régi udvarház utolsó gazdája : Regény : ELTeC edition</title>
+            <author ref="viaf:59092543">Gyulai Pál</author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">22682</measure>
+            <measure unit="pages">79</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Egy régi udvarház utolsó gazdája : Regény</title>
+               <date>1998-08-03</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="http://mek.oszk.hu/00600/00666"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Varjú Mária</name>
+                  <name>Szabolcsi József</name>
+               </respStmt>
+               <bibl type="printSource"><title>Egy régi udvarház utolsó gazdája</title><author>Gyulai Pál</author><publisher>Interpopulart</publisher><pubPlace>Budapest</pubPlace><date>1995</date>
+                  <ref target="http://mek.oszk.hu/00600/00666/00666.pdf"/></bibl>
+               <idno>ISBN 963 613 127 9</idno>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Egy régi udvarház utolsó gazdája : Regény</title>
+               <author>Gyulai Pál</author>
+               <date>1857</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-04-18"/>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>1</head>
+            <p>A Radnóthy Elek udvarháza híres volt a Kisküküllő mentén. Tulajdonképp nem is volt
+               udvarház, ahogy Erdélyben a kisebb birtokú nemesek falusi lakait nevezik, még kevésbé
+               várkastély, amely névvel vagy a mágnások várakból átalakított vagy nagyobbszerűen
+               épített kastélyait szokás megtisztelni. A Radnóthyé e kettő közt foglalt helyet,
+               hasonlóan családjához, mely se a mágnásokhoz, se a tekintetesekhez nem tartozott,
+               hanem méltóságos volt, így, erdélyi divat szerint, kisebb a nagyságosnál s több a
+               tekintetesnél.</p>
+            <p>Az udvarház magas dombon emelkedett. Onnan uralkodott az alatta elterülő falun, s
+               vetett hosszú árnyakat, ha napfényes alkonyon vagy holdas éjjel a folyam tükrében
+               nézegette magát. Nagy négyszög, földszintes épület volt, belső udvar nélkül, de ha
+               ennyiben különbözött is a várkastélyoktól, annyiban éppen nem hasonlított a
+               közönséges udvarházakhoz, amennyiben négy, úgynevezett tornyos bástyával
+               büszkélkedett, magas emelete majdnem kettősnek látszott, széles zsindelyfödele pazar
+               szeszéllyel nyújtózott a magasba, homlokzatán óriás s már megfeketült kőcímer
+               gúnyolta a házőrző kőrisfák százados fiatalságát, s kinyúló tornácából oly fennhéjázó
+               kilátás nyílt, hogy a birtokos udvarházához tartozóknak képzelhette a völgy hosszában
+               elszórt falucskákat.</p>
+            <p>Udvara kénye-kedvére nyúlt el. A felső udvar a domb síksága volt, amelyet kert
+               övezett, egész a folyam kanyarodtáig. A ház mellett, mintegy hozzáragadva, a
+               konyhaépület húzta meg magát, mindig füstölgő kéményével, ecetesüvegekkel megrakott
+               tornáccal s léces ajtóval, amely előtt az úgynevezett gazdasszony vagy más néven
+               kulcsárné, a szakács ellenőrzője, segédje, s ha kell helyettesítője, mindegyre
+               megjelent, hol sápítva, hol nyelvelve, mint akin az egész ház terhe nyugszik.</p>
+            <p>Itt hasalt vagy kapkodott csontok után a nagy komondor, amelyet, hogy meg ne
+               dühödjék, folyóvíz nevére, Marosnak keresztelt a babonás béres. Itt függött egy
+               faalkotmányocskán holmi kis harangnak is beillő csöngettyű, amely napjában háromszor
+               pontosan megszólalt: tizenkettőkor a külső cselédeknek, egykor a belsőknek, kettőkor
+               az uraknak. Rendesen a kis sánta Mányi csengetett, egy nyomorék árva lány, aki a
+               majorságot, főleg a ludakat őrizte; nagyon gyönyörködött a csöngettyű hangjában, s
+               félóráig is elhúzta volna, ha a mérges gazdasszony ki nem kiált: - Nem hallgatsz már
+               te, kis béka! - Itt jelent meg reggelenként a méltóságos asszony széttekinteni,
+               pirongatózni, munkát adni a jobbágyasszonyoknak, s alamizsnát osztogatni a
+               szegényeknek. Itt gyűlt össze esténként beszélgetni a cselédség színe: a szobalány,
+               az inasok, a huszár, a hintós kocsis s a kertész, aki nyalka, rátartó volt, s nagyon
+               is a gazdasszony kegyében állott.</p>
+            <p>A kertész nem ok nélkül tartotta rá magát. A keze alá bízott kert egy egész kis
+               tartomány volt; se a régi francia kerthez, se az új angolparkhoz nem hasonlított,
+               eredeti magyar kert volt, amely dúsan megáldva a természettől, magába foglalt
+               mindent; virágos-, veteményes‑, gyümölcsös-, méheskertet, aszalót, pálinkafőzőt,
+               malmot, egypár rétet, jó darab erdőt s a családi sírboltot a falusi temető felé. E
+               rend a rendetlenségben, e számítás a pazarlás közepett, e gond a hanyagság
+               kíséretében sok bizarr bájt, vadon szépséget ruházott reá. A kertész mindig
+               jobbágycsaládból telt ki, s a fiú örökölte atyja hivatalát. Mindenik öregbítette
+               tudományát, és gondolt ki valami újat. A mostaninak atyja volt köztük a
+               legnyughatatlanabb; járt és tapasztalt, nagy tervekkel jött haza, amelyeket sohasem
+               tudott végrehajtani. Azonban az a hársfasor a kert legkisebb pontján, amely közepütt
+               tágas körré alakul, az ő műve. Egy kékesfehérre festett kis filegorja díszeleg itt,
+               elevenzöld gyepkarikák váltakoznak szanaszét, cserepekbe ültetett virágok nyílnak
+               körös-körül, s roppant kő-Neptun ontja orrán-száján egy kis patak vizét. A falusiak
+               minden vasárnap eljöttek ide bámulni, a gyerekek órákig elállingáltak a kő-Neptun
+               előtt, be is dugdosták orrát fűvel vagy szösszel. Nemegyszer hangzott innen nagy
+               lárma: a kertész ütlege s a gyerekek visítása.</p>
+            <p>Az alsó udvarban elszórt gazdasági épületek emelkedtek. Az egész tért porcsfű vonta
+               be, kopott szőnyegként egymást átvágó ösvények cirádáival. Egyik egyenesen sietett a
+               gazdatiszti lakba, s onnan a csűrnek fordult; a másik az istállóba futott, s a
+               csikóskertbe veszett el; a harmadik meg-megbújva kígyózott az ólakhoz és ketrecekhez;
+               a negyedik sokfelé ágazva rohant a pajtákba. Mindeniknek volt mellékága a
+               gémeskúthoz, majd mindeniket átvágta a porondos kocsiút, amely büszkén húzódott a
+               galambbúgos kaputól fel a dombra, az udvarházig.</p>
+            <p>- Csak annyi forintom volna, ahány kocsi jár itt naphosszat - sóhajtá sokszor a
+               féleszű bivalos, a berobogó kocsikra bámulva.</p>
+            <p>Radnóthy nem is szűkölködött vendégek nélkül: azért sok év óta alispán, azért lakik
+               oly közel az országúthoz, azért van annyi vendégszobája. Híven megőrizte a ház
+               becsületét. A fészer ritkán volt idegen hintó vagy kocsi nélkül. A kapufélfánál vagy
+               beljebb is szünetlen egy paripa ficánkolt, valamelyik kurtanemesé, aki tisztelkedni
+               vagy értekezni jött. A gyalogosok sem hiányoztak. Alatt és fenn nyüzsgött az udvar a
+               sok ügyes-bajos jobbágyembertől, akik levett kalappal, csapatonként sorjáztak fel a
+               méltóságos alispán úrhoz.</p>
+            <p>Hát még mikor név- vagy születésnapra gyűlt össze a szomszéd nemesség, vagy
+               tisztújításkor kortescsapatok vonultak át. Pattogott az ostor, nyihogott a ló,
+               szűkölt a kutya. Az érkező vendégek egymást kergették, a félénk asszonyok
+               sikoltoztak, a sürgő cselédek egymásba ütköztek. A kurjantás riadó zenébe veszett, s
+               a tánc mámora a boréval egyesült. Fenn a teremben, kinn a ház előtt, alatt az
+               udvaron, mindenütt dobogott a föld, csengett a levegő, csapongott a szív, s a vénülő
+               ház kivilágított ablakaival mintegy megifjodva tekintett ki az éjbe, messze hirdetve
+               a környéknek, hogy gazdája mulat.</p>
+            <p>Mindez csak volt és odavan. Az udvarház pusztulását és szegénységét gyászolja. Alig
+               ismerhetni reá. Maga a hazatérő Radnóthy is ámulva nézi, mintha nem volna az övé,
+               pedig csak másfél év óta nem látta. De ez a másfél év több volt egy századnál, s egy
+               udvarháznál régibb és nagyobb dolgokat is megviselt vagy elpusztított. Radnóthy 1848
+               ősze óta nem volt otthon, mert Kolozsvárott megbetegedve, majdnem egy esztendeig
+               nyomta az ágyat, s még azután is sokáig gyöngélkedett. Azalatt egy nagy forradalom
+               viharzott el, s Erdély iszonyú csaták- és pusztításoknak volt a színhelye. Nem csoda,
+               ha 1850 kora tavaszán alig ismer udvarházára. Bizony a ház is alig ismerhet reá. Ő
+               sem a régi többé; nagyon megfogyott és megőszült. Komor, beesett arcán vonásai régi
+               kifejezésének csak romjaira találhatni. Apró, fekete szeme villog ugyan, de némi
+               haragos búskomorságban. Bajusza sincs kipödörve, ahelyett hosszú szakállat eresztett,
+               ami még mogorvábbá teszi. Öltözete is hanyagabb, mondhatni kopott. Rókamálos mentéje
+               pecsétfoltos, s a zsinórzat rajta foszlásnak indult. Vidrafövegét kiette a moly, s
+               hol jobbra, hol balra csapja, amint a rosszkedve hozza magával. Minden, ami jobb
+               napjaira emlékeztet, csak félfödelű díszes kocsija, amelyet az utolsó tisztújításra
+               csináltatott, öreg István huszárja, aki régi fontosságával ül a bakon, s a három
+               almásszürke ló, amelyek oly vígan ügetnek, mintha most is a megyeházától hoznák
+               haza.</p>
+            <p>Hajdan nemcsak a lovak ügettek vígan, maga a bennülő gazda is derült volt. Majd
+               mindig csendes megelégedéssel közeledett ősi birtokához, ahol minden mintegy várta és
+               üdvözölte. A tornyocskák közt kanyargó füstgomoly már messziről intett feléje, a
+               malomgát moraja mind hangosabban és barátságosabban köszöntötte; a kert fái
+               virágosabb lombbal vagy érettebb gyümölccsel fogadták; szeme nemegyszer pihent meg
+               egy-egy újabb boglyán vagy aztagon; a hazatérő nyáj kolompja mint szíves “jó estét”
+               csendült fülébe; a hunyó nap csak érte, csak azért látszék késni, hogy még egyszer
+               rávilágíthasson a táj szebb pontjaira s a tornácon ülő nejére, aki már messziről
+               megismerte a jól ismert kocsit, és kendőt lobogtat. Akkor mindezzel keveset gondolt,
+               most a legapróbb részlet is eszébe jut, eszébe juttatják az udvarház düledező
+               kéményei, rongált tornyocskái, roskatag födele, betört ablakai, penésztől sárgazöld
+               fala, a pusztuló udvar, a romok, az elhagyottság s az egyetlen még régi állapotban
+               levő épület, a családi sírbolt, amelyet úgy kiemel az alkonyfény, mintha mondani
+               akarná, hogy odanézzen, most odavárja neje.</p>
+            <p>De bármilyen erős volt a felindulás, amely Radnóthy szívét emésztette, arca
+               egykedvűen komor maradt. Nem akarta, hogy szánakozzanak rajta cselédei, kivált István
+               huszár, aki a bakról mindegyre betekintett, és szólani szeretett volna, hanem
+               folyvást a volnánál maradt szegény, mert amióta ura kedvetlen és beteges, ritkán
+               tudja és meri eltalálni mi esik neki jól s mi nem. Az is baj, ha szól, az is, ha
+               hallgat. Bárcsak aztán haragunnék reá istenigazában, s ütné nyakon, mint régen, ami
+               szintúgy jólesett, mert megérdemelte. Most is elszenvedne akármit, csak szólani
+               engednék; hiszen neki is az fáj, ami urának, ő is itt növekedett, itt élte világát,
+               itt vénült meg. Így évődött a hű cseléd, s elvégre is erősebb volt érzése, mint
+               akaratja.</p>
+            <p>- Hej, méltóságos uram, be pusztulásnak indult itt minden! - tört ki belőle
+               keservesen a szó, s éppen roszkor, mert a kocsi egy gübbenőbe zökkent.</p>
+            <p>- Mit fecseg kend, mi köze hozzá? Még feldűlünk fényes nappal saját udvarházam előtt!
+               ‑ kiáltá indulatosan Radnóthy, s neki éppen olyan jólesett a szó, mint
+               cselédjének.</p>
+            <p>Azalatt István huszár leszállott, tartotta balfelől a kocsit, noha akár ne is
+               tartotta volna, mert ura nem annyira reá bosszankodott, mint inkább a rossz útra,
+               amely hajdan sima volt, mint a palló, a kinn ácsorgó volt jobbágyokra, akik egykor
+               messziről levették előtte a kalapot, s most alig billentik meg.</p>
+            <p>Benn az udvaron sem vár reá öröm. Romjait is alig láthatta annak, ami hajdan
+               gyönyörködtette. Nem sürögtek a cselédek, nem lepték el a vályút lejármolt ökrök; nem
+               fejték a teheneket vidor szolgálók, nem ülték körül dolgosok a malomkőasztalt a
+               tiszttartó háza előtt, maga a tiszttartó sem sietett elébe, e hű ember, aki harminc
+               év óta szolgálja, s ha otthon van, mindig kiszalad kocsijához, elmondani a távolléte
+               alatt történteket. Hát a kedves gyermekek, Géza és Erzsi, az ősi birtok és jó név e
+               nagy reményű örökösei, hol maradtak? Hányszor futottak elébe hazajöttekor, hogy
+               hozott-e a városból valamit. Most senki sem fogadja. Az udvaron csak a féleszű
+               bivalos lézeng, aki úgy látszik, béresi méltóságra emelkedett. Négy sovány ökröt fog
+               ki a járomból egy gyerkőc segítségével, s úgy bámészkodik reá, mintha idegen volna.
+               Az ösvényeket benőtte a fű, a kocsiút porondját elmosták a záporok, s a kétfelől
+               ültetett akác- és ecetfákat disznók turkálták fel. A pajták és istállók bedőlve vagy
+               üresen ásítoznak egymásra, a csűröskert is puszta, a kerítés meg mindenütt
+               megbomlott, s a szolgáló tüzelőnek hordja, nem is szégyellve magát, éppen a szeme
+               előtt. Még a komondor sem akar reá ismerni, előbb megugatja; csak azután, amikor
+               mély, parancsoló hangon hallja kimondani nevét, hunyászodik meg, és lapul
+               lábaihoz.</p>
+            <p>A kutyaugatásra végre megjelent a tiszttartó, egy köpcös kis ember, egy ingben,
+               rongyos kalappal és hosszú szárú pipával. Radnóthy most látta először tiszttartóját,
+               akit a múlt évben küldött ide egyik jó barátja, mert régi tiszttartóját még a
+               forradalom elején megölte volt a föllázadt oláhság. De bár sose látta volna; nem
+               tetszett neki az egész ember, talán mert sajnálta a régit, talán mert sértette az a
+               szégyenítő lárma, amelyet ez ütni kezdett, ide-oda futkosva, szüntelen kiabálva, hogy
+               megérkezett a méltóságos úr, felesége csináljon jó vacsorát, a szomszéd faluból
+               kerítsenek valami jó bort, a zsidótól hozzanak két szál gyertyát, a kocsisnak és
+               lovaknak is adjanak, ami telik. Sokkal örömestebb szemlélte a kis sánta Mányit, aki
+               egész örömmel futott hozzá, és zokogva csókolta kezét. E nyomorék árvát boldogult
+               neje vette volt a házhoz, s íme most csak ő az egész család képviselője, belőle áll a
+               viszontlátás egész öröme.</p>
+            <p>Így mélázva haladt fölfelé, itt-ott megállva, kérdezősködve, s nem várva be a
+               feleletet.</p>
+            <p>A tiszttartó kérdés nélkül is felelt, összevissza beszélt mindent. Áldotta az isteni
+               gondviselést, hogy ide jöhetett, és rendbe szedhette a jószágot. Azt nem is
+               képzelheti ember fia, hogyan feldúlt, kirabolt itt mindent a fellázadt oláhság; ő
+               éjet, napot összetett, futott, fáradott, orrával túrta a földet, hogy a régi lábra
+               állítsa vissza a méltóságos úr jószágát, de van is ám láttatja. Az udvarház egy része
+               már lakható, a méltóságos úr szobája egész paradicsom. Az elrabolt bútorokból is
+               sokat visszaszerzett, hol a harmadik, hol a negyedik faluból, még a konyhaépület
+               csengettyűjét is megkerítette, fizetett is értök elég borravalót, s ezt a méltóságos
+               úr bizonyosan megtéríti neki. A gazdaság is foly valahogy, de nincs semmi jövedelem,
+               mert a beruházásra kell fordítani mindent; az is nagy baj, hogy a volt jobbágyok
+               elfoglaltak néhány darab földet; a többit majd mind felébe adta ki, mert drága a
+               napszám, a curialisták nem akarnak se dolgozni, se fizetni, kivált az oláhok; marha
+               sincs elég, aztán az adó, szállásolás, pörlekedés felemészt minden jövedelmet;
+               tulajdon pénzéből is fordított már valamit a jószágra, csekély összeget ugyan, mert
+               neki is kevés van, de éppen jókor, mert valóságos szégyentől menté meg a méltóságos
+               udvart.</p>
+            <p>Radnóthy mind csak hallgatta, mint a molnár malma zúgását. Egészen egyébre
+               gondolt.</p>
+            <p>Vizsgálta a házőrző kőrisfákat, amelyek némi történeti nevezetességgel dicsekedtek,
+               amennyiben Apafi, erdélyi fejedelem, kétszer ozsonnált árnyaik alatt, amikor
+               meglátogatta egyik ősét, aki igen kedves embere volt. Nézte a homlokzat kőcímerét,
+               amely úgy illett a tisztes épülethez, s egyik fődíszéül szolgált, azaz csak
+               romjaikat, mert a kőcímer összetörve hevert a földön, a fák pedig beégett derékkal
+               sindevésztek.</p>
+            <p>Lesütötte fejét; úgy tetszett neki, mintha összetört címere családja pusztulását és
+               gyalázatát jósolná. Néma gondolatjaira, elfojtott érzéseire oly kellemetlenül hatott
+               a tiszttartó zajos fecsegése. Egypárszor szeme közé nézett, és hallgatást akart neki
+               parancsolni, de ahelyett, maga sem tudta, miért, talán szórakozottságból, talán
+               kíváncsiságból figyelni kezdett reája.</p>
+            <p>A tiszttartónak sem kelle több, még részletesebben, még hangosabban erősítette, hogy
+               tenger a költség, és nincs jövedelem.</p>
+            <p>- Hát tiszttartó uram azt hiszi, hogy én pénzt hozok, zacskóval hozom az aranyat,
+               vékával a tallért - vágott közbe Radnóthy, bosszúsan emelkedett fel egy beomlott
+               gyeppadról, ahová még jól le sem telepedett.</p>
+            <p>- Hinni csak elhinném, méltóságos uram! de látni? Megelégedném én a bankóval is -
+               nevetett a tiszttartó, tréfának vélve a dolgot.</p>
+            <p>- Mit röhög? Azt hiszi, hogy engem meglophat, belőlem csúfot űzhet - folytatta
+               Radnóthy, egész testében reszketve a méregtől. - Hogy mer egy ingben állani elémbe?
+               Vegye le fejéről a kalapot - hallgasson!</p>
+            <p>E kitörés tulajdonképpen nem a tiszttartót illette, hanem azokat, akik összetörték a
+               kőcímert, beégették a kőrisfákat, földúlták jószágát. Csordultig telt keserűségének
+               pohara, ki kellett ömölnie, és arra, aki legelőször érinti. Éppen ezért a tiszttartó
+               jól teszi, ha hallgat, s nem zavarja ura búskomorságát, aki már talán el is feledte,
+               amit mondott, s akinek éppen az fáj, hogy nem lehet kétkednie, s a rom, pusztulás
+               igenis kézzelfogható. De neki természete volt mindenkit kezéhez szoktatni, most pedig
+               éppen szükségesnek látta meg nem engedni, hogy csak a gondolomra mondott, de igen
+               alapos gyanú gyökeret verjen.</p>
+            <p>- Dehogy hallgatok, ha tűzre tesznek, sem hallgatok - kezdé nagy szörnyűködéssel -,
+               vétenék méltóságod úri személye ellen, elámítanám, megcsalnám, megérdemelném, hogy
+               elcsapjon. Én tolvaj?... Én istenem, mire jutottam! Hát ugyan honnan lopjak? Bizony
+               isten, ha akarnám sem tehetném. Isten úgyse’, még a magaméból adnék, aminthogy adtam
+               is néhány forintot. Dejszen nem csodálkozom; méltóságod most érkezik, nem ismeri
+               jószága állapotját, nem értheti, mily bajos most gazdálkodni.</p>
+            <p>- Még feleselni mer! Takarodjék szemem elől! Nem ismerem jószágomat... szemtelen! Nem
+               értek a gazdasághoz... szamár! Kegyelemből élek... gazember! Elpusztuljon udvaromból
+               még ma, ebben a pillanatban.</p>
+            <p>- Ugyan, ugye - pattogott a tiszttartó ijedtében, csodájában, mérgében, felcsapva
+               imént levett kalapját. - Ez-e a köszönet? Ez-e a hála? Úgy bánni velem, mint egy
+               kutyával! Így jár az ember, ha ilyen koldus uraságot szolgál. Bár sohase tettem volna
+               be lábamat ebbe a jószágba! Bolond voltam, hogy annyit fáradtam, guzslódtam, csak
+               azért, hogy méltatlanságot szenvedjek, kárt valljak, mert tudom én, mit akar
+               méltóságod: megkárosítani, pénzt csikarni rajtam, aztán elcsapni. Nem oda Buda! Más
+               időben élünk, nincs többé vármegye, a szegény embernek is pártját fogják, méltóságod
+               sem alispán már - hála istennek - nem ám...</p>
+            <p>Még többet is beszélt volna, azonban István, aki a poggyászt hordta fel meghallván a
+               zajt, ott termett, s olyat lódított rajta a domb menedékén, hogy repült belé a kis
+               ember, s az alsó udvarig meg sem állhatva, orrára bukott. Radnóthy elfordult, s meg
+               nem dicsérte a hű cselédet, tekintélyének e vitéz védelméért. Ott állott bódultan,
+               mintha valaki arcul ütötte volna. Még mind a fülébe csengett a tiszttartó
+               gorombasága, még mindig azon tűnődött: vajon csakugyan mert-e a pimasz neki olyasmit
+               mondani. E néhány szó ezer fullánkot ütött belé, s életében először érezte magát
+               megalázva. Aztán elfásult, nem érzett, nem gondolt semmit, s arcára némi buta
+               érzéketlenség ült ki. Az esti homályba merülő táj visszamosolygott utoljára; mind
+               nézte-nézte, s nem látott semmit; csípős tavaszi szél fútt; nem érezte, nem húzta
+               összébb mentéjét, az éledni kezdő falusi kocsmából vidor zene hallatszott ki; nem
+               hallotta, arra sem fordult: csak midőn vacsorára szólalt meg a csengettyű, kezdett
+               ébredezni - a kis Mányi húzta, s egész erejéből, örömében, hogy már valahára
+               húzhatja, és sokáig, mert nem volt gazdasszony, aki reá ijesszen - ezt hallgatta,
+               mind hallgatta, mint a gyermek a csengő játékszert -, ó, az ismerős régi hangok - és
+               szemébe könnyek facsarodtak.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>2</head>
+            <p>Így szállott meg ősi fészkébe az öreg táblabíró, s az első órától nem sokat
+               különbözött a többi nap, hét, hónap. Sehogy sem tudta magát feltalálni otthon.
+               Hasonlított Ripp Van Winkléhez, egy észak-amerikai népmonda hőséhez, aki húsz évig
+               aludt a Kaatskill-hegy barlangjában, s hazatérve nem ismert falujára, nem talált
+               házához, a kocsmához sem, amely egészen szállodává alakult, s címere többé nem III.
+               György király volt, hanem Washington tábornok; víg cimborái felől is hiába
+               kérdezősködött, az iskolamester a kongresszusba utazott mint képviselő, a másik
+               valamelyik csatában esett el, a harmadiknak már a sírköve is elpusztult a temetőben,
+               s így tovább, úgyhogy szegény kétségbeesve kiáltott fel: “Hát senki sem ismeri itt
+               Ripp Van Winklét!...” Radnóthy nem aludott, csak betegen feküdött, azt is csak másfél
+               évig, kétségbeesve sem kiáltott fel, de százszorta szerencsétlenebb volt Ripp Van
+               Winklénél.</p>
+            <p>Nehezen szokott mindehhez, és semmit sem szokhatott meg. Hánykódott a múlt és jelen
+               között; nem tudott feledni, mert minden a múltra emlékeztette, és örömest feledte a
+               jelent, ha a múlton mélázhatott. Mintha egy gonosz tündér ütött volna tanyát
+               szobáiban, aki ringatja, költi, ide-oda csalja, szeme közé nevet, s otthagyja
+               keserűségének. Reggelenként nemegyszer kapott az éjjeliasztalhoz ezüstcsengettyűje
+               után, amelyet már rég összeolvasztott az ötvös; sokszor kérte elő Istvántól egyik
+               vagy másik ruháját, amelyet ki tudja, hol szaggatnak; többször kerestette
+               tajtékpipáit, amelyek már bizonyosan negyedik kézen járnak; még házisipkáját is
+               kérte, neje utolsó hímzetét, amelyet - jól emlékszik reá - az asztalfiókban hagyott
+               volt. Ilyenkor aztán rendesen elkedvetlenedett, szitokra fakadt, noha nem volt
+               szokása, s majd mindig azon vette észre magát, hogy kávéja meghűlt, elfeledte
+               megcukrozni, kereste a szelencét, sehol sem találta, és lármát ütött. István
+               háromszor is elmondta, hogy egyetlen szelence sincs a háznál, ott a cukor a pirított
+               kenyér mellett. Ura is háromszor ismételte, ritkán bosszúsan, a legtöbbször erőtlen
+               fájdalommal: - Jól van, jól, hallottam már, kend egészen telekiabálja az ember
+               fejét.</p>
+            <p>Hát még a szobák, ahol oly kényelmesen lakott, a régi bútorok, amelyek mindenikéhez
+               annyi drága emlék tapadt. Talán azok csak azért állanak még, ezekből csak azért
+               maradt meg némi töredék, hogy kínozzák a hazatért gazdát, és ne engedjék nyugodni. A
+               néhol felszakított avagy újra csak tél-túl bedeszkázott padolaton mindjárt-mindjárt
+               meg kelle botlania, s ha leült, kedves, de megsántult zsőllyeszéke ide-oda biccent. A
+               falakra sem nézhetett fölindulás nélkül, drága fegyverei nem ragyogtak többé ott, az
+               ősi képek elhasogatva vagy elcsúfítva néztek alá; nagyanyjának tisztes arcára éppen
+               bajuszt festett valaki szénnel, nagyatyja szájába pedig makrapipát.</p>
+            <p>Semmi sem volt ép, semmi sem állott a maga helyén. Ez a felpattogzott asztal hajdan
+               egyik vendégszobában foglalt helyet; azt az otromba ruhaszekrényt a tiszttartó
+               szobájából keríthették ide; a pamlag bőr helyett háziszövettel volt bevonva, s annyi
+               s oly sokféle szék állott mindenütt láb alatt, mint a zsibárus raktárában. Hiába
+               fogott a rendezéshez; nem tudta visszavarázsolni a régi kényelmet, csínt és
+               nyugalmat. Félbehagyta, megint elkezdte, hamar belefáradt, odaült pihenni
+               íróasztalához, s nézte hogy hol állott hajadan a nagy kalamáris, a nagy rézporzó s az
+               a sok irat, itt a hivatalosak, ott a magánügybeliek, galanddal összekötözve,
+               márványkővel lenyomtatva.</p>
+            <p>Eszébe jutott minden, még az is, hogy egyszer bizonyos bonyolult ügy miatt késő éjig
+               virrasztott itt jurátusával, neje többször benyitott hozzá, kérte, hogy feküdjék le,
+               ne rontsa egészségét, holnap is nap; szóból szó kerekedett, összezördültek, magok sem
+               tudták, hogy, s aztán egész éjjel se aludni, se dolgozni nem tudott.</p>
+            <p>- Szegény feleségem! - sóhajtá, s mind komorabban húzogatta ki a záros s most feltört
+               fiókokat, ahol féltőbb iratait szokta tartani; a családi okleveleket, szerződéseket,
+               és kötelezvényeket. Összeszaggatott darabjokra sem talált, mégis mind kereste, s
+               midőn abbahagyta, önkéntelen hátradűlt a széken, gondolkozott, és számlálgatta ujján
+               a kötelezvények összegeit - mindenre jól emlékezett, mintha most olvasná -, aztán
+               öklével az asztalra ütött, s oly erős hangon kiáltá: - Negyvenezer pengő forint! -
+               hogy az ablak alatt elmenő kis Mányi elsikoltá magát, s ijedten szaladt lefelé.</p>
+            <p>A többi szoba még szánandóbb állapotban volt. Mindeniket bejárta napjában
+               kétszer-háromszor, mint valami kóbor lélek, aki sehol sem tud nyugodni. A nagy, de
+               üres ebédlő kongott; tisztán kivehette léptei visszhangját, amit addig sohasem
+               tapasztalt. Megütődött e természetes jelenségen, hátratekintett, nem látott ugyan
+               senkit, de azért volt mit nézzen, és nézte az árvaságra jutott pohárszéket, kifordult
+               sarkú ajtóival, az összetört csillár lecsüngő vasát, a kapcsos szegek helyét, ahová
+               az óra volt akasztva, e régi, derék szerzemény, amely mindig pontosan járt, s ütése
+               az egész házban meghallatszott.</p>
+            <p>A nappali, a hálóterem, a fiúk, a leányok és vendégek szobái sokkal több és
+               szánandóbb látványt nyújtottak. Itt minden összetörve és széthányva hevert egymáson,
+               itt mindent elváltoztatott a por, penész és senyvedés. Ő mégis mindent megismert, és
+               sokáig elsajnálkozott rajtok. Hogyisne? Falun, különösen régi szabású nemeseinknél,
+               minden bútornak megvan a maga jelentősége, története, mondhatni szentsége. Az apa
+               nagyatyjától örökölte, a fiú ragaszkodik hozzájok szokásból, kegyeletből; ritkán
+               vásárol egy új darabot, legfeljebb valamely ünnepélyes alkalomra, ha házasodik vagy
+               nagyobb hivatalt nyer, ami szintén nagy esemény és szentesítő erejű. Így a büszkeség,
+               kegyelet s gyöngédség ez emlékei annál drágábbak lesznek, minél inkább vénül a
+               birtokos. Radnóthy elérzékenyülve vizsgálta kedves bútorainak maradványait,
+               megszemlélt minden zegzugot, fölemelt minden darabot, s oly kímélettel tett helyre,
+               mintha még hasznukat venné.</p>
+            <p>Szomorú foglalkozása azonban némi gyér örömben is részesítette. Néhány kedves könyvét
+               találta meg a lomok között, jogi könyveit, amelyekből jurátus korában cenzúrára
+               készült, s a családi Bibliát, amelyet a buzgó I. Rákóczi György fejedelem
+               ajándékozott volt egyik ősének, saját kezével írva be nevét, amint azt most is
+               láthatni némely protestáns egyház ily ajándék Bibliáján. Leült és forgatta a Bibliát,
+               amely azon módon ép volt, csak ezüstkapcsait törték le; kedvenc helyein magától
+               megnyílt, mint régen, a címlap előtti tiszta papír is megvolt, ahova a családfő híven
+               bejegyezte a gyermekek születésének s halálának, házasodásának vagy férjhez
+               menetelének napját. Ott volt saját kézirata is; olvasta, mikor házasodott meg, mikor
+               születtek gyermekei, három meghalt, kettő él - isten őrizze meg őket a sors
+               csapásaitól, jobban, mint apjokat -, csak neje halálának napja nincs még beírva, hogy
+               is írhatta volna be, hiszen azóta nem volt otthon, hanem be fogja írni - ó, ez el nem
+               mulasztható kötelesség.</p>
+            <p>És írt, nehezen írt - mily rossz a toll, a tinta meg fehér, valóságos szégyen, semmi
+               sincs a háznál -, de azért írt és sokat szenvedett. Neje halálának emléke egészen
+               felújult benne, elképzelte, hogy a szegény asszony, aki az immár az egész környékben
+               kiütött oláh fölkelés elől egy éjjel futott el innét a közel városkába, mennyi
+               ijedséget állhatott ki; ő akkor nem volt otthon, jött, futott, repült volna, de
+               lehetetlen volt; Kolozsvárott megbetegedett - istenem, minő napok voltak ezek -, de
+               hiába sietett volna hozzá, halva találta volna; el sem temethették illendően,
+               ideiglenesen a városi templom sírboltjába tették le holttetemeit, s csak később
+               szállították ki a családiba, nem is tudja, mikor, ő akkor már nagyon beteg volt,
+               halálos beteg, most is az, talán sohasem gyógyul meg egészen.</p>
+            <p>E folytonos felindulás és évődés fölemésztették lelkiereje maradványait. Az egykor
+               tevékeny férfiú méla, álmodozó és ingerlékeny különc lett. Se munkára, se mulatságra
+               nem tudta magát összeszedni; mindkettőt megkísérlé ugyan, de mindannyiszor
+               visszasüllyedt bosszúságába és merengésébe, ami aztán egész elemévé vált.</p>
+            <p>Hol is keresett volna szórakozást? Régi jó szomszédai nemigen látogathatták; egyik a
+               csatatéren maradt, másik fogságban szenvedett, harmadik bujdosott, s ha mégis valaki
+               jőni talált, restellte, bosszankodott, mert még meg sem vendégelhette becsületesen.
+               Akaratlan és szüntelen csak a forradalomra és az oláh pusztításra fordult a beszéd;
+               Radnóthy is panaszolt, vendége is. Emlegették a régi jó időket, a vármegye, az ország
+               dolgait és szívökből elkeseredtek. Radnóthy nem olvasott hírlapot, gyűlölettel
+               fordult el mindentől, ami az új korszak szüleménye volt, lett legyen az eszme, ember
+               vagy nyomtatvány; egyik-másik vendégétől tudta meg, hogy mi újabb történik a két
+               magyar hazában, mily rendeleteket ad ki Bach miniszter, ki lett Erdély kormányzója,
+               hány területre olvasztották össze a magyar megyéket, székely és szász székeket, hogy
+               idegen tisztviselők lepik el Erdélyt, német lábra állítanak mindent, még a faluk
+               magyar nevét sem igen tűrik. Az ily s ehhez hasonló újságokat bárhányszor ismételték
+               előtte, mindig szörnyű méregbe jött, amely a beszéd folytán mély bánattá szelídült, s
+               a végén keservesen elsiratta a magyar alkotmányt, nemzetet és királyt.</p>
+            <p>A vendégek szórakoztatás és enyhítés helyett még ingerlékenyebbé és búskomorabbá
+               tették. Csak akkor derült fel, ha egy-egy gúnyos adomát hallott az idegen, leginkább
+               Galíciából Erdélybe rendelt tisztviselőkről, az úgynevezett Bezirkerekről, különösen
+               arról, aki a megyében az ő helyét foglalta el. Ilyenkor nevetett, aztán nagyot
+               sóhajtott, s el-elmormolta fogai közt:</p>
+            <p>Galiciát kisöpörték,</p>
+            <p> A szemetet kiöntötték,</p>
+            <p> A szemétből gomba termett,</p>
+            <p> A gombából Bezirker lett.</p>
+            <p>Ez volt az egyetlen nóta, amelyet néha elfütyült vagy elmormolt, az egyetlen új
+               dolog, ami tetszését megnyerte. Mindig elmosolyodott, ha ajkára jött, aztán
+               sóhajtott, s megint elkomorult.</p>
+            <p>Legrosszabban töltötte ünnep- és vasárnapjait. A templomban sem találhatta föl a
+               vigaszt és nyugalmat. Mit ér, hogy ülőhelye bántatlanul áll a szószék közelében, a
+               kántor híven kikeresi számára az éneklendő zsoltárt, ha nem látja kedves
+               tiszteletesét, akivel együtt vénült meg. Néhány hónap óta egy fiatal lelkész szolgál,
+               akit sehogy sem tud megszokni, ki nem állhatja bajuszos és szakállas arcát, rövid
+               imádságait, amelyeket áhítatosan reszkető hang nélkül mond el, világias prédikációit,
+               amelyek valóságos hírlapi cikkek, s kivált azt a sok új szót, ami éppen botrány. De
+               hagyján, csak kegyúri kötelességeit teljesíthetné. Meg kellene fedetni a templom
+               rozzant födelét, javítani valamivel a lelkész leolvadt fizetését, és nincs pénze. Ez
+               több volt bosszúságnál, fájdalom volt, s még inkább elrontotta vasárnapjait, a már
+               csak emlékezetben élő jó vasárnapokat.</p>
+            <p>Szégyellni kezdette szegénységét, mint valami bűnt, s koronként hozzáfogott gazdasága
+               rendezéséhez, nagy hévvel, kevés kitartással, ide-oda kapkodva, nem tudván magát
+               feltalálni a változott körülmények között. Először is elcsapott tiszttartójával gyűlt
+               meg a baja, aki ugyan kitakarodott az udvarból, de roppant hosszú számadást hagyott
+               hátra, s nem éppen szerény követelésekkel állott elő, s pörrel fenyegette hajdani
+               gazdáját, ha ki nem elégíti. Radnóthy egy zugba lökte számadását, levelét, azzal a
+               meggyőződéssel, hogy nem lehet oly törvényszék, amely tiszttartójának igazat adjon,
+               aki a zavaros időt és távollétét felhasználva, csalta-lopta, s mindezt még meg is
+               akarja fizettetni vele. Az egész ügyre többé nem is gondolt, s új tiszttartó
+               keresésével töltötte idejét. Hirtelen nem talált kedve szerintit, s minthogy most
+               különben nem is adhatott nagyobb fizetést, s leginkább maga akart gazdálkodni,
+               ideiglesen egy írástudó közszékely gazdát vett föl, akit csak számtartónak nevezett,
+               mert a csekélyebb fizetéshez csekélyebb cím illik. Hanem azért oly fennhéjázó
+               parancsolatokat adott ki, mint gazdasága virágzó idején. Emellett igyekezett mindent
+               a régi lábra állítani vissza. Mindenütt kerestette régi szakácsát, egyik jobbágya
+               fiát, akit ő taníttatott volt ki a főispán udvarában, mert neki csak az tud főzni; de
+               minthogy e híres szakács a forradalomban egy tábornok konyhájához szegődött, s azóta
+               senki sem hallotta hírét, kénytelen volt szakácsnőt fogadni. Fogadott is Kolozsvárról
+               egy meglehetős drágát, aki gazdasszony cím alatt el is foglalta a konyhaépületet, de
+               nemigen volt miből gazdasszonykodnia. A háromszori csengetés újra divatba jött. A
+               bivalost letette törvénytelen béresi méltóságáról, noha a bivalok száma csak
+               egyetlenegyre apadt. Hozzákezdett udvarháza javításához is, de csak annál maradt,
+               hogy új kőcímert csináltatott. A pajtákat és istállókat egészen újra akarta
+               építtetni, pedig nem volt többje annál a három lónál, amelyekkel hazajött, néhány
+               ökörnél és tehénnél, amelyeket otthon talált.</p>
+            <p>Majd lesz, mondá sokszor, rendet csinál, fölmondja a bérbe adott földeket, maga fog
+               míveltetni mindent, fenyegette a curialistákat, hogy adják vissza elfoglalt földjeit,
+               mert törvényszék elébe állíttatja őket, katonákat hozat reájok, de másnap már
+               mindenről megfeledkezett, új bosszúság törülte el a régit, most az adó miatt pörölt a
+               jegyzővel, majd a közmunkát sürgető falusi bírót kergette ki szobájából, vagy pedig
+               búskomoly mélájába süllyedt, s napokig nem lépte át küszöbét.</p>
+            <p>Ilyenkor a legtöbbször olvasott. Előszedte megmaradt könyveit, még egyszer áttanulta
+               a magyar törvénytárt és történelmet, s politikai elmélkedésekbe merült. Szorosan véve
+               nem tartozott azon két politikai nagy párt egyikéhez sem, amelyek egy századnegyed
+               óta oly szenvedélyesen küzdöttek egymással a megye- és országgyűléseken. Nem volt
+               kormánypárti, de teljesen ellenzéki sem, természeténél fogva hajlott a
+               konzervatizmushoz, de fogékonysága s a közhangulat a reformok felé ragadták.
+               Becsületes táblabíró, derék magyar nemes volt, aki büszkébb őseire, mint
+               kiváltságaira, s akiben a régi s új eszmék sajátságos vegyületben olvadtak össze. A
+               nemesi tekintélyre sokat tartott, de atyai indulattal viseltetett jobbágyai iránt, s
+               az úrbéri ügyekben mindig a szabadelvűekkel szavazott. Látköre korlátolt volt, a
+               vármegyeháza ablakából szemlélte a világot, de ösztönszerűleg visszariadt a kihívó
+               kockáztató politikától. Nem sokat olvasott, keveset beszélt, de annál tevékenyebb
+               tisztviselő volt, általában áldozatra kész hazafi, aki egész optimizmussal csüngött
+               nemzete jövőjén. Most pesszimista vált belőle. Bár a forradalmat betegágyban élte át,
+               s csak egypár hét óta van otthon, politikai érzülete egészen megváltozott. Az
+               ellenzékiség a legmélyebb gyűlöletig fejlődött ki benne, de egyszersmind megutált
+               minden reformot. Vádolta önmagát, hogy ő is elősegítette az ősi alkotmány alapjának
+               megrendítését. A nép iránti jóindulata elenyészett, hiszen saját oláh jobbágyai
+               dúlták fel udvarházát, akikkel annyi jót tett mint magánember, s akiknek érdekéért
+               küzdött a közpályán. A köz- és magánjogi reformok rögtönzéséről és erőszakoltságáról
+               elmélkedett, s minél többször olvasta a régi magyar törvényeket, annál inkább bámulta
+               a régi alkotmányt s az ősök bölcsességét. Most sehol sem látott hiányt; kegyelettel
+               olvasott át minden elavult törvényt, megsiratott minden összeomlott intézményt, s az
+               állambölcsesség kövét vélte feltalálni a megyei rendszerben. A hajdan tevékeny
+               férfiú, aki elméletekkel nem bajlódott, tétlenségében szemlélődővé vált. Visszaélte
+               magát a múltba, s mind arról álmodozott, hogy mi módon kellett volna a magyar
+               nemzetnek kifejlődnie. Rögeszméjévé lőn, hogy a demokráciai eszmék tették semmivé a
+               magyart; elfordult a jelentől, s gyönyörrel olvasta a múlt lapjain a magyar nemzet,
+               azaz a nemesség örök dicsőségét.</p>
+            <p>- A nemesség szerzette e hazát - mondogatta magában -, nyolc századon át, a
+               legnehezebb körülmények között is, jól-rosszul meg tudta tartani, sohasem vesztette
+               el egészen, egyszer került a demokrácia kezébe, s ím örökre elveszett.</p>
+            <p>Ez elmélkedő álmodozások között elfeledte, hogy gazdálkodni kellene, s már egypár nap
+               óta nem tette meg szokott gazdasági körútját. Ki-kiindult hát a komondor kíséretében,
+               hogy mint hajdan, saját szemével lásson dolgai után. Benézett az istállóba, beszélt a
+               kocsissal, de nem meglevő lovairól, hanem a hajdaniakról; dicsekedett velök,
+               sajnálkozott rajtok, s elballagott, meg sem mondva, hogy tulajdonképpen miért jött. A
+               csűrben mind azokat a régi nagy asztagokat és boglyákat emlegette, amelyek sehol sem
+               voltak, s nem figyelt a számtartóra, aki a leendőkről okoskodott. Némely cselédjét,
+               ahelyett hogy munkára ösztönözte volna, restségre szoktatta, mert sokáig elbeszélt
+               velök udvarháza földúlatásáról, és ismételve megkérdett minden apró részletet. A
+               napszámosokat rendesen szidalmazta, hogy oly drágáért dolgoznak, holott hajdan mint
+               jobbágyoknak ingyen kellett dolgozniok. A kertben legtöbbet a beomlott kő-Neptunnal
+               vesződött, így is fölállíttatta, amúgy is, s midőn teljességgel nem akart jőni
+               orrán-száján a kis patak vize, fenyegette a kertészt, aki nem volt már szolgálatában,
+               hogy megtanítja becsületre. Aztán sétált egyet, s eltévedt a gyom-felverte
+               ösvényeken, s csak nagy bajjal ért el malmához, gazdasága egyik fő
+               jövedelemforrásához; nézte a malomkerekek forgását, hallgatta a víz moraját, s
+               nagy-fáradtan tért haza ebédelni, szentül hivén, hogy egyet‑mást valahára rendbe
+               hozott.</p>
+            <p>Ebéd alatt rendesen elkomorult, egyes-egyedül ülvén a nagy, kongó ebédlőben és sokáig
+               várakozva az ételekre. Ritkán ízlett valami; az új gazdasszony nem tudta jól
+               készíteni kedvenc ételeit, amiért sokat zsémbelt Istvánra, István meg a
+               gazdasszonyra. De valóságos étvágya alig volt ezeriben egyszer. Néha csak megkóstolta
+               az ételeket, aztán merőn nézett a levegőbe. Látni vélte családját, vendégeit, akik
+               hajdan körülülték e hosszú asztalt. Az asztalfőn neje foglalt helyet, itt egyik jó
+               barátja, túl a tiszteletes, aki mindennapos volt a háznál, jobbról fia, akit, isten
+               tudja, mikor lát, balról lánya, aki Bécsben van s így tovább. Oly élénken látta
+               mindeniket, mintha valósággal ott ülnének, hallani képzelte őket, amint susognak,
+               nevetnek, tréfálkoznak. A látomás eltűnt, megjelent, újra eltűnt, és nem látott
+               senkit, csak az asztal végén ülő jurátusát, aztán azt sem látta, de mintha hirtelen
+               benépesülne a terem, több volna a vendég, poharak csendülnének, felköszöntések
+               hangzanának, és zene riadozna, mint annyiszor neve napján. Valóban nem álmodott, kinn
+               a tornácon cigányok húzták, a régi jó szokás szerint neve napját akarva megtisztelni.
+               Ő nem is tudta, hogy ma neve napja van, bámész arccal hallgatta a jól ismert nótákat,
+               de csakhamar e kiáltással szakította félbe:</p>
+            <p>- Elég már, elég! - és szíve eltelt keserűséggel.</p>
+            <p>Délutánjait nagyrészt a tornácon töltötte. Unta magát, és sokáig elnézett mindent,
+               udvarháza árnyát a folyóvíz tükrében, az eszterhaj fecskefészkeit, egy-egy légben
+               úszó karvalyt, a vándorfelhőket, a naplementét s a szürkületben nyugtalanul repdeső
+               denevéreket. Amint sötétült, s megkondult az esteli harangszó, mind elhagyottabbnak
+               érezte magát; némi gyűlölséggel nézett le a falura, ahol világosodtak az ablakok,
+               összecsoportosult a család, vígan fogott vacsorához, hamar kioltotta a gyertyát, és
+               édes álomra merült. Ritkán vacsorált, sokáig kinn ült, mert kerülte az álom, de ha
+               elálmosodott is nem könnyen aludt el, nem engedték kísérteties látomásai, s
+               fel-felköltötte a zaj.</p>
+            <p>A puszta vagy romlásnak indult épületekben mindig hallhatni bizonyos rejtélyes
+               hangot, amely félelmet, baljóslatot kelt a lélekben, nem hagyja aludni a nyugodni
+               vágyót, s megbabonázza az álmokat. Szüntelen fú bennök a szél, nem tudni, honnan.
+               Eleinte alig hallható zokogással kezdi, aztán nagyot sóhajt, mintha azt mondaná:
+               “Jaj!” - s valami lehull, vakolat vagy tégladarab; majd dörömbölni kezd, s kinyit egy
+               ablakot vagy ajtót, amelynek megrozsdásodott sarka csikordulva ríja: “Fáj, fáj!”
+               Máskor egyhangú “kip-kop” dobogások hallszanak, amelyeket egy-egy mély “huh” üvöltés
+               szaggat meg; hirtelen csend áll be, de nem sokáig tart, halk nyöszörgés reszkedez, a
+               kisgyermek sírásához hasonló, amely lassanként tompa zúgássá erősödik, s heregni kezd
+               az egész épület, mintha vihart érezne, s összeomlani vágynék. Radnóthy órákig
+               elhallgatta e hangokat ébren s félálomban. Úgy rémlett neki, mintha szellemek
+               látogatnák, akik nem nyughatnak a sírban, múltakról suttognak, gyönyörködve tépik fel
+               sebeit, s reá akarják dönteni a házat koporsóul. Hánykódásai közben eszébe jutott
+               minden, ami szívének valaha fájt. Ifjúkori vágyai és szenvedései; a megyei pártharcok
+               és ellenségeinek cselszövényei, rágalmai; a férji és szülői gondok; három gyermekének
+               halála és haldokló neje; honvédhuszár fiának harci küzdelme, új meg új alakban: most
+               egy ágyúgolyó zúzza szét karját, majd egy kozák lándzsája szúrja agyon, s
+               trombitahang és ágyúdörej tölti be a levegőt. Gyakran kiugrott ágyából, s félrehúzta
+               a függönyöket. De minden csendes volt; a hold éppen a templom irányában szállott
+               lefelé, a rejtélyes hangok is elnémultak, s ő nehéz, mély álomba merült, amely jobban
+               kifárasztotta az ébrenlétnél.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>3</head>
+            <p>Az ily éjszakákra virradó reggelek voltak legkomorabb órái. Meg-megszállotta a halál
+               gondolata, s még inkább az, hogy megszakad benne a régi hírneves család. Egyetlenegy
+               fiáról, aki a magyar hadseregben szolgált, a háború bevégezte óta semmit sem hallott;
+               számtalanszor megsiratta mint beteget, mint foglyot, mint elesettet. Egyetlenegy
+               leánya Bécsben volt felesége testvérénél, egy nyugalmazott ezredes özvegyénél, aki
+               még ezelőtt két évvel, látogatása alkalmakor vitte volt el magával, hogy lásson egy
+               kis világot, s gyakorolja magát a német nyelvben. A lányka egész ottmulatását néhány
+               hónapra szabta, de a háborús idők odarekesztették, azóta nem tud felőle semmit. Írt
+               ide, írt oda, hol fia, hol leánya után, most az ezredesnének, majd barátjainak,
+               kétszer küldött el hetenként a postára, mindhiába. István mindig üres kézzel jött
+               vissza, hogy búsítsa urát, és szidalmat nyerjen fáradsága jutalmául, holott egész évi
+               fizetését örömest odaadta volna a postamesternek, ha szánakozik rajta, s abból a nagy
+               halom levélből odadob neki legalább egyet.</p>
+            <p>Ilyenkor aztán egész nap a gyermekekről folyt a beszéd; eldicsérték, elsajnálták a
+               kis Gézát s a kis Erzsit, kik ugyan elég nagyok voltak már, egyik tizenkilenc éves,
+               másik tizenhét, de ők jobb szerették így nevezni. A jó cseléd még akkor szokott volt
+               erre, midőn ölben hordozta őket, az apa pedig gyöngéd pillanataiban mindig így
+               szólott hozzájok, s most folyvást e pillanatok varázsa alatt áll. A kis Gézából más
+               körülmények között könnyen válhatnék alispán vagy éppen főispán; István tábornoknak
+               szánta; hiszen mikor a méltóságos úr beteg volt, ő látta mint hadnagyocskát, s
+               legszebben lovagolt az egész ezredben. A kis Erzsi a Küküllő mentén legszebb leánnyá
+               nőhetett fel - folytatta az apa -, a régi jó időben mily jó szerencsét tehetett
+               volna; István hozzátette, hogy egész Erdélyben nincs olyan leány, akármely gróf
+               szerencséjének tarthatja, ha hozzámegy; dejszen látta ő az utolsó tisztújítás
+               alkalmával, hogy nézett a főispán fia a még csak tizenöt éves lyánykára, pedig az meg
+               tudja ítélni a lyányokat, a legelső gavallér Kolozsvárott.</p>
+            <p>Soha még a világon nem volt két ily derék és okos gyermek, ismételték untalan, és
+               mélyen sóhajtottak reá. Ily beszélgetés alatt aztán szépen összebékéltek; az úr
+               elfeledte, hogy a cseléd ma sem hozott levelet, a cseléd örült ura csendesedésének,
+               és vigasztalni bátorkodott. Sokszor meg is vigasztalta. Paraszt egyszerűségében annyi
+               bensőséggel beszélt, oly mély hittel mondogatta: az Isten nem hagyja el, aki benne
+               bízik, az Isten akkor szokta jóra fordítani az emberek dolgát, mikor nem is vélik,
+               hogy Radnóthy úgy hallgatott reá, mint a papra. Remélni kezdett. Meg-megveregette a
+               hű cseléd vállát, s enyhülve mondá:</p>
+            <p>- Hallgassa meg az Úristen kendet, s adjon nekünk még egy jó napot.</p>
+            <p>Egy ily, legalább jónak látszó nap csakugyan el is érkezett. Egy reggel nagy örömmel
+               rohant be hozzá István, folyvást kiáltva: - Levelet hoztam, két levelet hoztam. -
+               Radnóthy mohón kapta ki kezéből a leveleket, de nem merte mindjárt fölbontani, sokáig
+               nézegette, s a remény és aggodalom fölindulásai közt is feltűnt neki, hogy többé nem
+               címezik alispánnak, s a prédikátumot is kifeledték. Több hónap óta ez az első levél;
+               hajdan mindennap kapott kettőt‑hármat, illően címezve; mindig a papírvágó ollóval
+               vágta fel a pecsétet, s odaírta: vettem die mensis ekkor és ekkor. Most is az olló
+               után nyúlt, haragudott, hogy ezt is elrabolták, s rosszkedvébe ismét visszaesve törte
+               föl a leveleket. Egyik levél az ezredesnétől jött s összevissza, hol magyarul, hol
+               németül volt írva, annyit mégis kivehetett belőle, hogy egy évig rendetlenül vagy
+               éppen nem járt posta Bécsből Erdélybe, az ember hiába írt; sógora újabb leveleit csak
+               a múlt héten vette, szám szerint tízet, eltévedtek a rossz címzés miatt, mert ők nem
+               laktak folyvást Bécsben, hanem hol Grazban, hol Salzburgban; szegény testvére halálát
+               nagyon sajnálja, bizonyosan rosszul ápolták, hibásan gyógyították, hiszen egész
+               Erdélyben alig van valamirevaló orvos, a nyáron lerándul Erzsivel, s ott tölti az
+               őszt október végéig.</p>
+            <p>Erzsi is mellékelt a levélhez egy kis cédulát, amely így hangzott:</p>
+            <p>
+               <hi rend="italic">Kedves papa! Sokat búsultam szegény mama halálán - papát sokszor
+                  emlegetjük -, küldjön nekem egy kis pénzt - a télen sok báliruhát csináltattam -,
+                  aztán tavaszira és nyárira is kell ‑, máskor többet írok - most nem érkezem -,
+                  megyek egy soirée dansante-ba - ott lesz Kahlenberger kapitány is -, igen
+                  mulatságos ember. Csókolja Erzsi. Papa el ne feledkezzék a pénzküldésről.</hi>
+            </p>
+            <p>A másik levél Milánóban kelt, s úgy látszik, fiának egyik barátja írta, akivel együtt
+               sorozták be. Az egész rövid tudósítás oda ment ki, hogy Géza már régóta beteg, még
+               most is kórházban fekszik, ezért nem írhat, de - hála istennek - túl van már a
+               veszedelmen, s több tekintetből jó volna neki egy kis pénzt küldeni.</p>
+            <p>Bármennyire örült, hogy gyermekeiről bizonyost tudhat, mégis e levelek leverően
+               hatottak reá. Egy kis vigasztalást, a szeretetnek egy kis melegét várta, vagy
+               legalább körülményes tudósítást - és száraz jelentést kapott. Többször elolvasta mind
+               a két levelet, meg-megütögette, hogy kirázkódjék a rézpor, de akkor is csak annyit
+               olvashatott ki belőle, mint azelőtt. Jólesett volna szívének elérzékenyülni,
+               kibúsulni magát, s haragunnia kellett. A milánói levélre még elmondogatta: - Szegény
+               jó fiam, édes kis Gézácskám, mennyit szenvedhettél! - de midőn sógorasszonya és
+               leánya levelére jött a sor, kitört belőle a méltatlankodás: - Ez az Erzsi egészen más
+               leány lett. Táncol, vigad, holott az anyja meghalt, bátyja betegen fekszik, atyja
+               koldusbotra jutott. Négy sort írni is alig van ideje, mert bálba kell menni, hogy
+               ihogjon-vihogjon valami Eggerbergerrel. - Még azt sem írja, hogy csókolja kezét
+               engedelmes leánya, csak azt veti oda: “Csókolja Erzsi.” Ugyan ugye? Hogy fölvitte
+               isten a dolgát. Fölfordult minden, megváltozott minden, még a gyermeki szív is.
+               Sógorasszonyom rontotta el szegényt bizonyosan. De miért is engedtem, hogy magával
+               vigye? Hiába... Úgy kell nekem!... Azt kívántam, hogy lásson világot, tanuljon meg
+               jobban németül, művelődjék. Hiába!... A magyar nemesembernek mindig Bécs volt a
+               paradicsoma, a magyar úriasszonynak jobban kell tudni németül, mint magyarul, csak
+               úgy művelt. Úgy kell nekem!... Szegény Erzsit hogy elbolondíthatta nagynénje, az a
+               cicomás teremtés, aki vénségére is nagy bolond vuklikat visel. S mennyi ostobaságot
+               ír össze. Hogy nincs Erdélyben valamire való orvos. Neki semmi nem tetszik, ami nem
+               bécsi, pedig ő, szegény, senkinek sem tetszik Bécsben; sosem volt sem szép, sem
+               eszes, az ezredes is alkalmasint pénzéért vette el. Mennyire elütött boldogult
+               feleségemtől, ha ő élne - istenem, ha élne: - be nem aggódnám ezért a rossz
+               leányért.</p>
+            <p>Mindamellett mindent elkövetett, hogy pénzt szerezzen össze, nemcsak beteg fiának,
+               hanem bálozó leánya számára is. A jövedelem alig födözte a folyó költségeket, a
+               jószág újonnan beruházása pedig csak a kegyes óhajtások közé tartozott. Természetesen
+               vagy kölcsönhöz kellett folyamodni, vagy eladni valamit. A kölcsönt mindjárt
+               hazajövetele után megpróbálta, de nagy kamatra is alig tudott egypár száz forintot
+               összeszerezni, mert a kipusztított, elszegényedett s még folyvást gazdasági és
+               kereskedelmi zavarban szenvedő Erdély Európa legpénztelenebb országa volt. Most nagy
+               bajjal újra összeszerzett egypár száz forintot fia és leánya számára, de ez kezdetnek
+               sem volt elég, emellett a gazdaság folytatása és saját magánszükségei is pénzt
+               igényeltek. Hajdani adósai, akiknek kötelezvényei udvarháza földúlásakor elégtek,
+               részint kivándoroltak vagy elpusztultak, részint nem akarnak adósságaikról tudni,
+               ügyvéde be is pöröltette őket, de az új törvényszékeket még csak most rendezik, a pör
+               hosszasan folyhat, s az eredmény akkor is kétséges. El kellett tehát adni valamit,
+               mit adjon el, csak ez lehetett a kérdés. A számtartó váltig javasolta, hogy az új
+               félfödelű hintóért s a három almásszürke lóért szép pénzt adnának, úgy sincs szükség
+               reájok; a hintó használatlanul romlik a rossz kocsiszínben, a majorság költ benne, a
+               lovak meg ok nélkül eszik a sok drága zabot és szénát.</p>
+            <p>- Hát én mivel utazom aztán, számtartó uram? - csattant föl Radnóthy. - Azt akarja,
+               hogy bivalokat fogassak hintómba? A számtartó uraméból eszi-e az a három ló a zabot
+               és szénát, hogy úgy sajnálja? Ki az oka, hogy a hintó romlik? Tüstént csináltassa meg
+               a kocsiszínt, a kis sánta Mányi kergesse el a majorságot. Ezt még nem is tudtam.
+               Miért nem mondotta előbb? Udvaromban én tudok meg mindent legutoljára. Ez valóságos
+               szekatúra!</p>
+            <p>A számtartó nem merte megjegyezni, hogy a méltóságos úr, mióta hazajött, még egyszer
+               sem fogatott be, sehova sem utazott, ha pedig éppen ki akarna kocsikázni, ott a
+               gazdasági fogat, amelyet nemrég vétetett, azok is csak lovak, s ilyen nyomorúságos
+               időben senkinek sem válnának szégyenére. Ehelyett egy nagy darab határszéli föld
+               eladását indítványozta, amelyre a szomszéd birtokos, mint tisztje mondja, rég
+               áhítozik, és jó pénzt megadna érette.</p>
+            <p>- Ősi birtokomból adjak el valamit - folytatta Radnóthy még hevesebben -, azt a szép
+               darab földet? Soha. A nemesi birtok, számtartó uram, nem városi ház, amelyet
+               adni-venni, cserélni‑berélni lehet. Azt karddal szerezték, az szent dolog, az a
+               családé, nem egy emberé. Úgy adom át fiamnak, amint atyámtól örököltem. Annak a
+               grófnak adjam el, aki mindig ellenségem volt, alispánnak választásomat is ellenezte?
+               Soha. Inkább éhen halok meg. Bezzeg szeretné az én szép földemmel kikerekíteni az ő
+               dibdáb földjeit - semmi sem lesz belőle ‑, számtartó uram pedig ne cimboráljon az én
+               ellenségem embereivel.</p>
+            <p>A számtartó most is hallgatott, nem merte megjegyezni, hogy az a szép darab föld az
+               idén is vetetlen maradt, mert az elcsapott tiszttartó nem bírta megmíveltetni, sőt
+               még azt is elmulasztá, hogy felébe adja ki; új indítvánnyal állott elő, tanácsolta,
+               hogy állíttassa helyre pálinkafőzőjét, s árultassa saját pálinkáját a falu kocsmáján,
+               mert bizony most a mástól vett pálinka árultatása keveset jövedelmez.</p>
+            <p>- Mit, én pálinkát főzessek, a fináncokkal vesződjem, törvénytelen adót szaporítsak?
+               Számtartó uram, ilyeneket ne merjen nekem beszélni. A pipát is azért hagyom el, hogy
+               ne szaglálódjanak utánam a fináncok. Én pálinkát főzessek? Hogy jut eszébe ilyesmi?
+               Teremtette, nem tanácsolná azt is, hogy álljak be Bezirkernek, mert akkor több
+               jövedelmem lesz.</p>
+            <p>A számtartó nem mert egy darabig szólni. Radnóthy hevesen járt fel s alá, s folyvást
+               a törvénytelen adó ellen dühöngött. Később, midőn csendesülni kezdett, a számtartó
+               újra bátorságot vett; s az erdő eladását hozta szóba.</p>
+            <p>- Azt a szép erdőt! - kiáltá újra Radnóthy - az valóságos prédálás lenne. Nem tudja,
+               számtartó uram, hogy ezelőtt egy hónappal is el akartunk adni belőle egy darabot,
+               vagy ötven szekér fát, s mily keveset ígért a vásárhelyi pálinkafőző? Most sem ad
+               többet. A jó gazdának mindent a maga idejében kell eladni, amikor ára van, s nem
+               elprédálni, csak hogy pénzt lásson. Mindig úgy tettem és sosem bántam meg.</p>
+            <p>Valóban igazat mondott; hajdan jó gazda volt, s talán még most is az, ha nem éri
+               annyi politikai és családi csapás, és jószága régi állapotjában van, de ez az örökös
+               összetévesztése a múltnak és jelennek, hol büszkeségből, hol bánatból, hol
+               bosszúságból, ez az örökös tervezés, tétlen álmodozás zavarba hozták minden dolgát,
+               és szakadatlan keserítették. Most is alig egyezett belé az erdő eladásába, már
+               megbánta, más tervet gondolt ki, s midőn mégis el kellett adnia, vigasztalhatatlan
+               lőn. Azt hitte, hogy az egész megye csak róla beszél, hogyan pazarolja erdejét, mily
+               rossz gazda, mily koldus méltóságos úr, mily ütött-kopott alispán, aki meggyalázza
+               egész múltját.</p>
+            <p>E pillanat óta fejébe vette, hogy el kell szegényednie, lassan-lassan kénytelen lesz
+               eladni birtoka nagy részét, s az ősi jószág nem szállhat épen fiára. E gond egészen
+               elnyomta azt az örömet, amelyet gyermekei feltalálása keltett szívében. Eddig
+               gyermekeiért búsult, most meg mindig azon tépelődött, hogy miből fogja őket
+               rangjokhoz méltóan eltartani. Mennyi költsége lesz ezután: leánya már eladó, fia
+               egész ember, sógorasszonya meglátogatja e nyáron, akit illően kell fogadni; minderre
+               pénz kell, s a mindennapi költségeket is alig képes fedezni. Kettőzött hévvel fogott
+               gazdasága rendezéséhez, és kettős hévvel rontotta el mindazt, amit a jó számtartó
+               valahogy rendbehozott. Kivált elfoglalt földjeinek visszaszerzése vált rögeszméjévé.
+               Ha ezek most kezén vannak, ha curialistái teljesítik tartozásukat, talán erdejét sem
+               kénytelen eladni, sóhajtott gyakran, az a gondolat pedig, hogy ősi birtokát idegen
+               bitorolja, egészen föllázította.</p>
+            <p>- Miért menjek panaszra, miért pöröljek? - mondogatta számtartójának - még azt fogják
+               gondolni, hogy nincs igazam. Ami az enyém, visszafoglalom; kiverem belőle azokat a
+               gazembereket, panaszoljanak, pöröljenek, ők extra dominium, nekik nincs igazok.
+               Ügyvédem mind csak halogatja a dolgot, még pört sem mert kezdeni, azt mondja,
+               várjunk, amíg enyhül egy kicsit ez a fölfordult világ. Mire várni annyit, azzal csak
+               az ő malmukra hajtjuk a vizet, kurtán kell őket fogni, hogy féljenek, rájok kell
+               ijeszteni, letörni szarvukat, fenntartani az auktoritást. Számtaró uram ahhoz nem
+               ért, azért packáznak velünk. Megmutatom én nekik, hogy most is az vagyok, aki voltam.
+               Induljunk tüstént, admoneálja curialistáimat, a maga módja szerint, egész
+               ünnepélyességgel, hogy három nap alatt vagy kitakarodjanak birtokomból, vagy fizessék
+               meg az eddigi tartozást, és szerződjenek újra: különben erőszakkal vettetem ki őket
+               az utcára, amilyen igaz, hogy Radnóthy Eleknek hívnak, s maig is törvényes alispánja
+               vagyok a vármegyének.</p>
+            <p>Ki az erdélyi viszonyokat nem ismeri, alig értheti Radnóthy földfoglalási ügy-baját.
+               Az erdélyi nemeseknek rendes jobbágyaikon kívül még számos olyan számottevő emberök
+               volt, kik némiképp hasonlítottak ugyan a jobbágyokhoz, de tulajdonképp nem voltak
+               azok. A dolgozó kéz száma tevén a legtöbb a jószág becsét, majd minden gazdagabb
+               nemes betelepítette nélkülözhetőbb curiális földjeit. E lakosok között különböző
+               fokozat volt, s a vidék s viszonyok szerint hol curialistáknak, hol hurubásoknak
+               neveztettek. Csak fejöktől fizettek adót, de nem egyszersmind telköktől, amely nemesi
+               volt. Napszámban dolgoztak a földesúrnak, vagy rendes cselédi szolgálatot tettek,
+               vagy éppen haszonbért fizettek. Midőn a jobbágyok fölszabadultak, a curialisták
+               viszonya a földesúrhoz természetesen a régi maradt. A legtöbb curialistának nem
+               férvén fejébe, hogy miért nem szabadult föl ő is, holott sorsa hasonló volt a
+               jobbágyokéhoz, kezdte megtagadni eddigi tartozását, a forradalom folyama alatt pedig
+               éppen oly sajátjának tartott minden kezén lévőt, mint a jobbágy, sőt még foglalt is
+               hozzá valamit. Kivált az oláh curialisták voltak erőszakosak, s foglalásaikhoz még
+               akkor is ragaszkodtak, midőn más nemű kihágásokkal már föl kelle hagyniok. Ez állapot
+               1850-ben még teljes virágzásban állott; Bach kormánya éppen nem sietett a bajt
+               orvosolni; az új tisztviselők, akik ellenszenvvel viseltettek a magyar nemesség
+               iránt, inkább a curialisták érdekeit pártolták, s a közigazgatási eljárástól a
+               törvényszékire utasították a földesurakat. Csak később kezdett rendes kerékvágásba
+               zökkenni e kérdés, de még ezután is nem egy pörre adott alkalmat, s folyvást táplálta
+               a magyar és oláh elem közti súrlódást.</p>
+            <p>Radnóthynak számos ily curialistája volt, különösen az oláhok közt, akik a falu
+               lakosságának felét tették. Közéjök tartozott hajdani kertésze is, akinek alig négy
+               éve, hogy új házat építtetett, s eddigi illetékét egy jó darab kukoricafölddel toldá
+               meg. Erre haragudott leginkább, nemcsak azért, mert legtöbbet bitorolt, hanem azért
+               is, hogy a régi gazdasszonyt elcsábította a háztól, és nőül vette. Emellett gyanúja
+               volt reá, hogy udvarháza kipusztításakor egy kézre játszott a dúló népcsoporttal, s a
+               gazdasszonnyal együtt sokat eltakarított föllelhetőiből. E leghálátlanabb és
+               leghatalmasb ember megbüntetésével akart példát adni a többieknek, azért a három nap
+               eltelte után először is ehhez küldé Istvánt, hogy nézze meg, vajon kiköltözött-e már
+               lakából.</p>
+            <p>István nagy kedvvel teljesíté e parancsolatot, ő is haragudott a kertészre, mert
+               elszerette előle a gazdasszonyt, akire hajdan ő is kacsingatott volt, kiszemelve
+               végnapjai gyámolául, s midőn visszatért, egész kárörömmel jelenté urának, hogy -
+               engedelemmel legyen mondva - a kertész azt kérdezte tőle: megbolondult-e Radnóthy
+               Elek uram, hogy ily ostobaságot izen neki; a ház, a föld az övé, adót is ő fizet
+               tőle, az az ő udvarháza, most már ő is úr, nincs különbség köztük, száz kicsapott
+               alispán is jöhet reá, mind kiveri őket.</p>
+            <p>- Majd meglássuk, holnap olyan példát teszek rajta, hogy az egész falu elhűl belé -
+               mondá Radnóthy, akit ez esemény egészen fölpezsdített -, kend meg ne szóljon
+               senkinek, megtudhatnák a falusiak, besúghatnák a kertésznek; hajnalban minden cseléd
+               itt a tornácon legyen, adjon nekik bőven pálinkát, a számtartó is itt legyen, kend
+               aludjék egész délután, s ne feküdjék le az éjjel, hogy engem minél korábban
+               fölkelthessen.</p>
+            <p>Hajnalban az udvarház tornáca egész hadiszállássá változott. Radnóthy fölfegyverezte
+               cselédeit, kard és puska hiányában, kit amivel lehetett. István rézfokost
+               villogtatott, a béresek vasvillával hadonásztak, a bivalos petrencés rudat emelt, a
+               kocsis ásót élesített, a darabont egy kaszát egyenesített ki. Maga Radnóthy kardot
+               kötött, egy nemrég a padláson megtalált régi kardot, amellyel hajdan a
+               megyegyűlésekre járt. Mint a jó hadvezér, bátorítgatta csapatját, töltötte nekik a
+               pálinkáspoharakat, és pirongatta a számtartót, aki folyvást le akarta beszélni az
+               erőszakos lépésről. Egész elemében volt, megyei brachium vezetőjének képzelte magát,
+               mely minőségben - mert Erdélyben az alispánok vezették a brachiumot - hajdan
+               annyiszor hajtá végre a törvényt.</p>
+            <p>E kellemes izgatottság mozgékonnyá s még tréfássá is tette: szóval hazajötte óta ez
+               volt első vidám napja; mintha vesztét érezte volna, oly jólesett neki e bizarr
+               szeszély, s általa mintegy enyhülni látszott.</p>
+            <p>Hosszas készülődés és tervelgetés után végre kiindultak. Elől ment a komondor, mint
+               valami előőrs, utána István, aki hadnagyként vezette a többit, hátul ballagtak a
+               vezérek: Radnóthy és a számtartó, ez utóbbi nagy kénytelenséggel emelvén egy
+               dorongot. A konyhaépületnél tartalékcsapatul hozzájuk csatlakozott a gazdasszony és a
+               kis sánta Mányi, akik nem voltak ugyan fölfegyverkezve, de annál többet fecsegtek,
+               sápítoztak. Minél közelebb érkezett a csapat az ostromlandó házhoz, annál inkább
+               csillapult vérszomja. A bivalos arra emlékezett, hogy a kertésznek puskája van; a
+               béres pisztolyairól is tudott valamit, ami a darabontot nagy félelembe ejté. Maga
+               István is gondolkozóba esett, különösen arról gondolkozott, hogy mily jó lenne, ha a
+               kertésznek nem volna puskája, de még pisztolya sem. Azonban késő volt minden habozás.
+               A komondor megkezdte már a támadást, összetűzvén a kertész kutyájával, mire aztán
+               István jelt adott a rohamra, szívére kötvén a csapatnak, hogy a puskától ne féljenek,
+               azzal csak egyszer lehet lőni, s ha akkor az ember a földre dobban, kutya baja sem
+               lesz, s egy ugrással semmivé teheti az ellenséget.</p>
+            <p>Csakugyan az történt meg, amitől féltek. Az álmából fölvert kertész puskával állott
+               ki a küszöbre, csúnyán fenyegetőzött, hogy aki közel jő, lelövi, mint a kutyát, s
+               célozgatni kezdett. Legelőször a darabont ijedt meg, s követvén István utasítását,
+               ledobbant a földre, miáltal a jobb- és balszárny egyaránt zavarba jött, mert a
+               többiek s maga István is megfeledkezvén a hadicselről, futásnak eredtek, s mind
+               keresztülbuktak rajta. Csak a vezérek állottak még az egész csapatból, de ezek
+               támadás helyett egymással küzdöttek; ugyanis Radnóthy kihúzván kardját, egymaga akart
+               rárohanni a kertészre, amit a számtartó jónak látott meg nem engedni, s félre
+               húzta-vonta urát. Szóval, az egész hadjárat dugába dűl, ha a véletlen nem segít.</p>
+            <p>- Az istenért mit csinálsz, itt emberhalál lesz, tedd le azt a puskát! - sikoltá a
+               kertész felesége, s elkezdett sírni.</p>
+            <p>- Menj be innét, ez nem asszonynak való dolog - csitítá, és tolta be feleségét a
+               kertész.</p>
+            <p>- Egy tapodtat sem megyek, inkább engem lőj meg; add ide a puskát. Gyilkos akarsz
+               lenni? Gyilkos... Gyilkos... gyilkos! - rikoltotta az asszony, megragadva a puskát,
+               hogy férje kezéből kitekerje.</p>
+            <p>- Ejnye, teringette, ereszd el azt a puskát, hiszen nincs megtöltve, nem is az enyém,
+               a jegyzőé, a minap hagyta itt, hogy vigyem be a városba igazítás végett - nyugtatá
+               feleségét a jó férj.</p>
+            <p>E nyilatkozatra kezdé magát összeszedni a csapat. Először István vőn újra bátorságot,
+               szörnyen szégyellvén megfutamodását. A többi követte, s a kertészt, aki még mindig
+               feleségével küzdött, csakhamar körülvették. Ekkor minden ponton megkezdődött a
+               támadás, s valóságos hadilárma keletkezett. István elöl birkózott a kertésszel, a
+               béres hátul ütötte ugyancsak a kertészt. A kertészné sírva, nyelvelve, átkozódva
+               seprűzte a kocsist. A bivalos rettenetesen forgatta a petrencés rudat, nem ütött
+               ugyan senkit, de hangjával majdnem egy ostromágyút helyettesített. A gazdasszony
+               szidalmazta a kertésznét, a hajdani gazdasszonyt, a kis Mányi mind azt visította: -
+               Jaj, csak a méltóságos urat meg ne ütnék! - A szomszédból odagyűlt kutyák versenyt
+               ugattak az udvari komondorral s a kertész kutyájával; a számtartó pedig, aki tétlenül
+               állott, s csak Radnóthyt igyekezett védelmezni, koronként föl-föl sóhajtott:</p>
+            <p>- Uramisten, mi lesz ebből?</p>
+            <p>- Az lesz, számtartó uram - felelt Radnóthy kardjával suhintva -, hogy
+               visszafoglaljuk telkünket, s elrettentő példát adunk a többieknek. No csak szaporán,
+               munkára! Vessétek ki a gazembert feleségestül, bútorostul, gyermekestül - folytatá a
+               küzdőkhöz fordulva -, az utcára vessétek ki, a világ csúfjára. Aki legelőször kiveti,
+               az lesz helyette curialistám.</p>
+            <p>- Dejszen megkeserüli ezt méltóságod - dühöngött a földre nyomott s eldöngetett
+               kertész hirtelen fölugorva, s Radnóthy elé állva -, olyan pörbe keverem, hogy
+               odafizeti mindenét utolsó fillérig, s a tömlőcben rothad.</p>
+            <p>- Mit? Még az orrom alatt mersz hadonászni, te rabló, te tolvaj! - kiáltá Radnóthy
+               hirtelen haragra gyúlva, s hozzávágott kardjával.</p>
+            <p>- Jaj, gyilkos, kiontotta véremet, megbénított, s szerencsétlenné tett egész
+               életemre. Segítség, segítség! - ordítá a kertész, ahogy száján kifért, örülve a
+               karjára kapott nem mély, de jókora sebnek. Rohant a faluba, fellármázni az embereket,
+               panaszra szaladni a jegyzőhöz, aki tüstént kocsira ültette, s azon véresen küldé a
+               kerületi biztoshoz, maga pedig sietett lecsendesíteni a falusiakat, akik már
+               vasvillára kaptak, az oláhok a kertész s némelyek a magyarok közül Radnóthy
+               segítségére sietve.</p>
+            <p>- Megmondtam, hogy ez lesz belőle - mondá a számtartó, dorongjával döfölve a
+               kerítést. ‑ Nem hitt nekem a méltóságos úr, s íme mekkora baj gyűl fejünkre.</p>
+            <p>- Mit mondott meg, számtartó uram? Nem mondott meg semmit, ostobát mondott mindig. Mi
+               lesz belőle? Hát abból mi lett, midőn ezelőtt húsz évvel elszántott földemet
+               fölfegyverzett jobbágyaimmal szereztem vissza, csúfosan elvervén szomszédom embereit?
+               Pedig az sokkal csekélyebb dolog volt. Tudom én a törvényt, azért tettem cenzúrát
+               Marosvásárhelyt a királyi táblán, azért szolgáltam sokáig a vármegyét. A nemesember
+               kúriáját vérig oltalmazhatja, azért van kardja, még a megyei brachiumot is
+               visszaverheti, ha tetszik. Hát cselédjét ne verhetné ki saját földjéről?</p>
+            <p>- Rég volt az, méltóságos uram! - jegyzé meg félénken a számtartó.</p>
+            <p>- Rég volt, rég volt! De csak annyira föl nem fordult a világ, hogy kúriámat is
+               elvitassák tőlem. Elvették jobbágyaimat, ám legyen, adót fizetek, isten neki, de
+               szeretném én látni azt a prókátort, aki kúriámat elpörli. Majd megmutatom én, mi az
+               igazság, egy törvénytudó emberrel nem lehet oly könnyen elbánni.</p>
+            <p>Ezalatt a kertész kiköltöztetése derekasan folyt. A kertészné kezét tördelve átkozta
+               magát; ő az oka mindennek, ha férjét lőni engedi, szegényt nem aprítják össze, ő nem
+               özvegy, gyereke nem árva, s kétségbeesve borult Istvánra, aki hajdani gyöngédségének
+               némi maradványával vezette ki gyermekével együtt. A többiek a bútorok kihányásával
+               foglalatoskodtak. A kis Mányi megismert egyet-mást, ami az udvarházból raboltatott
+               el, s a gazdasszony segítségével diadalmasan gyűjtötte egy rakásba. Néhány pillanat
+               alatt a kertésznek mindene az utcán hevert, a falusiak bámulatára, akik vasvillásan
+               lepték el a tért, de a jegyző intésére minden erőszakosságtól tartózkodtak. Egyik
+               előrenyújtotta nyakát, és tátott szájjal hallgatózott; a másik megjegyzé, hogy
+               őméltóságát estig hűvösre téteti a kerületi biztos; a harmadiknak tetszett, hogy
+               emberére talált a dölyfös kertész; a negyedik esküvel erősíté, hogy egymaga össze
+               tudná verni az összes udvari cselédségét. Az asszonyok a kertésznét vigasztalták,
+               elbeszéltették vele az egész véres históriát, s összecsapták kezöket. Egyik házát
+               ajánlotta menedékül, a másik a bútorokat akarta behordani, a harmadik fennen
+               nyelvelt, hogy maradjon minden úgy, amint van, amíg eljő a kerületi biztos, és
+               igazságot tesz. Szóval, mozgásban volt az egész falu: minden sövénynél ugatott egypár
+               kutya, s minden házajtóban sírt legalább két‑három gyermek.</p>
+            <p>Radnóthy keveset hallott e megjegyzésekből, tetszett neki, hogy a lakosság mintegy
+               elismeri felsőségét, és csendesen viseli magát. Beszédet tartott nekik, megmagyarázta
+               a tulajdon szentségét, a curiális földek természetét, kijelentve egyszersmind, hogy
+               mindenik curialistájával így fog bánni, s miután egyik béresét ünnepélyesen beikatta
+               a visszafoglalt telekbe, diadalmasan tért vissza udvarházába reggelizni.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>4</head>
+            <p>Néhány óra múlva számos csendőr érkezett a faluba. A jegyző parancsot kapott, hogy a
+               házából kiűzött kertészt rögtön helyezze vissza, s oltalmazza eddigi jogaiban, míg a
+               közte és hajdani földesura közt fennforgó viszályt az illető hatóság eldönti; továbbá
+               utasítsa, segélje a csendőrtisztet az erőszakoskodók, közcsendháborítók elfogásában s
+               a rejtett fegyverek kutatásában. A csendőrök nemsokára körülvették az udvarházat,
+               letartóztatták a cselédeket, s kutatni kezdték a szobákat.</p>
+            <p>Radnóthy iszonyú dühbe jött, midőn a berohanó Istvántól megtudta, hogy mi
+               történik.</p>
+            <p>Bár az új kormányrendszer súlyát eddig is érezte, de az első közvetlen érintkezés
+               képviselőivel ujjászült, fölfokozott benne minden fájdalmat és gyűlöletet. Magánkívül
+               járt föl s alá szobájában, kardját kereste, hogy megölje, aki először belép, azonban
+               István elkapta előle a kardot, s abban a pillanatban már ellepték a csendőrök a
+               szobát. Radnóthy némán és mozdulatlan állott, mintha kővé vált volna. Nem hitt
+               szemének, oly lehetetlennek tartotta, ami történik, hogy dühe bámulatba veszett.
+               Némiképp magához térvén, megvetéssel vegyes büszkeséggel szemlélte, hogy veszik ki
+               István kezéből ősi kardját, hányják föl ágyát, szekrényeit, s adják tudtára, hogy
+               fogoly, és készüljön.</p>
+            <p>- Értem, hallom és protestálok minden erőszakoskodás ellen! - kiáltá Radnóthy,
+               fölemelve kezét, mintha egy vármegyei egzekúció előtt állana - protestálok a
+               törvénytelen ítélet ellen. Hallottátok, távozzatok kúriámból.</p>
+            <p>A csendőrtiszt egy szót sem értett magyarul, s csak nézett és bámult.</p>
+            <p>- Mégsem távoznak? - folytatá Radnóthy még nagyobb hévvel, a csendőrtiszt habozását
+               beszéde hatásának vélve. - Nem tudják, hogy a nemesember kúriája szent, oda beeshetik
+               az eső, szabadon járhat a szél, beleüthet a villám, de ember fia nem mehet soha, még
+               a király sem, csak mint vendég, akit mindig szívesen látok, megvendégelek, s ha kell,
+               védelmében kiontom érte véremet. Tudják meg, ha nem tudják, távozzanak.</p>
+            <p>A bámuló csendőrtiszt magyarázatot kért a jegyzőtől, aki csak mosolygott az egész
+               jeleneten, aztán megmagyarázta, hogy a méltóságos alispán úr két év óta aluszik, még
+               most sem ébredt föl, s álmában beszél.</p>
+            <p>- Még egyszer mondom, távozzanak - ismételte Radnóthy mind hevesebben -, nemesembert
+               nem szabad elfogni, csak ha tetten kapatott, ezt mondják törvényeink, s a törvényeket
+               semmi világi hatalom el nem törülheti. Nem követtem el bűnt, csak vagyonomat védtem,
+               amelyet a kormány nem akart vagy nem tudott megvédeni, majd kiviláglik a maga
+               törvényes helyén; idézzenek a maga módja szerint rendes törvényszékre, meg fogok
+               jelenni, ismer az egész vármegye, nem szököm el, van annyi vagyonom, hogy száz
+               esztendeig is elpörölhetnek velem. Még egyszer ünnepélyesen protestálok az egész
+               eljárás ellen, adják tudtára az illetőnek. Értették, távozzanak.</p>
+            <p>A számtartó mindent elkövetett, hogy urát lecsöndesítse, de ez senkit sem engedett
+               szóhoz jutni. Végre is az csöndesítette le, hogy kibeszélte magát, s csak akkor
+               engedett, midőn formából a csendőrtiszt rátevén kezét, elmondhatta tiltakozását e
+               tettleges erőszak ellen is, felelőssé tehette érte, s fölhívhatta a jelenlevőket,
+               hogy udvarháza és személye megsértése mellett a maga idejében tanúskodjanak. Ezután
+               nem szólott semmit, némán ült fel a kocsiba, úri méltósággal mutatta ki a
+               csendőrtisztnek maga mellett az ülést, mintha ez az ő kegyéből foglalna helyet; de
+               midőn látta, hogy kárörvendő curialistái ujjal mutatnak kocsijára, a kertészné szeme
+               előtt költözik vissza a kertészi lakba, a kis sánta Mányi jajgatva s el-elbukva fut
+               kocsija után a falu végéig, s háza, a pusztulásában is drága udvarház, mindinkább
+               eltűnik szeme elől, elkezdett köhögni, talán mert valósággal náthája volt, talán mert
+               leplezni s elnyomni akarta fájdalmas felindulását.</p>
+            <p>Ez esemény sokáig foglalkoztatta az otthon maradtakat. A számtartó tízszer is
+               elmondotta napjában a gazdasszonynak: előre megmondottam, hogy ez lesz belőle, most
+               már fogadjon az ember új cselédeket, ha van miből, dolgoztasson, ha van kivel, ő
+               bizony nem lesz oka, ha az egész gazdaság még jobban pusztulásnak indul. A
+               gazdasszony csipőjére tette kezét és kérdezte, hogy ő kinek főzzön, bárcsak a kocsist
+               ne fogták volna el, azt az áldott embert, és sírva forgatott ujján egy réz
+               karikagyűrűt, amelyet a kocsis vett volt neki a múlt vásárkor. A kis Mányi ilyenkor
+               mindig elkezdett pisszegni, s egypárszor azzal az indítvánnyal állott elő, hogy biz ő
+               lúdjai közül behajt kettőt a városba, ott megsütteti a méltóságos úr számára, akinek
+               a tömlöcben nagyon, de nagyon rossz kosztja lehet. A gazdasszony majd kővé vált
+               csodájában - legalább ő azt mondotta -, hogy ez a kis béka mindenbe beleszól.</p>
+            <p>- Mit tudsz te ahhoz - pirongatta szegényt -, azt hiszed, hogy a méltóságos urat
+               lyukba teszik, mint Marci cigányt, száraz kenyeret és vizet adnak neki; úgy él ő ott
+               is, mint itt; te ostoba, takarodjál innét, őrizd a ludakat, ez a te dolgod.</p>
+            <p>A faluban szintén sokat beszéltek az eseményről. A megkezdődött vallatás végett
+               számosan idéztettek a városba. Mindenik nagyon fontos képpel jött vissza, s rendesen
+               a faluházánál állott meg, ahol őket a falu szájai még egyszer s a kerületi biztosnál
+               és csendőrtisztnél is jobban kivallatták. Egyik azt mondta, hogy a kertész derekasan
+               viseli magát, nem úgy, mint a méltóságos úr, aki sokat veszekedik a biztossal és a
+               csendőrtiszttel, alighanem örökös tömlöcre ítélik. A másik mint szemtanú beszélte,
+               hogy a méltóságos úr megbetegedett, ő látta, mikor orvost vittek hozzá, talán eddig
+               meg is halt. A harmadik szomorúan adta elő, hogy a curiális földek dolga nem egészen
+               tiszta dolog, egy darabig függőben marad, se a kerületi biztos, se a csendőrtiszt nem
+               meri eldönteni, a császárhoz terjesztik föl, de bárhogy dűljön el a dolog - tette
+               hozzá kiderülve -, a méltóságos úrnak mégis baja lesz, mert nem volt
+               fegyverengedélye, kardot rejtegetett, erőszakot követett el; megháborította a falu
+               békéjét. A negyedik mind arról mesélt, hogy mennyit vallatják ott az embert, mennyit
+               írnak, már összeírtak egy szekér papírt, bizony Radnóthy uram oda fizeti jószága nagy
+               részét. Az ötödik, azzal a nagy újsággal lepte meg a falut, hogy Radnóthy kiszabadul,
+               nemsokára hazajő, hiába nincs többé vármegye, az úr mégiscsak úr marad, s a szegény
+               embernek soha sincs igazsága. E hír nemigen talált hitelre. Mindnyájan kétkedve
+               csóválták fejöket, a jegyző pedig azt mondta, hogy mindent de mindent elhiszen a
+               világon, csak ezt nem.</p>
+            <p>Pedig e hír csakugyan igaz volt, Radnóthy kéthavi vallatás és fogság után kezességre
+               szabadon bocsáttatott, s cselédjeivel együtt hazatért. Azonban pöre még nem végződött
+               be. Tulajdonképp nem is pöre, hanem pörei voltak. A curiális földek kérdése
+               elválasztatott a többiektől, s az úrbéli törvényszékhez utasíttatott. A
+               csendháborítás, erőszak s a kertészen elkövetett véres bántalom mint külön bűnvádi
+               pör indult folyamatba, de még nem volt bizonyos, vajon a polgári vagy katonai hatóság
+               fog-e ítélni benne, mert ostromállapot lévén, kétes volt hovatartozása, s éppen azért
+               az illőség eldöntése végett följelentetett a tartományi kormánynak. A rejtett fegyver
+               ügyét a csendőrség nyomozta, de megakadt benne, mert nem tudta tisztába hozni: vajon
+               a kardot csakugyan Radnóthy rejtegette, vagy a kis sánta Mányi dugta volt el a dúlás
+               idejében, s minthogy gyanakodott, hogy Radnóthy egy Kolozsvárott rejtve tartott
+               kardját hozta falura, s így bűnösebb, Kolozsvárott is nyomozást rendelt meg.
+               Idejárult még egy negyedik pör is. Az elcsapott tiszttartó, hallván, hogy Radnóthy
+               elfogatott, alkalmasnak látta az időt saját sérelmével is előállani; számadása alól
+               felmentést és kárpótlást követelt, s egyszersmind elégtételt a méltatlan bánásmódért.
+               Szóval Radnóthy nyakig úszott a pörben, s helyzetét nagyon megnehezíté a vallatás
+               alatti magaviselete. Tiltakozott minden ellen, s nem ismerte el a hatóságok
+               törvényességét, ami aztán mint újabb bűn jegyzőkönyvbe vétetett. Szerencsére leverte
+               a betegség, így bűneit nem tetézhette újabbakkal, s alkalmas ürügyet szolgáltatott
+               arra nézve, hogy kezességre kibocsátását több nyomatékkal sürgethessék. Ügyvéde
+               mindent elkövetett kiszabadítására, de mindhiába; Radnóthy jó emberei, régi ismerősei
+               közül senki sem tudott segíteni. Elvégre is sógornője, az ezredesné segített rajta,
+               ki az ügyvéd fölhívására levélben egy Erdélyben állomásozó tábornokhoz, férje régi
+               barátjához folyamodott, s fölkérte Kahlenberger kapitányt, Erzsi udvarlóját, hogy
+               szintén írjon nagybátyjának, az erdélyi új kormányszék egyik legbefolyásosabb
+               tanácsosának. A pártfogás s a betegség nagy bajjal megnyitották a lábadozó Radnóthy
+               börtönét. Ő egészen egyébnek tulajdonította e kedvező fordulatot. Azt hitte, hogy
+               mind a polgári, mind a katonai hatóság megszeppent, s most az enyhébb, udvariasb
+               eljárással akarják őt kiengesztelni s elsimítani az egész ügyet.</p>
+            <p>- Nem lesz belőle semmi - mondá ügyvédjének -, majd megmutatom én, kivel van bajok,
+               majd megtanítom én ezeket a pápaszemes Bezirkereket, hogy mi a curialista, mi a
+               tulajdon szentsége. Látszik rajtok, hogy sohasem volt birtokuk. Ami az enyém, nem
+               másé, és ezt semmiféle ostromállapot meg nem változtathatja. A rablót szabad
+               megölnünk, a tolvajtól szabad elvennünk, amit tőlünk ellopott. S tettem-e egyebet
+               kertészemmel? Erőszak, csendháborítás-e ez? Ők az erőszakosak, ők a csendháborítók,
+               akik fölforgatták a vármegyét, a királyi táblát, a guberniumot - mindent. S abból a
+               kardból is mily nagy dolgot csinálnak. Képzelhetni-e kard nélküli nemesembert, s ha a
+               király magához hívatna ad audiendum verbum regium, így kard nélkül lépjek-e
+               szobájába? S még tiszttartómat is pártfogás alá veszik. Dejszen majd megmutatom én
+               nekik, kivel van bajok. Majd otthon mindent úgy megírok, hogy tudom, nem teszik
+               ablakukba. Ha ez nem segít, írok Szebenbe a kormányzóhoz, Bécsbe a miniszterhez,
+               fölmegyek a királyhoz, egész az udvarig viszem a pört, ha mindenemet ráköltöm is. Úgy
+               bánni velem, mint egy paraszttal, mint egy jöttment emberrel, mint egy országos
+               imposztorral. Égbekiáltó igazságtalanság, hallatlan gyalázat!</p>
+            <p>Az ügyvéd hijába magyarázta neki a változott viszonyokat, hijába kérte, hogy hagyja
+               reá pöreit, s ne elegyedjék semmibe, nem tudta lecsöndesíteni. Radnóthynak betegség
+               és szenvedés fokozta ingerlékenysége nem ismert határt. Szemére vetette az ügyvédnek,
+               hogy ő is az új rendszer híve, mert az ügyvéd, csak hasznot lásson, minden időhöz
+               alkalmazza magát. Az ügyvéd tűzbe jött, s elmondá neki, amit eddig titkolt, hogy
+               kezességre kibocsátását egyedül az ezredesnének köszöni.</p>
+            <p>Ez felbőszítette Radnóthyt; kiszabadulását nem tulajdonította ugyan az ezredesné
+               befolyásának, de haragudott, hogy az ügyvéd az ezredesnének írt, s kéréssel és
+               könyörgéssel alázták meg a Radnóthy nevet.</p>
+            <p>- Nekem nem kell kegyelem - folytatta mind hevesebben -, kérjen, könyörögjön az úr
+               magának. Ha ennyire kedveli ezt az új rendszert, álljon be Bezirkernek, ha úgy
+               dicséri az ezredesnét, vegye feleségül. Ez az úr dolga, nem az enyém. Nekem nem kell
+               semmiféle kegyelem, semmi ügyvédi furfang, nem kívánok mást, csak az igazság bátor
+               védelmét. Érti az úr?</p>
+            <p>Az ügyvéd látván, hogy semmire sem mehet vele, bosszúsan vált el tőle. Radnóthy
+               nélküle utazott vissza jószágára, és lázas tevékenységgel fogott ügyei rendezéséhez.
+               Ezen kívül alig érdekelte valami. Égette a gyalázat, s magánsérelme mintegy nemzeti
+               sérelemmé alakult át elkeseredett lelkében. Személyét és földjét védve, hazáját és
+               nemzetét hitte védeni, s mint olyan, aki a forradalomban nem vett részt, erre mintegy
+               hivatva érezte magát. Amit a vallatás alatt csak rendetlenül és töredékesen mondott
+               el, rendszeresen és bővebben akarta kifejteni. Valóságos emlékiratokon dolgozott.
+               Folyvást szobájában ült és írt. A számtartó hijába jött be hozzá rendeletet kérni a
+               gazdasági ügyekre nézve, azt felelte neki:</p>
+            <p>- Üsse a mennykő a kaszálást, aratást, első dolog visszapörölni a curiális földeket,
+               s megtorolni a személyemen elkövetett gyalázatot.</p>
+            <p>Ekkor aztán tűzbe jött, s elmonda mindent, amit ír s amit még írni fog. Ha István a
+               postáról levelet hozott fiától, aki már gyógyulófélben volt, vagy az ezredesnétől és
+               Erzsitől, akik Erdélybe indulásuk napját is megírták, hirtelen átfutotta, s csak azt
+               mondá: - Ó, ezek a gyermekek nem is tudják, mennyit kínlódom értök! - Ha vendég
+               vetődött hozzá, bocsánatot kért tőle, mert sok dolga van, nagy pörei vannak, maga
+               igazítja, nincs bizalma az ügyvédekben. Búskomor méláját, elfojtott évelődését örökös
+               és kitartó harag váltotta fel. Járt alá és föl szobájában. Forgatta a régi
+               törvénykönyveket, országgyűlési iratokat, beszélt magában, s nekiült írni. Egész
+               fájdalmát, mérgét papírra öntötte, s midőn lepecsételte, címezte s a postára
+               küldötte, enyhülten s büszke önelégültséggel kiáltott föl:</p>
+            <p>- No, meglássuk, mit tudnak mondani erre?</p>
+            <p>Egy pár hét múlva azzal a hátirattal kapta vissza küldeményét, hogy írjon a hivatalos
+               német nyelven; valamely ügyvéd szignálása alatt; egyszersmind pedig bélyegtelen
+               iratairól fölvétetett a Befund, s meghagyatott, hogy a 8/12 krajcárig pontosan
+               kiszámított bírságot egzekúció terhe alatt fizesse be, amint ezt az újabb törvények
+               rendelik.</p>
+            <p>- Miféle újabb törvények? Szeretném tudni, melyik diétán hozták, melyik közgyűlésen
+               hirdették ki azokat az újabb törvényeket - kiáltott öklével a válaszra csapva, s
+               mivel az nem felelhetett, megfelelt ő magának, folyvást tiltakozva ez újabb sérelem
+               ellen. Később visszaküldött iratai olvasásába merült, s valahányszor kedvenc helyeit
+               olvasta, fölriadva mormolta:</p>
+            <p>- Jól, nagyon jól megírtam. Bezzeg szeretnének elnémítani. Jól tudják, hogy nem tudok
+               írni nyelvökön, mégis éppen azt kívánják. Jól tudják, hogy ügyvéd nem ír alá
+               ilyesmit, s éppen erre akarnak szorítani. Hohó! Nem addig van az! Nem is elegyedem
+               velök szóba, hadd pöröljön velök ügyvédem, úgyis kedveli őket, azokhoz folyamodom,
+               akik nekik parancsolnak, a kormányzóhoz, a miniszterekhez, a királyhoz! Még jobban és
+               bővebben kifejtek mindent, s hogy tisztábban megérthessék, a szomszéd szász pappal
+               lefordíttatom németre. Hadd tudják meg valahára az ország valódi állapotját.</p>
+            <p>Újra nekiült írni, újonnan dolgozta ügyei védelmét. Az ívek szaporodtak, s még felét
+               sem írta le annak, amit akart. Mindent odaírt, ami szívén feküdt, és sok olyant, ami
+               szorosan nem tartozott a dologra, de szíve legmélyéből buzgott föl.</p>
+            <p>Megmagyarázta a régi úrbért, a curialisták viszonyait, de legtöbbet beszélt az oláh
+               pusztításról, udvarháza földúlatásáról. Fölfejtette a kormányrendszer
+               törvénytelenségét, veszélyeit; lerajzolta a tisztviselők tudatlanságát és önkényét.
+               Íveket írt össze arról, hogy miképp kell rendezni az ország ügyeit s visszaállítani a
+               régi rendet.</p>
+            <p>Elpanaszolta a személyén esett sérelmet, s bebizonyítani törekedett, hogy a nemesség
+               tekintélye egyik legerősebb támasza a királyság tekintélyének. Lefoglalt kardjának is
+               egypár ívet áldozott, elszámlálta a főbb háborúkat, kivált a poroszt és franciát,
+               amelyekben azt ősei villogtatták.</p>
+            <p>Sokszor emlegette, hogy harminc évig szolgálta a megyét, s alispánsága alatt jobban
+               folyt minden, mint most, s felényibe sem került. Védte a megyei rendszert, s
+               visszakérte, követelte az alkotmányt. Idézte a Corpus Jurist, Werbőczyt, az Approbata
+               és Compilata Constitutiót, Pragmatica Sanctiót; az 1791-i törvényeket s Anonymustól
+               kezdve rendre a történetírókat. Többször átolvasott és kijavított minden ívet,
+               meghányta-vetette az erősb kifejezéseket, de csak arra ügyelt, hogy olyasmi ne legyen
+               bennök, amiért a magyar törvények szerint megpörölhetnék. Oly erős szenvedéllyel
+               csüngött a múlton, hogy föl nem foghatta a jelent. Egész álomvilágban élt, amelyben
+               csak az volt való, hogy szenved, haragszik, fárad és vénül.</p>
+            <p>Ez idő alatt még inkább elhagyta magát: különben is kopott ruhája úgy állott rajta,
+               mintha vasvillával hányták volna reá; hosszú borzas haja és szakálla még mogorvábbá
+               tették. Mióta pörölt, folyamodványokon dolgozott, se gazdasági, se házi ügyekbe nem
+               avatkozott. Reggel nem adott rendeletet számtartójának, délben nem zsémbelt
+               gazdasszonyára, s Istvánt is csak reggel fölkeléskor, estve lefekvéskor szidta meg
+               néha. Egészen irataiba merült; egy szép nyári délután még azt sem vette észre, hogy
+               udvarháza előtt kocsi áll meg, s a Bécsből megérkezett ezredesné és leánya szobájába
+               léptek.</p>
+            <p>- Ejnye, csúf ember, hát így kell fogadni a vendégeket? - sipított az ezredesné, egy
+               idős, száraz asszony, akinek hosszú vendégfürtjei, igen jól összehangzottak kissé
+               festett arcával; aztán föltette szemüvegét, s oly bámulattal kezdette vizsgálni
+               sógorát, mint valami csodaállatot.</p>
+            <p>Radnóthy megfordult és feltekintett, de nem sógorasszonyára; leányát nézte, hosszasan
+               nézte, és nem tudta megismerni, mert az megnőtt és elváltozott. Erzsi úgy állott
+               előtte, mint báb a fodrász kirakatában, érzéketlen arccal s útias pongyolájában is
+               cifrán és tetszelgőn. Sehogy sem találta föl benne a régi egyszerű Erzsikét, az ő
+               kedves lányát, aki hajdan mindig oly vidoran ugrott nyakába, s telecsevegte fejét.
+               Úgy tetszett neki, mintha már nem is hasonlítana anyjához: a vonások ugyanazok, de a
+               kifejezés egészen más. A leány sem tudott atyjára ismerni; a kopott öltözet, beesett
+               arc, hosszú ősz haj és szakáll oly kellemetlenül hatottak reá, hogy hirtelenében nem
+               tudott mit csinálni. Atyjának merőn rászegzett, éles, átható szeme egészen
+               megzavarta, s ahelyett, hogy hozzá szóljon, nagynénjét szólította meg, hol németül,
+               hol franciául kérdezve tőle: - Vajon mi lelte szegény papát?</p>
+            <p>Az apa előtt még idegenebbé tette a lányt az idegen nyelvű csevegés. Erős fölindulása
+               egy könnybe olvadt, ellágyult, s azt sem tudva, mit tesz, ölébe vonta lányát, s
+               elkezdte simogatni.</p>
+            <p>- Erzsike, hát nem ismered szegény apádat, már nem is tudsz vele beszélni? Mennyit
+               aggódtam érted és Gézáért. Lásd, miattatok vénültem meg, lásd ezt a sok írást,
+               értetek dolgozom éjjel-nappal... Erzsike, kedves leányom, tedd le ezt a kalapot,
+               egészen kiveszen a formádból, olyan vagy benne, mint egy komédiásnő. Nézz reám! Hát
+               ismerj meg már!</p>
+            <p>- Ugyan ki ismerhetné meg, édes Elek sógor? - mondá az ezredesné - olyan, mint egy
+               fáról szakadt. Miért hanyagolja el ennyire magát? Ez nem illik egy jónevű és előkelő
+               nemesemberhez. Um Gottes Willen, miért nem vágatja le azt a nagy szakállt? Legalább
+               borotváltassa be az állánál, ahogy most viseli minden úriember.</p>
+            <p>- Nem hosszabb a szakáll, mint a sógorasszony nagy, bolond vuklija, azt sem ártana
+               levágni ‑ csattant föl Radnóthy, mintegy örülve, hogy kiöntheti reá mérgét.</p>
+            <p>- Soha életemben ily parasztságot! Műveletlen, barbár ember! Ide jövök, megteszem a
+               nagy utat Bécsből - így fogadni! Minden követ megmozdítok kiszabadításáért, öt hosszú
+               levelet írok - úgy fogadni, hálátlan - fakadt ki sírva az ezredesné, s félájultan
+               rogyott a karszékbe, mikor aztán, hogy jobban kifejezhesse magát, németre s franciára
+               fordítá a beszédet. Ebből ugyan Radnóthy alig értett valamit, de elég volt szegény
+               fejének a hang is.</p>
+            <p>- Hallgasson, édes papa, hallgasson, ne bosszantsa a jó nagynénit. Nem látja, hogy
+               elájult? Szegény nagynéni, kedves nagynéni! - szólott közbe Erzsi, szemrehányóan
+               tekintve atyjára s kifejtőzve karjai közül, hogy az ezredesné ápolására siessen.</p>
+            <p>- Hát a gyermek leckézi az apát? Hát ezt tanultad te Bécsben, erre tanított a te jó
+               nagynénéd? Ezért küldöttem én neked azt a sok pénzt? Ezért jöttél haza? Te, te,
+               te!... - kiáltá Radnóthy fölugorva székéről, s még tovább is beszél, ha
+               vigyázatlanságból az ezredesné kis fekete kutyájára nem lép, amely oly csúnyán
+               kezdett ugatni reá, hogy kénytelen volt egész erejét az új ellenség ellen
+               fordítani.</p>
+            <p>- Jaj, gyilkos, megöli az én kedves Figarómat - sikoltá az ezredesné.</p>
+            <p>- Papa, az istenért, ne rugdalja szegény Figarót! - esengett Erzsi sírva.</p>
+            <p>- Ember, mit csinálsz? - ismétlé nagy pátosszal az ezredesné.</p>
+            <p>- Megbolondulok! - fuldoklott Radnóthy.</p>
+            <p>A kis haszontalan kutya még élesebben ugatott, még jobban harapdálta Radnóthy lábát,
+               aki egész dühbe jött. Az ezredesné három nyelven sikoltozott, németül a kutyához,
+               franciául Erzsihez, magyarul Radnóthyhoz. Erzsi folyvást pattogott és sírt. István és
+               az ezredesné cselédei ijedve rohantak be, s velök együtt Maros, a házi komondor,
+               amely pártul fogta gazdáját, s majdnem szétszaggatta Figarót. Valóságos pokoli lárma
+               keletkezett, amelyben senki sem tudott szóhoz jutni, s mindenki kapott legalább egy
+               oldaldöfést.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>5</head>
+            <p>A jelenet csak kezdete volt a többinek. Az udvarház csendes szobái örökös viszály
+               színhelyeivé váltak. Radnóthy most már idegenebb lőn otthon, mint volt csak azelőtt
+               is. Többször jutott eszébe neje, midőn az ezredesné ült az asztalfőn, többször búsult
+               leánya után, mióta Elisabethet - ahogyan az ezredesné nevezte Erzsit - komédiásnő
+               ruhákban látta maga előtt, többször bosszankodott a világ fölfordulásán, amióta
+               sógorasszonya a régi rend maradványait is föl akarta forgatni házában. Most már
+               nemcsak a kertésszel, jegyzővel, tisztviselőkkel kelle pörölnie, hanem két nővel s
+               egy kiskutyával is.</p>
+            <p>Az első találkozás keserűsége oly erős benyomást tett mindhármukra, hogy nem tudtak
+               menekülni tőle. Folyvást ingerelték egymást, önkéntelen, akaratjok ellenére is. Az
+               ezredesné azért utazott Erdélybe, hogy rávegye Radnóthyt Erzsi férjhez adására
+               Kahlenberger kapitányhoz, aki ugyan még forma szerint nem kérte meg, de elég
+               érthetőleg nyilatkozott, s csak a kaució letétele okoz egy kis nehézséget, amelyet
+               Radnóthynak kellene lefizetni. S ím, utazása célját nem képes előhozni, mert bármiről
+               beszél Radnóthynak, veszekedés a vége, ami igen rossz bevezetés ily kényes természetű
+               ügyhöz. Nénje utasítása szerint Erzsi is föltette magában, hogy kedvében jár
+               atyjának, de ha csak rátekintett is haragos arcára, már elhagyta bátorsága, arra az
+               áldozatra pedig éppen nem tudta elszánni magát, hogy másképp öltözködjön, fölhagyjon
+               a német csevegéssel, s ne fogja nénje pártját. Maga Radnóthy is szeretett volna
+               kibékülni velök, de mihelyt körükbe lépett, már kész volt a bosszúság. Az ezredesné
+               mindent fitymált, kivált a szobákat, bútorokat, ételeket, pedig a házigazda költségbe
+               verte magát, hogy sógornője és leánya kényelmesebben lakhassanak, a gazdasszony pedig
+               ugyancsak kitett magáért. Az ezredesnének senki sem tudott főzni, mosni; untalan
+               Bécset emlegette, lenézte Erdélyt, sógora tömérdek kárán nem szánakozott illő
+               megindulással, az ország állapotján éppen nem búsult, s az asztal fölött legtöbbet
+               arról beszélt, mi újság Bécsben, s mindent elmondott, mit kedves lapja a <hi
+                  rend="italic">Fremdenblatt</hi> legújabb számában olvasott. Erzsi sokáig
+               öltözködött, el-elkésett a reggeli- vagy ebédtől, kevés kedvet mutatott a ház
+               gondjaiban való részvételre, ahelyett érzékeny német regények olvasásával töltötte az
+               időt, vagy Saphir <hi rend="italic">Wilde Rosen</hi>-jei mellett ábrándozott
+               Kahlenberger kapitányról. Radnóthynak hát elég oka volt reá, hogy ellenséges lábon
+               álljon sógornőjével és lányával, de az éppen felbőszítette, ha az ezredesné
+               haragjában hánytorgatni kezdte, hogy a börtönből kiszabadulását neki köszönheti, ha
+               Erzsi nénje pártját fogta, s elkezdtek egymással németül csevegni. Ez utóbbi,
+               minthogy mindennap megtörtént, már majdnem tűrhetetlenné vált. Radnóthy ifjabb
+               korában tudott valamit németül, tisztelője volt a német műveltségek, de most már
+               keveset ért belőle, s mióta német lett a hivatalos nyelv, ha tudna németül, sem
+               akarna tudni. Már maga a hang fölingerelte, aztán azt hitte, hogy róla beszélnek,
+               amikor nem beszéltek is róla, azért néha szörnyen rájuk mordult, mire az ezredesné
+               kiskutyája ugatni kezdett, s kész volt a botrány. Az uraságok versengése a cselédekre
+               is kihatott. István egypárszor jól oldalba döfte az ezredesné hórihorgas legényét,
+               mert csúfolkodni mert hegyes bajuszával, a gazdasszony sok mindennek összemondta az
+               Erzsi bécsi szobaleányát, mert becsmérli az ételeket, s egész grófnét játszik.
+               Mindennap történt valami olyan, mire az ezredesné közel volt az ájuláshoz. Erzsi
+               sírt, és Radnóthy szitokra fakadt.</p>
+            <p>Emiatt folyamodványain, ügyei védelmén sem dolgozhatott a régi eréllyel. A költségek
+               is mindennap növekedtek, annyira hogy kénytelen volt egy új darab erdőt eladni. Ha
+               panaszolt az ezredesnének, ha kikelt az új rendszer ellen, ha elmondotta, hogy így
+               pusztul ki lassanként minden erdélyi nemesember, tüstént vita, szitok és sikoltozás
+               támadt belőle. Az ezredesné mindent a lármás megyei és országgyűlésnek tulajdonított,
+               kofaságnak nevezte a sok cifra szónoklatot és fölterjesztést, betyároknak a kardos
+               jurátusokat, vén bolondoknak a tisztes táblabírákat; hogy ez lesz belőle, azt neki
+               előre megjövendölte az ő boldogult férje, még ezelőtt tíz esztendővel. Radnóthynak
+               sem kell több; bár a forradalmat magában sok tekintetben hibáztatta, az ezredesné
+               ellenében védett mindent. Megtámadta az ezredest, aki már tíz év óta nyugszik a grazi
+               temetőben, az ezredesnét, aki saját udvarházában mer ilyeneket beszélni, leányát, aki
+               elég istentelen nénjének fogni pártját. Kihozta iratait, fölolvasott nekik belőle
+               mindent, s midőn mégsem szűntek meg vitatkozni, fenyegette őket, hogy kitekeri
+               nyakokat, s földhöz vágta az Erzsi <hi rend="italic">Wilde Rosen</hi>-jeit, az
+               ezredesné <hi rend="italic">Fremdenblatt</hi>-ját, mert alkalmasint ezekből tanulják
+               azt a sok istentelenséget; ő nem olvas mostani újságot, se németet, se magyart, mind
+               hazugságot és ostobaságot írnak, s ha ide kapna vagy egy szerkesztőt, bár sohasem
+               volt kegyetlen ember, isten úgyse’ lehuzatná, s huszonötöt veretne rá István
+               huszárral. Erre a kegyetlenségre az ezredesné természetesen elsikította magát, s még
+               aznap el akart utazni - de azért ott maradt harmadnapra is.</p>
+            <p>Erzsiért is sokat versengtek. Radnóthy vádolta az ezredesnét, hogy egész bécsi leányt
+               nevelt belőle, s kivetkőztette jó szokásaiból; hiszen már anyanyelvét is feledni
+               kezdi, a gazdasszonykodáshoz semmit sem ért, s otthon sehogy sem tudja feltalálni
+               magát. Az ezredesné hálátlannak nevezte sógorát. Erzsi nagy műveltségével kérkedett,
+               akit akármely tábornok is nőül vehet: nem is nevelte ő holmi erdélyi úrfi számára,
+               sem azért, hogy Kolozsvárott vagy Marosvásárhelyt temesse el magát, s ekkor hevében
+               kikottyantotta, hogy félig-meddig már akadt is szerencséje: Kahlenberger kapitány
+               udvarol neki, soha ily derék embert, soha ily deli, vitéz, művelt és nagy befolyású
+               férfiút, a sógor úr kiszabadulását is egyrészt neki lehet köszönni. Radnóthy öklével
+               az asztalra csapott, hogy neki azt az embert többé senki se említse, megesküdt, hogy
+               leányát csak magyarországi vagy erdélyi törzsökös hazafihoz adja nőül. Megtiltotta
+               Erzsinek a francia és német csevegést, különben kitépi nyelvét; fenyegette hogy
+               lehasítja komédiásnő ruháit, megparancsolta, hogy lásson a házi dolgok után, s úgy
+               elfelejtse Kahlenbergert, mintha sohasem is született volna, különben kitekeri a
+               nyakát. Ebből aztán nagy perpatvar támadt, az ezredesné görcsöket és migrént kapott.
+               Erzsi beteggé sírta magát, s Radnóthy fölrúgta a ráugató Figarót.</p>
+            <p>Így telt el néhány nap. Az ezredesné halálra unta magát; attól az egyetlen
+               mulatságától is elesett, hogy sógorával versengjen, mert Radnóthy szobájába vonult,
+               mélyebben merült előbbi búskomorságába, s csak irataival foglalkozott. A két nő
+               elhatározta hát, hogy szórakozás, mulatság kedvéért látogatást tesz a környéken, a
+               közel városkában. Azonban innen is, onnan is hamar és kedvetlenül tértek haza.
+               Erdélyben mind politikai, mind társadalmi tekintetben holt idény uralkodott.
+               Mindenkinek volt valami sebe, ha testén nem, lelkén vagy legalábbis vagyonán. Majd
+               minden család magába vonult, és sebeit kötözgette. A régi vendégszeretet, víg élet
+               eltűnt, mintha a régi alkotmánnyal temette volna el az idő. Rom, bú és szegénység
+               üdvözölték mindenütt a két mulatni vágyó nőt. Ide járult még, hogy bár gyöngédebb
+               változatban, mindenütt hallottak valami ahhoz hasonlót, amit Radnóthy beszélt,
+               vitatkoztak is egy keveset, s némely helyt az elváláskor éppen hidegséget
+               tapasztaltak. Találkozott oly táblabíró is, aki az ezredesnét nagyon gyanús szemmel
+               nézte, s holmi politikai szerepet tulajdonított neki; egy másik éppen kémnek hitte,
+               aki azért látogatja a nemességet, hogy a vidék érzületéről tudósítsa a hatóságokat.
+               Egy helyt elszörnyedt az egész társaság, amidőn az ezredesné azt beszélte, hogy Bach
+               miniszter mily szép, okos és derék ember, s egy estélyen mily jól mulatott vele.</p>
+            <p>Erzsit hajdani játszótársai nem győzték eléggé nézni, s divatos drága ruháit talán
+               irigyelték is, de gúnyolódtak vele, hogy kiejtése kissé idegenszerű, s Bécsben nagyon
+               elbüszkült, de hogyisne, midőn egy kapitány az udvarlója. Egyszóval nagyon rosszul
+               ütött ki a mulatság. Az ezredesné és Erzsi a két legszerencsétlenebb nő volt a
+               szerencsétlen Erdélyországban. Nem volt egyebet mit tenniök, mint gyönyörködni a
+               természet szépségében, amelyet nem sokra becsültek, tűrni Radnóthy búskomor
+               szeszélyeit, amelyeket napról napra tűrhetetlenebbeknek tapasztaltak, kérődzni a
+               bécsi szép napokon, olvasni Saphir <hi rend="italic">Wilde Rosen</hi>-jeit és
+               sóhajtani Kahlenberger után.</p>
+            <p>- Ah! - sóhajtotta Erzsi nemegyszer - én sokkal boldogtalanabb vagyok, mint édes
+               néném! A néni visszamehet Bécsbe, engem nem ereszt atyám, nénit szerette volt
+               boldogult férje, engem nem szeret Kahlenberger. Azt ígérte, hogy meglátogat, s még
+               mindig késik, csak egyetlenegyszer írt a néninek, akkor is azt írta, hogy szabadságot
+               kér, jő - és mégsem jő... Ah, jól mondja Saphir:</p>
+            <p>Nicht beglückter Lieb’, ist eigen,</p>
+            <p> Schweigend lieben, liebend schweigen!</p>
+            <p>- Ach! meine Elisabeth, mit beszélsz? Kahlenberger éppen úgy szeret téged, mint
+               engemet boldogult férjem. Éppen abban az ezredben szolgál. Mein Theurer Karl! Ach,
+               mennyit szenvedtem én leánykoromban, hányszor voltam úgy, hogy:</p>
+            <p>Der unbeglückten Lieb’,</p>
+            <p> Nichts als die Thräne blieb!</p>
+            <p>s Karl mégis az oltárhoz vezetett. Elhagytam érte hazámat, és utána mentem. Hogy
+               dobogott szívem, mind azt dobogta:</p>
+            <p>Doch hab’, ich noch ein Vaterland,</p>
+            <p> Ein zweites, theueres gefunden,</p>
+            <p> Sein Herz ist jetzt mein Vaterland</p>
+            <p> Woran ich wurzelnd bin gebunden.</p>
+            <p>Ach, ez a Saphir mily szépen tudja kifejezni a szív érzéseit. Nincs nála jobb költő a
+               világon. Egészen megifjulok, ha olvasom. Én is éppen úgy szenvedtem, mint te, s éppen
+               oly boldog voltam, mint te lész.</p>
+            <p>Ilyenkor aztán eldicsérték Saphirt, ábrándoztak a boldogságról, boldogtalanságról. Az
+               ezredesné vigasztalta Erzsit, elmondotta, hogy ő csak Kahlenberger megérkezését
+               várja, ekkor atyjától megkéri ünnepélyesen Erzsi kezét, ha beleegyezik jó, ha nem,
+               akkor magával viszi Erzsit Bécsbe, s majd talál módot rá, hogy összekeljenek, s ha
+               atyja akkor sem egyezik bele, nem lesz nagy baj, mert kipörlik tőle az anyai részt. A
+               megvigasztalt Erzsi nyakába borult a jó néninek, összecsókolta, fölvidult, de
+               minthogy nagyon belejött már a boldogtalanságba, azért mégis egész nap sóhajtozott,
+               és szavalta Saphir kétségbe esett verseit. Szerencsére nagy boldogtalanságában éppen
+               nem hervadt, folyvást jó egészségnek örvendett, s oly kevéssé törte meg szívét a
+               boldogtalan szerelem, mint kedvenc költőjéét.</p>
+            <p>Amit annyira óhajtottak, nemsokára teljesült.</p>
+            <p>Kahlenberger megérkezett. Nem kellett szabadságot kérni; ezrede Erdélybe, egyik közel
+               városkába rendeltetvén, mindennap látogatója lehetett Erzsinek. Az ezredesné
+               magánkívül volt örömében, különösen midőn Kahlenberger férjének egypár régi barátját
+               is elhozta magával. A régi barátok később elhozták nejeiket és leányaikat is, akiknek
+               kedvéért aztán néhány fiatal tiszt és hivatalnok is bemutattatá magát az
+               ezredesnénél.</p>
+            <p>Ez idő óta az udvarház ritkán volt vendég nélkül. Az ezredesné rendezett,
+               csinosított, s bocsánatot kért a vendégektől, hogy nem varázsolhatja ide bécsi
+               szalonját. Erzsi új ruhákat csináltatott, s panaszolt a kolozsvári szabókra, akik
+               elrontják pompás kelméit. A vendégek mosolyogtak, s dicsérték a romladozó udvarház
+               regényességét, Kahlenberger pedig éppen Siebenbürgens Perlének nevezte Erzsit, mire
+               az ezredesné megjegyezte, hogy Kahlenberger úr valóságos Schöngeist. Most nagy ebéd
+               volt, majd nagy ozsonna, egypárszor estélyt is adtak. Kahlenberger kihozott az ezred
+               zenekarából egypár zenészt és táncoltak reggelig. A pusztuló udvarházban újra
+               visszhangzottak a régi napok örömei, de a kivilágított ablakok fénye csak
+               szomorúbbakká tette a rongált tornyocskákat, düledező kéményeket, roskatag fedelet, s
+               a zaj siketen hangzott végig a csendes udvaron.</p>
+            <p>Radnóthy e víg élet folyama alatt nem volt otthon. Megszaporodott házi kiadásai és a
+               pörköltségek miatt kénytelen volt eladni egy más megyében fekvő, zálogos
+               jószágocskáját, melyet maga szerzett volt, s rendesen haszonbérbe adott ki. Ide
+               utazott hát, hogy örmény haszonbérlőjével alkuba bocsátkozzék, aki eddig is
+               kölcsönözgetett neki. A lelkiismeret minden furdalása nélkül hitte megköthetni az
+               alkut, mert a birtok csak vett jószág, s így a fiára szállandó ősi örökséget nem
+               csonkíthatja meg. Csak Erzsi szenved kárt, de ennek ő maga az oka, mert miatta
+               szaporodtak meg kiadásai, s a leány része különben is mindig pótolható
+               készpénzben.</p>
+            <p>E terv közben eszébe jutott, hogy még nem tett végrendeletet. Elhatározta, hogy
+               mihelyt végrehajtja a vásárt, megírja végrendeletét, gondoskodni fog leánya pénzbeli
+               kárpótlásáról, ha beleegyezésével megy férjhez, s átok alatt meghagyja fiának az ősi
+               jószág hű megőrzését, hadd szálljon az firól fira, unokáról unokára.</p>
+            <p>Útja több időt emésztett föl, mint ahogy számította, s mint minden, amihez hazajötte
+               óta fogott, nem eshetett meg kisebb és nagyobb keserűség nélkül. A múlt embere itt is
+               összeütközésbe jött a jelennel. Régi szokás szerint indult útra, s nem vitt magával
+               útlevelet, amiért aztán letartóztatták, s négy napot kellett elveszítenie, amennyi
+               idő alatt igazolhatta magát. Kocsisa is majdnem pörbe bonyolította; ez ugyanis
+               hozzászokott volt a régi időkben, kivéve a főispánt, senki elől nem térni ki, s
+               ráhajtott a főhivatalnok kocsijára. A kocsi eltört, a kocsist pedig elfogták a
+               csendőrök. Ebbe is beletelt egynéhány nap. Majdnem két hét múlva érkezett meg a
+               haszonbérlőhöz, akivel hosszasan alkudozott. Végre megkötötte az alkut, a jószágok
+               akkori értékéhez képest meglehetős árban. Kipihenvén magát, kissé fölvidulva készült
+               haza, azonban egy Milánóból érkezett levél, amelyet az ezredesné utána küldött, nagy
+               szomorúságba ejté.</p>
+            <p>Arról vett tudósítás, hogy fia újra visszaesett régi betegségébe, s bár az orvosok
+               biztatása nem hiányzik, a veszély nagy, s megmaradása kétséges. Mindjárt fogatott, és
+               sietett haza. Hazulról egyenesen Milánóba akart indulni, s magával vinni leányát
+               beteg fia ápolására. Aztán eszébe jutott, hogy ő kezességre kibocsátott rab, aki nem
+               lépheti át az ország határát; neki otthon kell ülni és várni, míg egy fekete pecsétes
+               levél érkezik, fiát idegenek temetik el, a régi család kihal, s az ősi jószág idegen
+               kézre jut. Búval és haraggal telt el. Leányára gondolt és Kahlenberger kapitányra,
+               akit az oly sokat emleget, s akit bizonyosan férjül választ, ha ő kidűl, ami oly
+               könnyen megtörténhetik.</p>
+            <p>Ekkor az ezredesné ellen fordult haragja. Elhatározta, hogy minél hamarabb
+               visszaküldi Bécsbe, leánya kikerülvén befolyása alól, újra hozzáédesedik, elfelejti
+               Bécset, Kahlenbergert s mindent, amivel őt annyira búsítja. Haldokló és gyógyuló fia,
+               megváltozott és újjászületendő leánya alakjai között lebegett lelke, egyiktől a
+               másikhoz, s nem tudott megnyugodni.</p>
+            <p>Így ért haza, s meglátván kivilágított udvarházát, ahonnan zene hangzott ki,
+               összerázkódott, mintha valaki megütötte volna. Fia temetése és leánya menyegzője egy
+               bősz képpé olvadtak össze lelkén, a halotti ének és tánczene őrült hangzavarként
+               zúgtak fülébe. Megtörülte homlokát, amely hideg verítéket izzadt, s lassanként
+               magához jött.</p>
+            <p>- A beteg még nem hal meg - nyugtatta magát -, én is mily hosszas beteg voltam... a
+               hosszas beteg még kevésbé. Reméljen az ember, ameddig lehet, sőt azon túl is. Bízzunk
+               az Istenben!... Miért is haragszom szegény Erzsire oly nagyon? Elrontották egy kissé,
+               majd megjavul. Igen keményen bántam vele, elvadítottam magamtól. Hibás vagyok. Majd
+               jóvá teszem. Hadd mulasson. Miért ne mulatna? Hiszen nem tudja, hogy bátyja beteg.
+               Fiatal, szép; miért ne táncolna? Meg sem mondom neki holnapig a rossz hírt.
+               Bizonyosan egy-két régi jó barátom látogatott meg fiastul, leányostul, s Erzsi egy
+               kis mulatságot rendezett számukra. Jól tette. Hadd mulassanak. Bár szeretne bele
+               valamelyik barátom fia. Istenem, ha együtt tarthatnám meg fiam és leányom lakodalmát!
+               Örömest meghalnék.</p>
+            <p>A kocsi megállott, s Radnóthy összeszedve minden lelki erejét, hogy a rossz hírt
+               eltitkolhassa, benyitotta az ajtót.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>6</head>
+            <p>Az ezredesné éppen legfényesebb estélyét adta. Számos vendég gyűlt össze, több, mint
+               máskor. Természetesen Kahlenberger játszotta a főszerepet, az ezred Don Juanja, akit
+               társai famoser Kerlnek neveztek, s nem ok nélkül. Neki zsoldjából mindenre telt, nagy
+               vadász volt, híres apportírozó kutyával dicsekedett, elméssége sohasem fogyott ki,
+               Weber <hi rend="italic">Demokritosz</hi>-át majdnem könyv nélkül tudta, beszélt
+               valamit franciául, sőt e nyelven talán a Paul de Kock regényeit is elolvasgatja, ha
+               el nem foglalják az asszonyok, akik minden városban belebolondultak. Aztán hogyan
+               táncolt! A français-t más is tudta úgy, mint ő, de a valcerben és polkában keresni
+               kellett párját. Most is bámulta az egész társaság. Erzsi boldog volt, ha karjain
+               lebeghetett, s úgy nevetett, hogy könnyezett bele, ha tréfáit hallgathatta.</p>
+            <p>Egy öreg őrnagy, aki a kipirult ezredesnét mulattatta, megjegyezte, hogy e szép párt
+               csak össze kell esketni, ő szívesen lesz násznagy, s kezet is adott reá. Egy hadnagy
+               a kaucióról beszélt, amely a leány vagyonából oly könnyen kitelik, s utánavetette:
+               bagatell! Egy kerületi hivatalnok neje tréfásan jó szívvel látta magát a mához egy
+               évre megtörténendő lakodalomra, mire az ezredesné azt mondá: - Es versteht sich. Egy
+               mérnök figyelmezteté Kahlenbergert, hogy a rozzant ház helyébe mindenesetre egy
+               pompás mezei lakot kell építtetni, s ő holnap a legcélszerűbb tervrajzzal ajándékozza
+               meg, amit Kahlenberger nagy hahotával fogadott, s amiről teljességgel nem akart
+               szólani a kérdezősködő Erzsinek, aki aztán úgy tett, mintha haragudnék. Szóval
+               mindenki vőlegénynek nézte Kahlenbergert, s a tréfa és vígság általános volt.</p>
+            <p>Az atyára senki sem gondolt, s beléptét sem vették észre. Legelőször is az ezredesné
+               látta meg, azután Erzsi. Mind a ketten majdnem felsikoltottak, mert féltek, hogy
+               valami botrány lesz. Azonban az ezredesné hirtelen feltalálta magát, elhallgattatta a
+               zenét, karon fogta vendégeit és egyenként bemutatta Radnóthynak, aki tisztelve a
+               vendégi jogot, a lehető nyájasan üdvözölte őket. A vendégek alig tudtak szóhoz jutni,
+               s elkezdték bámulni a házigazda bozontos ősz haját, szakállát, különös úti öltözetét,
+               s maguk közt nem egy csípős megjegyzést suttogtak. Legelfogulatlanabb volt köztük
+               Kahlenberger, aki tüstént elmés beszédbe kezdett, amelyet egy egész óráig is folytat
+               vala, ha Radnóthy részint tört németséggel, részint kézjellel nem adja tudtára, hogy
+               keveset ért németül, nagyon fáradt, s le akar fekünni. Kahlenberger panaszolta
+               barátjának, hogy ezután neki meg kell tanulni a pantomímiát, különben lehetetlen lesz
+               beszélnie leendő ipával. Az őrnagy elszörnyedt Radnóthy műveletlenségén, aki még
+               németül sem tud, s mégis alispán volt. A hadnagy egy “kurióz!” fölkiáltással fejezte
+               ki csodálkozását. A kerületi hivatalnok mind azt emlegette, hogy bizony csak nagyon
+               hátra van a kultúrában Erdélyország. A mérnök föltette magában, hogy mihelyt
+               hazamegy, lerajzolja az öregurat, mint a kiveszendő régi magyar nemesek példányát, s
+               fölküldi az <hi rend="italic">Illustrierte Zeitung</hi>-ba. Mindezt ugyan csak magok
+               közt beszélték a vendégek, de némi gyöngédebb változatban becsúszott az a
+               köztársalgásba is. Az ezredesné és Erzsi pirultak, nagyon szégyellték a sógort és
+               szegény papát, mentegették is a társaság előtt, de szívökben nem nyomhatták el titkos
+               örömüket, hogy a kis intermezzo nem adott botrányra alkalmat, s az öregúr mérsékelte
+               magát. Csak szánták, de nem haragudtak reá, s egész vígan fogtak a megszakított
+               estély folytatásához.</p>
+            <p>Radnóthy szobájában virrasztott, nyugodtabban, mint valaha, de soha ily mélyen
+               leverve. Elhagyta a bú, a harag s remény és vigasz; valami érzéketlen bódulat,
+               fásultság fogta el. Először is levelet írt, és pénzt küldött haldokló fiának, aztán
+               végrendelete megírásához fogott. Egy-egy könnye hullott a papírra. A bevezetésben
+               hazája és családja romlását siratta. Aztán elmondotta, hogy az ősiség eltöröltetvén,
+               teljes szabadsággal rendelkezik vagyonáról minden esetre, még arra is, ha fia
+               halálával magva szakadna, mert a koronára nem szállhat többé semminemű nemesi birtok.
+               Elsajnálta az ősiségi intézményt, amely fenntartotta a magyar nemességet s vele
+               együtt a nemzetet; átok alatt meghagyta fiának, hogy semmit el ne adjon ősi
+               birtokából, mert megfordulna sírjában, ha az idegen kézre kerülne. Előszámlálta, hogy
+               mije volt és mije van, fölemlítette, hogy csak szerzeményét adta el, az ősi örökség
+               csonkítatlan megvan, hacsak a Bezirkerek önkénye meg nem csonkítja. Elmondta, hogy az
+               anyai rész, amely drágaságban, pénzben és kötelezvényben mintegy negyvenezer forintot
+               tett, udvarháza feldúlatásakor elraboltatott vagy megsemmisült, anyja után tehát se a
+               fiút, se a leányt semmi sem illeti. Megírta pontokban foglalva, hogy minden fekvő és
+               föllelhető vagyonát fiának hagyja, azonban ez tartozik Erzsi testvérét illően
+               kiházasítani, s férjhezmenetelétől számítva, tíz év alatt a jószág értéke harmadának
+               megfelelő összeget fizetni ki neki vagy maradékainak, az illető kamatokat addig is
+               pontosan kiszolgáltatván, de csak azon esetre, ha Erzsi lemond Kahlenbergerről, s
+               erdélyi vagy magyarországi hazafihoz megy férjhez, ellenkező esetben mindenéből
+               kitagadja, még akkor is, ha fia elébb találna meghalni, mintsem a végrendelet
+               teljesedésbe mehetne. E gyászos esetben a protestantizmus és magyar nemzetiség egyik
+               fő támaszát, a Bethlen Gábor fejedelem alapította nagyenyedi főiskolát teszi
+               örökösévé, amelyben kiképeztetését nyerte, s amely annyi kárt szenvedett a forradalom
+               alatt, az oláh pusztítás idejében. A végrendelet hosszú volt, idő tellett abba is,
+               míg a fölhívatott lelkész és számtartó megérkeztek, hogy mint tanúk aláírják. Midőn
+               minden rendben volt, lehajtotta fejét a karszékre, s hallgatta a szobájáig hangzó
+               zenét, föl-fölsóhajtott, s a régi napokra gondolt; elszunnyadt néhány pillanatra,
+               majd hirtelen fölriadt, fölugrott, s a leégő gyertyára bámult. Éppen akkor oszlottak
+               a vendégek; az utolsó kocsi is elrobogott. Kezébe vette a végrendeletet és gyertyát,
+               s az ezredesné hálószobájába indult.</p>
+            <p>Az ezredesné még nem vetkőzött le, s vígan beszélt Erzsivel a nagy nap eseményeiről.
+               Radnóthy beléptére fölkeltek mindketten és vidoran siettek elébe. Az ezredesné
+               sajnálta, hogy sógora nem vett részt a mulatságban, amely non plus ultra volt. Erzsi
+               nyakába borult, és sokat beszélt Kahlenbergerről, aki a papának fegyverengedélyt fog
+               eszközölni, s minden héten kijő ide vadászni. E szíves magaviselettel nagy
+               önmérsékletét köszönték meg, s az elmenetele óta halomra szaporodott árjegyzékek
+               keserűségét akarták megédesíteni.</p>
+            <p>Radnóthy hallgatott; elővette a Milánóból kapott levelet, s átnyújtotta neki.</p>
+            <p>- Csak nagyítás az egész - mondá az ezredesné -, hogy minél több pénzt küldjön a
+               sógor. Gézának annyi baja nincs, mint nekem, aki ezekben a rossz szobákban mindennap
+               háromszor kapok reumát.</p>
+            <p>- Kahlenberger majd írni fog Milánóba - szóla közbe Erzsi -, őt mindenütt ismerik, s
+               Gézára nagy ügyelettel lesznek.</p>
+            <p>Radnóthy nem felelt, ahelyett kihúzta tárcáját, s két darab ezeres bankót kivéve, az
+               ezredesné elébe tette.</p>
+            <p>- Itt van, amivel Erzsiért tartozom: koszt, ruha, szállás és nevelés. Koronként
+               küldöttem is valamit, tudom, hogy így sem sok, a nevelés pedig, ó, az éppen
+               megfizethetetlen. De kevés pénzem van.</p>
+            <p>Aztán leült, elővette a végrendeletet, s egész terjedelmében fölolvasta.</p>
+            <p>- Tirann! - sikoltá az ezredesné, s elkezdett átkozódni németül, franciául, versben,
+               prózában. Majd magyarra fogva a beszédet, eldühöngte, hogy törik-szakad, Erzsi a
+               Kahlenberger neje lesz, ha saját vagyonából kell is érte letenni a kauciót. E
+               nagylelkűségen aztán maga is elérzékenyült, s félig-meddig elájult.</p>
+            <p>- Ach! - sóhajtá Erzsi; több nem jutott eszébe a <hi rend="italic">Wilde
+               Rosen</hi>-ekből, hanem azért mégis hangosan sírt.</p>
+            <p>Radnóthy hátat fordított az ezredesnének és hallgatott. Leányát nézte, kinek sírása
+               őt meghatni látszék. Ellenállhatatlan erővel vonzódott feléje, mintha utoljára
+               beszélne vele. Megfogta kezét, ölébe vonta, megcsókolta homlokát, s gyöngéden kérdé
+               tőle:</p>
+            <p>- Emlékszel-e Erzsike, most három éve, egy kis bált adott volt szegény megboldogult
+               anyád? Hogy ne emlékeznél, hiszen új ruhát is csináltattunk neked, még rózsaszín
+               ruhát? Kislány létedre is magadra vontad az ifjúság figyelmét. Sokan megtáncoltattak.
+               Istenem, mily szépen jártad a csárdást a főispán fiával! Szegény édesanyád sírt
+               örömében, hogy oly módosan viseled magadat. Ugye emlékszel a főispán fiára? Ő nagyon
+               jó fiú; gróf, de nem büszke, nem nézi le a nemesembert, akinek ősei régibbek az
+               övéinél; tudja, hogy törvény szerint Erdélyben nincs különbség a mágnás és nemes
+               közt. Maholnap bizonyosan meglátogat bennünket. Az öreg Radnóthyt lassanként újra
+               fölkeresik régi barátai. Adunk egyszer-egyszer bált is. Újra táncolhatsz vele. Hátha
+               megkérne, édes Erzsikém? Én nem fogok ellenkezni, ha te is beleegyezel.</p>
+            <p>- Megbolondult a sógor, hiszen a főispán fia a tavasszal jegyzett el egy bárónőt;
+               lejöttünkkor hallottuk Kolozsvárott! - kiáltá az ezredesné, akit szörnyen bántott,
+               hogy sógora hátat fordít neki, nem is szól hozzá. Kezével indulatosan kezdett
+               hadarni, s az erőlködése közben vendégfürtei a földre estek.</p>
+            <p>Radnóthy megvető tekintetet vetett reá, s némi gúnyos udvariassággal, amelyet
+               különösen az tett sértővé, hogy nem volt kiszámítva, lehajolt, fölvette a vendég
+               fürtöt, s elébe tette az asztalra.</p>
+            <p>- Hát arra a magas, szőke fiatalemberre emlékszel-e - folytatá újra megcsókolva
+               leányát -, aki mindig kis feleségének hívott? Mondhatom, derék fiatalember. Rég nem
+               hallottam felőle semmit. Mondják, hogy atyja, az én kedves barátom, meghalt, ő pedig
+               Magyarországra bujdosott. Ha visszajő, tüstént meglátogatja Radnóthy bácsit,
+               megkérdi, mit csinál az ő kis felesége. Mit feleljek neki, szólj, édes Erzsikém?</p>
+            <p>- Egy bújdosó, egy földönfutó felesége legyen? Abból semmi sem lesz. Én
+               Kahlenbergernek ígértem, az ő felesége lesz, az övé, csak azért is - dühöngött az
+               ezredesné, oly keményen csapva az asztalra, hogy a <hi rend="italic"
+                  >Fremdenblatt</hi> egy-két száma a légbe röpült.</p>
+            <p>Radnóthy összehúzta szemöldökét, fölvette a leesett <hi rend="italic"
+                  >Fremdenblatt</hi>-ot, mintha mondani akarná az ezredesnének, hogy olvassa kedves
+               lapját és hallgasson, s nem ügyelve sűrű és hangos átkozódásaira, folytatta leányával
+               a beszélgetést.</p>
+            <p>- Hát arra a halvány, szemérmes kisfiúra emlékszel-e, tudod, arra, aki neked annyi
+               képeskönyvet hozott, s oly szép verset írt anyád neve napjára, aranyos szélű velinen,
+               tulipánok és nefelejcsek között? Jó tanuló volt mindig, és többre vitte volna, mint
+               atyja, aki teljes életében szolgabíró sem lehetett. Most szegény fiú nem használhatja
+               tudományát, de azért folyvást bújja otthon könyveit. Atyjának van valamije, kis
+               birtokú nemesember, de jó gazda. Tudod, én sohasem adtam sokat a vagyonra. Hála
+               istennek, van annyim, amiből elélhetek. Megépíttetem nektek az udvarházat. Eltépem a
+               végrendeletet, ha akarod, mindjárt, szemed láttára. Itt fogtok lakni boldogan, mint
+               én édesanyáddal. Négy lovat veszek, s új hintót csináltatok menyegződ napjára. Nem
+               lesz az egész megyében csinosabb menyecske, mint az én kis Erzsikém.</p>
+            <p>- Du Unmensch! Egy betyárnak adni őt, az én Elisabethemet, akit Kahlenberger szeret -
+               kezdé újra támadását az ezredesné oly nagy zajjal, hogy most a kis fekete kutya is
+               megbátorodott, s vele együtt ugatta és harapdálta Radnóthyt.</p>
+            <p>Radnóthy dühvel ugrott föl, azonban nem fordult az ezredesné felé, ahelyett olyat
+               rúgott a kiskutyán, hogy az egy élest ordítva elnémult, és sántítva kullogott ki a
+               szobából. Az ezredesné nagyot sikoltott, a kiskutya után akart szaladni, de midőn
+               látta, hogy Radnóthy újra leányához fordul, szenvedélyesen átöleli, megállott az
+               ajtóban, visszatartóztatva a kíváncsiságtól.</p>
+            <p>- Nagynénéd holnap el fog utazni Bécsbe vagy ahova akarja, és többé nem fog idejönni
+               soha ‑ mondá Radnóthy csöndesen. - Te itt maradsz velem.</p>
+            <p>- Skandal! Infamie! - sivított az ezredesné egy székbe húzódva, hogy legyen hova
+               ájulnia. ‑ Kiűzni a házból engem, hátat fordítani nekem, nem szólani hozzám,
+               vuklimmal csúfolódni, a kiskutyám lábát eltörni! Ach, élne csak szegény férjem,
+               tudom, duellumra hívná e sértésért, megszúrná, levágná, összeaprítaná, így ni - s
+               ekkor fölugorva, mintegy mutatni látszott kezével, hogy miképp szúrnák meg, vágnák le
+               s aprítanák össze Radnóthyt.</p>
+            <p>- Te itt maradsz velem! - folytatá az atya elsimítva leánya homlokáról kibomlott
+               fürteit. - Nem szükséges, hogy oly hamar férjhez menj. Válogass, leányom, hiszen ifjú
+               vagy még. Miért sietnél? Annál több időd marad, hogy szegény apádat ápold,
+               vigasztald. Jól fogunk mi itt élni ketten. Te gazdasszonykodol, én gazdáskodom, újra
+               rendbe hozunk mindent. Majd látogatást teszünk a szomszédságban; megint víg élet lesz
+               itt, mint hajdan. Nem leszek én mindig oly komor, most sem vagyok az, csak sok a
+               gondom, csak pöreimet végezhetném be, csak bátyád jöhetne vissza. Pedig visszajő, ha
+               te itt maradsz, az Isten meghallgatja a jó leány imádságát. Ugye, Erzsike, te jó
+               leány vagy, szereted atyádat, nem hagyod el vénségére, nem haragítod meg többé, olyan
+               lész, mint édesanyád volt, ez az áldott asszony, akihez úgy hasonlítasz. Csak most
+               veszem észre, hogy szakasztott mása vagy anyádnak. Mikor sírt, éppen ilyen volt;
+               mennyit sírt, hol értem, hol értetek, csak magáért nem, soha... soha...</p>
+            <p>Erzsike nem szólott semmit, s midőn atyja, fölindulásában kifáradva, egy székre
+               hanyatlott, kifejtőzött karjai közül. Ott állott az atya és nagynéne között, nem
+               tudva, hogy tulajdonképpen melyikhez tartozik. Hol egyikre, hol másikra nézett, és
+               föl-fölsóhajtott: - Welch’ ein hartes Schicksal!</p>
+            <p>- Elisabeth, komm zu mir! - kiáltá az ezredesné.</p>
+            <p>- Erzsikém, jer velem, jer a szobámba - suttogta gyöngéden az atya, fölemelkedve a
+               székről, kézbe véve gyertyáját s a végrendeletet.</p>
+            <p>Az ezredesné újra ismételte hívását. Az atya hallgatott, s egy fájó, édes pillantást
+               vetve leányára, még egyszer megállott a küszöbön.</p>
+            <p>- Hach Triumph! Triumph der Liebe und der Tugend - szavalta az ezredesné, megölelve a
+               karjai közé szaladó Erzsit; aztán mindketten sikoltva borultak a pamlagra, mert egy
+               iszonyú csattanás hangzott, az ajtó csattanása, amelyet a szobájába tántorgó atya
+               erősen becsapott.</p>
+            <p>Már dél felé járt az idő, midőn Radnóthy másnap fölkelt. Sokáig aludt a terhes út és
+               izgalmas éj után, s fáradtabbnak érezte magát, mint lefekvés előtt. Rossz álmai
+               voltak, s alig bírt felöltözni. Egyedül öltözött föl, mert István jókor reggel a
+               postára ment. Oly csodálatosnak tetszett neki a mély csend, amely udvarházában
+               uralkodott. Nem hallotta sem az ezredesné lármáját, sem a kiskutya csaholásait, sem a
+               szobaleány sürgetését. Az ebédlőben sem volt senki, csak a tornác küszöbén talált
+               valakit, a kis sánta Mányit, pisszegve s egy levelet tartva kezében.</p>
+            <p>Némán vette át a levelet. Az ezredesné levele volt, kék tintával írva, aranyos porral
+               meghintve, s megtömve mindazzal, amit már tegnap is elmondott. Mindennemű
+               istentelenséggel vádolta sógorát; megparancsolta neki, hogy a végrendeletet tüstént
+               tépje szét, s aláhúzta e szavakat: <hi rend="italic">Erzsi csak azért is Kahlenberger
+                  felesége lesz, s én nekik hagyom mindenemet, nem szorultunk a maga rongyos házára,
+                  sem pörös földjeire.</hi> A panaszok és fenyegetések hosszadalmassága miatt a
+               levél tulajdonképpeni tartalma az utóiratba szorult; itt röviden tudtára adta
+               Radnóthynak, hogy se ő, se Erzsi nem állhatják ki tovább kegyetlenségeit, ma reggel
+               elutaztak Bécsbe, s mindaddig még levelet sem írnak neki, míg meg nem kérleli
+               őket.</p>
+            <p>Zsebébe gyűrte a levelet, s leült karszékébe. Maga sem tudta, mit csinál, cél nélkül
+               nézett ide‑oda; nézte az eszterhaj fecskefészkeit, ahol a kis fecskék vígan csevegik
+               körül anyjokat, és sóhajtott; nézte a vidám galambokat, amelyek enyelegve repülnek
+               szét a dúcos kapuról, és mormolt valamit foga közt; nézte a nagy komondort, amely
+               hízelegve csúszott lábához, és fölkiáltott, amint megsimogatta: “Becsületes Maros!” -
+               végre megakadt a szeme a kis sánta Mányin, aki még mindig ott állott, és folyvást
+               pisszegett.</p>
+            <p>- Mi bajod? - kérdé tőle durván.</p>
+            <p>A kislány úgy megijedt, hogy még jobban kezdett pisszegni, s csak annyit volt képes
+               mondani: - Erzsi kisasszony!...</p>
+            <p>- Mi bajod neked is Erzsi kisasszonnyal? - kérdé még durvábban.</p>
+            <p>- Mikor előállott a kocsi, átadta nekem ezt a levelet - szepegte lelkendezve a
+               kislány -, én futni kezdettem. “Miért futsz?” azt kérdezte. “Hát föl akarom költeni a
+               méltóságos urat”, azt feleltem. “Miért akarod fölkelteni?” - “Hát hogy búcsúzzék el a
+               kisasszony, messze mennek, úgy illik”, azt feleltem, és futottam. A kisasszony utánam
+               kapott, s pofon ütött. Az nem baj, de elhasította ezt a szép piros kendőt; a
+               méltóságos asszony vette volt nekem most harmadfél esztendeje, ni, hogy
+               elhasította...</p>
+            <p>- Ne sírj, veszek én neked majd szebb piros kendőt - mondá Radnóthy, magához szorítva
+               az árvát, mintha Erzsit ölelgetné, s egy mosoly lebbent el ajkán. Aztán elkomorult,
+               elfordult, lehajtotta fejét és gondolataiba mélyedt. - Hajh, Erzsike... a kígyó, a
+               kígyó... - kiáltá hirtelen, s ellökte magától a kis Mányit, aki ijedten szaladt
+               lefelé, vissza-visszanézve, vajon nem fut-e utána a szegény méltóságos úr.</p>
+            <p>Radnóthy ott ült, nem is tudva, vajon ellökte-e magától a kislányt vagy nem.
+               Öntudatlanul vette ki zsebéből az ezredesné levelét, újra elolvasta és széttépte.</p>
+            <p>- Bárcsak egy sort írt volna! Nem. Azt is nagynénjére bízza. Bárcsak egy kissé búsult
+               volna, hogy elhagy! Nem. Örvend, tegnap is nem értem sírt, hanem szeretőjéért.
+               Bárcsak reggel jött volna be hozzám, hogy megcsókoljon, mikor alszom. Nem. Pofon üti
+               a szegény árvát, ki kötelességére emlékezteti. A kígyó!... többé nem akarok reá
+               gondolni. Van nekem még egy gyermekem. A fiúk mindig inkább szeretik apjokat. Nekem
+               fiam van. Lehetetlen, hogy meghaljon... lehetetlen... lehetetlen - és összefogván
+               kezét, imádkozott, buzgón, hosszan; nem vette észre számtartóját, aki már egy
+               negyedóra óta áll előtte, és beszélni akar vele.</p>
+            <p>A számtartó végre megszólalt, s benyújtván egy nyaláb árjegyzéket, pénzt kért.</p>
+            <p>- Kérjen a sógornőmtől, küldje a sógornőm után. Én nem fizetek egy krajcárt sem.
+               Nekem kell a pénz, nekem beteg fiam van, nekem nincs leányom, nincs... nincs...
+               nincs!</p>
+            <p>A számtartó vállat vont, s az adóról kezdett beszélni, amelyet, ha egypár nap múlva
+               be nem fizeti, egzekválni fognak.</p>
+            <p>- Hadd egzekválják. Adják vissza curiális földeimet, akkor fizetek, addig egy
+               krajcárt sem. Csak rajta, jöjjön az egzekúció, üssék meg a dobot, licitáljanak
+               tetszésök szerint. Számtartó uram legtöbbet fog ígérni, készpénzzel fizet ki mindent,
+               erre adok pénzt - s ekkor tárcájából egy ezeres bankót vett ki - itt van, aztán
+               számoljon róla. Nem vagyok én oly szegény, de megmutatom, hogy velem nem lehet oly
+               könnyen packázni. Ez is protestáció, ez a vis inertiae. Tudja mi az? Nem tudja, nem
+               is szükséges, tegye, amit parancsolok.</p>
+            <p>A számtartó a gazdasági ügyekre vitte át a beszédét, de Radnóthy nem hallgatta,
+               visszaesett mélájába, s ebédig mozdulatlanul ült karszékében. Délben néhány kanál
+               levest evett, s egész délután mind csak azt kérdezte: hazajött-e István a postáról, s
+               midőn azt mondották, hogy még nem jött haza, azt felelte: - De hazajő, jó hírt
+               hoz.</p>
+            <p>Megint ott ült karszékében, pipára töltött, s panaszkodott, hogy a régi jó dohányt
+               még csak egypár hétig szíhatja az ember, kardja után pipáját veszik el a magyarnak. -
+               Kinézett az útra, várta a jó hírt, ki-kiesett a pipa szájából, s elaludt.</p>
+            <p>Alkonyat felé István csakugyan hazajött, s egy levelet hozott. Gyöngéden költötte föl
+               urát, aki mohón kapott a levélhez, s lassan bontotta föl. Olvasta, mind olvasta,
+               kétszer, háromszor, négyszer, aztán fölnézett Istvánra és hallgatott. István nem
+               merte megkérdezni tőle, hogy mi van a levélben; nem félelemből, hiszen urának arca
+               nemhogy haragos lett volna, még bánatos sem volt, de az a buta érzéketlenség, azok a
+               meredt, fénytelen szemek egészen megborzasztották. Radnóthy hátrahanyatlott
+               karszékén, megint elolvasta a levelet, s éppen oly csodálatosan nézett a tornáchoz
+               közeledő lelkészre, mint Istvánra.</p>
+            <p>A lelkész a városból jött, s két levelet hozott az ügyvédtől; az egyik Radnóthynak
+               szólott, a másik az ezredesnének. Radnóthy ösztönszerűleg visszahökkent, kezével
+               eltolta magától a levelet, majd hirtelen elkapta, feltörte, s odaadta a lelkésznek,
+               hogy olvassa fel. A lelkész előbb az ezredesnének szóló levelet olvasta fel: az
+               ügyvéd figyelmezteti az ezredesnét, hogy a Radnóthy curialistáit illető pör néhány
+               hét alatt Szebenben tárgyalás alá kerülvén, jó volna, ha mind ő, mind Kahlenberger
+               kapitány istápolnák a dolgot befolyásukkal, ugyanezt kérte Radnóthy többi pörére
+               nézve is, melyeket ő, amennyire lehet, húz-halaszt, amíg enyhül a kormányrendszer, de
+               fél a kerületi biztos s a csendőrtiszt ellenséges indulatától, akiket Radnóthy maga
+               ellen bőszített. Lehet, hogy ezek siettetni fogják az ügy bevégzését, lehet, hogy
+               Radnóthyt még egyszer kikérdezik, ami nagyon ártana a dolognak, mert talán nem
+               mérsékelné magát, azért jó lesz, ha sehová sem megy, s tovább is betegnek marad, ha
+               mindjárt a legegészségesebb is. - A Radnóthynak szóló levél rövidebb volt. A jó
+               ügyvéd egy kis pénzt, egy kis perköltséget kért tőle, s ismerve gyöngéjét, így is,
+               amúgy is rábeszélni igyekezett, hogy legyen beteg további tudósításáig.</p>
+            <p>Radnóthy intett fejével, és nem szólott semmit. A lelkész csodálkozva távozott el.
+               Radnóthy hosszan nézett utána, aztán ismét Istvánra vetette szemét és hallgatott. Így
+               telt el majdnem egy negyedóra, s már besötétült. Ekkor Radnóthy fölemelkedett
+               székéről, és mintha most akarna válaszolni a lelkésznek, fölkiáltott:</p>
+            <p>- Beteg vagyok, beteg leszek. Nem kell tettetnem... nem bánom, vegyék el mindenemet.
+               Nincs kire hagyjam. Én vagyok az utolsó Radnóthy.</p>
+            <p>- Hát meghalt Géza úrfi? - kérdé István urához rohanva.</p>
+            <p>- Meg! - felelt Radnóthy az általa hozott s Milánóból érkezett levélre mutatva, s
+               ajka nyitva maradt.</p>
+            <p>A hű cseléd elkezdett hangosan sírni, mire Radnóthynak is megeredtek könnyei.
+               Zokogott, ráborult Istvánra, földúlt családja s az elsüllyedt múlt ez egyetlen
+               maradványára.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>7</head>
+            <p>Teltek a napok, beállott az ősz. A hanyatló természet és a pusztuló udvarház oly jól
+               illettek egymáshoz. A szél nemcsak a fák száraz leveleit szórta szét, hanem egy-egy
+               zsindelyt is lekapott a roskatag födélről, az eső rútúl megviselte a bolthajtást, s
+               itt-ott nagy foltokban ütötte ki magát a falakon; a köd megszerette tornyocskáit,
+               kéményeit, örömest szállott reájok, s midőn tünedezett, az álmos nap lehajolt mintegy
+               megbizonyosodni: áll-e még a régi épület, mintegy kérdve: él-e még öreg gazdája.</p>
+            <p>Még élt. Néhány napi gyöngélkedés után, amely betegségnek is beillett, fölkelt, s
+               délfelé újra elfoglalta karszékét a tornácon. Azóta évekkel vénült, s egészen
+               meggörbedt belé. Restellett járni, nem szeretett beszélni, s fájt, hogy egyedül
+               maradt gondolataival. Megbámulta a templom tornyát, hallgatta a vízmorajt s a szél
+               süvöltését, nézte a vörösödő ecetfákat és a kőrisfák hulló leveleit, azután ha
+               mindezt megunta, játszott a komondorral, amely untalan közelében volt, vagy elővette
+               pipáját, s dohányt kért Istvántól, ha volna még abból a régi jó dohányból. István
+               mindig tartogatott vagy szerzett ura számára néhány kötés szűzdohányt, s nagy öröme
+               telt benne, ha szolgálhat neki. Radnóthy kiverte pipáját, megtöltötte, néha oly
+               erősen, hogy nem szelelt. A szárban kereste a hibát, szalmaszálakat vett elő,
+               áthúzogatta rajta, elvesződött vele, és mulatta magát. Gyermek volt, aki önmagával
+               tehetetlen, öreg aki elfáradt már élni.</p>
+            <p>Nem akart látni senkit, s csak Istvánt tűrte maga körül. Más senkije sem volt a
+               világon; csak ez egyetlen személy tartozott a múlthoz, amelytől annyi fájdalom
+               választotta el, de amelyben folyvást benne élt. Mióta reá borult és megölelte,
+               megszakadt a régi viszony. István többé nem cselédje volt, hanem barátja, rokona,
+               dajkája. A szeretet és fájdalom csatolta őket össze, s megható gyöngédség fejlett ki
+               köztök. Nem titkolt előtte semmit, keblébe öntötte panaszát, általa közlekedett az
+               ügyvéddel, a számtartóval, a lelkésszel, az egész külvilággal. Vele ballagott le
+               alkonyatkor a templomba, hogy alamizsnát osszon ki a szegények között, s imádkozzék
+               fiáért. Nem haragudott reá, ha fölriasztva ájtatos elmerüléséből, emlékeztette, hogy
+               illik már hazamenni, a népség eloszlott, s az egyházfi ajtót zár. Engedelmeskedett
+               neki; esténként sokszor ültette ágya mellé, hallgatta beszédét, s el-elmosolyodott,
+               ha a régi jó időből egy-egy tréfa jött szóba, de a mosoly csak ajkán játszott, szeme
+               szomorúan merült a gyertyavilágba, gondolatai másfelé jártak, s István csak azon
+               vette magát észre, hogy gazdája elaludt.</p>
+            <p>Nagyon ritkán jött tűzbe, s Istvánt csak egyszer dorgálta meg a régi haraggal, midőn
+               ez erőnek erejével új ruhát akart reá adni, s nagy garral magyarázgatta, hogy
+               valóságos szégyen ezt a régi rongyot viselnie. Nagy méregbe jött, az új ruhát
+               ellökte, szitkozódott, s ütésre emelte öklét, de midőn István fölhagyott nógatásával,
+               szépen elcsöndesedett, hálásan nézett reá, mintha köszönni akarná, hogy nem
+               háborgatja. A legtöbbször csak gyöngéden feddőzött, tréfásan zsémbelt, ami
+               mindkettőjöknek jólesett, bár sok szomorúság vegyült belé.</p>
+            <p>- Ugyan, István - mondá egy reggel, az ősi Bibliát forgatva kezében -, te egészen
+               elfeledkeztél rólam. Eszembe sem juttattad, hogy fiam halálát még nem írtam be ide.
+               Kímélni akartál, úgye? Hát a halál megkímélte-e szegényt?</p>
+            <p>Tovább nem szólhatott, elérzékenyült, egész délig írta azt a néhány sort, s napokig
+               csak fiáról beszélt, azaz kérdezősködött, és engedte beszélni Istvánt, aki ezer apró
+               történetet regélt el róla. Hallgatta, oly mohón, oly figyelemmel hallgatta, mint
+               hajdan a kis Géza, midőn a hű cseléd esténként meséket mondott neki, hogy hamarább
+               elaludjék. Az apa nem aludt el, álmodozott, s reggelt panaszolt, hogy rosszul érzi
+               magát.</p>
+            <p>- Azt sem juttattad eszembe - mondá máskor -, hogy egy szép sírkövet csináltassak
+               Gézának. Ott nyugszik szegény idegen földön, s még fejfa sem őrzi emlékét. Kímélni
+               akartál a költségtől, ugye? Igaz, nincs pénz. Amit az eladott jószágból kaptam, azzal
+               adósságaimat fizettem ki, aztán a számtartónak adtam belőle a gazdaságra, s az
+               ügyvédnek perköltségre, a többit még nem fizette ki az örmény, majd tavasszal fizeti.
+               De van még egypár ezer forintom, tartogatom, kuporgatom. Temetésre is kell valami,
+               nem szeretném, ha cudarul temetnének el. Élni - arra nincs gondom. Nekünk már kevés
+               kell, István, s ha megszorulunk, eladjuk az erdőt, a földet; nincs kire maradjon.</p>
+            <p>Hivatta a lelkészt és a számtartót, amazt azért, hogy írjon Milánóba Géza barátjának
+               a síremlék ügyében, a számtartót azért, hogy van-e jövedelem a jószágból, mert pénzre
+               van szüksége. A számtartó, aki most sohasem ellenkezett urával, egy kis időhaladékot
+               kért, panaszolta, hogy nincs jövedelem, sok kell a jószág beruházására, s a pör is
+               fölös költséget emészt föl, mert az ügyvéd kenegetni szeretné az igazság kerekét.</p>
+            <p>- A pör - sóhajtá Radnóthy elgondolkozva, mint aki valami újat hall, s kissé
+               fölélénkült arca ‑, úgy van, a pör. Nem engedik, hogy én folytassam, régen a maga
+               személyében is pörölhetett az ember, most ügyvéd kell hozzá. Félnek a pennámtól. De
+               azért befűtöttem nekik; mindent megírtam tisztán, kereken a kormányzónak, a
+               minisztereknek, a királynak... Megfizette-e számtartó uram a szász papnak a sok német
+               fordítás árát? Fizesse meg jól. A szász fösvény, nem csinál semmit barátságból,
+               ügyvédemnek mondja meg, hogy szeretném már tudni, hogy állnak pöreim. Jöjjön ki újra
+               hozzám. A múltkor keveset beszélhettünk. Most már egészséges vagyok. Hanem azt csak
+               neki mondja meg, más ne hallja, mert elfognak. Másnak nagyon beteg vagyok... érti!
+               Vigyázzon!</p>
+            <p>Ekkor a síremlékről a pörre fordult figyelme. Hosszan elbeszélte Istvánnak a pör
+               folyamatát, s örült, midőn ez helyeselni látszott minden lépését. Napokig csak erről
+               folyt a beszéd, aztán áttért az ügyvédre és a számtartóra, akire gyanakodni kezdett.
+               Fejébe vevé, hogy Erzsi mindkettőt megvesztegette; a számtartó azért nem akar adni
+               neki pénzt, mert Erzsi számára szándékszik megtakarítani minden nélkülözhető
+               jövedelmet; az ügyvéd pedig, midőn itt járt, azért kérdezősködött a végrendelet
+               felől, mert Erzsi javára akarja fordítani. Ilyenkor nevetett; fölnyitott egy záros
+               fiókot, melynek kulcsát mindig magával hordá, kivette a végrendeletet, fölolvasta
+               Istvánnak, s midőn ez megértvén, hogy neki is egy kis nyugdíjat hagyott, megcsókolta
+               kezét, úgy örült a hálának, a szeretetnek, mintha ilyesmit életében most tapasztalna
+               először. Elfeledte a pört, a végrendeletet, s csak cselédje örömében gyönyörködött.
+               Így törölte ki emlékéből egyik tárgy a másikat, s nyújtott lelkének szüntelen
+               foglalkozást. Még mindenből érdekelte valami, de csak félig; még fellángoltak
+               szenvedélyei, de csak mint az emlékezet világa; még élt, de csak álmodozott, minden
+               nap haldokolva.</p>
+            <p>A téli napokon folyvást tűzrakással bajlódott. Félt, hogy megfagy, s panaszolt a
+               muszkákra, akik Szibéria hidegét hozták magokkal Erdélybe. Egész nap hordatta a fát,
+               új meg új hasábot vetett a hamvadó üszökre, s gyönyörködött a nehezen síró
+               sustorgásban, a vígan föllobogó lángokban, s a vaskanállal meg-megütögette az égő
+               vörös szenet. Már akkor este lőn, midőn szerinte bemelegedett a szoba. Még egy pár
+               hasábot vetett a tűzre, vörösen ment le a nap, erős fagy lesz holnap, csikorog a
+               templom kakasa, száraz szelek fognak fújni az éjjel. - Hadd fújjanak, nem fázunk meg
+               - mondá ilyenkor, hátradűlt karszékén, megvidult és beszédessé vált.</p>
+            <p>- Emlékszel-e, István, éppen ma négy esztendeje, hogy utolszor választottak
+               alispánná? Ellenfelem csak huszonöt szavazatot nyert, a többi mind az enyém lett.
+               Hogy fölemeltek, hogy éljeneztek, hogy énekelték azt a nótát - hogy is van
+               csak?...</p>
+            <p>Egy életem, egy halálom,</p>
+            <p> Radnóthy lesz alispánom!</p>
+            <p>felelt István dudorászva.</p>
+            <p>- Úgy, úgy; te jobban emlékszel reá.</p>
+            <p>- Hogyne emlékezném, méltóságos uram? Hiszen akkor csináltatta volt nekem azt a szép
+               új dolmányt, amelyet csak solemnis alkalmakra volt szabad fölvennem. A szabó kétszer
+               is megigazította, hogy feszesebben álljon. Hát rajta a csillogó fényes gombok! Most
+               is megvan, de nem használjuk többé.</p>
+            <p>- Nem használjuk többé - visszhangzá Radnóthy szomorúan, aztán hosszú szünet után
+               hozzátéve -, hátha mégis, nem... nem... én nem vállalok többé hivatalt; de ha Isten
+               még egy közgyűlést ad, tudom, elpanaszolok mindent.</p>
+            <p>Örömest emlegette dicsősége e napjait, s Istvánban részvevő hallgatóra talált.
+               Mindketten a tisztújítási napokban éltek. Egyik sem tudta feledni ezt az időt.
+               Radnóthy hallani vélte a hódoló nemesség zaját, István megemlékezett a nagy ebédre,
+               amelyre ő hívta meg a vendégeket; Radnóthy kocsijába képzelte magát, amint ovációkkal
+               fogadják a kortescsapatok, István pedig a kocsi bakján, honnan oly büszkén nézett le,
+               mintha érte történnék minden.</p>
+            <p>Úgy eltelt az idő ily beszélgetések közt, feledték a korán elhunyt jó fiút, a
+               hálátlan leányt, a terhes pört, a fölfordult világot, s Radnóthynak néha még tréfálni
+               is kedve kerekedett.</p>
+            <p>- István, tudod-e, hogy három hét múlva karácson lesz? Mindig ilyenkor tartottuk az
+               év utolsó közgyűlését. Holnap fogass be korán reggel, keresd ki atillámat, kardomat s
+               a sastollas föveget. Közgyűlésre megyünk. Biz úgy. Éppen most olvastam a körlevelet -
+               mondá egy reggel Istvánnak, aki megütődve nézett reá, mert azt hitte, hogy ura
+               megzavarodott elméjében.</p>
+            <p>- Hát nem szeretnéd, öreg? Nem vennéd-e föl még egyszer azt a szép dolmányt? Bizony
+               még elhiszi... Ha! ha! ha! Nagy bolond vagy te, István, hogy az Isten akárhova tegye
+               dolgodat - s lelkéből nevetett, hogy ennyire rászedhette a jó öreget.</p>
+            <p>- Ej, uram, tréfaság! - dörmögte István.</p>
+            <p>- De az nem volt tréfaság - folytatá Radnóthy tűzbe jőve -, midőn ezelőtt húsz évvel
+               egy ily közgyűlésen megtámadtuk a csak helyettesített és nem országgyűlésen
+               választott guberniumot. Milyen beszédet tartottam akkor! az “éljen”-nek nem volt
+               vége-hossza. Tudod, ki állott föl, hogy engem megcáfoljon? Az a kis fekete báró, akit
+               cigány hercegnek csúfoltak. Mennyi badarságot beszélt össze. Aztán újra én állottam
+               föl, s kezdtem beszédemet: “Tekintetes Karok és Rendek! Meddig él még vissza
+               türelmünkkel ez az ember?” A cigány herceg ekkor beszédembe vágott, s kikérte magának
+               a sértegetést. Én erre azt feleltem: “Igaza van, nagyságos báró úr, bocsásson meg,
+               hogy elég gondolatlan voltam embernek nevezni.” Mily nevetés és éljen harsogott a
+               teremben. Hej, István, szép idők voltak azok! Emlékszel-e?</p>
+            <p>- Hogyne emlékezném! Mintha most is látnám a méltóságos urat abban az ezüstgombos
+               atillában, azzal a derék ősi karddal, amelyet a tavaszon elvittek a csendőrök.</p>
+            <p>- Elvitték, nem adják vissza. Nincs kardunk; elpusztulunk, István - sóhajtá Radnóthy
+               lehangolva. Csend állott be, amelyet István nem mert megzavarni. Csak az óra
+               ketyegése hallatszott. A két öreg magába mélyedt; ezalatt kialudt a tűz. Radnóthy
+               fázni kezdett, s ebédig mind a muszkákra panaszolt, és átkozta Szibériát.</p>
+            <p>Minél beljebb haladt a tél, annál jobban rakta a tüzet, minél hosszabbak lőnek az
+               esték, annál beszédesebbé vált. Ismételte amit tegnap mondott, amit talán elfeledett,
+               kiegészíté István. Néha István sem emlékezett valamire, ekkor találgatással mulatták
+               magokat. Mindkettőnek éppen nyelve alatt volt, amit mondani akart, s ha hosszas
+               főtörés után sem tudtak boldogulni, abban egyeztek meg, hogy így jár az ember, ha
+               megvénül, s ma hidegebb van, mint tegnap.</p>
+            <p>Kifogyván a dicsőség és boldogság emlékeiből, ifjúkori bohóságaikra tértek. Radnóthy
+               diák és jurátus kalandjait emlegette, s megsiratta a földúlt nagyenyedi főiskolát,
+               amelynek növendéke volt, az elvesztett királyi táblát gyászoló Marosvásárhelyt, ahol
+               jurátuskodott. Istvánnak is kedvence volt e két város; ő is járt a nagyenyedi
+               főiskolába, végzett két osztályt négy esztendő alatt, mert, amint mondá, a classis
+               praeceptorok ellenségei voltak, ráfogták, hogy nem fog az esze, ezért elkeseredett,
+               kibujdosott; ekkor került először Marosvásárhelyre, ahol sok ifjú urat szolgált, míg
+               végre Radnóthy úrfihoz szegődött, akitől csak az ásó-kapa választja el.</p>
+            <p>Radnóthy arca kiderült; megmozdultak szívében az ifjúság édes emlékei, s lágyan
+               ringatták, mint a bölcső a gyermeket. Mindketten annyit beszéltek, hogy nem tudták
+               kibeszélni magokat. Néha belezavarodtak az évszámokba és nevekbe, vitatkoztak, meg is
+               haragudtak egymásra, aztán kibékültek, s azt határozták, hogy már késő az éjszaka,
+               ideje volna lefeküdni, majd megálmodják holnapra, amire ma nem emlékeznek.</p>
+            <p>- Istenem, hogy eltelik az idő! - szólalt meg Radnóthy szilveszter estéjén. -
+               Tudod-e, István, ma éppen negyven esztendeje, hogy szolgálatomba fogadtalak. Milyen
+               karcsú, piros legény voltál akkor.</p>
+            <p>- Rég volt, uram, talán nem is igaz - felelte kedvetlenül István, mintha titkolni
+               akarna valamit ura előtt.</p>
+            <p>- Tudod, mennyit járt hozzánk az én Jankó barátom. Mintha most is előttem állana; a
+               legkorhelyebb diák volt Nagyenyeden, a legkihágóbb jurátus Marosvásárhelyt.
+               Diákkorában egyszer aludt a leckén, éppen revokáció volt, én hirtelen megdöftem, hogy
+               keljen föl, üljön ki, mert felelni szólítja a professzor. Fölkelt és kiült. A
+               professzor csak nézte. “Én nem szólítottam, mondá neki, de ha kiült domine, hát
+               feleljen.” Ha! ha! ha! Jankó nem tudott egy szót is felelni. Bekergették,
+               lepirongatták. Ha! ha! ha! Egész életében nem tudta nekem megbocsátani ezt a tréfát -
+               az Isten nyugtassa meg szegényt. Hát jurátuskorában mennyi bohóságot űztünk vele.
+               Ejnye, no! Nem jut eszembe. Segíts, István, te jobban tudod.</p>
+            <p>- Ideje már lefekünni, uram, rég elütötte a tízet.</p>
+            <p>- Hogyisne? Hiszen ma szilveszter éjszakája van. Ki látta ily jókor lefekünni. Hajdan
+               éjfélig mulattunk ilyenkor, s mikor ütötte a tizenkettőt, boldog új esztendőt
+               kívántunk egymásnak. Ha te lefekszel, ki fog nekem új esztendőt kívánni?</p>
+            <p>István szomorúan nézett urára; beteg volt, alig állotta lábán, azonban habozott
+               bevallani, mert félt, hogy nyugtalanságot okoz, s elrontja ura éjszakáját.</p>
+            <p>- Engedelmet kérek, rosszul aludtam a múlt éjjel, nyugalomra van szükségem - hebegte
+               István, aztán eszébe jutván, hogy talán utolszor beszél urával, kitört belőle a
+               fájdalom, sírni kezdett, csókolta ura kezét, köszönte jótéteményeit, s isten áldását
+               kérte reá.</p>
+            <p>- Hát te is el akarsz hagyni már? - kiáltá Radnóthy ijedten.</p>
+            <p>- Ó, dehogy, édes jó uram, hanem meggondoltam, hogy az ilyen vén ember, amilyen én
+               vagyok, jó, ha minden este elbúcsúzik, mert ki tudja, nem hal-e meg holnap
+               reggelre.</p>
+            <p>- Meghal... holnap reggel! Hát én egyedül halljak meg? - kérdé Radnóthy
+               elmélázva.</p>
+            <p>- Ó, az én édes jó uram még sokáig fog élni, mert fiatalabb, erősebb nálamnál. Aztán
+               ha én kidűlnék is, nem marad egyedül, lesz, aki ápolja. Erzsi kisasszony bizonyosan
+               eljő, eddig megbánta hibáját, s csak egy jó szóra vár. Alkalmasint fél szegény
+               levelet írni. Bátorítsa föl a méltóságos úr! Az öreg István kéri, aki sohasem csalta
+               meg, aki mindig javát akarta.</p>
+            <p>A jó cseléd gyöngéden akarta előkészíteni urát betegségére, s gondoskodni kívánt róla
+               halála esetére is. Szegény nem tudta, mit mível. Radnóthy meghallva leánya nevét,
+               nagy haragra gerjedt, de nem lévén elég ereje hozzá; csak elfordult búsan, s e
+               szavakat rebegte: - Te is az ő pártját fogod, te is háládatlan vagy. Takarodjál!</p>
+            <p>István nem mert többet szólani, talán nem is tudott volna. Érezte, hogy
+               gondatlanságot követett el, jóvá akarta tenni, de alig volt jártányi ereje, s csak a
+               falhoz támaszkodva tudott kitipegni a szobából. Radnóthy megfordult a neszre, nézte a
+               becsukódott ajtót; s várta a visszatérő cselédjét.</p>
+            <p>Azonban elütötte a tizenegyet, tizenkettőt, eltelt az óév, és nem jött senki, aki
+               újévet köszöntsön. Oly egyedül érezte magát, és félni kezdett; a szoba kihűlt, úgy
+               fázott, oly fáradt volt, úgy szeretett volna alunni, s nem bírt lefekünni. Hiányzott
+               körüle valami, a gondos kéz, amely lefektesse, a negyven év óta megszokott arc,
+               amelynek durva vonásain mindig csak ragaszkodást olvasott, a dörmögő hang, az elmúlt
+               idők egyetlen visszhangja.</p>
+            <p>Maga is érezte ezt, anélkül, hogy tudná, s egypárszor elkiáltotta István nevét -
+               hasztalanul.</p>
+            <p>Nem jő, haragszik reám - mondá magában elszomorodva -, igaza van, nagyon keményen
+               bántam vele. Megkérlelem. Miért ne? Öregemberek vagyunk, ki tudja, melyikünk hal meg
+               holnap reggelig. Búcsúzatlanul váljunk-e el? Jól mondotta szegény István. Miért is
+               haragudtam én rá? Hát Erzsikéért. Az a kígyó még most is mardossa szívemet. Pedig
+               István csak azt akarta mondani, hogy a jó leány ápolni tartoznék atyját öreg
+               napjaiban. Jól mondotta szegény István. Félreértettem. Hiába! Nemigen tudja jól
+               kimagyarázni magát, csak két osztályt járt Nagyenyeden, ellenségei voltak a classis
+               praeceptorok, ráfogták, hogy nem fog az esze, aztán nem tanult, elkeseredett,
+               kibujdosott. Szegény István! Megkérlelem, aztán lefekszünk, s reggelre vidáman
+               ébredünk.</p>
+            <p>Vette a gyertyát, s István szobájába indult, azonban nagy megdöbbenésére a szoba
+               ajtója félig nyitva volt, s belölről az István nyögése s a kis Mányi sírása
+               hallatszottak ki.</p>
+            <p>- Úgy... úgy kis Mányikám - folytatta a haldokló István hagyakozásait -, neked hagyom
+               mindenemet, csak viseld gondját a méltóságos úrnak. Reggel ne költsd föl jókor,
+               ügyelj, hogy legyen mindig tiszta inge, varrd föl reá a hiányzó gombot, mert különben
+               nagyon megharagszik. Sohase erőltess reá új ruhát, de mindig takarítsd ki a régit, s
+               varrd meg, ahol elszakadt. Ebédnél köss eléje asztalkendőt, mert elfeledkezik róla,
+               és leönti ruháját. Jó melegen add föl az ételt, s töltsd meg poharát. Mikor
+               vecsernyére harangoznak, vezesd le a templomba, este sohase feküdjél le addig, míg ő
+               le nem fekszik. Ha beteg talál lenni, mindjárt fogass be, s azt az öreg orvost
+               hívasd, mást a világért se, különben nem veszi be az orvosságot. Vigyázz egy kis
+               kulcsra, amelyet nappal mindig zsebében őriz, s éjjel párnája alá tesz. Ez kulcsa
+               íróasztala fiókjának, amelyben a végrendelet van. Ha Isten magához venné szegény
+               urunkat, nyitsd föl a fiókot, vedd ki belőle a legnagyobb darab papirost, fekete
+               galanddal van összekötve, dugd el jól, vidd be Vásárhelyre, s add át a főtisztelendő
+               református püspöknek, aki most oda szorult Enyedről. Ő bizonyosan híven végrehajtja
+               urunk végakaratát, s eltemetteti, mint illik.</p>
+            <p>- Ne bolondozzék, István bácsi! Ugye csak tréfál? Hogy megrémíti az embert - kiáltá
+               az ágyra boruló kis Mányi folyvást zokogva.</p>
+            <p>- Nem tréfálok gyermekem! - viszonzá István szünet után, amely alatt a beszéd okozta
+               lankadtsága egy kissé enyhült -, meghalok az éjjel, nem élek reggelig. Életemben most
+               vagyok először beteg, bizonyára utolszor is. Apám is így halt meg; ez a famíliánk
+               természete.</p>
+            <p>- Ne hozzak egy pohár borsos meleg bort? Csak a hideg borzongatja István bácsit.
+               Hátha megkenné a gazdasszony? Talán megcsömörlött, István bácsi - dadogta a kis
+               Mányi, betakarva a beteget s megigazítva a párnát feje alatt.</p>
+            <p>- Ne gondoskodjál te rólam - kezdé újra a haldokló -, gondoskodjál a méltóságos
+               úrról. Vigyázz, hogy jó legyen reggel a kávéja, meg ne kozmásodjék a tej; ezt ki nem
+               állhatja. Légy mindig körülte, sohase ellenkezzél vele, beszélj, ha szól, de sokat,
+               nagyon sokat, hanem ne emlegesd Géza úrfit, mert akkor sír, se Erzsi kisasszonyt,
+               mert azért nagyon megharagszik. Az áldott lélek reám is azért haragudott meg. Ó, hogy
+               a sírba kell vinnem haragját! Kérj tőle bocsánatot nevemben. Mondd meg neki, hogy
+               csak ezen bánkódtam utolsó órámban. Ó, én bolond fejem, miért is haragítottam meg az
+               én jó uramat.</p>
+            <p>- Nem haragszom, nem haragszom, István! - nyögé Radnóthy belépve; gyertyáját
+               elejtette, odalépett az ágyhoz, de annyira lesújtott és tehetetlen volt, hogy a
+               haldoklónak kellett fölemelkedni az utolsó kézcsókra, s a már-már elnémuló ajkaknak
+               megnyílni a végbúcsúra.</p>
+            <p>Mily könnyűvé tette halálát a kézcsók s néhány búcsúszó. Betelt utolsó vágya, és
+               fájdalom nélkül halhatott meg. Torzuló vonásain erőt vett egy édes mosoly, s a
+               homályosuló szemekből még felcsilloghatott a szeretet és hála utolsó szikrája.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>8</head>
+            <p>István halála oly váratlan, megfoghatatlan volt Radnóthy előtt, hogy meg sem
+               sirathatta. Némán nézte a halottat az ágyon, a terítőn, megindulás nélkül hallgatta a
+               koporsó beszegzését, a lelkész imáját, a halotti éneket. Még mindig vele volt István;
+               együtt mentek ki a temetőbe is, az semmi, hogy István a koporsóban feküdt, ő a
+               koporsó után tipegett - még mindig együtt voltak: de amikor a temetésről hazatért, s
+               üresen látta a széket, amelyet alkonyat felé a hű szolga már elfoglalt; amikor
+               leszállott a hosszú téli est, ködével és unalmával, s nem volt senki, aki megszakítsa
+               az irtóztató csöndet; amikor gondolkozni, emlékezni, beszélni akart, s nem volt, aki
+               segítse és meghallgassa; amikor István helyett a kis Mányi lépett be, hogy őt
+               levetkőztesse, e ragaszkodó, de vele bánni nem tudó árva, aki alig ért derekáig, s
+               csak a majorság őrzéséhez értett, megeredtek könnyei, és sohasem száradtak föl.</p>
+            <p>Talán ez örökös könnyben úszó szemek gyöngülésből is származhattak, de legmélyebb
+               forrásuk a fájdalom volt. Istvánban utolsó támasza dűlt ki, és semmi sem maradt, ami
+               többé az élethez kösse. Ez volt legmélyebb sebe, mert az idő, ahelyett, hogy
+               hegesztené, folyvást mérgesítette. Nem volt az időnek oly pontja, a szobának oly
+               zuga, amely ne emlékeztette volna Istvánra. A kis sánta Mányi nem tudta úgy
+               szolgálni, mint István, s akaratlanul is elhanyagolta. A számtartó, aki miután urát
+               sír szélén látta, s Istvántól nem tarthatott, megromlott becsületességében, s csak
+               arra volt gondja, hogy minél többet takaríthasson meg a maga számára a gazdátlan
+               jószágból. A gazdasszony követte a jó példát. Radnóthy mindenben szükséget
+               szenvedett. Az ebédek rosszabbak lettek, fölbomlott a rend, sokáig kellett várni az
+               ételre. A kis Mányi követve István utasítását, nemcsak jó melegen, hanem valóságos
+               forrón adta föl az ételt, s néha el is ejtette a forró tálat. Radnóthy itt is érezte
+               István hiányát, aki oly jóízűen szokta kínálgatni, s ha igen sokat akart enni,
+               lebeszélte róla. Mányi ehhez nem tudott, aztán ügyetlenül töltögette poharát, s
+               nemegyszer földöntötte. Radnóthy vagy igen keveset, vagy igen sokat evett,
+               el-elvesztette étvágyát, s napról napra fogyott. Mányi hiába varrta föl a hiányzó
+               inggombot, Radnóthy ritkán vett tisztát, mert mindig fázott; megszokott
+               foglalatosságával, a tűzrakással is fölhagyott, mert néha füstölt a kemence, amiért
+               aztán tejeskávéját is sokszor kozmásnak érezte, még akkor is, midőn nem volt az.
+               Sokat zúgolódott, hogy a kis Mányi oly nagy parasztfoltokat vet ruhájára, s emlegette
+               Istvánt, aki úgy tudott varrni, mint egy szabó. A reggeli felöltöztetést sem engedte
+               át neki, maga öltözött föl nagy kínnal és rendetlenül; felemáson húzta föl csizmáját,
+               visszásan öltötte magára a mellényt. Jó volt úgy is, nem vette észre, s midőn a kis
+               Mányi sírni kezdett, hogy semmit sem tehet kedvére, ő is elbúsulta magát, és sajnálta
+               Istvánt.</p>
+            <p>A számtartó és lelkész, akik néha benéztek hozzá, kérték, hogy fogadjon új legényt.
+               Mindhiába. Radnóthy senkit nem szeretett, senkit sem tűrt maga körül, csak a kis
+               Mányit. István végakarata s felesége emléke kötötték hozzá. Nem is beszélt Mányival
+               egyébről, mint feleségéről és Istvánról. De mit tudott beszélni vele a kis együgyű
+               lyányka? Emlegette a boldogult méltóságos asszonyt, hogy milyen jó volt, mily szép
+               ruhában járt, mily jó gazdasszony volt, mindig számba kérte a tojást, s hogy
+               haragudott, mikor a gyöngytyúkokat ellopták. István ki is fürkészte, ki volt a
+               tolvaj, s több ehhez hasonlót.</p>
+            <p>Radnóthy mind hallgatta, sóhajtott, siratta feleségét, siratta Istvánt s elaludt.
+               Mányi folyvást beszélt, mindennap ugyanazt ismételte, s ha nem tudott tovább
+               beszélni, ő is sóhajtott és sírt, mint gazdája.</p>
+            <p>- Te, István, ugyan hány esztendős vagy? - kérdé egy estve, a sötétben Istvánnak
+               gondolva a belépő Mányit.</p>
+            <p>Mányi nem mert szólani, és gyertyát gyújtott.</p>
+            <p>- Vagy úgy! István meghalt. Szegény, éppen hatvanesztendős volt, két hét múlva én is
+               éppen annyi leszek, akkor én is meghalok. Nem hallod - folytatá fölemelkedve székéről
+               -, hogyan vonít a komondor? Ez halálomat jelenti.</p>
+            <p>- Jézus Mária! - kiáltá ijedten Mányi, gazdája lábához borulva.</p>
+            <p>- Szegény kis Mányi, sajnálsz! - szólalt meg Radnóthy megsimogatva a hű leánykát -,
+               pedig még nem is vettem neked piros kendőt. Tudod, feleségem vett volt neked, de
+               Erzsike elszakította. Ne búsulj, Mányi, ha meghalok is, a piros kendő el nem
+               marad.</p>
+            <p>A következő hét egyik estéjén rendkívül erős szelek fúttak. Rengett belé a vén ház, s
+               egyik elhagyott szélső szoba bolthajtása beszakadt.</p>
+            <p>- Ez is a halálomat jelenti - sóhajtá Radnóthy -, egy hét múlva az egész ház
+               összeomlik, akkor én már nem leszek, idézhetnek a Bezirkerek, kereshetnek a
+               csendőrök, a mennyországba nem bocsátják be őket...</p>
+            <p>A kis Mányi letérdelt, egész éjjel imádkozott, kérte az Istent, hogy ne engedje
+               összeomlani az udvarházat, és tartsa meg sokáig gazdájával együtt. Radnóthy is
+               imádkozott, és másnap fölvette az úr vacsoráját. Oly mélyen hitte egy hét múlva
+               bekövetkezendő halálát, hogy a hét végén csakugyan rosszul lett, lefeküdt és halni
+               készült.</p>
+            <p>A kis Mányi megijedt, s ki akart futni a szobából, midőn urát lefekünni látta.</p>
+            <p>- Megállj! Hová futsz?</p>
+            <p>- Orvost hívok, méltsás uram!</p>
+            <p>- Azt a vén orvost hívasd; nincs szükségem ugyan reá, de úgy rendelte István.</p>
+            <p>- Úgy, méltsás uram.</p>
+            <p>- Megállj, még egyebet is mondott István.</p>
+            <p>- A kulcsot.</p>
+            <p>- Nesze, nyisd ki íróasztalom fiókját, vedd ki belőle a legnagyobb darab
+               papiroscsomót, dugd el jól, ne lássa senki, menj be Vásárhelyre, s add át a
+               főtisztelendő püspök úrnak. Megállj, ne fuss, nesze egy arany, több nincs, a többi a
+               temetésre kell, ezt számodra tartogattam, végy rajta piros kendőt, tudod, ahelyett,
+               amelyet boldogult feleségem vett, s Erzsi elszakított.</p>
+            <p>Ezzel befordult, elaludt, s többé föl sem ébredt. A vén orvos és a főtisztelendő
+               püspök csak hűlt tetemét találták. A temetés ez utóbbi rendelése következtében az
+               elhunyt végakaratja szerint ment véghez. Temetési költségre kétezer forintot hagyott
+               készpénzben, amely összeg a végrendelethez volt mellékelve. Díszes magyar ruhába
+               öltöztetve nyújtóztatták ki diófa koporsójában, amelyet magas ravatalra helyeztek.
+               Három pap jött el szolgálni; egyik a háznál fog könyörögni, a másik a templomban tart
+               beszédet, a harmadik a sírboltnál búcsúztatja el a világtól. A marosvásárhelyi
+               diákság reggeltől estig készült a nagy harmóniára. Az ebédlőt fekete posztóval vonták
+               be, s festett címereket szögeztek a koporsó födelére. A kis Mányi a tavasz legszebb
+               virágaival hintette be a koporsót, s egész nap legyezte a halottat.</p>
+            <p>Végre eljött a temetés napja. Szép tavaszi délután volt, fényesen sütött a nap, és
+               pacsirták énekeltek a levegőben. Három óra felé megszólalt a harang, gyűlt a népség,
+               megzendült az ének, sírtak a vénasszonyok, susogtak a férfiak, s az elhunyt érdemeit
+               emlegették. Egyszer egy elfojtott zokogás erős kitörése hallatszott. Mindenki
+               odatekintett. A kis Mányi sírt, miért meg is pirongatta a gazdasszony, fülébe
+               kiáltva: “Te kis béka, még zavart csinálsz!” történt is zavar, de nem a kis Mányi
+               okozta. Midőn éppen a koporsó beszögezéséhez fogtak, beszaladt a féleszű bivalos, és
+               jelentette, hogy csendőrök vették körül a házat, akik el akarják fogni a méltóságos
+               urat. Úgy is volt. Radnóthy pöre eldűlt, s mint olyan, aki fegyvert rejtegetett,
+               közcsendet háborított, s a felsőséget több ízben a legvakmerőbben megsértette, egypár
+               évi börtönre ítéltetett. Az ügyvéd sikerrel tudta húzni-halasztani a pört, s
+               fölhasználni az ezredesné és Kahlenberger befolyását; az egésznek veszélyesebb oldala
+               már-már mintegy múlóban volt, azonban Radnóthy mindent elrontott. Szebenbe a
+               kormányzóhoz, Bécsbe a miniszterhez küldött iratai mindent fölforgattak, amit az idő,
+               befolyás és ügyvédi furfang építettek. E terjedelmes iratok egy darabig olvasatlan
+               hevertek az illető irodákban, de végre sor került rájok is. Innen is, onnan is kemény
+               parancsolat ment a kerületi biztoshoz, hogy tüstént fogassa el, s fenyítse meg e
+               vakmerő embert. Radnóthy ez újabb bűne felújította régi bűneit, s pöre sietve
+               eldöntetett. Ügyvéde többé nem tudta akadályozni elfogatását, kétkedtek betegségében,
+               s kiküldöttek érte. Ha az elhunyt él, az ítélet ellen bizonyosan tiltakozik, azonban
+               jobb volt így, legalább nem vihették még egyszer fegyver közt végig a falun, hajdani
+               jobbágyai szeme láttára.</p>
+            <p>A temetési menet megindult a templom felé. A kis Mányi, akinek sánta lábát rútul
+               megviselték a múlt napok fáradalmai, el-elmaradozott a koporsótól, s hogy lépést
+               tartson a többivel, belekapaszkodott a gazdasszony ruhájába, amiért ez újra
+               megpirongatta. “Te kis béka, itt is zavart csinálsz!” Történt is zavar, de ennek sem
+               Mányi volt az oka. Megint a féleszű bivalos botránkoztatta meg a népséget, nagyot
+               kurjantván örömében, hogy a curialistákat egzekválják. Valóban úgy is volt.
+               Radnóthynak a curialisták elleni pöre is eldűlt, éspedig kedvezően. Itt nem árthattak
+               vakmerő iratai, s az örökség reményében az ezredesné és Kahlenberger is
+               megfeszítették erejöket. Az úrbéri törvényszék visszaítélte minden elfoglalt telkét
+               és földjét, a csendőrök éppen az ítéletet hajtották végre, kiűzték a curialistákat
+               lakjaikból, és elfogták az ellenszegülőket. A kertész most legkevésbé mert
+               ellenkezni, de annál jobban átkozta Radnóthyt, amin a féleszű bivalos szörnyen
+               felbőszült, s elhatározta magában, hogy holnap jól megveri a kertészt. Kár, hogy
+               szándékát sohasem merte végrehajtani. A kertész még többet is érdemelt volna, mert
+               nemcsak átkozódott, hanem bosszúból azon éjjel az udvarházat is felgyújtotta. E tett
+               ugyan a nyomozásban nem bizonyosodott reá, de azért az udvarház tökéletesen rom lőn,
+               amelyet többé senki sem látogatott, kivéve a komondort, amely híven leheveredett a
+               tornác romjaira, várta gazdáját, és keservesen vonított.</p>
+            <p>Így pusztult el a régi udvarház, nem örökölhette senki. Ki fogja örökölni a jószágot?
+               E kérdés még eldöntésre várt. A végrendelet újabb pört támasztott. Radnóthy, mint
+               tudjuk, kitagadta leányát, s fia halála esetére mindenét a nagyenyedi főiskolának
+               hagyta. Szegény nem is sejtette, hogy végrendelete könnyen semmissé válhatik. Egész
+               1848-ig jól ismerte a köz- és magánjogot, ami azután történt, abból semmit sem
+               tudott, de nem is akart. Jól tudta, hogy az 1848-i törvények csak elvben törülték el
+               az ősiséget, s a nemesi örökösödés szabályozását a következő országgyűlésre
+               halasztották. De nem kételkedett, hogy az országgyűlés helyett, mint annyi mindent,
+               ezt is rég szabályozta Bach kormánya. Aztán vallatása alatt annyiszor hallotta a
+               nemesi és nem nemesi birtok és személy egyenlőségét, hogy lehetetlennek tartotta,
+               hogy a fiskus jogot formálhasson valamely magvaszakadt nemes birtokához. Azonban
+               1851‑ben még nem adattak ki az új örökösödési rendet szabályozó rendeletek. Szegény
+               Radnóthy egyszer alkalmazta magát az új korszak szelleméhez, akkor is
+               törvénytelenséget követett el. A fiskus rátette kezét jószágára, a nagyenyedi iskola
+               pedig pört indított. Ekkor előállott a harmadik követelő is, Kahlenberger, az
+               egyetlen Radnóthy leány férje, követelte neje anyai részét, s egyszersmind kérte,
+               hogy kegyelmes adományozás útján ruháztassék nejére az egész ősi jószág. Érvénytelen
+               lévén a végrendelet, mind követelését, mind kérését megnyerte, s hogy a nagyenyedi
+               főiskolának is jusson valami, jószántából alapítványt tett két oly tanuló
+               jutalmazására, akik a német nyelvben és irodalomban legnagyobb előmenetelt tesznek.
+               Aztán felhagyott a katonai pályával, és átvette a jószágot. Nemsoká híre-hamva sem
+               maradt, ami a régi gazdára emlékeztette volna az embert. A cselédek elszéledtek, a
+               kis Mányi Erzsi miatt nem is merte magát mutatni, és elbujdosott; a komondort
+               agyonlőtték, mert a híres apportírozó uszkárt megharapta.</p>
+            <p>Az új gazda nagy terveket forgatott fejében: reformálni akarta a jószágot és
+               civilizálni a falut. A curiális telkekre néhány württembergi családot telepített,
+               amelyek többe kerültek, mint amennyi hasznot hajtottak. Szemüveges
+               jószágigazgatójával mindent reformált, civilizált. A reform és a civilizáció miatt
+               egypár év alatt alkalmasint csőd alá kerül, ha az ezredesné meg nem hal, s így új
+               örökséget nem nyer. Most már nem félt a csődtől, s tovább folytatta a reformot és
+               civilizációt. Egyébiránt a français-t más is járja úgy, mint ő, de a polkában és
+               valcerben keresni kell párját; társai, kik sokszor látogatják, most is famoser
+               Kerlnek nevezik, az asszonyok most is mulatságosnak találják, kivéve a feleségét, aki
+               gyakran sír, s a legérzékenyebb verseket szavalja a <hi rend="italic">Wilden
+                  Rosen</hi>-ekből.</p>
+            <p>
+               <hi rend="italic">1857</hi>
+            </p>
+            <p>.oOo.</p>
+            <p/>
+         </div>
+      </body>
+  </text>
+</TEI>
