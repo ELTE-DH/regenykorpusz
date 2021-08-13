@@ -1,0 +1,2219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU16345" xml:lang="hu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A templom kulcsa</title>
+            <author ref="viaf:73060469">Tábori Róbert (1855–1906)</author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">21072</measure>
+            <measure unit="pages">50</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>A templom kulcsa</title>
+               <date>2016-12-15</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="http://mek.oszk.hu/16300/16345"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Pataky László</name>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Lipták Éva</name>
+                  <name>Baloghné Bárdos Katalin</name>
+                  <name>Mészáros Atilla</name>
+               </respStmt>
+        
+                  <bibl type="digitalSource">
+                     <title>A templom kulcsa</title>
+                     <date>2016-12-15</date>
+                     <ref target="https://mek.oszk.hu/16300/16345"/>
+                  </bibl>
+               
+         
+                  <bibl type="printSource">
+                     <title>A templom kulcsa </title>
+                     <author>Tábori Róbert</author>
+                     <pubPlace>Budapest</pubPlace>
+                     <publisher>Könyves Kálmán</publisher>
+                     <date>1893</date>
+                     <ref target="https://mek.oszk.hu/16300/16345/pdf/"/>
+                  </bibl>
+               
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A templom kulcsa</title>
+               <author>Tábori Róbert</author>
+               <date>1893</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-07-27"/>
+         <change when="2020-01-12"/>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+      <body>
+			<div type="chapter">
+            <head>
+               I. BUJDOSÓ GERGELY NÓTÁI.
+            </head>
+            <p>Nagy előnyben volt mindig a magyar, hogy kaczagni tudott hóhérjain. A legszomorúbb
+               na­pok­ban is ostort font a saját keservéből és vérig csipkedte vele kínzóit.
+               Élczének, szatirájának ilyenkor mérgezett volt a fullánkja és csaknem jobban fájt,
+               mint a kardcsapás.</p>
+            <p>...1750 körül Magyarországon már lezajlottak a Rákóczy-korszaknak utolsó mozgalmai és
+               a nemzet valahogy belenyugodott abba a gondolatba, hogy a függetlenség szép álmának
+               meg­valósulásáról részben le kell mondania. Már ezentúl csupán azt óhajtotta, hogy ne
+               hábor­gassák vallásában, alkotmányában és nyelvében. Eleget is áldozott ennek a
+               háromságnak az utolsó években. Két sziléziai háborúban hozott nagy vér- és
+               pénzáldozatot, hogy bebizonyítsa hűségét az uralkodóház iránt. Ez a két háború
+               valóságos vérkeresztsége volt a megjavult viszonynak a magyar nemzet és a
+               Habsburg-család közt.</p>
+            <p>Nem is mondhatnám, hogy Mária Terézia hálátlan lett volna a nemzet iránt. Fülébe
+               csengett mindig a „moriamur” fenkölt harmóniája, s nem volt fukar kitüntetésekben
+               azokkal szemben, akik pillangóknak beállottak az ő fényes bécsi kertjébe. Nagy becse
+               volt akkor a magyar fő­urnak - Bécsben. A kiválóbb udvari hivatalokat magyarokkal
+               töltötték be; az udvari bálokon fiatal magyar mágnások voltak az előtánczosok és sok
+               szép osztrák nemes leány esett rabul annak a csábnak, melyet az udvarképessé lett
+               magyar táncz gyakorolt. Hanem a nemzetnek az a része, mely nem mehetett el az
+               udvarhoz és nem tánczolhatott estélyein, lassanként észre­vette, hogy legjobb fiait
+               elragadja tőle az a bűbájos fiatal királynő, aki épen olyan okos volt, mint szép.</p>
+            <p>A házasság-közvetítésen kívül még egy passziója volt Mária Teréziának: a hittérítés.
+               Soha sem érezte magát boldogabbnak, mint mikor sikerült valakit az „idegen”
+               templomból a magáéba átcsalni. Vakbuzgó volt, akár csak dédapja, az a III. Ferdinánd,
+               aki harmincz évig viselt véres háborút egész Európával és saját népével, hogy
+               megvalósítsa az egy akol és egy pásztor igéjét. Hanem míg Ferdinánd erőszakos
+               eszközöket használt, Mária Terézia inkább női fortélyhoz nyúlt és ragyogó hálójába
+               fogta a szertecsapongó pillangókat.</p>
+            <p>De még hagyján, ha csak arra szorítkozott volna a bűbájos királynő, hogy a saját
+               eperajkaival apostoloskodik. Nagyobb baj volt az, hogy olyan emberek is befolyásolták
+               e tekintetben, akik az erősebb eszközöktől sem riadtak vissza. Ezek rábeszélték, hogy
+               titokban leveleket menesz­szen az ezredparancsnokságokhoz, melyekben fölszólítás
+               volt, hogy „hassanak a parancsnok urak rábeszéléssel oda, hogy a legénység hátat
+               fordítson az eretnekségnek és térjen vissza az egyedül üdvözítő valláshoz”. Mit
+               jelent a „rábeszélés” a katonaságnál, el sem kell talán mon­danom. Akadt ugyan
+               elvétve olyan parancsnok is, mint Hadik, aki azt írta vissza: „Felséges asszonyom,
+               nem tehetek eleget kivánságának már csak azért sem, mivel nem szeretném, ha a
+               katonáim nagyon megkivánnák a mennyországot. Mert én jobban szeretem, ha nem félnek,
+               sem a porosztól, sem a pokoltól.” De az ilyen csak kivétel volt és a legtöbb ezredes
+               parancs­nak vette a királynő óhajtását, sőt szabad kezet engedett a
+               regemencz-pátereknek. - Ezek aztán csodákat míveltek! Teszem például azt, hogy a
+               Jürger-ezredből a legénységnek fele meg­szökött, mert nem bírta el tovább a
+               hittérítői buzgalmat.</p>
+            <p>Ezek a dezentorok közül való Bujdosó Gergely is, akinek neve nagyon sokszor fordul
+               meg az akkori időben a hatóságok köröző- és megkereső-leveleiben. Nem mintha Bujdosó
+               Gergely futóbetyárnak felcsapott volna, amely pályára lépett a legtöbb
+               katonaszökevény, hanem még ennél is gonoszabb dologban törte fejét. Poétaságra adta
+               magát és ékes versekben irta meg, hogyan gyóntatják meg minden héten a legénységet a
+               káplárpálcza segítségével; hogyan viszik mindennap hajnali misére és szabnak rá
+               penitenczia fejében annyi bőjtöt, hogy fényes nappal is csillagokat lát az éhségtől.
+               Elkesergi a többi közt egyik versében:</p>
+            <p>Amíg a „hiszekegyet” megtanultam,</p>
+            <p> Kétszer huszonöt pálczát is kaptam.</p>
+            <p> Amig hajnali misére elkísértek,</p>
+            <p> Már csak hálni járt belém a lélek.</p>
+            <p>...Hanem a legnagyobb istentelenségre akkor vetemedett ez a romlott lelkű poéta,
+               mikor lepingálta a királynőt szerzetes-ruhában és gonosz humorral a rajz alá a
+               következő verset írta:</p>
+            <p>Nemcsak hetenkint kétszer, de mindennap</p>
+            <p> Szivesen meggyónnék, ha ilyen volna a pap;</p>
+            <p> Ölts hát páterkám asszonyi ruhát</p>
+            <p> S enged át ennek - a csuhát!</p>
+            <p>Ezt a verset a Jürger ezred páterjának, főtisztelendő Gurszki Theophil úrnak küldte
+               be, aki szörnyen felháborodott miatta. Át is adta nyomban a corpus delictit az illető
+               hatóságnak és erősen megkövetelte, hogy Bujdosó Gergelyt már nemcsak mint dezentort,
+               hanem mint felségsértőt is vegye üldözőbe. A hatóság pedig a legnagyobb buzgalommal
+               látott az üldö­zés­hez. A vármegyénél egy külön irnokot tartottak, akinek egyéb dolga
+               sem volt, mint a Bujdosó Gergely ellen kibocsátott nyomozó-leveleket másolni.
+               Valóságos legendai alakká nőtte ki magát ez a diákból katonává és katonából kóbor
+               poétává lett emberfia. Ha őt nem is csip­hették el, de nótáit mindennap énekelték
+               Gurszki Theophil uram ablaka alatt. Ugy kedvelte ezeket a nép, mint valami tiltott,
+               de nagyon édes csemegét. Hát még a csínytevései! Ezekről regéltek úri palotában ép
+               úgy, mint a legutolsó jobbágy szalmafödeles kunyhójában. Teszem, mikor mint stafféta
+               elvitte saját köröző-levelét Heves-vármegye alispánjától Csongrád-megyének egyes
+               szolgabiráihoz és elvette az érte járó kézbesítési díjat, saját aláirásával
+               nyugtázván az összeget. Vagy mikor Gurszki páter breviáriumába becsempészte a
+               tisztelendő urról szerzett gonosz paskvilt, úgy hogy a páter ijedtében az ördögöt is
+               emlegette. Az ilyen apró dolgok heteken keresztül képezték a beszélgetés tárgyát az
+               akkori eseményszűk világ­ban.</p>
+            <p>S a mellett nem hogy félt volna az őt üldöző világi és egyházi hatóságoktól, de még
+               elég vakmerő, hogy fényes nappal végig sétált a mezőtúri piaczon, holott jól tudja,
+               hogy itt minden emberfia úgy ismeri, mint a hamis máriáspénzt. Lám, a főbiró Busi
+               András uram, a mint hivatalos teendőinek bevégezte után a községházából kijön, kit
+               lát meg legelőször a saját két szemével? Senki mást, mint Bujdosó Gergelyt, a
+               körözött poétát...</p>
+            <p>Busi András uram nyitva felejtette a száját meglepetés szűlte ijedtében. Hirtelen
+               átcsapott egy mellékutczába, s miután alaposan meggyőződött, hogy nem látja senki,
+               odaintette magához a poétát és keményen rárivallt:</p>
+            <p>- Hát te mit keressz itt, boldogtalan?</p>
+            <p>- Sétálok, - válaszolá hidegvérrel Gergely.</p>
+            <p>- Tudod-e, hogy ez a sétaút egyenesen az akasztófa alá vezet?</p>
+            <p>- Már miért vezetne?</p>
+            <p>Ez a hidegvér egészen kihozta a főbirót sodrából; fölemelte ezüstgombos botját és
+               fenyegető mozdulattal odaállt Bujdosó Gergely elé:</p>
+            <p>- Tudja-e kigyelmed - (már nem tegezte) - hogy elfogathatom? S tudja-e, hogy pleni
+               potentiá­val birok, hogy vasra veressem s Egerbe küldjem, ahol már nagyon fenik
+               kigyelmedre fogukat a pápisták.</p>
+            <p>- Hát fogasson el és veressen vasra!</p>
+            <p>Busi András haragja hirtelen lecsillapult. Világos dolog, hogy ennek az embernek
+               meghibbant az esze. Már pedig bolonddal ki fog perlekedni? Inkább szép szóval kell a
+               lelkére beszélni.</p>
+            <p>- Édes fiam Gergely, - mondá szelid hangon, - hisz én nem haragszom rád, de annál
+               inkább mások! Teszem Gurszki páter uram, aki nem tudja megbocsátani azt a paskvilt, a
+               melyet róla irtál és nagy élvezettel kisérne az akasztófáig, hogy végső perczeidben
+               ellásson lelki malaszt­tal... Én pedig nem akarom, hogy községünk csúfjára ilyesmi
+               megessék veled!... No meg a verseidet is szeretem... Tedd hát meg a kedvemért és
+               hordd el magad olyan helyre, ahol kevesebb a katona és ritkább a főtisztelendő
+               jezsovita-páter.</p>
+            <p>- De mikor én épen itt, ebben a városban akarom legujabb versemet elmondani!</p>
+            <p>- Kiről szól? - kérdezte önkénytelen mohósággal a főbiró és egész arcza mosolygott,
+               mint valami nagyon jónak előérzetében.</p>
+            <p>- A királynőről.</p>
+            <p>De már erre ujból fölfortyant Busi Andás uram és haragosan rákiáltott a poétára:</p>
+            <p>- Elmész innen! Hogy te nálunk paskvilt eldeklamálj, a mi szép királynőnkről? Abból
+               ugyan semmi sem lesz! Mert ha való is, hogy néha bajt hoz a nyakunkra, azért mégis a
+               mi szerel­metes királynőnk, akiért édes örömest odaadjuk utolsó csepp vérünket!</p>
+            <p>De még ez a méltatlankodó hang sem hozta ki flegmájából a poétát; csendesen
+               válaszolt:</p>
+            <p>- Kár volt így nekibuzdulni, főbiró uram. Hát ki mondta kigyelmednek, hogy az én
+               poémám paskvil? Sőt ellenkezőleg, antik verssorokban irtam róla dicsőítő ódát, amiért
+               hogy pardont és grácziát kaptam tőle.</p>
+            <p>- Való ez, vagy pedig megint csak afféle poetica licentia, magyarán: füllentés?</p>
+            <p>- A legkomolyabb való. Ugy történt, hogy meguntam az örökös bujdosást és föltettem
+               ma­gam­ban, hogy ismét beállok a rendes polgári sorba. Fölmentem hát titokban Bécsbe
+               és kihall­gatást kértem a bűbájos felségtől... Hallja főbiró uram, szebb rózsát nála
+               még pünkösd hajna­lának csókja sem fakaszthat!... Hanem azt is mondhatom, hogy az én
+               hírnevem sem az utolsó. Ugy megbámultak a bécsiek, mintha én volnék az a bibliai
+               szörnyeteg, a leviathan, mely naponta hetvenhét emberfiát fogyaszt el csontostól,
+               bőröstül. Amint beléptem az audiencziák termébe és katonásan bókoltam, maga a felség
+               is bámulva nézett rám. „Hát kigyelmed az a hirhedt, istentelen poéta, a Bujdosó
+               Gergely - kérdezte; - nem néznék ki kigyelmedből annyi gonoszságot!”</p>
+            <p>- „Magam sem, felség” - válaszoltam szerényen. - „Az a pogány, az a lelketlen?” - „Se
+               nem pogány, se nem lelketlen, felség. Egy az én vétkem és nem több: hogy nem szeretek
+               koplalni. Ha páter Gurszki nem a bőjttel, hanem a farsanggal kezdte volna meg a
+               hittérítést, kétszer sem mondom, hogy be nem álltam volna az ő regementjébe. De az
+               éhkopot nem veszi be a termé­szetem.” A királynő mosolygott bátor válaszomon, de
+               hirtelen ismét komoly lett és folytatá az inkvizicziót: „Hát a felségsértés? hát
+               enszemélyünknek csufondáros kigúnyolása?” - kérdezte élesen. - „Itélje meg maga,
+               felség, van-e ebben gúny? - mondottam és felmutattam a rajzot, melyet róla
+               készítettem és a hozzá való verset, - hát gúny ez? Való tény pedig, hogy
+               király­nőjének minden katona szivesebben tárja föl lelkét, mint holmi mogorva
+               regemenczpáternak!” - A királynő elnevette magát és láttam, hogy jól esik szivének a
+               hízelgő szó. - „Nagy selma kigyelmed, Bujdosó Gergely, - mondá, - de látom, hogy
+               mégsem olyan gonosz csont, mint a milyennek lefestették én előttem. Hát pardonirozok
+               kendnek a szökésért, és elnézem azt is, hogy perduellioba esett. De jövőben okosabban
+               viselje magát, s ha már minden áron poétás­kodni akar, irjon inkább szent énekeket.”
+               - „Teszem a Dávidné zsoltárait!” gondoltam magamban, de volt annyi eszem, hogy ki ne
+               mondjam, mert tudom, hogy a religió dolgában nem érti a tréfát a felséges
+               asszony.</p>
+            <p>- Igy hát amnesztiát kaptál, Gergely fiam? - kérdezte nagy lelki örömmel a biró.</p>
+            <p>- Azt! - válaszolt fanyar mosolylyal a poéta, - rátették a jóság lakatját a számra és
+               muzsám ezentúl csibéket fog költeni, nem pedig sasokat...</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               II. A RÓKABŐR ÉS AZ ARANY.
+            </head>
+            <p>A főbirót egészen fölvillanyozta ez a legujabb „bécsi posta” és bátran kikanyarodott
+               ismét a főtérre, ahonnan elneszelt, nehogy Bujdosó társaságában meglássák. Busi
+               András uram ugyanis erkölcsi bátorság dolgában nem hasonlított Catohoz és nem
+               szerette az üldözöttek ügyét magáévá tenni. Annál inkább szított azokhoz, akikre
+               rásütött a legfelsőbb kegynek napja! Most, hogy a poéta „udvarképes” lett, még
+               érdekes ember is vált belőle főbiró úr sze­mében. Oly annyira, hogy karon fogta s úgy
+               sétált vele a főpiaczon, nagy bámulatára mind­azoknak, akik szemközt jöttek és
+               ismerték ugy az ő fogyatékos bátorságát, mint Bujdosónak viselt dolgait.</p>
+            <p>- Mi ujság egyébként Bécs városában? - kérdezte, hogy legyűrje azt a furcsa érzést,
+               melyet a sok csodálkozó tekintet benne keltett.</p>
+            <p>- Van ott nova vetera és vetera nova[1] - válaszolt ékes
+               latinsággal a poéta.</p>
+            <p>- Hogy-hogy?</p>
+            <p>- Először is Törő Pál kurátor uramnak a Gyula fiával találkoztam. Fölvitte Isten a
+               dolgát - de nem hiszem, hogy kurátor uramnak öröme telnék ebben a mondva csinált
+               nagyságban.</p>
+            <p>- Igaz-e, hogy alkalmazást kapott az udvari kanczelláriánál?</p>
+            <p>- Hacsak ennyi volna! Ez a fiú valóságos talentum, igazi lángész.</p>
+            <p>- Mi lett belőle? Bökd hát ki!</p>
+            <p>- Magukhoz kaparintották a tisztelendő jezsovita-páterek és beavatták minden
+               tudományukba. Mondják, hogy provincziálisnak van kiszemelve Magyarországba, de idővel
+               még a rendnek generálisa is lesz belőle.</p>
+            <p>- Szegény kurátor! - sajnálkozott némi kárörömmel a főbiró. Amely nyájaskodó érzésnek
+               az volt a nyitja, hogy Törő Pál volt legnevezetesebb riválisa a főbiróság körül. De
+               mégis győzött benne a jobbik ember és őszinte részvéttel folytatta: - Mennyire
+               bánthatja ez a dolog!</p>
+            <p>- Ki tudja? Olyan ő, mint az igazi aczélpenge, amely nem tűri meg magán a rozsdát.
+               Abban a pillanatban, mikor sejtette, hogy fia nem halad az ő igazi útján, úgy kitépte
+               lelkéből, mintha soha sem gyökerezett volna benne.</p>
+            <p>- Talán mégis jobb lett volna, ha megengedi, hogy feleségül vegye a Zorkát?</p>
+            <p>- Annak a vérengző Szegedinácz Perónak a leányát, a vadráczok királyának a vérét? Aki
+               miatt másodszor költöztünk ki városunkból, mivel megesküdött, hogy menten nyársba
+               huzat mindenkit, aki nem esküszik az ó-hitre?</p>
+            <p>- Hogyan került mégis össze ez a két gyerek? - kérdé kiváncsian a főbiró. - Kigyelmed
+               mindenbe be van avatva, Bujdosó Gergely uram, s elmondhatná nekem, amit erre nézvést
+               meg­tudott.</p>
+            <p>- Hát úgy történt, hogy kurátor uram, mint legényember épen az aradi vásáron járt,
+               mikor ott Perót asszonyi csel folytán lefülelték. A nagy had, mely a rácz vezér körül
+               összesereglett, úgy szétfutott erre, mint a polyva, mikor közécsap a szél. Elhagyta
+               az egész világ Perót és csak egy asszony maradt hű hozzá: a saját felesége.</p>
+            <p>- Hát házas volt Peró? - kérdezte a főbiró, - viselt dolgai után azt hittem, hogy
+               szabadon élt, mint az ég madara.</p>
+            <p>- Megesküdött ő minden községben legalább két asszonynyal. Hisz éppen abban rejlett
+               hatal­mának varázsa, hogy megengedett hiveinek annyi asszony-tartást, ahányat el
+               tudnak tartani.</p>
+            <p>- Pokoli fajzat! - méltatlankodott Busi András uram.</p>
+            <p>- Meg is adta az árát a sok trafikálásnak. Épen azon mult, hogy nem lett Bánátország
+               királya, mivelhogy Aradon fecsérelte idejét szép asszonyok társaságában. (Hej pedig
+               milyen szépek ott az asszonyok! - sóhajtott in parenthesim a poéta.) De mikor bajba
+               keveredett, csak egy asszony maradt hű hozzá: a régi felesége: a legelső. Nem
+               tágított a kocsitól, a melyen urát lánczra verve vitték Budára, s bár gyalog ment,
+               gyermekteherrel a hátán és a katonák is el­kergették, hűségesen járt utána, a mig
+               csak erővel győzte.</p>
+            <p>- Szegény asszony! - sóhajtott a főbiró, akinek lágyszivűségét ismerte mindenki.</p>
+            <p>- Épen Mezőtúr alatt történt, hogy az asszony, nem birván tovább a gyaloglást,
+               összeroskadt. Ott halt volna meg az útszélen, s vele együtt éhen a gyermeke is, ha a
+               véletlen Törő Pált oda nem vezérli. Kemény embernek látszik a mi főkurátorunk, de
+               alapjában olyan gyengédszivű, hogy nem is nézheti a mások szenvedéseit. Fölvette a
+               beteg asszonyt és gyermekét kocsijába és elhozta magával.</p>
+            <p>- A saját balsorsát hozta be négy lovon, - jegyezte meg a főbiró.</p>
+            <p>- Lehet... de ezzel sohasem törődött Törő Pál, mikor kötelességről volt szó. Denique
+               az asszony meghalt a rákövetkező éjjel; hanem halála előtt addig rimánkodott Törő
+               Pálnak, hogy ne hagyja el leányát, míg ez meg is igérte.</p>
+            <p>- S meg is tartotta igéretét a mai napig, - veté közbe az elismerés hangján a főbiró.
+               - Mert ha nem is engedte meg, hogy fia elvegye a Zorkát, a vérnek és hitnek
+               különbsége miatt, de megtűrte házában, fölneveltette és úgy gondozza, mintha a saját
+               leánya volna. Ámbátor erre nézvést is különféléket rebesgetnek az emberek...</p>
+            <p>- Nagy bolondokat! - vágott közbe Bujdosó Gergely. - Hallottam már erről is
+               félfüllel: hogy a leány bele volna bolondulva nevelőapjába s azért nem akart menni
+               feleségül Gyulához.</p>
+            <p>- De még azt is rebesgetik, hogy kurátor uram is jó szemmel nézné a leányt.</p>
+            <p>- Bolond beszéd! Ha igaz volna, mi akadályozhatná meg abban, hogy feleségül
+               vegye?</p>
+            <p>- Csakugyan, mi akadályozhatná? - merengett a főbiró; aztán szünet mulva folytatta. -
+               De most halljuk „az új régiséget,” amit említettél? Miben áll az?</p>
+            <p>- Valami rendelet-féle, még II. Ferdinánd idejéből való, amelyet suttyomban
+               megujítottak. Bolond egy história és inkább kuriózum számba megy, ámbátor éle nekünk
+               volna szánva.</p>
+            <p>- Mire vonatkozik? - kérdezte a főbiró.</p>
+            <p>- A templom kulcsára.</p>
+            <p>Busi András uram meghökkent erre a szóra.</p>
+            <p>- Beszéld csak tovább, Gergely fiam, - mondá kissé izgatottan, - nagyon érdekel a
+               dolog.</p>
+            <p>- Ha annyira érdekli, el is mondom. Azt parancsolja ez a régi rendelet, hogy amely
+               református templomnak kulcsát csak egyetlen egyszer is önkényt tették le az illető
+               egyháznak gondnokai katholikus papnak kezébe, úgy, hogy ez benyithatott vele a
+               szárnyas ajtón, az a templom ezentúl és örökre a katholikusoké marad.[2]
+            </p>
+            <p>A főbiró olyant rántott e szavak után Bujdosó karján, hogy ez csakúgy sajgott bele.
+               Busi András arcza előbb karmazsinpiros lett, nyomban rá fehér, mint a frisen esett
+               hó. Megcsuklott hangon kérdezte:</p>
+            <p>- Való volna ez... vagy csak tréfa?</p>
+            <p>- Nem szoktam én az effélékkel tréfálni - vágott vissza Bujdosó.</p>
+            <p>- De hát a templom kulcsa...</p>
+            <p>- Jogot ad magára a templomra is, föltéve, hogy a pap megadta és a kurátor elfogadta
+               az érte járó váltságdíjat is.</p>
+            <p>- Miben áll ez? - lihegett, csaknem magánkívül a főbiró.</p>
+            <p>- Ez aztán az igazi furcsaság! Egy körmöczi aranyból és egy rókabőrből áll a váltság
+                  díja.[3]
+            </p>
+            <p>A főbiró fölemelte ökölbe szorult hatalmas markát és olyant csapott vele a saját
+               koponyájára, hogy csak ugy rengett bele. Aztán vérbeborult tekintettel, magából
+               kikelve, üvöltött:</p>
+            <p>- Megölöm a nyomorultat! Vérét iszom!</p>
+            <p>- Főbiró uram, mi ütött kigyelmedhez? - kérdé bámulva Bujdosó Gergely.</p>
+            <p>- Rászedett! Megcsalt! Csúffá tett! - toporzékolt a nekivadult ember.</p>
+            <p>- Kicsoda?... Térjen magához! hisz már felénk néz az egész publikum.</p>
+            <p>- Nem lehet! Megölt, ellopta üdvösségemet!</p>
+            <p>- Kiről beszél?</p>
+            <p>- Arról a páterről... Ő már tudta, hogy megujították a régi ediktumot, mikor hozzám
+               eljött és mézes-mázas szóval rám sózta a Judás-díjat.</p>
+            <p>- Miféle Judás-díjat?</p>
+            <p>- A körmöczit, meg a rókaprémet.</p>
+            <p>Most a poéta ijedt meg igazán.</p>
+            <p>- Csak nem fogadta el kigyelmed? - hebegett.</p>
+            <p>- De biz elfogadtam! Mikor olyan szívrehatóan ecsetelte előttem a katonák lelki
+               nyomorú­ságát, akik a szomszéd retormátus községekben szétszórva élnek, s álló egy
+               esztendeig nem részesültek templomlátogatásban. Hát pogány vagyok én, hogy ennek
+               ellenálljak!?</p>
+            <p>- De az arany? a rókabőr?</p>
+            <p>- Azt mondta a róka, hogy az aranyat adjam a szegények perselyébe, a rókabőrt pedig
+               tiszteletes Polgár Mihály uramnak, a mi prédikátorunknak, hogy lekenyerezzem vele. Én
+               azt hittem, hogy Bécsben is jó szemmel nézik majd, ha kisegítem a katonaságot
+               zavarából, s ezzel használok a közügynek... Honnan tudtam volna, hogy ide lyukad ki
+               Gurszki uram furfangja?</p>
+            <p>Gyönge emberek szokása szerint most hirtelen a düh eksztázisából a másik végletbe
+               csapott át Busi András: zokogni kezdett.</p>
+            <p>- Nem fogom ezt túlélni! Meghalok! Hogy is bízhattam szavában?</p>
+            <p>- Bizony nagy sor ez! - mondá búsan Bujdosó Gergely. - De utóvégre még nincs
+               végrehajtva a dolog és lehet ellene apellálni.</p>
+            <p>- Hova? Bécsbe?</p>
+            <p>- Oda ugyan hiába apellálnánk! hanem azt tartom, hogy a megye nem nézi majd
+               közönyösen a dolgot. Igaz ugyan, hogy ott is a pápisták vannak többségben, de ez nem
+               változtat a dolgon.</p>
+            <p>- Hogy is ne változtatna!</p>
+            <p>- Beszélhet kigyelmed nekem akármit, de én jobban ismerem véreimet! Lehet a magyar
+               különböző vallás dolgában, de hazafias érzésben mindenkor egy volt. S ha arról van
+               szó, hogy alkotmányban gyökerező jogát megvédje, akkor pápista és református egy
+               sorba áll Bécs ellen!</p>
+            <p>A főbiró még jobban megrémült erre a szóra.</p>
+            <p>- Ugyan, édes fiam Gergely, - mondá csaknem könyörgő hangon, - hogy beszélhetsz igy
+               Bécs ellen?</p>
+            <p>- Már miért ne beszélnék? - berzenkedett a poéta.</p>
+            <p>- Hát elfelejtetted, hogy csak most kaptál amnesztiát?</p>
+            <p>- Kapott a... majd megmondom, hogy kicsoda!</p>
+            <p>A főbiró hüledezve nézett rá.</p>
+            <p>- Hát nem voltál Bécsben? - kérdezte fogvaczogva.</p>
+            <p>- Még külső kapuját sem láttam soha annak a feketesárga városnak!</p>
+            <p>- Tehát mindaz, amit nekem a bűbájos királynőről és a nagy kegyről beszéltél...</p>
+            <p>- Nem volt egyéb poétikai nekirugaszkodásnál. Elgondoltam magamban, hogy mily szép
+               volna, ha csakugyan így volna, s addig-addig gondoltam magamban, míg csakugyan
+               elhittem, hogy már valósággal úgy van.</p>
+            <p>Busi Andrást erre a kijelentésre úgy elfogta a reszketés, hogy valamivel nagyobb
+               távolságból, sétáló kocsonyának lehetett volna őt nézni.</p>
+            <p>...Tehát nem elég, hogy elvétette a városnak és az eklézsiának a dolgát, még ilyen
+               főbűnössel és notórius felségsértővel karonfogva is sétált végig az utczán.</p>
+            <p>Ha ezt megtudják Bécsben, amazt pedig a városban!</p>
+            <p>S tetőzte még fájdalmas elkeseredését, hogy Bujdosó Gergely, látván az ő tökéletes
+               megpuhu­lását, nem átallotta kijelenteni:</p>
+            <p>- A baj megtörtént s nem segíthet már rajta csak egy ember. Az, akinek a lelke aczél,
+               a karak­te­re gyémánt és az akarata vas. Keressük föl Törő Pál uramat, ő talán tud
+               okos tanácsot adni.</p>
+            <p>Ugy belecsapott ez a mondás a főbiróba, mintha istennyila lett volna. Hát még ez
+               is?</p>
+            <p>A szerencsétlenség után a megaláztatás!</p>
+            <p>De nem mert ellenmondani. Meg volt törve és minden eszméjéből kiforgatva. Gépiesen és
+               csak­nem pityeregve, mint a gyermek, a mely a veréstől fél, hagyta rá:</p>
+            <p>- Menjünk az aczél-emberhez!</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               III. AZ ACZÉL-EMBER HÁZATÁJA.
+            </head>
+            <p>A templom előtti térnek jobb szögletén látható még ma is, több mint 140 esztendő
+               multán, az a ház, amelyben Törő Pál egykor lakott. Való tény pedig, hogy egy erős
+               szellem átviszi jelle­mének sajátságait környezetére, s ezek még akkor is érvényben
+               maradnak meg, mikor ő maga már rég megszűnt lenni. Olyan ez, mint a finom szultán
+               rózsaolaj, mely egyetlen cseppjével ötven esztendőre is illatossá tesz egy egész
+               ruhaszekrényt. S mi sajátképen a környezet egyéb, mint az erős jellemnek önkészítette
+               ruhája?</p>
+            <p>Ez a ház még most is olyan, hogy megáll előtte az idegen és nézi sokáig, várva azt,
+               hogy mikor lép ki kapuján egy a mindennapi alakoktól elütő egyéniség. Emlékeztet a
+               régi nemesi kuriákra, holott minden időben csakis polgárok laktak benne. De polgárok
+               a szónak legszebb és legnemesebb értelmében. Akiknek otthonában a közjó volt a
+               legelső és a legszentebb tör­vény s az ártatlanul üldözött mindig menhelyre talált,
+               ha nem is birt a hajlék a nemesi kuriák ismeretes előjogával. Van azonban mégis olyan
+               czímere, mely a magyar heraldikában fölér a Montmorency-k ősi jeligéjével: egy kis
+               vastábla, az idők rozsdájától elemésztve, de még sem annyira, hogy ki ne lehetne
+               betűzni a következő felirást:</p>
+            <p>„Ezen a kapun lépett be II. Rákóczy Ferencz, Magyarország vezére és Erdély fejedelme,
+               mikor Mezőtúr városában időzött.”</p>
+            <p>Pedig olyan alacsony ez a kapu, hogy középtermetű ember könnyen beleütheti fejét a
+               bolt­ívbe; csakhogy nem volt mindig ilyen. Egykor Törő Pál, a ki a hagyomány szerint,
+               a rendes emberi mértéket fölülmulta, úgy testi, mint lelki nagyság dolgában, ki- és
+               bejárhatott rajta, anélkül, hogy fejet hajtott volna a tömör gránit előtt, mely a
+               boltívet képezi. De hát olyan ez a mi jó földünk, hogy az emberek szerint idomul,
+               melyek rajta uralkodnak. Megnőtt a föld, mióta kisebbek az emberek. Ezt az alakok is
+               mutatják, melyek ma félig be vannak süppedve a talajba, holott egykor tornáczszerűen
+               emelkedtek ki belőle...</p>
+            <p>Törő Pál idejében a kapubejárat jobbján és balján lőrések is voltak és hatalmas
+               vasrács fogta körül az ablakokat. Ma már eltünt ez a harczias jelleg és virágos kert
+               mosolyog az arra menőre. Mondják, hogy a virágos kertben, a legszebb rózsabokor alatt
+               pihen Törő Pál, akinek holttestét éjnek idejében lopták el hívei a vesztőhelyről és
+               ide temették háza elé. Annyi bizo­nyos, hogy valamennyi rózsa haragos piros szinű,
+               mintha az igaztalanul ontott vért jelképezné.</p>
+            <p>Az udvarra lépve, valóságos vadonba jut az ember. Százados fák olyan sürű árnyékot
+               vetnek, hogy déli órában is csak elvétve hatol keresztül a lombon egy-egy napsugár.
+               De azért olyan tisztaság uralkodott ott, hogy még a lehulló falevelet sem engedték a
+               földön megrozsdásodni, hanem elvitték azonnal, a mint az ágtól megvált, egy félreeső
+               helyre, ahol a levélnek külön temető jutott egy gránitkoczkákkal kipárnázott
+               gödörben. Egyetlen ösvény vezetett a kaputól a háznak előcsarnokához, amelynek falára
+               egy férfias kéz régesrégen erős betűkkel fölírta ezt a különös jelmondást:</p>
+            <p>„Lánczon tartsd szívedet, azt a mindig éhes farkast.”</p>
+            <p>Törő Pál első felesége után rokonságban volt Busi Andrással, de e magyar rokonság
+               daczára sohasem volt valami benső viszony a két férfiú közt. Törő nem szerette a
+               jobbra is, balra is tekintő embereket, Busi pedig félt sógorától, a kinek nézése
+               olyan volt, hogy a vesékig hatolt. Évek óta ma lépte át először küszöbét; most is
+               olyan érzéssel, mint a bűnös, mikor birája elé áll és mérlegeli magában a büntetés
+               nagyságát. Mindenesetre kellemetlen érzés az ilyen, és Busi András, a gyenge emberek
+               szokása szerint, gyűlölte azt, aki kellemetlen érzést keltett benne.</p>
+            <p>A főkurátor úgy fogadta a váratlan vendégeket, mintha csak előre be lettek volna
+               jelentve. Egyetlen arczizma sem árulta el azt a csodálkozást, melyet okvetlenül
+               éreznie kellett ebben a pillanatban, mikor olyan két különféle emberi species, mint
+               Bujdosó Gergely és Busi András jön hozzá látogatóba. A cselédre, aki nem hódolt
+               annyira mint ő a „nil admirari” elvének és kissé illetlenül tátotta el a száját,
+               ráparancsolt, hogy hozzon a pinczéből egy kis szíverősitőt, aztán bevárta
+               hidegvérrel, míg a jövevények maguk elmondják a látogatásnak okát és czélját.</p>
+            <p>Ez pedig nagy kegyetlenség volt tőle, a melyet a főbiró soha sem fog neki
+               megbocsátani. Végre is - mit tehetett volna egyebet? - nyögve és hebegve tért a
+               dologra és egész halmaz körül­irással adta elő az ő furcsa esetét.</p>
+            <p>Kissé összeránczolta márványsima homlokát a főkurátor s mintha haragos sugár lövelt
+               volna szemeiből a vergődő és panaszkodó emberkére. De azért uralkodott magán s nem
+               sújtotta még jobban szemrehányó szóval azt, aki úgy is már nagyon meg volt
+               alázva.</p>
+            <p>- Vártam ilyesmit, - mondá nyugodt hangon, de minden gúny nélkül.</p>
+            <p>- Honnan tudhatta? - kérdé Bujdosó Gergely.</p>
+            <p>- Onnan, hogy főtisztelendő Gurszki Teophil uram nem szokott ok nélkül református
+               ember­nek a házához eljárni.</p>
+            <p>A főbiró szeretett volna a föld alá sülyedni elkeseredésében. Megszánta őt a poéta és
+               segít­ségére jött.</p>
+            <p>- De ugyebár, még lehet a dolgot valamiképen nyélbe ütni? - kérdezte tettetett
+               vidámsággal. - Ha a főtisztelendő rókabőrrel csapta be a főbiró uramat, adhatunk mi
+               neki cserébe egy kis rókafurfangot, amely megprüszkölteti.</p>
+            <p>- Ezzel ugyan nem sokra megyünk, - válaszolt a főkurátor, - mert ilyesmiben ők
+               erősebbek nálunk. De azért mégis részünkön van egy nagy előny.</p>
+            <p>- S melyik az?</p>
+            <p>- Az igazság!</p>
+            <p>Bujdosó Gergely szomorkodva rázta fejét, mintha adott körülmények közt nem nagyon
+               bízna ebben az előnyben.</p>
+            <p>- S hiszi, hogy győzni fog? - kérdezte.</p>
+            <p>- Tudom!</p>
+            <p>Ez az egy szó úgy hangzott ajkairól, mintha a szív mélyéből jönne, a hol a
+               meggyőződés lakik. S valóban onnan jött. Ez az ember nem csap vásárt az igazsággal,
+               nem alkuszik meg fölötte, hanem nekimegy a sátánnak és letöri az öklelő szarvát.</p>
+            <p>- S mi a módja? - kérdé halkan, de mégis új reményt táplálva a főbiró.</p>
+            <p>- Csupán egy: ha ők csellel jönnek, mi az igazság vértjét tartjuk magunk elé; ha
+               pedig erőszakot próbálnak, mi is fegyverrel állunk ellene. Lehet, hogy elvérzünk a
+               harczban, de igazságos ügyünk győzni fog.</p>
+            <p>Busi Andrást ismét elfogta az ideges reszketés. Sehogy sem tetszett neki ez a
+               vaskövetkeze­tesség.</p>
+            <p>- Tehát harcz? - kérdezte vékony hangon és dideregve húzta összébb mentéjét, - hát
+               csak­ugyan ez volna az egyetlen módja? Én jobbnak tartanám, ha előbb megkisérelnők a
+               békés egyezkedést.</p>
+            <p>A főkurátor büszkén kiegyenesedett és most lehetett igazán látni, mennyivel nagyobb ő
+               a másiknál. Aztán mély hangján, mely úgy zengett, mint az orgona, válaszolt:</p>
+            <p>- Próbálja meg kigyelmed azt, a mit jónak lát. De ha nem sikerül az egyezkedés, akkor
+               majd én állok elő.</p>
+            <p>- Mit tehet kigyelmed? Hisz ha nekik tetszik, egy egész ezred katonaságot küldenek
+               nyakunk­ra. Nem lesz tanácsos ilyen térre vinni a dolgot.</p>
+            <p>- Én nem viszem, de ha valaki engedelmem nélkül be akar lépni abba a szentegyházba,
+               amelynek én vagyok a főgondnoka, akkor...</p>
+            <p>- Akkor?</p>
+            <p>- Vessen magára a következményekért!</p>
+            <p>- Mit fog kigyelmed tenni?</p>
+            <p>- Oda állok a templom ajtajába, én magam és a jó kardom. Aki pedig akaratom ellenére
+               mégis ráteszi kezét a templom kilincsére, úgy segítsen a teremtőm, hogy levágom kezét
+               töviből.</p>
+            <p>Végig harsogott ez a mondás a szobán, pedig nem is volt valami nagy hangon elmondva.
+               Egészen betöltötte a szobát, s még ki is hatolt az utczára, ahol az emberek
+               meghallották és megállottak érczes zengésére.</p>
+            <p>A főbiró idegesen felkaczagott.</p>
+            <p>- Mit ér vele? - kérdezte tompa hangon, - az egy levágott kar helyébe jön ezer más s
+               lesz közte olyan is, mely nem elégszik meg a templom kilincseivel, hanem a fejünk is
+               kell majd neki.</p>
+            <p>Hadd hulljon a porba az is, ha így van megírva a sors könyvében... de szentegyházunk
+               jogait, amelyekért apáink annyit szenvedtek, nem engedem megcsorbítani.</p>
+            <p>- Mártirságra vágyik kigyelmed? - gúnyolódott a főbiró. - Ám legyen, ha kedve telik
+               ilyes­miben! De azt csak meggondolhatná, hogy nem csupán kigyelmedről van itt szó,
+               hanem az egész városról.</p>
+            <p>- Nem hívok magam mellé senkit sem segítségűl. Kigyelmed se jőjjön velem. Legyen az
+               egész koczkázat az enyém.</p>
+            <p>A poéta lelke magasra szárnyalt e pillanatban. Oda állott a főkurátor mellé, mintha
+               már harczolni kellene, s így szólt meleg hangon:</p>
+            <p>- Én is kigyelmeddel tartok, főkurátor uram. Csak szegény kis czinege vagyok ugyan,
+               szere­tem az életet is, de még sem annyira, hogy félteném a bőrömet, mikor igazságos
+               ügyről van szó.</p>
+            <p>Nem volt többé szó a templom kulcsáról. Busi András uram épen csak annyi ideig maradt
+               még, a mennyit az illendőség megkivánt látogatások alkalmával. Mikor eltávozott, nem
+               nyúj­totta kezét sógorának; talán azért, mivel sejtette, hogy ez el sem fogadná.</p>
+            <p>Amint hazaért, rögtön hosszú levelet írt, gondosan lepecsételte azt és ráírta a
+               czímet:</p>
+            <p>„Főtisztelendő és szentéletü Török Gyula uramnak, a jezsuita-rend tagjának
+               Bécsben.”</p>
+            <p>Mikor készen volt az irással, sokáig nézte a czímet és mélyen elgondolkozott. Arczán
+               visszás érzelem küzdött s kétszer is olyan mozdulatot tett, mintha el akarná tépni az
+               irást. De még sem tette. Egyszerre csak így szólt:</p>
+            <p>- Mentsük meg legalább veszett fejszének a nyelét!</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               IV. ZORKA.
+            </head>
+            <p>Bujdosó Gergely nem ment el a főbiróval, hanem ott maradt Törő Pál házánál. Mert
+               amint ő is távozni akart, a kurátor marasztotta:</p>
+            <p>- Szavam volna még kigyelmedhez, Bujdosó Gergely uram.</p>
+            <p>A poéta leült az asztalhoz és leste, mikor szólal meg ismét a háziur. De ez már,
+               úgylátszott, újból megfeledkezett vendége jelenlétéről, mert nem folytatta a
+               megkezdett beszélgetést, hanem nagy léptekkel sétált föl-alá a szobában, és arczán,
+               valamint domború homlokán látni lehetett a gondolatok nagy munkáját. Bujdosó végre is
+               megunta a ránézve nyomasztó és tétlen csendet. Az ezüstkapcsos biblia után nyúlt,
+               mely akkori jó szokás szerint keze ügyében hevert egy állványon és lapozgatni kezdett
+               a szent könyvben.</p>
+            <p>Egészen belemélyedt az olvasásba, annyira megkapta az a mély és igazi költészet, mely
+               abban a könyvben évezredek óta le van téve. Megfeledkezett környezetéről, a lelki
+               küzdelmekben föl s alá járkáló férfiúról, egészen átengedte magát a nagy varázsnak,
+               melyet akkori időkben a vallás mindenkire kivétel nélkül gyakorolt.</p>
+            <p>A mai korban talán különösnek is fogják találni, hogy ez az anakreoni lelkületű
+               poéta, akinek könnyelműség volt egész élete s aki az élvezetet imádta, annyira
+               rajongó volt mégis hit és vallás dolgában, hogy föl is tudott magasztosulni a
+               prófétai ihletig. Hisz a jelen században a sejtést, a költészetnek e legnemesebbik
+               részét már egészen kitörölte a költők lelkéből a rideg, csapongást nem ismerő tudás.
+               Nincs már hely a hit számára ott, ahol a logika fegyverével kergetik ki az emberből a
+               vágyat egy ismeretlen jobb hon után, és bebizonyítják, hogy a kép­ze­letnek világában
+               elkalandozni nem egyéb, mint renyhe, üres időfecsérlés. Az a poéta, aki az elvesztett
+               paradicsomot megsiratta, még reményt táplált, hogy ujból feltalálja: de a mi
+               köl­tőink már nem is keresik, kutatják a módját, mert nem hisznek benne. Odatapadtak
+               minden érzésükkel a száraz röghöz, s kihalt bensejükből az a vágy, mely az embert
+               arra készti, hogy fölfelé tekintsen.</p>
+            <p>De abban az időben a „religio” szó még olyan volt, mely fölkavarta, indulatba hozta
+               és lángra gyújtotta az emberek szívét és lelkét. A vallásos láz, mely a középkor vége
+               felé és az újkor elején az emberiséget gyötörte, utolsó vibráczióiban a legerősebb
+               volt. 30-40 évvel később már helyet adott a közönynek; de akkor még rombolt,
+               pusztított és boldogított.</p>
+            <p>Egészen belemelegedett Bujdosó Gergely a szent sorok olvasásába és mintha édes
+               álomból riasztanák föl, úgy megdöbbent, mikor hirtelen megszólalt egy kemény
+               hang:</p>
+            <p>- Zorka!</p>
+            <p>A főkurátor ott állott a nyitott ajtóban és kiszólt a folyosóra gyámleányának. Arcza
+               még sápadtabb volt mint rendesen és homloka közepét ketté szelte egy erős
+               ránczmélyedés.</p>
+            <p>A következő pillanatban belépett a szobába a szólított leány. Szakasztott az a Judit,
+               akiről ép most olvasott a poéta a bibliában. Karcsú, deli alak, barnába hajló
+               arczszín, éjsötét szemek, lágyan hullámzó fekete haj és erős akaratnak kifejezése a
+               szájacska szegletében. Egyszerű házi ruhát viselt, de ez sem tudta leszedni róla a
+               királynői méltóságot, mely minden mozdu­la­tában kifejezésre jutott.</p>
+            <p>Megállott Törő Pál előtt és úgy nézett rá nagy fekete szemeivel, amint nem szokott
+               leány az apjára, emberfia a jóltevőjére tekinteni. Ellenállás volt minden idege és
+               előre megtagadása annak, amit ez a férfiu tőle követelni fog.</p>
+            <p>Bujdosónak eszébe jutott az a pletykaszó, amely hireszteli, hogy ez a két lény
+               egymásba szeretett volna. „Ugyan, ki lehetett az a hülye, a ki ilyesmit komponált? -
+               gondolta magában, - hisz ezek úgy néznek egymásra, mintha halálos ellenségek
+               volnának... Akkor már inkább elhiszem, hogy Zorka a Gyulába szerelmes!”</p>
+            <p>De ebben a hitében sem hagyták meg sokáig. Törő Pál megszólította a leányt:</p>
+            <p>- Ülj le gyermekem, fogd kezedbe a tollat és irj!</p>
+            <p>- Kinek írjak, apám?</p>
+            <p>- Minek kérdezed? Hisz úgy is tudod!</p>
+            <p>- S te minek akarod, hogy neki írjak, mikor úgy is tudod, hogy ez az egyetlen dolog,
+               amiben nem engedelmeskedem neked soha... soha!</p>
+            <p>Szenvedélyes szilajság csengett a leány szavaiból, lángolt föl tekintetében és
+               tágította nemes orrczimpáit. Alakja azonban szoborszerű merevségben állott most is
+               azon a helyen, ahova a szobába jöttekor lépett; el nem mozdult onnan egy arasznyira
+               sem.</p>
+            <p>- Hallgass meg leányom, - mondá szokatlan lágysággal a kurátor; - amit neked most
+               mondani fogok, az olyan dolog, amit tőlem még nem hallott ember: könyörgés és
+               segélykérés lesz benne.</p>
+            <p>A leány izgett-mozgott. Fájt neki ez a hang, jobban mint az előbbi parancsszó. Futó
+               tekintetet vetett a némán ülő poétára, s ki volt benne fejezve a kérdés: „hát ez mit
+               akar itt?”</p>
+            <p>Törő Pál megértette a kérdést s megadta rá a választ:</p>
+            <p>- Én akartam, hogy itt maradjon és tanúja legyen mai beszélgetésünknek. Kell nekem
+               egy ember tanúsága, akinek szíve éppen a veszély idejében fölkereste az enyémet,
+               önként föl­kereste! Mert tudd meg Zorka Bujdosó Gergely velem akar tartani a nagy
+               munkában, amelyet magamra vállaltam.</p>
+            <p>A leány odament Bujdosóhoz és hálásan ajkaihoz szorította jobbját, mielőtt a
+               meglepett poéta ellenállásra gondolhatott volna.</p>
+            <p>- Mennyi ideje, hogy nem beszéltünk arról a dologról? - kérdé halkan a kurátor és
+               hangja reszketett.</p>
+            <p>- Husvét első napján lesz épen két esztendeje, - válaszolt szemlesütve és elpirulva a
+               leány.</p>
+            <p>- Most itt az ideje, hogy megtörjem a hallgatást. Ennek az embernek mindent meg kell
+               tudnia, hogy megitélhesse cselekedeteimet és... tanácsot adhasson.</p>
+            <p>Bujdosó bámulva szökött fel helyéről:</p>
+            <p>- Én, tanácsot? kigyelmednek?</p>
+            <p>- Ugy-e csodálkozol fiam? - mondá szomorú mosolylyal a kurátor, - az aczélember nem
+               bízik többé magában és megirígyli a pápistától azt a szerencsét, hogy meggyónhat
+               valakinek. Nos hát én is föltárom lelkemet előtted, mert szeretlek téged Bujdosó
+               Gergely. Ismerem bensődet és tudom mit rejteget szíved. Akarod-e megtudni, hogy mit
+               rejteget az enyém.</p>
+            <p>- Ha... kigyelmed is úgy akarja...</p>
+            <p>- Talán meg fog könnyebbülni lelkemnek terhe!... Halljad hát: Fiam nem azért ment el
+               hazul­ról, nem azért csatlakozott ellenségeimhez, s a mi még keservesebb rám nézve:
+               hazám és vallásom üldözőihez, mintha én útját állottam volna szíve szenvedélyes
+               vonzalmának... Ugy-e, így hiszik és beszélik az emberek?</p>
+            <p>- Igy.</p>
+            <p>- Szó sem igaz belőle! Az első percztől kezdve, amint láttam, hogy fiam szereti ezt a
+               leányt, bensőmben megadtam nekik áldásomat. Vártam, mikor jönnek hozzám, hogy ezt
+               kikérjék. De nem jöttek. És Gyula napról napra zordonabb lett, kerülte az embereket,
+               de került engem is: apját és legjobb barátját! Mi lehet ennek az oka? kérdeztem
+               magamban - de nem tudtam sehogy sem rájönni...</p>
+            <p>- Igazán, mi lehetett az oka? - kérdé gépiesen a poéta.</p>
+            <p>Inkább saját magához intézte ezt a kérdést, mint a jelenlevőkhöz.</p>
+            <p>- Megtudtam végre. Eljött hozzám egy napon fiam és lesütött tekintettel állott elémbe
+               azzal a kérdéssel, hogy engedjem hazulról távozni, mert ő itt nagyon boldogtalan.
+               Megdöbbentett bús szava és atyai gyöngédséggel marasztaltam. Hallgatott egy ideig, de
+               egyszerre szikrázó tekin­tetet vetett rám és mint a mérgezett nyil pattant el
+               ajkairól az a mondás, hogy nem akarja utamat elállni.</p>
+            <p>- Az én utamat? - kérdeztem bámulva, - fiú, mit jelentsen ez?</p>
+            <p>- Azt jelenti, - válaszolt ő lesütött tekintettel, - hogy mikor apa és fiú egy és
+               ugyanazért a kincsért versenyeznek, a kötelesség úgy parancsolja, hogy a fiú félre
+               álljon.</p>
+            <p>A vér fejembe szállt e szavak hallatára. Kínos sejtelem támadta meg szívemet,
+               amelyben azon­ban volt valami... mámorító és boldogító is. Alig tudtam
+               megkérdezni:</p>
+            <p>- Miféle kincsről beszélsz?</p>
+            <p>- Zorkáról, - válaszolt ő fanyar mosollyal.</p>
+            <p>Ha a villám csapott volna elémbe, nem ijedek meg annyira. Hogyan tudott ez a fiú a
+               szívem mélyébe látni, holott én olyan jól rejtegettem azt, amit balvégzetem beléje
+               plántált?</p>
+            <p>...A némán álló leány üdvteljes mosolylyal tekintett föl e vallomásra. Aztán ő
+               kezdett beszélni.</p>
+            <p>- Ugy volt valóban. Törő Pál uram beszólított szobájába és fia jelenlétében
+               megkérdezett, miért nem akarok Gyula felesége lenni? Hát nem szeretem? „Szeretem mint
+               testvéremet, de nem másként: nem úgy, ahogy a jövendőbelijét szeretnie kell egy
+               leánynak.” „Mit tudsz te még erről az érzésről?” kérdé tőlem haragosan Törő uram.
+               Ekkor kitört belőlem is a harag: „Még kigyelmed kérdezi? Hisz kigyelmed tanított rá,
+               hogyan kell azt a férfiút szeretni, akié egész lényünk? Miért volt olyan jó és nemes?
+               miért magaslik ki annyira a többi férfiú közül?...”</p>
+            <p>- Tovább! tovább! - sürgette Bujdosó, akit egész lelkében megkapott ez a jelenet. S
+               most megint a kurátor vette föl az elbeszélés fonalát:</p>
+            <p>- A fiam arcza eltorzúlt e szavak hallatára, keserű kaczagás tört ki belőle s mind az
+               a rossza­ság, amire az embert a féltékenység és az irígység tanítja. - „Hát nincs
+               igazam, - mondá - hogy világgá akarok menni?” „Nincs! - válaszoltam szeliden, - mert
+               ez mind gyermekbeszéd. Ebbe nekem is van még beleszólásom. Zorka a feleséged lesz,
+               bizd csak rám!”</p>
+            <p>S ekkor megtörtént az, a mit sohasem tartottam volna lehetségesnek. A leány odarohant
+               a fal­hoz és lekapta róla vadászfegyveremet. A csövét homlokának illesztette, a
+               ravaszával játszott keze és megesküdött reszkető ajakkal, hogy soha sem enged a
+               kényszernek, inkább megöli magát.</p>
+            <p>Én nem őt néztem e pillanatban, hanem fiamat. Istenem, mivel érdemeltem ezt a
+               kegyetlen megpróbáltatást?... Van-e sujtóbb érzés annál, mint mikor az apa arra a
+               fölfedezésre jut, hogy gyermeke méltatlan arra a meleg érzésre, melylyel iránta
+               viseltetett? Az a fiú gonoszul mo­solygott e perczben és leolvastam arczáról ezt a
+               szót: „Komédia!” Önzésében nem hitt annak a föllendülésnek, melyet e gyermekben vett
+               az érzés. S még tán kivánta is, hogy teljesítse azt, amivel fenyegetődzik.</p>
+            <p>Erőt vett rajtam is a harag, az apa haragja méltatlan rossz gyermekével szemben. Az
+               ajtóra mutattam és rákiáltottam:</p>
+            <p>- Távozzál!</p>
+            <p>- Megyek, - mondá ő ugyanazzal a hideg mosolygással, - s nem is jövök többé vissza.
+               Mert mit keresnék ott, ahol ő az urnő?</p>
+            <p>Elment. S én nem átkoztam meg, pedig mindennap jött róla olyan hir, mely szinte
+               csábított, hogy megátkozzam azt a perczet, melyben anyja számomra szülte. Elment
+               legnagyobb ellen­ségemhez, a jezsoviták kiküldöttjéhez és vele lépett szövetségre,
+               ellenem, szülővárosa és hazája ellen. Később annak a rendnek tagja is lett; tőle
+               eredt a sok gyanusítás, melyet ellenem szórtak...</p>
+            <p>- Az egész idő alatt pedig csupán kétszer beszélt velem Törő uram, - mondá halkan
+               Zorka. - Kétszer kért és könyörgött előttem, hogy adjam neki vissza fiát. Ugy tudott
+               parancsolni a saját szivének, hogy gonosznak és hálátlannak mondott, mivel nem
+               engedelmeskedtem... Pedig tudom, hogy a legnagyobb sebet akkor ejtettem volna szívén,
+               ha megcselekszem azt, amit követel... De nem teszem, azért sem teszem!</p>
+            <p>Diadalmas ujjongás volt a leány minden szava. A szerelem bűbája festette pirosra
+               arczát, a mindenható, magát elleplezni nem tudó szerelem reszkettette meg délczeg
+               alakját. Aztán foly­tatta:</p>
+            <p>- S miért is tenném? Ki parancsol a szívnek, amely rajongva szeret? Hát nem ő volt
+               az, aki a hóhér kezétől kivégezett lázadónak gyermekét fölszedte az országúton és
+               fölnevelte szere­tettel és gyöngédséggel, mintha saját vére volna? Nem ő volt az, aki
+               minden szépre és jóra tanított? Szeretem és imádom, mint a jót, a szépet, mint
+               Istenemet.</p>
+            <p>...Szegény poéta, olyan melege lett e mámorító szavak hallatára! Ha irígység
+               hozzáfért volna egyszerű lelkéhez, mint irígyelte volna az aczél-embert.</p>
+            <p>- Valóban, én sem tudom felfogni, miért kínozza önmagát, főkurátor uram? - mondá
+               pillanat­nyi szünet mulva, - hisz az egész dolog olyan világos, hogy...</p>
+            <p>- Várj sorodra, fiam, - szakította őt félbe Törő Pál, - addig ne itélj, míg nem tudsz
+               mindent. Hisz én is húsból, vérből való vagyok, ámbátor „aczél embernek” csúfolnak, s
+               nem állottam volna ellen a csábnak, melyet a sors utamba hozott, ha nem lát tovább
+               tekintetem... Az én fiam, az a bizonyos egyszarvú, melyet a szentirás emleget: amely
+               rombol és pusztít és a saját vére ellen tör. Mióta Bécsben van, ujból kikezdenek
+               minket. A vallás az ürügy, a melybe belekapaszkodnak, de valóságban nemzetiségünk
+               szálka az ő szemükben... Szegedinácz Perót is ellenünk uszították, hogy megtörjenek
+               és kiirtsák szívünkből az elenyészhetetlen érzést, mely nem engedi, hogy szolganéppé
+               aljasuljunk. De akkor nem vált be az eszköz: szegény Peró maga is rajongó volt.
+               Szerbország visszaállításáról álmodott, s ezért dobták oda a hóhér­nak martalékul.
+               Most azonban ügyesebb eszközre tettek szert - fiamban. A magyart csakis a magyar
+               tudja megtörni: példa erre Pázmány Péter. Hanem míg ennek szivében a nemes hév
+               uralkodott és csak más uton vélte föllelni a boldogulást népe számára, az én fiam
+               szivében nincs egyébb egy tomboló szenvedélynél, a meghiúsult szerelem érzésénél. S
+               én ezt akarnám kivenni belőle.</p>
+            <p>- Mivel?</p>
+            <p> - Azzal, hogy boldoggá teszem. Lemondok én a magam üdvéről, mondjon le róla ez a
+               leány is. Áldozzuk föl magunkat a nemzet jóléteért... Azért akarom, hogy irjon Zorka
+               Gyulának levelet. Ha ő hívja, el fog jönni, s el van hárítva a veszély.</p>
+            <p>Pillanatnyi csend állott be, Bujdosó Gergely odament az ablakhoz és kinézett rajta.
+               Előtte feküdt az udvar virágos díszében. Fölnézett az égre és ez visszamosolygott rá
+               kéklő ragyo­gással, mintha nem is léteznék alatta szenvedélyek harcza és elkeseredett
+               küzdelem apa és fia közt.</p>
+            <p>- Azt akarod tudni, hogy mi a véleményem ebben a dologban? - kérdé lágy hangon.</p>
+            <p>- Azt. Megmondom neked miért: előbb tudtam már a templom kulcsának dolgát, semmint
+               Busi András értesült róla. Fiam írta meg. Ő pontosan tudósít mindenről, amit
+               gonoszban ter­vez ellenünk. S többet is írt annál, mint amit ti eddig tudtok!...
+               Ekkor szívem nagy keservében ahhoz a könyvhöz fordultam, mely minden bajban és
+               viszontagságban vigasztalóm és tanács­adóm volt. Elolvastam Ábrahám
+               megpróbáltatásának történetét, aki fiát föl akarta áldozni az Úr parancsára, s
+               visszariadtam ettől a képtől... Nem, én nem akarnék hasonló megpróbálta­tá­son
+               keresztül menni! S amíg az Úr szine előtt megalázkodva, sírva könyörögtem igazi
+               be­látásért, mintha egy benső hang azt mondta volna nekem: «Eljön még ma az a férfiú,
+               aki megmutatja neked az ösvényt, melyen haladnod kell. Hallgass csak szavára!» S ez a
+               férfiú csakis te lehetsz, Bujdosó Gergely. A te kezed is a szentirás után nyúlt,
+               amint egy pillanatig magadra maradtál. S azért félreteszem erre az órára a saját
+               akaratomat, s elfogadom azt, amit te parancsolsz, te rendelsz, te akarsz, akit az Úr
+               küldött hozzám.</p>
+            <p>- Nos, hát én elfogadom ezt a nagy felelősséggel járó hivatalt, - mondá Bujdosó
+               Gergely, s ujból felülkerekedett benne a könnyed poétai természet... Tudod-e, kik az
+               én tanácsadóim? A virág, a kéklő ég és a napsugár. Megkérdeztem őket és sorban
+               feleletet adtak. Tudod-e mit mondott a virág? Azt, hogy szeress! Tudod-e, mit mondott
+               az ég, mely felé szállnak beteljesít­hetlen vágyaink? Azt mondta: ember vagy, hát
+               szeress! És a napsugár még ráduplázott, mondván: «Ez a leány neked adta szívét,
+               fogadd el bátran. Aczélember lágyulj meg és tanuld el a szerelem édes nyelvét.»</p>
+            <p>Zorka odaborult a költő elé és megcsókolta ruhája szegletét. Bujdosó Gergely
+               fölemelte őt a földről és odatette Törő Pál szívére. A kurátor megcsókolta a leány
+               homlokát, és nem mondott egyebet, csak ennyit:</p>
+            <p>- Husvét első napján tartjuk meg az esküvőt.</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               V. FÁJERSTÁJN MÓZES.
+            </head>
+            <p>Az ajtót megkopogtatták. A főkurátor föleszmélt és szelid kézmozdulattal tolta el
+               magától a leányt s ez pirulva menekült a másik szobába. Bujdosó Gergely, kinek
+               legelőször jött meg ismét a hangja, kiszólt:</p>
+            <p>- Szabad!</p>
+            <p>Föltárult az ajtó és belépett egy öreg ember. Azaz hogy csak hófehér haja és
+               galambősz szakálla mutatták, hogy régen túl van már az élet delelőjén; mert
+               máskülönben olyan erőteljes volt a magatartása és ruganyos minden mozdulata, hogy
+               ifjaké sem lehet annál különb. Vise­lete sajátságos vegyüléke a magyarnak és - a
+               zsidónak. Hosszú, kaftánszerü kabátja alatt zsinóros nadrág és sarkantyús csizma volt
+               látható; prémes sapkája alól kitódultak a csigaalakú tincsek, de szakálla rövidre
+               volt nyírva és hófehér bajusza délczegen kunkorodott fölfelé.</p>
+            <p>Bujdosó Gergelynek feltűnt, hogy a főkurátor mily nyájasan és csaknem mély
+               tisztelettel fogadja az érkezőt. De csakhamar megváltozott az ő magaviselete is (a
+               poétában megvolt ko­rá­nak minden előitélete a zsidók iránt), mikor Törő Pál halk
+               hangon bemutatta neki vendégét:</p>
+            <p>- Rákóczy Ferencz zsidaja!</p>
+            <p>- Az öreg Fájerstájn Mózes? - kérdé élénken a poéta.</p>
+            <p>- Az!</p>
+            <p>Bujdosó Gergely melegen megszorította az öreg ember kezét és olyan tekintettel nézte,
+               mint a műértő valami régi és nevezetes ritkaságot szokott megtekinteni. Az öreg
+               Fájerstájn pedig derült arczkifejezéssel viszonozta a kézszorítást, aztán Bujdosóra
+               mutatott és így szólt:</p>
+            <p>- Épen ilyen idős voltam én is, mikor először kerültem az én kegyelmes uramnak, II.
+               Rákóczy Ferencz fejedelemnek színe elé. Az én tekintetemben is ragyogott az ifjúság
+               tüze, az én lelkem is ujjongott, mivel feszítette a tettvágy. A fejedelem
+               megszólított: »Mi a neved?« »Mózes, az Izákhár fia« - válaszoltam mélyen meghajolva.
+               »De hát a családi neved?« »A zsidónak nincs családi neve.[4] Az ő családja egész Izráel.« »Mondják, hogy jártas volnál a
+               pus­ka­csinálás mesterségében?« »Értek valamiképen hozzá, kegyelmes uram. Apám
+               Schweidniczban töltötte ifjúságát, ahol a legjobb tűzköveket csinálják a kovás
+               puskához és ott sajátította el a készítés titkát. Nekem hagyta örökségbe.« »S
+               hajlandó volnál ezt a titkot az én érdekemben kiak­názni?« kérdezte a fejedelem.
+               »Nemcsak ezt, hanem minden tudományomat! Tudok én lőport gyártani, értek az
+               aknakészítéshez is: mind fölajánlom neked ezt a tudományt!« »S mit kérsz érte jutalom
+               fejében? Mert tudom, hogy ti zsidók nem szeretitek az ingyen-munkát.« »Való­ban
+               igazad van, kegyelmes uram, mi nem szeretjük az ingyenmunkát! Én is nagy dolgot kérek
+               tőled jutalom fejében, de csak majd, ha úgy találod, hogy szolgálataim megérdemlik
+               azt a díjat.« » Miféle díjat?« »Ha kiszabadítottad az egész országot a rabságból,
+               gondolj Izráelra is, és engedd meg, hogy a zsidó ember legyen a te országodban.« »S
+               magadnak mit kérsz?« »Kü­lön semmit. Egész Izráel egyetlen család, s amit neki adtál,
+               abból kijut nékem is a részem.«</p>
+            <p>- Hát a »Fájerstájn« név? - kérdezte mosolyogva Bujdosó Gergely.</p>
+            <p>- Ezt már nem a fejedelemtől kaptam, hanem a némettől. Megtudta ugyanis a gonosz
+               lelke, hogy én látom el a fejedelem muskétásait kovákkal és erre kibocsátott ellenem
+               egy körözv­ényt, amelyben az volt mondva. »So zu Stande gebracht wird der Jude,
+               welcher die Feuer­steine macht, erhält Derjenige 100 Dukaten, welcher ihn zu Stande
+               bringt.« (Ha elfogatik a zsidó, aki a tűzköveket csinálja, száz aranyat kap az, aki
+               elfogta.) Igy ragadt rám a Fájerstájn név.</p>
+            <p>- De azt nem mondtad el öreg, - szólott most nyájas hangon a főkurátor, - hogy miként
+               viselkedtél akkor, midőn Heiszler tábornok elfogott és erőszakkal kényszeríteni
+               akart, hogy eláruld neki a kovacsinálás titkát.</p>
+            <p>- Nem igazi dalos madár az, aki a saját dicséretét zengi, - válaszolt mosolyogva az
+               öreg Fájerstájn. - Igy mondja már Salamon, a bölcs király, példabeszédeiben, s ne
+               kivánják tőlem, hogy semmibe se vegyem az ő tanácsát.</p>
+            <p>- Elmondom hát én! Heiszler előbb igéretekkel próbált a lelkére hatni. De Mózes úgy
+               tett, mintha süket volna, mint a tapló. Akármit mondott is neki a német generális, ő
+               folyton azt kérdezte: »Was sagt er?« Erre Heiszler puskát hozatott és jelekkel
+               próbálta neki megmagya­rázni, hogy mit kiván tőle. Mózes pedig eltolta a feléje
+               nyújtott puskát és szerénykedve azt mondta: »Kérem én nem tudok fuvolázni.« Dühös
+               lett a tábornok, beszólította az ezrednek két legerősebb tüdejü trombitását. Az egyik
+               jobb felől fújta Mózes fülébe, a másik balfelől. Végre, miután már negyedóráig
+               harsogott a trombita, Mózes a legártatlanabb arczczal meg­kér­dezte, hogy mikor
+               kezdődik végre a konczert? A tábornok biborpiros lett dühében és guzsba kötöztette
+               Fájerstájnt. Kiállíttatta a napra, olyan rekkenő hőségben, amelyben a kő is majdnem
+               megolvadt; nem engedte, hogy vizet adjanak neki szomja enyhítésére, hanem meg­kinálta
+               fűszeres és szomjúságot gerjesztő ételekkel. Mikor már azt hitte, hogy megpuhult,
+               ujra vallatóra fogta; hanem Mózes csupán ennyit mondott: »Ha elmondanám amit tudok, a
+               gyehennák tüze égetné lelkemet. Akkor mégis csak inkább a testemet szánom oda a
+               generális úr haragjának.«</p>
+            <p>Az öreg Fájerstájn nyugtalanul izgett-mozgott székén, mintha bántaná ez a sok
+               dicséret.</p>
+            <p>- Nem ez volt életemnek a legkeservesebb percze, - mondá eltünődve, - hanem az a
+               másik, melyet az én jó fejedelmemnek köszönhettem.</p>
+            <p>- Hogyan? talán hálátlan volt hozzád Rákóczy? - kérdezte meglepetve Bujdosó
+               Gergely.</p>
+            <p>- Hálátlan, ő?! Ezt az erényt (mert a politikában nagy erény a hálátlanság) soha sem
+               gyako­rolta Rákóczy Ferencz. Hisz ép az volt az egyetlen hibája, hogy csupa hálából
+               és jóindulatból nagyon is sokat adott Bercsényiék és Károlyiék szavára. Hanem olyan
+               buzgó volt vallásában, hogy mindenképen engem is szeretett volna megtéríteni. S nem
+               restelte a fáradságot, hogy saját mézédes ajkairól csöppentette rám a malasztot.
+               »Tedd meg az én kedvemért, Mózes, - szokta mondani, - s térj át az egyedül üdvözítö
+               vallásra?« »Ha megtenném, kegyelmes uram, bizhatnál-e még hűségemben? Aki Istenét
+               elhagyja fejedelme kérésére, nem fogja-e a fejedel­met is elhagyni másnak igéretére?«
+               Ekkor megneheztelt rám és azt mondta: »Menj! a te hűséged is olyan, mint a többieké,
+               csak szavakban nyilvánul és nem tettekben. Ha a franczia király, aki a
+               »legkeresztényebb fejedelem« czímét viseli, és a pápa, aki a kereszténység feje,
+               megtudják, hogy zsidó bizalmas emberem, meg fognak neheztelni.« Nagyon fájt a
+               szemre­hányása, de vallást az ember nem cserélhet olyan könnyen, mint öltözetet s
+               azért így szóltam: »Az az öreg ember Rómában minek köszöni sajátképen földi hatalmát?
+               Nem annak-e, hogy kétezer éves hagyomány szól mellette? Nos hát, Izráelnek nincs
+               ugyan földi hatalma, üldözött vadként bujdosik a földi életen keresztül, de van egy
+               földi kincse: négyezer éves hagyománya. Épen kétszer annyi idős, mint a tietek. Miért
+               kivánjátok hát, hogy önmagát megfoszsza egyetlen kincsétől?« Magam is megdöbbentem
+               szavaim vakmerősége fölött, mikor azokat már kimondottam, a fejedelem is komolyan
+               nézett maga elé, de e naptól fogva nem érintette többé ezt a kérdést. Ép olyan kegyes
+               volt hozzám, mint ezelőtt.</p>
+            <p>- Igaz, mi kergetett ki fészkedből? - tudakozódott a főkurátor, aki Fájerstájn-nal
+               nagyon bizalmas viszonyban volt és rég tegezték egymást.</p>
+            <p>- Egy különös eset, mely egészen a régi időre, a Caraffáék és Lobkowiczék korára
+               emlékeztet, mikor a hóhér bohócz volt egyszersmind és az osztrák generális urak
+               mulatására akasztott és torturázott... Tudod, hogy nem merek már kimozdulni
+               otthonomból, mert mindjárt gyanút kelt, ha az öreg Fájerstájn, a „viharmadár”
+               fészkéből kirepül. De ez az eset olyan, hogy magam sem nézhetem tovább és
+               elhatároztam, hogy miatta elmegyek Bécsbe.</p>
+            <p>- Bécsbe? Azt mondtad, hogy Bécsbe? - kiáltott bámulatában kerekre nyitott szemekkel
+               a főkurátor.</p>
+            <p>- Oda. Egyenesen az oroszlánbarlangba. Hadd tépjen szét a királyi vad, ha vén
+               csontjaim ropogását hallani jól esik neki. De előbb szavamat hallja!</p>
+            <p>- Mi történt, a mi annyira kihozott a sodrodból? - kérdezte a kurátor.</p>
+            <p>- Az én kis falum ott fekszik a Hargita mentén. Csendes fészek, melynek lakossága
+               javarész­ben olyan pásztoremberekből áll, akik a politikával soha sem foglalkoztak.
+               Nem voltak kuruczok, de labanczok sem, hanem jámborul mívelték a földet és dicsérték
+               az Istent jó és rossz évben egyaránt. Csak vallás dolgában voltak makacskodók és
+               készek arra, hogy hitükért akár mártiriumot is szenvedjenek.</p>
+            <p>- Miféle vallásuak?</p>
+            <p>- Szombatosok... Nem mondhatnám, hogy azért szeretem őket, mivel mimelik az én
+               vallá­somat és félig-meddig torzképet csinálnak belőle, de őszintén elismerem, hogy
+               szorgalmasabb és jámborabb népet nem láttam egyhamar. Én, aki ötven évig háborús
+               világban éltem, azt hittem, hogy el sem birom többé a csendes falusi magányt. De ők
+               megkedveltették velem. El is felejtettem már, hogy valaha Rákóczy puskakészítője
+               voltam, hogy ezért nehéz rabságban sínylődtem és ugy miveltem a földecskémet, melyet
+               bérben birtam, mintha örök életemben ez lett volna egyetlen foglalkozásom. Hanem már
+               most ennek is vége...</p>
+            <p>- Mi történt?</p>
+            <p>- Az, hogy egy napon egy század katonát osztottak szét a három faluban, melyet
+               szombatosok laknak. Elég baj volt már ez is, mert a rakonczátlan hadfiak sok bajt
+               okoztak a jámbor népnek. De ez még hagyján! Hanem velük jött egy
+               regemenczpáter...</p>
+            <p>Itt Törő Pál és Bujdosó Gergely hirtelen összenéztek. Sejtették már, hogy mi
+               következik ezután.</p>
+            <p>- Az az ember, akinek föladata lett volna a béke és szeretet malasztját hirdetni, a
+               viszályt és a gyűlöletet hozta magával. Pokolt csinált az édenből; még pedig olyan
+               rövid idő alatt, hogy a paradicsomi romlást okozó kigyó iskolába járhatott volna
+               hozzá.</p>
+            <p>- Nem Gurszki Theophil volt a neve? - kérdezte Bujdosó.</p>
+            <p>- De az... Honnan ismeri?</p>
+            <p>- Akadt vele dolgom, - válaszolt fanyarul a poéta. - Hej sokat szenvedtem miatta
+               katona koromban! tudom azt is, hogy sehol sem marad meg sokáig, hanem amint elvégezte
+               gonosz munkáját egy helyen, rögtön máshová megy, hogy ott is pusztítson... Beszélje
+               csak tovább.</p>
+            <p>- Gurszki uram egy napon összehivatta a falu összes lakosságát a főpiaczra, azon
+               ürügy alatt, hogy valami királyi rendeletet fog felolvasni. Mikor valamennyien együtt
+               voltunk, férfiak és nők, gyermekek és aggok, szombatosok és más vallásúak,
+               körülállotta a katonaság a tér négy oldalát és nem engedett senkit sem elmenni. Ekkor
+               Gurszki felállott egy szószékre és felol­va­sott egy rendeletet, mely szerint
+               valamennyi jelenlevőnek meghagyatik, hogy rögtön s minden habozás nélkül azonnal
+               keresztelkedjenek ki. A jámbor nép elhitte, hogy az a pecsét, amely az iráson van, a
+               királynő pecsétje, de én fölismertem, hogy az nem egyéb egy régi rézasper
+               le­nyomatánál. Meg is mondtam ezt a páternek, mire ő kijelentette, hogy már most csak
+               azért is - duplán fog engem megkeresztelni.</p>
+            <p>- Hallatlan! - tört ki a méltatlankodás Törő Pálból.</p>
+            <p>- Hátra van még a gonoszabbik része, - folytatta Fájerstájn. - Az erőszak után jött
+               az isten­káromlás, a vallásnak, a saját vallásuknak kigúnyolása. Mi el voltunk
+               szánva, hogy nem hagyjuk magunkat megkereszteltetni és halálig ellenállunk; de ekkor
+               megnyilt a katonakordon az egyik oldalon: négy katona betolta a falu vízi puskáját...
+               Gurszki pokoli gúnynyal felénk kiáltott: »Akár akarjátok, akár nem, meg foglak
+               benneteket keresztelni. Ez a vízi puska szentelt vízzel van megtöltve. Rajta hát
+               legények.« S a következő pillanatban vastag suga­rakban lövelt felénk a víz, úgy hogy
+               bőrig átáztunk.</p>
+            <p>Bujdosó Gergely nem tudott megállani egy helyen. Ugy kaczagott ezen a pokoli ötleten,
+               hogy könyei folytak. De rögtön elkomolyodott, amint az öreg Fájerstájn bánatos
+               tekintetével talál­kozott.</p>
+            <p>- Bocsánat! - hebegett, - de meg kell vallani, hogy ennek a Gurszkinak eredeti
+               ötletei vannak.</p>
+            <p>- Ne mentegesse magát, - válaszolt az öreg, - hisz én is kaczagtam akkor, de kínomban
+               és el­keseredésemben. Nem az bántott, hogy zsidó létemre megkereszteltek, mert hisz
+               komolyba sem vehettem ezt az aktust, miután erőszakkal vitték rajtam végbe, s én jól
+               tudom, hogy a katholikus vallás sem tekinti az erőszakos megtérítést kötelezőnek.
+               Hanem hogy ilyesmi embereken megeshetik!... S mikor már jól át voltunk ázva, két
+               katonának oda súgott valamit a páter. Ezek megfogtak, oda czipeltek a szószék elé és
+               rám öntötték, ami még maradék volt a hordóban. Igy váltotta be Gurszki uram a dupla
+               megkeresztelésről tett igéretét.</p>
+            <p>A főkurátor nem szólt semmit az egész elbeszélés alatt, hanem ökölbe szorított kézzel
+               állott egy helyben. Az öreg zsidó pedig folytatta:</p>
+            <p>- Azt hittük, hogy ezzel vége lesz a dolognak, de a jövő vasárnap felhajtottak minket
+               a lak­tanya udvarára, ahol rögtönözött kápolna volt felállítva deszkákból. A gyóntató
+               székben a páter ült, és egyenkint szólítgatta a falu népét a gyónáshoz. Aki nem ment
+               azonnal, azt addig verték agyba-főbe puskatussal és kardmarkolattal, míg
+               engedelmeskedett.</p>
+            <p>- S nem találkozott senki, aki ennek az állapotnak véget mert volna vetni? - kérdezte
+               Bujdosó Gergely.</p>
+            <p>- Dehogy nem! Ez a békeszerető nép úgy ki volt cserélve, hogy vért akart látni. Engem
+               kinált meg a vezérséggel. Meg fogja rohanni a katonaságot, megöli a pátert, s azután
+               fölvonul a hegyek közé, ahol még akad hely, hova nem követheti a zsarnokság. A
+               legdühösebb volt az a néhány katholikus, aki a faluban lakott. Mert őket is
+               megkeresztelte a páter. Ők biztattak legjobban, hogy fogadjam el a vezérséget...
+               Megvallom, egy pillanatig én is helyeseltem ezt a szándékot, de aztán...</p>
+            <p>- Aztán?</p>
+            <p>- Eszembe jutott, hogy amit Rákóczy Ferencz nem tudott elvégezni fényes seregekkel,
+               hogyan tudná megtenni ez a szegény nép? Hej! ha ő még élne. Kétszer sem mondom, hogy
+               nem csináltam volna arrafelé egy kis kurucz világot... A véletlen úgy akarta, hogy
+               még aznap ki­lestem egy beszélgetést a páter és a kapitány közt, aki a katonákról
+               rendelkezett. Ez a beszél­getés az oka, hogy Bécsbe megyek.</p>
+            <p>- Miről szólt?</p>
+            <p>- A kapitány azt mondta a páternek: »De már most elég legyen a tréfából! Nem
+               szeretném, ha eljutna a hire Bécsbe, mert a királynő még a vallás kigúnyolását is
+               találná benne meglátni, s akkor sutba dobhatom porte-épéemat, ha már előbb csúfosan
+               el nem veszik tőlem!« Mire Gurszki így válaszolt: »Kitől hallaná meg? Ez a falu két
+               hónapi járásra van Bécstől. A legénység csupa oláhok, akik soha sem jutnak odáig,
+               hogy a mi felséges asszonyunk tekintete rajtuk megpihenjen. Te nem fogod elárulni, én
+               sem. Aztán az a száz arany sem megvetendő, a melyet még ma kapsz tőlem... Tovább nem
+               hallgatóztam, de rögtön megérlelődött lelkemben az az elhatározás, hogy fölmegyek
+               Bécsbe, leborulok a fölséges asszony szine elé, s elmon­dom neki, amit hallottam és
+               tapasztaltam.</p>
+            <p>- S azt hiszed, hogy foganatja lesz?</p>
+            <p>- Remélem! asszony, tehát szíve van, királynő, tehát nem tűrheti alattvalóinak
+               megaláztatását és végre vallásos, tehát nem fogja elnézni, hogy abból, ami
+               legszentebb előtte, ily rút játékot űzzenek... S ha mégis tévedtem volna, akkor is
+               ráérünk még arra, hogy leszámoljunk Gurszki Theophil urammal.</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               VI. A SZÉP MÉSZÁROSNÉ.
+            </head>
+            <p>A bécsi Burg főbejárata előtt nagy a „vakparádé”. Igy nevezte el a magyar katona
+               találó humorral azt a pompázó, de alapjában véve semmitmondó díszfölvonulást, melyet
+               minden héten legalább egyszer csináltattak vele, s a melytől csaknem jobban félt,
+               mint egy igazi csatától. Mert a csatában megeshetik ugyan, hogy ellövik az embernek
+               kezét-lábát, de mint a statisztika bizonyítja, legfölebb minden harminczadik katonát
+               éri ez a baj. Hanem hogy a vakparádé előtt minden második legény megérzi a
+               káplárpálczát, s nyomban utána minden ötödik bemarsiroz a dunkliba, az olyan
+               bizonyos, mint az amen az imádság végén!</p>
+            <p>A díszfölvonulásra az adott alkalmat, hogy a felséges királynő lebetegedése után ma
+               fogadott először ismét audiencziában. Össze is sereglett a nagy fogadó teremben és az
+               előszobában, nemkülönben a folyosókon, annyi kérelmező emberfia, hogy az ajtónállók
+               már nem is győz­ték a későnérkezőket visszautasítani. A czeremóniás mesternek pedig
+               kétszer is lecsúszott a paróka a fejéről abbeli igyekezetében, hogy megállapítsa a
+               sorrendet, a melyben az instálók a kegyelmes királynő elé járulnak.</p>
+            <p>Mert nagy fortélya vala ám ennek a sorrendnek is! Nem mindig döntött az a körülmény,
+               hogy valaki előbb jött, hanem a legnagyobb pontossággal megvizsgálták, kinek mi az
+               állása és rangja a társadalomban.</p>
+            <p>„Ecclesia praecedit” volt az alapelv, s ennek folytán az utolsó kapzsáló barát
+               megelőzte a herczegi vérből való főurat, de még a főpapnál is előbbre való volt az
+               apácza. Aztán jött az udvari hierarchia értelmében a katonaság, ennek utána a
+               beamter, s legeslegvégül a szegény czibil; a ki nagyon örülhetett, ha négy-öt órai
+               várakozás után nem azt mondták neki: „Tessék máskor jönni, ma már vége az
+               előadásnak!”</p>
+            <p>Láttam egy gúnyrajzot abból az időből, melyen egy szegény czibil két alakban van
+               feltün­tetve. Először mint délczeg ifjú, aztán mint megtört aggastyán. Az első kép
+               alá ez van írva: „Mikor először mentem audiencziára”; a második alá: „mikor végre
+               kihallgatást nyertem”.</p>
+            <p>A bájos királynő azonban asszony létére néha megengedte magának azt a szeszélyt, hogy
+               föl­forgatván az egész szertartásos rendet, végig ment a kérelmezők során és
+               kikereste magának a legkopottabb és legkétségbeesettebb alakokat, hogy szóba álljon
+               velük. Ezt a nagy sérelmet a czeremónia és az etikett szigorú rendje ellenében
+               azonban csak akkor merte elkövetni, ha papság nem volt jelen. Mert Mária Teréziánál
+               mindenek fölött dominált az elv, hogy ecclesia praecedit.</p>
+            <p>A főlépcső bejáratánál egy „faköpeny” állott (így nevezik katonáéknál azt a
+               feketesárgára mázolt kis faházacskát, melynek nem tudni, sajátképen mi a czélja? Mert
+               hogy őrtálló katona ebben valaha oltalmat keresett volna zivataros időben, arra még
+               nem volt eset!) A faköpeny mellett teljes szolgálati díszben egy katona sétált
+               föl-alá. A hófehér Waffenrocknak minden egyes gombja úgy csillogott, mint maga a
+               hajnali csillag; a nehéz facsákónak forgója úgy fénylett, hogy majd megvakult, a ki
+               ránézett és a mesterséges czopf, melybe minden katona­ember akkori időben haját
+               fonta, Vorschrift szerint volt bepuderozva. Hanem azért már nem a Vorschrift volt
+               hibás abban, hogy puder nélkül is hófehér lett volna az a haj...</p>
+            <p>Manapság sem ritkaság a hadseregben a vén katona, de nem a legalsó rangfokozaton. A
+               ki három évi szolgálat alatt nem viszi semmire, azt még akkor sem tartják meg, ha
+               önként kinál­ko­zik. Mária Terézia uralkodásának első éveiben azonban a vén
+               közkatonáknak egy saját­ságos faját ismerték: azt, a mely politikai vétség miatt örök
+               időkre be volt sorozva. Az utolsó Rákóczy-mozgalomnak főszereplőit nem fejezték már
+               le (annyi vér folyt, hogy a hóhérok is megunták végre), hanem csak elkobozták
+               vagyonukat és megtették élethossziglan „Gemeiner”-nek. A hadseregből politikai
+               javító-intézetet csináltak, s nem volt rá eset, hogy ez a szisztéma be nem vált
+               volna.</p>
+            <p>Ilyen „Armee-Zuwachs” volt az a vén közlegény is, a ki föl-alá sétált a főlépcső
+               bejárata előtt és szigorúan felügyelt arra, hogy szabályellenesen öltözött emberfia
+               be ne jusson az audiencziák termébe. Mert a fogadtatásnál erre is néztek. Boldog kor
+               a mai, amikor a fekete frakk minden­kit följogosít, hogy a király elé lépjen! Bezzeg
+               másként volt ez a bájos királynő idejében. A „Kleidervorschrift für Audienzen und
+               Empfänge” 62 fokozatát állította fel a ruházatnak és ugyanannyi osztályba sorozta a
+               hű alattvalókat, a kik a kegyes királynő magas színe elé akartak járulni. E
+               tekintetben még a papság kedvéért sem tettek kivételt. S mivel a közönséges Gemeiner
+               rendszerint nagyon is korlátolt fölfogású volt arra, hogy buksi fejében megtartsa a
+               62 paragrafust, rendesen olyan nagyobb intelligencziáju politikai „javítnokot”
+               állítottak a főbejárat mellé, akinek kisujjában volt már az egész Kleidervorschrift.
+               Utóvégre ebben is nyilvánult valamicske elismerés a magasabb intelligenczia
+               iránt!</p>
+            <p>Az öreg katona nem is nézte az arczokat, hanem előbb egy czédulára vetette
+               tekintetét, a melyen a „Hofmarschall-Amt” utasítása szerint ki volt írva, hogy
+               hányadik kategóriába tarto­zik a kérelmező. Ezután gyors és átható tekintettel nézte
+               végig a ruházatot s olyan nagy volt már gyakorlata, hogy egyetlen tekintet után is
+               kimondhatta: „Passirt”; a mely esetben a kérel­mező bemehetett; vagy pedig „Ist zu
+               ergänzen”, a miből az audiencziára igyekező megtudta, hogy toilettején van még
+               pótolni való.</p>
+            <p>Ép most haladt el előtte egy délczeg női alak, a kin úgy áll a díszmagyar, mintha
+               egyenesen rászabta volna az ő testére, a ki először kitalálta. Nagyon el lehet
+               foglalva a szép asszony gondolataival, mert egészen megfeledkezik arról, hogy czédula
+               van kezében, melyre fölirták a Hofmarschallamt-ban, hogy mely rangosztály illeti meg
+               társadalmi állásánál fogva. Ki tudja, hol jár ép most az ő esze? Tán leszállt a szív
+               mélyére, s ott keres szavakat, a melyekkel az asszonykirály lelkére akar hatni. Csak
+               akkor rezzen össze, mikor a vén katona rákiált:</p>
+            <p>- Halt!</p>
+            <p>Elpirul és föltekint. Eszébe jut mulasztása és gépiesen nyújtja a czédulát a katona
+               felé. De hirtelen reszketés fogja el, a czédula kiesik kezéből, tekintete odatapad az
+               öreg katona arczára és ajkai kiáltásra nyílnak meg. Még erőt vesz magán, még
+               uralkodik szívén, hogy ki ne törjön ujjongásba és csak kínos örömmel súgja:</p>
+            <p>- András! Édes, jó uram, csakugyan kigyelmedet látom?</p>
+            <p>A vén katona fölveti fejét, mint a hajdani csatamén, mikor talyigahúzó korában
+               váratlanul megüti fülét a trombitaszó. Mereven néz ő is az asszonyra, szemei
+               elhomályosulnak, reszket a két szája széle, mintha irtózatos erővel visszafojtana egy
+               fölkiáltást, de ajkairól tompán hangzik:</p>
+            <p>- A czédulát!</p>
+            <p>- Édes jó uram, hát nem ismert rám kigyelmed? - könyörög az asszony, - én vagyok hű
+               hitestársa, Mészáros Éva, Mezőtúr városából, a hol kigyelmed tizenöt évvel ezelőtt
+               szenátor volt!</p>
+            <p>Egyre tompábban hangzik újból:</p>
+            <p>- A czédulát!</p>
+            <p>Gépiesen lehajol az asszony, hogy fölvegye a papirt, de lába megcsúszik és elterül a
+               földön. A vén katona nem mozdul meg, hogy fölemelje a félig aléltat, hanem azért
+               súgva, hogy senki meg ne hallja, ezeket mondja:</p>
+            <p>- Édes, hívséges lelkem feleségem, rád ismertem, de nem szabad veled itt szóba
+               állnom. Majd egy óra mulva, ha fölváltanak.</p>
+            <p>Többet nem mondhatott, mert már elősietett az ott lebzselő udvari tisztek egyike és
+               talpra segítette a nőt. A vén katona úgy állott ott, mintha kőből volna egész alakja.
+               Egyetlen arcz­izma sem rándult meg, minden tagja megmerevedett a szubordináczió
+               békójában - de azért, ha parancsolt is testének, a lelkét nem verhette nyűgbe:
+               homályosuló szeméből egy köny sza­badult ki és végigcsorgott arczán.</p>
+            <p>A jelenet nem maradt észrevétlenül. Egy másik udvari tiszt is sietve jött le a
+               lépcsőn s jelen­tette:</p>
+            <p>- Ő felsége a császár-királynő kérdezteti, hogy mi történt itt?</p>
+            <p>Mészárosné már magához tért ájulásszerű gyöngeségéből, melybe a váratlan találkozás
+               ejtette rég nem látott férjével, s megadta a fölvilágosítást:</p>
+            <p>- Csekélység az egész. A hosszú utazás, a nagy izgalom, a váratlan öröm...</p>
+            <p>- Ő felsége a császár-királynő látni óhajtja önt, mielőtt elmegy az audiencziák
+               termébe, - jelen­tette tovább a tiszt.</p>
+            <p>- Hódolattal vetem magamat alá a legmagasabb parancsnak, - szólott Mészárosné, akinek
+               lelkében felülkerekedett az öröm, hogy olyan gyorsan elérte vágyainak czélját. Mert
+               hisz ép azért jött ide, hogy a bájos királynővel beszéljen és kegyelmet kérjen tőle
+               férje számára. Ha egyszer szemben áll vele, asszony az asszonynyal, hitves a
+               hitvessel, anya az anyával, majd talál szavakat, hogy kicsalja a fejedelmi nő
+               szivéből a kegyelem szikráját. Ezzel a tudattal eltelve, szólott a némán álló
+               katonához biztató hangon:</p>
+            <p>- András, édes jó férjem, jó az Isten, remélj!</p>
+            <p>A vén katona még most sem emelte föl kezét, hogy letörülje a könyet, mely már ott
+               rezgett bajusza végén, hanem tekintete az beszélt. S megvolt benne a felelet:</p>
+            <p>- Ég küldöttjét látom: hogy ne remélnék hát?</p>
+            <p>A két udvari tiszt bámulva nézte ezt a megmagyarázhatlan jelenetet. Mi köze ennek a
+               szép, gyönyörűséges asszonynak ehhez az őszbeborult katonához? Hanem udvarnál nem
+               illik kiván­csinak lenni, s azért szó nélkül elől mentek, megmutatván az utat
+               Mészárosné Éva asszony­nak, aki fontos egyéniség lett az ő szemükben, mióta a
+               legfelségesebb asszony a sorrenden kívül látni óhajtotta.</p>
+            <p>Nagy dolog az az udvarnál, mikor sorrenden kívüli állapotba léptetnek elő
+               valakit.</p>
+            <p>A főlépcsőtől balra volt egy kisebb bejárat, a melyen át a királynő legbensőbb
+               cselédsége közlekedett. Egyenesen a toiletteterembe vezetett. Mária Terézia itt
+               töltött naponta két órát bizalmas beszélgetésben szabónőjével, majdnem annyi időt
+               szánván erre, mint az állami ügyekre. Mert nemcsak nagy királynő volt ő, hanem szép
+               és férjébe szerelmes asszony is.</p>
+            <p>Épen a remek haját fésültette és a hosszu hófehér toilette-köpeny eltakarta egész
+               alakját, csakis a bűbájos arczot engedvén látni. Két nagy és jóságtól sugárzó szeme,
+               amely azonban adott körülmények közt lesujtó szigorral is tudott nézni, kiváncsian
+               vizsgálta az előtte mélyen hajlongó Mészárosnét. Arról a helyről, a hol a királynő
+               ült, be lehetett látni az egész udvart, a melyen a kérelmezők még egyre érkeztek; ki
+               kocsin, ki hordszéken, ki gyalog, amint rangja előírta.</p>
+            <p>- Üljön le asszonyom, - mondá a királynő egy kis tabouret-re mutatva, mely közelében
+               állott.</p>
+            <p>- Felséges asszonyom...</p>
+            <p>- Üljön le ha mondom. Nem a királynő fogadja most önt, hanem asszony az asszonyt.
+               Abból is láthatja, hogy nem restelem beavatni toilettem titkaiba.</p>
+            <p>Jóságos mosolylyal mondta e szavakat Mária Terézia és Mészárosnénak meg is jött
+               azonnal a bátorsága. Rögtön föltalálta magát s ezzel együtt meglelte az utat is a
+               királynő szivéhez.</p>
+            <p>- Megengedi felséged, hogy megfésüljem ezt a remek haját? - kérdezte könyörgő hangon.
+               - Hadd mondjam meg otthon, hogy nemcsak a legjobb királynőt láttam, de a legszebb
+               asszonyt is kiszolgáltam.</p>
+            <p>Mária Terézia elpirult. A női hiúság erős gyökeret vert az ő szivében is.</p>
+            <p>- Elfogadom a bókot, - mondá, - jóllehet olyantól jön, aki maga is igényt tarthat
+               erre a czímre; s talán több joggal.</p>
+            <p>Őszinte elismeréssel csüngött tekintete a magyar nő remek alakján. Valóban nem is
+               lehetett szebbet képzelni, mint e két nőt egymás mellett.</p>
+            <p>- Fölséged tréfál, - mondá Mészárosné s már most ő pirult el. - Hogy is tarthatnék én
+               e czímre igényt, aki már öreg asszony vagyok!</p>
+            <p>- Akkor hát föltalálta az örök ifjúság titkát! Mondja, mennyi idős?</p>
+            <p>- Negyvenöt éves lettem Péter és Pál napján.</p>
+            <p>- Lehetetlen! Azt hittem volna, hogy legfölebb harmincz éves.</p>
+            <p>- A mi családunkban mind ilyenek a nők. Édes anyám már felül van a hatvanon s még
+               nincs egyetlen ősz hajszála.</p>
+            <p>A királynő fölkiáltott bámulatában. Egészen asszony volt e pillanatban: tetőtől
+               talpig csupa kiváncsiság.</p>
+            <p>- Honnan veszi ezt a varázst?</p>
+            <p>- Igaza van felségednek, varázs az, mely nekünk megadja a hosszantartó ifjúságot.
+               Egyik dédünk alirumnát vett feleségül... tudja, felség, mit jelent ez a szó?</p>
+            <p>- Hallottam róla. Igy nevezték a természet titkaiba beavatott és a gyógyerejű füveket
+               ismerő asszonyokat... De beszélje tovább.</p>
+            <p>- Ez az alirumna egy szépség-vizet készített, melynek titkát ránk hagyta. Vele élünk
+               női ágon levők és neki köszönhetjük, hogy az idő nem fog ki rajtunk.</p>
+            <p>Mária Terézia küzdött magával. De hatalmasabb volt e pillanatban az asszony, mint a
+               király­nő. Csaknem félve tette föl a kérdést:</p>
+            <p>- S megtudhatnám én ennek titkát?</p>
+            <p>- Minden tudásunk fölségedé, ép úgy, mint életünk és vérünk. Hivassa elő felséged
+               egyik udvari irnokát és rögtön tollba mondom neki a szer készítési módját.</p>
+            <p>- Ha titok, akkor maradjon csak közöttünk! - szólott a királynő, s hirtelen fölállva,
+               oda ment iróasztalához. - Majd én magam leírom.</p>
+            <p>Türelmetlenül, mint a gyermek, akinek új játékszert igértek, fogta a tollat és leste,
+               mit mond majd Mészárosné. De ez még mindig habozott.</p>
+            <p>- Mondja hát! - sürgette a királynő.</p>
+            <p>- Ennek a titoknak nagy az ára, - szólott végre Mészárosné.</p>
+            <p>- Megadom!</p>
+            <p>- Egy embernek szabadsága...</p>
+            <p>- Akármit vétett, szabad e pillanattól. Hogy hivják és mit vétett?</p>
+            <p>- Neve Mészáros András, hajdan Mezőtúr városának szenátorja volt...</p>
+            <p>- Kigyelmednek férje?</p>
+            <p>- Az. Jelenleg pedig közkatona s ép most a főbejárat előtt áll őrségen.</p>
+            <p>- Tehát politikai vétkes? - mondá elboruló tekintettel a királynő s letette egy
+               perczre a tollat.</p>
+            <p>Mészáros Évának elállott a lélegzete.</p>
+            <p>- Az! - mondá remegve.</p>
+            <p>A királynő föl-alá ment a szobában és küzdött magával.</p>
+            <p>- Felség! - könyörgött Mészárosné.</p>
+            <p>- Csak ezt ne cselekedte volna! - dünnyögött a királynő, - inkább meg tudnék neki
+               minden egyebet bocsátani. Politikai vétkes... talán bizony Rákóczy híve?</p>
+            <p>A szép asszony nem felelt, hanem csak keszkenőjével törülte le omló könyeit. Ismét
+               felülkere­kedett az asszony a királynőben; megsajnálta a bánkódó hitvest s odamenvén
+               hozzá, meg­ölelte.</p>
+            <p>- Azért ne sírjon! Megbocsátok neki a maga kedvéért. De igérje meg, hogy ezentul
+               szigorúan fogja! Nem engedi meg, hogy ujabb ribillióba keveredjék... Az előbb
+               kinéztem az ablakon s láttam, amint megállt a bejárat előtt őrködő katonánál...
+               Mindjárt gondoltam, hogy valami különös ez az eset. De ha már kimondtam, be is váltom
+               szavamat... Hogyan keveredett férje ebbe a nagy bűnbe?</p>
+            <p>- Hálás szíve vitte rá. Édes apja jószágigazgató volt II. Rákóczy Ferencznél.</p>
+            <p>- A nagy rebellisnél?</p>
+            <p>- Annál. Mikor fia, a fiatal József herczeg bejött az országba, levelet hozott az
+               öreg herczegtől férjemnek. Ezt a levelet megtalálták később.</p>
+            <p>- S elitélték férjét?</p>
+            <p>- El. Pedig egyebet sem tett, minthogy elfogadta a levelet. Esküszöm, hogy magában a
+               föl­kelésben nem volt semmi része. Tizenöt éve, hogy e miatt özvegységre vagyok
+               kárhoztatva.</p>
+            <p>- Szegény asszony! - mondá részvéttel a királynő, - magát büntették meg az igazi
+               vétkes helyett.</p>
+            <p>- De az ő sorsa is elég ádáz volt. Mint délczeg férfiút láttam utoljára s mint aggal
+               találkoztam ma vele ujból. Mit nem tettem, hogy kiszabadítsam, de hiába! Végre arra a
+               gondolatra jutot­tam, hogy utolsó reményemet felséged jó szívébe vetem.</p>
+            <p>- S ebben nem csalódott! - válaszolt élénken Mária Terézia, - férje még ma szabad
+               lesz. Nem a titok kedvéért, mely az örök ifjuságot biztosítja, Istenemre nem azért!
+               Hanem mert 15 évig tudott hű maradni ahhoz, akinek szívét odaadta. Ezt a hűséget
+               fogom megjutalmazni.</p>
+            <p>Gyorsan odament az asztalhoz és néhány sort vetett a papirra. Alákanyarította nevét:
+               „Mária Terézia rex” és átadta a papirt az örömében reszkető nőnek.</p>
+            <p>- Fogadja! - mondá - és siessen férjének megvinni a jó hirt... De aztán jőjjön
+               vissza! Mert a titkot mégis szeretném megtudni.</p>
+            <p>Az ajtóban egy gyorsfutárral találkozott Mészárosné. Poros és törődött volt a férfiú,
+               mint aki nagy utat tett meg.</p>
+            <p>De meg sem állt, hogy megnézze, hanem futott le a lépcsőn, hogy elvigye az örömhírt a
+               ki­szabadult fogolynak.</p>
+            <p>Ki tudja, nem női ösztöne súgta-e neki meg, hogy jó lesz sietni! Talán ha megáll s
+               bevárja, míg a királynő elolvassa a sürgönyt, a fogoly továbbra is fogoly maradt
+               volna?</p>
+            <p>Az a gyorsfutár a mezőtúri eseménynek hírét hozta, s mikor a királynő elolvasta
+               tartalmát, biborpirosra festette a harag vonásait. Eltünt az asszony és egészen
+               felülkerekedett a királynő.</p>
+            <p>- Eltörlöm ezt a várost a föld szinéről! - mondá - szétszórom a hálátlan népet az
+               egész ország­ban!</p>
+            <p>...Estefelé Mészárosné egy kis levelet kapott. Tartalma csupán ennyi volt:</p>
+            <p>„Nem kivánom kigyelmedet többé látni. Utazzék haza s vigye magával férjét. De ne
+               menjenek Mezőtúrba, mert lehet, hogy ott kő nem marad kövön.</p>
+            <p>Mária Terézia rex.</p>
+            <p>U. i. A csodaszer titkát írja meg levélben és küldje el ezzel a meghitt
+               emberemmel.”</p>
+            <p>...Mészáros Éva pedig egyenesen Mezőtúr felé vette útját. Magyar nő volt, s nem vitte
+               rá lelke, hogy elmeneküljön a vész elől, mely szülővárosát fenyegette.</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               VII. VÉRES NÁSZ.
+            </head>
+            <p>Husvét napjára volt kitűzve Törő Pál uram esküvője Szegedinácz Peró leányával. Azóta,
+               hogy eljegyezték egymást, Zorka nem lakott többé nevelőapja házában, hanem
+               átköltözött a szomszédba, a főkurátornak egyik szegényebb sorsú rokonához. Minden
+               este elment a boldog vőlegény „leánynézőbe”, mint azt a régi jó szokás előirta; ámbár
+               jól tudta, hogy jövendőbelije ügyes a háztartásnak minden dolgában, s nem kellett
+               erről előbb meggyőződést szereznie.</p>
+            <p>Az az aczélkemény ember ott ült órahosszant a leánynyal szemben és boldog
+               elmerültségében hallgatta csevegését. Mintha kicserélték volna, olyan jókedvü lett, s
+               még Busi András uram­nak is előbb köszönt, ha az utczán találkozott vele. Pedig
+               igazán nem szenvedhette, mint az aféle „tedd ide, tedd oda” embert, aki mindig azt
+               lesi, hogy honnan fúj a szél.</p>
+            <p>Mi neki most Busi András, mi az egész világ, mikor ez a két éjsötét szem rámosolyog
+               és ez a felséges arcz elpirul láttára! Megifjodott húsz esztendővel, s versenyt
+               tudott kaczagni boldog­ságában a galambokkal, melyek az ő udvarából átröpültek a
+               szomszédba, a hol az ő galambja epedve vár, míg hazaviszi a puha, meleg fészekbe.</p>
+            <p>...Néha ugyan, a boldogság közepett, mintha valamely kellemetlen érzés bántaná.
+               Összerán­czolta ilyenkor homlokát, s azt suttogta magában:</p>
+            <p>- Ő akarta így!</p>
+            <p>Fiára, Gyulára gondolt, a ki Zorkát szerette, de vad és féktelen indulatával
+               elriasztotta magától a leányt. Hisz ő maga is úgy akarta, hogy a kettőből egy pár
+               legyen, s tudott volna parancsolni szívének, hogy soha el ne árulja legbensőbb
+               indulatát. De a leány, a nő finom ösztönével kitalálta, hogy ami Gyula szívében
+               lakik, nem szelíd láng, a mely a házi tűzhelyen melegít, hanem egy pusztító, mindent
+               megemésztő tűz, a mely halált és romlást okoz. Őt választotta s nem a fiát.</p>
+            <p>Azért még se kellett volna Gyulának azt megcselekednie, hogy átpártolt hitének és
+               hazájának ellenségeihez. Hogy ha valaki vétett is ellene, nem a haza és nem a hit
+               voltak a bűnösök...</p>
+            <p>Csakhamar azonban erőt vett magán és ismét vidám hangulatba csapott át. Nagyon is
+               igénybe volt véve mindenfelől, s nem ért rá a búsulásnak nekiadni magát - ha ugyan
+               egyáltalában kenyere lett volna a búsulás! Be kellett rendeznie a házat a fiatal
+               asszony számára, hogy ifjúsága idegenül ne érezze magát ebben a kissé komor
+               környezetben. Virágos kertet ültetett a nagy porta közepén, s mikor a mezőtúriak
+               esténkint arra mentek, s a kerítésen áttekintve, meg­látták, a mint a földön guggolt
+               és egy-egy gyenge palántát helyezett el a jól megöntözött talajba, mosolyogva
+               integettek egymásnak s mondogatták:</p>
+            <p>- Kivirul husvét táján főkurátor uram háza tája: rózsák közé jön a legszebb
+               rózsa.</p>
+            <p>Az egész városban alig akadt irigye Törő Pál uramnak. Ha volt valaki, akit
+               irigyeltek, úgy Zorka részesült ebben a kiváltságban; mert a mezőtúriak hite szerint
+               Törő Pál uram olyan ember, hogy még báró-kisasszonynak se derogálna, ha hozzá menne
+               feleségül.</p>
+            <p>Még Bujdosó Gergely is abbahagyta egy időre a kóborlást s Mezőtúr városát szemelte ki
+               Parnasszusának a lakodalom utánig. Szokatlan munkára adta magát; nászkölteményt írt,
+               amely tele volt görög hitregebeli hasonlatokkal és költői figurákkal. Nagyon nehezen
+               ment, mert múzsája nem szokta meg a feszes úri járást, hanem aféle parasztleány volt,
+               aki dalolt, mikor kedve tartotta. Hanem Törő Pál uram kedvéért még úri dámát is
+               csinált Bujdosó az ő vadoncz múzsájából.</p>
+            <p>Eljött végre a nagy nap. Már jókor reggel talpon volt az egész város és ünnepi díszbe
+               öltözött. A jó mezőtúriak kapva kaptak az alkalmon, hogy kimutassák az aczélembernek
+               azt a nagy ragaszkodást, melyet iránta éreztek. Előtte való éjjel munkához látott az
+               egész ifjúság és eleven virágokból lugast készített, mely a menyasszonyi háztól a
+               templomig vezetett. A lugas teteje virágokkal volt teletűzdelve: hadd higyje a
+               mennyasszony, hogy rózsás kert az, amelybe lép, mikor az oltár elé járul.</p>
+            <p>De még ennél is díszesebb, üdébb és szebb volt az az eleven virágsor, mely a lugas
+               belsejében jobbra és balra ékeskedett. A mezőtúri leányok és asszonyok kettős
+               sorfalat képeztek; min­degyiken legszebb ünneplője és valamennyinek arczán az a
+               kedveskedő mosoly, mely az emberi szív mélyéből fakad, mikor érzi, hogy erre érdemes
+               embertársának nagy örömet okoz.</p>
+            <p>Miért nem tudok én ennyi szépséget leírni? De szóljon helyettem Bujdosó Gergely, a
+               poéta, aki e pillanatban összegyűri zsebében a készen tartott nászkölteményt,
+               valamennyi görög istennővel egyetemben, s megteszi önmagának a következő
+               vallomást:</p>
+            <p>- Bolond voltál teljes életedben, Gergely fiam, de a legnagyobb bolondságot akkor
+               követted el, mikor Görögországba mentél, hogy a szépet kutasd. Hisz itt megtalálod a
+               legnagyobb bőségben és le sem kell érte hajolnod.</p>
+            <p>Tíz óra tájban megnyilt a menyasszonyi ház nagy kapuja és kivonult a díszes menet.
+               Czinka Peti, a hires Rákóczy-korbeli lantosnőnek unokája, nyitotta meg bandájával a
+               menetet és olyan muzsikát készített, hogy még a dalos madarak is megálltak, s
+               álmélkodva lesték a bűvös hangokat. Utána jött a városnak valamennyi negyven éven túl
+               levő asszonya, a kik már nem állhattak be a virágsorba, s aztán a legszebb hat
+               leánytól kisérve Zorka, a szép menyasszony.</p>
+            <p>Ugyanekkor megnyilt Törő Pál uram kapuja is és fejedelmi méltóságban kivonult a
+               főkurátor. Igazi fejedelem ő ma, meghódol érdemei előtt szülővárosa, és még az élet
+               is gyöngyöket szór útjára.</p>
+            <p>Azt eszelte ki az utolsó perczben a poéta, hogy a város valamennyi árváját
+               összegyüjtötte maga körül, akiknek vagyonát Törő Pál kezeli két évtized óta
+               megtörhetlen hűséggel, s el­mondatta velük hálás gyermekszívvel:</p>
+            <p>- Gondviselő apánk voltál eddig; áldjon meg az Isten, hogy ezentúl is az lehess!</p>
+            <p>Kell-e nagyobb kincs az élet útjában, mint a gyermekajkakról fakadó áldás?</p>
+            <p>A két menet a templom előtt találkozott s ott szépen egybeolvadt. A vőlegény elhaladt
+               meny­asszonya előtt és még egy utolsó kérdő pillantást vetett rá. Az volt e
+               tekintetben kifejezve, hogy:</p>
+            <p>- Nem bántad meg elhatározásodat? Még van idő, ha mást gondoltál!</p>
+            <p>A leány megértette a néma kérdést, és lesütvén tekintetét, boldog mosolylyal súgott
+               feléje:</p>
+            <p>- Örökké a tied!</p>
+            <p>Az oltár előtt már várta őket a tiszteletes úr. Arczáról le lehetett olvasni, hogy
+               retorikai mesterművön töri a fejét. Olyan szónoklat lesz a mai, hogy évtizedek mulva
+               is róla datálják az eseményeket, mondván:</p>
+            <p>- Ez vagy az két héttel azután történt, hogy a tiszteletes úr a szép beszédét
+               elmondotta.</p>
+            <p>Bele is jutott ez a beszéd a „hires templomi szónoklatok könyvébe”, elolvashatja ott
+               min­den­ki, s nem szükséges, hogy idézzek belőle. Csupán annyi említés történjék
+               ezúttal róla, hogy valóban korszakot alkotott volna Mezőtúr városának történetében,
+               ha szerencsétlenségére az ezután következő események olyanok nem lettek volna, hogy
+               tökéletesen elhomályosították ragyogását.</p>
+            <p>Mert amint az esküvési szertartás véget ért, és a menet kifelé indult a templomból, a
+               bejáratnál hirtelen nagy tolongás támadt. A templomban levők nem tudták megérteni,
+               mit jelentsen a zúgás és elégületlen moraj, mely behallatszik. Csak nem történt talán
+               baj?</p>
+            <p>Az történt, hogy egy század katonaság elállotta a templom előtti tért, épen csak
+               annyi egérutat engedve, hogy a templomból kijövők elmehetnek, ha kedvök tartja.</p>
+            <p>De erre senki sem gondolt. Sőt ellenkezőleg még azok is, akik be nem fértek az esküvő
+               alatt, most a bejárathoz tolakodtak, hogy ott lehessenek, ha a templomot netalán meg
+               kellene védel­mezni.</p>
+            <p>Mert ámbátor nem volt fenyegető a katonaság magatartása, s még puskát sem hozott
+               magával senki, ott lebegett a nagy veszély a város fölött. Sejtette mindenki, amint
+               meglátta, hogy ki vezérli a haderőt.</p>
+            <p>Nem volt az holmi zordképű öreg bibornok, hanem egy fiatal, síma arczú pap, a
+               jezsuita-rend viseletében. Ismerte mindenki a városban, és sejtette, hogy nem azért
+               jött el, hogy a fiatal házaspárnak szerencsét kivánjon.</p>
+            <p>...De hát akkor miért jött el? Mit keres a hitehagyott fiú apjának esküvőjén?</p>
+            <p>Amint Törő Pál uram, feleségét karján vezetve, kilépett a templom ajtaján, szemben
+               találta magát fiával. A fiatal jezsuita vakmerően viszonozta apjának bámuló
+               tekintetét és nem pirult el, mikor ez hangos szóval megkérdezte:</p>
+            <p>- Mit keres itt ez a sok katona?</p>
+            <p>- Eljött, hogy meggyónjon; én leszek a gyóntatója, - válaszolt fagyos, hideg hangon a
+               pap.</p>
+            <p>- Ebben a templomban?</p>
+            <p>- Mivelhogy nincs más a városban!</p>
+            <p>- Ez a templom a mienk, - szólott Törő Pál uram és elbocsátván Zorka karját, a két
+               oszlop közé állott, mely a bejáratot jobbra és balra szegélyezte.</p>
+            <p>- De mi megvásároltuk a jogot, hogy bemehessünk és katholikus szertartással
+               Istenünknek áldozzunk!</p>
+            <p>- Az az alku hamis! - válaszolt keményen a főkurátor. - Csalás útján jött létre.</p>
+            <p>- De azért mégis áll az alku! - daczoskodott a fiatal pap. - Tessék föllebbezni, ha
+               nem ismeri el jogunkat.</p>
+            <p>- Meg is cselekszem!</p>
+            <p>- Addig azonban szabad utat kérünk az oltárig.</p>
+            <p>- S ha nem adom?</p>
+            <p>- Vagyunk annyian, hogy kierőszakoljuk azt, amihez jussunk van!</p>
+            <p>Törő Pál egyetlen tekintetet vetett az előtte álló arczára. Talán olyan vonást
+               fedezett föl, amely saját lelkére emlékeztette, mert utoljára is megkisérlette a szép
+               szót:</p>
+            <p>- Fiam, Gyula fiam, - mondá csaknem kérlelő hangon, - gondold meg jól, hogy mit
+               cselekszel! Nem lehet, hogy annyira gyűlöljed a hazádat!</p>
+            <p>- Nem is a gyűlölet késztet, hogy így cselekedjem, - válaszolt halkan a fiú, - hanem
+               inkább a szerelem.</p>
+            <p>Egyetlen tekintetet vetett az oldalt álló Zorkára; amelytől ez mélyen elpirult a
+               fátyol alatt, mely arczát borította. De a harag pírja volt ez, mintha érezné a
+               sértést, melyet rajta ejtettek.</p>
+            <p>Törő Pált is kihozta ez a tekintet sodrából. Hisz nemcsak apa volt ő, hanem férj
+               is!</p>
+            <p>- Megmaradsz szándékod mellett? - kérdezte kissé rekedtes hangon.</p>
+            <p>- Meg!</p>
+            <p>- Akkor hát, Isten engem úgy segéljen, én is beváltom azt, amit igértem.</p>
+            <p>A körülállók visszafojtott lélegzettel lesték, hogy mi fog most következni. Még a
+               katonák érzéketlen arczvonásai is megélénkültek a feszült várakozásban.</p>
+            <p>A fiatal pap odalépett a templom ajtajához és rátevén jobb kezét a kilincsre, messze
+               csengő hangon így szólott:</p>
+            <p>- A királynő nevében elfoglalom -</p>
+            <p>Azt akarta mondani: „elfoglalom ezt a templomot”, de nem fejezhette be mondását.
+               Egyetlen villanás, aztán felszökellő vérsugár és a pap keze erőtlenül hullott le a
+               kilincsről. Csonkán csüngött alá törzsén, öt ujja különválva hevert a földön...</p>
+            <p>Törő Pál beváltotta igéretét. Díszkardjával hozzá sujtott a kézhez, mely ki akarta
+               erőszakolni a templom bejáratát...</p>
+            <p>*</p>
+            <p>Erről az esetről kapott tudósítást a királynő épen akkor, midőn Mészáros Andrásnak
+               felesége kedvéért megkegyelmezett. Csakhogy furcsán volt kiszínezve ez a tudósítás.
+               Az volt benne elmondva, hogy mikor a katonaság templomba vonult, fegyver nélkül, hogy
+               a szent gyónást végezze, a mezőtúri nép rátámadt és halálra sebezte a papot. Azóta is
+               folyton lázad a nép, élteti a papgyilkos Törő Pált és már gyülekezik is számos
+               helyen, hogy ujból egy kis kurucz­világot kerekítsen.</p>
+            <p>Nem lesz talán fölösleges megjegyezni, hogy ezt a tudósítást Gurszki Teophil uram
+               írta a királynőnek. Mindenre kiterjedt ennek az úrnak a figyelme.</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               VIII. MEGMÉRGEZETT LÉLEK.
+            </head>
+            <p>Mert páter Gurszki Teophil volt az, aki Törő Gyulát rábirta, hogy magára vállalja a
+               templom elfoglalásának föladatát. Busi András uram megírta neki, hogy mire esküdött
+               meg a kurátor, s amilyen aczél-embernek ismerték Törő Pált, senki sem kétkedett
+               abban, hogy szavának áll: levágja annak kezét, aki gonosz szándékkal ráteszi a
+               templom kilincsére.</p>
+            <p>Hogy kissé mélyebben belepillanthassunk a páter makhináczióiba, szükséges, hogy
+               közelebb­ről megvizsgáljuk annak a rendnek, melyhez tartozott, akkori helyzetét. A
+               Loyola által alapított rend helyzete nagyon kényesre fordult Mária Terézia
+               uralkodásának második évtize­dében. Európa legtöbb országában megsokalták túlkapásait
+               és Francziaország, ahol XIV. Lajos uralkodása alatt legnagyobb volt hatalma, már a
+               következő fejedelem idejében minden áron óhajtott megszabadulni Loyola utódaitól.
+               Choiseul herczeg, Pompadour asszony ke­gyen­cze, a legnagyobb gyűlölettel volt
+               ellenük eltelve. Életfeladatának tekintette a rend eltörlését. Valamennyi európai
+               udvarnál akcziót indított ebben az irányban, és diplomácziai lépéseinek volt is
+               annyiban sikere, hogy Spanyolország és Portugália hajlandóknak nyilatkoztak a
+               jezsuita-rend eltörlésére, ha a pápa és Mária Terézia is beleegyeznek. De Rómában
+               egyelőre hallani sem akartak az eltörlésről, sőt még a jezsuiták jóakaróitól
+               tanácsolt reformokat a rend keblé­ben is ellenezték. „Sint ut sunt, aut non sint!”
+               volt a válasz, melyet minden sürgetésre adtak. Erre a válaszra Choiseul megtette azt,
+               ami tőle telt: megszüntette Francziaországban a rendet, elkobozta minden vagyonát és
+               egy parlamenti akta által kiűzött minden jezsuitát az országból. Portugáliában Pombal
+               márki és Spanyolországban Aranda, ha nem is követték azonnal ezt a példaadást, de
+               nagy hajlandóságot mutattak arra, hogy a jezsuitákat megrendszabályozzák; még pedig
+               annál is inkább, mivel ezek a tengerentúli gyarmatokban sok galibát csináltak. Hisz
+               ép akkor történt, hogy Délamerikában, Paraguayban, külön államot alakítottak, mely
+               meg­tagadta a spanyol koronának az engedelmességet, és háborút indított az anyaország
+               ellen. Mindezekhez járult még, hogy Benedek pápa meghalt, s utóda Ganganelli
+               bibornok, aki mint XIII. Kelemen viselte a tiarát, ellensége volt a jezsuita-rendnek.
+               Nála könnyű volt keresz­tül­vinni azt, amit előde konokul megtagadott: nemcsak a
+               szükséges reformokat, de még a rendnek formális eltörlését is!</p>
+            <p>Ilyen viszonyok közt a rendnek vezetői összes reményüket Mária Teréziába helyezték.
+               Tud­ták, hogy a bájos királynő vallásos érzése irtózik minden lépéstől, mely valamely
+               papi-rend ellen irányul. Ausztriába és Magyarországba helyezték tehát át
+               tevékenységüknek súlypontját. Hogy pedig nélkülözhetetlenségüket fényesen
+               dokumentálják, egészen a királynő kedvében jártak. Tudták, hogy Mária Terézia
+               lelkének egyetlen titkos vágya, hogy országának ismét vissza­szerezze a katholikus
+               jelleget, és hizelegtek a fejedelmi asszony abbeli vágyának. Ha sikerül nekik, amit
+               Kolonics és Lobkowitz nem tudtak elérni, ha folytatni tudják a nagy Pázmány művét,
+               akkor nincs az a földi hatalom, mely ezt a talajt megingassa lábaik alatt. Mária
+               Terézia mindent föláldoz annak, aki az ő alattvalóit visszatéríti az anyaegyház
+               keblébe!</p>
+            <p>Innen magyarázható az a vakmerő játék, melyet páter Gurszki kieszelt, s több éven
+               keresztül nagy szerencsével űzött. Nem tagadható, hogy a magyarországi protestánsok
+               kétszáz év óta politikai téren is ellenezték az osztrák háznak abbeli törekvését,
+               hogy megfoszsza Magyar­országot önállóságától és nemzeti jellegétől (ámbár nagyon sok
+               katholikus is e tekintetben velük tartott) és hogy a Thököly- valamint a
+               Rákóczy-támadásnak jó részben protestáns jellege volt. Könnyen esett tehát elhitetni
+               a királynővel, aki nő létére szivesen elhitte azt, amit óhajtott, hogy nem lesz nehéz
+               a magyar nemzetet „rendhez szoktatni”, mihelyt meg van törve a protestánsok hatalma.
+               Gurszki páter tehát a vallási térre vitte át a politikai játékot: míg egyrészről a
+               protestánsokat ugy állította oda, mint a dinasztia ellenségeit, másrészről
+               kisebb-nagyobb, de folyton ismétlődő támadások által szította az elégületlenséget a
+               protestáns egy­házak keblében.</p>
+            <p>Ezzel kettős czélt ért el: Bebizonyította a királynő előtt a jezsuita-rend
+               nélkülözhetlenségét, és kivitte azt, hogy a bizalom a fejedelmi ház iránt megingott a
+               nem katholikusok közt. Elérke­zett­nek látta már most az időt, hogy a főcsapást mérje
+               az „eretnekekre”. Kiindulván Archimedes elvéből, hogy elegendő egy pont, melyre az
+               emeltyűt alkalmazzák, hogy ki lehessen a földet emelni tengelyéből, ő is keresett egy
+               alkalmas pontot s megtalálta Mezőtúr városában.</p>
+            <p>Több mint száz esztendő óta ebben a városban volt a magyarországi kálvinisták
+               Mekkája. Már III. Károly király idejében többször volt Bécsben arról szó, hogy
+               Mezőtúr ellen „keresztes hadjáratot” kellene indítani, s egy ízben már hoztak is
+               itéletet a város ellen, mely oda szólt, hogy lakosait szét kell osztani más,
+               katholikus jellegű városok lakói közt, magát a várost pe­dig le kell rombolni. Hogy
+               ez a dicső terv nem valósult meg, ennek oka csak abban volt kere­sendő, hogy Károly
+               király minden áron biztosítani akarta leányának a trónöröklést, s vissza­riadt minden
+               olyan lépéstől, mely elégületlenséget szülhetne az országban. Mária Terézia udvaránál
+               nem nevezték Mezőtúrt másként, mint a „rebellis” városnak, és nagyon felügyeltek
+               mindenre, ami ott történt.</p>
+            <p>Páter Gurszki Theophilnak tehát könnyű feladata volt, mikor arra vállalkozott, hogy
+               Mező­túrban olyan komplikácziót idéz elő, melyből politikai tőkét lehet kovácsolni.
+               Készen volt a gyujtó-anyag és csak a szikrát kellett közelébe hozni. A szikra is
+               megvolt, mikor arról értesült, hogy a mezőtúri „eretnekek” főoszlopa, Törő Pál
+               kurátor uram, a saját fiával viszályba keve­redett és apa és fiú mint halálos
+               ellenségek állnak egymással szemközt. Nem lett volna ő az a nagy „emberhalász”,
+               akinek hirében állott, ha ezt a kedvező alkalmat elszalasztja. Fölkereste Törő
+               Gyulát, és a háborgó indulatában minden erkölcsi féket elvesztett ifjút mézesmázas
+               szavával rábirta, hogy beállt a jezsuita-rendbe. A fiát az apa ellen kijátszani, ez
+               volt az a nagy trompf, melylyel játékát megnyerni remélte!</p>
+            <p>Gyula fényesen bevált. Mindaz a fanatizmus, melyet apjától örökölt, mely a Törővérnek
+               leg­kiválóbb sajátsága volt, féktelen dühre és haragra változott át saját szülővárosa
+               ellen. Bécsben csakhamar nagy tekintélyre tett szert, mert „szakértőnek” tartották
+               magyarországi dolgokban, és nem egyszer érintkezett magával a királynéval is, mikor
+               arról volt szó, hogy az ottani protestánsok ellen valamely sakkhúzást
+               megkiséreljenek. A királynőnek természetesen sejtel­me sem volt arról, hogy mi birta
+               rá Törő Gyulát e szerep elvállalására; ő azt hitte, hogy az ifjút a vallási buzgalom
+               ösztönözi. Arról, hogy egy épenséggel nem égi, hanem nagyon is földi szenvedély
+               tetteinek rugója, nem is álmodott.</p>
+            <p>Mikor Busi András megírta Törő Gyulának, hogy husvét első napján lesz Zorka esküvője,
+               az elfojtott harag annyira erőt vett az ifjún, hogy csaknem elvette eszét. Könnyű
+               feladat várt Gurszkira, mikor fel akarta használni az ifjú lelki állapotát, hogy
+               döntő lépésre birja apja és szülővárosa ellen. Még nem is kellett rábeszélés, elég
+               volt néhány elejtett czélzás és Törő Gyula maga ajánlkozott arra, hogy lemegy
+               Mezőtúrra és elfoglalja katonai karhatalommal a templomot, melyet Busi Andrásnak
+               gyámoltalansága játszott kezükre s melyben édesapja fog megesküdni Zorkával!</p>
+            <p>Akik feketére festik az ördögöt, nem is tudják, hogy a fekete szín nem is elegendő
+               bizonyos sötét lelki állapotok festésére. Bolond az, aki a poklot valahol a föld
+               mélyében keresi, mert sajátképen az emberi szívben van az elhelyezve! Mikor Törő
+               Gyula megtudta, hogy Zorkát édesapja nőül veszi, egész arczát elöntötte az epe, és a
+               galád gyűlölet megmérgezte vérének minden cseppjét. Kisérteties mosolylyal csupán
+               ennyit mondott a páternek:</p>
+            <p>- Én is ott leszek, s rájuk adom áldásomat!</p>
+            <p>Visszavonult a bécsi rendháznak legzordabb czellájába, sanyargatta testét, bőjtölt,
+               nélkülözött, mintha az eget akarná megostromolni. Pedig ez alatt bejárta a pokol
+               minden mélységét és oly ádáz mérget keresett, melytől nemcsak a test pusztul el,
+               hanem a lélek is őrjöngésbe esik. Azt mondták róla rendtársai: „Ez az ifjú szentnek
+               készül” s ő az alatt ördögnek készült. Beküldtek czellájába imádságos könyveket,
+               ájtatos olvasmányokat, zsolozsmákat, s ő földhöz csapta, lábbal tiporta azokat. Mikor
+               a zajt meghallották a czellán kívül állók, dicsőült arczczal mon­dogatták egymásnak:
+               „Viaskodik a démonnal, s leküzdi.” S ő valóban viaskodott a pokollal, de nem győzött
+               ebben a kegyetlen harczban...</p>
+            <p>Az a méreg, melyet szivébe csepegtettek, olyan irtózatosan erős volt, hogy megtámadta
+               a saját edényét. Törő Gyula nagyon beteg volt: a gyűlölet betege.</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               IX. LÁZADÁS.
+            </head>
+            <p>Abban a kis faluban a Hargita hegység lábánál még mindig hiába vártak, mikor jön
+               vissza az öreg Fájerstájn Mózes, aki elment követségbe nagy Bécsnek városába, hogy
+               elmondja az igazságos királynőnek, mint bánnak hű alattvalóival és aki orvoslást hoz
+               majd bajukra. A jámbor nép meg volt ugyanis győződve arról, hogy mihelyt a trónon ülő
+               bűbájos asszony meghallja panaszukat, rögtön megírja arany tollal a parancsot,
+               hogy:</p>
+            <p>»Halljátok ti hűtlen sáfárok, amit én nektek mondandó vagyok! Csunya dolog az, amit
+               ti jámbor alattvalóim ellen elkövettetek! Nem így akartam én ezt! Amint levelemet
+               ve­szi­tek, takarodjatok azonnal onnan, s hagyjátok békében jó embereimet, mert
+               különben...«</p>
+            <p>S amint meg lesz írva a levél rózsaszín pergament lapon, azonnal lóra ülteti
+               legnagyobb eszű emberét és ráparancsol, hogy meg se álljon, meg se pihenjen, amíg meg
+               nem látja a Hargitá­nak erdőkoronázott csúcsát. Adja a levelet a bíró kezébe: a
+               többit már kitalálja ez a maga bölcs eszével.</p>
+            <p>Igy lett kifundálva a faluban, s a lakosság a reménység ölében megpihenvén, föl sem
+               vette, hogy még mindig nyakán van a zsoldos had, s napról-napra vakmerőbb lesz
+               követelésében. Hadd kapaszkodjék egy ideig, majd lepottyan a pocsolyába!</p>
+            <p>Számítgatták egyre, merre járhat az alatt a futár. Nagyvárad városát bizonyára
+               elhagyta már és most kapaszkodik fölfelé a Királyhágó lejtőin. Csak el ne tévedjen
+               valahogy a sűrű erdő­ségben, vagy pedig utját ne állja a kóbor rablócsapatok egyike,
+               mely olyan sűrűn terem, mint a borókabokor. Hanem megnyugtatta őket az öreg biró,
+               mondván, hogy a királynő követét még Dura Juon, a híres haramiavezér sem meri
+               bántani, mert a királynő mégis csak az első az országban.</p>
+            <p>Lehet azonban, hogy kincses Kolozsvár városában mulat a követ. Mert hej! veszedelmes
+               egy város ez! Olyan zamatos a főzte és tüzes a bora, hogy emberfia nem tud
+               ellenállani csáb­jainak. Bizonyosan ott vesztegel az ármányos. No de sebaj! Ha
+               jóllakott, majd csak eszébe jut kötelessége. Ne nehezteljetek rá atyámfiai, mert hisz
+               ti sem volnátok különbek.</p>
+            <p>A falura alánéző hegycsúcson éjjel-nappal őrt áll két falubeli ember. Biró uram egy
+               marék rézgarasost igért jutalmul annak, aki először látja meg a követet. Igazi, jó
+               veretű garast, s nem afféle libertást, melytől elfintorítja orrát az adótiszt s
+               visszalöki, ha elébe teszik. Szegény libertás, de mennyire csökkent az értéked!</p>
+            <p>Éjjel még őrtüzet is gyújtottak a hegy hátán, hogy a követ már messziről meglássa,
+               merre van a falu. Ez az őrtűz már szemet is szúrt Minkwitz kapitánynak, a faluban
+               állomásozó század parancsnokának. Két ízben küldött ki patrolt, hogy lesse meg, kik
+               azok az éjjeli tüzelők? A partról azzal a jelentéssel jött vissza, hogy embert nem
+               talált a tűz mellett, hanem csak sülő­félben levő őzczombot. Bizonyára csempészek
+               voltak az istenadták, s megugrottak a vitéz katonaság közeledtére. Ezek megették az
+               őzczombot, eloltották a tüzet, de mire a hegy aljára értek, már ismét fénylett az a
+               sötét, felhőterhes éjszakában.</p>
+            <p>Minkwitz erre azt mondta, hogy sohse bántsák a szegényeket. Rokonszenvezett a
+               csempé­szekkel, mert érezte magában, hogy ő is olyan tilosban vadászó úri ember;
+               csakhogy nem vadat, hanem embereket hajszol.</p>
+            <p>Egyébiránt is nagyon el volt foglalva ez idő tájban a derék kapitány. Uri vendége
+               érkezett. Páter Gurszki Theophil időzött nála; aki eljött, hogy kedves czimborája
+               társaságában ki­pihen­je a mezőtúri nagy munkát és új csínytevésben törje
+               ravaszsággal színültig tele fejét. Régi barátság és czimboraság révén járt el a
+               kapitányhoz, mert hajdanában együtt szolgáltak a hadseregnél, mielőtt a páter
+               fölcsapott »Isten katonájának«.</p>
+            <p>A páter híres ínyencz volt, a kapitány pedig ritkította párját a főzés mesterségében.
+               Ha el­veszti porteépéeját, ami viselt dolgai után épen nem lehetetlenség, menten
+               beállhat szakácsnak valamely püspökhöz. Igy is megkeresi mindennapi kenyerét és
+               ráadásul még valami fölös­leget.</p>
+            <p>...Ősz utolja volt már, s a Hargita oldalán leveleit hullatta a boróka bokor és a sok
+               törpe fa­hajtás. A két őr sólyomszemmel nézte a mélyen alatta elnyúló országutat. Még
+               mindig leste a királynő futárját. Ha csiga természete volna is, eddig már körülbelül
+               megtehette volna az utat Bécsből Erdélyig.</p>
+            <p>...Ki tudja azonban mi késleltette?... Hátha máshová is kellett izenetet vinnie?...
+               Hisz másutt is történt az országban igazságtalanság, amelynek gyógyírt küldött a jó
+               királynő - ámbár sejt­hette volna, hogy itt van rá a legnagyobb szükség!</p>
+            <p>Figyelembe sem vették azt a poros, törődött és lassan haladó utast, aki mögöttük
+               alá­kanyarodik a szűk ösvényen. Hisz nem arra-felől jön az ő igazságuk! Fényes követ
+               hozza, aki széles uton halad sebesen vágtató paripán és nem czammog, mint akit a
+               lelki teher csaknem földig nyom le. Akkor riadtak föl, mikor már egészen közel jutott
+               hozzájuk a magános vándor, s ismerősként köszönt feléjük.</p>
+            <p>- Ez a Fájerstájn Mózes, - mondá az egyik.</p>
+            <p>- Vagy a hazajáró lelke, - szólott a másik.</p>
+            <p>- Inkább az utóbbi! - hagyták aztán rá mindketten.</p>
+            <p>De ha lélek, miért olyan törődött és roskatag? Hisz a léleknek van szárnya, amelylyel
+               repülni tud. S nem avatkozik földi dolgokba, hanem közel a csillagokhoz keres magának
+               pihenő helyet, ahol elgondolkozik a fölött, hogy mily szép volna a föld, ha minden
+               ember csakugyan ember volna, s nem vadállat, mely hasonmását marczangolja.</p>
+            <p>A fáradt vándor leült a tűz mellé s melengette reszkető kezeit, didergő tagjait.
+               Aztán kivette kését csizmaszárából és levágott egy darabot az őzczombból, mely
+               nyárson sült. Félig nyers volt még a hús, de azért mohón megette. Nagyon éhes
+               lehetett. Egy csobolyóban hideg forrásvíz volt, abból is húzott egy nagyot, aztán így
+               szólt rekedtes hangon:</p>
+            <p>- Hívjátok ide a falut, beszédem van hozzá.</p>
+            <p>A két őr, akinek lélegzete majd elállt, mikor látta, hogy a szegény elárvult lélek
+               hogy eresz­kedik le hozzájuk, megkönnyebbülten fölsohajtott. Csakugyan a Mózes és
+               senki más, ámbátor olyan furcsa a viselkedése. Az egyik őr lekapta válláról a hegyi
+               kürtöt, előbb belenézett, nincs-e benne olyas valami, ami a hangnak útját állná -
+               mert a kürt tág torkában szokta tartogatni lőpor-készletét - aztán belefújt hatalmas
+               tüdővel.</p>
+            <p>Percz mulva megadta a visszhang a választ. Valamivel gyöngébben, de mégis biztatóan,
+               mintha azt mondaná:</p>
+            <p>- Jövünk már!</p>
+            <p>Mintha apró hangyák kúsznának föl a lejtőn. Majd egyenként, majd ismét csoportokban.
+               S minél közelebb értek, annál inkább kinőtték magukat emberi formába. Az egyiknek
+               kezében még ott volt a gyalu, a melylyel asztalosmunkát végzett, amikor elszólította
+               a kürt; a másik a félig elkészült kosarat hozta magával és útközben is fonta tovább a
+               vékony fűzfahajtásokat; a többi is úgy jött el, amint épen megkereste a mindennapi
+               kenyérre valót. A távolabb levők arczán a remény pírja, a közel levőkén a várakozás
+               és az aggodalom.</p>
+            <p>Fájerstájn Mózes már befejezte étkezését és a kés nyelével piszkálta a parazsat.
+               Bevárta, míg valamennyi falubeli fölért a hegyhátra és körülállta a tüzet. Aztán
+               fölvett egy darab parazsat kezébe és addig játszott vele, míg el nem aludt, s holt
+               üszök maradt csak játszadozó jobb­jában.</p>
+            <p>- Látjátok ez? - mondá szomorú hangon és fölmutatta a holt üszköt, melynek szélein
+               már szürke hamusávok mutatkoztak; - ez a mi reményeinknek képe. Mikor husvét előtt
+               útra keltem, még lángolt, még melegített, de most már kialudt utolsó szikrája is.</p>
+            <p>Megjöttem, itt vagyok. Mikor elmentem, azt mondtam nektek, hogy várjatok, míg
+               vissza­jövök. Ne akarjatok boszút állani, míg meg nem kiséreltem, van-e még igazság a
+               földön. Most azt mondom egész biztonsággal, hogy nincs, meghalt, elpusztult. Aki még
+               belé helyezi bizal­mát, az bolond. Ne legyetek hát bolondok!</p>
+            <p>Fent voltam Bécsben. Átkozott város, mint szépül, mint terjeszkedik a mi rovásunkra.
+               Meg­hízott, mint a mesebeli rézorrú banya, aki naponként kicsap barlangjából és
+               elfogja az országuton elhaladó gyermekeket, hogy húsukkal jóllakjék. Meddig leszünk
+               még gyermekek? Mikor ragadunk ismét fegyvert, hogy megtoroljuk a barlangbeli rém
+               agyarkodását?</p>
+            <p>Egyszer már megdöngettük a gonosz barlangjának kapuját. De rémült, de sápítozott
+               akkor! Én is ott voltam és villogott kezemben a harczias fegyver. Akkor nem vetették
+               szememre, hogy „komisz zsidó” vagyok, hanem tiszteletteljesen meghallgattak, mert II.
+               Rákóczy Ferencz nevé­ben jöttem.</p>
+            <p>Mikor most a kapuhoz értem, elfogtak és megmotoztak. Azt kérdezték tőlem, hogy miért
+               jöttem? Hát miért jöhet a zsidó ebbe a nagy városba, ahol minden megvásárolható?
+               Keres­kedni, kufárkodni jöttem!</p>
+            <p>Nem is hazudtam, mert csakugyan ezért jöttem. Magammal vittem egy zacskó aranyat,
+               hosszú életemnek becsületes keresményét. Rászántam arra, hogy megvásároljam vele
+               igazságunkat.</p>
+            <p>Két aranyat követeltek tőlem s adtak cserébe egy papirost, melyre az volt írva. hogy
+               a zsidó Fájerstájn Mózes 24 óráig maradhat Bécs városának falain belül. Lelkemre
+               kötötték, hogy ha elmúlt ez az idő, jőjjek ismét ide, váltsak új engedélyt, mert
+               különben pórul járok.</p>
+            <p>24 óra rövid idő, de elég arra, hogy megtaláljuk az igazságot, ha egyátalán
+               megtalálható. Nekem épen elég volt arra, hogy megtudjam, merre van az a palota,
+               melyben Magyarország királynője lakik - idegen földön, idegen városban.</p>
+            <p>150 arany volt az én zacskómban. Hetvennégyszer jártam ki és be a kapun, hogy új
+               engedélyt váltsak. Egy aranyat költöttem a saját személyemre, egyet pedig külön
+               tettem el, hogy legyen hazafelé miből megélnem. Mert megbocsássatok édes fiaim,
+               koldulni még a ti kedvetekért sem tudok...</p>
+            <p>Mikor elfogyott az utolsó két arany s én még mindig nem jutottam tovább a királynő
+               elő­szobájánál, elfogott a dacz. Azért is itt maradok s nem megyek vissza a kapuhoz
+               új engedélyt váltani. Megfizettem busásan a jogot, hogy ebben a városban
+               járjak-keljek. Holnapra biztosra megigérték, hogy bejutok a felség elé. Ha aztán meg
+               is büntetnek, nem bánom.</p>
+            <p>Ugyanazon éjjel, mikor egy régi híd alatt meghúzódtam, hogy ott töltsem az éjszakát,
+               elfogott egy őrjárat. Megmotoztak, megtalálták nálam a lejárt engedélyt és elítéltek
+               arra, hogy meg­vesszőznek és kiállítanak pellengérre.</p>
+            <p>Hat óráig állottam kikötve. A csőcselék kövekkel dobált, leköpött és szakállamat
+               tépte. Aztán kivezettek a városból és halálos fenyegetések közt rámparancsoltak, hogy
+               többé ne merjek visszajönni. Ott maradt sok aranyom is és minden reményem
+               azonfelül.</p>
+            <p>Nem ijesztett volna el a fenyegetés, kiálltam volna másodszor is a pellengért, de
+               minek koczkáz­tassam? Ott nincs igazság, nem is kerestem hát tovább!</p>
+            <p>Megigértem nektek, hogy boszútoknak nem állom útját, ha hiába járok Bécsben. Most itt
+               az ideje, hogy ti cselekedjetek, én már nem tehetek értetek semmit.</p>
+            <p>- De tehetsz! - mondá szilárd hangon a kosárfonó agg, aki a község birája volt.</p>
+            <p>- Mit?</p>
+            <p>- Fogj kezedbe te is egy köteg rőzsét s jer velünk.</p>
+            <p>...Megindult a hosszú menet a hegynek alá. Már nem volt nyüzsgő hangyaboly, hanem
+               óriások serege. A száraz rőzse, melyet mindegyik az erdei készletből magához vett és
+               fején czepelt, kétszerte nagyobbnak tüntette fel az alakokat. Valami kisérteties
+               külsőt kölcsönzött a jámbor népnek. Pedig a kosárfonó még mindig fonogatta
+               kosarát...</p>
+            <p>A falu közepén egy nagy ház állott, hajdan urasági lak. A kurucz-háborúk alatt
+               elpusztult a csa­lád, mely azelőtt birta. Ahány csatatere volt a harczoknak,
+               mindegyiken elvérzett a család­nak egy-egy tagja. Most aeráris birtok és Minkwitz
+               kapitány lakik benne.</p>
+            <p>A hajdani czinteremben ül és borozgat czimborájával, páter Gurszki Theophillal.
+               Nagyon vígan vannak és a tiszti szolga alig győzi a kupákat felhordani a
+               pinczéből.</p>
+            <p>- Olyan csendes ma ez a falu, - mondja kissé nehézkes nyelvvel a páter.</p>
+            <p>- Az én érdemem, - válaszolt henczegve a kapitány; megtanítottam rendre ezeket a
+               digákat. Ezelőtt hajnalban harangoztak imára: kivétettem hát a harangok nyelvét,
+               nehogy legszebb álmomban háborgassanak.</p>
+            <p>- Ugy élsz itt, mint egy kis király, - jegyezte meg mosolyogva a páter.</p>
+            <p>- Az is vagyok! Félnek tőlem, és be sem várják parancsaimat, hanem már előre
+               leolvassák arczomról minden kivánságomat.</p>
+            <p>- S a katonák?</p>
+            <p>- Fényes életet élnek. Ma például kiküldtem két czugot vadászatra, kettőt pedig
+               halászatra. Hadd teljék benne örömük! Ugy sincs egyéb mulatsága a szegény
+               bakának.</p>
+            <p>- Igy hát egészen egyedül volnánk a faluban? - kérdezte a páter és kissé fázékonyan
+               húzta összébb mellén a reverendát.</p>
+            <p>- Talán bizony félsz? - gúnyolódott a kapitány.</p>
+            <p>- Jól tudod, hogy nem vagyok gyáva, hanem csak óvatosabb mint te... De nini! Mi ez?
+               mintha egyre sötétebb lenne...</p>
+            <p>- Talán felhő van az égen? Vagy vihar van készülőben? Nem ritkaság errefelé.</p>
+            <p>...Onnan támadt a sötétség, hogy a fölhalmozott rőzsekötegek már túlértek az ablak
+               alsó részén és elfogták a betóduló világosságot. Valóban, vihar készült idekünn.</p>
+            <p>- Menjünk a másik szobába, - indítványozta a kapitány.</p>
+            <p>Amint átlépték a szomszéd szoba küszöbét, megdöbbenve állott meg a kapitány és nagy
+               bámu­latában még a boros kancsót is elejtette, melyet magával hozott. A jó erdélyi
+               bor szét­frecscsent a földön és mohón szívta magába a kiszáradt padló.</p>
+            <p>- Mi történik itt? - hebegett és ónszinűre váló arczára kiült a rémület.</p>
+            <p>Páter Gurszki nem szólt semmit, hanem odarohant az ablakhoz és ki akart rajta nézni.
+               Még volt ott egy kis nyilás, legfelül, a melyen keresztül szűrődött a világosság.
+               Most ez is eltünt, mert rádobtak egy kötet rőzsét.</p>
+            <p>Odasiettek az ajtóhoz és próbálták nyitogatni. Nem lehetett. Be volt szegezve
+               kívülről.</p>
+            <p>...S egyszerre, hirtelen nagy világosság támadt. Vöröses fény derengett, aztán
+               ropogott a száraz fa, benyaldosott a láng a repedező ablakon és olyan hőség támadt,
+               mintha a pokol fűtene alattuk.</p>
+            <p>- Fegyveredet! hol van a fegyvered? ordított magánkívül a páter.</p>
+            <p>A kapitány üvegesedő tekintettel nézett maga elé. Nem tudott megmozdulni, nyelve oda
+               ragadt szájpadlásához. De már elég világos volt a szobában, hogy a páter magától is
+               meglelje azt, a mi keresett.</p>
+            <p>Lekapta a puskát a falról, odarohant az ablakhoz s bár megperzselte a láng arczát,
+               vissza nem riadt, hanem kemény hangon kiáltott kifelé:</p>
+            <p>- Oltsátok el a tüzet, vagy közétek lövök!</p>
+            <p>Várt egy fél perczig, nem érkezik-e válasz? Odakünn néma maradt minden. Ekkor
+               rácsattan­totta a ravaszt a tűzkőre, lángra kapott a lőpor és eldördült a lövés.
+               Nyomban rá fájdalmas kiáltás hallatott, jeléül annak, hogy a golyó talált.</p>
+            <p>Az öreg Fájerstájnt találta mellén. A vér patakként omlott sebéből s egész tócsát
+               képezett már körülte.</p>
+            <p>A felgyújtott rőzsehalmazba most kissé lassabban ette magát bele a láng. A középső
+               réteghez nem fért hozzá olyan könnyen a levegő, s láng helyett néhány pillanatig
+               füstöt okádott a máglya. Az öreg Fájerstájn elhomályosodó tekintettel nézte az
+               előtóduló és kigyózva fölfelé emelkedő füstöt.</p>
+            <p>- Emeljetek fel! - parancsoló hörgő hangon.</p>
+            <p>Engedelmeskedtek utasításának.</p>
+            <p>- Dobjatok a rőzsehalom legtetejébe, - folytatta.</p>
+            <p>Megdöbbenve állottak meg, akik fölemelték.</p>
+            <p>- Mit haboztok? - türelmetlenkedett az öreg, - hát nem látjátok, hogy rajtam már nem
+               lehet segíteni. Bele talált a golyó oda, ahol meghúzódott az a csekély életerő, ami
+               még bennem van... Vagy azt akarjátok inkább, hogy cseppenként szálljon el belőlem?...
+               Legyen eszetek s tegyétek meg, a mit kivánok... Ilyen halált akartam én mindig!...
+               Együtt halni meg kínzóim­mal, emberi méltóságomnak lábbal tipróival... Ha együtt
+               ölelgetjük a tűz tündérét s ő viszo­nozza ölelésünket, nem jut majd eszükbe, hogy én
+               csak zsidó vagyok... Rajta hát.</p>
+            <p>Varázs nyűgözhette le ezt a jámbor falusi népet, hogy szó nélkül megcselekedte azt,
+               amit az agg tőle kivánt. Fölkapták, odavitték és rátették a rőzsehalom tetejére. S
+               mintha a tűz csak erre várt volna, hirtelen fölcsapott az eleven láng és hozzásimult
+               Rákóczy Ferencz zsidajának testéhez. Mint egy szerelmes, mint egy jóbarát, aki
+               enyeleg és játszadozik.</p>
+            <p>Fájerstájn Mózes ajkai dalra nyiltak. Elmondotta a saját halotti imáját.</p>
+            <p>- Én uram, teremtőm, mi az ember? Porszem a vihar szárnyán, melyet ez űz és kerget,
+               őszi hervadó levél, melylyel játszik a szél. Én uram, teremtőm, fogadd magadhoz hű
+               szolgádnak lelkét.</p>
+            <p>S ugyanakkor a pokol égő katlanából, a fojtó füstből megszólalt egy másik hang.
+               Hitbuzgón, erős meggyőződéssel énekelt egy szent zsoltárt, melyben el volt mondva,
+               hogy valaki, aki egész életén át Isten ügyét szolgálta, most meghal Istenéért és
+               vallásáért, martirok példaadása szerint.</p>
+            <p>Páter Gurszki Theophil halotti dala volt ez. (Bármit mondjon is róla a világ, férfiú
+               volt, aki meggyőződésből cselekedett.) S egybevegyült a két halotti ének. Lehet, hogy
+               mindakettő megtalálta az útat a teremtőhöz.</p>
+            <p>Mikor éjszakára a század hazatért vadászatból, halászatból, füstölgő romhalmazt
+               talált a falu helyén. Az éj csöndjében pedig ugyanakkor némán haladt egy csapat,
+               melyben voltak férfiak és nők, aggok és gyermekek. Aki legelől járt, egy ősz férfiú,
+               még most is fonta kosarát.</p>
+            <p>A falu lakói voltak, akik idegenbe mentek új hazát keresni...</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               X. ITÉLET.
+            </head>
+            <p>Mire a Hargita környékén történt események híre Bécsbe eljutott, Törő Pál fogságban
+               ült már Buda várában. Előre látta ő a bekövetkező eseményeket s még husvét első
+               napján, mikor esküvőjéről hazatért, egybehívta a preszbiteriumot és beszámolt a
+               rábízott pénzekről, átadta a nála levő irományokat és ünnepélyes ülésben lemondott
+               minden tiszteletbeli hivataláról és méltóságáról. Mint aki végrendelkezik, lelkére
+               kötötte utódjának, mint kezelje az árvák vagyonát és az egyház kincseit azokban a
+               nehéz időkben, melyek a városra bekövetkeznek, elbucsúzott baráttól úgy mint
+               ellenségtől, megbocsátott irígyeinek és igazi keresztényhez illő módon készült el
+               halálára.</p>
+            <p>Mert hosszú és kínos haldoklás volt, ami őt ezentúl várta. Teljes három évig tartott
+               pöre. Elfogták esküvője napján késő éjjel, s még ugyanabban az órában, mikor a rabság
+               bilincseibe verték, el is szállították idegen börtönbe, ahonnan - mint biztosan tudta
+               - nincs többé számára szabadulás.</p>
+            <p>Az ellene foganasított eljárás, mint akkori időben perduelliós pörökben szokás volt,
+               titokban folyt le. Maga a vádlott sem tudta, mivel van vádolva, s a birák összes
+               bölcsesége abban kul­minált, hogy minél több érvet hozzanak fel a „bűnös” ellen, s
+               minél több vallomást csikar­janak ki belőle.</p>
+            <p>Törő Pál nem is védte magát. Ráhagyott mindent, amit a birák tőle kérdeztek. Azt is,
+               hogy titokban lázadást tervezett, azt is, hogy Rákóczy Ferencz még élő híveivel
+               czimborált s abban törte velük együtt fejét, hogy egy ál-Rákóczy vezérlete alatt
+               újból pártütést támaszszon az országban.</p>
+            <p>Pedig nagyon könnyű lett volna neki mindezeket megczáfolni! Hanem épen ezt nem akarta
+               az aczél-ember. Volt neki egy külön terve, amelynek segítségével véget akart vetni a
+               vallás-üldözésnek Magyarországon. Majd meglássuk később, miben állott ez a
+               terv...</p>
+            <p>Csak egy ízben tört ki belőle a méltatlankodás. Midőn ugyanis birói „vallatás” útján
+               rá akarták birni arra a vallomásra, hogy ő és Bujdosó Gergely Hódmező-Vásárhely
+               városának birájával együtt paktumra léptek, mely kölcsönös oltalomra és segélyadásra
+               irányult, fölállott és ünnepélyes esküszóval kijelentette, hogy Pető Ferenczet soha
+               életében nem látta, nem ismeri, de még levélváltás útján sem érintkezett vele
+               soha.</p>
+            <p>Ekkor is csak egyre volt gondja; hogy t. i. ártatlan embert bele ne keverjen saját
+               bajába. S még a kínpadon is megmaradt a mellett, hogy minden tervét egymagában főzte
+               ki.</p>
+            <p>Hasztalan volt ez is. A birák, hogy buzgalmukat kellő világításba helyezzék, nem
+               elégedtek meg egyetlen áldozattal, hanem minél több elitélt kellett nekik. Ezt
+               követelte tőlük a Bécsből érkezett instrukczió.</p>
+            <p>Az itélet, mely 1754. márczius nyolczadikáról van keltezve, s ma is őriztetik Mezőtúr
+               városá­nak levéltárában örök emlékezetnek okáért, következőleg hangzik:</p>
+            <p> „Azon Causaban, mellyet a Magyar koronának kir. Fiscus Törő Pál Heves Várme­gyében
+               levő Tur Városának, Pető Ferencz Csongrád Vármegyében lévő Vasarhelyi Lakosok, és
+               több alább megnevezendők ellen az iszonyu Pártütés és Hitteszegettség ugy királyi
+               Felség sértődése okaira való nézve, a királyi Delegalt Birák előtt Buda Városá­ban
+               inditott, törvényessen végeztetett ekképpen.</p>
+            <p>Noha azon vétkekben, mellyek az ország tsendessége, és belső békessége ellen
+               czélóz­nak, másokk példájára, gonoszokk iszonyítására, az Hivek és Jámborok pedig
+               bátor­ságos életekre, az törvények keménsége és sullya szerint menni kellene: A
+               Delegált Birákk mind az által törvényes és igazságos Itélete, Ő Felsége királyi
+               kegyelmessége által megenyhittetvén, ez szerint következik a Sententia:</p>
+            <p>Turi lakos Törő Pálnak mind maga szája vallásábul, mint Több Társainak, ugy önként
+               tett, mint ugyan azok vallásának megegyeztetéséből kivilágosodván az: hogy Törő Pál
+               volt ezen pártütésre czélozó gonosz igyekezetnek indítója, és nem tsak izenetekkel,
+               küldött Levelekkel a Vásárhelyieket támadásra, maga rosz szándékának társaságara
+               hóditotta, de azoknak ezen gonoszságra szolgáló eszközöket is, ugymint fegyvereket
+               által adott. Ezen kivül egyenlő Vallásukbúl nyilván való az, hogy Vasarhelyi lakos
+               Pető Ferentz Törökország szélire a végre ez előtt három esztendővel elmenendő öt
+               Társainak, hogy a mint akkor az hírt hozta, az ottan levő Partütőkkel tanátsot
+               tartanának és e gonosz igyekezetekbe végezést tennének. Előljárójok és Vezérek vólt:
+               Az ultátul fog­vást mind ekkoráig ezen rosz szándékra Társokat hoditani meg nem
+               szünt. Az most leg­közelebb támadott gonosz mozdulásnak alkalmatosságával maga
+               házánál gyülekezetet tartott, és ötödmagával az pártütés társaságára erőss hittel
+               egyben esküdött. Tovább mivel Bujdosó György, Törő Pálnak az Vásarhellyiekhez
+               kővettye, és hogy ő nékiek Levél irattassek tanátslója volt. De Vásárhellyen is Pető
+               Ferentz házában az pártütés végére mind egyik előtt hitét letette és több társoknak
+               hódítására Debretzen felé ment, s ugyan azoknak öszve gyüjtésével is gonosz szandékát
+               betöltötte. Ezeknek okáért az megnevezettek, úgy mint Törő Pál, Pető Ferentz és
+               Bujdosó György mint ezen táma­dásnak első koholói és inditói, következőndőképpen
+               királyi Felség ellen pártütők, és a haza belső békességének háborgatói. Mivel ezen
+               gonosz tselekedetnek iszonyusága, és a törvények kemény sullya ugy kivánja, magokk
+               érdemlett büntetésekre, másoknak rettentő példájokra Törő Pál ugyan Tur várossa alá,
+               Pető Ferentz pedig Vasarhelly alá fog vitetni, ugyan ottan elsőben is Hohir pallósa
+               által fejek fog vétetődni, az után pedig testek négy részre vágattatni, úgy ezen
+               tselekedetökk utállatos emlékezetére, az megirt Hellyeknek határain, az Világnak négy
+               részére kiállítandó akasztófákra függesztetni. Bujdosó Györgynek hasonlóképpen feje
+               vétetik, végtére mind ezek ingó és ingatlan javainak elvesztésében
+               elmarasztaltatnak.”</p>
+            <p>Ezt nevezték az akkori idők igazságszolgáltatásának nyelvén „igazságos itélet”-nek.
+               Tehették ugyanazzal a joggal, melylyel a Hargita mentében történt eseményeket
+               elkeresztelték „lázadás”-nak!</p>
+            <p>*</p>
+            <p>A budavári földalatti börtönből útnak indult egy fegyveres csapat. Két fogolyt kisért
+               ezeknek születéshelyére, hogy a hozott itélet értelmében leszámoljanak az élettel.
+               Mondanunk sem kell talán, hogy a két fogoly Törő Pál, a mezőtúri főkurátor és Pető
+               Ferencz, a hódmezővásárhelyi biró.</p>
+            <p>Egy darabig együtt vitt útjuk, azért egy kocsiba ültették őket. Hadd könnyítsenek
+               szivükön, ha van még valami mondani valójuk.</p>
+            <p>A hajnal pírja ép akkor bukkant föl a láthatáron, mikor a kocsi végigdöczögött a
+               tekervényes úton, mely a bástyákból kivezet. Pompás tavaszi idő volt, aminőben az
+               emberfiának jólesik, ha az életre gondolhat. A két fogoly kiváncsian nézte meg
+               egymást, aztán így szólt az idősebbik.</p>
+            <p>- Hogy hívnak téged bajtárs?</p>
+            <p>- Az én nevem Törő Pál; s a tied?</p>
+            <p>- Én volnék a te „czinkosod”, Pető Ferencz, a hódmezővásárhelyi biró. Hát meg sem
+               ismersz?</p>
+            <p>- Sohasem láttalak ebben az életben!</p>
+            <p>- Én se téged. De az itéletben az van rólunk megírva, hogy hetekig együtt
+               jártunk-keltünk és szőttük a felségáruló terveket. Illő tehát, hogy legalább most
+               megismerkedjünk.</p>
+            <p>- Fiatalabbnak képzeltelek, bajtárs.</p>
+            <p>- Én pedig téged idősebbnek.</p>
+            <p>- Egy hét mulva egykorúak leszünk...</p>
+            <p>Pető Ferencz erre sajnálkozva jegyezte meg:</p>
+            <p>- Nem szép a mi biráinktól, hogy nem küldenek együtt a másvilágra. Ilyen társaságban
+               mégis kellemesebb lett volna az utazás. Utközben megismerkedtünk volna, s talán az is
+               kiderül, hogy miért kell nekünk meghalni.</p>
+            <p>- Hát nem tudod?</p>
+            <p>- Nem én! Pedig Isten látja lelkemet, hogy ez az egyetlenegy dolog, a mire még
+               kiváncsi vagyok.</p>
+            <p>- Szeretnéd megtudni?</p>
+            <p>- Szeretném! Magyar ember létemre cseppet sem félek a haláltól, de mit mondjak majd,
+               ha a túlvilág kapujához érve, megkérdezik tőlem: Mit keressz itt időnek előtte? Nem
+               mondhatom: „Bolondok és gonoszak voltak bíráim. Rám fogták, hogy pártütő és
+               felségsértő vagyok, holott egész életemben mi sem állott tőlem távolabb mint ez a két
+               fogalom.”</p>
+            <p>Törő Pál közelebb hajolt szenvedéseinek társához, s halkan ezeket súgta neki:</p>
+            <p>- Mondd meg annak, aki kérdezni fog, hogy azért kellett nekünk időnek előtte megválni
+               az élettől, hogy ebben a hazában, melyet olyan nagyon szerettünk, végre helyreálljon
+               a béke. Azért engedtük meg, hogy kerékbe törjék tagjainkat és kínok kínjával fojtsák
+               el bennünk az élet szikráját, mivel meg akartuk menteni templomainkat, oltárainkat és
+               vallási szabad gya­kor­latunknak jogát azok számára, akik velünk éreznek és együtt
+               gondolkodnak.</p>
+            <p>Pető Ferencz csodálkozva nézett bajtársára.</p>
+            <p>- Nézd csak, nézd, - mondá tréfás hangon, - nem is tudtam, hogy ilyen derék férfiú
+               vagyok! Most sem értem ugyan, hogyan és miként, de mivel te mondod, hát elhiszem. Igy
+               hát én saját­képen még köszönettel is tartozom biráimnak, hogy olyasmit csinálnak
+               belőlem, amire nem éreztem magamban hivatást: egy valóságos és igazi martirt... Mert
+               lásd, bajtárs, én nem gyű­lö­löm az életet...</p>
+            <p>- Én sem, - mondá ellágyuló hangon a másik.</p>
+            <p>- Van egy derék, jó feleségem és két szép fiam, a kikből jó magyarokat neveltem
+               volna...</p>
+            <p>- Nekem pedig egy ifjú nőm van, a kivel aznap esküdtem meg, mikor elfogtak.</p>
+            <p>Pető Ferenz szánakozva nézett társára. Mégis csak ez volt a szerencsétlenebb.</p>
+            <p>A menet elérte azalatt a válutat, a hol a két foglyot elkülönítették. Az egyik megy
+               jobbra, a másik balra, hogy aztán a halálban egyesüljenek.</p>
+            <p>- Isten veled, bajtárs - mondá az egyik.</p>
+            <p>- Ég veled! - hangzott a másiknak ajkáról.</p>
+            <p>Még kezet sem szoríthattak, mert a derék férfias jobbot fogva tartotta a
+               rabbilincs...</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               XI. AZ ACZÉLEMBER VÉGRENDELETE.
+            </head>
+            <p>Mezőtúr városa igazi gyászpompával fogadta hazatérő fiát, aki azért jött el, hogy
+               most már örökre itthonmaradjon. A református templom nagy harangja búsan kongatta a
+               szomorú kiséretet, a dobok pergése és a katonák egyforma lépése belevegyült a
+               harangzúgásba, s hozzá még a nép zokogása, mikor megpillantotta Törő Pált az
+               elitéltek szekerén; valóban olyan volt ez a fogadtatás, mintha már is temetnének
+               valakit.</p>
+            <p>Pedig még csak három nap mulva következik az elhantolás. Addig kiteszik az elitéltet
+               a siralomházba, s megengedik minden emberfiának, hogy eljárjon hozzá. Aki lelki
+               vigaszt akar neki nyújtani, teheti, aki pedig elrettentő példát akar mutatni fiainak
+               és unokáinak, erre is meg­van az alkalom.</p>
+            <p>A mezőtúriak csakis az utóbbinak kedvéért mentek el a siralomházba. Lelki vigaszra
+               nem szorul Törő Pál; inkább még ő nyujthatna belőle a földig sújtott híveknek. De
+               „elrettentő” példának elég alkalmas az ő esete. A nép szívéből kitört az elfojtott
+               keserűség, s az elitéltnek füle hallatára oktatta eképen gyermekeit:</p>
+            <p>- Ne légy jó hazafi, mert úgy jársz, mint Törő Pál.</p>
+            <p>- Ne szeresd az igazságot, mert Törő Pál példája mutatja, hova vezet ez...</p>
+            <p>- Ne imádd Istenedet, mert cserben hagy az ármányosok fortélyaival szemközt; ép úgy,
+               mint cserben hagyta Törő Pált.</p>
+            <p>- Ne buzgólkodjál vallásodért, mert jutalmad az lesz, ami Törő Pálé...</p>
+            <p>Az aczélember szive úgy sajgott, úgy fájt e szavak hallatára, de nem szólhatott. Még
+               nem jött el az ő ideje. Majd ha kiterítve fekszik a ravatalon, kerékbe tört teste
+               száz sebből vérzik, s min­den seb egy-egy ajakpár lészen, akkor szólalnak majd meg
+               ezek, s hirdetik fenkölt szózattal:</p>
+            <p>- Légy jó hazafi!</p>
+            <p>- Szeresd az igazságot!</p>
+            <p>- Imádd Istenedet!</p>
+            <p>- Légy buzgó vallásodért!</p>
+            <p>S erre fog hallgatni a nép, nem pedig a kételynek és a kétségbeesésnek szavára!</p>
+            <p>Egy egész ezred katonaság volt elhelyezve Mezőtúr városában, hogy fentartsa a rendet.
+               Vala­honnan cseh földről küldték ide, hogy még szavát se értse a nép, s el ne
+               tántoríthassa. Csupa kipróbált vitéz, aki zsoldjáért mindenre kész, s azt sem kérdi,
+               apja, anyja áll-e előtte, ha rá­parancsolják: „Lőjj!”, lelövi még a keresztre
+               feszített megváltót is!</p>
+            <p>Egy egész század volt folyton „készenlétben” a siralomház körül. Élesre töltött
+               fegyverét erősen fogta minden legény, s ki volt adva a parancs három altisztnek, hogy
+               amint a legkisebb jel arra mutat, hogy az elitéltet ki akarják szabadítani,
+               legelőször is ennek szivébe lőjjék a három golyót.</p>
+            <p>A harmadik nap délutánján egyedül ült az elitélt czellájában. Arra kérte őreit, hogy
+               estig senkit se bocsássanak be hozzá, mindaddig egyedül akart maradni. Majd megmondja
+               estefelé, hogy kit bocsássanak még be hozzá.</p>
+            <p>Ugy négy óra tájban megcsörrent a zár és kinyilt az ajtó. Egy tiszttől kisérve,
+               fiatal pap lépett be. A tiszt bocsánatkérő hangon fordult az elitélthez:</p>
+            <p>- A tisztelendő úr mindenképen beszélni óhajtott kigyelmeddel, - mondá tört
+               magyarsággal, - nem utasíthattam el, mert felsőbb parancsnokom levele van birtokában,
+               amely minden ajtót megnyit előtte.</p>
+            <p>Törő Pál idegesen rázta a fejét. Mit keres nála katholikus pap? Talán csak nem sértik
+               meg azzal, hogy próbára teszik vallási meggyőződését?</p>
+            <p>A pap intett kezével és a tiszt kiment. Kívülről gondosan bezárta az ajtót, s hallani
+               lehetett lépteinek kongását, amint fel-alá járt a folyosó kövezetén.</p>
+            <p>Amint magukra maradtak, a pap egyetlen mozdulattal levetette a testén levő ruhát, és
+               Törő Pál bámulva vette észre, hogy a papi öltözet alatt szakasztott olyan a viselete,
+               mint az övé. De nem is ért rá, hogy csodálkozásának kifejezést adjon, mert a pap
+               türelmetlenül megszólalt:</p>
+            <p>- Gyorsan! gyorsan!</p>
+            <p>- Mi tetszik? - kérdezte álmélkodva az elitélt.</p>
+            <p>- Vegye magára ezt a ruhát... hoztam ollót is, beretvát is, hogy haját lenyírjam,
+               bajuszát el­távolítsam...</p>
+            <p>- De minek? mi czélból?</p>
+            <p>- Istenem, de nehéz a kigyelmed fölfogása! Hát csak azért, hogy helyet cseréljünk.
+               Kigyelmed elmegy, én pedig itt maradok.</p>
+            <p>Törő Pálnak elakadt a lélegzete. Közelebb ment a paphoz, s erősen a szeme közé
+               nézett.</p>
+            <p>- Bujdosó Gergely! - kiáltott csaknem ujjongva.</p>
+            <p>- Na, hála az égnek, hogy végre rám ismer. Már azt hittem, hogy egészen
+               megfeledkezett rólam.</p>
+            <p>- De nem értem... magyarázd meg...</p>
+            <p>- Hogyan jutottam ehhez a viselethez? Hisz tudja kigyelmed, hogy nagy „kókler” voltam
+               teljes életemben. Rábeszéltem egy fiatal papot, hogy engedje nekem át a ruháját; nem
+               tudott ellenállni kérésemnek.</p>
+            <p>- S a felsőbbségi engedély?</p>
+            <p>- Azt is tőle kaptam!</p>
+            <p>Törő Pál homlokához szorította két kezét, mintha valamely gondolatot akarna ott
+               elfojtani. S hangja reszketett, mikor kérdezte:</p>
+            <p>- Ez a pap... ez a csodaember, aki neked átadta öltönyét, s halálos veszedelemnek
+               kiteszi magát értem, nem-e...</p>
+            <p>- A kigyelmed fia? Valóban az! A bűnbánó, megtört lelkű, minden haragot és
+               ellenséges­kedést lelkéből kiirtó Törő Gyula; ő küldött engem ide, miután fölkeresett
+               rejtekemben. Maga jött volna el, ha nem tart attól, hogy kigyelmed szóba sem áll
+               vele.</p>
+            <p>Az elitélt dicsőült tekintettel nézett fölfelé, s fenhangon imádkozott:</p>
+            <p>- Jóságos, mindenható és kegyelmes teremtőm, köszönöm neked, hogy ezt a terhet is
+               levetted lelkemről.</p>
+            <p>Odakünn a tiszt megállott az ajtó előtt, s mikor meghallotta a fenhangon elmondott
+               imát, gunyos mosolylyal mormogott magában.</p>
+            <p>- Jó úton van már: megpuhul.</p>
+            <p>Bujdosó Gergely azonban nem szerette ezt az istenes hangulatot ilyen veszedelmes
+               órában. Nógatta az elitéltet.</p>
+            <p>- Rajta hát, öltse fel a ruhát.</p>
+            <p>- Nem lesz abból semmi, fiam Gergely, - mondá csendesen Törő Pál.</p>
+            <p>- Megbolondult kigyelmed?</p>
+            <p>- Nem én, hanem a lelkem egészen meggyógyult e pillanatban... Hiába mondanám meg
+               neked, mitől gyógyult meg; úgy sem értenél meg e pillanatban. De holnap mindent fogsz
+               érteni.</p>
+            <p>- Holnap késő lesz...</p>
+            <p>- A hajnali óra is késő annak, aki nem tud dolgozni, de naplementekor is nagyot
+               alkothat még, akiben megvan az igazi tettvágy.</p>
+            <p>- Ne példálódzék most kigyelmed, hanem tegye meg azt, amire kérem... Az élő Istenre
+               kérem, ne makacskodjék!</p>
+            <p>A czella előtt sétáló tiszt meghallotta „a papnak” könyörgő hangját, s magában
+               mormogott:</p>
+            <p>- Hát még sem puhul? Ördöngös egy faj ez a magyar: akkor legkeményebb, mikor
+               leginkább puhítják.</p>
+            <p>- Nem megyek én innen el, Gergely fiam, - mondá szelíd hangon az elitélt, - még a te
+               kedvedért sem. Nagy okom van erre. Mondd meg Gyulának, hogy köszönöm szeretetét s
+               megbocsátok neki mindent. De én már csak a magam útján haladok.</p>
+            <p>- Amely a vesztőhelyre vezet?</p>
+            <p>- Oda. A megváltó is a Golgothán keresztül jutott czéljához... De legyen elég ebből.
+               Beszél­jünk most rólad: mit mívelsz, ha innen elmész?</p>
+            <p>- Én? Hát elmegyek messze földre, Kis-Ázsiába, Rodostóba. Él még ott keserves
+               elhagyott­ságban Rákóczy poétája, Mikes Kelemen. Hozzá szegődöm czimborául. Együtt
+               hallgatjuk majd a tengernek mormolását és elandalgunk a multon... Megvallom, nem
+               születtem mártir­nak! Kényes a testem és inkább pihen meg puha pázsiton, mint
+               csonttörő kereken... S ha megúnom ezt is, beállok dervisnek s elpanaszlom Alláhnak, a
+               törökök Istenének, hogy nem hallgatott meg az én Istenem!</p>
+            <p>Könyárba fúlt a jó fiú szava, zokogva borult Törő Pál vállaira és reszkető hangon
+               ismétlé:</p>
+            <p>- Nem hallgatott meg az én Istenem, nem hallgatott meg!</p>
+            <p>...Ismét magára maradt Törő Pál. Várta az utolsó látogatást, a legnehezebbet
+               valamennyi közt.</p>
+            <p>Hét óra volt, mikor ujból megcsörrent a zár s a tiszt bevezetett egy gyászba öltözött
+               fiatal nőt. Tiszteletteljesen meghajtotta magát és így szólt:</p>
+            <p>- Asszonyom! Gondoskodtam róla, hogy a folyosó üres maradjon. Fájdalmának nem lesz
+               senki fültanuja.</p>
+            <p>Magukra maradtak. Négy évi elválás után most látták egymást először. Hogy írjam le,
+               mint ölelkezett a két lélek, mint zokogott és ujjongott egyszerre fájdalmában és
+               örömében... nem is kisérlem meg.</p>
+            <p>Törő Pál így szólt fiatal feleségéhez, nemsokára majdan özvegyéhez:</p>
+            <p>- Te vagy az egyetlen lény a világon, akinek beszámolni tartozom tetteimmel.
+               Lelkemnek jobb fele, figyelj arra, amit mondani akarok.</p>
+            <p>Önkényt halok meg. Hatalmamban állott volna kikerülni ezt a sorsot, de nem akartam.
+               Ha életben maradok, ha kiszabadulok a börtönből, egy év mulva, tán két év mulva?
+               újból meg­kezdődik a gonosz játék. Azok, akik vallásunk ellen törnek és álnok csellel
+               akarják elrabolni templomunkat, hitünket, vissza nem riadtak volna az első meghiúsult
+               kisérlet miatt. Hadd legyen hát látszólag övék a győzelem, hogy aztán annál nagyobb
+               vereséget szenvedjenek!</p>
+            <p>...Ha már én nem leszek az élők közt, keresd föl még egyszer otthonunkat. Virágos
+               kertünk­ben, ahol mint vőlegény és menyasszony együtt ültettünk rózsafát, van egy vén
+               tölgy. Egyik gyökere kidudorodik a földből, mintha megunta volna magát a mélységben.
+               Szegény azért cselekedte ezt, mivel alája rejtettem egy bádogszelenczét. Ebben vannak
+               letéve összes bizo­nyí­tékaim. Éveken keresztül gyűjtöttem őket, sok fáradságomba és
+               pénzembe kerültek, de megérik.</p>
+            <p>Vidd ezeket a papirokat Bécsbe, a királyné elébe. Megtudja majd belőlük, hogy kik
+               voltak azok az emberek, akik gyanúba keverték előtte hű alattvalóit. Páter Gurszki
+               Teophil leve­lezése, tervei, ármányai - mindannyit megtalálja azokban. S ha ez sem
+               elég még, vigyél neki egy cseppet az én piros véremből, melyet hóhér keze ont ki
+               holnap. Megmondja majd ez a többit!</p>
+            <p>S most bocsásd meg hűséges hitvesem, hogy még náladnál is jobban szeretem hazámat, s
+               azért, hogy neki visszaadhassam a békét, örök özvegységre kárhoztatom ifjú életedet.
+               Ugy-e megbocsátasz?</p>
+            <p>...A cseh tiszt, amint elkisérte az elitéltnek nejét a folyosó végére, s meglátta
+               vonásain a szilárd kifejezést, bámulva rázta fejét és halkan mormogott magában:</p>
+            <p>- Ez sem puhúlt meg! Furcsa nép ez a magyar nép; olyan mint a vas: ha tűzbe vetjük
+               testét, kalapáljuk lelkét, még inkább megkeményedik. Aczél lesz belőle!</p>
+            <p> </p>
+         </div>
+         <div type="chapter">
+            <head>
+               XII. ZORKA A KIRÁLYNŐNÉL.
+            </head>
+            <p>Bocsáss meg, nyájas olvasó, hogy ismét elvezetlek Bécsbe a nagy urak közé. Utolszor
+               esik meg! Hisz még azt sem kivánom, hogy elmenj velem a Hofmarschallamt-ba, s
+               megvizsgáltasd magadat, hogy megfelel-e ruházatod mindenben a „Kleidervorschrift für
+               Audienzen” 62. szaka­szának.</p>
+            <p>A királynő most is épen öltöző szobájában van. Négy évvel idősebb lett, amióta
+               utoljára láttuk, és szép, férjébe szerelmes asszonynál ez annyit jelent, hogy
+               toilette gondjainak naponta már félórával több időt szentel.</p>
+            <p>Mária Terézia nincs, cseppet sincs rózsás hangulatban. A tükörbe pillantva, egy kis
+               redőt fedezett fel jobb szeme körül és Sziléziából az a hír érkezett, hogy a porosz
+               király ismét fegyverkezik. Az utóbbi még hagyján, de az elsőt nagyon komolyan
+               vette.</p>
+            <p>- Hálátlan nép ez a magyar nép! - panaszkodott magában a szép királynő. - Ennek a
+               Mészá­rosnénak visszaadtam férjét, s nem kértem tőle egyebet, minthogy írja le
+               részemre a csoda­víznek recipéjét. Megigérte, de amint kitette innen a lábát, el is
+               felejtette. Hálátlan nép!</p>
+            <p>E pillanatban belépett a fejedelmi asszony meghitt komornája és ezüsttálczán egy kis
+               papir­lapot adott át. Amint a királynő megnézte, az öröm pírja borította el arczát és
+               mohón kérdezte:</p>
+            <p>- Ki hozta ezt a kis czédulát?</p>
+            <p>- Egy gyászba öltözött asszony, - volt a felelet, - viselete után itélve
+               magyarországi lehet.</p>
+            <p>- Vezesd be azonnal.</p>
+            <p>A következő pillanatban bekisérték a váratlan vendéget. Mária Terézia elébe ment
+               egészen az ajtóig és melegen üdvözölte:</p>
+            <p>- Épen most gondoltam kigyelmedre és szemrehányást tettem, hogy megfeledkezett
+               igéretéről. Csakhogy végre...</p>
+            <p>Szava megakadt és bámulva tekintett az idegen nőre. Valami fenséges volt ebben, ami
+               tiszteletet parancsol. Mintha egy végtelen fájdalom árasztana feje körül glóriát.</p>
+            <p>- Hisz kigyelmed nem Mészárosné! Ő küldte kigyelmedet?</p>
+            <p>- Valóban, felséges asszonyom, ő küldött, - mondá halkan az idegen nő, - de még más
+               valaki megbizásából is jöttem.</p>
+            <p>- Kicsoda ez?</p>
+            <p>- Egy halott. Ma egy hete, hogy kivégeztek Mezőtúr városában egy férfiút, akinek
+               utolsó szava áldás volt a magyar hazára és királyra. Ennek meghagyásából jöttem én
+               ide.</p>
+            <p>- Kigyelmed talán csak nem...</p>
+            <p>- Törő Pálnak özvegye vagyok.</p>
+            <p>A királynő megdöbbenve nézett a fiatal nőre és csaknem reszketve húzódott odább tőle.
+               Talán eszébe jutott Zách Felicián esete, aki karddal ment királya elébe, hogy
+               megtorolja a leányán ejtett gyalázatot?... De Zorka észrevette a királynő
+               megdöbbenését és szomorú mosolylyal folytatta.</p>
+            <p>- Azért jöttem ide, felséges asszonyom, hogy ártatlanul kivégzett férjemnek utolsó
+               akaratát átadjam.</p>
+            <p>- Ártatlanul? - a királynő büszkén kiegyenesedett - ki meri mondani, hogy Törő Pál
+               ártatlan volt? Pártütés volt bűne, felségsértés minden gondolatja! Hát odáig
+               jutottunk már, hogy Magyarhonban ezt nem tekintik bűnnek?</p>
+            <p>- Férjem nem volt pártütő! - válaszolt szilárd hangon Zorka.</p>
+            <p>- Mivel bizonyítja ezt az állítást?</p>
+            <p>- Ezzel itt!</p>
+            <p>Az asztalra tette a bádog szelenczét az iratokkal, melyeket Törő Pál utasítása
+               szerint kiásott a kerti rejtekből. A királynő habozva állott még, de Zorka csaknem
+               parancsoló hangon mondá.</p>
+            <p>- Olvassa el, felség.</p>
+            <p>Mély csend uralkodott a nagy teremben, csakis a papirnak sistergése hallatszott,
+               amint a fejedelmi asszony egyet fordított a lapokon. Minél tovább olvasott, annál
+               izgatottabb lett. A hőség pírja és a megdöbbenés sápadtsága egyre váltakoztak
+               vonásain.</p>
+            <p>- Különös, nagyon különös! - dünnyögött magában.</p>
+            <p>S tovább olvasott. Mikor az utolsó lapot is végigfutotta, gondolkozva megállott és
+               jobbjával kétszer-háromszor végig simított homlokán, mintha rendbe akarná hozni
+               gondolatait. Végre megszólalt reszketeg hangon:</p>
+            <p>- Mióta vannak e bizonyítékok birtokában?</p>
+            <p>- Egy hét óta. Férjem kivégeztetésének napján vettem azokat magamhoz.</p>
+            <p>- S kitől tudta meg létezésüket?</p>
+            <p>- Férjemtől. Ő maga mondta meg, hova rejtette el a papirokat, melyek ártatlanságát
+               bizonyítják.</p>
+            <p>Mária Terézia csaknem kábultan nézett az előtte álló nőre.</p>
+            <p>- Nem értem asszonyom, - mondá hebegve - férje tudta... hogy ezek a papirok
+               léteznek... s mégis...</p>
+            <p>- Megengedte, hogy kerékbe törjék testét és bűnösként kivégezzék? Ugy van, felséges
+               asszo­nyom!</p>
+            <p>- De mi czélja lehetett vele?</p>
+            <p>- Elmondta nekem ezt is egy nappal halála előtt. Azt akarta, hogy olyan bizonyítékot
+               szol­gáltasson felséged kezébe, mely meg nem czáfolható. Ez a bizonyíték elmondja,
+               hogy Törő Pál nem azért halt meg, mivel pártütő volt, hanem mert örökre véget akart
+               vetni Magyarhon­ban a vallásüldözésnek.</p>
+            <p>A királynő megdermedve állott. Csaknem irtózattal nézett a fiatal nőre.</p>
+            <p>- S kegyed megengedte, hogy férje meghaljon, holott tudta, hogy ártatlan! - kiáltott
+               meg­rémül­ve.</p>
+            <p>- Ő akarta így s én meghajoltam akarata előtt. Letettem a haza oltárára azt, ami
+               legdrágább volt előttem e földön. Sok magyar nő cselekedett már így...</p>
+            <p>A királynő odament az ablakhoz, odaszorította homlokát a hűsítő üvegtáblához és
+               sokáig állott elgondolkozva. Csak néha rázkódott össze benső indulatában, s halkan
+               mormogott magában:</p>
+            <p>- Irtózatos!... Irtózatos ez a hazaszeretet!</p>
+            <p>Aztán föltápászkodott s még mindig sápadtan, de már királyi méltósággal igy
+               szólott:</p>
+            <p>- Megértettem, hogy mi az a kötelesség, amelyet férjének végső akarata rám ró.
+               Esküszöm királyi szavamra, hogy úgy lesz minden, amint ő tervezte.</p>
+            <p>Kissé megtört a hangja és ellágyulva folytatta:</p>
+            <p>- Az ő emléke is tisztázva lészen! Felelősségre vonom biráit, olyan itéletet mondok,
+               hogy visszhangzik tőle az ország. Igen, ezt fogom tenni!</p>
+            <p>Zorka lehajolt és megcsókolta a fejedelmi asszony kezét.</p>
+            <p>- Ne tegye, fölség! - könyörgött. - Ép ezért küldött ide férjem, hogy ezt
+               megakadályozzam.</p>
+            <p>- S miért nem akarja férje, hogy igazságot szolgáltassak emlékének? - kérdé bámulva a
+               királynő.</p>
+            <p>- Mert nem óhajtotta, hogy ez a példa fenmaradjon. Nálunk ragadós a hazafiság láza.
+               Elég, hogy én özvegy maradtam. Nem akarta, hogy más nők is megfosztassanak
+               férjeiktől.</p>
+            <p>A királynő szép szeméből könyek omlottak. Lehajolt a zokogó nőhöz, szivéhez ölelte és
+               igazi anyai hangon mondá:</p>
+            <p>- Szegény asszony! szegény asszony!</p>
+            <p>
+               *
+            </p>
+            <p>Nem volt többé vallásüldözés Magyarországon. Nem vették többé el erőszakosan a
+               protes­tánsok templomait. De Mária Terézia nem is ellenezte többé a jezsuita-rend
+               eltörlését.</p>
+            <p>...Ma, száz és negyven esztendő mulva, ismét folytatódik a küzdelem a templom kulcsa
+               miatt. Pedig nyitva áll mindenkinek az út az oltárhoz, aki csak imádkozni akar, nem
+               pedig zsarno­koskodni a más hiten levők felett.</p>
+            <p> </p>
+            <p>
+               [1] Uj régiség és régi ujság.</p>
+            <p>
+               [2] II. Ferdinánd ediktumai a fejérhegyi csata után.</p>
+            <p>
+               [3] Ugyanott.</p>
+            <p>
+               [4] A magyarhoni zsidók csakis II. József alatt vettek föl
+               parancsra vezetékneveket; még pedig rende­letre többnyire német hangzásuakat.</p>
+         </div>
+      </body>
+  </text>
+</TEI>
