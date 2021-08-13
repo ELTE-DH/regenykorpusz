@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU08529" xml:lang="hu">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A régi szerető</title>
+                <author ref="viaf:58665425">Komáromi János (1890-1937)</author>
+                <respStmt>
+                    <resp>ELTeC conversion</resp>
+                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
+                    </name>
+                    <name>Fellegi Zsófia</name>
+                    <name>Bajzát Tímea Borbála</name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words">80578</measure>
+                <measure unit="pages">189</measure>
+                <measure unit="vols">2</measure>
+            </extent>
+            <publicationStmt>
+                <p>Published as part of ELTeC</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digitalSource">
+                    <title>A császár udvarában</title>
+                    <date>2010-07-02</date>
+                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+                    <ref target="https://mek.oszk.hu/08400/08463"/>
+                    
+                    <respStmt>
+                        <resp>Original Electronic Edition</resp>    
+                        <name>Fábián György</name>
+                        <name>Molnár Éva</name>
+                    </respStmt>
+                </bibl>
+                <bibl type="printSource">
+                    <title>A császár udvarában</title>
+                    <author>Dánielné Lengyel Laura</author>
+                    <pubPlace>Budapest</pubPlace>
+                    <publisher>Singer és Wolfner</publisher>
+                    <date>1933</date>
+                    
+                    <ref target="https://mek.oszk.hu/08400/08463"/>
+                </bibl>
+                <bibl type="firstEdition">
+                    <title>A császár udvarában</title>
+                    <author>Dánielné Lengyel Laura</author>
+                    <date>1933</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-0">
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="hu">Hungarian</language>
+            </langUsage>
+            <textDesc>
+                <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
+                <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
+                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T5"/>
+            </textDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-08-02"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+        </body>
+    </text>
+</TEI>
