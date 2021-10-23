@@ -75,7 +75,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2020-07-24"/>
-			<change when="2021-04-06">lemma, pos and msd annotation</change>
+			<change when="2021-10-22">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -2821,7 +2821,7 @@
 						<w lemma="szükséges" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2092">szükséges</w>
 						<w lemma="átírás" msd="Case=Acc|Number=Plur" pos="NOUN" xml:id="w2093">átírásokat</w>
 						<pc join="left" pos="PUNCT" xml:id="pc382">,</pc>
-						<w lemma="ki" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w2094">ki-</w>
+						<w lemma="ki" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2094">ki-</w>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w2095">és</w>
 						<w lemma="bekebelezés" msd="Case=Acc|Number=Plur" pos="NOUN" xml:id="w2096">bekebelezéseket</w>
 						<pc join="left" pos="PUNCT" xml:id="pc383">,</pc>
@@ -18893,8 +18893,8 @@
 					</s>
 					<s xml:id="s849">
 						<w lemma="–" msd="_" pos="X" xml:id="w13724">–</w>
-						<w lemma="ismétlé" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w13725">ismétlé</w>
-						<w lemma="Nagyvéghyn" msd="Case=Nom|Number=Sing|Number[psed]=Sing" pos="PROPN" xml:id="w13726">Nagyvéghyné</w>
+						<w lemma="ismétlé" msd="_" pos="ADV" xml:id="w13725">ismétlé</w>
+						<w lemma="Nagyvéghyné" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w13726">Nagyvéghyné</w>
 						<w lemma="még" msd="_" pos="ADV" xml:id="w13727">még</w>
 						<w lemma="nagy" msd="Case=Nom|Degree=Cmp|Number=Sing" pos="ADJ" xml:id="w13728">nagyobb</w>
 						<w lemma="csodálkozás" msd="Case=Ins|Number=Sing" pos="NOUN" xml:id="w13729">csodálkozással</w>

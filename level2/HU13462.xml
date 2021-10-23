@@ -70,7 +70,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2019-04-18"/>
-			<change when="2021-04-06">lemma, pos and msd annotation</change>
+			<change when="2021-10-21">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -4808,7 +4808,7 @@
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w3049">De</w>
 						<w lemma="hiszen" msd="_" pos="CONJ" xml:id="w3050">hiszen</w>
 						<w lemma="már" msd="_" pos="ADV" xml:id="w3051">már</w>
-						<w lemma="sok" msd="Case=Dat|Number=Plur|NumType=Card" pos="NUM" xml:id="w3052">többeknek</w>
+						<w lemma="sok" msd="Case=Dat|Number=Plur" pos="NOUN" xml:id="w3052">többeknek</w>
 						<w lemma="be" msd="_" pos="ADV" xml:id="w3053">be</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3054">van</w>
 						<w lemma="mutat" msd="VerbForm=Trans" pos="ADV" xml:id="w3055">mutatva</w>
@@ -16291,7 +16291,7 @@
 						<w lemma="vesz" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w10589">vettem</w>
 						<w lemma="ki" msd="_" pos="ADV" xml:id="w10590">ki</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w10591">a</w>
-						<w lemma="szavai" msd="Case=Ela|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="ADJ" xml:id="w10592">szavaidból</w>
+						<w lemma="szó" msd="Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=2" pos="NOUN" xml:id="w10592">szavaidból</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2644">,</pc>
 						<w lemma="mintha" msd="_" pos="CONJ" xml:id="w10593">mintha</w>
 						<w lemma="te" msd="Case=Nom|Number=Sing|Person=2|PronType=Prs" pos="PRON" xml:id="w10594">te</w>
@@ -18174,7 +18174,7 @@
 						<w lemma="mintha" msd="_" pos="CONJ" xml:id="w11815">mintha</w>
 						<w lemma="itt" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w11816">itt</w>
 						<w lemma="se" msd="PronType=Neg" pos="ADV" xml:id="w11817">se</w>
-						<w lemma="van" msd="Definite=Ind|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w11818">volnánk.</w>
+						<w lemma="van" msd="Definite=Def|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w11818">volnánk.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2945">&quot;</pc>
 					</s>
 					<s xml:id="s999">
@@ -22797,7 +22797,7 @@
 						<w lemma="hamar" msd="Degree=Cmp" pos="ADV" xml:id="w14841">hamarább</w>
 						<w lemma="is" msd="_" pos="ADV" xml:id="w14842">is</w>
 						<w lemma="megenged" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w14843">megengedte</w>
-						<w lemma="van" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w14844">volna.</w>
+						<w lemma="volna" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w14844">volna.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc3663">)</pc>
 					</s>
 					<s xml:id="s1268">
