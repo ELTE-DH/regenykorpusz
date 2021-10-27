@@ -79,10 +79,10 @@
     </teiHeader>
 <text>
     <body>
-                <div type="group">
-                <head> TÁJÉKOZTATÓ</head>
                 <div type="chapter">
-                <head>I.</head>
+                <head> TÁJÉKOZTATÓ</head>
+                    <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>(Mekkora a Bakony ? — A Bakony különös bája. — A magyar kötnemesség. — A normán
                     és a magyar. — A nemes magyar lélek. — A magyar szív a leggazdagabb.)</p>
                 <p>Tájékoztatóval kell Bakony czimű művemet kezdenem. Olyas valamivel, a mit író
@@ -232,9 +232,9 @@
                     ősi vérünk csüggedetlen maradt s a becsületet, méltóságot és önbizalmat mindig
                     megóvtuk.</p>
                 <p>És a nemzeti életet is.</p>
-                 </div>
-        <div type="chapter">
-                <head>II.</head>
+                    <milestone unit="endSubChapter" n="1"/>
+                    <milestone unit="startSubChapter" n="2"/>
+                <p rend="head">II.</p>
                 <p>(Nagy urakról én nem írok. — Mátyás király adomája a csórt csukáról. —
                     Veszprémvármegye Bakonyja. — Nyolcz puszta vára és három eleven vára. —
                     Ó-Palota, Csesznek, Bakony-Ujvár, Vár-Palota, Esseghvár, Nagy-Vázssmykö,
@@ -531,12 +531,12 @@
                     uralkodó hatalom ezelőtt százötven esztendővel a magyart kiszorítani a Bakonyból
                     s helyébe németet, tótot, csavargó koldus népet telepíteni. Hiába volt.</p>
                 <p>És hiába lesz ezentúl is minden törekvése.</p>
+                    <milestone unit="endSubChapter" n="2"/>
         </div>
-                </div>
-        <div type="group">
+        <div type="chapter">
             <head>A VIRTUS.</head> 
-            <div type="chapter">
-                <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>(Mi a nemesi katasztrum ? — A rovatok. — A birtokos. — Hányféle volt a nemes
                     ember ? — Az inzurgens. — Nem minden nemes külön nemzetség.)</p>
                 <p>Sokféle a virtus.</p>
@@ -810,9 +810,10 @@
                     közülünk, de mi se igen maradtunk adósok. Töröknek, tatárnak sehogy se és
                     semmivel se. A némettel ugyan lenne még némi elszámolni valónk, de hiszen ennek
                     is megjöhet még az ideje.</p>
-        </div>
-        <div type="chapter">
-                <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+   
+                <p rend="head">II.</p>
                 <p>(A nemesi pártok. — Deák Ferencz pártja. — A párt-jelszavak. — Mire kellett a
                     Prímás sok pénze ? — Deák pártja nagyobb volt, mégis gyöngébb volt. — A pártok
                     tanyái. — Bevonulnak a nemesek. — A föispáni konferenczia. — A régi vármegyeház.
@@ -1083,9 +1084,9 @@
                     végzeménye fölöttem is határozott. Ide rendelt a törvényhozás magasságába, a
                     honnan mindent látni s a honnan oly sokban csalódni kell! Nem jobb lett volna-e
                     föl nem jutni ebbe a magasságba?</p>
-        </div>
-        <div type="chapter">
-                <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>(A Szent Lélek segítségül hívása, — Mit énekel a nemes ember, ha szive szerint
                     énekel ? — Az eskük könyve. — Régi eskü, uj eskü. — A nemzet pártján levő
                     nemesség kint szorul. — Fodor Mihály nemes atyánkfia. — Birkózó adomája. —
@@ -2301,9 +2302,9 @@
                     fele áron adja a szerszámfát, ha nagyokat húzhat abhól az erős, édes, hamis
                     folyadékból. Vörös bort úgy se szokott inni, csupán csak ilyen alkalommal.</p>
                 <p>így folyik a faragó béres élete!</p>
-                 </div>
+            <milestone unit="endSubChapter" n="3"/>
         </div>
-                     <div type="group">
+                     <div type="chapter">
                          <head>  BORONYA HALÁLA.</head>
                 <p>(Ki volt, mi volt Boronya ? — A fehér vaddisznók. — Kevés a makk, — Mit beszél az
                     öreg sertés ? — Boronya halála. — A vihar gyözi-e tovább, vagy a kürtszó ?)</p>
@@ -2429,7 +2430,7 @@
                 <p>Ezóta és ezért nevezik a szentgáli királyi vadászok azt a dűlőt ott Herend fölött
                     Boronya halálának.</p>
                      </div>
-        <div type="group">
+        <div type="chapter">
                 <head> ATYAFI-LÁTOGATÁS.</head>
                 <p>(Az ismeretlen nénémasszony. — A Tibay-atyafiság. — A Tibay-birtokok. — Mi volt a
                     nemesi birtok ? — Sághy Tóni atyafi látogatása. — Miért mondott le örökre
@@ -2754,7 +2755,7 @@
                     kaszát kellene kaszának nevezni. A nyelv törvénye természettörvény, az ellen
                     nincs tekintély.</p>
         </div>
-        <div type="group">
+        <div type="chapter">
                 <head>EZ IS VÁLÓPÖR!</head>
                 <p>(Zádor Pali őrzi a kutydböri, — Megnősül, gyereke less. — Válik a feleségétől. —
                     Válópöre alatt minden békéltetésnél újabb gyereke születik. — Utóbb megunja a
@@ -3046,10 +3047,10 @@
                     leirtam.</p>
         </div>
 
-        <div type="group">
-            <head> A KERKAPOLYAK.</head>
         <div type="chapter">
-                <head>I.</head>
+            <head> A KERKAPOLYAK.</head>
+            <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>A Kerkapoly név. — A Bakonyból került a nemzetség Balaton mellé. — Az áttele-
                     pedés története. — Padányi Biró Márton püspök. — A kis-lödi nemesek. — Balaton
                     Udvari határa. — A nemesi elönév természete. — Az elönevet hajdan nem a király
@@ -3330,9 +3331,10 @@
                 <p>A Kerkapoly-nemzetség feje és öregje teljes joggal vehette föl a iKis-Lődi« és a
                     Balaton-Udvari&lt; nemesi előnevet. Nem ezt vette föl, hanem a iKővágó-Eörsit
                     nevet, minthogy e faluban volt legnagyobb, legtekintélyesebb nemesi birtoka.</p>
-        </div>
-        <div type="chapter">
-                <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+        
+                <p rend="head">II.</p>
                 <p>(A nemességszerzö Kerkapoly. — Kerkapoly István, a jeles alispán. — Házassága. —
                     Deák Ferencz társai Zalában. — I2 alispán második házassága és halala. —
                     Gyerekei. — Móricz, Tivadar, Balázs. — Csuzy Pál végrendelete. — A hires Csuzy-
@@ -3397,9 +3399,9 @@
                     főszolgabíró a tapolczai járásban. Esze, becsülete, az emberekkel való
                     bánásmódja meghódította számára a vármegyét. Jó barátja lett a keszthelyi gróf
                     is, a nagy Festetich György fia.</p>
-        </div>
-        <div type="chapter">
-                <head>II.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>De jó barátja lett Deák Ferencz is. A mi nagy szó.</p>
                 <p>Zala volt az ország vezérlő vármegyéje 1825-től kezdve. Eleintén el-elragadozták
                     tőle a babért Sopron Felső-bükki Nagy Pállal, Bars Galantai Balogh Jánossal,
@@ -3822,9 +3824,9 @@
                     Született 1824-ben május hó 13-án.</p>
                 <p>Még egy gyermekük lett, a negyedik. Ez is fiú. Gábor névre keresztelték. 1827-ben
                     született, de négy éves korában, 1831-ben, meghalt.</p>
-        </div>
-        <div type="chapter">
-                <head>III.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+                <p rend="head">IV.</p>
                 <p>(A nagy miniszter keresztszülei. — Édes apjának halála és sírja. — A halál titkos
                     története. — Nagy lelki gyötrődések a halál előtt. — A nagy miniszter
                     gyerekkora. — Miért nem lehetett szent-gáli biró ? — Milyen tolmács kell ? — A
@@ -4267,9 +4269,9 @@
                 <p>De ily módon sejtette fia jövendőjét a jó édes anya is.Hejh, ha a jó öregbiró
                     megérte volna, a mikor a gyerekből az ország hatalmas kormányzója, a királynak
                     és nemzetnek benső, bizalmas tanácsadója lett!</p>
-        </div>
-        <div type="chapter">
-                <head>IV.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+                <p rend="head">V.</p>
                 <p>(Kerkapoly Károlyt föl kell fedezni. — Miért feledték el ? — A nemzet nagyjai. —
                     Kerkapoly és a népszerűség. — Tanárom volt. — A tudomány német mívelésének
                     módszere. — Megfertőzhetik vele a magyar míveltséget. — A nagy miniszter
@@ -4912,9 +4914,9 @@
                     ifjúság rajongjon, a kihez ragaszkodjék s hasonló nagygyá lenni vágyakozzék, sőt
                     a melyik tanárt bármi ok miatt az ifjú kicsinyelni kénytelen: annak a tanárnak
                     rendszerint a tudománya se ér semmit s tanítása még kevesebbet.</p>
-        </div>
-        <div type="chapter">
-                <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+                <p rend="head">VI.</p>
                 <p>(Kerkapoly első betegsége. — Tanárrá less. — A választja. — Pápai</p>
                 <p>háza és életmódja. — A rágalom. — Első előadásait. — A magyar ész. — A he’geli
                     bölcsészet. — A magyar ifjú a német egyetemen.)</p>
@@ -5241,9 +5243,9 @@
                 <p>Kerkapoly buzgósága azonban nem csökkent Berlinben se az első félév végén, se
                     azután. Ő az egész hegeli rendszert vasakarattal átültette saját agyába és
                     szellemébe s elhozta haza Pápára.</p>
-        </div>
-        <div type="chapter">
-                <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+                <p rend="head">VII.</p>
                 <p>Kerkapoly „Világtörténet czimü könyve. — Baldacsi báró. — Miként fogja föl
                     Kerkapoly a történet észtani tárgyalását ? — Felfogásának bírálata. — A magyar
                     történet nincs még megírva. — China művészete, festészete, zenéje, költészete. —
@@ -5501,9 +5503,9 @@
                 <p>A mű — mint már emlitettem — nem könnyű s nem népszerű olvasmány. Nem volt az
                     akkor se, a mikor megjelent. Ily műnek egyébiránt minden nemzetnél csak kis
                     közönsége, csak szakközönsége szokott lenni.</p>
-        </div>
-        <div type="chapter">
-                <head>VIII.</head>
+            <milestone unit="endSubChapter" n="7"/>
+            <milestone unit="startSubChapter" n="8"/>
+                <p rend="head">VIII.</p>
                 <p>Az akadémiai székfoglaló beszéd 1860-ban. — Honnan támadt a beszéd eszméje ? —
                     Micsoda népfaj a magyar ? — Egyik nepfaj fölemelkedhetik-e a másiknak műveltségi
                     magasságára ? — A magyar cs a japán fölemelkedett. —Kerkapoly másik munkája: A
@@ -5788,9 +5790,9 @@
                     félbenhagyta valamely nagy művét;: annak folytatására nem is tért vissza többé.
                     Talán később beszélek még arról, hogy nem is térhetett. Most pápai tanári
                     életének vázolását akarom befejezni.</p>
-        </div>
-        <div type="chapter">
-                <head>IX.</head>
+            <milestone unit="endSubChapter" n="8"/>
+            <milestone unit="startSubChapter" n="9"/>
+                <p rend="head">IX.</p>
                 <p>(Kerkapoly újabb könyvei, a „Ismerettan es a „Gondolattan. — Miként törekedtem a
                     magyar nyelv titkaiba behatolni ? — Kölcsey tévedése. — Kerkapoly bölcseleti
                     nyelve. — A külső és a belső. — Kant tétele nem igaz. — A valami és a más. — Az
@@ -6108,9 +6110,10 @@
                     keresztülvigyem. Erre pedig nem volt időm.</p>
                 <p>De most már hagyjuk abban ezt a tárgyat egészen s pápai tanárságáról még
                     rövidesen mondjunk el egyet s mást.</p>
-        </div>
-        <div type="chapter">
-                <head>X.</head>
+            <milestone unit="endSubChapter" n="9"/>
+            <milestone unit="startSubChapter" n="10"/>
+      
+                <p rend="head">X.</p>
                 <p>(Kerkapoly kéziratban levő müvei. — A pápát ó-kollégium. — A2 uj kollégium
                     építése. — A rágalom Kerkapoly ellen. — Dicsőséges elégtételt nyer. — A
                     Kerkapoly- nemzetség nemzedékrende.)</p>
@@ -6243,9 +6246,9 @@
                     története — mondhatni — egyúttal fővonásokban a Habsburgokkal létrejött nagy
                     kiegyezés első fejezetének, a nemzeti vívmányok korszakának története is. Ezt
                     másik könyvemben ismertetem.</p>
+            <milestone unit="endSubChapter" n="10"/>
         </div>
-        </div>
-        <div type="group">
+        <div type="chapter">
                 <head>TAPLÓSZEDŐ.</head>
                 <p>(Mi volt, mire való volt és hányféle volt a tapló ? — 1 bakonyi cserfapudva. — 1
                     zirczi taplószedő. — Hamvazó Jancsi taplót ád el a Sörte zsidónak. — 1 bűnügyi
@@ -6417,10 +6420,11 @@
                     költségre nem lenne elég a Böhm taplószedőnek s a bakony-béli apát urnák minden
                     vagyona se. S unokáink is régen porrá váltak, mire a pörnek vége lenne.</p>
         </div>
-        <div type="group">
+        <div type="chapter">
             <head>KI VOLT HÁT SOBRI?</head>
-            <div type="chapter">
-                <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+          
+                <p rend="head">I.</p>
                 <p>(Szép/aludt ö. Ferencz uj közlése Sobriról. — Szigeti József színművészünk nem
                     ismerhette Sobri dolgait. — Sobri társainak végzete. — Az álnév. — Tudásom
                     forrásai. — Kisfaludy Sándor. — A biliegei csárda.)</p>
@@ -6652,9 +6656,9 @@
                 <p>Valami kis érdekes kalandja is volt itt Sümeg mellett Sobrinak. Ezt is jól tudta
                     a nagy költő, de ezt még se ő utána beszélem el, hanem Műfajt benevo- luma
                     után.</p>
-        </div>
-        <div type="chapter">
-                <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+                <p rend="head">II.</p>
                 <p>(Sobri a rendeki erdőben elfogja a sümegi csendbiztost. — Szakácsi alatt
                     lefegyverzi Somogy csendbiztosát. — A tihanyi révnél magával viszi a nagy bajszu
                     Kaszást. — A rejtett kincsek. — Volt-e Sobri bálban ? — Sobri bőkezűsége.)</p>
@@ -7024,9 +7028,9 @@
                 <p>Nem lehetetlen, hogy némi uras szokásai, mozdulatai s szójárásai is voltak. Húsz
                     éves kora előtt gyakran megfordult a baltavári kastélyban, a hol — mint Hoitsy
                     Pál barátom Írja — az egyik belső fiatal cselédlánynak volt a szeretője.</p>
-        </div>
-        <div type="chapter">
-                <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>A váczi kaland hagyománya. — öreg barátaim nem tudtak róla. — Osváld Dániel. —
                     Fűmag megejtése. — Sobri miként lepi meg gróf Nádasdyt, a váczi püspököt?</p>
                 <p>— Miként keletkeznek a hagyományok ?)</p>
@@ -8619,11 +8623,12 @@
                     Apponyi elnöklete alatt ott láttam sarokba állitva. A múzeumban volna helye a
                     Deák-szobában.</p>
                 <p>Oda került-e ? Oda kerül-e ?</p>
+            <milestone unit="endSubChapter" n="3"/>
         </div>
-        <div type="group">
+        <div type="chapter">
                     <head>A BAKONY URA.</head>
-            <div type="chapter">
-                <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>(Mire való a svábnak tanulni ? — A lókuti mester. — Nem tud geográfiát. —
                     Miért</p>
                 <p>nem tanul ? — A Csóthy űa ném szorult a geográfiára.)</p>
@@ -8891,9 +8896,9 @@
                 <p>— Nem én! Akadhatna gézengúz, a ki azt mondaná, hogy rászorultam a fámra!</p>
                 <p>Milliói korhadtak el.</p>
                 <p>De adomái jóizüek. Idővel majd talán visszatérünk rájuk még egyszer.</p>
-        </div>
-        <div type="chapter">
-                <head>III.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+                <p rend="head">II.</p>
                 <p>Kossuth gyerekei eltűnnek Pestről. — Boros Sándor elviszi őket a Bakonyba. —
                     Zámory birtokain a menedék. — Báró Splényi Béla. — Édes anyja és téstvérje Guyon
                     Richardné. — Marton Antónia. — Amadé grófnő. — Kossuth gyerekeit elfogják. —
@@ -9126,9 +9131,9 @@
                     hőslelkü nő úgy felelt, mint magyar asszony, angol asszony.</p>
                 <p>— Öntől csak börtönt, golyót, kötelet fogadok el, nem bókot.</p>
                 <p>Egész életében emlegette a hóhér ezt a pozsonyi látogatást.</p>
-        </div>
-        <div type="chapter">
-                <head>IV.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>(Leég a nagy — keszi zsöllérsor. — Bakony ura megveszi a zsöllértelkeket. —
                     Leválik asztalos nem adja a magáét. — Csak játszik Bakony urával. — Az asztalost
                     kidobják házából. — Házát elpusztítják s telkét elveszik erőszakkal. — A bünpör.
@@ -9434,12 +9439,12 @@
                 <p>Elrohant s azóta folyton kereste gyalujával az ügyvédet, hogy legalább egyik
                     kezét, lábát legyalulja.</p>
                 <p>így állt boszut Bakony ura. Nagy kaczagás lett a rettenetes pörnek eredménye.</p>
+            <milestone unit="endSubChapter" n="3"/>
         </div>
-        </div>
-        <div type="group">
-                <head>MEGAKAD A VÁRMEGYE.</head>
         <div type="chapter">
-                <head>I.</head>
+                <head>MEGAKAD A VÁRMEGYE.</head>
+            <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>Bohor Yontob Szaláma nemzetség és az Eliáhu Ghebáli nemzetség rokonsága. —
                     Jusszuf elveszi feleségül Szenórát. — Hogy lett magyarrá az arab zsidó Szaláma ?
                     — Jusszuf testvére Massza, vagyis Kamira Bokor Yontob ben Szaláma meghal
@@ -9727,9 +9732,9 @@
                 <p>Hanem hát mégis van gondviselés. Végzetnek, sorsnak, véletlennek is nevezik a
                     gondviselést. S a gondviselés százféle módon, százféle alakban jelenik meg
                     előttünk. Most épen kóbor kutya alakjában jelent meg.</p>
-        </div>
-        <div type="chapter">
-                <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+                <p rend="head">II.</p>
                 <p> Zacskó arany. — A kádi bíró ele kerül a dolog. — Jusszuf ravasz. — Gyanút
                     támaszt Szénára ellen. — Szaláma és Jusszuf megcsalják a vámosokat. — Nagy
                     veszedelem támad ebből. — Most már Szénára is lábra áll. — Nagy levél érkezik a
@@ -9945,9 +9950,9 @@
                     se. S hozott magával még egy csomó ügyvédet is. Uton-utfélen szedték az
                     ügyvédeket össze. Természetesen olyanokat, a kik a napkeleti tudományokban
                     járatosak.</p>
-        </div>
-        <div type="chapter">
-                <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>(A vármegye tárgyalja a bűnügyet. — A suri riadás. — A tót asszonyok. — A
                     tárgyalás folyamata. — Mit beszel Jusszuf ? — Mit felel Szénóra ?— Gamila
                     mindent elront. — Jusszuf felülkerekedik. — Mit tanit Mózes ? — Mit tudott Jézus
@@ -11183,12 +11188,12 @@
                 <p>— Ezért bizony már ezentúl is nyakonütheti bátran! Ez volt a megoldás. A nemes
                     urak tanácskoztak s</p>
                 <p>érett megfontolással elhatározták, hogy ez áron elfogadják az uj törvényeket.</p>
+            <milestone unit="endSubChapter" n="3"/>
         </div>
-        </div>
-            <div type="group">
+            <div type="chapter">
             <head>A PAPAYAK.</head> 
-                <div type="chapter">
-                <head>I.</head>
+                <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>(Mit köszönök Pápay Miklósnak ? — Pápay Sámuel eredete s nevelödése. — Kisfaludy
                     Sándor és Pápay Sámuel. — Milyen volt a magyar nyelv száz év előtt ? — Pápay
                     Sámuel nyelvtisztitó munkája. — Irodalmi alkotásai. — Hogy adóztatta meg a
@@ -11746,12 +11751,12 @@
                     az elismerés őszinte szava.</p>
                 <p>— A Pápayak nemes alakjai Bakony vidékének. Emlékük felett őrködjenek szelíd
                     soraim.</p>
+                <milestone unit="endSubChapter" n="3"/>
                 </div>
-            </div>
-            <div type="group">
+            <div type="chapter">
                 <head>A VIDÁM RETTEGÉS.</head>
-                <div type="chapter">
-                <head>I.</head>
+                <milestone unit="startSubChapter" n="1"/>
+                <p rend="head">I.</p>
                 <p>Jön a kolera. — A pápai urak tanácskoznak. — Kik voltak ott? — A hires Mándi
                     Márton István. — Mondásai. — Átjöhet-e a kolera a Bakonyon ? — Van-e hát kolera
                     ? — A kormányzók és orvosok bölcsessége.)</p>
@@ -11960,9 +11965,9 @@
                     majd csak elbánik azzal a gyalázatos betegséggel is. Azután elmúlik majd a tél,
                     jön a tavasz, jön az aratás meg a szüret, elmúlik majd a veszedelem is. A hol
                     pedig nem elég a szolgabiró: oda küldjünk ki deputácziót.</p>
-            </div>
-            <div type="chapter">
-                <head>II.</head>
+                <milestone unit="endSubChapter" n="1"/>
+                <milestone unit="startSubChapter" n="2"/>
+                <p rend="head">II.</p>
                 <p>(JL papai deputaczió. — O-bor és uj-bor. — A mészáros táblabiró. — A gúnyos
                     vígjáték. — Az ajánló szózat a vizsla kutyához, — A prológ és a beköszöntő. —
                     Miből készült a vígjáték meséje P)</p>
@@ -12166,9 +12171,9 @@
                     mondásoknak azt az egész összekuszált szövevényét, a mely a csúf nyavalya
                     támadásakor Pápán szinre jött s a melyből a szellemes iró a maga vigjátékának
                     alakjait, tárgyait, összeütközéseit és megoldásait kiszedegette.</p>
-            </div>
-            <div type="chapter">
-                <head>III.</head>
+                <milestone unit="endSubChapter" n="2"/>
+                <milestone unit="startSubChapter" n="3"/>
+                <p rend="head">III.</p>
                 <p>(A kórságkergetö deputáczió határozata. — Pápa város nem egy város, hanem két
                     város. — A szegény halottak temetése. — Mi kell a temetéshez ? — Piti Ferkó. —
                     Kalaha János. — A borbélyok. — A csipövas. — Vak Pali. — A papok. — Az irhásközi
@@ -12729,32 +12734,8 @@
                 <p>Szivesen mondja s teszi ezt Kerekes Mihály uram, hiszen ő is el akar harsogni egy
                     kemény felköszöntőt. Azt a szolgálatot tette hát neki felköszöntő asztaltársa,
                     hogy a felszólalásra jogot és alkalmat nyujtott.</p>
+                <milestone unit="endSubChapter" n="3"/>
             </div>
-            </div>
-        
-     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
     </body>
 </text>
 </TEI>

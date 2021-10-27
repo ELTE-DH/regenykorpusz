@@ -81,8 +81,12 @@
    </teiHeader>
   <text>
       <body>
-            <div type="chapter">
-               <head>I.</head>
+            <div type="group">
+               <head>ELSŐ KÖTET</head>
+               <div type="chapter">
+                  <head>I. RÉSZ. A KALLÓI LAKODALOM</head>
+                  <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>A kállói vár fokán verdesett a zászló. A bástyák is mind zászlódíszben parádéztak.
                   Volt be­lőlük vagy négy. Igaz hogy csak földbástyák, de tölgyfa-gyámolok közé
                   rakottak s jó erőben. Mésszel becsapdosva egész a téglafalazat képét keltették s
@@ -329,10 +333,9 @@
                <p> Mikor a batár kigördült vele a fegyveres csatlósok közt, le kellett bocsátania
                   mosolygó arca elől a csokrot. Átton-át nedves volt az már addig, valami ráhullott
                   gyöngyharmattól.</p>
-               <p> </p>
-            </div>
-         <div type="chapter">
-               <head>II.</head>
+                  <milestone unit="endSubChapter" n="1"/>
+                  <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Úgy egy óra multán a virrasztó kürtje elbődült.</p>
                <p>A főkapitány veleintette Prépostváryt.</p>
                <p>- Jer, öcsém, nézzük, mi készül?</p>
@@ -601,10 +604,9 @@
                <p>Jóéjszakát Zsegnyey János! Jóéjszakát Kálló vitéz főkapitánya! Nem kapitánykodsz
                   te egy­hamar a te szép váradban! Aludni fogsz, álomtalan álmot, amiből jobb is
                   lenne neked talán, föl nem ébredni többé, soha!</p>
-               <p> </p>
-            </div>
-         <div type="chapter">
-               <head>III.</head>
+                  <milestone unit="endSubChapter" n="2"/>
+                  <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Naphajlat derengett a tájra. Violaszínbe vont füvet, fát, virágot. A haladozó
                   török falkára is ráterítette köpenyét, nem lévén ő a hivatott különbséget tenni
                   ember és ember között, se fajtájuk, se a járatuk igazvolta szerint.</p>
@@ -1161,10 +1163,9 @@
                <p>Melléből kitört a könnytelen zokogás:</p>
                <p>- Hitvány féreg vagyok! Saját javáért se, nem birtam megölni!</p>
                <p> Az arca olyan volt, mint a háborodotté.</p>
-               <p> </p>
-            </div>
-         <div type="chapter">
-               <head>IV.</head>
+                  <milestone unit="endSubChapter" n="3"/>
+                  <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Ahogy kihajnallott, hóna alá kanyarította a két gyámolát. Nem törődött vele, hogy
                   a lába pokoli mód sajog. Fejromlásával sem törődött. Oda-odaütődve az istáp
                   nyeléhez, megindult az alvó törökök közt. Bepillantott minden sátorponyván.
@@ -1315,14 +1316,14 @@
                   Eszéken túl haladozott, a határ felé.</p>
                <p>János hiába várta Mudzát.</p>
                <p>A pribék nem mutatkozott.</p>
-               <p> </p>
+                  <milestone unit="endSubChapter" n="4"/>
             </div>
-         <div type="group">
+         <div type="chapter">
             <head>
             II. RÉSZ. TÚL A FEKETE KAPUN.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Fekete Kapu, Bánatország kapuja, be sötét is vagy!</p>
                <p>Pedig képzelt kapu vagy te csupán, melynek se bálványa, se lakatja. De csak egy
                   láthatólag megvont vonalad sincsen, - végzetes Kapu, zárnélküli zár: Országnak
@@ -1496,9 +1497,9 @@
                   üzente meg mindazokat az érzéseit, amikről nem illenék, hogy szóljon szemérmes
                   asszony szája.</p>
                <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Amilyen pokolhőség uralkodott nappal, épolyan hűvösek voltak az éjszakák a magas
                   hegyek­ben. Jégeső is eshetett valamerre, a mici-sipka formájú csúcsok közt, mert
                   hallani lehetett az elvonuló felhők korgadozását s minduntalan megcikázott az ég
@@ -1786,10 +1787,10 @@
                   csontokról ma­holnap lekerül már a kemény kötés, mint ahogy lelohadt a fiókfej. De
                   ki veszi le a szenvedő­ről a belső szorongást? Ki mondhat bizonyosat ott, ahol a
                   bizonytalanság lassanölő méreg?</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+          
+               <p rend="head">III.</p>
                <p>- Mi lelt, gyaúr? Hovatovább csak a gúnyád fog itt lődörögni! Temagad kifogysz
                   belőle! Fájlalod talán valamidet? Élésedről, kényelmedről van-e panaszod?</p>
                <p>A janicsárnak is kezdett feltünni a rab állapota.</p>
@@ -1901,10 +1902,10 @@
                <p>Megingatta komolyan a fejét.</p>
                <p>- Sőt épp ez a legszebb vonás bennük! Amit törvényül elfogadnak, egymástól is
                   megköve­telik. Írd be a könyvünkbe! Ami igaz: igaz.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+            
+               <p rend="head">III.</p>
                <p>A rákövetkező reggel se indult valami békességesen.</p>
                <p>Nagy héhózás verte föl álmából a pihenő karavánt. Korbács-csattogás.
                   Jajveszékelés.</p>
@@ -2107,10 +2108,9 @@
                <p>A janicsár hagyta.</p>
                <p>Papucsforma szája mosolyra fordította ki rózsaszín bélését.</p>
                <p>Fölpattant ő is a lovára s haladt a megfogyatkozott csapat, tovább.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Rövid pihenőkkel, folyvást eget ostromló csúcsok közt, a Traján kapuján keresztül
                   vonult a karaván. Egy hét mulva elérte Filippopolyt. Itt egy egésznapi ejtődzést
                   engedélyezett Ibrahim. És János előszedte a jegyző papirosokat. Édes asszonya
@@ -2138,10 +2138,9 @@
                <p>Beburkolta a könyvet abba a kis selyem vállkendőbe, amiben tartották s hátradőlt
                   fekhelyén. Azonmód el is aludt, mint mostanában minden este, mióta egyedül maradt
                   a szekértömlöcben.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Hat napon át haladoztak így. Hetednap megint tornyokba ütközött a szemük. Nagy
                   városba érkeztek. És lesátoroztak.</p>
                <p>A selyemkendőcske előkerült ismét. Mielőtt azonban megbontotta János, rálopott egy
@@ -2171,10 +2170,9 @@
                   kállai várba, amikor Isten engedi! Se asszonya oldalán ne hibbangasson. Bár...!
                   Történjék minden úgy, ahogy felülről rendelik! Belenyugszik a végzésbe és várja,
                   éli a sorsát, türelmesen.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>Drinápolyon túl letértek a rendes taposott útról. Nem is tértek rá vissza. Erősen
                   közeledtek céljukhoz. A sztambuli főút pedig olyan népes, mintha állandó
                   népvándorlás özönlenék rajta. Sok időt vesztettek volna a folytonos előzködéssel.
@@ -2226,10 +2224,9 @@
                   állt előttük Silivri és a tenger.</p>
                <p>Alig várta a rab magyar, hogy megláthassa ezt a mesebeli, irdatlan vizet!</p>
                <p>El ne jöjjön az idő, mikor meggyülöli és elátkozza!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+               <p rend="head">VII.</p>
                <p>Ha mai értelemben való vendégfogadónak képzelné a karavánszerályt valaki, az ugyan
                   csa­lódnék. Nincs ott aki a jövevényt fogadja, megimádja, kívánságait kihallgassa
                   és derékaljról, pehelydunnáról gondoskodjék neki!</p>
@@ -2401,10 +2398,9 @@
                <p>Jobb is, hogy majd csak akkor kerülnek megint azok ketten a kaján pogány szemek
                   elé, mikorra megtalálták méltó önmagukat! Mikorra ráeszmélnek, hogy a nagy
                   sorsokat - nagy szívvel - viselni is kell tudni!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VIII.</head>
+            <milestone unit="endSubChapter" n="7"/>
+            <milestone unit="startSubChapter" n="8"/>
+               <p rend="head">VIII.</p>
                <p>A vastag függöny elnyelte a belső hangokat.</p>
                <p>Ibrahim kívülmaradt az új karaván vezetőjével Azt tudakozta:</p>
                <p>- Hallottál-e útban valami hírt, Behrám?</p>
@@ -2521,10 +2517,9 @@
                   alatt. Hát ennek a különtarto­zásnak meg kellett érződnie a fölvonuláson is.</p>
                <p>Úgy tanakodott, izgult, készülődött a pogány, mint nálunk szokás, Úrnapja előtt. A
                   kör­menetre.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IX.</head>
+            <milestone unit="endSubChapter" n="8"/>
+            <milestone unit="startSubChapter" n="9"/>
+               <p rend="head">IX.</p>
                <p>A dobok megperdültek. Sípok felsivalkodtak. A hajcsárok talpraserdítették a pihenő
                   foglyo­kat. Ibrahim is fölvetette sátora függönyét. Intett az egyik porkolábnak,
                   hogy terelje elő a rab urat, asszonyságot.</p>
@@ -2668,10 +2663,9 @@
                <p>És a sorok mozgásba jöttek. Mérsékelt menetben, hogy a gyalogrendűeknek se kelljen
                   futniok s hogy a por, fáradság el ne gyalázhassa őket, kanyarodtak föl ismét a
                   járott útra.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>X.</head>
+            <milestone unit="endSubChapter" n="9"/>
+            <milestone unit="startSubChapter" n="10"/>
+               <p rend="head">X.</p>
                <p>Másfél, kétórányi haladozás után a csapat Sztambul dombtetőn fekvő, nyugati
                   elővárosába érkezett. A domb nem volt ugyan valami magas, de mégis elég emelkedett
                   ahoz, hogy látni lehessen tetőzetéről az egész panorámát.</p>
@@ -2843,10 +2837,9 @@
                   szultánt s a dívánt! - förmedt el bosszúsan a török.</p>
                <p>És hátrasuhintott jatagánjával a lovára Kiugratott a sorból.</p>
                <p>A sípok-dobok megint fölrivaltak.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>XI.</head>
+            <milestone unit="endSubChapter" n="10"/>
+            <milestone unit="startSubChapter" n="11"/>
+               <p rend="head">XI.</p>
                <p>Csak távolból, a dombtető megszépítő magosságából nyujtott olyan festői képet
                   Sztambul, amilyennek János első szemléletre látta! És csupán a középületei voltak
                   olyan tündérien szépek. De ahogy beljebb hatoltak, eloszlott a káprázat.</p>
@@ -3261,10 +3254,9 @@
                <p>- Megtehetem uram, ha kivánod!</p>
                <p>Kivánták, mind a hárman.</p>
                <p>A bosztandzsi hát sarkonfordult és visszaballagott a palotába.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>XII.</head>
+            <milestone unit="endSubChapter" n="11"/>
+            <milestone unit="startSubChapter" n="12"/>
+               <p rend="head">XII.</p>
                <p>János és Orsika ezalatt a Díván ítélőszéke előtt álltak. A tanács meg félkört ült
                   szemben.</p>
                <p>Középütt egy hatvan-hetvenesforma, nagyméltóságú férfiú. Ha igaz az, hogy minden
@@ -3431,15 +3423,14 @@
                   kapun.</p>
                <p>Nem jött még ki azon ilyen élő árnyék, mióta ez a palota-város fölépült! Nem
                   röpült ki még élve egy ilyen pillangó se, soha!</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="11"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
                II. RÉSZ. KÁLLAI KETTŐS.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Mialatt az árva foglyokkal ezek történtek, Kálló fölött is rossz napok jártak.</p>
                <p>Hej, körmös ember volt a szolnoki bég! Körmösebb, mint amilyennek a kállaiak
                   gondolták! Háromszoros cselt hányt a legutolsó szomszédi látogatásával! Nem elég,
@@ -3608,10 +3599,9 @@
                <p>Rövid idő mulva már csak egy apró porfelhő mutatta, hogy merre nyelte el a messzi
                   a derék matrónát.</p>
                <p>Van is távolság az asszonyi szívnek, ha a szeretet melege fűti!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Hát ezt a szeretetet is, meg Sára asszony türelmét is, volt ami kipróbálja!</p>
                <p>Tizenöt napig rázta a kocsi a matrónát. Tizenöt napig ágyat, meleg ételt alig-alig
                   látott.</p>
@@ -3660,10 +3650,9 @@
                <p>Tarsolyában a törődésteljes út egyetlen fogható eredményével, egy nagystambiliás
                   ajánló­levéllel, megint fölkászolódott és odaintett kocsisának:</p>
                <p>- ...no akkor Budára, fiam Miska! Egyenest a helytartó basához!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Buda, mi örömünk, büszkeségünk, koronánk aranyboltozata, országunk ékköve,
                   dicsőségünk tornya...! Szomorú magyaroknak reményt nyujtó helye, víg magyaroknak
                   vigadozó helye, ősi törvények látója, királyok dajkája: mi lett belőled?</p>
@@ -3812,10 +3801,9 @@
                <p>- Erre eredzs madzsar asszony!</p>
                <p>Megérkezett hát „Magyarország uj kormányzóinak”, a budai helytartó-basáknak
                   székháza elé!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Bár nagy és öblös volt az előcsarnok, mégis megrekkent benne a levegő. Nem mintha
                   olyan sokan részesültek volna a kegyben, hogy a „szultán képének”, a budai
                   helytartó-basának színe elé bocsáttassanak! Hanem mert - egy vaksiképű vármegyei
@@ -4069,10 +4057,9 @@
                   raktak utána, nyomtatékul! Testvérek közt is fölért a - fenyegetéssel!</p>
                <p>- Vissza Kállóba, fiam Miska...!</p>
                <p>A kerekek gurultak tovább, a kánikulát lihegő, porbanfürdő országúton.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Beszámolt Sára asszony Kállóban a végzéseivel. Harmadnappal rá, befutott
                   Lápispatakára. Nyélbeütötték László úrral - és a deák segítségével - a levelet is,
                   meg - a kompaktor közbe­jöttével - annak díszes kötését is. Korcsolyáztatójáról se
@@ -4289,10 +4276,9 @@
                   árulgathassák a harácsolt portékát. Le­gyen egy kis aranyszemű kukoricájuk is,
                   amit majd a pogány nagysertések elé szórhassanak, ha netalán mégse érnék be a
                   főaga cseréjével.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>Úgy vigyázott Ambrus az ő fő-törökjére, hogy saját szemevilágára se jobban. Egy
                   hét multán - Temesvár körül - azonban csak megesett a baj.</p>
                <p>A török elkezdett satnyulni, gémberedni. Hol forróság lepte, hol a hideg
@@ -4316,15 +4302,14 @@
                <p>Igaz, sohase jártak ezen az idegen tájon. De mit tesz az! Majd helyrevezeti őket,
                   aki a pusztá­ban vándorlóknak jelmutató csillagot küldött. Áldja meg az Isten a
                   derék, hűséges szivüket!</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="6"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
               V. RÉSZ. A JEDIKULE FOGLYA.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>A kőfalba vágott, keskeny ablak lantornáján tört-sárga színnel derengett keresztül
                   a nyár­reggeli napfény. Tompított világosságba vonta a tágas, dúsan szőnyegezett
                   szobát, selymesen tükröztette a falak alján körbefutó, alacsony dívánok
@@ -4453,10 +4438,9 @@
                   szúrón.</p>
                <p>Majd megcsóválta ráncosbőrű kis fejét.</p>
                <p>- <hi rend="italic">Vallahi...!</hi> Különös. Különös...!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Hát csudát mívelt az a kulcs!</p>
                <p>János egész más emberré lett, mióta előtte látta. Szinte újjászületett.
                   Agyonvirrasztott szeme megfrissült. Füle se hallatott vele káprázat-hangokat
@@ -4554,10 +4538,9 @@
                   parancsolta, hogy ne törjön előre túlmohón.</p>
                <p>Föllapozta és kinyitotta a könyvet.</p>
                <p>Tudta, hogy megy attól a török - anélkül, hogy megsértené - küldetlenül is!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Rákövetkező nap azonban lebocsátkozott a kertbe és harmadnap őmaga vonta beszédbe
                   Bajazethet.</p>
                <p>Lassú léptekkel haladoztak egymás oldalán.</p>
@@ -4637,10 +4620,9 @@
                   ideje előtt...!</p>
                <p>Rábólintott a sugár, fiatal férfi tovatűnő alakjára, ahogy az lefordult a
                   kőépületek labirintusa felé s a következő percben már - aludt.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">IV.</p>
                <p>A nyár derekán túl fordult. Kisasszony havának huszonegyedik napja beköszöntött.
                   Három hét telt el János érkezése óta. Három keserves, hosszú hét, amibe bele
                   lehetett volna őszülni, ha nincs a remény és nincsenek a tervező gondolatok,
@@ -4999,10 +4981,9 @@
                   tervei egy megfelelő alkalommal találkoznak - foghat valamihöz...</p>
                <p>A zacskót gondosan eltette. Majd, a bégnek szánt ajándékkal, kifordult az
                   ajtón.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>A törököt a nagyudvaron találta, szolgái közt. Valami parancsot oszthatott nekik,
                   mert a legények figyelemmel tapadtak az ajkára és sorban meghajlongtak. Aztán
                   sietten haladtak ki a kapun.</p>
@@ -5206,10 +5187,9 @@
                   sóhajtott bár, de az ellen sem emelt kifogást.</p>
                <p>A kapun belül megköszönte szépen a bég szívességét s visszavonult.</p>
                <p>Nem is mutatkozott többé, aznap.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>Nagy változásokon ment át János a lepergett egy hét alatt. Amilyen otthonülő volt
                   ezelőtt, úgy alig lehetett mostanában a rabszállásán látni. És amilyen szótlan
                   volt, most ugyanolyan bőbeszédű lett. Ki nem fogyott a tudakozódásokból. Bajazeth
@@ -5335,10 +5315,9 @@
                   részeg­ségével, amihez ugyan semmi köze a bornak, de ami azért nemkevésbé
                   mámor.</p>
                <p>A szerelem és remény kétszeres, édes ittassága...!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+               <p rend="head">VII.</p>
                <p>Másnap új csónakot vásárolt az elúszott helyébe. Egy rend viselős gúnyát, sarut
                   is, hogy legyen, míg az elgyalázott öltözetét helyrehozza a Héttorony
                   szabómestere, a <hi rend="italic">terzi basi.</hi> És egy másikat előrelátásból -
@@ -5388,15 +5367,13 @@
                   egyszobában álmot szőni...</p>
                <p>Megérkezett az üzenet, hiány nélkül, áldassék érte megpróbáltatások és
                   vígasztalások legfőbb ajándékozója.</p>
-               <p> </p>
-            </div>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
                V. RÉSZ. IDEGEN CSILLAGOK ALATT.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Mikor, elmult év Karácson havának huszonharmadik napján, az új padisáh - III.
                   Amurád - Sztambulba érkezett, elfoglalni atyáinak megürült trónszékét, a félember
                      <hi rend="italic">berbi basi</hi> bizony kevés töretlen virágot talált a
@@ -5745,10 +5722,9 @@
                <p>A mangálban hunyorgott a parázs.</p>
                <p>A láng fölcsapott.</p>
                <p>A levél elégett a füstölőben.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Ennek a hónapnak - a mi naptárunk szerint szeptembernek, régi kalendárium szerint
                   Szent Mihály havának, mohamedán <hi rend="italic">takvim</hi> szerint <hi
                      rend="italic">Muharrem</hi> hónapnak - minden napját láng­betűkkel lehetne a
@@ -5891,10 +5867,9 @@
                   valahogy szebben sütött, az ég kékje elmélyült és dalolt a jövő zenéje, testének
                   minden izmából, egész lelkéből. Dalolta a remények és harc vérpezsgető
                   indulóját.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Az idő Mindszent havára fordult. Odahaza - Magyarországon - ilyenkor már szálldos
                   az ökör­nyál. Karcsú nyírek fehér pagonya megborzong, - füvek, virágok meghajtják
                   fejüket s a természet elkezdi szövögetni avarcsipkés szemfödelét. Nap ha süt is,
@@ -6080,10 +6055,9 @@
                   szitokkal. Fent a felhők közt tudták azonban, hogy a vén szittyának is csak a
                   szája jár rá a mosdatlan beszédre. Imádság a gyökere annak! Hűség, szeretet és
                   szívbeli jóság. S a két kifakadást - szándékban - bizonnyal egynek vették.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Ambrustól elválva, akadt még dolga Jánosnak. Hírt kellett küldenie be, a hárembe,
                   a készülő esemény felől. És választ kellett kapnia is.</p>
                <p>Hazairányodott hát rab-hajlékába s megírta a postát:</p>
@@ -6106,10 +6080,9 @@
                   kimintázva, lángszín selyemöltésekkel. Ennél többet, nyilván, Orsika se mert a
                   gyönge tuba szárnyára bízni...</p>
                <p>De hát ennyiért is legyen áldott! Legyenek áldottak mind a ketten - egymással.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Szállására téret borbélyért kiáltott a fogoly uraság. Ollót tétetett hullámos
                   hajára. Ott nyírták, beretválták a Jedikula udvarán, mint szokás.</p>
                <p>Bajazeth csak elnézte a mívelkedést egy darabig, a háza ablakából. Soká azonban
@@ -6157,10 +6130,9 @@
                <p>*</p>
                <p>Óh hatalmas asszonyi nem, melyért ha kell, vérrel áldozik s eget-földet megmozdít
                   a férfi! Be csudálatos is a te erőd...!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>A világító égi király leszállóban volt bíborhintójáról. Szétlibbentette piros
                   palástját Sztambul fölött. Olyan lett a város, mintha vérpárában fürdenék. És a
                   százakra menő karcsú minaret, mintha fekete csipkézetet vert volna az óriás,
@@ -6282,10 +6254,9 @@
                <p>A szekér megállt a Szerály kapujánál.</p>
                <p>Hallani lehetett, ahogy a kocsis lent termett a bakról.</p>
                <p>Innenfogva más vezeti már a kocsit, ismeretlen sorsa felé.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+               <p rend="head">VII.</p>
                <p>Hogy meddig haladtak, János nem tudott volna számotadni magának erről. Elvesztette
                   az időben tájékozódó képességét. Része lehetett ebben a testi fájdalomnak s az
                   utálatnak is!</p>
@@ -6397,10 +6368,9 @@
                   világa! Tárul már az örvény, amit a vakmerő utasnak nyitott a sors!</p>
                <p>A habok megcsapódnak, szétsisteregnek, aztán összezárulnak.</p>
                <p>Forradás nem szokott maradni a sebük után.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VIII.</head>
+            <milestone unit="endSubChapter" n="7"/>
+            <milestone unit="startSubChapter" n="8"/>
+               <p rend="head">VIII.</p>
                <p>A Boszporusz felől, osonva, észrevétlenül, közeledett csillaghímes fekete
                   fátyolköntösében az éjszaka. A tengerből súlyosabb tömegekben emelkedtek föl a sós
                   párák. A hullámok játéka erősbödött. Bekövetkezett a dagály szaka.</p>
@@ -6508,20 +6478,19 @@
                   rázta. Mellből, mélyrőljövő, szép, búgó férfi-sírás.</p>
                <p> Magyar katonák temették dicső kapitányukat, a távol Boszporus partján.</p>
                <p>Óh árva nemzet elárvult fiai...!</p>
-               <p> </p>
+            <milestone unit="endSubChapter" n="8"/>
             </div>
          </div>
          <div type="group">
             <head>
               MÁSODIK KÖTET
             </head>
-            <p> </p>
-         <div type="group">
+         <div type="chapter">
             <head>
                I. RÉSZ. A FÉNYES PORTA
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Az éjszaka elmúlt, a hajnal rábontotta lánghaját az égre. Ki is reggeledett.
                   Orsika azonban hiába várta az ígért szabadítást. A hárem életre kelt. Minden a
                   szokott kerékvágásában hala­dozott. Sehol semmi nesz, ami valami különös, külső
@@ -6597,10 +6566,9 @@
                <p>Talán jobb is volt Orsikának, hogy az övét megrövidíthette.</p>
                <p>Ott feküdt a pázsíton, elomolva, nemlátón, nemtudón, nem hallva a cudar velencei
                   asszony gúnyos kacagását.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Fájdalommal szökött ki a világból s a fájdalom hívta vissza oda, megint.</p>
                <p>Homloksebe - bár nem maródott éppen valami túl mélyre - gonoszul sajgott.</p>
                <p>Kinyitotta szemét, melyben még a szédület elsuhanó uszályvége ködlött.</p>
@@ -6737,10 +6705,9 @@
                <p>Nem bánt ő már semmit! Nem érdekelte őt már semmi többé, ezen a világon!</p>
                <p>Míg az odahívott félemberek hordozószékbe emelték, arcára borította fátyolait. Élő
                   testben halottul, úgy vitték át a kerten.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Mióta hódító Szulejmán, a „nagy”, lezárta sasszemét, fia és utóda, „részeges”
                   Szelim alatt a félhold rettegett uralma hanyatlásnak indult. A háromnegyed éve
                   Ozmán kardjával övezett új szultán - Amurád - országlása sem igérkezett olyannak,
@@ -6904,10 +6871,9 @@
                <p>Tehette. Vihette. Az az ellankadt test nem viaskodott már akkor. Könnyű lett
                   egyszerre, mint a lehullt virág. Feje hátrahanyatlott. Dús fekete haja hosszan
                   patakzik a földön.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Azért ez a nap is eltelt, mint a többi. A föld nem fordult ki sarkából. Forgott
                   tovább, közömbös-lomposan, a talán csak megkésett talán mégis beköszöntő
                   szabadulás sóvárgott, legkisebb jele nélkül.</p>
@@ -7134,10 +7100,9 @@
                   milyen dülé­keny lábakon nyugszik Kelet világában egy-egy ilyen kényúri „<hi
                      rend="italic">talán</hi>”...!</p>
                <p>A hárem csúszómászó népe várta az új udvarral emelkedő Napot.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Nagy lett ettől az időtől fogva Orsika tisztessége! Az ódában külön háromtermes
                   lakrészt jelöltek ki számára. A vad cirkassziai lánytól, egyszersmindenkorra,
                   megszabadult. Senkit se kellett szolgálnia többé. Sőt! Maga választhatott ki
@@ -7522,15 +7487,14 @@
                <p>- Estére küldöm amit kivántál!</p>
                <p>Erre se felelt.</p>
                <p>Hol jártak már az ő gondolatai...!</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="5"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
              II. RÉSZ. MIRE A NAP LESZÁLL...
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Teltek, muladoztak a napok, de a kállai fiúk csak nem bírtak lélekre vergődni.
                   Gunnyasztottak - hangtalan tünődéssel - a sátoruk előtt.</p>
                <p>Mert sátorlakók lettek egy idő óta. A halászatot választották mesterségül. No,
@@ -7739,10 +7703,9 @@
                <p>Szegény magyar vitéz, jó kállói kapitány...! Alig még, hogy kigázoltál az egyik
                   halálból, máris egy másikban töröd árva fejedet!</p>
                <p>Szállására érve János, befordult a béghez.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Nagyon megörült az emberséges Bajazeth az ő rabjának. Egy idő óta mind
                   hosszasabban s mind jobban rámelegülő szemmel szokta nézegélni.</p>
                <p>Hogyne!</p>
@@ -7840,10 +7803,9 @@
                   társaival együtt.</p>
                <p>Öt hűséges, bátor szívből állt a kállói rab kapitány regimentje. Ő tudta, hogy
                   mihöz kezdhet velök!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Egy hét eltelt, különösebb változás nélkül. A legények bejárogattak ugyan a
                   Jedikulába, de inkább csak urukat látni, megmutatkozni. Hírük nem akadt.</p>
                <p>Nyolcadnap azonban a vén Ambrus jött elő, ami egymagábavéve is, jeles dolog.
@@ -8161,10 +8123,9 @@
                   bizakodás járta át a szívét, édes melegével.</p>
                <p>Megy ő még valamire, ezekkel az ördögfiakkal! Ami ma eredmény nélkül maradt,
                   holnap majd sikerül! Csak addig tartsa féken a Teremtő az ő fekete angyalait!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Lázadás...!</p>
                <p>Lélekindulásos, baljóslatú, beláthatatlan tartalmú szó!</p>
                <p>Ha valaki azt találta volna mondani lápispataki Zsegnyey János főkapitány úrnak,
@@ -8230,10 +8191,9 @@
                <p>Később aztán nem nevetett, se ő, se mások.</p>
                <p>A rémület villámokkal terhes föllegei jártak ezen a válságos éjszakán a
                   szorongatott Sztambul fölött.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>A török nép vállát nyomasztó örökös fenyegetésnek: az állandó perzsa veszedelemnek
                   han­goz­tatása, a szultáni behódolás, no meg a zacskószám osztogatott pénz és
                   ingyen leves, ezúttal mégis megtette dolgát. Végezetül lecsöndesítette a fölzúdult
@@ -8322,14 +8282,13 @@
                <p>A ház körvonalai lassanként belesüppednek az éjszakába. Nagy a csönd. Csak
                   Sztambul köztisztaságának őrei, a kóbor kutyák őgyelegnek a néptelen utcán s
                   rágódnak a kapuk elé vetett hulladékon.</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="5"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
               III. RÉSZ. AZ ÚJ FAVORITA.
             </head>
-            <div type="chapter">
+            <milestone unit="startSubChapter" n="1"/>
                <head>I.</head>
                <p>Vannak, akiket a közhit holtaknak vél. Sápadt az arcuk, csukva a szemük, hideg
                   érintésű a testük, néma az ajkuk és csöndes a szívük. S azért mégis, csak látszat
@@ -8459,10 +8418,9 @@
                   redőit.</p>
                <p>A háremi zenekar érkezett, hogy - régi szokás szerint - muzsikával kísérje a
                   leendő favoritát a Nagyúr színe elé.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>- Kövess, óh Faziletli!</p>
                <p>A <hi rend="italic">Kadun Kjethuda</hi> magosra emelte ezüst szövétnekét s
                   megindult a menet élén. Az ő tisztjét képezte: a szultáni mátkát a padisáh
@@ -8603,15 +8561,14 @@
                <p>Mi egy éjszaka a népek történetében?</p>
                <p>Semmi.</p>
                <p>Két ember sorsában: kárhozat, vagy üdvözlés.</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="2"/>
          </div>
-            <div type="group">
+            <div type="chapter">
             <head>
                IX. RÉSZ. A BÉCSI KIRÁLY KAPITÁNYA.
             </head>
-               <div type="chapter">
-               <head>I.</head>
+               <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Lápispatak bizonyára nem valami főhely a büszke városok rendjében. Mégcsak nem is
                   város. Csupán egy kis község, Sárosmegye déli részén, ahol Tolnamegyének veti
                   hátát. Hanem ha kicsi is a fészek, annál szemrevalóbb! Környéke festői.
@@ -8874,10 +8831,9 @@
                <p>- Én uram! Be nagyon szeretem is kedves kegyelmedet! - mosolyodott el, önmagára
                   csukott pillái alól.</p>
                <p>És lassan megfordult. Templomi áhítattal tért vissza a békétlenemlékű házba.</p>
-               <p> </p>
-            </div>
-               <div type="chapter">
-               <head>II.</head>
+               <milestone unit="endSubChapter" n="1"/>
+               <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Sára asszony nyugtalankodott már. Nem is feküdt. Készre öltözve üldögélt a
                   medvebőrös padon. Aggódta, hogy nem vonakodik-e ki, valamilyen ürüggyel, Orsika a
                   közös étkezésből? Mert ha igen, akkor igazán megneheztelt. Mélyen fájlalta volna.
@@ -9080,10 +9036,9 @@
                   Szalatnát s a Rábán túlt sarcolja. Ügyeljen öcsém! Valahogy be ne kerítsék!</p>
                <p>- Bizony, - tódította a fiatal asszony. - Úgy ne járjon, mint szegény jó uram!</p>
                <p>És utánafohászkodott a szabadítónak, míg elérte szemmel.</p>
-               <p> </p>
-            </div>
-               <div type="chapter">
-               <head>III.</head>
+               <milestone unit="endSubChapter" n="2"/>
+               <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Dejszen, aligha vállalkoztak volna testőrködésre azok a kállói legények, akikre a
                   dáma hivat­kozott!</p>
                <p>Alig fordult ki a kapitány paripája a kapun, a vén huszár kisercintett, balvállán
@@ -9118,10 +9073,9 @@
                   ugyan nem fognak abból kérni.</p>
                <p>Aláz’ szolgája!</p>
                <p> Egy óra teltén hírmondó se maradt belőlük Lápispatakán.</p>
-               <p> </p>
-            </div>
-               <div type="chapter">
-               <head>IV.</head>
+               <milestone unit="endSubChapter" n="3"/>
+               <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Kell néha egy-egy kis édesség is ahoz, hogy az ember el bírja viselni a sors
                   keserűségeit! Főképp, ha az a sors olyigen keserű, mint volt, az 1575-ös években,
                   a magyar vitézi állapot.</p>
@@ -9293,15 +9247,14 @@
                <p>- Csiba! Hászen látod! Előre! - vakkant a vitéz.</p>
                <p>- Messzi megyünk?</p>
                <p>- Neee... Csak amoda Kisázsiába.</p>
-               <p> </p>
-            </div>
+               <milestone unit="endSubChapter" n="4"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
               X. RÉSZ. A FORTÉLYOS SZAKÁCS.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>A sztambuli görög korcsma pincéjében - az ajtó alatt - besüt a fény. Rávilágít egy
                   gömbölyű termetű ember arcára. Az ember hanyatt fekszik és alszik. De már
                   bosszantja a világosság. Görgeti előle a fejét jobbra-balra, a porban. A fez
@@ -9500,10 +9453,9 @@
                   forgott, mintha bűvészpálcán forgatnák, belülről. Hörögve és átkozódva köpte ki
                   lelkét a távozók után, akik - mindkettő egy-egy embertáltoson - vígan ügettek
                   befelé a mesék palotájába.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Ezt követőleg, órákig, mély csend honolt a hatalmas épülettömb környékén. De olyan
                   csönd, mintha az a tízezer főnyi ember - úr, szolga, hivatalos személy - aki a
                   Szerályt lakta, mind kezét-lábát nyelte volna el.</p>
@@ -9687,15 +9639,14 @@
                <p>Most proklamálták épp, Ferhád kinevezését...</p>
                <p>*</p>
                <p>Egy világrész szakácsa lesz ezentúl, a fortélyos szakács!</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="2"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
               I. RÉSZ. HALÁL ŐFELSÉGE VÁRÓCSARNOKÁBAN.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Hajnalodik. De Sztambulban még az őszi hajnalok is oly enyhék, mint nálunk -
                   Felvidéken - derekanyárban. A nap pirult orcával bontakozik felhőpárnái közül.
                   Kimelegedett őkelme, nyilván! Végigfuttatja hát mezítelen sugarait az égi mezőn és
@@ -9831,10 +9782,9 @@
                   vont elő, beillesztette a rozsdás zárba és úgy megtaszította a megkötözöttlábú
                   rabot, hogy az zuhanvást bukott egy sötét, földalatti barlangfélébe. Ott is maradt
                   aztán elterülve, jó ideig, gondolattalanul.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Arra eszmélt, hogy valami hideg kis tárgy koppangat a homlokára. Egy, majd mégegy
                   és mégegy.</p>
                <p>Odatapintott.</p>
@@ -9925,10 +9875,9 @@
                   köré.</p>
                <p>Hangja halkan zsongott, mint a mélyhegedű. Zsongott, míg az álom szelíd csöndjébe
                   bódult.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Így érte a látogató, aki hajnaltájt lebocsátkozott hozzá.</p>
                <p>A vén Bajazeth volt a látogató. Kanócos viaszfazekat emelt reszkető kezében, annak
                   fényénél aprózta, egyenkéntvaló gyermektipegéssel, a lépcsőt. Majd megállt a
@@ -10006,15 +9955,14 @@
                   számmá, alázott barommá válni! Nem ösmered mi a szenny, a bűn, mi az eleven
                   kárhozat! Hallhattál elröppenő meséket, de nem tanultad meg húsod, csontod,
                   ép-eszed árán, hogy mi az a gálya, mi az a gálya...!</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="3"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
             II. RÉSZ. ÚSZÓ KOPORSÓ.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>- Erre gyere! Vigyázz, a fejedet be ne üsd a boltozatba!</p>
                <p>Bajazeth fölemelte viasz-fazekát és előre indult.</p>
                <p>Földalatti, sziklás, alagútszerű, szuroksötét és nyirkos sikátoron nyomultak elő.
@@ -10149,10 +10097,9 @@
                <p>Akkor a korbácsos hajcsárok közrevették őket és a bús menet megindult, az udvaron
                   keresztül, ki a Jedikule kőburkolt kapuján.</p>
                <p>Isten veled, lápispataki, nemes Zsegnyey János!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Időközben egész kireggeledett. Az út, amerre a menet haladt, megélénkült.
                   Mindenfelé fátyolozott arcú, vízhordó <hi rend="italic">rája</hi>-lányokat,
                   asszonyokat, moskékba siető hívőket, piacra igyekvő szakácsokat és háti kalmárokat
@@ -10294,10 +10241,9 @@
                <p>És kezdődött valami, ami nem élet többé, mert nincs benne szabad mozgás, se
                   akarat, se öröm. De nem is halál, mert nemismeri az örökálom békességét.</p>
                <p>Kezdődött a gálya, himbálódzott a gálya, élet és halál keresztútján.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>János jól következtetett. A hajó - melyre került - valóban a kereskedelmi gályák s
                   azok közt is a java-rendjébe tartozott. Húsz-harminc főnyi, hivatásos <hi
                      rend="italic">gemidsi</hi>-legénysége ott tűnt el batyúival a födélzet alatt,
@@ -10397,10 +10343,9 @@
                   kezdte súlyo­sítani. S mindehez a növekvő, fülledt hőség és sötétség...!</p>
                <p>Haj, akinek az a három rettentő betű ékteleníti a vállát...! Az bizony ne
                   válogasson!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">IV.</p>
                <p>Hát rettenetes volt a beköszöntő. De a kínok serlege még korántsem telt be vele.
                   Látszott a padsorok közt járkáló pallérok előkészületein, hogy nem fogytak ki a
                   kínzásaikból.</p>
@@ -10516,10 +10461,9 @@
                <p>Az egész pajta felsüvöltött. Engedelmességük és szorgalmuk jeléül, a szerencsétlen
                   páriák igyekeztek egymást túlordítani, míg egy ismételt intés és ledöbbenő dobszó
                   elnémította őket.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Az éjszaka leszállt.</p>
                <p>De hol a pihenő? A fekhely? Bármi nyomorúságos is?</p>
                <p>Jánost szinte már tűrhetetlenül gyötörte az egyhelyben ülés s a kemény lóca.</p>
@@ -10638,10 +10582,9 @@
                   vízen járhatott már, mert megszűnt körötte minden emberi zaj.</p>
                <p>A kikötő s vele a szabad, boldog lények egész világa, a növekvő távolság ködébe
                   merült.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>- Kezdődik az «új élet», - gondolta János, mély nekifohászkodással, melyet azonban
                   félbe­szakított az a heves rántás, ami majdnem kitépte karját.</p>
                <p>Megértette belőle, hogy a kelleténél egy pillanattal hamarabb mártotta az evezőt s
@@ -10725,10 +10668,9 @@
                   ilyen diadalt aratott. Ekkor - megijedve a túlgyors eredménytől, mely csakhamar
                   gyakorlattá válhatnék s megfoszthatná őt a játék ingerétől - abbahagyta az új
                   időtöltést és visszatért korábbi szóra­kozásainak egyikéhez.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+               <p rend="head">VII.</p>
                <p>A gálya pedig közben haladozott. Hol símán, hol táncolva, szökellve, aszerint,
                   hogy milyen kedvének örvendett a tenger, ott a hajó héjján kívül, az ő határtalan,
                   boldog szabadságában.</p>
@@ -10791,10 +10733,9 @@
                <p>A többi azonban még látott, érzett és szenvedett.</p>
                <p>Némelyik tengeribetegséggel küzdött. Mások vérhabos szájjal fetrengtek a gálya
                   fenekén és semmi rugdosás sem bírt többé lelketverni beléjük.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VIII.</head>
+            <milestone unit="endSubChapter" n="7"/>
+            <milestone unit="startSubChapter" n="8"/>
+               <p rend="head">VIII.</p>
                <p>Így telt a démonok éjjele és ki tudja, hány éjjel, hány nap, míg János - az
                   eszmélkedés halvány derengésével - megint kinyitotta szemét.</p>
                <p>Tagjai zúzottak voltak, mintha köves malomban őrölték volna meg, külön a
@@ -10849,10 +10790,9 @@
                   maga-tehetetlenűl - kidűlt a dolgozók sorából?</p>
                <p>Kellett a kar! Az erő! Szükség volt minden evezősre.</p>
                <p>Az ostoba emberpazarlás nagyon lecsökkentette a hajó személyzetét.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IX.</head>
+            <milestone unit="endSubChapter" n="8"/>
+            <milestone unit="startSubChapter" n="9"/>
+               <p rend="head">IX.</p>
                <p>A romlás azonban már megindult a gályán. Az emberek egyremásra fordultak le a
                   padokról. Valami különös gyöngeség lepte meg őket. Bőrük alatt vérfutásos foltok
                   tűntek föl, még olyankor is, ha az örök kezében pihent a korbács.</p>
@@ -10939,10 +10879,9 @@
                   erőfeszítéseit.</p>
                <p>Ezzel a gondolattal - s egy mindent betetéző csalódással szívében - el is aludt.
                   Aludt, mozdu­latlanul, órákon keresztül.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>X.</head>
+            <milestone unit="endSubChapter" n="9"/>
+            <milestone unit="startSubChapter" n="10"/>
+               <p rend="head">X.</p>
                <p>Lázong az ember sokszor! Ami csapás éri: megmorogja. Nyomban kész megoktatni a
                   Teremtőt, hogy mit hogyan kellett volna jól és méltányosan elrendelnie? Panaszolja
                   a rámért szenvedést. Pedig sokszor épp a tetézett kínt választja Isten
@@ -10988,15 +10927,14 @@
                <p>A hajó rohant előre.</p>
                <p>Rabtartók hajója s az élet hajója: ismeretlen céljuk felé, ismeretlen mélységek
                   fölött, idegen vizeken.</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="10"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
               XIII. RÉSZ. ELENGED A GÁLYA.
             </head>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="startSubChapter" n="1"/>
+               <p rend="head">I.</p>
                <p>Múlhattak telek, mert Jánosnak ötször egymásután nyílt alkalma - huzamos időn
                   keresztül - látni saját lehellete párafelhőjét a gálya dögletessé vált
                   levegőjében, míg teste didergett a rádobott nyersbőr válladzó alatt. És múlhattak
@@ -11101,10 +11039,9 @@
                   Anélkül, hogy János a betegség leghalványabb jelét észlelte volna...</p>
                <p>A fekete kaszás késett.</p>
                <p>A halál kitért azelől, aki kereste!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">II.</p>
                <p>Nem jött a halál.</p>
                <p>De élő se jött!</p>
                <p>Órák múlhattak és János körül semmi sem mozdult. A födélzetről se hallatszott
@@ -11329,10 +11266,9 @@
                <p>Indulni...!</p>
                <p>Az élet, - az Új Élet felé! A megváltás és kárpótlás üdvössége felé!</p>
                <p>Oh, torkon soha ki nem férő, befelé tellő, befelé éneklő, boldog Halleluja...!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Jó pár órába telt, míg János lábai megszokták a szabad mozgást s még egy-kettő,
                   mire le­oldozhatta szeméről a kötést. De akkor is - és még sokáig - úgy
                   hibbangatott, mint aki falábakon lépeget. Akkora erővel roskadt meg minden
@@ -11448,10 +11384,9 @@
                   ringatta, szép csöndesen. A gonosz hajó, mely csak kínokat tartogatott számára
                   eddig...! Most meg­juhászodott az Isten tenyerén, egész arra bízva, aki -
                   bizonnyal - kormányosnak is a legjobb.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>Álmodni sem ért rá János, úgy aludt reggelig. Mikorra pedig fölserkent, már a
                   hunyorgás is kiment a szeméből. Egésznek, frissnek és olyan hatalmasan erősnek
                   érezte magát, mint eddig még soha. Szinte maga is elcsudálkozott izmainak
@@ -11662,10 +11597,9 @@
                   ágynéműt. Így elkészülve úgy érezte, hogy megtett mindent, amit a józan ész
                   parancsolt. És mikor az éjszaka leszállt, jó bizako­dással hajtotta álomra
                   fejét.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>Alkonyatra fordult az idő. A parti bokrok imbolygó árnyékokat hintáltattak a
                   tenger vizében, mely - mintha hatalmas táblában hirtelen megemelkedett volna -
                   földombosodott, aztán nagy hullámokra szakadva, szanaszét zúdult a part felé.</p>
@@ -11904,10 +11838,9 @@
                <p>Aludj, jó Zsegnyey János! Aludj édesdeden. Virraszthatsz te még, álomkerült
                   szemmel! Ha kiúsztál a tengerből, kerülhetsz te még más tengerbe is...! Csak majd
                   onnan kiússz! Abból vergődj partra!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>Szentandrás havának elseje, Mindszent napja beköszöntött.</p>
                <p>Reggel a novicius vándorbotot tört a vendég számára, a klastromi kertben.</p>
                <p>Nem lett volna a világnak az a nyájas csicsergése és sziszikelése, ami tovább is
@@ -11931,13 +11864,13 @@
                <p>Egyik félperemén sugárzott az ég. De a másikon már zimankós jóslatú föllegek
                   úsztak. És vihart jósoltak a tenger fölött nesztelen szárnycsapásokkal sikló
                   sirályok is.</p>
-               <p> </p>
-            </div>
+            <milestone unit="endSubChapter" n="6"/>
          </div>
-         <div type="group">
+         <div type="chapter">
             <head>
                XIV. RÉSZ. AMI ERŐSEBB A VASNÁL...
             </head>
+            <milestone unit="startSubChapter" n="1"/>
             <p>Ha Klio - a történelemírás széphomlokú múzsaasszonya - nem ereszti nagyon bő lére
                bodza­téntáját, a lepergett hat év eseményeit így jegyezhetné:</p>
             <p>
@@ -12037,9 +11970,9 @@
                rémuralmat teremt a kiuzsorázott magyar földön.</p>
             <p>Bizony, okosan teszi Klio asszony, ha mentől kurtábbra fogja históriáját! Jobb, minél
                kevesebb emlékeztetőnk marad a hányatottságnak és inségnek emez esztendőiről!</p>
-            <p> </p>
-            <div type="chapter">
-               <head>I.</head>
+            <milestone unit="endSubChapter" n="1"/>
+            <milestone unit="startSubChapter" n="2"/>
+               <p rend="head">I.</p>
                <p>Mint mikor kilobbanása előtt a kanóc még egyet ágaskodik, ilyen lángot vetett
                   utóbbi időben a jó Sára alvadozó élete-gyertyája is. Egy heteformán kiserdült az
                   ágyból a nagyasszony. Csiszegett-csoszogott a házban. Mintha hosszú idők minden
@@ -12285,10 +12218,9 @@
                <p>Vagy az vitte őt?</p>
                <p>Úgy kapaszkodott belé, mint meredek szélén csüggő az utolsó gyökérszálba, ami még
                   ehez a világhoz köti.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>II.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">II.</p>
                <p>Szegény Sára asszonynak ugyan meggyült a baja!</p>
                <p>Egy helyett kettőt vígasztalhatott már.</p>
                <p>Mert Mira is egész sodrából fordult, hogy ilyen fogadtatásban részesültek az ő
@@ -12392,10 +12324,9 @@
                <p>Nem valami harsány kurjongatásra. De azért csak ének az ének, ha fog közül serdül
                   is ki! <hi rend="italic">Requiescat:</hi> János!</p>
                <p>Éljen az élet s az élő!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>III.</head>
+            <milestone unit="endSubChapter" n="2"/>
+            <milestone unit="startSubChapter" n="3"/>
+               <p rend="head">III.</p>
                <p>Aznap Orsika távolmaradt az ebédtől. Estebédtől is.</p>
                <p>Sára asszony hát, hagyta étlen. Másnap reggel se mutatkozott! Akkor meg még a
                   cselédeket is eltiltotta az arrafelé őgyelgéstől, nemhogy ő állt volna be,
@@ -12488,10 +12419,9 @@
                   Adni a jámbort, mikor lázad ő is...! Szigort tanusítani, mikor lágy és símogató
                   szeretne lenni! Feledést tanácsolni, mikor őmaga sem felejthet! Soha-soha nem
                   felejthet...!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>IV.</head>
+            <milestone unit="endSubChapter" n="3"/>
+            <milestone unit="startSubChapter" n="4"/>
+               <p rend="head">IV.</p>
                <p>A napok múltak, múlogattak, kápolnába-járással, mécsesgyújtással,
                   létániázgatással. Hanem azért a napi cselekedetekben sem meddőn.</p>
                <p>A két asszony versengése nem szűnt. Fokozódott. Ha Sára átrakatta a kandallót a
@@ -12759,10 +12689,9 @@
                <p>*</p>
                <p>Harmadnapra ott csillogott már a mátkagyűrű özvegy Zsegnyey Jánosné szegény,
                   remegő kis ujján.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>V.</head>
+            <milestone unit="endSubChapter" n="4"/>
+            <milestone unit="startSubChapter" n="5"/>
+               <p rend="head">V.</p>
                <p>A határozat úgy szólt, hogy az esküvőt mentől előbb meg kell tartani. A kapitány
                   úr óhajtotta ezt így.</p>
                <p>Igen érthető vőlegényi óhaj!</p>
@@ -13018,10 +12947,9 @@
                <p>A friss levegő beáramlott az ablakon. A kacagás, zene pedig, kicsordult rajta s
                   elkanyargott a fekete kert fekete fái közt.</p>
                <p>Éjszaka volt. Készülő új násznak éjszakája. Szívek éjszakája.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VI.</head>
+            <milestone unit="endSubChapter" n="5"/>
+            <milestone unit="startSubChapter" n="6"/>
+               <p rend="head">VI.</p>
                <p>A telihold lesütött az égről. Bevilágította a tájat. Ezüstszövedékbe vont földet,
                   fát, bokrot. Az országutat is megfehérítette, hogy olyan lett, mint egy nagy,
                   fényes fehér szalag.</p>
@@ -13227,10 +13155,9 @@
                <p>Meg a szerelem.</p>
                <p>Vagy a kettő egyet jelent?</p>
                <p>Néha.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VII.</head>
+            <milestone unit="endSubChapter" n="6"/>
+            <milestone unit="startSubChapter" n="7"/>
+               <p rend="head">VII.</p>
                <p>A lápispataki kastély kapuja nyitva tárongott. Nem őrizte, csupán két strázsa.
                   Azok is, inkább formaságból. Mert török nemigen jár erre mostanság. Aki vendég meg
                   a házhoz kívánkozott, belül került eddig. Jöttek-mentek egész napon keresztül.
@@ -13427,10 +13354,9 @@
                <p>És János is lesuhintja kardját:</p>
                <p>- Urak, elvégeztetett...</p>
                <p> A kísérők csapata megemelte süvegét.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>VIII.</head>
+            <milestone unit="endSubChapter" n="7"/>
+            <milestone unit="startSubChapter" n="8"/>
+               <p rend="head">VIII.</p>
                <p>A pitymallat bontakozott.</p>
                <p>János és Bálint sebesebb ügetésre ösztökélték lovaikat. Az őt kísérő kállói
                   huszár: szintén. A hintót hajtó kocsis forgathatta ostorát, hogy lépést tartson a
@@ -13727,10 +13653,9 @@
                <p>Aztán odamosolygott az urára. Az meg vissza, rá.</p>
                <p>És szótlan megfogták egymás kezét.</p>
                <p> VÉGE</p>
-               <p> </p>
+            <milestone unit="endSubChapter" n="8"/>
             </div>
             </div>
-         </div>
       </body>
   </text>
 </TEI>
