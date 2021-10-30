@@ -68,7 +68,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2019-04-18"/>
-			<change when="2021-10-21">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -4097,7 +4097,7 @@
 						<w lemma="bútor" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w2956">bútorok</w>
 						<pc join="left" pos="PUNCT" xml:id="pc686">,</pc>
 						<w lemma="amely" msd="Case=Nom|Number=Plur|Person=3|PronType=Rel" pos="PRON" xml:id="w2957">amelyek</w>
-						<w lemma="mindenik" msd="Case=All|Degree=Pos|Number=Sing|Number[psed]=Sing" pos="ADJ" xml:id="w2958">mindenikéhez</w>
+						<w lemma="mindenik" msd="Case=All|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="ADJ" xml:id="w2958">mindenikéhez</w>
 						<w lemma="annyi" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w2959">annyi</w>
 						<w lemma="drága" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2960">drága</w>
 						<w lemma="emlék" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2961">emlék</w>
@@ -6205,7 +6205,7 @@
 						<w lemma="politikai" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4539">politikai</w>
 						<w lemma="nagy" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4540">nagy</w>
 						<w lemma="párt" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4541">párt</w>
-						<w lemma="egyik" msd="Case=All|Degree=Pos|Number=Sing|Number[psed]=Sing" pos="ADJ" xml:id="w4542">egyikéhez</w>
+						<w lemma="egyik" msd="Case=All|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="ADJ" xml:id="w4542">egyikéhez</w>
 						<w lemma="sem" msd="PronType=Neg" pos="ADV" xml:id="w4543">sem</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1033">,</pc>
 						<w lemma="amely" msd="Case=Nom|Number=Plur|Person=3|PronType=Rel" pos="PRON" xml:id="w4544">amelyek</w>

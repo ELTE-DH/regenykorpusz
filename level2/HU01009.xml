@@ -76,7 +76,7 @@
 		<revisionDesc>
 			<change when="2019-04-18"/>
 			<change when="2021-03-23"/>
-			<change when="2021-10-21">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -990,7 +990,7 @@
 						<pc pos="PUNCT" xml:id="pc187">-</pc>
 						<w lemma="s" msd="_" pos="CONJ" xml:id="w508">S</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w509">a</w>
-						<w lemma="ahány" msd="Case=Ine|Number=Sing|NumType=Ord|PronType=Rel" pos="ADJ" xml:id="w510">hányadikban</w>
+						<w lemma="hány" msd="Case=Ine|Number=Sing|NumType=Ord|PronType=Int" pos="ADJ" xml:id="w510">hányadikban</w>
 						<pc join="left" pos="PUNCT" xml:id="pc188">?</pc>
 					</s>
 				</p>
@@ -9633,7 +9633,7 @@
 						<w lemma="nyájas" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5255">nyájas</w>
 						<w lemma="hang" msd="Case=Sup|Number=Sing" pos="NOUN" xml:id="w5256">hangon</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2075">,</pc>
-						<w lemma="milyen" msd="Case=Abl|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w5257">milyentől</w>
+						<w lemma="amilyen" msd="Case=Abl|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w5257">milyentől</w>
 						<w lemma="megédesül" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5258">megédesülne</w>
 						<w lemma="hetvenéves" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5259">hetvenéves</w>
 						<w lemma="élet" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w5260">életem</w>

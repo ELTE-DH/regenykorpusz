@@ -75,7 +75,7 @@
 		<revisionDesc>
 			<change when="2020-07-24"/>
 			<change when="2020-12-07"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -14196,7 +14196,7 @@
 						<w lemma="élet" msd="Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w9161">életét</w>
 						<w lemma="ment" msd="Definite=Def|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9162">mentené</w>
 						<w lemma="meg" msd="_" pos="PART" xml:id="w9163">meg</w>
-						<w lemma="szegény" msd="Case=Dat|Number=Sing" pos="NOUN" xml:id="w9164">szegénynek.</w>
+						<w lemma="szegény" msd="Case=Dat|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9164">szegénynek.</w>
 						<pc pos="PUNCT" xml:id="pc2460">)</pc>
 					</s>
 				</p>
@@ -30576,7 +30576,7 @@
 						<pc pos="PUNCT" xml:id="pc5339">,</pc>
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w19456">hogy</w>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w19457">ezt</w>
-						<w lemma="kitalál" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w19458">kitalálja.</w>
+						<w lemma="kitalál" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w19458">kitalálja.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc5340">)</pc>
 					</s>
 					<s xml:id="s1850">

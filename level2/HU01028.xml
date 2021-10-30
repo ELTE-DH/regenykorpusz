@@ -72,7 +72,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-07-08"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -4610,7 +4610,7 @@
 							<w lemma="ezelőtt" msd="_" pos="ADP" xml:id="w2977">ezelőtt</w>
 							<pc join="left" pos="PUNCT" xml:id="pc786">,</pc>
 							<w lemma="február" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2978">február</w>
-							<w lemma="kilenc" msd="Case=Sup|Number=Sing" pos="NOUN" xml:id="w2979">kilencedikén.</w>
+							<w lemma="kilenc" msd="Case=Sup|Number=Sing|Number[psed]=Sing|NumType=Ord" pos="ADJ" xml:id="w2979">kilencedikén.</w>
 							<pc join="left" pos="PUNCT" xml:id="pc787">&quot;</pc>
 						</s>
 					</p>
@@ -15105,7 +15105,7 @@
 							<w lemma="mellesleg" msd="_" pos="ADV" xml:id="w9838">mellesleg</w>
 							<w lemma="mind" msd="Case=Nom|Number=Sing|Person=3|PronType=Tot" pos="PRON" xml:id="w9839">mind</w>
 							<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9840">a</w>
-							<w lemma="három" msd="Case=Sub|Number=Plur" pos="NOUN" xml:id="w9841">hármatokra</w>
+							<w lemma="három" msd="Case=Sub|Number=Sing|Number[psor]=Plur|NumType=Card|Person[psor]=2" pos="NUM" xml:id="w9841">hármatokra</w>
 							<pc join="left" pos="PUNCT" xml:id="pc2555">.</pc>
 						</s>
 						<s xml:id="s963">

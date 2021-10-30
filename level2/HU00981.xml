@@ -75,7 +75,7 @@
 		<revisionDesc>
 			<change when="2020-07-22"/>
 			<change when="2020-11-04"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -6608,7 +6608,7 @@
 						<w lemma="ész" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w4409">esze</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1128">,</pc>
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w4410">hogy</w>
-						<w lemma="ami" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Rel" pos="PRON" xml:id="w4411">mije</w>
+						<w lemma="mi" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs" pos="PRON" xml:id="w4411">mije</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4412">van</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1129">,</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4413">a</w>
@@ -25534,7 +25534,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc4501">,</pc>
 						<w lemma="mint" msd="_" pos="SCONJ" xml:id="w16556">mint</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w16557">a</w>
-						<w lemma="szennyes" msd="Case=Sup|Degree=Pos|Number=Plur|Number[psed]=Sing" pos="ADJ" xml:id="w16558">Szennyesékén</w>
+						<w lemma="szennyes" msd="Case=Sup|Number=Plur|Number[psed]=Sing" pos="NOUN" xml:id="w16558">Szennyesékén</w>
 						<pc join="left" pos="PUNCT" xml:id="pc4502">.</pc>
 					</s>
 					<s xml:id="s1393">
@@ -50257,7 +50257,7 @@
 				<p xml:id="p1461">
 					<s xml:id="s2667">
 						<pc pos="PUNCT" xml:id="pc8807">-</pc>
-						<w lemma="ami" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|PronType=Rel" pos="PRON" xml:id="w33103">Mid</w>
+						<w lemma="mi" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=2|PronType=Prs" pos="PRON" xml:id="w33103">Mid</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w33104">van</w>
 						<w lemma="te" msd="Case=Dat|Number=Sing|Person=2|PronType=Prs" pos="PRON" xml:id="w33105">neked</w>
 						<pc join="left" pos="PUNCT" xml:id="pc8808">?</pc>
@@ -50274,7 +50274,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc8812">,</pc>
 						<w lemma="mama" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w33111">mama</w>
 						<pc join="left" pos="PUNCT" xml:id="pc8813">,</pc>
-						<w lemma="ami" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Rel" pos="PRON" xml:id="w33112">mije</w>
+						<w lemma="mi" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs" pos="PRON" xml:id="w33112">mije</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w33113">van</w>
 						<w lemma="ez" msd="Case=Dat|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w33114">ennek</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w33115">a</w>

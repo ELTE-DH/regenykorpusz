@@ -74,7 +74,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2020-07-24"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -9277,7 +9277,7 @@
 						<w lemma="neki" msd="_" pos="ADV" xml:id="w6141">neki</w>
 						<w lemma="Budapest" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w6142">Budapest</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1636">,</pc>
-						<w lemma="holt" msd="Case=Ter|Number=Sing" pos="NOUN" xml:id="w6143">holtig.</w>
+						<w lemma="holt" msd="Case=Ter|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w6143">holtig.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1637">)</pc>
 					</s>
 					<s xml:id="s498">
@@ -29267,7 +29267,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5385">,</pc>
 						<w lemma="mint" msd="_" pos="SCONJ" xml:id="w18706">mint</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w18707">a</w>
-						<w lemma="milyen" msd="Case=Tra|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w18708">milyenné</w>
+						<w lemma="amilyen" msd="Case=Tra|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w18708">milyenné</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w18709">a</w>
 						<w lemma="nő" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18710">nő</w>
 						<w lemma="akar" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w18711">akarja</w>

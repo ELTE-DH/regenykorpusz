@@ -68,7 +68,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-08-09"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -4142,7 +4142,7 @@
 						<w lemma="nap" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2996">nap</w>
 						<w lemma="köszönt" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2997">köszöntött</w>
 						<w lemma="be" msd="_" pos="ADV" xml:id="w2998">be</w>
-						<w lemma="négy" msd="Case=Dat|Number=Sing" pos="NOUN" xml:id="w2999">negyedikének</w>
+						<w lemma="négy" msd="Case=Dat|Number=Sing|Number[psed]=Sing|NumType=Ord" pos="ADJ" xml:id="w2999">negyedikének</w>
 						<w lemma="reggel" msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w3000">reggelén</w>
 						<pc join="left" pos="PUNCT" xml:id="pc546">.</pc>
 					</s>
@@ -19952,7 +19952,7 @@
 					</s>
 					<s xml:id="s853">
 						<w lemma="nemes" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w14281">Nemes</w>
-						<w lemma="úr" msd="Case=Ade|Number=Plur|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w14282">uraiméknál</w>
+						<w lemma="urai" msd="Case=Ade|Degree=Pos|Number=Plur|Number[psor]=Sing|Person[psor]=1" pos="ADJ" xml:id="w14282">uraiméknál</w>
 						<w lemma="megesik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w14283">megesett</w>
 						<w lemma="akkortájban" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w14284">akkortájban</w>
 						<w lemma="gyakran" msd="_" pos="ADV" xml:id="w14285">gyakran</w>

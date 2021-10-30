@@ -75,7 +75,7 @@
 		<revisionDesc>
 			<change when="2020-07-21"/>
 			<change when="2020-11-03"/>
-			<change when="2021-10-23">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -7929,7 +7929,7 @@
 						<w lemma="válik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5090">válik</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5091">a</w>
 						<w lemma="kettő" msd="Case=Nom|Number=Sing|NumType=Ord" pos="ADJ" xml:id="w5092">második</w>
-						<w lemma="feleség" msd="Case=Abl|Number=Sing|Number[psed]=Sing" pos="NOUN" xml:id="w5093">feleségétől.</w>
+						<w lemma="feleség" msd="Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w5093">feleségétől.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1403">)</pc>
 					</s>
 					<s xml:id="s460">
@@ -13310,7 +13310,7 @@
 						<w lemma="mond" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w8580">mondani</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2356">,</pc>
 						<w lemma="mert" msd="_" pos="SCONJ" xml:id="w8581">mert</w>
-						<w lemma="megbán" msd="Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8582">megbánják.</w>
+						<w lemma="megbán" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8582">megbánják.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2357">&quot;</pc>
 					</s>
 				</p>
@@ -13617,7 +13617,7 @@
 						<w lemma="egy" msd="Case=Acc|Number=Sing|NumType=Card" pos="NUM" xml:id="w8806">Egyet</w>
 						<w lemma="csettint" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8807">csettintett</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w8808">a</w>
-						<w lemma="nyelv" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w8809">nyelvével.</w>
+						<w lemma="nyelv" msd="Case=Ins|Number=Sing|Number[psed]=Sing" pos="NOUN" xml:id="w8809">nyelvével.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2405">)</pc>
 					</s>
 					<s xml:id="s794">
@@ -13755,7 +13755,7 @@
 						<w lemma="fölfelé" msd="_" pos="ADV" xml:id="w8900">Fölfelé</w>
 						<w lemma="azonban" msd="_" pos="CONJ" xml:id="w8901">azonban</w>
 						<w lemma="jó" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w8902">jól</w>
-						<w lemma="áll" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" pos="NOUN" xml:id="w8903">állunk.</w>
+						<w lemma="áll" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8903">állunk.</w>
 						<pc join="right" pos="PUNCT" xml:id="pc2429">(</pc>
 						<w lemma="ismét" msd="_" pos="ADV" xml:id="w8904">ismét</w>
 						<w lemma="csettent" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8905">csettentett</w>

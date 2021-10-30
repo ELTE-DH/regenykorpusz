@@ -5,7 +5,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Ez az!</title>
-				<author ref="viaf:309595549">Kende Júlia (1864-1937)</author>
+				<author ref="viaf:309595549">Teleki Sándorné (1864-1937)</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -38,7 +38,7 @@
 					</respStmt>
 				</bibl>
 				<bibl type="printSource">
-					<author>Kende Júlia</author>
+					<author>Teleki Sándorné</author>
 					<title>Ez az!</title>
 					<publisher>Singer - Wolfner</publisher>
 					<pubPlace>Budapest</pubPlace>
@@ -46,7 +46,7 @@
 				</bibl>
 				<bibl type="firstEdition">
 					<title>Ez az!</title>
-					<author>Kende Júlia</author>
+					<author>Teleki Sándorné</author>
 					<date>1915</date>
 				</bibl>
 			</sourceDesc>
@@ -67,11 +67,11 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-10-19"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
-		<body>
+		<front>
 			<p xml:id="p1">
 				<s xml:id="s1">
 					<pc pos="PUNCT" xml:id="pc1">-</pc>
@@ -87,6 +87,8 @@
 					<pc join="left" pos="PUNCT" xml:id="pc5">.</pc>
 				</s>
 			</p>
+		</front>
+		<body>
 			<div type="chapter" xml:id="div1">
 				<head>I.</head>
 				<p xml:id="p2">
@@ -18184,7 +18186,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc3368">,</pc>
 						<w lemma="ki" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w11585">ki</w>
 						<w lemma="tud" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w11586">tudja</w>
-						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Frac" pos="NUM" xml:id="w11587">hányadszor</w>
+						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Ord|PronType=Int" pos="ADJ" xml:id="w11587">hányadszor</w>
 						<pc pos="PUNCT" xml:id="pc3369">.</pc>
 					</s>
 					<s xml:id="s1127">
@@ -25937,7 +25939,7 @@
 					<s xml:id="s1591">
 						<pc pos="PUNCT" xml:id="pc4891">&quot;</pc>
 						<w lemma="Jákóvárt" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w16464">Jákóvárt</w>
-						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w16465">voltam.</w>
+						<w lemma="volt" msd="Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="ADJ" xml:id="w16465">voltam.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc4892">&quot;</pc>
 					</s>
 					<s xml:id="s1592">

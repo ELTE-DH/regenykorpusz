@@ -75,7 +75,7 @@
 		<revisionDesc>
 			<change when="2020-07-22"/>
 			<change when="2020-11-04"/>
-			<change when="2021-10-23">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -203,7 +203,7 @@
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w80">a</w>
 						<w lemma="maga" msd="Case=Nom|Number=Plur|Person=1|Reflex=Yes" pos="PRON" xml:id="w81">magunk</w>
 						<w lemma="nyelv" msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w82">nyelvén</w>
-						<w lemma="ért" msd="Definite=Def|Mood=Pot|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Cau" pos="VERB" xml:id="w83">értethettem</w>
+						<w lemma="ért" msd="Definite=Ind|Mood=Pot|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Cau" pos="VERB" xml:id="w83">értethettem</w>
 						<w lemma="volna" msd="Definite=Ind|Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w84">volna</w>
 						<w lemma="meg" msd="_" pos="PART" xml:id="w85">meg</w>
 						<w lemma="ő" msd="Case=Ins|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w86">vele</w>
@@ -3812,7 +3812,7 @@
 						<w lemma="gondoskodik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2496">gondoskodik</w>
 						<pc join="left" pos="PUNCT" xml:id="pc612">,</pc>
 						<w lemma="vagy" msd="_" pos="CONJ" xml:id="w2497">vagy</w>
-						<w lemma="bankigazgató" msd="Case=Del|Number=Plur|Number[psed]=Sing" pos="NOUN" xml:id="w2498">bankigazgatókéról</w>
+						<w lemma="bankigazgató" msd="Case=Del|Degree=Pos|Number=Plur|Number[psed]=Sing" pos="ADJ" xml:id="w2498">bankigazgatókéról</w>
 						<pc pos="PUNCT" xml:id="pc613">.</pc>
 					</s>
 				</p>
@@ -4677,7 +4677,7 @@
 						<w lemma="ért" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3078">értem</w>
 						<pc join="left" pos="PUNCT" xml:id="pc748">,</pc>
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w3079">hogy</w>
-						<w lemma="albérlő" msd="Case=Acc|Number=Plur" pos="NOUN" xml:id="w3080">albérlőket.</w>
+						<w lemma="albérlő" msd="Case=Acc|Degree=Pos|Number=Plur" pos="ADJ" xml:id="w3080">albérlőket.</w>
 						<pc pos="PUNCT" xml:id="pc749">)</pc>
 					</s>
 				</p>
@@ -5651,7 +5651,7 @@
 						<w lemma="ami" msd="Case=Acc|Number=Plur|Person=3|PronType=Rel" pos="PRON" xml:id="w3826">amiket</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3827">a</w>
 						<w lemma="láda" msd="Case=Ine|Number=Sing" pos="NOUN" xml:id="w3828">ládában</w>
-						<w lemma="tartogatta" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" pos="NOUN" xml:id="w3829">tartogattunk.</w>
+						<w lemma="tartogat" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3829">tartogattunk.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc880">)</pc>
 					</s>
 					<s xml:id="s300">
@@ -14103,7 +14103,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2247">,</pc>
 						<w lemma="nyitott" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9642">nyitott</w>
 						<w lemma="ablak" msd="Case=Ade|Number=Sing" pos="NOUN" xml:id="w9643">ablaknál</w>
-						<w lemma="aludta" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1" pos="NOUN" xml:id="w9644">aludtunk.</w>
+						<w lemma="alszik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9644">aludtunk.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2248">)</pc>
 					</s>
 					<s xml:id="s750">
@@ -17423,7 +17423,7 @@
 						<w lemma="csak" msd="_" pos="ADV" xml:id="w11831">csak</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w11832">a</w>
 						<w lemma="front" msd="Case=Sup|Number=Sing" pos="NOUN" xml:id="w11833">fronton</w>
-						<w lemma="szolgál" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w11834">szolgáltam.</w>
+						<w lemma="szolgált" msd="Case=Nom|Degree=Pos|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="ADJ" xml:id="w11834">szolgáltam.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2820">)</pc>
 					</s>
 					<s xml:id="s960">
@@ -23557,7 +23557,7 @@
 				</p>
 				<p xml:id="p472">
 					<s xml:id="s1274">
-						<w lemma="egyéb" msd="Case=Sup|Degree=Pos|Number=Plur|Number[psor]=Sing|Person[psor]=3" pos="ADJ" xml:id="w16133">Egyebein</w>
+						<w lemma="egyéb" msd="Case=Sup|Number=Plur|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w16133">Egyebein</w>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w16134">nem</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w16135">volt</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w16136">a</w>
@@ -28877,7 +28877,7 @@
 					<s xml:id="s1581">
 						<w lemma="Jókai" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w19506">Jókai</w>
 						<w lemma="hasonlónevű" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w19507">hasonlónevű</w>
-						<w lemma="elbeszélés" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w19508">elbeszélésével.</w>
+						<w lemma="elbeszélés" msd="Case=Ins|Number=Sing|Number[psed]=Sing" pos="NOUN" xml:id="w19508">elbeszélésével.</w>
 						<pc pos="PUNCT" xml:id="pc4815">)</pc>
 					</s>
 				</p>
@@ -28888,7 +28888,7 @@
 						<pc pos="PUNCT" xml:id="pc4816">:</pc>
 						<w lemma="jaj" msd="_" pos="INTJ" xml:id="w19511">Jaj</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w19512">a</w>
-						<w lemma="legyőzői" msd="Case=Dat|Degree=Pos|Number=Sing|Number[psor]=Plur|Person[psor]=2" pos="ADJ" xml:id="w19513">legyőzőiteknek</w>
+						<w lemma="legyőző" msd="Case=Dat|Degree=Pos|Number=Plur|Number[psor]=Plur|Person[psor]=2" pos="ADJ" xml:id="w19513">legyőzőiteknek</w>
 						<pc join="left" pos="PUNCT" xml:id="pc4817">!</pc>
 					</s>
 					<s xml:id="s1583">

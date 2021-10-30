@@ -74,7 +74,7 @@
 		<revisionDesc>
 			<change when="2020-07-24"/>
 			<change when="2020-12-14"/>
-			<change when="2021-10-21">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -155,7 +155,7 @@
 						<w lemma="vétek" msd="Case=Ine|Number=Sing" pos="NOUN" xml:id="w58">vétekben</w>
 						<w lemma="tisztátalan" msd="Case=Dat|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w59">tisztátalannak</w>
 						<w lemma="lesz" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w60">lenni</w>
-						<w lemma="talál" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau" pos="VERB" xml:id="w61">találtatott.</w>
+						<w lemma="találtatott" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w61">találtatott.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc8">&quot;</pc>
 					</s>
 					<s xml:id="s3">
@@ -3999,7 +3999,7 @@
 						<pc pos="PUNCT" xml:id="pc621">-</pc>
 						<w lemma="ki" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w2734">ki</w>
 						<w lemma="tud" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2735">tudja</w>
-						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Frac" pos="NUM" xml:id="w2736">hányadszor</w>
+						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Ord|PronType=Int" pos="ADJ" xml:id="w2736">hányadszor</w>
 						<pc pos="PUNCT" xml:id="pc622">-</pc>
 						<w lemma="ismét" msd="_" pos="ADV" xml:id="w2737">ismét</w>
 						<w lemma="le" msd="_" pos="ADV" xml:id="w2738">le</w>
@@ -40928,7 +40928,7 @@
 						<w lemma="mint" msd="_" pos="SCONJ" xml:id="w26813">mint</w>
 						<pc pos="PUNCT" xml:id="pc7153">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w26814">a</w>
-						<w lemma="más" msd="Case=Ine|Number=Plur|Number[psed]=Sing" pos="NOUN" xml:id="w26815">másokéban</w>
+						<w lemma="más" msd="Case=Ine|Degree=Pos|Number=Plur|Number[psed]=Sing" pos="ADJ" xml:id="w26815">másokéban</w>
 						<pc join="left" pos="PUNCT" xml:id="pc7154">.</pc>
 					</s>
 					<s xml:id="s2344">

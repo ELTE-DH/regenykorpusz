@@ -70,7 +70,7 @@
 		<revisionDesc>
 			<change when="2019-04-18"/>
 			<change when="2021-03-19"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -13725,7 +13725,7 @@
 						<w lemma="Hernyány" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9029">Hernyány</w>
 						<w lemma="lélek" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w9030">lelke</w>
 						<w lemma="találkozik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9031">találkozott</w>
-						<w lemma="amaz" msd="Number[psed]=Sing|PronType=Art" pos="ADV" xml:id="w9032">amazéval</w>
+						<w lemma="amaz" msd="Case=Ins|Number=Sing|Number[psed]=Sing" pos="NOUN" xml:id="w9032">amazéval</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2355">,</pc>
 						<w lemma="aki" msd="Case=Acc|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w9033">akit</w>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9034">az</w>
@@ -15504,7 +15504,7 @@
 						<w lemma="pedig" msd="_" pos="CONJ" xml:id="w10313">pedig</w>
 						<w lemma="tud" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w10314">tudja</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2607">,</pc>
-						<w lemma="ami" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Rel" pos="PRON" xml:id="w10315">mije</w>
+						<w lemma="mi" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3|PronType=Prs" pos="PRON" xml:id="w10315">mije</w>
 						<w lemma="neki" msd="_" pos="ADV" xml:id="w10316">neki</w>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w10317">ez</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w10318">a</w>

@@ -70,7 +70,7 @@
 			<change when="2019-04-23"/>
 			<change when="2018-10-03"/>
 			<change when="2021-03-08"/>
-			<change when="2021-10-23">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -10067,7 +10067,7 @@
 					<s xml:id="s600">
 						<pc pos="PUNCT" xml:id="pc1582">«</pc>
 						<w lemma="nagykereskedés" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6786">Nagykereskedés</w>
-						<w lemma="beteg" msd="Case=Ins|Degree=Pos|Number=Plur" pos="ADJ" xml:id="w6787">betegekkel.</w>
+						<w lemma="beteg" msd="Case=Ins|Number=Plur" pos="NOUN" xml:id="w6787">betegekkel.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1583">»</pc>
 					</s>
 				</p>
@@ -36362,7 +36362,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc6170">!</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w23862">ez</w>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w23863">az</w>
-						<w lemma="egész" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w23864">egész.</w>
+						<w lemma="egész" msd="_" pos="ADV" xml:id="w23864">egész.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc6171">»</pc>
 					</s>
 					<s xml:id="s2162">
@@ -38621,7 +38621,7 @@
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w25302">nem</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Pot|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w25303">lehettek</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w25304">a</w>
-						<w lemma="más" msd="Case=Nom|Degree=Pos|Number=Sing|Number[psed]=Plur" pos="ADJ" xml:id="w25305">máséi</w>
+						<w lemma="más" msd="Case=Nom|Number=Sing|Number[psed]=Plur" pos="NOUN" xml:id="w25305">máséi</w>
 						<pc join="left" pos="PUNCT" xml:id="pc6577">...</pc>
 					</s>
 				</p>

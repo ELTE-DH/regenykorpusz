@@ -70,7 +70,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-07-20"/>
-			<change when="2021-10-21">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -14952,7 +14952,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2537">.</pc>
 					</s>
 					<s xml:id="s1192">
-						<w lemma="valamennyi" msd="Case=Ess|Number=Sing|Person=3|PronType=Ind" pos="PRON" xml:id="w8464">Valamennyin</w>
+						<w lemma="valamennyi" msd="Case=Sup|Number=Sing|Person=3|PronType=Ind" pos="PRON" xml:id="w8464">Valamennyin</w>
 						<w lemma="zsák" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w8465">zsák</w>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w8466">és</w>
 						<w lemma="zsák" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w8467">zsák</w>
@@ -15562,7 +15562,7 @@
 						<w lemma="majd" msd="_" pos="ADV" xml:id="w8791">majd</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2648">,</pc>
 						<w lemma="mihelyt" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w8792">mihelyt</w>
-						<w lemma="hazaér" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8793">hazaérnek.</w>
+						<w lemma="hazaér" msd="Case=Dat|Number=Sing" pos="NOUN" xml:id="w8793">hazaérnek.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2649">)</pc>
 					</s>
 				</p>

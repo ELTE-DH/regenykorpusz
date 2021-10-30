@@ -69,7 +69,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-07-20"/>
-			<change when="2021-10-23">lemma, pos and msd annotation</change>
+			<change when="2021-10-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -1832,7 +1832,7 @@
 						<w lemma="hangya" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w1089">hangyák</w>
 						<w lemma="mézszerű" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w1090">mézszerű</w>
 						<w lemma="anyag" msd="Case=Tra|Number=Sing" pos="NOUN" xml:id="w1091">anyaggá</w>
-						<w lemma="változtat" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w1092">változtatnak.</w>
+						<w lemma="változik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Cau" pos="VERB" xml:id="w1092">változtatnak.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc266">)</pc>
 					</s>
 				</p>
@@ -25309,7 +25309,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc3428">,</pc>
 						<w lemma="–" msd="_" pos="X" xml:id="w15734">–</w>
 						<w lemma="mond" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w15735">mondották</w>
-						<w lemma="többfelül" msd="_" pos="ADV" xml:id="w15736">többfelül</w>
+						<w lemma="többfelül" msd="Degree=Sup" pos="ADV" xml:id="w15736">többfelül</w>
 						<pc join="left" pos="PUNCT" xml:id="pc3429">.</pc>
 					</s>
 				</p>

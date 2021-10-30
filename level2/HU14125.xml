@@ -75,7 +75,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2020-07-24"/>
-			<change when="2021-10-22">lemma, pos and msd annotation</change>
+			<change when="2021-10-29">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -2821,7 +2821,7 @@
 						<w lemma="szükséges" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2092">szükséges</w>
 						<w lemma="átírás" msd="Case=Acc|Number=Plur" pos="NOUN" xml:id="w2093">átírásokat</w>
 						<pc join="left" pos="PUNCT" xml:id="pc382">,</pc>
-						<w lemma="ki" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2094">ki-</w>
+						<w lemma="aki" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w2094">ki-</w>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w2095">és</w>
 						<w lemma="bekebelezés" msd="Case=Acc|Number=Plur" pos="NOUN" xml:id="w2096">bekebelezéseket</w>
 						<pc join="left" pos="PUNCT" xml:id="pc383">,</pc>
@@ -25844,7 +25844,7 @@
 						<w lemma="isten" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18918">Isten</w>
 						<w lemma="tud" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w18919">tudja</w>
 						<pc join="left" pos="PUNCT" xml:id="pc3741">,</pc>
-						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Ord|PronType=Int" pos="ADJ" xml:id="w18920">hányadszor</w>
+						<w lemma="hány" msd="Case=Nom|Number=Sing|NumType=Frac" pos="NUM" xml:id="w18920">hányadszor</w>
 						<w lemma="ismétel" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w18921">ismételnek</w>
 						<pc join="left" pos="PUNCT" xml:id="pc3742">,</pc>
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w18922">hogy</w>
