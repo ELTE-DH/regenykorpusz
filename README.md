@@ -53,15 +53,15 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 # Contributors:
 
-[Gábor Palkó](https://github.com/luhpeg)
-[Tímea Borbála Bajzát](https://github.com/bajzattimi)
-Emma Takács
-Bence Vétek
-[Zsófia Fellegi](https://github.com/zsofiafellegi)
-[Péter Horváth](https://github.com/horvathpeti99)
-[Balázs Indig](https://github.com/dlazesz)
-[Botond Szemes]
-[Eszter Szlávich](https://github.com/sz-eszter)
+- [Gábor Palkó](https://github.com/luhpeg)
+- [Tímea Borbála Bajzát](https://github.com/bajzattimi)
+- Emma Takács
+- Bence Vétek
+- [Zsófia Fellegi](https://github.com/zsofiafellegi)
+- [Péter Horváth](https://github.com/horvathpeti99)
+- [Balázs Indig](https://github.com/dlazesz)
+- [Botond Szemes]
+- [Eszter Szlávich](https://github.com/sz-eszter)
 
 # License
 
