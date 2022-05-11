@@ -53,7 +53,7 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 # Contributors:
 
-- [Gábor Palkó](https://github.com/luhpeg)
+- [Gábor Palkó](https://github.com/gaborpalko)
 - [Tímea Borbála Bajzát](https://github.com/bajzattimi)
 - Emma Takács
 - Bence Vétek
