@@ -1,212 +1,212 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU05408" xml:lang="hu">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Leánynézőben</title>
-                <author ref="viaf:24643507">Gárdonyi Géza (1863-1922)</author>
-                <respStmt>
-                    <resp>ELTeC conversion</resp>
-                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-                    </name>
-                    <name>Fellegi Zsófia</name>
-                    <name>Bajzát Tímea Borbála</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">10720</measure>
-                <measure unit="pages">30</measure>
-                <measure unit="vols">1</measure>
-            </extent>
-            <publicationStmt>
-                <p>Published as part of ELTeC</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Leánynézőben</title>
-                    <date>2007-11-14</date>
-                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-                    <ref target=" https://mek.oszk.hu/05400/05408"/>
-                    
-                    <respStmt>
-                        <resp>Original Electronic Edition</resp>      
-                        <name>Kárpátiné Ézsiás Edit</name>
-                        <name>Varjú Mária</name>
-                        <name>Tőzsér Istvánné</name>
-                        <name>Kiss András</name>
-                        <name>Ollé Krisztián</name>
-                    </respStmt>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Julcsa kútja ; Leánynézőben : két regényke</title>
-                    <author>Gárdonyi Géza</author>
-                    <pubPlace>Budapest</pubPlace>
-                    <publisher>Dante</publisher>
-                    <date>1928</date>
-                    
-                    <ref target="https://mek.oszk.hu/05400/05408"/>
-                </bibl>
-                <bibl type="firstEdition">
-                    <title>Leánynézőben</title>
-                    <author>Gárdonyi Géza</author>
-                    <date>1925</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-0">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="hu">Hungarian</language>
-            </langUsage>
-            <textDesc>
-                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T5"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-07-23"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-            <p> Olajos István kisbőgős, és cigánybandában játszik, noha ő nem cigány. Olajdi Olajos
+<TEI xml:id="HU05408" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Leánynézőben</title>
+				<author ref="viaf:24643507">Gárdonyi Géza (1863-1922)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">10720</measure>
+				<measure unit="pages">30</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Leánynézőben</title>
+					<date>2007-11-14</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target=" https://mek.oszk.hu/05400/05408"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Kárpátiné Ézsiás Edit</name>
+						<name>Varjú Mária</name>
+						<name>Tőzsér Istvánné</name>
+						<name>Kiss András</name>
+						<name>Ollé Krisztián</name>
+					</respStmt>
+				</bibl>
+				<bibl type="printSource">
+					<title>Julcsa kútja ; Leánynézőben : két regényke</title>
+					<author>Gárdonyi Géza</author>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Dante</publisher>
+					<date>1928</date>
+					<ref target="https://mek.oszk.hu/05400/05408"/>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Leánynézőben</title>
+					<author>Gárdonyi Géza</author>
+					<date>1925</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T5"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-07-23"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<p> Olajos István kisbőgős, és cigánybandában játszik, noha ő nem cigány. Olajdi Olajos
                 ő és semmiféle ágazata nem öntött ürgét soha. De a nagy háború megritkította a
                 bandákat is, éshát ahol megmaradt a primás, úgy tákolt bandát, ahogy lehetett.</p>
-            <p>Olajos a háború előtt pesti bandának volt gordonkása, a vakok bandájának. Mert bizony
+				<p>Olajos a háború előtt pesti bandának volt gordonkása, a vakok bandájának. Mert bizony
                 Olajos is vak.</p>
-            <p>De írták hazulról, hogy Csurka primás nálok járt és tudakozódott: nem társulna-e az ő
-                bandá­jába? A cimbalmosné igazította hozzájok. A cimbalmosnénak is van egy vak fia
+				<p>De írták hazulról, hogy Csurka primás nálok járt és tudakozódott: nem társulna-e az ő
+                bandájába? A cimbalmosné igazította hozzájok. A cimbalmosnénak is van egy vak fia
                 Pesten, a vakok házában, Kalácsos a neve, de cigányok közt csak Csuta. Hát attól
                 értesült a primás. Csurkának mind a két bőgősét elszólította a katonaság. Pedighát,
                 - ahogy esküdözött, most jár csak jóvilág a muzsikára! - tízszer annyit kereshet a
                 muzsikus az ő bandájában.</p>
-            <p>- Lehet, hogy ez csak cigányszámvetés, - mondta a levél, - de kétszer annyi
+				<p>- Lehet, hogy ez csak cigányszámvetés, - mondta a levél, - de kétszer annyi
                 bizonyosra várható. S ha netán csalódnánk, visszatérhetsz a háború után: semmit se
-                veszítesz. Megtörtén­hetik azonban, hogy a muszkák behatolnak, és magadra maradsz.
+                veszítesz. Megtörténhetik azonban, hogy a muszkák behatolnak, és magadra maradsz.
                 De ha nem volna háború, akkor is kivánnánk, hogy haza jőjj, ha jöhetsz: legalább
                 addig legyen családi életed, szegény jó Pistánk, amíg mi élünk.</p>
-            <p>Terka írta a levelet, a vaknak testvérnénje.</p>
-            <p>- Éshát gyere haza azért is, - írta végül, - mert anyánk sokat búsul, hogy öcsédet is
-                beszó­lították katonának. Én meg hogy már hivatalba járok, igen magára maradt
+				<p>Terka írta a levelet, a vaknak testvérnénje.</p>
+				<p>- Éshát gyere haza azért is, - írta végül, - mert anyánk sokat búsul, hogy öcsédet is
+                beszólították katonának. Én meg hogy már hivatalba járok, igen magára maradt
                 szegény.</p>
-            <p>A levelet persze más olvasta el a vaknak, de azért Olajos úgy hallotta, mintha Terka
+				<p>A levelet persze más olvasta el a vaknak, de azért Olajos úgy hallotta, mintha Terka
                 sipogná-sápogná a szerető szavakat, és az anyja jóságos duda-hangja is szólna a
                 végén:</p>
-            <p>- Gyere haza Pistám!</p>
-            <p>Olajos hát haza-költözött.</p>
-            <p>Huszonnyolc éves volt akkor, de fiatalabbnak látszott. Fekete szemüveget viselt, és
+				<p>- Gyere haza Pistám!</p>
+				<p>Olajos hát haza-költözött.</p>
+				<p>Huszonnyolc éves volt akkor, de fiatalabbnak látszott. Fekete szemüveget viselt, és
                 liszt-ferences hajat. És értette a mesterségét.</p>
-            <p>- Csak éppen hogy urasan játszol, - mondogatta Csurka a szünetekben. - Ríkasd azt a
+				<p>- Csak éppen hogy urasan játszol, - mondogatta Csurka a szünetekben. - Ríkasd azt a
                 bőgőt, a kefe egye meg!</p>
-            <p>Olajos azonban nem ríkatta a bőgőt: minden hangot megvont tisztán, aprózta vagy
+				<p>Olajos azonban nem ríkatta a bőgőt: minden hangot megvont tisztán, aprózta vagy
                 nyujtotta kellete szerint, ahogyan Pesten tanulta. Csak persze óvatosan még, mert
                 bizony ők Pesten leginkább taktusos nótákat játszottak; indulókat, operanyitókat,
-                ringatókat és Lehár-keringő­ket. A vezető halkan veregette a kotta-tartón a taktust
+                ringatókat és Lehár-keringőket. A vezető halkan veregette a kotta-tartón a taktust
                 a pálcával. Ők is toppogták titkon, csendesen. Magyar nótákat inkább csak otthon
                 játszottak, maguk mulattára.</p>
-            <p>Mégis hát rázintott liszt-ferences haján és mosolyogva felelt:</p>
-            <p>- Más a cigányiskola, Csurka! És más a zeneiskola. Zenét mívelek én, nem
+				<p>Mégis hát rázintott liszt-ferences haján és mosolyogva felelt:</p>
+				<p>- Más a cigányiskola, Csurka! És más a zeneiskola. Zenét mívelek én, nem
                 rivásokat.</p>
-            <p>Hát jó.</p>
-            <p>A prímás ríkatta a hegedűt, cigányiskola szerint, Olajos vastag hangokkal kisérte,
+				<p>Hát jó.</p>
+				<p>A prímás ríkatta a hegedűt, cigányiskola szerint, Olajos vastag hangokkal kisérte,
                 zeneiskola szerint. A kávéház esténkint mindig nyüzsgő volt. Ha kenyér és hús
                 vékonyan lengett is a városban, bankó annál sűrűbben. Harminc-negyven koronát is
                 vitt haza néha Olajos. Sőt egy vasárnapon hatvanöt koronát is.</p>
-            <p>No annak igen örültek otthon.</p>
-            <p>- Hatvanöt korona, - röpdösött Terka, - Pesten egy hónapig is dolgoztál volna érte.
+				<p>No annak igen örültek otthon.</p>
+				<p>- Hatvanöt korona, - röpdösött Terka, - Pesten egy hónapig is dolgoztál volna érte.
                 Vezetőt fogadunk most már! Okos nagy fiut. És itt is kell laknia, hogy akármikor
                 szólítod, vezessen. Vagy jobb lenne egy leányka, hogy cselédünk is legyen?</p>
-            <p>Olajos a fejét rázta:</p>
-            <p>- Minek az nekem? Tudom már a járást. Egy helyen építenek, csak ott bajos kissé.</p>
-            <p>Az anyjuk is megszólalt:</p>
-            <p>- Legelőször is egy szép fekete ruhát varratunk.</p>
-            <p>- Elegánsat! - örvendezett Terka. - Szmokingot!</p>
-            <p>- Nem szmokingot, nem, csak amilyenben az utcán is járhat majd tavaszszal. Valamennyi
+				<p>Olajos a fejét rázta:</p>
+				<p>- Minek az nekem? Tudom már a járást. Egy helyen építenek, csak ott bajos kissé.</p>
+				<p>Az anyjuk is megszólalt:</p>
+				<p>- Legelőször is egy szép fekete ruhát varratunk.</p>
+				<p>- Elegánsat! - örvendezett Terka. - Szmokingot!</p>
+				<p>- Nem szmokingot, nem, csak amilyenben az utcán is járhat majd tavaszszal. Valamennyi
                 cigány feketében muzsikál. Te ebben a dohányszín ruhában szinte utolsó vagy köztük.
                 És cipőt is újat.</p>
-            <p>- Elegánsat, - sápogott jószívvel Terka, - betéteset. Most az a divat. És mégis hát,
+				<p>- Elegánsat, - sápogott jószívvel Terka, - betéteset. Most az a divat. És mégis hát,
                 ha én megyek veled az utcán... Most már sok az ismerősöm a városban.</p>
-            <p>- Amilyet ő akar, - dudált az anyjuk, az ő keresete, az ő pénze. De azért azt
+				<p>- Amilyet ő akar, - dudált az anyjuk, az ő keresete, az ő pénze. De azért azt
                 gondolnám: betétes cipő nem férfiaknak való. Aztán ha sár fröccsen rá vagy fekete
                 kávé, vagy tenta vagy leves-zsírcsepp... Nem, nem, csak rendes fekete ruhát és
                 rendes cipőt.</p>
-            <p>Falusi jegyző özvegye volt Olajosné, és azt a vak fiát különösen szerette.
+				<p>Falusi jegyző özvegye volt Olajosné, és azt a vak fiát különösen szerette.
                 Csecsemőkorában veszett szemevilága Pistának valami szemgyuladásos betegségben. A
                 szeme pedig olyan épnek látszott azután is, mintha látna. Nem látott semmit se.</p>
-            <p>- Jó még ez nekem, - legyintett mosolyogva, - én úgyis hátul ülök a bandában: jó még
+				<p>- Jó még ez nekem, - legyintett mosolyogva, - én úgyis hátul ülök a bandában: jó még
                 ez a ruha. A cipő is maradhatós még. Csak rakjuk félre addig a pénzt s vezető se
                 kell. Sok pénzbe kerül. És télen minek is? Majd tavaszszal, ha majd a szagos fák
                 közt is járkálhatok a napon. A fákat igen szeretem és a füvet, a füvek szagait. És a
                 bogarak döngését, madarak szólását. Majd tavaszszal, künn a zöldben, a városban nem
                 kell vezető.</p>
-            <p>Egy novemberi napos délelőttön vezető nélkül bandukol a Fő-utcán Olajos. Csurkához
+				<p>Egy novemberi napos délelőttön vezető nélkül bandukol a Fő-utcán Olajos. Csurkához
                 igyekszik: nótákat tanulnak, próbálnak össze délelőttönkint. Eleinte egy fiucska
                 vezette oda, de szeptember közepén megnyíltak az iskolák, s attól fogva a fiucskának
                 nem volt rá ideje.</p>
-            <p>- Nem is kell most már, - mondta Olajos.</p>
-            <p>Hát bandukol, a botját alig jártatva maga előtt. Ismer már minden házat. Tudja, hogy
+				<p>- Nem is kell most már, - mondta Olajos.</p>
+				<p>Hát bandukol, a botját alig jártatva maga előtt. Ismer már minden házat. Tudja, hogy
                 most egy kalapos bolt következik, mellette könyvesbolt, aztán trafik, aztán cukrász,
                 aztán olyan ház, amelyiken nincs bolt. Ott ha napos az idő, két méternyi melegség
                 következik. Aztán megint hűvösség, s egy varrógépes-bolt. Gramofont is árulnak
                 benne. Ismét egy ház, amelyik nagy és régi, és sörszagú. Dörgő szekerek járnak
                 olykor ki és be a kapuján.</p>
-            <p>Bandukol, kampós botját maga előtt billegetve. Bandukol. Az aszfalt nyirkos, a
+				<p>Bandukol, kampós botját maga előtt billegetve. Bandukol. Az aszfalt nyirkos, a
                 kocsiút felől tószag érzik, a házsor felől váltakozó szagok, most éppen
                 dohányszag.</p>
-            <p>Bandukol.</p>
-            <p>- A trafik következik, - mondogatja, - aztán a fűszeresbolt.</p>
-            <p>S el is hagyja a trafikot.</p>
-            <p>Bandukol.</p>
-            <p>Két gyerek robog feléje. Nyerít az egyik. Lovasdit játszó gyerekek. Olajos megáll,
+				<p>Bandukol.</p>
+				<p>- A trafik következik, - mondogatja, - aztán a fűszeresbolt.</p>
+				<p>S el is hagyja a trafikot.</p>
+				<p>Bandukol.</p>
+				<p>Két gyerek robog feléje. Nyerít az egyik. Lovasdit játszó gyerekek. Olajos megáll,
                 míg mellette eltrappolnak.</p>
-            <p>- Gyihi! - kiáltja az egyik.</p>
-            <p>A trappogás mögéje múlik Olajosnak. Tovább indul.</p>
-            <p>Alig lép tizet, egy kéz markol gyöngéden a karjára, és női hang szól neki:</p>
-            <p>- Vigyázzon: ládák vannak itt a bolt előtt.</p>
-            <p>- Köszönöm, - hálálkodik Olajos, - köszönöm.</p>
-            <p>S hogy a női kéz a karján marad, bátrabban lépeget. Kerülnek az aszfalt szélére.</p>
-            <p>- Itt egyet le, - mondja a női hang.</p>
-            <p>Vagy öt lépés után megint:</p>
-            <p>- No most fel egy lépést vissza. El tud most már menni? Nem, még a Kazinczy utcáig
-                el­vezetem.</p>
-            <p>- Köszönöm, kisasszony.</p>
-            <p>- Hogy tudja? Hát lát maga?</p>
-            <p>- A hangjáról.</p>
-            <p>- A hangomról?</p>
-            <p>- A hangjáról. Örülnék, ha megmondaná a nevét. Hogy hálaérzéssel gondoljak
+				<p>- Gyihi! - kiáltja az egyik.</p>
+				<p>A trappogás mögéje múlik Olajosnak. Tovább indul.</p>
+				<p>Alig lép tizet, egy kéz markol gyöngéden a karjára, és női hang szól neki:</p>
+				<p>- Vigyázzon: ládák vannak itt a bolt előtt.</p>
+				<p>- Köszönöm, - hálálkodik Olajos, - köszönöm.</p>
+				<p>S hogy a női kéz a karján marad, bátrabban lépeget. Kerülnek az aszfalt szélére.</p>
+				<p>- Itt egyet le, - mondja a női hang.</p>
+				<p>Vagy öt lépés után megint:</p>
+				<p>- No most fel egy lépést vissza. El tud most már menni? Nem, még a Kazinczy utcáig
+                elvezetem.</p>
+				<p>- Köszönöm, kisasszony.</p>
+				<p>- Hogy tudja? Hát lát maga?</p>
+				<p>- A hangjáról.</p>
+				<p>- A hangomról?</p>
+				<p>- A hangjáról. Örülnék, ha megmondaná a nevét. Hogy hálaérzéssel gondoljak
                 magára.</p>
-            <p>A nő hallgatott.</p>
-            <p>Olajos mentegetődzve folytatta:</p>
-            <p>- Hogy így ismeretlenül is...</p>
-            <p>- Dehogy ismeretlenül, - szólalt meg a leány. (És érezni lehetett a hangján, hogy
+				<p>A nő hallgatott.</p>
+				<p>Olajos mentegetődzve folytatta:</p>
+				<p>- Hogy így ismeretlenül is...</p>
+				<p>- Dehogy ismeretlenül, - szólalt meg a leány. (És érezni lehetett a hangján, hogy
                 mosolyog.) - Hiszen ismerem én magát.</p>
-            <p>- Ismer?</p>
-            <p>- Ismerem. A kedves nénjét is. Ott lakok én is a Barátok utcájában.</p>
-            <p>- Hát akkor mondja meg a kedves nevét.</p>
-            <p>- Etel. Most lelépünk. Aztán megint mingyárt fel. Igy... No, most fel. Most már úgye,
+				<p>- Ismer?</p>
+				<p>- Ismerem. A kedves nénjét is. Ott lakok én is a Barátok utcájában.</p>
+				<p>- Hát akkor mondja meg a kedves nevét.</p>
+				<p>- Etel. Most lelépünk. Aztán megint mingyárt fel. Igy... No, most fel. Most már úgye,
                 el tud menni? A cigánysorra megy úgye? Tudom, hogy maga kisbőgős, és mondják, hogy
                 érti is. Olyan mondja, aki minden nap ott van a kávéházban, és zeneértő. Zongorázik,
                 mikor van zongorája. Ő mondta, hogy maga jól játszik Olajos úr. Isten vele.</p>
-            <p>Megszorította gyöngéden a vak kezefejét, és otthagyta.</p>
-            <p>Olajos állt még és fülelt. Aztán továbbandalgott, a botja végét mozgatva
+				<p>Megszorította gyöngéden a vak kezefejét, és otthagyta.</p>
+				<p>Olajos állt még és fülelt. Aztán továbbandalgott, a botja végét mozgatva
                 nyugodt-óvatosan.</p>
-            <p>*</p>
-            <p>- Te, Terka, - szólalt meg délben odahaza, - ki az az Etel nevű leányismerősöd itt az
-                utcánk­ban?</p>
-            <p>Terka elcsodálkozott:</p>
-            <p>- Etel? Az utcánkban? Nem ismerek én itt semmiféle Etelt.</p>
-            <p>- Talán Etelka néven ismered?</p>
-            <p>- Etelkát se.</p>
-            <p>Az anyja is a fejét rázta:</p>
-            <p>- Nincs olyan ismerősünk. Se Etel, se Etelka.</p>
-            <p>És ezen nem is volt semmi csodálkozni való.</p>
-            <p>Alig másfél éve laktak ők a városban. Olajos öccse akkor kezdte a jogászkodást: annak
+				<p>*</p>
+				<p>- Te, Terka, - szólalt meg délben odahaza, - ki az az Etel nevű leányismerősöd itt az
+                utcánkban?</p>
+				<p>Terka elcsodálkozott:</p>
+				<p>- Etel? Az utcánkban? Nem ismerek én itt semmiféle Etelt.</p>
+				<p>- Talán Etelka néven ismered?</p>
+				<p>- Etelkát se.</p>
+				<p>Az anyja is a fejét rázta:</p>
+				<p>- Nincs olyan ismerősünk. Se Etel, se Etelka.</p>
+				<p>És ezen nem is volt semmi csodálkozni való.</p>
+				<p>Alig másfél éve laktak ők a városban. Olajos öccse akkor kezdte a jogászkodást: annak
                 a kedvéért költöztek be. No meg hát Terka kedvéért is. Terka már négy éve, hogy
                 huszonkilenc éves, de még mindig reméli, hogy valaki végre is csak találkozik, aki
                 kéri tőle a boldogító igent. Városon sokmindenféle ember nőtelen. No sokszor
@@ -218,131 +218,131 @@
                 olvastak, hogy a postamesteri hivatalban egy jóírású leány találhat alkalmazást.
                 Terka jelentkezett. Elmondta, hogy már jegyzői hivatalban is gyakorolta az írást, és
                 hogy gépen is gyakorlott. Alkalmazták havi ötven korona fizetéssel.</p>
-            <p>Olajos nyugodtan kevergette a levesét.</p>
-            <p>- Soványka leány, vagy legalább is nem kövér. Náladnál jóval fiatalabb. És valami
+				<p>Olajos nyugodtan kevergette a levesét.</p>
+				<p>- Soványka leány, vagy legalább is nem kövér. Náladnál jóval fiatalabb. És valami
                 kedves zengésű a hangja.</p>
-            <p>- A hangja?</p>
-            <p>- Az. Mintha valami édeshangú fuvola volna a szája.</p>
-            <p>- Fuvola?</p>
-            <p>- És éppen akkora, mint én vagyok. Keztyűt nem visel. De azért kisasszony.</p>
-            <p>- Keztyűt nem visel? Kisasszony?</p>
-            <p>És Terka biggyesztett.</p>
-            <p>- Valami szolgáló. Nincs ismeretségem szolgálókkal, se Etel-nevűekkel, se más
+				<p>- A hangja?</p>
+				<p>- Az. Mintha valami édeshangú fuvola volna a szája.</p>
+				<p>- Fuvola?</p>
+				<p>- És éppen akkora, mint én vagyok. Keztyűt nem visel. De azért kisasszony.</p>
+				<p>- Keztyűt nem visel? Kisasszony?</p>
+				<p>És Terka biggyesztett.</p>
+				<p>- Valami szolgáló. Nincs ismeretségem szolgálókkal, se Etel-nevűekkel, se más
                 nevűekkel. Mért kérdezed?</p>
-            <p>- Nem szolgáló. A cipője gummisarkú. Lehet, hogy keztyűt is visel, csak éppen akkor
+				<p>- Nem szolgáló. A cipője gummisarkú. Lehet, hogy keztyűt is visel, csak éppen akkor
                 nem volt a kezén.</p>
-            <p>- Gummisarkú?</p>
-            <p>A két nő kérdőn nézett össze.</p>
-            <p>- Az, - mondta tovább a vak, - és eleven, noha az arca vagy szeme szomorú.
-                Mandula­szappannal mosdik.</p>
-            <p>A két nő nevetett.</p>
-            <p>- Még azt is tudod?</p>
-            <p>- Megérezni. A szappant leghamarabb megérezni. Mégishát szegény leány lehet. A
+				<p>- Gummisarkú?</p>
+				<p>A két nő kérdőn nézett össze.</p>
+				<p>- Az, - mondta tovább a vak, - és eleven, noha az arca vagy szeme szomorú.
+                Mandulaszappannal mosdik.</p>
+				<p>A két nő nevetett.</p>
+				<p>- Még azt is tudod?</p>
+				<p>- Megérezni. A szappant leghamarabb megérezni. Mégishát szegény leány lehet. A
                 piacról paradicsomot vitt haza ma délelőtt. Annak a szagát is éreztem. Valami
                 mesterember leánya lehet, csizmadiáé vagy bőrboltosé, - a Kazinczy-utca szellője
                 bőrszagot is lebbentett felém. A szoknyájából vagy kendőjéből. Igen kedves a hangja,
                 igen kedves.</p>
-            <p>A két nő szinte egyszerre szólalt meg:</p>
-            <p>- A Kaszab varga lánya!</p>
-            <p>- Persze, hogy az, - biggyesztett Terka. - De hogyan nem találtuk ki mingyárt! Persze
+				<p>A két nő szinte egyszerre szólalt meg:</p>
+				<p>- A Kaszab varga lánya!</p>
+				<p>- Persze, hogy az, - biggyesztett Terka. - De hogyan nem találtuk ki mingyárt! Persze
                 hogy az. A nyáron kifeslett a sárga cipőm. Ő hozta haza. Egykicsit csevegett itt.
                 Panaszolta, hogy egy könyvkötőlegény járt hozzá, de elvitték katonának. Azért
                 szomorú. De hogy gummisarkú cipőt visel! Bizonyosan valami úri nőnek a cipőjét huzta
                 fel arra az órára. Miért kérdezed?</p>
-            <p>Olajos vállat vont:</p>
-            <p>- Tudod, hogy néha figyelmeztetnek. Jó leány. Köszönd meg neki, ha beszélsz vele.</p>
-            <p>S nyugodtan merítette a kanalát a levesbe.</p>
-            <p>*</p>
-            <p>A család attólfogva csakis Kaszab vargánál dolgoztatott. Apró igazítani valók
+				<p>Olajos vállat vont:</p>
+				<p>- Tudod, hogy néha figyelmeztetnek. Jó leány. Köszönd meg neki, ha beszélsz vele.</p>
+				<p>S nyugodtan merítette a kanalát a levesbe.</p>
+				<p>*</p>
+				<p>A család attólfogva csakis Kaszab vargánál dolgoztatott. Apró igazítani valók
                 odakerűltek. Sőt hogy Olajos melegebb cipőt kívánt a tél folyamán, Kaszabot hivatták
                 el, hogy az ügyet rábízzák.</p>
-            <p>A suszter jött, mért, és bagariát ajánlott.</p>
-            <p>- De huszonnyolc koronán alól nem csinálhatom, - mondotta komolyan.</p>
-            <p>Komoly kis köpcös ember volt a varga, deres-vörös hajú és bajuszú. A nyakát behúzva
+				<p>A suszter jött, mért, és bagariát ajánlott.</p>
+				<p>- De huszonnyolc koronán alól nem csinálhatom, - mondotta komolyan.</p>
+				<p>Komoly kis köpcös ember volt a varga, deres-vörös hajú és bajuszú. A nyakát behúzva
                 állt ott, mintha esső esne, különben az utcán is úgy járt, olyan összehúzott
                 nyakkal, mintha mindig esne az esső.</p>
-            <p>- Nem, huszonnyolc koronán alul nem lehet, - mondotta igen komolyan. - A bőr drága,
+				<p>- Nem, huszonnyolc koronán alul nem lehet, - mondotta igen komolyan. - A bőr drága,
                 és ha nem világtalan embernek csinálnám...</p>
-            <p>Olajos megmozdult:</p>
-            <p>- Az nem baj. Én még a könyökömmel is látok. Kenyeremet is jobban megtalálom, mint
+				<p>Olajos megmozdult:</p>
+				<p>- Az nem baj. Én még a könyökömmel is látok. Kenyeremet is jobban megtalálom, mint
                 sok szeme-jó.</p>
-            <p>- Nono, - mentegetődzött Kaszab, - iszen nem azért... De hát huszonnyolcon alól mai
+				<p>- Nono, - mentegetődzött Kaszab, - iszen nem azért... De hát huszonnyolcon alól mai
                 világban nem lehet. És vasárnapra kész lesz.</p>
-            <p>S az ujját megvonta az orra alatt.</p>
-            <p>Terka elmosolyodott:</p>
-            <p>- Nem lesz kész.</p>
-            <p>A varga megütődött:</p>
-            <p>- Már hogyne lenne kész.</p>
-            <p>Terka a fejét rázta:</p>
-            <p>- Még olyan vargát nem ismertem, hogy mondott időre hozza a cipőt.</p>
-            <p>- Már pedig én olyan vagyok, - mondta Kaszab az ujját elvonva az orra alatt, - és
+				<p>S az ujját megvonta az orra alatt.</p>
+				<p>Terka elmosolyodott:</p>
+				<p>- Nem lesz kész.</p>
+				<p>A varga megütődött:</p>
+				<p>- Már hogyne lenne kész.</p>
+				<p>Terka a fejét rázta:</p>
+				<p>- Még olyan vargát nem ismertem, hogy mondott időre hozza a cipőt.</p>
+				<p>- Már pedig én olyan vagyok, - mondta Kaszab az ujját elvonva az orra alatt, - és
                 most hogy áros a bőr, kevesebb is a munka. Mert amint mondom: huszonnyolcon alól ezt
                 se csinálhatom.</p>
-            <p>Olajos rábiccentett.</p>
-            <p>- Jójó: nem is kivánjuk olcsóbban. Én teljesen megbízok a maga becsületességében.
+				<p>Olajos rábiccentett.</p>
+				<p>- Jójó: nem is kivánjuk olcsóbban. Én teljesen megbízok a maga becsületességében.
                 Akinek olyan becsületes lelkű leánya van, maga is becsületes lehet.</p>
-            <p>- Leányom? Hát tetszik ismerni a leányomat?</p>
-            <p>- Ismerem, - bólintott Olajos, - Etelka kedves, derék leány. Kivánom is neki, hogy
+				<p>- Leányom? Hát tetszik ismerni a leányomat?</p>
+				<p>- Ismerem, - bólintott Olajos, - Etelka kedves, derék leány. Kivánom is neki, hogy
                 boldog legyen a vőlegényével.</p>
-            <p>Kaszab csodálkozott és a fejét rázta:</p>
-            <p>- Nem volt még vőlegénye. Nem is lesz már: meghalt. Olvastuk az ujságban, hogy
+				<p>Kaszab csodálkozott és a fejét rázta:</p>
+				<p>- Nem volt még vőlegénye. Nem is lesz már: meghalt. Olvastuk az ujságban, hogy
                 meghalt.</p>
-            <p>- Meghalt?</p>
-            <p>- Meg. Vitézül. Lemberg alatt. Kár érte. Se nem ivott, se nem kártyázott. A tavaszon
+				<p>- Meghalt?</p>
+				<p>- Meg. Vitézül. Lemberg alatt. Kár érte. Se nem ivott, se nem kártyázott. A tavaszon
                 már maga lábára állott volna.</p>
-            <p>Sóhajtott. És fogta a kalapját.</p>
-            <p>- Vasárnap délre meglesz a cipő.</p>
-            <p>Mikor elment, a vak megszólalt:</p>
-            <p>- Te Terka, milyen leány az a... leány?</p>
-            <p>Terka vállat vont:</p>
-            <p>- Pulykatojás.</p>
-            <p>És nevetett.</p>
-            <p>- Nono, - feddette az anyja.</p>
-            <p>És a fiához fordult:</p>
-            <p>- Jóképű leány, mosolygós szemű. Igen kedves, derék leány. Te jobban láttad.</p>
-            <p>Olajos elgondolkodva űlt a divánon.</p>
-            <p>*</p>
-            <p>Vasárnap Olajos még délben is aludt. Vigadó vendégek muzsikáltattak velök csaknem
-                regge­lig. Olajos hetven koronán felül vitt haza. Éshát megmondta, hogy ne költsék
-                fel. Vasár­na­pon­kint különben sem tanul a banda.</p>
-            <p>Női hangokra ébredt fel Olajos. Az anyja jóságos duda-hangjára, Terka rekedtes
+				<p>Sóhajtott. És fogta a kalapját.</p>
+				<p>- Vasárnap délre meglesz a cipő.</p>
+				<p>Mikor elment, a vak megszólalt:</p>
+				<p>- Te Terka, milyen leány az a... leány?</p>
+				<p>Terka vállat vont:</p>
+				<p>- Pulykatojás.</p>
+				<p>És nevetett.</p>
+				<p>- Nono, - feddette az anyja.</p>
+				<p>És a fiához fordult:</p>
+				<p>- Jóképű leány, mosolygós szemű. Igen kedves, derék leány. Te jobban láttad.</p>
+				<p>Olajos elgondolkodva űlt a divánon.</p>
+				<p>*</p>
+				<p>Vasárnap Olajos még délben is aludt. Vigadó vendégek muzsikáltattak velök csaknem
+                reggelig. Olajos hetven koronán felül vitt haza. Éshát megmondta, hogy ne költsék
+                fel. Vasárnaponkint különben sem tanul a banda.</p>
+				<p>Női hangokra ébredt fel Olajos. Az anyja jóságos duda-hangjára, Terka rekedtes
                 kacsa-hangjára, s az ismert édes hangra.</p>
-            <p>A konyháról jött a szó:</p>
-            <p>- Bocsánatot kérünk, - mondja az édes hang, - de a boltos Steiner egyszerre három pár
+				<p>A konyháról jött a szó:</p>
+				<p>- Bocsánatot kérünk, - mondja az édes hang, - de a boltos Steiner egyszerre három pár
                 cipőt rendelt. És egyet a feleségének, hogy szombatra meglegyen, és kettőt a két
                 gyerekének, hogy vasárnap reggelre meglegyen. Apám igen restelli, hogy nem
                 készíthette meg a cipőt. Igen-igen restelli, dehát tetszik tudni: a boltos most
                 először rendelt nálunk. És nagy a család, nyolcan vannak. Ha kedvükre való lesz a
                 cipő, máskor is nálunk csináltat.</p>
-            <p>Olajos fülel.</p>
-            <p>- Eb bizony nem szép, - mondja szigorún a Terka kacsa-hangja, - ha egyszer valami meg
+				<p>Olajos fülel.</p>
+				<p>- Eb bizony nem szép, - mondja szigorún a Terka kacsa-hangja, - ha egyszer valami meg
                 van igérve...</p>
-            <p>- Nono, iszen nem baj, - hangzik az anyja csillapító duda-szava, - Pista nem fog
+				<p>- Nono, iszen nem baj, - hangzik az anyja csillapító duda-szava, - Pista nem fog
                 haragudni. Etelka apjára nem fog haragudni. Etelka a neve, kedves, igaz-e?</p>
-            <p>- Az. Igen csodálkoztunk, mikor apám itt járt a mértékkel, hogy Olajos úr tudott
+				<p>- Az. Igen csodálkoztunk, mikor apám itt járt a mértékkel, hogy Olajos úr tudott
                 rólam.</p>
-            <p>- Óh, - dudál rá vidáman az anya, - az én fiam sok mindent jobban lát, mint akinek
+				<p>- Óh, - dudál rá vidáman az anya, - az én fiam sok mindent jobban lát, mint akinek
                 megvan a kettő. Dehát üljön le Etelka, üljön le kedves...</p>
-            <p>Széknek halk koppanása.</p>
-            <p>- Óh köszönöm.</p>
-            <p>- A mi Pistánk jobban lát, - dicsekszik Terka is. - Még azt is megmondta, hogy maga
+				<p>Széknek halk koppanása.</p>
+				<p>- Óh köszönöm.</p>
+				<p>- A mi Pistánk jobban lát, - dicsekszik Terka is. - Még azt is megmondta, hogy maga
                 mandulaszappannal mosakodott aznap.</p>
-            <p>- Node ilyet! Valóságos igaz. Dehát honnan tudta?</p>
-            <p>- Látta, - mondja elégedetten az anya, - ő sokszor azt is látja, amit mink nem
+				<p>- Node ilyet! Valóságos igaz. Dehát honnan tudta?</p>
+				<p>- Látta, - mondja elégedetten az anya, - ő sokszor azt is látja, amit mink nem
                 látunk. És más sok mindent is lát, amiről azt véljük, hogy nem látja. Például, ha
                 valamelyik ház előtt elmegy, megmondja, hogy új-e, régi-e, alacsony-e, magas-e,
                 micsoda boltok vagy műhelyek vannak benne. S a mellette járókról megmondja, ki s
                 miféle: úr-e, paraszt-e, vagy iparos. Ha iparos, micsoda iparos.</p>
-            <p>- Node ilyet! - álmélkodik az édes hang. - Én mingyárt láttam, hogy igen okos ember.
+				<p>- Node ilyet! - álmélkodik az édes hang. - Én mingyárt láttam, hogy igen okos ember.
                 És finom ember. Kár érte...</p>
-            <p>- Nem érzi ő azt.</p>
-            <p>- Mégis kár. Szép derék fiatal ember. Az arcszíne olyan fínom. (Hosszan mondta az í-t
+				<p>- Nem érzi ő azt.</p>
+				<p>- Mégis kár. Szép derék fiatal ember. Az arcszíne olyan fínom. (Hosszan mondta az í-t
                 a finomban.) És nekem igen tetszik, hogy olyan leányos a haja. Node igazán csuda...
                 Mert való igaz, hogy mandulaszappannal mosdok. Még szegény Kulcsár vette, vagyishogy
                 nyerte. A panorámában nyerte.</p>
-            <p>- A vőlegénye? - kérdi Terka.</p>
-            <p>Sóhajtás.</p>
-            <p>- Még nem volt vőlegényem. Mégcsak jegyesem se. De talán lett volna. Iszen csak
+				<p>- A vőlegénye? - kérdi Terka.</p>
+				<p>Sóhajtás.</p>
+				<p>- Még nem volt vőlegényem. Mégcsak jegyesem se. De talán lett volna. Iszen csak
                 négyszer ha járt nálunk. De már vallott. Már mikor harmadszor ott járt, vallott. És
                 kérdezte, hogy én hogy érzek? Nem szóltam rá semmit, hát abból érthette, hogy hogy
                 érzek. Csak nem borulok mingyárt a nyakába az igazat mondva: nem is igen tetszett
@@ -352,580 +352,577 @@
                 kiállítást itt tavaly? Hát úgy még szép fiú is volt. A szine is piros. Gondoltam:
                 majd megszokom közelrül is. Aztán mikor megint eljött, megint faktatott. Már akkor
                 katonaruhában volt és mondta:</p>
-            <p>- Ki tudja, visszatérek-e?</p>
-            <p>Hát csak annyit feleltem:</p>
-            <p>- Nézze, még nem is ismer. Elégedjen meg annyival, hogy mindennap imádkozok érte.</p>
-            <p>Hát meg is elégedett. Aztán, hogy éppen vásár volt aznap, hát tetszik tudni
+				<p>- Ki tudja, visszatérek-e?</p>
+				<p>Hát csak annyit feleltem:</p>
+				<p>- Nézze, még nem is ismer. Elégedjen meg annyival, hogy mindennap imádkozok érte.</p>
+				<p>Hát meg is elégedett. Aztán, hogy éppen vásár volt aznap, hát tetszik tudni
                 kisétáltunk a vásárba. Anyám is velünk. Mert anyám véndölyt nézett, ha kaphatnánk
                 olcsón. Hát kimentünk és Kulcsár is velünk. És befizetett értem is a panorámába. A
                 panoráma szép volt: az amerikai krokodilus-vadászatot láttuk és Port-Artur
                 bombázását. Aztán én bajuszkötőt nyertem. Ő meg mandulaszappant. Ő nekem adta a
                 szappant. Én meg igen megzavarodtam, hogy nekiadjam-e a bajuszkötőt? Végre is
                 gondoltam, legjobb az egyenes út:</p>
-            <p>- Nézze, mondom, hátha elcseréli a panoráma ezt a bajuszkötőt valami
+				<p>- Nézze, mondom, hátha elcseréli a panoráma ezt a bajuszkötőt valami
                 szivarszipókával?</p>
-            <p>Hát meg is egyeztek, de nem szivarszipókára, hanem mégegy mandulaszappanra és azt is
+				<p>Hát meg is egyeztek, de nem szivarszipókára, hanem mégegy mandulaszappanra és azt is
                 nekemadta. Igen jó fiú volt. Csak épp, hogy nem sokat keresett még, tetszik tudni, -
                 nyolcvan koronát ha keresett egy hónapban. No meg kosztja is ott volt a mesternél.
                 Igen illedelmes jó fiú volt.</p>
-            <p>S a hangja ellágyult.</p>
-            <p>- Bizony, - sóhajtotta Terka, - eddig is rossz világ járt a lányokra. Én már
+				<p>S a hangja ellágyult.</p>
+				<p>- Bizony, - sóhajtotta Terka, - eddig is rossz világ járt a lányokra. Én már
                 huszonkilenc éves vagyok, és eddig se találkozott kedvemre való. Most meg már
                 ezrével jutnak özvegységre a lányok, még mielőtt asszonyok lehettek volna.</p>
-            <p>Sóhajtás.</p>
-            <p>- Kisasszonynak még jó: tíz év mulván is találkozhatik szerencséje. Senki nem
+				<p>Sóhajtás.</p>
+				<p>- Kisasszonynak még jó: tíz év mulván is találkozhatik szerencséje. Senki nem
                 mondaná, hogy annyi idős. Szép tiszta arcú. És oly elegáns... Ez a pepitaszoknya
                 különösen illik: igen elegáns. De mit várhat az ilyen szegény leány? Mit várhat
-                akinek se pénze, se szépsége, se pepita­szoknyája? Engem csak egy madár szeretett
+                akinek se pénze, se szépsége, se pepitaszoknyája? Engem csak egy madár szeretett
                 még eddig, egy csóka. Gyerekektől vettem. A Tajthy-bolt előtt. Fél lába el volt
                 lőve. Szárnyát is lógatta. A fél szeme is ki volt lőve. És úgy élt nálunk. Azon az
                 egy lábán ugrándozott. Boldog volt, ha az ölembe vettem. Olyan hálásan nézett avval
-                az egy ép szemével szegény. Igaz, egy gyerek is szeretett még. A szomszédunk­ban
+                az egy ép szemével szegény. Igaz, egy gyerek is szeretett még. A szomszédunkban
                 lakott és afféle Krisztus árvája volt: Elemérnek hítták. Rimaszombatból osztják szét
                 az olyanokat. Elvitték már azt is, mert mindennap verték szegényt, pedig csak öt
                 éves volt. Hogy mer Isten elé menni az olyan? Aztán hát a csókát is széttépte egy
                 kutya. Mert kijött egyszer szegény utánam az utcára, ki a kis bolond. És aztán nem
                 maradt senkim. Akkor ismerkedtem meg avval a Kulcsárral. Most már az sincs.</p>
-            <p>- Még lehet, - vígasztal Terka.</p>
-            <p>- Maga jó lélek, - szól az anya is, - és a jóság is szépség. A legtartósabb
+				<p>- Még lehet, - vígasztal Terka.</p>
+				<p>- Maga jó lélek, - szól az anya is, - és a jóság is szépség. A legtartósabb
                 szépség.</p>
-            <p>Sóhajtás.</p>
-            <p>- A jóság belől van. A férfiak csak az arcot nézik. Az az egy fiú nem bánta volna.
+				<p>Sóhajtás.</p>
+				<p>- A jóság belől van. A férfiak csak az arcot nézik. Az az egy fiú nem bánta volna.
                 Igaz, hogy azt mondták volna hátunk mögött: Elvette a ragya a szeplőt. Sok a gonosz
                 szájú. De ő azért mégis elvett volna. Igen jó fiú volt. Egy hétig sirattam. Még most
                 is, ha eszembe jut, hogy nem jön elő többé soha...</p>
-            <p>S hangja ellágyult.</p>
-            <p>- Nono, - vigasztalta az anya, - minden lány szép leány, aki ép és egészséges. Maga
+				<p>S hangja ellágyult.</p>
+				<p>- Nono, - vigasztalta az anya, - minden lány szép leány, aki ép és egészséges. Maga
                 pedig még azonfölül is kedves. És minden legény mégse marad el. Megjönnek háború
                 után. Csak épp hogy sok lesz a csonka-bonka férfi.</p>
-            <p>- Nem bánnám én, - zeng minden melegével az édes hang, - csak annyi is maradt volna
+				<p>- Nem bánnám én, - zeng minden melegével az édes hang, - csak annyi is maradt volna
                 belőle, amennyi lélektartónak elég. Ha keze nem lett volna, lettem volna keze. Ha
                 lába nem lett volna, lettem volna lába. Csak épp hogy feje nélkül ne jött volna
                 haza.</p>
-            <p>- Hát bizonyos, hogy meghalt? - sajnálkozik Terka.</p>
-            <p>- A szülőinek megírták.</p>
-            <p>És kisvártatva halkultan szól az édes hang:</p>
-            <p>- Megyek már, mert... Kezüket csókolom. Szerdára meg lesz a cipő.</p>
-            <p>S hallatszott, ahogy édesen elkopog.</p>
-            <p>*</p>
-            <p>Olajos kevésszavú ember volt. Talán hogy mindig fülelt és mindig szimatolt. Leginkább
+				<p>- Hát bizonyos, hogy meghalt? - sajnálkozik Terka.</p>
+				<p>- A szülőinek megírták.</p>
+				<p>És kisvártatva halkultan szól az édes hang:</p>
+				<p>- Megyek már, mert... Kezüket csókolom. Szerdára meg lesz a cipő.</p>
+				<p>S hallatszott, ahogy édesen elkopog.</p>
+				<p>*</p>
+				<p>Olajos kevésszavú ember volt. Talán hogy mindig fülelt és mindig szimatolt. Leginkább
                 az asztalnál szólalt meg, ha valamit kérdezett vagy ujságolt.</p>
-            <p>Akkornap, hogy elmondták a cipőkésedelmet, csak rábólintott:</p>
-            <p>- No jó, hiszen maradhat.</p>
-            <p>De ebédután megszólalt:</p>
-            <p>- Te Terka, milyen lány az az Etel?</p>
-            <p>Terka nézett, nevetett:</p>
-            <p>- Pulykatojás. Mondtam már, hogy pulykatojás. Érdekes, hogy most már másodszor
+				<p>Akkornap, hogy elmondták a cipőkésedelmet, csak rábólintott:</p>
+				<p>- No jó, hiszen maradhat.</p>
+				<p>De ebédután megszólalt:</p>
+				<p>- Te Terka, milyen lány az az Etel?</p>
+				<p>Terka nézett, nevetett:</p>
+				<p>- Pulykatojás. Mondtam már, hogy pulykatojás. Érdekes, hogy most már másodszor
                 kérdezed.</p>
-            <p>- Nono, - feddőzött az anyjuk.</p>
-            <p>- Hát mondjuk: mandulaszappan, - pajkoskodott Terka, - szimpla mandulaszappan.</p>
-            <p>- Csinos, kedves, jó leány, - korrigált az anyjuk.</p>
-            <p>- Csinos, csinos, - tünődött a vak, - dehát mégis...</p>
-            <p>- Mosolygós szemű.</p>
-            <p>- Hát még?</p>
-            <p>Terka nevetett.</p>
-            <p>- Érdekes, hogy... Sohse kérdeztél te még senkit.</p>
-            <p>A vak szempillája rebegett.</p>
-            <p>- A hangja valami kedves. Sohse hallottam olyan kedves hangot. Egyszer hallottam
+				<p>- Nono, - feddőzött az anyjuk.</p>
+				<p>- Hát mondjuk: mandulaszappan, - pajkoskodott Terka, - szimpla mandulaszappan.</p>
+				<p>- Csinos, kedves, jó leány, - korrigált az anyjuk.</p>
+				<p>- Csinos, csinos, - tünődött a vak, - dehát mégis...</p>
+				<p>- Mosolygós szemű.</p>
+				<p>- Hát még?</p>
+				<p>Terka nevetett.</p>
+				<p>- Érdekes, hogy... Sohse kérdeztél te még senkit.</p>
+				<p>A vak szempillája rebegett.</p>
+				<p>- A hangja valami kedves. Sohse hallottam olyan kedves hangot. Egyszer hallottam
                 Pesten az utcán, az Andrássy-úton. Csak megálltam, mintha a föld megfogta volna a
                 lábamat. Sohse felejtem el. De az se volt kedvesebb.</p>
-            <p>A két nő összecsodálkozott.</p>
-            <p>- Én a hangjára nem is ügyeltem, - mondta vállat vonva, mosolyogva az anya.</p>
-            <p>- Én se láttam semmi különöset a hangján; - bámuldozott Terka. - Csak annyit, hogy
+				<p>A két nő összecsodálkozott.</p>
+				<p>- Én a hangjára nem is ügyeltem, - mondta vállat vonva, mosolyogva az anya.</p>
+				<p>- Én se láttam semmi különöset a hangján; - bámuldozott Terka. - Csak annyit, hogy
                 sokat csacsog.</p>
-            <p>- Az is kedvesség, - biccentett rá a vak, - ha valaki sokat beszél. De annak a
+				<p>- Az is kedvesség, - biccentett rá a vak, - ha valaki sokat beszél. De annak a
                 lánynak a hangja... Ha mindig csupa szamárságot beszélne; akkor is mindig
                 hallgatnám. Mint valami... valami csodálatos no.</p>
-            <p>- Dehát mi csodálatos? Hogyan csodálatos?</p>
-            <p>- Hát... Nem tudom megmondani. A hangot nem lehet megmondani. Olyan nekem, mintha
+				<p>- Dehát mi csodálatos? Hogyan csodálatos?</p>
+				<p>- Hát... Nem tudom megmondani. A hangot nem lehet megmondani. Olyan nekem, mintha
                 valami nagy árva-viola volna, és annak volna a hangja. Az árva-viola torka, tudod,
                 olyan bársonyos.</p>
-            <p>A két nő nevetett:</p>
-            <p>- De furcsákat beszélsz!</p>
-            <p>A vak is elmosolyodott:</p>
-            <p>- Magam is furcsállom. Dehát én zenész vagyok. A női hang a legszebb zene. Már hát az
+				<p>A két nő nevetett:</p>
+				<p>- De furcsákat beszélsz!</p>
+				<p>A vak is elmosolyodott:</p>
+				<p>- Magam is furcsállom. Dehát én zenész vagyok. A női hang a legszebb zene. Már hát az
                 olyan. Mint szagok közt a gyöngyvirág szaga. Járunk a Jánoshegy alján, van fűszag,
-                bokor­szag, földszag. Aztán egyszer csak hűvös falombok szaga, aztán egyszer csak
-                finom gyöngy­virág-szag. Ott meg kell állani, ha akarsz, ha nem. Mondd még, hogy
+                bokorszag, földszag. Aztán egyszer csak hűvös falombok szaga, aztán egyszer csak
+                finom gyöngyvirág-szag. Ott meg kell állani, ha akarsz, ha nem. Mondd még, hogy
                 milyen az a lány? Milyen. Kezdd fölülről, hiszen ráérsz. Ma nincs posta.</p>
-            <p>Fölkelt és a divánra ült. Kampós botjára könyökölt.</p>
-            <p>- Milyen?</p>
-            <p>Terka unalommal nézett. Az anyjuk azonban intett neki, hogy beszéljen.</p>
-            <p>Terka gondolkodott:</p>
-            <p>- Milyen, milyen. Hát... A haja vörhenyeges. A mama kedvéért: vörhenyeges. Homloka
+				<p>Fölkelt és a divánra ült. Kampós botjára könyökölt.</p>
+				<p>- Milyen?</p>
+				<p>Terka unalommal nézett. Az anyjuk azonban intett neki, hogy beszéljen.</p>
+				<p>Terka gondolkodott:</p>
+				<p>- Milyen, milyen. Hát... A haja vörhenyeges. A mama kedvéért: vörhenyeges. Homloka
                 dombos. A szemét mondtuk már. Vagy nem mondtuk? Hát szem: szem, amilyen legtöbb van
                 a világon. Az álla hegyes. Orra kicsit nagyobb is lehetne. Én bizony nem is néztem
                 meg olyan igen.</p>
-            <p>És nevetett.</p>
-            <p>- Csak mondj még róla.</p>
-            <p>- Hát... Mit mondjak még no: a szája olyan izé, no... mintha kásafujásra
+				<p>És nevetett.</p>
+				<p>- Csak mondj még róla.</p>
+				<p>- Hát... Mit mondjak még no: a szája olyan izé, no... mintha kásafujásra
                 készülne.</p>
-            <p>- Ugyan, - feddődzött az anya, - mondd inkább, mintha fütyülne. Mintha hangtalanul
+				<p>- Ugyan, - feddődzött az anya, - mondd inkább, mintha fütyülne. Mintha hangtalanul
                 fütyülne. Csinos, kedves leány, no. Nem illő, hogy keresztények rosszat mondjanak
                 akárkiről is.</p>
-            <p>- De hiszen nem mondtam semmi rosszat. Hát csinos leány, csinos, dehát mint levelek
+				<p>- De hiszen nem mondtam semmi rosszat. Hát csinos leány, csinos, dehát mint levelek
                 között a szimpla levelezőkártya: semmi érdekes rajta.</p>
-            <p>A vak könyökölt a botján. Fölfelé nézett, mint a lúd.</p>
-            <p>És nem kérdezett többet.</p>
-            <p>*</p>
-            <p>Olajos a cimbalom mellett szokott űlni a bandában, a cimbalmos jobbja felől. A
+				<p>A vak könyökölt a botján. Fölfelé nézett, mint a lúd.</p>
+				<p>És nem kérdezett többet.</p>
+				<p>*</p>
+				<p>Olajos a cimbalom mellett szokott űlni a bandában, a cimbalmos jobbja felől. A
                 cigányok fölkeltek a szünetekben. Ki és bejártak. Beszélgettek. Csurka primás hol
                 itt, hol amott űlt le egy-egy nyájas vendég asztalához. Csak Olajos maradt mindig
                 ültön, hallgatagon.</p>
-            <p>De akkor este ő is megszólalt. Kevés volt még a vendég, hosszacskán szünetelgettek. A
+				<p>De akkor este ő is megszólalt. Kevés volt még a vendég, hosszacskán szünetelgettek. A
                 bandából csak a cimbalmos maradt a helyén. A cimbalmára hajolva pimpegetett, kereste
                 a lankadásokat.</p>
-            <p>- Csuta, - szólt halkan a cimbalmosnak, - láttál-e te már pulykatojást?</p>
-            <p>- Ittam is, - felelte Csuta vállról, - gyerekkoromban ittam egyszer.</p>
-            <p>- Milyen volt?</p>
-            <p>- Milyen volt? Hát jó volt, nyesd meg, milyen volt volna?</p>
-            <p>S tovább pimpegette a húrjait.</p>
-            <p>Olajos gondolkodott, kis idő mulva ismét szólt:</p>
-            <p>- Te Csuta, mennyivel kevesebb érő a pulykatojás másféle tojásnál?</p>
-            <p>Csuta elbámult.</p>
-            <p>- Kevesebb érő? Ki beszél ilyen bolondot? Próbáld csak megvenni a piacon. Nem is igen
+				<p>- Csuta, - szólt halkan a cimbalmosnak, - láttál-e te már pulykatojást?</p>
+				<p>- Ittam is, - felelte Csuta vállról, - gyerekkoromban ittam egyszer.</p>
+				<p>- Milyen volt?</p>
+				<p>- Milyen volt? Hát jó volt, nyesd meg, milyen volt volna?</p>
+				<p>S tovább pimpegette a húrjait.</p>
+				<p>Olajos gondolkodott, kis idő mulva ismét szólt:</p>
+				<p>- Te Csuta, mennyivel kevesebb érő a pulykatojás másféle tojásnál?</p>
+				<p>Csuta elbámult.</p>
+				<p>- Kevesebb érő? Ki beszél ilyen bolondot? Próbáld csak megvenni a piacon. Nem is igen
                 fordul.</p>
-            <p>- Hát árosabb?</p>
-            <p>- Hogyne volna árosabb, nyesd meg. Harminc tojás se ér annyit, mint pókáéból egy.</p>
-            <p>Olajos pislogott. A fejét rázogatta.</p>
-            <p>- Hát akkor mér beszélnek róla olyan kicsinylőn?</p>
-            <p>- Kicsinylőn?</p>
-            <p>- Lányra hallottam, hogy mondták: pulykatojás.</p>
-            <p>- Áhá, most mán értelek. Hát a színe olyan. Mert a pulykatojás színe olyan
+				<p>- Hát árosabb?</p>
+				<p>- Hogyne volna árosabb, nyesd meg. Harminc tojás se ér annyit, mint pókáéból egy.</p>
+				<p>Olajos pislogott. A fejét rázogatta.</p>
+				<p>- Hát akkor mér beszélnek róla olyan kicsinylőn?</p>
+				<p>- Kicsinylőn?</p>
+				<p>- Lányra hallottam, hogy mondták: pulykatojás.</p>
+				<p>- Áhá, most mán értelek. Hát a színe olyan. Mert a pulykatojás színe olyan
                 izés...</p>
-            <p>Olajos legyintett:</p>
-            <p>- A színek engem nem érdekelnek.</p>
-            <p>De kisidő mulva ismét megszólalt:</p>
-            <p>- Te Csuta, láttál-e már ragyás embert?</p>
-            <p>- Ragyás embert? Hát hogyne láttam volna, nyesd meg, iszen csak belenézek a tűkörbe,
+				<p>Olajos legyintett:</p>
+				<p>- A színek engem nem érdekelnek.</p>
+				<p>De kisidő mulva ismét megszólalt:</p>
+				<p>- Te Csuta, láttál-e már ragyás embert?</p>
+				<p>- Ragyás embert? Hát hogyne láttam volna, nyesd meg, iszen csak belenézek a tűkörbe,
                 nyesd meg, mingyán látok.</p>
-            <p>Olajos elmosolyodott:</p>
-            <p>- Hát aztán milyen az? az a ragya?</p>
-            <p>- Milyen? Hm, milyen? Hát itt a pofám: tapints rá, aztán megtudod.</p>
-            <p>Olajos rátapintott. A haját rázta.</p>
-            <p>Csuta ráhajolt a cimbalomra, a legfelső húrokat pimpegette. Óvatosan nyomta rá a
+				<p>Olajos elmosolyodott:</p>
+				<p>- Hát aztán milyen az? az a ragya?</p>
+				<p>- Milyen? Hm, milyen? Hát itt a pofám: tapints rá, aztán megtudod.</p>
+				<p>Olajos rátapintott. A haját rázta.</p>
+				<p>Csuta ráhajolt a cimbalomra, a legfelső húrokat pimpegette. Óvatosan nyomta rá a
                 kulcsot a szögre, de cudar kényesek azok a felső hangok...
                 pin-pin-pin-pen-pen-pen...</p>
-            <p>- Te Csuta...</p>
-            <p>- Hallgass mán!</p>
-            <p>- Csak azt mondd még meg, hogy a pulykatojás is olyan valami, mint a képed?</p>
-            <p>- Olyan. De most már hallgass.</p>
-            <p>S tovább pimpegett a húrjain.</p>
-            <p>Olajos gondolkodott, a haját rázogatta. Aztán ő is fogta a gyantáját s vonót kent
+				<p>- Te Csuta...</p>
+				<p>- Hallgass mán!</p>
+				<p>- Csak azt mondd még meg, hogy a pulykatojás is olyan valami, mint a képed?</p>
+				<p>- Olyan. De most már hallgass.</p>
+				<p>S tovább pimpegett a húrjain.</p>
+				<p>Olajos gondolkodott, a haját rázogatta. Aztán ő is fogta a gyantáját s vonót kent
                 vele.</p>
-            <p>A cimbalmos aztán mégis megbánta, hogy a vaknak hamisan beszélt:</p>
-            <p>- Hallod-e, - mondta engesztelőn, - a pulykatojás nem ilyen, a pulykatojás csak
+				<p>A cimbalmos aztán mégis megbánta, hogy a vaknak hamisan beszélt:</p>
+				<p>- Hallod-e, - mondta engesztelőn, - a pulykatojás nem ilyen, a pulykatojás csak
                 szeplős. A ragya rücsök, a szeplő csak szín. Nohát most mán tudhatod, nyesd meg.</p>
-            <p>- A színek engem nem érdekelnek, - mondta Olajos.</p>
-            <p>Az ajtónyillogatás aztán egyre gyakoribb volt a kávéházban, a beszédek is sűrűbbek, a
+				<p>- A színek engem nem érdekelnek, - mondta Olajos.</p>
+				<p>Az ajtónyillogatás aztán egyre gyakoribb volt a kávéházban, a beszédek is sűrűbbek, a
                 székek egyre másra koppantak, surlódtak. A dohányfüst egyre erősebb, de a kávészagok
                 is. Időnkint már tea- és citromszag is volt érezhető és rumszag is. A zene egyik
-                szünetében Olajos meg­érezte, hogy a virágárus asszony is ott járkál, vagy hogy
+                szünetében Olajos megérezte, hogy a virágárus asszony is ott járkál, vagy hogy
                 hallotta az alkudozást. Magához szólította, hogy mellette ment volna kifelé:</p>
-            <p>- Hé, virágos! Mutassa csak.</p>
-            <p>Az asszony mosolyogva tartotta oda a kosarát.</p>
-            <p>A vak belebillegetett, beleszimatolt. Minden virágot megérintett gyöngédeden, mintha
+				<p>- Hé, virágos! Mutassa csak.</p>
+				<p>Az asszony mosolyogva tartotta oda a kosarát.</p>
+				<p>A vak belebillegetett, beleszimatolt. Minden virágot megérintett gyöngédeden, mintha
                 alvó arcokat érintene. Mosolygott, szimmogott.</p>
-            <p>- Csupa szegfű? - kérdezte, - csupa szegfű? No jó ez is. Ösmeri-e Kaszabékat, a
+				<p>- Csupa szegfű? - kérdezte, - csupa szegfű? No jó ez is. Ösmeri-e Kaszabékat, a
                 Barátok utcáján?</p>
-            <p>- Nem ismerem, de megtalálom.</p>
-            <p>- Megtalálja? Nem most, majd reggel. Kaszab vargamester. Bizonyosan ki van írva a
+				<p>- Nem ismerem, de megtalálom.</p>
+				<p>- Megtalálja? Nem most, majd reggel. Kaszab vargamester. Bizonyosan ki van írva a
                 neve. Hát: mit kóstál itt szélről ez a tíz legszebb szál szegfű?</p>
-            <p>*</p>
-            <p>Szerdán délben azzal érkezett haza Terka, hogy reggel a vargával találkozott a bőrös
+				<p>*</p>
+				<p>Szerdán délben azzal érkezett haza Terka, hogy reggel a vargával találkozott a bőrös
                 bolt előtt.</p>
-            <p>- Bocsánatot kér, hogy ma se hozhatja meg a cipőt. Igen restelkedett, szinte
+				<p>- Bocsánatot kér, hogy ma se hozhatja meg a cipőt. Igen restelkedett, szinte
                 beleizzadt. De azt mondja: holnap meglesz. Ha éjjel kell is dolgoznia rajt, de
                 meglesz. Mutatta a bőrt, hogy milyen jót választott.</p>
-            <p>Olajos arca még várakozó maradt. Terka azonban nem szólt az ügyről többet. Levetette
+				<p>Olajos arca még várakozó maradt. Terka azonban nem szólt az ügyről többet. Levetette
                 a kabátját és kivonta a tűt a kalapjából, azt is letette.</p>
-            <p>- Brr, máma hideg van, - fázkódott. - Aggódtam, hogy elcsúszol Pista. Nem történt
+				<p>- Brr, máma hideg van, - fázkódott. - Aggódtam, hogy elcsúszol Pista. Nem történt
                 bajod?</p>
-            <p>Pista csak a fejével intett, hogy nem.</p>
-            <p>Az anyjuk bevitte a levest. A többi ételt Terkára bízta. Füstölt füle volt még,
+				<p>Pista csak a fejével intett, hogy nem.</p>
+				<p>Az anyjuk bevitte a levest. A többi ételt Terkára bízta. Füstölt füle volt még,
                 tormás, és palacsinta.</p>
-            <p>- Kaszabról jut eszembe, - mondta az anya, az utolsó kanál leves után, - tudod-e,
+				<p>- Kaszabról jut eszembe, - mondta az anya, az utolsó kanál leves után, - tudod-e,
                 Pista, min gondolkodtam az éjjel? Azon, hogy az a Kaszab leánya jó lenne neked.
                 Jóravaló leánynak látszik. Meg hogy így is vezetett egyszer. Magad mondtad, hogy
                 kalapos nő sohse segített még rajtad. Az pedig kalapos. Senki se mondaná, hogy nem
                 nagyságos kisasszony. Olcsó rajt minden, de illik reá. Éshát jólélek.</p>
-            <p>Olajosnak torkára szaladt a leves. Elvörösödött. Köhögött.</p>
-            <p>Terka akkor tette le a tormásfület az asztalra, s maga is leűlt.</p>
-            <p>- Igaz-e, Terka? - dudálta érzelmesen az anya, - az a Kaszab-leány jó lenne a mi
+				<p>Olajosnak torkára szaladt a leves. Elvörösödött. Köhögött.</p>
+				<p>Terka akkor tette le a tormásfület az asztalra, s maga is leűlt.</p>
+				<p>- Igaz-e, Terka? - dudálta érzelmesen az anya, - az a Kaszab-leány jó lenne a mi
                 Pistánknak. Az éjjel gondoltam rá.</p>
-            <p>- Ugyan! - rándult meg Terka.</p>
-            <p>A vak hallotta, hogy az anyjuk fölemeli a kezét és a karján a ruha susotol. Tudta,
+				<p>- Ugyan! - rándult meg Terka.</p>
+				<p>A vak hallotta, hogy az anyjuk fölemeli a kezét és a karján a ruha susotol. Tudta,
                 hogy ez a halk mozgás fenyegetés.</p>
-            <p>Terka valóban duzzogva szól tovább:</p>
-            <p>- Rokonságnak bizony... az Olajdi familiában eddig nem illatozott még csiriz.</p>
-            <p>Szünet következett.</p>
-            <p>A vak érezte, hogy az anyjuk a fejét csóválja, és hogy Terka megrestelkedik.</p>
-            <p>S meg is lágyul ime az anyjuk hangja, ahogy megint megszólal:</p>
-            <p>- Már akkor megfordult az eszemben, hogy nálunk járt. Mikor azt mondta: <hi
-                    rend="italic">Ha nincs keze, lettem volna keze</hi>.<hi rend="italic"> Ha nincs
-                    lába, lettem volna lába</hi>. Már a nyelvemen volt: - <hi rend="italic">És ha
-                    szeme nincsen?</hi> De hiszen ez kérdezetlenül is így következik. No higyjétek
+				<p>Terka valóban duzzogva szól tovább:</p>
+				<p>- Rokonságnak bizony... az Olajdi familiában eddig nem illatozott még csiriz.</p>
+				<p>Szünet következett.</p>
+				<p>A vak érezte, hogy az anyjuk a fejét csóválja, és hogy Terka megrestelkedik.</p>
+				<p>S meg is lágyul ime az anyjuk hangja, ahogy megint megszólal:</p>
+				<p>- Már akkor megfordult az eszemben, hogy nálunk járt. Mikor azt mondta:
+                Ha nincs keze, lettem volna keze. Ha nincs
+                    lába, lettem volna lába. Már a nyelvemen volt: - És ha
+                    szeme nincsen? De hiszen ez kérdezetlenül is így következik. No higyjétek
                 el: jó asszony lenne belőle.</p>
-            <p>Terka a vállát vonogatta:</p>
-            <p>- Ha tetszene Pistának...</p>
-            <p>Olajos szeme pillái szaporán mozogtak. Az arca még piros volt a köhécseléstől.</p>
-            <p>- Az nem nóta, - mondotta komolyan.</p>
-            <p>- Nem nóta? - tekintett rá a két nő, - mi az, hogy <hi rend="italic">nem
-                nóta</hi>?</p>
-            <p>- A házasság nem nóta, - rázogatta a fejét Olajos, - nem nóta, hogy csak fogjuk,
+				<p>Terka a vállát vonogatta:</p>
+				<p>- Ha tetszene Pistának...</p>
+				<p>Olajos szeme pillái szaporán mozogtak. Az arca még piros volt a köhécseléstől.</p>
+				<p>- Az nem nóta, - mondotta komolyan.</p>
+				<p>- Nem nóta? - tekintett rá a két nő, - mi az, hogy nem
+                nóta?</p>
+				<p>- A házasság nem nóta, - rázogatta a fejét Olajos, - nem nóta, hogy csak fogjuk,
                 elrántsuk.</p>
-            <p>- Hát persze, hogy nem nóta, - bólintott az anyjuk, - dehát ki mondta, hogy nóta?
-                Megismer­kedel vele, hát először is megismerkedel. Aztán, ha tetszik, elveszed, ha
+				<p>- Hát persze, hogy nem nóta, - bólintott az anyjuk, - dehát ki mondta, hogy nóta?
+                Megismerkedel vele, hát először is megismerkedel. Aztán, ha tetszik, elveszed, ha
                 nem tetszik, nem tetszik. Háború után annyi lesz a leány...</p>
-            <p>Terka sóhajtott. Az anyja is.</p>
-            <p>- Én csak azért gondoltam, - folytatta, - hogy ma mégcsak megvagyunk. De Terka most
+				<p>Terka sóhajtott. Az anyja is.</p>
+				<p>- Én csak azért gondoltam, - folytatta, - hogy ma mégcsak megvagyunk. De Terka most
                 már postás: ma itt, holnap ott, ahová helyezik. És ha én is... engem is máshova
                 helyez a jó Isten: a gyep alá...</p>
-            <p>- Isten ments, - susogta Terka. - Kell még a füléből, Pista? Még van itt egy kövéres
+				<p>- Isten ments, - susogta Terka. - Kell még a füléből, Pista? Még van itt egy kövéres
                 töve-szelet.</p>
-            <p>Pista megrázintotta a fejét.</p>
-            <p>- Ma nincs étvágyam. Vizet tölts.</p>
-            <p>Olajos sohse ivott mást, csak vizet.</p>
-            <p>- Ha akarod, - mondta az anyjuk, - elhívhatjuk valami okon, aztán beszélgess
+				<p>Pista megrázintotta a fejét.</p>
+				<p>- Ma nincs étvágyam. Vizet tölts.</p>
+				<p>Olajos sohse ivott mást, csak vizet.</p>
+				<p>- Ha akarod, - mondta az anyjuk, - elhívhatjuk valami okon, aztán beszélgess
                 vele.</p>
-            <p>Olajos a fejét rázta.</p>
-            <p>- Nem, az nem illenék. Hátha megérezné, hogy miért?</p>
-            <p>Terka fölvetette a fejét:</p>
-            <p>- És ha megérezné? Hát mit, <hi rend="italic">megérezné</hi>? Az ilyen leány csak
+				<p>Olajos a fejét rázta.</p>
+				<p>- Nem, az nem illenék. Hátha megérezné, hogy miért?</p>
+				<p>Terka fölvetette a fejét:</p>
+				<p>- És ha megérezné? Hát mit, megérezné? Az ilyen leány csak
                 hányódik az életben, mint postán a címezetlen levél.</p>
-            <p>- Címezetlen levél? - csodálkozik Olajos.</p>
-            <p>- Az, <hi rend="italic">címezetlen levél</hi>. Szerencséjének érezheti, ha valaki
+				<p>- Címezetlen levél? - csodálkozik Olajos.</p>
+				<p>- Az, címezetlen levél. Szerencséjének érezheti, ha valaki
                 nevet ír reá.</p>
-            <p>Olajos, mintha port fujt volna ki az orrából.</p>
-            <p>
-                <hi rend="italic">- Címezetlen levél</hi>. Hát te talán nem vagy címezetlen levél?
+				<p>Olajos, mintha port fujt volna ki az orrából.</p>
+				<p>- Címezetlen levél. Hát te talán nem vagy címezetlen levél?
                 Minden leány címezetlen levél! Némelyikben arany van. Némelyikben ezüst van. De
                 némelyikben... Mindenikben van valami virág is.</p>
-            <p>És akkor elmosolyodva rázogatta a fejét.</p>
-            <p>Terka nevetett:</p>
-            <p>- Szép, hogy azt nem mondtad: <hi rend="italic">némelyik belől is üres</hi>. Node
+				<p>És akkor elmosolyodva rázogatta a fejét.</p>
+				<p>Terka nevetett:</p>
+				<p>- Szép, hogy azt nem mondtad: némelyik belől is üres. Node
                 hálistennek, hogy némelyikben van legalább virág, mandulavirág, mandula-szappan.</p>
-            <p>És a székén hátra dőlve nevetett.</p>
-            <p>Olajos pillogott:</p>
-            <p>- Mit nevetsz azon a mandula-szappanon? Én szeretem a mandula-szappannak a szagát.
+				<p>És a székén hátra dőlve nevetett.</p>
+				<p>Olajos pillogott:</p>
+				<p>- Mit nevetsz azon a mandula-szappanon? Én szeretem a mandula-szappannak a szagát.
                 Mink is azzal mosdottunk az intézetben.</p>
-            <p>- Csak nevetek, - mentegetődzött Terka, - hiszen mink is mosdottunk vele
+				<p>- Csak nevetek, - mentegetődzött Terka, - hiszen mink is mosdottunk vele
                 falunlaktunkban. Dehát tudod az a leány jutott eszembe, hogy... bizony
                 szerencséjének ismerheti, ha elhivatjuk és szóra méltatod. Elvégre neked pénzed is
-                van: tizenegyezer koronád. Ahhoz eddig se nyúl­tunk, ezután se. És a művészeted
+                van: tizenegyezer koronád. Ahhoz eddig se nyúltunk, ezután se. És a művészeted
                 mégnagyobb vagyonod: holtodig való bizonyos kenyered.</p>
-            <p>Hízelgett a vaknak, de az arcán tovább játszott a mosolygás.</p>
-            <p>Olajos pillogott.</p>
-            <p>- Az bizonyos. Még nem is mondtam, hogy én tanítom az Éva-keringőt. Még a cimbalmost
+				<p>Hízelgett a vaknak, de az arcán tovább játszott a mosolygás.</p>
+				<p>Olajos pillogott.</p>
+				<p>- Az bizonyos. Még nem is mondtam, hogy én tanítom az Éva-keringőt. Még a cimbalmost
                 is, a nagybőgőst is. A cimbalmosnak cincogok, a nagybőgősnek brummogok.</p>
-            <p>És nevetett.</p>
-            <p>- Beh szamarak! Tőlem tanulnak: a vaktul. Amiket Pesten játszottunk, tőlem tanulják.
+				<p>És nevetett.</p>
+				<p>- Beh szamarak! Tőlem tanulnak: a vaktul. Amiket Pesten játszottunk, tőlem tanulják.
                 Kottát egy se ismer.</p>
-            <p>Aztán elkomolyodott:</p>
-            <p>- Dehát azért mégis nem illő, hogy elhivassuk. Nem, nem: azt nem engedem. Milyen is!
+				<p>Aztán elkomolyodott:</p>
+				<p>- Dehát azért mégis nem illő, hogy elhivassuk. Nem, nem: azt nem engedem. Milyen is!
                 Mondd el csak mégegyszer.</p>
-            <p>- Mondtam már, mint a...</p>
-            <p>A vak érezte, hogy az anyja int.</p>
-            <p>Terka mégis nevetve folytatta:</p>
-            <p>- Csinos, kedves.</p>
-            <p>- Apróra mondd: a haja?</p>
-            <p>- A haja szőke, sáfrányszinü szőke.</p>
-            <p>- Szineket ne mondj. A szín nekem semmi. És ne nevetgélj, mert akkor azt vélem, hogy
+				<p>- Mondtam már, mint a...</p>
+				<p>A vak érezte, hogy az anyja int.</p>
+				<p>Terka mégis nevetve folytatta:</p>
+				<p>- Csinos, kedves.</p>
+				<p>- Apróra mondd: a haja?</p>
+				<p>- A haja szőke, sáfrányszinü szőke.</p>
+				<p>- Szineket ne mondj. A szín nekem semmi. És ne nevetgélj, mert akkor azt vélem, hogy
                 engem nevetsz. És azt nem tűröm.</p>
-            <p>Megrázta a haját, mint ahogy a kutya rázza a fejét, mikor légy űl a fülére.</p>
-            <p>- Nono, - kérlelte a leány, - hát csak kérdezz.</p>
-            <p>- A homloka?</p>
-            <p>- A homloka: dombos. Az ajka mintha...</p>
-            <p>- Fütyölne, - fejezte be az anyja, - mintha hangtalanul fütyölne.</p>
-            <p>- Keze, lába?</p>
-            <p>- Keze, lába? Azt nem néztem. De a termete csinos.</p>
-            <p>- Szép, karcsu, könnyű, - mondta komolyan az anya.</p>
-            <p>Olajos mosolyogva hallgatott. A botjára támasztotta az állát, gondolkodott s az arca
+				<p>Megrázta a haját, mint ahogy a kutya rázza a fejét, mikor légy űl a fülére.</p>
+				<p>- Nono, - kérlelte a leány, - hát csak kérdezz.</p>
+				<p>- A homloka?</p>
+				<p>- A homloka: dombos. Az ajka mintha...</p>
+				<p>- Fütyölne, - fejezte be az anyja, - mintha hangtalanul fütyölne.</p>
+				<p>- Keze, lába?</p>
+				<p>- Keze, lába? Azt nem néztem. De a termete csinos.</p>
+				<p>- Szép, karcsu, könnyű, - mondta komolyan az anya.</p>
+				<p>Olajos mosolyogva hallgatott. A botjára támasztotta az állát, gondolkodott s az arca
                 olyan volt, mint a szépet álmodó gyermeké.</p>
-            <p>- A szabót, - szólalt meg negyedóra múlva, - hivassuk el a szabót: azt a fekete ruhát
+				<p>- A szabót, - szólalt meg negyedóra múlva, - hivassuk el a szabót: azt a fekete ruhát
                 mégiscsak megvarrassuk.</p>
-            <p>*</p>
-            <p>Másnap délre csakugyan megvolt a cipő. A varga szemén látszott, hogy éjjel is
+				<p>*</p>
+				<p>Másnap délre csakugyan megvolt a cipő. A varga szemén látszott, hogy éjjel is
                 dolgozott rajta. Dehát a cipő megkészült:</p>
-            <p>- Igen restellem, Olajos úr, igen restellem, mentegetődzött. Dehát a <hi
-                    rend="italic">nem lehet</hi> is nagy úr, és...</p>
-            <p>- Nem baj, nem baj, - jóságoskodott Olajos, - a fő az, hogy megvan.</p>
-            <p>- És hogy jó. Tessék csak megpróbálni. Csossz, igaz-e: úgy megy fel, mint a papucs.
-                És for­má­jára is, igaz-e kisasszony, gróf is eljárhatna benne. Igazis: a lányom
+				<p>- Igen restellem, Olajos úr, igen restellem, mentegetődzött. Dehát a
+                nem lehet is nagy úr, és...</p>
+				<p>- Nem baj, nem baj, - jóságoskodott Olajos, - a fő az, hogy megvan.</p>
+				<p>- És hogy jó. Tessék csak megpróbálni. Csossz, igaz-e: úgy megy fel, mint a papucs.
+                És formájára is, igaz-e kisasszony, gróf is eljárhatna benne. Igazis: a lányom
                 igen köszöni a szives figyelmet, Olajos úr. Délután eljön különben: akkor itthon
                 tetszik lenni úgye? Személyesen köszöni meg. No boldog volt.</p>
-            <p>Olajos elvörösödött.</p>
-            <p>- Szivesen, - rebegte, - szivesen.</p>
-            <p>- Csupa boldogság volt az a napja, - folytatta a varga, - a vőlegényéről is hír jött,
+				<p>Olajos elvörösödött.</p>
+				<p>- Szivesen, - rebegte, - szivesen.</p>
+				<p>- Csupa boldogság volt az a napja, - folytatta a varga, - a vőlegényéről is hír jött,
                 hogy nem halt meg. Nem ám, hálistennek. Nem. Az Estben olvastuk, hogy Kulcsár János
                 is ott van az orosz-földi foglyok között. Hát él, hálistennek. Igen derék fiú. Se
                 nem iszik, se nem kártyázik.</p>
-            <p>S elvonta az ujját az orra alatt.</p>
-            <p>Olajos nem szólt többet. Az arca egykedvü és szintelen volt, mint mindig.</p>
-            <p>Az anyja megfizette a cipő árát.</p>
-            <p>- Mi az, amit köszönt? - sápogta aztán Terka.</p>
-            <p>- Semmi, semmi, - felelte boszusan a vak. - Annyit beszéltek mindig, hogy
+				<p>S elvonta az ujját az orra alatt.</p>
+				<p>Olajos nem szólt többet. Az arca egykedvü és szintelen volt, mint mindig.</p>
+				<p>Az anyja megfizette a cipő árát.</p>
+				<p>- Mi az, amit köszönt? - sápogta aztán Terka.</p>
+				<p>- Semmi, semmi, - felelte boszusan a vak. - Annyit beszéltek mindig, hogy
                 szörnyüség!</p>
-            <p>A két nő elhallgatott. Sohse történt még, hogy Pista így rájok fakadt volna. Vélték,
+				<p>A két nő elhallgatott. Sohse történt még, hogy Pista így rájok fakadt volna. Vélték,
                 hogy a cipőt drágálja.</p>
-            <p>- Pista haragszik, - susogták künn aggodalmasan, - meg kellett volna alkudni a
+				<p>- Pista haragszik, - susogták künn aggodalmasan, - meg kellett volna alkudni a
                 vargával előre, s hogy Pistának csak a fele árát mondja. Gondolhattuk volna...</p>
-            <p>A vak ült a divánon, mint szokott, a botja a kezében. Mert otthon se tette le: hol
+				<p>A vak ült a divánon, mint szokott, a botja a kezében. Mert otthon se tette le: hol
                 könyökölt rajta, hol csak éppen hogy rajta volt a keze. Ült komolyan, hallgatagon.
                 Terka csak három óra tájt mert megszólalni:</p>
-            <p>- Négykor jön a szabó, Pista.</p>
-            <p>- Minek? - csodálkozott Olajos.</p>
-            <p>- Hát a fekete ruha... Hiszen te mondtad.</p>
-            <p>- Küldjétek el. Mondjátok hogy nem vagyok itthon. Majd veszünk, ha kell. Én már
-                meg­szoktam ezt a ruhát. És dolgom is van négykor a primásnál.</p>
-            <p>Benyult a mellénye zsebébe és megszólaltatta a zsebóráját. Még gyermekkorában kapta a
+				<p>- Négykor jön a szabó, Pista.</p>
+				<p>- Minek? - csodálkozott Olajos.</p>
+				<p>- Hát a fekete ruha... Hiszen te mondtad.</p>
+				<p>- Küldjétek el. Mondjátok hogy nem vagyok itthon. Majd veszünk, ha kell. Én már
+                megszoktam ezt a ruhát. És dolgom is van négykor a primásnál.</p>
+				<p>Benyult a mellénye zsebébe és megszólaltatta a zsebóráját. Még gyermekkorában kapta a
                 verőórát az apjától, mikor bevitték a vakok intézetébe.</p>
-            <p>- Cink-cink-cink, - szólt halkan az óra. S a negyedeket kettősen verte: - cilink,
+				<p>- Cink-cink-cink, - szólt halkan az óra. S a negyedeket kettősen verte: - cilink,
                 cilink.</p>
-            <p>Csakugyan fölkelt és elment. Vacsorára se tért meg. Éjszakára is elmaradt. Hajnalban
+				<p>Csakugyan fölkelt és elment. Vacsorára se tért meg. Éjszakára is elmaradt. Hajnalban
                 két cigány vezette haza.</p>
-            <p>A két nő bámulva látta, hogy Pista alig áll a lábán. A kalapja csupa por. A szemüveg
+				<p>A két nő bámulva látta, hogy Pista alig áll a lábán. A kalapja csupa por. A szemüveg
                 nincs a szemén.</p>
-            <p>- Jó kedve volt, - magyarázták röhögve a cigányok, - még poharakat is vagdosott a
+				<p>- Jó kedve volt, - magyarázták röhögve a cigányok, - még poharakat is vagdosott a
                 falhoz.</p>
-            <p>*</p>
-            <p>Olajos kissé zákányosan ébredt s jóval ebédnek utána.</p>
-            <p>A két nő aggódva nézegette. Bizonyára a cigányok itatták le, vagyhogy valami korhely
+				<p>*</p>
+				<p>Olajos kissé zákányosan ébredt s jóval ebédnek utána.</p>
+				<p>A két nő aggódva nézegette. Bizonyára a cigányok itatták le, vagyhogy valami korhely
                 vendég. Szegény Pista! Sohse történt meg efféle ővele.</p>
-            <p>Az ügy azonban még se látszott igen aggasztónak, mert hiszen Pista piros arccal kelt
+				<p>Az ügy azonban még se látszott igen aggasztónak, mert hiszen Pista piros arccal kelt
                 föl és legelőször is vizet kért.</p>
-            <p>- Még, - mondta, - még.</p>
-            <p>S ivott, csakúgy dőlt bele.</p>
-            <p>- Még. Ne pohárban add. A kancsót add ide. És micsoda pokoli fűtés ez itt! Ne
+				<p>- Még, - mondta, - még.</p>
+				<p>S ivott, csakúgy dőlt bele.</p>
+				<p>- Még. Ne pohárban add. A kancsót add ide. És micsoda pokoli fűtés ez itt! Ne
                 rakjatok annyit a kályhába!</p>
-            <p>Megitta mind a kancsóban volt vizet.</p>
-            <p>Terka aggódva nézte.</p>
-            <p>- Nem vagy beteg?</p>
-            <p>- Csak a fejem. Adj még vizet.</p>
-            <p>- No, - finnyálkodott Terka, - nem hiába, hogy korpa közé keveredtél.</p>
-            <p>Korholta az anyja is, míg öltözködött:</p>
-            <p>- Hát nincs neked magadhoz való eszed? Mondtad volna: - Köszönöm, nem szoktam. Ha
+				<p>Megitta mind a kancsóban volt vizet.</p>
+				<p>Terka aggódva nézte.</p>
+				<p>- Nem vagy beteg?</p>
+				<p>- Csak a fejem. Adj még vizet.</p>
+				<p>- No, - finnyálkodott Terka, - nem hiába, hogy korpa közé keveredtél.</p>
+				<p>Korholta az anyja is, míg öltözködött:</p>
+				<p>- Hát nincs neked magadhoz való eszed? Mondtad volna: - Köszönöm, nem szoktam. Ha
                 erőltettek, mondtad volna: - Kérem, ha szíves akar lenni irántam, ne kinálgasson:
                 vízivó vagyok. De talán nagyon is erőltettek? Vannak olyan erőszakos bolondok.
                 Erőltettek, úgye, és azért is csaptad a falhoz a poharat.</p>
-            <p>- A pénzed? - aggodalmaskodott Terka, - megvan-e a pénzed?</p>
-            <p>Olajos nem felelt a kérdésekre. A szokott mozdulatokkal öltözködött. A ruhája nem
+				<p>- A pénzed? - aggodalmaskodott Terka, - megvan-e a pénzed?</p>
+				<p>Olajos nem felelt a kérdésekre. A szokott mozdulatokkal öltözködött. A ruhája nem
                 olyan rendben volt a széken, ahogy ő szokta este odarakni, hát a két nő adogatta
                 reá.</p>
-            <p>Mind a két nő boszankodott.</p>
-            <p>- Te is ostobán viselkedtél, - mondta az anya, - mentül erőszakosabb valaki, antul
-                keményeb­ben pattogj vissza.</p>
-            <p>- Harminc fillér, - képedezett Terka, - csak harminc fillér van a zsebében. Oh, a
+				<p>Mind a két nő boszankodott.</p>
+				<p>- Te is ostobán viselkedtél, - mondta az anya, - mentül erőszakosabb valaki, antul
+                keményebben pattogj vissza.</p>
+				<p>- Harminc fillér, - képedezett Terka, - csak harminc fillér van a zsebében. Oh, a
                 gazemberek!</p>
-            <p>- A szemüveged? Hol a szemüveged?</p>
-            <p>Olajos ráncolgatta a szemöldökét, az arca rángatódzott:</p>
-            <p>- Hagyjuk már abba! - legyintett kedvetlenül, - nem szeretem a sok beszédet.</p>
-            <p>És az anya intett is a lányának, hogy hallgasson.</p>
-            <p>- Nem tehet róla, no, - dudált jószívvel - Pista nem cselekszik ostobán soha. Valaki
-                bele­so­dor­ta: miért ne is vigadna ő is, ha éppen kedve kerekedik reá. Nem baj,
+				<p>- A szemüveged? Hol a szemüveged?</p>
+				<p>Olajos ráncolgatta a szemöldökét, az arca rángatódzott:</p>
+				<p>- Hagyjuk már abba! - legyintett kedvetlenül, - nem szeretem a sok beszédet.</p>
+				<p>És az anya intett is a lányának, hogy hallgasson.</p>
+				<p>- Nem tehet róla, no, - dudált jószívvel - Pista nem cselekszik ostobán soha. Valaki
+                belesodorta: miért ne is vigadna ő is, ha éppen kedve kerekedik reá. Nem baj,
                 Pista, nem baj. Csakhogy bajod nem történt. Máskor óvatosabb leszel. Mit eszel most
                 már: ebédelsz-e velünk, vagy kávét adjunk?</p>
-            <p>- Ebédelek.</p>
-            <p>Tálaltak neki.</p>
-            <p>És Terka vidámabb mezőkre igyekezett terelni a vak öccs kedvét.</p>
-            <p>- No, sajnálhatod, hogy olyan korán elmentél tegnap: itt járt Etel. Köszönte, hogy
+				<p>- Ebédelek.</p>
+				<p>Tálaltak neki.</p>
+				<p>És Terka vidámabb mezőkre igyekezett terelni a vak öccs kedvét.</p>
+				<p>- No, sajnálhatod, hogy olyan korán elmentél tegnap: itt járt Etel. Köszönte, hogy
                 virágot küldtél a születésenapjára. Azt mondja: igen meghatotta, hogy van aki
-                gondolt reá. Soha éle­tében nem kapott virágot a születése napján. Vélem, hogy
+                gondolt reá. Soha életében nem kapott virágot a születése napján. Vélem, hogy
                 máskor se. Dehát honnan tudod te?</p>
-            <p>- Nem tudtam, csak küldtem, - felelte vállról Olajos.</p>
-            <p>- Hát véletlenül eltaláltad. Nem is tudtuk micsoda gavallér vagy te.</p>
-            <p>- Annál jobb, - szólalt meg az anyjok is, - talán Isten akarta, hogy öröme legyen
+				<p>- Nem tudtam, csak küldtem, - felelte vállról Olajos.</p>
+				<p>- Hát véletlenül eltaláltad. Nem is tudtuk micsoda gavallér vagy te.</p>
+				<p>- Annál jobb, - szólalt meg az anyjok is, - talán Isten akarta, hogy öröme legyen
                 szegénynek.</p>
-            <p>- Mert hogy gratuláltunk neki, - kapta át a szót Terka, - gratuláltunk a vőlegényét
+				<p>- Mert hogy gratuláltunk neki, - kapta át a szót Terka, - gratuláltunk a vőlegényét
                 illetőleg, akkor mondja, hogy vakhír volt. Nem nézték mingyárt az ujságban, hogy más
                 ezredbeli Kulcsár János az. Egy katonaismerősük mondta, hogy nem is lehetett volna
                 még őrmester.</p>
-            <p>A vak fölemelte az arcát:</p>
-            <p>- Más Kulcsár?</p>
-            <p>- Más. Az ő Kulcsárja bizonyosan meghalt. Irták is. Meg hogy attól fogva elmaradtak a
+				<p>A vak fölemelte az arcát:</p>
+				<p>- Más Kulcsár?</p>
+				<p>- Más. Az ő Kulcsárja bizonyosan meghalt. Irták is. Meg hogy attól fogva elmaradtak a
                 tábori kártyák.</p>
-            <p>Olajos fölemelte a szemöldökét:</p>
-            <p>- Siratja?</p>
-            <p>- Nem, csak éppen hogy kissé szomorkássá válik az arca.</p>
-            <p>Terka kiment a főzelékért. Az anyja beszélt tovább:</p>
-            <p>- Igen kedvemre való leány. Tudod-e, hogy a gondolatomat is említettem neki.</p>
-            <p>A vak beleejtette a kanalat is a levesébe.</p>
-            <p>- Mit? Hogy?</p>
-            <p>- Hát hogy mondok: - maga igen kedves, jó leány, Etelka: éppen ilyen leányt szeretnék
+				<p>Olajos fölemelte a szemöldökét:</p>
+				<p>- Siratja?</p>
+				<p>- Nem, csak éppen hogy kissé szomorkássá válik az arca.</p>
+				<p>Terka kiment a főzelékért. Az anyja beszélt tovább:</p>
+				<p>- Igen kedvemre való leány. Tudod-e, hogy a gondolatomat is említettem neki.</p>
+				<p>A vak beleejtette a kanalat is a levesébe.</p>
+				<p>- Mit? Hogy?</p>
+				<p>- Hát hogy mondok: - maga igen kedves, jó leány, Etelka: éppen ilyen leányt szeretnék
                 én a fiamnak.</p>
-            <p>A vak hátradőlt a székén. A szeme elnyíllott.</p>
-            <p>- És.. és...</p>
-            <p>- Hát elpirult, elmosolyodott.</p>
-            <p>- No és aztán?</p>
-            <p>- Hát aztán, mit is mondott? Igen: hát azt mondta, hogy azt mondja: - Dehiszen Olajos
+				<p>A vak hátradőlt a székén. A szeme elnyíllott.</p>
+				<p>- És.. és...</p>
+				<p>- Hát elpirult, elmosolyodott.</p>
+				<p>- No és aztán?</p>
+				<p>- Hát aztán, mit is mondott? Igen: hát azt mondta, hogy azt mondja: - Dehiszen Olajos
                 úr nem is ismer engem.</p>
-            <p>Olajos a haját rázta:</p>
-            <p>- Ismerem, ismerem! Azt kellett volna mondani: ismerem!</p>
-            <p>- Mink is azt mondtuk. Akivel az én fiam egyszer is beszélt, ismeri, száz ember közül
+				<p>Olajos a haját rázta:</p>
+				<p>- Ismerem, ismerem! Azt kellett volna mondani: ismerem!</p>
+				<p>- Mink is azt mondtuk. Akivel az én fiam egyszer is beszélt, ismeri, száz ember közül
                 is megismeri, ha szavát hallja.</p>
-            <p>- Dehát nem látszott rajta semmi? Valami megütközés vagy mi?</p>
-            <p>- Nem. Inkább azt mondta: Olajos úr igen derék ember. Kár érte...</p>
-            <p>Olajos az asztal szélére csapogatott a tenyerével:</p>
-            <p>- Nem <hi rend="italic">kár érte</hi>! - mondta szinte kiáltva. - Miért nem mondták,
+				<p>- Dehát nem látszott rajta semmi? Valami megütközés vagy mi?</p>
+				<p>- Nem. Inkább azt mondta: Olajos úr igen derék ember. Kár érte...</p>
+				<p>Olajos az asztal szélére csapogatott a tenyerével:</p>
+				<p>- Nem kár érte! - mondta szinte kiáltva. - Miért nem mondták,
                 hogy nem kár érte! Semmi bajom! Nekem nem hiányzik a szemem! Micsoda ostoba
                 vélemény, hogy a vak nem lát! A vak jobban lát, mint akárki! Csak épp a színek... De
                 mi a szín? Semmi! A fal csak fal, akár piros, akár kék! És a föld is akár piros akár
                 kék! A fal csak fal, a föld meg csak föld! A cigányok, ha pénzt különböztetnek,
                 engem választanak bírónak, hogy jó pénz-e vagy nem jó? Én csak a kezembe veszem:
                 megmondom egyszerre. Phű de meleg van itt!</p>
-            <p>Terka hozta az ételt. Az ajtóban megállt, hogy be tudja ismét csukni.</p>
-            <p>A vak izgatottan folytatta:</p>
-            <p>- Hát ahun áll Terka az ajtóban, és én már látom, mit hoz. Akinek szeme van, nem
+				<p>Terka hozta az ételt. Az ajtóban megállt, hogy be tudja ismét csukni.</p>
+				<p>A vak izgatottan folytatta:</p>
+				<p>- Hát ahun áll Terka az ajtóban, és én már látom, mit hoz. Akinek szeme van, nem
                 tudja ennyiről megmondani, mit hoz. Kelkáposztát hozol, igaz-e? És füstölt oldalas
                 van benne. Kint meg pogácsa sül, tepertős pogácsa. Igaz-e?</p>
-            <p>- Igaz, - mondta Terka a tálat letéve. - Node csuda, hogy te ennyiről megérzed!</p>
-            <p>A vak nem evett. Gondolkodva ült és hevesen dobolt a széke karfáján. Az arca piros
+				<p>- Igaz, - mondta Terka a tálat letéve. - Node csuda, hogy te ennyiről megérzed!</p>
+				<p>A vak nem evett. Gondolkodva ült és hevesen dobolt a széke karfáján. Az arca piros
                 volt. A szeme nyiladozott.</p>
-            <p>- Hát hozzám jönne? Mondta, hogy hozzám jönne?</p>
-            <p>- Nem, azt nem kérdezhettük így! - felelte Terka, és már jóakaratú hangon ő is, -
+				<p>- Hát hozzám jönne? Mondta, hogy hozzám jönne?</p>
+				<p>- Nem, azt nem kérdezhettük így! - felelte Terka, és már jóakaratú hangon ő is, -
                 ilyen egyszerre nem dőlhetünk be az ajtaján. De ha akarod, elmegyek hozzájok, úgyis
                 ferde a cipőm sarka. Megteszem neked, megteszem. Beszélek ővele is, - megteszem.</p>
-            <p>- Mit? Hogy?</p>
-            <p>- Hát csak annyit mondok neki, hogy említetted, hogy meglátogatnád.</p>
-            <p>- Jó, így igen jó! - kapott rajta Olajos, - és akkor mingyárt megtudjuk.</p>
-            <p>- Meg, - mondta nyugodtan Terka. - Ha nagyot néz és nem felel mingyárt, akkor nem
+				<p>- Mit? Hogy?</p>
+				<p>- Hát csak annyit mondok neki, hogy említetted, hogy meglátogatnád.</p>
+				<p>- Jó, így igen jó! - kapott rajta Olajos, - és akkor mingyárt megtudjuk.</p>
+				<p>- Meg, - mondta nyugodtan Terka. - Ha nagyot néz és nem felel mingyárt, akkor nem
                 látogatod meg. De ha készséggel rámondja, hogy szivesen lát...</p>
-            <p>- Akkor elmegyek hozzá! - toppant az asztal élére Olajos, - akkor elmegyek.</p>
-            <p>És föl is kelt, mintha máris indulna.</p>
-            <p>- Elmegyek hozzá, elmegyek. Dehát mikor, mikor? Ebédután. Mindjárt ebédután vidd a
+				<p>- Akkor elmegyek hozzá! - toppant az asztal élére Olajos, - akkor elmegyek.</p>
+				<p>És föl is kelt, mintha máris indulna.</p>
+				<p>- Elmegyek hozzá, elmegyek. Dehát mikor, mikor? Ebédután. Mindjárt ebédután vidd a
                 cipőd sarkát, vidd.</p>
-            <p>Leült a divánra. Az arca vörös volt, még a füle is. A két kezét a botján nyugosztva
+				<p>Leült a divánra. Az arca vörös volt, még a füle is. A két kezét a botján nyugosztva
                 mosolygott.</p>
-            <p>A két nő nézte.</p>
-            <p>Terka kiment a pogácsáért. Tányérba rakta. Az asztalra tette.</p>
-            <p>- Nem, hát ez ilyen hebehurgyán, ilyen kipem-kapom módjára nem történhet, -
-                aggodalmasko­dott az anya. - Az a leány, ha nem is idegenkedik tőled, de mégishát
+				<p>A két nő nézte.</p>
+				<p>Terka kiment a pogácsáért. Tányérba rakta. Az asztalra tette.</p>
+				<p>- Nem, hát ez ilyen hebehurgyán, ilyen kipem-kapom módjára nem történhet, -
+                aggodalmaskodott az anya. - Az a leány, ha nem is idegenkedik tőled, de mégishát
                 ilyen egyszerre...</p>
-            <p>Terka is meggondolkodott:</p>
-            <p>- Hát persze: tegnap délután járt nálunk, ma meg már azzal rohanjam meg, hogy Pista
-                meg­látogatná. A cipőm nem is annyira ferde: csak most kezd...</p>
-            <p>- Politikából se jó, - dudálta az anyjok, - nem jó mutatni, hogy annyira kapunk
+				<p>Terka is meggondolkodott:</p>
+				<p>- Hát persze: tegnap délután járt nálunk, ma meg már azzal rohanjam meg, hogy Pista
+                meglátogatná. A cipőm nem is annyira ferde: csak most kezd...</p>
+				<p>- Politikából se jó, - dudálta az anyjok, - nem jó mutatni, hogy annyira kapunk
                 rajta.</p>
-            <p>- Hogy mink ismerjük szerencsénknek, - biggyesztett Terka, - hadd lássuk, hogy ő érzi
-                szeren­cséjének. Kissé odasült ez a pogácsa.</p>
-            <p>- Vakard le a kormosát.</p>
-            <p>- Pista szereti, ha kissé kormos. Elvégre Pistának olyan a keresete, hogy ügyvédnek
+				<p>- Hogy mink ismerjük szerencsénknek, - biggyesztett Terka, - hadd lássuk, hogy ő érzi
+                szerencséjének. Kissé odasült ez a pogácsa.</p>
+				<p>- Vakard le a kormosát.</p>
+				<p>- Pista szereti, ha kissé kormos. Elvégre Pistának olyan a keresete, hogy ügyvédnek
                 se több. Éshát a megjelenése is uras. A művész mind úr, és Pista művész. Dehát
                 gyere: egyél legalább ebből a pogácsából.</p>
-            <p>- Jó leány vagy, - örvendezett Olajos, - jó testvér vagy. Gyere hadd csókoljalak meg.
+				<p>- Jó leány vagy, - örvendezett Olajos, - jó testvér vagy. Gyere hadd csókoljalak meg.
                 És az én tizenegy ezer koronám is legyen a tied. Hátha mégis férjhez mégy, legyen
                 móringod szép.</p>
-            <p>- Milyen jó vagy, - rebegte Terka, - Isten őrizz, hogy elfogadnám. Ha el nem vesznek
+				<p>- Milyen jó vagy, - rebegte Terka, - Isten őrizz, hogy elfogadnám. Ha el nem vesznek
                 magamért, a móringomért ne vegyen el senki. A pogácsámért ne vegyen el senki!</p>
-            <p>- Azt gondolnám, - dudálta az anya, - hogy az én papucsomat talpaltassuk meg.
+				<p>- Azt gondolnám, - dudálta az anya, - hogy az én papucsomat talpaltassuk meg.
                 Bizonyosan a leány fogja elhozni, és akkor meguzsonnáztatjuk.</p>
-            <p>Terka nevetett:</p>
-            <p>- Papucsot talpalni?... Iszen azt fogja izenni Kaszab, hogy azon a pénzen újat vehet
+				<p>Terka nevetett:</p>
+				<p>- Papucsot talpalni?... Iszen azt fogja izenni Kaszab, hogy azon a pénzen újat vehet
                 mama.</p>
-            <p>Olajos fölvetette a fejét:</p>
-            <p>- A szabó! - mondta izgatottan. - Fuss el Terka a szabóért!</p>
-            <p>*</p>
-            <p>Este nyolc után Olajost elvezette Terka a kávéház ajtajáig. Nappal nem szerette
+				<p>Olajos fölvetette a fejét:</p>
+				<p>- A szabó! - mondta izgatottan. - Fuss el Terka a szabóért!</p>
+				<p>*</p>
+				<p>Este nyolc után Olajost elvezette Terka a kávéház ajtajáig. Nappal nem szerette
                 vezetgetni, de este, ha síkos volt az utca, vagy havas, mégiscsak elkisérte. Aznap
                 is olvadt délben, és este meg fagyott.</p>
-            <p>Kilenckor már jelentkeztek a vendégek. A banda abbahagyta a vakolatrepesztő zenét:
-                figyel­mesebb játékba fogott. A primás széjjelpillantott olykor a vendégek asztalán,
+				<p>Kilenckor már jelentkeztek a vendégek. A banda abbahagyta a vakolatrepesztő zenét:
+                figyelmesebb játékba fogott. A primás széjjelpillantott olykor a vendégek asztalán,
                 és arcán. Csak kávé és sör járta még, és az asztalok körül csupa nyugodt helybeli
                 arcok voltak láthatók:</p>
-            <p>Egy tanár teát ivott. Egy öreg mérnök a városi orvossal sakkozott a belső sarokban
+				<p>Egy tanár teát ivott. Egy öreg mérnök a városi orvossal sakkozott a belső sarokban
                 nagy-dühös koppanatokkal. A pókhasú kávés ásítozva babrált az órája láncán, -
                 pecsétgyűrűvel nehezített lánc, vastag, nehéz arany. Unalom volt a kávésházban. Csak
-                a vén kasszás kisasszony rakos­gatta serényen a cukrot a kávétartóba.</p>
-            <p>- Egy teát, - hangzott olykor.</p>
-            <p>- Csáját vanillia nélkül, Kornél kisasszony.</p>
-            <p>Tíz óra felé négy idegen arcú hentesféle úr gömölygött be az ajtón. A prímás szeme
-                meg­villant. Visszaintett a bandának és egy két rántással befejezték a bécsi nótát.
-                A prímás hosszú fonálon kezdte: <hi rend="italic">Zsindelyezik a kaszárnya
-                    tetejét</hi>.</p>
-            <p>Az érkezettek oda se pillantottak. Vörös bort rendeltek hosszú palackokban és olyan
-                komo­lyan töltögettek egymásnak, mintha a véröket töltögetnék. A beszélgetésükből a
-                    <hi rend="italic">disznó</hi> és a <hi rend="italic">marha</hi> szó hallatszott
-                ki leggyakrabban: <hi rend="italic">sovány marha, sovány disznó, hízott disznó,
-                    kövér marha, tinó, ökör, szeszgyár</hi> és másefféle.</p>
-            <p>Az egyikük birtokosféle ember volt, kopasz a feje búbján. A két szemöldöke közt mély
+                a vén kasszás kisasszony rakosgatta serényen a cukrot a kávétartóba.</p>
+				<p>- Egy teát, - hangzott olykor.</p>
+				<p>- Csáját vanillia nélkül, Kornél kisasszony.</p>
+				<p>Tíz óra felé négy idegen arcú hentesféle úr gömölygött be az ajtón. A prímás szeme
+                megvillant. Visszaintett a bandának és egy két rántással befejezték a bécsi nótát.
+                A prímás hosszú fonálon kezdte: Zsindelyezik a kaszárnya
+                    tetejét.</p>
+				<p>Az érkezettek oda se pillantottak. Vörös bort rendeltek hosszú palackokban és olyan
+                komolyan töltögettek egymásnak, mintha a véröket töltögetnék. A beszélgetésükből a
+                    disznó és a marha szó hallatszott
+                ki leggyakrabban: sovány marha, sovány disznó, hízott disznó,
+                    kövér marha, tinó, ökör, szeszgyár és másefféle.</p>
+				<p>Az egyikük birtokosféle ember volt, kopasz a feje búbján. A két szemöldöke közt mély
                 ránc nyúlladt fel, a homlokát szinte kettéosztva. Igen szigorú volt attól az
                 arca.</p>
-            <p>- Hogy a sintér kapja el! - mondogatta olykor.</p>
-            <p>Vagy csak röviden:</p>
-            <p>- Hogy a sintér!</p>
-            <p>A cigányok pihentek kissé. Aztán a prímás az <hi rend="italic">Éva keringőbe</hi>
+				<p>- Hogy a sintér kapja el! - mondogatta olykor.</p>
+				<p>Vagy csak röviden:</p>
+				<p>- Hogy a sintér!</p>
+				<p>A cigányok pihentek kissé. Aztán a prímás az Éva keringőbe
                 fogott. Azokban a napokban tanulták, s Olajos volt a mesterük, mert a tanítójukat
                 elvitték katonának. A prímás egy helyen ingadozott is. Olajos azonnal megérezte, s a
                 primbe kapott. A vezérhanggá vált gordonkahang elnyomta egy percre a többi hangot
                 is, és bársonyosan emelkedett fölfelé.</p>
-            <p>A szigorú gazda odatekintett félvállról a pohár mellől. A cigányok is odatekintettek
+				<p>A szigorú gazda odatekintett félvállról a pohár mellől. A cigányok is odatekintettek
                 Olajosra. A prímás megtalálta a hangját és megint ő vezetett. Olajos
                 visszakanyarodott a kontrázó mélységekbe. S elvegyült a többi hangok közé.</p>
-            <p>Az idegen négy úr csak beszélgetett tovább:</p>
-            <p>- Sovány marha: jobb etetni. Kövér marha: jobb később. Hasznot leghajtóbb a
+				<p>Az idegen négy úr csak beszélgetett tovább:</p>
+				<p>- Sovány marha: jobb etetni. Kövér marha: jobb később. Hasznot leghajtóbb a
                 disznó.</p>
-            <p>A cigányok pihentek. A prímás szeme egy percre se térült el a négy idegenről.</p>
-            <p>- Pezsgőt! - mondta a szigorú arcú gazda.</p>
-            <p>A pincér pincsikutyaként gyorsalt a kassza felé:</p>
-            <p>- Pezsgőt, Kornél kisasszony, pezsgőt.</p>
-            <p>Kornél kisasszony lehajolt és egy ezüstvedret vont elő a kassza aljából.</p>
-            <p>A pókhasú kávés fölegyenesedve tekintett az idegenek asztala felé.</p>
-            <p>A prímáson mintha villam-áram futott volna végig. Fölkelt. Megkopogtatta a vonóval a
-                hegedű hátát. A cimbalmos végigcikázott a verővel a húrokon. A prímás rákezdte: <hi
-                    rend="italic">Szeretlek én egyetlen egy virágom</hi>. S a banda a bankó
+				<p>A cigányok pihentek. A prímás szeme egy percre se térült el a négy idegenről.</p>
+				<p>- Pezsgőt! - mondta a szigorú arcú gazda.</p>
+				<p>A pincér pincsikutyaként gyorsalt a kassza felé:</p>
+				<p>- Pezsgőt, Kornél kisasszony, pezsgőt.</p>
+				<p>Kornél kisasszony lehajolt és egy ezüstvedret vont elő a kassza aljából.</p>
+				<p>A pókhasú kávés fölegyenesedve tekintett az idegenek asztala felé.</p>
+				<p>A prímáson mintha villam-áram futott volna végig. Fölkelt. Megkopogtatta a vonóval a
+                hegedű hátát. A cimbalmos végigcikázott a verővel a húrokon. A prímás rákezdte:
+                Szeretlek én egyetlen egy virágom. S a banda a bankó
                 illatának teljes megérzésével vonta a gyönyörűt.</p>
-            <p>A szigorú úr megfordult:</p>
-            <p>- A kisbőgös primázzon.</p>
-            <p>A cigányokra mintha víz loccsant volna. Olajos is megrándult. Valamennyi hangszer
-                egy­szerre elhallgatott. A kontrás előre tette Olajosnak a székét. A cimbalmos
+				<p>A szigorú úr megfordult:</p>
+				<p>- A kisbőgös primázzon.</p>
+				<p>A cigányokra mintha víz loccsant volna. Olajos is megrándult. Valamennyi hangszer
+                egyszerre elhallgatott. A kontrás előre tette Olajosnak a székét. A cimbalmos
                 megfogta a karját és odavezette. Olajos rátapintott a szék vállára s leűlt. Az arca
-                kipirosodott. Megérintette a négy húrt, s rákezdte a gordonka szép baritonján: <hi
-                    rend="italic">Szeretlek én egyetlen egy...</hi>
-            </p>
-            <p>A kávéház elcsendesült. Kornél kisasszony is felkönyökölt a pultjára és púderos arcát
+                kipirosodott. Megérintette a négy húrt, s rákezdte a gordonka szép baritonján:
+                Szeretlek én egyetlen egy...</p>
+				<p>A kávéház elcsendesült. Kornél kisasszony is felkönyökölt a pultjára és púderos arcát
                 púderos mutatóujjára támasztotta. De a többi vendég is odanézett a feketepápaszemes
                 és nagyhajú gordonkásra. A csészék halkabban zörögtek. A kávés is megfordult egy
                 tekintetre az ajtóban. Csak a két sakkozó könyökölt változatlanúl komoran a sakk
                 mezején.</p>
-            <p>S a hang emelkedett meg leszállt a gordonkán a mélységek andalgóin. Olajos
+				<p>S a hang emelkedett meg leszállt a gordonkán a mélységek andalgóin. Olajos
                 le-lehajlott, s olyankor a haja előre omlott, olykor meg hátra vetette a haját s
                 megrázta. Sovány ujjai fürge póklábakként futkostak a húrokon. A vonójával hosszú
                 hangokat húzott elő. Olykor meg nagy hévvel csapott le, s a gordonka remegve,
-                olvadozó édes zokogással énekelte: <hi rend="italic">Eloszlik a tél zord
-                    hava...</hi>
-            </p>
-            <p>A cigányok halkan és csodálkozó szemmel kísérték a hangszereiken.</p>
-            <p>- Holló egyen meg, - hódolkodott a végén a prímás, - hát igaz-e, hogy mégis csak
+                olvadozó édes zokogással énekelte: Eloszlik a tél zord
+                    hava...</p>
+				<p>A cigányok halkan és csodálkozó szemmel kísérték a hangszereiken.</p>
+				<p>- Holló egyen meg, - hódolkodott a végén a prímás, - hát igaz-e, hogy mégis csak
                 fogott rajtad a tanításom.</p>
-            <p>*</p>
-            <p>Olajos a kocsiút szélén állt. Építkeztek a Főutcának azon a helyén, és ő ott a
+				<p>*</p>
+				<p>Olajos a kocsiút szélén állt. Építkeztek a Főutcának azon a helyén, és ő ott a
                 könyvesbolt előtt át szokott térni az utca másik járójára. Mert talicskák nyikogtak
                 ott az építkezésben és kövek zuhogtak: nem hallotta az eléje kerülők lábakopogását.
                 S meg is tolamlottak ott a járókelők a téglaszagú állványok alatt. Inkább
                 áttért.</p>
-            <p>Hát csak állt.</p>
-            <p>Fülelt jobbra-balra a kocsik zörgésére: mikor halkulnak. Megindul akkor a botjának
+				<p>Hát csak állt.</p>
+				<p>Fülelt jobbra-balra a kocsik zörgésére: mikor halkulnak. Megindul akkor a botjának
                 lejebb jártatásával hátra. Vagyhogy valami emberséges lélek karon fogja s átvezeti.
                 Nem mindig akad olyan szíves, de mégiscsak akad olykor-olykor. Többnyire férfiak, s
                 mindig csak úri férfiak, szivarszagú vagy otkolonszagú úriemberek. Nők ritkábban.
                 Akkor is csak falusi asszonyok. Gyermekek soha.</p>
-            <p>Az idő enyhe volt aznap. A nap ereje felszárította az aszfaltot. Csak a kocsiút
+				<p>Az idő enyhe volt aznap. A nap ereje felszárította az aszfaltot. Csak a kocsiút
                 nedveslett még és szaglott kellemetlenül. De hát az mindig olyan: nyáron porszagok,
                 télen sárszagok, télen-nyáron lószagok.</p>
-            <p>A kocsijárás végre elcsendesül, s Olajos meg is indul. De valami hordódugóra lép és
+				<p>A kocsijárás végre elcsendesül, s Olajos meg is indul. De valami hordódugóra lép és
                 az megzavarja. Megáll. Közben hallja, hogy jobbról a színház felől fiakernek a
                 robogása indul. Beletelik öt perc is míg a fiákerlovak odacsattognak. Át is juthatna
                 addig, de hátha több dugó is van ott elhányva?</p>
-            <p>- Visszatérek, - gondolja, - mégiscsak ott megyek át inkább az épülő ház
+				<p>- Visszatérek, - gondolja, - mégiscsak ott megyek át inkább az épülő ház
                 állványoszlopai között.</p>
-            <p>Tétován áll még, mielőtt indúlna.</p>
-            <p>- Törlőgumit kérek, feketét, - hangzik egy gyermekszó a megnyíló boltajtón át a
-                könyves­boltból.</p>
-            <p>...Megvárom, azt a fiakert, - gondolja Olajos.</p>
-            <p>S akkor érzi, hogy valaki suhogva közeledik s egyenesen őneki.</p>
-            <p>- Jónapot Olajos úr! - hangzik egy kedves hang.</p>
-            <p>S a hang tulajdonosa karon fogja. Liheg is kissé. Futott vagy sietett.</p>
-            <p>- Jónapot, - ismétli kedvesen, - a túlsó sorról láttam meg, hogy át akar térni. És
+				<p>Tétován áll még, mielőtt indúlna.</p>
+				<p>- Törlőgumit kérek, feketét, - hangzik egy gyermekszó a megnyíló boltajtón át a
+                könyvesboltból.</p>
+				<p>...Megvárom, azt a fiakert, - gondolja Olajos.</p>
+				<p>S akkor érzi, hogy valaki suhogva közeledik s egyenesen őneki.</p>
+				<p>- Jónapot Olajos úr! - hangzik egy kedves hang.</p>
+				<p>S a hang tulajdonosa karon fogja. Liheg is kissé. Futott vagy sietett.</p>
+				<p>- Jónapot, - ismétli kedvesen, - a túlsó sorról láttam meg, hogy át akar térni. És
                 ilyen nagy kocsijárásban! Hogy mer? No, jöjjön hát bátran. De mennyire örülök, hogy
                 találkoztunk. És hogy megköszönhetem a szegfűt. Igen kellemesen lepett meg. Nem is
                 tudom, hogy mivel szolgáltam rá? Maga jólelkű, igen jólelkű ember, Olajos úr. Meg
@@ -942,343 +939,343 @@
                 hallani a vendégek, csak magát, hogy csuda milyen gyönyörűen játszik. Örültem neki,
                 hogy hallottam. No Isten vele Olajos úr: a káposzta szinte kiabál már a
                 kosaramban.</p>
-            <p>Olajos piruldozott, mosolygott. Egy szó nem sok, annyit sem tudott szólani, csak épp
+				<p>Olajos piruldozott, mosolygott. Egy szó nem sok, annyit sem tudott szólani, csak épp
                 hogy a végén rebegte ő is:</p>
-            <p>- Isten vele Etelka.</p>
-            <p>*</p>
-            <p>Aznap ebédután Terkának el kellett mennie vargáékhoz a cipősarokkal, és hogy
+				<p>- Isten vele Etelka.</p>
+				<p>*</p>
+				<p>Aznap ebédután Terkának el kellett mennie vargáékhoz a cipősarokkal, és hogy
                 megköszönje Etelka szivességét. A vak zaklatta érte. Éshát, hogy áthívja Etelt
                 uzsonnára is.</p>
-            <p>A sarok mingyárt igazításba vevődik és Kaszabné szíves-hamar törölget egy széket ott
-                a műhely­ben.</p>
-            <p>- Bocsánatot kérünk, - nyájaskodik csillogó szemmel, - de a szoba tele van, vasal a
+				<p>A sarok mingyárt igazításba vevődik és Kaszabné szíves-hamar törölget egy széket ott
+                a műhelyben.</p>
+				<p>- Bocsánatot kérünk, - nyájaskodik csillogó szemmel, - de a szoba tele van, vasal a
                 leányom.</p>
-            <p>Etelka kikukkan a szobából.</p>
-            <p>- Óh... Alásszolgája kisasszony... Jaj, hát... Tessék talán, mégis idebe. Vasalok.
+				<p>Etelka kikukkan a szobából.</p>
+				<p>- Óh... Alásszolgája kisasszony... Jaj, hát... Tessék talán, mégis idebe. Vasalok.
                 Nagymosás volt, gőz van itt. De azért...</p>
-            <p>- Nem baj. Ugyis szeretnék magával is beszélni, Etelka. Uzsonnára hívtam volna át
+				<p>- Nem baj. Ugyis szeretnék magával is beszélni, Etelka. Uzsonnára hívtam volna át
                 hozzánk...</p>
-            <p>- Uzsonnára, - képedezik boldogan Kaszabné, - dehát ma...</p>
-            <p>Kaszab papucsot kap elő a cipőhalomból.</p>
-            <p>- Tessék addig.</p>
-            <p>A szoba valóban tele van frissen mángorolt fehérneművel és vasalógőzzel. Szentek a
+				<p>- Uzsonnára, - képedezik boldogan Kaszabné, - dehát ma...</p>
+				<p>Kaszab papucsot kap elő a cipőhalomból.</p>
+				<p>- Tessék addig.</p>
+				<p>A szoba valóban tele van frissen mángorolt fehérneművel és vasalógőzzel. Szentek a
                 falon szinte verejtékeznek. Kossuth Lajos szinte megmozdul, hogy levesse a
                 télikabátját.</p>
-            <p>- Pedig úgy szerettük volna, - sajnálkozott Terka. - Pista is otthon lesz. Mindig
+				<p>- Pedig úgy szerettük volna, - sajnálkozott Terka. - Pista is otthon lesz. Mindig
                 lesi-várja az alkalmat, hogy a maga kedvességét megköszönje.</p>
-            <p>- Ő, az én kedvességemet? Nekem kell az övét.</p>
-            <p>Egy székről félrerakták a fehérnemüt.</p>
-            <p>Etelka pirongott. Az anyja szinte dorombolt boldogságában.</p>
-            <p>- Bocsánat, - mondta, - nekem még mángorolnom kell: rövid a nappali világosság. És ma
+				<p>- Ő, az én kedvességemet? Nekem kell az övét.</p>
+				<p>Egy székről félrerakták a fehérnemüt.</p>
+				<p>Etelka pirongott. Az anyja szinte dorombolt boldogságában.</p>
+				<p>- Bocsánat, - mondta, - nekem még mángorolnom kell: rövid a nappali világosság. És ma
                 szombat van: nem maradhat.</p>
-            <p>A két lány magára maradt.</p>
-            <p>- Igen kedves volt, mondja Pista: igen kedves volt...</p>
-            <p>- Szót se érdemel, kisasszony, - mentegetődzött Etel, - láttam, hogy át akar menni a
+				<p>A két lány magára maradt.</p>
+				<p>- Igen kedves volt, mondja Pista: igen kedves volt...</p>
+				<p>- Szót se érdemel, kisasszony, - mentegetődzött Etel, - láttam, hogy át akar menni a
                 kocsiúton. Akárki is megtette volna. Nekem öröm az, ha szerencsétlenen...</p>
-            <p>- Nem ő, nem szerencsétlen, - vágott a szavába Terka, - valahogy ki ne ejtse ezt a
+				<p>- Nem ő, nem szerencsétlen, - vágott a szavába Terka, - valahogy ki ne ejtse ezt a
                 szót előtte! Borzasztóan bántja, ha valaki sajnálkozik rajta.</p>
-            <p>- Bántja? Aj, Isten ments akkor, hogy elcsússzon a szám. Pedig köztünk szólva, én
+				<p>- Bántja? Aj, Isten ments akkor, hogy elcsússzon a szám. Pedig köztünk szólva, én
                 olyan sajnálkozással nézem... Kár érte mégis: olyan szép fiatalember, nemes, nyugodt
                 arc, szinte olyan papi. És ma, ahogy kisértem, a szemét is néztem: nem látszik rajta
                 semmi baj.</p>
-            <p>- Nem. Sőt néha meg is nyitja a szemét, és akkor olyan, mintha látna. De azért ő
+				<p>- Nem. Sőt néha meg is nyitja a szemét, és akkor olyan, mintha látna. De azért ő
                 mindig látásról beszél. Ma délben is hogy megjött, mingyárt így ujságolt:</p>
-            <p>- Láttam Etelkát. A piacról ment haza. Káposztát vitt és húst. És bőrt is az
+				<p>- Láttam Etelkát. A piacról ment haza. Káposztát vitt és húst. És bőrt is az
                 apjának.</p>
-            <p>Etelka elbámult.</p>
-            <p>- Való igaz. Káposztát hoztam és húst a piacról, és két pár cipőre való talpbőrt. Hát
+				<p>Etelka elbámult.</p>
+				<p>- Való igaz. Káposztát hoztam és húst a piacról, és két pár cipőre való talpbőrt. Hát
                 akkor mégiscsak lát valamit.</p>
-            <p>- Lát, csak nem szemmel. Az utcán mindig tudja, miféle ember megy el mellette: úr-e,
+				<p>- Lát, csak nem szemmel. Az utcán mindig tudja, miféle ember megy el mellette: úr-e,
                 paraszt-e, asszony-e, férfi-e; gyermek-e, vagy gyermeket vivő asszony. Még azt is
                 megmondja, öreg-e vagy fiatal. Gyermekkorában is, mikor még falun laktunk, mindig
                 megmondta, ki ment el a ház előtt. Pedig ott nincs aszfalt. Bóta bácsi ment erre.
                 Vagy Czapekné ment erre. Vagy: Szücs Jani futott el előttünk. Sokszor kérdeztük: hát
                 hogy tudod? Hiszen Szücs Jani mezítláb jár. A vállát vonogatta: - Nem tudom, csak
                 tudom.</p>
-            <p>- Különös.</p>
-            <p>- Az. És azért is nem érti, hogy sajnáljuk. Én teljes életemben csak egyszer
-                hallottam tőle ezt a kérdést: <hi rend="italic">milyen</hi>? A hegedűnek a hangjait
+				<p>- Különös.</p>
+				<p>- Az. És azért is nem érti, hogy sajnáljuk. Én teljes életemben csak egyszer
+                hallottam tőle ezt a kérdést: milyen? A hegedűnek a hangjait
                 kérdezte. Igen nevettük. Vélte, hogy valami ide-oda szállongó szép látnivalók azok a
-                hangok. Még akkor gyerek volt: nyolc éves. A kántor hege­dült néha a szomszédunkban.
+                hangok. Még akkor gyerek volt: nyolc éves. A kántor hegedült néha a szomszédunkban.
                 És hogy ő meghallotta, ha pillangók röppentek is el mellette, vélte, hogy a
                 hegedűhangok is valami affélék. Mikor aztán mondtuk neki, hogy mink se látjuk a
                 hangokat és maga a kántor se látja, nem irigyelte többé a látásunkat. Ámbátor talán
                 most... Most halljuk tőle másodszor ezt a kérdést: milyen? Magát kérdezi vele
                 Etelka, magát.</p>
-            <p>Etelka megint megállt a vasalóval. Csodálkozott, mosolygott, pillogott.</p>
-            <p>- Kérdez?</p>
-            <p>- De mennyire! El kellett mondanunk apróra. Persze ő nem érinthette meg a maga arcát.
+				<p>Etelka megint megállt a vasalóval. Csodálkozott, mosolygott, pillogott.</p>
+				<p>- Kérdez?</p>
+				<p>- De mennyire! El kellett mondanunk apróra. Persze ő nem érinthette meg a maga arcát.
                 Ha valaki arcán végigjártatja az ujjai hegyét, attólfogva ő jobban látja, mint a
                 látó.</p>
-            <p>Etelka a fejét rázta. Mosolygott.</p>
-            <p>- Érdekes. Dehát mit mondtak neki; milyen vagyok? Mondták úgy-e, hogy csúnya vagyok,
+				<p>Etelka a fejét rázta. Mosolygott.</p>
+				<p>- Érdekes. Dehát mit mondtak neki; milyen vagyok? Mondták úgy-e, hogy csúnya vagyok,
                 szeplős?</p>
-            <p>És szomorkás mosolygással hajol a vasalójára.</p>
-            <p>Kaszab benyitott a cipővel.</p>
-            <p>- Tessék.</p>
-            <p>- Mit kóstál?</p>
-            <p>- Semmit se kóstál. Ilyen csekélységekért nem fizettetek a kedves feleimmel.</p>
-            <p>- Hát igen köszönöm. Etelka tán mégis szabadulhatna: elbocsátják ugye?</p>
-            <p>Kaszab elmosolyodva nézett a leányra:</p>
-            <p>- Ha a dolga is bocsátja...</p>
-            <p>És Terkára is nézett. Az ujját elvonta az orra alatt. S visszasietett a
+				<p>És szomorkás mosolygással hajol a vasalójára.</p>
+				<p>Kaszab benyitott a cipővel.</p>
+				<p>- Tessék.</p>
+				<p>- Mit kóstál?</p>
+				<p>- Semmit se kóstál. Ilyen csekélységekért nem fizettetek a kedves feleimmel.</p>
+				<p>- Hát igen köszönöm. Etelka tán mégis szabadulhatna: elbocsátják ugye?</p>
+				<p>Kaszab elmosolyodva nézett a leányra:</p>
+				<p>- Ha a dolga is bocsátja...</p>
+				<p>És Terkára is nézett. Az ujját elvonta az orra alatt. S visszasietett a
                 műhelyébe.</p>
-            <p>- Nem, hát most nem lehet, - mentegetődzött Etelka, - köszönöm, ma nem lehet. Hiszen
+				<p>- Nem, hát most nem lehet, - mentegetődzött Etelka, - köszönöm, ma nem lehet. Hiszen
                 láthatja...</p>
-            <p>- Hát akkor holnap. Holnap: vasárnap.</p>
-            <p>- Holnap? - pillogott Etel, mintha a holnap szó valami soha nem hallott csodálatos
+				<p>- Hát akkor holnap. Holnap: vasárnap.</p>
+				<p>- Holnap? - pillogott Etel, mintha a holnap szó valami soha nem hallott csodálatos
                 szó volna, - holnap? Nem, most már hát holnap se mehetek. Ha nem mondta volna
                 kisasszony, hogy Olajos úr olyan szívesen érdeklődik... Nem, így nem lehet most
                 már...</p>
-            <p>És szemérmesen vonta föl a fél vállát.</p>
-            <p>- És ha ő jönne el magáért? Ha ő kísérné át hozzánk?</p>
-            <p>Etelka hosszan pillogva mélyedt el a vasalásba.</p>
-            <p>- Nem tudom, - szólalt meg végre, - de nem: az se lehet. Ha kisasszony nem mondta
+				<p>És szemérmesen vonta föl a fél vállát.</p>
+				<p>- És ha ő jönne el magáért? Ha ő kísérné át hozzánk?</p>
+				<p>Etelka hosszan pillogva mélyedt el a vasalásba.</p>
+				<p>- Nem tudom, - szólalt meg végre, - de nem: az se lehet. Ha kisasszony nem mondta
                 volna, hogy Olajos úr olyan szivesen érdeklődik... Nem, nem lehet... Nem illik, hogy
                 odamenjek. De ugye mondták neki, hogy csunya vagyok, szeplős?</p>
-            <p>- Dehogy mondtuk. Inkább azt mondtuk, hogy szép. Mit is beszél maga csunyaságról?</p>
-            <p>- Tudom milyen vagyok. És az a szerencsétlenség, hogy éppen az arcom... Tessék nézni
+				<p>- Dehogy mondtuk. Inkább azt mondtuk, hogy szép. Mit is beszél maga csunyaságról?</p>
+				<p>- Tudom milyen vagyok. És az a szerencsétlenség, hogy éppen az arcom... Tessék nézni
                 a karomat: sehol énrajtam egy szeplő, csak éppen az arcomon.</p>
-            <p>- Azt el lehet puderozni. Krém is van olyan.</p>
-            <p>- Iszen csak az kellene: puder és krém a mi házunkban. Csak az legyen, amit a
+				<p>- Azt el lehet puderozni. Krém is van olyan.</p>
+				<p>- Iszen csak az kellene: puder és krém a mi házunkban. Csak az legyen, amit a
                 miatyánkban kérünk. Nem mondták Olajos úrnak, hogy szeplős vagyok? Jobb ha
                 megmondják.</p>
-            <p>- Bánja is ő. Ő csak a hangját látja magának. Most már hát mégis teljesült szegénynek
+				<p>- Bánja is ő. Ő csak a hangját látja magának. Most már hát mégis teljesült szegénynek
                 az az óhajtása, hogy lássa a hangokat. De mondja meg Etel nyilt szívvel, hogy
                 idegenkedik... a vaktól.</p>
-            <p>- Isten ments! - rándult meg Etelka. - Nekem nagyon is kedves úriember. Óh Istenem,
+				<p>- Isten ments! - rándult meg Etelka. - Nekem nagyon is kedves úriember. Óh Istenem,
                 hogy mondhatott ilyet kisasszony? Iszen már az első találkozásunkban úgy éreztem,
                 mintha a szegény kis csókám volna. Oh bocsánat... nem csókám, hanem hogy az jutott
                 eszembe akkor. Vagyhogy nem is az jutott eszembe, hanem... én mindenkit testvéremnek
                 érzek, aki...</p>
-            <p>És nevetve rázta meg a fejét.</p>
-            <p>- Ma minden összebonyolódik a fejemben.</p>
-            <p>Terka úgy nézett, mint az órás a zsebóra belsejébe.</p>
-            <p>- Hát így, - mondta, - ha a testvére, a mi Pistánk úgy véletlenül bebotlana ide...
+				<p>És nevetve rázta meg a fejét.</p>
+				<p>- Ma minden összebonyolódik a fejemben.</p>
+				<p>Terka úgy nézett, mint az órás a zsebóra belsejébe.</p>
+				<p>- Hát így, - mondta, - ha a testvére, a mi Pistánk úgy véletlenül bebotlana ide...
                 mondjuk: holnap délután három órakor, itthon találná magát?</p>
-            <p>Etelka már akkor ismét komolykán hajlott a vasalóra.</p>
-            <p>- Istenem, - mondta elmosolyodva, de mély pillantással maga elé, - hát mért ne
+				<p>Etelka már akkor ismét komolykán hajlott a vasalóra.</p>
+				<p>- Istenem, - mondta elmosolyodva, de mély pillantással maga elé, - hát mért ne
                 találna otthon.</p>
-            <p>Olajos azon az estén mégszebben muzsikált. Vigadó vendég nem volt, de a cigányok
+				<p>Olajos azon az estén mégszebben muzsikált. Vigadó vendég nem volt, de a cigányok
                 maguk kinálták Olajosnak, hogy szólózzon. S kétszer is. És látszott, hogy most már
                 ez minden este így lesz. Ha kedve kerekedik valamelyik vendégnek, - hadd ismerjék a
-                remeklő kezű kis­bőgőst.</p>
-            <p>Olajos mégis nyugtalanul aludt azon az éjszakán. Másnapra a szokottnál is korábban
+                remeklő kezű kisbőgőst.</p>
+				<p>Olajos mégis nyugtalanul aludt azon az éjszakán. Másnapra a szokottnál is korábban
                 kelt.</p>
-            <p>- Meleg vizet, - volt az első szava, - és a beretvámat.</p>
-            <p>Maga szokott beretválkozni, gereblyés beretvával. Nem tükör előtt persze, de
+				<p>- Meleg vizet, - volt az első szava, - és a beretvámat.</p>
+				<p>Maga szokott beretválkozni, gereblyés beretvával. Nem tükör előtt persze, de
                 hibátlanul.</p>
-            <p>- A fekete ruhámat! - mondta beretválkozás után. - Terka fuss a boltba, és hozz nekem
+				<p>- A fekete ruhámat! - mondta beretválkozás után. - Terka fuss a boltba, és hozz nekem
                 egy szép nyakkendőt, selymet. A legszebbet, legsimábbat, legdrágábbat. Te Terka,
                 virágot is végy! Eregy be a virágosboltba: van már jácint is. Egy szép nagy
                 jácint-csokrot...</p>
-            <p>- Ugyan, hova gondolsz. Nem illik most még. Először mégy oda, és mingyárt jácintot
+				<p>- Ugyan, hova gondolsz. Nem illik most még. Először mégy oda, és mingyárt jácintot
                 vinnél. Éppen jácintból szoktak csokrot csinálni! S ha szoktak volna is... Hátha nem
                 is fogadnak olyan szivesen, mint gondolod.</p>
-            <p>A vak megdöbbent:</p>
-            <p>- Nem fogadnak szivesen?</p>
-            <p>- Megtörténhetik, hogy nem fogadnak szivesen. Dehát bizonyos, hogy szivesen
+				<p>A vak megdöbbent:</p>
+				<p>- Nem fogadnak szivesen?</p>
+				<p>- Megtörténhetik, hogy nem fogadnak szivesen. Dehát bizonyos, hogy szivesen
                 fogadnak.</p>
-            <p>Olajos fel és alá járt ebédig a szoba futószőnyegén, mintha a déli órával hamarabb
+				<p>Olajos fel és alá járt ebédig a szoba futószőnyegén, mintha a déli órával hamarabb
                 találkozna, ha eléje sétál. S meg-megpengette az óráját.</p>
-            <p>- A szülőkkel is kellett volna beszélned, - szólalt meg egyszer szigorúan, - ezt
+				<p>- A szülőkkel is kellett volna beszélned, - szólalt meg egyszer szigorúan, - ezt
                 elmulasztottad!</p>
-            <p>- Ugyan ne aggodalmaskodj, - pattant reá Terka, - hiszen majd elolvadt az apja, mikor
+				<p>- Ugyan ne aggodalmaskodj, - pattant reá Terka, - hiszen majd elolvadt az apja, mikor
                 mondtam, hogy uzsonnára hívom a leányát.</p>
-            <p>- De hát az anyja.</p>
-            <p>- Az anyja meg hatszor mondta: <hi rend="italic">Kezét csókolom</hi>. Még neked is
+				<p>- De hát az anyja.</p>
+				<p>- Az anyja meg hatszor mondta: Kezét csókolom. Még neked is
                 azt mondja majd.</p>
-            <p>A vak pillogott.</p>
-            <p>- Milyen asszony?</p>
-            <p>- Semilyen. Mint a sárvakaró. Boldog, ha hozzátörlöd a cipődet.</p>
-            <p>Olajos mosolyogva rázta a fejét.</p>
-            <p>- No, hegyes a nyelved! Ha te volnál vargáné, az urad ár helyett azzal varrna. Hát
+				<p>A vak pillogott.</p>
+				<p>- Milyen asszony?</p>
+				<p>- Semilyen. Mint a sárvakaró. Boldog, ha hozzátörlöd a cipődet.</p>
+				<p>Olajos mosolyogva rázta a fejét.</p>
+				<p>- No, hegyes a nyelved! Ha te volnál vargáné, az urad ár helyett azzal varrna. Hát
                 nem baj nekik, hogy vak vagyok?</p>
-            <p>- Ugyan ne kicsinyeskedj. Ha baj volna, csak neked volna baj, akkor is.</p>
-            <p>A vak a fejét rázta:</p>
-            <p>- Nekem nem baj, csak kint mikor járok, néha a cipőm orrán szeretném, ha volna
+				<p>- Ugyan ne kicsinyeskedj. Ha baj volna, csak neked volna baj, akkor is.</p>
+				<p>A vak a fejét rázta:</p>
+				<p>- Nekem nem baj, csak kint mikor járok, néha a cipőm orrán szeretném, ha volna
                 szemem. De más cipőjén se tudok affélét.</p>
-            <p>Elütött a füle mellett.</p>
-            <p>- Már légy is van? Március elején? Bizonyosan a fás kosárban hozták be.</p>
-            <p>Aztán csak ebédnél szólalt meg ismét:</p>
-            <p>- Horváth Atilla is vak, - mondta, mintha hangosan gondolkodna, - és világhírű
+				<p>Elütött a füle mellett.</p>
+				<p>- Már légy is van? Március elején? Bizonyosan a fás kosárban hozták be.</p>
+				<p>Aztán csak ebédnél szólalt meg ismét:</p>
+				<p>- Horváth Atilla is vak, - mondta, mintha hangosan gondolkodna, - és világhírű
                 művésze a zongorának. Hát Edvi Illés: híres ügyvéd és vezércikkek írója. És Milton
                 is vak volt. Olvastad te, Terka? Igen jeles könyvet írt. Én sem olvastam. De igen
                 nagy költő volt az a Milton. Lehet, hogy mellékesen az is ügyvédkedett.</p>
-            <p>Három óra tájban azt tudakolta, hogy a toronyóra nem jár-e előbbre?</p>
-            <p>Három órakor megrándult:</p>
-            <p>- Bajuszpedrőt! - kiáltotta, mintha tüzet kiáltana, - adjatok bajuszpedrőt!</p>
-            <p>A két nő nevetett:</p>
-            <p>- Csak nem gondolod, hogy mink bajuszpedrőt is fogyasztunk?</p>
-            <p>- Hát az öcsémnek nem volt?</p>
-            <p>- Nem. Nem divat az már. Hogy jut eszedbe?</p>
-            <p>- Rendetlen a bajuszom.</p>
-            <p>- Dehogy rendetlen. Nincs neked olyan nagy bajuszod. De ha akarod, felkanyarítom a
+				<p>Három óra tájban azt tudakolta, hogy a toronyóra nem jár-e előbbre?</p>
+				<p>Három órakor megrándult:</p>
+				<p>- Bajuszpedrőt! - kiáltotta, mintha tüzet kiáltana, - adjatok bajuszpedrőt!</p>
+				<p>A két nő nevetett:</p>
+				<p>- Csak nem gondolod, hogy mink bajuszpedrőt is fogyasztunk?</p>
+				<p>- Hát az öcsémnek nem volt?</p>
+				<p>- Nem. Nem divat az már. Hogy jut eszedbe?</p>
+				<p>- Rendetlen a bajuszom.</p>
+				<p>- Dehogy rendetlen. Nincs neked olyan nagy bajuszod. De ha akarod, felkanyarítom a
                 hegyét a sütővasammal.</p>
-            <p>- Kanyarítsd.</p>
-            <p>Négy óráig egyre a bajuszát tapogatta. De a nyakkendőjét is. Haját is. Egyszer azt
+				<p>- Kanyarítsd.</p>
+				<p>Négy óráig egyre a bajuszát tapogatta. De a nyakkendőjét is. Haját is. Egyszer azt
                 kérdezte: Nincs-e pehely a ruháján? A zseb óráját minden percben verette:
                 cink-cink-cink, cilink, cilink.</p>
-            <p>- Mingyárt négy óra.</p>
-            <p>Az idő borult volt aznap. A februárvégi hó már az előbbi napokban elolvadt. A
+				<p>- Mingyárt négy óra.</p>
+				<p>Az idő borult volt aznap. A februárvégi hó már az előbbi napokban elolvadt. A
                 levegőben a nyirkos kövezet szaga érzett. Olajos óvatosan lépegetett, nehogy
                 besározódjon a cipője.</p>
-            <p>- Kár, hogy el nem hozhattam a gordonkámat, - szólalt meg útközben.</p>
-            <p>Aztán kisidőre rá megint:</p>
-            <p>- Majd muzsikál ő: az ő hangja olyan, mint a muzsika.</p>
-            <p>Megint kisidő mulván:</p>
-            <p>- Mégis csak kellett volna virágot hoznom. Illik, nem illik, az én érzésem azt
+				<p>- Kár, hogy el nem hozhattam a gordonkámat, - szólalt meg útközben.</p>
+				<p>Aztán kisidőre rá megint:</p>
+				<p>- Majd muzsikál ő: az ő hangja olyan, mint a muzsika.</p>
+				<p>Megint kisidő mulván:</p>
+				<p>- Mégis csak kellett volna virágot hoznom. Illik, nem illik, az én érzésem azt
                 mondja, hogy illik.</p>
-            <p>- Nem illik! - felelte határozottan Terka.</p>
-            <p>Olajos aztán csak a kapuban szólott megint.</p>
-            <p>- Nincs-e valami hiba rajtam?</p>
-            <p>S tapintotta keztyűjére: be van-e gombolva. Tapintott a bajuszára is. Szimatolt. Az
+				<p>- Nem illik! - felelte határozottan Terka.</p>
+				<p>Olajos aztán csak a kapuban szólott megint.</p>
+				<p>- Nincs-e valami hiba rajtam?</p>
+				<p>S tapintotta keztyűjére: be van-e gombolva. Tapintott a bajuszára is. Szimatolt. Az
                 udvarból füstszag ereszkedett kifelé, noha látónak semmiféle füst nem volt
                 látható.</p>
-            <p>Terka benyitotta az utca ajtaját:</p>
-            <p>- Vigyázz: itt lelépünk. Folyosóra.</p>
-            <p>A vak letapintott a botjával s lelépett. Abban a percben megnyílt az egyik udvari
+				<p>Terka benyitotta az utca ajtaját:</p>
+				<p>- Vigyázz: itt lelépünk. Folyosóra.</p>
+				<p>A vak letapintott a botjával s lelépett. Abban a percben megnyílt az egyik udvari
                 ajtó, és Etelka röppent eléjük.</p>
-            <p>- Isten hozta kisasszony! Isten hozta kedves Olajos úr.</p>
-            <p>S gyöngéden megszorította a vak kezét.</p>
-            <p>- Itt már én vezetem, - duruzsolt, mint a meleg kályha, - én, én.</p>
-            <p>S a vak karját a magáéba illesztette.</p>
-            <p>- Csak bátran, Olajos úr. Itt a küszöbnél lelépünk. A konyha ez, és...</p>
-            <p>- Tudom, - örvendett Olajos, - tudom. A sporhert amott van, és a műhelyajtó emerre.
+				<p>- Isten hozta kisasszony! Isten hozta kedves Olajos úr.</p>
+				<p>S gyöngéden megszorította a vak kezét.</p>
+				<p>- Itt már én vezetem, - duruzsolt, mint a meleg kályha, - én, én.</p>
+				<p>S a vak karját a magáéba illesztette.</p>
+				<p>- Csak bátran, Olajos úr. Itt a küszöbnél lelépünk. A konyha ez, és...</p>
+				<p>- Tudom, - örvendett Olajos, - tudom. A sporhert amott van, és a műhelyajtó emerre.
                 Sohse jártam itt, de azért betalálnék magam is a szobába.</p>
-            <p>- Csodálatos - lelkesedett Etel, - csodálatos. El nem lehetne hinni...</p>
-            <p>Csak az anyja volt otthon. Mentegetődzött, hogy az urának el kellett mennie az
+				<p>- Csodálatos - lelkesedett Etel, - csodálatos. El nem lehetne hinni...</p>
+				<p>Csak az anyja volt otthon. Mentegetődzött, hogy az urának el kellett mennie az
                 iparoskörbe. A bőr annyira megdrágult, hogy most mindig azon tanácskoznak.</p>
-            <p>- Tessék ide a divánra, - biztatta a vakot Etel, - kisasszony is tessék.</p>
-            <p>- Nem, maga üljön oda az öcsém mellé. Hiszen magával szeret ő beszélgetni. Vagyishát
+				<p>- Tessék ide a divánra, - biztatta a vakot Etel, - kisasszony is tessék.</p>
+				<p>- Nem, maga üljön oda az öcsém mellé. Hiszen magával szeret ő beszélgetni. Vagyishát
                 mit magázzuk mink egymást, Etel? Akarod?</p>
-            <p>És megcsókolta Etelt.</p>
-            <p>- Nehéz lesz megszoknom, - szemérmeskedett Etel, - te igen jó vagy. Valamennyien jók
+				<p>És megcsókolta Etelt.</p>
+				<p>- Nehéz lesz megszoknom, - szemérmeskedett Etel, - te igen jó vagy. Valamennyien jók
                 vagytok. És Olajos úrnak is az arcán a jóság.</p>
-            <p>Olajos űlt a divánon és mosolygott.</p>
-            <p>A botját elvette Etel és ez némiképpen zavarta. Maga mellé tapintott a divánra, -
-                felcsere­pesedett viaszos-vászon diván, - és mosolygott, szimatolt.</p>
-            <p>- Nem, - szólalt meg a haját rázva, - csak maga jó, Etelka. Mikor először
+				<p>Olajos űlt a divánon és mosolygott.</p>
+				<p>A botját elvette Etel és ez némiképpen zavarta. Maga mellé tapintott a divánra, -
+                felcserepesedett viaszos-vászon diván, - és mosolygott, szimatolt.</p>
+				<p>- Nem, - szólalt meg a haját rázva, - csak maga jó, Etelka. Mikor először
                 találkoztunk is, mingyárt éreztem. Mert tudtam én, hogy ott ládák vannak. A ládáknak
                 ládaszaguk van. És betűszaguk. Valami kátránnyal vagy mivel írnak a ládára. Éreztem
                 és tudtam, hogy már csak hat lépés és a botom hegye ládába koppan.</p>
-            <p>Sohse szokott annyit beszélni egyszerre, de akkor mintha megoldták volna a nyelvét.
+				<p>Sohse szokott annyit beszélni egyszerre, de akkor mintha megoldták volna a nyelvét.
                 Az arca piros volt és Etelnek fordulva beszélt:</p>
-            <p>- De azért jólesett a maga szivessége, jólesett. És ma is akartam hozni virágot, de
+				<p>- De azért jólesett a maga szivessége, jólesett. És ma is akartam hozni virágot, de
                 -</p>
-            <p>- A bolt zárva volt, - csapta el a szót Terka, - már zárva volt.</p>
-            <p>Olajos meghökkent. Pillogott.</p>
-            <p>Etel elpirultan nézte:</p>
-            <p>- Oh köszönöm, - mondta melegen, - a gondolatot is köszönöm, hiszen a multkor se
-                érdemel­tem meg azokat a gyönyörü szegfüket. Egyet lepréseltem és eltettem
+				<p>- A bolt zárva volt, - csapta el a szót Terka, - már zárva volt.</p>
+				<p>Olajos meghökkent. Pillogott.</p>
+				<p>Etel elpirultan nézte:</p>
+				<p>- Oh köszönöm, - mondta melegen, - a gondolatot is köszönöm, hiszen a multkor se
+                érdemeltem meg azokat a gyönyörü szegfüket. Egyet lepréseltem és eltettem
                 emlékül.</p>
-            <p>Olajos mosolygott. Terka felé tekintett, hogy mit mondjon erre? De Terka hallgatott,
+				<p>Olajos mosolygott. Terka felé tekintett, hogy mit mondjon erre? De Terka hallgatott,
                 és a beszélgetésbe szünet szakadt. Csak a falióra tik-takolt sietős tik-takkal.</p>
-            <p>Olajos megtapintotta a bajuszát.</p>
-            <p>- Csuda, hogy télen, - szólalt meg Kaszabné, - hogy hogyan virágzik télen is
+				<p>Olajos megtapintotta a bajuszát.</p>
+				<p>- Csuda, hogy télen, - szólalt meg Kaszabné, - hogy hogyan virágzik télen is
                 néhol?</p>
-            <p>Fölkelt és a sublóthoz ment. Egy üveg vörös bort tett az asztalra és egy poharat. S
+				<p>Fölkelt és a sublóthoz ment. Egy üveg vörös bort tett az asztalra és egy poharat. S
                 nyájasan mosolygott.</p>
-            <p>- Köszönjük, - mondta Terka, - de az öcsém nem iszik.</p>
-            <p>- Nem, - rázta a fejét a vak, - csak vizet. Víz a legjobb. Horváth Atilla se iszik
+				<p>- Köszönjük, - mondta Terka, - de az öcsém nem iszik.</p>
+				<p>- Nem, - rázta a fejét a vak, - csak vizet. Víz a legjobb. Horváth Atilla se iszik
                 bort. Horváth Atilla tanárom volt nekem. Ő is vak. De jeles művész. Világhírű.
                 Zongorán. A Vigadóban szokott lenni a koncertje, és grófok, hercegek is hallgatják.
                 Az nem baj őneki, hogy vak. Egy híres ügyvéd is van Pesten, aki vak. Ügyvéd és író:
                 Edvi Illés. Olvassák ugye a cikkeit?</p>
-            <p>- Az uram bizonyosan olvassa, - vélekedett Kaszabné, - az iparoskörben olvasnak
+				<p>- Az uram bizonyosan olvassa, - vélekedett Kaszabné, - az iparoskörben olvasnak
                 politikát. Az én uram igen érti a politikát. Mindig politikáz itthon is. Igaz-e
                 Etel?</p>
-            <p>- Akkor olvassa, - biccentett örömmel Olajos.</p>
-            <p>- Dehát hogyan? - csodálkozott Etelka, - hogyan ír az az Edvi Illés? Hogyan mártja
+				<p>- Akkor olvassa, - biccentett örömmel Olajos.</p>
+				<p>- Dehát hogyan? - csodálkozott Etelka, - hogyan ír az az Edvi Illés? Hogyan mártja
                 meg a tollát? és hogyan...</p>
-            <p>Olajos mosolygott:</p>
-            <p>- Írógépen: kopp-kopp.</p>
-            <p>- Írógépen, - bizonyított Terka is, - én is írógépen írok.</p>
-            <p>- Persze, persze, - mondta rá Etelka, - hogyan nem gondoltam rá.</p>
-            <p>Olajos rázintott a haján.</p>
-            <p>- De lehet, hogy nem írógépen. Írhat, ha akár ceruzával is, vagy éppen tentával is.
+				<p>Olajos mosolygott:</p>
+				<p>- Írógépen: kopp-kopp.</p>
+				<p>- Írógépen, - bizonyított Terka is, - én is írógépen írok.</p>
+				<p>- Persze, persze, - mondta rá Etelka, - hogyan nem gondoltam rá.</p>
+				<p>Olajos rázintott a haján.</p>
+				<p>- De lehet, hogy nem írógépen. Írhat, ha akár ceruzával is, vagy éppen tentával is.
                 Nem kell azt tapogatni. Ebben a szobában van tenta. Itt jobbról. Sublót van itt,
                 igaz-e?</p>
-            <p>- Valóságos igaz! - csodálkozott Etel.</p>
-            <p>- Pedig csak ma hoztuk be a tentát, ma délelőtt, - mondta Kaszabné, - inasgyerekért
+				<p>- Valóságos igaz! - csodálkozott Etel.</p>
+				<p>- Pedig csak ma hoztuk be a tentát, ma délelőtt, - mondta Kaszabné, - inasgyerekért
                 írt az uram Fegyvernekre a komájának.</p>
-            <p>- Amott meg viaszgyertya van, - mutatott a nagytükör felé a vak. - Minálunk is volt,
+				<p>- Amott meg viaszgyertya van, - mutatott a nagytükör felé a vak. - Minálunk is volt,
                 mikor falun laktunk. Ez az asztal meg új itten. Meg se tapintom, de azért tudom.</p>
-            <p>- Valóságos igaz! - csodálkozott Etel.</p>
-            <p>- És itt a hátam mögött ablak van. Az udvarra.</p>
-            <p>- Node ilyet!</p>
-            <p>- És még két ablak van a szobán, - folytatta diadalmasan a vak, - és abban a tulsó,
+				<p>- Valóságos igaz! - csodálkozott Etel.</p>
+				<p>- És itt a hátam mögött ablak van. Az udvarra.</p>
+				<p>- Node ilyet!</p>
+				<p>- És még két ablak van a szobán, - folytatta diadalmasan a vak, - és abban a tulsó,
                 ablakban virágcserép is Pelargonium vagyis muskátli van benne.</p>
-            <p>Úgy volt, ahogy a vak mondta és Etel vidáman csodálkozott. Az anyja is.</p>
-            <p>A beszélgetés aztán fölötte nyájas volt és meleg. Olajos piros volt és élénk, mint a
+				<p>Úgy volt, ahogy a vak mondta és Etel vidáman csodálkozott. Az anyja is.</p>
+				<p>A beszélgetés aztán fölötte nyájas volt és meleg. Olajos piros volt és élénk, mint a
                 lapdázó gyermek. Elmondta Miltont is, és Rudnyánszkyval is dicsekedett.</p>
-            <p>- Olyan verseket írt, hogy aki hallja, minden hajaszála emelkedik tőle. Püspökök is
+				<p>- Olyan verseket írt, hogy aki hallja, minden hajaszála emelkedik tőle. Püspökök is
                 kezet fogtak vele. A prímás is, a hercegprímás.</p>
-            <p>- Dehát hogyan tudta? - álmélkodott Etel, - hogyan tudta mégis, hogy melyik a primás?
+				<p>- Dehát hogyan tudta? - álmélkodott Etel, - hogyan tudta mégis, hogy melyik a primás?
                 és melyik a püspök? Megtapintotta-e az arcukat? Mert Terka mondta... Mondta tegnap,
                 hogy... Hogy úgy szokták a... világtalanok.</p>
-            <p>Olajos csodálkozva emelte meg a szemöldökét.</p>
-            <p>- Úgy szokták? A vakot éppenséggel nem érdekli, hogy kinek mekkora a szakála.</p>
-            <p>Terka megmozdult.</p>
-            <p>- Én csak arra mondtam, hogy gondoltam... Hogy úgy kérdezted Etelkát. Mert hiszen
+				<p>Olajos csodálkozva emelte meg a szemöldökét.</p>
+				<p>- Úgy szokták? A vakot éppenséggel nem érdekli, hogy kinek mekkora a szakála.</p>
+				<p>Terka megmozdult.</p>
+				<p>- Én csak arra mondtam, hogy gondoltam... Hogy úgy kérdezted Etelkát. Mert hiszen
                 Kossuth Lajos szobrát is körültapingattad nálunk.</p>
-            <p>Olajos elpirult.</p>
-            <p>- Az megint más. Etelka megint más. Ha valakit közelről szeretnénk ismerni... Hát
+				<p>Olajos elpirult.</p>
+				<p>- Az megint más. Etelka megint más. Ha valakit közelről szeretnénk ismerni... Hát
                 anyánk arcát nem sokszor megsimítottam? A tiedet is. Anyánk ráncos és az álla alatt
                 is van ránc és a nyakán szemölcs. A te arcod síma és a szemöldököd selymes. Az
                 szabad nekem.</p>
-            <p>S mosolygón rázta a fejét:</p>
-            <p>- De Etelkát nem merhettem. Mit gondolt volna?</p>
-            <p>- Semmi rosszat nem gondoltam volna, - felelte határozottan Etelka. - Tudom, hogy a
+				<p>S mosolygón rázta a fejét:</p>
+				<p>- De Etelkát nem merhettem. Mit gondolt volna?</p>
+				<p>- Semmi rosszat nem gondoltam volna, - felelte határozottan Etelka. - Tudom, hogy a
                 vak a tapintásával lát. És ha egyszer... ha látni akar Olajos úr, az én arcomat is
                 megtapinthatja. Tapintsa meg hát: milyen vagyok?</p>
-            <p>S közelebb mozdult a divánon. Odatartotta az arcát, mosolyogva, szinte pajkosan:</p>
-            <p>- Tessék.</p>
-            <p>A vak teljesen elpirult.</p>
-            <p>- Köszönöm, - rebegte hálásan, - igen köszönöm. De... Nem kellemetlen?</p>
-            <p>- Nem, ha maga óhajtja.</p>
-            <p>- Én igen... ha megengedi...</p>
-            <p>- De szívesen. És engem is érdekel, hogy... De az igazat mondja ám meg, hogy milyen
+				<p>S közelebb mozdult a divánon. Odatartotta az arcát, mosolyogva, szinte pajkosan:</p>
+				<p>- Tessék.</p>
+				<p>A vak teljesen elpirult.</p>
+				<p>- Köszönöm, - rebegte hálásan, - igen köszönöm. De... Nem kellemetlen?</p>
+				<p>- Nem, ha maga óhajtja.</p>
+				<p>- Én igen... ha megengedi...</p>
+				<p>- De szívesen. És engem is érdekel, hogy... De az igazat mondja ám meg, hogy milyen
                 vagyok?</p>
-            <p>- Úgyis tudom, hogy szép. De azért ha megengedi...</p>
-            <p>- Hát tessék, tessék.</p>
-            <p>Olajos mosolygott s a szempillái úgy remegtek, mint a nyárfalevél. A kezét óvatosan
-                föl­emelte, a leány vállára érült.</p>
-            <p>- Engedje meg, hogy először is a vállát... Engem a válla érdekel legjobban.</p>
-            <p>- A vállam?</p>
-            <p>Olajos mosolyogva bólintott.</p>
-            <p>- Az. Maga, Etelka annyira jó... Lehetetlen, hogy magának szárnya ne volna.</p>
-            <p>- Óh, - olvadozott a leány, - már ilyet...</p>
-            <p>És szemérmesen elvonta a vállát.</p>
-            <p>- Node ilyet...</p>
-            <p>- Ha nincs is szárnya, de a helye bizonyára megvan, - erősködött Olajos.</p>
-            <p>- Oh, maga igen udvarias, Olajos úr, - vonaglott pirosan a leány, - dehát az arcom,
+				<p>- Úgyis tudom, hogy szép. De azért ha megengedi...</p>
+				<p>- Hát tessék, tessék.</p>
+				<p>Olajos mosolygott s a szempillái úgy remegtek, mint a nyárfalevél. A kezét óvatosan
+                fölemelte, a leány vállára érült.</p>
+				<p>- Engedje meg, hogy először is a vállát... Engem a válla érdekel legjobban.</p>
+				<p>- A vállam?</p>
+				<p>Olajos mosolyogva bólintott.</p>
+				<p>- Az. Maga, Etelka annyira jó... Lehetetlen, hogy magának szárnya ne volna.</p>
+				<p>- Óh, - olvadozott a leány, - már ilyet...</p>
+				<p>És szemérmesen elvonta a vállát.</p>
+				<p>- Node ilyet...</p>
+				<p>- Ha nincs is szárnya, de a helye bizonyára megvan, - erősködött Olajos.</p>
+				<p>- Oh, maga igen udvarias, Olajos úr, - vonaglott pirosan a leány, - dehát az arcom,
                 itt az arcom. Milyen magának az én arcom? Lássuk, hogy milyen?</p>
-            <p>S tartotta ismét az arcát.</p>
-            <p>- Ha megengedi, - rebegett a vak.</p>
-            <p>S a keze remegett, ahogy fölemelte. A homlokára érült a lánynak, mintha
+				<p>S tartotta ismét az arcát.</p>
+				<p>- Ha megengedi, - rebegett a vak.</p>
+				<p>S a keze remegett, ahogy fölemelte. A homlokára érült a lánynak, mintha
                 megáldaná.</p>
-            <p>- Milyen szép, - rebegte, - milyen szép!</p>
-            <p>A szemöldökén is végigsimított.</p>
-            <p>- A magáé is selymes, de hosszabb. A szeme is szép, nagy...</p>
-            <p>S az arca szinte áhítatos komolylyá vált. Végigérintgette az arcát is a lánynak,
+				<p>- Milyen szép, - rebegte, - milyen szép!</p>
+				<p>A szemöldökén is végigsimított.</p>
+				<p>- A magáé is selymes, de hosszabb. A szeme is szép, nagy...</p>
+				<p>S az arca szinte áhítatos komolylyá vált. Végigérintgette az arcát is a lánynak,
                 gyöngédeden, mint mikor a virágárus szegfűit érintgette.</p>
-            <p>- Milyen szép!</p>
-            <p>S két tenyérrel is ujra az arcát, mintha gyermekarcot simítana körül.</p>
-            <p>- Óh milyen szép!</p>
-            <p>Ajakát is, állát is.</p>
-            <p>- Milyen szép!</p>
-            <p>A nyakán is végigsimult az ujja.</p>
-            <p>- Milyen szép!</p>
-            <p>S onnan ismét a vállára.</p>
-            <p>- Csoda, hogy szárnya nincsen.</p>
-            <p>Válláról végig a karján, a kezefejére.</p>
-            <p>- A kezét már ismerem.</p>
-            <p>S a keze ott nyugodott meg. Fogta, mintha madárkát markolna, gyöngéd szorítással.</p>
-            <p>Az arca áhítatos volt. Szemepillái lehunyódtak.</p>
-            <p>- A szinek nem igen érdekelnek, - mosolygott boldogan.</p>
-            <p>S a leány kezét az ajkához szorította.</p>
-            </div>
-        </body>
-    </text>
+				<p>- Milyen szép!</p>
+				<p>S két tenyérrel is ujra az arcát, mintha gyermekarcot simítana körül.</p>
+				<p>- Óh milyen szép!</p>
+				<p>Ajakát is, állát is.</p>
+				<p>- Milyen szép!</p>
+				<p>A nyakán is végigsimult az ujja.</p>
+				<p>- Milyen szép!</p>
+				<p>S onnan ismét a vállára.</p>
+				<p>- Csoda, hogy szárnya nincsen.</p>
+				<p>Válláról végig a karján, a kezefejére.</p>
+				<p>- A kezét már ismerem.</p>
+				<p>S a keze ott nyugodott meg. Fogta, mintha madárkát markolna, gyöngéd szorítással.</p>
+				<p>Az arca áhítatos volt. Szemepillái lehunyódtak.</p>
+				<p>- A szinek nem igen érdekelnek, - mosolygott boldogan.</p>
+				<p>S a leány kezét az ajkához szorította.</p>
+			</div>
+		</body>
+	</text>
 </TEI>

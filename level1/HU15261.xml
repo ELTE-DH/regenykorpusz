@@ -1,101 +1,100 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU15261" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>A dévényi fazekas </title>
-            <author ref="viaf:22810">Krúdy Gyula (1878-1933)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">7567</measure>
-            <measure unit="pages">25</measure>
-            <measure unit="vols">1</measure>
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>A dévényi fazekas </title>
-               <date>2016-04-04</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/15200/15261"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Vidiné Réfi Erzsébet</name>
-                  <name>Drótos László</name>
-                  <name>Fecz Ágnes</name>
-               </respStmt>
-      
-                  <bibl type="digitalSource">
-                     <title>A dévényi fazekas</title>
-                     <date>2016-04-04</date>
-                     <ref target="https://mek.oszk.hu/15200/15261"/>
-                  </bibl>
-               
-            
-                  <bibl type="printSource">
-                     <title>A dévényi fazekas</title>
-                     <author>Krúdy Gyula</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <publisher>Singer-Wolfner</publisher>
-                     <date>1904</date><ref target="https://mek.oszk.hu/15200/15261/pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>A dévényi fazekas</title>
-               <author>Krúdy Gyula</author>
-               <date>1904</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-27"/>
-         <change when="2020-12-29"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+<TEI xml:id="HU15261" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A dévényi fazekas </title>
+				<author ref="viaf:22810">Krúdy Gyula (1878-1933)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">7567</measure>
+				<measure unit="pages">25</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>A dévényi fazekas </title>
+					<date>2016-04-04</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/15200/15261"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Vidiné Réfi Erzsébet</name>
+						<name>Drótos László</name>
+						<name>Fecz Ágnes</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>A dévényi fazekas</title>
+						<date>2016-04-04</date>
+						<ref target="https://mek.oszk.hu/15200/15261"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>A dévényi fazekas</title>
+						<author>Krúdy Gyula</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Singer-Wolfner</publisher>
+						<date>1904</date>
+						<ref target="https://mek.oszk.hu/15200/15261/pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>A dévényi fazekas</title>
+					<author>Krúdy Gyula</author>
+					<date>1904</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-27"/>
+			<change when="2020-12-29"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="chapter">
-            <head>
+				<head>
                Kis fazék, nagy fazék.
             </head>
-            <p>
+				<p>
                Trencséni Jankónak hívták a dévényi fazekast. Se nem Jánosnak, se nem
                   Jancsinak, hanem Jankónak. Pedig már nem volt valami gyerekember. Bátran
                   nevezhették volna akár János bácsinak is. A dévényi fazekas olyan jókedvű, vidám
                   ember volt, hogy mindig mosolygásra állt a szája, mindig virágos volt a kedve. Azt
                   szokta mondogatni:
             </p>
-            <p>
+				<p>
                - A jó Isten nekem nem adott gazdagságot, hanem adott többet, - a mi
                   a világon legdrágább: megelégedett, nyugodt szívet.
             </p>
-            <p>
+				<p>
                Trencséni Jankónak bizony egyebe se volt a jó szívénél. Szegény
                   fazekas-mester volt. Ott volt a műhelye a szabad ég alatt a dévényi síkon, a hol
                   jóféle agyagos föld vagyon. Korai tavasztól késő nyárig dolgozott ott Jankó:
@@ -104,292 +103,281 @@
                   cserép is eltörik egyszer. Így tehát Trencséni Jankó nem hiába csinálta a
                   fazekat.
             </p>
-            <p>
+				<p>
                Volt neki szép nagy kemenczéje, abban égette a cserepeket, miután
                   piros meg zöld virágokat festett rájuk.
             </p>
-            <p>
+				<p>
                A kemenczéből aztán szép keményre égetve szedegette ki a
                   fazekat.
             </p>
-            <p>
+				<p>
                Némelyik csak akkora volt, mint egy gyűszű. Aztán jöttek a kis
                   bögrék. Egyik víznek való, a másik tejnek való.
             </p>
-            <p>
+				<p>
                Hát a tulipános csuprok, köcsögök mire valók?
             </p>
-            <p>
+				<p>
                Ha Trencséni Jankó nem tudta volna, tudják azt a gazdasszonyok.
                   Mézet, vajat, túrót raknak a kis csuprokba, betakarják friss szőlőlevéllel. Még a
                   király asztalára is oda lehetne tenni.
             </p>
-            <p>
+				<p>
                A kemenczéből pedig egyre-másra szedegette Jankó a cserepeket.
             </p>
-            <p>
+				<p>
                Jöttek sorjában az öreg fazekak. Némelyik akkora volt, hogy tíz
                   embernek is lehetne benne levest főzni. Másiknak még két füle is volt s olyan
                   öblös volt, mintha az egész Dunát egyszerre ki lehetne vele meríteni.
             </p>
-            <p>
+				<p>
                Hát a szép virágos, kékre, zöldre, pirosra égetett cseréptálak, szép
                   tányérok! Azok voltak csak az igaziak. Némelyik cseréptálnak a közepére hazafias
                   mondatokat égetett Jankó. Példáúl azt: Isten, áldd meg a magyart! Vagy pedig ezt:
                   Éljen a haza! Olykor azonban versíró kedvében volt Jankó s egész kis verset
                   fabrikált a cseréptálakra. Egyszer ezt írta:
             </p>
-            <p>
+				<p>
                Fazekas-mester ő, nem pedig tűzoltó.
             </p>
-            <p>
+				<p>
                Máskor meg ezt a verset faragta:
             </p>
-            <p>
+				<p>
                Akkor lesz jó gulyás.
             </p>
-            <p>
+				<p>
                Hát ilyen jókedvű ember volt Trencséni Jankó, a dévényi fazekas.
             </p>
-            <p>
+				<p>
                Gyűlt a cserép kora tavasztól késő őszig a deszkaállásba. Ebből még
                   nem lehet megélni. El is kell adni a fazekat. Dévényben pedig nem adhatta el, ott
                   minden ember fazekas.
             </p>
-            <p>
+				<p>
                Mit csinált tehát Trencséni Jankó?
             </p>
-            <p>
+				<p>
                Elment a Duna partjára. A Duna ott folyik el Dévény mellett. A parton
                   mindig talált hajósembereket, a kik pipázva lógázták lábukat a víz fölé, várván a
                   jó szerencsét. A hajósnak, ha nincs dolga, felkopik az álla. A hajó, a mi
                   mozdulatlanúl álldogál a part mellett, nem jövedelmez semmit a gazdájának.
             </p>
-            <p>
+				<p>
                Ott nézdelődött jobbra-balra Trencséni Jankó a hajósok között.
                   Egyszer aztán megszólított egy öreg hajóst:
             </p>
-            <p>
+				<p>
                - Maga az, Miska bácsi? kérdezte.
             </p>
-            <p>
+				<p>
                - Én vagyok, fiam. Miben sántikálsz itt a hajósok között?
             </p>
-            <p>
+				<p>
                - Szeretnék elutazni, - felelt Jankó.
             </p>
-            <p>
+				<p>
                A vén hajós megigazitotta a pipát a szájában:
             </p>
-            <p>
+				<p>
                - Mi sem könnyebb annál, Jankó fiam. Mindjárt jön a gőzhajó. Elvisz
                   az téged akár a tengerig is.
             </p>
-            <p>
+				<p>
                Jankó megvakarta a füle tövét.
             </p>
-            <p>
+				<p>
                - Igen ám, de nem magam akarok utazni. Néhány fazekat is szeretnék
                   magammal vinni Szerbiába.
             </p>
-            <p>
+				<p>
                - Hány fazekat?
             </p>
-            <p>
+				<p>
                - Húszezer egynéhányat.
             </p>
-            <p>
+				<p>
                A vén hajós elmosolyodott:
             </p>
-            <p>
+				<p>
                - Tréfás ember vagy te, Jankó! - mondta. - Hát nem tudtad mindjárt
                   kibökni, hogy fazekat akarsz szállítani? Itt van az én hajóm, elvisz akár százezer
                   fazekat is.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Két szegedi diák.
             </head>
-            <p>
+				<p>
                A mint így beszélgettek a Dunaparton, egyszerre melléjük lép két
                   fiatal diák, meg egy szürkeszakállú úriember.
             </p>
-            <p>
+				<p>
                - Talán bizony maguk is fazekasok? - kérdezte a jókedvű Trencséni
                   Jankó.
             </p>
-            <p>
+				<p>
                - Nem biz’ a, - felelt az egyik fiatalember. - Mi szegedi diákok
                   vagyunk.
             </p>
-            <p>
+				<p>
                - Szegediek? - kiáltott fel csodálkozva a fazekas. - Hiszen az a
                   város az országnak a másik részében van. Hogy kerűltek erre a vidékre?
             </p>
-            <p>
+				<p>
                Az öreg úr felelt a diákok helyett:
             </p>
-            <p>
+				<p>
                - Ez a két fiú az unokaöcsém, Huszár Pali meg Huszár Lajos. Egyszer
                   csak kapják magukat otthon Szegeden és elhatározzák, hogy meglátogatnak engem itt
                   Dévényben. Pénzük persze nem volt az utazáshoz, de az nem tartotta őket vissza.
                   Felültek az apostolok lovára, aztán illa berek, nádak erek: egyszerre itt voltak
                   nálam...
             </p>
-            <p>
+				<p>
                Trencséni Jankó összecsapta a kezét:
             </p>
-            <p>
+				<p>
                - Gyalog tették meg azt a rengeteg utat! No maguk igazán derék
                   fiúk.
             </p>
-            <p>
+				<p>
                A két diák nevetve nézett Trencséni Jankóra:
             </p>
-            <p>
+				<p>
                - Nem is volt olyan nagy dolog, - mondta Huszár Pali. - Ott volt a
                   zsebünkben a térkép, nem tévedhettünk el. Meg aztán a bácsi megigérte, hogy eljön
                   hozzánk Szegedre és elhozza a diák-fiát is. Vártuk is a bácsit eleget. De nem
                   jött. Akkor aztán azt gondoltuk, hogy ha ő nem jön hozzánk, elmegyünk mi hozzá.
                   Így kerültünk mi Dévénybe.
             </p>
-            <p>
+				<p>
                Trencséni Jankónak azonban nem csökkent a csodálkozása még erre
                   se.
             </p>
-            <p>
+				<p>
                - Aztán hány éves maga, diák uram? - kérdezte.
             </p>
-            <p>
+				<p>
                Huszár Pali felelt:
             </p>
-            <p>
+				<p>
                - Én tizennegyedikben vagyok, az öcsém, Lajos tizenkét éves.
             </p>
-            <p>
+				<p>
                - Most pedig, - szólt közbe a bácsi - haza kell nekik menni Szegedre,
                   mert iskolába kell járni. Gyalog már nem engedem őket utazni. Hadd menjenek hajón.
                   Legalább megismerik a Duna vidékét is. Nem tudnak itt valami hajót, a melyik
                   lefelé megy?
             </p>
-            <p>
+				<p>
                - Dehogy nem! - kiáltott nagy vigan Trencséni Jankó. - Itt van éppen
                   a Miska bácsi hajója. Az én fazekaimmal megy Szerbiába, a vásárra. Akár ingyen is
                   elviszszük ezt a két derék fiút, ugy-e, Miska bácsi?
             </p>
-            <p>
+				<p>
                Miska bácsi bólintott a fejével.
             </p>
-            <p>
+				<p>
                - No ingyen nem kivánom, - szólt a bácsi. - Csak azt szeretném, ha
                   vigyáznának rájuk útközben.
             </p>
-            <p>
+				<p>
                - Mint a két szemünkre! - felelt Trencséni Jankó.
             </p>
-            <p>
+				<p>
                Megegyeztek abban, hogy harmadnap indúlnak.
             </p>
-            <p>
+				<p>
                Két nap beletelik, míg Trencséni Jankó berakodik a hajóba
                   cserepeivel. A cserép kényes portéka. Szalma közé kell dugni, hogy össze ne törjön
                   az utazásban.
             </p>
-            <p>
+				<p>
                A Miska bácsi hajóját úgy hívták, hogy: Szent Antal.
             </p>
-            <p>
+				<p>
                A Szent-Antal nem volt valami gőzhajó. Nagynak elég nagy volt,
                   kényelmes is. De a víz sodrán kivül egyéb nem hajtotta. Óriási kormányrúd volt a
                   hajó hátulján. A kormányosnak csupán csak arra volt gondja, hogy a hajót a folyam
                   közepén tartsa mindig. Úszott aztán a Szent-Antal magától.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A Szent-Antal födélzetén.
             </head>
-            <p>
+				<p>
                Nincs kellemesebb dolog, mint hajón utazni. A kocsi, szekér
                   összerázza az embert, a vonat gyors száguldásában, mint tünő álomképek suhannak el
                   mellettünk a legszebb tájak, a hajó ellenben, bármily gyorsan haladjon is, nem
                   ráz, hanem csak ringat szelíden, a partokról pedig a zöld tájak mosolyogva
                   köszöntik az utast.
             </p>
-            <p>
+				<p>
                A szegedi diákok addig kérték Ambrus bácsit, a mig elhatározta, hogy
                   elkiséri a fiúkat Szegedre és tölt náluk néhány napot.
             </p>
-            <p>
+				<p>
                Ragyogó augusztusi reggel volt, a mikor a diákok felpakolva
                   megérkeztek a Dunapartra.
             </p>
-            <p>
+				<p>
                Trencséni Jankó éppen az utolsó fazekat helyezte el a hajó mélyében
                   és mikor a fiúkat meglátta, örömében csaknem elejtette.
             </p>
-            <p>
+				<p>
                Miska bácsi is ott volt már és rongyos katonasapkáját megemelte. Most
                   sokkal barátságosabb volt, mint a minapában. Megmutatta a fiúknak a Szent-Antalt
                   apróra.
             </p>
-            <p>
+				<p>
                - Ez bizony nem olyan kényelmes hajó, mint a gőzhajó, nem is olyan
                   gyors, de azért jó, becsületes hajó. Ha azt mondják neki, hogy eredj Budapestre,
                   vagy eredj Szerbiába, akár meg sem áll odáig.
             </p>
-            <p>
+				<p>
                Miska bácsi így megdicsérvén hajóját, újra szótlanúl tovább
                   pipázott.
             </p>
-            <p>
+				<p>
                Trencséni Jankó is ott sürgölődött-forgolódott a diákok körűl.
             </p>
-            <p>
+				<p>
                - Nem fogják megbánni, diák uraim, - mondta ragyogó arczczal, - hogy
                   Trencséni Jankóval együtt hajókáznak. Trencséni Jankó tud annyi mesét, annyi
                   játékot, hogy egy perczig se fognak unatkozni.
             </p>
-            <p>
+				<p>
                S hogy kimutassa bőkezűségét, mindjárt két gyönyörű kis bögrével
                   ajándékozta meg a fiúkat. Az egyik bögre pirosra volt égetve, a másik fehérre. A
                   harmadik bögrét a bácsinak ajánlotta fel, az zöld volt.
             </p>
-            <p>
+				<p>
                Nemsokára elmozdúlt a parttól a Szent-Antal.
             </p>
-            <p>
+				<p>
                A kormányos-legény úgy igazgatta a kormányoslapátot, hogy a hajó
                   egyenesen a Duna közepére úszott.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A dévényi várkapitányok.
             </head>
-            <p>
+				<p>
                Nagy, meredek hegyek emelkednek itt a Duna két partján.
             </p>
-            <p>
+				<p>
                A bácsi megmagyarázta a fiúknak, hogy a Dunának ezt a részét a
-               
                   Magyar Kapri
-               
                nak hívják. Itt kezdődik a magyar Duna. A Duna felett egy meredek
                   hegyen régi vár szürke romjai láthatók. Egy torony még daczol az idővel és épen,
                   mereven áll a hegytetőn.
             </p>
-            <p>
+				<p>
                - Pedig csaknem ezeréves vár ez, fiúk, - szólt a bácsi. - A híres
                   dévényi várnak a romjai ezek. A várnak keletkezése egybe esik a honfoglalás
                   idejével. Itt állt a vár a magyar haza határán és zivataros századokon át vitézűl
@@ -406,20 +394,20 @@
                   Dévény vára Bécs városát. Nem ragyogott fényesebben csillag az égen, mint a magyar
                   vitézség csillaga.
             </p>
-            <p>
+				<p>
                Trencséni Jankó is ott hallgatta Ambrus bácsi beszédét a fiúk háta
                   mögött. Egyszerre csak megszólalt:
             </p>
-            <p>
+				<p>
                - Hát azt hallották-e, diák uraim, hogy volt ebben a várban egy híres
                   mély kút? Olyan mély volt a kút, hogy a hegytetőről a Duna fenekéig ért. Így aztán
                   mindig volt vizük a vár katonáinak, mert a Dunát még a legerősebb ellenség se
                   zárhatta el.
             </p>
-            <p>
+				<p>
                Ambrus bácsi helyeslőleg bólintgatott.
             </p>
-            <p>
+				<p>
                - Igaza van Jankó mesternek. Olyan mély volt ez a kút, hogy tiz
                   esztendeig ásták a sziklában. Mikor Napoleon franczia császár erre járt a
                   hadseregével, megharagudott a dévényi várkapitányra. Zsákszámra ásatta a puskaport
@@ -428,164 +416,161 @@
                   felépítse a romokat, a melyek elmélázva nézegetik magukat a magas hegytetőről a
                   szőke Dunában.
             </p>
-            <p>
+				<p>
                A Szent-Antal a bácsi beszéde alatt bezzeg nem tátotta úgy a száját,
                   mint Trencséni Jankó, hanem haladt szorgalmasan előre a folyamon.
             </p>
-            <p>
+				<p>
                Jankó csóválta a fejét, aztán így szólt:
             </p>
-            <p>
+				<p>
                - Ma-holnap ötven éves leszek, de még mindig nem tudtam, hogy olyan
                   nevezetes hely az én kis szülővároskám. A mai fazekasokon nem látszik meg, hogy
                   olyan nevezetes ősapáik voltak.
             </p>
-            <p>
+				<p>
                - Nem is a dévényiekből tellett ki a várvédő katonaság, - mondá
                   Ambrus bácsi. - Míg fenn dörögtek a csatakígyók, a dévényiek a vár alatt békésen
                   folytatták ősi mesterségüket, a fazekasságot. Ha nagy volt a csetepaté,
                   elszaladtak, mert azt tartották, az ő fejük is olyan, mint a cserép: könnyen
                   összetörik.
             </p>
-            <p>
+				<p>
                Trencséni Jankó nevetett.
             </p>
-            <p>
+				<p>
                - Lám, lám, mondta, a fazekasok most is ilyenek. A vásárokon a
                   legbékeszeretőbb emberek közé telepednek, mert jól tudják, hogy ha valami háború
                   támad, leghamarább ők adják meg az árát. Összetörik az edényeiket.
             </p>
-            <p>
+				<p>
                A fiúk nevettek a bölcs Trencséni Jankó beszédén, nevetett Ambrus
                   bácsi is, csak Miska bácsi nem nevetett.
             </p>
-            <p>
+				<p>
                Ő egy árbocznak támasztva hátát, komoran szemlélte az eget.
                   Csóválgatta a fejét és magában mormogott.
             </p>
-            <p>
+				<p>
                - Valami baj van, Miska bácsi? - kérdezte a jókedvű fazekas.
             </p>
-            <p>
+				<p>
                A vén hajós nem felelt mindjárt. Mereven nézett a szemhatár felé,
                   aztán meg a szőke vizet nézte.
             </p>
-            <p>
+				<p>
                - Valami nagy zivatar készűl, - mondta Miska bácsi.
             </p>
-            <p>
+				<p>
                A fazekas nevetett.
             </p>
-            <p>
+				<p>
                - Ugyan ne mondjon ilyent, Miska bácsi. Gyöngy idő van. Ragyog az
                   égboltozat, mintha üvegből volna. Egy csepp felhőt sem látok rajta.
             </p>
-            <p>
+				<p>
                - Nono, - mormogta Miska bácsi és többet nem szólt.
             </p>
-            <p>
+				<p>
                A partokról zöld hegyek integettek és a lombos fák között kis faluk
                   tornyai fehérlettek. A faluk körűl mindenütt halászbárkák úszkáltak a vizen.
             </p>
-            <p>
+				<p>
                - Sok a hal a Dunában? - kérdezte Huszár Pali.
             </p>
-            <p>
+				<p>
                - Nem sokkal kevesebb, mint a Tiszában, - felelt a bácsi. - De azok a
                   halászok nem csupán halat halásznak.
             </p>
-            <p>
+				<p>
                - Hát?
             </p>
-            <p>
+				<p>
                - Emberi holttesteket is. Ide közel van Bécs város. Nagyvárosban sok
                   ember hal bele a Dunába. Némelyik magátúl ugrik bele, a másik meg véletlenűl
                   fullad a vízbe. A vízbefulladtaknak a rokonai rendesen valami jutalmat tűznek ki
                   annak a hajósnak, a ki rokonuk holttestét feltalálja. Azért halásznak ezek a
                   halászok, nem csupán csak halra.
             </p>
-            <p>
+				<p>
                A fiúk most már nem nézték többé oly nagy örömmel a partok körül
                   úszkáló fekete halászbárkákat. Megannyi úszó koporsóhoz hasonlítottak a bárkák, a
                   melyek leskelődnek a Duna árjával lefelé úszó emberi holttestekre.
             </p>
-            <p>
+				<p>
                E közben egy szürke kis fellegecske jelent meg a ragyogó ég
                   peremén.
             </p>
-            <p>
+				<p>
                Olyan kis ártatlan nyári felhőcskének látszott a milyen néha
                   százszámra borítja az égboltozatot, de a nap azért ragyogva süt a földre. Nem is
                   vette észre senki más a felhőt, mint Miska bácsi, a vén hajós. Azt dörmögte a
                   pipájának:
             </p>
-            <p>
+				<p>
                - No nem megmondtam!
             </p>
-            <p>
+				<p>
                Hogy a pipa mit felelt erre, azt már senki se hallotta.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A híres Búvár Kund története.
             </head>
-            <p>
+				<p>
                A fiúk, meg Ambrus bácsi a hajó közepén hűsöltek egy kiterített
                   ponyva alatt, mert rekkenő hőség volt. A hátuk mögött ott settenkedett Trencséni
                   Jankó és ha szerét tehette, hát beleszólt a beszélgetésükbe.
             </p>
-            <p>
+				<p>
                - Ne gondolják ám, diák uraim, - mondta egyszer, - hogy én aféle
                   tanulatlan, faragatlan fazekas vagyok. Sok földet bejártam én, meg ha szerét
                   tehettem, hát elolvastam a kezem ügyébe akadó könyveket. Mindig csak azt
                   sajnáltam, hogy csak télen olvasgathattam. Nyáron elfoglal a munka reggeltől
                   napestig. De azért van annyi tudományom, mint egy kispapnak.
             </p>
-            <p>
+				<p>
                Ambrus bácsi hamisan hunyorított a szemével a fiúk felé.
             </p>
-            <p>
+				<p>
                - Hát ha olyan nagy tanultságú férfiú maga, Trencséni uram, mondja
                   meg nekem, hogy mennyi 11-nek a fele?
             </p>
-            <p>
+				<p>
                A fazekas az ujján számolgatott:
             </p>
-            <p>
+				<p>
                - Mi se könnyebb annál. Öt és fél.
             </p>
-            <p>
+				<p>
                - Nem biz’ a, - nevetett Ambrus bácsi - hanem 1.
             </p>
-            <p>
+				<p>
                A fazekas nagyot kacagott.
             </p>
-            <p>
+				<p>
                - Igaz biz’ a. Mert két 1-ből áll a 11. A fele tehát 1.
             </p>
-            <p>
+				<p>
                - Hát Búvár Kundról hallott-e már valamit, Trencséni mester? -
                   firtatta tovább a bácsi.
             </p>
-            <p>
+				<p>
                - Erre a vidékre való ember? kérdé a fazekas.
             </p>
-            <p>
+				<p>
                - Erre a vidékre való.
             </p>
-            <p>
+				<p>
                Jankó gazda felhúzta a szemöldökét.
             </p>
-            <p>
+				<p>
                - Nem lehet az, tekintetes uram. Ezen a vidéken én minden embert
                   gyerekkorától ismerek. Vannak ezek a vidéken Kovács Jánosok, Dunai Mihályok,
                   Morvai Pálok elegen, de Búvár Kund nevű nincs egy se.
             </p>
-            <p>
+				<p>
                - Hisz’ nem is a mostani világban élt az a nevezetes Kund vitéz, a
                   kit azért hívták Búvárnak, mert már gyermekkorában úgy tudott a víz alatt úszni,
                   mint a hal. A király is meghallotta Kundnak ezt a nevezetes tulajdonságát.
@@ -593,283 +578,277 @@
                   a fiát. Ő majd felneveli. A szegény hajós megörűlt ennek, vitte a fiát egyenesen
                   Budára a királyhoz.
             </p>
-            <p>
+				<p>
                - Hát te vagy az a nevezetes ember, a ki fürgébben úszol, mint a csík
                   és levegő nélkül el tudsz lenni a víz alatt? kérdezte a király Kundtól.
             </p>
-            <p>
+				<p>
                - Én vagyok, felséges uram.
             </p>
-            <p>
+				<p>
                - Hátha azt mondom, hogy nem hiszem el? Be tudod-e bizonyítani?
                   kérdezősködött tovább a király.
             </p>
-            <p>
+				<p>
                - Mindjárt bebizonyítom, felséges uram. Menjünk le innen a palotából
                   a Duna partjára. Parancsolja meg felséged, hogy a legjobb csónakosok üljenek
                   ladikba. Ha a csónakosok érnek át hamarább a tulsó partra, mint én a víz alatt,
                   nem vagyok akkor Kund.
             </p>
-            <p>
+				<p>
                A királynak tetszett a fiú beszéde. Meg aztán volt a királynak
                   akkoriban egy pár evezős-legénye, a kik az ő csónakját szokták hajtani, ha kedve
                   kerekedett egy kis dunai kirándulásra. Úgy repűlt akkor a csónak a vizen, mint a
                   madár a levegőben. Ezeket az evezőket küldte versenyezni Kunddal.
             </p>
-            <p>
+				<p>
                Kund nem sokáig gondolkozott. Fejtetőre ugrott a Dunába a partról a
                   király előtt. A csónakosok se voltak röstek. Eltaszították a parttól a csónakot.
                   Megkezdődött a verseny a víz alatt és a víz felett.
             </p>
-            <p>
+				<p>
                Kund eltünt a habokban, a csónak pedig repűlt a vízen, mint a kilőtt
                   nyíl. Feszűlt az evező a király legényeinek a kezében.
             </p>
-            <p>
+				<p>
                Egyszerre csak azt látják, hogy a túlsó, pesti partról integet Kund a
                   zászlóval, a mi a fövénybe volt tűzve. A csónakosok még valahol a Duna közepén
                   jártak.
             </p>
-            <p>
+				<p>
                Kund újra a habokba vetette magát és mire a csónak a túlsó partot
                   érte, Kund már vissza is volt a folyamon.
             </p>
-            <p>
+				<p>
                Akkoriban azt mesélték az udvari emberek, hogy a víz alatt egy nagy
                   hal vitte át és hozta vissza a hátán Kundot a Dunán.
             </p>
-            <p>
+				<p>
                A király persze nem hitt ennek a mesének. Mindjárt udvari vitézévé
                   ütötte Kundot és bizony nem is bánta meg a király, hogy magához vette.
             </p>
-            <p>
+				<p>
                Történt ugyanis nemsokára, hogy Frigyes, a német császár
                   megharagudott a magyar királyra. Már régen fájt a foga Magyarországra, a melyet
                   tejjel-mézzel folyó gazdag országnak írtak le hírnökei. Gondolta magában a németek
                   császárja, hogy ő bizony elveszi ezt az országot a magyar királytól.
             </p>
-            <p>
+				<p>
                De nem ment az olyan könnyen. A magyar vitézségnek már akkor se volt
                   párja a világon. A császár jól tudta, hogy a hogy előkapják katonáit a magyarok,
                   úgy megverik őket, mint a kétfenekű dobot.
             </p>
-            <p>
+				<p>
                Azt a ravasz tervet eszelte ki, hogy hajóhadat küld a Dunán
                   Magyarország ellen. A magyaroknak nem volt hajóhaduk, ők mindig csak a sík földön
                   háborúztak. Könnyűnek látszott tehát a Dunáról megtámadni a magyarságot.
             </p>
-            <p>
+				<p>
                Titkon rengeteg nagy gályákat épített a német császár. A gályákat
                   megrakta fegyveres katonákkal. Aztán megparancsolta a katonáknak, hogy addig
                   vissza ne térjenek, a mig meg nem hódították Magyarországot.
             </p>
-            <p>
+				<p>
                Egyszer csak hírűl vitték a királynak:
             </p>
-            <p>
+				<p>
                - Uram király, itt van az ellenség a nyakunkon, még csak ki sem
                   verhetjük őt az országból, mert a legvitézebb huszár se tud harczolni a Duna
                   közepén.
             </p>
-            <p>
+				<p>
                Megijedt a király és véle az egész ország.
             </p>
-            <p>
+				<p>
                Felfohászkodott a király:
             </p>
-            <p>
+				<p>
                - Most már csak csuda segít rajtunk...
             </p>
-            <p>
+				<p>
                - Vagy Kund vitéz! - mondta Kund vitéz a király elébe lépve. -
                   Elmegyek én, uram, egymagam és megsemmisítem az egész hajóhadat.
             </p>
-            <p>
+				<p>
                A király boszúsan fordúlt el a vitéztől.
             </p>
-            <p>
+				<p>
                - Menj utadra. Ne haragíts.
             </p>
-            <p>
+				<p>
                Kund vitéz el is indúlt egymaga az egész hajóhad ellen. Nem vitt
                   magával egyebet, mint egy jó, éles fúrót.
             </p>
-            <p>
+				<p>
                Pozsony tájékán horgonyoztak akkor a német hajók. Vigadtak a katonák,
                   azt hitték, hogy kardcsapás nélkül meghódították az országot.
             </p>
-            <p>
+				<p>
                A vigalom napjára zivataros őszi éjszaka következett. Szakadt a zápor
                   és dörgött, villámlott szakadatlan. Még az őrök is behúzódtak a hajó belsejébe.
                   Nekik se volt kedvük ázni-fázni, künn a zivataros éjben.
             </p>
-            <p>
+				<p>
                Kund vitéz pedig a víz alatt odaúszott a gályákhoz és mindegyiknek
                   három-négy lyukat fúrt a fenekébe. Aztán kiúszott a partra. A többit már elvégezte
                   a Duna.
             </p>
-            <p>
+				<p>
                A fúrott lyukakon betódúlt a víz a hajókba. Mire a katonák
                   észrevették magukat, már tele volt a hajó vízzel és sülyedt lefelé.
             </p>
-            <p>
+				<p>
                A sülyedő hajónak az a tulajdonsága van, hogy nem áll meg egy
                   helyben, hanem mint az ördög motollája, őrült sebességgel forog önmaga körűl.
             </p>
-            <p>
+				<p>
                Ott sülyedtek el sorban egymásután a büszke gályák a Duna közepén.
                   Nem menekült meg egyetlen egy se. Elnyelte valamennyit katonástúl együtt a
                   folyam.
             </p>
-            <p>
+				<p>
                Búvár Kund aztán hírűl vitte Budára a királynak:
             </p>
-            <p>
+				<p>
                - Nincs már ellenség, uram király. Megtisztúlt a Duna az
                   ellenségtől....
             </p>
-            <p>
+				<p>
                Ez Búvár Kundnak a története.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Zivatar.
             </head>
-            <p>
+				<p>
                - Itt a zivatar! - kiáltotta egyszerre harsány hangon Miska
                   bácsi.
             </p>
-            <p>
+				<p>
                Talpra ugrottak valamennyien.
             </p>
-            <p>
+				<p>
                Trencséni Jankó még azt is elfelejtette, a mi már a nyelvén volt,
                   hogy: bár az Isten adna a magyaroknak sok olyan derék Búvár Kundot, a kik egyéb
                   hiányában a tót fazekasok hajóit sülyesztenék a víz alá, mert akkor jobb dolga
                   volna a magyar fazekasnak...
             </p>
-            <p>
+				<p>
                Egyszerre itt volt a zivatar.
             </p>
-            <p>
+				<p>
                A kifeszített ponyva alatt észre sem vették, hogy az a kis felhő ott
                   a szemhatár szélén roppant nagy gyorsasággal megnőtt. És az ég egyik aljától a
                   másik aljáig betakart mindent. Mintha fekete bakacsinnal húzta volna be az
                   égboltozatot valami láthatatlan kéz. Elsötétedett az egész táj.
             </p>
-            <p>
+				<p>
                - No szépen vagyunk, - siránkozott Trencséni Jankó, - még egy
                   csuprocskát sem adhattam el a fazekaimból, máris összetörik valamennyi. A vihar
                   most elkezdi majd tánczoltatni a hajót. A fazekak egymáshoz verődnek és
                   összetörnek szegénykék. Aztán léket kap a hajó és valamennyien a Duna kellős
                   közepébe esünk bele a német katonákhoz.
             </p>
-            <p>
+				<p>
                Igy siránkozott a jókedvű Trencséni Jankó, de még a panaszában is
                   annyi jó kedv és vidámság volt, hogy mosoly nélkül nem lehetett hallgatni.
             </p>
-            <p>
+				<p>
                Trencséni Jankó pedig igazat beszélt. A Szent-Antal, a melyik eddig
                   símán, rengve-ringatózva úszott lefelé a folyamon, egyszerre elkezdett tánczolni a
                   habokon.
             </p>
-            <p>
+				<p>
                Hiába kiáltott a fazekas:
             </p>
-            <p>
+				<p>
                - Megbolondúltál, te vén hajó! Gondold meg, hogy vén csontjaid már
                   nem birják az ilyen fiataloknak való ugrándozást.
             </p>
-            <p>
+				<p>
                A vén hajó recsegett minden ízében.
             </p>
-            <p>
+				<p>
                Egyszerre vad szélroham nyargalt végig a Dunán és a Szent-Antal
                   egyszerre féloldalra fordúlt.
             </p>
-            <p>
+				<p>
                - Nem megmondtam, hogy elsülyedünk, - kiáltozott a fazekas.
             </p>
-            <p>
+				<p>
                Miska bácsi, a ki eddig szótlanúl szívta pipáját az árbocz mellett,
                   mérgesen rárivalt Trencséni Jankóra:
             </p>
-            <p>
+				<p>
                - Nem sülyedünk el! Nem olyan fából van az én hajóm csinálva, a
                   melyik elsülyed. Most pedig menjenek be abba a kis házikóba, mert ha nem mennek
                   maguktól, bekergeti a zivatar...
             </p>
-            <p>
+				<p>
                Újabb szélroham nyargalt végig a tánczoló hullámokon. A hajó olyant
                   recscsent, mintha a húszezer cserép mind összetörött volna a belsejében.
             </p>
-            <p>
+				<p>
                Trencséni Jankó nem is birta ki sokáig a fedélzeten. Kezét tördelve
                   mászott le a hajó belsejébe vezető létrán kedves cserepeihez.
             </p>
-            <p>
+				<p>
                - Ha ti meghaltok, haljak meg legalább együtt veletek én is, -
                   mondta, de egyszerre felderűlt az arcza, a mikor látta, hogy a fazekaknak
                   szalmaágyukban nem történt még eddig semmi bajuk. Mosolygó arczczal kiáltott a
                   födélzetre:
             </p>
-            <p>
+				<p>
                - Miska bácsi, hallja, aztán, ha elsülyed a hajó, hát ne búsúljon.
                   Beleülünk egy-egy nagy fazékba, aztán úgy utazunk tovább.
             </p>
-            <p>
+				<p>
                Miska bácsinak eszeágában sem volt a búsúlás. Régi hajós volt ő,
                   látott már különb vihart is. Ki is lyukadt már a hajója nem egyszer. Akkor sem
                   esett kétségbe. Szépen megfoltozta a hajóját és tovább hajókázott.
             </p>
-            <p>
+				<p>
                Most is odaállott a kormányrúd mellé és csak arra vigyázott, hogy
                   valamelyik part felé ne sodorja a szél a hajóját.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Elszabadú
                l a Szent-Antal.
             </head>
-            <p>
+				<p>
                Megeredt a záporeső. Ugy szakadt a Dunába a víz, hogy felkavarta
                   fenekestől a folyót. A piszkos barna hullámok zúgva csapkodták a hajó oldalát és a
                   vihar orkánná növekedett.
             </p>
-            <p>
+				<p>
                A födélzeten levő kis házikó zsindelyes fedelét ugyancsak csapkodta
                   az eső és a szél. A fiúk a gömbölyű kis ablakon át látták, hogy egyszerre
                   megtisztúlt a Duna háta a hajóktól, bárkáktól. Csak a Szent-Antal küzködött
                   egyedűl a tajtékzó habokkal.
             </p>
-            <p>
+				<p>
                Az eső fátyolán át egy nagy parti város körvonalai bontakoztak
                   ki.
             </p>
-            <p>
+				<p>
                - Az ott Pozsony volna, - mondta Ambrus bácsi, - de ha nem
                   csillapodik a vihar, bizony nem érünk ma oda.
             </p>
-            <p>
+				<p>
                A hajó födélzete tele volt vízzel, Miska bácsi nagy czupogó csizmában
                   járt a vízben és deres szakállát lengette a szél.
             </p>
-            <p>
+				<p>
                Most már nem birt a hajójával. Hiába kormányozta a part felé, a hajó
                   arra ment, a merre az orkán akarta, nyílegyenesen a folyam közepén.
             </p>
-            <p>
+				<p>
                A két diák szorongva nézett ki az elsötétűlt zivataros tájra.
             </p>
-            <p>
+				<p>
                - Itt még csak hagyján az ilyen vihar, - vigasztalta a fiúkat Ambrus
                   bácsi. - De ha a tengeren éri a hajót az ilyen nagy vihar, mikor emeletesház
                   magasságú hullámok csapkodnak és közel-távol nem látszik partvidék, mindenütt csak
@@ -881,201 +860,195 @@
                   hajósok, mint a dunai, tiszai, meg a balatoni hajósok, nem forognak veszedelemben.
                   Akármilyen nagyon fúj a szél, ők nyugodtan pipázhatnak.
             </p>
-            <p>
+				<p>
                Ebben a pillanatban nagyot recscsent a hajó. Féloldalára dőlt és nem
                   ment tovább.
             </p>
-            <p>
+				<p>
                - Mi baj van? - kérdezte Ambrus bácsi. A vén hajós fejcsóválva
                   közeledett:
             </p>
-            <p>
+				<p>
                - No még ilyen se történt velem. Valami homokzátonyra futott a hajóm.
                   Innen most már csak úgy mozdulunk el, ha a gőzhajó kihúz.
             </p>
-            <p>
+				<p>
                - Hát addig mit csinálunk?
             </p>
-            <p>
+				<p>
                - Várunk, - felelt egyszerűen Miska bácsi. - Vagy ha nem akarnak
                   várni, csónakon elviszem Pozsonyba, ott rövidebb az idő, mint itt a hajón.
             </p>
-            <p>
+				<p>
                - Az lesz a legjobb, - mondá Ambrus bácsi.
             </p>
-            <p>
+				<p>
                A Szent-Antal oldalán lógott egy elég terjedelmes csónak.
             </p>
-            <p>
+				<p>
                - Hát melyikőtök jön velem Pozsonyba? - kérdezte Miska bácsi a
                   fiúktól.
             </p>
-            <p>
+				<p>
                Huszár Lajos savanyúan nézett a tánczoló Dunára.
             </p>
-            <p>
+				<p>
                - Felborúl ám ez a könnyű csónak, - mondta.
             </p>
-            <p>
+				<p>
                - Hát akkor te maradj a hajón, öcskös. Pali jön velem - szólt a
                   bácsi.
             </p>
-            <p>
+				<p>
                Miska bácsi csakhamar vízre bocsátotta a csónakot. Huszár Pali jól
                   betakarózott pokróczba, hogy át ne ázzon a szakadó esőben, azután ellódúlt a
                   csónak a Szent-Antal mellől.
             </p>
-            <p>
+				<p>
                Hányták a habok a kis csónakot, Miska bácsi keményen evezett, egyszer
                   egy óriási szélroham majd felfordította őket... Ez a nagy szélroham megmozdította
                   az elhagyott hajót is. A hajó lesiklott a homokzátonyról, aztán úszott tovább a
                   zivatarban a folyam közepén. A szél ragadta magával a hajót és Miska bácsi
                   kétségbeesetten nézte a csónakról eltünő hajóját.
             </p>
-            <p>
+				<p>
                Ebben a pillanatban kétségbeesett kiáltás hallatszott a hajóról.
             </p>
-            <p>
+				<p>
                Trencséni Jankó, a fazekas állott a fedélzeten és mind a két karjával
                   integetett a csónak felé. Mellette állott Huszár Lajos és integetett ő is... A
                   következő pillanatban eltüntek a szakadó záporban. A Szent-Antal kormányos nélkül
                   repűlt a Dunán egy fazekasra, meg egy gyermekre bízva.
             </p>
-            <p>
+				<p>
                Ambrus bácsi az ijedségtől alig tudott magához térni.
             </p>
-            <p>
+				<p>
                - Uristen! - rebegte, - mi lesz most azzal a szerencsétlen
                   gyermekkel?!
             </p>
-            <p>
+				<p>
                Miska bácsi megnyugtatta:
             </p>
-            <p>
+				<p>
                - Semmi. Majd kikötnek valahol, aztán megvárnak minket.
             </p>
-            <p>
+				<p>
                - Hátha elsülyed addig a hajó?
             </p>
-            <p>
+				<p>
                - Az nem sülyed el, - mondá keményen Miska bácsi és gyorsan evezett a
                   pozsonyi partok felé. - Fogadni mernék, hogy holnap ott találjuk a Szent-Antalt a
                   komáromi kikötőben.
             </p>
-            <p>
+				<p>
                De Ambrus bácsi nagyon aggódott és mikor nagy nehezen partot ért a
                   csónak a zúgó Dunán, keserű szemrehányást tett magának, hogy Lajost egyedűl hagyta
                   a hajón.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Jankó kapitány kalandjai.
             </head>
-            <p>
+				<p>
                Huszár Lajos volt az, a ki hamarább magához tért az ijedtségből:
             </p>
-            <p>
+				<p>
                - No Jankó bácsi, minket ugyan itt hagytak, mint Szent Pál az
                   oláhokat.
             </p>
-            <p>
+				<p>
                Trencséni Jankó csóválta a fejét:
             </p>
-            <p>
+				<p>
                - Sajnálom szegény Miska bácsit... Hogy búsúlhat most a hajója után!
                   Igaz, hogy én magam is eltalálok Szerbiába, mert nem kell másfelé menni csak arra,
                   a merre a Duna folyik, - de azért mégis sajnálom Miska bácsit.
             </p>
-            <p>
+				<p>
                - Hát most mit csinálunk? - kérdezte Huszár Lajos.
             </p>
-            <p>
+				<p>
                A dévényi fazekas nyugodtan ezt mondta:
             </p>
-            <p>
+				<p>
                - Mit csinálhatnánk egyebet, mint hogy Szerbiába megyünk eladni a
                   fazekakat? Maga majd segít nekem diák uram a vásárnál.
             </p>
-            <p>
+				<p>
                - De nem lehet ám! - kiáltotta Lajos. - Nekem Szegedre kell menni és
                   iskolába járni.
             </p>
-            <p>
+				<p>
                Trencséni Jankó a Lajos vállára tette a kezét:
             </p>
-            <p>
+				<p>
                - Hallgasson rám, diák uram; nem ér az a sok tanulás semmit. Nekem
                   úgy sincs senkim. Maradjon nálam, tanúlja meg a fazekasságot, együtt fogunk járni
                   a vásárokra.
             </p>
-            <p>
+				<p>
                - Ugyan ne bolondozzon, Jankó bácsi.
             </p>
-            <p>
+				<p>
                - Nem bolondozok én, - folytatá a fazekas. - Én nagyon megszerettem
                   magát, diák uram, azért adom ezt a jó tanácsot.
             </p>
-            <p>
+				<p>
                Lajos nevetett:
             </p>
-            <p>
+				<p>
                - Már én inkább csak diák vagyok, mint fazekasinas.
             </p>
-            <p>
+				<p>
                Trencséni Jankót elbúsította, hogy Lajos nem hallgatott rá.
             </p>
-            <p>
+				<p>
                - Hát legalább abba egyezzen bele, diák uram, hogy én legyek a
                   hajóskapitány. Még úgy se voltam soha hajóskapitány. Este kiakasztjuk a nagy
                   lámpát a hajóra, aztán én vigyázni fogok a kormányrúdnál.
             </p>
-            <p>
+				<p>
                Ebbe belegyezett Lajos és megigérte Jankónak, hogy ezentúl Jankó
                   kapitánynak fogja hívni.
             </p>
-            <p>
+				<p>
                A zivatar, a milyen gyorsan támadott, oly gyorsan múlt el. Kitisztúlt
                   az ég, de a part mentén földön fekvő lombos nagy fák látszottak, a melyeket
                   gyökerestől csavart ki a vihar. Azonkívűl mindenféle gerendát s egyéb roncsot
                   sodort magával a Duna.
             </p>
-            <p>
+				<p>
                Jankó kapitány a kormányrúd mellé állott és tenyerét szeme elé
                   emelve, vizsgálódva nézett szét a nagy Dunán.
             </p>
-            <p>
+				<p>
                - Már sokszor megjártam ezt az utat, de Pozsony városát még eddig
                   mindig itt találtam a balparton, - mondta. - Csak nem seperte el a vihar?
             </p>
-            <p>
+				<p>
                Lajos aztán megmagyarázta, hogy Pozsony városát már rég elhagyták,
                   még a zivatarban.
             </p>
-            <p>
+				<p>
                - Kár, - mondta János kapitány. - Pozsonyban szívesen kikötöttem
                   volna, ott mindig el lehet adni néhány cserepet. A pozsonyiak azóta mindig
                   cserépedényben főznek, a mióta Mária Terézia királynő náluk volt.
             </p>
-            <p>
+				<p>
                - Hogy volt az, Jankó kapitány?
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A királynő cseréptála.
             </head>
-            <p>
+				<p>
                Jankó kapitány leült és keresztbe tette a lábát. Nagyot
                   fohászkodott.
             </p>
-            <p>
+				<p>
                - Én ezt a történetet gyerekkoromban a nagyapámtól hallottam, a
                   nagyapjától hallotta ő is, a ki granatéros volt Mária Terézia királynő
                   hadseregében. Híres szép királynő volt Mária Terézia, olyan szép királynő még nem
@@ -1086,72 +1059,70 @@
                   ültette a huszárjait és azt mondta nekik: menjetek, huszárok, a porosz császár
                   ellen és verjétek ki országunkból.
             </p>
-            <p>
+				<p>
                Elmentek a huszárok, de csak hírmondójuk jött vissza. A porosz
                   császár levágta egytől-egyig a huszárokat. Hej, sírt a királynő éjjel-nappal.
                   Siratta derék jó katonáit, siratta elveszett országát. Mikor már majdnem kisírta
                   mind a két szemét bánatában, azt mondja neki a tanácsadója:
             </p>
-            <p>
+				<p>
                - Miért búsúl, felséges királyné, mikor még nincs elvesztve
                   semmi?
             </p>
-            <p>
+				<p>
                - Dehogy nincs, dehogy nincs, - sóhajtotta a királynő. - Derék
                   katonáim elvesztek, elveszett tartományom. Itt van a porosz király a nyakamon,
                   ma-holnap fogságba vet engem is.
             </p>
-            <p>
+				<p>
                Azt mondta ekkor a tanácsadó:
             </p>
-            <p>
+				<p>
                - Él egy nemzet a Duna mellett, a melyiknek minden fia lóratermett,
                   vitéz katona. Az a nemzet a magyar nemzet. Felséges királynő, fordúljon
                   segítségért a magyar nemzethez. Majd megvédik a magyarok. Kiverik azok a porosz
                   császárt az elfoglalt tartományból.
             </p>
-            <p>
+				<p>
                Hallgatott a királynő a tanácsra. Addig még nem nagyon ismerte a
                   magyarokat, pedig királynőjük volt. Csakhogy a királynő Bécsben lakott, távol a
                   magyaroktól.
             </p>
-            <p>
+				<p>
                Mindjárt elküldte hírnökeit a magyarok közé. A hírnökök összehívták a
                   magyarok főembereit Pozsonyba.
             </p>
-            <p>
+				<p>
                Össze is gyülekeztek a magyarok az ország minden tájékáról. A
                   királynő pedig ölébe vette a kis fiát, a trónörököst és felült egy aranyos hajóra,
                   a mely Bécs városából Pozsonyba vitte őt.
             </p>
-            <p>
+				<p>
                Az összegyülekezett magyarok nagy örömmel fogadták
                   királynőjüket.
             </p>
-            <p>
+				<p>
                A királynő pedig ölébe vette a kis fiát és elpanaszolta a magyaroknak
                   az ő nagy baját. Könyek csillogtak a királynő szemében és sírt a kis trónörökös is
                   az anyja ölében, mintha ő is megértette volna azt a nagy veszedelmet, a mi az
                   országot fenyegeti.
             </p>
-            <p>
+				<p>
                A magyarok nem sokáig gondolkoztak. Mindjárt elhatározták, hogy
                   segíteni fognak királynőjükön.
             </p>
-            <p>
+				<p>
                Ekkor már Lajos is közbe szólt:
             </p>
-            <p>
+				<p>
                - Én is tanúltam a történelemben, hogy a Pozsonyban összegyülekezett
                   magyarok szívvel-lélekkel azt kiáltották:
-               
                   Életünket és vérünket a királynőért!
-               
             </p>
-            <p>
+				<p>
                Jankó kapitány tovább folytatta:
             </p>
-            <p>
+				<p>
                - Lóra ültek a magyarok és kiverték az ellenséget az elfoglalt
                   tartományból. Az én dédapám is ott harczolt, hozott is haza a tarsolyában a
                   háborúból egy gyermekfejnagyságú ágyúgolyóbist. Azt mesélte a golyóbisról, hogy az
@@ -1159,11 +1130,11 @@
                   elfogta vele a golyóbist, mint egy lepkét. Ilyen nevezetes legény volt az én
                   dédapám.
             </p>
-            <p>
+				<p>
                - De hát a nevezetes cseréptálról nem mondott még eddig semmit, Jankó
                   kapitány! - szólt Huszár Lajos.
             </p>
-            <p>
+				<p>
                - Igaz biz’ a, majd elfeledtem a sok beszélgetésben, - kiáltott fel
                   Trencséni Jankó. - Hát a királynő, mikor Pozsonyban volt, ebédre hívta magához a
                   magyarok főembereit. Megkérdezte előbb egy híres nagyehető vendégétől, hogy mit
@@ -1171,224 +1142,218 @@
                   Druskóczy uram gondolkozott, ugyan micsoda finom pecsenyét szeretne enni a
                   királynő asztalánál?
             </p>
-            <p>
+				<p>
                - Azért kérdem, Druskóczy uram, - szólt a királynő, - mert magam
                   fogom megfőzni az ebédet. Otthon hagytam az udvari szakácsomat.
             </p>
-            <p>
+				<p>
                Druskóczy uramnak még erre az a kevés esze is elszállt, a mi volt.
                   Hogyne szállt volna el, mikor a királynő az ő felséges fehér kezével fogja
                   megfőzni a délebédet! Nem volt ilyesmihez szokva Druskóczy uram, de még más se
                   nagyon. Druskóczy uramnak előre csurgott a nyála és izzadt az üstöke a nagy
                   gondolkozásban. Sehogy se akart az eszébe jutni semmiféle finom pecsenye.
             </p>
-            <p>
+				<p>
                A királynő sürgetésére végre bevallotta, hogy ő a gulyáshúst szereti
                   legjobban.
             </p>
-            <p>
+				<p>
                - Akkor gulyást főzök ebédre! - mondta a királynő.
             </p>
-            <p>
+				<p>
                Mivel pedig a gulyáshús csak akkor jó, ha cserépedényben főzik,
                   szalajtotta a királynő a szolgálóleányait, hogy keressenek neki a városban akkora
                   cserépedényt, a milyenben száz vendégnek lehet gulyást főzni. Mert épen százan
                   voltak a vendégek.
             </p>
-            <p>
+				<p>
                Bejárták a szolgálók az egész várost, nem találtak sehol se olyan
                   nagy fazekat. Volt kisebb-nagyobb elég, de épen akkora nem volt. Azt mondta a
                   királynő:
             </p>
-            <p>
+				<p>
                - Nosza, fussatok Dévénybe a fazekasokhoz! Azoknak bizonyosan lesz
                   akkora cserepük.
             </p>
-            <p>
+				<p>
                Hát volt is a dévényi fazekasoknak cserepük. Meg is főzte a királynő
                   a gulyást, a vendégek még az ujjukat is megszopták utána. Druskóczy uram pedig még
                   az unokáinak is elmesélte, hogy főzött neki gulyást a királynő.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Jankó szakács.
             </head>
-            <p>
+				<p>
                - Hanem talán elég is volt a sok hiábavaló beszédből, - szólt végűl
                   Trencséni Jankó, - megéheztem. Éhesen pedig nem jó utazni.
             </p>
-            <p>
+				<p>
                Lajos is megéhezett, mert kora reggel óta nem evett, az idő pedig már
                   alkonyatra hajlott.
             </p>
-            <p>
+				<p>
                Volt a hajón egy kis tűzhely. Trencséni Jankó nekigyűrkőzött, hogy
                   majd főz ő olyan vacsorát, a milyent még nem evett Lajos.
             </p>
-            <p>
+				<p>
                Tüzet rakott hamarosan.
             </p>
-            <p>
+				<p>
                Lobogott már a tűz a kis tűzhelyen, de nem volt ám mit megfőzni.
             </p>
-            <p>
+				<p>
                Azon is segített Jankó.
             </p>
-            <p>
+				<p>
                Ott volt egy háló a hajó fedélzetén. A vízbe bocsátotta a hálót a
                   Lajos segítségével.
             </p>
-            <p>
+				<p>
                - Majd lesz mindjárt vacsora, - mondta.
             </p>
-            <p>
+				<p>
                Igaza volt Trencséni Jankónak. Mert mikor egy jó negyedóra mulva
                   felhúzták a hálót, csak úgy ficzkándozott benne a sok hal.
             </p>
-            <p>
+				<p>
                - Halászlét fogok főzni, - kiáltotta örvendezve Jankó, mikor a sok
                   halat megpillantotta.
             </p>
-            <p>
+				<p>
                Most már az volt a mesterség, kiválogatni a halakat, a melyek
                   alkalmasak voltak a halászléhez. Jankó ehhez is értett. A halakat
                   különválasztotta. A melyik nem volt alkalmas, azt visszaeresztette a Dunába. Hej,
                   hogy ugrottak az elbocsátott halak!
             </p>
-            <p>
+				<p>
                Mire a halászlé megfőtt, akkorára leszállt az alkonyat a Dunára.
                   Kékes homályba burkolózott a partvidék, a víz pedig csillogott az alkonyat pirosas
                   fényében.
             </p>
-            <p>
+				<p>
                Jankó egy nagy lámpást akasztott a hajó orrára.
             </p>
-            <p>
+				<p>
                - Nehogy beleütközzünk valami szembejövő hajóba, - mondta és tovább
                   sürgött-forgott a tűz körűl.
             </p>
-            <p>
+				<p>
                Lajos ellenben elszomorodva hajtotta le a fejét a kormányrúdra.
                   Vajjon hol járnak Pali és Ambrus bácsi? Fognak-e valaha egymással találkozni?
                   Csaknem sírva fakadt szomorúságában, mikor a Jankó vidám hangját hallotta:
             </p>
-            <p>
+				<p>
                - Alkapitány úr, jőjjön vacsorázni!
             </p>
-            <p>
+				<p>
                A Szent-Antal csendesen úszott a Duna közepén az alkonyatban és a
                   távoli partról bús énekszó hallatszott a hajóra.
             </p>
-            <p>
+				<p>
                - Alkapitány úr, úgy-e jó vacsorát főztem? - kérdezte Jankó.
             </p>
-            <p>
+				<p>
                Lajos nem is tudott felelni. Szomorúságában kicsordúlt a köny a
                   szeméből.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Gőzhajón a Szent-Antal után.
             </head>
-            <p>
+				<p>
                A mikor partra ért a csónak a zúgó Dunáról, Ambrus bácsi mindjárt
                   utána nézett, hogyan érhetnék utól az elszabadúlt Szent-Antalt, a hol az ő kis
                   öcscse van. A kikötőben fölvilágosították, hogy nemsokára ide érkezik a bécsi
                   gőzhajó, a melyik Budapestre megy. Azon a gőzhajón hamarosan utólérik a lassú
                   járású teherhajót.
             </p>
-            <p>
+				<p>
                Ambrus bácsi megnyugodott erre a felvilágosításra.
             </p>
-            <p>
+				<p>
                - Még este előtt utolérjük őket! - mondta Miska bácsi.
             </p>
-            <p>
+				<p>
                Az eső, szél megszűnt, kiderűlt az idő és a gőzhajóállomásról
                   gyönyörűen látszottak a Pozsonyt környékező hegyek.
             </p>
-            <p>
+				<p>
                Pozsony városa ott terűlt el a Dunaparton, ragyogó tágas utczáival és
                   emeletes palotáival.
             </p>
-            <p>
+				<p>
                - Szép város ez a Pozsony, - mondta Ambrus bácsi, - csak az a kár,
                   hogy nem magyar város. A lakosoknak a legnagyobb része németűl beszél és németűl
                   gondolkozik. Közel van Bécshez, az osztrák fővároshoz, Onnan szivárog ide a
                   németség. Tiszta időben akármelyik hegyről megláthatni innen a bécsi Szent-István
                   tornyot.
             </p>
-            <p>
+				<p>
                Pedig nevezetes szerepe volt ennek a városnak a magyar történelemben.
                   Hajdanában itt koronázták meg a magyar királyokat és itt tartották az
                   országgyűléseket is.
             </p>
-            <p>
+				<p>
                - Hát az a vár ott a hegyen, miről nevezetes? - kérdezte Huszár
                   Pali.
             </p>
-            <p>
+				<p>
                - A pozsonyi várnak most már nincs semmi jelentősége. Ellenség soha
                   sem vette be, mert bevehetetlen erősség volt. Hanem egyszer kigyulladt belűlről a
                   vár és leégett. Azóta nem építették fel.
             </p>
-            <p>
+				<p>
                A Dunáról ebben a perczben kürtszó hallatszott. Közeledett a gőzhajó,
                   sűrű füstfelhőt okádva kéményéből.
             </p>
-            <p>
+				<p>
                A gőzhajó kikötött az állomáson és felszedte az utasokat, a kik ott
                   várakoztak.
             </p>
-            <p>
+				<p>
                Tele volt a hajó födélzete utassal. A gőzhajónak három osztálya volt,
                   mind a három osztály tele volt.
             </p>
-            <p>
+				<p>
                Az első és második osztályon csupa finom úri nép üldögélt, de a
                   harmadik osztályon csupa szegény ember utazott. Ott utaztak a csirkés kofák nagy
                   kosaraikkal, a gyümölcsös ember is ott üldögélt mosolygó almái, körtéi között. Meg
                   aztán ott volt a sok szegény utas, a ki munkakeresés végett utazik egyik városból
                   a másikba.
             </p>
-            <p>
+				<p>
                Mikor elhelyezkedtek a hajón, csengettek az állomáson, aztán zúgni,
                   morogni kezdett a gőzgép a hajó belsejében. A kapitányi hidon állt fehér,
                   aranyrojtos sapkájában a kapitány, a ki szócsövön keresztűl parancsszavakat
                   kiáltott le a hajó belsejébe a gépésznek.
             </p>
-            <p>
+				<p>
                A hajó ezalatt lassan távolodott a parttól, majd megmozdúltak
                   hatalmas kerekei és erősen csapkodták a vizet.
             </p>
-            <p>
+				<p>
                - Bizony ez más hajó, mint a Szent-Antal, - mondta Huszár Pali.
             </p>
-            <p>
+				<p>
                - Meghiszem azt, - szólt Ambrus bácsi, - ez a hajó egy óra alatt
                   messzebb ér, mint a Szent-Antal egy fél nap alatt. Bécsből Budapestre nyolcz óra
                   alatt érkezik meg. Azért is hiszem, hogy hamarosan itt lesz velünk az én elveszett
                   kis öcsém.
             </p>
-            <p>
+				<p>
                A gőzhajó ezalatt kiért a nagy Dunára és füstölve siklott el a
                   pozsonyi vashíd alatt, a melyen éppen akkor dübörögve száguldott át egy vonat. Úgy
                   rohant a vonat, hogy egy pillanat alatt elhagyta a hidat, a következő pillanatban
                   már a töltésen száguldott tovább, egy percz múlva pedig eltünt a
                   messzeségben.
             </p>
-            <p>
+				<p>
                Ambrus bácsi az eltünő vonat után nézett.
             </p>
-            <p>
+				<p>
                - Manapság, - szólt - igazán el lehet mondani, hogy a gyorsaság nem
                   boszorkányság. A kutató emberi elme napról-napra újabb csudáit találja ki a
                   gyorsaságnak. A vonatok és gőzhajók a legnagyobb kényelemmel vannak berendezve.
@@ -1396,7 +1361,7 @@
                   a vonat elindúl a budapesti állomásról: mire megebédelt, azon veszi magát észre,
                   hogy már Bécsben van.
             </p>
-            <p>
+				<p>
                Bezzeg száz év előtt nem igen hitte volna ezt senki. Az utasok
                   szekeren utaztak és napok, hetek teltek bele, a mig egyik városból a másikba
                   érkeztek. Hej, hogy bámultak az emberek, mikor az első gőzhajó megjelent a Dunán.
@@ -1406,128 +1371,125 @@
                   egyik gőzhajó után megépítették a másikat és harmadikat is. Azóta száz számra
                   járnak gőzhajók a Dunán.
             </p>
-            <p>
+				<p>
                Miska bácsi, a ki eddig pipázgatva hallgatta az Ambrus bácsi
                   beszédét, most halkan közbeszólt:
             </p>
-            <p>
+				<p>
                - Azelőtt jobb dolguk is volt a szegény hajósoknak, mint most. Több
                   volt a keresetük. A hajósok mind meggazdagodtak, most pedig mind szegény emberek.
                   Mindenki a gőzhajóval utazik, csöndesen járó teherhajóval senki.
             </p>
-            <p>
+				<p>
                Ambrus bácsi igazat adott a vén hajósgazdának.
             </p>
-            <p>
+				<p>
                Aztán a hajó orrára mentek és kezüket szemük elé emelve, nézték,
                   vajjon hol pillantják meg az elszabadúlt Szent-Antalt.
             </p>
-            <p>
+				<p>
                De a hajó nem látszott sehol. Pedig már utolérhették volna. A gőzhajó
                   csak úgy hasította a vizet.
             </p>
-            <p>
+				<p>
                Sziget körvonalai látszottak a távolban, a hol a Duna kétfelé
                   vált.
             </p>
-            <p>
+				<p>
                - Az ott a Csallóköz. Jókora nagy sziget, falvakkal, tanyákkal, -
                   mondta Ambrus bácsi. - A Duna itt kétfelé válik és Komáromnál egyesűl a két
                   Duna-ág. A szélesebbik Duna-ágat öreg-Dunának hívják, a keskenyebbet
                   kis-Dunának.
             </p>
-            <p>
+				<p>
                Elérték a szigetet.
             </p>
-            <p>
+				<p>
                A szigetről zöld fák integettek, a lombok közűl kis faluk fehér házai
                   mosolyogtak ki. A szántóföldeken emberek szorgalmatoskodtak. A lányoknak,
                   asszonyoknak színes ruhája kivirított a zöld mezőkről.
             </p>
-            <p>
+				<p>
                - Ejnye, hogy nem látni még mindig azt a hajót - mormogta
                   aggodalmasan Ambrus bácsi.
             </p>
-            <p>
+				<p>
                A vén hajós is csóválta a fejét és komolyan összeránczolta a
                   homlokát.
             </p>
-            <p>
+				<p>
                - Magam se tudom mire vélni, hogy hová lett a hajóm. A Duna csak nem
                   nyelte el?
             </p>
-            <p>
+				<p>
                Jöttek, mentek mindenféle hajók a Dunán, de a Szent-Antal nem volt
                   köztük.
             </p>
-            <p>
+				<p>
                Egyszer aztán azt mondta Miska bácsi:
             </p>
-            <p>
+				<p>
                - Tudom én már, hol van a hajóm! A vihar letérítette egyenes útjáról
                   és a helyett, hogy az öreg-Dunán folytatta volna útját, a kis-Dunára tévedt. A
                   szigetnek a tulsó oldalán utaznak, míg mi itt keressük őket.
             </p>
-            <p>
+				<p>
                Ambrus bácsi kétkedve nézett a vén hajósra:
             </p>
-            <p>
+				<p>
                - Hátha valami baj érte őket, azért nem találkozunk.
             </p>
-            <p>
+				<p>
                - Az nem lehet, - szólt nagy bizonyossággal Miska bácsi. - Trencséni
                   Jankó már sokszor utazott hajón. Megtanúlt valamit a hajósmesterségből. Nem féltem
                   én a hajómat. Az lesz a legjobb, ha Komáromban kiszállunk és ott megvárjuk őket. A
                   kis-Duna ott folyik bele az öreg-Dunába.
             </p>
-            <p>
+				<p>
                Ambrus bácsi is belátta, hogy nem tehetnek egyebet.
             </p>
-            <p>
+				<p>
                Délutánra hajolt már az idő, a mikor a komáromi sánczok feltünedeztek
                   a távolban.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A komáromi sánczok.
             </head>
-            <p>
+				<p>
                A parton magas várfalak és sánczok között látszott Komárom városa. A
                   Duna három oldalról vette körűl a várat, magasra nyúló falai, bástyái ott
                   tükröződtek a Duna vizében.
             </p>
-            <p>
+				<p>
                - Hej, Komárom, Komárom! - sóhajtott Ambrus bácsi. - Nem léphet
                   magyar ember meghatottság nélkűl erre a földre; itt aludt ki a magyar
                   szabadságharcznak ragyogó csillaga.
             </p>
-            <p>
+				<p>
                A gőzhajó tovább zakatolt a Dunán, ők pedig ott álltak a
                   kikötőben.
             </p>
-            <p>
+				<p>
                Megegyeztek abban, hogy Miska bácsi a kikötőben marad. Ő megismeri
                   száz közűl is a hajóját. Aztán, ha megérkezik a hajó, mindjárt értesíti Ambrus
                   bácsit.
             </p>
-            <p>
+				<p>
                Ambrus bácsi és Huszár Pali elmentek megnézni a várost.
             </p>
-            <p>
+				<p>
                A városból bizony nem sokat láttak. Mindenütt vastag bástyák, öles
                   kőfalak meredeztek eléjük. A város ott terűlt el a vár mögött.
             </p>
-            <p>
+				<p>
                - Híres város ez, öcsém, - mondta Ambrus bácsi. - Komárom várát még
                   ma is bevehetetlen várnak tartják, nem is vette be ezt ellenség sohasem. Futó
                   árkai, messze nyúló sánczai és kőfalai megvédték a várát az ellenségtől. Hiábavaló
                   volt itt minden ostrom.
             </p>
-            <p>
+				<p>
                A szabadságharcz alatt Klapka volt itt a várparancsnok. Körűlvette az
                   ellenség a várat, ágyúzta, bombázta, ostromolta. Klapka avval felelt az ostromra,
                   hogy tánczmulatságot rendezett a bástyákon. Az ellenség tehetetlen dühében
@@ -1535,40 +1497,40 @@
                   bástyákon. Ott repkedtek a bombák a vár körűl, a mulatók csak annál vígabban
                   ropták a tánczot.
             </p>
-            <p>
+				<p>
                Később szomorú idők következtek. Vesztett csatáknak, nagy
                   vereségeknek a híre érkezett mindenfelől az országból a komáromi várba. Az
                   ellenség letiporta a szabadság lobogóját.
             </p>
-            <p>
+				<p>
                Nem volt már a magyaroknak egyéb reménységük, csak Komárom vára. Ide
                   menekült mindenki, a ki bejuthatott a várba az ostromló hadseregen keresztül.
             </p>
-            <p>
+				<p>
                Az ellenség fokozottabb erővel ostromolta Komáromot. De a falak nem
                   engedtek.
             </p>
-            <p>
+				<p>
                A várkapu felett van egy vasból való alak, a ki fügét mutat az
                   ellenségnek, mintha azt mondaná: ide ugyan be nem jössz!
             </p>
-            <p>
+				<p>
                Nem is jutott be az ellenség másképen, csak úgy, hogy Klapka
                   tisztességes feltételek mellett megadta magát. Belátta, hogy maroknyi hadseregével
                   hiába áll ellent, mikor már úgyis letiporta az országot az ellenség.
             </p>
-            <p>
+				<p>
                Ebben a perczben trombitaszó és dobpergés hallatszott a várból.
             </p>
-            <p>
+				<p>
                - A katonák fújják a takarodót! - mondta Ambrus bácsi. - Mert meg van
                   rakva most is katonasággal a vár.
             </p>
-            <p>
+				<p>
                A városba érkeztek. Korántsem volt olyan szép város, mint Pozsony, de
                   utczáin élénk sürgés-forgás volt.
             </p>
-            <p>
+				<p>
                - Hajdanában még élénkebb élet volt itt, - szólt Ambrus bácsi. -
                   Híres hajóácsok, halászok és fazekasok laktak itt. Itt csinálták azokat a dunai
                   hajókat, a melyek gabonával megrakodva a tengerig is eljártak. Hát még a
@@ -1576,166 +1538,163 @@
                   csináltak Komáromban, hogy még a király leánya is abba rakta a kelengyéjét, mikor
                   férjhez ment.
             </p>
-            <p>
+				<p>
                Egy barna kis földszintes ház előtt megállott Ambrus bácsi.
             </p>
-            <p>
+				<p>
                Így szólt Palihoz:
             </p>
-            <p>
+				<p>
                - Emeld meg a kalapodat, öcsém. Ebben a házban született a nemzet
                   koszorús költője, Jókai Mór.
             </p>
-            <p>
+				<p>
                Pali áhitattal nézte a barna házikót, a melyet emléktábla jelölt meg.
                   Egyszerre megvillant az eszében az a sok gyönyörű mese, elbeszélés, a mit olvasott
                   Jókai Mórtól. Felsóhajtott:
             </p>
-            <p>
+				<p>
                - Az Isten áldja meg még azt a kőmivest is, a ki ezt a házat
                   építette!
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Hová lett a Szent-Antal?
             </head>
-            <p>
+				<p>
                Már beesteledett és Miska bácsi még mindig nem látta a hajóját a
                   Dunaágban megjelenni.
             </p>
-            <p>
+				<p>
                Leszállt az éj is és Ambrus bácsi lefektetve Palit, együtt
                   virrasztott a vén hajóssal a Dunaparton.
             </p>
-            <p>
+				<p>
                Éjfél is elmúlott már, mikor egy vörös lámpás fénye közeledett a
                   Dunán.
             </p>
-            <p>
+				<p>
                - Ott a hajóm! - kiáltotta Miska bácsi, aztán torkaszakadtából
                   kezdett kiabálni a hajóra:
             </p>
-            <p>
+				<p>
                - Hej, Trencséni Jankó! Hej, dévényi fazekas!
             </p>
-            <p>
+				<p>
                Meghallották-e a hajón a kiáltozást, nem-e, elég az hozzá, hogy a
                   hajó közeledett a parthoz és egyszerre a parthoz ütődött. Hanem már akkor Miska
                   bácsi a hajón volt és vele Ambrus bácsi is.
             </p>
-            <p>
+				<p>
                Nagy némaság fogadta őket, a hajón mintha egy árva lélek se volna.
                   Átkutatták az egész fedélzetet, sehol senki.
             </p>
-            <p>
+				<p>
                - A hajó már meg volna, - sóhajtotta keservesen Ambrus bácsi, - de az
                   én kis öcsém még mindig nincs meg.
             </p>
-            <p>
+				<p>
                - Dehogy nincs - kiáltotta Miska bácsi. - Itt alszik ni.
             </p>
-            <p>
+				<p>
                Ott aludt Trencséni Jankó a hajó fenekén kedves fazekai között, ott
                   aludt mellette Huszár Lajos is. Mivel pedig a fazekasnak jó meleg gubája volt, a
                   hűvös szeles éjszakán betakarta a gubájával Lajost is.
             </p>
-            <p>
+				<p>
                Mikor fölébresztették őket, akkor volt csak nagy a
                   csudálkozásuk.
             </p>
-            <p>
+				<p>
                Lajos odaborúlt a bácsi nyakába, Trencséni Jankó pedig parolázott
                   Miska bácsival.
             </p>
-            <p>
+				<p>
                - Miska bácsi, úgy vigyáztam a hajójára, mint a szemem fényére!
             </p>
-            <p>
+				<p>
                - Dehogy vigyáztál, - dörmögte Miska bácsi, - hisz aludtál, mint a
                   bunda.
             </p>
-            <p>
+				<p>
                - Csakhogy megtaláltuk a hajót, - kiáltotta Ambrus bácsi, - nincs
                   most már semmi baj.
             </p>
-            <p>
+				<p>
                Csakhamar ott volt Huszár Pali is. Összeölelkezett az öcscsével.
             </p>
-            <p>
+				<p>
                - Bizony már azt hittem, hogy soha sem látjuk egymást, kedves öcsém,
                   - szólt Pali.
             </p>
-            <p>
+				<p>
                Lajos elnevette magát:
             </p>
-            <p>
+				<p>
                - A’ bizony! Trencséni bácsival a világ végére is elmehetnék, akkor
                   sem történne semmi bajom...
             </p>
-            <p>
+				<p>
                - Nem úgy lesz az! - szólt közbe most Ambrus bácsi. - Elég volt a
                   hajókázásból, meg aztán akármilyen derék hajó a Szent-Antal, mégis nagyon lassan
                   halad. A Szent-Antallal soha sem jutnánk el Szegedre. Nektek pedig pontosan ott
                   kell lenni az iskolai esztendő megkezdésénél. Majd vonaton folytatjuk utunkat
                   hazafelé.
             </p>
-            <p>
+				<p>
                A jó Trencséni Jankó erre olyan fájdalmasan kiáltott fel, hogy
                   mindnyájan elszomorodtak:
             </p>
-            <p>
+				<p>
                - Mit fogok én csinálni egész úton? Pedig már épen a
                   fazekas-mesterségre akartam megtanítani diák uramékat. Bizony szívesen vállalnám
                   akár mind a kettőjüket is fazekasinasnak...
             </p>
-            <p>
+				<p>
                De még a szótlan Miska bácsi is, a hajósgazda kivette egy pillanatra
                   a pipát a szájából és így dörmögött:
             </p>
-            <p>
+				<p>
                - Már minek mennek a hajómról? Elviszem én magukat akár Szerbiába
                   is.
             </p>
-            <p>
+				<p>
                De hát Ambrus bácsi nem engedett.
             </p>
-            <p>
+				<p>
                Hiába szomorkodott Trencséni Jankó, hiába dörmögött Miska bácsi, de
                   még a fiúk is hiába meresztették a szemüket nagy elbúsúlással az elhagyott
                   hajóra...
             </p>
-            <p>
+				<p>
                Ambrus bácsi kimondta a szentenciát.
             </p>
-            <p>
+				<p>
                - Majd jövőre megyünk végig a Dunán... végig a Dunán egész Szegedig
                   be a Tiszába. Most búcsúzzatok el barátainktól.
             </p>
-            <p>
+				<p>
                A fiúk kezet szorítottak Miska bácsival. A hallgatag hajós csak
                   annyit mondott:
             </p>
-            <p>
+				<p>
                - Aztán gondoljanak néha a Szent-Antalra!
             </p>
-            <p>
+				<p>
                De Trencséni Jankó, mikor búcsúzásra került a sor, alig tudott szólni
                   meghatottságában. Minden áron a két legnagyobb fazekat akarta a fiúknak
                   ajándékozni. Alig akart belenyugodni Ambrus bácsi ellenkezésébe, hogy mit
                   csinálnak ők a rengeteg nagy fazékkal.
             </p>
-            <p>
+				<p>
                És aztán csak két kicsiny bögrét vittek el a fiúk, benne e
                   fölirással:
             </p>
-            <p>
+				<p>
                Isten, áldd meg a magyart!
             </p>
-         </div>
-      </body>
-  </text>
+			</div>
+		</body>
+	</text>
 </TEI>

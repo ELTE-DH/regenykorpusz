@@ -1,97 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU19000" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Álmok álmodója : ELTeC edition</title>
-            <author ref="viaf:31986094">Asbóth János (1845-1911)
+<TEI xml:id="HU19000" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Álmok álmodója : ELTeC edition</title>
+				<author ref="viaf:31986094">Asbóth János (1845-1911)
             </author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">38109</measure>
-            <measure unit="pages">77</measure>
-            <measure unit="vols">1</measure>
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>Álmok álmodója</title>
-               <date>2019-01-21</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/19000/19000"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Fecz Ágnes</name>
-                  <name>Lipták Éva</name>
-                  <name>Szabó Attila</name>
-                  <name>Góczán Andrea</name>
-               </respStmt>
-              
-                  <bibl type="digitalSource">
-                     <title>Álmok álmodója</title>
-                     <date>2019-01-21</date>
-                     <ref target="http://mek.oszk.hu/19000/19000"/>
-                  </bibl>
-               
-               
-                  <bibl type="printSource">
-                     <title>Álmok álmodója</title>
-                     <author>Asbóth János</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <date>1878</date>
-                     <ref target="http://mek.oszk.hu/19000/19000/pdf/"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>Álmok álmodója</title>
-               <author>Asbóth János</author>
-               <date>1878</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T2"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-27"/>
-         <change when="2020-11-14"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">38109</measure>
+				<measure unit="pages">77</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Álmok álmodója</title>
+					<date>2019-01-21</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/19000/19000"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Fecz Ágnes</name>
+						<name>Lipták Éva</name>
+						<name>Szabó Attila</name>
+						<name>Góczán Andrea</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Álmok álmodója</title>
+						<date>2019-01-21</date>
+						<ref target="http://mek.oszk.hu/19000/19000"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Álmok álmodója</title>
+						<author>Asbóth János</author>
+						<pubPlace>Budapest</pubPlace>
+						<date>1878</date>
+						<ref target="http://mek.oszk.hu/19000/19000/pdf/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Álmok álmodója</title>
+					<author>Asbóth János</author>
+					<date>1878</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T2"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-27"/>
+			<change when="2020-11-14"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="group">
-            <head>
+				<head>
                ELSŐ KÖNYV.
                DARVADY ZOLTÁN VELENCZÉBE ÉRKEZIK.
             </head>
-            <div type="chapter">
-               <head>
+				<div type="chapter">
+					<head>
                   I.
                </head>
-               <p>
+					<p>
                   Te vagy
                   Velencze!
                   Igen,
@@ -101,7 +99,7 @@
                   üdülést várhatna meddő vágyak sóvár tüzében kiégett szív:
                   te vagy az.
                </p>
-               <p>
+					<p>
                   Harcz előtt verve.
                   Reményeimben megrabolva.
                   Hová levétek nagy álmaim ti mind?
@@ -127,10 +125,10 @@
                   nincsen hangulat,
                   nincsen mód.
                </p>
-               <p>
+					<p>
                   Adj nekem feledést...
                </p>
-               <p>
+					<p>
                   Ifjú álmaim egy forró szívnek mérhetlen boldogságáról,
                   elmének dicsőségéről,
                   tettnek erejéről:
@@ -152,7 +150,7 @@
                   midőn a nyargaló vonat odahagyva a száraz földet,
                   a mesterei oriás hídra robogott...
                </p>
-               <p>
+					<p>
                   Szeretem a vasútat.
                   Társtalanúl ülve,
                   szeretek hosszas hosszú időn át keresztül robogni térségeken,
@@ -179,7 +177,7 @@
                   mert nem fáradó utazásával el tudja velem hitetni néha,
                   hogy egyenesen kivisz ebből a világból.
                </p>
-               <p>
+					<p>
                   És a mikor hosszú útjában elhagyta a havasok falait és éjszaknak zordon birodalmából lesietett az olasz földnek kertjébe,
                   hogy
                   Mestre-nél végre egészen elhagyja magát a szárazföldet is:
@@ -214,14 +212,14 @@
                   a gót és a szerecsen épitkezés sajátságos összeolvadásának meseszerüsége,
                   késő századokból a jelenbe nyúló múltnak fenséges varázsa.
                </p>
-               <p>
+					<p>
                   És mindez lebegve a tengeren,
                   a színek minden elevensége mellett is csaknem olyan méla,
                   nyúgodt,
                   csöndes,
                   mint a tenger alá merült mesevárosok.
                </p>
-               <p>
+					<p>
                   Gyorsan menekülünk a pályafő zsibongásából.
                   Nesztelen evező-csapással hajtja a gondolás a nagy csatornán végig
                      fekete nyúlánk bárkáját,
@@ -359,7 +357,7 @@
                   ki tudná elsorolni mind
                   ?
                </p>
-               <p>
+					<p>
                   Mostanság a dogék termeit pénzért mutogatják,
                   és bús a R
                   IALTO
@@ -380,12 +378,12 @@
                   hogy mindennek letüntén ne kellessék keservesen sirnom,
                   enmagam fölött keservesebben kaczagnom.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   II.
                </head>
-               <p>
+					<p>
                   Elhibázott
                   létnek terhe nyom.
                   Hogy tágithassak szivemen,
@@ -396,7 +394,7 @@
                   melyet sem ellökni,
                   sem viselni erőm nincs.
                </p>
-               <p>
+					<p>
                   Pedig ha valahol,
                   akkor itten feltalálhatnám,
                   ha nem is az életkedvet,
@@ -411,7 +409,7 @@
                   levetkeztetni,
                   magát a jelen világának oda adni képtelen.
                </p>
-               <p>
+					<p>
                   Lángolóbb szívnek,
                   merészebb elmének nagy álmaitól szabadúlni nem tudok én sem,
                   bár azok romokban hevernek és
@@ -471,7 +469,7 @@
                   vésés,
                   fúrás-faragás...
                </p>
-               <p>
+					<p>
                   Otthont lelni képtelen bolyongó a minő vagyok,
                   nem akartam itten sem többet időzni,
                   mint a mennyit másutt szoktam,
@@ -553,7 +551,7 @@
                   réges-régen fel nem talált,
                   merengő nyugalomba ringattak.
                </p>
-               <p>
+					<p>
                   Régebben az emberek élvezni tudták magát a puszta létet is
                   ;
                   örülni tudtak az életnek
@@ -661,7 +659,7 @@
                   a ki egyiktől a másikhoz futkosva,
                   az élvezetteknek hosszú sorával dicsekszik.
                </p>
-               <p>
+					<p>
                   Vajjon mind azok közül,
                   a kik e palotán naponként végig
                   hurczoltatják magukat lépcsőn fel és lépcsőn le:
@@ -670,7 +668,7 @@
                   órákig ülve e párkányon
                   ?
                </p>
-               <p>
+					<p>
                   Évezred tekint le reám.
                   Egyik század a másik után örökítette meg itten szellemét.
                   Itt van a gótnak titokzatos szigora a szarazennek képzeletgazdag
@@ -686,7 +684,7 @@
                   Hiszen itt van a világtörténelem
                   !
                </p>
-               <p>
+					<p>
                   Igen,
                   olyan ez a palota,
                   mint a világtörténelem
@@ -749,7 +747,7 @@
                   és mögötted van dús renaissanceban a négyszöget bezáró keleti
                      homlokzat.
                </p>
-               <p>
+					<p>
                   Mint a történelemben a századok szelleme,
                   a népek hullámzásának nagy mozzanatai,
                   úgy tűnik szemedbe mind ez.
@@ -793,7 +791,7 @@
                   Olyan az epigon mellett,
                   mint a felvergődött szerencsevadász mellett az igazi nagy úr.
                </p>
-               <p>
+					<p>
                   A történelem lehellete ütötte meg szívemet e csarnokokban,
                   a korai órák e magasztos csöndjében.
                   A vásári tolongás porától távol,
@@ -828,7 +826,7 @@
                   és dicstelen életem hitvány árnak tetszék,
                   megszerezni rajta helyet e kőalakok között.
                </p>
-               <p>
+					<p>
                   Ki tudja,
                   meddig maradtam,
                   ki tudja,
@@ -838,20 +836,18 @@
                   minden nemből és korból egy-egy taggal,
                   a sörfőző-fajból,
                   el nem lepi előttem a tért és a
-                  
                      miss
-                  
                   -ek egyike nem kezdi M
                   URRAY
                   -ból recitálni az udvar látványosságait,
                   míg a többi leeresztett állkapczával hallgatja.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   III.
                </head>
-               <p>
+					<p>
                   A mai nap
                   levélre volt
                   szentelve
@@ -859,10 +855,10 @@
                   szentelve:
                   nekem szent személynek tártam ki lelkemet.
                </p>
-               <p>
+					<p>
                   Ime a levél:
                </p>
-               <p>
+					<p>
                   »
                   Édes Anyám
                   !
@@ -870,7 +866,7 @@
                   szegény anyám
                   !«
                </p>
-               <p>
+					<p>
                   »Elaggottan,
                   elhagyatottan ülsz az ősi udvaron.
                   Szomorúan néznek reád a
@@ -980,7 +976,7 @@
                   milyen hitványnak találtam reá erőmet.
                   «
                </p>
-               <p>
+					<p>
                   »És be kellett volna vallanom.
                   Talán kevésbé lehettem volna büszke és
                   -
@@ -993,7 +989,7 @@
                   nem kellett volna kétkedned.
                   «
                </p>
-               <p>
+					<p>
                   »De ezt a kétkedést tovább viselni nem tudom.
                   Idegen földön,
                   idegenek közt,
@@ -1034,13 +1030,13 @@
                   mely kikergetett a hazából.
                   «
                </p>
-               <p>
+					<p>
                   »E levelemmel elküldök neked mindent,
                   a mit magamról mondani tudok.
                   Olvasd el és érteni fogsz mindent.
                   «
                </p>
-               <p>
+					<p>
                   »Fiad
                   «
                   »Z
@@ -1048,30 +1044,25 @@
                   .
                   «
                </p>
-               <p>
-                  
-               </p>
-            </div>
-         </div>
-         <div type="group">
-            <head>
+				</div>
+			</div>
+			<div type="group">
+				<head>
                MÁSODIK KÖNYV.
                DARVADY ZOLTÁN VALLOMÁSAI.
             </head>
-            <div type="chapter">
-               <head>
+				<div type="chapter">
+					<head>
                   I.
                </head>
-               <p>
+					<p>
                   Nem tudom,
                   nem erre az életre vagyok-e teremtve,
                   hogy nem birom elviselni úgy mint mások
                   ;
                   hiszen vannak,
                   nem csak a kik mulatnak
-                  
                      rajta
-                  
                   ,
                   a mit értek,
                   noha meg vagyok átkozva,
@@ -1089,7 +1080,7 @@
                   vagy ha hallja,
                   meg nem érti s a visszhang reá legfelebb kaczagás.
                </p>
-               <p>
+					<p>
                   A legboldogabbnak sem egyéb az élet,
                   mint jaj és panasz naponként,
                   mondják régi
@@ -1099,7 +1090,7 @@
                   emlékeit felderitő
                   örömnek.
                </p>
-               <p>
+					<p>
                   Úgy hiszem tévhit.
                   Örömet,
                   fájdalmat erőteljesebben,
@@ -1186,7 +1177,7 @@
                   ha mutatni illik,
                   gyakran felsrófolni vagytok kénytelenek.
                </p>
-               <p>
+					<p>
                   Bizonyos,
                   hogy gyermekkoromat beárnyalta az is,
                   ha teljesen érteni és érezni tán nem is tudtam volna,
@@ -1195,7 +1186,7 @@
                   s
                   a te búdnak vissza kellett verődni reám is.
                </p>
-               <p>
+					<p>
                   Annyit tudok,
                   hogy nem volt örömöm soha,
                   mely szivemet összesajtoló fájdalmak bő
@@ -1323,12 +1314,12 @@
                   lehet,
                   de azért nem kevésbé fáj.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   II.
                </head>
-               <p>
+					<p>
                   Ifjú napjaimnak
                   minő viharja kerekedett,
                   midőn egy borongós,
@@ -1399,7 +1390,7 @@
                   mint a minő én vagyok,
                   nincs hatalma.
                </p>
-               <p>
+					<p>
                   Ma is tehát ilyen jól
                   mentek a dolgok és mi gyermekek épen térdepelve mondtuk el
                   imádságainkat,
@@ -1545,7 +1536,7 @@
                   a háborút újra s újra megindítani ellene nem szüntem meg
                      soha.
                </p>
-               <p>
+					<p>
                   Ezúttal határozottan én voltam az erősebb.
                   Szokatlan szenvedélyem,
                   és még szokatlanabb erőszakosságom eltorzított,
@@ -1575,7 +1566,7 @@
                   és harag szegezte
                   a földre.
                </p>
-               <p>
+					<p>
                   Szerencsétlenségemre régi ellenségem nem volt annyira
                      megijedve,
                   hogy ne tudta volna
@@ -1591,7 +1582,7 @@
                   hogyan engedhette meg,
                   hogy hazudjanak.
                </p>
-               <p>
+					<p>
                   Áthatva annak érzetétől,
                   hogy igazam nekem van,
                   hogy a sértett valósággal én vagyok,
@@ -1610,7 +1601,7 @@
                   ujra kitört és emelt fővel jelentettem ki,
                   hogy nekem igazam van és nem fogok bocsánatot kérni senkitől.
                </p>
-               <p>
+					<p>
                   Az eset nehéz volt.
                   A gyermek daczát meg kellett törni,
                   hogy ne legyen megtörve mindazoknak tekintélye,
@@ -1629,7 +1620,7 @@
                   becsukva maradok a szobában,
                   a meddig bocsánatot kérni nem akarok.
                </p>
-               <p>
+					<p>
                   Erre minden sirási
                   kedvnek vége
                   volt.
@@ -1638,7 +1629,7 @@
                   sem hogy bocsánatot
                   kérjek.
                </p>
-               <p>
+					<p>
                   Körüljártam börtönömet.
                   A mulatók szobáinak zaja,
                   derüje,
@@ -1724,7 +1715,7 @@
                   Nem fogok bocsánatot kérni
                   !«
                </p>
-               <p>
+					<p>
                   Megint magamra voltam,
                   megint árva csöndben,
                   megint a gyertyára meresztettem
@@ -1775,12 +1766,12 @@
                   hogy felfödözésemet a többi gyermeknek el nem árulom.
                   A fölénynek bizonyos érzetével őriztem titkomat.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   III.
                </head>
-               <p>
+					<p>
                   Apátlan
                   házban egyetlen
                   fiú,
@@ -1808,12 +1799,12 @@
                   de játékainkból kizárva,
                   csakhamar maga jelentkezett a büntetés kiállására.
                </p>
-               <p>
+					<p>
                   De a fölénynek ez az érzete nem szorítkozott a játékra és ha a
                      játékban mindig nagy elégtételemre szolgált,
                   más felől sok keserüségnek vált forrásává.
                </p>
-               <p>
+					<p>
                   A mint olvastam,
                   a mint tanúltam,
                   amint egyről másról hallottam,
@@ -1821,7 +1812,7 @@
                   és más dolog ragadta meg figyelmemet,
                   egész lényemet.
                </p>
-               <p>
+					<p>
                   Emlékezel-e hogyan leltél egyszer merengő tekintettel
                   M
                   AGYARORSZÁG
@@ -1831,7 +1822,7 @@
                   hogy szeretnék
                   király lenni.
                </p>
-               <p>
+					<p>
                   -
                   Akkor is,
                   ha megölnének
@@ -1843,7 +1834,7 @@
                   ÁSZLÓNÁL
                   van a könyv felütve.
                </p>
-               <p>
+					<p>
                   -
                   Akkor is.
                   Mert K
@@ -1860,7 +1851,7 @@
                   AGYARORSZÁG
                   -ot csinálnék.
                </p>
-               <p>
+					<p>
                   És mind inkább megszerettem a magányt,
                   mindinkább fogtak el ilyen álmok,
                   kis leczkéimet megtanúlva egy olvasásra,
@@ -1873,7 +1864,7 @@
                   el tüntek,
                   ha idegen tolakodott közibük.
                </p>
-               <p>
+					<p>
                   Hányszor ültem a D
                   ARUVÁR
                    fokán
@@ -1890,7 +1881,7 @@
                   hogy velem egyesűlve,
                   felszabadítsa az országot.
                </p>
-               <p>
+					<p>
                   Máskor a múltba merengtem,
                   jártatva szememet a sziklás hegyek alján kigyózó folyócskán,
                   melynek partjai messze-messze a török idők előtt mind
@@ -1901,12 +1892,12 @@
                   és ragyogó vértezetben láttam magamat királykisasszonyok előtt
                      könnyü kézzel forgatni a nehéz dárdát.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IV.
                </head>
-               <p>
+					<p>
                   Majd
                   mikor többet tanúltam,
                   berendeztem magamnak a várnak egyik tornyát,
@@ -1920,7 +1911,7 @@
                      volt,
                   nem volt vége a lombikok forralásának és méregkeverésnek.
                </p>
-               <p>
+					<p>
                   Bizonyára sokban megelőztem ez által korom ismereteit,
                   és örvendtek,
                   hogy ilyenekkel foglalkozom.
@@ -1935,7 +1926,7 @@
                   a létnek titkai fölött kezdtem elmélkedni,
                   és tizenöt éves koromban scepticus voltam.
                </p>
-               <p>
+					<p>
                   De a legnagyobb szerencsétlenség az volt,
                   hogy nem egy összeütközésbe,
                   néha világgyülöletbe,
@@ -1955,16 +1946,16 @@
                      járni az emberek közt,
                   mint a holdkóros.
                </p>
-               <p>
+					<p>
                   És mentül szorosabban és sürübben érintkeztem az élettel,
                   annyival inkább váltam szerencsétlenné,
                   annyival inkább riadtam tőle vissza.
                </p>
-               <p>
+					<p>
                   Mindjárt első fellépésem a nyilvános iskolában szerencsétlen
                      volt.
                </p>
-               <p>
+					<p>
                   A sok idegen gyermek,
                   a ki rám meresztette szemét,
                   kihivóan az egyik,
@@ -1993,7 +1984,7 @@
                      gyülölteték a világ minden aristokratiája azért,
                   mivel nem találta kedveseknek és vonzóknak a democratákat.
                </p>
-               <p>
+					<p>
                   Ha látták,
                   hogy idegenkedem tőlük,
                   ők is hamar találtak rajtam kivetni
@@ -2070,7 +2061,7 @@
                      otthon is kiderülvén,
                   minden kérésem hasonló uj sapkáért hasztalan maradt.
                </p>
-               <p>
+					<p>
                   Mivel azonban mindannyiszor hevesen ellentállottam és nem
                      nézve,
                   hogy engem ütnek,
@@ -2083,12 +2074,12 @@
                   hogy mindent a legjobban tudtam és a ki valamit nem tudott,
                   készséggel s szokott fölényemmel tanítottam.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   V.
                </head>
-               <p>
+					<p>
                   Később
                   nem
                   ment olyan jól a tanulással.
@@ -2137,19 +2128,19 @@
                   de soha sem a tankönyvbe.
                   Éjfél utánig is lopva olvastam.
                </p>
-               <p>
+					<p>
                   Végre is a dolog kisűlt,
                   minden könyvemet elszedték,
                   s úgy ügyeltek,
                   hogy a tilalmat többé meg nem szeghettem.
                   Figyelmeztetve volt minden tanítóm s egész környezetem.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VI.
                </head>
-               <p>
+					<p>
                   Milyen
                   üldözött,
                   milyen megrabolt,
@@ -2158,12 +2149,12 @@
                   Elvesztettem az egyetlent,
                   a mi örömömből még megmaradt.
                </p>
-               <p>
+					<p>
                   De a képzeletnek fáradhatatlan munkája segített rajtam.
                   Annyi bajomnak,
                   de minden örömömnek is ez volt forrása.
                </p>
-               <p>
+					<p>
                   Mikor könyveimet elszedték volt,
                   és szigorúbb ügyelet alá tettek,
                   valóságos tankönyveimből olvastam,
@@ -2174,7 +2165,7 @@
                   s miket az elkobzás félbeszakított,
                   azokat magam füztem tovább.
                </p>
-               <p>
+					<p>
                   Minő boldogság.
                   A menyek kapúja nyílt meg előttem
                   !
@@ -2214,11 +2205,11 @@
                   Nem voltak-e álmaim és látományaim
                   ?
                </p>
-               <p>
+					<p>
                   És alig hogy költő voltam,
                   már nagy költő is valék.
                </p>
-               <p>
+					<p>
                   Vezetés és válogatás nélkül olvasva mindent,
                   a mi kezembe vetődött,
                   olvastam egy pár éles műbirót is,
@@ -2232,11 +2223,11 @@
                   fogok,
                   valamennyinek fölötte állónak éreztem magam.
                </p>
-               <p>
+					<p>
                   Nosza megeredt a tervelés és folyt az
                   irás.
                </p>
-               <p>
+					<p>
                   Bölcsen tudva,
                   hogy minden költő
                   szerelmes,
@@ -2282,7 +2273,7 @@
                   közepén gyönge rózsapírral.
                   Ketten összefolytak érzelmeimben és dalaimban.
                </p>
-               <p>
+					<p>
                   Félve azoktól,
                   a kik már egyszer megraboltak örömeimben,
                   ekkor először tanúltam álnok képmutatást,
@@ -2305,12 +2296,12 @@
                   ;
                   de nem volt.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VII.
                </head>
-               <p>
+					<p>
                   A
                   középiskola utolsó évében komolyabban vettem a tanulást,
                   mint azelőtt.
@@ -2328,7 +2319,7 @@
                   könyvekhez is hozzájutottam megint s a legjobb uton voltam,
                   hogy valóságos könyvmoly legyek.
                </p>
-               <p>
+					<p>
                   Emlékezem,
                   mennyire csodálkoztál mindig,
                   valahányszor barátaim után kérdezősködtél,
@@ -2374,7 +2365,7 @@
                      idegen emberekkel is,
                   s ebből maradt bennem valami mind a mai napig.
                </p>
-               <p>
+					<p>
                   Ennek a képzelgésben élésnek,
                   ennek a
                   csatlakozni nem tudásnak,
@@ -2384,7 +2375,7 @@
                   s mikor egyszer nem maradhattam többé könyveim s álmaim közt,
                   a világgal s a világban élni nem tudtam.
                </p>
-               <p>
+					<p>
                   Ma már nem kicsinylem annyira pajtásaim gyermekjátékait,
                   mint akkoriban.
                   Hiszem,
@@ -2421,12 +2412,12 @@
                   s jobb lett volna dolgom
                   !
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VIII.
                </head>
-               <p>
+					<p>
                   Így
                   álltak a
                   dolgok,
@@ -2458,7 +2449,7 @@
                   mindannyiszor mérnököt
                   ismertek fel bennem.
                </p>
-               <p>
+					<p>
                   Látni való,
                   hogy egész fejlődésem ez ellen beszélt.
                   De nincsen nehezebb,
@@ -2501,7 +2492,7 @@
                   hanem behatolva a gyermek lelkületének mélyébe,
                   annak jelenségeihez alkalmazkodnak.
                </p>
-               <p>
+					<p>
                   Nálam is oly jelenségekből,
                   melyeket ha jól megértik,
                   az ellenkezőre kellett volna
@@ -2511,7 +2502,7 @@
                   s az egyszer megállapított véleményben nem tántorodtak meg,
                   midőn erősebb jelenségek még erősebben beszéltek.
                </p>
-               <p>
+					<p>
                   Igaz,
                   hogy ennek oka volt.
                   Akkoriban,
@@ -2580,7 +2571,7 @@
                   egy nemzedéke meddőnek odaveszett,
                   de mely alatt az idegen uralom megtörött.
                </p>
-               <p>
+					<p>
                   Már ingadoztak oszlopai,
                   midőn pályát kelle választanom.
                   Kiújúlt a remény,
@@ -2606,7 +2597,7 @@
                   eltespesedett s még egyszer csatatéren vérzeni készülő ország
                   !
                </p>
-               <p>
+					<p>
                   Ha tehát az előtt nem igen volt más választás,
                   mint vagy nem készűlni semmi pályára,
                   nem tanúlni semmit,
@@ -2625,7 +2616,7 @@
                   Igy vezetett a hazafiság hőfoka a hazán magát túltevő
                      kosmopolitismusra.
                </p>
-               <p>
+					<p>
                   Hogy mi akarok lenni,
                   nem tudtam volna megmondani.
                   De tudtam,
@@ -2635,7 +2626,7 @@
                   a kik az eszmék és a tettek terén nemzeteket vezetnek,
                   népek gondolkodását és sorsát irányítják.
                </p>
-               <p>
+					<p>
                   Ha ismerem vala akkor az építészet ama remekeit,
                   melyeknek fenséges nyugalmában most annyi gyönyört,
                   s legalább valami időre nyugalmat találok:
@@ -2652,7 +2643,7 @@
                   a minek egy-egy ragyogó példája vagy benyomása a döntő pillanatban
                      legközelebb áll hozzá.
                </p>
-               <p>
+					<p>
                   Igy daczára a mély ellenszenvnek,
                   meghajoltam az okoknak,
                   de nem fogtam fel uj pályámat másnak,
@@ -2662,15 +2653,15 @@
                   s
                   álmodtam benne magamnak szerepet.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IX.
                </head>
-               <p>
+					<p>
                   Külföldre mentem.
                </p>
-               <p>
+					<p>
                   Ma hálásan ismerem be ennek két nagy előnyét.
                   Először hogy korán ismerkedtem meg,
                   habár nem is a legpolgárosúltabb,
@@ -2722,7 +2713,7 @@
                   hogy a benső nyerseség,
                   korlátoltság vagy épen romlottság ki ne tűnjék.
                </p>
-               <p>
+					<p>
                   A másik az,
                   hogy habár látva,
                   hogy mindig gyönge maradnék benne,
@@ -2746,7 +2737,7 @@
                      ügyeit úgy pertractálják,
                   mintha pörökről volna szó.
                </p>
-               <p>
+					<p>
                   Azt hiszem tehát,
                   hogy a hazai magasabb
                   nevelésnek elkerülésével csak nyertem,
@@ -2762,7 +2753,7 @@
                   foglalkozását,
                   gondját.
                </p>
-               <p>
+					<p>
                   De akkoriban nem emelkedtem ezekre a szempontokra,
                   s késztetve és készülve oly pályára,
                   mely hajlamaimmal s képességeimmel ellenkezett,
@@ -2770,7 +2761,7 @@
                   benső meghasonlásban vergődtem és csak küzdelemmel tettem eleget
                      kötelességemnek.
                </p>
-               <p>
+					<p>
                   Mi természetesebb,
                   mint hogy nekifeszültem
                   ujra a költészetnek s csakhamar
@@ -2784,7 +2775,7 @@
                      teremtményei által benépesített és a mint erősen megvoltam győződve,
                   érdekesnél érdekesebb alakokkal benépesített világba.
                </p>
-               <p>
+					<p>
                   Mert,
                   -
                   legalább eleintén,
@@ -2837,7 +2828,7 @@
                   UCHS
                   -korukban.
                </p>
-               <p>
+					<p>
                   Akkorában nem tudtam ez egyletekben becsűlni,
                   hogy a tanulmányokban a tagok egymásnak kezére járnak,
                   az egyletek maguk többnyire rajta vannak,
@@ -2859,7 +2850,7 @@
                   különben pedig idejüket kártyaasztal,
                   kávéház és ezeknél még alantabb álló helyek közt osztják meg.
                </p>
-               <p>
+					<p>
                   Minthogy tehát ez élettel sehogy sem tudtam megbarátkozni,
                   de a német tanulók,
                   ha nem is lépnek be az ilynemü szervezett egyletek
@@ -2869,17 +2860,17 @@
                   s míg a tanulói körökön kivül nem szereztem ismerősöket,
                   inkább mint valaha el voltam szigetelve.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   X.
                </head>
-               <p>
+					<p>
                   Költői
                   álmaimhoz pedig inkább mint valaha vonzott két benyomás,
                   mely minderősebben domborodott ki tudatomban.
                </p>
-               <p>
+					<p>
                   Vándorló képzeletem,
                   fürkésző elmém korán tört túl a láthatónak és kézzel foghatónak
                      korlátain.
@@ -2987,7 +2978,7 @@
                   az embert a megsemmisülés iszonya által idő előtt a
                      megsemmisülésbe kergeti.
                </p>
-               <p>
+					<p>
                   Hatni,
                   alkotni
                   ;
@@ -3030,14 +3021,14 @@
                   mindaddig a meddig csak tanuságot felfogni,
                   okot felismerni képes tudat lényben van.
                </p>
-               <p>
+					<p>
                   Ime egy okkal több,
                   hogy a halhatatlanságot szomjuhozzam,
                   valahogyan a ki kárhoztatva van,
                   hogy halálnak legyen fia,
                   szomjuhozza az életet.
                </p>
-               <p>
+					<p>
                   Ezen felül hittem,
                   és úgy hiszem mind e mai napig,
                   hogy csak két ember van,
@@ -3117,7 +3108,7 @@
                   Fonnyadozó csenevészet
                   !
                </p>
-               <p>
+					<p>
                   S
                   ez
                   igy van mai nap a legjobbakkal,
@@ -3198,7 +3189,7 @@
                   hanem az állatnak durva élvezeteibe
                   !
                </p>
-               <p>
+					<p>
                   Igy haladva,
                   nem haladunk-e mind rohamosabban,
                   mind távolabb emberi méltóságtól,
@@ -3206,7 +3197,7 @@
                   igaz erénytől
                   ?
                </p>
-               <p>
+					<p>
                   A modern élet hajhászatában csak a költő és az államférfiú maradt
                      meg olyannak,
                   a kinek részletet és egészet felölelhetni adva van,
@@ -3228,11 +3219,11 @@
                   kedélybe fogadhatnak
                   !
                </p>
-               <p>
+					<p>
                   Mindezt ennyire tisztán nem láttam talán,
                   de éreztem úgy mint ma.
                </p>
-               <p>
+					<p>
                   De fajomnak térde szolgaságra hajtva,
                   mi maradt volna nekem más a költészetnél
                   ?
@@ -3241,12 +3232,12 @@
                   akartam létben keresni harmoniát,
                   búbánatban vigasztalást.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XI.
                </head>
-               <p>
+					<p>
                   Minek
                   irjam le,
                   hogyan tudnám leirni a kiábrándulást
@@ -3307,12 +3298,12 @@
                   nincs
                   !
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XII.
                </head>
-               <p>
+					<p>
                   De
                   ha nem volt miért élni,
                   miért meghalni volt
@@ -3387,7 +3378,7 @@
                   És nem egészen tiz év múlva a német fölött kerekedik
                   ujabb óriási harcz.
                </p>
-               <p>
+					<p>
                   Mindez nem egyéb,
                   mint az a mozgalom,
                   mely a magyar nemzetet
@@ -3398,7 +3389,7 @@
                   de jövő,
                   a múltnál nem kevésbé nagy.
                </p>
-               <p>
+					<p>
                   De akkor,
                   az események rohamában és zajában elszédülve,
                   vajjon hányan látták azt,
@@ -3440,7 +3431,7 @@
                   beszéltek,
                   és látni nem akarva nézték a magyar legió szervezését.
                </p>
-               <p>
+					<p>
                   Én is oda siettem.
                   A hazától távol évek óta
                   ;
@@ -3464,7 +3455,7 @@
                    és mi tartóztathatott volna vissza
                   ?
                </p>
-               <p>
+					<p>
                   Otthon azalatt nagy fordulatok történtek.
                   Igenis forrongott a nemzet
                   ;
@@ -3511,7 +3502,7 @@
                   Az emigratiót és valamennyiünket a kik hozzá csatlakoztunk,
                   desavouálta.
                </p>
-               <p>
+					<p>
                   Én P
                   ÁRIS
                   -ban erről mit sem tudtam,
@@ -3561,27 +3552,27 @@
                   -ban megkötötték a praeliminárékat,
                   a háborúnak vége van.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIII.
                </head>
-               <p>
+					<p>
                   És
                   megint egyszer zátonyon voltam.
                </p>
-               <p>
+					<p>
                   Harag és szégyen
                   üzött el P
                   ÁRIS
                   -ból.
                   Három nap alatt otthon voltam.
                </p>
-               <p>
+					<p>
                   És előttem állott az élet sík tengere
                   !
                </p>
-               <p>
+					<p>
                   Ismertem-e e tengert
                   ?
                   Erőimet ismertem-e
@@ -3596,7 +3587,7 @@
                   melyen összetör a zivatar
                   ?
                </p>
-               <p>
+					<p>
                   Haj
                   !
                   Melyik ifjú tudná
@@ -3606,7 +3597,7 @@
                   hogy abban lubickoljon,
                   mig széjjel nem rohad.
                </p>
-               <p>
+					<p>
                   És mégis,
                   -
                   és bármi sokszor szenvedtem már hajótörést,
@@ -3617,7 +3608,7 @@
                   hajómat,
                   melyen vigan lobogtak az ifjuság lobogói.
                </p>
-               <p>
+					<p>
                   Igen,
                   A
                   NTAEUS
@@ -3635,7 +3626,7 @@
                   ma
                   !
                </p>
-               <p>
+					<p>
                   De akkor
                   !
                   Akkor,
@@ -3643,7 +3634,7 @@
                   akkor a reménynek mámor-korát éltük és ifjú szivem dagadozott
                      reménynek mámorától.
                </p>
-               <p>
+					<p>
                   Akkor támadt fel M
                   AGYARORSZÁG
                    és feltámadást ünnepelt minden magyar sziv.
@@ -3651,24 +3642,20 @@
                   útegyengetés nehéz és sikerében is háládatlan munkáját győzelem
                      koronázta.
                   És az
-                  
                      útegyengetés
-                  
                   ,
                   a nehéz munka férfiainak testén át foglalták el az új M
                   AGYARORSZÁG
                   -ot diadalmenetben
                   a
-                  
                      reménynek
-                  
                    férfiai.
                   Ki ne emlékeznék,
                   hogy elég volt az uj magyar ministerelnöknek megjelenni az
                      utczán,
                   és riadó örömüdvözlés hömpölygött végig a tömegen.
                </p>
-               <p>
+					<p>
                   Annyi önmegtagadó hazafiságnak,
                   annyi parlagon hevert erőnek nyitva állott a tér.
                   Önmaga fölött rendelkezett a magyar.
@@ -3686,7 +3673,7 @@
                   -ot nehány év alatt emelkedni vélt mindenki és jobb jövő fejében
                      feledve volt minden régi gond.
                </p>
-               <p>
+					<p>
                   M
                   AGYARORSZÁG
                    újra-teremtésének nagy munkájában részt venni égtem a
@@ -3694,13 +3681,13 @@
                   Boldognak üdvözöltem magamat,
                   hogy ebben a perczben bocsájthatom hajómat a sík tengerre.
                </p>
-               <p>
+					<p>
                   S rövid nehány év elegendő volt,
                   hogy törött árboczczal,
                   széllyel szaggatott vitorlákkal adjam föl a küzdelmet,
                   a reményt.
                </p>
-               <p>
+					<p>
                   Mi volt e nehány évem egyéb,
                   mint áltató apró sikerek után a gyermekkor minden keserveinél
                      keservesebb csalódás és kudarcz
@@ -3708,14 +3695,14 @@
                   Eltévesztett kisérletek sora.
                   Erőknek meddő vesztegetése.
                </p>
-               <p>
+					<p>
                   És végre a tudat,
                   hogy küzdeni tovább nincs mivel,
                   nincsen hol,
                   nincsen miért
                   !
                </p>
-               <p>
+					<p>
                   Az elégedettségnek csak egy rövid éve,
                   a tiszta boldogságnak
                   csak egy rövid álma
@@ -3723,7 +3710,7 @@
                   a mi felváltotta a harczot,
                   melyben remény remény után roskadt össze.
                </p>
-               <p>
+					<p>
                   Midőn az atyával együtt elveszett ősi birtokba ismét
                      bemehettünk,
                   a gazdaság rendezésének és szervezésének munkája,
@@ -3735,12 +3722,12 @@
                   a szűk korlátok közt megmaradni nem tudtam,
                   és megindúlt újra a harcz.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIV.
                </head>
-               <p>
+					<p>
                   Párisból visszatérvén,
                   ha nem akartam magamat csekély zúgban meghúzni,
                   a mi lehet boldogság,
@@ -3783,7 +3770,7 @@
                   kiküzdeni nekem azt a helyet,
                   mely megillet.
                </p>
-               <p>
+					<p>
                   Kalandos tervemen a vidéki atyafiság csak nevetni tudott.
                   Sokkal okosabbnak gondolták,
                   tisztességesen,
@@ -3833,7 +3820,7 @@
                   utat törni,
                   és hazulról nem kérek többé egy krajczárt sem.
                </p>
-               <p>
+					<p>
                   Minő nap volt,
                   mikor első czikkem megjelent
                   ;
@@ -3891,7 +3878,7 @@
                   Minő bódulat
                   !
                </p>
-               <p>
+					<p>
                   És aztán jött a kiábrándulás.
                   Egyszer csak azon vettem észre magamat,
                   hogy
@@ -3939,12 +3926,12 @@
                   És akkor jött az az év,
                   melyet a visszanyert birtok rendezésének szenteltem.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XV.
                </head>
-               <p>
+					<p>
                   Jól
                   esett
                   a csalódások vihara után a biztos révre visszavonúlni.
@@ -3955,7 +3942,7 @@
                   biztos földet akartam talpam alatt,
                   s a megyei életre vetettem magamat.
                </p>
-               <p>
+					<p>
                   Hivatalt nem vállaltam
                   ;
                   nem akartam aprólékosságra vesztegetni magamat,
@@ -3976,7 +3963,7 @@
                   ahol nagyobb körben,
                   nagyobb hatalommal folytathatom harczomat az igazért.
                </p>
-               <p>
+					<p>
                   Minek
                   irjak le minden részleteiben egy D
                   ON
@@ -4028,7 +4015,7 @@
                      tudományára
                   ?
                </p>
-               <p>
+					<p>
                   És csillapíthatatlan vágyakkal kebelemben,
                   láttam tehetetlenségemet.
                   És láttam,
@@ -4105,7 +4092,7 @@
                   érzés és felvergődött az anyagi javak
                   és a szenyes élvek hajhászata.
                </p>
-               <p>
+					<p>
                   Oh pusztuló,
                   sülyedő magyar fajom
                   !
@@ -4119,7 +4106,7 @@
                   hogy a tiszta erkölcs csak puszta szó,
                   hanem igenis az ország talpköve...
                </p>
-               <p>
+					<p>
                   Ha a bömbölő tenger ellenében kellene sziklaként megállanom,
                   -
                   megállanék.
@@ -4130,7 +4117,7 @@
                   !
                   ezt nem birtam el.
                </p>
-               <p>
+					<p>
                   Ezért,
                   hogy évek óta futom az idegen földet és kifutnék,
                   ha lehetne a világból,
@@ -4143,21 +4130,18 @@
                   És nagy álmaimnak romjairól idegen földön siratom,
                   hogy születtem.
                </p>
-               <p>
-                  
-               </p>
-            </div>
-         </div>
-         <div type="group">
-            <head>
+				</div>
+			</div>
+			<div type="group">
+				<head>
                HARMADIK KÖNYV.
                DARVADY ZOLTÁN SZERELME.
             </head>
-            <div type="chapter">
-               <head>
+				<div type="chapter">
+					<head>
                   I.
                </head>
-               <p>
+					<p>
                   A
                   benső harczoknak napja volt megint.
                   A berendezkedés,
@@ -4170,7 +4154,7 @@
                   hogy hiába vagyok a világon,
                   gyötröttek a régi vágyak s tehetetlenségem érzete.
                </p>
-               <p>
+					<p>
                   Késő délután volt,
                   midőn elhagytam lakásomat.
                   Gondolásom a nagy kanális palotasorai közt evezve megkerülte
@@ -4201,7 +4185,7 @@
                   EGVÁLTÓ
                   temploma előtt szálltam ki.
                </p>
-               <p>
+					<p>
                   Visszariadtam a
                   Z
                   ATTARE
@@ -4219,7 +4203,7 @@
                   fényes kupolájával,
                   korinthusi oszlopaival.
                </p>
-               <p>
+					<p>
                   A zajos,
                   nyugtalan,
                   kicsinyes mai világon,
@@ -4238,10 +4222,10 @@
                   !
                   Feltártam a nehezen forgó ajtót és beléptem.
                </p>
-               <p>
+					<p>
                   Itten béke van...
                </p>
-               <p>
+					<p>
                   Ugyan az az egyszerüség,
                   az a világosság,
                   azok a hatalmas oszlopsorok bent is.
@@ -4251,7 +4235,7 @@
                   Egészen egyedül voltam.
                   Itten béke van...
                </p>
-               <p>
+					<p>
                   A sekrestye előtt megálltam.
                   Szinte féltem,
                   hogy kijöhetne valaki és megzavarhatná békémet.
@@ -4264,13 +4248,13 @@
                   mellékajtónál,
                   a függöny félrevonva.
                </p>
-               <p>
+					<p>
                   Minő kép ez a M
                   ADONNA
                    gyermekével
                   !
                </p>
-               <p>
+					<p>
                   Nem festett sem azelőtt,
                   sem azután ebben a modorban senki sem,
                   csak G
@@ -4280,7 +4264,7 @@
                   ,
                   a velenczei iskola atyja.
                </p>
-               <p>
+					<p>
                   Csak ilyen odaadó,
                   szeretetteljes,
                   nyugodt gonddal lehetett ilyen mélyen hatni a legegyszerübbel
@@ -4298,7 +4282,7 @@
                   mely a rejtelmes mélységnek és eleven fénynek varázsát
                      egyesíti.
                </p>
-               <p>
+					<p>
                   Viruló szingazdagsága ez annak az egészségesen fejlődő
                      életnek,
                   mely a serdülés sejtelmes,
@@ -4347,7 +4331,7 @@
                   a mi velenczei,
                   páratlanná tette a világon.
                </p>
-               <p>
+					<p>
                   Ha T
                   ITIAN
                   -ban egész teljükben tündökölnek ezek a tényezők,
@@ -4360,7 +4344,7 @@
                   gazdagság és gyönyörök özöne maguk mellett sokáig nem türhetnek
                      meg.
                </p>
-               <p>
+					<p>
                   Mi szelíd komolyság vegyül e képben gyermeki csöndes örömmel
                   ;
                   cselekvés nincs
@@ -4401,20 +4385,20 @@
                      túlemeli őket a közönséges való
                   világán.
                </p>
-               <p>
+					<p>
                   Béke,
                   béke,
                   itten béke van
                   !
                </p>
-               <p>
+					<p>
                   Nézése közben,
                   mintha e képből át akarna vonúlni e béke szivembe...
                </p>
-               <p>
+					<p>
                   Az ajtófélfához támaszkodtam s néztem hosszan elmerengve.
                </p>
-               <p>
+					<p>
                   S a hogyan nézem s nézem,
                   mintha félig álom,
                   félig való volna,
@@ -4422,7 +4406,7 @@
                   csöndes,
                   mély hangú ének rejtelmes tompa zöngelemmel.
                </p>
-               <p>
+					<p>
                   Nem álom.
                   Való,
                   mely álomból ébreszt.
@@ -4451,7 +4435,7 @@
                      művészettel,
                   az asceta szigort imponáló pompával.
                </p>
-               <p>
+					<p>
                   E
                   széksorokban,
                   maguk előtt százados öröklött könyveikkel,
@@ -4473,7 +4457,7 @@
                      mindenütt,
                   düledező kolduslakban s büszke palotában egyaránt.
                </p>
-               <p>
+					<p>
                   Rengeteg szakálú vének,
                   ifjú férfiak,
                   de
@@ -4484,7 +4468,7 @@
                   mely az oltáron túl visszahangzott a templom üres
                      csarnokaiban.
                </p>
-               <p>
+					<p>
                   Homályosodott.
                   Háborgó vágy fogta el dobogó szivemet.
                   Mit nyertem benned világ az eljátszott
@@ -4497,20 +4481,20 @@
                   e lemondó csöndes férfiszívek békéjében
                   !
                </p>
-               <p>
+					<p>
                   Nyitott szemmel,
                   látás nélkül tántorogtam ki,
                   nem akaratom tudata,
                   csak lépteim gépies ösztöne vezetett gondolámba.
                </p>
-               <p>
+					<p>
                   Mi ez
                   ?
                   Való álom,
                   látomány
                   ?
                </p>
-               <p>
+					<p>
                   Nyílsebesen síklik el mellettem egy gondola,
                   végső hegyén kifeszített karokkal,
                   egész testével hatalmasan az evezőnek neki-neki dőlve dolgozik a
@@ -4525,12 +4509,12 @@
                   szakasztott abban a félvilágitásban,
                   csakhogy a fájdalomnak merengésével szintelenebb ábrázatán...
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   II.
                </head>
-               <p>
+					<p>
                   Nem
                   igen lehet szó napirendről annál,
                   a ki elmetszve minden kötelékét,
@@ -4577,13 +4561,13 @@
                      velenczei dologban,
                   számomra valóságos kinccsé tették.
                </p>
-               <p>
+					<p>
                   Az órának vége volt.
                   B
                   EPPO
                    az ebédet jelentette.
                </p>
-               <p>
+					<p>
                   »
                   Ebédje után talán még találkozunk.
                   Akármennyire kerülje is a társaságot,
@@ -4594,7 +4578,7 @@
                   Önnek sem szabad visszavonúlni.
                   «
                </p>
-               <p>
+					<p>
                   »A cavalchinába
                   ?«
                   feleltem.
@@ -4643,7 +4627,7 @@
                   ha terhére vannak.
                   «
                </p>
-               <p>
+					<p>
                   »Engedelmet kérek,
                   de ez már igazán beteges idegesség.
                   Nyilvános álarczos bálba elmegy az ember a nélkül,
@@ -4689,13 +4673,13 @@
                   Látja már a neve is...
                   «
                </p>
-               <p>
+					<p>
                   »Igaz,
                   mindég kérdeni akartam,
                   mi e név
                   ?«
                </p>
-               <p>
+					<p>
                   »Régen lóháton rendezték a nagy álarczos meneteket.
                   Ha a ló a vizes,
                   gondolás V
@@ -4724,7 +4708,7 @@
                    megismertetni
                   !«
                </p>
-               <p>
+					<p>
                   »Nos,
                   ennyi oknak ellenállani oktalanság,
                   ennyi szeretetreméltóságot visszautasitani barbárság volna.
@@ -4735,7 +4719,7 @@
                   védelmére és vezetésére bizom magamat.
                   «
                </p>
-               <p>
+					<p>
                   Háztartásom igen egyszerü volt.
                   Olcsón jutottam egy lakrészhez egy üresen álló
                   palotában,
@@ -4789,7 +4773,7 @@
                   rák és pók fölött
                   határozottan a durva marhasültnek adjon elsőbbséget.
                </p>
-               <p>
+					<p>
                   Kiüritettük az utolsó pohár cyprusit
                   -
                   G
@@ -4807,12 +4791,12 @@
                   ÁRK-
                   téren.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   III.
                </head>
-               <p>
+					<p>
                   Elég
                   volt az előcsarnokból és az előjátékból.
                   Mert a M
@@ -4882,13 +4866,13 @@
                      páholysoron,
                   fel egész a csillárig.
                </p>
-               <p>
+					<p>
                   Mennyire más látomány
                   !
                   Minő előkelőséget lehel és mégis az előbbinél nem kevesebb
                      derűt.
                </p>
-               <p>
+					<p>
                   Nem kevésbé élénk,
                   de discretebb a mulatók csevegése,
                   csöndesebb,
@@ -4920,7 +4904,7 @@
                   a byzanti és a velenczei művészet e gyermekének remekeivel,
                   versenyezhet velük.
                </p>
-               <p>
+					<p>
                   Nem csoda,
                   ha ez arczok nézésében elvesztettem Ciceronémat.
                   Messze körül tekintve
@@ -5029,7 +5013,7 @@
                   Fehérsége itten szinte feketévé változtatja a sötét-barna
                      hajat.
                </p>
-               <p>
+					<p>
                   Hogy ez arcz kifejezése milyen könnyü átmenetekben változik,
                   szembetűnt a hármas társalgásból is.
                   Az urak egyikével szemben bizonyos önkéntes tiszteletnek,
@@ -5094,7 +5078,7 @@
                   tud-e sokáig ily hatásosan tekinteni
                   ?
                </p>
-               <p>
+					<p>
                   A másik úr bizonyosan elérte az ötvenet,
                   noha fogyatkozó bodor haja és kiszélesülő arányai mellett sem
                      nélkülözte azt a bizonyos ifjú ruganyosságot,
@@ -5124,9 +5108,7 @@
                   ;
                   a másik jól öltözködik,
                   mert
-                  
                      evvel is
-                  
                    vagy manifestálni,
                   vagy tartani akarja társadalmi igényeit.
                   Amannál csak öltözködés,
@@ -5145,7 +5127,7 @@
                   «
                   közt.
                </p>
-               <p>
+					<p>
                   Tovább haladtam,
                   még inkább vágyva feltalálni barátomat,
                   a ki talán felvilágosíthat:
@@ -5167,7 +5149,7 @@
                   ?
                   «
                </p>
-               <p>
+					<p>
                   És a mint visszafordúlva szemtül szemben
                   állottam vele,
                   hangját hallottam,
@@ -5184,7 +5166,7 @@
                   lefolyt évek alatt ép oly kevéssé emlékeztem szivesen reá,
                   mint nem az egész nevetségesen végződött ügyre.
                </p>
-               <p>
+					<p>
                   »
                   Mindjárt feltünt nekem,
                   -
@@ -5201,7 +5183,7 @@
                   hogy megszóllitson.
                   «
                </p>
-               <p>
+					<p>
                   Nem bántam,
                   ha azt hiszi,
                   hogy azért néztem,
@@ -5209,7 +5191,7 @@
                   és avval mentettem magamat elég természetesen,
                   hogy az idegen hölgy tartóztatott a közeledéstől.
                </p>
-               <p>
+					<p>
                   »
                   Idegen
                   hölgy
@@ -5249,7 +5231,7 @@
                   Nézze csak jól.
                   «
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   ,
@@ -5291,7 +5273,7 @@
                   mi
                   történt vele.
                </p>
-               <p>
+					<p>
                   »
                   Mi
                   ?
@@ -5308,7 +5290,7 @@
                   .
                   «
                </p>
-               <p>
+					<p>
                   »Tehát czélt ért.
                   Irigylem mert én nem értem
                   czélt semmi félét.
@@ -5324,7 +5306,7 @@
                   hogy caudinumi igán ment át a győzelemhez.
                   «
                </p>
-               <p>
+					<p>
                   »Fiatal barátom,
                   ön még mindig a
                   régi
@@ -5345,12 +5327,12 @@
                   És mindig jó hasznát vettem.
                   «
                </p>
-               <p>
+					<p>
                   »Tehát ezt ajánlja annak,
                   a ki valamire menni akar
                   ?«
                </p>
-               <p>
+					<p>
                   »Ajánlom,
                   hogy ne vegye a világot olyannak,
                   a minőnek elébb képzeli,
@@ -5372,13 +5354,13 @@
                   vittem valamire.
                   «
                </p>
-               <p>
+					<p>
                   »És
                   avval a keresztény principiummal,
                   hogy a szentnek a keze is maga felé hajlik
                   ?«
                </p>
-               <p>
+					<p>
                   »Igen,
                   «
                   mondá futó zavarral a vitéz tábornok,
@@ -5449,7 +5431,7 @@
                   mentem volna ennyire
                   ?«
                </p>
-               <p>
+					<p>
                   »Tábornok úr,
                   azt hiszem,
                   hogy soha sem fogok valamire menni
@@ -5457,7 +5439,7 @@
                    -
                   volt annyi őszinteség után kissé udvariatlan válaszom.
                </p>
-               <p>
+					<p>
                   »
                   Ön nagyon komolyan veszi a világot.
                   Még a
@@ -5477,11 +5459,11 @@
                   lehet farsangolni.
                   «
                </p>
-               <p>
+					<p>
                   »Nem járok a világba.
                   «
                </p>
-               <p>
+					<p>
                   »Képzelhettem volna.
                   Már magában elég ok arra,
                   hogy ne vihesse semmire sem,
@@ -5497,7 +5479,7 @@
                   Principe
                   !«
                </p>
-               <p>
+					<p>
                   Alig volt időm még egyszer ismételni,
                   hogy nem járok a világba.
                   A tábornok volt az utolsó ember,
@@ -5506,7 +5488,7 @@
                   A páholy előtt maradt úr felénk közeledett és a tábornok
                   megszólitására megállott.
                </p>
-               <p>
+					<p>
                   »
                   Egy honfitársamat és egykori fegyvertársamat mutatom be fiatal
                      barátomban.
@@ -5520,7 +5502,7 @@
                    ellen ütköztek.
                   «
                </p>
-               <p>
+					<p>
                   »A régi ellenfelek régen barátokká váltak s V
                   ELENCZÉ
                   -ben rég
@@ -5543,7 +5525,7 @@
                   melyekkel a magyarok egykor csatákban találkoztak.
                   «
                </p>
-               <p>
+					<p>
                   Igen sokféle fokozatai vannak az előkelőségnek.
                   Van egy fokozat,
                   a melyen az illetők nem érzik magukat egészen biztosnak a
@@ -5594,12 +5576,12 @@
                   És utoljára is,
                   néha sorsunk által kell magunkat vitetnünk.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IV.
                </head>
-               <p>
+					<p>
                   Mintegy
                   kézről-kézre adva futottam át az ismerkedések egész során.
                   A
@@ -5742,7 +5724,7 @@
                   ha bágyadozó odaadást leheltek elhaló hangjai,
                   éledve s féktelenedve ismét s ismét a mámor önkivületéig.
                </p>
-               <p>
+					<p>
                   Ereimben csergedezni érezém a vérnek forró hevét,
                   és megbűvölve csüngtek szemeim a zengő zongora mellett fehérlő
                      magas alakon.
@@ -5784,22 +5766,22 @@
                   a mi van
                   !
                </p>
-               <p>
+					<p>
                   Nekem szól a kaczaj,
                   rajtam akad meg a gúnyos tekintet...
                </p>
-               <p>
+					<p>
                   Mi az,
                   a mi engem mindig s mindig bús magányomba visszalökött
                   ?
                </p>
-               <p>
+					<p>
                   Miért függesztettem szemeimet mindig a messze ködbe,
                   miért fordúltam el attól,
                   a mi kezem ügyébe esett
                   ?
                </p>
-               <p>
+					<p>
                   Ha meddő kesergésben fáradva,
                   ha csalódásban keseredve,
                   ha önvádtól furdalva,
@@ -5825,7 +5807,7 @@
                   világába
                   ?
                </p>
-               <p>
+					<p>
                   A hit volt,
                   a remény volt.
                   Igen.
@@ -5843,7 +5825,7 @@
                   célt,
                   utánam jövő jobbaknak küzdelmére méltót.
                </p>
-               <p>
+					<p>
                   Van-e
                   még mit hinni,
                   remélni
@@ -5903,7 +5885,7 @@
                   a mire hiába törekszik hivatlan
                   ?
                </p>
-               <p>
+					<p>
                   Minő nő volna ez,
                   felderűlni,
                   feledni,
@@ -5936,12 +5918,12 @@
                   egy semmirevaló élet
                   !
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   V.
                </head>
-               <p>
+					<p>
                   A tánczterem
                   márvány koczkáin kifeszitett sima damaszk kelmén keringtek a párok
                      a menyezet felől hangzó,
@@ -6020,7 +6002,7 @@
                   ha megalázva érzem magamat
                   ?
                </p>
-               <p>
+					<p>
                   -
                    »
                   I
@@ -6029,7 +6011,7 @@
                   rámismer
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Vagy mondja,
@@ -6038,7 +6020,7 @@
                   Ön hozzám közelít
                   ?
                </p>
-               <p>
+					<p>
                   -
                    »
                   I
@@ -6049,7 +6031,7 @@
                   nem értem
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Félig nőtt leány voltam,
@@ -6085,7 +6067,7 @@
                   ?
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Lehet,
@@ -6094,7 +6076,7 @@
                   hogy megbántottam
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Nem bántott meg.
@@ -6115,7 +6097,7 @@
                   Akkor jött először elém és kimondhatatlanúl megalázva éreztem
                      magamat.
                </p>
-               <p>
+					<p>
                   Ön azóta nem beszélt hozzám
                   ;
                    mintha nem lettem volna reá érdemes.
@@ -6159,7 +6141,7 @@
                   másodszor megalázott
                   !«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Nem azt akartam I
@@ -6175,7 +6157,7 @@
                   tisztelni valót láttam tehetségében és ezt akartam kifejezni.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Hiszem,
@@ -6198,7 +6180,7 @@
                   mint a többi
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Azért tettem.
@@ -6206,7 +6188,7 @@
                   mint a többi.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Ön nem tudja,
@@ -6231,7 +6213,7 @@
                   hogy nem vesztem el.
                   «
                </p>
-               <p>
+					<p>
                   -
                   »Mindenki,
                   a kiben van valami jobb,
@@ -6240,7 +6222,7 @@
                   müvészete mentette meg.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Igen.
@@ -6267,7 +6249,7 @@
                   ha náluknál nagyobb tudok lenni.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Igen,
@@ -6281,7 +6263,7 @@
                   hogy az igaz müvésznek alapjában nemesnek kell lenni.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Ez volt a mentő szál,
@@ -6323,7 +6305,7 @@
                   hiába.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Hogyan I
@@ -6335,7 +6317,7 @@
                   hiába
                   «?
                </p>
-               <p>
+					<p>
                   -
                    »
                   Körülzsibongtak a dal után
@@ -6359,7 +6341,7 @@
                   nem vagyok senki.
                   «
                </p>
-               <p>
+					<p>
                   Őrizkedtem mosolyogni,
                   látva úgy is,
                   mennyire érzékeny.
@@ -6451,7 +6433,7 @@
                   ő nem kell senkinek sem.
                   De ilyen indulatos kosarat nem kaptam még soha.
                </p>
-               <p>
+					<p>
                   -
                   »Azt hiszi,
                   panaszkodtam hogy tánczost keritsek magamnak
@@ -6487,7 +6469,7 @@
                   már nem haragszik
                   ?«
                </p>
-               <p>
+					<p>
                   Volt valami ellenállhatlanul felvidító pajzán jóindulatában,
                   valami elbájoló a könnyü természetességben,
                   mely alig látszott kaczérkodásnak és nem engedett másra,
@@ -6495,7 +6477,7 @@
                   Mintha új,
                   vidámabb légkörbe jutottam volna.
                </p>
-               <p>
+					<p>
                   Sajátságos makranczosságot mutatott,
                   mikor sehogy sem akart az én gondolámba ülni,
                   hanem erőszakolta,
@@ -6507,7 +6489,7 @@
                   EPPO
                    utánunk evezett.
                </p>
-               <p>
+					<p>
                   Mint boldog gyermeké,
                   úgy folyt bizalmas csevegése,
                   félbe-félbe szakítva,
@@ -6544,7 +6526,7 @@
                   hogy talán merészségre az bátorít,
                   a minek emlékét olyan nehezen látszott viselni.
                </p>
-               <p>
+					<p>
                   Végre is nem lehetett szerelem a mit éreztem,
                   elvirágzott nekem a szerelem virága
                   ;
@@ -6572,12 +6554,12 @@
                   és mi több,
                   erősebb kapcsokkal füzheti hozzám tartózkodó nyúgalom.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VI.
                </head>
-               <p>
+					<p>
                   Teljességgel tisztában voltam avval,
                   hogy szerelmes nem vagyok.
                   És mégis nem volt annyira üres mint addig,
@@ -6598,7 +6580,7 @@
                   és nem állok vele szemben,
                   mint egészen idegen néző.
                </p>
-               <p>
+					<p>
                   Az a nagy különbség az élettelen és az élő iránti
                      érdeklődésünkben,
                   hogy az elébbiben mindig van valami merev.
@@ -6619,9 +6601,7 @@
                   ha elevenné nem tette volna,
                   hogy minden gond és rendszer nélkül,
                   és nem a müvésznők kaczér és
-                  
                      számított
-                  
                    rendetlenségével,
                   hevert majd az asztalon egy pár kép és könyv és szerep,
                   egy franczia-olasz fordítási gyakorlat,
@@ -6677,18 +6657,14 @@
                   de bizalmas melegsége,
                   pajzán derültsége,
                   és a
-                  
                      figyelem
-                  
                   ,
                   mellyel egyedül is egyszerre meg
                   tudta adni lakásának az
-                  
                      otthon
-                  
                    varázsát.
                </p>
-               <p>
+					<p>
                   A nélkül,
                   hogy szándékosság látszott volna,
                   látszott,
@@ -6762,7 +6738,7 @@
                   hanem egy vulkán kitörésében akartam felolvasztani eldermedezett
                      lényemet.
                </p>
-               <p>
+					<p>
                   De e tartózkodás,
                   ez önfékezés volt e oka,
                   vagy az ő egyéniségének volt e hatása,
@@ -6791,7 +6767,7 @@
                   kiválasztva az első szobában heverő gazdag csokrok egy egész
                      halmazából.
                </p>
-               <p>
+					<p>
                   Ugy küldtem,
                   hogy ne
                   tudja kitől jön és nem is akartam,
@@ -6812,7 +6788,7 @@
                   ;
                   igy vártam ébredését.
                </p>
-               <p>
+					<p>
                   Talán nem őriztem úgy szememet,
                   mint közönségesen,
                   mert midőn felébredt,
@@ -6825,7 +6801,7 @@
                   Miért nem költött fel
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Inkább kérdje,
@@ -6839,7 +6815,7 @@
                   hogy kérdezetlenül jöhetek magához.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Ugyan rosszúl tette volna,
@@ -6861,7 +6837,7 @@
                   hogy mindig olyan nyugodt tud lenni.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Nem
@@ -6878,13 +6854,13 @@
                   sem nem búsúl semmin.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   És az jó érzés
                   ?«
                </p>
-               <p>
+					<p>
                   -
                    »
                   Mindenesetre annyira jó,
@@ -6892,7 +6868,7 @@
                   rosz.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Önnek nincs igaza.
@@ -6901,7 +6877,7 @@
                   hogy nincs mit remélni.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Máskép van a dolog.
@@ -6921,7 +6897,7 @@
                      czéllal.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Semmi törekvés és semmi czél.
@@ -6951,7 +6927,7 @@
                   Addig van.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   I
@@ -6963,7 +6939,7 @@
                   hogy irántam is az.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   Ön
@@ -6972,7 +6948,7 @@
                   a kitől az ember megfagy.
                   «
                </p>
-               <p>
+					<p>
                   -
                    »
                   I
@@ -6985,7 +6961,7 @@
                   «
                   .
                </p>
-               <p>
+					<p>
                   -
                    »
                   Nem,
@@ -7018,23 +6994,23 @@
                   el
                   ?«
                </p>
-               <p>
+					<p>
                   Könnyen fogva kezét,
                   azt minden válasz helyett ajkamhoz vontam és megcsókoltam még
                      könnyebben,
                   mint a hogyan tartottam.
                </p>
-               <p>
+					<p>
                   Rám nézett sötét szemének mély csodájával és elgondolkodó
                      nyugalommal ment a harmoniumhoz.
                </p>
-               <p>
+					<p>
                   És mind mélyebb s mélyebb lőn e kifejezés a hangszer első,
                   komoly,
                   hatalmasan felzendülő és lassan elhangzó,
                   mint egy messze-messze távolba elvesző ütemeire.
                </p>
-               <p>
+					<p>
                   A hatalmas hanghullámokból csakhamar kiemelkedett mint a sphaerák
                      éneke a zugó világok fölött az édes vezérhang és ennél édesebben,
                   és ezen felülemelkedve I
@@ -7070,7 +7046,7 @@
                   hanem csak saját hitében lelheti fel a művész és ez a hit
                      kiveszett.
                </p>
-               <p>
+					<p>
                   És ha ilyen régi madonnának nézésében merülünk el
                   ;
                   és ha ilyen régi szentelt ének zöngedelmén andalog el
@@ -7091,7 +7067,7 @@
                   egy rég feledett édes anya hivó szava hangzik át a
                      gyermekkorból...
                </p>
-               <p>
+					<p>
                   Meleg kéz ragadta meg kezemet,
                   felém hajol egy alak,
                   melynek mintha lehelletét éreztem volna,
@@ -7108,7 +7084,7 @@
                   mint azelőtt...
                   «
                </p>
-               <p>
+					<p>
                   Ábránd és való közt lebegtem,
                   sem gondolatnak,
                   sem tettnek nem ura többé.
@@ -7123,7 +7099,7 @@
                   megfogtam karját és fejét és vontam magamhoz és éreztem,
                   hogyan rezg végig tagjain a kilángolt szenvedély.
                </p>
-               <p>
+					<p>
                   Nyitott szeme kisértetiesen meg volt törve
                   ;
                   soha nem fogom feledni ezt a soha nem látott tekintetet,
@@ -7154,12 +7130,12 @@
                   «
                   -
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VII.
                </head>
-               <p>
+					<p>
                   Halaványúlt már a hajnali csillag,
                   midőn kiléptem a néma corte-ra.
                   I
@@ -7206,7 +7182,7 @@
                    legbanálisabb ütemeit,
                   értem kapumhoz.
                </p>
-               <p>
+					<p>
                   Kitünően aludtam ebédig.
                   Kitünően ebédeltem.
                   Az operában kaczérkodtam X.
@@ -7232,12 +7208,12 @@
                   -ról
                   várt lovait.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VIII.
                </head>
-               <p>
+					<p>
                   Mikor I
                   RMÁTÓL
                   távozva még egyszer feltekintettem a lépcső aljáról hozzá,
@@ -7271,7 +7247,7 @@
                   és tele voltam vágyódással elfelejtetni vele,
                   a mi tartózkodásomban bántó lehetett.
                </p>
-               <p>
+					<p>
                   Ez a hangulat okozta-e
                   ?
                   Hibás voltomnak,
@@ -7305,7 +7281,7 @@
                   és a szerelemnek elmaradhatlan jele,
                   hogy fölöttünk állónak kezdjük érezni a nőt.
                </p>
-               <p>
+					<p>
                   A folyosón betekintve ablakainak leeresztett függönyén,
                   keskeny nyiláson keresztűl olyan kényelmes helyzetben,
                   mintha otthon volna,
@@ -7321,7 +7297,7 @@
                   RMÁ
                   -ra.
                </p>
-               <p>
+					<p>
                   A mint most már inkább boszankodás,
                   mint félelem közt beléptem,
                   I
@@ -7330,7 +7306,7 @@
                   de a legnagyobb nyugalommal fogadott és éreztem,
                   hogy e nyugalom még inkább fokozza boszuságomat.
                </p>
-               <p>
+					<p>
                   »
                   Ne árulja
                   el magát
@@ -7350,7 +7326,7 @@
                   hogy
                   őt néhány napra meglátogatta.
                </p>
-               <p>
+					<p>
                   Egyszer benne a formákban,
                   azt hiszem el tudtam feledtetni ügyetlen introductiómat,
                   és sikerült azt a benyomást tennem I
@@ -7361,7 +7337,7 @@
                      el,
                   kinek csillaga emelkedni kezd a müvészet és hirnév egén.
                </p>
-               <p>
+					<p>
                   De nem tudtam sokáig állani ezt a szerepet,
                   mely annyira különbözött attól,
                   melyet magamnak szántam és keresve azt az élczet,
@@ -7377,7 +7353,7 @@
                      szokta
                   hóditani.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                    a másik szobába
@@ -7393,7 +7369,7 @@
                   De pénteken a
                   szinházban látjuk egymást.
                </p>
-               <p>
+					<p>
                   Mit tesz ez
                   ?
                   gondolám távozva.
@@ -7412,14 +7388,14 @@
                   nál üljön
                   ?
                </p>
-               <p>
+					<p>
                   Pénteken nem mentem a szinházba.
                </p>
-               <p>
+					<p>
                   Másnap levelet
                   kaptam:
                </p>
-               <p>
+					<p>
                   »
                   Édes Darvady
                   !
@@ -7430,7 +7406,7 @@
                   hogy eljön
                   ?
                </p>
-               <p>
+					<p>
                   »Nagyon vártam.
                   Azóta mindig bánt.
                   Vajjon miért nem jött el
@@ -7439,47 +7415,47 @@
                   kérem,
                   figyeljen kissé a szinlapokra.
                </p>
-               <p>
+					<p>
                   »
                   Ha talán menteni akarná elmaradását,
                   czimezze levelét a szinházhoz.
                </p>
-               <p>
+					<p>
                   »
                   Különben azt megteheti pár nap múlva,
                   szóval.
                </p>
-               <p>
+					<p>
                   »
                   Annyit mondhatok,
                   hogy épen nem érzem jól magam az Ön társasága nélkül.
                </p>
-               <p>
+					<p>
                   »
                   Február
                   9.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IX.
                </head>
-               <p>
+					<p>
                   Tehát csakugyan nem akarja,
                   hogy hozzá
                   jőjjek.
                </p>
-               <p>
+					<p>
                   Miért még a levelet is a szinházhoz küldeni
                   ?
                </p>
-               <p>
+					<p>
                   Irtam a szinházhoz,
                   de minderről hallgattam.
                   Megemlékezve a conteval és a skóttal megbeszélt tervünkről,
@@ -7489,19 +7465,19 @@
                   -nak,
                   hogy néhány napra elutazom.
                </p>
-               <p>
+					<p>
                   Megint egy levél.
                   Kezdve a második oldalon,
                   befejezve
                   az
                   elsőn.
                </p>
-               <p>
+					<p>
                   »
                   Csak pár szóra van időm.
                   «
                </p>
-               <p>
+					<p>
                   (Miért van csak pár szóra ideje
                   ?
                   És ha csak pár szóra van ideje,
@@ -7511,14 +7487,14 @@
                   miért írja tele mind a négy oldalt
                   ?)
                </p>
-               <p>
+					<p>
                   »Szenvedhetlen ember,
                   hát miért utazik
                   ?
                   Mennyi időre és hova utazik
                   ?
                </p>
-               <p>
+					<p>
                   »Ezekre feleljen nekem holnap délután a Márk-téri nagy óra
                      szerint
                   6
@@ -7533,7 +7509,7 @@
                   akkor csak a szinpadon beszélhetünk,
                   mert irtózom a meghüléstől.
                </p>
-               <p>
+					<p>
                   »
                   Tehát nehogy
                   eltéveszsze,
@@ -7546,12 +7522,12 @@
                   nagyon szépen,
                   akarjon maga is.
                </p>
-               <p>
+					<p>
                   »
                   Február
                   11.
                </p>
-               <p>
+					<p>
                   »
                   Sokszor üdvözlöm
                   I
@@ -7559,20 +7535,20 @@
                   .
                   «
                </p>
-               <p>
+					<p>
                   És a boritékon:
                </p>
-               <p>
+					<p>
                   »
                   Az idő tehát
                   rosz lesz.
                   «
                </p>
-               <p>
+					<p>
                   Igaz,
                   hogy éles szél és eső keletkezett.
                </p>
-               <p>
+					<p>
                   A levél kellemes szemrehányással telt,
                   elfogulatlanúl ingerkedő hangja mint friss tavaszi
                   szellő a könnyü fellegeket,
@@ -7584,7 +7560,7 @@
                   -val való találkozás teljes bizonyosságában és ennek derüjében
                      siettem a horlogiához.
                </p>
-               <p>
+					<p>
                   Élesen néztem minden jövevényt,
                   kivált ha lebegő szürkés női öltözetben tünt fel a piaczra eredő
                      szük utczák valamelyikéből,
@@ -7604,7 +7580,7 @@
                   és még mindig nem tudtam elhagyni őrhelyemet,
                   míg csak nem ütött az előadás órája.
                </p>
-               <p>
+					<p>
                   Az első jelenetet poltronemról néztem,
                   gyönyörködve tán még inkább a tapsban,
                   mellyel a hővérü közönség I
@@ -7643,13 +7619,13 @@
                   ha csak nem statistának.
                   «
                </p>
-               <p>
+					<p>
                   A testvér és a statista taglalása helyett megkettőztem előbbi
                      argumentumomat és szolgálatkész barátom látván,
                   milyen értelmes emberrel van dolga,
                   nem habozott többé.
                </p>
-               <p>
+					<p>
                   Az alkudozások alatt azonban elhaladt
                   a
                   legdrágább idő
@@ -7677,7 +7653,7 @@
                   a falusi népet,
                   és a színvilágot jellemzik.
                </p>
-               <p>
+					<p>
                   A portás csak akkor hagyott el,
                   az olaszt jellemző simasággal csaknem észrevétlenül eltünve,
                   midőn oly védelem alatt látott,
@@ -7693,7 +7669,7 @@
                   mindenki észrevehette,
                   mily viszony forog fenn köztünk.
                </p>
-               <p>
+					<p>
                   Szinte ajkamon volt kérdezni ez ellentét magyarázatát.
                   De félig okoskodásom az irányában követendő magatartásomról,
                   félig az önérzetnek,
@@ -7735,26 +7711,26 @@
                   melyekkel szinte úgy tartott,
                   mint akaratos gyermekét gyöngéd anya.
                </p>
-               <p>
+					<p>
                   Abban maradtunk,
                   hogy ha falusi kirándulásomból visszatérek,
                   mindjárt értesitem,
                   és ő akkor tudatja velem,
                   ha lehet-e jönnöm.
                </p>
-               <p>
+					<p>
                   Még búcsúzva kérdezett:
                   vajjon lesznek-e a campagnán nők is
                   ?
                   Nevetve biztattam,
                   hogy csak lovak lesznek.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   X.
                </head>
-               <p>
+					<p>
                   Bár
                   a
                   padovai vonalnak csak harmadik állomásán,
@@ -7776,14 +7752,14 @@
                   ELENCZÉBE
                   visszatértem.
                </p>
-               <p>
+					<p>
                   Első dolgom volt
                   I
                   RMÁT
                   értesiteni,
                   és azonnal megkaptam levelét.
                </p>
-               <p>
+					<p>
                   »
                   Kedves barátom.
                   Még nem vagyok egyedül,
@@ -7791,7 +7767,7 @@
                   ha holnap,
                   vagy holnapután azért meglátogatna.
                </p>
-               <p>
+					<p>
                   »
                   Itt küldök
                   egy levelet,
@@ -7801,7 +7777,7 @@
                   de több tekintetből el nem küldtem.
                   Mulassa magát vele.
                </p>
-               <p>
+					<p>
                   »
                   Most jut eszembe,
                   hogy holnap barátnémmal a marionetták szinházába megyünk,
@@ -7815,7 +7791,7 @@
                   Jőjjön.
                   Délután mindenesetre várom.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
@@ -7823,13 +7799,13 @@
                   február
                   20.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-               <p>
+					<p>
                   A jó elbeszélés minden elvével nyilván ellenkezik a mellékelt
                      levelet is közölnöm.
                   Mert talán nem viszi előre a cselekményt.
@@ -7843,7 +7819,7 @@
                   A ki unja a szerelmes leveleket,
                   úgy is átlapozhatja.
                </p>
-               <p>
+					<p>
                   »
                   Roppant vágyam jött egy kissé beszélgetni magával,
                   ámbár a feleletet magamnak kell adnom kérdéseimre
@@ -7879,7 +7855,7 @@
                   mikor már nem bírja többé
                   !
                </p>
-               <p>
+					<p>
                   »Tehát most Ön vidám,
                   boldog emberek közt van,
                   nemde
@@ -7902,7 +7878,7 @@
                   Megbocsátja
                   ?
                </p>
-               <p>
+					<p>
                   »Tudja,
                   hogy én féltem most
                   Önt
@@ -7922,13 +7898,13 @@
                   Közelebb mint a többiekhez
                   ?
                </p>
-               <p>
+					<p>
                   »Mondja meg,
                   ha van,
                   kérem
                   !
                </p>
-               <p>
+					<p>
                   »Lássa:
                   most jobb lenne,
                   mint később,
@@ -7962,14 +7938,14 @@
                   ha tudnám
                   !
                </p>
-               <p>
+					<p>
                   »De igazán különös szokatlan dolog is lehet az,
                   mikor egy nő beszél igy egy férfiúhoz,
                   holott Ön nekem még nem is mondta,
                   hogy szeret.
                   Hiszen nem látta szükségesnek.
                </p>
-               <p>
+					<p>
                   »
                   Ugy-e,
                   kérem,
@@ -7987,7 +7963,7 @@
                   igen
                   ?
                </p>
-               <p>
+					<p>
                   »Aztán az én hibáimat ne is a rendes,
                   másokra is alkalmazott kritikai szemüveggel birálja,
                   nekem nem voltak nevelőim és tanáraim,
@@ -7996,7 +7972,7 @@
                   Vétkeim és erényeim mind eredetiek,
                   egy sem majmolt és egyiket sem dugdosom.
                </p>
-               <p>
+					<p>
                   »
                   De én meg vagyok róla győződve,
                   hogy Ön engem sokkal jobban ismer,
@@ -8008,7 +7984,7 @@
                   de lássa én erről meg vagyok győződve és roppantúl szeretem,
                   hogy igy van.
                </p>
-               <p>
+					<p>
                   »
                   Igaz,
                   a szinházban maga olyan szép volt
@@ -8019,13 +7995,13 @@
                   inggallérok.
                   Milyen ügyetlen divat.
                </p>
-               <p>
+					<p>
                   »
                   No de most már bevégzem,
                   már olyan dolgokról kezdek diskurálni,
                   a melyekhez semmi közöm.
                </p>
-               <p>
+					<p>
                   »
                   Komolyan kérem,
                   hogy ne szerelmesedjék bele senkibe,
@@ -8033,25 +8009,25 @@
                   ;
                   azzal nekem sok fájdalmat okozna.
                </p>
-               <p>
+					<p>
                   V
                   ELENCZE
                   ,
                   február
                   16.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XI.
                </head>
-               <p>
+					<p>
                   Azon derűlt ruganyossággal,
                   melyet az önszeretet mediumán át ébreszt magában a tudat,
                   hogy valamely nő által a többiek fölé helyeztetünk,
@@ -8128,7 +8104,7 @@
                   az egésznek grotesksége élénken emlékeztetett a pesti
                      balletekre.
                </p>
-               <p>
+					<p>
                   Nehány derült óra után annyival jobb hangulatban bucsúztam
                   I
                   RMÁ
@@ -8136,10 +8112,10 @@
                   mert megsugta,
                   hogy másnap elutazik a bagolyszemü.
                </p>
-               <p>
+					<p>
                   De hiába utazott el.
                </p>
-               <p>
+					<p>
                   Mert mintha őrizetére rendelte volna,
                   úgy ott találtam mindig a reménytelen tenoristát.
                   Szerény volt a végletekig,
@@ -8149,7 +8125,7 @@
                   mig magam türelmemet vesztve,
                   nem engedtem át neki a tért.
                </p>
-               <p>
+					<p>
                   Féltékeny nem lehettem reá.
                   Ez gondolatnak is monstruosus lett volna.
                   I
@@ -8184,11 +8160,11 @@
                   maga nagy gyermek.
                   «
                </p>
-               <p>
+					<p>
                   Csakugyan mindjárt visszatért a narancsokkal,
                   melyekhez nem volt többé semmi kedvem.
                </p>
-               <p>
+					<p>
                   E közben éjjel-nappal csak
                   I
                   RMÁ
@@ -8221,7 +8197,7 @@
                   mit akar vele
                   ?
                </p>
-               <p>
+					<p>
                   Egyszer-egyszer fellázadt
                   egész önérzetem és elhatároztam,
                   hogy végkép elmaradok tőle
@@ -8249,7 +8225,7 @@
                   vagy bátorságom kevés
                   ?
                </p>
-               <p>
+					<p>
                   Egyszer valamely márktéri könyvkereskedés előtt ácsorogva látás és
                      gondolkodás nélkül,
                   mint a hogy akkorában gyakran megesett rajtam,
@@ -8299,7 +8275,7 @@
                   hogy nyugodtnak tessék.
                   Mindenki láthatja mennyire mesterkélt:
                </p>
-               <p>
+					<p>
                   »
                   Küldöm magának ezt a könyvet,
                   hadd olvassa el,
@@ -8313,19 +8289,13 @@
                   -val és magával egészen tisztában nincs.
                   A művész reproductiója a művészet közvetlenségével saját
                   magából újra
-                  
                      teremti
-                  
                    a költő alakját,
                   az aestheticus reproductiója okoskodás utján
-                  
                      elemzi
-                  
                   ,
                   hogy újra
-                  
                      concentrálhassa
-                  
                   .
                   És a
                   meddig
@@ -8352,7 +8322,7 @@
                   legyen inkább igaz maga iránt,
                   mint a költő iránt.
                </p>
-               <p>
+					<p>
                   »
                   De hiszem,
                   hogy haszonnal hallgathatja meg az aestheticust,
@@ -8365,7 +8335,7 @@
                   megizmositani és minél mélyebb és erősebb alapra rakni
                      alakját.
                </p>
-               <p>
+					<p>
                   »
                   Gondolkozzék,
                   kedvesem,
@@ -8387,7 +8357,7 @@
                   Sok függ az első impressiótól,
                   minden az utolsótól.
                </p>
-               <p>
+					<p>
                   »
                   Az elsővel kell megnyerni a nézőt,
                   belevinni az illusióba,
@@ -8405,7 +8375,7 @@
                   a politikai és hitszónoklatnál épen úgy,
                   mint a színi és müvészi előadásnál.
                </p>
-               <p>
+					<p>
                   »
                   Aztán
                   «
@@ -8431,7 +8401,7 @@
                   hanem megnemesítő.
                   «
                </p>
-               <p>
+					<p>
                   És ez utóbbi szavakban azt hiszem már nem volt többé semmi
                      mesterkélt
                   ;
@@ -8440,12 +8410,12 @@
                   hogy e rendkivüli nőhöz,
                   a nem közönséges müvésznőhöz van oda nőve boldogságom.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XII.
                </head>
-               <p>
+					<p>
                   Sok tépelődés után hoztam létre e levelet úgy a hogy elküldtem és
                      alig hogy elküldtem,
                   szerettem volna visszakapni
@@ -8459,7 +8429,7 @@
                   mint a hogyan kergetett a nyugtalanság megtudni,
                   hogyan fogadta levelemet.
                </p>
-               <p>
+					<p>
                   Szinte elvemmé emelkedett az eleintén csak öntudatlanúl követett
                      természeti szokásom,
                   a tenni vagy nem tenni küzdelmeiben:
@@ -8479,12 +8449,12 @@
                   hogy senkit se bocsássanak be hozzá,
                   csak engem.
                </p>
-               <p>
+					<p>
                   Miért féltem inkább,
                   semhogy örülni tudtam volna
                   ?
                </p>
-               <p>
+					<p>
                   Zilált hajjal,
                   kisértetiesen sápadt ábrázattal,
                   a rohamos nagymérvü rosszúllét hatását feltüntető hirtelen
@@ -8498,7 +8468,7 @@
                   de szomorú szemrehányással
                   és mégis szelíd vonzalommal telve és telve fájdalommal.
                </p>
-               <p>
+					<p>
                   A szó akadt el ajkamon,
                   a zavar vett erőt félelmemen és a tehetetlen együgyüség azon
                      érzete szállt meg,
@@ -8515,7 +8485,7 @@
                   törpül el a
                   férfi.
                </p>
-               <p>
+					<p>
                   Ezenfelül olyan érzésem volt,
                   mintha mindezért engem illetne a vád.
                   Szemeiből mintha azt olvastam volna ki,
@@ -8528,18 +8498,16 @@
                    »
                   Mi baja van
                   ?
-                  
                      «
-                  
                </p>
-               <p>
+					<p>
                   »Mennyit szenvedek.
                   Tegnap óta folyton rosszúl vagyok.
                   «
                   És ajkai rángottak a fájdalomban,
                   mely görcsösen látszott egész testén végigvonaglani.
                </p>
-               <p>
+					<p>
                   »
                   Olyan jó,
                   hogy eljött.
@@ -8548,11 +8516,11 @@
                   soha.
                   «
                </p>
-               <p>
+					<p>
                   Éreztem,
                   hogy arczom még együgyübb lesz nehány fokkal.
                </p>
-               <p>
+					<p>
                   -
                    »
                   Jőjjön ide.
@@ -8608,7 +8576,7 @@
                   én nem vagyok örömre való.
                   «
                </p>
-               <p>
+					<p>
                   Nem tudom,
                   mit adtam volna érte,
                   ha
@@ -8632,7 +8600,7 @@
                   csak kétely ne kinozzon.
                   «
                </p>
-               <p>
+					<p>
                   »Ön kételkedett
                   ?
                   Mit kellett volna tennem,
@@ -8680,12 +8648,12 @@
                   mikor láthatom megint.
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIII.
                </head>
-               <p>
+					<p>
                   Egészen
                   elcsüggedve távoztam I
                   RMÁTÓL
@@ -8709,7 +8677,7 @@
                   melyért
                   le tudtam volna mondani mindenről.
                </p>
-               <p>
+					<p>
                   Ha magam nem mehettem hozzá,
                   meglátogattam naponta valamely jelével annak,
                   hogy nála vannak gondolataim.
@@ -8742,7 +8710,7 @@
                   RMA
                    látása utáni szomjamat.
                </p>
-               <p>
+					<p>
                   »
                   Édes
                   Z
@@ -8755,7 +8723,7 @@
                   Nagyon köszönöm,
                   hogy gondol reám.
                </p>
-               <p>
+					<p>
                   »
                   Mióta nem látott,
                   feküdtem is betegen,
@@ -8787,7 +8755,7 @@
                   ;
                   és a ki már most is lekötelezettje vagyok.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
@@ -8795,18 +8763,18 @@
                   martius
                   5.
                </p>
-               <p>
+					<p>
                   »
                   IRMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIV.
                </head>
-               <p>
+					<p>
                   Visszavágyik
                   utánam.
                   Bármi lett légyen csodás magaviselete,
@@ -8820,12 +8788,12 @@
                   És mit nem volnék képes felejteni szerelmének mámorában
                   !
                </p>
-               <p>
+					<p>
                   Órákig ültem nála másnap.
                   De hogy látogatásom minő volt és mi hangulatban hagytam oda,
                   mutatja a legnagyobb ingerültségben irt eme levelem.
                </p>
-               <p>
+					<p>
                   »
                   Ne csodálja,
                   kedves lelkem,
@@ -8842,7 +8810,7 @@
                   hogy ezzel
                   izlését ennyire eltaláltam.
                </p>
-               <p>
+					<p>
                   »
                   Mindamellett igen szerencsés volnék,
                   ha megint egyszer nekem tudná érdeklődését szentelni,
@@ -8904,7 +8872,7 @@
                   e papiron,
                   ha már tegnap a valóságban nem akarta megengedni.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
@@ -8912,18 +8880,18 @@
                   márczius
                   7.
                </p>
-               <p>
+					<p>
                   Z
                   OLTÁN
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XV.
                </head>
-               <p>
+					<p>
                   Valóban az volt minden gyengeségem,
                   hogy nem
                   volt erőm lemondani.
@@ -8939,7 +8907,7 @@
                   a nélkül,
                   hogy az én akaratomnak a legkisebb befolyása lett volna rá.
                </p>
-               <p>
+					<p>
                   Ha előbbi levelemben volt valami ellenszegülés,
                   valami fenyegetés,
                   valami lázadás az ő fensőbbsége ellen,
@@ -8951,7 +8919,7 @@
                   akaratom meg volt törve és nem tudtam egyebet tenni,
                   mint neki engedelmeskedni.
                </p>
-               <p>
+					<p>
                   Levelemre szeretettel,
                   szomorúsággal,
                   félhomályos czélzásokkal vallotta be,
@@ -8971,7 +8939,7 @@
                   hogy elkerülni ezt:
                   eltürök mindent.
                </p>
-               <p>
+					<p>
                   Igy csalta ki belőlem azt,
                   hogy nincs vágyam semmi,
                   mint tudni biztosan,
@@ -8983,7 +8951,7 @@
                   ez magában elég lesz nekem,
                   hogy nyugodt és boldog legyek.
                </p>
-               <p>
+					<p>
                   Ha nem hittem a szerelemnek azon nemében,
                   vagy legalább beteges aberratiónak tartottam,
                   melyet olyan igaztalanúl neveznek
@@ -8998,7 +8966,7 @@
                   olyan dédelegve bánt velem.
                   De játékszer voltam.
                </p>
-               <p>
+					<p>
                   Ha azelőtt vagy az énekes,
                   vagy más,
                   de mindig volt valaki:
@@ -9033,7 +9001,7 @@
                   pillantásával,
                   egy parancsszavával.
                </p>
-               <p>
+					<p>
                   Magához vonzott és mégis távol tartott a legérthetetlenebb
                      módon.
                   És olyan hatálylyal tudta tenni mind a kettőt,
@@ -9051,7 +9019,7 @@
                   elég volt,
                   hogy magam verjem le.
                </p>
-               <p>
+					<p>
                   Pedig e közben éreztem helyzetemnek már pusztán physikailag is
                      kínos és gyötrelmes voltát.
                   Sokszor jutott eszembe,
@@ -9069,7 +9037,7 @@
                   hogy elveszne a remény is,
                   visszatartott.
                </p>
-               <p>
+					<p>
                   Sokszor látható elszomorodással sajnálkozott felettem,
                   kért,
                   hogy bocsássak meg neki,
@@ -9090,14 +9058,14 @@
                   a válasz,
                   hogy többet mondania nem lehet.
                </p>
-               <p>
+					<p>
                   E közben mindig merészebb kisérletekkel folytatta sajátságos
                      idomításomat,
                   mert nem
                   nevezhetem máskép azt a rendszert,
                   mellyel uralmát fölöttem gyakorolta.
                </p>
-               <p>
+					<p>
                   Igy későn este,
                   mondván,
                   hogy fáradt,
@@ -9117,7 +9085,7 @@
                   gyermekiesen örült,
                   hogy ebben is hasonlít régi szoborhoz.
                </p>
-               <p>
+					<p>
                   Hogy ha egyszerüen oda hat,
                   hogy szakítás nélkül,
                   a vonzalomnak és lemondásnak közös alapján fejlődjék egy nyúgodt
@@ -9131,7 +9099,7 @@
                      szabadúlni,
                   vagy szabadúltam volna a lassú megúnás szokott utján.
                </p>
-               <p>
+					<p>
                   De midőn végre láttam,
                   hogy olyan állapotot akar állandósítani,
                   mely tarthatatlan már
@@ -9154,13 +9122,13 @@
                   -ával,
                   érezvén a varázsban a kárhozatot.
                </p>
-               <p>
+					<p>
                   De alig maradtam el tőle néhány napig,
                   leküzdhetlenné
                   tette visszavágyódásomat
                   ujabb levelével:
                </p>
-               <p>
+					<p>
                   »
                   Édesem.
                   Hát már épen nem fog én hozzám eljőni
@@ -9179,7 +9147,7 @@
                   hogy emlékébe hozzam azt,
                   hogy vagyok.
                </p>
-               <p>
+					<p>
                   »
                   Ön most azt mondhatja,
                   hogy én ellentmondásba jöttem magammal a miatt,
@@ -9199,12 +9167,12 @@
                   Ez a bajom.
                   Kérem tegyen róla.
                </p>
-               <p>
+					<p>
                   »
                    Üdvözletemet kérem átadni a szemeinek,
                   tiszteletemet pedig homlokának.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
@@ -9212,23 +9180,23 @@
                   márczius
                   29.
                </p>
-               <p>
+					<p>
                   »
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XVI.
                </head>
-               <p>
+					<p>
                   És
                   ismét a mámornak jöttek napjai.
                </p>
-               <p>
+					<p>
                   Levelére visszatértem hozzá,
                   de megmondtam neki elmaradásom okát,
                   elmondtam az utóbbi viszony lehetetlenségét.
@@ -9239,7 +9207,7 @@
                   és megtesz mindent,
                   hogy el ne veszítsen.
                </p>
-               <p>
+					<p>
                   A déli égalj bujaságával fakadt ki a tavasz,
                   a szerelem hatalmas fakasztója
                   ;
@@ -9262,7 +9230,7 @@
                   hosszú,
                   szerelmi éjszakára.
                </p>
-               <p>
+					<p>
                   És
                   mint
                   a
@@ -9280,7 +9248,7 @@
                   -nak
                   egy levele:
                </p>
-               <p>
+					<p>
                   »
                   Édes Z
                   OLTÁN
@@ -9299,7 +9267,7 @@
                   És kérem,
                   ne haragudjék.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
@@ -9307,17 +9275,17 @@
                   april
                   8.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XVII.
                </head>
-               <p>
+					<p>
                   Ha
                   mint férfiút a legnagyobb mértékben folytonos izgalomban tartott
                      I
@@ -9327,13 +9295,13 @@
                   hogy nem voltam képes e magaviselet kielégitő magyarázatát
                      találni.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   múltja jogossá tett minden gyanút.
                   És nem egyszer furdalt e múlt és furdalt e gyanú.
                </p>
-               <p>
+					<p>
                   Igaz,
                   soha sem fürkésztem ez irányban.
                   Nem tartottam magamhoz méltónak
@@ -9348,7 +9316,7 @@
                   ez még épen nem magyarázhatná
                   magaviseletét.
                </p>
-               <p>
+					<p>
                   Nem akartam jelentőséget tulajdonitani annak,
                   hogy
                   I
@@ -9402,21 +9370,21 @@
                   sőt egészen idegenek szeme láttára is,
                   szinte tüntetésszerüen árulta el viszonyunkat.
                </p>
-               <p>
+					<p>
                   Másfelől,
                   ha lett volna egy harmadik,
                   ez alighanem beszéd tárgya lett volna.
                   És beszéltek sokat egykori kalandjairól,
                   de semmit sem a jelenről.
                </p>
-               <p>
+					<p>
                   De nem marad e fenn még mindig a lehetőség,
                   hogy valaki több szerelmi viszonyt tart fenn egyszerre és az
                      egyiket titkolni akarja és tudja,
                   a másikat nem
                   ?
                </p>
-               <p>
+					<p>
                   Nem képzelhető-e ez épen ily erős ösztönökkel és
                      kielégitetlen,
                   tépett,
@@ -9426,39 +9394,39 @@
                   RMA
                   ?
                </p>
-               <p>
+					<p>
                   Nem-e a benső kielégitetlenség és disharmonia elnémitására
                      számitott izgalmi játék az,
                   a mit velem
                   űz
                   ?
                </p>
-               <p>
+					<p>
                   Vagy a szinpad hősnője tanulmányozza-e az emberi jellemet és
                      szenvedélyeket és teszi ezért lázas kisérletek tárgyává kiszemeltjét
                   -
                   hideg vérrel
                   ?
                </p>
-               <p>
+					<p>
                   Vagy valóban monumentális dimensiókban vitt kaczérkodás,
                   a mit
                   űz
                   ?
                </p>
-               <p>
+					<p>
                   És ha az,
                   mi a czélja
                   ?
                </p>
-               <p>
+					<p>
                   Csak mulattatása
                   ?
                   Vagy annak teljes leigázása,
                   a kivel kaczérkodik
                   ?
                </p>
-               <p>
+					<p>
                   Talán el akar érni valamit velem
                   ?
                   Hatalmába akar ejteni,
@@ -9469,29 +9437,29 @@
                   hogy biztositsam magamnak
                   ?
                </p>
-               <p>
+					<p>
                   Nőm akar lenni
                   ?
                </p>
-               <p>
+					<p>
                   Nőm
                   ?
                </p>
-               <p>
+					<p>
                   Képzeltem-e ilyennek nőmet valaha
                   ?
                </p>
-               <p>
+					<p>
                   Képzelte-e ilyennek anyám,
                   midőn jövőmön tünődött
                   ?
                </p>
-               <p>
+					<p>
                   Lehetne-e képzelni
                   ennél nagyobb botrányt ismerőseim összes körében
                   ?
                </p>
-               <p>
+					<p>
                   És vajjon,
                   ha e perczben felül állana minden kételyen,
                   hogy ez által ez izgalmas szerelem nyugodt birását magamnak
@@ -9502,7 +9470,7 @@
                   nem venném-e nőmnek
                   ?
                </p>
-               <p>
+					<p>
                   Mennyire máskép végezném akkor életemet,
                   mint a hogyan nagy álmaimmal,
                   becsvágygyal tele,
@@ -9514,7 +9482,7 @@
                   hogy tekintettel legyek reá
                   ?
                </p>
-               <p>
+					<p>
                   És
                   »nőmmel
                   «
@@ -9527,7 +9495,7 @@
                   melyeknek
                   ő a hőse és...
                </p>
-               <p>
+					<p>
                   És vajjon,
                   ha szerelme miatt férfiú félrelök becsvágyat,
                   becsületet,
@@ -9540,7 +9508,7 @@
                   talán hasonló szerelmet nem ismert
                   ?
                </p>
-               <p>
+					<p>
                   C
                   LEOPATRA
                   szerelme volt
@@ -9576,7 +9544,7 @@
                   melyet élveztek
                   ?
                </p>
-               <p>
+					<p>
                   Római imperator
                   !
                   Népek imádottja
@@ -9615,7 +9583,7 @@
                   szólló
                   hírnevet dob oda ráadásúl.
                </p>
-               <p>
+					<p>
                   Férfiak,
                   bámuljátok
                   C
@@ -9646,12 +9614,12 @@
                   és mindenesetre több köszönet van a nők szerelmében,
                   mint a férfiak bámulatában.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XVIII.
                </head>
-               <p>
+					<p>
                   Csodálatos,
                   hogy az első napok után nyugodtabb lettem.
                   Minél többet forgattam magamban
@@ -9678,7 +9646,7 @@
                   ujra kezdje a játékot,
                   melyben most a vonzáson volt a sor.
                </p>
-               <p>
+					<p>
                   »
                   Édes
                   Z
@@ -9711,23 +9679,23 @@
                   hogy ott legyen.
                   Különben mi a fél hat órai hajóval megyünk...
                </p>
-               <p>
+					<p>
                   »
                   Április
                   15.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIX.
                </head>
-               <p>
+					<p>
                   Látva
                   tartózkodásom sikerét,
                   nem mentem sem
@@ -9750,7 +9718,7 @@
                   kertjébe,
                   hol a tavasszal együtt megkezdődtek az esti hangversenyek is.
                </p>
-               <p>
+					<p>
                   Strauss-keringőnek
                   hangjai
                   fogadtak messziről
@@ -9769,7 +9737,7 @@
                   és akaratom még hidegebb vérűvé tett,
                   mint a minő talán voltam.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                    fehér köntösben volt és igy könnyü volt azonnal észrevennem,
@@ -9796,7 +9764,7 @@
                   üdvözöltem
                   őt és társaságát.
                </p>
-               <p>
+					<p>
                   Z-né volt,
                   énekesnő mint
                   I
@@ -9811,7 +9779,7 @@
                   RMÁ
                   -nak udvarolni.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   ,
@@ -9842,7 +9810,7 @@
                   talán ma is ott állana,
                   ha nem ment volna más hóditás után.
                </p>
-               <p>
+					<p>
                   A kis győzelemnek és a langyos éjnek,
                   valamint I
                   RMA
@@ -9873,7 +9841,7 @@
                   plastikus alakja hosszú fehér köntösében,
                   a néma templom magas lépcsőin szoborként állott.
                </p>
-               <p>
+					<p>
                   Még I
                   RMÁ
                   -nál theáztunk mind a négyen.
@@ -9884,23 +9852,23 @@
                   -hoz,
                   miután az őgyelgő tenorista már elébb ajánlotta magát.
                </p>
-               <p>
+					<p>
                   Hazamenet I
                   RMA
                    különböző arczképeiből egy egész csomót vittem magammal,
                   mintegy a kibékülés zálogáúl.
                </p>
-               <p>
+					<p>
                   Ime két levél ez időből,
                   mely a legjobban tükrözi hangulatunkat,
                   de kivált az I
                   RMÁÉT
                   .
                </p>
-               <p>
+					<p>
                   Egy kis kártya:
                </p>
-               <p>
+					<p>
                   »
                   Ha jobb unatkozásra nincs kilátása,
                   kérem szerencséltesse ma délután szegény szolgálóját
@@ -9913,7 +9881,7 @@
                   .
                   4-30.
                </p>
-               <p>
+					<p>
                   S
                   ÜRGŐS
                   .
@@ -9922,10 +9890,10 @@
                   .
                   «
                </p>
-               <p>
+					<p>
                   És e levél:
                </p>
-               <p>
+					<p>
                   »
                   Aranyos
                   !
@@ -9936,13 +9904,13 @@
                   ma csak rontanám.
                   Tehát otthon várom.
                </p>
-               <p>
+					<p>
                   »
                   Most egyebet miért mondjak tollal,
                   majd elmondom szóval
                   !
                </p>
-               <p>
+					<p>
                   »Adieu
                   !
                   Délután pedig repüljön hozzám,
@@ -9956,7 +9924,7 @@
                   -
                   ajtókkal várom.
                </p>
-               <p>
+					<p>
                   »
                   Hozza el kérem magával G
                   OETHE
@@ -9964,14 +9932,14 @@
                   igen hálás leszek,
                   ha felolvasand belőle.
                </p>
-               <p>
+					<p>
                   »
                   És most,
                   miután szellememet tökéletesen kimerítettem,
                   fogadja honleányi üdvözletemet és lagunák lége által
                      megdesztillált csókomat.
                </p>
-               <p>
+					<p>
                   4-30
                   vagy nem
                   -
@@ -9979,18 +9947,18 @@
                   ugy-e
                   ?«
                </p>
-               <p>
+					<p>
                   »I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XX.
                </head>
-               <p>
+					<p>
                   Mintegy
                   öt nappal utóbb lehetett,
                   hogy ismét késő éjjelig voltam
@@ -10004,16 +9972,16 @@
                   igérnem,
                   hogy ismét eljövök.
                </p>
-               <p>
+					<p>
                   Nem volt otthon.
                   Hiába kerestem mindenütt,
                   a hol találhatni véltem.
                   Egész estémet kelletlenül töltöttem.
                </p>
-               <p>
+					<p>
                   És a következő napon e levél:
                </p>
-               <p>
+					<p>
                   »
                   Tisztelt Uram.
                   Végre is a vége csak az,
@@ -10021,7 +9989,7 @@
                   -
                   vége.
                </p>
-               <p>
+					<p>
                   »
                   Előbb vagy utóbb valamivel,
                   az nem sokat határoz
@@ -10029,7 +9997,7 @@
                   s az én érdekem azt kivánja,
                   hogy mától fogva ne találkozzam Önnel többé.
                </p>
-               <p>
+					<p>
                   »
                   Fölvilágosítással,
                   úgy tudom,
@@ -10037,23 +10005,23 @@
                   Ön hiszem,
                   hogy szivesen el is engedi.
                </p>
-               <p>
+					<p>
                   »
                   Nincs is arra szükség.
                </p>
-               <p>
+					<p>
                   »
                   De nem mulaszthatom el megköszönni Önnek azt a nehány kellemes
                      órát,
                   melyet
                   szellemdús társasága nekem szerzett.
                </p>
-               <p>
+					<p>
                   »
                   Legyen meggyőződve,
                   hogy ezekre mindég igen kedvesen fogok emlékezni.
                </p>
-               <p>
+					<p>
                   »
                   Végül még kérem,
                   ha
@@ -10100,25 +10068,25 @@
                   -
                   Adieu.
                </p>
-               <p>
+					<p>
                   »
                   V
                   ELENCZE
                   ,
                   5-9.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XXI.
                </head>
-               <p>
+					<p>
                   Első
                   szavaira
                   megzsibbadva,
@@ -10143,7 +10111,7 @@
                   élettelen néma csend volt első,
                   legfőbb szükségem.
                </p>
-               <p>
+					<p>
                   Azután újra azt a levelet olvastam.
                   Nem minden szavát,
                   nem minden betüjét:
@@ -10152,7 +10120,7 @@
                   apró foltját elmémbe véstem.
                   És aztán gondolkodni kezdtem.
                </p>
-               <p>
+					<p>
                   Hogy ha legalább olyan leplezetlenül frivol nem lett volna.
                   Úgy szóllít meg,
                    »
@@ -10174,7 +10142,7 @@
                   De hát mire volt engem szerelemmel áltatnia
                   !
                </p>
-               <p>
+					<p>
                   Igaz:
                    »
                   valamivel elébb,
@@ -10184,7 +10152,7 @@
                   De miért így
                   !
                </p>
-               <p>
+					<p>
                   Érdekével ellenkezik
                   !
                   De hát fel kellett e érdekének áldoznia halálig sértett
@@ -10219,7 +10187,7 @@
                   elhasznált,
                   félrelökött nyomorúlt.
                </p>
-               <p>
+					<p>
                   Hát hülye voltam:
                   hinni,
                   hogy számomra lehet öröm és álmodni boldogságról
@@ -10230,11 +10198,11 @@
                   hogy lássam,
                   hogy nem vagyok életre való.
                </p>
-               <p>
+					<p>
                   Bünhödtem.
                   Nem érdemeltem egyebet.
                </p>
-               <p>
+					<p>
                   »
                   Nem tartozunk egymásnak felvilágosítással.
                   «
@@ -10268,7 +10236,7 @@
                   odaadnám érte mind.
                   De hiszen nincs.
                </p>
-               <p>
+					<p>
                   Köszönöm,
                   hogy megköszönöd
                    »
@@ -10283,7 +10251,7 @@
                   «
                   Egyéb semmi.
                </p>
-               <p>
+					<p>
                   »
                   És igen kedvesen fog
                   rám emlékezni.
@@ -10293,7 +10261,7 @@
                   Nem volna-e nekem is legokosabb ugyanezt tenni
                   ?
                </p>
-               <p>
+					<p>
                   És milyen jó szívű
                   !
                   Aggódik,
@@ -10303,10 +10271,10 @@
                   !
                   És jó szemeim mentsék ki.
                </p>
-               <p>
+					<p>
                   Mennyi együgyűséget olvashatott ki jó szemeimből.
                </p>
-               <p>
+					<p>
                   »
                   Minden jó velünk
                   !«
@@ -10317,7 +10285,7 @@
                   csak szó.
                   Annak is hiábavaló.
                </p>
-               <p>
+					<p>
                   »
                   Nos
                   -
@@ -10329,10 +10297,10 @@
                   Hogyan illik hozzá.
                   Milyen semmitmondó.
                </p>
-               <p>
+					<p>
                   Azután elővettem régibb leveleit.
                </p>
-               <p>
+					<p>
                   Elolvastam egymásután sorra.
                   És végül a végsőt.
                   Milyen jó collectió.
@@ -10340,55 +10308,55 @@
                   őrültem
                   !
                </p>
-               <p>
+					<p>
                   Aztán elővettem arczképeit.
                </p>
-               <p>
+					<p>
                   Mindenik egy-egy szerep.
                </p>
-               <p>
+					<p>
                   Mindenikből sugárzott egy-egy érzelem,
                   egy-egy szenvedély.
                </p>
-               <p>
+					<p>
                   Szerep,
                   -
                   szerep
                   !
                </p>
-               <p>
+					<p>
                   Mégegyszer elolvastam leveleit.
                </p>
-               <p>
+					<p>
                   Azután gyönyörü eszmém támadt.
                </p>
-               <p>
+					<p>
                   Koldúlnom nem lehet ott,
                   a hol kidobtak.
                </p>
-               <p>
+					<p>
                   Szemrehányást minek csinálnék ott,
                   a hol kikaczagnak.
                </p>
-               <p>
+					<p>
                   És mit is lehetne írni,
                   a mi e levélre méltó válasz volna
                   ?
                </p>
-               <p>
+					<p>
                   Hanem elküldöm neki
                   leveleit,
                   kezdve a
                   legszerelmesebbtől egész az utolsóig.
                </p>
-               <p>
+					<p>
                   De nem egyszerre.
                   El sem olvasná és másnap nem gondolna velök többé,
                   ha csak nem azért,
                   hogy örüljön,
                   hogy visszakapta.
                </p>
-               <p>
+					<p>
                   Hanem egyenként.
                   Mához épen egy hétre az elsőt,
                   addig semmit.
@@ -10399,23 +10367,23 @@
                   hetenként
                   egy darabot.
                </p>
-               <p>
+					<p>
                   Emlékezzék vissza a mámor óráira,
                   minden szavára,
                   minden csókra,
                   minden szeszélyére.
                </p>
-               <p>
+					<p>
                   De az első után tüzbe dobhatja a többit felbontatlanul
                   ?
                </p>
-               <p>
+					<p>
                   Nem volna nő,
                   ha megtenné.
                   Erre még ő sem képes.
                   Ennyire mégis nő.
                </p>
-               <p>
+					<p>
                   De hogy megváljak ettől a drága gyüjteménytől,
                   azt nem
                   lehet
@@ -10450,7 +10418,7 @@
                   a melyiken tudom,
                   hogy miért vagyok a világon.
                </p>
-               <p>
+					<p>
                   Őrültségnek fog ez látszani
                   ?
                   Szemrehányásnak
@@ -10467,25 +10435,22 @@
                   ha nem kínozná az,
                   hogy nem tudja.
                </p>
-               <p>
+					<p>
                   És ezenkivül tőlem nem hall semmit sem.
                </p>
-               <p>
-                  
-               </p>
-            </div>
-         </div>
-         <div type="group">
-            <head>
+				</div>
+			</div>
+			<div type="group">
+				<head>
                NEGYEDIK KÖNYV.
                DARVADY ZOLTÁN MINDENT ELVESZÍT
                ÉS MINDENNÉL TÖBBET NYER.
             </head>
-            <div type="chapter">
-               <head>
+				<div type="chapter">
+					<head>
                   I.
                </head>
-               <p>
+					<p>
                   Az
                   egész
                   napnak folytán eszembe sem jutott kimenni.
@@ -10501,7 +10466,7 @@
                   a miről éreztem,
                   hogy elérhetlenül veszve van.
                </p>
-               <p>
+					<p>
                   A szélesebb utczák
                   -
                   vajmi keskenyek ezek is
@@ -10526,7 +10491,7 @@
                   hogy elnyeljen a föld,
                   semhogy vele itt találkozzam.
                </p>
-               <p>
+					<p>
                   A R
                   IVÁ
                   -n voltam.
@@ -10550,7 +10515,7 @@
                   a mi lelkületünkben van
                   ?
                </p>
-               <p>
+					<p>
                   Kiholt világban egyedül lenni:
                   ez az érzés szállott meg.
                   Egész idegrendszerem összerezzent,
@@ -10605,13 +10570,13 @@
                   Már korán reggel ébren voltam,
                   és nem tudtam többé álmot találni.
                </p>
-               <p>
+					<p>
                   Másnap nem nyugodtam addig,
                   míg ki nem tudtam,
                   hogy ki ment a hajóra.
                   A kormányos volt feleségével.
                </p>
-               <p>
+					<p>
                   Napokon át kinoztam
                   B
                   EPPO
@@ -10638,7 +10603,7 @@
                   ;
                   hozzá nem ment senki.
                </p>
-               <p>
+					<p>
                   Egyszer azt a hírt hozta,
                   hogy
                   I
@@ -10667,7 +10632,7 @@
                   De annyit tudtam,
                   hogy másnap utazik.
                </p>
-               <p>
+					<p>
                   Most láttam csak,
                   hogy eddig
                   V
@@ -10702,7 +10667,7 @@
                   hallottam megkülönbözhetetlen zúgást,
                   mint távoli harangét és fejem szédült.
                </p>
-               <p>
+					<p>
                   Szabad levegőt
                   !
                   Természetet
@@ -10710,30 +10675,30 @@
                   Vadont
                   !
                </p>
-               <p>
+					<p>
                   Nem tudtam megmaradni V
                   ELENCZÉ
                   -ben.
                </p>
-               <p>
+					<p>
                   Először lélekzettem szabadon,
                   midőn a svajczy határ óriás bástyáiról tekintettem vissza a
                      lombard sikság violaszin ködének fátyolán keresztül messze átfehérlő sürü-apró
                      városokra és campanillekre.
                </p>
-               <p>
+					<p>
                   Milyen éltető volt a magas bérczszoros hűs levegője
                   !
                   Mint éreztem tágúlni bágyadt szemeimet a havasok fehér lapjainak
                      látására
                   !
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   II.
                </head>
-               <p>
+					<p>
                   A
                   W
                   engern
@@ -10741,7 +10706,7 @@
                   Alp havasi háza volt az első hely,
                   a hol maradásomat tudtam találni.
                </p>
-               <p>
+					<p>
                   Minél inkább fordúltam el embertől és világtól,
                   annyival inkább tudtam belemélyedni a
                   természetbe.
@@ -10780,12 +10745,12 @@
                   De nem haláltól szédültem,
                   hanem élettől.
                </p>
-               <p>
+					<p>
                   Hanem visszatérve ily kirándulásról is a népes vendéglőbe,
                   a természet ledér udvarlóinak rajába,
                   bántalommá vált ismét minden pillanatom.
                </p>
-               <p>
+					<p>
                   A magányos havasi ház a korai idényben még nem volt a
                      vándor-csoportok tanyája.
                   Egyszer-egyszer jelent meg valami egyszerü ember,
@@ -10808,7 +10773,7 @@
                   és az ezeknek sárga tömegeiből emelkedő sötét vihar-fenyő,
                   hogy fölötte vagyunk az emberi lakhelyek nyomorának.
                </p>
-               <p>
+					<p>
                   Ablakomból úgy tetszett,
                   mintha csak puska lövésnyire kellene áthaladnom a
                      sziklamezőkön,
@@ -10836,18 +10801,18 @@
                   -
                   nem lesz meg még a puszta emlék sem.
                </p>
-               <p>
+					<p>
                   Miért hogy hajhászva kétes gyönyört,
                   fosztjuk meg önmagunkat örökké a létnek egyetlen tiszta
                      gyönyörétől:
                   a nyugalomtól
                   ?
                </p>
-               <p>
+					<p>
                   Miért nem tudunk tanúlni a természettől
                   ?
                </p>
-               <p>
+					<p>
                   Miért akarással háborítani a létnek békéjét
                   ?
                   Megértettelek természet:
@@ -10855,7 +10820,7 @@
                   a békében,
                   béke csak a lemondásban van.
                </p>
-               <p>
+					<p>
                   Ismét ama napjára fordúlt a hét,
                   a melyen leveleinek egy-egy mását küldtem el
                   I
@@ -10863,7 +10828,7 @@
                   -nak.
                   Nem mulasztottam el most sem.
                </p>
-               <p>
+					<p>
                   De minden keserüség nélkül,
                   csöndes bánattal,
                   fájó szánalommal másoltam egyikét ama leveleinek,
@@ -10886,7 +10851,7 @@
                   Ez olthatatlan szomj nélkül nem volnál az a dús természet,
                   a ki vagy.
                </p>
-               <p>
+					<p>
                   Fájó szánalommal gondoltam I
                   RMÁ
                   -ra,
@@ -10917,12 +10882,12 @@
                   -
                   csak a halál után.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   III.
                </head>
-               <p>
+					<p>
                   És
                   nehány héttel
                   utóbb
@@ -10931,7 +10896,7 @@
                   -ben
                   voltam.
                </p>
-               <p>
+					<p>
                   Leveleim elfogytak.
                   Sorra elküldtem mind.
                   Ekkor volt,
@@ -10984,7 +10949,7 @@
                   mint hogy ott vagyok,
                   mint száz és ezer más.
                </p>
-               <p>
+					<p>
                   Daczára annak,
                   hogy az utóbbi években a lidói tengeri fürdővel együtt divatba
                      jött második velenczei idényt tartani a nyár derekán,
@@ -11047,7 +11012,7 @@
                   de az optikai csalódás által a tenger szine
                   fölé a légkörbe emelt vitorlások meseszerü tüneménye.
                </p>
-               <p>
+					<p>
                   Ez volt főfoglalkozásom.
                   Napról-napra halasztottam a
                   F
@@ -11070,12 +11035,12 @@
                   RMA
                   .
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IV.
                </head>
-               <p>
+					<p>
                   Minden este
                   öltözködtem,
                   hogy a
@@ -11093,7 +11058,7 @@
                   és eltelt az est a piaczra messze kitolt szék-tömeg közt nyüzsgő
                      hüsellők nézésében.
                </p>
-               <p>
+					<p>
                   Utoljára is azt hiszem az az eszme vitt a színházba,
                   hogy beülök egy szinpad melletti sarokpáholyba,
                   arra az oldalára,
@@ -11111,7 +11076,7 @@
                   hogy
                   ő nézzen és talán nevessen engem.
                </p>
-               <p>
+					<p>
                   Nem volt a színpadon,
                   midőn beléptem.
                   A leghátulsó,
@@ -11125,7 +11090,7 @@
                   RMA
                   belépését vártam.
                </p>
-               <p>
+					<p>
                   Minő fenség
                   !
                   Mennyi nemesség alakjában,
@@ -11139,13 +11104,13 @@
                   úgy mint ebben a jelmezben
                   ő.
                </p>
-               <p>
+					<p>
                   Honnan veszi ezt a nemességet,
                   ha olyan,
                   mint a minőnek magát utolsó levelében mutatta
                   ?
                </p>
-               <p>
+					<p>
                   Midőn nagy áriájára intett a karmester és egy pillanatra néma
                      csendbe merült az egész ház az a gondolat villant rajtam keresztül,
                   hogy első hangjainál kiülök hirtelen egészen előre,
@@ -11155,7 +11120,7 @@
                   meg voltam győződve,
                   tüstént látnia kell.
                </p>
-               <p>
+					<p>
                   Egy pillanat alatt ott voltam.
                   Soha gyorsabban nem követtem elhatározást.
                   Nem tudom mi szállott meg,
@@ -11176,7 +11141,7 @@
                   utólszor hallottam.
                   Elhalóbb volt csengésük.
                </p>
-               <p>
+					<p>
                   Nem mintha énekelné őket,
                   mintha öntudatlanúl
                   fakadnának kebeléből halkan,
@@ -11185,7 +11150,7 @@
                   hogy majdan magával ragadja az egész házat szenvedélyének
                      villanyos tüzével.
                </p>
-               <p>
+					<p>
                   A ház tapsolt,
                   tombolt,
                   mintha először hallotta volna ezt az éneket.
@@ -11195,7 +11160,7 @@
                   ?
                   Ki tudná nekem megmondani.
                </p>
-               <p>
+					<p>
                   Ha a szinpadon volt nem vettem le róla szememet.
                   Ez jogom volt.
                   Ezért fizettem.
@@ -11215,12 +11180,12 @@
                   a hol női ismerőseim közül a legszebbek és legkaczérabbak egyike
                      ült nagy legyezője mögött.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   V.
                </head>
-               <p>
+					<p>
                   K
                   ÜLÖNÖS
                   ,
@@ -11234,7 +11199,7 @@
                   alig hogy a szinházban meglátott,
                   találkoztunk a téren is.
                </p>
-               <p>
+					<p>
                   Egész testemen remegtem,
                   midőn egyszerre magam előtt láttam.
                   Csak midőn
@@ -11248,7 +11213,7 @@
                   sérteni nem lett volna szabad,
                   mert nő volt.
                </p>
-               <p>
+					<p>
                   Midőn ismét láttam a szinházban,
                   a hova most már nap nap mellett eljártam,
                   nem tudtam megállani,
@@ -11257,7 +11222,7 @@
                   panaszos,
                   szomorú tekintete lebilincselte nézésemet.
                </p>
-               <p>
+					<p>
                   Mit akar még tőlem
                   ?
                   Tehát ahoz a fordulathoz jutunk,
@@ -11266,20 +11231,20 @@
                   szemrehányása és én vagyok a bántó
                   ?
                </p>
-               <p>
+					<p>
                   Még azután is,
                   a mi köztünk történt,
                   nem akar békében hagyni
                   ?
                </p>
-               <p>
+					<p>
                   Ujra szövődjenek egy lehetetlen viszonynak szálai
                   ?
                </p>
-               <p>
+					<p>
                   Nem.
                </p>
-               <p>
+					<p>
                   Elutazom.
                   Hová
                   ?
@@ -11287,15 +11252,15 @@
                   Akárhova.
                   Rosznak elég jó lesz minden hely.
                </p>
-               <p>
+					<p>
                   És ismét egyik napról a másikra halasztottam elutazásomat.
                </p>
-               <p>
+					<p>
                   Ekkor kaptam megint levelet anyámtól,
                   a hol annyiszor ismételt sürgetéseit ismételte,
                   hogy térjek haza.
                </p>
-               <p>
+					<p>
                   Úgy látszék,
                   hallott valamit
                   I
@@ -11305,7 +11270,7 @@
                   sziv
                   czélzását véltem leveléből kiolvashatni.
                </p>
-               <p>
+					<p>
                   Nem tudtam elég elfogulatlan lenni,
                   hogy belássam,
                   hogy a válságok,
@@ -11319,14 +11284,14 @@
                   melyben megirtam,
                   hogy még ne várjon.
                </p>
-               <p>
+					<p>
                   Oh bár siettem volna hozzá,
                   -
                   az anyai szívhez,
                   melyben egyedül van rendíthetetlen,
                   soha nem változó tiszta szeretet.
                </p>
-               <p>
+					<p>
                   De mintha daemoni erő bilincselt volna le,
                   nem tudtam elhagyni V
                   ELENCÉ
@@ -11353,22 +11318,22 @@
                   -nél nem kevésbé fényes,
                   büszke második laguna-városnak.
                </p>
-               <p>
+					<p>
                   Mégis volt erőm legalább a színházba nem menni.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VI.
                </head>
-               <p>
+					<p>
                   Egyik reggel ébredve,
                   levelet kaptam,
                   melynek feliratát megtekintve,
                   azt hittem,
                   hogy még álmodom.
                </p>
-               <p>
+					<p>
                   De a levél kezemben
                   volt.
                   I
@@ -11376,11 +11341,11 @@
                    levele.
                   Egy perczig nem tudtam volna vonásait félreismerni.
                </p>
-               <p>
+					<p>
                   Minden czím nélkül apró,
                   sürű betükben így szólt:
                </p>
-               <p>
+					<p>
                   »
                   Ön többé nem figyel reám.
                   Oh,
@@ -11467,7 +11432,7 @@
                   nagyon,
                   végtelen szerencsétlen vagyok.
                </p>
-               <p>
+					<p>
                   »
                   Az egyetlen örömöm eddig az volt,
                   hogy Önt láttam mikor felléptem,
@@ -11477,7 +11442,7 @@
                   semmim sincs
                   !
                </p>
-               <p>
+					<p>
                   »Oh,
                   hogy szeretném az Ön bölcsessége előtt bevádolni magamat,
                   kipanaszolni magamat az Ön jó,
@@ -11497,7 +11462,7 @@
                   Ön már vigasztalt engem,
                   és én nyugodt is voltam akkor.
                </p>
-               <p>
+					<p>
                   »
                   Oh,
                   hogy keresem mindég azokat a szemeket,
@@ -11516,13 +11481,13 @@
                   hogy némileg segithessen gyámoltalanságomon,
                   mely Önhöz kiált segélyért.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-               <p>
+					<p>
                   Első impulsusom az volt,
                   hogy hozzá rohanok.
                   De viszonyunk egész lefolyása tolúlt
@@ -11555,11 +11520,11 @@
                   a hová a többi
                   ?
                </p>
-               <p>
+					<p>
                   Biztositékot
                   !
                </p>
-               <p>
+					<p>
                   Tisztán
                   kell látnom.
                   Biztosítva csak úgy lehetek,
@@ -11579,12 +11544,12 @@
                   a mit velem tett
                   ?
                </p>
-               <p>
+					<p>
                   És ehez képest:
                   igen,
                   vagy nem.
                </p>
-               <p>
+					<p>
                   Ez a vallomás keservesen nehéz lesz.
                   De ha képes reá,
                   akkor az enyém.
@@ -11592,7 +11557,7 @@
                   és erre többé nem bír rá
                   !
                </p>
-               <p>
+					<p>
                   De éreztem,
                   hogy erre alkudoznom nem lehet
                   ;
@@ -11604,28 +11569,28 @@
                   Vagy hallgat erre,
                   vagy magyarázatát adja.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VII.
                </head>
-               <p>
+					<p>
                   Sem
                   ezt,
                   sem azt nem tette meg.
                </p>
-               <p>
+					<p>
                   Nővel szemben hiába való dilemmát felállítani.
                   A hol a férfi csak kettő közt való választást lát,
                   a nő bizonyosan harmadik útat vesz.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                    levele minden számitásomat és minden elhatározásomat is halomra
                      döntötte.
                </p>
-               <p>
+					<p>
                   »
                   Bocsásson meg,
                   «
@@ -11636,7 +11601,7 @@
                   még egyszer én vagyok
                   !«
                </p>
-               <p>
+					<p>
                   »Azt hiszem,
                   félreértette legutóbbi levelemet,
                   külömben,
@@ -11667,17 +11632,13 @@
                   ;
                   miért akarja az Ön iránti érzelmemet így megsemmisíteni,
                   hisz én nem akarok vele
-                  
                      Önnek
-                  
                    terhére lenni,
                   és
-                  
                      nekem
-                  
                    igen drága.
                </p>
-               <p>
+					<p>
                   »
                   Hisz én csak azt mondtam,
                   hogy igen-igen árva vagyok,
@@ -11697,7 +11658,7 @@
                   még csak egy szalmaszálat lát,
                   melytől megmentését reméli.
                </p>
-               <p>
+					<p>
                   »
                   Én egy jó tettre kértem Önt,
                   és Ön ezt arra használja alkalmúl,
@@ -11725,7 +11686,7 @@
                   hogy legyen ott néha,
                   mikor játszanom kell.
                </p>
-               <p>
+					<p>
                   »
                   Ez volt egyetlen óhajom,
                   ez volt kérelmem Önhöz,
@@ -11733,26 +11694,26 @@
                   de a melyre nem kértem,
                   és nem kérek feleletet levélben.
                </p>
-               <p>
+					<p>
                   »
                   Isten önnel.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   VIII.
                </head>
-               <p>
+					<p>
                   E
                   levél után egészen megváltozott világitásban láttam mindent.
                </p>
-               <p>
+					<p>
                   A nyúgodt erő,
                   a méltóság mondhatnám,
                   mellyel írva volt,
@@ -11780,7 +11741,7 @@
                      élénkitette mindannak egyszerre ébredő emlékével,
                   a mi a múltban édes vala.
                </p>
-               <p>
+					<p>
                   Hiába forgattam elmémben,
                   miért,
                   hogyan gondolhatta erénynek azt a borzasztó levelet,
@@ -11790,7 +11751,7 @@
                   azt,
                   hogy saját érzelmeinek ellenére írta.
                </p>
-               <p>
+					<p>
                   Feltételeimet elfeledtem
                   ;
                   tépelődéseimet félrelöktem.
@@ -11800,10 +11761,10 @@
                   hogy még egyszer győzhet minden tekinteten a szerelem,
                   melyet legyőzni mind a történtek után sem képes egyikünk sem.
                </p>
-               <p>
+					<p>
                   A határozók a levél végsorai voltak.
                </p>
-               <p>
+					<p>
                   Ha I
                   RMA
                    ezt a szerelmet nem akarná,
@@ -11811,13 +11772,13 @@
                   éleszteni újra s újra viszontlátás által
                   ?
                </p>
-               <p>
+					<p>
                   Ha képes volna magát igazolni,
                   miért térjek annak útjából,
                   a miben boldogságomat kerestem
                   ?
                </p>
-               <p>
+					<p>
                   Hogy azután,
                   a mit tett,
                   fél hozzám közeledni,
@@ -11829,29 +11790,29 @@
                   nem-e félénk közeledés
                   ?
                </p>
-               <p>
+					<p>
                   Kétes minden.
                   De mivel minden kétes,
                   minden lehető.
                </p>
-               <p>
+					<p>
                   Miért nem fejezi be levelét egyszerűen avval,
                   hogy feleletet nem vár.
                   Miért mondja,
                   hogy nem vár feleletet levélben
                   ?
                </p>
-               <p>
+					<p>
                   Nem gondol-e arra,
                   hogy közvetlen találkozásban egy szó,
                   egy pillanat eligazíthat mindent
                   ?
                </p>
-               <p>
+					<p>
                   Tehát újra találkozzunk
                   ?
                </p>
-               <p>
+					<p>
                   Igen.
                   Csak közvetlen találkozás vethet véget e befejezetlenségnek,
                   adhat bizonyosságot,
@@ -11861,7 +11822,7 @@
                   de dönthet.
                   Egyéb semmi.
                </p>
-               <p>
+					<p>
                   Nem szabad gyávának lennem.
                   Bármi legyen az eredmény,
                   nem szabad visszariadnom az alkalomtól,
@@ -11872,7 +11833,7 @@
                   lehetségeset,
                   de véget vessek ennek az elviselhetlen hánykódásnak.
                </p>
-               <p>
+					<p>
                   Bármi legyen az eredmény,
                   eredményt és bizonyosságot akarok.
                   Megyek.
@@ -11887,12 +11848,12 @@
                   hogy ez az utolsó lépés.
                   De épen azért meg kell tennem.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   IX.
                </head>
-               <p>
+					<p>
                   I
                   RMA
                   lakásába lépve,
@@ -11902,7 +11863,7 @@
                   hogy kéretem asszonyát,
                   hogy fél óra múlva egyedül legyen.
                </p>
-               <p>
+					<p>
                   A leány
                   -
                   uj volt és nem ismert
@@ -11918,7 +11879,7 @@
                   Tudja a parancsoló,
                   gondolják.
                </p>
-               <p>
+					<p>
                   A milyen kellemetlenül érintett eleinte,
                   hogy
                   I
@@ -11929,7 +11890,7 @@
                   Előre is tájékozást vártam abból,
                   vajjon kérésemet teljesíti-e vagy sem.
                </p>
-               <p>
+					<p>
                   A félóra eltelt ugyanazzal,
                   a mivel eltelt az út:
                   a sajátságos találkozás lefolyását
@@ -11937,7 +11898,7 @@
                   tévelyegve a lehetőségeken,
                   mámorosodva a lázas jeleneteken.
                </p>
-               <p>
+					<p>
                   Midőn visszatértem,
                   I
                   RMA
@@ -11951,13 +11912,13 @@
                   De hamar láttam,
                   hogy magam sem vagyok kedvezőbb helyzetben.
                </p>
-               <p>
+					<p>
                   Ha félénk,
                   ha bánkodó,
                   vagy ha csábitó nőt vártam:
                   csalódtam.
                </p>
-               <p>
+					<p>
                   A komoly nyugalomban,
                   mellyel fogadott,
                   lehetett tán valami bánata a lemondásnak.
@@ -11974,22 +11935,22 @@
                   RMÁ
                   -t a zavarnak árnyán is felül levőnek találtam.
                </p>
-               <p>
+					<p>
                   Azt hittem,
                   így viselheti magát nő beteg mellett,
                   a kin sajnálkozik,
                   a kit csillapítani akar,
                   de a kinek kivánságait teljesitenie nem szabad.
                </p>
-               <p>
+					<p>
                   Evvel a magatartással szemben fölény nincs.
                </p>
-               <p>
+					<p>
                   Talán ha régi lakásán találtam volna,
                   a régi környezetben,
                   leltem volna egy szót a régi hangon.
                </p>
-               <p>
+					<p>
                   De idegen helyt idegennek éreztem magamat.
                   Midőn
                   I
@@ -12009,13 +11970,13 @@
                   olyan igényteljes,
                   a nagy szőnyegektől a nagy aczélmetszetekig.
                </p>
-               <p>
+					<p>
                   Még egy szót sem váltottunk,
                   midőn leültünk.
                   És kalapomat sem tudtam letenni kezemből.
                   Idegen voltam.
                </p>
-               <p>
+					<p>
                   Ki tudná megmondani,
                   hogy erejének minő megfeszitésével tudta fenntartani I
                   RMA
@@ -12044,7 +12005,7 @@
                   hogy miért válaszoltam levelére úgy,
                   a hogy tettem.
                </p>
-               <p>
+					<p>
                   -
                   »Bocsásson meg,
                   hogy eljöttem.
@@ -12062,7 +12023,7 @@
                   sértőnek.
                   «
                </p>
-               <p>
+					<p>
                   Többet akartam mondani,
                   de egy szóval nem voltam többre képes.
                   I
@@ -12072,7 +12033,7 @@
                   de nyugodt,
                   tiszta hangon felelt.
                </p>
-               <p>
+					<p>
                   -
                   »Azt gondoltam,
                   talán szivesen megteszi értem és csak csekélység a mit kérek.
@@ -12082,7 +12043,7 @@
                   hogy eljőjjön ezután is.
                   «
                </p>
-               <p>
+					<p>
                   -
                   »Igen,
                   ott voltam,
@@ -12106,7 +12067,7 @@
                   legyen vége egészen.
                   «
                </p>
-               <p>
+					<p>
                   Talán mivel kész voltam arra,
                   hogy vége
                   legyen egészen és talán mivel egyuttal felkelve,
@@ -12130,7 +12091,7 @@
                   az hogy mindennek vége van,
                   és folytatása többé nem lehet.
                </p>
-               <p>
+					<p>
                   Nem értett,
                   vagy nem akart érteni
                   ?
@@ -12142,7 +12103,7 @@
                   és köszönet,
                   hogy még egyszer láthatott.
                </p>
-               <p>
+					<p>
                   Evvel mindennek vége volt.
                    »
                   Én köszönöm,
@@ -12160,12 +12121,12 @@
                   a hol alig volt ideje utamból állani az ajtóban leskődő
                      leánynak.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   X.
                </head>
-               <p>
+					<p>
                   Hazamenet kábitó zene harsogott elém a M
                   ÁRK
                   -térről.
@@ -12182,7 +12143,7 @@
                    arczképeivel,
                   furdaló gondolataimmal.
                </p>
-               <p>
+					<p>
                   De ezek a furdaló gondolatok itt sem hagytak el.
                   Ismét annak a szerencsétlen teremtésnek éreztem magamat,
                   a kinek olyan életet kell élnie,
@@ -12195,7 +12156,7 @@
                    ellentmondással megoldhatlanúl teljes viseletét
                   ?
                </p>
-               <p>
+					<p>
                   Féltékeny voltam.
                   És mindinkább beledolgoztam magamat a gyanúba,
                   a vádakba
@@ -12204,7 +12165,7 @@
                   hogy mint éretlen gyermek szerencsétlen tudok lenni egy kaczér nő
                      változó szeszélyei miatt.
                </p>
-               <p>
+					<p>
                   Kezdtem magamat józanitani és vigasztalni.
                   Vajjon,
                   kérdeztem magamtól,
@@ -12232,7 +12193,7 @@
                   a mi a szinpadhoz tartozik:
                   közelről értéktelen hamis.
                </p>
-               <p>
+					<p>
                   Igy józanitottam és vigasztaltam magam,
                   és talán még szerencsétlenebbnek éreztem magam,
                   mint annak előtte.
@@ -12244,13 +12205,13 @@
                   értéktelen,
                   hamis.
                </p>
-               <p>
+					<p>
                   Mintha csak most kezdtek volna körülöttem társalogni,
                   úgy ütötte meg fülemet élesen egyik szomszéd asztaltól I
                   RMA
                    szinpadi neve.
                </p>
-               <p>
+					<p>
                   -
                    »
                   Hát te nem tudtad
@@ -12273,7 +12234,7 @@
                   -be,
                   ha itt van kedvese.
                </p>
-               <p>
+					<p>
                   Fejembe tódúlt a vér.
                   Első impulsusom az volt,
                   hogy megrohanjam a szólót.
@@ -12286,7 +12247,7 @@
                   De a szomszédos asztaltársaság ott ült és valamennyie a távozott
                      tábornok után bámészkodott.
                </p>
-               <p>
+					<p>
                   Ismét azt akartam tenni,
                   hogy feleletre vonjam a szólót.
                   Mert mintha egy papirosfalat lyukgatott volna előttem
@@ -12332,7 +12293,7 @@
                   a miről mindenki beszél
                   ?
                </p>
-               <p>
+					<p>
                   És mégis fel voltam zudúlva az ellen,
                   a ki úgy beszélt erről a dologról,
                   a mit mindenki tud,
@@ -12346,26 +12307,26 @@
                   sőt gyülöltté válhatott,
                   és mégis másoktól nem akarja ugyanazt hallani.
                </p>
-               <p>
+					<p>
                   Szükségem volt minden józan eszemre,
                   hogy nevetségessé ne tegyem
                   magamat oly fellépés által,
                   melyre hiába kerestem volna jogczímet.
                </p>
-               <p>
+					<p>
                   Forrongó szívvel siettem lakom magányába.
                </p>
-               <p>
+					<p>
                   Álmatlan éj után I
                   RMA
                    arczképeit láttam a napvilágnak első sugarában.
                </p>
-               <p>
+					<p>
                   Ez az utolsó,
                   a mi megmaradt.
                   De ellököm utolsó emlékét is.
                </p>
-               <p>
+					<p>
                   Összeszedtem a képeket,
                   melyeket mámoros órában kaptam tőle.
                   Boritékba tettem,
@@ -12374,29 +12335,29 @@
                   És az egészet második boritékban visszaküldtem annak,
                   a kitől kaptam.
                </p>
-               <p>
+					<p>
                   ---------------
                </p>
-               <p>
+					<p>
                   »
                   Ön igen kegyetlen és még inkább igaztalan
                   ;
                   azon férfiú hozzám teljesen idegen
                   !
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-               <p>
+					<p>
                   Ezeket a sorokat kaptam tőle válaszúl.
                </p>
-               <p>
+					<p>
                   És még egy utóirat:
                </p>
-               <p>
+					<p>
                   »
                   Miért nem égette el őket,
                   ha nem akarta megtartani
@@ -12412,18 +12373,18 @@
                   hisz kétségbe kell esnem
                   !
                </p>
-               <p>
+					<p>
                   »Nem hiszem,
                   hogy önmaga is hinné azt,
                   a mivel sérteni akar.
                </p>
-               <p>
+					<p>
                   I
                   RMA
                   .
                   «
                </p>
-               <p>
+					<p>
                   És ismét a kétely vivódott bennem és halmozott el I
                   RMA
                    vádjainál keserűbb önváddal.
@@ -12432,17 +12393,17 @@
                   Csak annyi volt bizonyos,
                   hogy ezután mindennek vége van.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XI.
                </head>
-               <p>
+					<p>
                   És
                   több
                   bizonyosságot szerezni nem maradt alkalmam.
                </p>
-               <p>
+					<p>
                   Oly hangulatban,
                   melyben azt hittem,
                   hogy semmi sem maradt többé számomra,
@@ -12452,7 +12413,7 @@
                   mindeneknél drágább,
                   anyám levele.
                </p>
-               <p>
+					<p>
                   Valami érzetével a megszégyenültségnek,
                   a félelemnek,
                   de egyuttal a kimondhatatlan vonzalomnak törtem fel az olyan
@@ -12481,12 +12442,12 @@
                   De megindulásom mélyebb s mélyebb lőn,
                   a mint végigolvasám e levelet:
                </p>
-               <p>
+					<p>
                   »
                   Édes egyetlen fiam
                   !«
                </p>
-               <p>
+					<p>
                   »Akkor,
                   a mikor először kértelek,
                   hogy vess véget távol bolyongásodnak,
@@ -12515,7 +12476,7 @@
                   hagyd békében távozni szolgálódat,
                   mert eleget éltem.
                </p>
-               <p>
+					<p>
                   »
                   De mostan magamért sürgetlek,
                   mert a félelemnek remegése szállt meg,
@@ -12540,7 +12501,7 @@
                   hiszen én egyetlen édes fiam után is hiába küldöm
                      könyörgésemet.
                </p>
-               <p>
+					<p>
                   »
                   De nem akarok pörölni,
                   mint az a vén asszonyok szokása.
@@ -12609,7 +12570,7 @@
                   hogy habozás és csüggedés nélkül küzködjék előre
                   !
                </p>
-               <p>
+					<p>
                   »Oh fiam
                   !
                   Neked biztatásra,
@@ -12631,24 +12592,24 @@
                   hogy közelébb az úrhoz imádkozhassék éretted.
                   Forrón ölel
                </p>
-               <p>
+					<p>
                   A
                   NYÁD
                   .
                   «
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XXI.
                </head>
-               <p>
+					<p>
                   Szakadatlanúl
                   utaztam éjjel-nappal,
                   városról-városra,
                   tartományról tartományra.
                </p>
-               <p>
+					<p>
                   Nem vettem magamnak több időt az úti készületekre,
                   mint a mennyi a legközelebbi vonatig kellett.
                   A mi ügyem-dolgom még elintézendő volt,
@@ -12667,12 +12628,12 @@
                   Elkényeztetett gondosságával és nem tudtam volna többé
                      nélkülözni.
                </p>
-               <p>
+					<p>
                   Nem váltakoztak utamban oly gyorsan a vidékek képei,
                   mint egymást
                   üző gondolataim.
                </p>
-               <p>
+					<p>
                   Egy elfecsérelt életre gondoltam vissza,
                   harmincz évre,
                   melyben nem sikerűlt semmi.
@@ -12687,12 +12648,12 @@
                   a hol szerettek,
                   a hol szeretni tudtam.
                </p>
-               <p>
+					<p>
                   Soha nem kellett volna egyebet keresnem.
                   Mert nincs,
                   a mi a keresést megérdemelné.
                </p>
-               <p>
+					<p>
                   Nem fogok többé keresni olyat,
                   a mi meg nem érdemli az árt,
                   mit érte fizetni kell.
@@ -12700,7 +12661,7 @@
                   a ki boldogság mámorára,
                   dicsőség küzdelmére teremve volna.
                </p>
-               <p>
+					<p>
                   Nyugalmam a lemondás lesz,
                   melegítve drága,
                   maradó,
@@ -12718,7 +12679,7 @@
                   a kinek végső perczeit boldogítani olyan jól fog esni
                   !
                </p>
-               <p>
+					<p>
                   Majd tünődve gondoltam I
                   RMÁ
                   -ra és ilyenkor örültem,
@@ -12737,7 +12698,7 @@
                   melyikünknek kell egymásnak többet megbocsájtani
                   ?
                </p>
-               <p>
+					<p>
                   Kielégíthetetlenek mi mind a ketten,
                   ép úgy kellett egymáshoz vonzódnunk,
                   mint a milyen lehetetlen volt,
@@ -12745,7 +12706,7 @@
                   Ez volt a szükséges.
                   Minden egyéb csupán esetleg volt.
                </p>
-               <p>
+					<p>
                   És ismét s ismét annyira gondoltam az egyetlenre,
                   a mi megmaradt és szívem rekeszei szorongtak a gondolattól,
                   hogy mi lenne,
@@ -12754,20 +12715,20 @@
                   ?
                   ...
                </p>
-               <p>
+					<p>
                   Három napos utazás után,
                   mely alatt csak azért szállottam ki az egyik vonatból,
                   hogy beszálljak a másikba,
                   közeledtem a szülőföldhöz.
                </p>
-               <p>
+					<p>
                   A nagy,
                   egyhangú,
                   fakó égtől borított fakó síkság határán felvetődött az első dombos
                      láncz és büszkén emelkedtek ki a távolból a kéklő bérczek,
                   melyek alján apáimnak bölcsője és sírja állt.
                </p>
-               <p>
+					<p>
                   Csak nehány óra még,
                   és elértük a kis
                   várost,
@@ -12779,7 +12740,7 @@
                   ARUVÁR
                   .
                </p>
-               <p>
+					<p>
                   Nem időztem többet,
                   mint a mi szükséges volt,
                   hogy a kora hajnali órában kocsit szerezzek.
@@ -12797,7 +12758,7 @@
                   mindég
                   !
                </p>
-               <p>
+					<p>
                   Alig engedtem pihenő időt a bérelt lovaknak
                   ;
                   annál végtelenebbnek tetszett az út,
@@ -12806,7 +12767,7 @@
                   lőn ismerősebb-ismerősebb minden domb,
                   minden forrás s minden fa.
                </p>
-               <p>
+					<p>
                   Olyan közelnek tetszett már a D
                   ARUVÁR
                    csonka tornya,
@@ -12815,7 +12776,7 @@
                   olyan messze
                   !
                </p>
-               <p>
+					<p>
                   És végre mégis a falu alatt voltam és olyan kiváncsian keresve
                      kerestem egy-egy ismerős alakot.
                   Csodálkoztam és szinte boszankodtam,
@@ -12826,34 +12787,34 @@
                   hogy nincsen senki sem,
                   a ki fellármázná a falut és házunkat.
                </p>
-               <p>
+					<p>
                   A kocsit a kertek mögött állíttattam meg,
                   itten szálltam le,
                   és hogy ne lássa senki sem érkezésemet,
                   hátulról kerültem a gazdasági épületek közt udvarunknak.
                </p>
-               <p>
+					<p>
                   És mintha minden kihalt volna,
                   minden üres
                   !
                </p>
-               <p>
+					<p>
                   Ünnep van-e ma
                   ?
                   Vecsernyén vannak-e
                   ?
                   A falu harangja szól.
                </p>
-               <p>
+					<p>
                   Nem az.
                   Tele van az egész udvar a falu népével.
                   Mi van ma
                   ?
                </p>
-               <p>
+					<p>
                   A falu harangja szól.
                </p>
-               <p>
+					<p>
                   De e közül a sok régi ismerős közül nem szól egyik is.
                   Bámészan tekintenek reám.
                   És a mint közibük sietek,
@@ -12861,26 +12822,26 @@
                   némán,
                   ijedve engednek helyet.
                </p>
-               <p>
+					<p>
                   Mi van ma
                   ?
                   -
                   Félelem szállott meg.
                </p>
-               <p>
+					<p>
                   És az előttem oszló tömegből,
                   mely néma volt,
                   mint a temető,
                   kihallatszik egy hang:
                </p>
-               <p>
+					<p>
                   »
                   In paradisum deducant te angeli
                   »
                   Etcum Lazaro quondam paupere
                   »Habeas requiem sempiternam.
                </p>
-               <p>
+					<p>
                   Leszegezve állottam.
                   Éreztem mint húzódik össze koponyámon a bőr,
                   mint tódúl fejemhez a vér,
@@ -12889,86 +12850,84 @@
                   és helyben a mint álltam,
                   roskadtam össze.
                </p>
-            </div>
-            <div type="chapter">
-               <head>
+				</div>
+				<div type="chapter">
+					<head>
                   XIII.
                </head>
-               <p>
+					<p>
                   Midőn
                   először
                   eszméltem,
                   régi szobámban,
                   régi ágyamban találtam magam.
                </p>
-               <p>
+					<p>
                   B
                   EPPO
                   volt
                   mellettem és öreg papunk.
                   Csak az ő látására tértem a történtek teljes tudatára.
                </p>
-               <p>
+					<p>
                   Anyám koporsója régen be volt falazva a sírboltba.
                </p>
-               <p>
+					<p>
                   Soha,
                   soha nem fogom látni többé nyájas arczát.
                   Soha
                   !
                </p>
-               <p>
+					<p>
                   Első indulatom volt sírjához jutni.
                   Nem volt erőm ágyamból fölemelkedni.
                </p>
-               <p>
+					<p>
                   Napok teltek el,
                   mig lábbadozni kezdtem.
                   Hetek,
                   mig hű szolgám és az öreg lelkész által támogatva,
                   elvánszoroghattam a sírbolthoz.
                </p>
-               <p>
+					<p>
                   Az egész idő alatt dolgozott bennem a gondolat,
                   hogy még egyszer látnom kell arczát.
                </p>
-               <p>
+					<p>
                   A sírírat szavai:
                   -
                   »
-                  
                      Nyúgodjék békében
-                  
                   «
                   tartóztattak,
                   hogy ne töressem fel a falat,...
                   a koporsót.
                </p>
-               <p>
+					<p>
                   Csak midőn innen visszatértem,
                   volt bátorságom meghallgatni végső szenvedésének történetét.
                   Végső szenvedése rövid volt.
                   Hosszú volt az előtte való:
                   egy egész élet.
                </p>
-               <p>
+					<p>
                   -
                    »
                   Nincs miért élnem
                   !«
                </p>
-               <p>
+					<p>
                   -
                   »Az élet kötelesség
                   !«
                   Válaszolta az öreg pap.
                </p>
-               <p>
+					<p>
                   Az egyszerü ember egyszerü szavai,
                   melyekkel késő éjnek idején bucsúzott,
                   megdöbbentettek.
                </p>
-               <p>
+					<p>
                   Az egész idő alatt az üres vigasznak,
                   hideg okoskodásnak egyetlenegy szavával nem bántotta
                      fájdalmamat.
@@ -12977,7 +12936,7 @@
                   hanem önkéntelenül fakadt mély,
                   benső meggyőződésnek hangzott.
                </p>
-               <p>
+					<p>
                   Hogyan van az,
                   hogy a mi annyiszor hallva,
                   mindég csak szellemtelen közhelynek tetszett,
@@ -12986,32 +12945,32 @@
                   egészen új világot tud deríteni lelkületünkbe
                   ?
                </p>
-               <p>
+					<p>
                   Mióta tőle hallottam,
                   ez a három szó zsong fülemben:
                    »
                   az élet kötelesség.
                   «
                </p>
-               <p>
+					<p>
                   Igen:
                   az élet kötelesség
                   !
                   Van miért élni,
                   mert az élet kötelesség.
                </p>
-               <p>
+					<p>
                   Egész életem nem volt semmi,
                   mert minden volt,
                   csak kötelesség nem.
                </p>
-               <p>
+					<p>
                   Hitvány én,
                   a ki elhitettem magammal,
                   hogy nemesebb vágyakkal vagyok telve
                   !
                </p>
-               <p>
+					<p>
                   Életem minden gyötrelme mi
                   volt egyéb,
                   mint mértéktelen,
@@ -13019,7 +12978,7 @@
                   hiú önzés
                   !
                </p>
-               <p>
+					<p>
                   Nem-e magamra gondoltam minden vágyamban
                   ?
                   Nem-e önzés volt dicsvágyam,
@@ -13027,7 +12986,7 @@
                   midőn hajhásztam a boldogságot
                   ?
                </p>
-               <p>
+					<p>
                   Elégedetlen voltam magammal és az egész világgal,
                   mert mindég csak magamra és ki nem elégített vágyaimra
                      gondoltam
@@ -13050,7 +13009,7 @@
                   mert czélja az,
                   hogy kötelességét teljesitse.
                </p>
-               <p>
+					<p>
                   És ha csalódnunk kell mindenben,
                   és ha nem elégítheti ki vágyainkat semmi,
                   és ha az önzés éhesebb lesz,
@@ -13063,7 +13022,7 @@
                   a teljesített kötelesség tudatában
                   ?
                </p>
-               <p>
+					<p>
                   Én kikóstoltam az életet.
                   És minden önös
                   vágynak fenekén találtam keserüséget.
@@ -13071,28 +13030,26 @@
                   A mi eltántorithatna,
                   nincs.
                </p>
-               <p>
+					<p>
                   Az élet kötelesség.
                </p>
-               <p>
+					<p>
                   Még egyszer ki fogok lépni az életbe.
                </p>
-               <p>
+					<p>
                   És ha fülembe zúg a nemtelenek és lelkiismeretlenek vásári
                      zaja,
                   nem fogok előle menekülni másodszor is.
                   Hanem azt fogom magamnak mondani,
                   hogy itten
-                  
                      kötelességet
-                  
                    kell teljesíteni.
                   És azt fogom magamnak mondani,
                   hogy minél kevesebben vannak,
                   akik teljesítik,
                   teljesíteni kell annyival inkább.
                </p>
-               <p>
+					<p>
                   Anyám
                   !
                   A ki örömöd és bánatod,
@@ -13101,23 +13058,17 @@
                   hogy ha életedben nem,
                   sírodon valósúljon reményed.
                </p>
-               <p>
+					<p>
                   Ki az életbe
                   !
                </p>
-               <p>
-                  
+					<p>
                      »Munkálkodó légy,
-                  
-                  
                      nem panaszkodó
-                  
-                  
                      !«
-                  
                </p>
-            </div>
-         </div>
-      </body>
-  </text>
+				</div>
+			</div>
+		</body>
+	</text>
 </TEI>

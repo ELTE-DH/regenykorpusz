@@ -1,96 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="hu" xml:id="HU00903">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>N. N. : Egy szerelem-gyermek regénye</title>
-            <author ref="viaf:46774986">Krúdy Gyula (1847-1910)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">29162</measure>
-            <measure unit="pages">66</measure>
-            <measure unit="vols">1</measure>
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>N. N. : Egy szerelem-gyermek regénye</title>
-               <date>2003-07-14</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/00900/00903"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Lukács József</name>
-                  <name>Németh Ibolya</name>
-                  <name>Pétery Kristóf</name>
-                  <name>Kindlevarázs </name>
-               </respStmt>
-                  <bibl type="digitalSource">
-                     <title>N. N. : Egy szerelem-gyermek regénye</title>
-                     <date>2003-07-14</date>
-                     <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
-                  </bibl>
-               
-            
-                  <bibl type="printSource">
-                     <title>Pesti nőrabló : Regények, kisregények </title>
-                     <author>Krúdy Gyula</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <publisher>Szépirodalmi Kvk.</publisher>
-                     <date>1978</date>
-                     <idno>ISBN 963 15 1156 1</idno>
-                     <ref target="http://mek.oszk.hu/00900/00903/00903.pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>N. N. : Egy szerelem-gyermek regénye</title>
-               <author>Krúdy Gyula</author>
-               <date>1922</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T5"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-21"/>
-         <change when="2020-11-03"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+<TEI xml:id="HU00903" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>N. N. : Egy szerelem-gyermek regénye</title>
+				<author ref="viaf:46774986">Krúdy Gyula (1847-1910)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">29162</measure>
+				<measure unit="pages">66</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>N. N. : Egy szerelem-gyermek regénye</title>
+					<date>2003-07-14</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00900/00903"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Lukács József</name>
+						<name>Németh Ibolya</name>
+						<name>Pétery Kristóf</name>
+						<name>Kindlevarázs </name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>N. N. : Egy szerelem-gyermek regénye</title>
+						<date>2003-07-14</date>
+						<ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Pesti nőrabló : Regények, kisregények </title>
+						<author>Krúdy Gyula</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kvk.</publisher>
+						<date>1978</date>
+						<idno>ISBN 963 15 1156 1</idno>
+						<ref target="http://mek.oszk.hu/00900/00903/00903.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>N. N. : Egy szerelem-gyermek regénye</title>
+					<author>Krúdy Gyula</author>
+					<date>1922</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T5"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+			<change when="2020-11-03"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="chapter">
-            <head>
+				<head>
                A tücsök volt a dajkám
             </head>
-            <p>
+				<p>
                Mennyi mindenfélét tud énekelni a tücsök egy régi ház környékén, ahol
                   a lakók a végtelen életre rendezkednek be?
             </p>
-            <p>
+				<p>
                Egy olyan sárgára meszelt, fehér ablakszárnyas, piros kéményű,
                   sötétvörös cserépzetű, nagykapujú, négyszögletes oszlopú, hűséges komondorú,
                   mélyen hallgató magyar házban, ahol például én is születtem, sohasem gondol senki
@@ -120,7 +119,7 @@
                   ősz fakója, tavasz lilája, tél fehére az élet színei voltak. Az udvarházban élet
                   volt, amely mindig a külső természeti rendhez igazodott.
             </p>
-            <p>
+				<p>
                Tavasszal jobb kedvük volt az embereknek, mint ősszel. A tücsök, a
                   dajkám is másképpen énekelgetett nyári estéken. Lehetett bármily körmönfont a
                   gondolat: a szem, a lélek, a kedv, a szív, az étvágy s az egészség mindig az
@@ -140,7 +139,7 @@
                   távolságot eléri. Ezért nem féltettük az elosonó percet, az elsuhanó napokat,
                   észrevétlenül jött és ment évszakokat. Mert még sokáig akartunk élni.
             </p>
-            <p>
+				<p>
                A fáradhatatlan tücsök volt a dajkám; aki oly hosszadalmasan
                   énekelgetett a ház sarkában, mintha a legtávolabbi időkre helyezné a célt, midőn
                   éneklését abbanhagyja. Senki sem öregszik meg. Senki sem hal meg. Az élet
@@ -153,19 +152,19 @@
                   visszatérnek, miután jól kinyugodták magukat. S elölről kezdik az egész
                   életet.
             </p>
-            <p>
+				<p>
                Legalább ezt dalolta a tücsök nyárvégi estéken.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Hol lakott a tücsök?
             </head>
-            <p>
+				<p>
                Nyáron talán a kertben, ősszel valamely zugolyban a házban, amelyet
                   hiába próbáltam megtalálni.
             </p>
-            <p>
+				<p>
                Néki sohasem volt bánata, mindig egyforma kedve volt. Jó kis zenész
                   volt, aki hegedűje mellett elfelejtette a mindennapi eseményeket, amíg feladatát
                   elvégezte. Pontos időben játszott, nem késett s nem jött korán. Nem gondolt arra,
@@ -188,53 +187,53 @@
                   kolbásszal megmérgezték a házőrző ebet, feljött az égen a Kocsma-csillag, asszony
                   siratta a dívány sarkában elköltözött szerelmét. A tücsök csak énekelt.
             </p>
-            <p>
+				<p>
                Énekelt azoknak, akiknek egyéb örömük sem volt már estéjükön, mint
                   kovácsműhely csengő kalapácsainak hallgatása.
             </p>
-            <p>
+				<p>
                Elringatta azokat, akik már nem tudnak megnyugodni bús fejükkel
                   semmilyen nő ölében sem. A szemük láz, a szívük seb, az ajkuk jég, az álmuk a
                   börtönök lakóinak álmaival azonos. A boldogtalanokat mulattatta a tücsök.
             </p>
-            <p>
+				<p>
                Dalt mondott a hosszant hallgatóknak, a csillagváróknak, a szótlan
                   búsaknak, a panasztalan némáknak, a sötétlő kertbe meredő szeműeknek, az őrület
                   fantomjaival viaskodó dézsafejűeknek.
             </p>
-            <p>
+				<p>
                Ciripelt azoknak, akik évek óra várják, hogy a kapu előtt megjelenjen
                   a levélhordó, valamely olyan üzenettel, amilyent csak egyszer lehet kapni az
                   életben. Vagy megálljon egy kocsi, benne utazó, akit szívrepesve várnak a tunyán
                   elmuladozó évek.
             </p>
-            <p>
+				<p>
                Danolgatott a tanyák, kerti házak, lugasok, toronyszobák magányos
                   lakóinak, akikre sohase nyitja rá senki az ajtót, bár ők ezt napjában százszor
                   elképzelik. Himnuszt fújt az ágyak sóhajtozó, nyögő betegeinek, a lábtörötteknek,
                   a kuckókban guggoló bénáknak, a mankójukkal homokban író sántáknak, a végképpen
                   megsiketülteknek és a mélázó figyelmező vakoknak.
             </p>
-            <p>
+				<p>
                Szép hangokat pengetett az életuntnak, aki csak akkor áll töltött
                   vadászfegyverrel az ablaknál, midőn a hold merőlegesen néz le az udvarra, a kutyák
                   veszettül ugatnak: hátha megjelenik az őszi éjszakában egy árnyék, amelybe bele
                   lehet lőni a töltést, ahelyett hogy önmagába lőné?
             </p>
-            <p>
+				<p>
                A tücsök tehát mindenkinek a szívében lakott, aki nem volt az élet
                   kiválasztottja, boldog ember... Talán nincs is boldog ember a világon. És így a
                   tücsöknek igen sok házikója volt Magyarországon.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A tücsök művészete
             </head>
-            <p>
+				<p>
                Az álomtalanoknak dalolt csak a tücsök istenigazában!
             </p>
-            <p>
+				<p>
                A holdfény végiglépkedett a mezőn. Álmukban lehet látni a virágokat.
                   Ilyen holdas estéken tapasztalhatni, hogy a növények is alusznak éjszaka, mert az
                   éj mindenkinek a pihenésére van rendelve. Némelyik virág, amely napközben illatos,
@@ -247,7 +246,7 @@
                   vándorkatona meséje, aki nem találta meg a Krisztust a keresztfán, amely a falu
                   határában emelkedett.
             </p>
-            <p>
+				<p>
                És boldogtalanul bolyonganak a holdkórosak. A tücsök fújja a
                   nótájukat, mint valami másvilági karnagy, aki csupán azokra a különös éjszakákra
                   kapott megbízást, midőn a holdvilág felszívja az emberek lelkét. Nesztelenül dugja
@@ -263,7 +262,7 @@
                   dalol a tetőn lépegetőnek, amint az bizonytalankodva mendegél a legmagasabb kémény
                   felé.
             </p>
-            <p>
+				<p>
                Ti nem hallottátok még a tücsköt, amint éjfél felé valamely különös,
                   varázslatos, másvilágias zene hangzik fel hirtelen egyhangú dalában? Ilyenkor jár
                   valaki a háztetőn a holdfényben, és a tücsök előveszi azokat a hangjait, amelyek
@@ -276,12 +275,12 @@
                   ablakon kibámulni a néma kertbe, mert tán valaki a nyakad közé zuhan a
                   háztetőről.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A tücsök őszi látogatása
             </head>
-            <p>
+				<p>
                Én októberben születtem, amikor ritkán hallatszik a tücsök, de annál
                   szomorúbb a hangja. A kovácsműhely esti harangozása nagy messziségből közeledik a
                   leszálló ködben. Dúsan, füstösebben pipázik a kémény a dércsípte háztetőn, mint
@@ -297,7 +296,7 @@
                   pirulni kezdenek, a cinkék a kertre nyíló ablakokig bátorkodnak, és halkan
                   kocognak az üvegen.
             </p>
-            <p>
+				<p>
                Az ősz elkomolyodva fekszik rá a ligetekre, kopott pirosságú
                   kerítésekre, hirtelen elhagyatottnak látszó gyalogösvényekre, elárvult
                   folyócskákra, amelyeknek partjairól elszökdöstek a virágok és bokrok. A múlt
@@ -315,7 +314,7 @@
                   almafán hintázott lengő szoknyájában, telt lábszáraival, hogy az őszi almákat
                   kosárba szedje.
             </p>
-            <p>
+				<p>
                A padlás, amelyen olyan por és csend volt, hogy az ember könnyen
                   elhihette, hogy éjfélkor itt kilép valaki a tűzfalból, és a pince, amelynek
                   vakságát bolygó gyertyafény, némaságát boros szájízű pincemesterek döngő hangja,
@@ -352,14 +351,14 @@
                   bújik putrijába, holott minden vágyakozása a szabad levegő, a csavargás, a
                   céltalan kóborlás.
             </p>
-            <p>
+				<p>
                Ilyen volt a pontosan megérkező ősz a múlt században Magyarországon.
                   Én nagyon szerettem. A köde, a csendje, a szomorúsága, a lemondó unalma, békésen
                   elterülő alkonyata és mesemondásosan hosszú éjszakája az enyém volt, az
                   álomtalané, aki a leghosszabb regényeket olvasgattam vagy álmodtam ez
                   évszakban.
             </p>
-            <p>
+				<p>
                És néha, midőn az eső meg-megállott, mintha szünetet adott volna az
                   embereknek, hogy az agyukról, a lelkükről eltisztuljon az őszi köd, hogy
                   kimenjenek a petróleumlámpás-szagú alacsony szobákból a szabadba, hogy eloszoljon
@@ -373,19 +372,19 @@
                   rejtekhelyről hangzó tücsökciripelésre. Mintha messziről eljött volna valaki
                   hozzám, és azt mondta volna:
             </p>
-            <p>
+				<p>
                - Ne félj, nem felejtettelek el!
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A kétlábú tücsök
             </head>
-            <p>
+				<p>
                A Nyírség, ahol a gyermekkori őszök és az ifjúkori tavaszok
                   elrepültek felettem, telve volt magányos tücskökkel.
             </p>
-            <p>
+				<p>
                Ez az álmos álmodozó, ködös, szeles, egyhangú vidék nagyon alkalmatos
                   arra, hogy magányos embereket neveljen, akik félig elvadulva, eldugaszolva,
                   megecetesedve éldegélik napjaikat. A Nyírség az a hely, ahol legtovább volt agaruk
@@ -417,10 +416,10 @@
                   meg néha, sokáig nem tudtam elhagyni virtusaikat, vakmerőségüket, attakírozásukat,
                   lógós szomorúságukat.)
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                A városban még nádasházak voltak, amelyekben kis ablakok mögött epedő
                   fiatal nők, mániákus vénasszonyok, bogarászó, elgondolkozó öregemberek laktak. S
                   bár köztük éltem, sohasem tudhattam meg, hogy mit csinálnak a vályogfalak mögött.
@@ -443,13 +442,13 @@
                   valaki. Magamban voltam, magamnak gondoltam mindenféle gyönyöröket,
                   szívringatókat, elandalítókat.
             </p>
-            <p>
+				<p>
                Én voltam a tücsök.
             </p>
-            <p>
+				<p>
                És mindenki tücsök volt körülöttem, mert mindenki magának élt.
             </p>
-            <p>
+				<p>
                Hosszú, hosszú, kíváncsi estéken hányszor jártam be a várost, hogy
                   valamit észrevehessek e nyírségi nagyfalu éjszakából! Csak egyetlen éjszakai
                   regényt láthassak, amelyekről a szép színdarabok szólnak, költők énekelnek! Egy
@@ -462,7 +461,7 @@
                   kialszik az utolsó világosság is a csárdásleány pacsuliillatú, rossz kis
                   szobájában.
             </p>
-            <p>
+				<p>
                A cigányok hegedűkkel hazafelé bandukolnak a szűk Holló utcán, mint
                   dologtalan kísértetek. A “Veres Lámpás”-nál egymás között huszonegyest kártyáznak
                   a leányok. Huray ügyvéd úrra nem vár a taligás a “Hársfa” előtt, Kálnay László
@@ -475,62 +474,62 @@
                   Mintha már mind megöregedtek volna a kaszírnők, akik kegyeiket szívesen
                   osztogatták, dalt tudtak, csókot adtak... vajon hová lettek?
             </p>
-            <p>
+				<p>
                Egyedül barangoltam az őszi éjszakában, mint egy eltévedt vándorló.
                   Szerettem volna szerelmessé tenni magamat? De kibe? A kantinos kisasszonyba tán,
                   aki rám se nézett? Valamelyik zsidó kisasszonyba, kit nem ismertem? Az
                   alispánnéba, aki után olyan sóvárogva néztem (a gömbölydedségére), mint azóta sem
                   nőre?
             </p>
-            <p>
+				<p>
                Magányos tücsök voltam.
             </p>
-            <p>
+				<p>
                Csak jönne valaki, akivel néhány szót válthatnék. Ó, siralmas alvó,
                   szomorú kisváros!
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A szerelmes tücsök
             </head>
-            <p>
+				<p>
                A nagyapám negyven szivart szívott el napjában, meg is halt csaknem
                   százesztendős korában. De kocsmába nem járt, inkább a cselédszobák körül
                   settenkedett. S nem minden siker nélkül. A katonás, nyalka kemény tekintetű
                   öregúr, aki még nógrádi kiejtéssel beszélt magyarul: nem kis eredményeket
                   mondhatott magáénak a fiatal nőszemélyek körül.
             </p>
-            <p>
+				<p>
                Magam is ismertem azt a fiatalos, kellemetes leányasszonyt, aki három
                   generációt boldogított szívével.
             </p>
-            <p>
+				<p>
                Így egyszerre szerette nagyatyámat, atyámat s engem. Hárman
                   udvaroltunk neki egyszerre, s azt hiszem, mind a hármunkat szeretett.
             </p>
-            <p>
+				<p>
                Úrihölgy volt. Jellának hívták, francia nyelvre, illemre, táncra,
                   zongorára tanította a városka fiatal hölgyeit. Nagyatyám bizonyára a copfos
                   növendékleányok iránt sem mutatott ellenszenvet, de itt meg kellett elégedni
                   Jellával.
             </p>
-            <p>
+				<p>
                Fene féltékeny volt.
             </p>
-            <p>
+				<p>
                Nagybátyám szegény volt, mint a templom egere, bár gavallérságában
                   ezt sohasem mutatta. Szép szavakon, ritka bókokon, finom udvarlásokon kívül
                   nemigen lephette meg egyébbel a hölgyeket.
             </p>
-            <p>
+				<p>
                Atyámnak erszényében ezerforintos bankók voltak, bár férfiasságban és
                   úriasságban sem maradt el nagyatyám mögött.
             </p>
-            <p>
+				<p>
                Én tizenhat esztendős voltam, s költőnek készülődtem.
             </p>
-            <p>
+				<p>
                Jellának egy felejthetetlen napja volt. Egy vasárnapi dél, mikor is
                   hárman együtt kísértük őt haza a templomból nádfödeles házáig. Hárman csókoltunk
                   neki kezet a kapuban. Jella mindig büszke volt erre a napra, de nem így atyám, aki
@@ -538,7 +537,7 @@
                   leginkább irodájában szokta felkeresni őt az alkonyati órákban. Atyám sohasem járt
                   Jella házához.
             </p>
-            <p>
+				<p>
                De azon a vasárnapon az utcákon kísértük Jellát, amely utcák messzire
                   és sárosan nyúltak el, mint a hétköznapi élet; akácfélékkel voltak szegélyezve,
                   amelyeket többnyire piros, hideg, szeles tavaszi alkonyatokon ültettek, midőn
@@ -569,16 +568,12 @@
                   hatással voltak a nőkre. Nagyanyám, aki körülbelül negyvenesztendős korában vált
                   el tőle (féltékenység szülte felháborodásában), élete végéig bolond, szerelmes
                   rajongója maradt a férfiúnak, akit a családi körben: a
-               
                   gróf
-               
                 néven mindenféle rossznak elmondtak.
             </p>
-            <p>
+				<p>
                A
-               
                   gróf
-               
                 köhintett, és ifjú gazdasszonyával, egy Stuart Mária külsejű
                   pórleánnyal a város másik végébe költözött, meghagyván a sárga kúriában elvált
                   feleségét s unokáit. Csupán a családi címert vitte el magával a megunt hajlékból.
@@ -590,13 +585,11 @@
                   nagyatyám s atyám is ügyvéd; ugyancsak fiskálist szándékoztak nevelni belőlem is.
                   Téli estéken, szél és tűz zúgása mellett megjelentek a Bibics-milliók, amelyek
                   után a
-               
                   gróf
-               
                -nak csak a kezét kellene kinyújtani. De a gróf még vár a perrel.
                   Nagy Istvánnal levelez. S egyik esztendő múlt a másik után.)
             </p>
-            <p>
+				<p>
                Az ifjú gazdasszony, akinek vöröses hajába, fehér húsába, piros
                   slafrokjába, görögdinnye-ajkába távolról magam is szerelmes voltam, mint a legtöbb
                   kívánatos nőbe szokott a tizenhat esztendős ifjú - nem nagyon gátolta nagyatyámat,
@@ -607,11 +600,11 @@
                   darabkáival volt telve a szobája, midőn névnapján unokái tisztelgését
                   fogadta.
             </p>
-            <p>
+				<p>
                - Bizonyisten, bolond ez az asszony! - szólt röviden, és elharapta a
                   szivar végét, hogy pattant egészséges foga.
             </p>
-            <p>
+				<p>
                Ámde e nagyszabású veszekedések sem gátolták nagyatyámat, hogy
                   szerelmeit minél gyakrabban felkeresse. A galambmellű és kék bajuszkájú Fánika, a
                   dohánytőzsdében, valamint a ropogós, derekas, kívánatos Sternné csaknem mindennap
@@ -624,7 +617,7 @@
                   lett volna. Megtapogatta, megsimogatta, megveregette őket. A fiatalokat
                   tegezte.
             </p>
-            <p>
+				<p>
                A szemükbe nézett és olyan hangon beszélt velük, mintha mindig a
                   legtitkosabb dolgokról volna szó. A nők arca felhevült, zavartan felelgettek,
                   lesütötték a szemüket, láthatólag védekeztek nagyatyám szavai ellen... (Be sokszor
@@ -635,43 +628,43 @@
                   hagyta volna nekem örökségbe, midőn százesztendős korában meghalt, miután Stuart
                   Máriával halálos ágyán házasságot kötött!)
             </p>
-            <p>
+				<p>
                Ám térjünk vissza Jellához, ahol egykor hárman ütöttük a vasat.
             </p>
-            <p>
+				<p>
                Nagyatyám (atyám jelenlétében) szokás szerint öregesen dohogott.
                   Szidott valakit, mint a bokrot.
             </p>
-            <p>
+				<p>
                Én tanulmányaimról referáltam Jellának. Míg atyám mindig szótlan,
                   büszke megvető maradt.
             </p>
-            <p>
+				<p>
                De Jella boldog volt.
             </p>
-            <p>
+				<p>
                Nem tudom, hogy mennyit adott volna a lelki üdvösségéből, ha az egész
                   város a szent Mihály utcára tódul, s mindenki a két szemével látja, hogyan udvarol
                   három generáció egyszerre az okos nőnek.
             </p>
-            <p>
+				<p>
                Egyébként Jella olyan volt, mintha lovarnői ruhát, rugalmas trikót,
                   repkedő szoknyácskát viselt volna valódi ruházata alatt.
             </p>
-            <p>
+				<p>
                Huray László ügyvéd úr hajtatott taligáján (bizonyosan a “Kiskorona”
                   nevű sörházba), Jella alig várta, hogy elfogadja a korhely fiskális köszönését,
                   mint egy királynő, aki jobbágyai hódolatát fogadja.
             </p>
-            <p>
+				<p>
                (Pedig Huray ügyvéd úr alatt leszakadt az ágy...)
             </p>
-            <p>
+				<p>
                Egyéb nem is történt vele életében. Minden dolga elfelejtődött tán,
                   ha neve szőnyegre került, csak a leszakadt ágyra emlékeztek az emberek; tán azért
                   nem is kapott feleséget.
             </p>
-            <p>
+				<p>
                A “Hársfá”-ban történt ez, ama városvégi fogadóban, ahol legjobban
                   tudtak főzni a kocsin utazóknak, vásárosoknak, kupeceknek. Valami olyan különös jó
                   szaga volt a “Hársfa” konyhájának, hogy utasember élete végéig nem felejtette el.
@@ -681,13 +674,9 @@
                   kupecek, a cipót reggel vették ki a kemencéből, és a piros borban játszik a
                   napsugár. A “Hársfa” volt Huray uram tanyája, itt töltötte el életének nagy
                   részét, a csárdás mondta el neki: mit olvasott a
-               
                   Journal
-               
                -ban s a
-               
                   Nyírvidék
-               
                -ben, a csárdásné, hogy mit beszélnek a piacon... Idővel saját
                   szobája is volt a “Hársfá”-ban. Igaz, hogy közel a háztetőhöz, majdnem a padláson,
                   ahol annyi bolha volt, mint Falstaff fogadójában, az őszi eső befolyt egy lyukon a
@@ -702,7 +691,7 @@
                   ügyük. Egyszer meghízott itt az ágyban fekve, hogy nem ment fel a nadrág. Új
                   nadrágot kellett varratni, hogy hazamehessen végre a “Hársfá”-ból.
             </p>
-            <p>
+				<p>
                E különös férfiúval történt aztán, hogy este korábban fektették le,
                   mint arra megérett. Nyugtalankodva forgolódott rozoga ágyában, dörömbözött,
                   káromkodott - míg egyszerre leszakadt vele az ágy s a pádimentum. A földszinten
@@ -710,14 +699,14 @@
                   Huray ügyvéd úr a nászutasokra zuhant, s erről lett nevezetes további életében,
                   amely nemsokára bevégződött.
             </p>
-            <p>
+				<p>
                Jella nem mulasztotta el, hogy az összes üdvözléseket zsebre vágja a
                   hosszú Szent Mihály utcában. Mint jól nevelt úrilányhoz illik: öregasszonyoknak
                   előre köszönt. Mindenkit ismert. Barátságos volt a sáros kuvaszokhoz, amelyek a
                   kapuk előtt tanyáztak. A félszemű Adolfnak, a helybeli cselédszerzőnek végtelen
                   grandezzával bólintott.
             </p>
-            <p>
+				<p>
                Jella körülbelül harmincesztendős volt ekkor. Inkább fiatal
                   asszonyhoz hasonlított, mint leányhoz. Hervadt és édes volt, mint a szőlő, amely a
                   tőkén felejtődött. Arca itt-ott piros volt, mint a dércsípte ecetvirág. A haja
@@ -727,16 +716,14 @@
                   utána koptatták a lábukat a Szent Mihály utcán. De ő csak nagyatyámat
                   szerette...
             </p>
-            <p>
+				<p>
                S néha engem. A temetőben.
             </p>
-            <p>
+				<p>
                A vidéki városban Jella volt a nagyvilági rafinéria, a hölgyi
                   kacérság (amelyről a regényekben olvastunk) a beillatszeresített báj és a csengő
                   humor. Ő olvasta Kiss József hetilapját: a “
-               
                   Hét
-               
                ”-et, a francia divatlapot tőle kérték kölcsön, zongorán játszotta a
                   legújabb zenedarabokat, emlékkönyvében mindazok a művészek s írók hagytak sorokat,
                   akik valaha a városban megfordultak. Babérkoszorúk, emlékek, fotográfiák voltak
@@ -744,10 +731,10 @@
                   költő elfelejtette megküldeni a könyveket, amiért Jella évekig levelezett a
                   szórakozott poétával.
             </p>
-            <p>
+				<p>
                Hogyan szeretett Jella?
             </p>
-            <p>
+				<p>
                Borpiros őszi délutánokon megengedte, hogy a temetőbe kísérjem, ahol
                   hozzátartozói feküdtek a magas, sóhajtó akácok alatt, amelyeknek kopasz gallyain
                   nagyon szerettek hintázni a varjak a felszélben. A János bácsik, Milka nénik,
@@ -760,32 +747,32 @@
                   a messziségben, a lutheránus torony nagyon távolra látszott innen, mintha az egész
                   életet legnagyobb messziségből lehetne látni innen a Szent Mihály-temetőből.
             </p>
-            <p>
+				<p>
                Jella két gombot kinyitott feszes, bársonyos lovarnői derekán,
                   közvetlenül a szíve felett, s megengedte, hogy keble havát megharapjam. Lehunyta a
                   szemét, arca elváltozott. Letérdepeltem, és ő mellém guggolt... De a harmadik gomb
                   kinyitása ellen erős kézzel tiltakozott. Szomorúan mentünk haza a bealkonyodott
                   temetőből.
             </p>
-            <p>
+				<p>
                Holdas éjjeleken a kertre néztem s azon gondolkoztam: vajon Jella
                   ugyanannyit megenged a nagyatyámnak is?
             </p>
-            <p>
+				<p>
                Sohasem jöttem tisztába a lelkes, szentimentális, tréfás, érzelmes
                   hölggyel, aki nem panaszkodott senkinek szenvedéseiről. Gyermekként bánt velem.
                   Sokkal erősebb volt, mint én.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A tücsök szomorkodik
             </head>
-            <p>
+				<p>
                Talán már mondtam is, hogy nagyon szerettem az őszi estéket, amikor
                   szomorkodni lehetett?
             </p>
-            <p>
+				<p>
                Gyermekkoromnak egy részét nagyanyámnál töltöttem, aki a
                   legnyugodtabb asszony volt, kit valaha ismertem. Elvált férjétől, akit halálosan
                   szeretett, meghalt egy fia, akiért csaknem mindenét feláldozta, hogy bolondos,
@@ -795,19 +782,17 @@
                   volt. Általában senkit sem szeretett (az elvált férjén kívül, de azt rajongva,
                   mint egy cseléd vagy egy szent), közömbös volt neki élet és halál, az
                   emlékezőtehetsége megállott a 48-iki forradalom eseményeinél, azóta - mióta a
-               
                   gróf
-               
                a sáncokon táncolt - nem történt érdemleges esemény a világon.
             </p>
-            <p>
+				<p>
                E szótlan, büszke, boldogtalan öregasszony mellett töltöttem
                   gyermekéveim egy részét.
             </p>
-            <p>
+				<p>
                Két szobája volt.
             </p>
-            <p>
+				<p>
                Az egyik szalon, amelynél különbet azóta sem láttam. Királyok házába
                   illő bútorzat volt a meglehetős alacsony szobában. Aranypiros fotelek, indiai
                   kendők, kázsmírok, selymek a székeken. A falakon híres hollandi festők
@@ -819,14 +804,14 @@
                   fénylett, csendőr csizmája s ruházata imponált, vándorkocsi ponyvája alól kidugta
                   fejét egy boglyas gyermek, és ujját szopogatva nézte az erdei vallatást.
             </p>
-            <p>
+				<p>
                A falakat mind elborították a nagyszerű olajfestmények. A sarokban
                   embernyi kínai vázák az elmaradhatatlan fácántollal és száraz virággal. A legfőbb
                   helyen egy halott gyermek fotográfiája, Jeney és társától, a fotográfia alatt
                   reszketeg vonásokkal egy évszám. Ez volt Ilonka, nagyanyám utolsó gyermeke, aki
                   korán meghalt.
             </p>
-            <p>
+				<p>
                A puffadt, mozdulatlan arcocska a halotti párnán, a félig lezárt
                   szempillák a merev szemekkel, a halál: amely e fotográfiáról hidegedett, még ma is
                   eszembe van, míg Rembrant-tollas, fátyolos, lengő asszony alakját elfelejtettem. -
@@ -841,7 +826,7 @@
                   elhallgatott. Mi nem sokat törődtünk vele, mert egyébként nem alkalmatlankodott a
                   kísértet.
             </p>
-            <p>
+				<p>
                Nagyanyám többnyire álmatlanul feküdt az ágyban, míg én egy kis török
                   díványon gyorsan elaludtam. Bár egy fiatal cselédleány kuporgott a lábamnál, közel
                   a kemencéhez, aki télen s ősszel ott aludt tarka rokolyája alá vont meztelen
@@ -854,7 +839,7 @@
                   szemét, amelyet nem tudott mindjárt levenni rólam, bár tekintetem már ott függött
                   keresztbenéző szemén. Elvörösödött, mint a láng.
             </p>
-            <p>
+				<p>
                És tovább foltozott a függőlámpa alatt, hol nagyanyám példátlan
                   komolysággal olvasta újságját, amelyet este hozott a postás, hidegen, esőtől
                   nedvesen, míg én regényeimet bújtam. - Néha elővettük Petőfi díszkiadását, és a
@@ -863,11 +848,11 @@
                   ilyenkor nem merte fölemelni a szemét, csak lángba borult arca árulta el, hogy
                   hallja s megérti a verseket.
             </p>
-            <p>
+				<p>
                Nem sokat törődtem vele, mert akkoriban az volt a foglalkozásom, hogy
                   szomorú legyek.
             </p>
-            <p>
+				<p>
                Még mindig jobban kedveltem a fagyos, őszi fákat, mint a nőket. A
                   mezőket, amelyeken úgy közelgett a köd, mint egy északi regényben a melankólia. A
                   tarkabarka cinkéket, amelyek az első hóval, a hideggel megérkeztek az erdőkből a
@@ -886,16 +871,16 @@
                   vissza azzal a hírrel, hogy valamely különösséget fedezett volna fel az áthatlan,
                   vastag sötétségben!
             </p>
-            <p>
+				<p>
                De Juliska éppen úgy félt, mint én, amint este lett a ház körül.
             </p>
-            <p>
+				<p>
                Ismétlem, hogy csupán otthon féltem én is, a négy fal között. Ha künn
                   az utcán, akár a temetőkertben, vagy szabad mezőn lepett meg a sötét: eszembe se
                   jutott, hogy féljek valamitől. De otthon, midőn az udvarház ablakából rám meredt
                   az éj, gyorsan zártam be a fatáblákat.
             </p>
-            <p>
+				<p>
                Juliska a kályha mellett ült, és mindig talált valamely tennivalót!
                   Mily barátságossá tette az estét az ő tengerireszelése! Kis széken ült, amelynek
                   egyik oldalában kés volt. A lehántott, lemorzsolt tengericsutkákat a tűzre vetette
@@ -903,7 +888,7 @@
                   nézett ki. A lemorzsolt tengerit majd megeszik a malacok, és a hízókat a tűz
                   elégeti, megsüti nekünk. Így élünk.
             </p>
-            <p>
+				<p>
                Jó, egészséges illat volt a szobában, mert Juliska mindig hozott
                   valamit magával, ami a mezők szagát ébresztette képzeletünkben. A nagyarcú
                   napraforgó magvait ügyesen hámozta, majd kendert font, fehér ruhát varrogatott.
@@ -916,7 +901,7 @@
                   mint a köcsögök és fazekak, csészék, amelyeket különösen szeretett, s tisztán
                   tartott, mint a kisbabát.
             </p>
-            <p>
+				<p>
                Juliska Nagykállóból, a szülei háztól, néhány ingecskén,
                   szoknyácskán, iskoláslányos cipőcskén kívül: egy álmoskönyvet hozott magával. Ez
                   az álmoskönyv volt az ő legnagyobb kincse. Mások őriznek mindenféle okmányokat,
@@ -925,15 +910,13 @@
                   vidéki házak tele vannak álmodozásokkal. Az embereknek nincs egyéb dolguk:
                   ábrándoznak. (Az öreg Suszternének csupán darabka papirosa volt. Ráírva
                   ennyi:
-               
                   Elismerem
-               
                ... S egy meghalt püspök neve. Ez a darabka papiros varázserővel
                   bírt. Késő vénségig a püspöki uradalom látta el minden jóval.) De nem utolsó
                   álmodozók azok sem, akik takarékpénztári könyvekkel bélelik a derékaljukat. Mennyi
                   mindent tudnak azok a könyvecskék beszélni!
             </p>
-            <p>
+				<p>
                Juliskának csak egy álmoskönyve volt, amilyent a vásáron is árulnak,
                   ponyván s néhány garasért. Kis fametszetek, levélbélyeg nagyságúak voltak a
                   könyvecskében: az álmokat rajzolta meg egy művész, akinek bizonyosan nagyon
@@ -942,14 +925,14 @@
                   emberek álmodni szoktak. A képecskék sarkában egy-egy numerus. A kellő helyen
                   feltalálható volt az álom magyarázata.
             </p>
-            <p>
+				<p>
                Sokszor nézegettük esténként ezeket a képecskéket.
             </p>
-            <p>
+				<p>
                Juliska az öklendező öregemberrel szeretett volna álmodni... Miért?
                   Ki tudhatná ezt manapság, ennyi esztendő után?
             </p>
-            <p>
+				<p>
                Nem kérdeztem meg Juliskát. Általában semmit sem kérdeztem tőle.
                   Szomorú voltam, mint egy szentimentális kamasz. A szél fütyült a háztető felett.
                   És az őszi szél zúgásába helyeztem át egész életemet. Boldog voltam, ha az éji
@@ -957,27 +940,27 @@
                   halottak mormogtak. Koporsófedelek csapkodtak. Régi sírboltok visszhangoztak.
                   Megvadult paripák vittek egy fogatot, amelyet riadt kísértet hajtott.
             </p>
-            <p>
+				<p>
                Bár az álom sokáig elkerült, jó darab idő múlva vettem észre, hogy
                   lábamnál egy fiatal, egészséges leány halkan sóhajt álmában, a hátgerincén
                   fekszik, és két térdével felemeli a teveszőr takarót.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Tücsök és anyja
             </head>
-            <p>
+				<p>
                Egyszer így szólt a tücsök:
             </p>
-            <p>
+				<p>
                - Ha elfelejtettem volna mondani, most vallom be, hogy én:
                   szerelemgyerek vagyok.
             </p>
-            <p>
+				<p>
                Zabigyereknek csúfoltak a messzi gyermekkorban.
             </p>
-            <p>
+				<p>
                Anyám szegény pórleány volt. De a legszebb nő, akit valaha láttam.
                   Hollófekete haja volt, igen fehér arca és könnyes, barna szeme. A lényéből
                   valamely csodálatos melegség áradott. Ha a szobába lépett alacsonykás, kövérkés,
@@ -991,7 +974,7 @@
                   épített. Anyám csupán azért vállalta a nehéz munkát a kőműveseknél, hogy néha-néha
                   láthassa atyámat, aki a házépítésre felügyelt.
             </p>
-            <p>
+				<p>
                Késő években, midőn lakkcsizmás, kacsafarkhajú és rézgombos fiúcska
                   voltam: mindig megdobbant a szívem, midőn épülő házak mellett elhaladtam. A
                   keskeny, lábnyi szélességű deszkákon, hidakon, meredek lejtőkön cipelték a
@@ -1003,7 +986,7 @@
                   a szülői háztól? Csak az vigasztalt, hogy nehéz munkájukban a kőművesleányoknak
                   mindig jókedvük volt.
             </p>
-            <p>
+				<p>
                S egyszer, midőn Juliskára néztem hirtelen - egy szomorú este, ismét
                   születésemmel foglalkoztam gondolataimban -, hirtelen az jutott eszembe, hogy
                   ilyen lehetett az anyám tizenöt esztendős korában, mint ez a leány. Barna, mint a
@@ -1018,21 +1001,21 @@
                   adott a társadalmi szokásokra. Mégis: nevelőbe nagyanyámhoz adtak, az udvari
                   házba, ahol atyám kívánságára ifjúságomat töltöttem.
             </p>
-            <p>
+				<p>
                S e naptól, egy estétől kezdve úgy vonzódtam Juliskához, mint
                   senkihez a világon. Elfelejtettem a lovarnő alakú Jellát a rizsporos nyakával,
                   szappanszagú arcával, olcsó parfümjével és fess lábszáraival. Ma már úgy képzelem,
                   hogy nélkülözött anyai gyengédséget s melegséget kerestem a fiatal leánynál,
                   mintha az anyám lett volna.
             </p>
-            <p>
+				<p>
                Ez pedig így történt:
             </p>
-            <p>
+				<p>
                Már havazott odakünn, beköszöntött a tél, az ablakon át mindenféle
                   csodálatos dolgokat lehetett látni.
             </p>
-            <p>
+				<p>
                Az ősi, sárga ház, színes üvegfolyosójával, köpcös, állandóan
                   füstölgő kéményeivel, piros cserepeivel, külön pincéjével, padlásával, fehér ajtós
                   nagy szobáival, fénylő, fehér rámás ablakaival - ahol anyám és atyám laktak, mint
@@ -1051,14 +1034,14 @@
                   azután a kaszinóba ment, miután jó családapa módjára eleget tett
                   kötelességeinek.
             </p>
-            <p>
+				<p>
                Az ősi házat belepte a hó, hogy az üvegajtót sem lehetett kinyitni. A
                   cseléd-rokonok nagy viháncolással, szinte ujjongva csinálták meg a gyalogutat az
                   udvaron a kútig, az istállóig, a fáskamráig, a kapuig, amely gyalogutakon anyám
                   végighaladt papucsában, és a cselédleányok örvendeztek, ha mindent rendben
                   talált.
             </p>
-            <p>
+				<p>
                Mindig nagyon szerettem a gyalogutakat, amelyeket a havon találtam.
                   Vajon ki ment először végig itt, aki az utat megcsinálta? Manapság gyermekes
                   dolognak tartom az efféle gondolatokat - régen eltévedtem az élet keskeny
@@ -1066,11 +1049,11 @@
                   gyalogösvényeken, mezőkön, réteken, havas tájakon... vajon merre, hová mentek
                   innen a lábak, az emberek?
             </p>
-            <p>
+				<p>
                Megfigyeltem, midőn leesett a hó, az első gyalogút a kocsmába
                   vezetett. S nem a templomba.
             </p>
-            <p>
+				<p>
                A kocsmának külön csillaga van az égboltozaton: a Kocsma-csillag. Ezt
                   a csillagot nézték azok az emberek, akik az első gyalogutat kitaposták a friss
                   havon a kocsma felé. Hogy hajladozik, tréfálkozik, görbül és megpihen ez a
@@ -1093,7 +1076,7 @@
                   nincs többé reménysége, legfeljebb a halál kopogtat éjjelenként az ágydeszkában,
                   amit szúnak is szokás nevezni.
             </p>
-            <p>
+				<p>
                Azok találták meg a csillagodat, kocsma, az égboltozaton, akiknek sok
                   okuk volt arra, hogy benned bízzanak és reménykedjenek! - Sohasem csodálkoztam,
                   midőn az első hó lehulltával azt tapasztaltam, hogy a gyalogút a kocsma felé
@@ -1107,15 +1090,15 @@
                   utasok megpihenője, nyelvek, gondolatok feloldozója. Aztán megint tovább fut az út
                   az ismeretlenségbe...
             </p>
-            <p>
+				<p>
                Egy este a Juliskával a kocsmába mentünk borért.
             </p>
-            <p>
+				<p>
                Nagyanyám borai a pincében valamely megtisztulási folyamaton estek
                   át, nem volt szabad hozzájuk nyúlni, mint a gyermekágyas asszonyhoz, bármiként
                   csalogat.
             </p>
-            <p>
+				<p>
                Juliska kis lámpást vett a kendője alá, hidegszájú kancsót a másik
                   kezébe, és én elkísértem őt a nagybajuszú Juráshoz, a kocsmároshoz, mert nagyon
                   félt. Este volt, nyolcra járt. Apró pelyhekben havazott, mintha most szabná a
@@ -1148,27 +1131,27 @@
                   óta itt lett volna a helye. A lovak aludtak, s a kocsisok a vendég kontójára
                   ittak.
             </p>
-            <p>
+				<p>
                Természetesen: be akartam nyomulni Juráshoz, ahol barátaimat
                   sejtettem.
             </p>
-            <p>
+				<p>
                Ekkor Juliska megfogta a kezem:
             </p>
-            <p>
+				<p>
                - Én egyedül nem megyek haza, úrfi - szólt komolyan, és olyan
                   szorosan állott mellém, mintha ikrek volnánk ez éjszakára s azután is.
             </p>
-            <p>
+				<p>
                Tél volt, este volt, a városvégi házak kék árnyékaikat vetették a
                   hóra, mintha ez az éjszaka az ő idejük volna. Míg az udvarból, mint a mennyország
                   hangzott Dombi bandája és Huray László rekedtes hangja.
             </p>
-            <p>
+				<p>
                - Ma nem hágy el, úrfi - szólt komolyan Julis. - Hazavisszük a bort,
                   és otthon csendesen megisszuk.
             </p>
-            <p>
+				<p>
                Ágaskodtam, legénykedtem, vidultam és szomorodtam. Mily jó szaga
                   lehet odabent a kucséberkosárnak! Mily örömteljes mámora a szamorodni bornak! A
                   kolbásznak és a hurkának íze, a pirítósnak fokhagymája, a részeg cigányoknak a
@@ -1176,17 +1159,17 @@
                   somfordáló házőrző ebnek télszaga, beszédeknek és daloknak értelmetlensége, a
                   kocsmárosné arcának pirossága... Ámde a kezemet fogta Juliska.
             </p>
-            <p>
+				<p>
                - Mingyárt jövök a borral - súgta, mint egy cinkostárs. - Aztán a
                   kerteken át megyünk haza, mert arra rövidebb az út.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Az égboltozat csillagos volt.
             </p>
-            <p>
+				<p>
                Amint a kertek alatt haladtunk, kis átjáró hidakon, sövényekkel
                   szegélyezett gyalogutakon, magányosan búsongó jegenyefák mellett, kerítések mentén
                   - ahol most mindenütt halotti némaság honol - a kertek mélyeket álmodtak, mint
@@ -1194,7 +1177,7 @@
                   titkokról, amelyeknek rendszerint tudósai a kisvárosi kertek: Juliska a
                   csillagokat magyarázta:
             </p>
-            <p>
+				<p>
                - Van ám Favágók csillaga is. Az ott kelet felé, amely olyan árván,
                   egymagában ragyog. Némely vidéken vontatók csillagának nevezik, de nálunk Favágók
                   csillagának mondják, mert mifelénk ők a legszegényebb emberek. Mindig csak
@@ -1202,16 +1185,16 @@
                   mást nem hallanak, mint a fa kopogását. Mikor nagyon megöregszenek, akkor rájuk
                   szól a vén fa, amit éppen kivágni akarnak:
             </p>
-            <p>
+				<p>
                - Elég lesz már a fejsze emelgetéséből, szomszéd - szólal meg a
                   fa.
             </p>
-            <p>
+				<p>
                A favágó hazamegy, lefekszik, és panasz nélkül meghal. Hát az ő
                   csillaguk az amott, a szegény favágóké, akik már hajnalban elindulnak az
                   erdőbe.
             </p>
-            <p>
+				<p>
                Melegen hangzott a vállkendő alól Juliskának oktató hangja. A
                   sötétségben hozzám simult, mert azért mégiscsak nő volt, aki félt az úton álló
                   néma fáktól, hirtelen kanyarodó gyalogösvényektől, amelyek a sövények mögött
@@ -1221,34 +1204,34 @@
                   kertekből ismeretlenül hajoltak ki a fák téli gallyai, mint a megöregedett
                   szomszédasszonyok könyökölnek az ablakukba, és a fiatalságot szidják.
             </p>
-            <p>
+				<p>
                A hidegtől vagy a félelemtől: az elhagyott helyen magamhoz
                   szorítottam Juliskát. Ő oly gondoskodva nyújtotta a vállát lehajló fejemhez, mint
                   az anya beteg gyermekének. Percekig tartottam átölelve. Ő csendesdeden állt, nem
                   védekezett, nem türelmetlenkedett. Csendesen, nyugodtan csókolta vissza az
                   arcomat. A nagykendője alól elővette a boroskancsót, és így szólt:
             </p>
-            <p>
+				<p>
                - Igyon egy kis bort, mingyárt melegebb lesz a szíve.
             </p>
-            <p>
+				<p>
                Úgy adta a bort, mint bibliában a nők a vándorlónak.
             </p>
-            <p>
+				<p>
                Estére, midőn nagyanyám elaludt, az ölébe vette a fejem, és sokáig
                   turkált a hajamban, simogatta a hátam, mint valaha szent anyám, amíg gyermek
                   voltam.
             </p>
-            <p>
+				<p>
                Különös jó illata volt ennek a fiatal nőnek. Mint a téli almának a
                   kamra polcán.
             </p>
-            <p>
+				<p>
                Leguggolt a lábamhoz, és esténként hosszú-hosszú meséket mondott,
                   suttogva, titokszerűen, félig alva, mintha az éj mesemondása jött volna száján. S
                   ő maga talán nem is tudta, hogy mit beszélt.
             </p>
-            <p>
+				<p>
                Persze többnyire zsiványokról, betyárokról beszélt, akik ott
                   rothadnak a nagykállói régi vármegyeház börtönében. Rozsdás láncokat, húszfontos
                   vasgolyókat, kulcsa vesztett lakatokat viselnek: a rabság rendeit, amelyeket tán
@@ -1260,15 +1243,15 @@
                   másként világít... Vajon minek is mennének vissza? - Ámde Sóvágó visszament. S ezt
                   így mesélte Juliska:
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Sóvágó tücske
             </head>
-            <p>
+				<p>
                Sóvágó harminc esztendeig volt a kállói várnak állandó lakója.
             </p>
-            <p>
+				<p>
                Mint afféle régi tömlöctöltelék, napközben szabadon járkált a
                   városban, de ő nemigen élt szabadságával. Kistermetű, ragyás vörhenyes férfiúcska
                   volt, leginkább a hervadt ecetfavirághoz hasonlított. Naphosszat pipázott egy
@@ -1281,44 +1264,44 @@
                   hat-hét embernek vagdalta össze fejszével a koponyáját, amiért életfogytiglan a
                   vármegye lakója lett.
             </p>
-            <p>
+				<p>
                A harmincadik esztendőben valami bolondot álmodott egy éjszakán, alig
                   várta a reggelt, amikor a várnagy szabadjára eresztette, a kapufélfától sem
                   búcsúzott, elindult Kállóból. Ment haza, a szülőfalujába, Pazonyba.
             </p>
-            <p>
+				<p>
                - Megbolondult vénségére - mondták a vármegyén, mikor eltűnését
                   észrevették, aztán nem sokat törődtek vele. Csak egy öreg porkoláb aggódott, hogy
                   valamely baleset érte az öreg rabot. Csak nem esett tán a kútba!
             </p>
-            <p>
+				<p>
                Sóvágó pedig ment, mendegélt, vitte a bolond álom.
             </p>
-            <p>
+				<p>
                Harminc esztendő óta nem látott országutat.
             </p>
-            <p>
+				<p>
                De az országút harminc esztendő alatt sem változott.
             </p>
-            <p>
+				<p>
                Ugyanazok a nyurga ákácok, tüskés bokrok szegélyezték kétfelől az
                   utat, amelyek azelőtt is várták már az életunt vándorlegényt, hogy hurkot vessen a
                   gallyra, amelyen a varjú szokott károgni; a tüskék meg azért voltak a világon,
                   hogy megtépjék a szegény ember amúgy is rongyos gúnyáját, mert hiszen az urak
                   kocsin jártak.
             </p>
-            <p>
+				<p>
                Tavaszkor és ősszel itt halad a szennyes víz, csúf béka köp undok
                   nótával a vadvirág levele alól a ropogós menyecskék után, kígyó tekergőzik a vizes
                   füvek között, ki tudná merre s hová megy, tarka bankamadár fut bóbitás fejével a
                   korhadt fűzfatörzsek között, mintha egy cifrálkodó öregasszony meglátogatná
                   megvénült, az élettől visszavonult barátnőit.
             </p>
-            <p>
+				<p>
                Sóvágó otthonosan érezte magát az országúton, amelyen legénykora óta
                   nem járt.
             </p>
-            <p>
+				<p>
                A pocsolyában most is a nap nézegeti magát. A keréknyom, a sár
                   ugyanaz, mint harminc esztendő előtt. Most is szaladnak a kocsikerekek, végtelen
                   vonalat vonva az úton. A kocsin emberek ülnek, akik ugyanazt gondolják, amelyeket
@@ -1327,7 +1310,7 @@
                   fújdogálta a szél. A feszületen mezei virágból való koszorú szárad, mintha örök
                   élete volna annak a kéznek, amely a megváltó emlékét megkoszorúzni szokta.
             </p>
-            <p>
+				<p>
                De Sóvágó ismerte a nádast is, amely az országút egyik oldalán
                   elterült, rejtélyesen, sugdolózva, visongva, nyiladozva s összeborulva, örökre
                   hallgatva. Betyár korában járta ő ezt a magyar rengeteget, amely lápon,
@@ -1342,7 +1325,7 @@
                   megismerné szilaj szemük az öreg Sóvágót, ha az nagy hirtelen közöttük teremne az
                   általa jól ismert úton?
             </p>
-            <p>
+				<p>
                Sóvágó csak ment, mendegélt. Kiöregedett abból, hogy vadmadár
                   kiáltása legyen az altató dala. Mindent megismert ő azóta, mióta fiatalkorában a
                   pásztortűzben csupa rejtelmességeket, titokszerűségeket látott a virrasztó éjben.
@@ -1352,7 +1335,7 @@
                   traktálja a szegénylegényeket. Harminc esztendeig nézett ő a sötétbe, volt ideje
                   kigondolni mindent, életről-halálról.
             </p>
-            <p>
+				<p>
                Nem hitt már a hegyeknek sem, amelyek az országút másik oldalán az
                   ördögszekeres, sápadt napraforgós sóhajtozó kukoricaszáras mezőségéből
                   kiemelkedtek. Az a tokaji Kopasz, a maga nagy bolond fejével, kéklő mentéjével, a
@@ -1362,7 +1345,7 @@
                   panaszára, a szilfa csak akkor tanul meg beszélni, midőn akasztófát faragnak
                   belőle a szegénylegény számára.
             </p>
-            <p>
+				<p>
                Hová ment hát Sóvágó a két rövid lábszárával, amely elszokott a
                   hosszadalmas járás-keléstől, erdőkön való andalgástól, nádas feje felett futó
                   széllel való versengéstől? Miért nem tért le az egyenes útról, amelyen egyszer
@@ -1371,18 +1354,18 @@
                   árulkodása az esti ködben, midőn a faluházánál pohár bor felhajtása után megtörli
                   bajszát a lovagló csendbiztos?
             </p>
-            <p>
+				<p>
                Sóvágó a falujába ment.
             </p>
-            <p>
+				<p>
                Nem volt vele semmi gyilkos szerszám, a lelkében sem haragvó indulat.
                   Csak ment, mint álmában megy az ember, akarata ellenére, valamely ismeretlen
                   szándéktól vezetve.
             </p>
-            <p>
+				<p>
                Őszi idő volt.
             </p>
-            <p>
+				<p>
                Korán beesteledett a kis nyírségi faluban, amelyet Sóvágó a magáénak
                   mondhatott. A kis házakból lopva jött egy-egy kis világosság a göröngyös falusi
                   útra, hisz nem szokott itt este járni senki, még a bakter se. A szérűkbe,
@@ -1395,63 +1378,63 @@
                   őszi cinke még hajnal előtt elindul az erdőről, hogy téli vendégszereplését
                   elkezdje az emberek között.
             </p>
-            <p>
+				<p>
                Mire ahhoz a házhoz ért Sóvágó, amelyet keresett, döngő léptei már a
                   magányos sötétben hangzottak. Sötét volt a ház, aludtak lakói. Sóvágó letelepedett
                   a ház előtt a padkára, és hosszan elüldögélt.
             </p>
-            <p>
+				<p>
                Mit, mit nem gondolt magában a vén zsivány?
             </p>
-            <p>
+				<p>
                Egyszerre csak elkezdett ciripelni, mint a tücsök.
             </p>
-            <p>
+				<p>
                Megtanulta a tücsök hangját a börtönben, volt hozzá elég ideje.
             </p>
-            <p>
+				<p>
                Addig ciripelt, amíg a házból felelgetni kezdett a házitücsök, így
                   énekelgettek egymásnak darab ideig, amíg az igazi tücsök léprement. Mindközelebb
                   jött Sóvágó uramhoz, amíg Sóvágó hirtelen megfogta a kalapjával. A keblébe
                   rejtette.
             </p>
-            <p>
+				<p>
                Aztán még azon az éjszakán, anélkül hogy bárkit is felköltött volna a
                   házban, hogy egy jellel vagy híradással élt volna, poroszkált vissza Kállóba.
                   Ismerte őt az éjszaka, ő is az éjszakát. Nem is történt semmi bántódása.
             </p>
-            <p>
+				<p>
                Reggelre beállított a vármegyeházára, és még vagy tíz esztendeig
                   nyugodtan viselte a rabságot. Nem ment el, pedig már küldték is. Ott halt meg
                   börtönében, csendesen, panasz nélkül. Vénségére az ő házából való tücsök ciripelt
                   neki minden este, mielőtt álom ereszkedett volna a szempilláira.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Ezt mesélte nekem Juliska egy este, olyan halkan, olyan suttogva,
                   mintha a legnagyobb titkot bízná rám.
             </p>
-            <p>
+				<p>
                - Mert kell ám, hogy mindenkinek meglegyen a maga tücske, akinek
                   éneklésére, dalolgatására, altatgatására elfelejti az egész életét.
             </p>
-            <p>
+				<p>
                - Akarsz az én tücsköm lenni, Juliska? - kérdeztem.
             </p>
-            <p>
+				<p>
                - Akarok - felelt ő.
             </p>
-            <p>
+				<p>
                Ettől a naptól kezdve szerettük egymást.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A téli hajnal csodái
             </head>
-            <p>
+				<p>
                Télen sötétben fölkelni, amikor még a kályhából virrasztva és
                   meghitten nézegetnek ki a tűzszemek, s a szoba levegője álomporral van teli, a
                   hajnali álmok csalódottan menekülnek el a szoba sarkaiba a gyertya lángjai elől,
@@ -1460,7 +1443,7 @@
                   indulnék. Messze, messzire, célját s végét nem látva az útnak, csak megyek, mintha
                   többé sohasem szándékoznám visszatérni álmos ágyamhoz.
             </p>
-            <p>
+				<p>
                Talán azért jutott eszembe a hajnali utazás, mert gyermekkoromban
                   egyszer valóban utaztam hajnalban. Miskolcról, egy bágyadt szagú fogadóból,
                   félálomban az omnibusz piros bársonyülésén. Tél volt, a házak kék és fehér bundák
@@ -1473,18 +1456,18 @@
                   portás, aki hajnalban fokhagymás, füstölt húst evett - mert ilyen szaga volt. S a
                   házak bezárt fehér ablakai, amelyek mögött emberek aludtak, elmaradoztak.
             </p>
-            <p>
+				<p>
                És most újra utaztam, hajnalban, el a nagyanyám házától, el az ákácos
                   kis városból, el a rizsporos Jellától, pomádészagú nagyanyámtól, öreg síroktól a
                   Szent Mihály-temetőben és el a Juliskától. Ő fájt legjobban, mert lábamnál
                   virrasztott egész éjszaka, hogy el ne mulasszam az órát, amelyben indul a pesti
                   vonat... Pestre! Már majdnem meghaltam, úgy vágyakoztam Pest után.
             </p>
-            <p>
+				<p>
                Juliska, mielőtt felköltött volna, hozzám simult. Aztán az is elmúlt,
                   mint egy álom.
             </p>
-            <p>
+				<p>
                Hirtelen tettvágy, akaraterő, ambíció, bátorság lepte meg félénk
                   szívemet. Indulni s menni... Új emberek, új életek kerülnek az utamba, a régi ház
                   füstölgő kéményével, alvó eperfáival majd elmarad a hátam mögött. Ismét jön a
@@ -1492,23 +1475,23 @@
                   üldögélnek, de a kalauz külön fülkét nyit, mert egy forintot adok majd
                   kezébe.
             </p>
-            <p>
+				<p>
                Gyorsan öltözködtem.
             </p>
-            <p>
+				<p>
                Juliska csöndesen, nesztelen, hangtalan nézte készülődésemet. Sohasem
                   mondta, hogy szeret. De ebben az órában, midőn arcomat a mosdótálra hajtottam,
                   hogy hideg vízzel üssem el álmomat: úgy éreztem, hogy e szótlan leány a hátam
                   mögött végtelenül szenved.
             </p>
-            <p>
+				<p>
                - Csak meg ne szólaljon - gondoltam magamban, amint gyorsan
                   készülődtem az útra.
             </p>
-            <p>
+				<p>
                Juliska szótlan maradt.
             </p>
-            <p>
+				<p>
                Félrevontam a függönyt, és az udvarra, a kertre néztem. Már
                   belépegetett a vándorlegény a nagy kőoszlopos kapun át az udvarra, és fehér füstöt
                   fújt a száján. Minden lélegzetével több és több fehérség terjedt el a gömbákácok,
@@ -1522,12 +1505,12 @@
                   mely éjszaka beköszöntött, kérges csizmájában, ropogva taposta az udvar
                   göröngyeit.
             </p>
-            <p>
+				<p>
                - Milyen jó, disznóöléshez való időjárás! - sóhajtotta a hátam mögött
                   Juliska. - Ahová maga megy, ott nem ölnek disznót. Mi pedig a jövő héten leszúrjuk
                   a hízót. Legalább azt várja meg, úrfi.
             </p>
-            <p>
+				<p>
                Máskor tán felkacagtam volna Juliska szavain, de most e furcsa
                   hajnalon: különösen hatottak rám gyermekes hangjai. Valóban, úgy látszik,
                   drágalátos események elől szököm meg botor módjára. Hisz itt most következik a
@@ -1540,19 +1523,19 @@
                   fénylő, meleg szem, ringató illat a bálterem - míg kívül a mély, hallgatag tél,
                   amely a Nyíren ilyenkor szokott komolyra fordulni.
             </p>
-            <p>
+				<p>
                Juliska észrevette elgondolkozásomat. A hátamhoz simult, mint egy
                   meleg, puha kendő. A fülembe dudorászott a téli szél hangján, amelyet olyan jó
                   meleg kályha mellől hallgatni:
             </p>
-            <p>
+				<p>
                - Ne menj el csillagnak, aki jár. Én sokszor néztem éjszaka a
                   csillagokat. Mindegyiket ismerem. A legboldogabbak azok, akik mindig a helyükön
                   maradnak. Egyformán, nyugodtan, szenvedés és öröm nélkül, mindig csak fölkelnek
                   esténként, és reggelig nézegetnek a barátaikra... Most hófelhők borítják az eget.
                   De lehet, hogy később, amikor elmúlik a hóesés, kivillan egy-két csillag.
             </p>
-            <p>
+				<p>
                Már láthatólag szürkült az udvar. Az éjszakai hóesés a maga különös
                   bundáiba öltöztette a fákat, háztetőket. Valamely ritka, fehér bundát hozott az éj
                   magával nagy messziségből. Kedve lett ártatlannak és vidámnak felöltöztetni a
@@ -1571,7 +1554,7 @@
                   csapzott bajszok mögé! Mily örökkévalónak látszik az élet, midőn a disznótor
                   elkezdődik, és mindenki egy gombot kinyit a mellényén!
             </p>
-            <p>
+				<p>
                - Vajon hova mennél? Idegen, hideg szívű emberek közé, amikor itt
                   mindenki téged szeret? - folytatta Juliska. - Lehet, hogy találkozol még
                   leányokkal, akik szeretnek - ámbátor azt hiszem, te sohasem hiszel a nőknek! - de
@@ -1585,7 +1568,7 @@
                   virrasztottam feletted, anélkül hogy tudtad volna. Megfordítottalak, midőn a
                   szívedre nehezedtél. A homlokodat simogattam, amikor felnyögtél.
             </p>
-            <p>
+				<p>
                Forgattalak, dörzsölgettelek, a talpadat csókoltam, és a lebontott
                   hajammal fedtem el az arcod a gonosz lidércek ellen, amelyek éjszaka a szobába
                   lopóztak. A füledbe sugdostam, a nyitott szájadba beszéltem, a szívedet
@@ -1593,10 +1576,10 @@
                   álmodtál. Én voltam a te második anyád... Hisz rokonod vagyok, anyádnak
                   unokatestvére vagyok. Most megmondom, ha eddig nem tudtad volna...
             </p>
-            <p>
+				<p>
                Csak lehajtottam a fejem, mert komoly voltam.
             </p>
-            <p>
+				<p>
                - Én melegítettem meg az ágyad, amikor nagyon hideg volt. Énekeltem
                   neked, mikor szomorú voltál. Ébren vártalak, mikor éjjeli bolyongásból jöttél.
                   Megmosdattalak, midőn elaludtál. Talán rossz nők szagát éreztem meg rajta... Nóták
@@ -1610,22 +1593,22 @@
                   hogy a szívemet vágjam fel, mert látni akarod: nem sokat gondolkoztam volna,
                   szívesen kibontottam volna a szívemet előtted.
             </p>
-            <p>
+				<p>
                Mint egy távoli szép mese, egy régen olvasott rege, amelynek semmi
                   köze sincs a valóságos élethez: úgy hangzottak a fülembe Juliska szavai. Csak el,
                   el a nagyvilágba... Költő akartam lenni Pesten.
             </p>
-            <p>
+				<p>
                - Minden éjszaka véled álmodtam, s mindig betakartalak. Ha valami
                   mást kezdtem volna álmodni, amelyben te nem voltál benne, hirtelen felébredtem,
                   megráztam a fejem... Menj, menj, te rossz álom. Én a kedvesemmel akarok lenni
                   álmomban is.
             </p>
-            <p>
+				<p>
                Szürkült, szőkült, derengett odakünn a világ. A zsebórám sietett,
                   mert este előreigazítottam. Nem feleltem, de menni készültem...
             </p>
-            <p>
+				<p>
                - Tehát elmégysz, s én többé nem látlak. Hiába jönnél vissza, engem
                   már nem találsz ennél a háznál, ahol csak azért voltam szolgálóleány, mert téged
                   szerettelek. Mostam, súroltam, fát vágtam, és rongyos kis szoknyámban szaladtam:
@@ -1645,20 +1628,20 @@
                   vagy fülemilehangok... éjszakák, amelyek elmúlnak... De én örökre a tiéd
                   maradok.
             </p>
-            <p>
+				<p>
                - Hisz nem az enyém voltál - feleltem búsan.
             </p>
-            <p>
+				<p>
                - Igaz. Először a pócsi Szűz Máriáé és egy útszéli fáé... De azért
                   mindig megmaradok neked. Már nem láthatsz, nem foghatsz, nem csókolhatsz, hisz
                   öregasszony leszek én akkorára, midőn ismét eszedbe jutok. Elbúvok előled, soha
                   fel nem találhatsz, mert azt akarom, hogy mindig így láss, mint most, mint
                   tegnap... Hogyha másképpen nem: az emlékezésedben ismét a tied lehessek.
             </p>
-            <p>
+				<p>
                Így beszélt-e Juliska, vagy hallgatott az egész idő alatt?
             </p>
-            <p>
+				<p>
                - Pedig keresni fogsz, és az Útonjárók csillaga lesz a te csillagod.
                   Keresni fogsz a mezők illatában, a rozsföldek hajlékonyságában, az őszi reggelek
                   ecetfavirág pirosságában, midőn egész éjszaka az Útonjárók csillaga ragyogott a
@@ -1668,25 +1651,25 @@
                   kívánná az ember, sem az őszi délután messze hangzó, tülök módjára búgó
                   csendességében.
             </p>
-            <p>
+				<p>
                - Járni, kelni, bolyongani fogsz... Keresel engem... Vagy legalábbis
                   a magzatot, akit már a szívem alatt hordok.
             </p>
-            <p>
+				<p>
                Eltakartam az arcom a két kezemmel, hogy ne lássam Juliska
                   fájdalmát...
             </p>
-            <p>
+				<p>
                Mire ismét körülnéztem, azon a helyen, ahol az imént Juliska állott -
                   anyám állott. Ő volt Juliska - öregebben, szelídebben, megbocsátóbban. A
                   barnasága, andalgó mosolygása, kimondhatatlan melegsége szinte megvilágította a
                   szobát, mint a karácsonyfa.
             </p>
-            <p>
+				<p>
                - Itt akarsz hagyni minket, fiam? - kérdezte olyan halkan közeledve,
                   mint a galamb kering az udvar fölött, mielőtt leszállana.
             </p>
-            <p>
+				<p>
                Hozzám lépett, és megsimogatta az arcomat. Sohase volt még ilyen jó
                   illata a tenyerének. A gyermekkori meggybefőttek illata maradt a tenyerében, amely
                   befőttekkel egy téli betegségemben traktált. A hangjában csörgők, mesemondások,
@@ -1694,23 +1677,23 @@
                   ölében és hátán hordozott, midőn tizenöt esztendős koromban egy betegség folytán
                   mozdulatlanul feküdtem, mint egy fadarab.
             </p>
-            <p>
+				<p>
                - Hová, merre mégy az ismeretlenségbe? Mit látsz ott messzire, ami
                   elvisz tőlünk, holott itt mindnyájan szeretünk?
             </p>
-            <p>
+				<p>
                - Nem tudok felelni... Már a kapu előtt vár a kocsi, már megyek.
                   Isten veled, anyám!
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                A hóesés elállt. A felhők eltakarodtak az égről. A még félálomban
                   levő pályaház felett, a messziségben, egy kis csillag pislogott. Vajon: az
                   Útonjárók csillaga?
             </p>
-            <p>
+				<p>
                A nagy némaságban, amilyen a téli hajnal, a szüzesség csendességében,
                   az álom mélységében, a hótakarta utca néptelenségében felnéztem a csillagra, amely
                   a félig alvó állomás kéménye felett álmodozott. Ráfüggesztettem a szemem, mert
@@ -1723,7 +1706,7 @@
                   kis csillagba költözött minden a földről, ami eddig volt s történt velem. Olyan
                   messzire, amilyen messze az a csillag van.
             </p>
-            <p>
+				<p>
                A kétkerekű talyiga olyan gyorsan vitt, mintha időt sem akarna adni,
                   hogy még egyszer mindent meggondoljak. A hetykeségre, virtuskodásra nevelt
                   nyírségi ló hosszú ügetésben emelgette lábait; a rövid szőrű gubában, a ló
@@ -1732,16 +1715,16 @@
                   könnyű kerekek, mintha utoljára akarnák megmutatni, mily könnyedén és frissen
                   tudnak vinni.
             </p>
-            <p>
+				<p>
                Végignyargaltunk a Szent Mihály utcán.
             </p>
-            <p>
+				<p>
                A “Szarvas”-kocsma felett újra megjelent a kis csillag.
             </p>
-            <p>
+				<p>
                De most már másképpen láttam őt.
             </p>
-            <p>
+				<p>
                Mintha emberi alakja lett volna. Mégpedig egy vásáros asszonyhoz
                   hasonlított. Mézeskalácsosnéhoz, perecesnéhez vagy lacikonyhásnéhoz hasonlított,
                   akiket gyakran elnézegettem mindig útban levő szekereiken, télen hetyke,
@@ -1758,7 +1741,7 @@
                   méltó tornyokat, víg embereket, tréfás kocsmákat, üres ládákat: egy egész napot,
                   amilyen napokból az élet van összerakva.
             </p>
-            <p>
+				<p>
                És mennek új városokba, új vásárokra, új emberek közé, mindig
                   frissek, soha el nem fáradnak, jó étvágyuk s egészségük van, mindig hangosan
                   beszélnek, soha nem búsulnak (még a rossz vásáron sem), soha sincs egy percük,
@@ -1768,13 +1751,13 @@
                   haragtalanságot, a néma búbánatnélküliséget, az élet gyors és gondolkozás nélküli
                   lefolytatását: mint maguk a szülők.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Nem néztem hátra - csak tíz esztendő múlva, amikor elfáradtam.
             </p>
-            <p>
+				<p>
                És eliramlottak az évek, mint a folyam habjai, a fák levelei, amelyek
                   oly gyengéden legyezgették arcunkat, mintha nem akarná elmondani azt a nagy
                   titkot, hogy nemsokára el kell válnunk; az esztendők sorban meghaltak, mint a
@@ -1793,7 +1776,7 @@
                   magukkal a képzeletet. Az öreg doktor bácsi, aki örökéletűnek látszott, meghalt
                   egy tavaszi napon. Még Sáry úr is elbandukolt a temetőbe, pedig sánta volt.
             </p>
-            <p>
+				<p>
                Szakállam volt, mint akár egy falusi uraságnak. És bolyongásaimban
                   elvetődtem a Sóstó-fürdőre, ahol egy nyáron pihenni és megnyugodni akartain. Ezek
                   a kis fürdőhelyek, amelyek a régi Magyarországon csaknem minden város határában
@@ -1822,14 +1805,14 @@
                   balerina-ruházatú szitakötők után, amelyek elszállottak a messzi szikes pusztaság
                   felé.
             </p>
-            <p>
+				<p>
                Mindenki földszinten lakott, és reggelenként a nyitott ajtókból,
                   ablakokból elmondogatták egymásnak a fürdővendégek, hogy mit álmodtak az éjszaka,
                   miként viseli magát beteg lábuk, kelésük, májuk, szívük: a Sóstó vize minden
                   betegséget gyógyított. A fürdővíz megráncolta a bőrt az ujjak hegyén, és a betegek
                   ezt a gyógyulás jelének vélték.
             </p>
-            <p>
+				<p>
                A kalapskatulyákban, az ódon bőröndökben, a kapott utazókosarakban
                   itt nem mutatkoztak a nagyvilág tarka rongyai, a divatszalonok remekei, a parfőmök
                   változatai. Éberlaszting-cipős tiszteletesnék, környékbeli kisbirtokosnék, hegyes
@@ -1845,13 +1828,13 @@
                   akiknek a mulatozásban való fáradhatatlanságát, mulatozáson kívüli bölcsességét,
                   erélyességét egykor csodáltam.
             </p>
-            <p>
+				<p>
                Hajnalban még a nagybőgőt ölelgették, kertek alatt jártak, olyan régi
                   nótákat daloltak, mintha a nagyapjukkal koccintanának - nappalra pedig ki
                   rendőrkapitány, ki kereskedő lett, és okosan végezte a dolgát. A régi Magyarország
                   bölcsei voltak ők, akik a korhelylevesre mindig vizet ittak.
             </p>
-            <p>
+				<p>
                A sóstói falusi asszonyságok és kisasszonyok a cigányok zenéje
                   mellett sokáig ébren voltak, álmodozva ingatták a fejüket, cserélgették lábukat,
                   és a nagyvilágra gondoltak, amely a keringők hajlékonyságából, a muzsikák
@@ -1863,13 +1846,13 @@
                   tyúkültetésre, az ebédfőzésre, a gyerek szamárköhögésére, akiknek csupa dal, ünnep
                   és ragyogás az életük... A keringők nem hazudnak.
             </p>
-            <p>
+				<p>
                A tölgyfák sűrű lombjai között megbocsátólag, csendesen nézegettek
                   alá a nyári csillagok. Az Öreg asszonyok hosszadalmas elbeszélésekbe kezdtek
                   fiatalkorukról, a konyhán nagy lánggal égett a tűz, a savanyúvizes üvegek dugaszai
                   nagyokat pattantak, mintha sohase lenne vége az életnek.
             </p>
-            <p>
+				<p>
                Amíg a töméntelen nyíri vinkó megtette a magáét, a gyengébb gyomrú
                   férfiak csillagvizsgálatra tűntek el a tó irányába, Bakai klarinétos
                   előbátorkodott a banda félhomályából, és Kálnay úr füléhez illesztve hangszerét,
@@ -1882,7 +1865,7 @@
                   kijelentette, hogy káposztalevesre igenis lehet bort inni, mégpedig
                   vereset...
             </p>
-            <p>
+				<p>
                A zenekart élvező öregasszonyságok tudták tapasztalatból, hogy a
                   mulatság most kezd vadulni, ezért sietve hajtották csirkéiket a vendégszobák felé.
                   S a nagybőgő hajnalig brúgott álmaikban. Hétfőn reggel olyan volt az egész, mint
@@ -1895,10 +1878,10 @@
                   kell hazamenni és sohasem betegek ők, úgy halnak meg, mint a csillag lefut az
                   égről, új csillag jön helyére.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Teliholdas éjjelen, darvak, gémek, vadludak, vándorrécék éjszakáján,
                   amikor a nádasokból idáig hangzik Vencel vadász puskázása, a csillagok alig
                   bátorkodnak ki házikóikból, a fürdőhely svájci házikói, földszintes épületei kék
@@ -1919,10 +1902,10 @@
                   zenét... Itt vagyok. De senki sem jött utánam. A csillagok tekingetnek alá. Vajon
                   hová lett az én csillagom?
             </p>
-            <p>
+				<p>
                Lássuk, tudnám-e még, hogy hol van az Útonjárók csillaga?...
             </p>
-            <p>
+				<p>
                Midőn utoljára emeltem fel hozzá a tekintetemet, a “Szarvas” kocsma
                   felett állott, amely “Szarvas” kocsma körülbelül egy vonalba esik a lutheránus
                   toronnyal. Ha kissé világos volna az éjjel, a vasúti állomás felé, ahol kivágták
@@ -1937,7 +1920,7 @@
                   másikba mendegélve: hiába pillant fel az égboltozatra? Ő talán már el is
                   felejtette, hogy a világon vagyok...
             </p>
-            <p>
+				<p>
                Asszonyi alak állongott a tóparton, a bujkáló holdvilág remegő
                   fényénél. Állongott, mint a régi költők verseiben, a régi írók regényeiben, amikor
                   az érzelmes nők a holdas éjtől tanácsot, életprogramot kérnek... Elhagyták
@@ -1950,42 +1933,42 @@
                   daltól a másnapi befőzést is elfelejtették a nyíregyházi hölgyek, és mindnyájan
                   leginkább meghalni szerettek volna a fuvolás éjszakán.
             </p>
-            <p>
+				<p>
                A tó felett valaki a nevemet kiáltotta. Nem kétségbeesetten, sem
                   riadtan hangzott ez a kiáltás, csak úgy mintha valakit álmunkban keresünk az
                   erdőn. Meg-megállunk, és elmondjuk a nevet.
             </p>
-            <p>
+				<p>
                Nyomban megismertem Juliska hangját.
             </p>
-            <p>
+				<p>
                Kövérebb, asszonyosabb lett, az arcán bizonyosan szőlőpiros
                   vonalacskák, ráncocskák láthatók, mint a bővérű, jól táplálkozó falusi
                   asszonyságok arcán, de most csak a szeme látszott, amely a régi alázatossággal
                   nézett reám.
             </p>
-            <p>
+				<p>
                - Későn este érkeztem meg, mert útközben eltört a kocsikerék -
                   kezdte. - Ámde bizonyosra vettem, hogy megtalálom még ma este, mert hallottam,
                   hogy a Sóstón ferdőzik.
             </p>
-            <p>
+				<p>
                - Ugyan kitől hallotta? - kérdeztem.
             </p>
-            <p>
+				<p>
                - Abból a faluból, ahol most lakom, a tanítóné itt nyaral.
                   Természetesen nyomban megírta, hogy maga itt időzik, mert téli estéken sokszor
                   beszélgettünk magáról.
             </p>
-            <p>
+				<p>
                - A faluban?
             </p>
-            <p>
+				<p>
                - Bujiban. Szüleim meghaltak, kis magyar birtokot örököltem, falusi
                   asszony lettem, és nem történt velem semmi, mióta nem láttam. Még ha történt volna
                   is valami, azt most mind elfelejtettem.
             </p>
-            <p>
+				<p>
                Szürke porköpönyegben, fácántollas barna kalapban volt, amint
                   vidékünkön a falusi úriasszonyok a hetivásárra járnak. Nem látszott fáradtnak, bár
                   körülbelül tíz órát kellett utaznia azon homokos, kerékmarasztaló, mély utakon,
@@ -1996,18 +1979,18 @@
                   utazó kocsija után. Vad kutyák akaszkodnak a lovak elé minden falunál, és az
                   otthonülő parasztok alkalmat találnak köpési ügyességük bemutatására.
             </p>
-            <p>
+				<p>
                - Hát hogy és mint van? - kérdeztem darab idő múltán, midőn a
                   múltakat átgondoltam.
             </p>
-            <p>
+				<p>
                Juliska mosolygott. Vállat vont.
             </p>
-            <p>
+				<p>
                - Mingyárt visszajövök, csak a kocsisom után nézek. Csak Szent György
                   napja óta van nálam, körmére kell nézni.
             </p>
-            <p>
+				<p>
                ...Az éj hátralevő részében a hold közelebb jött a tölgyfák
                   csúcsához, mintha arról akart volna meggyőződni, hogy valóban mindenki alszik a
                   Sóstón. Aludt is mindenki, csak mi voltunk ébren a földszintes, hosszú épület
@@ -2015,7 +1998,7 @@
                   lecsurgó eső a fák előtt árkocskát vont, amelyben kedvére való karikákat
                   szerkeszthet.
             </p>
-            <p>
+				<p>
                A fák között mint álomkép mutatkozott az alvó tó és a szikes kopár
                   síkság, az őszi szeleknek, téli viharoknak e nagyszerű versenytere, de most állt
                   az éj; állt a zsebóra, állt a csend. Olyan halkan beszélgettünk, mintha valaki
@@ -2023,7 +2006,7 @@
                   és olykor hosszadalmasan köhögött, mintha valami kínzó emlék jutott volna
                   eszébe.
             </p>
-            <p>
+				<p>
                Juliska fonott kosarat állított kettőnk közé a padra, és a kosárból
                   mindenféle elemózsiát szedett elő, mint a vasúti állomásokon, nagyvásárokon
                   szoktak a falusiak, mikor megéheznek. Tarka kendőjében a cipó úgy illatozott, mint
@@ -2037,11 +2020,11 @@
                   leseperte szoknyájáról a morzsákat, és megelégedetten, hálásan nézett rám, mert
                   ennivalóját velem megoszthatta.
             </p>
-            <p>
+				<p>
                - Hát most mondja el maga, hol járt annyi esztendő alatt, hogy még
                   hírt sem adott?
             </p>
-            <p>
+				<p>
                Elgondolkoztam, hogyan magyarázzam meg az egyszerű, jóságos
                   teremtésnek az én furcsa, eszméletlen életemet? - Én... én idegen voltam Pesten...
                   Vezettek férfiak, vezettek nők, hogy kiismerjem magam a városban. De mégis
@@ -2056,13 +2039,13 @@
                   rejtélyes utakat? Egyik férjétől, akivel ugyancsak végigjárta ez utakat. Midőn már
                   nem volt több tanulnivaló, a tanítónő szabadjára engedett.
             </p>
-            <p>
+				<p>
                Juliska fölkacagott.
             </p>
-            <p>
+				<p>
                - Tehát asszonyok nevelték Pesten?
             </p>
-            <p>
+				<p>
                - Valóban, amit tudok az életről, azt mind asszonyoktól tanultam. A
                   jó barátnők egymástól átvettek, olykor elkérték egymástól a recepteket is, amelyek
                   az általam szeretett ételek elkészítési módját tartalmazták, s annyit meséltek
@@ -2073,10 +2056,10 @@
                   befolyásos férfiak pártfogásába ajánlottak. Sok életrövidítő küzdelemtől
                   menekültem meg, hogy életemet és nyugalmamat felajánlottam a nőknek.
             </p>
-            <p>
+				<p>
                - Legalább hűséges volt?
             </p>
-            <p>
+				<p>
                - Bizonyos ideig, amíg a meghatottság malaszttal töltötte el a
                   szívemet. Álltam hátuk mögött vigasztaló szóval, bátorító tekintettel és bánatot
                   felejtő sokféle hazugságokkal. Várakoztam utcasarkokon és templomok ajtajában,
@@ -2095,10 +2078,10 @@
                   nekem csak Pesten kellett kutyagolnom egyik városrészből a másikba, hogy az
                   igazságot és az embereket megismerjem.
             </p>
-            <p>
+				<p>
                - Tehát búcsújáró volt?
             </p>
-            <p>
+				<p>
                - Az is. Egy-egy asszony imádásában hónapokig bolyongtam és mindig
                   csak reá gondoltam. Esti és reggeli imámba foglaltam nevüket, és ki tudná, hány
                   veszedelemből mentettem meg őket hő fohászkodásommal. Nyugodtan alhattak,
@@ -2108,10 +2091,10 @@
                   tulajdonképpen jótékony életet folytattam, amiért a másvilágon elnyerem
                   jutalmamat.
             </p>
-            <p>
+				<p>
                - És hogy nevezték? Hívta valaki Tücskének?
             </p>
-            <p>
+				<p>
                - Neveztek Kutyulinak, Biminek, Apucinak, de Tücsöknek nem mondott
                   senki. Általában minden új szerelem kezdetén új nevet kaptam a szerelmi
                   keresztelőn. Egy mélyhangú, bajuszos, negyvenesztendős asszonyka állandóan
@@ -2132,7 +2115,7 @@
                   hangon mondtam jelentős szavakat; elhagyott erdei utakon nem akartam észrevenni,
                   hogy csókra szomjaznak...
             </p>
-            <p>
+				<p>
                Juliska nem szűnt meg csodálkozni szavaimon. Bujiban, az ő falujában
                   bizonyosan nem beszélnek ennyit a férfiak. Tekintetén látszott, hogy nem érti meg
                   minden kifejezésemet (holott valóban nem akartam a férfiak azon fogásával élni,
@@ -2142,7 +2125,7 @@
                   annak a férfiúnak veszélyes lépteit, aki mellőle egykor elment az ismeretlen
                   nagyvilágba.
             </p>
-            <p>
+				<p>
                Aztán, mikor végleg elhallgattam és elgondolkozva a messziségbe
                   néztem: vajon nem felejtettem ki valamit életemből, elmondtam-e mindazt, amit a
                   holddal szoktam beszélni, amit a szélben hallok dúdolgatni, amit az álomtalan
@@ -2154,15 +2137,15 @@
                   régi dal tolakszik a szájamra - Juliska megérdemelné, hogy beavassam őt a
                   misztériumba, amely az én életemet éppen úgy körüllengi, mint akár másét.
             </p>
-            <p>
+				<p>
                És Juliska, bár nem volt művelt hölgy, és csak annyit tudott az
                   életről és halálról, mint egy falusi tücsök, csalódottan mosolygott, mintha
                   megbántottam volna. Talán észrevette, hogy hazudtam neki...
             </p>
-            <p>
+				<p>
                Jó darabig csendesen ültünk.
             </p>
-            <p>
+				<p>
                A nyári hajnal ébredezett a messzi mezők felett. Kis utazók (hangok,
                   sejtelmek, érzelmek), akik lefeküdtek az éj beálltával ott, ahol a sötétség érte
                   őket, akár mezők kellős közepén, akár bokrok alatt, akár a tó partján, s a fülükre
@@ -2177,35 +2160,35 @@
                   csendesen fölemeltem, midőn Juliska szólni kezdett. Lássuk, merről fúj a
                   szél.
             </p>
-            <p>
+				<p>
                - A gyermekét nem is kérdezte, pedig nagyra nőtt! - szólt Juliska, és
                   csendes, hamar megbocsátó szemrehányás volt a hangjában.
             </p>
-            <p>
+				<p>
                ...Némelyek érzelmes dalokat hegedűlnek a nőknek, mások borízű hangon
                   dúdolgatnak fülükbe, egyesek a tenorista arc- és torok gimnasztikájával férkőznek
                   a női szívek közelébe. Voltak, akik a bolondok tarka köntösében bukfenceztek... Ám
                   minden színjátéknak vége lett, amint egy nő gyermekéről kezdett beszélni.
             </p>
-            <p>
+				<p>
                - Fiú?
             </p>
-            <p>
+				<p>
                - Az.
             </p>
-            <p>
+				<p>
                - Hát most beszéljen maga nekem a fiamról.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                 Olyan szép, mint általában a szerelemgyerekek. Ostora van, amellyel
                   nagyokat durrant a konda után. Pártfogója az öreg csősz, akitől nemzeti
                   történelmünket tanulja, amikor beköszönt az esős időjárás és kezdetét veszi a
                   kukoricahántás. Az öreg csősz Milánóban szolgált és tudománya rengeteg.
             </p>
-            <p>
+				<p>
                - Nem fél a lótól, sem a bivalytól. Végigjárja a háztetőt, kulcsot
                   készít, és eddig földhöz vágott mindenkit a faluban. A könyvhöz nem sok türelme
                   van és hamar megunja a leányokat. Télen csíkot halász a Tisza kiöntéseiben a jég
@@ -2216,7 +2199,7 @@
                   szed, földhöz vágja a parasztleányokat, nem engedi, hogy Gyugyilinak nevezzem,
                   mint csecsemőkorában, Györgynek kell szólítanom, hogy meghallja a szavamat.
             </p>
-            <p>
+				<p>
                És még sok történetet mondott el Juliska sohasem látott fiamról. Az
                   erdőn, a tájon megérkezett a nyári hajnal, mint egy csengő-bongó komédiáskocsi.
                   Egy pinty kezdte félálomban... aztán rágyújtott nótájára a madársereg, amely eddig
@@ -2225,11 +2208,11 @@
                   Az öreg Sziszkay doktor hálóingben kihajolt az ablakon, és kinyújtotta füstölgő
                   pipáját.
             </p>
-            <p>
+				<p>
                - No, lumpok és cigányok - kezdte recsegő reggeli hangon. - A
                   hasatokra süt már a nap.
             </p>
-            <p>
+				<p>
                - Én ma visszamegyek Bujiba, amint megfürödtem a gyógyforrásban -
                   szólt Juliska, és áhítatosan nézett a fürdőház felé, ahonnan már gőzölgés szállott
                   ki a magas ablakon. Falevelekkel volt tele a sétány. A kocsiszín felől utazókocsi
@@ -2237,15 +2220,15 @@
                   egy kis kocsis, amint csizmáit kefélte. Az erdei úton messziről hangzott a
                   kerékpörgés, mint az útra kelő élet.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Az igazi tücsök
             </head>
-            <p>
+				<p>
                Körülbelül déltájban érkeztünk Bujiba.
             </p>
-            <p>
+				<p>
                Addig végigkocsiztunk a nyírségi országutakon, amelyek lomhán,
                   rezignáltan kanyarognak mindig ugyanazon ákácok alatt. Ahol szőlők vannak, Oros
                   felé, onnan sárgarigó kiáltott a bricskára a kéklő, jó szagokkal teli
@@ -2257,7 +2240,7 @@
                   bolond fejüket csóválni látszottak, amint együtt láttak bennünket Juliskával, a
                   kis kocsi sárga ülésben.
             </p>
-            <p>
+				<p>
                Juliska útközben elmondta, hogy legjobb barátnői az elszegényedett
                   Ónodi-kisasszonyok, akik egy kidőlt-bedőlt vén udvarházban laknak, egész nap
                   cigarettáznak, és a legelőkelőbb hölgyek a vármegyében. Tőlük tanulta, hogy utazás
@@ -2272,27 +2255,27 @@
                   hogy Juliska eddig minden kérőjét elutasította. A kisasszonyok mindegyiken
                   találtak valamely kifogásolni valót.
             </p>
-            <p>
+				<p>
                - És sokat beszélgetünk magáról, ha együtt vagyunk - fejezte be
                   Juliska.
             </p>
-            <p>
+				<p>
                Juliska háza, amely a falun kívül feküdt, földszintes, fehérre
                   meszelt tanyaház volt. Olyan volt, mint a legtöbb nyírségi tanya, amelynek kis
                   ablakából a gyenge fénysugár messzire elkíséri a síkságon az utazót. Szilvafák
                   borultak össze a ház mögött, mint örök hűséget fogadott barátnők. Macska hevert a
                   háztetőn, a láncos kutya röviden végzett velünk, mintha megsértettük volna.
             </p>
-            <p>
+				<p>
                - Lassú tűzön, fokhagymával párolva a rostélyost - szereti így? -
                   kérdezte Juliska, amint a kocsiról leszálltunk.
             </p>
-            <p>
+				<p>
                Félig paraszti, félig kopott úri bútorokkal volt megrakva a ház. Egy
                   pipatórium mutatta, hogy Juliska ősei nemesemberek voltak, mert jól kiszítták
                   pipájukat.
             </p>
-            <p>
+				<p>
                Általában a jóság illata érzett a házon. A függönyök, amelyek az
                   ablakokon lengtek, tisztaságukkal mutatták, hogy kíváncsi kéz ritkán vonja őket
                   félre. Kanapé horgolt terítői szabályos helyükön voltak. És a kőporral fehérített
@@ -2310,11 +2293,11 @@
                   biblia is fekszik az ablakpárkányon, amelyben minden vigasztalás megtaláltatik a
                   nehéz órákban.
             </p>
-            <p>
+				<p>
                Mintha sohasem járt volna erre ördög, amely kénszagot ereszt
                   magából.
             </p>
-            <p>
+				<p>
                - És egy polcon - akár csak az anyám házánál! - pirosba és aranyba
                   kötve fekszik Kisfaludy Sándor regéskönyve és a lap a Szent Mihály hegyi remetével
                   nyílik. Anyám nevelését mutatta még egy könyvecske, amely a múlt században a
@@ -2322,13 +2305,13 @@
                   Magyarország volt, akkor az emberek legtöbbet az illedelem kérdésével
                   foglalkoztak.
             </p>
-            <p>
+				<p>
                S a keskeny, magas hátú ágyak, amelyek az ablakok felé feküdtek,
                   olyan lezártaknak látszottak, mint szekrények, amelyekben a ház kincseit, az
                   álmokat őrizgetik. Mit álmodhat Juliska ebben a keskeny ágyban, midőn eljönnek a
                   hosszú téli éjszakák?
             </p>
-            <p>
+				<p>
                - A fiú kinn csavarog valahol az éren, a réten. Legutóbb Toldi
                   Miklósról mesélt a mindentudó csősz. Toldi Miklós módjára farkast fogna - monda
                   Juliska, midőn az ebédet egy seprőnyél módjára hajladozó öregasszony segítségével
@@ -2336,7 +2319,7 @@
                   múltból való. A kerti bor kancsójában a nagyanyám üldögélt, és fáradhatatlanul
                   mesélt.
             </p>
-            <p>
+				<p>
                - A mi vidékünkön rövid a tél, de sűrű a tavaszi hó. A hóesésben
                   gyakran hallani fecskecsicsergést, és a barackvirágon csillog a hópehely. De azért
                   nem panaszkodhatom a természetre. Kis birtokomon minden megterem, amire szükségünk
@@ -2344,26 +2327,26 @@
                   kereskedők laknak. Egyen még, mert hosszú a nap. És este is sokáig hallani a
                   kutyaugatást, amitől majd nem tud aludni.
             </p>
-            <p>
+				<p>
                Ebéd után egy nagy diófa alá ültünk, ahonnan messzire lehet látni a
                   tájon. A piros fejű kakas vezetgette népét a dűlőúton. A cselédek csendesen
                   cammogtak. A kerten könnyed hervadás. A házon szakállnövesztő csend. A közeli
                   kukoricásban valaki ment, mendegélt, mintha a szél ingadozna álmában. A réten
                   egykedvűen állott a nyárvégi délután, mintha sohase menne tovább.
             </p>
-            <p>
+				<p>
                - Kár, hogy az ősz esős és komor vidékünkön, különben rábeszélném,
                   hogy maradjon itt. Félek, megszökne egy reggelen, mikor ismét csak arra ébredne,
                   hogy az ereszről locsog a víz, a kerten köd, bánat a messziségben, a kocsiúton
                   térdig ér a sár, és lámpát kell gyújtani reggel, mikor a fiú az iskolába
                   indul.
             </p>
-            <p>
+				<p>
                Juliska sóhajtott és tovább foltozott. (Ő anyám iskolájában tanulta,
                   hogy a nőnek illetlenség munka nélkül ülni még akkor is, ha férfival
                   beszélget.)
             </p>
-            <p>
+				<p>
                - Pedig semmi se fontos, csak az, hogy életünket meghosszabbítsuk. Ez
                   pedig csak ilyen helyen lehetséges, ahol örökös csend van. Itt senki sem dühös,
                   mindenki keveset beszél, sokat alszik, a házi patikában mindenre tudunk
@@ -2381,12 +2364,12 @@
                   kalandjait. A csőszt már tíz esztendeje hallgatjuk téli alkonyaton, pedig csak
                   Milánóban járt.
             </p>
-            <p>
+				<p>
                Így szólt Juliska, és fölemelte az arcát, amely ebben a percben olyan
                   volt, mint a szentképecskéken látható, amelyeket imakönyvekben hordanak a
                   katolikus nők.
             </p>
-            <p>
+				<p>
                - És a tücsök... - mondta csalogatólag, halkan - a tücsök, amit maga
                   szeret: nálunk mindig énekel. Szent György napján kezdi, mint a békák és Szent
                   Mihályig szünet nélkül hegedül, amikor néha megszólal karácsonyig... Kezdi a
@@ -2402,22 +2385,22 @@
                   kocsis havas bajusza mögül Csákány Juliska lakóháza után tudakozódik. A szánban az
                   én királyfim ült.
             </p>
-            <p>
+				<p>
                Kiáltás hangzott fel a ház előtt, mint a daru szokott kiáltani.
             </p>
-            <p>
+				<p>
                - Itt van a fiam - szólalt meg Juliska.
             </p>
-            <p>
+				<p>
                Eleinte szürke és közömbös volt, mint egy idegen fiú, akivel az
                   országúton találkozunk. Azt hiszem, szeplős volt az arca, mint a pulykatojás. De
                   mire a közelembe ért, két nagy barna szem tapadt rám, falusi félénkséggel,
                   zavarodottsággal.
             </p>
-            <p>
+				<p>
                Végignéztem a fiút.
             </p>
-            <p>
+				<p>
                Az idegenszerűsége lassan lemúlott, amint lépésről lépésre
                   közeledett. Egy darabig távoli rokonomnak látszott, akivel már találkoztam
                   valahol, de elfelejtettem. Talán arcképét láttam valahol... abban a rámában, az
@@ -2427,25 +2410,25 @@
                   ruhában, bomlott nyakkendőjével, a feje búbján kacsafarrokként kunkorodó
                   hajával.
             </p>
-            <p>
+				<p>
                Amikor kezet fogott velem: komolyan és megbízhatóan nézett a szemem
                   közé, mint egy vadászkutya. Hallgatagon foglalt helyet a sarokban: elvadult
                   csizmáit dugdosta, és fekete, izmos kezét nadrágja zsebébe mélyesztette. A földre
                   nézett, nyilván nem érezte jól magát társaságunkban. Míg anyja elküldte, hogy
                   fogyassza el félretett ebédjét.
             </p>
-            <p>
+				<p>
                A fiú leugrott a kecskebakról, és tücsökciripelést utánzott, amint a
                   ház felé sietett.
             </p>
-            <p>
+				<p>
                - Legjobban a vadludak hangját tudja utánozni - mondta az anyja,
                   amint könnybe borult szemmel utánanézett.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Az est azután csendesen beköszöntött. A vadkörtefának árnyéka az
                   országútra ért, mintha hosszú rúdjával távol akarná tartani a boszorkányokat. A
                   borzas kerítésben végigcsörgött az esti szél. A hold arany púpja mutatkozott
@@ -2456,7 +2439,7 @@
                   bagoly a kémény mellett. És mielőtt végleg besötétednék, napnyugta és holdkelte
                   között: cigánypiros szeme végigfutott a tájon egy messzi pásztortűznek.
             </p>
-            <p>
+				<p>
                A fiam (aki nem tudta, hogy a fiam) a lábamnál ült egy malomkövön, és
                   csendesen hallgatta azokat az ifjúkori diákos élményeket, amelyek a felnőtt
                   embernek eszébe ötlenek, ha fiatal fiúval találkozik. Nemigen tett megjegyzést,
@@ -2469,13 +2452,13 @@
                   lépésnyiről felelgettek. Ők megértették egymást. Míg én már nem tudtam, hogy mit
                   énekel a tücsök és a fiú.
             </p>
-            <p>
+				<p>
                A nyitott konyhában szalmából nagy tűz lobogott, és veres
                   komondornyelvével végignyalta az udvart, mintha arról akart volna meggyőződni
                   odabent a tűz, hogy senki és semmi nem szökött meg az udvarból a besötétedés
                   alatt.
             </p>
-            <p>
+				<p>
                Helyén a kocsirúd, a létra, a seprő, egyiknek se támadt még kedve a
                   vándorláshoz, pedig ők minden éjszaka megszöknek, és kakaskukorékoláskor térnek
                   vissza. A láng végignyaldosta a fiú barna fejét, mintha az ő tiszteletére
@@ -2486,7 +2469,7 @@
                   atyjuknak ormótlan nagy kalapjában nevetségesek, mint a mezők rongyos bábjai,
                   amelyek a seregélyeket fenyegetik.)
             </p>
-            <p>
+				<p>
                Ez a fiú nem tudta, hogy ki volt az apja... lelőtték, mint a
                   vadlúd-gúnárt, mielőtt fiát repülni megtaníthatta volna?... csapdába szorult, mint
                   egy öreg róka, amely a kertek alatt élelem után sompolygott kicsinyei részére?...
@@ -2499,17 +2482,17 @@
                   csillagából hullott egy porszem a szívére, hogy többé nem nyugodhatik meg egy
                   helyben, űzi hajtja, ragadja a vágy idegen városok idegen tornyai felé?
             </p>
-            <p>
+				<p>
                A fiú csendesen ült. Miután a tücsök elhallgatott, néma lett. A két
                   kezére hajtotta a fejét, és belebámult a sötét udvarba.
             </p>
-            <p>
+				<p>
                - Hol van az apád? - kérdeztem fojtott hangon.
             </p>
-            <p>
+				<p>
                A fiú lassan felemelte a fejét:
             </p>
-            <p>
+				<p>
                - Elment... a kocsmába. De majd visszajön. Egyszer csak beállít ismét
                   a “Lyukas Világ”-ba, ahonnan elindult. És akkor lesben állunk az anyámmal, és
                   többé nem engedjük el. De most még vándorol valamerre. Az örökségét keresi, mint a
@@ -2518,30 +2501,30 @@
                   országúton nyargalászni; tarka mátyásmadarat fogok neki az erdőn, amely éppen úgy
                   tud beszélni, mint az idegen emberek.
             </p>
-            <p>
+				<p>
                - Merre van az a “Lyukas Világ”, ahonnan az apád eltűnt?
             </p>
-            <p>
+				<p>
                - A határban. Kálmán, a zsidó asszony méri benne a bort.
             </p>
-            <p>
+				<p>
                Ezután ismét kinyargalt a szilaj láng a konyhaajtón, játékos kutya
                   módjára körültáncolta a falhoz támasztott kocsirudat, mintha ennek a hórihorgos
                   lénynek örülne legjobban a világon.
             </p>
-            <p>
+				<p>
                Messziről, a faluból a kovácsműhely csilingelése hangzott.
             </p>
-            <p>
+				<p>
                - Utasok patkoltatnak - mormogta a fiú a csengő hangra figyelve. -
                   Talán bizony megjött az apám.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Milyen a lyuk?
             </head>
-            <p>
+				<p>
                A “Lyukas Világ” az országúton állott. Művelt ember létemre már
                   találkoztam ilyen országúti csárdákkal a Jókai regényeiben, ámde a valóságban
                   Gyurka társaságában ismertem meg. A mestergerendákhoz szutyok tapadt a régi
@@ -2549,9 +2532,7 @@
                   pádimentumon lyukak voltak csizmasarkoktól, amelyeket itt megvetettek. Az
                   asztalokba bánatot és örömöt, betegséget és keserűséget könyököltek a karok,
                   amelyek itt megtámaszkodtak. Egy megsárgult
-               
                   Ébredjünk
-               
                 című újsággal volt beragasztva az ablak, amelynek megfakult betűi
                   azon vitáztak: áruló volt-e Görgei vagy nem? Kálmán, a “zsidó asszony” akkor
                   lehetett virágjában, mikor Zöld Marci még fiatal legény volt. A hosszú nyakú
@@ -2566,7 +2547,7 @@
                   Világ”-nál; legfeljebb gyalogos embernek való itt megpihenni, akinek mindegy, hogy
                   bokor alatt húzza meg magát, vagy a “Lyukas Világ” ivójában.
             </p>
-            <p>
+				<p>
                A lábnyomok összekeverednek az országúton, a jámborok és gonoszok
                   egymás sarkába lépnek. A “Lyukas Világ” küszöbét azonban csak azok a lábak lépik
                   át, amelyeknek már mindegy, hogy a temető felé lépegetnek vagy vásárba lopni
@@ -2574,7 +2555,7 @@
                   udvarán mindig akadt ennivalójuk a verebeknek. Menyecske rikkantására vágta félre
                   kopott kalapját az utasember. Akinek pénze volt, még kvártélyt is kaphatott.
             </p>
-            <p>
+				<p>
                Amikor mi Gyurkával a “Lyukas Világ”-nál megtelepedtünk, egyetlen
                   vendég tanyázott az ivóban. Szarvasbőr nadrágos, nyurga farkasszínű férfiú volt.
                   Ádámcsutkája, kis Petőfi-szakálla, bozontos nagy haja volt. Ilyenek lehettek a
@@ -2583,11 +2564,11 @@
                   Kálmán bácsinak szólította. Mikor beléptünk: éppen fogvájót kért, holott csak egy
                   üveg sör állott előtte.
             </p>
-            <p>
+				<p>
                - Messziről jövök én, nem pedig a szomszédból, Tyukodról vagy
                   Gályról. Erdélyországból jövök - kezdte a vándorló a szót felénk fordítva.
             </p>
-            <p>
+				<p>
                Mi nem szóltunk semmit. Beszélt a vándorló magától s azon a nyelven,
                   amely fogadók külső szobáiban, állomások ivójában szokásos, ahol beszélnek,
                   mesélnek a pihenő emberek, s nem törődnek azzal, hogy valaki hallgat rájuk vagy
@@ -2602,29 +2583,29 @@
                   olyan bölcsességét viszik tarisznyájukban, amely bölcsességnek a meghallgatására
                   mindig érdemes volt megállani sietésünkben.
             </p>
-            <p>
+				<p>
                A bozontos vándorló elnyújtózkodott hosszú lábaival. Valahonnan, tán
                   a kalapjából, vadvirágcsokrot vont elő, és felajánlotta a kocsmárosnénak:
             </p>
-            <p>
+				<p>
                - Csak fogadja el, Kálmán bácsi. Én szeretek örömet okozni az
                   embereknek. Egyik ember a disznót fosztja meg nemétől, a másik füstöt farag, a
                   harmadik ablakot, törött edényt csinál. Én örömcsináló vagyok. Járom ezt a nagy
                   világot és szeretem, ha mindenütt, ahol megfordulok: örülnek az emberek. Kálmán
                   bácsi, főzzön egy feketekávét.
             </p>
-            <p>
+				<p>
                A zsidó asszony már elvette a vadvirágot, nem tagadhatta meg a
                   vándorló kérését. Dörmögve vonult vissza konyhájába. Régen elszokott ő attól, hogy
                   uraknak feketekávét főzzön. Meg aztán miféle úriember lehet ez a bőrnadrágos, aki
                   annyit beszél, mint egy kupec. Ám a virág megtette a magáét: kávéillat szálldosott
                   a konyha felől.
             </p>
-            <p>
+				<p>
                Amíg a zsidó asszony a konyhán foglalatoskodott, a vándorló bennünket
                   tartott szóval.
             </p>
-            <p>
+				<p>
                - Én még sohase voltam beteg, pedig jártam olyan vidéken is, ahol két
                   szememmel láttam a kolerát. Egy kis öreg, púpos ember a kolera, aki felkéredzkedik
                   az útonjárók kocsijára. Csak egy kis helyet kér a kasfarban, csak egy kis
@@ -2640,11 +2621,11 @@
                   kell halni, nem védelmez meg tőle a bot. A halál hátulról, a keresztútnál vágja
                   tarkón az embert, mint a házinyulat.
             </p>
-            <p>
+				<p>
                A vándorló megelégedetten piszkálta a fogát. Vannak emberek, akik
                   jóllaknak a saját beszédjükkel. Csak legyen, aki hallgassa őket.
             </p>
-            <p>
+				<p>
                - Azt kérdezi a tisztelt úr, hogy mit szoktam enni? Az én
                   bátorságomhoz nem kell kígyózsír, se méhmagzat kisujja, de még csak hamupogácsa
                   se, amit a boszorkány sütött. Babonás, bolond parasztoknak a gyík farka, a temetők
@@ -2652,7 +2633,7 @@
                   látok a kovácsműhelyre szegezve. A nyavalyás parasztnak gyógyulás már az is, ha az
                   ördögök kötőfékét vetik a fejére.
             </p>
-            <p>
+				<p>
                Asszonyállat meg visít örömében, ha füstre ültetik. Megveszkődne az a
                   sok bolond asszony a kuruzsló nélkül. A templomban mindig csak azt hallja, hogy ne
                   paráználkodjál? Hát mit tesz az udvaron a kakas, a kutya, a bika, a veréb, a
@@ -2666,13 +2647,13 @@
                   mondani, tisztelt úr, hogy nem ettem én kanállal a tudományt. Csak nyitva
                   tartottam a szemem. Láttam, hogy milyen bolondok az emberek.
             </p>
-            <p>
+				<p>
                Azt kérdi a tisztelt úr, meg tudnám-e gyógyítani az asszonyokat? Hát
                   nemhiába lettem ötvenesztendős. Nincs olyan asszony, akinek a lakatjához én nem
                   értenék. Mi kell nekik? ugyanaz, ami a férfiaknak. Egy-két hazugság, amely oly
                   könnyedén hagyja el a száját, mint a mosoly.
             </p>
-            <p>
+				<p>
                Azt kérdezi a tisztelt úr, meg tudnám-e gyógyitani a férfiakat?
                   Nagyon is, csak rám hallgassanak. Az én orvosságom, az én felfogásom, hogy nincs
                   olyan öreg férfi, aki valahol-valamerre meg ne találná azt a leányt, akitől
@@ -2685,87 +2666,85 @@
                   vidám sikoltásuktól. Csak a tücsökre nem szabad sohasem hallgatni, mert az mindig
                   hűségre tanít.
             </p>
-            <p>
+				<p>
                A vándorló megkocogtatta bicskájával a sörösüveg oldalát.
             </p>
-            <p>
+				<p>
                - Icighez menjek tán a feketekávét meginni? - kérdezte hetyke hangon.
                   - Háltam én ebben a kocsmában akkor is, amidőn Icignek még híre-hamva se volt.
                   Nadrágban járt Kálmán, és Mózes-szakálla volt. Mindig annál az asztalnál szoktam
                   ülni már tíz esztendő előtt is. Vajon hová lett az a veres hajú szolgáló, akinek
                   szemölcsöt gyógyítottam a lábán?
             </p>
-            <p>
+				<p>
                A “zsidó asszony” kidöcögött a konyhából a feketekávéval. A vándorló
                   megszagolta, megkóstolta, elfintorította mozgékony arcát:
             </p>
-            <p>
+				<p>
                - Romániában, ahonnan jövök, jobb a kávé. Az ördög vigye el a
                   bocskorosait. Még a bőröm alatt is pénzt kutattak, mikor elaludtam. De a kávéjuk
                   jó volt. Én hétszámra feketekávén meg kenyéren élek. Hát hová lett az a veres
                   szolgáló, Kálmán bácsi?
             </p>
-            <p>
+				<p>
                A “zsidó asszony” felelt is, nem is, visszahúzódott a kármentőbe. Ott
                   gunnyasztott lehunyt szemmel, mintha azt a kis vézna veres szeplős parasztembert
                   várná, akit ezen a vidéken halálnak neveznek.
             </p>
-            <p>
+				<p>
                A vándorló hangosan hörpintgette a kávét.
             </p>
-            <p>
+				<p>
                - Szép veres lány volt. Onnan hozta a bőrének a fehérségét, ahol
                   nyáron is hó bontja a hegyeket... A szemében kék kő volt, mint a felső Tisza
                   medrében. Olyan nótákat énekelt, amilyeneket tutajosoktól hallani, amikor feljött
                   a holdvilág. S jókedve volt, mint a vándormadárnak. Egy
-               
                   bánatos úriember
-               
                 üldögélt naphosszat ebben a kocsmában és csendesen ingatta a pohara
                   felett a fejét, amikor a lány a kút mellett teli tüdőből énekelt.
             </p>
-            <p>
+				<p>
                György megfogta a karom. - Az apám volt - suttogta, és csodálatosan
                   kipirosodott az arca.
             </p>
-            <p>
+				<p>
                Aztán elhagyott, és vidáman közelgett a vándorló asztalához, mintha
                   legyeket fogdosna. Úgy tett, mintha a legyeket megenné, s ezzel sikerült
                   felébreszteni a csizmája sarának nézésébe merült vándorló figyelmét.
             </p>
-            <p>
+				<p>
                - Mit akarsz, fiú? - kérdezte mogorván a bőrnadrágos.
             </p>
-            <p>
+				<p>
                - Én tízesztendős vagyok és az apámat keresem, aki nyomtalanul eltűnt
                   - felelt György. - Az anyám előadása szerint apám bánatos kedvű, magánakvaló,
                   szinte szomorú úriember volt, és útszéli kocsmákban szeretett üldögélni, ahol
                   feljegyezgette a hazugságokat, amit az útonjáróktól hallott.
             </p>
-            <p>
+				<p>
                - Megállj csak, te fiú! - pattantott az ujjával a bőrnadrágos
                   vándorló. - Ismertem ilyen jegyzőféle embert, aki mindenféle papírdarabokra
                   bolondságokat irkált. Azt mondtad, hogy szomorú volt, és lehajtott fejjel
                   mendegélt az országúton? Az útszéli feszületektől megkérdezte, hogy mit gyóntak
                   nála az emberek?
             </p>
-            <p>
+				<p>
                A jegenyefák alatt megkérdezte a lenyomott avart, hogy mit álmodtak
                   itt éjjel az utasok? A kompnál a révészgazda juhászbundájától tudakolta, hogy mit
                   súgott neki a menyecske, akit az éjjel takart? S az elhagyott, árokba dobott
                   bocskoroktól kérdezősködött, hogy merre ment gazdájuk? - Ez volt az?
             </p>
-            <p>
+				<p>
                György figyelmesen végighallgatta a sokbeszédű vándorlót.
             </p>
-            <p>
+				<p>
                - Csak annyit tudok, hogy az apám volt, és útszéli kocsmák eresze
                   alatt szeretett üldögélni, mint akár kend. Talán ismerte?
             </p>
-            <p>
+				<p>
                A vándorló hanyagul legyintett.
             </p>
-            <p>
+				<p>
                - Hogyne ismertem volna! Van Magyarországon olyan ember, akit én ne
                   ismertem volna? Csak a gondolataimat akarom összeszedni, mert nehéz a sok ismerős
                   között válogatni. (A vándorló a levegőbe nézett.) Azt mondod, hogy az apád
@@ -2791,17 +2770,17 @@
                   Milyen mély volt az a lyuk, amelyet igaz vándorember módjára a szíve helyén
                   hord?
             </p>
-            <p>
+				<p>
                - Minek az a lyuk? - kérdezte a fiú.
             </p>
-            <p>
+				<p>
                - Ha még azt sem tudod: hogyan adhassam vissza neked az apádat? -
                   pattant föl az idegen.
             </p>
-            <p>
+				<p>
                A fiú lesütötte a szemét.
             </p>
-            <p>
+				<p>
                - Megvallom, hogy én az apámat még olyan messziről se láttam, mint a
                   réti sast a levegőben. Csak az útjairól hallottam, amint tudom az öreg csősztől,
                   hogy márciusban melyik vágás felett szeretnek járni a szalonkák, tudom a
@@ -2811,12 +2790,12 @@
                   annyit tudok, hogy erre meg amarra járt-kelt az apám... De a lyukról én semmit sem
                   tudok.
             </p>
-            <p>
+				<p>
                A fehér bőr-nadrágos a fiú kihallgatása alatt elővette
                   szarvasagancsos kését, és oly hevesen turkált fogai között, mintha valamit
                   keresne. Aztán becsattintotta a kését, megtörölte kis kecskeszakállát.
             </p>
-            <p>
+				<p>
                - Hát az a lyuk - dörmögte odavetőleg - azért szükséges, hogy az
                   ember ott tudja hagyni azokat, akiket szeret, el tudjon menni a városokból és
                   kocsmákból, ahol jól érezte magát, hogy ki tudjon kelni éjfélkor a meleg ágyból és
@@ -2826,20 +2805,20 @@
                   és így ne tudhassa meg, hogy sírnak vagy nevetnek a háta mögött. Ezt ugyan az
                   apádtól is megtanulhattad volna - szólt némi szemrehányással a vándorló.
             </p>
-            <p>
+				<p>
                György a vándorló asztalára támaszkodott, és igen helyesen, alkudozva
                   nézett a szemébe:
             </p>
-            <p>
+				<p>
                - Azt kell gondolnom, hogy magának csak a szája jár, mint azoknak a
                   csavargóknak, aki vacsora fejében mindenféle hazugságokat mesélnek este a tűz
                   körül az anyámnak. Ugyan micsoda utakon járhatott kend, ha még az apámmal sem
                   találkozott!
             </p>
-            <p>
+				<p>
                A vándorló vasvilla-szemmel mérte végig a fiút.
             </p>
-            <p>
+				<p>
                - Én nem mondtam, hogy nem láttam az apádat, te fiú... Lehetséges,
                   hogy láttam, tudom is hol van, merre veszi útját, de ő nem mondta nekem, hogy én
                   erről híradással legyek. Ő nem mondott nekem semmit. Ámbátor lehetséges, hogy
@@ -2848,12 +2827,12 @@
                   kutyagolni. Inkább lássam én az embereket, mint ők engem. Hát estig itt ülök, és
                   elmondom Kálmán bácsinak, milyen nagy szakálla volt az urának.
             </p>
-            <p>
+				<p>
                ...Lefelé szállott a nap, amikor a “Lyukas Világ”-ból elballagtunk a
                   fiúval. Útközben nyírfavesszőből font valamit a fiú. Egy ostort. Azt suhogatta a
                   kezében, amikor megszólalt:
             </p>
-            <p>
+				<p>
                - Így kellene végigverni minden vándorlón. Ezek az emberek pénzért
                   sem tudnak igazat mondani, gyík van a torkukban, amely mindjárt harap, amint igaz
                   szót akarnak kiejteni. Abból élnek, hogy bolondokat fognak, akik hisznek nekik.
@@ -2862,109 +2841,109 @@
                   szemébe. Ha Pityainak hívják: akkor ő az a huncut, aki a csőszt bolonddá
                   tette.
             </p>
-            <p>
+				<p>
                A napraforgók, mint megannyi útmutatók állongtak a mezőkön.
                   Esteledett, és igen megnőtt a fejük azoktól a hírektől, amelyeket napközben a
                   madaraktól hallottak. A madarak tovább szálltak, és a napraforgók ottmaradtak a
                   megfejtetlen talányokkal a fejükben.
             </p>
-            <p>
+				<p>
                Mire a tanyaház közelébe értünk, a környéken megszólaltak a tücskök.
                   Hat-hét tücsök beszélt egyszerre a ház körül, a fiú alig győzött felelgetni
                   kérdéseikre.
             </p>
-            <p>
+				<p>
                - Mit mondanak?
             </p>
-            <p>
+				<p>
                - Azt mondják, hogy közeleg az ősz, és okos tücsök fedél után néz,
                   hol a rossz napokat eltöltheti. Mert könnyű ám nyáron, jókedvűen a világban
                   barangolni. De ha jön az ősz: a tücsök egyedül találja magát, és senki se felel a
                   hegedűjére.
             </p>
-            <p>
+				<p>
                Hm, gondoltam magamban, nem is olyan bolondok a tücskök.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Az öreg csősz véleménye a tücsök apjáról
             </head>
-            <p>
+				<p>
                Este a ház előtt üldögéltünk, mikor is a fa, kútostor, háztető olyan
                   árnyékot vet a földre, amilyennek őt sohasem láthatjuk.
             </p>
-            <p>
+				<p>
                Az eperfa árnyéka szakasztott egy borzas, bánkódó asszony mása volt.
                   Lehetséges, hogy a fák is tanulják valakitől magatartásukat, mint a katonák az
                   őrmesterektől, a civilek a táncmesterektől. Ez az eperfa, ha tanult valaha
                   megjelenést: bizonyosan Juliskától látta ezt a bús magatartást, amint esténként
                   búnak eresztette a fejét elmúlt élete miatt.
             </p>
-            <p>
+				<p>
                A kútostor egy eltörött vándorbot alakját mutatta, míg a háztető
                   félrecsapott kalaphoz hasonlított, amely alatt valaki valahol hetykén veszi az
                   országutat.
             </p>
-            <p>
+				<p>
                A fiú a létrán ült, amely a padláshoz volt támasztva. Innen látni
                   lehetett a messzi láthatáron egy fénylő országutat, a Tiszát. Ezt a fényességet is
                   csak az esti embereknek tartogatja a folyó. Révészeknek, halászoknak, akik
                   ilyenkor a vízbe nézegetnek. És a csónakoknak, amelyek esténként hűségesen
                   eljönnek a vízhez, inni egyet a nappali szomjúság után.
             </p>
-            <p>
+				<p>
                Az úton mind közelebb érkeznek a láthatatlan vándorlók, akik
                   sötétséget lehelnek. Ekkor megszólalt kuporgásában az öreg csősz is, aki darab idő
                   óta a ház falának vetette hátát:
             </p>
-            <p>
+				<p>
                - Az én véleményem - kezdte a milánói hadfi -, hogy nem érdemes
                   olyant keresni, ami nincs. Ha a farkas elvitte a font húst, hiába szaladunk
                   utána.
             </p>
-            <p>
+				<p>
                Így szólt az öreg csősz, és mély hallgatásba merült.
             </p>
-            <p>
+				<p>
                Kérdést akartam intézni az öreghez, hogy magyarázná meg bővebben
                   szavait, ellenben Juliska csendesen megérintette a kezem.
             </p>
-            <p>
+				<p>
                - Nézze, már ismét itt járnak a komédiások! - szólt s az országútra
                   mutatott.
             </p>
-            <p>
+				<p>
                Én nem láttam semmit, csak a kukoricást, amely hajladozott a szélben.
                   A napraforgók megindultan csóválták a fejüket, mint kiégett szívű öregek, akiknek
                   a maguk életén kívül már semmi sem fontos a világon. Az út porába a csillagok
                   vájták szikrázó sarkantyúikat. Nagyot gondolkozott a táj, mintha valami nagy
                   mondanivalóra készülődne elalvása előtt.
             </p>
-            <p>
+				<p>
                A szélnek fekete árnyéka futott a gyalogösvényen; hazafelé loholó
                   fekete kutya. S Juliska úgy beszélt, mint a nyárfa suhog:
             </p>
-            <p>
+				<p>
                - Maga elszokott attól, hogy az álmait lássa, mert olyan helyen él,
                   ahol az emberek nem érnek rá gondolkodni, álmodozni, lehunyt szemmel figyelni.
                   Ámde mi itt mindenre ráérünk, és a valóságban látjuk közelgő éjszakai
                   álmainkat.
             </p>
-            <p>
+				<p>
                Mert az álmok valahol messzire laknak egy tartományban, ahonnan
                   estére szétrepülnek a vadkacsákkal. Leszáll az udvaromra a vándormadár pelyhe, és
                   messzi idegen országokban járok álmomban, aranysárga palotákba megyek ki és be,
                   kék hegyek állnak látóhatáron, és a hegyeken finom rajzú tornyok, bástyák
                   alkonyati álomban szürkülnek.
             </p>
-            <p>
+				<p>
                Majd egy régi utcában járok, ahol életemben soha nem voltam, ahol a
                   százesztendős házak kis ablakai kíváncsian, sandán nézegetnek rám. Valaha erre
                   szállottak el a vadkacsák, mielőtt a nyírségi vadvizekre értek volna. S innen
                   tudom én azt az utcát, amelyben maga járt talán...
             </p>
-            <p>
+				<p>
                - De az útra kelő álmok felkapaszkodnak az elkésett szénásszekerekre,
                   és a széna közé rejtőzve érkeznek meg a sötétség beálltával az udvaromba, így nyár
                   vége felé sokat álmodunk piros hasú dinnyével, palackszínű szőlővel, loncsos
@@ -2978,7 +2957,7 @@
                   a nyelvünkön, és a kezünk fényesre csiszolja a hamvas szilvákat. - Én az esztendő
                   e szakaszában mindig gulyást főzök álmomban.
             </p>
-            <p>
+				<p>
                De nemcsak kocsin jönnek ide az álmok, hanem megérkeznek a vándorlók
                   lyukas kalapjai mellett, amikor az őszi szél úgy cseveg, mint a szarka a
                   sövényben. Egy karéj kenyérért egy kalapbillentéssel olyan álmokat hagynak itt a
@@ -2991,7 +2970,7 @@
                   száguldozik a távoli mezőkön, és szinte házasságra lépünk a mulattató tűzzel,
                   amely nem alszik ki a kemencében: ez az őszi álmok ideje.
             </p>
-            <p>
+				<p>
                Vásároskocsikat látunk a mély sárban - mert hisz azok errefelé
                   sohasem jönnek, és lekonyult bajszú vásárosok, kendőbe burkolt asszonyok
                   álldogálnak a csurgó eresz alatt: ezek a látogatóink, akik álmainkban arról
@@ -3007,7 +2986,7 @@
                   semmit a holtak szagolgatásából, azt hiszik, hogy nekik más szaguk lesz, ha
                   bevégezték futkározásukat.
             </p>
-            <p>
+				<p>
                De mi nem álmodunk soha sarokból megszólaló vándorbotokkal, se a
                   padláson szárazan nyikorgó utazócsizmákkal, se lengő kútostorral, amely fejbe
                   vágja az éjszakai csavargót... Álmodunk nagy teknőkkel, majorannával, sóval,
@@ -3020,19 +2999,19 @@
                   lovú lakodalmas kocsikkal, hosszú öregséggel és egy nyárfával, amely alatt majd
                   koporsónk fekszik.
             </p>
-            <p>
+				<p>
                És ezekben az álmokban, ha magát látom, mindig oly ifjúnak tűnik fel
                   előttem, mint az újhold sarlója.
             </p>
-            <p>
+				<p>
                Az én álmaimban nem múlott el tíz esztendő, de még talán egy egész
                   nap sem azóta, mióta utoljára láttuk egymást.
             </p>
-            <p>
+				<p>
                Ifjan, naivan, áhítatosan állong maga felettem, mint Szent György
                   lovag a pécsi templom oltárképén, amikor az álom ideje elérkezik.
             </p>
-            <p>
+				<p>
                A hajába még nem vont nyomot a téli szánkó, szeme fényét még nem
                   törte meg annak a sok embernek, ismerősnek, ismeretlennek a tekintete, amely mind
                   ellopott fényességet a maga szeméből, a homlokán nem utaznak varjak és kis
@@ -3042,50 +3021,50 @@
                   húszesztendős marad. Az enyém volt... S az enyém, bármi történt azóta a világban,
                   magával és mással.
             </p>
-            <p>
+				<p>
                S ha itt maradna: bizonnyal visszatérne elillant ifjúsága, mert én
                   addig szólongatnám, addig hívogatnám, addig babonáznám, míg a valóságban
                   visszatérne a régi lelke, amely jó és nemes volt s olyan egykedvű, mint a
                   madárdal.
             </p>
-            <p>
+				<p>
                Hiszen azt is el lehetne felejteni, ha tíz esztendeig a tömlöcben ült
                   volna...
             </p>
-            <p>
+				<p>
                Juliska elhallgatott, s észrevétlenül igyekezett megtörölni a szemét,
                   mintha szívből sajnálná azokat, akiknek az álmokban nem lehet részük. A
                   besötétedett útra nézett, amelyről már elszökött a szél, mint egy hím kutya.
             </p>
-            <p>
+				<p>
                - Nézze, ott jön már a piszkafa, amely az álmokat hozza, és
                   bedugdossa a kéményeken.
             </p>
-            <p>
+				<p>
                Én nem láttam semmit. De nem szóltam. Ám az öreg csősz tán észrevett
                   valamit, mert felcihelődött a fal mellől.
             </p>
-            <p>
+				<p>
                - Mióta nincsen kislutri, azóta nem álmodtam semmit - dörmögte. - Mi
                   a fenének álmodjon az ember? Arról, ami volt, nem érdemes egyik oldalunkról a
                   másikra se fordulni. Arról pedig, ami lesz: csak a madarak tudnak, mert ők látják
                   jönni az időváltozást.
             </p>
-            <p>
+				<p>
                Juliska lecsüggesztette a fejét, s álmodozva, barnán, igénytelenül
                   üldögélt a nyárvégi estén, mint a jó Istennek legkisebb szolgálóleánya, csendesen
                   szótagolva mondta:
             </p>
-            <p>
+				<p>
                - E hét végén lesz Mária napja, holnap jönnek erre a búcsúsok...
             </p>
-            <p>
+				<p>
                - Szeretne elmenni a búcsúsokkal? - kérdeztem.
             </p>
-            <p>
+				<p>
                - Mária fecskemadaraival...
             </p>
-            <p>
+				<p>
                - Majd alszunk rá egyet - vélekedett az öreg csősz. - Már mondtam,
                   hogy ha valamit elveszítettünk, azt hiába keressük. Csak akkor találjuk meg, ha az
                   is akarja, hogy megtaláljuk, amit elvesztettünk... Én például szegény ember
@@ -3094,28 +3073,28 @@
                   Visszajött a pipa onnan, ahol volt. Visszajött magától... Az elveszített dolgok
                   azt jelentik, hogy kedvük van a vándorláshoz. Van ez így az emberrel is.
             </p>
-            <p>
+				<p>
                A csősz elballagott a sötétben. Mi tovább hallgattuk a tücsök
                   ciripelését.
             </p>
-            <p>
+				<p>
                - Ígérje meg, hogy nem felejti el, amit az első éjszakán a fedelem
                   alatt álmodott, s elmondja nekem - esengett Juliska.
             </p>
-            <p>
+				<p>
                A fiú már aludni ment. Égy nagy csillag állott a látóhatáron, mint
                   egy lokomotív szeme, amely az álmok országába viszi a lelkeket.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A környékbeli tücskök
             </head>
-            <p>
+				<p>
                Fecskék, verebek szólaltak, körülnéztem, mint egy hajótörött, aki
                   idegen szigetre került.
             </p>
-            <p>
+				<p>
                Vannak olyan reggelek, amikor az ember hajlandó volna elfelejteni
                   mindent, ami odáig történt vele. Ezek az újjászületés reggelei, amikor a Bánat
                   elment csavarogni éjszaka valamerre, és a kakaskukorékolásra nem talált haza.
@@ -3128,7 +3107,7 @@
                   határba, ahonnan majd lesoványodva, megverve tér vissza, mint egy eltévedt házőrző
                   komondor?
             </p>
-            <p>
+				<p>
                Ismétlem, vannak reggelek, amikor az ember elfelejti a könnyeket,
                   amelyeket látott; a bánkódó arcokat, amelyek, mint szellemek körülvették őt
                   magányában, a kétségbeesés sikoltásait, amelyek úgy ficánkoztak benne, mint a
@@ -3136,32 +3115,32 @@
                   mint hegyek mögött üvöltözik a szél; a hamurakást a szívében, amely évről évre
                   nagyobbra növekszik.
             </p>
-            <p>
+				<p>
                Juliska benyitott az ajtón, mintha jóságos szemű galambokat hozott
                   volna a vállain. Rozmaring illata és a friss kenyér szaga keveredett a
                   mozdulataiba. Az a jószívű, derék menyecske volt, akiről a magányos vadász az
                   erdők kunyhójában álmodozik.
             </p>
-            <p>
+				<p>
                - Nos, mit álmodott?
             </p>
-            <p>
+				<p>
                - Álmodtam kancsó mellett üldögélő kántorral, akinek kapca volt a
                   lábán.
             </p>
-            <p>
+				<p>
                - Nagyon jó álom - felelte Juliska. - A kancsó általában vidám házat
                   mutat. A kántor dínom-dánomot. A kapca utazás jele. Ugye, azelőtt nem voltak ily
                   víg álmai? Álmodik még maga kantárral is, ha megszokja a házamat.
             </p>
-            <p>
+				<p>
                - Kantárral?
             </p>
-            <p>
+				<p>
                - Az a legjobb - felelt meggyőződéssel Juliska. - Az nagy uraságot
                   mutat.
             </p>
-            <p>
+				<p>
                A pálinkának, amit ágyamhoz hozott: olyan íze volt, hogy ifjúkori
                   szüretek jutottak eszembe, midőn kiszívott tajtékpipa színe van a falevélnek, dér
                   hagyta könnyed lábnyomát a borház felett, kisüstön főzik a szeszt hozzáértő
@@ -3174,7 +3153,7 @@
                   nélkül, csupán örömökre felépítve folydogál az élet patakja: mindenki száz
                   esztendeig fog élni, és vénségére fiatal leány mellett melegedik.
             </p>
-            <p>
+				<p>
                A szalonna, amellyel megkínál Juliskám: kamrák andalgó csendjét
                   vonták emlékezetembe, amelyekben farkasétvággyal időzött ifjúkorom téli
                   délutánokon, amikor hófúvás porzott, a kertek felett hókísértetek csatáztak, a
@@ -3184,7 +3163,7 @@
                   az erőpróbákkal, mint az ifjúkor telhetetlenkedik a sohasem elegendő
                   szerelemmel.
             </p>
-            <p>
+				<p>
                És a friss kenyérnek illata: hosszan elnyúló, renyhén álmodozó,
                   pacsirta hangjára álmodozva figyeltető búzaföldek szélét vonta elém. Ahol
                   cifrálkodva áll a sárga napraforgó, cigányleány piroslik a dűlőúton, görögdinnye
@@ -3199,20 +3178,20 @@
                   leányzói futottak át a mezőkön, hogy hírül adják a molnárnak: bekövetkezett már az
                   este, állítsa meg a kimelegedett malomköveket.
             </p>
-            <p>
+				<p>
                És a szívességben, amellyel kínált Juliska: hajlandó voltam egy egész
                   nemzet erényét látni; Szűz Mária leányai, a magyar parasztmenyecskék odaadó jósága
                   csillogott a szemében, mint a gazdagon termő földek virágzása.
             </p>
-            <p>
+				<p>
                A dűlőúton ekkor felhangzott az ének, mintha mind egyesültek volna a
                   pacsirták, fecskék, verebek, barázdabillegetők, öreg varjak, hangos szarkák, hogy
                   elfújják a búcsúsok örökös imádságát:
             </p>
-            <p>
+				<p>
                - Mária, segíts!
             </p>
-            <p>
+				<p>
                Kalászhajjal, Búzaszentelő-napjáról folytatott áhítattal, a
                   Szentháromság nyílt szemével, mezítláb, mint a madarak, napraforgó gerincüket
                   meghajlítva, az imádságtól, fáradalomtól felmagasztosulva mentek csoportban az
@@ -3222,13 +3201,13 @@
                   egyszerű szívüknek kapui boldogan kitárultak, azon malasztos vendég várásában. Aki
                   e napon, mielőtt a nap leszállna, lelkükben kvártélyt vesz.
             </p>
-            <p>
+				<p>
                Az Úr Jézus és a barna Szűz Mária mendegélt előttük láthatatlanul a
                   homokon. A napsütésben ők már látták a máriapócsi tornyokat. Siettek, mint a
                   gazellanyáj. A falevelekről az éjszakai eső cseppjei rájuk hullottak, mintha a
                   vízcseppek is ott akarták volna befejezni múlandóságukat, ahol Mária lakik.
             </p>
-            <p>
+				<p>
                - Mária, segíts! - énekelték fáradhatatlanul, mintha erre a búcsújáró
                   napra volna feltéve jövendő életüknek minden boldogsága, egészsége, a kis falusi
                   házak épsége (ahonnan hajnalhasadtával elindultak), az alva hagyott gyermekek
@@ -3236,20 +3215,20 @@
                   bőgése, a tyúkoknak kotkodácsolása. Minden e búcsújáró naptól függött. A szívük
                   úgy szárnyalt Mária égi köntöse felé, mint a menekülő madarak a toronyra.
             </p>
-            <p>
+				<p>
                Ámde az öreg búcsúember, aki eddig a csapat élén haladott, a zászló
                   közelében, házunk előtt elmaradt a csapattól, és házunkba tért, mintha ott valami
                   tennivalója lett volna.
             </p>
-            <p>
+				<p>
                - Kozsárka meglátogat minket! - szólalt meg illetődötten Juliska. -
                   Istenem, hol van a fiam, hogy el ne mulassza az áldást!
             </p>
-            <p>
+				<p>
                A fiú az istállóból előkerült, amikor az öreg szent ember
                   letelepedett a székre, és megízlelte az elébe tett italt.
             </p>
-            <p>
+				<p>
                - Csak hadd menjenek előre az asszonyok, majd utolérem őket, mert én
                   úgy járok, mint a szél - szólt az öreg kezével legyintve. - Mi sohasem fáradunk el
                   a járáskelésben, nem öregszünk, nem betegszünk, meghalni is akkor szoktunk, ha
@@ -3259,19 +3238,19 @@
                   azóta az ég gyermeke vagyok, pócsi búcsú-vezér. Azóta nem aludtam ágyban, mindig
                   csak kemény földön.
             </p>
-            <p>
+				<p>
                S a mi Urunk, Jézusunk tiszteletére csak akkor eszem húst, ha azzal
                   jámbor emberek megkínálnak.
             </p>
-            <p>
+				<p>
                Juliska csendesen kiment a szobából, és fehér kendő alá rejtett hideg
                   hússal tért vissza. De a búcsúvezér eltolta magától az ételt.
             </p>
-            <p>
+				<p>
                - Ma nem - mondta csendesen és határozottan. - Ma böjt van. Majd ha
                   megtisztálkodott a lelkem Máriapócson, akkor nyúlok ételhez.
             </p>
-            <p>
+				<p>
                S csendesen ingatta őszbe borult nagy fejét, kerek gyermekszemeivel
                   pedig oly világosan, fénylően nézett reánk, mint a víz néz a napsütésbe. Elhittem
                   ebben a percben, hogy bűnös embernek nagy megnyugvás lehet ilyen világos,
@@ -3287,31 +3266,31 @@
                   hová lehetett ez a jó, áldásos szem az emberek vadállatias tekintetei között?
                   kérdezzük magunkban, mikor többé már nem látjuk őt.
             </p>
-            <p>
+				<p>
                De most még itt volt Kozsárka, és szeme áldást sugározva pihent
                   rajtunk. És mi nem tudtunk néki semmit sem adni, mert nem fogadott el egyebet egy
                   ital vízen kívül.
             </p>
-            <p>
+				<p>
                - Nincs valami baj a háznál? - kérdezte körültekintve. - Tavaly,
                   mikor erre jártam, jobb kedved volt, Juliska. Most aggodalmasnak látszol, mintha
                   kételkednél a mi Urunk végtelen jóságában.
             </p>
-            <p>
+				<p>
                - Nem kételkedem - rebegte Juliska. - Csak néha rám jön valami fájás.
                   Nem tudom, hol fáj, nem tudom, miért szomorodom el, csak úgy jön valami, aminek
                   csak az árnyékát látjuk, mint a füstnek.
             </p>
-            <p>
+				<p>
                - Majd elszáll a füst, s vele megy árnyéka - felelt az öregember. -
                   Úgy van az a világban, hogy nem járnak egyformán az órák. Van órája a részeg
                   embernek és a bolondnak. Az ebédnek és a halálnak. A fiatalságnak és az
                   öregedésnek. Vajon melyik órát látod te most, Juliska?
             </p>
-            <p>
+				<p>
                - Azt hiszem, a fiatalság órája már elmúlt.
             </p>
-            <p>
+				<p>
                - Akkor sem kell kétségbeesni. Nagyon szép órája van ám az
                   öregedésnek. A szél már nem tud úgy hazudni, mint azelőtt, az igaz; a kéményből
                   elszökik a tilinkós, aki azelőtt nem hagyott aludni, ez is igaz; nemkülönben
@@ -3322,7 +3301,7 @@
                   hallja meg a szót. Gyere velem Pócsra, leányom, és többé nem látod árnyékát a
                   füstnek.
             </p>
-            <p>
+				<p>
                Harminc esztendeje vezetgetem én már a fehér Tisza mellől az én
                   asszonyaimat a pócsi Szűzanyához. Sokan mentek el, akiknek úgy fájt a szívük, hogy
                   támogatni kellett őket a nagy útban. Másoknak kővé változott a bánat a kebleikben.
@@ -3331,36 +3310,36 @@
                   mikor hazafelé jöttünk, a sánták elöl mentek, a vakok dicsérték a kék eget, a
                   szívbajosok úgy kacagtak, hogy a foglyok felrepültek a mezőkön.
             </p>
-            <p>
+				<p>
                Az öregember beszéde alatt Juliska természetesen könnyezni kezdett.
                   Jó sírás volt ez. Fényesebb lett utána a szeme.
             </p>
-            <p>
+				<p>
                Szótlanul mutatott a fiúra, aki az asztalra könyökölve, nyitott
                   szemmel figyelt a búcsú-vezér szavaira.
             </p>
-            <p>
+				<p>
                - Hát én mikor találom meg az apámat? - kérdezte.
             </p>
-            <p>
+				<p>
                Az öregember felnyitotta a szemét, mintha csak most emlékezett volna,
                   hogy mi keresnivalója van neki ennél a háznál.
             </p>
-            <p>
+				<p>
                - Már látom, hogy nemsokára meg kell szólítanom a komámat, a halált,
                   amikor találkozom vele. Rövidülnek az eszem nappaljai. Lám, egészen elfelejtettem,
                   hogy a fiad, Juliska, az apját keresi... Pedig tudtam, mert rágondoltam, amikor
                   házadat ismét megláttam az országúton.
             </p>
-            <p>
+				<p>
                - Hát mikor? - kérdezte a fiú jól előrehajolva, mintha az ezüsthasú
                   halat lesné a vízben.
             </p>
-            <p>
+				<p>
                - Akkor, midőn éppen olyan leszel, amilyen az apád. Akkor találkoztok
                   egymással, és többé soha sem váltok el. Mikor az apádnak szüksége lesz rád.
             </p>
-            <p>
+				<p>
                Az öreg búcsús ember felcihelődött. Kimustrált keménykalapját
                   (amelyet bizonyosan a tekintély kedvéért hordott, hisz még az ilyen szent embernek
                   is lehet gyengéje) fejére illesztette, kezébe vette a keresztformájú vándorbotot,
@@ -3368,22 +3347,22 @@
                   országúttal és útonjáró emberrel ismerkedtek meg. Keresztet vetett magára,
                   keresztet vetett ránk, és elment.
             </p>
-            <p>
+				<p>
                S a következő percben, mintha ugyanazon a helyen, a napraforgóknál,
                   ahol az imént abbahagyták az asszonyok az éneklést, felhangzott a pacsirták,
                   fecskék és verebek hangján:
             </p>
-            <p>
+				<p>
                - Mária, segíts!
             </p>
-            <p>
+				<p>
                ...Egyedül kószáltam a réten, az éren, a nádasban, a jó kis házat,
                   ahol új tanyát vertem, elhagyogattam reggelenként, mint a madár fészkét. Addig
                   mendegéltem, amíg a tanyaház kormos kéménye (amely bozontos hajzatú volt az
                   egykori gólyák kapargálásától) eltűnt a látóhatáron. S akkor elgondolkoztam a
                   hangyákon, akikhez férfifejjel visszatértem gyermekkori játékot folytatni.
             </p>
-            <p>
+				<p>
                Juliska és a fiú ottmaradtak a fészekben, s mindaddig utánam néztek,
                   amíg láthattak. Úgy tapadt a szemük sugara a vállamhoz, hátamhoz, mint a napsütés.
                   Ha lecsapna egyszer a felhők közül a mesebeli griffmadár, hogy karmaival
@@ -3391,13 +3370,13 @@
                   De nem jött griffmadár értem, nem jött levél utánam. Elfelejtették a világon, hogy
                   voltam.
             </p>
-            <p>
+				<p>
                ...Igen, most már bevallom, hogy mindig az volt a vágyam, hogy
                   farkaskalandos téli éjszaka után egy kis szánkó kas-farában agyonhajszolt lovakon
                   benyargaljak egy ismeretlen kis városkába, kapukulcsot szerezzek egy vasrostélyos
                   házhoz, amelyben ifjú nőt s gyermeket rejtegetek...
             </p>
-            <p>
+				<p>
                ...Utazásaim közben, füstös állomásokon, akasztófa-zsírral megkent
                   asztalokon, rabvallató bor mellett néha hallgattam a szél üvöltözését és a zsoldos
                   katona, a vándorlegény, a csavargó komédiás előadásait a nőkről és a nők
@@ -3418,7 +3397,7 @@
                   a vándorkomédiás felkiabál a felhők hátán üldögélő szüzekhez, és a csavargó minden
                   elhagyott faluról és városról erkölcstelenséget hirdet.
             </p>
-            <p>
+				<p>
                S ilyenkor mindig feltettem magamban, hogy csak olyan nőhöz leszek
                   hűséges, akire én magam zárom az ajtót. Valahol, valamerre keresek egy régi házat,
                   ahol kedvemre elboronghatok estenden a tűz előtt, ahol oly csendben élek, hogy
@@ -3436,7 +3415,7 @@
                   zugot, ahol a nők oly megtisztultan élnek, mint emlékbe adott virágaik a biblia
                   lapjai között...
             </p>
-            <p>
+				<p>
                Íme itt volna a hely, Juliska tanyája, kedvem mégis szomorú, mintha
                   ráfújt volna a csalódás. Való volna a régi mondás, hogy sohasem találjuk meg azt a
                   helyet, ahol a boldogság lakik? Csak futkározunk vagy ballagunk egyik határból a
@@ -3451,11 +3430,11 @@
                   házában mindig táncolnak. Akik otthagyták a gazdag nemzetesasszonyt, és egy
                   vándorkomédiásné festékes skatulyája után beutazgatták a fél országot...
             </p>
-            <p>
+				<p>
                A hervadt Ónodi-kisasszonyok legalább így ítélték meg a helyzetet,
                   midőn egy napon kóborlásaimban elvetődtem hozzájuk.
             </p>
-            <p>
+				<p>
                - Maga már nem az az ember, N. N. - mondta bizalmasan Tini kisasszony
                   -, akiről Juliskánkkal téli délutánokon beszélgettünk. Sokkal fiatalabb, mint
                   gondoltuk. Maga nem elégedne meg azzal, hogy nagyvásárkor menjen csak
@@ -3463,17 +3442,17 @@
                   legnagyobb korhelyekkel, és a lovak meggémberednének a hidegben a vendéglő előtt.
                   Olyan lenne, mint Zathureczky volt. Nemde, Zsanett?
             </p>
-            <p>
+				<p>
                Zsanett tetőtől talpig végignézett, mint egy sorozó orvos.
             </p>
-            <p>
+				<p>
                - Tévedsz, Tini. Sokkal öregebb, mint hittük. Az ilyen minden hájjal
                   megkent, vénülő férfiúnak nemcsak azon jár az esze, hogy a padlás létrája alá
                   álljon, amikor a szolgálók diót hordanak, hanem azon törné a fejét, hogyan
                   szöktesse meg ezt vagy amazt a fiatal leányt a környékről. Mint Kunfalvi a svájci
                   nevelőnőt...
             </p>
-            <p>
+				<p>
                Mint későbben észrevettem, az Ónodi-kisasszonyok számára két férfi
                   létezett a világon. Tininek Zathureczky volt az ismerőse, míg Zsanett példáit
                   Kunfalviról vette. Kár hogy mind a két gavallér már meghalt az elmúlt században;
@@ -3482,7 +3461,7 @@
                   hajdanában oly gyakran csalogattak nőket... (És a sűrűségből többé nem jöttek
                   vissza.)
             </p>
-            <p>
+				<p>
                Az Ónódi-kisasszonyok Boldogfalván laktak, ahol úgy ismerik a
                   férfiakat, mint akiknek reggeltől reggelig nincs egyéb dolguk, mint
                   folyton-folyvást nőkre gondolni, nőknek cselvetéseket feladni, kelepcéket
@@ -3493,7 +3472,7 @@
                   mert a szobák oly kicsinyek és alacsonyak voltak, hogy azokban csak álmodni
                   lehetett egy szebb jövőről.
             </p>
-            <p>
+				<p>
                Innen mentek el a múlt századbeli gavallérok. Z. egy céda kocsmárosné
                   karjain, K. a svájci nevelőnőt gyors lovakon szöktetve, s bizonyára azóta is
                   járják a világot új kalandok, futó ismeretségek után, szíveket törnek össze,
@@ -3502,17 +3481,17 @@
                   mindig a háziasszony meghódításán fáradoznak, virágokat küldenek, párbajokat
                   vívnak - amint az általában a férfiak szokása.
             </p>
-            <p>
+				<p>
                - A férfiak olyanok, mint a rókák - vélekedett Tini. - Ketrecbe kell
                   őket zárni, hogy meg ne szökjenek. Minden asszony bolond, aki hagyja, hogy
                   lecsapják a kezéről a férfiát. Én láttam boglyas dühöngő asszonyokat a nagykállói
                   elmegyógyítóban, akiknek nem volt más bajuk, minthogy a férfi megszökött mellőlük.
                   Sohase bolondultak volna meg, ha vigyázni tudnak.
             </p>
-            <p>
+				<p>
                Zsanett szakértőén legyintett:
             </p>
-            <p>
+				<p>
                - Az asszonyokban van a hiba. Elbizakodnak hisznek és megesküdnek,
                   hogy a férfiak szerelme örökké tart. Elfelejtik, hogy a megunt szerelem elszökik a
                   kéményen át. A magaunt férfi elszökteti az öreganyját is. Változatosság kell a
@@ -3522,7 +3501,7 @@
                   visszatérne Kunfalvi, elhoznám mulattatására a kövér unokatestvéremet, Katicát,
                   akinek egyszer itt szép szavakat mondott, nyári estén.
             </p>
-            <p>
+				<p>
                Nem feleltem a kisasszonyok szavaira, mert annyi eszem volt, hogy
                   lássam: ismerni óhajtanák véleményemet. Boldogfalván életbevágó jelentőséget
                   szokás tulajdonítani az elejtett szavaknak, ezért azt véltem, hogy jobb hallgatni
@@ -3533,7 +3512,7 @@
                   kártyáztak rá, míg az ispán megunta a jólétet... “Úgy bántunk vele, mintha a
                   magáéban volna! Visszaszökött öreg feleségéhez, aki mindennap megverte.”
             </p>
-            <p>
+				<p>
                Erre sem szóltam, csak fejemet csóváltam az érthetetlen eseten. Tini
                   tehát tovább folytatta a sopánkodást, hogy Boldogfalva nem fekszik a nagy országút
                   mentén, ritka madár erre a vendég, a legátus, a vándorló. Nem lehet az igaz, hogy
@@ -3541,25 +3520,25 @@
                   erkölcsös nők laknak. Könnyű dolga van például egy olasz kocsmárosnénak, ahol a
                   vándorlók leisszák magukat, de Boldogfalván savanyú a vinkó.
             </p>
-            <p>
+				<p>
                - És ön mit szeret? - kérdezte Zsanett, s előkelőség céljából
                   elővette lorgnette-ját, amelynek egyik üvege hiányzott.
             </p>
-            <p>
+				<p>
                - A napfelkeltét a szabadban - feleltem.
             </p>
-            <p>
+				<p>
                Csodálkozva néztek rám, mint valami bolondra. Tini türelmetlenül és
                   epésen szólt közbe, mintha igen sértő dolgot mondtam volna.
             </p>
-            <p>
+				<p>
                - Maga nyilván múlt századbeli ember, amikor a nőknek udvarlására a
                   férfiak a mindennapi természetből vették képeiket. A nagyanyánk idejében volt az
                   divatban, hogy a férfiak a csillagokat, a holdakat rángatták le az égről, a
                   mezőkről, elővették a kék lenvirágot, a tavasz első lepkéjét, a patakból a könnyed
                   pisztrángot. S a nők úgy tettették magukat, mint a lucernásban ülő nyúl.
             </p>
-            <p>
+				<p>
                - Szemérmes, felejthetetlen korszak - feleltem meggyőződéssel. - Csak
                   nézzük meg a fotográfiákat, leveleket, sőt divatlapokat, amelyek a múlt századból
                   maradtak hölgyeinkről. Egy másik ország, egy messze eltávolodott tartomány alakjai
@@ -3572,19 +3551,19 @@
                   érkeznek meg. Ki látta nagyanyáink lábát, karját? Igazában csak az, aki a
                   koporsófedelet rájuk szegezte.
             </p>
-            <p>
+				<p>
                Zsanett sziszegett:
             </p>
-            <p>
+				<p>
                - Maga a fővárosból jött közénk? Talán a Nemtudom utcában lakik ott?
                   Sohase járt Andrássy útján, amelyet azelőtt Sugár útnak neveztek? Úgy beszél, mint
                   egy falusi mester. Kunfalvi szalongavallér volt.
             </p>
-            <p>
+				<p>
                - Talán nem is hallotta még életében a Jambónótát? - kérdezte
                   gúnyosan Tini, a jambót zsambónak ejtvén.
             </p>
-            <p>
+				<p>
                - És Küry, Pálmai, Hegyi ismerősei önnek, mint Kunfalvinak, aki
                   órákig tudott beszélni Pestről? Ó, mi mindent tudunk, ami Pesten történik, holott
                   csak Boldogfalván lakunk. Tudjuk, hogy lett öngyilkos Nagy Imre, és hallottuk,
@@ -3594,35 +3573,27 @@
                   őrizzük. Nagyon jól vagyunk értesülve arról, hogy ki az a nagy művésznőnk, aki
                   pezsgőben szeret fürdeni, és Szapáry Pál mennyit veszített a kaszinóban. Már csak
                   néha levelezünk Dura Máté
-               
                   Szerelmesek
-               
-               
                   könyvé
-               
                -ből; modernebb írók műveit forgatjuk, mint Veresné Gaál Karolina.
                   Tini Alba Nevis verseiért rajong, míg magam (persze Kunfalvi neve alatt)
                   előfizetője vagyok a
-               
                   Magyar
-               
-               
                   Figaró
-               
                -nak. Itt kiment a divatból az álmoskönyv, uracskám, azért bánjon
                   velünk úgy, mint modern hölgyekkel illik.
             </p>
-            <p>
+				<p>
                - Talán azt sem tudja kicsoda vizenkei Török-Gyolcs Kazimir? - vágott
                   közbe Tini.
             </p>
-            <p>
+				<p>
                Szelíden tiltakoztam.
             </p>
-            <p>
+				<p>
                - Valóban nem ismerem a kiváló férfiút.
             </p>
-            <p>
+				<p>
                - Ő pedig mindenkit ismer a fővárosban. Két esztendő előtt utazott
                   erre egy barátja kíséretében, aki állítólag gróf volt, de nem használta címerét.
                   Demokrata volt az istenadta, mint Kardhordó Árpád. Esőben, sárban, hidegben
@@ -3631,41 +3602,33 @@
                   védnöksége alatt volt alakulóban. Ha nem tudná: a felvidéki akció célja volt az
                   ottani magyarság megmentése.
             </p>
-            <p>
+				<p>
                Természetesen nem vontuk ki magunkat a honleányi kötelesség alól.
                   Megrendeltük a könyvet. Csak az a kár, hogy
-               
                   A zsidók egyetemes
-               
-               
                   történeté
-               
                -t kaptuk kézhez, amiért még ma is pörben vagyunk. Török-Gyolcs
                   Kazimir egy napig volt vendégünk és mindent megtudtunk a fővárosi életből. Tőle
                   hallottuk, hogy Komlóssy Emmát megszöktette az öreg Pálffy gróf, és morganatikus
                   házasságot kötöttek, amit úgy szokás kötni, hogy a vőlegény bal kezét nyújtja a
                   nőnek.
             </p>
-            <p>
+				<p>
                Hasonló történetei napestig voltak a két Ónodi-kisasszonynak. Úgy
                   éreztem magam, mintha nem is Budapestről, hanem a holdból érkeztem volna. A
-               
                   Színházi Hírnök
-               
                 és a
-               
                   Magyar Bazár
-               
                 eljegyzési híreit sok évfolyamon át megtanulták. A pikantériákból
                   gyűjteményük volt, mint az ő korukban levő férfiak a fidibuszt szokták gyűjteni. A
                   petróleumlámpa mellett kifogyhatatlanul beszéltek grófokról, színésznőkről,
                   kalandorokról.
             </p>
-            <p>
+				<p>
                - És hogy is hívták a bárónőt, akit a majma megharapott? - kérdezte
                   Tini kisasszony, midőn már félálomban voltam.
             </p>
-            <p>
+				<p>
                A vendégszoba fala tele volt ragasztva újságból kivágott képekkel,
                   kottaképekkel, divatlapok mellékleteivel. A Gigerli-mars kottáján sétáló
                   gavallérok, Vidlicskay József karikatúrája, Dura Máté és Jakab Ödön ifjúkori
@@ -3673,66 +3636,66 @@
                   mintha most érkezett volna a posta, csupa nagyszerű hírrel. Az akácfák között
                   fénylő oszlopai feküdtek a napsugárnak. Valaki megkopogtatta az ablakot.
             </p>
-            <p>
+				<p>
                György, a fiú állott odalent.
             </p>
-            <p>
+				<p>
                - Hál’ istennek! - kiáltottam. - Csakhogy nem feledkeztél meg
                   rólam.
             </p>
-            <p>
+				<p>
                - Tudom, hogy ez nem magának való hely. Nyakamba vettem
                   kakaskukorékoláskor a lábomat, és most itt vagyok, hogy jöjjön haza.
             </p>
-            <p>
+				<p>
                A házban még mindenki aludt. A kisasszonyok valószínűleg most
                   álmodják meg mondanivalójukat. A vadszőlő hervadozott a verandán, mintha azokra a
                   régi vidám vendégekre gondolna, akik itt valamikor piros borral a kezükben
                   üdvözölték a nyári hajnalokat, a cigány tust húzott, és a vendégek elmentek pörgő
                   kocsikerekeken.
             </p>
-            <p>
+				<p>
                György sürgetett:
             </p>
-            <p>
+				<p>
                - Ne sokat gondolkozzon. A kisasszonyok felébrednek, és akkor nincs
                   menekvés. Elhíresztelik, hogy a postamesterné után szökött, aki tíz év előtt tűnt
                   el a faluból. Eddig minden vendégük a postamesterné után illant.
             </p>
-            <p>
+				<p>
                Régen volt ugyan, hogy ablakokon kiugráltam, mielőtt megvirradt
                   volna. Most félelem és szégyenkezés nélkül kapaszkodtam fel az ablakdeszkára, hisz
                   odalent állt György, aki megvédelmez minden gyanútól. Lábujjhegyre ugrottam, mint
                   a legboldogabb korban.
             </p>
-            <p>
+				<p>
                György a szérűskerten át vezetett ki a mezőkre, ahol már forrt az
                   élet konyháján a madarak ennivalója, a madárijesztő teleitta magát harmattal, az
                   utakat elzáró sorompófák a magasba emelkedtek, mintha a tájat kémlelnék. A régi
                   szélmalom romjai boldogan sütkéreztek a felkelő napban, miután elfelejtették az éj
                   kísérteteit, a baglyokat, denevéreket.
             </p>
-            <p>
+				<p>
                Az országúton állt a diadalmas, boldog élet. Hosszú léptekkel mentünk
                   hazafelé.
             </p>
-            <p>
+				<p>
                A tanyaház udvarán Juliska állott, és a tenyerét a szeme felé emelte,
                   mintha közelgő betyárokat nézne.
             </p>
-            <p>
+				<p>
                - Hol kóboroltatok? - kérdezte mosolygósan.
             </p>
-            <p>
+				<p>
                - Egy kis budapesti postát hallgattam az öreg kisasszonyoktól -
                   feleltem -, s elhatároztam, hogy darab ideig nem megyek Pestre.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A régi szélmalom tücske
             </head>
-            <p>
+				<p>
                Ő ott lakott, ahol a veres hasú régi szélmalom állongott gyepes
                   halmon, mint valamely öreg vitéz, aki várából kirohant, hogy megállítsa az úton
                   járókat. A várat elvitte mögötte az idő, a halmot már benövögette a galagonya,
@@ -3748,7 +3711,7 @@
                   maga dombját, holott ellenségek már nem jártak erre, legfeljebb néma vándormadarak
                   húztak át a felhős égboltozat alatt.
             </p>
-            <p>
+				<p>
                Az ide vezető utat benőtte a gyom, mint magáról elfelejtkezett
                   öregember arcát a szakáll. Az élet kelepelő szekerei másfelé vették járásukat, a
                   szélmalom soha sem látta azokat az arcokat, amelyek mostanában mosolyognak ezen a
@@ -3757,17 +3720,15 @@
                   hajdanában megbeszélgettek az emberek a molnárral, nem jegyeztettek fel a
                   kalendáriumba, elröpültek azok a széllel.
             </p>
-            <p>
+				<p>
                Amint napról napra beljebb bátorkodott az őszi idő, mint a vén cigány
                   a kocsmába, mind többet jártam a szélmalomhoz, ahol egy kimustrált malomkövön
                   hosszan elüldögéltem, s azt a könyvet lapozgattam, amelyet ifjúkoromban szerettem.
                   Turgenyevtől a
-               
                   Vadász iratai
-               
                -t.
             </p>
-            <p>
+				<p>
                Néha, alkonyattal zaj hallatszott a tájra széttekintő tört szárnyak
                   felől. Mintha egy hang futott volna végig a malom tetején és belsejében. Valakit
                   tán látott a messzeségben a legmagasabb szárny, és erről gyorsan híradással volt.
@@ -3780,7 +3741,7 @@
                   amikor olyan emberhez kezdtem hasonlítani, aki majd ha megszólal, a saját hangját
                   sem ismeri meg?
             </p>
-            <p>
+				<p>
                Néha átvándorolt a tájon egy messzi falu harangszava, mint egy
                   eltévedt madár. Majd varjak károgtak, de nem láttam őket. A szél hajtott valamit a
                   mezőn, mint saját szakállára dolgozó vadászeb. Egy kukoricacsősz a legénykorára
@@ -3792,7 +3753,7 @@
                   ellenséges országba tévedt. Koppant a lehulló levél, mintha valakinek a múló
                   óraütését jelezné.
             </p>
-            <p>
+				<p>
                Itt barátkoztam meg Szomjas úrral, akit már régebben ismertem, és ő
                   is ismert, de csak olyanképpen, mint András napjának tudomása van József napjáról
                   a kalendáriumban, de sohasem találkoznak. Hallottam, hogy bogaras ember, de nem
@@ -3803,7 +3764,7 @@
                   nénéknél neveltet, Saroltának hívják, és olyan hosszú haja van, mint Csillag
                   Annának.
             </p>
-            <p>
+				<p>
                Szomjas úr nem messzire lakott a szélmalomtól egy hosszú földszintes
                   házban, amely régi időkben kasznárok, ispánok háza lehetett, mert címer nem volt a
                   kapun. Kis ablakok voltak a házán, amelyek észrevétlenül óhajtottak maradni e
@@ -3820,7 +3781,7 @@
                   réges-régen a föld alá költözött volna az az uraság, aki először viselte e
                   tetszetős öltözetet.
             </p>
-            <p>
+				<p>
                Hangja almáriumból hangzott, amelyet régen nyitottak ki. Mozdulatai
                   félszegek és szégyenkezők, mintha már nem tudná bizonyosan, mire tanította egykor
                   a táncmester. Felső fogai hiányoztak, ugyanezért a bajuszát lefelé szoktatta.
@@ -3828,20 +3789,18 @@
                   érdemes volt. Fekete zsinóron szemüveget hordott, amelyet duzzadt orrára
                   illesztett, és az üveg alatt megszelídült szeme.
             </p>
-            <p>
+				<p>
                - Olvasgatunk, olvasgatunk? - szólalt meg. - Azelőtt én is sokat
                   olvastam, az igaz, hogy németül, mert ifjú koromban külföldi iskolába járatott az
                   apám. Beszélni hamar elfelejtettem a németet, de az olvasást megszoktam, így a
                   Madách
-               
                   Ember tragédiájá
-               
                -t csak akkor élvezhettem, mikor Julius Lechner von der Lech németre
                   fordította. Kevés a petróleumunk, pedig olvasni csak éjszaka jóízű, mikor kopog
                   odakint az eső. Régebben bezzeg elég volt a tűz a kályhában, hogy téli estéken a
                   legapróbb betűket is elolvassam.
             </p>
-            <p>
+				<p>
                - Mikor én ide kerültem - mondta darab idő múltán, egy hosszú rab
                   szomorúságával -, nemigen akadt művelt ember a környéken, akivel érdemes lett
                   volna megismerkedni. Az egyik szomszédom éjjel-nappal részeg volt. Korán reggel
@@ -3853,12 +3812,12 @@
                   dőlt, és minden éjszaka azt álmodta, hogy az őrültek házába viszik. Nem lehetett
                   vele érintkezni.
             </p>
-            <p>
+				<p>
                (Én nem szóltam semmit, ámde jól tudtam, hogy ez az összeférhetetlen
                   Sonkoly senki más nem volt, mint maga Szomjas úr, aki hibáját szerette másra
                   kenni.)
             </p>
-            <p>
+				<p>
                - A másik szomszédom olyan sült bolond volt, hogy Mihály arkangyalnak
                   képzelte magát. Ellenállhatatlannak hitte magát, mindig a nők meghódításán törte a
                   fejét, és csupán azért nem indult el a gyümölcs leszakítására, mert nem volt
@@ -3869,11 +3828,11 @@
                   bolond volt mondom, azt hitte, hogy szép nők, akiket sohasem látott, véle
                   álmodnak. Lehet, hogy csak hímszamár képében.
             </p>
-            <p>
+				<p>
                (Csendesen bólintottam. Ez a Mihály arkangyal se lehetett messze
                   Szomjas úrtól. No de halljuk a harmadikat.)
             </p>
-            <p>
+				<p>
                - A harmadik szomszédomnak az volt a szerencsétlensége, hogy egyszer
                   megfordult Monte-Carlóban, néhány aranyat nyert, ám a nagyváradi Popper, aki abban
                   az időben az utazótársaságokat szervezte és vezette, még Egyiptomba is: indulást
@@ -3894,7 +3853,7 @@
                   valaha gazdag ember lesz. Lehet ilyen bolonddal érintkezni? - kérdezte Szomjas úr,
                   és erősen a szemembe nézett.
             </p>
-            <p>
+				<p>
                (Ez az utóbbi bolond szomszéd, ez volt az igazi. Szomjas úr, aki téli
                   időben hosszú leveleket írt Magyarországon mindenkinek, akinek a nevét hallotta,
                   aki nyert, örökölt vagy egyéb szerencsét csinált, s felszólította a társulásra a
@@ -3902,15 +3861,15 @@
                   felhívást, amelyben Szomjas úr a környéken részvénytársaságot óhajtott
                   szervezni.)
             </p>
-            <p>
+				<p>
                Természetesen: érdeklődtem a csalhatatlan szisztéma iránt... És
                   néhány nap múlva megismerkedtem Saroltával, akinek olyan hosszú haja volt, mint
                   Csillag Annának.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Én szisztémámat a monte-carló-i temetőben kezdtem felállítgatni,
                   mégpedig a sírköveken található évszámokból. Tulajdonképpen holt játékosok helyett
                   játszottam - kezdte Szomjas úr egy őszi délutánon a szélmalomnál, midőn a
@@ -3918,7 +3877,7 @@
                   tavaszmúlt embereké szokott lenni, különböző vonalakat és köröket vont a nedves
                   földre.
             </p>
-            <p>
+				<p>
                - Folytattam a játékot a halottak helyett, ott, ahol azok
                   abbahagyták. Akik öngyilkosok lettek, mert nem volt elég kitartásuk a szisztéma
                   végigjátszásához. Akik meggondolták a dolgot, és új haditervet eszeltek ki. Akik
@@ -3938,11 +3897,11 @@
                   mondhatok, uram, tervemről. Azt hiszem, így is többet árultam el, mint amennyit
                   szabad.
             </p>
-            <p>
+				<p>
                Megkérdeztem Szomjas urat, miféle sugallat vezette őt erre a
                   nyomra
             </p>
-            <p>
+				<p>
                - Nagyon egyszerű volt a dolog - felelt Szomjas úr, pontot téve a
                   földre pálcájával. - Életemben annyit imádkoztam hiába a keresztény Istenhez, hogy
                   Monte-Carlóba érve elhatároztam: szisztémát változtatok. A nizzai országúton áll
@@ -3954,17 +3913,17 @@
                   De, kérem, mindezt csak önnek mondtam el, mert az első perctől kezdve szokatlan
                   bizalmat előlegeztem önnek. Megfelel-e bizalmamnak, az később válik el.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Őszi délután Szomjas úr házában ültünk, abban a szobában, amelynek
                   fala tele volt írva mindenféle számokkal. Még a pókhálók alatt is számjegyek
                   látszottak vastag ceruzavonásokkal. Egy élet álma volt felírva a meszelt
                   falakra... Odakünn csörgött az eső, mint a halottak sírjaiban, akinek tudományával
                   Szomjas úr saját életét óhajtja megjavítani.
             </p>
-            <p>
+				<p>
                - Itt van a központi erő - mutatott Szomjas úr a falakra. -
                   Mindnyájan tudjuk, hogy egy központi erő tartja fenn a világot, a
                   csillagrendszert, a napot, az üstökösöket és pályáján a Földet. Nos, az én
@@ -3972,11 +3931,11 @@
                   üstökösként kilódulok helyemből, és diadalmasan bejárom a pályát, a hulló
                   csillagok pályáját.
             </p>
-            <p>
+				<p>
                Szomjas úr megigazította a cvikkert, és egy sarokból kis rulettgépet
                   vett elő a megfelelő táblázattal.
             </p>
-            <p>
+				<p>
                - Igaz, hogy ez csak gyermekjáték, nem közelíti meg az igazi nagy
                   gépek munkáját, amint a veréb repülése a griffmadárét. Ámde e gépecskén is
                   tapasztalhatjuk a játék örök törvényeit. Megsúgom önnek, hogy a Monte-Carló-i
@@ -3985,51 +3944,51 @@
                   Arról nem is szólok, hogy a legfinomabb gépek is megérzik például az esős
                   időjárást.
             </p>
-            <p>
+				<p>
                Szomjas úr kiterítette a szerencse-mappát, amelyen számok és színek
                   jelölték millió ember gondolatát... Megpörgette a masinát.
             </p>
-            <p>
+				<p>
                - Válasszon magának szisztémát, uram. Ott van például az ablak
                   mellett: a Nagy-Garcia elmélet. Kezdő játékosoknak igen bevált módszer. Én
                   korrektül játszom, nem úgy, mint egy bizonyos szomszédom, aki szép nejét ültette
                   mindig a partnere mellé, mikor kártyázott. Tehet kisebb-nagyobb készpénztételeket,
                   én majd feljegyzem, hogy mennyivel tartozik önnek a bank.
             </p>
-            <p>
+				<p>
                Nem volt kedvem a Nagy-Garcia-elmélethez, s ezt meg is mondtam
                   Szomjas úrnak.
             </p>
-            <p>
+				<p>
                - Talán mindjárt abba a nagyszabású játéktervbe óhajt fogni,
                   uracskám, amelyet a nagy Sántha, a Nemzeti Színház nyugalmazott tagja talált fel?
                   - kérdezte gúnyosan Szomjas úr. - Sántha határozottan megírta nekem, hogy elmélete
                   nem való kezdő játékosoknak.
             </p>
-            <p>
+				<p>
                Midőn vállat vontam, Szomjas úr elkomorodott.
             </p>
-            <p>
+				<p>
                - Ön úgy látszik, nem becsüli a játékot semmire? Csalódtam volna
                   önben?
             </p>
-            <p>
+				<p>
                Sötét haraggal nézett maga elé, és unottan pörgette a golyót.
                   Összepakolta gépezetét, és káromkodást elnyelve, visszaült helyére.
             </p>
-            <p>
+				<p>
                Egyszerre felemelte a fejét. - Hallja? - kiáltotta. - Idegen ember
                   jár a házban.
             </p>
-            <p>
+				<p>
                Már esteledett odakint, a felhők a kis ablakokra könyököltek, a
                   bokrok úgy remegtek a tájon, mint ázott vándorlók.
             </p>
-            <p>
+				<p>
                - A leányom!... - suttogta Szomjas úr, és egy légycsapót kapott
                   fel.
             </p>
-            <p>
+				<p>
                Óvatosan kinyitotta a rozoga ajtót, a sötét pitvaron kibotorkált, és
                   a sárban, alkonyatban cuppogva, megkerülte a házat. Egy zöld zsalugáteres ablak
                   nyílott ott a búskomoly szilvafákra. Az ablak tárva volt. Két fehér leánykar
@@ -4037,72 +3996,62 @@
                   magas ember volt az idegen, a fejét nem láthattam mindjárt, mert az odabenn volt
                   az ablakban, és bizonyára jól érezte magát.
             </p>
-            <p>
+				<p>
                - Hő! - kiáltott Szomjas úr.
             </p>
-            <p>
+				<p>
                Az idegen megrettenve bontakozott ki az ölelő karokból. Felénk
                   fordult az alkonyatban.
             </p>
-            <p>
+				<p>
                S ekkor, talán először életemben gondoltam, hogy megbolondultam.
-               
                   Én
-               
                 álltam ott az ablak előtt. Csakhogy: mintha tíz évvel előbbi
                   alakomat öltöttem volna magamra.
-               
                   Én
-               
                 néztem szembe Szomjas úrral...
-               
                   Én
-               
                vontam vállat ama gőgös közönnyel, amit bizonyára gyűlöltek rajtam az
                   emberek; és most gyűlöltem én is ezt az idegent vakmerő
                   elbizakodottságáért...
-               
                   Én
-               
                intettem búcsút az ablaknak, és én mentem el siető, inkább várakozó
                   léptekkel a szilvafák alatt, arra, ahol rés volt a nádkerítésen, kutyának és
                   szeretőnek való rés.
             </p>
-            <p>
+				<p>
                Szomjas úr dühtől kipirulva hajította a légycsapót az idegen után,
                   aki erre nyomban eltűnt, a zsalugáter két szárnya bezáródott, mintha szél hajtotta
                   volna be.
             </p>
-            <p>
+				<p>
                Szomjas úr megfordult, és dühösen végigmért.
             </p>
-            <p>
+				<p>
                - Mit tett ön velem? - kérdezte fojtott hangon. - Hát olyan embernek
                   néz engem, aki elviseli a megszégyenítést? Távozzék uram, amíg nem feledkezem meg
                   magamról. A vendégszeretet határa véget ért.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Ezen az estén mélyen elgondolkozva mentem haza. A szélmalom mellett
                   úgy álltak a hervadt, nedves fák, mint álruhás kísértetek, amelyek az éjféli órát
                   várják.
             </p>
-            <p>
+				<p>
                Éjjel nyugtalanul forgolódtam ágyamban, nem bírtam elfelejteni azt a
                   mély, duruzsoló hangot, amelyet először hallottunk Szomjas úr szobájában, amikor
                   odakünn megállott az eső csorgása. Ez a hang (most már világosan emlékszem) olyan
                   volt, mint a flóta hangja, amelyet nagy messziségből hallunk; mintha Virágh Aladár
                   fújdogálná ifjúkoromban a sóstói erdőn kedvenc dalát fuvoláján:
-               
                   Elmerengek sötét éjjel
-               
                ... Ez a hang szállott be a kéményen, amelyről megtudtam, hogy idegen
                   jár a ház körül. Az orvvadász a kert alatt, aki a ház leányát akarja
                   elrabolni.
             </p>
-            <p>
+				<p>
                Aztán az a megdöbbentő hasonlóság, amely az udvarló és köztem volt!
                   Talán elvesztem valahol ezen a tájon, amidőn tíz év előtt utoljára jártam erre?
                   Talán egy másik ember élt a messzi idegen városban, akiről csak hittem, hogy én
@@ -4122,42 +4071,40 @@
                   a kukoricás sóhajtozásában, megtartotta a virágvasárnapokat és a böjtöket, a régi
                   erkölcsöket és szívhangokat...
             </p>
-            <p>
+				<p>
                Most már végre viszontláttam őt, aki nem felejtett el ősöket, nőket,
                   érzelmeket tisztelni, kutyát és lovat szeretni, nedves mezőkhöz ragaszkodni a
                   szülőföld szerelmével, az álmodozás zsákjába bújtatni a nyugtalanság malacait,
                   egyszerű madárhangba elképzelni azt, amit a messzi nagyvilág üdvként kínál...
             </p>
-            <p>
+				<p>
                Igen, ilyen volt ő, szelíd és dacos, bátor a veszedelemben és erőtlen
                   a melankóliában, önfeláldozó a szerelemben és mámoros a barátságtól. Kerítéseken
                   járó, napi járóföldeket gyalogoló virrasztó és hűséges. Nem volt neki semmi sem
                   lehetetlen, ha szíve megtelt érzelmekkel.
             </p>
-            <p>
+				<p>
                S egyszerre éreztem, hogy hívnak, várnak, nyitott szemmel virrasztva
                   gondolnak rám valahol. Két leánykar simogatását éreztem az arcomon, a keblemen, a
                   szívemen, hogy szinte könnyes lett a szemem. Talán sohasem érzett szerelem ébredt
                   fel bennem a leány iránt, akit csak karjaiban láttam a régi ház zöld zsalugáterei
                   között. Ő engem vár, engem szeret, a
-               
                   másik
-               
                , a fiatalember csak egy fantom volt, aki nekem az utat megmutatta a
                   szerelemhez, amelyre úgy vágyakoztam, mint a szomjúság.
             </p>
-            <p>
+				<p>
                Én vagyok az, akit ez a leány szeret, és a délutáni jelenés csupán
                   varázslat volt, amint a délibábban meglátjuk néha a városokat, ahová
                   kívánkozunk.
             </p>
-            <p>
+				<p>
                Régen nem érzett könnyedséggel öltözködtem fel, és nesztelenül
                   hagytam el Juliska házát. És meg voltam győződve arról, hogy e szerelmi
                   kirándulásomon láthatatlan vagyok, sérthetetlen vagyok, veszélytelen vagyok -
                   amint az már a szerelmesek szokása, amint kacskaringós útjaikra elindulnak.
             </p>
-            <p>
+				<p>
                Az őszi éjszaka félelmei elmaradoztak mellőlem, mint a por hull le a
                   kocsikerékről. A hervadt fák között a tájról régen elszállott madarak hangjai
                   játszottak bújósdit. A madárijesztő, mint egy helyeslő jó barát állott a hold
@@ -4169,7 +4116,7 @@
                   sarkotokat összeveri valami dal vagy zene, amelynek eredetét, nem tudjátok?...
                   Mikor behunyt szemmel mentek a meredélyeken, mint a holdkórosok?
             </p>
-            <p>
+				<p>
                Manapság már nem tudnék nappal sem eltalálni ahhoz a réshez, amely a
                   nádkerítésen található. A szilvafák gallyai lesodornák a kalapomat, és a kezem
                   bátortalanul lehanyatlana, mielőtt megkopogtatnám az ablakot. Ámde nem így volt
@@ -4177,15 +4124,15 @@
                   tekintete biztatóan nézegetett alá mindazokra, akik az utat járták, lidércekre,
                   vándorlegényekre és szerelmesekre.
             </p>
-            <p>
+				<p>
                Kopogtatásomra oly gyorsan nyílott a zsalugáter, mintha valaki már
                   nagyon régen állott volna mögötte dobogó szívére szorított kézzel.
             </p>
-            <p>
+				<p>
                - Én szerelmesem - mondta egy holdvilágos hang, és kinyúlott a
                   kislányka, oly enyhén, mint a szellő.
             </p>
-            <p>
+				<p>
                Csókok érték arcomat, amelyek tetőtől talpig megráztak. Hajzat simult
                   homlokomhoz, oly finom, amilyent csak álmában érez az ember. Hangok suhogtak be
                   szájamba, fülembe, mint édesded vizek, amelyektől örök életet nyerünk. Gyöngéd,
@@ -4202,36 +4149,36 @@
                   szállnak fel tavaszi reggelen: önfeláldozó hangok, amelyek oly üdvösségesek, mint
                   a csodatévő kápolnák csengettyűi, jöttek el velem emlékbe.
             </p>
-            <p>
+				<p>
                Szomjas úr, mint afféle bolond ember, teljesen mezítelenül rohant a
                   ház körül. A szélmalomnál, a mogyorófabokrok mellett megállított egy kéz. A fiú -
                   György kapaszkodott a karomba, mint egy vadmacska.
             </p>
-            <p>
+				<p>
                - Ugye onnan jön? - lihegte kíntól, gyötrelemtől fuldokolva, mintha
                   kígyó marta volna meg.
             </p>
-            <p>
+				<p>
                A félhold a szélmalom tetején állott. A hajnal várakozásteljes
                   csendje üldögélt a csillagok szemében, a gyalogösvény lélegzetvételében.
             </p>
-            <p>
+				<p>
                - Azt szereti, akit én szeretek - vergődött a fiú, mintha dárda fúrta
                   volna át a mellét, és nem leli helyét végtelen fájdalmában.
             </p>
-            <p>
+				<p>
                Megsimogattam a fejét.
             </p>
-            <p>
+				<p>
                - Én az apád vagyok - mondtam.
             </p>
-            <p>
+				<p>
                - Tudom - felelt a fiú.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                S ezután reggelig sétáltunk karonfogva az országutakon, a
                   gyalogösvényeken. Megbeszéltük jövendő életünket. Megbeszéltük Juliskát, akit a
                   fiú soha el nem hagy. Még a bolondos Ónodi-kisasszonyokról is volt néhány szavunk.
@@ -4239,38 +4186,36 @@
                   kell hozatni egy jó kőművessel. A tavaszi vetést korán kezdjük. A leányról, ott a
                   messzi elmaradó házban, többé szó sem volt.
             </p>
-            <p>
+				<p>
                - Tudnád-e a tücsköt utánozni? - kérdeztem a fiamat, amidőn a
                   napraforgók alatt megállottunk és magot szedtünk a tányérokból.
             </p>
-            <p>
+				<p>
                - Hogyne! - felelt a fiú, és ciripelt, hogy a szívem
                   felvidámult.
             </p>
-            <p>
+				<p>
                Összeölelkezve mentünk haza az úton. Juliska könnyes szemmel jött
                   elénk, és átkarolt mindkettőnket, mint egy szegény, hervadt karó áll a rózsafák
                   mellett, és egyenesen tartja őket.
             </p>
-            <p>
+				<p>
                Piros abrosszal, kék asztalkendővel terítünk a nagy diófa alatt, mert
                   egyike volt a reggel ama fénylő őszi reggeleknek, midőn a tokaji hegy illata érzik
                   a Nyírségen. Rántottat ettünk, piros bort nevetve ittunk, és olyan jókedvünk
                   kerekedett, mintha hosszú-hosszú utazás után végre megtaláltuk volna egymást.
             </p>
-            <p>
+				<p>
                Aztán nemsokára elutaztam, s búcsút vettem életem ezen évszakától is,
                   mint annyi mindent, elhagytam és elfelejtettem, ami az életben történt velem.
             </p>
-            <p>
-               
+				<p>
                   (1919. Tél.)
-               
             </p>
-            <p>
+				<p>
                .oOo.
             </p>
-         </div>
-      </body>
-  </text>
+			</div>
+		</body>
+	</text>
 </TEI>

@@ -1,110 +1,108 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00967" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Hannibál föltámasztása</title>
-            <author ref="viaf:73857588">Móra Ferenc (1879-1934)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">20039</measure>
-            <measure unit="pages">46</measure>
-         
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>Hannibál föltámasztása</title>
-               <date>2002-02-28</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/00900/00967"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Viszocsánszki Mihály</name>
-                  <name>Németh Ibolya</name>
-                  <name>Pétery Kristóf</name>
-                  <name>Medgyesy Bence Attila</name>
-               </respStmt>
-              
-                  <bibl type="digitalSource">
-                     <title>Hannibál föltámasztása</title>
-                     <date>2002-02-28</date>
-                     <ref target="https://mek.oszk.hu/00900/00967"/>
-                  </bibl>
-              
-                  <bibl type="printSource">
-                     <title>Hannibál föltámasztása </title>
-                     <author>Móra Ferenc</author>
-                     <pubPlace>Szeged</pubPlace>
-                     <publisher>Tiszatáji Magvető</publisher>
-                     <date>1955</date>
-                     <ref target="https://mek.oszk.hu/00900/00967/00967.pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>Hannibál föltámasztása</title>
-               <author>Móra Ferenc</author>
-               <date>1955</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T5"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-22"/>
-         <change when="2020-11-04"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+<TEI xml:id="HU00967" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Hannibál föltámasztása</title>
+				<author ref="viaf:73857588">Móra Ferenc (1879-1934)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">20039</measure>
+				<measure unit="pages">46</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Hannibál föltámasztása</title>
+					<date>2002-02-28</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00900/00967"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Viszocsánszki Mihály</name>
+						<name>Németh Ibolya</name>
+						<name>Pétery Kristóf</name>
+						<name>Medgyesy Bence Attila</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Hannibál föltámasztása</title>
+						<date>2002-02-28</date>
+						<ref target="https://mek.oszk.hu/00900/00967"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Hannibál föltámasztása </title>
+						<author>Móra Ferenc</author>
+						<pubPlace>Szeged</pubPlace>
+						<publisher>Tiszatáji Magvető</publisher>
+						<date>1955</date>
+						<ref target="https://mek.oszk.hu/00900/00967/00967.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Hannibál föltámasztása</title>
+					<author>Móra Ferenc</author>
+					<date>1955</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T5"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-22"/>
+			<change when="2020-11-04"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="chapter">
-            <head>
+				<head>
                1
             </head>
-            <p>
+				<p>
                Ahogy a magyar határon leszedtek bennünket a vonatról, a nyakába
                   ugrottam az első fináncnak és akkorát cuppantottam a képére jobbról-balról, hogy
                   beletántorodott. Ugyan nem tudom, finánc volt-e, éntőlem lehetett fegyőr, postás,
                   tűzoltó, akármilyen fegyvernem, a színes posztón akkor se igen tudtam eligazodni,
                   amikor magam is azt hordtam.
             </p>
-            <p>
+				<p>
                Dia kerekre nyitotta álmosan hunyorgó szemét:
             </p>
-            <p>
+				<p>
                - Testvéred talán? - kérdezte oroszul.
             </p>
-            <p>
+				<p>
                - Hogyne volna testvérem, hiszen magyar ember - feleltem neki én is
                   oroszul. Mert akkor még kevés volt a magyar tudománya ahhoz, hogy a magunk nyelvén
                   értethettem volna meg vele, micsoda förgeteges öröm lehet az, amely egy magyar
                   emberrel még a fináncot is megcsókoltatja.
             </p>
-            <p>
+				<p>
                - Ó, te szegény ember - simogatta meg Dia gyöngéden a bal karom
                   helyét. (Mert a bal karom ott maradt a taganrogi kórházban. Éppen a Dia apja vágta
                   le. Odahozta Diát az ágyamhoz, elmagyarázta neki, hogy mikor kell levenni a
@@ -112,63 +110,63 @@
                   mögött egymásra akadtunk. Azt mondta, igen okosan tettük, mert így mégiscsak lesz
                   kettőnknek három keze, s az több, mint külön az egy meg a kettő.)
             </p>
-            <p>
+				<p>
                Ha nekem csak a ruhámhoz ér is Diának a keze, mindjárt zúgni kezd a
                   vér a halántékomban. Magamhoz szorítottam a simogató karját, megkerestem az
                   ujjammal az ütőerét - ugyan nem kellett keresni, egyszerre odataláltam a
                   prémkesztyű alatt lüktető halk folyóra - és együtt skandáltam a vére
                   ütemével:
             </p>
-            <p>
+				<p>
                Hoc erat in votis...
             </p>
-            <p>
+				<p>
                Mögöttem a háború, előttem a béke, a karomon a világ legdrágább
                   asszonya, a csizmámban hír, dicsőség, akadémiai levelező-tagság és talán a hetedik
                   fizetési osztály is! Ugye meg lehet érteni, hogy egy rokkant
                   klasszika-filológusnak Horatius szaladt ki a száján élete legboldogabb
                   pillanatában?
             </p>
-            <p>
+				<p>
                A finánc azonban nem volt hajlandó megérteni.
             </p>
-            <p>
+				<p>
                Kirántotta a karomat a Diáéból és valami silbakos bódé felé
                   lódított.
             </p>
-            <p>
+				<p>
                - Ne beszéljenek itt zsidóul!
             </p>
-            <p>
+				<p>
                - De kedves szemlész úr - próbáltam felokosítani -, hát nem ismer rá,
                   hogy ez diákul van? Mondja, maga sohase volt minisztráns gyerek?
             </p>
-            <p>
+				<p>
                - Jó, jó - tessékelt tovább a könyökével -, ismerjük már az ilyesmit.
                   Majd, ha a vizsgálat megvolt, akkor virginálhatnak, ahogy akarnak, de azt nem
                   engedhetem, hogy előre összebeszéljenek. Na, haladjunk csak befelé!
             </p>
-            <p>
+				<p>
                Csöndes megadással ballagtam a bódé felé, amelynek ajtaját egy
                   csillagos finánc támogatta. Csak a küszöbről fordultam hátra:
             </p>
-            <p>
+				<p>
                - Hát a feleségem?
             </p>
-            <p>
+				<p>
                - Aztat is viszi az illetékes - nyugtatott meg a mérges finánc.
             </p>
-            <p>
+				<p>
                Az illetékes, aki egy másik bódé felé terelte Diát, egy marcona öreg
                   némber volt. Az orosz népmesékben baba jagodiná-nak hívták az ilyent. (Magyarul is
                   meg tudnám mondani, de hatósági személyről nem akarok tiszteletlenül nyilatkozni.)
                   Szegény asszonykám, kergetett galamb módjára pihegett új honfitársnője előtt.
                   Odakiáltottam, hogy felbátorítsam:
             </p>
-            <p>
+				<p>
                - Csak férfiasan, Profimova!
             </p>
-            <p>
+				<p>
                Úgy tett, ahogy vártam: mosolyogva intett vissza. Ha meg akartam
                   nevettetni, csak a vezetéknevén kellett szólítanom. Sokat öltem vele, hogy milyen
                   furcsa etimológiája van az orosz neveknek. Valahol azt olvastam, hogy Turgenyev
@@ -179,87 +177,87 @@
                   aki rosszat tesz, például, teafőzéskor a mahorkás skatulyába csippent bele a teás
                   helyett, vagy Ciceróval támasztja föl az asztal lábát.
             </p>
-            <p>
+				<p>
                Mindig csak ilyen komoly vonatkozásban szólítottam a családi nevén,
                   különben Diának hívtam, mert Lidia Alexajevna volt a keresztneve és otthon
                   Lidovkának hívták.
             </p>
-            <p>
+				<p>
                Én a Diát jobban szeretem. Abban benne ragyog az egész Olimposz és
                   azt hiszem, hogy négyszemközt Horatius is Diának hívta a maga Lidiáját.
             </p>
-            <p>
+				<p>
                Sajnos, a bódéban megint meggyőződtem róla, hogy hazámban nem nagy
                   becsülete van a klasszikus kultúrának.
             </p>
-            <p>
+				<p>
                - Mennyi pénze van készletben? - kérdezte tőlem a csillagos
                   pénzügyőr.
             </p>
-            <p>
+				<p>
                Őszintén szólva jólesett ez a kérdés. Nem lehet az olyan vesznitért
                   ország, ahol a hivatalos nyelv ilyen szépen megmaradt a maga régi
                   integritásában.
             </p>
-            <p>
+				<p>
                - Nincsen nekem barátom egy megveszekedett garasom se. Százötvenhat
                   korona negyvenhat fillér tiszti lénung volt nálam, mikor hadifogságba estem, azt
                   őrizetbe vették Perekopban, kaptam róla írást is.
             </p>
-            <p>
+				<p>
                - De az írása megvan róla?
             </p>
-            <p>
+				<p>
                - Nincs.
             </p>
-            <p>
+				<p>
                - Akkor ez irányú bejelentése nem vétetik figyelembe. Egy darabig
                   imponálóan harsogott a toll a papíron, aztán következett a punktum saliens.
             </p>
-            <p>
+				<p>
                - Tiltott írások, propagandanyomtatványok, izgató röplapok vannak
                   önnél?
             </p>
-            <p>
+				<p>
                - Azok sincsenek.
             </p>
-            <p>
+				<p>
                - János, motozni!
             </p>
-            <p>
+				<p>
                Nem vagyok csiklandós, nyugodtan álltam, hogy János kicsipcsicsókázza
                   magát rajtam. Csakhogy a vakvarjúcska még hátra volt.
             </p>
-            <p>
+				<p>
                - Vetkőztesse le!
             </p>
-            <p>
+				<p>
                Csak most jutott eszembe, hogy micsoda kincseken járok én a
                   csizmámban. Odaléptem az asztalhoz önkéntes vallomástételre:
             </p>
-            <p>
+				<p>
                - Kérem, előadom én úgyis, ami nálam van. Tessék elhinni, nincsen
                   semmi aktualitásuk.
             </p>
-            <p>
+				<p>
                - Majd elválik! - intett a csillagos ember, és a csillagtalan János
                   gyakorlott kézzel lekapta a csizmáimat. A bélés közül kiszedegette az apósom
                   receptpapírjain írt jegyzeteimet és mint gyanús objektumokat előállította őket az
                   asztalon.
             </p>
-            <p>
+				<p>
                - Persze, muszka betűk - villant föl diadalmasan a hivatalos ember
                   szeme, ahogy felemelte az egyik kutyanyelvet.
             </p>
-            <p>
+				<p>
                - Nem úgy, könyörgöm, lábbal tetszik fölfelé tartani.
             </p>
-            <p>
+				<p>
                - Mindegy az, muszka írás ez, akármerről nézem. Engem nem tesz
                   bolonddá az úr, gyermekkoromban Zomborban is ilyenek voltak a Mitetszik boltosnak
                   a siltjén.
             </p>
-            <p>
+				<p>
                A dolog csak annyiban lepett meg, hogy az én írásomat rendesen török
                   írásnak szokták nézni, orosznak még nem mondta senki se. Hidegvérrel felhúztam a
                   csizmáimat és elmagyaráztam a fináncnak, hogy az újkori klasszika-filológia
@@ -276,55 +274,55 @@
                   azt sejtette, hogy Hannibál felett nem Scipió aratott győzelmet, hanem a
                   forradalom.
             </p>
-            <p>
+				<p>
                Éppen a karthágói adórendszer igazságtalanságait akartam kifejteni,
                   mikor vizsgám elnöke nagyot ásított:
             </p>
-            <p>
+				<p>
                - Ez a hely nem arra való, hogy itt forradalmi propagandaelőadást
                   tartson és én különben se vettem részt a forradalomban. Az öregapámnak meséljen
                   ilyeneket az úr, ne nekem.
             </p>
-            <p>
+				<p>
                - De ember... - csaptam össze a kezem. - Hát magának ez mese? Hát
                   maga sose tanult Hannibálról?
             </p>
-            <p>
+				<p>
                - Maga mer engem vallatni? - nézett rám szigorúan. - Hát, ha tudni
                   akarja, igenis hallottam Hanni Pálról. Benne van a kislányom emlékkönyvében is,
                   hogy - »Ki önmagának ellen áll, nagyobb vitéz, mint Hanni Pál.«
             </p>
-            <p>
+				<p>
                Nem beszéltem már én semmit, csak azt kérdeztem, hogy ezek után
                   szabad-e elajánlanom magamat?
             </p>
-            <p>
+				<p>
                Azt felelték, hogy sose volt jó az a nagy sietség. Itt a barakkban
                   várjam meg szép nyugodtan, míg folyamatba tett ügyem elintéződik.
             </p>
-            <p>
+				<p>
                - Mikorra várhatom, ezt?
             </p>
-            <p>
+				<p>
                - Kell neki két hét, mert komplikált az ügy. Örüljön neki az úr, mert
                   addig az állam kosztolja.
             </p>
-            <p>
+				<p>
                - Hát a feleségemmel mi lesz addig?
             </p>
-            <p>
+				<p>
                - Ne tessék félni, az is a mi vendégünk lesz.
             </p>
-            <p>
+				<p>
                - De legalább összezárják velem?
             </p>
-            <p>
+				<p>
                - No még csak az kellene - nevetett össze a csillagos János a
                   csillagtalannal. - Hát minek tetszik nézni a vesztegzárt? Ő a női barakkban lesz,
                   vagy az is lehet, hogy már ott is van, az nem mihozzánk tartozik. Mi csak
                   jelentést teszünk a felsőbb hatóságnak.
             </p>
-            <p>
+				<p>
                Öthetes házasok voltunk és ebből öt órát se töltöttünk egymástól
                   külön Diával. És most a hazai nászút azzal kezdődik, hogy elválasztanak bennünket,
                   két hétre, asztaltól és ágytól. Sose voltam káromkodós ember, legföljebb azt
@@ -332,26 +330,26 @@
                   Quos ego... Most azonban kiszaladt a számon, amit a Zlota-Lipánál tanultam, a
                   polyák testvérektől:
             </p>
-            <p>
+				<p>
                - Jaszna sztrela gladova!
             </p>
-            <p>
+				<p>
                Ami magyarul nem kevesebbet jelent, mint azt, hogy üssön meg
                   benneteket a magos mennykő.
             </p>
-            <p>
+				<p>
                - János, hozza csak vissza a jegyzőkönyvet!
             </p>
-            <p>
+				<p>
                Persze, hogy be kellett venni a gyanús ténykörülmények közé azt is,
                   milyen gyanúsan káromkodtam.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                2
             </head>
-            <p>
+				<p>
                Ha jól utánagondolok, be kell ismernem, hogy a legnagyobb jótevőm
                   mégiscsak az volt nekem, aki ezt a kéthetes karantént kitalálta. Soha életemben
                   nem voltam akkora úr, és nyilván nem is leszek többet. Kvártély, koszt
@@ -362,7 +360,7 @@
                   durák-párti voltam, mert szerény véleményem szerint ez jobban megfelel a
                   klasszika-filológus elmélyedésre hajlamos pszichéjének.
             </p>
-            <p>
+				<p>
                Hamarosan kiderült, hogy a Jánosok nem olyan kutya-hitű emberek ám,
                   mint amilyeneknek hivatalosan mutatják magukat. Más az, amikor rubrikás papírokat
                   töltenek ki a felsőbb hatóság használatára, és más az, ha nem az előírásos
@@ -372,16 +370,16 @@
                   tételeztem volna fel, pár nap múlva a tulajdon gyíklesője hegyébe nyársalt sült
                   kukoricával ütött oldalba.
             </p>
-            <p>
+				<p>
                - No - nevetett hozzá - szereti-e a csemegét?
             </p>
-            <p>
+				<p>
                Ha lotofagoszok asztaláról csent gyümölcs lett volna, nem haraphattam
                   volna mohóbban bele! Mégis csak a mi földünknek az édessége pattogott ebben ki.
                   Hát még ha Diával osztozhatnék rajta. Úgy, ahogy minden falaton osztozni szoktunk:
                   most én harapok, most te harapsz...
             </p>
-            <p>
+				<p>
                Kétfelé törtem a kukoricacsövet és fölágaskodtam a kerítésre, így át
                   lehetett látni a női barakk udvarára és egyszer már át is telegrafáltam Diának.
                   Kétszázszor nyitottam szét és csuktam össze a tenyeremet, ami ezer csókot jelent a
@@ -389,7 +387,7 @@
                   neki. Könnyebb lesz ez sokkal, mint mikor kukoricagránátot hajigáltam, ette volna
                   meg, aki kitalálta.
             </p>
-            <p>
+				<p>
                Elkeseredve kushadtam vissza, mert a terepviszonyok nagyon
                   kedvezőtlenre fordultak. Két kötél volt az akácokhoz kötve a barakkok közt húzódó
                   töltésen és azokon mindenféle fehér vásznak száradtak. Még egyszer
@@ -398,45 +396,45 @@
                   visszatottyantam, mert Polyphemos legyen az, aki ekkora fehér nyájban egy bárányt
                   ki tud választani.
             </p>
-            <p>
+				<p>
                Kedvetlenül rágcsáltam a csutkát, mikor rámszól valaki:
             </p>
-            <p>
+				<p>
                - Édes-e, uram, édes-e?
             </p>
-            <p>
+				<p>
                Hát János volt, nem a csillagos, hanem a taszigálós János.
             </p>
-            <p>
+				<p>
                Micsoda konfidencia ez? Feleljek, ne feleljek neki?
             </p>
-            <p>
+				<p>
                De olyan bizodalmasan mosolygott rám a becsületes barna szemével,
                   hogy muszáj volt emberséggel felelnem.
             </p>
-            <p>
+				<p>
                - Tudnék én ennél édesebbet is, fiam.
             </p>
-            <p>
+				<p>
                - Teszem azt, például ezt-e? - nyújt felém egy lapulevélbe takart
                   valamit.
             </p>
-            <p>
+				<p>
                Hát a valami egy fél cső sültkukorica volt. Nézek Jánosra, int a
                   lapulevélre, hogy azt nézzem csak. Nézem a lapulevelet, hát számok vannak
                   belevakarva: 1001.
             </p>
-            <p>
+				<p>
                Már erre megint csak meg kellett ölelgetnem a félkarommal a taszigáló
                   Jánost.
             </p>
-            <p>
+				<p>
                - A feleségem? Ember, a feleségem küldte?
             </p>
-            <p>
+				<p>
                - Csakis - bólintott János -, kóstolja no, édesebb-e ez?
             </p>
-            <p>
+				<p>
                Egy kicsit megszégyelltem magamat. Kukoricámnak a vékonyabb végét
                   tettem el Diának, ő meg az övének a vastagabb végét küldte el nekem. Lemondás,
                   asszony a neved. Igaz, hogy beleharapott, de azt csak azért tette, hogy a
@@ -444,11 +442,11 @@
                   ahol az ő szája érintette. Két szerelmes szív a kukoricacsutkán is megtalálja
                   egymást.
             </p>
-            <p>
+				<p>
                - De én tudok ám édesebbet, ennél is - kacsintott János a kerítés
                   felé.
             </p>
-            <p>
+				<p>
                - Az elébb, hogy eljövök a női barakk előtt, látom, hogy nyitva van
                   az ajtó. Hát ez mért van nyitva, kérdem attól a fehércselédtől, aki ott
                   ácsingózik. Azt mondja, nyitva felejtette a Mari néni. Hát hol a Mari néni? Azt
@@ -461,77 +459,77 @@
                   beletelik egy fertályóra is. Hű, a teremtésit neki, a barakk tehene belement az
                   eklézsia herésibe.
             </p>
-            <p>
+				<p>
                Nagyon kellemesen lepett meg, hogy János így szívén viseli az
                   eklézsia érdekeit. Még inkább az, hogy futtában ő is nyitva felejtette a mi
                   ajtónkat.
             </p>
-            <p>
+				<p>
                - Látod, kedves, ilyen emberek a magyarok! - mondtam büszkén Diának,
                   ahogy a pimpimpárés fűben az ölébe hajtottam a fejemet a fehér
                   vászonsátorban.
             </p>
-            <p>
+				<p>
                Attól fogva János olyan találékony pártfogónk volt, hogy nem győztem
                   csodálni az invencióját. Meg is kérdeztem tőle, hogy milyen katona volt a
                   háborúban.
             </p>
-            <p>
+				<p>
                - A vezérkarban voltam én kérem, mint afféle teddide-teddoda
                   pucer.
             </p>
-            <p>
+				<p>
                Persze az volt a baj, hogy János volt a pucer a teddide-teddoda
                   emberek között.
             </p>
-            <p>
+				<p>
                Egy hét múlva annyira összebarátkoztunk, hogy János már tekintetes
                   úrnak szólított és megmutatta a Rózsi arcképét. Szép, nagydarab lány volt Rózsi, a
                   széle-hossza egy fajtából, és nagy testi erőre vallottak a betűi is, amikkel
                   dedikálta a képet: »Lajcsikámnak«.
             </p>
-            <p>
+				<p>
                - Nini, hiszen magát Jánosnak hívják - néztem rá értetlenül a
                   pátrónusunkra.
             </p>
-            <p>
+				<p>
                - Hiszen éppen ez az én bánatom, hogy nem én vagyok a Lajcsi.
                   Kollégám a Lajcsi és ő levelezte mostanában a Rózsit, holott azelőtt engem
                   levelezett a Rózsi. Húsvétkor bújt bele az ördög a leányba, mikor szabadságon
                   voltam Pesten és megismertettem vele a kollégát. Lássa a képet is a Lajcsinak
                   ajánlotta, pedig nekem ígérte.
             </p>
-            <p>
+				<p>
                - Hogy kerül akkor magához?
             </p>
-            <p>
+				<p>
                - Úgy, hogy Lajcsi kihajította a ládájából. Neki már nem kell, se
                   testének, se lelkének, mert itten veszi el a papgazdasszony leányát, azzal két
                   tehén is jár.
             </p>
-            <p>
+				<p>
                - Akkor hát a kutya se sánta fiam. Lajcsié a két tehén, magáé az egy
                   Rózsi, ez csak tiszta munka?
             </p>
-            <p>
+				<p>
                - Az ám, ha azt tudhatnám, hogy ő mi szándékban van.
             </p>
-            <p>
+				<p>
                - Hát mért nem kérdezi meg tőle? Nem látszik maga olyan szégyenlős
                   embernek.
             </p>
-            <p>
+				<p>
                - Nem is az van abban uram, hanem karácsonyig nem lesz szabadságom.
                   Az pedig nagy idő az olyan fehércselédnél, akin úgy kap a szem, mint a
                   Rózsin.
             </p>
-            <p>
+				<p>
                - Nono, dehát a levél mire való?
             </p>
-            <p>
+				<p>
                János elfanyarodott mosollyal vakarta meg a fületövét:
             </p>
-            <p>
+				<p>
                - Hiszen, ha én írástudó volnék, akkor én sokra vittem volna a
                   háborúban. (No, János nem sokra vitte ott egy írástudó se.) Még tán könyvet is
                   írnék róla a maradékaimnak, hadd tudják meg, hogy ki fia-csikaja volt az ősük.
@@ -540,32 +538,32 @@
                   silteken, azokat is csak a nagykőrösi piacon. De látja, már a pesti silteket nem
                   tudom elolvasni.
             </p>
-            <p>
+				<p>
                - Hát ez már baj, János.
             </p>
-            <p>
+				<p>
                - Az a baj, tudja, hogy a Lajcsi már nem levelezi a Rózsit. Mert
                   azelőtt ha írt neki, engemet is mindig beleírt a levélbe, de mióta fölhagyott
                   vele, azóta nem vagyok nyilvántartásban a Rózsinál. Azt se tudja élek-e,
                   halok-e?
             </p>
-            <p>
+				<p>
                Cyrano jutott eszembe és fölbiztattam Jánost, hogy ha levélpapírt
                   szerez, írok én az ő nevében olyan levelet a józsefvárosi Roxánnak, hogy
                   összeszalad rá az egész Óriás utca. Nem próbáltam még ugyan ezt a mesterséget, de
                   ha az embernek a Liber Heroidum volt a szakvizsgái dolgozata, akkor csak tud
                   szerkeszteni egy szívszaggató szerelmes levelet.
             </p>
-            <p>
+				<p>
                Szép rózsás, rozmaringos, vadgalambos levélpapírt szerzett János, de
                   mi volt az ahhoz képest, amit én beleraktam a botanikából meg az ornitológiából.
                   Mikor elolvastam Jánosnak, nem győzte az orrát törölgetni.
             </p>
-            <p>
+				<p>
                - Halhatatlan szép, valóságos vőfélyköszöntő. Ha márványkőből volna
                   annak a nőnek a szíve, akkor is meglágyulna tőle.
             </p>
-            <p>
+				<p>
                Nem olyan nőnek látszott Rózsi a képen, mint aki márványkövet hord a
                   szíve helyén. De azért mégis meglepett a levelem eredménye. Válasz ugyan nem jött
                   rá, de harmadnapra megjött Rózsi Pestről, akkora kosárral, mintha a hadtáp
@@ -574,31 +572,31 @@
                   hazai közállapotokról, hogy aki ilyenekkel dokumentálja a szerelmét, az vagy
                   kanonokok testi jólétéről gondoskodik, vagy bankigazgatókéról.
             </p>
-            <p>
+				<p>
                Meg is kérdeztem Rózsit, hogy van-e jó helye.
             </p>
-            <p>
+				<p>
                - Ó, igen kérem, áldott jó nagyságám van, egész nap a szomszédban ül
                   a kávémérésben és lesi az urat, hogy mikor hozzák haza agyonverve.
             </p>
-            <p>
+				<p>
                - Hát micsoda az úr?
             </p>
-            <p>
+				<p>
                - Plakátragasztó, kérem. Élhetős foglalkozás az nagyon, alig győzi,
                   csakhogy hol a turulisták verik fejbe, hol az ébredők, mert hogy azonos
                   nemzetiségű szegény.
             </p>
-            <p>
+				<p>
                Hát ez micsoda új színfolt lehet Magyarország etnográfiai térképén?
                   Ránéztem Jánosra és János egy kicsit megzavarodva mosolygott rám egy mandulás
                   pitéből szerkesztett pajzs mögül.
             </p>
-            <p>
+				<p>
                - Rózsika azt gondolta, hogy szintén izraelitának tetszik lenni.
                   Ámbár utóvégre az is csak istenteremtése.
             </p>
-            <p>
+				<p>
                De a torkához is kapott János rögtön, ahogy ezt kimondta, mert
                   megakadt rajta a pite. Így veri meg az isten, aki nem szívéből beszél, hanem
                   konjunktúrázik. Az is megijeszthette azonban a derék fiút, hogy rosszkor
@@ -608,7 +606,7 @@
                   magához való esze és tudja, mikor zizzenjen, mikor roppanjon. Kitapasztalta ezt az
                   én fülem már a fogolytáborokban.
             </p>
-            <p>
+				<p>
                A felsőbb hatóság különben ezúttal valami biztos volt - később
                   rájöttem, hogy honfitársaim közül azok, akiknek más címük nincs, vagy biztosok,
                   vagy elnökök -, aki mindenféle írásokat szedett elő a táskájából. Egy részüket
@@ -617,73 +615,73 @@
                   Tudniillik azokkal igazolhatom, hogy minket itt megmostak izsóppal és fehérebbek
                   lettünk, mint a hó.
             </p>
-            <p>
+				<p>
                Most pedig obsit, amerre a nap süt, kitelt a koszt, kvártély,
                   világítás.
             </p>
-            <p>
+				<p>
                - Hova állítsuk ki az utazási igazolványt?
             </p>
-            <p>
+				<p>
                - Pesti tanár vagyok, oda megyünk. Nem tetszik tudni, megvan-e még az
                   Egyetemes Philológia Közlöny?
             </p>
-            <p>
+				<p>
                - Nem, azzal igazán nem szolgálhatok - nézett rám úgy, ahogy udvarias
                   ember szokott nézni a nem egészen épelméjű emberre, aki nem tudja, mit
                   beszél.
             </p>
-            <p>
+				<p>
                Pedig nagyon tudtam én, mit beszélek. Hannibál halálát akartam
                   előhozni. Hadd lássa a hivatalos ember, hogy a krími tatárok közt is a haza
                   dicsőségén dolgoztam én.
             </p>
-            <p>
+				<p>
                Hirtelen a homlokomhoz kaptam. Ó, én mafla! Hát nem majd itt
                   felejtettem a jegyzeteimet!
             </p>
-            <p>
+				<p>
                - Kérem, biztos úr, éntőlem itt elszedtek az alantas közegek bizonyos
                   tudományos jegyzeteket...
             </p>
-            <p>
+				<p>
                - Igen. Állítólag tudományos jegyzeteket. Pardon, tanár úr, ez csak a
                   tényálladékot feltüntető jegyzőkönyv kifejezése, eszem ágában sincs kételkedni
                   önben.
             </p>
-            <p>
+				<p>
                - Köszönöm szépen. És a jegyzetek?
             </p>
-            <p>
+				<p>
                - Azok felterjesztettek a felsőbb hatóságokhoz, de nyugtát tetszett
                   róluk kapni, ott van azok közt az írások közt, amiket átadtam önnek. Tessék rá
                   vigyázni, mert annak ellenében fognak visszaszármaztatni az irományai.
             </p>
-            <p>
+				<p>
                Dia tipegő lábai alatt muzsikált a homok, és asszonykám piros szája a
                   nagy hadvezér komor árnya felett megsemmisítő győzelmet aratott.
             </p>
-            <p>
+				<p>
                - Mehetmük?
             </p>
-            <p>
+				<p>
                Sohase hallotta hírét a Halotti Beszédnek a drága, de idegenek előtt,
                   ha zavarba jött, mindig úgy ragozott, mint a legrégibb magyar nyelvemlék. Azt
                   hiszem ez a legragyogóbb érv amellett, hogy a Halotti Beszédet olyan tisztelendő
                   magiszter hagyta ránk örökbe, aki nem lótejen nevelkedett, hanem méhsörön.
             </p>
-            <p>
+				<p>
                A biztos úr, amint Diát meglátta, a jobb kezével negyed ívben emelte
                   meg a kalapját, a bal kezével pedig rántott egyet a mellénye alján. Nincs az a
                   Hannibál, akit egy magyar vesztegzár-biztos így megtisztelne. Latiatuc feleim mic
                   vogmuc...
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                3
             </head>
-            <p>
+				<p>
                Utólag mindig kiderül, hogy a felsőbb hatóságoknak igazuk van. A
                   közérdeket szolgálták akkor, mikor elszedték tőlem a krímiai jegyzeteket,
                   amelyeknek hivatása volt megrázni az ókori történelem alapjait és alájuk temetni
@@ -692,7 +690,7 @@
                   beprotezsált bennünket, mint negyedrendű elkárhozottakat. (Már úgy értem, hogy
                   albérlőket.)
             </p>
-            <p>
+				<p>
                A kubikulum egy földszintes háznak az udvari szobája alatt volt.
                   Bezárni nem lehetett, csak becsukni, mert nem ajtaja volt, hanem teteje. Azt
                   nappalra kitámasztottuk egy meszelőnyéllel, hogy levegőt raktározzunk bele
@@ -702,7 +700,7 @@
                   albérlőt Teramáminak hívtuk: abból élt, hogy másodalbérlőt tartott és kint hált a
                   konyhán a sublótfiókban.)
             </p>
-            <p>
+				<p>
                A vaságy a Bierhuber úré volt, de nem ő hált benne, mert ő éjszaka
                   aktuális politikai kérdésekkel foglalkozott a Tuhutum-Vérszövetségben. Az ágy
                   Netumák bácsi testi kényelmét szolgálta, aki dohánybeváltó tiszt volt valahol
@@ -726,7 +724,7 @@
                   se Pelion, egy horkantással szétugrasztotta volna az egész isteni
                   gyülekezetet!
             </p>
-            <p>
+				<p>
                De jó volt ez nekünk nagyon, hogy Netumák bácsi ilyen virtuóza volt a
                   bőrhúzásnak éjszakáról éjszakára. Legalább nem kellett szégyellnünk magunkat, ha
                   néha egy kicsit hangosabban viháncoltunk, mint illett volna. Mert bizony minekünk
@@ -736,7 +734,7 @@
                   én azt hiszem, hogy ahol szerelem van jelen, ott a kémia megbukik. A szerelmesek
                   olyanok, mint a virágok, nem fogyasztják az oxigént, hanem termik.
             </p>
-            <p>
+				<p>
                Mi legalább úgy éltünk a kubikulumban, mint a fehér egerek az
                   üvegharang alatt az oxigénben, legalább ami a virgoncságot illeti. Attól nem
                   kellett félnünk, hogy kárt teszünk valamiben, mert minden bútorunk egy láda volt,
@@ -747,7 +745,7 @@
                   szín gyakran változott, s hogy a téma nagyjából ugyanaz maradt, azért a görög
                   mitológia a felelős.
             </p>
-            <p>
+				<p>
                Heléna elrablása - mert az élet akkor is csupa rablásból állt, mikor
                   még istenek jártak a földön, csakhogy akkor még nem volt különb rabolnivaló az
                   asszonyoknál. Ezt a gonoszkás megjegyzést Dia tette, mert ha én tettem volna,
@@ -758,7 +756,7 @@
                   elébe teszem és a mitológiát csak mint segédtudományt kezeltem. Dia azonban,
                   akinek semmiféle előiskolázottsága nem volt, ebben is mesternek tekintett.
             </p>
-            <p>
+				<p>
                A budai tudóstársaság dolga azt megállapítani, hogy királyokat
                   temettek-e valaha a tabáni kubikulumba, vagy vakszemen ütött disznókereskedőket
                   hajigáltak bele a néhai rác kocsmárosok. Én csak annyit mondhatok, hogy három
@@ -770,7 +768,7 @@
                   tudom, amilyen szélkakas volt az öreg, még tán Tuhutum is lehetett volna
                   belőle.
             </p>
-            <p>
+				<p>
                Én magam különben nem sokat tudtam a felső világról, mert boldog
                   infernómból csak olyankor kukkantottam ki, ha a családi láda érdekei úgy kívánták.
                   (Tűzhelyet nem mondhatok, mert a kubikulum ezt az intézményt nem ismerte.
@@ -782,60 +780,60 @@
                   hazának, aki abból él, amihez nem ért. Az volt a fő, hogy végre ki tudtam tölteni
                   a bejelentőlapon a »foglalkozás« rovatot.
             </p>
-            <p>
+				<p>
                Megvolt a munkám, és a nagy égzengés után, amit a háború jelentett,
                   szerettem volna békességben élni. Megmondtam az iskolában, a kollégáknak is, hogy
                   ne kapacitáljanak engem, se jobbra, se balra, nem veszek részt a kötélhúzásban,
                   mert én anélkül is félkarú ember vagyok.
             </p>
-            <p>
+				<p>
                - Nono - figyelmeztettek jóakarattal -, baj lehet még ebből a nagy
                   semlegességből! A történelemtanár is azért van felfüggesztve, mert semlegesen
                   tanította a világháborút.
             </p>
-            <p>
+				<p>
                - Hát pedig én az apám lelkének se politizálok! - de persze nem ilyen
                   kiabálva mondtam én ezt akkor, hanem csak úgy lento risu, ahogy Horatiustól
                   tanultam. S igyekeztem mindenkinek igazat adni, hogy magam maradhassak, ami
                   sikerült is, mert tudvalevőleg a klasszika-filológusok is nagy diplomaták, meg a
                   rajztanárok is, hát még a klasszika-filológus-rajztanár!
             </p>
-            <p>
+				<p>
                A fizika professzor, aki a nehézkedési törvény értelmében mindig oda
                   ült, ahol nagyobb volt a rakás, azt kérdezte egyszer tőlem, hogy mi az őszinte
                   véleményem a numerus claususról. Okos törvénynek tartom-e, mit gondolok, meg fog-e
                   maradni?
             </p>
-            <p>
+				<p>
                - Kérem, az én tudományom szerint a legokosabb törvényt a Caracalla
                   idejében hozták, de azután mindjárt ez következik.
             </p>
-            <p>
+				<p>
                - Bravó! És hogy szól az a Caracalla-törvény?
             </p>
-            <p>
+				<p>
                - Elrendeli, hogy a római birodalomban az utakat mentől jobban el
                   kell hanyagolni, mert mentől lassabban bírnak utazni az idegenek, annál többet
                   költenek a birodalom határai között. És tetszik látni, a gyakorlatban, ez a
                   törvény nálunk mai napig is érvényben van.
             </p>
-            <p>
+				<p>
                A logika tanára azt a ravasz kérdést adta fel, hogy tulajdonképpen ki
                   az én ideálom a ma élő európai államfők közt? Tekintettel arra, hogy a bajuszkötő
                   vége mindig kipipiskedett a kolléga szivarzsebéből, nem kellett a válaszért a
                   fejemet törni.
             </p>
-            <p>
+				<p>
                - Vilmos császár.
             </p>
-            <p>
+				<p>
                - No ugyebár? Igazán örülök. Nekem is mindig ő volt az ideálom, mióta
                   trónra lépett.
             </p>
-            <p>
+				<p>
                - Ó, nekem azóta ideálom, mióta nem folytatja a mesterséget.
             </p>
-            <p>
+				<p>
                Egyszer óra közben nagy vitát provokált a hittantanárunknak az az
                   állítása, hogy korunk erkölcsi színvonalát semmi se emelné annyira, mintha újra
                   alkalmazásba vennék az egyházi átok muzeális villámait. Némelyek lelkesen
@@ -843,7 +841,7 @@
                   mások ellenben határozottan tiszteletlenül nyilatkoztak róla. Én az asztal végén
                   ültem a rajztáblámmal, amelyen az epiciklois szerkesztését próbálgattam.
             </p>
-            <p>
+				<p>
                Ez a görbe vonal, amelynek semmi egyéb rendeltetése nincs a világon,
                   mint hogy tizennégyéves fiúk sírva fakadjanak miatta, sokkal jobban érdekel korunk
                   erkölcsi színvonalánál, de éppen olyan kevéssé akart sikerülni, mint az. Különösen
@@ -851,90 +849,90 @@
                   bevett eszköze ugyan, de az epiciklois szerkesztésének nincs éppen hasznára. Ott
                   is akartam hagyni a zsinatot, de a hitoktató rám harsant:
             </p>
-            <p>
+				<p>
                - Kolléga, maga is adja bele az eszét! Mi a véleménye a szőnyegen
                   forgó kérdésről? Lehet-e a mi korunkban az egyházi átoknak foganatját várni?
             </p>
-            <p>
+				<p>
                - Hogyne - ocsúdtam föl a cikloisok bűvköréből -, ahol megfogja az
                   embereket, ott föltétlenül van foganatja. De például a medinaiakon nem fogott,
                   mert mikor azok megharagították Mohamedet és látták a szentről, hogy most mindjárt
                   átkozódik, akkor mind leguggoltak, hogy ne érje őket az átok.
             </p>
-            <p>
+				<p>
                Ez végét vetette a vitának, de végét vetette a hitoktató irántam való
                   szimpátiájának is. Sose érdeklődött nálam aziránt többet, ami pedig állandóan
                   foglalkoztatta, hogy turáni testvéreink közé tartoznak-e az arabok, vagy nem.
             </p>
-            <p>
+				<p>
                A magyar irodalom professzora volt az egyetlen kolléga, akit nemcsak
                   hogy el nem idegenítettem magamtól, de még hálára is köteleztem. Mégpedig éppen
                   akkor, amikor azért duruzsolt, hogy nem vagyok elég határozott.
             </p>
-            <p>
+				<p>
                - Azt mondja Propertius, csak a halottak határozottak - bújtam egy
                   régi középiskolai tekintély háta mögé.
             </p>
-            <p>
+				<p>
                De hát korunkban minden tekintély megingott. A kolléga nyomban
                   letromfolt.
             </p>
-            <p>
+				<p>
                - Azt is Proppernek hívták azelőtt! (Zajos derültség a ház minden
                   oldalán.)
             </p>
-            <p>
+				<p>
                Okos ember, ha letiporják, kedvét keresi a győztesnek.
             </p>
-            <p>
+				<p>
                - Az bizony nem lehetetlen. Horatiusnál is érdekes dokumentumát
                   találni annak, hogy már Rómában is megmagyarosították nevüket a zsidók. Ott van
                   például a Judaeus Apella, az ötödik szatírában. Bizony az is Abelesz volt
                   azelőtt.
             </p>
-            <p>
+				<p>
                - Nagyszerű, barátom! - kapta elő a noteszét. - Ha megengedi, ezt
                   följegyzem magamnak. Vagy maga akarja megírni?
             </p>
-            <p>
+				<p>
                - Írja az ördög. Nem értek én ahhoz.
             </p>
-            <p>
+				<p>
                - Hát én megírom. Nagyszerű téma, akár vezércikknek, akár
                   humoreszknek.
             </p>
-            <p>
+				<p>
                Nagyon melegen szorítottunk kezet. Én tán még jobban örültem, mint ő,
                   mert jobb adni, mint kapni. Ki tudja, hátha olyan pályán indítottam el a kollégát,
                   amely az irodalomtörténetbe ível!
             </p>
-            <p>
+				<p>
                Örömömben vettem az alagút szájánál egy szál pletykafüvet. Az a
                   kilencedik fizetési osztály dísznövénye. Szaporodik, mint a parancsolat, és nem
                   kell neki se föld, se cserép, csak egy pohár víz meg egy kis napocska. Annak pedig
                   nem vagyunk szűkiben, mióta a kubikulumból a magasabb régiókba emelkedtünk.
             </p>
-            <p>
+				<p>
                Ez körülbelül összeesett a tanári kinevezésemmel. Mikor az megjelent
                   a hivatalos lapban, Bierhuber úr kikerekített a kapuban és kért, hogy legyen
                   szerencséje hozzám estére a »Három Dudás«-ban. (Más nevet mondott, de azt nem
                   hozhatom nyilvánosságra, magasabb érdekből.) Egy kis ünneplés a hazáért meg nem
                   árt.
             </p>
-            <p>
+				<p>
                Nagyon szépen megköszöntem a kedves figyelmet és őszinte sajnálatomat
                   fejeztem ki, hogy én ezt nem tehetem.
             </p>
-            <p>
+				<p>
                - Ja, ja, Tehetem! - ragyogott fel a Bierhuber úr vérbeborult szeme.
                   (Nem a vérszomj veendő gyanúba, hanem a sörszomj!) Én is Tehetem, te is Tehetem!
                   Krisztigott, Bruder!
             </p>
-            <p>
+				<p>
                És akárhogy kapkodtam vissza a kezem, el nem eresztette addig, míg
                   külön-külön végig nem ropogtatta minden percét az öt ujjamnak.
             </p>
-            <p>
+				<p>
                Ez a rituális ujjropogtatás érette föl velem ésszel, hogy alighanem a
                   vérszövetség titkaiba vagyok belecsöppenőbe. A Töhötömöt torontáli vándorméhész
                   dialektusban úgy mondják, hogy Tehetem, s Bierhuber testvér ezen az alapon
@@ -943,7 +941,7 @@
                   annak, hogy én a testvérgyűlésen megjelenhessek. Tisztelet-becsület Töhötöm
                   apánknak, de a Netumák bácsi százötven kilója se kutya ám!
             </p>
-            <p>
+				<p>
                A hun-ivadék rámvigyorodott és szamárfület mutatott. (Úgy látszik, ez
                   is olyan jel volt, amiről a szövetség tagjai megismerték egymást.) Micsoda
                   gondolat az a részemről, hogy engem akarnak ünnepelni? Ő, Anton Bierhuber lesz az
@@ -963,26 +961,26 @@
                   Legkésőbb nyolcra, mert akkor lesz a pajzsraemelés. Holnap ilyenkor pedig már a
                   Duna-Tisza közén szervezi Anton Bierhuber a nemzet megméhesítését.
             </p>
-            <p>
+				<p>
                - És mi lesz a lakással? - kérdeztem dobogó szívvel. Belátom,
                   cudarság volt ilyen csiri-biri dologra gondolni, mikor a hazám jövőjéről volt szó,
                   de hát esendő az ember.
             </p>
-            <p>
+				<p>
                - Hja, asztad mék nem dutog - vont vállat a Bienenvater. - Arról gel
                   kontoskottya a mótyor kormány.
             </p>
-            <p>
+				<p>
                - Én ezt a lakást értettem. A mienket.
             </p>
-            <p>
+				<p>
                - Esztet? - köpött a küszöbre a soron kívüli kán.
             </p>
-            <p>
+				<p>
                - Esztet itt hatyok neket, mint Tehetemnek. Egy patriót méltó a
                   bárdfogásra.
             </p>
-            <p>
+				<p>
                De bizony, ezért lettem volna én akkora pátrióta is, mint Thonuzóba!
                   Egy valóságos szobáért, amelynek igazi ajtaja van, és azt igazi kilinccsel lehet
                   csukni, nyitni! Az ablakon reggel besüt a nap és este betartja a lámpást a hold!
@@ -990,19 +988,19 @@
                   Diánát. Csakhogy olyan Endymiont, akit fel lehet ébreszteni, és olyan Diánát, aki
                   ráakasztja az övét a hold sarlójára.
             </p>
-            <p>
+				<p>
                - Holtig hálás leszek, testvér. De van itt még egy megoldandó jogi
                   kérdés. Hát Netumák hova menjen?
             </p>
-            <p>
+				<p>
                - Mid Netumák? Asz nem érszi a mi mótyor fáldallmung, etet ki gell
                   dopni!
             </p>
-            <p>
+				<p>
                No a Netumák kidobásához sok mirza kell, gondoltam magamban. Majd
                   szót értünk velük estére.
             </p>
-            <p>
+				<p>
                Dehát menni se kellett értük, mert alkonyatkor a helyünkbe jött két
                   mirza. Igen, fő mirzák lehettek, mert nagyon keresztbe állt a szemük és különben
                   is kegyetlen tatár nevük volt. Az egyiket Hirhágernek hívták, a másikat
@@ -1014,226 +1012,226 @@
                   tervezetet, amely méhészkerületek szervezésére hívta föl az Alföld hazafiasán
                   gondolkodó népét.
             </p>
-            <p>
+				<p>
                Így dőlt sírba az új rendszerű háború győzelmének reménye, és így
                   lettem én rövid úton másodalbérlője Tera mamának, aki a gyászeset alkalmából
                   tízszeresre emelte a lakbért.
             </p>
-            <p>
+				<p>
                - Nézze, nagyságám - adta elő az indokolást a házi kincstárt kezelő
                   Diának -, maguk meg úgy adják ki az alsó helyiséget az öreg tatának, ahogy
                   akarják.
             </p>
-            <p>
+				<p>
                Egy kicsit felhődztem tőle, hogy az öreg tata nagyon a szívére fogja
                   venni menekült társa halálát. De kiderült, hogy Észak és Dél közt nagy ellentétek
                   lappangnak.
             </p>
-            <p>
+				<p>
                - Szerb spion volt ez a torontáli sváb, kérem - tért napirendre a
                   nemzeti gyász felett Netumák bácsi és sokkal nagyobb érdeklődést tanúsított
                   aziránt a kérdés iránt, hogy hol fogja ő ezentúl kinyugodni a nap
                   fáradalmait.
             </p>
-            <p>
+				<p>
                Felajánlottuk neki a kubikulumot, de Netumák bácsi ettől nagyon
                   megijedt. Azt mondta, hogy először is nem felel meg a társadalmi állásának,
                   másodszor nagyon nehéz bele lemenni, harmadszor, föl bírjuk-e őt onnan húzni
                   reggelenként?
             </p>
-            <p>
+				<p>
                Tekintettel a kettőnk három kezére, ezt nem mertük vállalni és így
                   Netumák bácsi kiesett az életközösségünkből. Egy hétig még föl-fölijedtünk rá
                   éjszakánként, hogy nem halljuk-e horkolását, de az ember lassanként mindent
                   megszokik, még azt is, hogy a felesége szíve dobogásán aludjon el Hephaistos
                   fújtatója helyett.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                4
             </head>
-            <p>
+				<p>
                Pár hónap alatt gyönyörűen elbokrosodott a pletykafű az ablakunkban
                   és éppen annak a szárazát csipkedtem ki, mikor Dia egyszerre csak elneveti magát
                   krumplitisztítás közben.
             </p>
-            <p>
+				<p>
                - Hát, te? - fordulok oda hozzá - tán az angyalokat látod?
             </p>
-            <p>
+				<p>
                - Nem is képzeled, mit álmodtam az éjszaka. Lermontov térdelt előttem
                   a bakcsiszeráji forrásnál.
             </p>
-            <p>
+				<p>
                A költők akkor is veszélyes vetélytársak, ha száz évvel ezelőtt
                   meghaltak. Ajánlatosnak éreztem odaülni az asszony mellé a kisszékre.
             </p>
-            <p>
+				<p>
                - Az ám, de... ej nem kötök én neked mindent az orrodra!
             </p>
-            <p>
+				<p>
                - Egész bátran! Nem vagyok én féltékeny.
             </p>
-            <p>
+				<p>
                - Nem is ajánlom - ölelt át Dia a félkarjával. - Én még álmomban is
                   hű vagyok hozzád.
             </p>
-            <p>
+				<p>
                Az ilyen asszony megérdemli, hogy az ember az ölébe vegye. Még akkor
                   is, ha a krumpli mind kigurul a kötényéből.
             </p>
-            <p>
+				<p>
                - Hát aztán hogy volt az, azzal a Lermontovval?
             </p>
-            <p>
+				<p>
                - Képzeld, meg akarta csókolni a térdemet.
             </p>
-            <p>
+				<p>
                - Ejnye, tarrka szarrka farrka. (Ezt Dia valami klasszikus
                   káromkodásnak gondolta.) De csak nem engedted meg neki?
             </p>
-            <p>
+				<p>
                - Te csacsi, hát hogy engedtem volna, mikor nem volt még harisnya sem
                   a lábamon!?
             </p>
-            <p>
+				<p>
                Az ilyen szemérmes asszony megérdemli, hogy a valóság kárpótolja az
                   álomért. De eltaszította a fejemet.
             </p>
-            <p>
+				<p>
                - Sicc, te! De tudod mit mondott arra Lermontov?
             </p>
-            <p>
+				<p>
                - Azt mondta, hogy te egy kőszívű kis majom vagy. Olyan, amilyent a
                   kínaiak faragnak nefritből.
             </p>
-            <p>
+				<p>
                - Ó, dehogy! Gavallér ember volt az a dámákhoz. Azt mondta, hogy ha
                   legközelebb megint vele álmodok, akkor hoz egy pár selyemharisnyát a Fő
                   utcából.
             </p>
-            <p>
+				<p>
                De most már nagyon komoly káromkodást eresztettem meg.
             </p>
-            <p>
+				<p>
                - Hű az allelujáját, az alelölülőnek! Majd lesz gondom rá máskor,
                   hogy ne olvass elalvás előtt lírai költőket. Herodotost hozom én neked haza a
                   tanári könyvtárból, abból megláthatod, hogy mily én egyszerű toalettekben járnak a
                   puritán szarmata hitvesek.
             </p>
-            <p>
+				<p>
                Felugrott az ölemből és csípőjére rakta a két kezét, összeráncolta a
                   szemöldökét. De azért csak Aphrodité volt ő Pallas Athenének is.
             </p>
-            <p>
+				<p>
                - No csak az kellene még, hogy azt a vén pópát idehozd! Nem elég az
                   az egy, akit éjszaka a fejed alatt tartasz?
             </p>
-            <p>
+				<p>
                Csupa nagyszakállú pópának képzelte a drága a klasszikusokat és
                   nagyon irtózott tőlük, mert csak a mitológiát tartotta szépnek az egész antik
                   világból. Mindig keresztet vetett, ha reggeli ágyazáskor a Livius kiesett a
                   vánkosom alól. (Mert azt tartogattam a fejem alatt, noha nem sok eredménnyel. A
                   pún háborúk háttérbe szorultak a mitológiai stúdiumok mellett.)
             </p>
-            <p>
+				<p>
                Elébem térdelt és komoly aggodalommal nézett a szemembe:
             </p>
-            <p>
+				<p>
                - Tudod, hogy megijesztettél az éjszaka? Nagyon kínosan nyöszörögtél,
                   mi volt az?
             </p>
-            <p>
+				<p>
                - Rosszat álmodtam. Megjelent előttem Hannibál és szíven akart szúrni
                   a lándzsájával.
             </p>
-            <p>
+				<p>
                A szívemre borult és betakart széthulló haja arany-zuhatagával.
             </p>
-            <p>
+				<p>
                - Csúnya álom rosszat jelent, féltelek emberkém.
             </p>
-            <p>
+				<p>
                - Sose félts engem, asszonykám - hajtottam bele fejemet az
                   aranyfolyóba. - Ha még egyszer eljön Hannibál, megmondom neki, hogy menjen a
                   felsőbb hatóságokhoz a jegyzeteimért. Énvelem nem állnak szóba, ő katona, tán
                   jobban imponál nekik, különösen ha a táborszernagyi ruháját veszi magára.
             </p>
-            <p>
+				<p>
                míg a hibára nem lelünk.«
             </p>
-            <p>
+				<p>
                Innen-onnan kétezer esztendeje, hogy Catullus ezt a receptet csinálta
                   az asszonyok megnyugtatására, de azóta se igen találtak ki hatásosabbat a
                   doktorok. Dia már majdnem teljesen megnyugodott, mikor fölkrákogott bennünket
                   Menyus, az iskolaszolga.
             </p>
-            <p>
+				<p>
                - A méltóságos igazgató úr kéreti a tekintetes tanár urat, hogy
                   azonnal tessék hozzá fölfáradni az irodába.
             </p>
-            <p>
+				<p>
                Ez a csókaszemű ember, ez a Menyus, mindig idegessé tett a sunyi
                   nézésével. (A rómaiaknál bizonyosan haruspex lett volna belőle; azt hiszem,
                   azoknak is úgy el volt görbülve a szemük a sok bélbenézéstől.) Aztán az igazgató
                   úr, mi a szöszt akar tőlem vasárnap? Hát még ilyenkor is elvillamosozzam az
                   ebédrevalót?
             </p>
-            <p>
+				<p>
                - Látod, az álmod? Mondtam ugye? - súgta a fülembe Dia, míg
                   nyakkendőkötés örve alatt megölelt.
             </p>
-            <p>
+				<p>
                - Álom: esős idő - haraptam meg a füle cimpáját súgás örve alatt. -
                   Hátha egy kis előléptetés van a hivatalos lapban? Nézd, Menyus rá is
                   tüsszentett.
             </p>
-            <p>
+				<p>
                Menyus csakugyan tüsszentett, de azt horkantásnak is lehetett venni,
                   s hozzá még ki is tátotta a száját. Mindegy no, lesz ami lesz, azért hogy
                   méltóságos úr, derék ember az én igazgatóm, nem kell nekem attól félni.
             </p>
-            <p>
+				<p>
                Azzal fogadott, hogy kényes ügyben akar velem beszélni: azért
                   hívatott vasárnap délelőtt, mert ilyenkor nincs benn senki, zavartalanul
                   beszélgethetünk.
             </p>
-            <p>
+				<p>
                - Tessék parancsolni.
             </p>
-            <p>
+				<p>
                - Kérlek alássan, te... hogy is mondjam... hát igen... ugyebár... te
                   katolikus vagy? Mert hivatalos irataid szerint az vagy. Vagy legalábbis az
                   voltál.
             </p>
-            <p>
+				<p>
                - Persze, az vagyok én most is. Ha parancsolod, elmondom az egész
                   katekizmust, még a kilenc idegen bűnt is.
             </p>
-            <p>
+				<p>
                - Ó, kérlek! De talán a kedves nejed őnagysága... vagy az se
                   zsidó?
             </p>
-            <p>
+				<p>
                - Az én feleségem? Archimandrita vagy mi a mándruc volt a nagybátyja,
                   akkora aranykereszt lógott a nyakába, hogy elég volt hordani neki.
             </p>
-            <p>
+				<p>
                A jó embernek felderült az arca. Mind a két kezével megszorította az
                   egy kezemet.
             </p>
-            <p>
+				<p>
                - Nagyon örülök. Gratulálok. Mármint ahhoz, hogy alaptalanul
                   megrágalmaztak benneteket. De mondd csak, mi az ördögért szoktatok ti otthon
                   zsidóul imádkozni? Akkorára tátottam a szám, hogy majd kiesett rajta a fejem.
             </p>
-            <p>
+				<p>
                - Mink? Egy ősöm volt, aki szombatos volt az Apaffy Mihály idejében.
                   Legföljebb az imádkozhatott volna zsidóul, de azt hiszem, az egyáltalán nem
                   imádkozott sehogyse, mert lovasok hadnagya volt.
             </p>
-            <p>
+				<p>
                - Nem értem - csóválta a fejét a direktor. - Pedig a Menyus a saját
                   szemével látta, amikor a minap valami körözvényt vitt hozzátok. Te keresztben
                   ültél a széken, a nyakadban volt a talesz, a fejeden valami kapele, a nejed
@@ -1241,12 +1239,12 @@
                   billegetted hozzá. Azt mondja Menyus, nagyon megijedtetek, mikor ő benyitott, s te
                   olyan mérgesen néztél rá, hogy attól félt, hogy megharapod.
             </p>
-            <p>
+				<p>
                Hát, amit a filológiában homéri kacajnak neveznek, az félénk
                   mosolygás volt ahhoz képest, amit én véghezvittem. Egyre recsegett a kanapé, míg
                   előadtam a tényállást.
             </p>
-            <p>
+				<p>
                - Szóról szóra úgy volt, ahogy a Menyus jelentette. Keresztbe ültem a
                   széken, mert én azt mindig úgy szoktam, mikor a tükör előtt borotválkozom. Igaz,
                   hogy akkor már túl voltam rajta, de a törülköző még mindig a nyakamban lógott: az
@@ -1261,22 +1259,22 @@
                   nevetett még ekkorát. Mikor aztán letörölgette a könnyeit, megint
                   visszaméltóságosodott, de most is majd sírva fakadt.
             </p>
-            <p>
+				<p>
                - Látod, fiam, ilyen világot élünk. Ez a Menyus telekürtölte vele az
                   egész iskolát, hogy a te feleséged a jeruzsálemi főrabbinak a lánya, és a tanárok
                   egyre maceráltak, hogy helyeztesselek el innen. Nahát, most már majd megmondom
                   nekik a magukét. Bennem emberükre találnak!
             </p>
-            <p>
+				<p>
                Hanem azért az ajtóból visszaintett, és a lelkemre kötötte, hogy a
                   Menyustól óvakodjam.
             </p>
-            <p>
+				<p>
                - Tudod, fiam, ez a legnagyobb tolvaj az egész kerületben, még a
                   sógorának a keresztkomája is az iskola szenével fűt, de nem tehetek ellene semmit,
                   mert valami befolyásos fő-turul.
             </p>
-            <p>
+				<p>
                No, én nagyon tiszteltem is Menyust, előre köszöntem neki mindig, és
                   minden alkalommal megkuckuztam azt a lépcső alján mászkáló kis varasbékát, akihez
                   atyai jogokat formált, s akit az egész iskola főigazgatónak hívott. (Tudniillik,
@@ -1284,7 +1282,7 @@
                   megtettem, hogy a szivarvégeket Menyusnak adtam, holott otthon pipában magam is
                   delektálhattam volna velük.
             </p>
-            <p>
+				<p>
                Még ez se ért semmit, már nem tudom, azért-e, mert Menyus catói
                   jellem volt, vagy azért, mert a szivarvégek csak rövid szivartól vették
                   eredetüket. Menyus csókaszeme egyre élesebben fúródott veséimbe, s a kollégák
@@ -1294,7 +1292,7 @@
                   nekik, amikor konstatálhatták rólam, hogy »no, ebből is ugat már a halál kutyája.
                   Az élet mindig ad rá alkalmat az embernek, hogy jót tegyen a környezetével.
             </p>
-            <p>
+				<p>
                Hanem akárhogy igyekeztem jóba foglalni magamat, az igazgatóm egyre
                   kapta a névtelen leveleket, amelyek részben előttem is ismeretlen adatokat
                   szolgáltattak életrajzomhoz. Még az is kitudódott, hogy hol én hordom a feleségem
@@ -1304,43 +1302,43 @@
                   volt, és a logaritmus örök törvényei bizonyos erkölcsi bátorságot adnak az
                   embernek; egyet azonban megmutatott:
             </p>
-            <p>
+				<p>
                - Nézd csak, ez nő-írás.
             </p>
-            <p>
+				<p>
                - Az, de férfidiktandóra készült. Látod, itt dolgozat-javításhoz
                   szokott férfikéz rakott bele helyesírási hibákat, hogy olyan legyen, mint egy
                   spontán elhatározásból született női levél.
             </p>
-            <p>
+				<p>
                Végre is férfikéz vágta el a nyakamat, asszonyi segítséggel. Hannibál
                   szövetkezett az elbuktatásomra Emese anyánkkal.
             </p>
-            <p>
+				<p>
                Húsvéti konferenciát tartottunk, egy kicsit meg is késtem, mert
                   nagyon elácsorogtuk az időt a kirakatok előtt. Húsvét hetében mégiscsak tartozik
                   egy szerető férj a feleségének azzal, hogy megmutatja neki, mennyi szépség van a
                   világon az Attila körúttól a Retek utcáig.
             </p>
-            <p>
+				<p>
                - Tessék, tessék! - integetett az igazgató az asztalfőről, mikor
                   restelkedve bekeszegeltem az ajtón - már csak a kollégára várakoztunk.
             </p>
-            <p>
+				<p>
                Szegény feje nem is sejtette, mennyire énrám várakoztak!
             </p>
-            <p>
+				<p>
                A magyar irodalom professzora napirend előtt kért szót. Azt mondta,
                   fontos bejelentést akar tenni. Ez abból is látszott, hogy a cvikkerét nem az orrán
                   tartotta, hanem a kezében.
             </p>
-            <p>
+				<p>
                - Megengedik az urak? - kérdezte udvariasan a direktor.
             </p>
-            <p>
+				<p>
                Én bólintottam elsőnek, hogy »meg«.
             </p>
-            <p>
+				<p>
                - Kölcsey mondása szerint félve szólamlok meg méltóságos elnök úr, és
                   nagytekintetű tanári kar! Egy olyan hallatlan kegyeletsértést vagyok kénytelen a
                   nagyérdemű testületnek a tudomására hozni, amely nemcsak felháborodással, hanem
@@ -1351,12 +1349,12 @@
                   elkövette ezt a névtelen bűnt, elkövette a szellemi anyagyilkosságot! Engedelmet
                   kérek.
             </p>
-            <p>
+				<p>
                A kolléga azért kért engedelmet, hogy szájára vehesse a vizes poharat
                   az asztal közepére helyezett tálcáról. Mint gyakorlott szónok, a megszakítással is
                   fokozni óhajtotta a hatást.
             </p>
-            <p>
+				<p>
                - Halljuk! Halljuk! - kiabáltak a kollégák. Sőt én magam is
                   halljukoztam, nemcsak udvariasságból, hanem őszinte kíváncsiságból is. (Sőt az
                   igazgatón kívül én voltam az egyetlen kíváncsi a társaságban.) Ki az ördög lehet
@@ -1375,11 +1373,11 @@
                   zsidó volt, ennélfogva az antisemitizmusa nem lehetett őszinte, dehát ezért igazán
                   nem lehetett engem okolni.
             </p>
-            <p>
+				<p>
                Úgy látszik pedig, mégiscsak ezért kellett lakolnom. A szónok néhány
                   korty ihlet után most már felém fordulva folytatta:
             </p>
-            <p>
+				<p>
                - Kérdezem a jelenlevő megtévelyedett kollégát, meri-e tagadni, hogy
                   Emese volt a magyarság ősanyja, mert az ő álmával kezdődik nemzeti történetünk? És
                   meri-e tagadni, hogy mikor két nappal ezelőtt hazafelé menet az Emese-egyesület
@@ -1391,22 +1389,22 @@
                   s két jelenlevő kollégával tudom igazolni, hogy az szó szerint így hangzott
                   el.
             </p>
-            <p>
+				<p>
                Nagy lárma támadt, az igazgató halálsápadtan rázta a csengőt, végre
                   megkérdezte, hogy kívánok-e szólani.
             </p>
-            <p>
+				<p>
                - Csak azt vagyok bátor megkérdezni az előttem szólott kollégától,
                   hogy nem azon a napon történt-e az én sajnálatos elszólásom, mikor kolléga úr,
                   mint a tanári könyvtár őre hazahozta a Jókai költeményeinek második kötetét,
                   amelyet félévig magánál tartott?
             </p>
-            <p>
+				<p>
                - Kikérek magamnak minden meggyanúsítást! Imádom Jókait, s idei
                   értesítőnk számára program-értekezést írok a költészetéről, amiért alaposan
                   kellett vele foglalkoznom.
             </p>
-            <p>
+				<p>
                - Bocsánatot kérek, azt én egy pillanatig sem vonom kétségbe. Csak
                   azt legyen szabad még megjegyeznem, hogy az inkriminált rigmusokat én szó szerint
                   idéztem hazánk nagy költőjének, Jókai Mórnak Emese ősanyánkról szóló
@@ -1415,52 +1413,52 @@
                   írta ezt a verset, hanem ötven évvel ezelőtt, amikor a közállapotok igen
                   elkeserítőek voltak.
             </p>
-            <p>
+				<p>
                Némi zavart csend támadt, aminek az igazgató vetett véget, szemmel
                   látható megkönnyebbedéssel jelentvén ki, hogy áttérünk a napirendre. Van
                   szerencséje bemutatni a kultuszminiszter úr őnagyméltósága leiratát a pornográfia
                   elleni küzdelem pedagógiai vonatkozásai tárgyában.
             </p>
-            <p>
+				<p>
                Ez máskor nagyon érdekes téma szokott lenni, amelyhez kor- és
                   világnézeti különbség nélkül hozzászól mindenki, most azonban senki se hallgatott
                   oda. Halk torokköszörülések, nem egészen véletlen könyökösszeértetések és tenyérbe
                   hajtott homlok alól való összekacsintgatások tettek róla tanúbizonyságot, hogy a
                   legőszintébb öröm a káröröm.
             </p>
-            <p>
+				<p>
                Az ülést a szokott amábilis konfusió fejezte be, amelynek során
                   irodalomtörténész kollégám lépett meg elsőnek, mellőzvén az elköszönés
                   formaságait. Amint elment, az igazgató újra összecsődített bennünket.
             </p>
-            <p>
+				<p>
                - Uraim, baj van. Imént eltávozott kollégánk közölte velem, hogy
                   egyéb elfoglaltsága miatt nem vállalja az értesítői programértekezést. Ki hajlandó
                   most már feláldozni magát a haza oltárán?
             </p>
-            <p>
+				<p>
                Mindenki a szomszédját noszogatta, csak engem nem noszogatott senki.
                   De mikor jelentkeztem, még meg is éljeneztek. Az igazgató majd megölelt. Látszott
                   a szeméből, hogy úgy veszi a dolgot, mint nekem kijáró elégtételt.
             </p>
-            <p>
+				<p>
                - Mi lesz a címe?
             </p>
-            <p>
+				<p>
                - A zámai csata és következményei.
             </p>
-            <p>
+				<p>
                - Mikor kapom meg?
             </p>
-            <p>
+				<p>
                - Az ünnepek után. Most legjobban ráérek.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                5
             </head>
-            <p>
+				<p>
                Csak kint az utcán jutott eszembe, hogy reggel az ágyban, egészen más
                   húsvéti programot csináltunk mi Diával: kankalinszedés a Kecskehegyen,
                   kökörcsinszedés a Sashegyen, Adóniszszedés a Jánoshegyen. Csókszedés minden
@@ -1469,30 +1467,30 @@
                   megfoltozom az atlasz cipőjét, már abban viszem a Föltámadásra, meg húsvét
                   hétfőjén a Gellérthegyre, búcsúra.
             </p>
-            <p>
+				<p>
                Hát persze, mindebből most már nem lett semmi se. Hannibál és Scipió
                   letaposták vascsizmáikkal az egész húsvéti flórát. Csak Dia maradt meg drága,
                   virágzó, mosolygó kökénybokromnak. Azt mondja, nem bán ő semmit, csak
                   odakuporodhasson a lábamhoz, mikor írok.
             </p>
-            <p>
+				<p>
                Hanem azért azt hiszem, nagyon örült, mikor húsvéthétfő estéjén
                   eltakarodtak az asztalomról az öreg »pópák«, Livius, Polybios meg az újabbkori
                   minisztránsgyerekek, akik ezeket az öreg mesemondókat kommentálták. Mink csak
                   akkor mondtuk el egymásnak, hogy »Vosz Chrestos« és csak akkor hajtottuk be
                   egymáson a húsvéti csókot. Igaz, hogy azt jó kiadósán.
             </p>
-            <p>
+				<p>
                - Te - mondom az asszonynak, ahogy kisimogatom a haját a szeméből -,
                   nem kívánkozol most haza? Nálatok ilyenkor keresztényi kötelessége az embernek
                   mindenkit megcsókolni, akivel találkozik?
             </p>
-            <p>
+				<p>
                - Ej, házi-kutya - »kutyaházit« akart mondani, miközben meghúzta a
                   fülemet -, azért gondoskodtál te róla, hogy itt csak olyan vén medvékkel
                   találkozzak, mint a Scipió, meg a Hannibálod?
             </p>
-            <p>
+				<p>
                Még a kezében volt a fülem, mikor kaparássza valaki a kilincsünket.
                   Ugyan ki lehet az ilyen késő este, ebben a vadidegen városban, ahol mi a világon
                   senkivel se járunk össze. (Utóvégre nem szedhet az ember minden vizitelőt az
@@ -1504,19 +1502,19 @@
                   De mikor a vendég belépett, bizony úgy megörültem neki, hogy mindjárt oda
                   cuppantottam a képére a »vosz Chrestos«-t.
             </p>
-            <p>
+				<p>
                - Hozta isten Rózsi fiam, mi jót hozott nekünk?
             </p>
-            <p>
+				<p>
                - Hát ezt hoztam-e! - tett le az asztalra egy fonatos kalácsot - meg
                   ezt is hoztam, ni!
             </p>
-            <p>
+				<p>
                Azzal kinyújtotta a kezét az ajtón és berántotta az udvarról a
                   Jánost. A taszigálós Jánost, mind ez ideig egyetlen pátrónusunkat a hazai
                   földön.
             </p>
-            <p>
+				<p>
                - Ne, ezt meg nekem küldte a jó isteni - nevette el magát Dia, s most
                   meg ő adott húsvéti csókot a fináncnak, de kettőt. Az egyiket azért, mert ez
                   kijárt Rózsiért, a másikat meg mit tudom én miért. Filológus vagyok én, nem
@@ -1526,7 +1524,7 @@
                   Dia szájacskát adott a fináncnak. Nem sajnáltam szegénytől, legalább életében
                   egyszer főszemlésznek érezhette magát.
             </p>
-            <p>
+				<p>
                Amúgy úgyse lehetett rá semmi kilátása szegény fejének, hogy majd
                   őbelőle is csillagos János lesz valaha. Háromszor is nekirugaszkodott már az
                   ábécének, de sose jutott tovább annál, hogy »úr, ír, rí, úr ír«. (Az se volt ám
@@ -1537,77 +1535,77 @@
                   elhajtani, akkor a hasán morzsolgatta a mundérgombot a kincstári cérna erős
                   veszélyeztetésével.
             </p>
-            <p>
+				<p>
                - Márpedig, ha írni, olvasni meg nem tanulsz, akkor a próbaesztendőd
                   után oda mehetsz, ahol a part szakad - mondta neki a fölöttes hatósága.
             </p>
-            <p>
+				<p>
                - Márpedig én inkább leteszem a panganétot, de engem kukorékolni meg
                   kását fújni ne tanítgassanak - jelentette be János a fölöttes hatóságának a
                   véghatározatot.
             </p>
-            <p>
+				<p>
                Mivel a próbaesztendő most már a vége felé járt, János lejött
                   húsvétolni Pestre, hogy a Rózsi segedelmével valami olyan polgári foglalkozás után
                   nézzen, ahol nem macerálják az embert a tudományokkal.
             </p>
-            <p>
+				<p>
                Ha követválasztásos idő lett volna, akkor tudtam volna valami
                   nekivaló pályát ajánlani Jánosnak, így azonban csak azzal biztattam, hogy
                   becsületes ember a jég hátán is megél. Aztán mikor eljóéjszakáztak, utánaszóltam,
                   hogy csak nekem szóljon ám megint, ha szerelmes levelet akar íratni!
             </p>
-            <p>
+				<p>
                - Hiszen csak az kellene! - karolt bele Rózsi nevetve. - Majd
                   megtanítanám én a betyárt a nyújtófával úgy, hogy mindjárt elmondaná az
                   ábécét.
             </p>
-            <p>
+				<p>
                János kihúzta magát, mert rendkívül emeli a férfi önérzetét, ha női
                   ajak betyárnak nevezi. De énhozzám is volt ám elismerő szava Rózsinak!
             </p>
-            <p>
+				<p>
                - A tekintetes úr meg úgyse tudna többet olyan szép levelet írni!
                   Azóta mindig itt hordom a kebelemben.
             </p>
-            <p>
+				<p>
                Kerek fekete szeme megcsillant a holdfényben, ahogy alma-piros arcát
                   visszafordította.
             </p>
-            <p>
+				<p>
                - Te - mondom Diának, ahogy becsuktuk az ajtót -, észre se vettem
                   eddig, hogy az a Rózsi egész jóképű némber volna, ha a többit nem nézné az
                   ember.
             </p>
-            <p>
+				<p>
                - Én meg azt néztem, hogy milyen formás szája volna ennek a
                   legénynek, ha az a nagy rozmár-bajusz el nem takarná - tromfolt vissza Dia.
             </p>
-            <p>
+				<p>
                - Na - csücsörítettem előre az ajkam -, azt hiszem, szép szájért nem
                   kell a szomszédba menned.
             </p>
-            <p>
+				<p>
                - Hát, ami azt illeti - nevetett Dia a szeme sarkából -, én a tiédnek
                   a felét elengedném l
             </p>
-            <p>
+				<p>
                - Mit? - húztam össze a számat. - így is kisebb, mint a tied!
             </p>
-            <p>
+				<p>
                - Próbáljuk össze!
             </p>
-            <p>
+				<p>
                Miután több ízben mértéket vettünk egymás szájáról, megint
                   visszatértem a fináncra.
             </p>
-            <p>
+				<p>
                - Te, én azt hiszem, hogy ez a János éppen úgy beletartozik az
                   életembe, mint Hannibál, ő szedte ki a csizmámból Hannibált, mikor hazaértünk, s
                   most éppen azon a napon jelentkezett újra, mikor Hannibált feltámasztom haló
                   poraiból. Nem érdekes?
             </p>
-            <p>
+				<p>
                - És neki is olyan bunda-bajusza van, mint Hannibálnak - rúgott Dia a
                   papucsa hegyével Montanarinak az asztal alá söpört könyvére, amelyben benne van a
                   nagy pun állítólagos képe. (Szerintem, ez a másik Hannibált ábrázolja, az
@@ -1615,7 +1613,7 @@
                   Duillius elcsáklyázta a flottáját. Az a borbélycímerbe való császárszakállas
                   tengeri borjú, akit ez ábrázol, nem kelhetett át az Alpeseken.)
             </p>
-            <p>
+				<p>
                - Csacsikám - állítottam meg Dia lábának karcsú ingáját -, te nem
                   tudod, milyen fordulópont volt az emberiség életében a zámai csata. Látod, ha
                   akkor Hannibál veri meg Scipiót, nekem talán most nem lóg üresen az egyik kabátom
@@ -1624,25 +1622,25 @@
                   mindig arra gondolnom, mikor megölellek, hogy nem vagy jól bekerítve s nagy baj
                   lehet még egyszer abból.
             </p>
-            <p>
+				<p>
                Most már Dia mondta nekem azt, hogy csacsi vagyok - és megcsókolta az
                   üres kabátujjat.
             </p>
-            <p>
+				<p>
                - Hát, hogy volt az a zámai csata?
             </p>
-            <p>
+				<p>
                - Úgy, mint hogyha én kiállnék birkózni a Jánossal és addig
                   zötyögtetnénk egymást, míg parasztökle be nem törné az én szép, finom
                   koponyámat.
             </p>
-            <p>
+				<p>
                - Csakhogy ennek a drága szép finom koponyának van ám annyi esze,
                   hogy nem megy neki annak a vastag-csontú medvének! - helyezkedett Dia
                   történetfilozófiai álláspontra és olyan helyen adott oltalmat a szóban forgó
                   koponyának, ahol az igen szeretett tartózkodni.
             </p>
-            <p>
+				<p>
                Nem tudom, Diának ilyen intervenciója mennyiben befolyásolta volna a
                   zámai csata sorsát - bizonyos, hogy ő abban az időben istennő lett volna -, de azt
                   nagyszerűen kifejtettem tanulmányomban, hogy a világ képe egészen másképp alakult
@@ -1652,7 +1650,7 @@
                   durva Kain, a korlátolt kecskepásztor, aki zöld gallyakból rakta a tüzet és
                   csodálkozott azon, hogy füstje nem száll az ég felé.
             </p>
-            <p>
+				<p>
                Bár a jegyzeteim nyilván rég eladták makulatúrának a felsőbb
                   hatóságok, mint más megsemmisítésre ítélt corpus delictiket, Hannibál igen meg
                   lehetett velem elégedve. Mindent megtettem érte, ami tőlem telt. Még a nyomdába is
@@ -1669,24 +1667,24 @@
                   Hiszen átment a kezén, s aki abba belenéz, az le nem teszi a »Használt és idézett
                   forrásokig.
             </p>
-            <p>
+				<p>
                Bemutatkoztam neki, ez és ez vagyok, Hannibálról írtam egy kis
                   értekezést, talán a névre tetszik is emlékezni...
             </p>
-            <p>
+				<p>
                - Hogyne, hogyne - nagyon örülök, mivel lehetek szerencsés
                   szolgálatára lenni?
             </p>
-            <p>
+				<p>
                - A kefelevonatokat, ha szabad volna átnéznem, sok a görög és latin
                   idézet...
             </p>
-            <p>
+				<p>
                - Te fiú! - intett oda egy álmos nyomdászinaskát - szaladj a
                   korrektor úrhoz, mondd meg neki, hogy itt van Hannibál tanár úr, valami görög
                   históriának a levonatát kéri. Han-ni-bál tanár úr, megértetted, te állat!?
             </p>
-            <p>
+				<p>
                Ez volt az első siker, amihez Róma rettegtetője hozzájuttatott.
                   Valami szimbolikus jelentőségét találtam annak, hogy az a kövér rabszolgafőnök
                   éppen rabszolgának nevezett ki. Csakugyan van valami hannibálos abban, amit
@@ -1703,7 +1701,7 @@
                   mert kettőnknek nagy rubrika lett volna a villamosköltség. Most már majd igen, ha
                   a tanulmányom napvilágot lát.
             </p>
-            <p>
+				<p>
                Az a legkevesebb, hogy egy fizetési osztályt ugrok. Talán a kormány
                   ki fog küldeni tanulmányútra Karthágóba. Esetleg a külföldi akadémiák szólítanak
                   föl rá. Persze, nem tudják a címemet, kénytelenek lesznek a Magyar Tudományos
@@ -1712,7 +1710,7 @@
                   eddig? Utóvégre én nem kísérhetek mindent figyelemmel, de mégis különös, hogy ezt
                   a nevet sose hallottam, úgy látszik, ezt még senki se érte plágiumon.
             </p>
-            <p>
+				<p>
                A kétségeimet nem közöltem Diával, de az álompalotához együtt hordtuk
                   a köveket. Péter-Pálra építettünk olyan Turris Maecenatianá-t, hogy abban még
                   hintaszék is volt. Csak azon nem tudtunk megegyezni, hogy milyen színű plüss
@@ -1721,37 +1719,37 @@
                   juttatja eszébe, amelyikben nevelkedett. (Ohó, gyere, gyónd meg csak, micsoda
                   penitenciákat szabott neked ez a trifurcifer?! De lélekre!)
             </p>
-            <p>
+				<p>
                Péter-Pálkor hazavittem neki az értesítőt s mutattam a tábláját:
             </p>
-            <p>
+				<p>
                - No, nézd, ez a tengerszín, tetszene neked takarónak?
             </p>
-            <p>
+				<p>
                - Ez tengerszín? De hiszen ez bőrszín.
             </p>
-            <p>
+				<p>
                - No igen. Homerosnál az a tengernek a jelzője, hogy »borszínű«.
             </p>
-            <p>
+				<p>
                - Aha! - nevetett Dia, azért voltak hát részegesek mindazok a görög
                   tengerészek, akik a Krímben megfordultak. Szárazon is mindig tengerszínt akartak
                   látni.
             </p>
-            <p>
+				<p>
                Végre is abban egyeztünk meg, hogy a takaró egyik oldala lilásvörös
                   lesz, a másik meg vöröseslila.
             </p>
-            <p>
+				<p>
                - De hát mikor gondolod, hogy bútorozkodhatunk?
             </p>
-            <p>
+				<p>
                - Azt hiszem, két héten belül tele lesz nevemmel az itthoni sajtó.
                   Holnaptól kezdve mindenesetre figyelemmel kísérjük a lapokat. Két trafikot is
                   tudok a hídfő körül, ahol szabad megnézni az újságokat. Majd megosztozunk
                   rajtuk.
             </p>
-            <p>
+				<p>
                De úgy látszott, hogy az egész mai kor fináncszemmel nézi az ókort.
                   Álompalotánk tornyai egymás után omladoztak be. Egyszer, amint hazaértem az
                   újságböngészésből, észrevettem, hogy a falról eltűnt Hannibál kétes hitelű
@@ -1759,26 +1757,26 @@
                   amelyet sajátkezűleg szerkesztettem védőszentünknek. Bántott a dolog, de nem
                   mertem szólni. Be kellett látnom, hogy Hannibál förtelmesen viseli magát.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                6
             </head>
-            <p>
+				<p>
                Pár nap múlva arra ébredek fel reggel, hogy besuhog valami az
                   ablakon. (Július vége felé járt, nyitott ablaknál aludtunk.) Kiugrom az ágyból,
                   fölveszem: újság.
             </p>
-            <p>
+				<p>
                Máig se tudom, ki dobta be, de az bizonyos, nem Hannibál szelleme
                   volt. A karthágóiak kegyetlen emberek voltak, de a megkékceruzázott cikkek nem
                   tartoztak a kinzóeszközeik közé.
             </p>
-            <p>
+				<p>
                Óriási botrány a parlamentben egy értesítő miatt. Propagandaértekezés
                   a sémi világuralomról. Orosz bérenc a katedrán.
             </p>
-            <p>
+				<p>
                Ez csak a cím volt, többet nem is olvastam, összegyűrtem a lapot, és
                   odakaptam a meglevő karommal a meg nem levőhöz, mert rettenetes fájdalmat éreztem
                   benne, a vállamtól az ujjam hegyéig. Aztán a fájás átugrott a fejembe, onnan
@@ -1786,89 +1784,89 @@
                   zuhogott a fülemben, abba néha beleszisszentek a srapnelek, aztán a vízesés egyre
                   messzebbről hallatszott, elaludtam.
             </p>
-            <p>
+				<p>
                Arra ébredtem fel, hogy vizes a vánkosom és Dia törölgeti a szememet.
                   Már felöltözve ült az ágy szélén, ölében a kisimogatott újság.
             </p>
-            <p>
+				<p>
                - Kicsoda ez a képviselő, aki interpellált a cikked miatt? - mutatott
                   rá egy névre. Odanéztem és elnevettem magam.
             </p>
-            <p>
+				<p>
                - Hát a Morognám volt? Ismerem az abroszt, szöszből fonták!
             </p>
-            <p>
+				<p>
                Az interpelláló képviselő osztálytársam volt, akit azért hívtunk
                   »Morognám«-nak, mert még nyolcadikos korában is így mondta a monogramot. A
                   történelemmel különben már akkor is nagyon egyéni szempontok szerint bánt.
             </p>
-            <p>
+				<p>
                - No, Misa - fogta meg egyszer óra közben a történelemtanár a
                   folyosón -, sorold föl hamar a római császárokat! No, ne ijedj meg, nem élek én
                   szamárhússal! Mondjuk szépen: Augustus... - Szeptember, Október, November... -
                   folytatta Misa habozás nélkül, de tovább már nem volt benne biztos, hogy ki
                   következik.
             </p>
-            <p>
+				<p>
                És ez rakta most énalám a máglyát? Ez szögez engem az Országház
                   kapujára bőregérnek? Ez a nagyfülű oroszlán akar engem elnyelni? No, megállj, majd
                   keresztbe fekszem én a torkodon! Eh, őrület, nem lehet ezt komolyan venni! Olyan
                   ez, mint hogyha egy pap-macskahernyó azt mondaná Hannibálnak, hogy »hamm, mindjárt
                   bekaplak a kétszáz elefántusoddal együtt.
             </p>
-            <p>
+				<p>
                Egészen földerülten búcsúztam el Diától.
             </p>
-            <p>
+				<p>
                - Hoci csak az újságot szívem! Hadd viszem el azt is a direktornak.
                   Nagyon szívből tud nevetni, mikor mer.
             </p>
-            <p>
+				<p>
                Az iskola kapujában Menyus tartott világnézeti előadást az utcai
                   cipőpucolónak. (Azért gondolom, hogy világnézeti előadás volt, mert hallottam az
                   akasztófa« szót.) Ahogy engem meglátott, rám vigyorodott.
             </p>
-            <p>
+				<p>
                - Szolgája tanár úr. Már vártuk.
             </p>
-            <p>
+				<p>
                Azzal előrevetette a féllábát, nyilvánvalóan azzal a szívbeli
                   kívánsággal, hogy milyen jó lenne, ha én abban orra buknék.
             </p>
-            <p>
+				<p>
                A folyosón a magyar irodalomszakossal találkoztam. Mióta az
                   anyagyilkosság vádja alól tisztáztam magam, azóta nem álltunk egymással köszönési
                   viszonyban. Most azonban elkapta a kezemet és rázta, mint a szivattyúkutat.
             </p>
-            <p>
+				<p>
                - Gratulálok kollégám. Olvastam az értekezését. Mondhatom, remek.
                   Különösen ahol rámutat a karthágói kultúra fölényére. Élveztem, kérem. És az
                   irálya is pompás, még a feleségemnek is megdicsértem. Különben hogy tetszik érezni
                   magát? Azt hittem haza tetszett utazni a kedves nejével Oroszországba...
             </p>
-            <p>
+				<p>
                Nem vagyok haragtartó ember, s aki bajba jut, különben is minden jó
                   szóért hálás. Visszaszorítottam a kezét, s odaadtam neki az újságot.
             </p>
-            <p>
+				<p>
                - Hát ezt tetszett-e már olvasni?
             </p>
-            <p>
+				<p>
                Hamar átfutotta, s fejcsóválva adta vissza.
             </p>
-            <p>
+				<p>
                - Gyalázat, kérem, mondhatom szégyen, gyalázat! Hja, most ilyen a
                   világ. Az ember jól teszi, ha még a kocsonyát is megfújja. No, ajánlom magam, jó
                   nyaralást kívánok.
             </p>
-            <p>
+				<p>
                - A direktor itt van?
             </p>
-            <p>
+				<p>
                - Fogalmam sincs róla. Csak a kutyafejű botomért jöttem be, bent
                   felejtettem a múltkor, tetszik tudni, mindenemet elhagyom.
             </p>
-            <p>
+				<p>
                Az ám, vettem észre, mert amit a direktor asztalán legelőször
                   megláttam, az a kolléga szalmakalapja volt. A direktor lenyaklott fejjel ült a
                   dívány sarkában, és sötéten nézte a cipője orrát. Marius lehetett ilyen Karthágó
@@ -1876,26 +1874,26 @@
                   előtte. Csakhogy Marius nyugalmazott generális volt, a direktor pedig kedves,
                   lágy, naspolyaember.
             </p>
-            <p>
+				<p>
                - Ön az? (Magunk között eddig mindig tegezett.) Hallatlan bátorság
                   kellett hozzá, hogy még ide mert jönni! Hogy mert ön a bizalmammal
                   visszaélni?
             </p>
-            <p>
+				<p>
                - De bocsánatot kérek - feleltem támolyogva. - Hát olvasta direktor
                   úr az értekezésemet?
             </p>
-            <p>
+				<p>
                - Nem; nem is akarom olvasni. Elég volt az újságot elolvasnom. Éppen
                   az előbb járt itt vele az egyik kolléga. Tudja, hogy tönkretett engem, tudja, hogy
                   fegyelmit indíthatnak ellenem?
             </p>
-            <p>
+				<p>
                Láttam, hogy nekem itt semmi keresnivalóm nincs. Otthagytam Mariust,
                   cipője orra és a fekete szalmakalap társaságában, de őszintén szólva, egy cseppet
                   sem sajnáltam. Nagyon fájt, hogy nem olvasta a dolgozatomat.
             </p>
-            <p>
+				<p>
                Szügyembe vágott fejjel kódorogtam az utcákon. Nem mehetek haza
                   Diához elégtétel nélkül. De hát hol kapom ezt meg? Utamba esett az a
                   könyvkereskedés, ahol a gyerekekkel a rajzeszközöket szoktam vétetni, s ahol engem
@@ -1904,13 +1902,13 @@
                   összesúgott a hátam mögött, kikerestem a Morognám barátom lakását. Én ma »megverek
                   valakit, vagy engem valaki, de az igazamat nem hagyom.
             </p>
-            <p>
+				<p>
                Csak attól féltem, hogy nem fogad, ha a névjegyemet meglátja - de hát
                   ezen a napon nekem mindenkiben csalódnom kellett. Kitárt karral jött elébem, s
                   mindjárt betömte a számat egy trabuco especial-lal. (Persze morognamos
                   tárcából.)
             </p>
-            <p>
+				<p>
                - Nahát, ez igazán kedves tőled, hogy végre felkerestél, pajtás. Csak
                   nem a miatt a bolond interpelláció miatt jöttél? Ugyan, hagyd fenébe, szóra se
                   érdemes, ingyen reklámot csináltam neked, he-he-he! Őszintén szólva, én nem is
@@ -1935,74 +1933,74 @@
                   tudok jobbal szolgálni, de az este elszívták a vendégeim a havannáimat, fene
                   beléjük. No, pá!
             </p>
-            <p>
+				<p>
                Eszembe se jutott az utcán, hogy kiköpjem a számból a pántlikás
                   szivart. Hiszen jó fiú az, aki adta, ha bolond is. Aztán, ha nekem ártani nem
                   akart, mért ne használt volna magának? Jól mondta, hogy ez a politika. Legalább is
                   mostanában. Az utolsó becsületes politikus uticai Cato volt, mert az a maga nyakát
                   vágta el. Igaz, hogy az is leginkább azért, mert más nem esett a keze ügyébe.
             </p>
-            <p>
+				<p>
                Otthon Dia kisírt szemmel szaladt elébem. Becsapta szegényt valami
                   pokolravaló tojásoskofa, hat közül négy tojásban csirkét talált.
             </p>
-            <p>
+				<p>
                - No - mondom -, azért nem kell sírni, anyókám! Majd levonjuk a
                   béredből elsején!
             </p>
-            <p>
+				<p>
                - Nem is azért sírtam én, hanem azért, mert megijedtem a kis
                   csirkéktől. Nem láttam én még olyant sose.
             </p>
-            <p>
+				<p>
                - De, hát még a csirkék hogy megijedhettek tőled! Ők se láttak ám még
                   ilyet sose! - ültem föl a konyhaasztalra.
             </p>
-            <p>
+				<p>
                Hogy a jókedvemet látta, az ő szemében is kisütött az öröm.
             </p>
-            <p>
+				<p>
                - Jó hír? Jó hír?
             </p>
-            <p>
+				<p>
                - Bizony. Olyan nagy úrral barátkoztam, hogy énvelem ma nem lehet
                   gyalog beszélni.
             </p>
-            <p>
+				<p>
                Az ölembe ugrott és addig lovagoltattam, hogy a spenótba is
                   beletenyereltem. (Külön öröm, mert azzal is kevesebbet kell belőle
                   elfogyasztani.)
             </p>
-            <p>
+				<p>
                - Nincs semmi baj, félreértés volt az egész, az interpelláció inkább
                   hasznomra vált, mert felébresztette irántam a figyelmet és most lesz már belőlem
                   igazán híres ember.
             </p>
-            <p>
+				<p>
                Nem is gondoltam, milyen jó próféta voltam.
             </p>
-            <p>
+				<p>
                Negyednapra Diát lefektettem ebéd után, el is altattam, kihajtottam a
                   szobából a legyeket is, az ablakot is besötétítettem a kabátommal. Én magam meg
                   csak úgy ingujjban kiültem a konyhaküszöbre Horatius epodoszait olvasni. De olyan
                   meleg volt, mintha olvasztott ólom csurogna az égből, bele-belebóbiskoltam a
                   könyvbe, ötször is neki veselkedtem, de mindig megakadtam ennél a sornál:
             </p>
-            <p>
+				<p>
                Flebit et insignis tota cantabitur urbe...
             </p>
-            <p>
+				<p>
                »Sírva fakad, s az egész város nyelvére kerül majd!«
             </p>
-            <p>
+				<p>
                A szavakat össze tudtam rakni, de azt nem bírtam kisütni, ki az a
                   nyavalyás, akiről az egész városban kántálnak.
             </p>
-            <p>
+				<p>
                Nagyot csapódik az utcaajtó, fölkapom a fejem, Rózsi kopog végig
                   sebesen a téglaudvaron, de sárga a képe, mint a citrom-alma.
             </p>
-            <p>
+				<p>
                - Tekintetes úr... - kotyogott belőle a szó el-elakadva - már tessék
                   megbocsátani, hogy ilyen kacarkán szaladtam ki... jaj istenem, még a kötőm is
                   előttem maradt... tessék már megnézni... most raggatja tele a gazdám a várost,
@@ -2011,7 +2009,7 @@
                   tekintetes urat... de csak azon erősködött, hogy az az úr, mert az újságban is
                   benne volt.
             </p>
-            <p>
+				<p>
                Epeszínű plakátot kapott ki a blúzából, mely megparancsolta minden
                   igaz hazafinak, hogy másnap délután négy órakor legyen ott az iskolánk
                   tornatermében és felháborodása lángostorával verje ki a Júdást a tudományok
@@ -2019,36 +2017,36 @@
                   a minorum gentium. Csupa kán és mirza, akiknek szemmelláthatólag az ókor története
                   a legkedvesebb stúdiumuk üres óráikban.
             </p>
-            <p>
+				<p>
                - Hát biz ez én vagyok, lelkem - hajtogattam össze a plakátot és
                   tettem be olvasójegynek az epodoszokba. (Tudom már, ki az a nyavalyás, aki az
                   egész város nyelvére kerül.)
             </p>
-            <p>
+				<p>
                Hanem, aki sírva fakadt, az mégse én voltam. Rózsinak tört el a
                   mécsese. Úgy látszik, asszonyi körökben nem föltétlenül diffamáló az emberre, ha
                   Júdás. Úgy magához ölelt a jó lélek ijedtében, hogy becsületes apostolnak se
                   érdemeltem volna többet.
             </p>
-            <p>
+				<p>
                - Jaj, dehogy hagyom levágni azt a szép fekete fejét! (Akkoriban
                   látta a moziban - Dantont. Azt hitte, engem is ilyen ceremóniával fejetlenítenek
                   meg.) A mi spájzunkban bújjon el a tekintetes úr, ott meg nem találják a
                   tarhonyás-zsákok között.
             </p>
-            <p>
+				<p>
                A jajgatásra Dia is kijött és értesülvén a helyzetről, kijelentette,
                   hogy a házból ki nem ereszt. Együtt élünk, együtt halunk, akár a kubikulumban,
                   akár a szárított pipacsok és pipitérek közt a drogista padlásán.
             </p>
-            <p>
+				<p>
                Én csak nevettem őket és előszedtem Ciceró beszédeit. Felháborodás
                   kell nektek? Gyertek csak Catilináriák! Mutassak nektek egy semmirekellőt, aki a
                   »fórumon csatangol kacér módon fésült és szagos kenőcstől fényes hajjal? Gyere
                   csak pro Roscio! Akartok látni egy horgas ujjú jómadarat, aki miatt »jobb a
                   vadállatok közé költözni, mint Rómában élni? Ide csak anti Verrem!
             </p>
-            <p>
+				<p>
                Éjfélig fordítottam, kivonatoltam, jegyeztem, akkor is csak azért
                   hagytam abba, mert kifogyott a lámpából a petróleum. Akkor kimentem az udvarra és
                   a holdfényen elrendeztem a gondolataimat a retorika szabályai szerint. Arányosan
@@ -2057,30 +2055,30 @@
                   Aristoteles eltátotta volna rájuk a száját. Mióta kánok és mirzák vannak a
                   világon, még ennyit nem fáradt értük a klasszika-filológia.
             </p>
-            <p>
+				<p>
                Mikor mindennel készen voltam, felálltam a kútkáva tetejére és a
                   csillagokra szegezett fejjel elmondtam első nyilvános beszédemet. A csillagok nem
                   mondtak rá semmit, mert ők, mióta katalógusba vannak foglalva, nem ártják magukat
                   a halandók dolgaiba. Ellenben, noha a próbát félhangon tartottam, fölébresztettem
                   vele a Tera-mama nőstény gerlicéjét és az azt mondta rá, »hihihi! hihihi!
             </p>
-            <p>
+				<p>
                Egészen átáztatott a harmat, mire odabújtam Dia mellé, akinek fehér
                   alakja fel-felvillant előttem az ablaknál, míg Demosthenes művészetében
                   gyakoroltam magamat. Most már meg mertem neki mondani, hogy mit csináltam.
                   Fölkészültem Sámsonnak a filiszteusok közé.
             </p>
-            <p>
+				<p>
                - Mit? Te oda akarsz menni közéjük? - pattant föl az ágyban és ahogy
                   fölém hajolt, láttam elfehéredni az arcát a hajnal lángolásában. Keze, mint
                   jégbemártott bársony csúszott végig a homlokomon. Attól félt az ártatlan, hogy az
                   eszemre ment az izgalom.
             </p>
-            <p>
+				<p>
                - De oda is megyek szívem. Hát hogy lángostorozzanak meg szegények,
                   ha ott nem vagyok?
             </p>
-            <p>
+				<p>
                Míg bolondnak gondolt, anyáskodott velem, mikor látta, hogy eszemen
                   vagyok, bolondnak nevezett. Azt hiszem, ilyesmi más házastársak közt is megesett
                   már. S talán abban sincs semmi meglepő, hogy utoljára mégis kis hősömnek mondott,
@@ -2091,88 +2089,88 @@
                   hogy hős vagyok, és álmomban olyan fidélisen diskuráltam Hannibállal, mint ahogy
                   hősök szoktak egymás közt.
             </p>
-            <p>
+				<p>
                - Én, ha neked volnék, lovon mennék holnap az akasztásodra - tette
                   vállamra a kezét. - Fogadj szót egy tapasztalt hadvezérnek.
             </p>
-            <p>
+				<p>
                - De hát miért? - néztem a mellén a sok hadikitüntetést.
             </p>
-            <p>
+				<p>
                - Azért, mert lovon könnyebb lesz elszaladnod.
             </p>
-            <p>
+				<p>
                Elcsodálkozva néztem rá, és csak most vettem észre, hogy nem is
                   Hannibállal beszélek, hanem Tacitussal. Igen szigorúan bökdöste a stílusával a
                   bordáimat.
             </p>
-            <p>
+				<p>
                Persze, Dia vékony ujja kopogtatta a szívemet.
             </p>
-            <p>
+				<p>
                - Kelj föl már, te hét alvó! (Ezek nevezetes szentjei a keleti
                   egyháznak. Magam is igen tisztelem őket.) Tizenegy óra. A reggelit eszed meg
                   ebédre, vagy az ebédet reggelire?
             </p>
-            <p>
+				<p>
                - Egyiket se - ugrottam ki az ágyból -, csomagold be drágám, dolgom
                   van az egyetemi könyvtárban, majd ott eszem meg.
             </p>
-            <p>
+				<p>
                Nem ok nélkül álmodtam én Tacitussal. Van neki egy értekezése a
                   szónoklatról. Azt még át kell futnom, mert úgy rémlik, abban is találhatók igen
                   hasznos utasítások. Hadd lássák a kánok, hogy micsoda ember az, akinek ők el
                   akarják koppantani a gyertyáját!
             </p>
-            <p>
+				<p>
                Már a kalap is a kezemben volt, amikor eszembe jutott a sok
                   hadifityegő a Hannibál mellén.
             </p>
-            <p>
+				<p>
                Bizonyosan nem ok nélkül mutogatta azokat ő se énnekem. Hátha én is
                   előszedném őket? Mert nekem is volt belőlük négy darab, persze csak az aprajából.
                   (Mert én csak a fronton szolgáltam.) Kettőt Rácországban szereztem, kettőt a
                   polyák földön.
             </p>
-            <p>
+				<p>
                - Hozd ki csak őket fiam! - fordultam vissza a küszöbről. - Ott
                   vannak a kanalaskosárban. (A kés, villán kívül ezek voltak minden fémértékeink,
                   hát együtt tartottuk őket, mint a többi grófok.)
             </p>
-            <p>
+				<p>
                - Mit akarsz velük? - csudálkozott az asszony.
             </p>
-            <p>
+				<p>
                - »Vagy ezzel, vagy ezen! - idéztem a spártai anyát, ahogy a zsebembe
                   süllyesztettem őket, a rajz-papír mellé, amibe az ebédem takaródzott.
             </p>
-            <p>
+				<p>
                - Siess vissza emberkém! - csókolt meg Dia. - Olyan nem jól érzem
                   magam, a hideg is borzongat, émelyeg a gyomrom...
             </p>
-            <p>
+				<p>
                - Nem lesz semmi baj se - nyugtattam meg az utolsó csókkal. - Majd
                   meglátod, fehér lobogóval jövök haza, mint Theseus Krétából. Leharapom a fejét az
                   összes minotaurusoknak.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                7
             </head>
-            <p>
+				<p>
                A pesti hídfőig kétszer is elmondtam magamban a beszédemet, s egyre
                   biztosabbra vettem, hogy miszlikbe vágom vele az egész tao-tájt vagy kurul-tájt,
                   vagy a macska tudja jobban, minek tisztelik a kánok ivadékai a parlamentjüket. Ha
                   aztán Góg és Magóg hadaival elbántam, illetékes helyről könnyen megszerezhetem az
                   elégtételt.
             </p>
-            <p>
+				<p>
                De nini, hátha mielőtt a Krethi és Plethi elé állnék, megtudnám, hogy
                   mit gondolnak rólam az illetékes helyen? Elszántam magam, hogy fölmegyek a
                   minisztériumba, szót értek a pártusok előtt az európai emberekkel.
             </p>
-            <p>
+				<p>
                Sose láttam ugyan, akihez készültem, de hallomásból úgy tudtam, hogy
                   ő a legeurópaibb szittya és ő az a szalonna-fölső, aki mindenről jó. A
                   klasszikussal szólva: »Nyelvbúvár, szónok, ír, fest, tud jósolni, kenni, jól
@@ -2183,18 +2181,18 @@
                   kovász. Én, mint rajztanár, hatályon kívül is helyeztem, és csak olyan növendékkel
                   készíttettem el, akinek lisztkereskedő van az atyafiságában.)
             </p>
-            <p>
+				<p>
                Nohát, ez a tetrakontraoktaéder lesz az én emberem!
             </p>
-            <p>
+				<p>
                Kérdem a portást a minisztérium kapujában, fönt van-e már az
                   illetékes mértani idom? A kérdésre kérdéssel felel: Hogy hányadik fizetési
                   osztályban van az az illető uraság?
             </p>
-            <p>
+				<p>
                - Tán ügyosztályt akart mondani, öregem?
             </p>
-            <p>
+				<p>
                Nem akart ő, erősítette a janitor, hanem fizetési osztályt. Merthogy
                   ő nem kapus. Irodaszolga a népjólétiben, aktát hozott és a kapus megkérte, hogy
                   vigyázzon a házra, míg ő megautóztatja egy kicsit az unokáit. Személy szerint
@@ -2202,34 +2200,34 @@
                   szerint jár fel a hivatalba. Ki mentül magasabb, annál később. Ez a törvény Dunán
                   innen, Dunán túl.
             </p>
-            <p>
+				<p>
                Kisütöttük, hogy az én emberem fizetési osztályának körülbelül az egy
                   óra felel meg, tehát szerencsét próbálhatok. Szerencsém is volt. Ott találtam,
                   csak egy kicsit várakozni kellett, mert vendége volt. A lictor, aki az ajtóban
                   állt, azt mondta, hogy valami angol újságíró van bent nála villásreggelin.
             </p>
-            <p>
+				<p>
                - Jön ide kérem, mindenféle nemzet, angol, francia, olasz, holland,
                   az isten se győzi őket.
             </p>
-            <p>
+				<p>
                Nem mondta, hogy mivel, én meg nem kérdeztem. Annyit én is tudok az
                   illendőségről, hogy a nagy urak szolgáinak a leereszkedésével nem szabad
                   visszaélni.
             </p>
-            <p>
+				<p>
                Ahogy a mr. Nemtomki kijött, megláttam a nagyúr mosolygó arcát.
                   Amikor engem állított elő a lictor, akkor már nem mosolygott. Hűvösen fogadott, de
                   nem udvariatlanul, nem ültetett le, de legalább ő is felállt.
             </p>
-            <p>
+				<p>
                - Mivel szolgálhatok?
             </p>
-            <p>
+				<p>
                Mikor elmondtam neki, micsoda krédóba kevertek engem Pilátusnak,
                   felcsillant a szeme.
             </p>
-            <p>
+				<p>
                - A, ön az? Az ön témája engem is érdekel. Nem olvastam, de hallottam
                   róla. Én is többször foglalkoztam a Krisztus előtti második század véres
                   üstökösével, aki kétségtelenül pregnáns kifejezője volt a nacionalizmus
@@ -2239,11 +2237,11 @@
                   ön nemzeti alapra helyezkedett volna a tanulmányában, magyar nemzeti
                   alapra...
             </p>
-            <p>
+				<p>
                - De könyörgöm, a pun háborúkat nagyon nehéz magyar nemzeti alapra
                   helyezni - tettem egy sápadt ellenvetést.
             </p>
-            <p>
+				<p>
                - Téved tanár úr! - lépett közelebb hozzám. - Mindenbe bele lehet és
                   egy kis csalafintasággal bele is kell vinni a magyar vonatkozást. Próbáljuk csak.
                   Scipió. Ugyebár erre bátran mondhatja az ember, hogy egy kicsit csángósan hangzik?
@@ -2251,14 +2249,14 @@
                   olyan etimológiáját találni, amit a laikus is egyszerre elfogad. Scsipió, Csipió,
                   Csipijó, azaz Csípi jól, vagyis, aki jól megcsípi Hannibált.
             </p>
-            <p>
+				<p>
                Az előbb sápadt voltam, most már kezdett a vér a fejembe
                   tódulni.
             </p>
-            <p>
+				<p>
                - De engedelmet kérek...
             </p>
-            <p>
+				<p>
                - Várjunk csak, barátom. Hannibál, Hannibál - ...Mire emlékezteti ez
                   önt? Érdekes, magam is csak most jövök rá! Hannibál, Hanni bál, Honni bál, Honi
                   bál. A karthágóiak, az ókor degenerált franciái úgy fogják fel a háborút, mint egy
@@ -2268,37 +2266,37 @@
                   félre. A nemzeti önérzetre való nevelés, barátom, ez legyen az alapja a
                   pedagógiájának. Ért ön engem?
             </p>
-            <p>
+				<p>
                Nagyon barátságosan kapaszkodott a vállamba. Egy lelkesedés volt az
                   egész ember, a fülehegyéig. Csakhogy énbelém akkor már belém bújt a Bál ördöge.
                   Elnevettem magamat.
             </p>
-            <p>
+				<p>
                - Hogyne érteném. Hallottam én már ilyesmiről gólya koromban.
                   Tarquinius, azaz Tar-quin, vagyis Tárkony, ami Tarkán, vagyis kopasz főnök.
             </p>
-            <p>
+				<p>
                - Aha, ön a Jules Martha könyvére gondol, az etruszkokról! Ismerem,
                   érdekes könyv.
             </p>
-            <p>
+				<p>
                - Nem arra gondolok én, instálom, hanem a Kakas Márton nagy
                   naptárára, ami minálunk megvolt a padláson. Kakas Márton már a Bach-korszakban
                   önérzetre nevelte a nemzetet azzal, hogy Nabukodonozor is magyar volt, meg
                   Salmanassár is. Az egyik Nagy bunkóval hadonászó úr - a másik meg Nagy szalmaszár.
                   Halhatatlan magyar típus mind a kettő.
             </p>
-            <p>
+				<p>
                - Maga pedig mételyes vörös! - harsant rám a kedves barátom, pedig ő
                   volt olyan vörös, mintha csalánba esett volna a képével.
             </p>
-            <p>
+				<p>
                Hátat fordított, dühösen legyezgetve magát a zsebkendőjével, én pedig
                   úgy bevágtam az ajtót magam után, hogy bizonyosan lekéredzkedett a szemöldökfa
                   fölül a vakolat. Ebből megláthatta a nagy Szalmaszár, hogy mégse vagyok én teljes
                   híjával a magyar karakternek.
             </p>
-            <p>
+				<p>
                Hanem aztán lent az utcán megcsendesedtem. Hová a poklok fenekére
                   menjek én mármost? A könyvtárban már nekem semmi keresnivalóm sincs, mert az
                   bizonyos, hogy a tudomány meg én nem eszünk többet egy tálból. Hiszen az ajtót
@@ -2308,7 +2306,7 @@
                   vele, hogy engem már meg is ütött, most már csak az a kérdés, hogy énmiattam nem
                   csapják-e ki Hannibált is az ország összes középiskoláiból.
             </p>
-            <p>
+				<p>
                Jó darabig csavarogtam az utcákon, körülbelül abban a
                   lelkiállapotban, amelyikben a bukott vezér lehetett a zámai csata után. De azt
                   hiszem, azért Hannibál is csak megebédelt, amikor megéhezett. Leültem a
@@ -2318,7 +2316,7 @@
                   probléma, de az ember ilyenekkel bugyborékol vissza az életbe, mikor a nagy
                   problémák a víz alá buktatják.
             </p>
-            <p>
+				<p>
                Hát, lekváros kenyér volt a papírban, két karajka, szépen
                   összeborulva a ragadós oldalával. Én igazán nem vagyok az az ember, aki
                   metafizikát csinál a lekváros kenyérből is, de most akaratlanul a végokok
@@ -2340,7 +2338,7 @@
                   bort ittak rá és a táncosnők lábáról cseréltek eszmét, nem a lélek
                   halhatatlanságáról.
             </p>
-            <p>
+				<p>
                Mivel szakítottam a klasszikusokkal, akik romlásomat okozták, nem
                   tartottam kötelességemnek Sokrates példáját követni és visszacsavargattam a
                   lekváros kenyeret védőburkába. Gondoltam ugyan rá, hogy talán az ég madarainak
@@ -2349,16 +2347,16 @@
                   megkockáztatni. A rendőrposzt nagyon gyanakodva nézett rám, s meg is állított,
                   ahogy a motyómmal a hónom alatt elhaladtam előtte.
             </p>
-            <p>
+				<p>
                - Mit akart az úr azzal a szoborral? A conscia mens recti nyugalmával
                   mutattam neki a lekváros kenyeret.
             </p>
-            <p>
+				<p>
                - Kedves biztos úr, egy bölcse van a hazának, akit nem is kell
                   félteni, hogy megtagadja a múltját, hát csak nem gondolja, hogy azt is fel akarom
                   robbantani?
             </p>
-            <p>
+				<p>
                Lecsellengtem a vízpartra, odakuporodtam a legalsó lépcsőre és
                   belebámultam a sárgászöld tükörbe. Pedig nekem se vízbe, se tűzbe nézni nem jó,
                   mert mind a kettőben igézet lakik és én annak nehezen tudok ellenállni. Valami ősi
@@ -2377,64 +2375,64 @@
                   ők, de én tudtam, hogy ez csak azért van, mert a lelék énvelem jobban szeretnek
                   játszani.
             </p>
-            <p>
+				<p>
                Ahogy egyre közelebb csúsztam a vízhez, olyan együgyű gondolatokkal,
                   amelyek talán nem illettek volna a klasszika-filológia doktorához, de
                   természetszerűleg ébredtek fel a munkanélküliek statisztikájának egyik alanyában,
                   megcsörrentek a zsebemben a hadimonéták.
             </p>
-            <p>
+				<p>
                - Nini - mosolyodtam el -, ugyan tudnék-e még »szőni«?
             </p>
-            <p>
+				<p>
                - Platy! Platy! Platy! Platy! - bronz, vas, kisezüst, nagyezüst,
                   egymás után potyogtak a vízbe. De a lelék nem pattantottak belőlük vissza egyet
                   se. Térdemig csapó haragos hullámmal üzenték, hogy nem detaillokban kellek nekik,
                   hanem angróban.
             </p>
-            <p>
+				<p>
                - No megálljatok - álltam fel -, mindjárt megkaptok, csak előbb
                   hazamegyek az asszonyért, elhozom azt is. Összefogódzunk, jó szorosan, aztán
                   Kustendséig meg se állunk. Ott is csak addig, míg hírt adunk Ovidiusnak, hogy most
                   már megírhatja Jázon és Medea hazatérését Kolchisba. Igen szép költői elbeszélés
                   lesz belőle, pályázhat vele a Nádasdy-díjra.
             </p>
-            <p>
+				<p>
                Ahogy a lépcső tetejére értem, nagy csődületet találtam a
                   vaskorlátnál. Izgatottan mutogattak az emberek a vízre és összevissza
                   kiabáltak.
             </p>
-            <p>
+				<p>
                - Hulla, hulla! Koponya az csak! De bizony hulla! Persze, megint
                   ismeretlen holttest! Disznóság! Telefonálni kellene a rendőrségnek!
             </p>
-            <p>
+				<p>
                Egy nagy sárga fej bukdosott a hullámokon. Néha megállt, mintha azon
                   gondolkozna, hogy érdemes-e még idefönt nézelődni, aztán megint csak nekilódult. A
                   híd felől lecsapott rá egy varjú, de alig vágott hozzá, mindjárt elrepült.
             </p>
-            <p>
+				<p>
                - Biztosan megint egy összedrótozott zsidónak a hullája! - vetette
                   közbe egy uborkás kofa a divatos faji kérdést.
             </p>
-            <p>
+				<p>
                - Igaza van! Az az csakugyan! - erősítették a jobb szeműek. Amire a
                   hadrakelt seregek leszereltek, de az izgalom egyre fokozódott.
             </p>
-            <p>
+				<p>
                A halálfej lebukott a víz alá, éppen mikor az egyik úszóházból valaki
                   utána vetette magát.
             </p>
-            <p>
+				<p>
                - Csáklyát kellene hozni! - ajánlgatták. A fej megint felmerült, a
                   koponya-halász magához rántotta két karjával, aztán fülig szaladt a szája a
                   nevetéstől.
             </p>
-            <p>
+				<p>
                - Fogják meg! - röhögött ki a partra és nagyot lóbálva a jobb karján,
                   felhajította a koponyát.
             </p>
-            <p>
+				<p>
                Az emberek szörnyülködve szétrebbentek és az aszfalton nagyot pukkant
                   egy félig rothadt tök. Az érdeklődésnek egyszerre vége volt, a publikum
                   elégedetlenül távozott, volt aki reménykedve vissza-visszanézett, de a tök
@@ -2442,51 +2440,51 @@
                   koponya lett volna, de azért a töktől mégiscsak rossz néven vették az emberek,
                   hogy fejnek tetteti magát.
             </p>
-            <p>
+				<p>
                Egy ember azonban nemcsak visszanézett, hanem vissza is fordult, a
                   hóna alá kapta a »gondolatok elhagyott dómját« és elbice-bócázott vele a
                   villamosmegállóig. Csak akkor kaptam észbe, mikor már elnyikorgott vele a kocsi,
                   hogy nini, hiszen ez a Menyus volt, a mi Menyusunk!
             </p>
-            <p>
+				<p>
                Nézem a hajóállomás óráját: négy óra. Abbiz isten, most fonják nekem
                   a lángostort a tornacsarnokban! De már oda mégiscsak elmegyek, csupa becsületből
                   is. Ha már betanultam a filippikát, nem viszem le a lelek közé. Aztán különben is,
                   meggondoljuk még ezt a vízi utat. Nem tudom én, a lelkemre merjem-e venni, hogy
                   derék honpolgárok az én kobakom miatt bicskát eresztgessenek egymásba.
             </p>
-            <p>
+				<p>
                A tudományok csarnokán semmi se mutatja kívülről, hogy belül
                   történelmi esemény játszódik le. Ha csak az nem, hogy a kapuban elhagyatva állott
                   a cipőpucoló standja.
             </p>
-            <p>
+				<p>
                - Ejnye - néztem körül -, hát ez a jó ember itt meri hagyni ilyen
                   gazdátlanul a keféit meg a kenőcseit? No, akkor mégse lehet ez a Budapest olyan
                   bűnös, ha már a cipőpucolók is úgy bíznak az ősi erényben!
             </p>
-            <p>
+				<p>
                Ahogy ott ácsingózok, lesuttyan az útszéli fáról egy szurtos kis
                   fityfiritty, begurul a kapu alá és besüvölt a tornacsarnok irányába:
             </p>
-            <p>
+				<p>
                - Hé, Gazsi bácsi, van egy pasas!
             </p>
-            <p>
+				<p>
                - Van, ángyod térde! - lódítottam odább a cipőfényesítő gyakornokot.
                   (Mert bizonyos, hogy legalább ennyi címe van.) Hát már engem is úrnak nézel, te
                   bórembukk? Hol a majsztered?
             </p>
-            <p>
+				<p>
                - Ott bent eszi a frász, ni!
             </p>
-            <p>
+				<p>
                - Mit csinálnak ott?
             </p>
-            <p>
+				<p>
                - Nem tom. Sokan vannak. Alighanem ütik a zsidót.
             </p>
-            <p>
+				<p>
                No, azt meg kell adni, hogy nagyon csendben ütötték. Morognám barátom
                   ugyan kitett magáért, az összes nemzeti táncokat eljárta, míg a »határozati
                   javaslatot felolvasta - már ott tartott, amikor besompolyogtam a
@@ -2503,7 +2501,7 @@
                   hajtassék végre, amikor a máglya nemcsak intő példa lesz a destrukciónak, hanem
                   legalább a budai szegény gyerekek is melegedhetnek nála.
             </p>
-            <p>
+				<p>
                Egy másik kán azonban - mindjárt kiderült, hogy fa-kereskedő volt - a
                   határozatot legkésőbb Szent István napján végre akarta hajtatni. Nem akar senkit
                   se gyanúsítani, de szerény véleménye szerint az anarchiának tesz szolgálatot, aki
@@ -2515,7 +2513,7 @@
                   hogy ez alkalommal jutányos árban beszerzett mézeskalácsot osztogatnának szét a
                   jelesebb előmenetelű növendékek között?
             </p>
-            <p>
+				<p>
                - Szavazzunk! Szavazzunk! - kiabálták a kevésbé érdekelt szakmák. Egy
                   petróleum-nagykereskedőt, aki azirányban tett módosító javaslatot, hogy a hatás
                   fokozására minden értesítőt külön locsoljanak le petróleummal, azzal hurrogtak le,
@@ -2525,57 +2523,57 @@
                   mellé és felemeltem a karomat, mint Agamemnon a megkeveredett achájok és argivok
                   felett.
             </p>
-            <p>
+				<p>
                - Patres és conscripti! Akarom mondani, tiszteletre méltó kánok és
                   mirzák! Én vagyok az az országpusztító kalefaktor, ezzel a fél kezemmel, akit az
                   önök bölcsessége máglyára szentenciázott!
             </p>
-            <p>
+				<p>
                Ebben a pillanatban, mikor minden száj rámtátódott, nagyot koppant
                   valami a pódiumon.
             </p>
-            <p>
+				<p>
                - Bomba! - ordította el magát Morognám barátom és a teremben őrült
                   kavarodás támadt. Mindenki egymás hegyen-hátán szaladt az ajtó felé.
             </p>
-            <p>
+				<p>
                - Nyugalom, uraim! - ordítottam én is és felemeltem a pódiumról a
                   változatos pályafutású rothadt tököt. Tessék idenézni! Úgy látszik, valamelyik
                   jelenlévő tisztelt polgártársunk elvesztette a fejét!
             </p>
-            <p>
+				<p>
                Olyan forgatagos nevetést a tatárjárás óta nem látott Hunnia, mint
                   amilyennel a kánok és mirzák visszafordultak. Csak Menyus somfordált ki, mint a
                   leforrázott macska, feldúlt lelkiállapotának úgy adván kifejezést, hogy lerúgta a
                   lépcsőről tulajdon kis varasbékáját.
             </p>
-            <p>
+				<p>
                De nekem most már nem Menyus volt a fontos, hanem a főkán, a Batu
                   kán, az én kedves konskolárisom. Ő is el akart oldalogni, mert parlamenti
                   gyakorlatból tudta, hogy aki a neveltetés kötelén fogja az embereket, az oda is
                   elvezeti őket, ahová nincs mehetnékjük.
             </p>
-            <p>
+				<p>
                - De nem úgy van az, kedves képviselő űr! - fogtam marokra a mellén a
                   selyeminget. - Addig innen el nem megy, míg ez előtt a nagyérdemű közönség előtt
                   nem tisztázzuk a kérdést, hogy Scipio volt-e a jobb hazafi, vagy Hannibál. Én nem
                   adok az akadémiára, se nemzetgyűlésre semmit, hanem ezekre a jelenlévő urakra
                   adok, mert ezek sine ira et stúdió ítélnek!
             </p>
-            <p>
+				<p>
                - Úgy van! - dördült meg a mézeskalácsos hangja és utána fölhangzott
                   az első zajos helyeslés. - Halljuk! Halljuk!
             </p>
-            <p>
+				<p>
                Először is tessék elereszteni az ingemet! - rángatózott a Batu kán,
                   akárcsak Galvani békája - engem véd a képviselői immunitás...
             </p>
-            <p>
+				<p>
                - Tessék! - eresztettem el a prédámat, akit már vert a halálveriték.
                   Pedig még csak most kezdődött az inkvizíció! - Mindenekelőtt sorolja fel a
                   képviselő úr a római császárokat: Augustus...
             </p>
-            <p>
+				<p>
                - Uraim! - fordult lihegve a boldogtalan a hívei felé - az idő nagyon
                   előrehaladt... máskor nagyon boldog leszek rendelkezésükre állhatni, és meg vagyok
                   róla győződve... illetve meg lehetnek önök győződve... vagyis beláthatják önök...
@@ -2583,11 +2581,11 @@
                   okvetlen vigyáznom kell a nemzet érdekeire... a marhakiviteli ankét... tetszik
                   tudni, okvetlen ott kell lennem.
             </p>
-            <p>
+				<p>
                De ezt már az ajtóból mondta, s nem hallotta, mikor valamelyik
                   próbamirza utána kiáltott, hogy »maradjon is ott.«
             </p>
-            <p>
+				<p>
                A próbamirza nem az osztatlan közóhajnak adott kifejezést: többen
                   pisszegtek, mint helyeseltek neki. Most már ez nekem igen mindegy volt, mert az
                   ütközetet kétségtelenül én nyertem meg. De, ha már benne vagyok, gondoltam, nem
@@ -2597,7 +2595,7 @@
                   többet a »Három Dudásba. Fülemben voltak a szavai: »Hja barátom, ez a
                   politika!«
             </p>
-            <p>
+				<p>
                - Uraim! - emeltem fel újra a karomat - csak egy perc türelmet kérek.
                   (Halljuk, halljuk!) önök bizonyára igen jól tudják, hogy ki volt Hannibál.
                   (Tudjuk, tudjuk! - egy cérnahang azt kiáltotta, hogy »portás«.) Igen, jól van
@@ -2617,7 +2615,7 @@
                   értesülve, hogy tulajdonképpen most is a titkos forgalmiankétra sietett. (Szégyen,
                   gyalázat! Le vele!)
             </p>
-            <p>
+				<p>
                Akkoriban már fújt a forgalmi adó szele, ahogy a kiadóhivatalok
                   kirakati újságpéldányaiból láttam, s tudtam, hogy ezt a gebulát mindenki beveszi.
                   Nem az adót, hanem az ellene való tiltakozást. (Ciceró az ilyesmit
@@ -2626,7 +2624,7 @@
                   hogy egy kicsit bőven bántam vele, de hát amim van, azzal én sose szoktam
                   fukarkodni.)
             </p>
-            <p>
+				<p>
                - Uraim, ha esetleg önök közt talán akad valaki, aki olvasta szerény
                   munkámat (mert eddig még ilyennel nem találkoztam), amelynek tűzhalálát
                   megszavazta, az szíveskedjék jelentkezni. (Szusszanni sem mer senki. A kerek
@@ -2640,20 +2638,16 @@
                   (Csukják be az ajtót! - kiáltott a fakereskedő. A kis varasgyík még mindig
                   vartyogott a lépcsőről való legurulása következtében.)
             </p>
-            <p>
+				<p>
                Most következett az, amit a régi rétorok
-               
                   narratió rérum
-               
                -nak neveztek, a mai ügyvédek pedig szintén madárnyelven
                   »tényálladéknak« mondanak. Eszerint Scipió a gazdák vezére volt. Hannibál pedig a
                   merkantilistáké. Scipió semmi egyéb nevezetes dolgot nem csinált, mint hogy
                   megszavaztatta az általános választójogot. Hannibál ellenben legnagyszerűbb
                   törvények egész sorával ajándékozta meg hazáját. Például kimondatta, hogy a fa- és
                   szénkereskedők csak
-               
                   szem
-               
                mérték szerint tartoznak kimérni a portékájukat és a közönség köteles
                   azt a szemmértéket akceptálni. A gáz- és villanyvilágítást beszüntette és a
                   petróleumvilágítást tette kötelezővé, mert amellett nem kívánkoznak sokáig
@@ -2662,7 +2656,7 @@
                   mert arra kevés vajat lehet felkenni, s ezáltal nagy megtakarítás eszközölhető a
                   nemzeti vagyonban.
             </p>
-            <p>
+				<p>
                A nagy aranyérmet az a pék nyerte el, aki olyan kis zsemlyéket
                   sütött, hogy amikor egyet kikapott a szél az inasa kosarából, és belefújta a
                   karthágói plébános szemébe, az alig bírta kidörzsölni a zsebkendőjével. Elrendelte
@@ -2675,19 +2669,19 @@
                   civilizált népek közős istene volt, és igen gyönyörködött az égő bőr
                   szagában.
             </p>
-            <p>
+				<p>
                Az egyre megújuló tapsviharok közepette csak két kán ült szigorúan
                   összeráncolt homlokkal a helyén, mégpedig két hangadó kán: a női szabó meg a
                   mézeskalácsos. Szerencsére idejében észrevettem őket, és siettem jogos igényeiket
                   kielégíteni.
             </p>
-            <p>
+				<p>
                - Hannibál reformjai közé tartozott az is, hogy a hadsereget női
                   ruhába öltöztette, ami azért volt jó, mert az ellenséget mindig elbizakodottá
                   tette, továbbá a prófuntot mézeskalácsból süttette, mert így a katonák sokkal
                   jobban elhitték, hogy édes a hazáért meghalni!
             </p>
-            <p>
+				<p>
                Azt fölöslegesnek tartottam részletezni, hogy mennyi küzdelmébe
                   került Hannibálnak ezeknek a törvényeknek az elfogadása. Annál jobban
                   kidomborítottam azt a végzetes harcot, amelyre az adóreform-javaslatok vezettek.
@@ -2703,13 +2697,11 @@
                   úgy elpusztította Karthágót, hogy csak romja maradt meg, s ezen épült fel, mint a
                   neve is mutatja, Róma!
             </p>
-            <p>
+				<p>
                A retorika törvényei szerint most a befejezés következett volna, a
                   szívhezszólás és az ilyen súlyosabb esetekben, mint az enyém, a térdreborulás és
                   az
-               
                   »egybegyűlt atyák
-               
                 háziisteneire való hivatkozás. De ez mind fölöslegesnek látszott
                   most már. Az egybegyűlt atyák úgyis tisztában voltak már vele, hogy itt mire megy
                   ki a pakli: a kormány azért tört felettem pálcát, mert rámutattam a forgalmi adó
@@ -2717,14 +2709,13 @@
                   életben maradtak volna, és nézzék meg, mi lett a világból, amióta azokat
                   eltörölték.
             </p>
-            <p>
+				<p>
                - Uraim - hajlongtam, külön-külön a nyújtó, a mászópózna, a korlát és
                   gyűrűhinta, a ló és az ugródeszka felé, amelyek körül kánok és mirzák bizonyos
                   árnyalatok szerint csoportosultak -, uraim, azzal fejezem be, amivel Hannibál
                   kilehelte nemes lelkét, a nyúzógerendán: Isten áldja a tisztes ipart!
-               
             </p>
-            <p>
+				<p>
                Nem voltam ott, mikor a római szenátus Cicerót kikiáltotta a »Haza
                   atyjá«-nak, de majdnem olyan lehetett, mint mikor engem felültettek a torna
                -lóra és kikiáltottak tiszteletbeli kánnak. Még a fabuzogányokat is
@@ -2732,7 +2723,7 @@
                   (Tudniillik, a Három Dudásban ezt a szertartást üres söröspalackokkal
                   végezték.)
             </p>
-            <p>
+				<p>
                Azután nívós vita indult meg arról, hogy Hannibálnak az arcképét
                   festessék-e meg, vagy szobrot állítsanak neki. Egy szeme legyen-e azon, vagy
                   kettő, ki tartsa a leleplező beszédet, kik vezessék a társadalmi gyűjtést, és a
@@ -2741,7 +2732,7 @@
                   nem is vártam meg az eszmecsere végét, hanem angolosan megléptem kán és mirza
                   testvéreimtől.
             </p>
-            <p>
+				<p>
                Ha tógám lett volna, azt minden bizonnyal az arcomra húztam volna,
                   mikor kiléptem a kapun. A Coriolanus anyja érezhette így magát, mikor megtudta
                   Plutarchos-ból, hogy Rómát megmentette, de a fiát elvesztette. A kenyeremet tán én
@@ -2752,7 +2743,7 @@
                   Scelerátán. A tisztelt című kánok talán kijárhatnák a megkegyelmezésemet a
                   nagyságos és méltóságos kánoknál, de én soha meg nem bocsáthatok magamnak.
             </p>
-            <p>
+				<p>
                A varasbéka ott csúszott-mászott a celtisz alatt, arcocskáján nem
                   annyira a kiállott szenvedések, mint inkább a különböző cipőkenőcsök nyomaival.
                   Fölhasználva a Gazsi bácsi politikai elfoglaltságát, belekóstolt minden suvikszos
@@ -2762,15 +2753,15 @@
                   rafináltabb volt az élvezet, mint ha közvetlen a földről raktározta volna az
                   orrába a bogyókat.
             </p>
-            <p>
+				<p>
                - Nekem adod-e ezt az irkát, pajtás? - kucorodtam le hozzá.
             </p>
-            <p>
+				<p>
                - Mitatóteneteme? - kapadozott a zsebembe. Ebből értettem meg, hogy a
                   varasbéka az alkudozások terére lépett, és azt kérdezi, hogy milyen ellenértéket
                   kínálok az irkáért.
             </p>
-            <p>
+				<p>
                Egyebein nem volt a noteszemnél, azt ajánlottam fel, ami nagyon szép
                   volt tőlem, mert a noteszben sokkal több volt a kitépni való, mint az irkában. De
                   hát nekem a notesz már úgyse kellett többet, az irka meg nagyon kellett, legalább
@@ -2778,12 +2769,12 @@
                   Be is dobtam mindjárt az igazgatói iroda ajtaján lévő levélszekrénybe. Ennyi
                   engesztelő áldozattal tartoztam Hannibál meggyalázott szellemének.
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                8
             </head>
-            <p>
+				<p>
                Szolid és udvarias ember vagyok, aki még a gyógynövénykereskedő
                   kandúrjának se mondom, hogy »sicc, te!« hanem azt, hogy »cicuskám, nem lennél
                   szíves más irányban orientálódni? A gúnyolódásra se volt sohase kedvem, se különös
@@ -2796,7 +2787,7 @@
                   is tud pindarosi ódákat írni, sőt csakis az az igazi költő, aki ezt meg tudja
                   csinálni. A marathoni győzőkről nem kunszt szépet írni.
             </p>
-            <p>
+				<p>
                De hát akkor mi bújt énbelém, hogy így eljárattam az áprilist ezekkel
                   a derék, becsületes háromdudásokkal, akik végre is nem akarnak semmi rosszat, csak
                   jól akarnak lakni a hazából? Hol itatták én velem azt a boszorkányos ultrát,
@@ -2804,488 +2795,398 @@
                   szónoklatra készültem én, nem ilyen labériusi mimusra. Hol maradt le a lábamról a
                   kothurnus, és mikor kerül rá a soccus?
             </p>
-            <p>
+				<p>
                Nem, nem én voltam az, aki mindenkibe beleeresztettem a fullánkot.
                   Sőt magára Hannibálra is szamárbőrt húztam. Ez valami révület volt, valami
                   megszállottság. Persze, így jár az ember, ha sámánok ivadéka: egyszerre megperdül
                   a szívében az ördöngős dob és járatja vele a kutyakopogóst.
             </p>
-            <p>
+				<p>
                No, most már aztán igazán elmehetünk a lelékhez örökös vizitre.
                   »Ultra Saurometos fugere hinc et glacialem Oceanum! Fussunk túl Szkítián, túl
                   észak zord árján«.
             </p>
-            <p>
+				<p>
                Szegény Dia se gondolta, hogy az útiprogramunkat csináljuk, mikor pár
                   héttel ezelőtt Juvenalist fordítgattam neki. (No, nem az asszonyokról valót, csak
                   a képmutatókról szólót!)
             </p>
-            <p>
+				<p>
                Az erynnisek akkor se maradtak el tőlem, mikor a kapunkon beléptem.
                   De nagyon is az arcomra vetődhetett az árnyékuk, mert Tera mama szükségesnek
                   látott megvigasztalni, ahogy elém döcögött.
             </p>
-            <p>
+				<p>
                - No, nem kell azért megijedni, tanár úr, esett már ilyen dolog a
                   világon máskor is!
             </p>
-            <p>
+				<p>
                Hát persze, hogy esett. De hát mi köze ahhoz ennek az aventinusi vén
                   boszorkánynak és mit vigyorog hozzá?
             </p>
-            <p>
+				<p>
                - Tudja, fiatal asszonyon szokott az ilyesmi megesni! Énrajtam már
                   nem esik meg...
             </p>
-            <p>
+				<p>
                Most már egy ugrással bent voltam a szobában. Dia a sifonér előtt
                   térdelt.
             </p>
-            <p>
+				<p>
                - Mi történt veled? - szökkent fel a szívem a torkomba.
             </p>
-            <p>
+				<p>
                Felém fordította az arcát, amely sápadt és riadt volt, de szelíden
                   mosolygó, mint a vízből visszasütő hold. Összekulcsolt kezét a szájára téve
                   mutatta, hogy most csöndbe kell lenni, mert ő most imádkozik, aztán fölintett a
                   sifonér tetejére.
             </p>
-            <p>
+				<p>
                Pléhre préselt kazáni Mária nézett le onnan, olyan, amelyik még nem a
                   karján hordja a fiát, hanem a méhében. A Krímben találni ilyent minden házban,
                   ahol új házasok virágzanak.
             </p>
-            <p>
+				<p>
                Odatérdeltem Dia mellé, de nem zavartam, csak a két összetett tenyere
                   közé csúsztattam az én egy tenyeremet. A bánatos Máriácska száján egyszerre
                   kinyílt a mosoly.
             </p>
-            <p>
+				<p>
                Amikor befejezte az imádságát, keresztet vetett magára, és keresztet
                   vetett rám is, de azért nem keltünk fel a földről. Jólesett egymást átölelve
                   tovább is ott maradnunk, és hallgatnunk az egymás szíve dobogását.
             </p>
-            <p>
+				<p>
                Az udvar vénhedett törökeperfáján elrikkantotta magát egy jókedvű
                   sárgarigó. »Kell-e dió, fiú?« - ezt mindig olyan fán kezdik a sárgarigók,
                   amelyiken nincs dió - és Dia megszólalt:
             </p>
-            <p>
+				<p>
                - Tera mama azt mondja, fiú lesz.
             </p>
-            <p>
+				<p>
                - Persze hogy fiú lesz - nevettem el magam -, és a mai nap emlékére
                   Hannibálnak fogjuk keresztelni.
             </p>
-            <p>
+				<p>
                A fúriák egyszerre eltakarodtak a fejem fölül. Vitték a hírt a
                   leléknek, a vizek pokolfenekére, hogy már megint nem lesz barátkozás. Olyan bolond
                   fajzat az ember, hogy minden baját elfelejti, ha megtudja, hogy lesz kire hagyni a
                   szenvedéseit.
             </p>
-            <p>
+				<p>
                - Mi nyom itt a kabátod zsebében? - kérdezte Dia, ahogy
                   hozzámbújt.
             </p>
-            <p>
+				<p>
                - Hát az ebédem - veszem ki a csomagot. De már kibontani nem értem
                   rá, mert az ajtón besötétedett egy árnyék.
             </p>
-            <p>
+				<p>
                - Nini, János! A finánc! - ugráltunk fel. Erre számíthattam volna is,
                   hiszen Hannibál meg János összetartoznak a mi életünkben.
             </p>
-            <p>
+				<p>
                Csakhogy a finánc már nem volt finánc. Valami hivatalos libériában
                   feszített, de civil jellegűben, gyíkleső nélkül, a bajusza stuccolva,
                   borbélyszaggal dúsan bebűzítve.
             </p>
-            <p>
+				<p>
                - No, mi az János, de nagy gavallér lett magából! Hát kitelt az
                   esztendő?
             </p>
-            <p>
+				<p>
                - Ki, kérem. Most a külügyben vagyok.
             </p>
-            <p>
+				<p>
                Akkor már értem a stuccolt bajuszt. A külügyben gavallérok az
                   ajtónyitogatók is.
             </p>
-            <p>
+				<p>
                - Hát ott nem kell írni-olvasni tudni?
             </p>
-            <p>
+				<p>
                - Ők nem kérdezték, kérem, én meg nem mondtam.
             </p>
-            <p>
+				<p>
                - Okosan tette, János. Lehet, hogy nem is tudódik ki soha. No,
                   tartson velünk - toltam eléje a lekváros kenyeret.
             </p>
-            <p>
+				<p>
                Megköszönte szépen, de azt mondja, nem azért jött. Elhozta ezeket az
                   »izéket«.
             </p>
-            <p>
+				<p>
                - »Mizéket«, János?
             </p>
-            <p>
+				<p>
                Elém rakja a perekopi receptpapirokat. A Hannibál pergamen
                   másolatait.
             </p>
-            <p>
+				<p>
                - Ember, hát ezek hogy jutottak magához? - csaptam össze kezemet a
                   térdemmel. (Félkarú hősöknél ez a csudálkozás gesztusa. Bele van tudva a
                   rokkantsegélybe.)
             </p>
-            <p>
+				<p>
                - Ott voltak ezek kérem, az asztalban, mióta csak a felettes
                   hatóságom odatette őket. Csak eddig nem szólhattam róluk, mert a hivatalos titkot
                   a harmadik paragrafus szerint meg kell őrizni.
             </p>
-            <p>
+				<p>
                - De hát most hogy kerültek ide?
             </p>
-            <p>
+				<p>
                - Hát most már nem vagyok szolgálatban, kérem. Mondom, elhozom, hátha
                   hasznukat veheti a tekintetes úr.
             </p>
-            <p>
+				<p>
                - Én már nem, barátom - kötöztem össze a csomagot. Hanem... hanem...
                   majd a fiam. Az ő idejében majd más lesz a világ... nem akarják majd az igazság
                   kutatásáért máglyára tenni az embereket. A fiam majd föltámasztja Ábelt. Akarom
                   mondani Hannibált.
             </p>
-            <p>
+				<p>
                A szemem a jövő képe felé csillant - és beleharaptam a lekváros
                   kenyerembe...
             </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                IDEGEN KIFEJEZÉSEK MAGYARÁZATA
             </head>
-            <p>
-               
+				<p>
                   Achájok:
-               
                az ókori görög nép egyik főtörzse.
             </p>
-            <p>
-               
+				<p>
                   Accusativus cum infinitiuo:
-               
                a latin nyelvtanban a tárgyesetnek főnévi igenévvel való
                   kapcsolata.
             </p>
-            <p>
-               
+				<p>
                   Agamemnon:
-               
                a trójai háború kitörésekor a görögök fővezére, aki kényszerűségből
                   leányát, Iphigeniát áldozta fel, hogy a hajóhad elérje Trója partjait.
             </p>
-            <p>
-               
+				<p>
                   Anti Verrem:
-               
                Cicerónak Verres ellen tartott vádbeszéde (i. e. 70), melynek súlya
                   alatt Verres jobbnak látta önként száműzetésbe menni. A beszédek öt könyvbe vannak
                   foglalva, igen becses történelmi források az akkori provinciák kormányzása s
                   általában az ókori művészetek tekintetében.
             </p>
-            <p>
-               
+				<p>
                   Amábilis:
-               
                 kedves, szeretetre méltó.
             </p>
-            <p>
-               
+				<p>
                   Aphrodité:
-               
                 (lat. Venus) a szépség és szerelem istenasszonya.
             </p>
-            <p>
-               
+				<p>
                   Archimandrita:
-               
                 a keleti egyházak nagyobb kolostorainak főnöke.
             </p>
-            <p>
-               
+				<p>
                   Argivok:
-               
                (lat. argivi) a Peloponnezosz félsziget délkeleti szögletének lakói.
                   Homerosnál a Tróját ostromló görögök összefoglaló neve.
             </p>
-            <p>
-               
+				<p>
                   Ariadne:
-               
                krétai királyleány, aki titokban Theseusnak egy gombolyag fonalat
                   adott, melynek segítségével az megtalálta a kijáratot a megölt Minotaurus
                   zeg-zugos barlangjából.
             </p>
-            <p>
-               
+				<p>
                   Aristophanes:
-               
                görög vígjátékíró (i. e. 450-385), nagy ember-ismerő és bátor
                   szókimondó, képzelete és humora kifogyhatatlan.
             </p>
-            <p>
-               
+				<p>
                   Aristoteles:
-               
                 a görög, de az egész bölcselet történetének egyik kimagasló alakja
                   (i. e. 384-322).
             </p>
-            <p>
-               
+				<p>
                   Augustus Gaius Octavianus:
-               
                az első római császár (i. e. 63- i. u. 14), nevét viseli a nyár
                   utolsó hónapja.
             </p>
-            <p>
-               
+				<p>
                   Auentinus:
-               
                a hét halom egyike, amelyeken az ókori Róma épült.
             </p>
-            <p>
-               
+				<p>
                   Blaszfémia:
-               
                káromkodás, istenkáromlás.
             </p>
-            <p>
-               
+				<p>
                   Cato:
-               
                (Marcus Porcius, i. e. 234-149) a szigorú római erények, az
                   egyszerűség, kitartás megszemélyesítője (catói jellem).
             </p>
-            <p>
-               
+				<p>
                   Catilinariák:
-               
                Ciceró leghíresebb beszédei, »in Catilinam«, melyekben a
                   Catilina-féle összeesküvésről rántja le a leplet a szenátusban.
             </p>
-            <p>
-               
+				<p>
                   Catullus Gaius:
-               
                Róma nagy lírai költője (i. e. 87-57), költeményeiben őszintén tárja
                   fel szívét, szeretetét és gyűlöletét minden mesterkéltség nélkül, egyszerű
                   nyelven.
             </p>
-            <p>
-               
+				<p>
                   Caracalla:
-               
                római császár (i. u. 188-217), aki a katonaságban látta trónja
                   támaszát. Nevét a Via Appia mentén, a romjaiban is fenséges hatású melegvízfürdők
                   (thermák) őrzik ma is Rómában.
             </p>
-            <p>
-               
+				<p>
                   Cannaei győzelem:
-               
                az ókori Apuliában lévő kis városka mellett verte meg Hannibál (i. e.
                   216) Paullus és Varró konzulok vezérlete alatt küzdő római sereget.
             </p>
-            <p>
-               
+				<p>
                   Cicero Marcus Tullius:
-               
                Róma legkitűnőbb szónoka és állam-férfia (i. e. 106-43). 57 beszéde
                   maradt az utókorra. Fontosabbak: »Pro Roscio, »Anti Verrem«, »in Catilinam« és az
                   u.n. »philippikák« 14 hevesen támadó beszéde Antonius és egész politikája
                   ellen.
             </p>
-            <p>
-               
+				<p>
                   Circe:
-               
                (gör. Kirke) legendás görög varázslónő, ki az embereket állatokká
                   tudta változtatni (Odysseia, 10. ének).
             </p>
-            <p>
-               
+				<p>
                   Cerealiák:
-               
                Ceres római - a termés sikerét védő - istennő adományai. Főleg
                   gabonaneműek értendők alatta.
             </p>
-            <p>
-               
+				<p>
                   Clodtus Publius Pulcher:
-               
                a római köztársaság utolsó századának egyik legerőszakosabb
                   demagógja. Méltó ellenfelére akadt T. Annius Miloban, aki Cicero s a szenátus híve
                   volt. Mindkettőjüknek párthívei voltak s egy verekedés alkalmával Clodius halálát
                   lelte.
             </p>
-            <p>
-               
+				<p>
                   Conscla mens recti (famae mendacie ridet!...):
-               
                Akit semmivel sem vádol a lelke, neveti a pletykákat. (Ovidius: Fasti
                   4. 311).
             </p>
-            <p>
-               
+				<p>
                   Coriolanus G. Marcius:
-               
                római nemes, aki sértett büszkeségében a volszkusokhoz, Róma
                   ellenségeihez pártolt s fegyverrel tört hazája ellen. Anyja és felesége kérése,
                   szemrehányása azonban megtörte a dacos patriciust. Ezekkel a szavakkal adott jelt
                   a visszavonulásra: Rómát megmentetted, anyám, de fiadat elvesztetted!
             </p>
-            <p>
-               
+				<p>
                   Corpus delicti:
-               
                a bűnjel törvényszéki tárgyalások alkalmával.
             </p>
-            <p>
-               
+				<p>
                   Cyrano:
-               
                E. Rostand francia nemzeti drámájának katona-költő főhőse, teljes
                   nevén Cyrano de Bergerac, aki reménytelenül szerelmes szép és előkelő unokahúgába,
                   Roxan-ba.
             </p>
-            <p>
-               
+				<p>
                   Dedukció:
-               
                a logikában az egyetemesből, a részlegesre való leszármaztatás
                   módja.
             </p>
-            <p>
-               
+				<p>
                   Demosthenes:
-               
                az ókor legnagyobb szónoka, athéni államférfiú (i. e. 384-322).
                   Ismeretes, hogy dadogó kiejtését azzal orvosolta, hogy nyelve alá kavicsot téve,
                   nagy hangon szavalt a zúgó tenger partján.
             </p>
-            <p>
-               
+				<p>
                   Detektálni:
-               
                gyönyörködni, gyönyörködtetni.
             </p>
-            <p>
-               
+				<p>
                   Diana:
-               
                (gör. Artemis), Apolló nővére, a hold istennője, akit »ragyogó«-nak
                   neveztek.
             </p>
-            <p>
-               
+				<p>
                   Duilius Qaius:
-               
                római hadvezér (i. e. 260), aki az első pún háborúban az általa
                   feltalált kapcsos hidak segítségével az első tengeri győzelmet vívta ki Szicília
                   északi partjánál a karthágóiak ellen.
             </p>
-            <p>
-               
+				<p>
                   Endymion:
-               
                szép ifjú, akinek halhatatlanság és örökké tartó álom az
                   osztályrésze; álmában látogatja meg Selene, az odaadó, szelíd, ezüstös fényű
                   istennő.
             </p>
-            <p>
-               
+				<p>
                   Epicifelois:
-               
                olyan síkgörbe, melyet egy nyugvó körnek külső szélén gördülő kör
                   pontjai írnak le.
             </p>
-            <p>
-               
+				<p>
                   Epódosz:
-               
                utóének, a karének záró strófája a görögöknél, így nevezik azokat a
                   lírai költeményeket is, melyekben egy hosszabb verssor után mindig egy rövidebb
                   következik.
             </p>
-            <p>
-               
+				<p>
                   Erinnysek:
-               
                (lat. túriak) a monda szerint Uranos kiömlő véré-bői született
                   kígyóhajú istennők, a bosszúállásnak, a mardosó lelkiismeretnek
                   megszemélyesítői.
             </p>
-            <p>
-               
+				<p>
                   Étosz:
-               
                erkölcs, jellem, valakinek állandó cselekvésmódja.
             </p>
-            <p>
-               
+				<p>
                   Falernusi bor:
-               
                (röviden Falernum) a rómaiak legnemesebb, Horatius által is sokszor
                   emlegetett bora.
             </p>
-            <p>
-               
+				<p>
                   Ferrero Quglielmo:
-               
                (1871- ), olasz történetíró és bölcselő. Főművében a római
                   köztársaság bukását s a császárság megalakulását tárgyalja.
             </p>
-            <p>
-               
+				<p>
                   Fidélis:
-               
                hűséges; más értelmezésben vidámat, jókedvűt is jelent.
             </p>
-            <p>
-               
+				<p>
                   Filtra:
-               
                orvosi recepteken annyit jelent: szűrd át szűrőpapíroson a
                   folyadékot. Átvitt értelemben kotyvalékot is jelent.
             </p>
-            <p>
-               
+				<p>
                   Flebit et insignls tota cantabitur urbe...:
-               
                Sírvafakad, s az egész város nyelvére kerül majd! (Horatius
                   epódoszaiból vett idézet.)
             </p>
-            <p>
-               
+				<p>
                   Fonomimika:
-               
                az olvasni tanítás azon módszere, midőn a gyermekek a tanulandó
                   betűhangot kis mese, vagy cselekvés keretében többször ismételik.
             </p>
-            <p>
-               
+				<p>
                   Forum:
-               
                A római birodalom városaiban a gyülekezés, vásár, törvénykezés
                   céljaira szolgáló köztér (a legrégibb ilyen Rómában a Forum Romanum).
             </p>
-            <p>
-               
+				<p>
                   Fulmen est, ubi cum potestate habitat iracundia:
-               
                Senecá-tól vett idézet, Móra szellemes fordításában.
             </p>
-            <p>
+				<p>
                Hannibál; az ókori történelem leghíresebb, karthágói hadvezére (i. e.
                   247-183). Nevéhez fűződnek az u. n. pún háborúk, melyeket a gyűlölt Róma ellen
                   viselt. Legnevezetesebb hadművelete volt az, amikor 80 ezer emberrel s 37
@@ -3294,69 +3195,51 @@
                   Karthágótól délnyugatra volt, hol ellenfele, az ellene küldött Scipio Africanus
                   győzött; méreggel vetett véget életének.
             </p>
-            <p>
-               
+				<p>
                   Hannibál ante portas:
-               
                Hannibál a kapuk előtt áll. Cicero philippikáinak elejéről vett
                   idézet (5.11). Mindig a veszély közelségét szokták ezzel a mondással kifejezni.
                   Tréfás magyar változata: Hannibál, azelőtt portás.
             </p>
-            <p>
-               
+				<p>
                   Haruspex:
-               
                áldozati jós Rómában, aki a megölt állatok beléből mondott
                   jóslatot.
             </p>
-            <p>
-               
+				<p>
                   Heléna:
-               
                Menelaos spártai király felesége, a világ legszebb asszonya, akit
                   Paris trójai királyfi rabolt el s ezzel elindítója lett a trójai háborúnak.
             </p>
-            <p>
-               
+				<p>
                   Hephaistos:
-               
                (lat. Vulcanus) a görögök legendája szerint a föld mélyében képzelt
                   titokzatos kohó ura, az istenek kovácsa.
             </p>
-            <p>
-               
+				<p>
                   Herodotos:
-               
                görög történetíró (i. e. 485-425), a »történetírás atyja«. Főműve a
                   görög-perzsa háború leírása, az első nagyobbszabású történelmi munka a
                   világon.
             </p>
-            <p>
-               
+				<p>
                   Homeros:
-               
                neve a világirodalom két legnevezetesebb elbeszélő költeményével, az
                   Ilias-szal és az Odysseia-val fonódik egybe. Újabban kétségbevonták történelmi
                   személyiségét. A hagyomány szerint vak volt. Egy bizonyos, hogy mindkét elbeszélő
                   költemény megszerkesztőjében korszakalkotó költői tehetséget kell látnunk.
             </p>
-            <p>
-               
+				<p>
                   Homéri kacaj:
-               
                kiolthatatlan kacaj (l. Ilias 1. 599 és Odysseia 8. 326).
             </p>
-            <p>
-               
+				<p>
                   Hoc erat in votis:
-               
                Ez volt vágyaim netovábbja. Horatius 6. szatírájának első sora. Arany
                   János is használja ezt az idézetet hasonló című versében.
             </p>
-            <p>
-               
+				<p>
                   Horatius Quintus Flaccus:
-               
                Római költő (i. e. 65-27). Mintegy 10 ezer verssort írt. Műveinek
                   csoportosítása: 1. Szatírák, melyekben nevetve s nevettetve mondja meg az igazat,
                   2. Epódoszok, 3. Versek, melyekben Sappho és Alkaios művészi görög versformáit
@@ -3364,29 +3247,21 @@
                   Ezekben rakta le bölcseleti elveinek alapjait. Hatása már a maga korában is nagy
                   volt, a világirodalomban pedig egyenesen fölmérhetetlen.
             </p>
-            <p>
-               
+				<p>
                   Indukció:
-               
                a logikában az egyesről az egyetemesre való következtetés módja,
                   ellentéte a dedukció.
             </p>
-            <p>
-               
+				<p>
                   Inkriminált:
-               
                vádolt, kifogásolt.
             </p>
-            <p>
-               
+				<p>
                   In nuce:
-               
                röviden, dióhéjban.
             </p>
-            <p>
-               
+				<p>
                   Jason:
-               
                az Argonauták, mesebeli görög hősök vezére, akik Argó nevű hajójukon
                   a Kaukázus vidékén elterülő Kolchis királyságba vitorláztak, hogy elhozzák a
                   mondabeli arany kosnak a gyapját. Medea, a kolchisi király varázsló leánya segíti
@@ -3394,171 +3269,123 @@
                   magától Medeát, aki kétségbeesésében nemcsak vetélytársnőjét, de tulajdon
                   gyermekeit is megöli.
             </p>
-            <p>
-               
+				<p>
                   Jolkos:
-               
                l. Jason-nál.
             </p>
-            <p>
-               
+				<p>
                   Judaeus Apella:
-               
                Horatiusnál egy babonás zsidónak a neve. »Credat Judaeus Apella,
                   azaz: ezt higgye az Apella zsidó.
             </p>
-            <p>
-               
+				<p>
                   Julius Caesar:
-               
                híres római hadvezér, diktátor, államférfiú és történetíró (i. e.
                   100-44).
             </p>
-            <p>
-               
+				<p>
                   Juvenalis Decimus Junius:
-               
                római szatíraíró (i. u. 60-140). Szatírája Horatiussal ellentétben
                   nem mulattató, realizmusa megdöbbentő s inkább lazító.
             </p>
-            <p>
-               
+				<p>
                   Karthágó:
-               
                (Új város) a leghíresebb s leggazdagabb észak-afrikai város, az ókori
                   kereskedelem egyik gócpontja, Róma versenytársa (a mai Tunisz területén). I. e.
                   146-ban sikerült csak a rómaiaknak elpusztítani a legendás hősiességgel védekező
                   várost. A föld színéig lerombolták s átkot mondtak arra, aki valaha Karthágó
                   helyén új várost alapítana.
             </p>
-            <p>
-               
+				<p>
                   Kolchis:
-               
                l. Jason-nál.
             </p>
-            <p>
-               
+				<p>
                   Konfekt:
-               
                (olaszul confetto) csemege.
             </p>
-            <p>
-               
+				<p>
                   Konfidencia:
-               
                (lat. confidentia) bizalom, elbizakodottság, vagy vakmerőség.
             </p>
-            <p>
-               
+				<p>
                   Konfusió:
-               
                (lat. confusio) zűrzavar.
             </p>
-            <p>
-               
+				<p>
                   Konvenció:
-               
                (lat. conventio) megegyezés, szóbeli egyezkedés.
             </p>
-            <p>
-               
+				<p>
                   Kothurnus:
-               
                (lat. cothurnus) az egész lábfejet védő, lábszár feléig érő magas
                   vadászcipő, melyet szíjjal erősítettek fel. Aeschylos görög drámaíró vitte a
                   színpadra s hogy a tragédiában a színészeknek emberfölötti megjelenést adjon, a k.
                   magas, négyszögű fatalpat kapott.
             </p>
-            <p>
-               
+				<p>
                   Kleon:
-               
                athéni borkereskedő Perikies korában, demagóg volta s durva jelleme
                   folytán ellensége volt mindennemű szabad gondolkodásnak.
             </p>
-            <p>
-               
+				<p>
                   Kronion:
-               
                Kronos fia, Zeus, a görögök fő nemzeti istene.
             </p>
-            <p>
-               
+				<p>
                   Kréta:
-               
                sziget a Földközi tengerben. A sziget királya Minős volt. Ezen a
                   szigeten ölte meg Theseus a Minotaurust (l. később).
             </p>
-            <p>
-               
+				<p>
                   Kubikulum:
-               
                 szoba, hálószoba.
             </p>
-            <p>
-               
+				<p>
                   Laberiusi mimus:
-               
                Laberius Decimus (i. e. 105-43), római lovag alkalmi játékait
                   nevezték mimus-oknak. Egyik mimus-ával megsértette Caesart, aki arra
                   kényszerítette, hogy a színpadon egy rabszolgával szavaljon versenyben. Ekkor
                   mondta el Laberius egyik ránk maradt prológját, ami a római irodalomnak egyik
                   remeke.
             </p>
-            <p>
-               
+				<p>
                   Laresek:
-               
                 (lar-ok) a régi latin istenhitben szereplő démonok. A néphit szerint
                   az elhalt ősök szellemei (házi istenek).
             </p>
-            <p>
-               
+				<p>
                   Lento risu:
-               
                 lassú nevetéssel (Horatiusnál).
             </p>
-            <p>
-               
+				<p>
                   Lermontov J. Mihail:
-               
                 híres orosz költő (1814-1842), Puskin kortársa.
             </p>
-            <p>
-               
+				<p>
                   Liber Heroidum:
-               
                Hősnők levelei férjeikhez Ovidiusnál (pl. Pénelopé Odysseushoz).
             </p>
-            <p>
-               
+				<p>
                   Lictorok:
-               
                hatósági szolgák a rómaiaknál, akik egyesével lépdeltek a
                   magasabbrendű hivatalnokok előtt, hogy számukra helyet csináljanak s tisztelgésre
                   figyelmeztessék a népet. Jelvényük a fasces, bárddal ellátott szil- vagy
                   nyírvesszőcsomó, veresszínű szíjjal összekötve, volt.
             </p>
-            <p>
-               
+				<p>
                   Livlus:
-               
                nagy római történetíró (i. e. 59-17). Főmunkájában Róma történetét
                   tárgyalja a város alapításától kezdve a saját koráig.
             </p>
-            <p>
-               
+				<p>
                   Lotophagosok:
-               
                magyarul lótuszevők. Ókori mesebeli nép (Odysseia 9. ének), akik
                   Odysseust és társait édes lótusz növénnyel olyan jól tartották, hogy azok
                   megfeledkeztek hazájukról.
             </p>
-            <p>
-               
+				<p>
                   Marius Karthágó romjain:
-               
                M. római hadvezér és szerencsétlen politikus (i. e. 156-86), aki régi
                   versenytársa és ellenfele, L. Cornellus Sulla rémuralma elől Karthágó romjain
                   bujdosott, sötét gondolatokba merülten. Amikor a numídiai helytartó egy követe
@@ -3566,428 +3393,307 @@
                   Mariust Karthágó romjain láttad! Sulla bosszúja csak hamvait érte utói, amit az az
                   Anio hullámaiba szóratott.
             </p>
-            <p>
-               
+				<p>
                   Medea:
-               
                 l. Jason-nál.
             </p>
-            <p>
-               
+				<p>
                   Milo:
-               
                 l. Clodius-nál.
             </p>
-            <p>
-               
+				<p>
                   Minotaurus:
-               
                minotaurus-bika, egy félig ember, félig bikaalakú szörnyeteg, akinek
                   a labynnthusba, barlangjába, ahol tartózkodott, évente 7 ifjút és leányt kellett
                   küldeni áldozatul. Theseus, az attikai hős győzi le Ariadne segítségével.
             </p>
-            <p>
-               
+				<p>
                   Mohammed ben Abdallah:
-               
                a mohammedán vallás alapitója. Mekkából Medina városába történt
                   kivándorlása, az u. n. »Mohammed futása (hedzsira) az arab időszámítás kezdete (i.
                   u. 622).
             </p>
-            <p>
-               
+				<p>
                   Mommsen:
-               
                Három német testvér, August, Theodor és Tycho, kiváló klasszikus
                   nyelvészek.
             </p>
-            <p>
-               
+				<p>
                   Nabukodonozor:
-               
                (II. N.) babilóniai király (i. e. 604-562), aki elpusztította
                   Jeruzsálemet s a zsidókat babilóniai fogságba hurcolta.
             </p>
-            <p>
-               
+				<p>
                   Narratlo rerum:
-               
                tárgyalás.
             </p>
-            <p>
-               
+				<p>
                   Naxos:
-               
                Sziget a Földközi tengerben, a Kikládok csoportjának tagja.
             </p>
-            <p>
-               
+				<p>
                   Numerus clausus:
-               
                az a szám, amelyet valamely társulat, testület tagjainak száma meg
                   nem haladhat. Nálunk az elmúlt bűnös rendszer a zsidóságra alkalmazta.
             </p>
-            <p>
-               
+				<p>
                   Olympos:
-               
                Görögország legmagasabb hegye, az istenek lakóhelye.
             </p>
-            <p>
-               
+				<p>
                   Ossa:
-               
                hegycsúcs, melyet Ötös és Ephialtes, az Olympos halhatatlan lakóit
                   háborúval fenyegetve az Olympos fölé, s arra egy másik hegyet a Peliont akarták
                   rakni, hogy így jussanak az égbe. Apolló ölte meg őket.
             </p>
-            <p>
-               
+				<p>
                   Pallos Athéné:
-               
                (lat. Minerva) neve azonos gyökerű Athén városának elnevezésével, a
                   természeti erők és tünemények (vihar, felhő, villám) megszemélyesítése; később a
                   tervszerű hadviselés képviselője, a józan észnek s minden belőle fakadó
                   foglalkozás, tevékenység áldást hozó nagyasszonya.
             </p>
-            <p>
-               
+				<p>
                   Patres et conscripti:
-               
                Atyák és összeírottak. Ez volt a megszólítás a római
                   szenátusban.
             </p>
-            <p>
-               
+				<p>
                   Panganét:
-               
                a rövid kard népies elnevezése.
             </p>
-            <p>
-               
+				<p>
                   Pátosz:
-               
                heves érzelmek, felindulás visszatükröződése a nyelvben; szónoki
                   lendület.
             </p>
-            <p>
-               
+				<p>
                   Pártusok:
-               
                (parthusok) a mai ázsiai Khoraszán területén élő nép. I. e. 250 körül
                   a macedónok ellen fellázadva birodalmat alapítottak. Vad, harcias lovas és íjász
                   nép volt. Rossz tulajdonságaik közé tartozott a mértéktelen ivás és
                   fajtalanság.
             </p>
-            <p>
-               
+				<p>
                   Persephone elrablása:
-               
                P. Zeus és Demeter leánya, aki virágos réten játszadozott társnőivel,
                   midőn meghasadt a föld, fölbukkant Hades arany szekerével s a sikoltozó leányt
                   magával vitte az alvilágba.
             </p>
-            <p>
-               
+				<p>
                   Pelion:
-               
                l. Ossa-nál.
             </p>
-            <p>
-               
+				<p>
                   Pindaros:
-               
                görög költő (i. e. 522-442). Munkáinak nagy része az alexandriai
                   könyvtár égésével megsemmisült. Ránk maradt ódái főleg a nemzeti játékokon győztes
                   versenyzők dicsérete.
             </p>
-            <p>
-               
+				<p>
                   Plato:
-               
                (gör. Platón) a görög bölcselet Aristoteles mellett legnagyobb alakja
                   (i. e. 427-347). Gondolatai óriási hatással voltak a nyugati művelődés
                   fejlődésére.
             </p>
-            <p>
-               
+				<p>
                   Plutarchos:
-               
                görög történetíró (i. u.48-120),Tacitus kortársa. Főművében
                   »Párhuzamos életrajzok címmel mintegy 23 görög s ugyanannyi római nagy ember
                   életét írta meg.
             </p>
-            <p>
-               
+				<p>
                   Polybios:
-               
                a pún háborúk görög történetírója (i. e. 169 körül). Élete nagy
                   részét külföldön töltötte. Műveit pontosság, hűség, elfogultságmentes ítélet
                   jellemzi.
             </p>
-            <p>
-               
+				<p>
                   Polyphemos:
-               
                a félszemű óriás kiklopszok egyike. Odysseus és társai úgy menekültek
                   meg barlangjából, hogy kiszúrták szemét s mikor a sebzett óriás elállta a
                   kijáratot, a kitóduló birkák hasa alá fogódzkodtak.
             </p>
-            <p>
-               
+				<p>
                   Propertius Sextus:
-               
                római elégia költő (i. e. 47-14). Költeményeiben a tudós tanulmány
                   lendületes költői szenvedélyességgel olvadt egybe.
             </p>
-            <p>
-               
+				<p>
                   Pro Roscio:
-               
                Cicerónak az ameriai S. Roscius védelmére tartott beszéde, melyben
                   nemcsak a jogért és az igazságért való lelkesedés ragad meg, de a bátor kiállás is
                   Sulla kegyencének üzelmeivel szemben.
             </p>
-            <p>
-               
+				<p>
                   Prustas:
-               
                Bithiniai király, aki a menekülő Hannibál rejtekhelyét elárulta a
                   rómaiaknak.
             </p>
-            <p>
-               
+				<p>
                   Punctum saliens:
-               
                Mindennek az oka, eredete. Aristoteles említi állattani munkájában a
                   tojás fehérében lebegő véres pontot, amelyből a madár szíve lenne.
             </p>
-            <p>
-               
+				<p>
                   Quos ego:
-               
                Neptun ezzel fenyegeti meg az engedelmeskedni nem akaró szeleket
                   (Aeneis l. 135). Magyarul annyi mint: Majd adok én nekik!...
             </p>
-            <p>
-               
+				<p>
                   Rétor:
-               
                az ókori görögöknél a szónoknak, valamint a szónoklat tanítóinak
                   közös neve.
             </p>
-            <p>
-               
+				<p>
                   Roxan:
-               
                l. Cyrano-nál.
             </p>
-            <p>
-               
+				<p>
                   Sans peur ét sans reproche:
-               
                (francia) félelem és gáncs nélküli. A középkori lovagokra
                   értették.
             </p>
-            <p>
-               
+				<p>
                   Salmanassar:
-               
                asszír királyok nevei.
             </p>
-            <p>
-               
+				<p>
                   Scipio:
-               
                l. Hannibal-nál.
             </p>
-            <p>
-               
+				<p>
                   Scrupalus:
-               
                kétség, kétely, aggály.
             </p>
-            <p>
-               
+				<p>
                   Scriptor:
-               
                író.
             </p>
-            <p>
-               
+				<p>
                   Seneca L. Annaeus:
-               
                bölcselő és drámaíró (i. e. 5-i. u. 65), fennmaradt művei közül
                   különösen erkölcsbölcseleti értekezései és levelei értékesek.
             </p>
-            <p>
-               
+				<p>
                   Sine ira et studio:
-               
                ellenszenv és részrehajlás nélkül (Tacitus: Annales 1.1).
             </p>
-            <p>
-               
+				<p>
                   Sokrates:
-               
                nagy görög bölcselő (i. e. 469-399), a szabad oktatás iskolájának
                   megteremtője. Szép és előkelő ifjak társaságában, beszélgetés közben fejtette ki
                   dialektikus módszerének erejét. Politikai ellenfelei halálra ítélték s ki kellett
                   innia a bürökből készített méregpoharat.
             </p>
-            <p>
-               
+				<p>
                   Soccus:
-               
                bőrből vagy nemezből készült férficipő, papucs, melynek viselését nem
                   tartották férfias dolognak: elpuhult emberek szerették hordani, mert nem volt
                   rajta fűzőszalag. Átvitt értelemben a vígjáték költészetét jelentette, mint ahogy
                   a cothurnus a tragédiáét.
             </p>
-            <p>
-               
+				<p>
                   Sulla:
-               
                l. Marius-nál.
             </p>
-            <p>
-               
+				<p>
                   Szillogizmus:
-               
                a gondolkodásnak olyan művelete, amikor adott ítéletekből új ítéletet
                   származtatunk le. Két fajtája van: indukció és dedukció.
             </p>
-            <p>
-               
+				<p>
                   Tacitus Cornelius:
-               
                a római történetírás kiváló képviselője (i. u. 55-120). Elvéhez, hogy
                   részrehajlás és ellenszenv nélkül írjon (sine ira et studio), amennyire tudott, hú
                   maradt.
             </p>
-            <p>
-               
+				<p>
                   Tarquinius:
-               
                T. Priscus Róma ötödik királya; T. Superbus, a »gőgös« pedig
                   sorrendben a hetedik s egyben az utolsó király.
             </p>
-            <p>
-               
+				<p>
                   Thasos:
-               
                (Thasus) sziget az Aegei-tengerben. Híres volt boráról és
                   gabonájáról.
             </p>
-            <p>
-               
+				<p>
                   Theseus:
-               
                attikai nemzeti hős, l. Ariadne-nél.
             </p>
-            <p>
-               
+				<p>
                   Thonuzóba:
-               
                besenyő vezér, aki István király idejében visszautasította a
                   kereszténység fölvételét s halála után pogány módra, feleségével együtt temették
                   el.
             </p>
-            <p>
-               
+				<p>
                   Tetrakonta-oktaéder:
-               
                magyarul negyvennyolcas, a kristálytanban a szabályos rendszer egyik
                   alakja, melyet 48 háromszög határol.
             </p>
-            <p>
-               
+				<p>
                   Titánok:
-               
                Uranos és Gaia gyermekei, az ő segítségükkel dönti meg Zeus apjának,
                   Kronosnak uralmát.
             </p>
-            <p>
-               
+				<p>
                   Tóga:
-               
                a római polgár gyapjúszövetből készült ruhája a tunica felett, melyet
                   békés időkben viselt. Megkülönböztetésül szolgált a katonákkal és az idegenekkel
                   szemben.
             </p>
-            <p>
-               
+				<p>
                   Turris Maecenatiana:
-               
                Horatius használja ezt a kifejezést. Átvitt értelemben az
                   elzárkózottság elefántcsont tornyát értjük rajta.
             </p>
-            <p>
-               
+				<p>
                   Sauromatae:
-               
                Sarmatia egy részének lakosai, a szarmaták (Móra regényében
                   Szkitia!), mely név az idők folyamán a scytha név helyébe lépett.
             </p>
-            <p>
-               
+				<p>
                   Varchoniták;
-               
                 (magyarul várkunok) az avarok ősei. A név a két őstörzs,
-               
                   uar
-               
                és
-               
                   khun
-               
                összevonásából származott. (V. ö. Jókai hasonlónevű
                   elbeszélésével.)
             </p>
-            <p>
-               
+				<p>
                   Vae victis:
-               
                 Jaj a legyőzőiteknek! Brennus gallus hadvezér a rómaiakat legyőzve
                   ezer font arany sarcot rótt rájuk. Mikor mérték az aranyat, a rómaiak
                   méltatlankodtak, hogy a gallusok hamis mértéket használnak. Brennus az azóta
                   híressé vált mondással dobta be súlyos kardját a serpenyőbe.
             </p>
-            <p>
-               
+				<p>
                   Ventosa plebs:
-               
                Ingatag, köpönyegforgató nép.
             </p>
-            <p>
-               
+				<p>
                   Via Scelerata:
-               
                bűnösök útja. Ezen vitték Rómában a halálraítélteket.
             </p>
-            <p>
-               
+				<p>
                   Virginálni:
-               
                hangszeren játszani. Virginál a régi zongora (spinett) neve.
             </p>
-            <p>
-               
+				<p>
                   Vosz Chrestos:
-               
                A görögkeleti egyházi szertartás szerint húsvétkor a hívek templomból
                   jőve ezekkel a szavakkal s csókkal köszöntik egymást.
             </p>
-            <p>
-               
+				<p>
                   Zámai csata:
-               
                l. Hannibal-nál.
             </p>
-            <trailer>.oOo.
+				<trailer>.oOo.
             </trailer>
-               
-         </div>
-      </body>
-  </text>
+			</div>
+		</body>
+	</text>
 </TEI>

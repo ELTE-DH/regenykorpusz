@@ -1,80 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU05909_2" xml:lang="hu">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Két nyár</title>
-                <author ref="viaf:19708135">Kaffka Margit (1880-1918)</author>
-                <respStmt>
-                    <resp>ELTeC conversion</resp>
-                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-                    </name>
-                    <name>Fellegi Zsófia</name>
-                    <name>Bajzát Tímea Borbála</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">17546</measure>
-                <measure unit="pages">30</measure>
-                <measure unit="vols">1</measure>
-            </extent>
-            <publicationStmt>
-                <p>Published as part of ELTeC</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Két nyár</title>
-                    <date>2008-04-29</date>
-                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-                    <ref target="https://mek.oszk.hu/05900/05909/"/>
-                    
-                    <respStmt>
-                        <resp>Original Electronic Edition</resp>      
-                        <name>Kiss András</name>
-                        <name>Szever Pál</name>
-                        <name>Varga Mónika</name>
-                    </respStmt>
-                </bibl>
-                <bibl type="printSource">
-                    <title>Kaffka Margit regényei</title>
-                    <author>Kaffka Margit</author>
-                    <pubPlace>Budapest</pubPlace>
-                    <publisher> Szépirod. Kiadó</publisher>
-                    <date>1968</date>
-                    
-                    <ref target="https://mek.oszk.hu/05900/05909/"/>
-                </bibl>
-                <bibl type="firstEdition">
-                    <title>Két nyár</title>
-                    <author>Kaffka Margit</author>
-                    <date>1916</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-0">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="hu">Hungarian</language>
-            </langUsage>
-            <textDesc>
-                <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
-                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
-                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-07-26"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div>
-                <head>1</head>
-                <p>Kába, kis, félmosolyú verőfény ült a házfalakon, kopottas félszeg februári
+<TEI xml:id="HU05909_2" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Két nyár</title>
+				<author ref="viaf:19708135">Kaffka Margit (1880-1918)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">17546</measure>
+				<measure unit="pages">30</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Két nyár</title>
+					<date>2008-04-29</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="https://mek.oszk.hu/05900/05909/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Kiss András</name>
+						<name>Szever Pál</name>
+						<name>Varga Mónika</name>
+					</respStmt>
+				</bibl>
+				<bibl type="printSource">
+					<title>Kaffka Margit regényei</title>
+					<author>Kaffka Margit</author>
+					<pubPlace>Budapest</pubPlace>
+					<publisher> Szépirod. Kiadó</publisher>
+					<date>1968</date>
+					<ref target="https://mek.oszk.hu/05900/05909/"/>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Két nyár</title>
+					<author>Kaffka Margit</author>
+					<date>1916</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="F"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-07-26"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<head>1</head>
+				<p>Kába, kis, félmosolyú verőfény ült a házfalakon, kopottas félszeg februári
                     tavasz-intelem; tán maga is röstellte itt kicsit az embereket bolondítani!
                     Hisznek-e neki megint; mit hozhat a május, a nyár? Kinek van kertje, fája,
                     vetése, nyaralója a Hiúz utcában; mely Budán van bár, de úgy körülépült házzal,
@@ -83,7 +83,7 @@
                     olyan vékony jószág, mint Vitoriszné, átbújhatott a kerítés-léceken vadvirágot
                     szedni egy csorba tejesbögrébe. Most már sötét a pince a két nagy bérháztól, de
                     mit csináljon az ember? Nagy helyiség, száraz, és nem stájgeroltak!</p>
-                <p>Erre gondol Veron, és a két, barna, száraz karja szaporán tereget. - Igen, muszáj
+				<p>Erre gondol Veron, és a két, barna, száraz karja szaporán tereget. - Igen, muszáj
                     valami vidítóat gondolni ilyenkor: a házbérről, amely már fizetve, a ruháról,
                     ami holnapra szárad, a szomszéd pucerájról, mely megbukott hálistennek; a
                     letudott adósságról s az uráról, hogy most megint munkába áll. - Ilyen
@@ -96,17 +96,17 @@
                     házaktól is mindig hoznak ruhát. “Vivát Gáribáldi!” - szerette volna kiáltani,
                     mint apja, a néhai falusi asztalos szokta, ha jól ment a munka, vagy beszopott
                     kicsit. De nem, még kinevetné az ura odabenn az alkóvban!</p>
-                <p>- Károly, te! Tudod, hogy az a csendőrtiszt is ideküldi a ruhát a
+				<p>- Károly, te! Tudod, hogy az a csendőrtiszt is ideküldi a ruhát a
                     huszonhétből?</p>
-                <p>- Melyik? - hangzott az U-alakú helyiség egyik fülkéjéből, a zilált ágyról, egy
+				<p>- Melyik? - hangzott az U-alakú helyiség egyik fülkéjéből, a zilált ágyról, egy
                     ásításba nyúlt hang. - Az, aki a doktornénál szobaúr?</p>
-                <p>- Az. A doktorné új cselédje megszólított. Nagyon szíves nő!</p>
-                <p>- Az a bukjel-frizurás?</p>
-                <p>- Bukjel... na nézd-a? Hát más nem megfésülködik, hát én nem? - és mosolyogva
+				<p>- Az. A doktorné új cselédje megszólított. Nagyon szíves nő!</p>
+				<p>- Az a bukjel-frizurás?</p>
+				<p>- Bukjel... na nézd-a? Hát más nem megfésülködik, hát én nem? - és mosolyogva
                     csillogtatta meg a hollósötét hajába oly bőven tűzött üveggyémánt csatokat,
                     fülönfüggőt.</p>
-                <p>- De olyan csuszpájzsos-tál képe van hozzá!</p>
-                <p>- Na, nézze meg az ember a kis gusztusodat! - nevetett az asszony, és kis szemei,
+				<p>- De olyan csuszpájzsos-tál képe van hozzá!</p>
+				<p>- Na, nézze meg az ember a kis gusztusodat! - nevetett az asszony, és kis szemei,
                     a fényes, fekete cseresznyemagvak felragyogtak. Tetszett neki, hogy a telt arcú
                     nőket nem kedveli az embere! Ő maga sovány volt, sötét bőrű, s a Hiúz utca
                     összes pincelakói hitványnak mondták; de a doktorné, akinek mosott, sokszor
@@ -114,10 +114,10 @@
                     hercegnőnek!” És Vitoriszné ilyenkor mindig elmondta, hogy az apja taníttatni
                     akarta őt, képezdébe járatni (mint legkisebbet, mert jó feje volt), de meghalt,
                     mielőtt tehette volna.</p>
-                <p>Vitorisz úr, a női kalapos, az ágyon hevert; ki akarta még urizálni magát
+				<p>Vitorisz úr, a női kalapos, az ágyon hevert; ki akarta még urizálni magát
                     utoljára, mielőtt egy új Király utcai gyárban, holnap munkába lép. Csinos ember
                     volt és magára tartó. A ruhát tisztán és alig gyűrve tudta viselni, barna haját
-                    oldalt kefélte, másodnaponként maga borotvál­kozott, és kis, angol bajuszt nyírt
+                    oldalt kefélte, másodnaponként maga borotválkozott, és kis, angol bajuszt nyírt
                     az orra alatt. Ha így, mikor nem volt munkában, együtt hívták őket valahová
                     padlót kefélni - (Vitorisz korcsolyázva lejtett a kefén, s az asszonyra csak a
                     könnyebb munkát, törülgetést hagyta), olyankor mindig pénzben alkudták az
@@ -125,22 +125,22 @@
                     feleségéről az ócskán vett kis kabátot, vizet töltött a poharába és megkérdezte:
                     “Mit parancsolsz, kérlek?” De nemcsak mások előtt, maguk közt is így szólt
                     hozzá: “Kérlek szépen!” és nagyon szerette ezt a szót használni: “korrekt”; de
-                    egy r-rel ejtve, így: “korekt”. A népszálló könyvtárából sokszor ho­zott haza
+                    egy r-rel ejtve, így: “korekt”. A népszálló könyvtárából sokszor hozott haza
                     könyveket, gondosan újságpapirosba fedte őket, és felolvasott Veronnak
                     esténkint. Sokszor elbeszélgettek, elokoskodtak együtt a világ minden dolgáról.
                     Vitoriszné nagyon jól tudta hát, miért tűri el urának némely pénzbeli
                     könnyedségét, meg hogy nincs maradása sokáig egy-egy helyen, gyárban; elunja.
                     “Kell az embernek egy kis szünet, egy kis változás!” - mondta ilyenkor.</p>
-                <p>És mert gyermektelenek voltak, nem kerültek nagy bajba ilyenkor. Károly szívesen
+				<p>És mert gyermektelenek voltak, nem kerültek nagy bajba ilyenkor. Károly szívesen
                     liferálta egy utazó táskában a mosott ruhát; néha új kuncsaftot is szerzett; a
                     megjelenése imponált mindenütt. És a kis asszony oly életrevaló - a jég hátán is
-                    megélt volna! Szimatolt a zálog­házak körül, megvette pár hatosért a hiénák
+                    megélt volna! Szimatolt a zálogházak körül, megvette pár hatosért a hiénák
                     otthagyta holmit, szövetet, csipkevégeket; majd galandot, cérnát, kilószámra
                     gombostűt hamisan bukó kis üzletekből; Vitorisz kis táskába rakta a holmit, és
                     házalt vele varrónőknél, ismerős úrinőknél. A szövetfélét a szomszédos házak
                     finomabb cselédsége kapkodta szét blúznak, kötőnek; mindig nyertek jó pár
                     koronát. És ha egy-két hónapig így elvolt, rendesen lelt egy új gyárat, új
-                    munkát Vitorisz; finoman dol­gozott, de mire megösmerték, megszerették, ő unta
+                    munkát Vitorisz; finoman dolgozott, de mire megösmerték, megszerették, ő unta
                     meg újra. - Igen, igen, de ha gyerek volna! - sóhajtott az asszony néha; de
                     ilyenkor mindig esett néhány éles szó köztük, hát inkább ő hallgatott el. Mert
                     Vitorisz, legalábbis egész életén át úgy mutatta - nagyon vágyott volna arra a
@@ -158,7 +158,7 @@
                     betegeskedése, mert még a gépész idejéből hozott egy kis bajt, amiatt nem lett
                     több gyerek. De Vitorisszal jóban-rosszban megvoltak mostanig, Veron sok
                     úriasszonyt ismert, nagy intimitásán, a szennyes ruháján keresztül; s ahová
-                    bejára­tos volt, elbizalmaskodtak vele, elmondták minden bajukat. De fürdőszoba,
+                    bejáratos volt, elbizalmaskodtak vele, elmondták minden bajukat. De fürdőszoba,
                     cseléd, harminc koronás blúzok gondolata sohasem zavarta; oly távol volt
                     becsvágyától és körétől, mint azoknak az úrinőknek egy földszinti páholybérlet
                     az operában, vagy hogy udvarmesterük legyen. Veron sokszor főzött finomabban az
@@ -172,10 +172,10 @@
                     külszínre nyájas viszonyban maradjanak. Önkéntelenül tisztelték őket; urazta,
                     asszonyozta még a fűszeres is; de villamoson, ligetben néha így szóltak
                     idegenek: “Nagysád kérem, húzza arrébb a ruháját! Pardon, nagysád!” És a kalapos
-                    megszoktatta Veront, hogy ne is érezze külö­nösen megtisztelve magát
+                    megszoktatta Veront, hogy ne is érezze különösen megtisztelve magát
                     ettől...</p>
-                <p>- Veron, kérlek, még nem vagy készen? - Gyere már, pihenj meg egy kicsit!</p>
-                <p>Az asszony friss mozdulattal csattantotta fel a villanykörtét, mely zöld zsinóron
+				<p>- Veron, kérlek, még nem vagy készen? - Gyere már, pihenj meg egy kicsit!</p>
+				<p>Az asszony friss mozdulattal csattantotta fel a villanykörtét, mely zöld zsinóron
                     lógott a helyiség közepén. A világítás megszokott enyhesége kizárta a változó
                     színű alkonyborulatot, az oktalan levertséget; meleg vidámság rebbent az
                     asszonyka szívébe és odaadó nagy hála egyszerre. Lám, az ura így szól hozzá!...
@@ -185,16 +185,16 @@
                     kérlek, azokat a mágnás-cipőket!” “Jaj, de bűbájos vagy!” “Grófnő, töröld meg az
                     orrod!” Ilyenekkel mindig könnyen fölébe kerülhetett. De ma jókedvében volt
                     Károly; ilyenkor szép estéik szoktak lenni.</p>
-                <p>- Tudod mit, fiam - lelkendezett felé -, összetakarítok még itt egy kicsit, most
+				<p>- Tudod mit, fiam - lelkendezett felé -, összetakarítok még itt egy kicsit, most
                     kedvem jött! Vidd át addig a Korona utcába ezt a pár inget; a pénzből meg, úgyse
                     sok, vehetnél parizert a téren, meg húszér teát, húszér rumot; kockacukor van is
                     még! Jó?...</p>
-                <p>Aggódva, kérdve nézett felé. “Hej, haj!” - tápászkodott fel az ember, de nem volt
+				<p>Aggódva, kérdve nézett felé. “Hej, haj!” - tápászkodott fel az ember, de nem volt
                     ellenére a dolog. Jó barátok voltak, meg tudtak egyezni.</p>
-                <p>- Kis üveget vigyél a rumnak - szólt utána Veron, és még abban a pillanatban
+				<p>- Kis üveget vigyél a rumnak - szólt utána Veron, és még abban a pillanatban
                     frissen, repesőn, szívós kis teste minden energiájával, feszült ideges
                     életörömével dolgozni kezdett.</p>
-                <p>Meglepetést akart. Múlt héten költözésben segített valahol; két ócska törökös
+				<p>Meglepetést akart. Múlt héten költözésben segített valahol; két ócska törökös
                     párnaforma székkel nem tudtak mit csinálni, a cselédszobába se fért; handlénak
                     nem kell az ilyen, még a szemetes se ingyért viszi ki. De tudták, hogy Veron
                     mindent elfogad, tört üvegcserépnek, ócskavasnak örül: “Majd jó lesz valamire!”
@@ -202,7 +202,7 @@
                     ülőkét, és hazárdul kacérkodott a villamoskalauzzal, hogy fölvegye velük. Az ágy
                     alá dugta Károly elől. Kapott egy rongyos szőnyeget is, azt most elterítette a
                     tisztábbik fülkében, rá a két széket, aztán a díványt vonszolta oda, melyet a
-                    polos­kák miatt dobtak ki a házban, de ő kitisztálta. Új bútora nemigen volt,
+                    poloskák miatt dobtak ki a házban, de ő kitisztálta. Új bútora nemigen volt,
                     arra mindig sajnált. Középre húzta a kis szapuló-széket, és beterítette
                     asztalként, valakinek a mosásba adott kávésabroszával. “Na, csitt, csitt!” -
                     vigasztalt meg két vinnyogó kölyökkutyát egy kosárban. Két pár csésze került,
@@ -211,132 +211,132 @@
                     hogy megakassza, aztán tűzre tett, megnézte művét és mosolygott: “Igazi török
                     szoba!” Lihegve szaladt át a boltba tíz Duna-cigarettáért; odarakta csinosan egy
                     néhai szappantartó üres aljába, gyufát mellé. Végre megmosta a kezét, megnézte
-                    pillanatra parányi tükör­darabban a haját; az rendben volt a
+                    pillanatra parányi tükördarabban a haját; az rendben volt a
                     gyémántüveg-csatokkal; - aztán egy mozdulattal levetette dolgozó rongyait, és
                     előkotorta a pongyolát. Igazi pongyola volt ez, japánujjú, sárga, mutatós, olcsó
                     kreppszövetből; különösen adakozó percében ajándékozta egy nagysága.</p>
-                <p>Abban a pillanatban, mikor a kiszellőzött lakást be akarta zárni, nagysoppos,
+				<p>Abban a pillanatban, mikor a kiszellőzött lakást be akarta zárni, nagysoppos,
                     szőke, női fej jelent meg fölötte az ajtóban.</p>
-                <p>- Hoztam már én is a kutyuskának egy kis csontot! - szólt be nyálasan az özvegy
+				<p>- Hoztam már én is a kutyuskának egy kis csontot! - szólt be nyálasan az özvegy
                     doktorné cselédje. - A mi vicink mesélte, hogy milyen jószívű az asszonyság;
                     minden nyomorék kutyust, cicust felszed az utcán, itt ápolgatja! Én is szeretem
                     az állatot!</p>
-                <p>- Igen szépen köszönöm! - felelt Veron, és elpirult. Imponált neki az új nő! Még
+				<p>- Igen szépen köszönöm! - felelt Veron, és elpirult. Imponált neki az új nő! Még
                     csak harmadnapja jött a Hiúz utcába, s közbámulatra egyfogatú kocsin, az óriás
                     zöld ládájával, melyen oly sok volt a nyomtatott, idegen nyelvű vámcédula:
                     “American”. S a vici mesélte a fűszeresnél, hogy tegnap kalapban,
-                    cérnakesztyűben ment a csarnokba; karján nagy viaszos­vászon táska. S Veron
+                    cérnakesztyűben ment a csarnokba; karján nagy viaszosvászon táska. S Veron
                     mindjárt rokonszenvezett a fehér bőrű, szőke nővel, ki hímzett fehér blúzában,
                     telt mellével, ünnepien frissnek, virulónak látszott neki. S e percben örült,
                     hogy elég világos van még kinn, s a leány jól láthatja az ajtóból az ő hosszú
                     sárga pongyoláját a bársony gallérral.</p>
-                <p>- Hát mikor hozzam el a hadnagy ruháját, asszonyság kedves?</p>
-                <p>- Ó, kérem, akármikor! Mindjárt is, ha tetszik! - kiáltott Veron mohón.</p>
-                <p>- Igen? Akkor leszaladok vele este! Az asszonyom színházba megy úgyis, magam
+				<p>- Hát mikor hozzam el a hadnagy ruháját, asszonyság kedves?</p>
+				<p>- Ó, kérem, akármikor! Mindjárt is, ha tetszik! - kiáltott Veron mohón.</p>
+				<p>- Igen? Akkor leszaladok vele este! Az asszonyom színházba megy úgyis, magam
                     leszek!</p>
-                <p>- Legyen szerencsénk egy kis teára! - felelt Veron, és újra belepirult, hogy
+				<p>- Legyen szerencsénk egy kis teára! - felelt Veron, és újra belepirult, hogy
                     ilyen jól meglelte a kifejezést. Észrevette, hogy “az asszonyom” szót sietve,
                     elmosva, kis ajkbiggyesztéssel ejtette a leány. Ez tetszett neki, és valóságos
                     becsvágyat érzett az után, hogy ő is “imponáljon” a másiknak.</p>
-                <p>A leány világos körvonalú alakja ott állt még egy percig a pinceküszöbön,
+				<p>A leány világos körvonalú alakja ott állt még egy percig a pinceküszöbön,
                     lemosolygott rá a homályból, aztán nyájas, csengő szóval szabadkozva köszönt el.
                     “Milyen barátságos nő!” - gondolta Veron már-már egészen meghódítva.</p>
-                <p> - Füstölt nyelvet is hoztam, kérlek! Nem baj? - kiáltott be Károly előre.</p>
-                <p>- Nem, nem! - mosolygott a szemébe Veron, és legyintett, hogy semmi az, nem
-                    krajcáros­kodik ő! - Gyere csak, ülj le, mindjárt forr a teavíz! Estet is hoztál?</p>
-                <p>- Na nézd el! - állt meg a férfi a fülke bejárójánál. - De milyen jó ízlésed van
+				<p> - Füstölt nyelvet is hoztam, kérlek! Nem baj? - kiáltott be Károly előre.</p>
+				<p>- Nem, nem! - mosolygott a szemébe Veron, és legyintett, hogy semmi az, nem
+                    krajcároskodik ő! - Gyere csak, ülj le, mindjárt forr a teavíz! Estet is hoztál?</p>
+				<p>- Na nézd el! - állt meg a férfi a fülke bejárójánál. - De milyen jó ízlésed van
                     neked!</p>
-                <p>Veron lihegve nevetett örömében.</p>
-                <p>- Na lám, igazi török szoba! És cigaretta, tea... és ez a te érdekes
+				<p>Veron lihegve nevetett örömében.</p>
+				<p>- Na lám, igazi török szoba! És cigaretta, tea... és ez a te érdekes
                     slafrokod!</p>
-                <p>- Dívány, szőnyeg, csészék! - folytatta Veron, és sorba végigsimított mindenen a
+				<p>- Dívány, szőnyeg, csészék! - folytatta Veron, és sorba végigsimított mindenen a
                     tenyerével.</p>
-                <p>- De milyen hamar csináltad, mint egy boszorkány! Nem lovagolsz te néha seprűn
+				<p>- De milyen hamar csináltad, mint egy boszorkány! Nem lovagolsz te néha seprűn
                     éjszaka?</p>
-                <p>Veron megrettent, hogy megint csúfolódni akar; de Károly szíves örömmel ült
-                    mellé. Lefor­rázták a kis aszúfüvet, lassan kitöltötték, lassan kavargatták,
+				<p>Veron megrettent, hogy megint csúfolódni akar; de Károly szíves örömmel ült
+                    mellé. Leforrázták a kis aszúfüvet, lassan kitöltötték, lassan kavargatták,
                     szürcsölték nagy pihenőkkel, nézdegélvén közben magukat, egymást s a kis
                     illúziókat. A sárga kimonó szép ráncokban folyta körül a Veron keskeny csípőit,
-                    aprós, gyerekes mellét. “Na lám, hogy illik mindez hoz­zájuk! Hát ezt művelik,
+                    aprós, gyerekes mellét. “Na lám, hogy illik mindez hozzájuk! Hát ezt művelik,
                     ezt tudják az urak! De nagy vicc!”... Vitorisz kibontotta az újságot. Feszültség a külpolitikában... A légyott... A szerb pátriárka
-                        síremléke... Öngyilkos rikkancs­fiú... olvasta végig a címeket.</p>
-                <p>A pinceajtón hangosan kopogtak. - Kinn tágasabb! - súgta Károly. - Légy finom
+                        síremléke... Öngyilkos rikkancsfiú... olvasta végig a címeket.</p>
+				<p>A pinceajtón hangosan kopogtak. - Kinn tágasabb! - súgta Károly. - Légy finom
                     hozzá! - súgta a nő. - Tessék, tessék erre fáradni, kisasszony! - A kisasszony
                     arra fáradt, tapogatózva a homályos helyiségen át. - Na tessék! Milyen érdekesen
                     ülnek itt! Na nézze meg az ember! - nevetett a leány. - Igazi törökök! - A
                     “kelet”-ről összekapkodott képzeteik zagyvaságában mindent e néven hívtak. -
                     Hová tegyem a szennyest?</p>
-                <p>- Tessen csak ledobni akárhová! És foglaljon helyet nálunk!</p>
-                <p>- Á, nem zavarom, ha jól érzik magukat! - állt meg, mintha habozna a leány. -
+				<p>- Tessen csak ledobni akárhová! És foglaljon helyet nálunk!</p>
+				<p>- Á, nem zavarom, ha jól érzik magukat! - állt meg, mintha habozna a leány. -
                     Vitorisz úr olvasni akart!</p>
-                <p>- Semmi, úgyis olyan üresek most az újságok! - adta meg magát a férfi is. -
+				<p>- Semmi, úgyis olyan üresek most az újságok! - adta meg magát a férfi is. -
                     Tessék csak leülni! - Veron a maga csészéjét átöblítette a vendégnek, ő egy
                     pléhcsuprot vett elő, mert több findzsa nem volt. - Tegyél még hozzá, hogy erős
-                    legyen! - biztatta az ura, mikor újra forrá­zott; a zsírfoltos, sárga pongyola
-                    kis uszályát maga után húzkodva a tűzhely körül, a hamu­ban. Most már a férfi is
+                    legyen! - biztatta az ura, mikor újra forrázott; a zsírfoltos, sárga pongyola
+                    kis uszályát maga után húzkodva a tűzhely körül, a hamuban. Most már a férfi is
                     örült, hogy idegen tanúja van az ő kényelmes, szőnyeges, teás, otthoni
                     életüknek. A nagyfrizurás leány mosolygott; szép, fehér fogsora látszott, telt
-                    állán két göd­röcske támadt ilyenkor. Egyébként igen egyszerű, nagy arca volt;
+                    állán két gödröcske támadt ilyenkor. Egyébként igen egyszerű, nagy arca volt;
                     tömött galambbegy nyaka kiduzzadt a fehér, stikkelt blúzból; fújtarany
-                    lóherelevelet viselt ezüst láncon. Károly rá­pillantott jól felfűzött keblére:
+                    lóherelevelet viselt ezüst láncon. Károly rápillantott jól felfűzött keblére:
                     de a bőre szagát, ahogy a közelébe leült: kissé erősnek érezte és nem
                     kellemesnek. A leány kiitta a teát, egy galuskává gyúrt zsebkendőben megtörülte
                     a száját, és bőrféle ridikülből csipkehorgolást vett elő.</p>
-                <p>- Jaj de szép! Mire lesz?</p>
-                <p>- Bugyogóra. Szeretem a kézimunkát, tudok mindenfélét. Bár itt nemigen ér rá az
+				<p>- Jaj de szép! Mire lesz?</p>
+				<p>- Bugyogóra. Szeretem a kézimunkát, tudok mindenfélét. Bár itt nemigen ér rá az
                     ember a szolgálatban.</p>
-                <p>- Igaz, hogy Amerikában annyival jobbak a viszonyok? - érdeklődött Vitorisz
+				<p>- Igaz, hogy Amerikában annyival jobbak a viszonyok? - érdeklődött Vitorisz
                     udvariasan.</p>
-                <p>- Ó, Amerikában húsz dollárt is megadnak egy jó szakácsnőnek; de szobalány is -
-                    én az vol­tam - megkap tizenkét-tizennégyet. És szép szoba, szombattól hétfőig
-                    kimenő, fogadó dél­után. A liften felhoznak mindent: fűszeres, mészáros,
+				<p>- Ó, Amerikában húsz dollárt is megadnak egy jó szakácsnőnek; de szobalány is -
+                    én az voltam - megkap tizenkét-tizennégyet. És szép szoba, szombattól hétfőig
+                    kimenő, fogadó délután. A liften felhoznak mindent: fűszeres, mészáros,
                     zöldséges, pék; minden van a házban, csak le kell telefonálni. Persze, ott nem
                     tart cselédet minden rongyos hivatalnok meg doktor; csak a nagyon pénzes népek.
-                    Az ember ott nem kutya; elvégzi a kialkudott dolgát, aztán kézi­munkázhat.
+                    Az ember ott nem kutya; elvégzi a kialkudott dolgát, aztán kézimunkázhat.
                     Végszámra horgoltam keskeny ingrevalót két dollárjával; szélesebbnek végje három
                     és fél dollár; kéz alatt szétkapkodták.</p>
-                <p>- Igen - magyarázta Károly -, ott becses a kézimunka; mert ott minden gyári, az
+				<p>- Igen - magyarázta Károly -, ott becses a kézimunka; mert ott minden gyári, az
                     asszonyok is gyárba járnak.</p>
-                <p>- Szép kis mellékkeresete volt! - élénkült fel Veron e gondolatra. - Sok pénzt
+				<p>- Szép kis mellékkeresete volt! - élénkült fel Veron e gondolatra. - Sok pénzt
                     félrerakhatott, Erzsike kisasszony!</p>
-                <p>- Ó, ne kisasszonyozzon már! Majd én is Veronnak tisztelem, jó? Hát azt ne
+				<p>- Ó, ne kisasszonyozzon már! Majd én is Veronnak tisztelem, jó? Hát azt ne
                     higgye, lelkem! Nagyon drága minden szórakozás; és az már úgy divat vasárnap;
-                    ott erősen dolgozik min­denki, de mulat is! Mozi, ringli, lufbalon, csolnak a
-                    tón, nagy hattyú az orrán fábul; - minden­féle kirándulás, fotografálás, sör,
-                    fagylalt, nyerésbe-fogadás... és aki nem gavalléros, azt meg­vetik. Négy-öt
+                    ott erősen dolgozik mindenki, de mulat is! Mozi, ringli, lufbalon, csolnak a
+                    tón, nagy hattyú az orrán fábul; - mindenféle kirándulás, fotografálás, sör,
+                    fagylalt, nyerésbe-fogadás... és aki nem gavalléros, azt megvetik. Négy-öt
                     dollár elment sokszor hétfő hajnalig. És sok kell ruhára, ott egy négerdada
                     öltözik úgy, mint nálunk akármelyik nagysága! Meg hát hazajövet drága a
                     hajójegy.</p>
-                <p>- Négereket is látott? - hajolt előre az asszony felcsillant szemmel.</p>
-                <p>- Az ugyan nem nagy vicc ottan; minden ligetben nyüzsögnek, mint a bogarak! De a
+				<p>- Négereket is látott? - hajolt előre az asszony felcsillant szemmel.</p>
+				<p>- Az ugyan nem nagy vicc ottan; minden ligetben nyüzsögnek, mint a bogarak! De a
                     finom parkokba nem szabad lépni nekik; csakis mint dadusnak fehér gyerekkel.</p>
-                <p>- Igaz, hogy szagosak?</p>
-                <p>- Az se egyforma! Tőlünk a szakácsnét elvette egy; az munkavezető volt
+				<p>- Igaz, hogy szagosak?</p>
+				<p>- Az se egyforma! Tőlünk a szakácsnét elvette egy; az munkavezető volt
                     bőrgyárban, tizenhat dollárt keresett minden héten. Az olyan finom egy férfi
                     volt; bárcsak akadna olyan fehérbe! A felesége is, igaz, nagyon tisztán
-                    tartotta; nem érzett azon semmi! A gyereküket én keresztel­tem.</p>
-                <p>- Hát nem pogányok?</p>
-                <p>- De kérlek - türelmetlenkedett Károly -, ne blamáld magadat! Ma már nem
-                    emberevők a szere­csenek sem, mint ahogy te a plakáton láttad. Azt csak a
-                    gyerekeknek tanítják úgy, ijesz­té­sül.</p>
-                <p>- Ó, kérem - mosolygott a leány -, én még ennyit se tudtam az egész Amerikáról,
+                    tartotta; nem érzett azon semmi! A gyereküket én kereszteltem.</p>
+				<p>- Hát nem pogányok?</p>
+				<p>- De kérlek - türelmetlenkedett Károly -, ne blamáld magadat! Ma már nem
+                    emberevők a szerecsenek sem, mint ahogy te a plakáton láttad. Azt csak a
+                    gyerekeknek tanítják úgy, ijesztésül.</p>
+				<p>- Ó, kérem - mosolygott a leány -, én még ennyit se tudtam az egész Amerikáról,
                     mikor kimentem. Mindenki beszélte; ilyen, olyan ott; de azért semmi fogalma
                     nincs hozzá az embernek, míg nem próbálja.</p>
-                <p>Veron kedvtelve és elgondolkozva nézte a leány mozgó, tömpe ujjait, áttört
+				<p>Veron kedvtelve és elgondolkozva nézte a leány mozgó, tömpe ujjait, áttört
                     blúzát, kongré-kötőjét s nyakában az arany lóherét. - Mégis, miért adta rá a
                     fejét, hogy eljöjjön, Erzsike? - kérdezte habozva.</p>
-                <p>- Hogy visszajöjjek? Haza? - ismételte kissé gyorsan Erzsi. - Hát a honvágy,
+				<p>- Hogy visszajöjjek? Haza? - ismételte kissé gyorsan Erzsi. - Hát a honvágy,
                     lelkem!... Az, az! Egyszer csak nem kell az embernek enni, nem alszik: úgy néz
                     ki, mint egy váltott. Csak haza... haza! Míg a hajón nem ült, nincs nyugta...
                     úgy rajta van a happáré!</p>
-                <p>Mindnyájan hangosan nevettek a különös, parasztos szón, melyet íme, tudva, csak színezésül mondott ki a leány. Egy kis csend
+				<p>Mindnyájan hangosan nevettek a különös, parasztos szón, melyet íme, tudva, csak színezésül mondott ki a leány. Egy kis csend
                     múlva hozzátette:</p>
-                <p>
+				<p>
                     - Csupa betegség az ilyen honvágy; az amerikai csak
                     kacagja már! Mert bizony nincs miért olyan nagyon sietni!</p>
-                <p>- Ha csak nincs itt egy-két domíniuma! - csúfolódott Károly; mint minden munkás,
-                    elmé­letben legalább szocialista volt.</p>
-                <p>- Ó, mindjár’ megmondom, hogy mi van! - nevetett a vendég, megértve, hogy csakis
+				<p>- Ha csak nincs itt egy-két domíniuma! - csúfolódott Károly; mint minden munkás,
+                    elméletben legalább szocialista volt.</p>
+				<p>- Ó, mindjár’ megmondom, hogy mi van! - nevetett a vendég, megértve, hogy csakis
                     valami földi javak közül lehet: “domínium”. - Szegény papám tanító volt,
                     felekezeti; hároméves se voltam, mikor elhalt; egy évre rá a mamám. A néném
                     nevelt - ahogy az árvát szokták, több pofonnal, mint kenyérrel. A két idősebb
@@ -345,15 +345,15 @@
                     náluk? Nem igaz? Miért nem taníttattak ki legalább varrónénak? Amilyen kezem
                     van; horgolni, slingelni csak magamtól megtanultam, egyszeri mutatásra! De nincs
                     rosszabb, kérem, mint a rokon; segíteni, azt nem; csak parancsolgatni...</p>
-                <p>- Igazsága van! - vélte Károly. - Legjobb is, ha független az ember!</p>
-                <p>- Érdekes - vetette közbe Veron egy kis pirulással ura előtt -, hogy én is
+				<p>- Igazsága van! - vélte Károly. - Legjobb is, ha független az ember!</p>
+				<p>- Érdekes - vetette közbe Veron egy kis pirulással ura előtt -, hogy én is
                     majdnem tanítónő lettem; képezdébe akart adni a papám (most ő
                         is így mondta), mert iparos volt ő is; én voltam a legkisebb, hát
                     nagyon szeretett. Ki tudja, hol lennék most, ha el nem hal ő is hamarosan!</p>
-                <p>- Na - csitította a férje -, valami nagy rakás akkor se lennél! Mi az, egy
+				<p>- Na - csitította a férje -, valami nagy rakás akkor se lennél! Mi az, egy
                     tanítóné? Már csak ne vegye zokon, hogy maga előtt mondom - de csak úri
                     nyomorúság! Talán nem?</p>
-                <p>De a leány ráhagyta készséggel. Ilyen három lépésről bizalmasan, jóleső
+				<p>De a leány ráhagyta készséggel. Ilyen három lépésről bizalmasan, jóleső
                     tiszteletadások közt folyt le az este. Búcsúzáskor a leány is meghívta Veront,
                     hogy nézze meg holnap a ládájában a sok tengerentúli holmit, levelezőlapot. Az
                     asszonyka örült neki, de hogy csorba ne essék a tekintélyén, most ő szólította
@@ -371,7 +371,7 @@
                     sohasem; az ura mégiscsak iparosnak számít, kitanult - ha gyári is! Ezeket
                     forgatta, méregette magában, s elhatározta, hogy nem teszi magát nagyon
                     alázatosnak.</p>
-                <p>De nem is kellett, másnap délután Erzsinél örömmel látta, hogy a leány nem
+				<p>De nem is kellett, másnap délután Erzsinél örömmel látta, hogy a leány nem
                     nagyralátó, inkább szíves és engedékeny, könnyű természetnek mutatkozott. “Árva
                     volt szegény! - gondolta Veron meghatottan. - Mint én, ő is anyátlan!” A kis zug
                     cselédszoba fala telis-tele volt akasztva fényképpel, levelezőlappal,
@@ -381,24 +381,24 @@
                     Veronnak egy tálcakendőt, melyre azt mondta, hogy szép. Nagy szabadkozással
                     tukmáltatta csak magára; bár nagyon örült, s elhatározta, hogy ennek a kedvéért
                     akárhonnét, de kerítni fog egy tálcát. - Milyen gavalléros vagy te -
-                    ismételgette a tetszetős szót. - Én mindig ilyen vol­tam; mindent szívesen
+                    ismételgette a tetszetős szót. - Én mindig ilyen voltam; mindent szívesen
                     odaadtam akárkinek. Már ilyen a természetem! - Nekem is, pedig látod, nem jó! Az
                     embert csak bolonddá tartják a világon!</p>
-                <p>Aztán elbeszélgettek a többi “emberről” a világon, hogy milyen irigy, pletykás,
+				<p>Aztán elbeszélgettek a többi “emberről” a világon, hogy milyen irigy, pletykás,
                     neveletlen, buta meg céda a legtöbb! Hát még a férfiak - azokról beszélni se jó!
                     Erzsi megmondta, hogy neki elég volt belőlük, eleget csalódott! Amerikában is
                     volt egy magyar fiú, de ott ösmerte meg. “Egy rendes nő... az mindig csalódik!”
                     - ebben a törvényszerűségben megegyeztek; sőt a legtöbb barátnőre is átvitték.
                     Az is mind hamis; csak - persze - van kivétel, de nehéz találni! Veron említett
                     egy Etelkát, a kovács leánykáját a falujukban, akivel úgy voltak, mint a
-                    test­vérek, mindig együtt jártak, minden pántlikán megosztoztak; valami jót
+                    testvérek, mindig együtt jártak, minden pántlikán megosztoztak; valami jót
                     egymás nélkül meg nem ettek volna; híresek voltak a faluban erről. És ő
-                    hetekig-hónapokig siratta, egészen bele­betegedett, mikor más faluba vitte
+                    hetekig-hónapokig siratta, egészen belebetegedett, mikor más faluba vitte
                     férjhez egy dongásmester, özvegy pedig...</p>
-                <p>Igen. Vágyaiban, kedélyében helye volt mindig e tiszta és bensőséges ideálnak:
+				<p>Igen. Vágyaiban, kedélyében helye volt mindig e tiszta és bensőséges ideálnak:
                     barátság. Finomnak és magasrendűnek tetszett előtte, bár nem tudta volna jól
                     kimagyarázni, az olyan mélységes kapcsolat, melyet nem érzéki szálak tartanak
-                    össze; annál inkább, mert az ő körei­ben oly könnyen s közvetlenül érhető el a
+                    össze; annál inkább, mert az ő köreiben oly könnyen s közvetlenül érhető el a
                     férfiakkal közösködés; - míg a nőtársak, Istenem... “csak összebújni tudnak a
                     férfijukkal; csak annyira van eszük; amit az állat is tud!” Ő szerette az urát,
                     de mikor csak tehette, inkább kibeszélte magát előtte abban a részben... az
@@ -412,35 +412,35 @@
                     megfogták e szent, tiszta gyöngédkezések, e végtelenül mély, lelkes és lelkies
                     ömlengések, melyek választékos szavait nemigen értette. Maga az a tény volt a
                     szemében olyan kifejezhetetlenül finom és emelkedett - hogy két emberi lény ily
-                    áradozóan érez és érintkezik; - bár nem a “meg­markolásra” kellenek egymásnak...
+                    áradozóan érez és érintkezik; - bár nem a “megmarkolásra” kellenek egymásnak...
                     Veron csakugyan felszedett s magánál melengetett mindig vagy féltucat beteg
                     kutyát, eldobott macskakölyket; s ha magában volt velük, néha oly édesen túlzó
                     gyöngédségeket, millió becéző szót duruzsolt a suta kis férgek fülébe, hogy
                     kétségbeesett volna, ha Károly véletlenül meghallja, s holtig csúfolná
                     ezért...</p>
-                <p>- Énvelem nehéz jóba lenni! - mondta nemsokára a doktorné cselédjének. - Mert én
+				<p>- Énvelem nehéz jóba lenni! - mondta nemsokára a doktorné cselédjének. - Mert én
                     azt kívánom, hogy a barátném még mérgébe is szépen, szívesen beszéljen hozzám;
                     és a hátam megett rólam egy zokszót se mondjon, hanem hű legyen, mint én, a
                     sírig.</p>
-                <p>- Igen, Veronka, te nagyon érzékeny vagy, ugye? Na, nem
+				<p>- Igen, Veronka, te nagyon érzékeny vagy, ugye? Na, nem
                     jól mondtam? Én a világért meg nem sértenélek.</p>
-                <p>...Ilyen ünnepi percek, mondások nem estek éppen mindig; sajnos, a napi élet nem
+				<p>...Ilyen ünnepi percek, mondások nem estek éppen mindig; sajnos, a napi élet nem
                     bírja az ilyet, kivált a pincében, cselédszobában! De Veron mégsem csalódott új
                     barátnőjében, a leány szelíd, epétlen, adakozó és nyájas volt vele szemközt.
                     Nemsokára látta ugyan a hibáit is; a viszonyuk egyre kevésbé ünnepélyes volt, de
-                    mind összemelegedtebb; csakhamar nem lehet­tek egymás nélkül. Együtt sétáltak,
+                    mind összemelegedtebb; csakhamar nem lehettek egymás nélkül. Együtt sétáltak,
                     egymás dolgában segítettek, ajándékozgatták, s mindenütt teli szívvel
                     dicsérgették egymást. Az egész környék csodálattal adózott az előttük ismeretlen
                     szolidaritásnak; s mindegyik fél nőtt az idegenek szemében általa. De a
                     doktorné, Erzsi asszonya fontoskodva csóválta a fejét, és azt mondta, hogy ez
                     nem rendes, hanem abnormális dolog. Nem volt igaza pedig!</p>
-                <p>Nem jó vége lesz! - mondta egy idő múlva néhány öreges szapulónő is a
+				<p>Nem jó vége lesz! - mondta egy idő múlva néhány öreges szapulónő is a
                     mosókonyhában; de a fekete asszony hangos, szenvedélyes jó kis lelke csak annál
                     inkább nem tágított. Ha ezek morcognak, ezek az elbutult,
                     vén állatok, akkor csakugyan finom és szép dolog lehet, ahogy ők vannak a
                     leánnyal. Mit értenek ezek? Neki az ura, a kutyái, a barátnője mind arra
                     kellett, hogy érezhessen, hogy kiönthesse a szívét;
-                    legalább apró tettekben, néma, nagy ragaszko­dásban; - mert a szavakkal
+                    legalább apró tettekben, néma, nagy ragaszkodásban; - mert a szavakkal
                     kifestést, bár néha úgy vágyott rá, gátolta a szégyellés, a félelem, hogy
                     megmosolyogják - meg hogy nem is igen voltak szavai: bánni nem tudott velük. S a
                     leány élni tudott mindezzel, jutalmazta, s ki tudta mutatni, hogy kell neki, tudott elfogadni is;
@@ -449,7 +449,7 @@
                     többet. Veron most már tudta, miért nincs Erzsinek semmi félretett pénze; még
                     azt is csodálta, hogy ilyen ruhás; és feltette magában, hogy takarékosságra
                     szoktatja az ő érdekében. Néhányszor szép prédikációt tartott neki erről.</p>
-                <p>Vitorisz is megszokta lassan a dolgot. Eleinte szekálta vele néha az asszonyt,
+				<p>Vitorisz is megszokta lassan a dolgot. Eleinte szekálta vele néha az asszonyt,
                     azt mondta, hogy a túlság sose jó, és hogy ennek nincs értelme. De Veron
                     váratlanul jól kibeszélte magát. Hogy tán szeretőt tartson, mint a többi
                     munkásasszony? - Egyik nap az uruk éjszakás a gyárban, másikon a nőtlen,
@@ -458,15 +458,15 @@
                     utcaseprő, szegény Sipita bácsi volt náluk, míg kórházba nem vitte a rákbaja. De
                     az ember kíván még valakit az ura mellett, ha még olyan jó ura van is; és hát
                     gyerek nincsen. A férfi végre megnyugodott. Ő most csakugyan sokat nincs otthon,
-                    különóráz este. Nagy becs­vággyal és kedvvel dolgozott egy hermelinszőrméből
-                    vert, óriási, kétezer koronás fehér filc­kalapon, melyet Augusztának csináltak
+                    különóráz este. Nagy becsvággyal és kedvvel dolgozott egy hermelinszőrméből
+                    vert, óriási, kétezer koronás fehér filckalapon, melyet Augusztának csináltak
                     rendelésre, remekbe, s egészen őrá bízták. Csak egy ujjnyi vastag igazi
                     aranyzsinór körül; - ez lesz minden dísze két bojttal; fő a fazon; a főnök
                     udvari szállítói címről álmodozott érte. Nagy testi munka volt, nehéz
                     vasbunkókkal verik az ilyet a formán; de Károly kedvvel csinálta, bár sokszor
                     eszébe hozta szándékosan, hogy milyen nyomorult keveset kap érte ő, aki
                     csinálja!</p>
-                <p>Erzsi egy-két hónapig jól megvolt az asszonyával; a doktorné kedvesnek,
+				<p>Erzsi egy-két hónapig jól megvolt az asszonyával; a doktorné kedvesnek,
                     ragaszkodónak találta. Nem volt nehéz hely; a fiatal özvegy szeretett sétálni,
                     színházba, kávéházba járni; elég jó módban maradt, de férjhez vágyódott. Néha
                     elmesélte a leánynak is, mennyivel szebb, jobb dolog a fészkes élet, mint ez a
@@ -482,21 +482,21 @@
                     másszor! Veron, mikor elbeszélte neki, izgatottan érdeklődött a mázoló iránt.
                     Kicsoda, hol és hányszor látta? “Vigyázni kell az ilyen facér kölykekkel!” -
                     figyelmeztette azután, s a leány nem felelt.</p>
-                <p>Apró holmik, olcsóbb dísztűk, fésűk, csipkék és zsebkendők sokszor elkallódtak a
+				<p>Apró holmik, olcsóbb dísztűk, fésűk, csipkék és zsebkendők sokszor elkallódtak a
                     háznál; de az özvegy tudta, hogy bizonyos idő múlva minden cselédjével így van
                     ez; kitanulják a gyöngéit. Néha, mintegy önmagát is büntetve, mindennek hirtelen
                     utánajárt, mindent számon vett, követelt. Erzsi néha visszatalálta neki az
                     eltűnt gránátmelltűt, s ilyenkor sértett arccal járt egy ideig; mire az asszony
                     egyet gondolva benézett a bútorok alá s a lábasokba; tiszta-e minden? Sok
                     hanyagság napfényre jött; mint ahogy előre tudta is. Nem volt rossz vagy
-                    szív­telen nő; inkább jobb hajlamú, néha töprengő, igazságra, önjavításra kész;
+                    szívtelen nő; inkább jobb hajlamú, néha töprengő, igazságra, önjavításra kész;
                     ha olvasott, ebben is bizonyos ízlés és komoly szándék vezette. De a cselédügyön
                     - gondolta - nem lehet segíteni a mai viszonyok közt. Ennek a kapcsolatnak: úr és cseléd; más, elmúlt kor volt igazi levegője: a
                     jobbágyi idő és szellem, mikor mindenki szolgált valakit, végsőkben a királyt,
                     az Istent: s a hűség ideálja magasztos volt és
                     tiszteletet keltő. Ma ez az eszmény az élclapokba került, minden szolgáló
                     egyéniség, s az “úr”, ha kivált gondolkodik, kissé félve, lelkiváddal,
-                    szégyen­kezve nyúl a másik élet szent jogába, a függetlenségbe. S mert az özvegy
+                    szégyenkezve nyúl a másik élet szent jogába, a függetlenségbe. S mert az özvegy
                     belátta, hogy a cselédnek igaza van, ha csak ellenszenvezni tud a gazdájával,
                     kivált nő a nővel; vagy ha közönséges - (hisz másra nem nevelték), ha lázadva
                     tűri sorsát, s nem tiszteli a tulajdont; épp ezért szívesen és gyakran cserélte
@@ -511,16 +511,16 @@
                     koszt - és olcsóbb volna. Mindig rosszul járt, ha szentimentalizmusból tartotta
                     és fizette nyaralás időn a “jó” cselédeit; mind elcábérodtak, mire ő hazakerült.
                     Szóval: nagyon kapóra jött neki némi éleskedések után, ha a dúlt hangulat végre
-                    valami összeszó­láskor ideges kiabálásban sült ki, mint a villamos feszültség. A
+                    valami összeszóláskor ideges kiabálásban sült ki, mint a villamos feszültség. A
                     cseléd feleselt, az asszony rendőrrel fenyegette; a lány követelte a könyvét, az
-                    asszony “kegyelemből” elébe lökte a konyha­asztalra - a fillérig kiolvasott
+                    asszony “kegyelemből” elébe lökte a konyhaasztalra - a fillérig kiolvasott
                     pénzével együtt. - De most már induljon rögtön! - Ne tessen félni! - E drámai
                     pillanatoktól kezdve fokonkint alábbhagyott mindkettejük indulata - némi
                     katzenjamerrel, de a kibontott csomók, megoldott helyzetek enyhültével. Egyik
                     sem bánta, hogy így esett, s egyik sem látott rendkívülit benne. Egy
                     mindeneslány külsőbbik, konvencionális - mondjuk: policáj-lelkiismerete sohasem
                     teljesen s a múltba visszamenően nyugodt; - egy “nagysága” meg, ha csak egy
-                    babot ér, mindig és joggal röstelli kicsit az ér­dem­telen fölényét az egyoldalú
+                    babot ér, mindig és joggal röstelli kicsit az érdemtelen fölényét az egyoldalú
                     szerződésben. “Neki is jobb - mentegette magát gondolatban a doktorné -, minek
                     ízetlenkedjünk? De előre fölmondani rossz politika lett volna; akkor odáig a
                     szemem is kilopja, elhordja, és semmit nem dolgozik! Jó, hogy ma bevasaltattam
@@ -529,18 +529,18 @@
                     elpakolt. Kis gúnyos rezignációval legyintett, s tán igaza volt; egy kis
                     útikoffert a napokban csakugyan levitt már Erzsi Vitoriszékhoz. Végre elég
                     tisztességesen elköszöntek egymástól.</p>
-                <p>Veron megtörölte lúgos karjait, és kitörő örömmel, gyengéd öleléssel fogadta a
+				<p>Veron megtörölte lúgos karjait, és kitörő örömmel, gyengéd öleléssel fogadta a
                     leányt; már tudott volt a bajokról, és most megkönnyebbülten sírtak egymás
                     vállára borulva.</p>
-                <p>- Otthagytam, mint szentpál az oláhokat! - kiáltott aztán vígan a leány. - Pedig
+				<p>- Otthagytam, mint szentpál az oláhokat! - kiáltott aztán vígan a leány. - Pedig
                     ugyancsak hízelgett volna már a nyavalyás, hordta utánam a kávét! De nem vagyok
                     veszett! - Ennyit se kellett volna, hogy tűrjél! - vélte az asszony, mély
                     meggyőződéssel, és kicsorgatta a szennyes vizet. Erzsi oly sok rosszat beszélt
                     neki az utóbbi időben a doktornéről, s még az erkölcseit is hánytorgatta; - hogy
                     Veron szinte utálta! Elhatározta, hogy nem is fog mosni rá!</p>
-                <p>Az ura még nem volt otthon. Károly a minap tett néhány megjegyzést arra a
+				<p>Az ura még nem volt otthon. Károly a minap tett néhány megjegyzést arra a
                     kofferre, hogy jó lesz vigyázni! meg hogy vajon mi van benne? - Nekem ugyan nem
-                    elvem az izé - a “tulaj­donjog bálványozása”; de az nem volna szép, ha valaki
+                    elvem az izé - a “tulajdonjog bálványozása”; de az nem volna szép, ha valaki
                     bajt csinálna olyanoknak, akik pártolják és jók vele! - Ám Veron megbotránkozva
                     torkolta le: hogy gondol olyat?... Az olyan alatt
                     bensejében tulajdonképp csak ékszert, pénzt, nagyobbszabású dolgot értett;
@@ -549,34 +549,34 @@
                     ember (nyomtató lónak nem kötik be a száját) - még egy ciha vagy lepedő is, ha
                     nem monogramos vagy éppen szalagok, hajcsatok, övek... Istenem, az ilyesmi
                     inkább virtus, minden leánynak hemzseg tőlük a ládája, s mind nyugodtan hurcolja
-                    változatos jelzésű, nagyságú s fajtájú darabjait a fehérnemű-gyűjteményé­nek. Ő
+                    változatos jelzésű, nagyságú s fajtájú darabjait a fehérnemű-gyűjteményének. Ő
                     maga, Veron, például soha nem vett harisnyát, hanem minden mosni
-                    adott-szennyes­ből átöblített magának egy néhány párt, s hordta, míg a többi
+                    adott-szennyesből átöblített magának egy néhány párt, s hordta, míg a többi
                     ruha munkában volt. - Az Erzsi csomagja nem nyugtalanította tehát.</p>
-                <p>- Tedd fel a vacsorát, szívem, mindjárt itt lesz a komád! - Na, de most aztán nem
+				<p>- Tedd fel a vacsorát, szívem, mindjárt itt lesz a komád! - Na, de most aztán nem
                     engedünk el. Minek szolgálj te, mit szekáltasd magad: el lehetsz miköztünk!
                     Szegény Sipita bácsi úgyse jön már ki a kórházból, hacsak nem Szent Mihály
-                    lován; - az a fülke tiéd lesz a matrác­surgyéval; a vízvezetéknél mosdhatsz ott;
+                    lován; - az a fülke tiéd lesz a matrácsurgyéval; a vízvezetéknél mosdhatsz ott;
                     aztán takarítani mégy. A színészurat még holnap megfogom neked, annak a szobáját
                     meg még egyet legfeljebb. Délután segítesz nekem fizetés fejében putzwesch’t
                     vasalni, neked jó kezed van ahhoz. Na, hát nem is szólsz?</p>
-                <p>- Én szeretnék, de a koma mit szól?... (Így nevezték Károlyt tréfásan).</p>
-                <p>- Sose búsulj, szívem; még ő mondta tegnap, neki jutott eszébe! - hazudta az
+				<p>- Én szeretnék, de a koma mit szól?... (Így nevezték Károlyt tréfásan).</p>
+				<p>- Sose búsulj, szívem; még ő mondta tegnap, neki jutott eszébe! - hazudta az
                     asszony hősiesen. De tudta: lesz annyi energiája, hogy ezt keresztülvigye az
                     otthonában.</p>
-                <p> Vitorisz csakugyan nem ellenkezett, sőt váratlanul készséges volt és egyetértő.
+				<p> Vitorisz csakugyan nem ellenkezett, sőt váratlanul készséges volt és egyetértő.
                     Igen, már hallotta volt a gyárban, hogy az üzemet a nyári szezonra korlátozni
-                    fogják, s csak az öt leg­régibb embert tartják meg a műhelyben. Vele szemben
+                    fogják, s csak az öt legrégibb embert tartják meg a műhelyben. Vele szemben
                     habozott a főnöke: jó és gyors munkás hírében állt; de a könyve szerint egyetlen
                     tartósabb helye, megállapodása nem volt soha, és ez döntött. A főnök már ismerte
                     ezt a típust, és ki tudta használni; szíves, dicsérő szók közt ígérte, hogy
                     őszre - őt elsősorban - visszaveszi. Károly nem is bánta nagyon; nyár jött, az
                     ember akárhogy elél nyáron, s Veron már félre is tett valamit. De jó lábon
                     kellett maradni vele. Meg nem is baj, hogy a leány itt lesz a háznál; az asszony
-                    is jobb kedvű, az egész élet­mód elevenebb, vidámabb; még a nyomorúság is, a
+                    is jobb kedvű, az egész életmód elevenebb, vidámabb; még a nyomorúság is, a
                     szapulásgőz meg a csuszpájzvacsora is. “Nem is rossz nő az a bumfordi leány,
                     csak egy kicsit buta!” - gondolta Károly.</p>
-                <p>Pedig tán inkább lusta volt egy kicsit és néha beszédre, gondolatra is; csak az
+				<p>Pedig tán inkább lusta volt egy kicsit és néha beszédre, gondolatra is; csak az
                     egyforma babramunkát szerette. Mint egy jó meleg, dunnás ágyban, úgy fészkelt
                     meg a Veron eleven és tevékeny, jó szeretetében. Most már nemigen erőltette
                     magát komoly és tartalmas beszédekre az amerikai viszonyokról, az életről, a
@@ -585,14 +585,14 @@
                     gondozta magát olyan rendesen, mint cseléd korában; pedig Veron szívesen mosott
                     rá is. Mindenben ernyedtebbnek látszott, sokszor megállt, ellógott, mélázott.
                     Dologra kapni nehéz volt, de ha egyszer hozzákezdett, szépen és finoman vasalt,
-                    pontosan és tisztán nyom­kodta ki fonákján a fehérhímzést, ízléssel hajtogatott,
+                    pontosan és tisztán nyomkodta ki fonákján a fehérhímzést, ízléssel hajtogatott,
                     s úgy belejött, hogy abba se akarta hagyni. Csak Veron készítsen kézhez neki
                     mindent, azt szerette. De örült, ha az asszony dicsérte a munkáját, és mindent
                     szerényen megkérdezett: - Jó lesz így, anyuska?</p>
-                <p>Csakugyan a Veron érzése és szerepe is egyre anyaibb lett vele szemben. Jóságos
+				<p>Csakugyan a Veron érzése és szerepe is egyre anyaibb lett vele szemben. Jóságos
                     elnézéssel mosolygott a leány nyalánkságán, tréfálkozott rajta, de ha csak
                     tudott, hozott vagy csinált neki egy-egy falatnyi jót. Persze, olyankor
-                    Károlynak is, “a másik gyerekének”; dehogyis hanya­golta volna el! Hanem a kis
+                    Károlynak is, “a másik gyerekének”; dehogyis hanyagolta volna el! Hanem a kis
                     kutyákat mind elajándékozgatta sorjában; jól megnézve, hogy kinek, hogy “jó
                     sorba jussanak”. - Sokat mulatott azon is, hogy a leány szeretett soká a dunnák
                     közt heverészni reggel; s e tekintetben Károlyban megértő szívre talált. Nem
@@ -603,20 +603,20 @@
                     - “Bújjunk el, hékám, mert kikapunk az anyuskától!” - kiáltott Károly, és
                     kacagva húzta fejére a dunnát, ha Veron valami rosszalkodáson érte. Ő is jól
                     érezte magát a két nő közt; nemigen voltak férficimborái; inaskora óta
-                    “asszonyvitéznek” csúfolták a mű­helyekben. Nem ivott, nem kártyázott; olvasni
+                    “asszonyvitéznek” csúfolták a műhelyekben. Nem ivott, nem kártyázott; olvasni
                     meg színházba menni jobban szeretett - meg csinosan tartani magát, külsejét.
                     Méltányolta a női kézimunkát, az úriasszonyok szép toalettjét; mindez
                     félig-meddig a szakmájába is vágott.</p>
-                <p>Veron egy zálogházban tizenöt méter piros batisztot fedezett fel, megvette, és
+				<p>Veron egy zálogházban tizenöt méter piros batisztot fedezett fel, megvette, és
                     két egyforma ruhát varratott pünkösdre a házmesterné húgával, ki varrni járt;
                     kimosta érte kétszer minden szennyesüket. Károly ismerős forrásból két nyári
-                    kalaphoz valót szerzett, csuda olcsón meg­csinálta; s meglepték Erzsit az
+                    kalaphoz valót szerzett, csuda olcsón megcsinálta; s meglepték Erzsit az
                     ajándékkal; abban mentek az ünnepen templomba, kirándulni; - Károly is velük. A
                     Hűvösvölgybe másodnapján kivittek egy regényt, a férfi felolvasott,
-                    meg­tárgyalta a feleségével a történetet jóízűen ott a napsávozta, erdei füvön,
+                    megtárgyalta a feleségével a történetet jóízűen ott a napsávozta, erdei füvön,
                     mely szokatlanul édes volt a szemüknek, bár poros kissé és til-túl
                     újságpapirosoktól tarkázott. Veron éppúgy tudott élvezni, megérteni, befogadni -
-                    mint aktívkodni, dolgozni, ha kellett. Oly eleven, sister­gőn meleg volt a
+                    mint aktívkodni, dolgozni, ha kellett. Oly eleven, sistergőn meleg volt a
                     fényes, szép kis élete! - Közben megigazította Erzsin az új ruhát, hogy ne
                     gyúródjék. - Erzsi is figyelt a könyvre, szerette, ahol értette, de megzavarták
                     minduntalan az úton jövők-menők, az ünneplő ruhák, beszédek - majd az
@@ -637,8 +637,8 @@
                     kacajjal, és megcsípte a lyány kemény csípőjét. - Te, a bolhát meg lehetne ölni
                     terajtad! - Elvörösödött, mert Veron odanézett rémülten, majd lesve, nem
                     hallották-e mások? Az ura mellé ugrott, szolgálatkészen a karját nyújtotta neki,
-                    hogy föl­segítse. Erzsi utánuk tápászkodott.</p>
-                <p>Károlyból néha csakugyan kiütközött a durva mesterlegény; e fölös és fehér női
+                    hogy fölsegítse. Erzsi utánuk tápászkodott.</p>
+				<p>Károlyból néha csakugyan kiütközött a durva mesterlegény; e fölös és fehér női
                     hús látása ilyen hatással volt rá. Veron ilyenkor mindig rendreutasította,
                     komolyan védve meg a barátnőjét: - Egy rendes nővel, pláne leánnyal nem illik
                     így beszélni! - De Erzsit is elővette másnap négyszemközt, igazi kisanyásan. -
@@ -652,7 +652,7 @@
                     hogy tán ő se botorkált volna annyit az életben, ha anyja él. Vagy ki tudja?
                     Ilyen korában már - maga is teherben - ő szedte fel az utca kövéről a csaknem
                     naponta ittas gépészt.</p>
-                <p>Ilyen prédikációk után néha Erzsi is felfújta magát, félnapig haragban volt
+				<p>Ilyen prédikációk után néha Erzsi is felfújta magát, félnapig haragban volt
                     Károllyal, nem szólt hozzá; de csakhamar megfeledkezett, kiengesztelődött; s
                     akkor a férfi is tisztességesebb volt vele. Néha, összebarátkozva, ártatlan,
                     apró tréfákat csináltak “anyuska” bosszantására; a végén együtt mulattak rajta
@@ -671,43 +671,43 @@
                     férfi hóna alatt, jól ránehézkedve. Néha még akkor is hancuztak ketten, mikor
                     Veron már kifáradt, lepihent: egymás haját cibálták kacarászva, és egymás
                     fejéhez hajigálták a kockás cihájú párnákat. - Elég már, gyerekek! - szólt Veron
-                    néhányszor félál­mában. - Le a villanyt! Erzsi, eridj az alkóvba! - Nemsokára
+                    néhányszor félálmában. - Le a villanyt! Erzsi, eridj az alkóvba! - Nemsokára
                     csend lett. Egy esetre később emlékezni vélt; hogy reggelre ébredve még ott
                     lelte a leányt Károlynál; szoknyában, mezítláb, félig a takaró alá csúszva,
                     rendetlenül; s mélyen, nyitott szájjal aludt. Megrázta a vállát vigyázva,
                     elvezette kézen fogva; az szinte alva járt, mormogott. - Gyere az alkóvodba, az
                     ágyadba! Az már csak nem illenék, ha felébredne és ott látna!</p>
-                <p>Valami homályos és kelletlen félgondolat megdöbbentette néha; a gyanú árnyéka. De
+				<p>Valami homályos és kelletlen félgondolat megdöbbentette néha; a gyanú árnyéka. De
                     csak egy pillanatig. Nem! Az nem így szokott történni!
                     Hallott házasságtörő históriákat, mikor a férj megutálta feleségét a másik
                     miatt; avval ment sétálni, annak udvarolt, ráköltötte a pénzét. De Károly
                     sohasem volt hozzá jobb szívvel - ezt érezte -, soha úgy a kedvébe nem járt...
                     és a lányhoz - bárcsak ne lett volna olyan csúfondáros, néha goromba is!...
                     Inkább még ez volt a baj!</p>
-                <p>Egy meleg júliusi reggel Veron kovászbavaló uborkát válogatott a közeli piacon
+				<p>Egy meleg júliusi reggel Veron kovászbavaló uborkát válogatott a közeli piacon
                     (azok otthon aludtak még), mikor megszólítja egy szakácsnő: hogy ő itt szolgál a
                     téren egy orvosnál, az ura ápoló az Angyalföldön, a tébolydában; csak azt
                     szeretné megkérdezni, már sokszor akarta, hogy az az Erzsi hogy viseli most
                     magát? Rendes most? (Kezével táncos vonalakat írt le a
                     homloka előtt!) Veron meglepetve tudakozódott.</p>
-                <p>- Hát asszonyság nem tudta, hogy a tébolydában volt?</p>
-                <p>- Dehogy!... - sápadt el Veron, és szinte meg kellett fogódznia, hogy el ne
+				<p>- Hát asszonyság nem tudta, hogy a tébolydában volt?</p>
+				<p>- Dehogy!... - sápadt el Veron, és szinte meg kellett fogódznia, hogy el ne
                     essék.</p>
-                <p>- Na, nem kell úgy megijedni! Csak megfigyelésbe volt... a konyhába tették, úgy
+				<p>- Na, nem kell úgy megijedni! Csak megfigyelésbe volt... a konyhába tették, úgy
                     használták, mint cselédet, utoljára is elbocsátották, hogy semmi biztos bajt nem
                     látnak a fejébe... Csak néha olyan... andalgós.</p>
-                <p>- Sose vettem észre!...</p>
-                <p>- Biztosan nem is igaz; tán csak tetette magát, hogy ingyen utazhasson vissza a
+				<p>- Sose vettem észre!...</p>
+				<p>- Biztosan nem is igaz; tán csak tetette magát, hogy ingyen utazhasson vissza a
                     hajón, így, mint bolondot hazasuppolták.</p>
-                <p>- Suppolták?</p>
-                <p>- Igen - én nem tudom, igaz-e, az én uram úgy hallotta az ottani doktoroktól -,
+				<p>- Suppolták?</p>
+				<p>- Igen - én nem tudom, igaz-e, az én uram úgy hallotta az ottani doktoroktól -,
                     hogy odakint lopott volna. Na... nem valami nagyot, csak úgy eldugdosott kis
                     limlomokat a szolgálatban; valami legénynek adta - de ottan szigorúak, bevitték,
                     nyaggatták magyar tolmáccsal a konzulátustó’, hát hogy akkor tette volna
                     gárgyúnak magát, hogy megszabaduljon, még haza is jöhessen! Ha így volt, akkor
-                    még nagyon is okos esze volt neki - hát nem? - hogy ezt így ki­komponálta! Na
+                    még nagyon is okos esze volt neki - hát nem? - hogy ezt így kikomponálta! Na
                     megyek, Isten áldja meg!</p>
-                <p>Veront mintha fejbe ütötte volna az első megdöbbenés. Borzasztó! Hogy a leány
+				<p>Veront mintha fejbe ütötte volna az első megdöbbenés. Borzasztó! Hogy a leány
                     semmi ilyest nem említett neki! Hogy van az életének egy rejteke, egy egész
                     szakasza, amiről el nem számolt! Hogy látszólagos naiv ártatlansága mögött
                     mennyi ravaszság, titkolódznitudás van, és ki tudja, micsoda próbálások?... De
@@ -716,30 +716,30 @@
                     Elhallgatta, hogy ott volt?... Ez csak természetes,
                     ilyennel nem dicsekszünk; s nem kérdezték, hát nem is hazudott. De az jó, hogy
                     nem volt igazán... ó, istenem!... Gyerekkorából a
-                    leg­rettentőbb és legtitokszerűbb képét hozta az elmebetegségnek; ott a faluban
+                    legrettentőbb és legtitokszerűbb képét hozta az elmebetegségnek; ott a faluban
                     egyszer egy őrült suszter kiirtotta az egész családját!... De Erzsi tette magát ravaszul, okosan - egy egész hosszú hajóút
                     alatt is, ó... hogy volt annyi bátorság benne? Hogy nem félt, hogy igazán megkapja? De nem; egyszer azt mesélte, hogy a
                     hajón a konyhán volt, mosogatott; így ingyen hozták! Szóval csak ott tette magát
                     egy kicsit - az idegenben; hogy megszabaduljon, mert nyaggatták - ó, szegényt,
                     szegénykét, ki tudja mennyire? Holmi apróság miatt, hisz
                     mondta az asszony! Még azt sem maga használta el, hanem másnak adta, valami
-                    komisz férfinak, kutya hálát­lannak, akit szeretett!... S a Hiúz utca sarkán már
+                    komisz férfinak, kutya hálátlannak, akit szeretett!... S a Hiúz utca sarkán már
                     drága melegség lüktetett a Veron szíve körül, csaknem sírt, csaknem zokogott
                     hangosan és fájó-boldogan, annyira sajnálta és szerette ezt a sokat szenvedett
                     teremtést.</p>
-                <p>- Asszonyság, kedves! - szólította meg a fűszeres a boltajtóban. - Nem azért
+				<p>- Asszonyság, kedves! - szólította meg a fűszeres a boltajtóban. - Nem azért
                     mondom, csak említem, hisz maguk rendes fizetők, bár mind olyan volna! Csak hogy
                     az a kis számla nem ment ki véletlenül az eszéből?</p>
-                <p>- Nekem - számla? Milyen, micsoda?</p>
-                <p>- Na, hát Erzsike vitte vagy kétszer-háromszor.</p>
-                <p>- Micsodát?</p>
-                <p>- Egyszer mandula meg malaga volt valami tésztához; egyszer töltött csokoládé, de
+				<p>- Nekem - számla? Milyen, micsoda?</p>
+				<p>- Na, hát Erzsike vitte vagy kétszer-háromszor.</p>
+				<p>- Micsodát?</p>
+				<p>- Egyszer mandula meg malaga volt valami tésztához; egyszer töltött csokoládé, de
                     csak törmelék; meg negyedkiló édes teasütemény; négy korona hetven az
                     összeske!... - S a boltos fürge szemei kíváncsian néztek rá.</p>
-                <p>- Igen... persze, már tudom! - felelt hirtelen, bár kissé kényszeredett hangon. -
+				<p>- Igen... persze, már tudom! - felelt hirtelen, bár kissé kényszeredett hangon. -
                     Most nincs nálam - de a napokban még -, hisz tudja, Petz úr!</p>
-                <p>- Kérem, ké-érem, asszonyság!</p>
-                <p>Veron a lelke mélyéig fel volt háborodva; minden megfordult benne ettől egy
+				<p>- Kérem, ké-érem, asszonyság!</p>
+				<p>Veron a lelke mélyéig fel volt háborodva; minden megfordult benne ettől egy
                     pillanat alatt... Hogy lehet ilyet csinálni? Adósságot! (Ó, milyen emlékei
                     voltak e szóról, mit szenvedett, míg mind letörlesztette! Pedig csak így, kicsin
                     kezdődött akkor is!)... És egy másik szegényt csapni be,
@@ -747,7 +747,7 @@
                     Már kiszállt belőle az iménti meghatottság; egy perc alatt mély szomorúsággal
                     értette át, mennyire különböznek ők ketten, milyen összeillőtlen a természetük a
                     leánnyal.</p>
-                <p>Mikor Erzsi hazajött, egy ideig nem is bírt neki szólni; s az, mintha érzett
+				<p>Mikor Erzsi hazajött, egy ideig nem is bírt neki szólni; s az, mintha érzett
                     volna valamit, némán somfordált körülötte. - Ezt már nem
                     hittem volna rólad... ilyet nem szabad... nem becsület ilyet tenni! - szólt
                     végre, és a sírás fojtogatta. Ha a leány is sírva fakad, bocsánatot kér, mint
@@ -759,19 +759,19 @@
                     helyre; s a leány halkan, lesütött szemmel ajánlkozott, hogy felét ő elviszi.
                     Megindultak hát együtt a férfival; de különfelé volt útjuk. Délután levelet
                     hozott a postás Erzsi címével. “Mi a csuda!” - gondolta Veron, és a legmélyebb
-                    meggyőződéssel jogo­sítottnak érezte magát, hogy rögtön felnyissa. A forma
+                    meggyőződéssel jogosítottnak érezte magát, hogy rögtön felnyissa. A forma
                     kedvéért ugyan kötőtűvel srófolgatta fel a borítékot; de egy percig se habozott.
                     “Kedves húgám” - így kezdődött, és az asszony nagy érdeklődéssel betűzte
                     végig.</p>
-                <p>
+				<p>
                     Az a Maris, aki is az árvaházban szolgál, itthogy vagyon, és
                         beszéli, hogy talált téged piarcon, hogy elhagytad heled és kovártélba vagy
-                        üsmerősnél. Csak kedves húgám, ma­gadra igen vigyázzál, arra intelek. Ha már
+                        üsmerősnél. Csak kedves húgám, magadra igen vigyázzál, arra intelek. Ha már
                         odaátról csúnyán kellett, hogy hazagyőjjél, legalább most megbecsülted volna
                         a szolgálatod magános özvednél, hogy lett volna egy kiadós heled a
                         könyvedbe, ne nézzenek cábérnak, ha már szolgálsz, egy bárónőhöz is
                         mehetnél, ha az a Nyika Julis el tudott menni, már két esztendeje van ott,
-                        nyolcszáz­hetven korona spórpénze, de te annál külömb is vagy, amikor
+                        nyolcszázhetven korona spórpénze, de te annál külömb is vagy, amikor
                         jómagadat megbecsülöd. Csak egy baj, hogy ideig-óráig van a te jóságod,
                         akkor megunod magad, valami rádgyön, mi istenverés ez rajtad, hogy olyan
                         gárgyú vagy némelykszer, kedves szeretett testvérem, mint ha Isten szép
@@ -782,19 +782,19 @@
                         ha iparosék vagyunk is, mellre igen kérlek tisztelettel öregebb testvéred
                         Lakatos Teri.
                 </p>
-                <p>Veron úgy-ahogy, visszaragasztotta a levelet, és nagy szerencsének érezte, hogy
+				<p>Veron úgy-ahogy, visszaragasztotta a levelet, és nagy szerencsének érezte, hogy
                     hozzájutott; mintha izgató és nehéz titokról hullt volna le a lepel. “Hát mégis
                     igaz, hogy tanító volt az apja!” - ez volt az első gondolata. Aztán eszébe
                     jutott, hogy abban meg hazudott, hogy a családja ellenezné a szolgálatát... De
                     hogy kimesézte, cifrázta ezt, mikor először itt volt. Veron szíve elszorult a
-                    gondolatra, mennyire tisztelte ő akkor, milyen kitűnőnek, össze­szedettnek,
+                    gondolatra, mennyire tisztelte ő akkor, milyen kitűnőnek, összeszedettnek,
                     deréknek látta - milyen rendes és okos volt, milyen új!
                     Igen, ez az, ebben van igaza a levélnek: csakugyan sokaknál különb ez, ha
                     megbecsüli magát. - De csak ideig-óráig, akkor aztán rágyön... elhagyja magát;
-                    így lehetett ez mindig! “És kivált a férfiakat ne kí­vánnyad!”... Hát ez is,
-                    olyankor ez is! Persze, Amerikában is!... De most már régen meg­becsüli magát az
+                    így lehetett ez mindig! “És kivált a férfiakat ne kívánnyad!”... Hát ez is,
+                    olyankor ez is! Persze, Amerikában is!... De most már régen megbecsüli magát az
                     ő keze alatt. De vajon igazán?...</p>
-                <p>Kitett az ajtó elé az utcára egy kis széket, várta őket haza; vacsora készen.
+				<p>Kitett az ajtó elé az utcára egy kis széket, várta őket haza; vacsora készen.
                     “Hogy lehetne rajta segíteni?...” A nap hanyatlott már, a nagy házak falán
                     nőttek az árnyékok, a görbe sikátorba be lehetett látni, hogy táncol a por az
                     ablakok előtt; fenn, egyik ormon egy műterem üvegfala pirosan lángolt fel,
@@ -804,7 +804,7 @@
                     tiszta idő van?... De már jöhetnének!” - Egyszer úgy tűnt neki, mintha sokan
                     egyszerre “éljen”-t kiáltatának. De csak itt a közeli téren. Az utca megtelik
                     néppel. Sokan haladnak a tér felé sietve. “Mi, tán udvari kocsi!” - gondolta
-                    kelletlenül; annyira elfoglalva a maga gondolatával. A huszonnégyből ki­jött a
+                    kelletlenül; annyira elfoglalva a maga gondolatával. A huszonnégyből kijött a
                     cseh szobalány karonfogva a vőlegényével, egy führerrel a bosnyák ezredből,
                     kivel már négy éve várnak egymásra kicsit unatkozva, de híven. A lány szeme ki
                     volt sírva, a legény - ez a józan katonasuszter - mintha ivott volna kicsit. -
@@ -823,70 +823,69 @@
                     érdekesek az újságok. De hogy nem hallotta mégis, ő mindenről tudni szokott?...
                     Vagy csak neki nem mondta, hogy lesz ma valami mulatság Pesten... Ó, Istenem?...
                     A házmesterné iménti szava a Veron lelkébe szúrt, bár végig se gondolta még.</p>
-                <p>- Na, szomszédasszony, lesz egy kis hecc, ugye? - kiabált át a boltos. - Mitőlünk
+				<p>- Na, szomszédasszony, lesz egy kis hecc, ugye? - kiabált át a boltos. - Mitőlünk
                     is megy a segéd, holnap kell jelentkezni.</p>
-                <p>- Az én uram is?... - riadt fel benne hirtelen, mindennél hangosabban a kérdés,
+				<p>- Az én uram is?... - riadt fel benne hirtelen, mindennél hangosabban a kérdés,
                     az egyetlen kérdés.</p>
-                <p>- Hogyne! Mikor volt katona?</p>
-                <p>- Nem volt az sose! Mindig kidobták. Trachomás szemű.</p>
-                <p>- Na, hát akkor nem megy most se!</p>
-                <p>- Biztos?...</p>
-                <p>- Hát persze! Hát mért legyen katona mikor nem katona?... Én is úgy vagyok! Ott
+				<p>- Hogyne! Mikor volt katona?</p>
+				<p>- Nem volt az sose! Mindig kidobták. Trachomás szemű.</p>
+				<p>- Na, hát akkor nem megy most se!</p>
+				<p>- Biztos?...</p>
+				<p>- Hát persze! Hát mért legyen katona mikor nem katona?... Én is úgy vagyok! Ott
                     van különben kiakasztva a plakáton.</p>
-                <p>A boltos bement; Veron szíve egyszerre eltávozott a “köz” ügyétől, elnyugodott
+				<p>A boltos bement; Veron szíve egyszerre eltávozott a “köz” ügyétől, elnyugodott
                     egy percre. De aztán gondolkodni kezdett újra. Hol járnak
                     azok, micsoda rendetlenség?... Mi lesz, ha csakugyan későre maradnak, és neki
                     itt kell várnia?...</p>
-                <p>Besötétült, egy lámpagyújtogató loholva szaladt végig az utcán, létrával
-                    felsurrant a gáz­póz­nákra - egyébként szinte kihalt volt az utca.
-                    Messze-messziről durrogás három egymás­utánban, majd a tramtadaram
+				<p>Besötétült, egy lámpagyújtogató loholva szaladt végig az utcán, létrával
+                    felsurrant a gázpóznákra - egyébként szinte kihalt volt az utca.
+                    Messze-messziről durrogás három egymásutánban, majd a tramtadaram
                     hangfoszlányai, nagy embertömegek nyújtott kórusa, mint valami sivítás... “Csak
                     kiabáljatok, bolonduljatok - nekem más a bajom!” - gondolta, és karjára fektette
                     arcát. Nem határozta meg pontosan e bajt; de a ruha ujja átnedvesedett a
                     könnyektől. Így ült összezsugorodva, magába temetkezve, mindenre elszántan -
-                    sokáig. Egy­szer felvetette a fejét; a sarkon, a trafik előtt sötétlett két
+                    sokáig. Egyszer felvetette a fejét; a sarkon, a trafik előtt sötétlett két
                     siető árnyék - ők voltak, megismerte a másik pillanatban. Mintegy megszabadulva
                     ugrott fel besietett, melegre tenni az ételüket. - Na, asszony - kiáltott be
                     Károly előre -, felfordult a világ! - Te, anyuska, van akkora cécó Pesten, hogy
                     olyan még Amerikában se... - Veron kissé arcához hajolt. - Ó, Istenem - te
                     ittál? Érzem rajtatok; ittatok mind a ketten! - szólt reszketve és
                     elfordult.</p>
-                <p>- Na, csak egy ilyen picurkát, kismama!</p>
-                <p>- Kérlek, Veron - ilyenkor csak muszáj egy pohárral a hazáért!</p>
-                <p>Veron a falnak dőlt, hirtelen lehunyta a szemét.</p>
-                <p>“Haza” - szép, “ünnepélyes szó”, néha olvasta az újságban, és nem gondolt semmit.
+				<p>- Na, csak egy ilyen picurkát, kismama!</p>
+				<p>- Kérlek, Veron - ilyenkor csak muszáj egy pohárral a hazáért!</p>
+				<p>Veron a falnak dőlt, hirtelen lehunyta a szemét.</p>
+				<p>“Haza” - szép, “ünnepélyes szó”, néha olvasta az újságban, és nem gondolt semmit.
                     De ha kimondta életében, beszéd közben - egy kis falu állt a lelke előtt,
                     rajzos, borsodi hegyek koszorújában ellapuló fehér folt, erdők, fa-virágos
-                    tavaszok, vasárnapi harang, szagos gyalu­forgács a műhelyben, a kovács lánya...
+                    tavaszok, vasárnapi harang, szagos gyaluforgács a műhelyben, a kovács lánya...
                     És most jön valami borzasztó! Az emberek kiáltanak az utcán... és a faluk, az
                         olyan faluk határát el fogja lepni a fegyveres
-                    katonaság. Majd tanyáz­nak az erdőn, kitörik a fát, a kerítéseket; elhajtják a
+                    katonaság. Majd tanyáznak az erdőn, kitörik a fát, a kerítéseket; elhajtják a
                     pásztoroktól az állatot, a jószágot a házból. Az asszonyok sírnak és félnek, a
                     hegyek oldalából ágyútorkok ásítanak, a templom összedűl, a kazal kigyúl...
                     igen, így mesélte a nagyapja a negyvennyolcas időből. A haza, a hazák...
                     mindenkinek van tán faluja!... De most kiáltanak odaát Pesten!</p>
-                <p>- Hagyjatok békét nekem, hagyjatok! - nyögte.</p>
-                <p>- Na, ugyan, hisz a komának úgyse kell menni!</p>
-                <p>- Hát a többi! Az idegent ne sajnáljam?... Ó, hát nem értitek ti... ti! Hagyjatok
+				<p>- Hagyjatok békét nekem, hagyjatok! - nyögte.</p>
+				<p>- Na, ugyan, hisz a komának úgyse kell menni!</p>
+				<p>- Hát a többi! Az idegent ne sajnáljam?... Ó, hát nem értitek ti... ti! Hagyjatok
                     nekem békét!</p>
-                <p>És zokogva esett az ágyra.</p>
-                <p> </p>
-            </div>
-            <div>
-                <head>2</head>
-                <p>A napok pedig tovább haladtak, és a külső élet sok különös új zaja és mozgalma
+				<p>És zokogva esett az ágyra.</p>
+			</div>
+			<div>
+				<head>2</head>
+				<p>A napok pedig tovább haladtak, és a külső élet sok különös új zaja és mozgalma
                     csak mint felszínes napi szenzáció hatott le a Hiúz utca e pincéjébe. Vitorisz
                     odaadóan bújta a krajcáros újságokat, mindenre kíváncsi volt, és nehezen szokta
                     meg, sőt nehezen hitte el, hogy nem követelhet
                     tájékoztatást mindenben a napisajtótól, melynek betűje azelőtt tápláléka és
                     szellemi tengelye volt, műveltsége fokához mért, kellemes és kielégítő. - A
                     város képe csodásan megelevenült, tömérdek vidéki özönlött fel, az utcákat
-                    ellepték a félig beöltözött katona­ruhások, fontoskodó arcú cserkészgyerekek
+                    ellepték a félig beöltözött katonaruhások, fontoskodó arcú cserkészgyerekek
                     vágtattak végig közöttük. Sok síró asszonyt lehetett látni, de százszor több
-                    vidámat; összekarolt párokat, nyílt, fesztelen, megújult szerel­meket.
+                    vidámat; összekarolt párokat, nyílt, fesztelen, megújult szerelmeket.
                     Villamosokban a fiatal népek úgy bújtak össze, hogy azért “rendes időben”
                     rendőri beavatkozás járt volna.</p>
-                <p>Az élet általában fokozódni látszott. Nyakra-főre házasodott mindenki, s oly
+				<p>Az élet általában fokozódni látszott. Nyakra-főre házasodott mindenki, s oly
                     édes, üdítő volt e máskor ezerszer meggondolt, súlyos lépést elkövetni bátran,
                     hirtelen, gondolkozás nélkül; és ámulni rajta, hogy nem is olyan nagy eset! Csak
                     a Hiúz utcában kilenc új asszonyt számoltak össze. A cseh szobalány kimenőt kért
@@ -897,9 +896,9 @@
                     kisasszony? Ő lehajtotta fejét, és elhaló hangon “igen”-nel válaszolt (pedig szó
                     sem volt bajról, magyarázta nevetve-pirulva), akkor aztán nem gördítettek
                     akadályokat.</p>
-                <p>A kávéházak zsúfolva voltak, minden asztalnál beszéltek hangosan, egyszerre; s ha
+				<p>A kávéházak zsúfolva voltak, minden asztalnál beszéltek hangosan, egyszerre; s ha
                     az ember figyelt, észrevette, hogy mindig ugyanabban a szellemben: az esélyeket
-                    vitatták, a közeli lehe­tő­ségeket. Mindenki látnok és stratéga volt;
+                    vitatták, a közeli lehetőségeket. Mindenki látnok és stratéga volt;
                     “swarmlénia, front, csapatösszevonás, offenzíva, sturm” és még egy sereg ilyen
                     új szó ismerete - ki tudja honnét? - de kötelezővé vált lenézés terhe alatt.
                     Viszont tekintélyre tett szert, aki közámulat közt kivágta, hogy egy drednaut
@@ -907,26 +906,26 @@
                     sorok között” helyesen olvasni a mostani újságokat. - Karácsonyra végleg itthon
                     leszünk! - magyarázták fiatal önkéntesek a családi karavánnak, mely néha az
                     összes tántikkal és bácsikkal követte őket utca hosszat, kávéházba,
-                    lerázhatatlanul. - Lesz abból tavasz is! - fontoskodott egy be­avatottabb; míg
-                    mélázó, hallgatag emberek egy-egy sarokban halkan kifejtették, hogy “elv­ben,
+                    lerázhatatlanul. - Lesz abból tavasz is! - fontoskodott egy beavatottabb; míg
+                    mélázó, hallgatag emberek egy-egy sarokban halkan kifejtették, hogy “elvben,
                     elméletben” semmi se mond ellent annak, hogy akár igen sokáig is el ne tartson.
-                    Kine­vették őket, vagy elhalmozták praktikus ellenérvekkel, pszichikai,
+                    Kinevették őket, vagy elhalmozták praktikus ellenérvekkel, pszichikai,
                     gazdasági meg észokokkal. - Nem is árt - mondták némelyek -, ha egy kicsit
                     megrázkódik alapjában az a korhadt, büdös rend; ha azok, akik oly disznó
-                    biztonságban ültek és híztak az aranyaikon, legalább meg­szeppennek kicsit!
+                    biztonságban ültek és híztak az aranyaikon, legalább megszeppennek kicsit!
                     Mindenki azt hitte, hogy a gazdagok talán még jobban megszenvedik az idők e
                     rázkódásait. “Hiába van ma a bankban pénzed; éhen halhatsz, de ki nem veheted” -
                     ezen tűnődtek örömmel. Némelyek hangosan és szabadon beszéltek, megmondták
-                    ellen­véleményeiket, kifejezték érzésüket; mások riadtan és vészjóslón
+                    ellenvéleményeiket, kifejezték érzésüket; mások riadtan és vészjóslón
                     figyelmeztettek óvatosságra; s akkor a félénkebbek már a commune tilóját vélték
                     nyakukon érezni, megborzongtak, nem aludtak az éjjel. Mindenféle elfogatásokról
                     meséltek; általában az emberek elvesztették egy kicsit a lehetőségek,
                     valószínűség mértékét. Kivált az iskolázottak; ha még néhány Kemény- vagy
                     Jókai-regényt is elolvastak valaha.</p>
-                <p>Független gondolkodású emberek néha idegesen kerestek valami okot a
+				<p>Független gondolkodású emberek néha idegesen kerestek valami okot a
                     felháborodásra, de olyat, mely a közhangulattal megegyezzen és visszhangra
                     találjon. “Hős katonáink” valami kis kényelem hiányát hánytorgatták. Ám ami
-                    felülről jött, hivatalos helyről vagy az újsá­goktól; az örökös megnyugtatás
+                    felülről jött, hivatalos helyről vagy az újságoktól; az örökös megnyugtatás
                     jegyében volt tartva - s ez néha szárnyat adott a rémhíreknek. Vidéki levelek
                     rosszul jöttek civil rokonoktól is; pedig ezek az emberek igen vigyáztak, hogy
                     mit írnak. Néha egy-egy anya vagy feleség már rég a harctéren hitte,
@@ -936,11 +935,11 @@
                     tehervonatokon, zsúfolt kocsikban éjjel-nappal, agyonellenőrizve, izgalomtól
                     kimerülten, reszketve: - Ott lelem-é még? - Kihamvadtnak vélt, elgyöpesedett,
                     gondok-rágta vagy unalomba halt érzések, szeretetek újultak meg, felfedeződtek,
-                    égtek szi­porkázva a megindultságok e rezgő levegőjében. Az asszonyok becsesek,
+                    égtek sziporkázva a megindultságok e rezgő levegőjében. Az asszonyok becsesek,
                     drágák lettek, ki-ki a maga formája szerint. Türelmetlen könyörület, dühös
                     részvét tartotta izgalomban az idegeket. Az igazi fájdalom, a rettegés, kín
                     megbújt néhol magára hagyva, nem is értve.</p>
-                <p> Mindennek fulladt visszhangja verődött a Hiúz utcában is. A kapu alatt a
+				<p> Mindennek fulladt visszhangja verődött a Hiúz utcában is. A kapu alatt a
                     huszonegybeli viciné fogadkozott; hogy menten leöntené forró vízzel, ha egy
                     kutya szerb most véletlenül ide tévedne elébe. A legöregebb szapuló asszony a
                     mosókonyhában az Isten büntetéseként fogta fel az eseményeket, mert nagyon rossz
@@ -948,10 +947,10 @@
                     hogy háromszor járt fel halottaiból Borbán Áron, és tanította az embereket, hogy
                     három zivatarja jön az Istennek, ha meg nem térnek; egyik a háború lesz, utána
                     majd a sáskák jönnek, de harmadjára már a világ vége... De az utcákon - fehér
-                    batiszt­köpenyes, lebegő fejdíszű, szép gazdag nők autóztak naphosszat nagy
+                    batisztköpenyes, lebegő fejdíszű, szép gazdag nők autóztak naphosszat nagy
                     vöröskereszttel a karjukon és valami titokzatos, de borzasztóan sürgős és fontos
-                    küldetésben. A legkomolyab­bak közülük eltitkolhatatlanul örültek, hogy, mint
-                    mondták, megtalálták önmagukat, önérze­tüket, immár életfogytiglanra; mert
+                    küldetésben. A legkomolyabbak közülük eltitkolhatatlanul örültek, hogy, mint
+                    mondták, megtalálták önmagukat, önérzetüket, immár életfogytiglanra; mert
                     megtudták, hogy fel bírnak kelni hét órakor, és nem kell már tisztelve
                     csodálniuk a dolgozó nőket - évtizedek, életek robotoló rabjait. - Veronék
                     láttak egy este kilenc tájban erre sietni két hóruhás, vöröskeresztes fiatal
@@ -959,7 +958,7 @@
                     tisztelettel nyitott utat nekik. A tárt ablak alatt megálltak, az egyik lihegve,
                     nevetve felkiáltott: “Ott van-e már Sanyi?... Nézzen ki, előbb nézzetek ki ránk:
                         kosztümben vagyunk!” Kihúzta egy szőke hajtincsét a
-                    kacér fej­kötőcske alul, és nevetve szaladt fel a vőlegényéhez, ki ugyan
+                    kacér fejkötőcske alul, és nevetve szaladt fel a vőlegényéhez, ki ugyan
                     “fölmentett” volt, de kivel egy hét múlva mégis sommás, “háborús” egybekelésre
                     készült. A férfiak, civilek kedve is megjött a házassághoz. Általában a
                     hungarákkal megszaporodott társadalmontúli nők hemzsegő rajának nagy
@@ -984,12 +983,12 @@
                     kisasszony titkolódzó arccal, diszkréten összeszorított ajakkal hallgatta őket;
                     végül, mintegy elszántan és magát erőltetve kijelentette: - Hát nincs, ha
                     mondom, egy sincs! Nekem csak elhihetik, lelkem! - S mint a gigantikus
-                    világ­szcéna egy igen jelentős szereplője; kit fontos tekintetek köteleznek,
+                    világszcéna egy igen jelentős szereplője; kit fontos tekintetek köteleznek,
                     sarkon fordult, nehogy még kiszalajtson a száján valamit. Ijedt megdöbbenésben
                     hagyta hallgatóit, azzal a biztos hittel, hogy elképzelhetetlenül nagyszámú
-                    sebesültet, véres, csonkított, összekötözött szenve­dők rémes, hallatlan tömegét
+                    sebesültet, véres, csonkított, összekötözött szenvedők rémes, hallatlan tömegét
                     - talán ezret is rejtegetnek már itt Budapesten...</p>
-                <p> S mikor pár hét múlva igazán megjöttek, és folyvást jöttek - már nem félt tőlük
+				<p> S mikor pár hét múlva igazán megjöttek, és folyvást jöttek - már nem félt tőlük
                     senki. Pár nap alatt megszokták s megkedvelték e sápadt és bepólyált tagú, de
                     többnyire vidám embereket, kik nyitott autók hosszú sorában jöttek kényelmesen
                     hátradőlve, ép kezükkel integetve, elkapkodva a virágokat, s viszonozva az
@@ -999,21 +998,21 @@
                     dobáltak be a kinn üdülőknek; azok felszedték, mint a cirkuszi szereplők, aztán
                     a rácshoz jöttek mesélni. “Igazán olyan rettentő az a háború?” - kérdezték
                     szomjasan: s a hősök elmesélték hajmeresztő komitácsi történeteiket.</p>
-                <p>- Igazán, te még egyszer sem voltál kórházban, látogatni! - panaszkodott Erzsi. -
+				<p>- Igazán, te még egyszer sem voltál kórházban, látogatni! - panaszkodott Erzsi. -
                     Mióta hívlak, nem is szép tőled!</p>
-                <p>Veron némán, kicsit fáradtan hallgatta. Csaknem két hónap óta törték a gondok és
+				<p>Veron némán, kicsit fáradtan hallgatta. Csaknem két hónap óta törték a gondok és
                     kételyek, figyelni kényszerítve azok tetteit, perceit, kikre eddig nyugodt
                     szeretetében az életét bízta. S míg elfoglalt, tépelődő lelkére tompán hulltak
                     az idegen, egészen külső dolgok szokatlan hullámai; lehunyta szívét minden elől,
                     ami nem ő volt és saját, kicsiny, de neki egyetlen élete. Lehunyta szívét, és
                     már választott: nem a férje, hanem az idegen leány minden mozdulatát, szavát követte szándékos, kínlódón
-                    szigorú ítélettel - őbenne méregette saját, eddigi balgasá­gát, és titokban
+                    szigorú ítélettel - őbenne méregette saját, eddigi balgaságát, és titokban
                     sokszor sírt. - Az arca meghalványult, keskeny ajkát szinte elhagyta a vér;
                     egyszer Károlynak is feltűnt ez, és egy percre részvéttel kérdezte, hogy nincs-e
                     baja?</p>
-                <p>Erzsi mit se vett észre ebből; ő most élénken és kifelé élt, mint a szenzációt
+				<p>Erzsi mit se vett észre ebből; ő most élénken és kifelé élt, mint a szenzációt
                     vadászó, háborús utca - kalandra, újságra lesőn, a kíváncsiság önző közönyével,
-                    felszínesen, élményeket hab­zsolva. Pár napig néhány újoncnakvaló, kik
+                    felszínesen, élményeket habzsolva. Pár napig néhány újoncnakvaló, kik
                     jelentkezni jöttek faluról - náluk aludt rögtönzött surgyékon; Erzsi hirtelen
                     összebarátkozott velük, és este elhívta őket sétálni - kacarászva jött haza az
                     egyikkel éjféltájban. Vitorisz akkor érthetetlenül dühbe jött hirtelen, többször
@@ -1021,7 +1020,7 @@
                     sokkal rosszabbnak is. Veron alig felelt. Töméntelent dolgozott mostanában,
                     úgyszólván a másik kettő helyett is, kik az “érdekes idők” izgalmaiban éltek és
                     jártak szinte egész nap. Az Erzsi egyik színésze is elutazott hirtelen bevonulni
-                    valahová, s félhavi takarítással adós maradt. A leány szemre­hányást tett
+                    valahová, s félhavi takarítással adós maradt. A leány szemrehányást tett
                     dühében Veronnak: - Te ajánlottál hozzá - egy ilyen rongy komédiáshoz! - A
                     másiknál söpört még ímmel-ámmal; de a színtársulat is oszlóban volt a napokban.
                     - Azért van még egypár koronám! - mondta néha újra vidáman, szívesen, s erővel
@@ -1030,43 +1029,43 @@
                     van... Már nem is akart gondolkozni semmit!... A leány így is félig ingyen evett
                     nála már, vasalásban soha nem segített; Károly csak liferált, s néha vidékieket
                     vezetgetett pár hatosért, amíg egy-egy ugrifüles cserkész szalutálva át nem
-                    vette tőle a paliját útközben, hogy ingyen hurcolja tovább ilyen kommandó­tól
+                    vette tőle a paliját útközben, hogy ingyen hurcolja tovább ilyen kommandótól
                     amolyanhoz, mutogatva a “nevezetességeket”. De már csökkent az “idegenforgalom”
                     is - ahogy a sebesültek száma nőtt, és sorban megteltek a kisegítő kórházak.</p>
-                <p>- Igazán, Veronka, te tán nem is sajnálod szegény katonákat! - (Ez hat, úgy
+				<p>- Igazán, Veronka, te tán nem is sajnálod szegény katonákat! - (Ez hat, úgy
                     sejtette!) - Ez egy magyar nőnek kötelessége!... Gyere no, ne gunnyassz itthon
                     örökké, attól leszel beteg! Milyen rég volt rajtunk a piros ruhánk! Gyere,
                     vegyük fel ma, csípd ki magad te is, háromkor van látogatás!</p>
-                <p>- Azt mondják, most már nehezen engedik be, aki nem tud nevet mondani, hogy ki
+				<p>- Azt mondják, most már nehezen engedik be, aki nem tud nevet mondani, hogy ki
                     beteget akar látni!</p>
-                <p>- Attól sose tarts, ösmer engem az ápoló! Az önkéntes szobába megyünk!</p>
-                <p>Fölvették a ruhát, a nyári kalapot, együtt, mint harmóniájuk régi, szép idején;
+				<p>- Attól sose tarts, ösmer engem az ápoló! Az önkéntes szobába megyünk!</p>
+				<p>Fölvették a ruhát, a nyári kalapot, együtt, mint harmóniájuk régi, szép idején;
                     Erzsi segített betűzni Veron gyémántdíszes hajcsatjait, s odaadta a kis ollóját
                     egy skatulyából, hogy a körmét is kitakarítsa.</p>
-                <p>- Azért a kesztyűt, ugye anyuska, nem fogjuk lehúzni!... Nem muszáj mindenkinek
+				<p>- Azért a kesztyűt, ugye anyuska, nem fogjuk lehúzni!... Nem muszáj mindenkinek
                     tudni, hogy nem vagyunk nagyságák - igaz? Nekik most mindenki nagysám,
                     szegénykéknek, aki cigarettát viszen!</p>
-                <p>Hát elindultak nagysámnak öltözve kissé dohszagú, de szépszínű, tűzpiros, fodros
+				<p>Hát elindultak nagysámnak öltözve kissé dohszagú, de szépszínű, tűzpiros, fodros
                     ruhákban. Erzsi ránevetett az őrtálló altisztre, és egy marék cigarettát tartott
                     felé. “Tudja már, kihez!”... A fiú némán vette, megőrizve a hatalom adta
                     tekintélyét. Az emelet egy nyitott ajtajában termetes, fehér zubbonyos ápoló
-                    állt egy feldtrage előtt, köszöntést mormogott, és végigmust­rálta Veront. Az
+                    állt egy feldtrage előtt, köszöntést mormogott, és végigmustrálta Veront. Az
                     önkéntes-szobában, ahová beléptek, nem volt húsz ágynál több; néhány mellett már
                     látogató suttogott odahajolva - nők; koránjött, közeli rokonok, kiknek tán külön
                     bejárócédulájuk van. Erzsi egy ablaksarok felé tartott; ott volt a pódiumon egy
-                    iskolai fali­tábla is még a hajdanából. - Mit félsz, anyuska - hisz ezek csupa
-                    könnyűek! A súlyosaknál unal­mas, ott csendben kell lenni! - Veron
+                    iskolai falitábla is még a hajdanából. - Mit félsz, anyuska - hisz ezek csupa
+                    könnyűek! A súlyosaknál unalmas, ott csendben kell lenni! - Veron
                     félrehúzódott, hogy utat engedjen két néne előtt. Erzsi hangosan bemutatta:
                     Vitoriszné barátnőm, tanítónő! - Veron elpirult, de az egyik fiatal katona,
                     kerek arcú kis barna, rámosolygott, és hadarva szólt. - Kisztihand, nagysám,
                     tessék helyet foglalni! - Láthatóan örült, hogy neki is hozott valakit a leány,
                     “fess, pesti nőt” - mert Erzsi maga előnyt adott a pajtásának, egy igen nyurga
                     legénynek, ki igazi sebesült volt a vállán - míg ő csak hurutból, csúzból
-                    lábadozó. Kereskedősegédek voltak, együtt érettsé­giztek. Krausz volt az egyik s
+                    lábadozó. Kereskedősegédek voltak, együtt érettségiztek. Krausz volt az egyik s
                     egy nagy, faipari raktárban volt alkalmazva Hunyadon; Weisz volt a másik, és
-                    Csíksomlyón vasáruüzletet vezetett. Most ifjú hősök, s a pesti nőkre elmélet­ben
+                    Csíksomlyón vasáruüzletet vezetett. Most ifjú hősök, s a pesti nőkre elméletben
                     kíváncsiak; hiszen először voltak idefenn. És szívük teli volt elismerő hálával
-                    a hon­leányok iránt, kik cigarettát hoztak, mulattatták őket. A csíksomlyói
+                    a honleányok iránt, kik cigarettát hoztak, mulattatták őket. A csíksomlyói
                     kivált nagyon megszokta Erzsit; nem volt fárasztó neki, mert a stílusa, modora
                     teljesen ismerős; a somlyói centrál kasszírnőjéé, kivel legkiadósabban
                     társalgott eddig. De ez nagyvilágibb - Amerikában is járt, ott társ volt egy
@@ -1081,7 +1080,7 @@
                     szíve úgy vágyott már a tiszteletérzésre. Annyira tudatában volt - fiatalosan,
                     komolyan, kedvesen, hogy ő az édes hazáért lett légcsőhurutos Krasznik
                     tájékán.</p>
-                <p>Veron Erzsire pillantott: az éppen felállt a székről, s a Krausz ágya szélére
+				<p>Veron Erzsire pillantott: az éppen felállt a székről, s a Krausz ágya szélére
                     ült: a takaróra a beteg dereka táján. Az asszony szétnézett; s úgy találta, hogy
                     sok beteghez ül igen közel a női látogatója; idős asszonyok simogatták a fiúk
                     dúshajú fejét, fiatalok kézben tartották a kezüket. - Fiacskám! - néha: - Kis
@@ -1089,7 +1088,7 @@
                     a hazafias közönségből: igen elmaradoztak már ekkorra, vagy a vezetőség állta
                     útját a hangos búcsújárásnak, a tömérdek szirupnak, összevissza nőknek és
                     nyalánkságoknak. Őket is nyilván rokonnak nézik... Erzsi e percben gyújtott rá a
-                    Krausz fiú cigarettjéről a ma­gáéra! Megfészkelődött, s kesztyűs kezével
+                    Krausz fiú cigarettjéről a magáéra! Megfészkelődött, s kesztyűs kezével
                     kétujjra fogva a szopókát, gyakorlatlanul pöfékelt; bután, de vígan és nagyon
                     feltűnően. És Veront elöntötte a harag; igazi pulykaméreg; - szeretett volna
                     rákiáltani: “Te, te szolgáló - kicsapott cseléd!” - a fiatal Weisz illedelmesen
@@ -1109,12 +1108,12 @@
                     úri fiú, ki tudja, milyen előkelő! S ő hogy becsapja itt! Elszégyellte magát. -
                     A vidéki emberben, kérem, mindig megmarad valami... valami... az, kérem, tud érezni, igenis! Én a szeméből meglátom itt Pesten
                     mindenkinek...! - Az asszony hallgatta, kicsit kábulón - milyen különös, jó
-                    helyzet volt ez!... De újra a leányra kellett néz­nie, mert csattanón csapott a
+                    helyzet volt ez!... De újra a leányra kellett néznie, mert csattanón csapott a
                     Krausz ép keze fejére. - Vörös pecsenyét!... - hallotta a kuncogó, csiklandós,
                     fojtott nevetését. - Én a fehér pecsenyét szeretem! - felelte különösen mély
                     hangon a hosszú fiú, és nagycsontú arca pipacsvörösen tüzelt az ágyban. E
                     percben Veron szeme gépiesen elsiklott a leány alakján, a jobb
-                        kezét kereste, nem ezt, amelyben kiégett cigaretta­csutka reszketett...
+                        kezét kereste, nem ezt, amelyben kiégett cigarettacsutka reszketett...
                     és elképedve, émelygő utálattal ugrott fel a székről. Szó nélkül fordított hátat
                     a kis Weisznak, rá sem gondolt már, csak el innen! - A harmadik ágynál egy hang
                     hördült felé, tompa, fuldokló: - A... a csészét... kérem a köpőcsészét! - nyögte
@@ -1125,63 +1124,63 @@
                     melléhez, mert csaknem leesett, amint előrehajolt - görcsös köhögésben
                     rázkódott, majd néhány hatalmasat köpött az edénybe. Csakhamar megcsöndesült,
                     visszadőlt a párnára, könnyebben lélegzett. - Már jobban van? - kérdezte a kis
-                    mosónő, és szolgálatké­szen hajolt fölé. - Persze, csak egy nagy fene hurut! -
+                    mosónő, és szolgálatkészen hajolt fölé. - Persze, csak egy nagy fene hurut! -
                     mosolygott a beteg, és már visszanyerte rendes arcszínét. - Hanem igaz, valamit
-                    kérdeznék magácskától, fiam! - Veron jól látta jegy­gyűrűs kezét, borostás,
+                    kérdeznék magácskától, fiam! - Veron jól látta jegygyűrűs kezét, borostás,
                     viseltes arcát; az asztalán mellette nagy, nyitott könyvben aranyszélű
                     szemüvegét. Negyven körüli népfölkelő hadnagy lehetett. - Mondja meg nekem, édes
                     fiam őszintén: ki az a nő? - ... - Erzsi felé intett: Veron bizonytalanul
-                    követte a tekintetével. - Magá­val jött... de csak nem rokona? Az Isten áldja
+                    követte a tekintetével. - Magával jött... de csak nem rokona? Az Isten áldja
                     meg, miféle az... mivel foglalkozik? - Nem, nem olyan, kérem... nem mindig
                     teszen így! - Nem akartam hinni, hogy hozzátartozója! - A néne odalépett, és
                     elvette a köpőcsészét, hogy megnézze; Veron sarkon fordult, és kiillant a
                     szobából.</p>
-                <p>Egyenesen, gyorsan ment az utcán; nem is töprengett, nem is fájt. Ő már készen
+				<p>Egyenesen, gyorsan ment az utcán; nem is töprengett, nem is fájt. Ő már készen
                     volt ezzel a históriával.</p>
-                <p>- Hát az Erzsit hol hagyta, asszonyság? - kérdezte a házmesterék új-menyecske
+				<p>- Hát az Erzsit hol hagyta, asszonyság? - kérdezte a házmesterék új-menyecske
                     húga a kapuban, mert épp az urát várta a kaszárnyából.</p>
-                <p>- Ottmaradt! - felelte az asszony hangosan, szinte kihívón.</p>
-                <p>- Ne mondja? Hát mikor jön haza?</p>
-                <p>- Az is az ő dolga! - vágta rá, és vont egyet a vállán, hogy nincs köze
+				<p>- Ottmaradt! - felelte az asszony hangosan, szinte kihívón.</p>
+				<p>- Ne mondja? Hát mikor jön haza?</p>
+				<p>- Az is az ő dolga! - vágta rá, és vont egyet a vállán, hogy nincs köze
                     hozzá.</p>
-                <p>- Na, csakhogy egyszer kinyílt a szeme magának is, Vitoriszné asszony! Elég soká
+				<p>- Na, csakhogy egyszer kinyílt a szeme magának is, Vitoriszné asszony! Elég soká
                     volt vak, vagy tette magát, hogy se lát, se hall.</p>
-                <p>- Micsodát? Mit nem látok?</p>
-                <p>A menyecske rábámult.</p>
-                <p>- Rögtön megmondja nekem, ha jót akar, azt mondom!... Nézze, ha nem ellenségem
+				<p>- Micsodát? Mit nem látok?</p>
+				<p>A menyecske rábámult.</p>
+				<p>- Rögtön megmondja nekem, ha jót akar, azt mondom!... Nézze, ha nem ellenségem
                     maga is, hát megmondja! - fogta kérőre a végin.</p>
-                <p>- Dehogy vagyok ellensége, sose legyen jobb akarója, asszonyság! Amit tudok is,
+				<p>- Dehogy vagyok ellensége, sose legyen jobb akarója, asszonyság! Amit tudok is,
                     az Erzsijétől tudom; ő maga beszél néha olyanokat az a veszett, hogy az embernek
                     a gyomra kifordul. De azt hiszi, csak énelőttem?... Akivel éppen összeakadt,
                     mikor rájön a beszélőkéje; csak egypár szót mond, de olyat!... Minap mesélte a
                     boltos is!... Én nem is hiszem, hogy nem bolond az néha!</p>
-                <p>- De hát mit - mit, az Isten áldja meg!</p>
-                <p>- Ó, nem is érdemes emlegetni... Hogy a Vitorisz úr őtet szereti, nem az
+				<p>- De hát mit - mit, az Isten áldja meg!</p>
+				<p>- Ó, nem is érdemes emlegetni... Hogy a Vitorisz úr őtet szereti, nem az
                     asszonyságot, hogy mán a doktoréktul is ő csalta el, hogy régen jóba vannak!</p>
-                <p>- Gyalázatos!... Ezt?</p>
-                <p>- Ójé - ezt! Hát még miket? Hogy az asszonyságnak tűrni muszáj, ha szeme előtt
+				<p>- Gyalázatos!... Ezt?</p>
+				<p>- Ójé - ezt! Hát még miket? Hogy az asszonyságnak tűrni muszáj, ha szeme előtt
                     csókolgatja az ura őtet - meg hogy ő aludt a Vitorisz úrral egy
                     ágyba,asszonyságnak meg oda kellett vinni nekik reggel a kávét; mert másképp
                     Vitorisz úr elkergette volna asszonyságot, hát inkább eltűrt mindent...</p>
-                <p>Elhallgatott, mert Veron felkacagott, és ezen megijedt egy pillanatra: olyan
+				<p>Elhallgatott, mert Veron felkacagott, és ezen megijedt egy pillanatra: olyan
                     érdesen hangzott, rikácsoló némberi dühvel. De nem - a folytatása már tiszta,
                     éles nevetés volt, végtelenül fölényes gúnyú és biztos. Csak az nevethet így,
                     aki nagyon biztos a dolgában!</p>
-                <p>- Na, majd megláthatják máma, hogy ki megy el innét elkergetve!...</p>
-                <p>Lesték és egy óra múlva látták is a leányt bemenni; és félpercre rá kifordulni
+				<p>- Na, majd megláthatják máma, hogy ki megy el innét elkergetve!...</p>
+				<p>Lesték és egy óra múlva látták is a leányt bemenni; és félpercre rá kifordulni
                     megint a pinceajtón - sompolyogva és révetegen. Az asszony egy kurta, parancsoló
                     szavára, fölemelt keze egy mozdulatára kioldalgott semmit sem kérdve, mindent
                     sejtve zavaros, homályos bűntudattal; - mint a kidobott kutya, melynek ismerős
                     ez a szó: mars!</p>
-                <p>Nyolc órát harangoztak, mikor Vitorisz hazajött; leült, várta a vacsorát. Az
+				<p>Nyolc órát harangoztak, mikor Vitorisz hazajött; leült, várta a vacsorát. Az
                     asszonynak még nem volt szava hozzá.</p>
-                <p>- Na, nem is keresed a drágalátost? - kérdezte végre halkan, elfúló hanggal.</p>
-                <p>- Miért?</p>
-                <p>- Mert kidobtam - ha tudni akarod!</p>
-                <p>Károly várt egy pillanatig. Csönd. Akkor vállat vont.</p>
-                <p>- Te hoztad a házhoz, akkor nem kérdeztél. Most is a te dolgod!</p>
-                <p>S halkan fütyült, míg az asszony kitálalt.</p>
-                <p> Veron nagy megkönnyebbülést érzett, fellélegzett; alig várta, hogy rendbeszedje
+				<p>- Na, nem is keresed a drágalátost? - kérdezte végre halkan, elfúló hanggal.</p>
+				<p>- Miért?</p>
+				<p>- Mert kidobtam - ha tudni akarod!</p>
+				<p>Károly várt egy pillanatig. Csönd. Akkor vállat vont.</p>
+				<p>- Te hoztad a házhoz, akkor nem kérdeztél. Most is a te dolgod!</p>
+				<p>S halkan fütyült, míg az asszony kitálalt.</p>
+				<p> Veron nagy megkönnyebbülést érzett, fellélegzett; alig várta, hogy rendbeszedje
                     az életüket megint; hogy tisztán takarítson, kiadósan és olcsón főzgéljen az
                     urára, jól kiszámítva, okosan beosztva; mert az Erzsi idején sokszor ettek hideg
                     vacsorát, sokszor hoztak ebédet kifőzésből; s az utolsó házbérbe tizenhat
@@ -1192,18 +1191,18 @@
                     is komolyan gondolkozott most ebben; buzgón utánajárt, és be is jutott a
                     tisztisapka-műhelybe; azzá a Király utcai gyárat alakította át hamarosan új
                     gazdája.</p>
-                <p>Erzsiről hallani se akart Veron; de azért hallott eleinte. Mondták, hogy akkor
+				<p>Erzsiről hallani se akart Veron; de azért hallott eleinte. Mondták, hogy akkor
                     éjszaka a huszonkilencben húzta meg magát, egy üres lakás puszta padlóján aludt
                     a szép, piros ruhában. Hogy tönkregyűrte, piszkolta! - csak negyednapra küldte
                     el a vicit egy emberrel a ládáért; attól kezdve sok holmit eladogatott potom
                     pénzen. Később galíciai menekültek laktak ott; azok is csak úgy, a földön
-                    batyuztak szegények; de pénz volt náluk ezüstben; - Erzsi koty­vasztott nekik,
+                    batyuztak szegények; de pénz volt náluk ezüstben; - Erzsi kotyvasztott nekik,
                     mosott kicsit a fürdőkádban, egy szalmán hált velük; angolul beszéltek valamit,
                     mert mind megjárták ezek is Amerikát. De hamar összeveszett e gyanakvó, ideges,
                     boldogtalan néppel; novemberre beköltöztek úgyis a rendes lakók; Erzsi eltűnt az
                     utcából - Veron úgy hitte, az ő életéből is, minden nyommal, emlékkel
                     együtt.</p>
-                <p>De nem állta meg, hogy elő ne hozza, hogy ne faggassa néha Károlyt. - Csak
+				<p>De nem állta meg, hogy elő ne hozza, hogy ne faggassa néha Károlyt. - Csak
                     egyszer mondd meg már! Hisz úgyis megbocsátok, csak tudjam, mi volt köztetek és
                     hogy meddig? Mikor... - Hagyj békén, kérlek, a barátnőddel! Minek hoztad ide?
                     Hisz rám mászott, simogatott, falt - hisz láthattad! Nem hagyott békét, pedig
@@ -1218,18 +1217,18 @@
                     vágott az életébe - tán még kényelmesnek is érezte; amíg idegenek ki nem
                     mondták, az utcán nem beszélték, míg az a szájas őrült, az a szerencsétlen el
                     nem kiabálta, túl nem hazudta otromba dicsekvésében?</p>
-                <p>- Őróla hallani se akarok! De te, te! Hogy tudtál hajlani neki - itt, itthon,
+				<p>- Őróla hallani se akarok! De te, te! Hogy tudtál hajlani neki - itt, itthon,
                     minálunk -, hogy piszkoltad be magad?... Te is csak olyan vagy, mint a
                     többi!</p>
-                <p>Már feledni látszott, hogy annak idején neki mennyire tetszett külsőleg is a
+				<p>Már feledni látszott, hogy annak idején neki mennyire tetszett külsőleg is a
                     leány; hogy még vitatkozott az urával ezen; s hogy mennyire szívéhez volt nőve a
                     nyomorult. Hisz egy ideig oly rendesen viselkedett, oly kedvesen... igen, hisz
-                    talán még hallgatagon meg is osztotta vol­na vele ura szerelmét tudva is - ha
-                    szó nem esik róla, vagy ha egy puszta helyen éltek volna hár­man, s nem egy
+                    talán még hallgatagon meg is osztotta volna vele ura szerelmét tudva is - ha
+                    szó nem esik róla, vagy ha egy puszta helyen éltek volna hárman, s nem egy
                     népes kis pestbudai utcán szemfüles szomszédok, pletykáló cselédek közt!...</p>
-                <p>- Hogy is jutott eszedbe legelőször, hogy ránézz úgy?... Azzal a ronda
+				<p>- Hogy is jutott eszedbe legelőször, hogy ránézz úgy?... Azzal a ronda
                     férfitermészeteddel!</p>
-                <p>- Ugyan, kérlek, mit regényezel? Mit úgy?... Kellett is arra nézni, nagyon érti
+				<p>- Ugyan, kérlek, mit regényezel? Mit úgy?... Kellett is arra nézni, nagyon érti
                     az azt!... Egyszer azt mesélte nekem a padláson - ha már olyan kíváncsi vagy -,
                     hogy míg a doktornénál szolgált, az asszonya maga mondta egyszer neki, mert
                     látott engem az utcán: “No, ez csinos ember, lássa! Ezt fogja meg magának, ha
@@ -1238,14 +1237,14 @@
                     szeretlek téged, Veron, azt jól tudod, krajcárt se költöttem más nőre életemben,
                     se nem bántottalak, de ha engem így szekírozol, úgy elmegyek, Veron, hogy soha
                     nem látsz többet!</p>
-                <p>Megijedt a fenyegetéstől és hallgatott; de nemsokára módját kereste, hogy
+				<p>Megijedt a fenyegetéstől és hallgatott; de nemsokára módját kereste, hogy
                     beszélhessen a doktornéval. Kérte a házmesternét, tudja ki, nem mosatna-e vele
                     megint? Csakugyan jó kuncsaft is volt, félhétben váltott tisztát, nem sok
                     dörgölés kellett a ruhának... Az úrnő örült neki, felhívta. Veron kávét kapott,
                     trécseltek: persze mindjárt az “Erzsi-ügyről” - végre is feltálalta csupa
                     tréfaképp a kerítés e cifra meséjét. Az özvegy majdnem megharagudott, alig
                     győzte békítgetni. - Ilyen butaságot. Hogy jut eszükbe? Foglalkozom én ilyen
-                    cselédpletykák­kal?... - Feledte, hogy e percben is foglalkozik; de Veron
+                    cselédpletykákkal?... - Feledte, hogy e percben is foglalkozik; de Veron
                     meggyőződött, hogy megint hazudott volt Erzsi. De miért is volt neki ez a
                     szamárság most fontos, mit érdekelte? - Lássa, Vitoriszné, én akkor is csodáltam
                     magát. Ilyen okos asszony létére, hogy ezt fel nem érte ésszel, hogy ebből jó
@@ -1254,19 +1253,19 @@
                     bajt csinált! - Veronnak eszébe jutott, hogy hisz faluhelyt, a nép emberei - de
                     iparosfélék közt is, ojjé, egész famíliák alusznak együtt meg a szolgáló... meg
                     az aratók a boglya alatt... hát hisz van, hogy baj esik, de nem olyan sűrűn, nem
-                    muszáj!... Hanem már másról beszéltek, szé­gyellt rá visszatérni. A doktornét
+                    muszáj!... Hanem már másról beszéltek, szégyellt rá visszatérni. A doktornét
                     folyton a háború foglalkoztatta, erről beszélt, bölcselkedett a vőlegényével;
                     erről olvasott el mindent Tolsztoj nagy regényétől kezdve a sajtóhadiszállás
                     hőseinek sok olcsó és cukros romantikájáig. Néhányszor már arra vetemedett,
                     hogy: “Egy mai nő” aláírással lejegyezze gondolatait, s beküldje valami
                     feminista újságnak: két ízben ki is nyomtatták - ó, ez különös látvány volt
                     neki, különös érzés -, de másodízben nagyon sokat kihúzott a cenzúra.</p>
-                <p>A fölmentett vasúti mérnök tiszt barátaitól, ha hazajöttek sebbel vagy betegen -
+				<p>A fölmentett vasúti mérnök tiszt barátaitól, ha hazajöttek sebbel vagy betegen -
                     oly sokfélét hallott; és mindent megjegyzett. Eleinte sokan emlegették az “öles
                     kéjé”-t, a “vérontás ősi férfigyönyörét”, s hasonlókat az utóbbi évek
-                    “freudista” szalonjainak egész zagyva szókincsé­vel. Mások fogadkoztak, hogy
+                    “freudista” szalonjainak egész zagyva szókincsével. Mások fogadkoztak, hogy
                     ámbár minden veszélyben ott voltak a bőrükkel; személy szerint nem öltek soha!
-                    Ám tél derekára elfogytak ezek az “érdekességek”, s már csak újság­írók
+                    Ám tél derekára elfogytak ezek az “érdekességek”, s már csak újságírók
                     sajtoltak magukból háborús anekdotákat, türelmetlen dühre lobbantva velük sok
                     frontbeli katonát. Pedig ezeknek itthon, szegényeknek élni kellett ebből; s
                     életben maradni általa! A szabadságolt tisztek lassankint már nem nézték
@@ -1275,30 +1274,30 @@
                     családunk, a barátaink?... - hanem maguk is szomjasan és néha halálos-hazárdul
                     estek neki minden szórakozásnak és mámornak, mások a családi örömek szépségét
                     itták szívükbe habzsolva; sokan vásároltak a kinn felgyűlt tisztfizetésből
-                    derűre-borúra: sző­nyeget, ékszert, vadászfelszerelést, ezer apró dísztárgyat,
+                    derűre-borúra: szőnyeget, ékszert, vadászfelszerelést, ezer apró dísztárgyat,
                     ajándékot, tán utolsó emlékül. Igen, a “Tán utolsó” gondolat minden mögött ott
-                    leskedve rohamos, ideges csengést adott a lelkek­ben mindennek; a csókba riadt
+                    leskedve rohamos, ideges csengést adott a lelkekben mindennek; a csókba riadt
                     és fájdalmas új gyönyört lopott. De igen sokaknak nem volt ilyesmi iránt
                     érzékük!</p>
-                <p>Vasúti állomások táján naponta lehetett látni roskatag, vánszorgó csapatokat,
+				<p>Vasúti állomások táján naponta lehetett látni roskatag, vánszorgó csapatokat,
                     végsőkig kimerült emberroncsokat - amint szemükben bamba, elmeredő közönnyel
                     haladtak valami kórház felé. - Ezekből sose lesz ember! - súgták a járókelők
-                    egymásnak a megszokástól tom­pult döbbenettel. De csodálkozhattak volna pár hét
+                    egymásnak a megszokástól tompult döbbenettel. De csodálkozhattak volna pár hét
                     múlva, ha látják az embereket az ágy melegében kipihenten, néhányszor jóllakva,
                     megnyugodva, szinte derülten, amint durákot vagy huszonegyet játszottak
                     naphosszat, s egymás közt a termésről beszéltek, gazdaságról, családi meg
                     bonyolult örökségi ügyeikről. A háború egyre kevésbé volt már téma és minden
                     inkább, mint szenzáció, s a legangyalibb nagysága párnaigazgató kacsójánál
                     nagyobb eset volt a beteg parasztnak, ha bejöhetett hozzá az asszony, a
-                    szögletes, szégyellős, koravénre szik­kadt, falusi nemben, ki nem is tudta, mit
+                    szögletes, szégyellős, koravénre szikkadt, falusi nemben, ki nem is tudta, mit
                     mondjon, bámult vagy tüsténkedett; de mórikálása, nehéz szava, megszítt, kemény
                     valója oly ösmerős volt, oly övé, hozzá közeli, értett és otthonszagú. A
                     kórházakban is inkább hivatásos vagy fizetett ápolónők voltak már, s aki
                     “önkéntes” megmaradt; - különösen komoly és elszánt nők, kik egy vagy más okból
-                    köteles­sé­get vállaltak önmaguk előtt. A sokdolgú orvosok azonban szívesebben
+                    kötelességet vállaltak önmaguk előtt. A sokdolgú orvosok azonban szívesebben
                     nézték a csendes, öreges népfelkelőket; kiket bármikor kurta paranccsal
                     felverhettek éjszaka:</p>
-                <p>“Vigye ki az ágytálat! Tartsa a szondát! Vigyázzon, magasabbra!” - Igen, az utcai
+				<p>“Vigye ki az ágytálat! Tartsa a szondát! Vigyázzon, magasabbra!” - Igen, az utcai
                     romantika már lekopott, lekopott az egészről; őszintébb lett így s jobban
                     meglátszott, hogy az “ember”-nek mennyire természetéhez való; mily hozzáillő!
                     Már senki szíve nem dobbant meg, ha a rikkancs “rendkívüli kiadást” ordított,
@@ -1308,20 +1307,20 @@
                     megint előre; másodszor már senkit meg nem ijesztett, bár senki nem hitte, hogy
                     érti a tervet, s valamennyi titkos hadicselt. Az emberek mukkanás nélkül ették a
                     kukoricakenyeret; egy híres professzor felolvasást tartott róla, hogy a
-                    leg­táplálóbb étel, s minden betegség ellen kiválóan hasznos, sőt hosszú életet
+                    legtáplálóbb étel, s minden betegség ellen kiválóan hasznos, sőt hosszú életet
                     biztosít. Szinte nap nap után indultak a marsbatallionok; zászlós, virágos fiúk,
                     néha már szakállas férfiak; a banda szólt mögöttük; oldalt tapsikáló gyerekek,
                     fáradtan ügető, verejtékes asszonyok, poros és könnyes arccal, nagy elemózsiás
                     batyúval: “Az útra szegénynek.” - A sort álló villamosokban vagy fenn a rolós
-                    ablakok mögött még felsírt egy-egy kalapos nő; gyászfátylasok ajka szára­zon
+                    ablakok mögött még felsírt egy-egy kalapos nő; gyászfátylasok ajka szárazon
                     összerándult: - Én már nem veszthetek! - mondta a sötét közönyű tekintet; mások
-                    szívé­ben lelkesült érzések kóvályogtak, s újságjuk vezércikkének aznapi
+                    szívében lelkesült érzések kóvályogtak, s újságjuk vezércikkének aznapi
                     mondatai. Mindazonáltal a legtöbb ember a maga bajával gondolt.</p>
-                <p>Vitoriszné is a Hiúz utcából - ó, mennyire! Karácsony előtt megint sorozták
+				<p>Vitoriszné is a Hiúz utcából - ó, mennyire! Karácsony előtt megint sorozták
                     Károlyt. Veron több éjszakán nem aludt, s aznap csontig járó ködű, vizes
                     reggelen négy és fél órát ácsorgott a kaszárnya előtt - egy sarkon föl, a
-                    másikon vissza a kapuig, már-már gondolattalan kábulat­ban, az összerogyásig
-                    kimerülve. Egyetlen motívum volt, ami zaklatott agyába folyton vissza­járt, hogy
+                    másikon vissza a kapuig, már-már gondolattalan kábulatban, az összerogyásig
+                    kimerülve. Egyetlen motívum volt, ami zaklatott agyába folyton visszajárt, hogy
                     ők nem éltek jól eddig, egész együttlétük hiányos volt, felületes; ő
                     századrészét sem adta urának, mint amit adhatott volna; ó, alig tett valamit
                     érte, ki sem mutatta a szeretetét! - Csak most adj, te jó Isten, egy kis időt!
@@ -1329,35 +1328,35 @@
                     vagyok én!... Milyen áldott jó volt hozzám mindig, és én még szekáltam!... Te jó
                     Isten!... Csak egypár hónapot még! - A lélegzete eltikkadt, két térde
                     reszketett. Fél egykor mosolyogva jött felé Károly... - Kellek is én - kell is
-                    oda ilyen nyava­lyás, vaksi! - mondta illendő rezignációval. Karon fogta,
+                    oda ilyen nyavalyás, vaksi! - mondta illendő rezignációval. Karon fogta,
                     bevitte egy fasírtra s egy pohár sörre a kis vendéglőbe.</p>
-                <p>A karácsonyestjük néhány nap múlva oly szép volt, oly meghitt és drága - elmosott
+				<p>A karácsonyestjük néhány nap múlva oly szép volt, oly meghitt és drága - elmosott
                     minden haragot, féltékenységet, vádat az a sok hirtelen-jött, találékony jóság,
                     mellyel körülvették egymást a szegénységben. Ez emberek számára a szóval-gyengédség új és csodált, eleven forma volt,
                     maguk-találta, friss út, melyre szülőiket, magukat felülmúlva léptek; s mily
                     büszkék, mennyivel különbek lettek általa épp ezért!</p>
-                <p>Veron erősen felfogadta, hogy bármi is történne köztük, soha egy szóval,
+				<p>Veron erősen felfogadta, hogy bármi is történne köztük, soha egy szóval,
                     szemrehányással meg nem bántja többé az urát. Károly is felfogadhatott
-                    egyet-mást; az időtől fogva az asszony­nak nem lehetett többé panasza, hogy
+                    egyet-mást; az időtől fogva az asszonynak nem lehetett többé panasza, hogy
                     későn jön haza munka után, tizenegyig is kimaradoz este - mi az utolsó időkben
                     újra megesett volt néha, és sok keserűséget okozott neki.</p>
-                <p>Egy februári reggel Veron, ahogy a nagycsarnok felé loholt, találkozott Erzsivel.
+				<p>Egy februári reggel Veron, ahogy a nagycsarnok felé loholt, találkozott Erzsivel.
                     A leány mosolyogva szelíden köszönt neki; kosár volt a karján, s öltözete, haja
-                    megint egész ren­desnek, csinosnak látszott. Elmondta, hogy már harmadik hónapja
-                    szolgál, mint “tészta­szakács­né” egy iskolakórház konyháján. Szép fizetést kap,
+                    megint egész rendesnek, csinosnak látszott. Elmondta, hogy már harmadik hónapja
+                    szolgál, mint “tésztaszakácsné” egy iskolakórház konyháján. Szép fizetést kap,
                     negyven koronát; egész délelőtt gyúrni kell, az igaz, de az olyan jó, egyforma
                     dolog, nem rángatja senki ide-oda. Ha délben kifőzi, szétosztja; más dolga nincs
                     aznap, szolgálók mosogatnak, ő akár alhatik estig; s ehet, amennyi belefér.
                     Kimenő nem is kell, mert van ott “társaság”; este
-                    összejönnek, szórakoz­nak. Egy ápoló ismerőse ajánlotta be ide őt is... Veron
+                    összejönnek, szórakoznak. Egy ápoló ismerőse ajánlotta be ide őt is... Veron
                     figyelte, hogy a leány most, hogy “jó raptussa van”, újra megtanult választékos,
                     biztos kifejezésekkel és bőven beszélni. Eszébe jutottak a múlt tavaszi szép
                     idők, mikor annyira tetszett ez neki: de mindjárt elöntötte a keserűség. Már túl
                     sokat tudott, már túl jól ismerte.</p>
-                <p>- Elhívnálak, hogy látogass meg egyszer, fiam - mondta gőgösen -, de az uram
+				<p>- Elhívnálak, hogy látogass meg egyszer, fiam - mondta gőgösen -, de az uram
                     nagyon megtiltotta!</p>
-                <p>A leány hallgatott érzéketlen, semmitmondó arccal.</p>
-                <p>- Nem tudom, mivel haragítottad úgy meg, hogy annyira gyaláz téged, mindennek
+				<p>A leány hallgatott érzéketlen, semmitmondó arccal.</p>
+				<p>- Nem tudom, mivel haragítottad úgy meg, hogy annyira gyaláz téged, mindennek
                     elmond! Ilyen a férfi! - Erzsi néma maradt. - Kérlek, már csak megmondom, hisz
                     neked mindegy; azt mondja mindig: “Az az aljas személy, az a disznó be ne tegye
                     a küszöbön a lábát!” - A másik nem reagált semmire... Veronnak a nyelvén
@@ -1366,7 +1365,7 @@
                     szégyellés, bizonytalanság nem engedte ki a torkán - inkább ezt helyette: - Hát
                     ha olyan jól megy dolgod, most meg is adhatnád azt a kis tartozásod: négy korona
                     hetven a boltban édességekért; a pékné is egy koronát követelt rajtam!... -
-                    Veron meg­szokta már, hogy ismerősök, szomszédok előtt is mind ezt a kis pénzt
+                    Veron megszokta már, hogy ismerősök, szomszédok előtt is mind ezt a kis pénzt
                     emlegesse, az apró csalásokat legfőbb sérelmül, ha Erzsit emlegették neki; már
                     maga is hitte néha, hogy főleg ez bántja... pedig jószántából mennyit ráköltött,
                     ráadott volna akkortájt szívesen! De ez a panasz mindig értő szívekre lelt, és
@@ -1380,12 +1379,12 @@
                     zavarta meg: azt beszélték, hogy Károly alighanem megint sorozásra fog kerülni a
                     tavaszon. Még nem volt róla plakát, csak a boltos erősítgette, mert most megy ő
                     is, de a pék azt mondta, hogy: “nem létezik!”</p>
-                <p>Tavaszi nap játszott újra a házfalakon, kopottas, rozsdás; a sikátorból
+				<p>Tavaszi nap játszott újra a házfalakon, kopottas, rozsdás; a sikátorból
                     kiszabadultak a hangok, eleven gyereksikolyok - az esték megfülledt levegőjében
                     táncolt a por, fenn az elhagyott műterem ablaka égett véresen; hol járhat ez a
                     piktor, mit fest vagy mi festi? - De a kapu alatt vidám sebesültek cicáztak a
                     cselédekkel, a pince előtt szomszédasszonyok pletykáztak, az élelemárakon
-                    sopánkodtak, mint akármely más esztendőben. Odakinn, messze, az intézmé­nyes
+                    sopánkodtak, mint akármely más esztendőben. Odakinn, messze, az intézményes
                     emberirtásnak nem volt már régen az utcára, a kedélyek izgult részvételére
                     szüksége; pontosan és a legtökéletesebb bürokratikus rendben, szervezve,
                     szabályosan és korlátlanul haladt kipróbált, őrületes útján. - Veront újabban
@@ -1394,39 +1393,39 @@
                     kedvükért, ki-kiült velük este; az ember mégsem bírja ki egyedül! Egy szombaton
                     egyik harmademeleti lány (az udvarból) hozta le vihogva, nagy szenzációképp a
                     hatásos hírt.</p>
-                <p>- Ő a klinikán volt, a gyűlt ujját felvágatni - meg is nézhetik, nehogy mást
+				<p>- Ő a klinikán volt, a gyűlt ujját felvágatni - meg is nézhetik, nehogy mást
                     gondoljanak -, hát ott találta az Erzsit, aki itt lakott most egy éve.
                     Hímezett-hámozott, de ő kileste, kivárta azért is; a szülészetire szólt bizony a
                     cédulája! Azt mondta: nagyot emelt, egy kis női baja támadt; de ő megnézte jól a
                     termetit; ő csak leány, nem tudhatja biztosra, de az ember lát, ha van szeme -
                     hát nem igaz? Esküdni merne, hogy “kicsi bántja a nagyot”!</p>
-                <p>Veron első gondolata az volt, hogy a kilenc ujján végigszámlálta, titokban
+				<p>Veron első gondolata az volt, hogy a kilenc ujján végigszámlálta, titokban
                     elzongorázta a székfal mögött a hónapokat. Aztán rájött, hogy legfeljebb négy
                     ujjra van szükség, ha még nem látszik világosan, ha még klinikára megy
-                    kérdezni... És őtőlük a leány elment még szeptem­berben!...</p>
-                <p>Aztán egyszerre, minden vére a fejébe szállt, mert eszébe jutott, hogy ez magában
+                    kérdezni... És őtőlük a leány elment még szeptemberben!...</p>
+				<p>Aztán egyszerre, minden vére a fejébe szállt, mert eszébe jutott, hogy ez magában
                     semmit sem bizonyít...</p>
-                <p>De Károlyt nem faggatta akkor este, sem később - megfogadta volt magában még az
+				<p>De Károlyt nem faggatta akkor este, sem később - megfogadta volt magában még az
                     első sorozáskor, hogy nem teszi ezt többé. Csak odavetőleg és ártatlan hangon,
                     mint valami újságot mondta el az urának:</p>
-                <p>- Hát az Erzsinek gyereke készül! - nem is tett hozzá becsmérlő szókat. De egy
+				<p>- Hát az Erzsinek gyereke készül! - nem is tett hozzá becsmérlő szókat. De egy
                     idő múlva, vacsora után a férfi maga firtatta kissé a körülményeket, látszólag
-                    odavetőn, lenéző kíván­csisággal, hogy ki mondta, biztos-e, és mióta lehet
+                    odavetőn, lenéző kíváncsisággal, hogy ki mondta, biztos-e, és mióta lehet
                     úgy?</p>
-                <p>Mikor észrevette, hogy az asszony elszántan állja, nem tör ki vádakban, nem izgul
+				<p>Mikor észrevette, hogy az asszony elszántan állja, nem tör ki vádakban, nem izgul
                     fel - a következő napokon is visszatért erre halk, óvatos kérdezgetéssel.</p>
-                <p>...És Veron most megint nem sejtett, nem gondolt semmi rosszat; míg egyszer, az
+				<p>...És Veron most megint nem sejtett, nem gondolt semmi rosszat; míg egyszer, az
                     egyik bejáró mosóné, egy különösen csúnya, fogatlan boszorka, olyasmit nem
                     ejtett ki (biztosan nem akaratlanul) azon az irigy, csúf száján, hogy: hiszen
                     látta is ő egyszer a télen úgy estefelé Vitorisz urat az Erzsivel... a budai
                     Lánchíd tájékán mentek egy kis kerten át, ő jól a képükbe nézett... de igen
                     siettek!...</p>
-                <p>Ez a banya nem is hazudott. - Vitorisz egyszer-kétszer véletlenül találkozott még
+				<p>Ez a banya nem is hazudott. - Vitorisz egyszer-kétszer véletlenül találkozott még
                     ősszel, az utcában a leánnyal, s a szokott modorában váltott vele néhány szót;
                     azzal a nyegle és bosszús, rosszindulatú érzékiséggel, ahogy soha még nem érzett
                     más némber iránt. A lyány - másokkal feleselő, illedelmes kacér, vagy rögtön
-                    engedő, ahogy éppen a “raptus”-a hozta - ezzel szem­ben elnémult, meglippent
-                    mindig. Inkább butának tette magát, csakhogy passzív marad­hasson, egész valóját
+                    engedő, ahogy éppen a “raptus”-a hozta - ezzel szemben elnémult, meglippent
+                    mindig. Inkább butának tette magát, csakhogy passzív maradhasson, egész valóját
                     a lágy, suta ösztönnek engedve átal, melyben ő tudattalan volt szinte és
                     teljességgel gyámoltalan; akár az időszakos könnyelműségeiben, le-lezülléseiben.
                     E férfi “vicces” enyelgése, oly kifejezetten megvető birtoklása nem is
@@ -1437,17 +1436,17 @@
                     eset. De azután sem szólt az neki semmit, hogy így legyen eztán, vagy amúgy
                     akarja, vagy hogy miért, hogy lett ez; s a nő nem mert volna maga változtatni;
                     itt a másik vezetett - már ez így formálódott ki köztük. Sokszor bánt vele
-                    nyersen, majd mindig gúnyo­san, de néha szólt egypár jóindulatú, barátságos
+                    nyersen, majd mindig gúnyosan, de néha szólt egypár jóindulatú, barátságos
                     szót, és ő nem volt vele tisztában, nem tudta, mit gondol róla, mit akar vele,
                     kell-é csakugyan neki? Tán kis asszony-esze ebben zavarodott össze, arra várt,
                     hogy egyszer még mellé vagy fölé kerüljön. Ó, ha jól megkönyörögtette,
                     megríkathatta volna egyszer!... De csak meglapult előtte, s azzal szolgált buta
                     megadásában, amit ez legalább tartott valamire benne; néha megdicsérgette a
                     csípejét, a húsos lábát, a fehér nyakát.</p>
-                <p>Károly nem tudta akkor még, miért ment el tőlük valójában a leány; s nem is
+				<p>Károly nem tudta akkor még, miért ment el tőlük valójában a leány; s nem is
                     nagyon akarta firtatni otthon. Szidta nevetve, hogy így lerongyollott a
                     pajeszeséknél! Egyszer, hogy a vastag ápolóval látta: az este nem is köszönt
-                    neki vissza, fütyülve haladt el mellette. De novem­berben megfogta a lány, hogy
+                    neki vissza, fütyülve haladt el mellette. De novemberben megfogta a lány, hogy
                     elmondja, milyen jó helyre került. - Na, azt szeretném egyszer látni, bizonyosan
                     füllentesz, hékám megint? - A leány erősködött; s meg kellett ígérnie, hogy majd
                     elmegy, meggyőződik. Tulajdonképp ezt akarta: néhányszor mostanában kívánást
@@ -1462,12 +1461,12 @@
                     papirospénzt vagy gesztenyehéjat, ezen vihogtak. Károly gonoszkodva nézte egy
                     darabig; de a leány meglátta, íziben szaladt át hozzá; ám Vitorisz jól hallotta,
                     hogy az úrfi utánaszólt: Hát tízre, mint tegnap!</p>
-                <p>Ennyi volt, erre emlékezett a férfi mindössze. Akkor az ösztönszerű féltést vagy
-                    hiúság­sérel­met végső utálatnak hitte magában. - Mégis disznóság tőlem, hogy
+				<p>Ennyi volt, erre emlékezett a férfi mindössze. Akkor az ösztönszerű féltést vagy
+                    hiúságsérelmet végső utálatnak hitte magában. - Mégis disznóság tőlem, hogy
                     ezzel töltöttem egy félórát is, még viccből is - ezzel a csuszpájzostál-képű
                     szeméttel! Mikor otthon vár a feleségem, szegényem! - Hogy tudnám, én azt
                     szeretni, ha semmit se kérdene, nem szekírozna! Erre nem is köpök többet!</p>
-                <p>Csakugyan - nem is látta azóta mostanig. Jött a sorozás, a Veron nagy izgalma,
+				<p>Csakugyan - nem is látta azóta mostanig. Jött a sorozás, a Veron nagy izgalma,
                     szép, forró ragaszkodása - jött az a karácsony!... “Be jól is érti, ez a lelkem,
                     hogy énvelem hogy kell!” - gondolta sokszor megindultan. “Csak egy kicsit
                     pihentebb volna, egy kicsit vérmesebb! - Én nem vagyok magam se valami vadmarha,
@@ -1475,14 +1474,14 @@
                     ura kívánsága szerint - vagy tán csak hitegette csupa szeretetből; de akkor jól
                     hitegette! A szegénységük sok baja most összezsugorodott; már boldogok lesznek,
                     úgy érezték - ha a háborúnak, bizonytalanságnak egyszer vége szakad.</p>
-                <p>...És most mégis érezte a férfi, hogy foglalkoztatja, jobban, mint akarná, annak
+				<p>...És most mégis érezte a férfi, hogy foglalkoztatja, jobban, mint akarná, annak
                     a rongyosnak a dolga. “Hol az Istenben szedte az fel a bajt?” - sokszor kapta
                     tépelődésen magát. - Régi és már eltemetett problémája az életének, aminek soha
                     végére nem járhatott - izgatta újra. Lehet-é őneki - őtőle egy asszonynak
                     gyereke?... Érthetetlen ambíciót helyezett ebbe, néha valami ösmeretlen testi
                     hibáját sejtette tanulatlan ésszel, tán ezért, ó! Veron régebben néha mondta
                     neki: - Ha jól megy a pucerájunk, gazdagok leszünk - akkor nem bánom, kerestesd
-                    fel ügy­véddel valami inaskori fattyú gyerekedet - akárki az anyja, én elveszem,
+                    fel ügyvéddel valami inaskori fattyú gyerekedet - akárki az anyja, én elveszem,
                     felneveljük, mint enyémet! - s ő ilyenkor érthetetlen, ijedt szégyennel gondolt
                     rá, hogy nem tud efféle esetről!... És most - most az a féleszű, lám, még rá is
                     foghatná, ha akarná, ó... Bár éppen annyira nem féleszű, hogy egészséges kölyke
@@ -1493,7 +1492,7 @@
                     hallotta; akkor, hogy a kis ifiúr estére tízre ígérkezett; de hány lehetett
                     annak még ott, a kórházban, ahol szolgált - akár egy regiment! Hiszen, ha
                     biztosan tudná az ember!...</p>
-                <p>Ha sejtette volna, hogy felesége tud vagy hallott a decemberi találkáról! De
+				<p>Ha sejtette volna, hogy felesége tud vagy hallott a decemberi találkáról! De
                     Veron a világért meg nem szegte volna babonás háborús fogadalmát; szóval sem
                     említette. Hanem álmatlan órákon éjszaka és nappal is, dolog közben ennek az
                     ügynek izgalma emésztette - valami rettentően kínzó féltékenységgel, mely éppen
@@ -1503,50 +1502,50 @@
                     hát neki pár sort, és bevitte Pestre; az utcája sarkán (hogy olcsóbb legyen)
                     rábízta egy hordárra. Az volt benne, hogy eljöjjön hozzá másnap reggel kilencre,
                     mert sürgős beszéde van vele!</p>
-                <p>Nyitva hagyta a pincét a meleg májusi levegőben, dologba nem fogott, tiszta kötőt
+				<p>Nyitva hagyta a pincét a meleg májusi levegőben, dologba nem fogott, tiszta kötőt
                     vett magára és rongytalan, mosott blúzt; egész alaposan ki akarta kérdezni a
                     leányt; egyszer, akárhogy, de biztosat tudni. - Az jött végre lassan, félszegen
                     - telt, sápadt arccal, mellén jól összefogott kendővel iparkodva, hogy egészen
                     rendesen lépkedjen lefelé a pincelépcsőn. Veron ülve maradt az ágy sarkában,
                     mozdulatlanul, villogó szemekkel nézte. - Ülj le, te boldogtalan! - kiáltott
                     végre rá, őnála szokatlan, tragikai hanglejtéssel.</p>
-                <p>Erzsi habozva ereszkedett egy székre; a kendő szétnyílt. Bizony, már észre
+				<p>Erzsi habozva ereszkedett egy székre; a kendő szétnyílt. Bizony, már észre
                     lehetett venni, ha nem is túlságosan; nagy mellei szétestek, a blúzáról két
                     helyen is lepattant a gomb. Szelíden, szinte bárgyún nézett széjjel e rég látott
                     helyen.</p>
-                <p>- Nekem most felelni fogsz a szavamra sorba, ahogy kérdezem! - parancsolta Veron
+				<p>- Nekem most felelni fogsz a szavamra sorba, ahogy kérdezem! - parancsolta Veron
                     kemény, feszült akarattal, hangosan.</p>
-                <p>A leány nem is biccentett; de egész lényén tehetetlenség ült és közönyös, végső
+				<p>A leány nem is biccentett; de egész lényén tehetetlenség ült és közönyös, végső
                     megadás.</p>
-                <p>- Ide hallgass! Először is megmondod pontosan, hogy hány hónapos az a!...</p>
-                <p>Elakadt, fulladozva az izgalomtól. A leány szeme eltévedt egy pillanatra, nyers
+				<p>- Ide hallgass! Először is megmondod pontosan, hogy hány hónapos az a!...</p>
+				<p>Elakadt, fulladozva az izgalomtól. A leány szeme eltévedt egy pillanatra, nyers
                     zöldséget látott az asztalon, szörnyen megéhezett idáig, és gyötrelmesen
                     kívánta, de nem mert kérni.</p>
-                <p>- Hallod, mit kérdek! Hány hónapja vagy így?</p>
-                <p>- Vagy öt - azt hiszem...</p>
-                <p>- Azt hiszed?... ó, te tönkrejutott! Te Isten nyomorultja, hát így kell hogy
+				<p>- Hallod, mit kérdek! Hány hónapja vagy így?</p>
+				<p>- Vagy öt - azt hiszem...</p>
+				<p>- Azt hiszed?... ó, te tönkrejutott! Te Isten nyomorultja, hát így kell hogy
                     lássalak! - Érzed-e már mozogni, arra felelj!</p>
-                <p>- Igen - némelykszer!</p>
-                <p>- Te elvetemült, mi lesz belőled, mire neveled azt a porontyodat; gondolsz te
+				<p>- Igen - némelykszer!</p>
+				<p>- Te elvetemült, mi lesz belőled, mire neveled azt a porontyodat; gondolsz te
                     arra? - Máma, mikor annak is kár lenni, aki van; mikor a gazdag úriasszonyok is
                     óvakodnak; amilyen világ most fog jönni, azt szaporítod te egy fattyú koldussal,
                     aki bolond lesz világéletében, mint az anyja? De nekem,
                     hallod-é, jó mindegy! Én csak azt akarom tudni, igen... tudni
                         akarom, hogy ki az apja.</p>
-                <p>Erzsi hallgatott, megrémítve nézett körül. “Kitől van?” - faggatta az asszony
+				<p>Erzsi hallgatott, megrémítve nézett körül. “Kitől van?” - faggatta az asszony
                     enyhébb hangon, de el nem eresztve hatalmából.</p>
-                <p>- Egy ápolótól... Aki itt volt előbb az iskolakórházban... te is láttad.</p>
-                <p>- Attól?... Hisz most is hazudsz nekem!... Az egész világ beszéli itt, azt
+				<p>- Egy ápolótól... Aki itt volt előbb az iskolakórházban... te is láttad.</p>
+				<p>- Attól?... Hisz most is hazudsz nekem!... Az egész világ beszéli itt, azt
                     hiszed, nem tudnak az emberek mindent, hogy egy önkéntesé voltál jó pénzért, te
                     gaz! Hisz szemmel láttam, te szemét, majd kisül érted mind a két szemem; hogy
                     viselted magad, akkor is, most esztendeje, a kórházban! Beszélj, mert
                     kettéváglak! Miféle önkéntestől van?</p>
-                <p>- Azzal... nem voltam én akkor.</p>
-                <p>- Nem akkor?... Mit tudod te, már magad is összetéveszted!
+				<p>- Azzal... nem voltam én akkor.</p>
+				<p>- Nem akkor?... Mit tudod te, már magad is összetéveszted!
                     Hol az ápoló? Engem most rögtön oda fogsz vinni hozzá! Beszélni akarok azzal az
                     ápolóval!</p>
-                <p>- Elment az a harctérre már!...</p>
-                <p>- Hazudsz, látod, most megfogtalak! Te, ha egy csöpp szemed volna, meg se állnál
+				<p>- Elment az a harctérre már!...</p>
+				<p>- Hazudsz, látod, most megfogtalak! Te, ha egy csöpp szemed volna, meg se állnál
                     a Duna fenekéig. Olyan nőnek, amilyen te voltál valaha, ide kellett zülleni?...
                     Ha legalább tettél volna idejében valamit! Anya lenni, ilyen
                     természettel; vétek még meg is engedni az ilyennek!... Elébb tanul meg
@@ -1556,7 +1555,7 @@
                     más férfira, ha éntőlem, hallod-e (és egyre jobban kiáltott), tőlem nem tudott
                     lenni neki; hát hogy egy ilyen rongy, világszekere elmondhatja-é a piszkos,
                     hazug szájával...</p>
-                <p>Elhallgatott, maga is megrémült a rikácsoló, eszelősen dühödt hangjától. Már nem
+				<p>Elhallgatott, maga is megrémült a rikácsoló, eszelősen dühödt hangjától. Már nem
                     volt nyugodt, elvesztette a szuggesztív hatalmát, így célt nem ér! - A leány két
                     tenyerébe fektetett arccal, gyermekies, friss, hangos nyögésekkel sírt -
                     sírdogált előtte. Az utolsó mondatokat tán nem is hallotta már - meleg esőként
@@ -1571,50 +1570,50 @@
                     régi, kedves hang mondta el nyomorultnak, tönkrement sorsúnak, kiért kár, hogy
                     idejutott! - Egyszerre fölengedett minden érzése, törődöttsége, testi aggodalma,
                     elhagyottsága - e jóízű, szuszogó, mély és enyhe sírásban...</p>
-                <p>A pincelépcsőn Károly jött lefelé, döbbenten állt meg egy percre, hallotta az
+				<p>A pincelépcsőn Károly jött lefelé, döbbenten állt meg egy percre, hallotta az
                     asszony rémítően izgult hangját, látta a leányt zokogni. Elsápadt, és csendes,
                     fáradt léptekkel, rájuk se nézve, nem is köszönve bement a fülkébe, ledőlt az
                     ágyra.</p>
-                <p>- Most eredj innét rögtön! - sziszegte az asszony villámgyorsan a leány felé. -
+				<p>- Most eredj innét rögtön! - sziszegte az asszony villámgyorsan a leány felé. -
                     Majd egyszer tán felkereslek, folytatjuk, most kifelé innét! - A polcról
                     előkotort egy csorba, cifra tányérkán valami maradék disznósajtot, futtában tört
                     hozzá a kukoricakenyérből, odanyomta neki, segített felállni, szinte lódította.
                     S az ment kifelé szó nélkül, még szipogva, a kendő alatt már törve a kenyérből.
                     - Veron halkan, bizonytalanul, nagyon megszégyenült és bánatos arccal indult a
                     férje felé; még mindig ott feküdt az ágyon, hanyatt.</p>
-                <p>- Kár izélni, Veronka - mondta nagyon halkan, szelíden -, úgyis megyek az utadból
-                    nem­sokára; máma bevettek!... Nem akartam mondani előre, hogy hiába ne aggódjál,
+				<p>- Kár izélni, Veronka - mondta nagyon halkan, szelíden -, úgyis megyek az utadból
+                    nemsokára; máma bevettek!... Nem akartam mondani előre, hogy hiába ne aggódjál,
                     bizony, ma kilenckor beváltam.</p>
-                <p>Eleinte csak úgy látta, mint valami nagy szerencsétlenséget. Itt valakik,
+				<p>Eleinte csak úgy látta, mint valami nagy szerencsétlenséget. Itt valakik,
                     valamiért élete ellen törnek annak, akit ő szeret; neki meg kell tenni mindent,
                     hogy megmentse.</p>
-                <p>- De hiszen szembajos vagy!</p>
-                <p>- Ugyan, kérlek, mikor zavart az engem valamiben? Meg se látszik!</p>
-                <p>Egyszer mégis elment a helyőrségibe, az őrnek azt mondta könyörgő, rémült
+				<p>- De hiszen szembajos vagy!</p>
+				<p>- Ugyan, kérlek, mikor zavart az engem valamiben? Meg se látszik!</p>
+				<p>Egyszer mégis elment a helyőrségibe, az őrnek azt mondta könyörgő, rémült
                     szemmel, hogy operálják fenn az urát; felsompolygott, egy sötét folyosózugban
                     megvárta a főtörzsorvost. Az öregúr nyájasan nézett a szomorú kis nőre, de mikor
-                    kinyögte, miről van szó, bosszúsan le­gyintett a kezével. “Ach, was denn nicht!”
+                    kinyögte, miről van szó, bosszúsan legyintett a kezével. “Ach, was denn nicht!”
                     - s tovább sietett!</p>
-                <p>- De hiszen te katonaruha-készítőnél dolgozol!</p>
-                <p>- Kérlek, Veronkám, ne nevettesd ki magad. A tisztisapkaüzlet magánvállalkozás.
-                    Majd kis­asszonyt fogadnak helyettem!</p>
-                <p>- De ha lőport, muníciót csinálnál?...</p>
-                <p>- Ugyan - no!</p>
-                <p>Megint nekiindult; lehetetlen utakon-módokon kért, próbált - nem is remélve már,
+				<p>- De hiszen te katonaruha-készítőnél dolgozol!</p>
+				<p>- Kérlek, Veronkám, ne nevettesd ki magad. A tisztisapkaüzlet magánvállalkozás.
+                    Majd kisasszonyt fogadnak helyettem!</p>
+				<p>- De ha lőport, muníciót csinálnál?...</p>
+				<p>- Ugyan - no!</p>
+				<p>Megint nekiindult; lehetetlen utakon-módokon kért, próbált - nem is remélve már,
                     éppen csak hogy a lelkét megnyugtassa. Résztvevő mosollyal vagy haraggal
                     utasították el. - Az én fiam is ott van! - Az én uram is! - mondták neki gazdag
                     és hatalmas emberek. S ez előtt el kellett némulnia.</p>
-                <p>Akkor egy nagy, végleges elszánással belenyugodott. “Itt vége, a szép életünknek
+				<p>Akkor egy nagy, végleges elszánással belenyugodott. “Itt vége, a szép életünknek
                     vége!” Igyekezett elgondolni, hogy másnak még annyi se jut, mást a részeges ura
                     üt-ver, jó napja sincs. Hány asszony még örül máma, hogy rossz emberét elvitték,
                     a segélyből békén és rendesen élhet a gyerekkel. Hiába, mindent az olyanoknak
                     kell megszenvedni, akik jobbak a többinél. Hát most vége!</p>
-                <p>Sokat sírt titkon, de már nem lázadva a sors, az emberek ellen, akik megrabolják
+				<p>Sokat sírt titkon, de már nem lázadva a sors, az emberek ellen, akik megrabolják
                     életét; hanem csendes, meghatott, mély fájdalommal siratta el urát; mint egy
                     drága, nagy beteget, ki oly erős és jó, hogy vidám arccal, kedvesen jár-kel még
                     övéi között. És mindent elkövetett a végső erőfeszítésig, hogy ezt az időt, e
                     szép nyári napokat kellemessé tegye számára.</p>
-                <p>Kétség, aggodalom már nem hánykódott a lelkén; valahogy leszámolt. Hogy
+				<p>Kétség, aggodalom már nem hánykódott a lelkén; valahogy leszámolt. Hogy
                     visszakerülhet-é egyszer ura épségben vagy nyomorékon, hogy ő még dolgozhasson
                     érette, áldozhasson neki? Megőrzi-e a sokféle véletlen közül valamelyik életét?
                     Vége lesz-é hamar a háborúnak? Ezek a kérdések - már látta - akarata határán kívül estek, tehát számításai, tervei határán is. Ha
@@ -1622,10 +1621,10 @@
                     Gellérthegyet ki tudná mozdítani a helyéből a jóvoltáért, a tíz körmével is
                     kaparna neki, boldog lenne! De ez akkor már újrakezdés
                     lesz; most mostanigra: vége! Mert egy lépés nincs
-                    hatalmában, egy szalma­szálat keresztbe nem tehet, hogy elősegítse. S passzíve
+                    hatalmában, egy szalmaszálat keresztbe nem tehet, hogy elősegítse. S passzíve
                     várni, reménykedni, imádkozni, bizonytalankodni; erre nem volt képes.</p>
-                <p>Mit használ az?</p>
-                <p>Inkább tett, készült, tervezett, hogy mindent tőle telhetően
+				<p>Mit használ az?</p>
+				<p>Inkább tett, készült, tervezett, hogy mindent tőle telhetően
                     megkönnyítsen. Legyen majd annyi pénze, hogy csomagot adhasson vele, finom
                     elemózsiákat, amit Károly szeret. És azontúl is, úgy dolgozhasson, hogy
                     elküldésre is jusson gyakran pár korona, kis harmincöt dekás postadobozokba
@@ -1638,56 +1637,56 @@
                     Majd takarítani is jár, mos, kifőz, amit tehet - lyányokat fogad kvártélyba, de
                     a huszonegyes pincéből ki nem megy; itt volt a szép idejük, ide találjon vissza,
                     itt keresse őt, még ha ráontaná is a házat valami bomba azalatt...</p>
-                <p>Károly fáradtan, kiizzadva rohant haza néha a kaszárnyából a csúf, plötyögős
+				<p>Károly fáradtan, kiizzadva rohant haza néha a kaszárnyából a csúf, plötyögős
                     bakaruhában. A szép, kinyalt fiú kopaszra nyírt volt, kaszárnyaszagú, mocskos
                     körmű; Veron sebtiben vizet forralt, a legnagyobb mosóteknőbe ültette, úgy
                     szapulta. Aztán tömte belé a félrerakott, innen-onnan összekerített jó
                     falatokat.</p>
-                <p>- Rosszul bánnak veled, mondd, a kiképzésnél? - kérdezte halkan, aggódva.</p>
-                <p>- Azt éppen nem lehet mondani! Tekintettel vannak, az látszik, a korunkra is; már
+				<p>- Rosszul bánnak veled, mondd, a kiképzésnél? - kérdezte halkan, aggódva.</p>
+				<p>- Azt éppen nem lehet mondani! Tekintettel vannak, az látszik, a korunkra is; már
                     csak nem vagyunk taknyosok! De kiabálni mégis muszáj, ha sok embert össze
                     akarnak tanítani valamire. És ilyen gyorsan, hetek alatt!... És ilyen kutya,
                     kánikula melegben!...</p>
-                <p>Csakugyan úgy beszélték, hogy szeptemberben már indulnak ezek a vagonnal. Jobb
+				<p>Csakugyan úgy beszélték, hogy szeptemberben már indulnak ezek a vagonnal. Jobb
                     szoktató inkább egypár hét még a front mögött.</p>
-                <p>Veron csakugyan selyemalsót varrt éjszakánként; szárazat, erőset s oly könnyűt,
+				<p>Veron csakugyan selyemalsót varrt éjszakánként; szárazat, erőset s oly könnyűt,
                     hogy három rend elfért a köpenyzsebben. A zsákot inkább tartós ételneművel tömte
-                    meg, teával, szaha­rin­nal, kávékockákkal. Lopva, kissé büszkén, de inkább
+                    meg, teával, szaharinnal, kávékockákkal. Lopva, kissé büszkén, de inkább
                     gondolomra - s néhány olcsókönyvtári füzetet rakott közé, mogyoróstésztát.</p>
-                <p>Károly nem akarta, hogy gyalog kísérje ki, a marsolók oldalán tipegve a teherrel,
-                    mint a paraszt­asszonyok. Kalapot, sőt fátylat kössön, öltözzék fel rendesen, és
+				<p>Károly nem akarta, hogy gyalog kísérje ki, a marsolók oldalán tipegve a teherrel,
+                    mint a parasztasszonyok. Kalapot, sőt fátylat kössön, öltözzék fel rendesen, és
                     villanyossal előre ki. Akkor egy állomásig szóló jeggyel ügyesen kisurranhat a
                     peronra, elbújhat valahol, és együtt lehetnek vonatindulásig.</p>
-                <p>Ám ez nem sikerült, az őr kétszer is visszakergette; feldcúgok indulásakor nincs
+				<p>Ám ez nem sikerült, az őr kétszer is visszakergette; feldcúgok indulásakor nincs
                     helye civilnek, asszonynak a sínek táján. - Még tán hogy elébe feküdjenek nekem!
                     - mormogott az ősz bajuszú. A folyosón várta meg, ott sétáltak még pár percig
                     karonfogva a tömérdek loholó, síró, búcsúzó ember zűrzavarában.</p>
-                <p>- Álljunk ide egy percre a sarokba, a rácsnak megtámaszkodhatsz! - súgta a
+				<p>- Álljunk ide egy percre a sarokba, a rácsnak megtámaszkodhatsz! - súgta a
                     férfi.</p>
-                <p>Szeretett volna még sok szépet, biztatót mondani, de a nagy virvár, kavarodás, a
-                    percek bizony­talansága lefoglalta és elszórta figyelmét. Aztán mindent, mindent
+				<p>Szeretett volna még sok szépet, biztatót mondani, de a nagy virvár, kavarodás, a
+                    percek bizonytalansága lefoglalta és elszórta figyelmét. Aztán mindent, mindent
                     elmondtak már egymásnak az utolsó napokban s ezen az éjszakán; mert lopva bár,
                     hajnalig együtt voltak otthon. Minden kavargott bennök és körültük; de szorosan,
                     görcsösen fogták egymás kezét.</p>
-                <p>- Ha egyszer ráérsz... eridj, nézd meg azt a rongyosat meg a porontyát! - mondta
+				<p>- Ha egyszer ráérsz... eridj, nézd meg azt a rongyosat meg a porontyát! - mondta
                     egyszer egész halkan a férfi. Veron bólintott némán, értőn.</p>
-                <p>Egy percnyi csönd után másféléről kezdett mondani valamit Károly. Hogy világosan
+				<p>Egy percnyi csönd után másféléről kezdett mondani valamit Károly. Hogy világosan
                     címezze a kártyákat, és mindennap írjon; a postán megmondják a tábori számot,
                     amíg ő megírhatná. S ilyen százszor megbeszélteket.</p>
-                <p>- Van-e hazafelé villamosjegyed?...</p>
-                <p>Csengetés, trombitaszó, recsegő vezényszavak, gyors, szakadó ölelések. Egy perc
+				<p>- Van-e hazafelé villamosjegyed?...</p>
+				<p>Csengetés, trombitaszó, recsegő vezényszavak, gyors, szakadó ölelések. Egy perc
                     múlva nincs itt egyéb az elnémult folyosókon, mint kábult kín, vánszorgó
                     asszonybánat, tétova, ijedt léptek a nagy ürességben: egy-egy zokogás. Veron is
                     ment a többivel kifelé.</p>
-                <p>Az utcákon már kora délelőtt aranylott, villamosok csengtek, kocsisok
+				<p>Az utcákon már kora délelőtt aranylott, villamosok csengtek, kocsisok
                     káromkodtak, kövező öregember baltája csattant, szikrát hányt; cukorkás kofa
                     énekelve kínálgatott. Veron utána bámult.</p>
-                <p>- Néni! No jöjjön hát! Cukros mandula van? Hát törökméz? Meg húsz piskóta, de a
+				<p>- Néni! No jöjjön hát! Cukros mandula van? Hát törökméz? Meg húsz piskóta, de a
                     skatulyásból!</p>
-                <p>Választott, fizetett; vakon tudta, hogy ezt kell most etetnie. “Az a rongyos.”
+				<p>Választott, fizetett; vakon tudta, hogy ezt kell most etetnie. “Az a rongyos.”
                     Szereti a mandulásat... Ma negyednapos a fia... Csak meg kell most a rendőrt
                     kérdezni, melyik villamos legközelebb a “Szülőnő-Menhely” kórházig.</p>
-                <p>S a dolgos, hangos reggel közönyében így indult munkára; loholva vitte szent kis
+				<p>S a dolgos, hangos reggel közönyében így indult munkára; loholva vitte szent kis
                     ösztöneit, elfojtott anyasága serény, feszülő izgalmát e korcs méhike, e fürge
                     kis dolgozó. Sietett a hely felé, hol a lét fölös és meleg terheit, gőzölgő
                     piciny testgomolyokat raknak le jajban és vérlucsokban, de éppily
@@ -1700,7 +1699,7 @@
                     melyből ha ízlel-e valaha mézet, használ-e hasznot egy ösmeretlen gazda? Soha,
                     senki ezt nem sejtheti a kasban, melyet önmagából megérteni nem lehet, sem
                     fölsegíteni - s ha megváltani; s mely mindenestül tán még csak nem is örök!</p>
-            </div>
-        </body>
-    </text>
+			</div>
+		</body>
+	</text>
 </TEI>

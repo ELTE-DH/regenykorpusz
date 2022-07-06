@@ -1,91 +1,87 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00879" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Törökországi levelek : Válogatás : ELTeC edition</title>
-            <author ref="viaf:7410168 ">Mikes Kelemen (1690-1761)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">11346</measure>
-            <measure unit="pages">20</measure>
-            <measure unit="vols">1</measure>
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>Törökországi levelek : Válogatás</title>
-               <date>1998-03-10</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/00800/00879"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Drótos László</name>
-                  <name>Góczán Andrea</name>
-               </respStmt>
-         
-                  <bibl type="digitalSource">
-                     <title>Törökországi levelek : Válogatás</title>
-                     <date>1998-03-10</date>
-                     <ref target="http://mek.oszk.hu/00800/00879"/>
-                  </bibl>
-               
-              
-                  <bibl type="printSource">
-                     <title>Emlékiratok és levelek</title>
-                     <author>Mikes Kelemen</author>
-                     <pubPlace>Szentendre</pubPlace>
-                     <publisher>Interpopulart</publisher>
-                     <date>1995</date>
-                     <ref target="http://mek.oszk.hu/00800/00879/00879.pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>Törökországi levelek : Válogatás</title>
-               <author>Mikes Kelemen</author>
-               <date>1880</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T3"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-21"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
-         <div type="chapter">
-         <p>
-            
+<TEI xml:id="HU00879" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Törökországi levelek : Válogatás : ELTeC edition</title>
+				<author ref="viaf:7410168 ">Mikes Kelemen (1690-1761)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">11346</measure>
+				<measure unit="pages">20</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Törökországi levelek : Válogatás</title>
+					<date>1998-03-10</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00800/00879"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Drótos László</name>
+						<name>Góczán Andrea</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Törökországi levelek : Válogatás</title>
+						<date>1998-03-10</date>
+						<ref target="http://mek.oszk.hu/00800/00879"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Emlékiratok és levelek</title>
+						<author>Mikes Kelemen</author>
+						<pubPlace>Szentendre</pubPlace>
+						<publisher>Interpopulart</publisher>
+						<date>1995</date>
+						<ref target="http://mek.oszk.hu/00800/00879/00879.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Törökországi levelek : Válogatás</title>
+					<author>Mikes Kelemen</author>
+					<date>1880</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T3"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<p>
                Gallipoliból, Anno 1717. 10. octobris.
-            
          </p>
-         <p>
+				<p>
             Édes néném! Hálá légyen az Istennek, mi ideérkeztünk ma szerencsésen,
                Franciaországból pedig 15. septembris indultunk meg. A fejdelmünknek Istennek hálá jó
                egészsége volna, hogyha a köszvény búcsút akarna tőlle venni, de reméljük, hogy itt a
@@ -112,18 +108,15 @@
                szeretem is kédet, de többet nem írhatok, mert úgy tetszik, mintha a ház keringene
                velem, mintha most is a hajóban volnék.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
-            
+			</div>
+			<div type="chapter">
+				<head>
             2.
          </head>
-         <p>
-            
+				<p>
                Gallipoli, 21. octobris 1717.
-            
          </p>
-         <p>
+				<p>
             Édes néném, még kédnek semmi levelét nem vettem, amely nem igen jól esik
                nekem. De az igen jól esett, látván a köszvény, hogy nem becsüllik, a fejdelmet
                elhagyá, aki is ma a tatár hám látogatására mene, ugyan a tatár hám lován. Igen nagy
@@ -153,17 +146,15 @@
                De az egészségre igen kell vigyázni, és engemet szeretni kell, mert ki szerethetné az
                édes nénémet jobban, mint én.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             3.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 29. octobris 1717.
-            
          </p>
-         <p>
+				<p>
             Ideje már, édes néném, egy levelét venni kédnek, amelyet itt adták meg.
                Megérdelmi már kéd is, hogy megírjam, miképpen érkeztünk ebben a császári városban.
                Gallipoliból 22. indultunk vala meg. Az úton semmi olyan dolog nem történt, amely
@@ -197,17 +188,15 @@
                jovallotta egyik a császárnak, hogy utána küldjön Franciaországban. Még nem láttam
                őkalmakánságát, de ha soha nem látom is, szeretem kédet. Hát kéd engemet?
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             4.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 7. novembris 1717.
-            
          </p>
-         <p>
+				<p>
             Így szeretem, édes néném, hogy elűzze kéd azt a veszett restséget, és
                énnekem írjon. Éppen akkor vettem a kéd kedves levelét, amikor lóra kellett ülnöm.
                Megmondjam kédnek, hogy hová mentünk? Ahhoz a világiképpen való szerencsés és boldog
@@ -233,7 +222,7 @@
                megverik. Édes néném, annál tovább nem mehetünk, hanem az Isten akaratjára kell hadni
                magunkot, ő hozott ide, hadd vezérelje ő is dolgunkot.
          </p>
-         <p>
+				<p>
             De azt elhiszi-é kéd, hogy nehezen szokhatom ehhez az országhoz. Való, a
                törökök bennünket szeretnek; semmi fogyatkozásunk nincsen, senkinek semmi bántódása
                nincsen. De az idegen nemzetnek nehéz itt, mert semmi üsmeretséget, barátságot nem
@@ -258,17 +247,15 @@
                várost, akkor többet írok. És arra kérem kédet, hogy szeresse kéd ezt az új vendéget.
                A restséget félre kell tenni, és a papirosat nem kell kímélleni.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             5.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 29. novembris 1717.
-            
          </p>
-         <p>
+				<p>
             Édes néném, micsoda szerencsés asszony kéd, hogy közél nem vagyunk
                egymáshoz, mert mindjárt megölelném kédet, és mentől szebben és jobban lehetne
                tőllem, megköszönném kédnek azt, hogy kedvesen vette levelemet, és örömmel olvasta.
@@ -283,7 +270,7 @@
                egymás mellé teszen minket. De minthogy az soha olyan hamar meg nem lesz, mint én
                kívánnám, azért addig is csak írjunk, és ismét írjunk.
          </p>
-         <p>
+				<p>
             Azt pedig méltó megírni kednek, hogy a hatalmas fővezér ma ideérkezett a
                táborról, és nagy pompával jött bé a városban. A kalmakány és az itt lévő nagy urak
                eleiben mentenek, ki-ki maga udvarával. Elmondhatni, édes néném, hogy a vezérek a
@@ -304,7 +291,7 @@
                mészároshoz, hogy jó hadi ember legyen, mivel úgyis mindennap vért ont, mintsem egy
                favágóhoz, akin mindenkor nevetek, mikor eszembe jut.
          </p>
-         <p>
+				<p>
             A császár udvarában volt egy favágó, a’ törökül baldacsi. A császárnak
                megtetszett az az ember, hogy jól vágta a fát; az udvarában valamely tisztnek tészi,
                azután elébb, elébb, annyira, hogy vezérnek tészi. De szerencsétlenségire a császár
@@ -324,17 +311,15 @@
                dolga jól folyjon. Édes néném, ha tudná kéd, mint szeretem kédet, hosszabb leveleket
                írna nekem.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             6.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 10. decembris 1717.
-            
          </p>
-         <p>
+				<p>
             Édes néném, mi még itt vagyunk, itt is leszünk, de még nem tudjuk, itt
                is mit csinálunk. Még itt el nem untunk magunkot, de igen közél vagyunk hozzája, mert
                minthogy nem azért jöttünk ide, hogy itt sok időt töltsünk, és csak a drinápolyi szép
@@ -354,7 +339,7 @@
                évegkorsót küldeni? Az ilyen ajándék közönséges ebben az országban; itt ilyen szokás
                vagyon, de jó-é, illendő-é? Ne szóljunk már többet az ajándékról.
          </p>
-         <p>
+				<p>
             De édes néném, ha volna mit írnom kédnek, még el nem végezném levelemet,
                mert bizonyságul veszem a kéd szívecskéjit, hogy legnagyobb gyönyörűségem az, amikor
                kéddel beszélgethetek. Ma pedig éppen nagy egyepetyém vagyon kéddel beszélgetni. De
@@ -374,17 +359,15 @@
                két font szeretettel a többit, ha tudnám, hogy jó gondja vagyon az egészségire. Hát
                engem szeret kéd?
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             13.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 9. maji 1718.
-            
          </p>
-         <p>
+				<p>
             Némelyeket az Isten felmagasztal, némelyeket megaláz, és mindeniknek
                hálákot kell néki adni. Édes néném, ma ez itt megtörtént, és régen mondom kédnek,
                hogy mely nagy világi boldogság a császár leányával hálni, és micsoda nagy eset a
@@ -404,7 +387,7 @@
                elmélkedhetnék az ember az ilyen változásokon, de azt kell meggondolnom, hogy levelet
                írok, nem könyvet.
          </p>
-         <p>
+				<p>
             Hanem már visszátérek ahhoz a világi boldogságban lévő új vezérhez,
                akinek is minden boldogságával csak olyan sorsa lesz még, ha nem rosszabb, mint az
                előttevalójának. De addig csak úgy, amég lehet. Mihent a szegény mészárostól a
@@ -423,7 +406,7 @@
                várni, és a békességet is maga mellé ülteti. A maga haszna keresése is azt hozza
                magával, mert ő nem hadakozó ember: elméje nagy vagyon, de nem a hadakozásra.
          </p>
-         <p>
+				<p>
             Még most is elég biztatást adnak, de a’ mind füstben megyen, és a hazánk
                felé való menetelünknek sok szép vigasztalása úgy eloszlik, mint a felhő. Kétségben
                kell tehát esnünk? Távul legyen. Bízzunk, reméljünk, édes néném, az Istenben, ha
@@ -439,21 +422,19 @@
                fárasztani. Megmondám, hogy szeretem a bosszúállást, de már megszánom kédet, és
                elvégezem a bosszúállást.
          </p>
-         <p>
+				<p>
             Héj, ha tudná kéd, mint szeretem kédet! Hát kéd? Az egészségire
                vigyázzon kéd! De a gyertyám mindjárt elaluszik, én is alszom.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             15.
          </head>
-         <p>
-            
+				<p>
                Drinápoly, 12. julii 1718.
-            
          </p>
-         <p>
+				<p>
             Micsoda sokféle nyomorúságot okozhat az embernek az Ádám vétke. A
                télben, édes néném, azon kelletett panaszolkodnom, hogy igen hideg vagyon, és nehéz
                írni, most meg azon kell panaszolkodnom, hogy meleg vagyon. Azt ne gondolja kéd, hogy
@@ -477,17 +458,15 @@
                betegségtől. Arról rettegve gondolkodom. De azt tudja-é kéd, hogy lehetetlen már
                jobban szeretni kédet, mint én szeretem. Másszor többet.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             22.
          </head>
-         <p>
-            
+				<p>
                Jénikő, 28. decembris 1718.
-            
          </p>
-         <p>
+				<p>
             Aztot még előre általláttam, hogy Bercsényiné asszonyom meg fog kédnek
                tetszeni. Elmondhatni valósággal, hogy méltóságos asszony. Mert sokan viselik az
                asszony nevet, de nem mindenik viseli érdemesen azt a nevet, és az olyanokot csak
@@ -516,9 +495,9 @@
                azt nem tudja kéd, hogy holnap a vezér szembe akar lenni a fejdelemmel, csak
                magánoson.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             Ez a vezér még eddig jó barátsággal volt mihozzánk, és a bujdosó urak
                éppen nem panaszolkodhatnak ellene. Megválik, mint végzi, mert itt a változás könnyen
                megesik, és az ajándék a vezérekkel hátat fordíttat. Mi pedig nem vagyunk abban az
@@ -536,15 +515,13 @@
                nap, de azt tudom, hogy igen akarnám, ha az én lakadalmom olyan közél volna, mint azé
                a piros leányé. Én szeretem kédet, de úgy, ha az egészségire vigyáz.
          </head>
-         <p>
+				<p>
             30.
          </p>
-         <p>
-            
+				<p>
                Békós, 16. augusti 1719.
-            
          </p>
-         <p>
+				<p>
             Látja kéd, hogy Ázsiából írok kédnek, ha Ámérikában volnék,
                Missisipiából is írnék kédnek. Minket már úgy tekintsen kéd, mint ázsiai magyarokot.
                Elég az, édes néném, hogy már öt naptól fogvást itt sátorok alatt vagyunk. A
@@ -576,17 +553,15 @@
                leveleket, és az egészségre kell vigyázni, főképpen mostanában. Mert azt mondják,
                hogy ott kéteknél nagy pestis vagyon.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             37.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 28. maji 1720.
-            
          </p>
-         <p>
+				<p>
             Már mi itt derék házas-tüzes emberek vagyunk, és úgy szeretem már
                Rodostót, hogy el nem felejthetem Zágont. De tréfa nélkül, édes néném, mi itt igen
                szép kies helyt vagyunk. A város elég nagy és elég szép, a tengerparton lévő kies és
@@ -612,7 +587,7 @@
                vagyon a gyapottal, de minthogy itt az asszonyoknak semmi más külső munkájok nincsen,
                azért arra reá érkeznek.
          </p>
-         <p>
+				<p>
             A város felől azt mondhatom, hogy ezen a földön elmondhatni egy szép
                városnak, amely nem olyan széllyes, mint hosszú, de akármely szép házak légyenek itt
                a városokon, nem tetszhetnek szépeknek, mivel az utcára nem hadnak ablakokot, kivált
@@ -639,7 +614,7 @@
                A’ való, hogy egy klastromban nincsen nagyobb rendtartás, mint a fejdelem
                házánál.
          </p>
-         <p>
+				<p>
             Ezek pedig azok a rendtartások. Reggel hatodfél órakor a dobot megütik,
                akkor a cselédeknek fel kell kelni, és készen kell lenni hat órára. Hat órakor
                dobolnak, és akkor a fejdelem felöltözik, azután a kápolnában megyen, és misét
@@ -660,7 +635,7 @@
                mindenkor jelen vagyok, mikor öltözik. A hivatalom is azt hozza magával, hogy
                vigyázzak a cselédekre. Ezek tehát a mi klastromunkbéli rendtartásink.
          </p>
-         <p>
+				<p>
             Ami pedig a mulatságot és az időtöltést illeti, a’ sokféle, és ki-ki a
                maga hajlandóságát követi. A fejdelem minden héten lóra ül kétszer, és estig oda
                vadászunk, mert itt igen sok fogoly és nyúl vagyon, veres fogoly több vagyon, mint
@@ -690,7 +665,7 @@
                hallgatom, ugyanis, ha én régi dolgokkal akarom az időt tölteni, Nagy Sándor
                históriáját olvasom, az elég régi.
          </p>
-         <p>
+				<p>
             Mindezekből megláthatja kéd, hogy micsoda városban telepíttettenek le
                bennünket, annak micsodás lakosi vannak, micsoda környéke, itt micsodást szokást
                tartunk. De azt még meg nem mondottam kédnek, hogy én micsodás szokást tartok: az én
@@ -701,17 +676,15 @@
                Másszor többet vagy kevesebbet. Ihon azt majd elfelejtettem megírni, hogy az a
                veszett köszvény az urunkra jött alkalmatlankodni.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             55.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 18. augusti 1724.
-            
          </p>
-         <p>
+				<p>
             Édes néném, ha tudná kéd micsoda nagy búba vagyok, megesnék a kéd szíve
                rajtam, és elolvadna, valamint a vaj a tűznél, és rántottát főzhetnének véle. Gondold
                el, édes néném, már két naptól fogvást az urunk nincsen itt, kilenc mélyföldnire ment
@@ -726,7 +699,7 @@
                elébeszéltem neki, hogy micsoda csúfos és szerencsés házassága lett egy asszonynak;
                kédnek is elébeszélem, hadd teljék az idő.
          </p>
-         <p>
+				<p>
             Franciaországban egy városi gazdag bírónak az íródeákja megszeretvén egy
                leányt, megkéri, és a lakadalomra napot rendelnek. Ott pediglen közönségesen az a
                szokás vagyon, hogy a lakadalom napján az ebéd és a tánc estig tart, és estve mennek
@@ -754,7 +727,7 @@
                titkos felesége legyen. Az asszony nem törődvén azzal, ha királynénak nem hítták is,
                mert valóságosan az volt, ha titkon is.
          </p>
-         <p>
+				<p>
             Mindezekből megláthatjuk, édes néném, hogy mely csudálatos úton
                vezettetünk, ha szinte az utat nem üsmérjük is, és hogy gyakorta a szerencsétlenség
                szerencsére szolgál, valamint a mi titkos királynénkkal történt. Mert ugyanis ki ne
@@ -773,17 +746,15 @@
                megházasodom; a’ bizonytalan, és most kellene jó lenni, hogy akkor jobb lehetnék.
                Csak azt kell tehát mondani, édes néném, maradok a kéd rossz szolgája.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             67.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 6. novembris 1725.
-            
          </p>
-         <p>
+				<p>
             Édes néném, itt most elég sírás, rívás és zokogás vagyon. A szegény
                Zsuzsi özvegyen marada, és Kajdacsinéból mindenféle nedvesség a szemin foly ki,
                amennyit már a’ sírt. Méltón is, mert a szegény Bercsényi úr a bujdosásának végit
@@ -801,27 +772,25 @@
                magunkot, mert akármely gyönyörűségben úszunk is, de abból ki kell kelni, és azt
                elhagyatják velünk.
          </p>
-         <p>
+				<p>
             ah! mért hasonlítod magadot boldoghoz...
          </p>
-         <p>
+				<p>
             Aztot már megmondottam, hogy a szomorú levélnek nem kell hosszúnak
                lenni. Ez elég szomorú, mert itt a halálról kell beszélleni, azért el is kell
                végezni. Tudja kéd, micsoda nagy dohányos volt a szegény úr, mindholtig is
                dohányzott, mert halála előtt két órával egy pipa dohányt kiszívutt, de megholt.
                Kédet pedig az Isten éltesse! Amen.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             82.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 17. junii 1727.
-            
          </p>
-         <p>
+				<p>
             Továbbra nem halaszthatom, mert bánnám, ha mástól tudnád meg, édes
                néném, hogy a fejdelem második fia elosontván Bécsből, Franciában ment, és onnét
                tegnapelőtt ide érkezett. El lehet ítélni, hogy egy olyan atya, mint a mi urunk,
@@ -856,17 +825,15 @@
                tudom már azt a táncot, hogy bízvást lehetnék táncmester. Egészséggel, édes néném! A
                vendég még igen új, hogy többet írjak felőlle.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             83.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 19. julii 1727.
-            
          </p>
-         <p>
+				<p>
             Nénékám, az évangyeliumbeli Siméonnak ma adott a fejdelem audenciát, de
                ha szinte maga nem volt is, legalább az öccse. Mivel ma egy tiszteletes örmény
                patriarcha volt a fejdelemnél, akivel a fejdelem elvégezvén a beszélgetést, és
@@ -886,7 +853,7 @@
                mert az bizonyos, hogy az állatok között legtöbbet szenved és dolgozik az ember.
                Mégis mennyi öreg munkásembereket látunk.
          </p>
-         <p>
+				<p>
             Tudom, hogy nem hagyjuk a porban esni, mikor valamit olyat írok, mert
                azt írod, hogy a herceg nem olyan mint..., és hogy azt az egyebet öcsémuram szereti
                jobban a vadászatnál. Én erre azt felelem, hogy öcsémuramot üsmérjük, azért
@@ -910,17 +877,15 @@
                pediglen főleg azt kívánom, hogy az egészségre vigyázz, és híreket írj. Maradok édes
                nénémnek holtig és nem tovább való szolgája.
          </p>
-         </div>
-         <div type="chapter">
-         <p>
+			</div>
+			<div type="chapter">
+				<p>
             112.
          </p>
-         <p>
-            
+				<p>
                Rodostó, 8. aprilis 1735.
-            
          </p>
-         <p>
+				<p>
             Amitől tartottunk, abban már benne vagyunk. Az Isten árvaságra téve
                bennünket, és kivévé ma közüllünk a mi édes urunkot és atyánkot, három óra után
                reggel. Ma nagypéntek lévén, mind a mennyei, mind a földi atyáinknak halálokot kell
@@ -936,7 +901,7 @@
                tudom, hogy örömest kívánnád tudni, mint esett szegénynek halála, mind téntával, mind
                könyhullatásimmal leírom, ha szinte azáltal megszaporítom is keserűségemet.
          </p>
-         <p>
+				<p>
             Úgy tetszik, hogy az utolsó levelemet az elmúlt holnapnak 25-dik napján
                írtam vala. Azután szegény mind nagy bágyadtságokot érzett, igen keveset, de másként
                mindent a szokás szerént vitt végben, abban a gyengeségiben is az esztergájában
@@ -964,17 +929,15 @@
                az idegen földön. Itt irtóztató sírás, rívás vagyon közöttünk. Az Isten vigasztaljon
                meg minket.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             113.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 16. aprilis 1735.
-            
          </p>
-         <p>
+				<p>
             Itt édes néném, könnyhullatással esszük kenyerünket, és olyanok vagyunk,
                mint a nyáj pásztor nélkül. Másnap szegénynek a testámentumát felnyitottuk, és
                elolvastattuk. Mindenik cselédinek hagyott, énnekem ötezer német forintot, Sibrik
@@ -995,17 +958,15 @@
                kisházban tettük, ahol leszen mindaddig, még szabadság nem lesz, hogy
                Constancinápolyban vihessük.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             123.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 2. januarii 1737.
-            
          </p>
-         <p>
+				<p>
             Adja Isten, hogy az ő áldásával és vigasztalásával kezdhessük és
                végezhessük ezen esztendőt. A fejdelem egy nehány napot mulatván Constancinápolyban,
                a bujdosó felekezeti közi az elmúlt holnapnak 17. napján ide visszátére. Ennek a
@@ -1020,17 +981,15 @@
                fogja magát hozzánk alkalmaztatni, nem tudhatom. De amint észre kezdem venni, igen
                messze esett alma fájától. Légyen Isten akaratja. Másszor többet.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             127.
          </head>
-         <p>
-            
+				<p>
                Constancinápoly, 21. septembris 1737
-            
          </p>
-         <p>
+				<p>
             Elhagyók, néném, Rodostót, annyi esztendők múlva kibontakozánk onnét. De
                hogy? Csak herdiburdi módjára. A fejdelem csak kevesedmagával indula meg, de úgy,
                mintha az ellenség lett volna a hátunkon. Még csak annyi időt sem adott magának se
@@ -1043,7 +1002,7 @@
                ellakhatik egy fejdelem benne. A házak mind fel voltak ékesítve az idevaló mód
                szerént a császár parancsolatjából.
          </p>
-         <p>
+				<p>
             Minthogy még itt igen újak vagyunk, azért semmi új dolgot nem írhatok
                többet, hanem csak azt írom idő töltésért, hogy olyan nagy állatot láttam, aki felől
                gyermekségemtől fogvást hallok beszélleni, és kívántam látni. Már ebből észreveszi
@@ -1065,17 +1024,15 @@
                combja. A magossága 13 arasz volt, de e’ még csak a kisdedek közül való. Csudálatos
                az Isten az ő munkáiban. Elég már arról a nagy állatról beszélleni.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             155.
          </head>
-         <p>
-            
+				<p>
                Bukurest, 15. martii 1740.
-            
          </p>
-         <p>
+				<p>
             Nem kétlem, néném, hogy már egynehány rendbéli leveleimet nem vetted
                volna, én is vettem a februariusi leveledet, csak ugyan annak is tulajdoníttom, hogy
                eddig meg nem fagytam, mert itt rettentő irtóztató tél vagyon, 18-dik octobris állott
@@ -1105,17 +1062,15 @@
                olyan fergetegek vannak, mintha most kezdené a telet. Jó egészséget, néném, nekünk
                meg egy kis lágy időt.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             157.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 22. junii 1740.
-            
          </p>
-         <p>
+				<p>
             Néném, jó egy lépés Bukurestről ide. Az Isten ismét visszáhoza ide, még
                volt itt a rakás kenyérből, arra visszá kelletett jőni, amint a török mondja. Annyi
                időt tudom, hogy itt el nem töltök, mint az első úttal és már innét vagy
@@ -1137,7 +1092,7 @@
                búzáját. A Balkány nagy hegyeit harmadnapig hágván, az Isten szerencsésen ide hozza
                visszá minket az előbbeni régi és szomorú lakóhelyünkre tegnapi napon.
          </p>
-         <p>
+				<p>
             Micsodás a világ, és micsoda gorombaság azon kapni, de mégis kapnak. Mi
                haszna már a vezérnek abban, hogy olyan nagy dolgokot cselekedett, ha kitették. Mikor
                történt a’ meg, hogy a török megverte volna a németet? De ő azt a csudát végbenvitte
@@ -1151,17 +1106,15 @@
                hogy meglássuk, miben vannak dolgaink. A prussiai király májusnak a végin holt
                meg.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             181.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 16. septembris 1750.
-            
          </p>
-         <p>
+				<p>
             Mely szép dolog ilyen mezei városba lakni, mint a miénk, akkor megyen a
                mezőre az ember, mikor akarja. A nagy kerített városok, mint a tömlöcök olyanok. Most
                a kertekbe enni gyönyörűség, ott a sok gyümölcs, noha nem sokféle, a kertészek
@@ -1174,7 +1127,7 @@
                a leányok szájában, és olyan édes, mintha nádmézbe főzték volna meg. Menjünk már az
                asszony dolgára.
          </p>
-         <p>
+				<p>
             A törököknek egy hitágazatja vagyon, tudniillik, hogy csak egy Isten
                vagyon, és hogy Mahumetet az Isten küldötte. Ami pedig a törvénybéli parancsolatot
                illeti, a törökök öt részre osztják: 1. hogy napjában ötször imádkozzanak. 2. hogy a
@@ -1185,14 +1138,14 @@
                2. hogy környülmetéltessék magokot. 3. hogy bort ne igyanak. 4. hogy disznóhúst ne
                egyenek, se olyan állatot, akinek először a vérit ki nem bocsátották.
          </p>
-         <p>
+				<p>
             A törökök tisztelik pénteket, és tartoznak azon a napon a templomba
                menni délbe; az asszonyoknak megengedik, hogy oda ne menjenek, azért hogy a férfiak
                figyelmetesebben imádkozhassanak. A török kereskedő délig ki nem nyitja a boltját
                azon a napon, de sőt még egy áitatos török a keresztyén házában sem menne, amint e’
                velem megtörtént.
          </p>
-         <p>
+				<p>
             A közönséges jó vivé a törvénycsinálót arra, hogy a tanítványinak
                megtiltsa a boritalt. Óhjátok magatokot, mondá, a bortól, a kocka, a sakk játékoktól,
                ezeket azért találta fel az ördög, hogy gyűlölséget és veszekedést szerezzen az
@@ -1200,28 +1153,26 @@
                Isten nevét segítségül híják. Minket pedig meg nem gátol, hogy ne adjunk hálákot az
                Úrnak, hogy a pestisnek hírét sem hallottuk ebben az esztendőben. Ne is halljuk.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             187.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 17. novembris 1752
-            
          </p>
-         <p>
+				<p>
             Itt kedves néném, szép idők járnak, az ablakok nyitva vannak, lehet
                tehát most írni a török lakadalomról.
          </p>
-         <p>
+				<p>
             A császároknál a házasság nem szokás, hihető, hogy ők abban az ország
                csendességire vigyáznak, de az is hihető, hogy a lakadalmi irtóztató költségeket
                akarják elkerülni. A császár annyi rableányt tarthat, amennyi néki tetszik. Akik
                férfiú gyermekeket hoznak e világra, azokot úgy tekintik, mint császárnékot, és a
                fiok császárok lehetnek idővel.
          </p>
-         <p>
+				<p>
             A törökök között kétféle házasság vagyon: a törvény szerént való
                házasság és a bérben való házasság: a harmadik, a rab leánnyal való ágyasság. A
                törvény szerént egy török akármely gazdag legyen, de három vagy négy valóságos
@@ -1236,28 +1187,26 @@
                akármely asszonyoktól valók legyenek. Hanem az a különbség vagyon, hogy a rab asszony
                gyermeke rab lesz valamint az anyja, hogyha az atyja fel nem szabadítja.
          </p>
-         <p>
+				<p>
             Amidőn a férfiú hal meg előbb, az asszony kiveszi a néki kötött pénzt;
                ez a valóságos feleséget illeti, mivel a többivel nem gondolnak annyit. A török a
                valóságos feleségit elveszi, akinek fizet, bérben tartja, a rab asszonyát pénzen
                veszi.
          </p>
-         <p>
+				<p>
             Egy ember, aki el akar válni a feleségitől, tartozik néki megadni, amit
                néki kötött házasságakor, az elválás a bíró előtt megyen végben, és azután mindenik
                rész szabad.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             188.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 22. martii 1753.
-            
          </p>
-         <p>
+				<p>
             Kedves néném, micsoda régi lakosok vagyunk ebben a városba, tegnap 33
                esztendeje múlt el itt való uralkodó bujdosásunknak. A’ bizonyos, hogy mint a
                negyedrésze, annyi időt nem töltöttem Zágonban. Hát azt megírjam-é, hogy mennyi
@@ -1266,7 +1215,7 @@
                hozzám. Annak jól felszámlálva 45 esztendeje vagyon, áldassék Istennek szent neve. De
                térjünk az asszony dolgára.
          </p>
-         <p>
+				<p>
             A törökök, azaz az írástudók, a környülmetélést nem tartják
                hitágazatnak, se az Alkorán parancsolatjának, és hogy anélkül is lehet a paradicsomba
                menni. A gyermeket hét esztendős korában szokták környülmetélni. A környülmetélésnek
@@ -1287,7 +1236,7 @@
                (vagy más nevet), hogy az ő szent neve néked mindenkor olyan jóízű legyen, mint ez a
                só, és meg ne engedje néked a földi dolgokot megkóstolni.
          </p>
-         <p>
+				<p>
             Minthogy a törökök azt tartják, hogy ami a testet megmocskosítja, a
                lelket is megszennyesítti, és hogy ami egyikét megtisztítja, a másikát is
                megtisztítja, erre való nézve a mosodással készülnek az imádsághoz. (Istenes ember,
@@ -1300,17 +1249,15 @@
                Mahumet nem kértél a Krisztus nevében, anélkül a kérés meg nem hallgattatik. Én pedig
                annak nevében kérem a néném egészségit. E’ most elég.
          </p>
-         </div>
-         <div type="chapter">
-         <head>
+			</div>
+			<div type="chapter">
+				<head>
             207.
          </head>
-         <p>
-            
+				<p>
                Rodostó, 20. decembris 1758.
-            
          </p>
-         <p>
+				<p>
             Kedves néném, nemcsak mi, hanem az egész emberi nemzet olyan, mint a
                halálra ítéltetett rabok, akik nem tudják, mikor viszik ki a halálra. A mi sorsunk
                éppen olyan. Mennyi urakot, nemesembereket temettünk már el, kit egy, kit más
@@ -1331,7 +1278,7 @@
                hanem az Úrba hal meg. Annyi hosszas bujdosásom után kell-é mást kívánnom annál a
                boldogságnál.
          </p>
-         <p>
+				<p>
             Az első levelemet, amidőn a nénémnek írtam, huszonhét esztendős voltam,
                eztet pedig hatvankilencedikbe írom; ebből kiveszek 17 esztendőt, a többit
                haszontalan bujdosásba töltöttem. A haszontalant nem kelletett volna mondanom, mert
@@ -1342,8 +1289,7 @@
                kéréstől, mind a bűntől, mind a bujdosástól, mind a telhetetlen kívánságtól.
                Amen.
          </p>
-         </div>
-         
-      </body>
-  </text>
+			</div>
+		</body>
+	</text>
 </TEI>

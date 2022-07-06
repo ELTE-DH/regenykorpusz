@@ -1,1258 +1,1246 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU08035" xml:lang="hu">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>A pesti úr</title>
-                <author ref="viaf:24643507">Gárdonyi Géza (1863-1922)</author>
-                <respStmt>
-                    <resp>ELTeC conversion</resp>
-                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-                    </name>
-                    <name>Fellegi Zsófia</name>
-                    <name>Bajzát Tímea Borbála</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">14159</measure>
-                <measure unit="pages">47</measure>
-                <measure unit="vols">1</measure>
-            </extent>
-            <publicationStmt>
-                <p>Published as part of ELTeC</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>A pesti úr</title>
-                    <date>2010-03-04</date>
-                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-                    <ref target="https://mek.oszk.hu/08000/08035"/>
-                    
-                    <respStmt>
-                        <resp>Original Electronic Edition</resp>      
-                        <name>Varjú Mária</name>
-                        <name>Kiss András</name>
-                        <name>Ollé Krisztián</name>
-                    </respStmt>
-                </bibl>
-                <bibl type="printSource">
-                    <title>A pesti úr</title>
-                    <author>Gárdonyi Géza</author>
-                    <pubPlace>Budapest</pubPlace>
-                    <publisher>Közdok</publisher>
-                    <date>1992</date>
-                    <idno>ISBN 963 552 281 9</idno>
-                    <ref target="https://mek.oszk.hu/08000/08035"/>
-                </bibl>
-                <bibl type="firstEdition">
-                    <title>A pesti úr</title>
-                    <author>Gárdonyi Géza</author>
-                    <date>1901</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-0">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="hu">Hungarian</language>
-            </langUsage>
-            <textDesc>
-                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-07-29"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-        <div type="chapter">
-                <head>
+<TEI xml:id="HU08035" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A pesti úr</title>
+				<author ref="viaf:24643507">Gárdonyi Géza (1863-1922)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">14159</measure>
+				<measure unit="pages">47</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>A pesti úr</title>
+					<date>2010-03-04</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="https://mek.oszk.hu/08000/08035"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Varjú Mária</name>
+						<name>Kiss András</name>
+						<name>Ollé Krisztián</name>
+					</respStmt>
+				</bibl>
+				<bibl type="printSource">
+					<title>A pesti úr</title>
+					<author>Gárdonyi Géza</author>
+					<pubPlace>Budapest</pubPlace>
+					<publisher>Közdok</publisher>
+					<date>1992</date>
+					<idno>ISBN 963 552 281 9</idno>
+					<ref target="https://mek.oszk.hu/08000/08035"/>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>A pesti úr</title>
+					<author>Gárdonyi Géza</author>
+					<date>1901</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-07-29"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>
                     Itt kezdődik.
                 </head>
-                <p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá arra
+				<p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá arra
                     kéröm, hogy hirdesse ki a zulyságba a mi falunkat, hadd tekintsenek erre is a
                     pesti urak.</p>
-                <p>Mert lám ahogy hétfőn hazafelé gyövök az aratóktól, hát látom ám, hogy a zutca
+				<p>Mert lám ahogy hétfőn hazafelé gyövök az aratóktól, hát látom ám, hogy a zutca
                     közepin ugyan szödik a kutyák egy sárgalábu urrúl az nadrágot.</p>
-                <p>- Segitség, aszondi, de úgy kajabált, hogy mindön asszony kiszaladt a házbúl.</p>
-                <p>Elhúritom rúla az kutyákat, oszt mondok mér nem jár a zúr bottal?</p>
-                <p>Aszondi nem szoktam.</p>
-                <p>- No mondok akkor vagy szokjék, vagy bágyogbúl tsináltasson magának nadrágot.</p>
-                <p>Behivom osztán, hogy mondok a zannyuk majd öszve őtögeti rajta az szakadást, oszt
+				<p>- Segitség, aszondi, de úgy kajabált, hogy mindön asszony kiszaladt a házbúl.</p>
+				<p>Elhúritom rúla az kutyákat, oszt mondok mér nem jár a zúr bottal?</p>
+				<p>Aszondi nem szoktam.</p>
+				<p>- No mondok akkor vagy szokjék, vagy bágyogbúl tsináltasson magának nadrágot.</p>
+				<p>Behivom osztán, hogy mondok a zannyuk majd öszve őtögeti rajta az szakadást, oszt
                     mondok neki mi szél hordozza a mi falunkba?</p>
-                <p>- Hát aszondi én pesti vagyok, nyaralni szeretnék itt valahon.</p>
-                <p>- Nyaralni? mondok, a magunk fajta embör tsak telelni szokott.</p>
-                <p>- De aszondi mink mög nyáron telelünk, mert Pestön meleg van ijjenkor.</p>
-                <p>- Hát mondok itt se fázunk.</p>
-                <p>Aszondi neköm tetszik ez a falu, mert sok fa van benne. Nem vóna-e kendnek egy
+				<p>- Hát aszondi én pesti vagyok, nyaralni szeretnék itt valahon.</p>
+				<p>- Nyaralni? mondok, a magunk fajta embör tsak telelni szokott.</p>
+				<p>- De aszondi mink mög nyáron telelünk, mert Pestön meleg van ijjenkor.</p>
+				<p>- Hát mondok itt se fázunk.</p>
+				<p>Aszondi neköm tetszik ez a falu, mert sok fa van benne. Nem vóna-e kendnek egy
                     üres szobája?</p>
-                <p>- Hát löhet, hogy van mondok.</p>
-                <p>Mer etzörre a kösségi tömlötzre gondótam, hogy mostanába mindig üressen áll, oszt
+				<p>- Hát löhet, hogy van mondok.</p>
+				<p>Mer etzörre a kösségi tömlötzre gondótam, hogy mostanába mindig üressen áll, oszt
                     mondok ha butort igazitanánk beléje, még egy pár forint haszna fordulna rajta az
                     kösségnek.</p>
-                <p>- Hát aszondi mejik az?</p>
-                <p>Mondok ott hátul, de nints benne szék se mostan.</p>
-                <p>Mögnézi, oszt aszondi:</p>
-                <p>- Ez jó lönne neköm, mert tsak magányos embör vagyok, de mitsoda lántz az a
+				<p>- Hát aszondi mejik az?</p>
+				<p>Mondok ott hátul, de nints benne szék se mostan.</p>
+				<p>Mögnézi, oszt aszondi:</p>
+				<p>- Ez jó lönne neköm, mert tsak magányos embör vagyok, de mitsoda lántz az a
                     falon?</p>
-                <p>- Mondok tavaj egy bornyut kötöttem be egypár napra.</p>
-                <p>- No aszondi, hát meszeltesse mög biró uram, oszt rakjon belé ágyat, széköt,
+				<p>- Mondok tavaj egy bornyut kötöttem be egypár napra.</p>
+				<p>- No aszondi, hát meszeltesse mög biró uram, oszt rakjon belé ágyat, széköt,
                     asztalt, ha nem derága.</p>
-                <p>- Mondok, nem derága.</p>
-                <p>- Mi az ára?</p>
-                <p>- 40-ven forint.</p>
-                <p>- Egy hónapra vagy kettőre?</p>
-                <p>Én egész esztendőre értöttem a 40-en forintot, de hogy nem szalatt el, hát mondok
+				<p>- Mondok, nem derága.</p>
+				<p>- Mi az ára?</p>
+				<p>- 40-ven forint.</p>
+				<p>- Egy hónapra vagy kettőre?</p>
+				<p>Én egész esztendőre értöttem a 40-en forintot, de hogy nem szalatt el, hát mondok
                     kettőre.</p>
-                <p>- No aszondi nem derága, idegyövök. De ki takarit rám?</p>
-                <p>- Hát mondok a feleségöm.</p>
-                <p>- De a tzipőmet is köll fényösiteni.</p>
-                <p>- Mondok itt a Kátsa.</p>
-                <p>A Kátsa mán akkor ott leste a tzibarvéget a zúr háta mögött.</p>
-                <p>- No aszondi az is mögvan hát, de hát az övés? Löhet-e itt a falu kotsmájába
+				<p>- No aszondi nem derága, idegyövök. De ki takarit rám?</p>
+				<p>- Hát mondok a feleségöm.</p>
+				<p>- De a tzipőmet is köll fényösiteni.</p>
+				<p>- Mondok itt a Kátsa.</p>
+				<p>A Kátsa mán akkor ott leste a tzibarvéget a zúr háta mögött.</p>
+				<p>- No aszondi az is mögvan hát, de hát az övés? Löhet-e itt a falu kotsmájába
                     önni?</p>
-                <p>- Löhetni löhet, mondok.</p>
-                <p>- De aszondi mögöhető-e?</p>
-                <p>- Mondok bizonyosan mögöhető, csak gyomor köll hozzávaló.</p>
-                <p>- Hát aszondi kendnél nem löhetne?</p>
-                <p>- Mondok nálam is löhetne.</p>
-                <p>- De aszondi jól főz-e az asszony?</p>
-                <p>- Möghiszem azt mondok, ojan bablevest főz az, hogy még a zuraság is mögnyalta
+				<p>- Löhetni löhet, mondok.</p>
+				<p>- De aszondi mögöhető-e?</p>
+				<p>- Mondok bizonyosan mögöhető, csak gyomor köll hozzávaló.</p>
+				<p>- Hát aszondi kendnél nem löhetne?</p>
+				<p>- Mondok nálam is löhetne.</p>
+				<p>- De aszondi jól főz-e az asszony?</p>
+				<p>- Möghiszem azt mondok, ojan bablevest főz az, hogy még a zuraság is mögnyalta
                     utána a talpát, pedig az báró.</p>
-                <p>- No aszondi én nem vagyok báró, tsak hivatalnok. Tseh Árpád az nevem.</p>
-                <p>Mögmondta aztán, hogy az aszt fald társaságnál van, aki a zutzákat keményiti
+				<p>- No aszondi én nem vagyok báró, tsak hivatalnok. Tseh Árpád az nevem.</p>
+				<p>Mögmondta aztán, hogy az aszt fald társaságnál van, aki a zutzákat keményiti
                     Budapestön. Hát mögöggyesültünk, hogy az ellátásér azt fizet amit akar, mert
-                    mink nem tuggyuk mit szá­mit­sunk érte.</p>
-                <p>Itt a pesti ur ád 10-iz forint foglalót, oszt visszamögyön Budapestre, a kisbiró
-                    pedig mög­meszeli a kösségi tömlötzöt.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+                    mink nem tuggyuk mit számitsunk érte.</p>
+				<p>Itt a pesti ur ád 10-iz forint foglalót, oszt visszamögyön Budapestre, a kisbiró
+                    pedig mögmeszeli a kösségi tömlötzöt.</p>
+			</div>
+			<div type="chapter">
+				<head>
                   A kapu tzimör.
                 </head>
-                <p>Tsütörtökön röggel levelet kaptam a pesti úrtól, még pedig deróton kütte, oszt
+				<p>Tsütörtökön röggel levelet kaptam a pesti úrtól, még pedig deróton kütte, oszt
                     azt íri, hogy aszondi Göre biró várjon ma ebédre. Hát mondok a zannyuknak ma
                     uras ebédöt főzz kóbászos bablevest, mög túrus tsuszát, közbe mög petsönyét,
                     hagy lakjék jól.</p>
-                <p>Avval kiküdöm a kotsimat a vasuthon, hogy mondok ha ládája van vagy mitsodája,
+				<p>Avval kiküdöm a kotsimat a vasuthon, hogy mondok ha ládája van vagy mitsodája,
                     hát hozza be.</p>
-                <p>Mög is érközött délbe de nem vót ládája tsak 2-t nagy sárga bűrtarisznyája, oszt
+				<p>Mög is érközött délbe de nem vót ládája tsak 2-t nagy sárga bűrtarisznyája, oszt
                     fuldoklott az úr a nagy porba.</p>
-                <p>- Aszondi mindig ijen por van-e itten?</p>
-                <p>- Nem mindig mondok, mert mikor esik, akkor két hétig se látunk port utána.</p>
-                <p>- De aszondi akkor tán sár van?</p>
-                <p>- Hát az van mondok.</p>
-                <p>- Nagy sár?</p>
-                <p>- Hol nagy, hol kicsi.</p>
-                <p>- De hajja a nagy sár nem nekem való.</p>
-                <p>- Az is köll hébekorba mondok.</p>
-                <p>- De aszondi neköm nem köll.</p>
-                <p>- Mondok huzzon ojankor tsizmát.</p>
-                <p>- Aszondi neköm soha életömbe nem vót tsizmám. Mer aszondi én Pestön neveköttem.
+				<p>- Aszondi mindig ijen por van-e itten?</p>
+				<p>- Nem mindig mondok, mert mikor esik, akkor két hétig se látunk port utána.</p>
+				<p>- De aszondi akkor tán sár van?</p>
+				<p>- Hát az van mondok.</p>
+				<p>- Nagy sár?</p>
+				<p>- Hol nagy, hol kicsi.</p>
+				<p>- De hajja a nagy sár nem nekem való.</p>
+				<p>- Az is köll hébekorba mondok.</p>
+				<p>- De aszondi neköm nem köll.</p>
+				<p>- Mondok huzzon ojankor tsizmát.</p>
+				<p>- Aszondi neköm soha életömbe nem vót tsizmám. Mer aszondi én Pestön neveköttem.
                     Most gyüvök először falura. Hát röndbe van e a szoba?</p>
-                <p>- Röndbe mondok, akár az öspörös is möglakhatna benne.</p>
-                <p>Hát tetszött is neki, kiválthogy a déványt is betétettem, oszt aszondi tsak még
+				<p>- Röndbe mondok, akár az öspörös is möglakhatna benne.</p>
+				<p>Hát tetszött is neki, kiválthogy a déványt is betétettem, oszt aszondi tsak még
                     tyükör hibázik.</p>
-                <p>- Minek a mondok, tsak asszonynak való az.</p>
-                <p>- Hát aszondi kend sohse néz tyükörbe?</p>
-                <p>- Nem én mondok. Láttam mán magamat elégször. De mondok igazitsa föl az ur az
+				<p>- Minek a mondok, tsak asszonynak való az.</p>
+				<p>- Hát aszondi kend sohse néz tyükörbe?</p>
+				<p>- Nem én mondok. Láttam mán magamat elégször. De mondok igazitsa föl az ur az
                     gatyáját mer letsuszott.</p>
-                <p>- Nem gatya az aszondi, hanem kamásli.</p>
-                <p>- Mindegy mondok, kilátzik.</p>
-                <p>- Hát aszondi kapok-e ebédöt, mer nagyon éhös vagyok.</p>
-                <p>- Kaphat mondok. Petsönyét is süttettem. Bürge petsönyét.</p>
-                <p>- Azt jól tötte aszondi, neköm mindönnap köll.</p>
-                <p>- Mindönnap? mondok. Hát löhet az is vagy két hétig.</p>
-                <p>- Tsak két hétig?</p>
-                <p>- Talán tovább is, mondok mert igy nyáron jobban betegszik az állat mint
+				<p>- Nem gatya az aszondi, hanem kamásli.</p>
+				<p>- Mindegy mondok, kilátzik.</p>
+				<p>- Hát aszondi kapok-e ebédöt, mer nagyon éhös vagyok.</p>
+				<p>- Kaphat mondok. Petsönyét is süttettem. Bürge petsönyét.</p>
+				<p>- Azt jól tötte aszondi, neköm mindönnap köll.</p>
+				<p>- Mindönnap? mondok. Hát löhet az is vagy két hétig.</p>
+				<p>- Tsak két hétig?</p>
+				<p>- Talán tovább is, mondok mert igy nyáron jobban betegszik az állat mint
                     télön.</p>
-                <p>- Aszondi tsak nem betegöt vágnak talán?</p>
-                <p>- Hát mondok nem is az egésségöset. Ki vágná le a zegésségöset?</p>
-                <p>Ez nem nagyon tetszött neki. Aszondi, hátha ű is megbetegszik?</p>
-                <p>- Mondok attól ne tartson. Ihol vagyok én, sohse ártott még, mert mondok úgy
+				<p>- Aszondi tsak nem betegöt vágnak talán?</p>
+				<p>- Hát mondok nem is az egésségöset. Ki vágná le a zegésségöset?</p>
+				<p>Ez nem nagyon tetszött neki. Aszondi, hátha ű is megbetegszik?</p>
+				<p>- Mondok attól ne tartson. Ihol vagyok én, sohse ártott még, mert mondok úgy
                     értse: nem beteg az bürge, tsak kerge. Szombaton kergült meg kettő is.</p>
-                <p>- Szombaton? aszondi, hiszen mama tsütörtök van.</p>
-                <p>- Eláll az mondok, mentül tovább áll, antul porhanyóbb.</p>
-                <p>Ez nem tetszött neki.</p>
-                <p>- No mondok délbe, hát itt a leves, kóstojja mög, hogy mijen?</p>
-                <p>Feltüzi az orrára az okulárét oszt aszondi pók van benne.</p>
-                <p>- Ejnye a rusnya férgit mondok, hogy kerül bele?</p>
-                <p>Avval kihalászom a kalánnal az levessibül, oszt mondok most mán nints több benne,
+				<p>- Szombaton? aszondi, hiszen mama tsütörtök van.</p>
+				<p>- Eláll az mondok, mentül tovább áll, antul porhanyóbb.</p>
+				<p>Ez nem tetszött neki.</p>
+				<p>- No mondok délbe, hát itt a leves, kóstojja mög, hogy mijen?</p>
+				<p>Feltüzi az orrára az okulárét oszt aszondi pók van benne.</p>
+				<p>- Ejnye a rusnya férgit mondok, hogy kerül bele?</p>
+				<p>Avval kihalászom a kalánnal az levessibül, oszt mondok most mán nints több benne,
                     megöheti.</p>
-                <p>Hát mög is ötte jóézüven.</p>
-                <p>Aszondi az ebéd végin, hát jó vót az ebéd, csak most ide az kapu tzimört.</p>
-                <p>Mondok magamba mi a tsudát akar a kapu tzimörrel? de mondok píze van, hát hagy
+				<p>Hát mög is ötte jóézüven.</p>
+				<p>Aszondi az ebéd végin, hát jó vót az ebéd, csak most ide az kapu tzimört.</p>
+				<p>Mondok magamba mi a tsudát akar a kapu tzimörrel? de mondok píze van, hát hagy
                     tejjék kivánsága.</p>
-                <p>Avval kiszólok a kisbirónak mög a Kátsának, hogy mondok emejjétök le a kapu
+				<p>Avval kiszólok a kisbirónak mög a Kátsának, hogy mondok emejjétök le a kapu
                     tetejit.</p>
-                <p>Mig azok odaki feszögetik, mondok az urnak, hogy mondok minek az a kapu
+				<p>Mig azok odaki feszögetik, mondok az urnak, hogy mondok minek az a kapu
                     tzimör?</p>
-                <p>- Hát aszondi köll az mindön ebéd után, de vatsora után is megkivánom.</p>
-                <p>- De minek? mondok.</p>
-                <p>- Hát aszondi jót tesz a gyomromnak.</p>
-                <p>- A gyomrának-e?</p>
-                <p>- Annak.</p>
-                <p>- Tsak nem töszi tán rá a gyomrára?</p>
-                <p>- Nem aszondi, hanem bele.</p>
-                <p>- Mondok tsak nem öszi mög tán?</p>
-                <p>- Dehonnem aszondi. Kivált ijen kóbászos bableves után.</p>
-                <p>- Mondok teréfál talán?</p>
-                <p>- Nem én aszondi. Érzöm, hogy a bableves jó vót, de nehéz igy nyáron a
+				<p>- Hát aszondi köll az mindön ebéd után, de vatsora után is megkivánom.</p>
+				<p>- De minek? mondok.</p>
+				<p>- Hát aszondi jót tesz a gyomromnak.</p>
+				<p>- A gyomrának-e?</p>
+				<p>- Annak.</p>
+				<p>- Tsak nem töszi tán rá a gyomrára?</p>
+				<p>- Nem aszondi, hanem bele.</p>
+				<p>- Mondok tsak nem öszi mög tán?</p>
+				<p>- Dehonnem aszondi. Kivált ijen kóbászos bableves után.</p>
+				<p>- Mondok teréfál talán?</p>
+				<p>- Nem én aszondi. Érzöm, hogy a bableves jó vót, de nehéz igy nyáron a
                     gyomornak.</p>
-                <p>- De mondok az én kapu tzimörömet nem öszi meg az úr.</p>
-                <p>- Debizony mögöszöm aszondi.</p>
-                <p>- Fizet is akkor érte vagy 10-iz forintot.</p>
-                <p>- Az aszondi derága lönne.</p>
-                <p>- Derága? De mondok nagyon is ótsó, hát nem nézte mög az úr, hogy mijen?</p>
-                <p>- Nem bánom én aszongya akármijen, csak lögyön.</p>
-                <p>Bétzepelik a kapu tzimört, hát aszondi minek az?</p>
-                <p>- Hát mondok, hogy mögögye az úr.</p>
-                <p>- Mögögyem? Nem bolondultam meg.</p>
-                <p>- Nem azt mondta-e, mondok, hogy mögakarja önni?</p>
-                <p>Akkor magyarázta oszt ki a szavát, hogy kávét akar, hát mondok beszéjjünk akkor
+				<p>- De mondok az én kapu tzimörömet nem öszi meg az úr.</p>
+				<p>- Debizony mögöszöm aszondi.</p>
+				<p>- Fizet is akkor érte vagy 10-iz forintot.</p>
+				<p>- Az aszondi derága lönne.</p>
+				<p>- Derága? De mondok nagyon is ótsó, hát nem nézte mög az úr, hogy mijen?</p>
+				<p>- Nem bánom én aszongya akármijen, csak lögyön.</p>
+				<p>Bétzepelik a kapu tzimört, hát aszondi minek az?</p>
+				<p>- Hát mondok, hogy mögögye az úr.</p>
+				<p>- Mögögyem? Nem bolondultam meg.</p>
+				<p>- Nem azt mondta-e, mondok, hogy mögakarja önni?</p>
+				<p>Akkor magyarázta oszt ki a szavát, hogy kávét akar, hát mondok beszéjjünk akkor
                     magyarul.</p>
-                <p>Aszondi ebéd után, hogy asszondi biró uram nem mutatná-e mög neköm a falut?</p>
-                <p>- Mondok hát nem látta mikor gyütt?</p>
-                <p>- Nem egészen aszondi, mert löhetnek itt ojan látnivalók amik Pestön
+				<p>Aszondi ebéd után, hogy asszondi biró uram nem mutatná-e mög neköm a falut?</p>
+				<p>- Mondok hát nem látta mikor gyütt?</p>
+				<p>- Nem egészen aszondi, mert löhetnek itt ojan látnivalók amik Pestön
                     nintsenek.</p>
-                <p>- Önni valók vannak mondok, de látnivalók nem gondónám. Mert hogy többet ne
+				<p>- Önni valók vannak mondok, de látnivalók nem gondónám. Mert hogy többet ne
                     mongyak kóbászos bablevest is kereshet az úr Budapestön.</p>
-                <p>- Mán az igaz, aszondi, hogy ijen jót soha nem öttem. De más nevezetösségöt
+				<p>- Mán az igaz, aszondi, hogy ijen jót soha nem öttem. De más nevezetösségöt
                     gondolok én. Például valami képet.</p>
-                <p>- Képet. Hát az van itt ölég, de legkivált szent János, szent József meg a
+				<p>- Képet. Hát az van itt ölég, de legkivált szent János, szent József meg a
                     Szűzanya. Szent Pétör is a Pétör sógornál.</p>
-                <p>- Nem ijen képet gondolok aszondi hanem régi olaj képet.</p>
-                <p>- Olaj képet? Mán ojan pedig nints itten mondok, mer nálunk a zolajjal tsak
+				<p>- Nem ijen képet gondolok aszondi hanem régi olaj képet.</p>
+				<p>- Olaj képet? Mán ojan pedig nints itten mondok, mer nálunk a zolajjal tsak
                     tsizmát kennek mög hajat.</p>
-                <p>- Hát aszondi más nevezetösség mi van itt?</p>
-                <p>- Nem tudom mi vóna mondok, hatsak a Vida nem.</p>
-                <p>- Ki az?</p>
-                <p>- Gazembör mondok. Hét vármögyébe ösmerik, de legjobban tsak itt mög Illaván.</p>
-                <p>- Mást gondolok én, aszondi.</p>
-                <p>Avval bemögy a szobába, kihozi az esernyőjét meg a köpönyegit, oszt aszondi a
+				<p>- Hát aszondi más nevezetösség mi van itt?</p>
+				<p>- Nem tudom mi vóna mondok, hatsak a Vida nem.</p>
+				<p>- Ki az?</p>
+				<p>- Gazembör mondok. Hét vármögyébe ösmerik, de legjobban tsak itt mög Illaván.</p>
+				<p>- Mást gondolok én, aszondi.</p>
+				<p>Avval bemögy a szobába, kihozi az esernyőjét meg a köpönyegit, oszt aszondi a
                     Kátsának, hozza utánam a köpönyegöt.</p>
-                <p>A Kátsa mingyán magára őtti, ojan vót benne mint valami lengyel zsidó.</p>
-                <p>Aszondi az ur, ne őttse hát magára, hanem tsak ugy a karján hozza szépen
+				<p>A Kátsa mingyán magára őtti, ojan vót benne mint valami lengyel zsidó.</p>
+				<p>Aszondi az ur, ne őttse hát magára, hanem tsak ugy a karján hozza szépen
                     összehajtva.</p>
-                <p>Avval kiterpeszti az ernyőt oszt tarti a feje fölé.</p>
-                <p>- Nem esik mondok.</p>
-                <p>- Nem is esső ellen tartom aszondi, hanem hogy a nap ne süssön.</p>
-                <p>- No mondok ez soha eszömbe nem jutott vóna.</p>
-                <p>Gondókottam az úton, hogy mit mutassak neki? hát arra tanáltam, hogy mondok a
+				<p>Avval kiterpeszti az ernyőt oszt tarti a feje fölé.</p>
+				<p>- Nem esik mondok.</p>
+				<p>- Nem is esső ellen tartom aszondi, hanem hogy a nap ne süssön.</p>
+				<p>- No mondok ez soha eszömbe nem jutott vóna.</p>
+				<p>Gondókottam az úton, hogy mit mutassak neki? hát arra tanáltam, hogy mondok a
                     Durbints sógor uj gyesznó ólát mutatom mög neki, mög a kajlafülü malatzot aki
                     benne van.</p>
-                <p>Az ur tzibart vött elő, oszt neköm is akart adni, de mondok én a tzibart is tsak
+				<p>Az ur tzibart vött elő, oszt neköm is akart adni, de mondok én a tzibart is tsak
                     apritva szeretöm. Avval rágyujtottam a pélpámra oszt ugy möntünk.</p>
-                <p>Aszondi útközbe, hogy mögölékszök-e egy pengővel ha annyit fizet naponkint
+				<p>Aszondi útközbe, hogy mögölékszök-e egy pengővel ha annyit fizet naponkint
                     tartásér.</p>
-                <p>- Mög mondok, ha nem kiván ojanokat a miket nem adhatok.</p>
-                <p>- Nem aszondi tsak ojan jó magyaros ételöket aggyanak mint délbe, este tsirkét,
+				<p>- Mög mondok, ha nem kiván ojanokat a miket nem adhatok.</p>
+				<p>- Nem aszondi tsak ojan jó magyaros ételöket aggyanak mint délbe, este tsirkét,
                     röggel kávét, uzsonnára aluttejet.</p>
-                <p>- Hát mondok möglösz.</p>
-                <p>Oszt magamba örültem, hogy mondok de dörék embör.</p>
-                <p>A sógor éppen kint pélpázott a zepörfa alatt a zudvaron, mondom neki hogy ihol a
+				<p>- Hát mondok möglösz.</p>
+				<p>Oszt magamba örültem, hogy mondok de dörék embör.</p>
+				<p>A sógor éppen kint pélpázott a zepörfa alatt a zudvaron, mondom neki hogy ihol a
                     pesti ur, a kajla malacot kévánta möglátogatni.</p>
-                <p>Mutattyuk neki a zólat, hát tsak kungorgati rá a zórát.</p>
-                <p>- Mit szól rája mondok?</p>
-                <p>Aszondi nagyon büdös.</p>
-                <p>Látom a sógor képin, hogy elröstelködik, hát mondok tisztöt ur, nem gyöngyvirág a
+				<p>Mutattyuk neki a zólat, hát tsak kungorgati rá a zórát.</p>
+				<p>- Mit szól rája mondok?</p>
+				<p>Aszondi nagyon büdös.</p>
+				<p>Látom a sógor képin, hogy elröstelködik, hát mondok tisztöt ur, nem gyöngyvirág a
                     gyisznó mifelénk se.</p>
-                <p>Igy mögfeleltem.</p>
-                <p>Röggel ahogy kiülünk a zagátzfa alá, aszondi, hát kend biró uram nem
+				<p>Igy mögfeleltem.</p>
+				<p>Röggel ahogy kiülünk a zagátzfa alá, aszondi, hát kend biró uram nem
                     kávédzik.</p>
-                <p>- Nem én, mondok, tsak mikor beteg vagyok.</p>
-                <p>- Hát mit öszik kend?</p>
-                <p>- Szalonnát, - mondok, - nints annál jobb.</p>
-                <p>Épp akkor tálali ki a zasszony neki a kávét ott a zágátzfa alatt neköm mög a
-                    paprikás szalon­nát.</p>
-                <p>- No aszondi az úr, hát tögye mög az én kedvemér kend, hogy ögyék ma velem
+				<p>- Nem én, mondok, tsak mikor beteg vagyok.</p>
+				<p>- Hát mit öszik kend?</p>
+				<p>- Szalonnát, - mondok, - nints annál jobb.</p>
+				<p>Épp akkor tálali ki a zasszony neki a kávét ott a zágátzfa alatt neköm mög a
+                    paprikás szalonnát.</p>
+				<p>- No aszondi az úr, hát tögye mög az én kedvemér kend, hogy ögyék ma velem
                     kávét?</p>
-                <p>- Mér mondok?</p>
-                <p>- Azér, aszondi, mert lyobban esik, ha ketten öszünk.</p>
-                <p>- Mögtöszöm mondok, ha a zúr is mögtöszi az én kedvemér, hogy szalonnát
+				<p>- Mér mondok?</p>
+				<p>- Azér, aszondi, mert lyobban esik, ha ketten öszünk.</p>
+				<p>- Mögtöszöm mondok, ha a zúr is mögtöszi az én kedvemér, hogy szalonnát
                     öszik.</p>
-                <p>- Szivesen, aszondi, de tsak a kávé után.</p>
-                <p>Hát igy mögtöttük egymásnak a kedvit, de hogy a kávé nem akart összebarátkozni
+				<p>- Szivesen, aszondi, de tsak a kávé után.</p>
+				<p>Hát igy mögtöttük egymásnak a kedvit, de hogy a kávé nem akart összebarátkozni
                     bennem a szalonnával, hát mögszopogattam utána a tsutorámat is.</p>
-                <p>*</p>
-                <p>Aszondi délután a pesti úr, hogy aszondi mindön jó vóna, tsak olyan nagy meleg ne
+				<p>*</p>
+				<p>Aszondi délután a pesti úr, hogy aszondi mindön jó vóna, tsak olyan nagy meleg ne
                     vóna.</p>
-                <p>Mondok hát azon is segithessünk.</p>
-                <p>- Hogyan? aszondi.</p>
-                <p>- Hát mondok gyüjjék ki velem a zúr a pintzébe. Ott ojan híves van, hogy jobb se
+				<p>Mondok hát azon is segithessünk.</p>
+				<p>- Hogyan? aszondi.</p>
+				<p>- Hát mondok gyüjjék ki velem a zúr a pintzébe. Ott ojan híves van, hogy jobb se
                     köll. Akár kint ülünk a gyiófa alatt, akár bent a hordó mellett, mindönképpen
                     nagy a hüvösség.</p>
-                <p>A pesti úr aztán kétzör se kérette magát, tsak a fejibe tsapi a kalapot, a kézibe
+				<p>A pesti úr aztán kétzör se kérette magát, tsak a fejibe tsapi a kalapot, a kézibe
                     a napernyőt, a Kátsának mög odaadi a zibertzikáját, oszt gyön.</p>
-                <p>Útközbe bészólok a sógornak is, hogy mondok gyék ken, hát gyött az is.</p>
-                <p>Mikorra kiértünk jól kifütött bennünket a meleg, de legkivált a pesti urat. No
+				<p>Útközbe bészólok a sógornak is, hogy mondok gyék ken, hát gyött az is.</p>
+				<p>Mikorra kiértünk jól kifütött bennünket a meleg, de legkivált a pesti urat. No
                     aszondi a tüzes poklon jut körösztül az embör a kend hűvösségére.</p>
-                <p>Igy esik legjobban mondok.</p>
-                <p>Avval kinyitom a pintze ajtót oszt mondok a Kátsának rakj egy kis tüzet, oszt
+				<p>Igy esik legjobban mondok.</p>
+				<p>Avval kinyitom a pintze ajtót oszt mondok a Kátsának rakj egy kis tüzet, oszt
                     ihol a szalonna mög a só, pirijjad.</p>
-                <p>Hát a Kátsa tüzet bagzik nagy hamarosan oszt süti a szalonnát, de a zur aszondi,
+				<p>Hát a Kátsa tüzet bagzik nagy hamarosan oszt süti a szalonnát, de a zur aszondi,
                     hogy ü szomjas majd kiszárad a lelke. Mondok ne busujjék amig ezt a 6-t hordót
                     láti, de mondok hátha önnénk előbb.</p>
-                <p>- Nem aszondi előbb iszok.</p>
-                <p>Teli tsorditom neki a zitzés bögrét, hát úgy kihörpenti, hogy hármat se mozdul az
+				<p>- Nem aszondi előbb iszok.</p>
+				<p>Teli tsorditom neki a zitzés bögrét, hát úgy kihörpenti, hogy hármat se mozdul az
                     gigája, no mondok aggyisten egésségire, tsak mög ne ártson.</p>
-                <p>- Nem árt ez üneki aszondi, - könnyü bor.</p>
-                <p>- Nono, mondok.</p>
-                <p>Avval mink is iszunk egy-egy kortyot. Akközbe mögsül a szalonna, megdörgöjjök az
+				<p>- Nem árt ez üneki aszondi, - könnyü bor.</p>
+				<p>- Nono, mondok.</p>
+				<p>Avval mink is iszunk egy-egy kortyot. Akközbe mögsül a szalonna, megdörgöjjök az
                     kinyeret egy kis foghagymával, oszt jól bépofázunk.</p>
-                <p>Mondok most mán ihatunk. Hát ittunk is. A Kátsa elővötte az hegedüjit, oszt
+				<p>Mondok most mán ihatunk. Hát ittunk is. A Kátsa elővötte az hegedüjit, oszt
                     mondok a legujabbat.</p>
-                <p>Hát rá is zönditötte, hogy aszondi:</p>
-                <p>Begyön a pap a kösség szobába,</p>
-                <p> Biró uram mit tsinál magába?</p>
-                <p> Nem vagyok én sohase magamba,</p>
-                <p> Mikor tsutora lóg az nyakamba.</p>
-                <p>Mikor tsutora lóg az nyakamba,</p>
-                <p> A jó Istent áldom én magamba,</p>
-                <p> Mer az a jó Isten ha nem vóna,</p>
-                <p> Akkor bizony tsutora se vóna.</p>
-                <p>Itt a pesti urnak is fejibe száll az jókedv, ojan veszött tántzot kezd, hogy majd
+				<p>Hát rá is zönditötte, hogy aszondi:</p>
+				<p>Begyön a pap a kösség szobába,</p>
+				<p> Biró uram mit tsinál magába?</p>
+				<p> Nem vagyok én sohase magamba,</p>
+				<p> Mikor tsutora lóg az nyakamba.</p>
+				<p>Mikor tsutora lóg az nyakamba,</p>
+				<p> A jó Istent áldom én magamba,</p>
+				<p> Mer az a jó Isten ha nem vóna,</p>
+				<p> Akkor bizony tsutora se vóna.</p>
+				<p>Itt a pesti urnak is fejibe száll az jókedv, ojan veszött tántzot kezd, hogy majd
                     szétveti az pintzét, oszt a nyakamba borul, összevissza nyali az pofámat, mög a
                     Durbintsét, mög a Kátsájét, no mondok magamba biztos, hogy közel a képviselő
                     választás ideje.</p>
-                <p>Aztán jól elbeszélgettünk.</p>
-                <p>Aszondom napszállatt után, hogy mondok tyűh kutyaatta, de itt felejtkeztünk! hát
+				<p>Aztán jól elbeszélgettünk.</p>
+				<p>Aszondom napszállatt után, hogy mondok tyűh kutyaatta, de itt felejtkeztünk! hát
                     a vatsora?</p>
-                <p>Indulni akarunk, hát a pesti úr nem bir fölkelni a székrül. Fölemejjük, hát neki
-                    borul a hordó­nak, oszt aszondi, jaj édös Jolán.</p>
-                <p>- Nem leány az mondok, de ne is sajnájja, mert mögen mögtanájjuk.</p>
-                <p>De ű mán beszélni se igen tudott, a lába mög 8-tzasokat járt a zúton.</p>
-                <p>Egy darabbig vezettük, de mikor mán 8-tzasokat se tudott járni, mondok a
+				<p>Indulni akarunk, hát a pesti úr nem bir fölkelni a székrül. Fölemejjük, hát neki
+                    borul a hordónak, oszt aszondi, jaj édös Jolán.</p>
+				<p>- Nem leány az mondok, de ne is sajnájja, mert mögen mögtanájjuk.</p>
+				<p>De ű mán beszélni se igen tudott, a lába mög 8-tzasokat járt a zúton.</p>
+				<p>Egy darabbig vezettük, de mikor mán 8-tzasokat se tudott járni, mondok a
                     Kátsának, szödd a hátadra.</p>
-                <p>Hát a Kátsa a hátára szötte, oszt röttentően szitta, hogy mijen nehéz.</p>
-                <p>- A bor nehéz benne mondok, a mit mögivott.</p>
-                <p>A Kátsa aztán visszamaradozott tőlünk. Etzör ahogy mögfordulok, hogy mér
+				<p>Hát a Kátsa a hátára szötte, oszt röttentően szitta, hogy mijen nehéz.</p>
+				<p>- A bor nehéz benne mondok, a mit mögivott.</p>
+				<p>A Kátsa aztán visszamaradozott tőlünk. Etzör ahogy mögfordulok, hogy mér
                     maradozik vissza, akkor látom, hogy mögforditotta a hátán a pesti urat, fejjel
                     lefelé, oszt úgy tzepeli.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                     A Kátsa esze.
                 </head>
-                <p>Másnap levele gyött a pesti úrnak rúzsaszinü.</p>
-                <p>- Tyüh a teringésit aszondi, hamar egy kocsit, gyön a felesigöm!</p>
-                <p>A kisbiró mingyár béfog, oszt elrobog a pesti úrral, én mög magamba tsudálkoztam,
+				<p>Másnap levele gyött a pesti úrnak rúzsaszinü.</p>
+				<p>- Tyüh a teringésit aszondi, hamar egy kocsit, gyön a felesigöm!</p>
+				<p>A kisbiró mingyár béfog, oszt elrobog a pesti úrral, én mög magamba tsudálkoztam,
                     hogy mondok mér gyün ide a zasszony, vagy hogy ez mér gyün ide nyaralni,
                     bizonyosan békételen életöt élnek.</p>
-                <p>Hát mondok a zannyuknak igazits bé még egy ágyat a tömlötzbe, vagy hogy a
+				<p>Hát mondok a zannyuknak igazits bé még egy ágyat a tömlötzbe, vagy hogy a
                     diványra vesd, hát ugy is tött a zannyuk, de még a bazsalikom virágot is oda
                     rakta a zablakba, igy kedvezött a pestieknek.</p>
-                <p>Mögérközik a pesti asszony, no takaros vászontseléd, de hogy a szobát mögláti,
+				<p>Mögérközik a pesti asszony, no takaros vászontseléd, de hogy a szobát mögláti,
                     hát tsak emelgeti a zórát, hogy ű ijen szobába nem hál. Átmönnek a kotsmába oszt
                     odaszállanak.</p>
-                <p>Bántott éngöm, hogy igy faképnél hagytak, mert mondom mán az én házam mégis tsak
+				<p>Bántott éngöm, hogy igy faképnél hagytak, mert mondom mán az én házam mégis tsak
                     tisztább, mint a kotsmárosé, ha nints is fátyol a zablakon, de legalább ki van
                     söpörve bötsületösen.</p>
-                <p>De tsak elmöntek. A Kátsa tzepelte utánok a sárga tarisznyákat, kisládát,
+				<p>De tsak elmöntek. A Kátsa tzepelte utánok a sárga tarisznyákat, kisládát,
                     nagyládát.</p>
-                <p>Aszondi a Kátsa ne búsujjon biró uram, visszagyönnek ezök röggelre.</p>
-                <p>Dehogy gyönnek mondok, eszik ágába se lösz, mert látod nagyon finnyás a
+				<p>Aszondi a Kátsa ne búsujjon biró uram, visszagyönnek ezök röggelre.</p>
+				<p>Dehogy gyönnek mondok, eszik ágába se lösz, mert látod nagyon finnyás a
                     mönyetske.</p>
-                <p>Hát lám másnap még alig vérratt, hallom ám a zörgést, hogy aszondi a pesti úr
+				<p>Hát lám másnap még alig vérratt, hallom ám a zörgést, hogy aszondi a pesti úr
                     eresszenek be, oszt vessenek két ágyat.</p>
-                <p>Kinézök a zablakon, oszt mondok nem vendégfogadó a zén házam, tsak etzör vót.</p>
-                <p>De hogy nagyon könyörgött a pesti úr, hogy aszondi ösmerjek istent, mert űk egy
+				<p>Kinézök a zablakon, oszt mondok nem vendégfogadó a zén házam, tsak etzör vót.</p>
+				<p>De hogy nagyon könyörgött a pesti úr, hogy aszondi ösmerjek istent, mert űk egy
                     szemhunyást se aluttak, hát béerösztöttem űket a Kátsa mög hozta utánok a sok
                     tzókmókot.</p>
-                <p>Aluttak osztán majd estig.</p>
-                <p>Mondok a Kátsának mért gyöttek ezök vissza?</p>
-                <p>- Hát aszondi, ahogy béraktam a zektzementzéjüket, három eleven szarvasbogarat
+				<p>Aluttak osztán majd estig.</p>
+				<p>Mondok a Kátsának mért gyöttek ezök vissza?</p>
+				<p>- Hát aszondi, ahogy béraktam a zektzementzéjüket, három eleven szarvasbogarat
                     dugtam a zágyba. Kettőt lábtul a lepödő alá, öggyet fejtül a vánkos alá.</p>
-                <p>Ebbül kitetzik, hogy több eszi van nálunk a Kátsának is mint akármijik pesti
+				<p>Ebbül kitetzik, hogy több eszi van nálunk a Kátsának is mint akármijik pesti
                     urnak.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                    A tsukó láda.
                 </head>
-                <p>Mikor fölkeltek a pestiek, hát mondok a zasszonynak kedves egészségére kivánom a
+				<p>Mikor fölkeltek a pestiek, hát mondok a zasszonynak kedves egészségére kivánom a
                     zétzakaji nyugodalmat, vagyishogy az nappalit, hát mit ösznek mostan: kávét-e
                     vagy aluttejet avagy savanyu iborkát? A pesti ur mingyán a zaluttejet
                     választotta, a pesti asszony aszondi, hogy neki tsukó láda köll.</p>
-                <p>- Ögyék előbb mondok, maga is egy kis aluttejet, majd aztán kerestetök.</p>
-                <p>- Nem aszondi, neköm nem köll más, tsak tsukóláda.</p>
-                <p>No fene akaratos teremtés, - gondótam magamba, de hátha valami gyémántya van,
+				<p>- Ögyék előbb mondok, maga is egy kis aluttejet, majd aztán kerestetök.</p>
+				<p>- Nem aszondi, neköm nem köll más, tsak tsukóláda.</p>
+				<p>No fene akaratos teremtés, - gondótam magamba, de hátha valami gyémántya van,
                     hogy félti tőlünk, avval előhivom a kisbirót, oszt mondok neki, erigy járd bé a
                     falut, oszt keress valami ojan ládát, amelyiken jó a lakat, kérd el, hogy csak
                     kis üdőre köll.</p>
-                <p>Mondok a zasszonynak mingyán lösz, ha pedig vagy a pízit félti vagy kéntsit, hát
+				<p>Mondok a zasszonynak mingyán lösz, ha pedig vagy a pízit félti vagy kéntsit, hát
                     ihol a község ládája, betöheti a dohányom mellé.</p>
-                <p>- Nints aszondi ojan pizöm, hogy el ne birnám.</p>
-                <p>Mig a kisbiró odajárt, azon beszélgettünk, hogy hogy aluttak, hát aszondi a
+				<p>- Nints aszondi ojan pizöm, hogy el ne birnám.</p>
+				<p>Mig a kisbiró odajárt, azon beszélgettünk, hogy hogy aluttak, hát aszondi a
                     zasszony, hogy ő mán sokféle féregrül hallott, de a mijen a zű lábába
                     ragaszkodott, ojat még nem hallott. Elvisiti magát, a zura gyertyát gyútt, hát
                     neki is ott lóg mán a nagy bogár a haján, de a harmadik nagy bogár mög ott
                     mászott mán a paklany közepin. A kotsmárost jól összveszitták, hogy mitsoda
                     ágyat adott nekik, avval hozzám gyöttek.</p>
-                <p>- No mondok itt igaz hogy nincs akkora parádé, de itt még bóha se akad, hatsak a
+				<p>- No mondok itt igaz hogy nincs akkora parádé, de itt még bóha se akad, hatsak a
                     kutyába nem, de abba se sok, mer egésznap ögyebet se tösz, tsak bóhászkodik.</p>
-                <p>Gyön oszt a kisbiró, hozi a hátán a Túrós Balogék tulipántos ládáját.</p>
-                <p>- No mondok itt van, ebbe belé rakodhatik.</p>
-                <p>Aszondi a zasszony minek ez?</p>
-                <p>Mondok, hát másforma itt nints az faluba, tsak ijen. Ki rúzsás, ki tulipántos, de
+				<p>Gyön oszt a kisbiró, hozi a hátán a Túrós Balogék tulipántos ládáját.</p>
+				<p>- No mondok itt van, ebbe belé rakodhatik.</p>
+				<p>Aszondi a zasszony minek ez?</p>
+				<p>Mondok, hát másforma itt nints az faluba, tsak ijen. Ki rúzsás, ki tulipántos, de
                     mán ez legjobban tsukódik.</p>
-                <p>- Aszondi neki nem köll láda.</p>
-                <p>- Nem azt mondta e mondok, hogy tsukó láda köll?</p>
-                <p>- Azt aszondi, de az ojan barna, oszt mög is löhet önni.</p>
-                <p>- Mán mondok barna láda nints minálunk, se ojan láda nints a faluba a kit
+				<p>- Aszondi neki nem köll láda.</p>
+				<p>- Nem azt mondta e mondok, hogy tsukó láda köll?</p>
+				<p>- Azt aszondi, de az ojan barna, oszt mög is löhet önni.</p>
+				<p>- Mán mondok barna láda nints minálunk, se ojan láda nints a faluba a kit
                     möglöhessen önni.</p>
-                <p>Hát ű is ráfanyarodott az aluttejre.</p>
-                <p>No sok bajunk volt evvel a pesti asszonynyal. Másnap röggel mög azon
+				<p>Hát ű is ráfanyarodott az aluttejre.</p>
+				<p>No sok bajunk volt evvel a pesti asszonynyal. Másnap röggel mög azon
                     panaszkodott, hogy a kokas egész éjjel kukorékolt.</p>
-                <p>- Hát azér kokas mondok. Az a természeti ennek, hogy kukorékol.</p>
-                <p>De aszondi ő nem tud tőle aludni.</p>
-                <p>- Tögyön ugy mint én, mondok igyék este vörös bort.</p>
-                <p>- Nem szoktam aszondi.</p>
-                <p>- Ez pedig lyó szokás mondok, mert lám én ha félig kiittam a tsutorámat,
+				<p>- Hát azér kokas mondok. Az a természeti ennek, hogy kukorékol.</p>
+				<p>De aszondi ő nem tud tőle aludni.</p>
+				<p>- Tögyön ugy mint én, mondok igyék este vörös bort.</p>
+				<p>- Nem szoktam aszondi.</p>
+				<p>- Ez pedig lyó szokás mondok, mert lám én ha félig kiittam a tsutorámat,
                     kukorékolhat neköm a kokas akár a filembe is, még se hallom.</p>
-                <p>Aszondi hogy öjjük le, mögfizeti.</p>
-                <p>- Mán mondok tyukot szivesen ölünk, de a kokas köll a háznál a tsirke
+				<p>Aszondi hogy öjjük le, mögfizeti.</p>
+				<p>- Mán mondok tyukot szivesen ölünk, de a kokas köll a háznál a tsirke
                     erányában.</p>
-                <p>Hát lám addig békétlenködött, hogy át köllött a kokast vitetni a
+				<p>Hát lám addig békétlenködött, hogy át köllött a kokast vitetni a
                     Durbintsékhon.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                 A másik pesti úr, a másik esztendőbe.
                 </head>
-                <p>Éppen igasságot igazitottam, mikor beállit két urasági bérös, oszt köztük egy
+				<p>Éppen igasságot igazitottam, mikor beállit két urasági bérös, oszt köztük egy
                     megkötözött úrféle. Vasvellával kisérték hozzám a bérösök.</p>
-                <p>- No mi a? mondok.</p>
-                <p>- Hát aszondi a Pali bérös, ahogy a terágyát horgyuk, láttyuk ám ezt a zurat,
+				<p>- No mi a? mondok.</p>
+				<p>- Hát aszondi a Pali bérös, ahogy a terágyát horgyuk, láttyuk ám ezt a zurat,
                     hogy ide-oda szaladgál a patak mellett. Egy kis ződ ászló van a kezibe, oszt
                     ide-oda kapdos.</p>
-                <p>- Eresszenek el! - kaját közbe az idegöny ur.</p>
-                <p>- Lassan, mondok, hagy beszéjjön a panaszos.</p>
-                <p>Hát a Pali tovább is beszélt. Aszondi:</p>
-                <p>- Ahogy láttyuk, hogy összevissza szökdétsöl, oszt egy hejön még ugrik is, mondok
-                    a Máté­nak, hogy mondok Máté, nem ez gyujtogat-e a szomszéd falukba? De aszondi
+				<p>- Eresszenek el! - kaját közbe az idegöny ur.</p>
+				<p>- Lassan, mondok, hagy beszéjjön a panaszos.</p>
+				<p>Hát a Pali tovább is beszélt. Aszondi:</p>
+				<p>- Ahogy láttyuk, hogy összevissza szökdétsöl, oszt egy hejön még ugrik is, mondok
+                    a Máténak, hogy mondok Máté, nem ez gyujtogat-e a szomszéd falukba? De aszondi
                     a Máté, kétször se mondom, hogy nem ez. No mondok, attagadóját neki, akkor ne is
                     futkározzon itten! Avval kapjuk a vasvellát körülkerittyük kétfelül.</p>
-                <p>- Eresszenek el, ordit mögen az idegöny ur, nem vagyok én bolond!</p>
-                <p>- Azt mindönki mondhassa, mondok. Tsak a panaszt várjuk el végig, mer ez a rönd
+				<p>- Eresszenek el, ordit mögen az idegöny ur, nem vagyok én bolond!</p>
+				<p>- Azt mindönki mondhassa, mondok. Tsak a panaszt várjuk el végig, mer ez a rönd
                     itten.</p>
-                <p>Hát a Pali tovább monta:</p>
-                <p>- A Máté elkapi a nyakát. Legyürköjjük az fődre, oszt én mögkötöm. Hát fenemód
-                    rugda­lódzott az igaz, de én hamarosan rátérgyeltem az inára, oszt mondok most
+				<p>Hát a Pali tovább monta:</p>
+				<p>- A Máté elkapi a nyakát. Legyürköjjük az fődre, oszt én mögkötöm. Hát fenemód
+                    rugdalódzott az igaz, de én hamarosan rátérgyeltem az inára, oszt mondok most
                     rugdalózz, ha tudsz, de nem tudott, tsak váltig azt hajtotta, hogy ű nem bolond.
                     Hát mondok majd az is kitudógyik, tsak lássuk előbb, mi van nála! Legelsőbe a
                     ződ eskátuját néztük mög, az tele vót mindönféle üveggel, az üveg mög bogárral.
                     Kabótza is vót benne.</p>
-                <p>- Hát ha nem bolond az úr, mondok minek szödi össze a bogarat?</p>
-                <p>Aszondi a Pali:</p>
-                <p>- Aztán a zsebeit motoztuk mög. Abba is találtunk egypár bogarat, mög ötvenhét
+				<p>- Hát ha nem bolond az úr, mondok minek szödi össze a bogarat?</p>
+				<p>Aszondi a Pali:</p>
+				<p>- Aztán a zsebeit motoztuk mög. Abba is találtunk egypár bogarat, mög ötvenhét
                     pöngőt. Hát itt van mostan, ide hoztuk, hogy kárt ne tögyön a faluba.</p>
-                <p>- No most beszéjjön hát mondok hogy hijják?</p>
-                <p>- Aszondi: Uristen Adolf.</p>
-                <p>- Jól vagyunk mán mondok. Hát maga az uristen! Hát a fiát hol hagyta mög a Szent
+				<p>- No most beszéjjön hát mondok hogy hijják?</p>
+				<p>- Aszondi: Uristen Adolf.</p>
+				<p>- Jól vagyunk mán mondok. Hát maga az uristen! Hát a fiát hol hagyta mög a Szent
                     Lölköt?</p>
-                <p>- Nem uristen vagyok én aszondi, hanem Oh-ren-stein.</p>
-                <p>- Jó, jó mondok, tsak ne kertöjjünk. Hát mit futkároz itten a mi rétünkön? Mér
+				<p>- Nem uristen vagyok én aszondi, hanem Oh-ren-stein.</p>
+				<p>- Jó, jó mondok, tsak ne kertöjjünk. Hát mit futkároz itten a mi rétünkön? Mér
                     nem futkároz Budapestön, ha odavaló?</p>
-                <p>- Aszondi: Én tudós vagyok, rovart gyűtök.</p>
-                <p>- Tán tzibart akar mondani?</p>
-                <p>- Nem szivart, rovart.</p>
-                <p>- Mi a tsuda az?</p>
-                <p>- Az a mi itt van.</p>
-                <p>- Itt tsak bogarak vannak.</p>
-                <p>- Hát ez az.</p>
-                <p>- Rovar?</p>
-                <p>- Az aszondi.</p>
-                <p>- No gondótam ennek az elméjéér se adnék egy bágyog pitykét. Mán a bogarat is
+				<p>- Aszondi: Én tudós vagyok, rovart gyűtök.</p>
+				<p>- Tán tzibart akar mondani?</p>
+				<p>- Nem szivart, rovart.</p>
+				<p>- Mi a tsuda az?</p>
+				<p>- Az a mi itt van.</p>
+				<p>- Itt tsak bogarak vannak.</p>
+				<p>- Hát ez az.</p>
+				<p>- Rovar?</p>
+				<p>- Az aszondi.</p>
+				<p>- No gondótam ennek az elméjéér se adnék egy bágyog pitykét. Mán a bogarat is
                     máskép hijja.</p>
-                <p>- Hát mondok, minek ez a sok rovarbogár?</p>
-                <p>- Aszondi köll a tudománynak.</p>
-                <p>- Mondok hát én se vagyok bagoj, tudom, hogy köll a tudománynak a szilokférög,
+				<p>- Hát mondok, minek ez a sok rovarbogár?</p>
+				<p>- Aszondi köll a tudománynak.</p>
+				<p>- Mondok hát én se vagyok bagoj, tudom, hogy köll a tudománynak a szilokférög,
                     mert igy tudódik ki, hogy pusztiti a szőlőt, de az urnál kabótza is van, mög
                     szunyog, appedig egyikse pusztiti a szőlőt?</p>
-                <p>- Aszondi köll az is mind.</p>
-                <p>- De mondok minek töszöm a kabótza?</p>
-                <p>- Hát aszondi vizsgálni.</p>
-                <p>- De mondok minek éppen a mi falunkbéli kabótza?</p>
-                <p>- Aszondi véletlenül itt szálltam le a vasutról.</p>
-                <p>- Hát az a ződ ászló?</p>
-                <p>- Aszondi nem ászló az, hanem atskó avval fogom a repülő bogarakat.</p>
-                <p>- Hát jól van mondok. Az éjjel itt hál az ur, oszt hónap kivitetöm a vasutra.</p>
-                <p>Mert hogy a pesti vendégök elkövetköztek mögen tömlötz lött a szobábul.</p>
-                <p>- Nem bánom aszondi tsak a rovaraimat ne vögyék el.</p>
-                <p>- Ne féjjön mondok inkább még a ződ atskóját is béadom, hogy összefogdoshassa a
+				<p>- Aszondi köll az is mind.</p>
+				<p>- De mondok minek töszöm a kabótza?</p>
+				<p>- Hát aszondi vizsgálni.</p>
+				<p>- De mondok minek éppen a mi falunkbéli kabótza?</p>
+				<p>- Aszondi véletlenül itt szálltam le a vasutról.</p>
+				<p>- Hát az a ződ ászló?</p>
+				<p>- Aszondi nem ászló az, hanem atskó avval fogom a repülő bogarakat.</p>
+				<p>- Hát jól van mondok. Az éjjel itt hál az ur, oszt hónap kivitetöm a vasutra.</p>
+				<p>Mert hogy a pesti vendégök elkövetköztek mögen tömlötz lött a szobábul.</p>
+				<p>- Nem bánom aszondi tsak a rovaraimat ne vögyék el.</p>
+				<p>- Ne féjjön mondok inkább még a ződ atskóját is béadom, hogy összefogdoshassa a
                     legyeket.</p>
-                <p>Hát be is adattam, hogy mondok hagy tejjék öröme.</p>
-                <p>A két béröst mög elküldtem, hogy mondok most mán ne tátsátok itt a szátokat.</p>
-                <p>Odaültem osztán pélpázni a tömlötz ablak elé, hogy mondok mulatok a bolond ur
-                    beszégy­gyin.</p>
-                <p>- Éhös-e? - mondok, mert egy kis aluttej akad a háznál.</p>
-                <p>- Nem tej köll néköm, aszondi nagy búsan, hanem egy kis papiros mög egy kis
+				<p>Hát be is adattam, hogy mondok hagy tejjék öröme.</p>
+				<p>A két béröst mög elküldtem, hogy mondok most mán ne tátsátok itt a szátokat.</p>
+				<p>Odaültem osztán pélpázni a tömlötz ablak elé, hogy mondok mulatok a bolond ur
+                    beszégygyin.</p>
+				<p>- Éhös-e? - mondok, mert egy kis aluttej akad a háznál.</p>
+				<p>- Nem tej köll néköm, aszondi nagy búsan, hanem egy kis papiros mög egy kis
                     ténta.</p>
-                <p>Béadom néki a kalamárist, mög a kalamust, hát olyan sebössen irt vele, hogy majd
+				<p>Béadom néki a kalamárist, mög a kalamust, hát olyan sebössen irt vele, hogy majd
                     elszaladt a keze. Gondótam nem is ir tán, tsak firkál, de ahogy mögirta a
                     levelet, látom, hogy röndös irás, ha nem is magyar. De azon tsudálkoztam
                     legjobban, hogy ugy mögirta a levelet, hogy etzör se nyalt bele.</p>
-                <p>Aszondi vögyön el kend a pízömbül egy koronát oszt vitesse el ezt a levelet a
+				<p>Aszondi vögyön el kend a pízömbül egy koronát oszt vitesse el ezt a levelet a
                     szolgabiróhon.</p>
-                <p>Itt egy kitsit möggondókottam, hogy mondok hátha valami atyafiság oda ez a
+				<p>Itt egy kitsit möggondókottam, hogy mondok hátha valami atyafiság oda ez a
                     bolond, de mondok az is mindögy azér tsak bolond marad.</p>
-                <p>Hát lám mi kereködött ki ebbül? Alig hogy a Kátsa visszaérközik gyön ám egy
+				<p>Hát lám mi kereködött ki ebbül? Alig hogy a Kátsa visszaérközik gyön ám egy
                     tsöndér, hogy aszondi ki köll ereszteni az urat, sömmi bántódása ne lögyék, mert
                     nem bolond.</p>
-                <p>- Hát mondok kieresztöm, de osztán magára vessön a tekintetös szolgabiró ur, ha
+				<p>- Hát mondok kieresztöm, de osztán magára vessön a tekintetös szolgabiró ur, ha
                     valami galibát tsinál.</p>
-                <p>Hát szabadon eresztöttem, de aszondi itt marad mán ű most egy pár napig, mert ha
+				<p>Hát szabadon eresztöttem, de aszondi itt marad mán ű most egy pár napig, mert ha
                     máshova mögyön mögen bajba kerülhet. Oszt aszondi agygyak neki szállást
                     mögfizeti.</p>
-                <p>- Hát mondok nálam möglakhatik, mög bogarat is fogdoshat a faluba, de azt
+				<p>- Hát mondok nálam möglakhatik, mög bogarat is fogdoshat a faluba, de azt
                     mögtiltom, hogy masina ne lögyön a zsebibe.</p>
-                <p>Hát itt is lődörgött a faluba, mög a falu körül. Fogdosta a sok bogarat, oszt
+				<p>Hát itt is lődörgött a faluba, mög a falu körül. Fogdosta a sok bogarat, oszt
                     beleöldöste őket pájinkába, hol mög avval mulatott, hogy gombostűt vött, oszt
                     fölszurkálta a bogarakat.</p>
-                <p>Hogy a píz könnyen tsöppent tűle, hát a Kátsa is melléje szegődött, oszt etzör
+				<p>Hogy a píz könnyen tsöppent tűle, hát a Kátsa is melléje szegődött, oszt etzör
                     egy marék bolhát hozott neki, azér is kapott egy hatost, de mögmondta, hogy neki
                     egyfajta férögbül tsak egy köll. Hát hozott osztán a Kátsa mást is.</p>
-                <p>Mikor mán egy hétig nálunk vót, haza gyön etzör nagy örömmel, oszt aszondi
+				<p>Mikor mán egy hétig nálunk vót, haza gyön etzör nagy örömmel, oszt aszondi
                     kétféle uj pókot tanált, oszt hogy én ütet olyan jól tartottam, hát
                     köszönetképpen az én nevemrül nevezi el.</p>
-                <p>- Mán mondok tisztőtt ur, mindönnek van határa, de tugygya mög, hogy én nömös
+				<p>- Mán mondok tisztőtt ur, mindönnek van határa, de tugygya mög, hogy én nömös
                     embör vagyok, az én nevemet bizony ne aggya rá sömmiféle rusnya férögre se.</p>
-                <p>Oszt ebbűl láttam, hogy mégis tsak neköm vót igazam, nem a szógabirónak.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Oszt ebbűl láttam, hogy mégis tsak neköm vót igazam, nem a szógabirónak.</p>
+			</div>
+			<div type="chapter">
+				<head>
                     A röpülő mestörség.
                 </head>
-                <p>Hogy olyan jámbor fajta bolond vót ez a másik pesti ur, tsütörtökön délután ütet
+				<p>Hogy olyan jámbor fajta bolond vót ez a másik pesti ur, tsütörtökön délután ütet
                     is kivittük a pintzébe, de ez nem nagyon ivott, tsak beszélt.</p>
-                <p>Többek között azt is beszélte, hogy aszondi mink még mögérhettyük a röpülő
+				<p>Többek között azt is beszélte, hogy aszondi mink még mögérhettyük a röpülő
                     masinát, mert aszondi sokan fárasztyák azon az eszüket, de még eddig ki nem
                     találták.</p>
-                <p>- Minek az mondok, ha a jó Isten azt akarta vóna, hogy madarak lögyünk, hát
+				<p>- Minek az mondok, ha a jó Isten azt akarta vóna, hogy madarak lögyünk, hát
                     madárnak teremtött vóna bennünket, de ő azt akarta, hogy fődön járjunk, vagy
                     hogy a ló vügye az embört, hát igy van ez jól.</p>
-                <p>- De aszondi az ur aki a röpülést kitanáli egy millió forint sok píz, de annál is
+				<p>- De aszondi az ur aki a röpülést kitanáli egy millió forint sok píz, de annál is
                     többje lösz, mert ha a paraszt nem is röpül, az urféle mind röpülni fog.</p>
-                <p>Gondótam magamba, mégis igazat mond.</p>
-                <p>Mikor oszt elkövetközött tőlünk, egy délután ahogy ott ülünk a pintzébe, mondok a
+				<p>Gondótam magamba, mégis igazat mond.</p>
+				<p>Mikor oszt elkövetközött tőlünk, egy délután ahogy ott ülünk a pintzébe, mondok a
                     sógornak, mirül gondókodik kend?</p>
-                <p>Aszondi a röpülő masinárúl ö. m. a f.</p>
-                <p>Mondok neköm is azon jár az eszöm.</p>
-                <p>Mögszólal a Kátsa is a küszöbön, hogy ű is éjjel nappal ezön tünődik.</p>
-                <p>Mondok ha bolond is az a pesti ur, de az való igaz, hogy aki kitanáli hogyan köll
+				<p>Aszondi a röpülő masinárúl ö. m. a f.</p>
+				<p>Mondok neköm is azon jár az eszöm.</p>
+				<p>Mögszólal a Kátsa is a küszöbön, hogy ű is éjjel nappal ezön tünődik.</p>
+				<p>Mondok ha bolond is az a pesti ur, de az való igaz, hogy aki kitanáli hogyan köll
                     röpülni, gazdag lösz, mert lám az urak mindön bolondságon kapnak: itzikliznek,
-                    mög lábbal labdáz­nak.</p>
-                <p>Aszondi a Durbints, hogy nem löhet az nehéz, tsak két nagy szárnyat köll összve
+                    mög lábbal labdáznak.</p>
+				<p>Aszondi a Durbints, hogy nem löhet az nehéz, tsak két nagy szárnyat köll összve
                     tsinálni tojjuból, még pedig lúdtojjuból.</p>
-                <p>Aszondi a Kátsa, szöd ő tojjut amennyi köll, tsak neki is aggyunk a nyereségbül
+				<p>Aszondi a Kátsa, szöd ő tojjut amennyi köll, tsak neki is aggyunk a nyereségbül
                     valami keveset.</p>
-                <p>- Hol vönnél annyi tojjut? mondok. Nehéz az embör teste, nagy szárny köll, köll
+				<p>- Hol vönnél annyi tojjut? mondok. Nehéz az embör teste, nagy szárny köll, köll
                     talán három öles is. De mondok lám a denevérnek nints tolla, sem a lipének, sem
                     a tserebogárnak, mégis röpül. Hátha mondok ponyvábul tsinálnánk szárnyat?</p>
-                <p>Aszondi a sógor neki is van egy rossz ponyvája, odaaggya, de ki tud abbúl
+				<p>Aszondi a sógor neki is van egy rossz ponyvája, odaaggya, de ki tud abbúl
                     szárnyat tsinálni?</p>
-                <p>- Én aszondi a Kátsa.</p>
-                <p>Oszt olyan büszkén verögette a mejjit, mintha egész életibe embörszárnyat tsinált
+				<p>- Én aszondi a Kátsa.</p>
+				<p>Oszt olyan büszkén verögette a mejjit, mintha egész életibe embörszárnyat tsinált
                     vóna.</p>
-                <p>- Mondok hogy tudnád te ezt?</p>
-                <p>Aszondi tsak bizza rám biró uram, mög aggyon két rossz ablakrámát, madzagot mög
+				<p>- Mondok hogy tudnád te ezt?</p>
+				<p>Aszondi tsak bizza rám biró uram, mög aggyon két rossz ablakrámát, madzagot mög
                     két nadrágszijjat, mög két garast tsirizre.</p>
-                <p>Mondok a sógornak ördög vigye azt a ponyvát, aggyuk oda neki, hátha ez a tzigány
+				<p>Mondok a sógornak ördög vigye azt a ponyvát, aggyuk oda neki, hátha ez a tzigány
                     régön mög tudta vóna tsinálni, tsakhogy ponyvája nem vót, mög ablakrámája. Pélpa
                     szurkálót is ojat tsinál ez, hogy városi mestör nem tud ojat.</p>
-                <p>Aszondi a sógor magam is bizok benne ö. m. a f. mert lássa kend sógor ez mindönt
+				<p>Aszondi a sógor magam is bizok benne ö. m. a f. mert lássa kend sógor ez mindönt
                     ért ez a tzigány, a gyógyitástul kezdve a kályhatapasztásig. Ha irni olvasni
                     tudna, még tán gyiákul is tudna ö. m. a f.</p>
-                <p>- Hát mondok a Kátsának mégis hogyan gondolod?</p>
-                <p>Aszondi a Kátsa, kifeszitöm a két ponyvát két madár szárnya formájára. A két
+				<p>- Hát mondok a Kátsának mégis hogyan gondolod?</p>
+				<p>Aszondi a Kátsa, kifeszitöm a két ponyvát két madár szárnya formájára. A két
                     ablakráma lösz a vállamon, arra szögezök egypár hosszu füzfaágat, de erőset,
                     oszt igy feszitöm rá a ponyvát fonállal mög tsirizzel. A két ablakot a hátamon
                     az egyik nadrágszijjal összekötöm, a két karomat belefüzöm, oszt lebögtetöm,
                     mint a lúd.</p>
-                <p>- Jól beszél, - mondok a sógornak, de mondok fogsz-e szállni?</p>
-                <p>- Hát hogyne?</p>
-                <p>- De mondok, hátha nem fogsz?</p>
-                <p>- Addig mozsgatom a sárnyat mig tsak fel nem sállok. A lud is addig mozsgati,
+				<p>- Jól beszél, - mondok a sógornak, de mondok fogsz-e szállni?</p>
+				<p>- Hát hogyne?</p>
+				<p>- De mondok, hátha nem fogsz?</p>
+				<p>- Addig mozsgatom a sárnyat mig tsak fel nem sállok. A lud is addig mozsgati,
                     billegeti, hogy ecser tsak felrepil.</p>
-                <p>- De mondok, hát a másik nadrágszijj minek?</p>
-                <p>- A másik? Kell azs is.</p>
-                <p>- De hová?</p>
-                <p>- Hát a nadrágomra.</p>
-                <p>- Hát mondok nem sajnálom a nadrágszijjat, sem a két garast, ha nem kerül többe,
+				<p>- De mondok, hát a másik nadrágszijj minek?</p>
+				<p>- A másik? Kell azs is.</p>
+				<p>- De hová?</p>
+				<p>- Hát a nadrágomra.</p>
+				<p>- Hát mondok nem sajnálom a nadrágszijjat, sem a két garast, ha nem kerül többe,
                     de mondok nem szeretném, ha a faluba mögtudnák, hát hol tsinálod?</p>
-                <p>- Itt aszondi a Kátsa, a szőlőbe.</p>
-                <p>- No mondok, hát hónap odadom a ponyvát, oszt fogj hozzá. A két garast is
+				<p>- Itt aszondi a Kátsa, a szőlőbe.</p>
+				<p>- No mondok, hát hónap odadom a ponyvát, oszt fogj hozzá. A két garast is
                     mögkapod hónap, mög az egyik nadrágszijjat tülem, a másikat a sógortul.</p>
-                <p>Hát a Kátsa másnap kitzepelte a két nagy ponyvát mög a két rossz ablakrámát a
+				<p>Hát a Kátsa másnap kitzepelte a két nagy ponyvát mög a két rossz ablakrámát a
                     pintzébe, oszt neki fogott a gyiófa alatt a munkának.</p>
-                <p>Mögfogadtuk, hogy titkon tartyuk ez a dogot, de hogy én összevesztem a
+				<p>Mögfogadtuk, hogy titkon tartyuk ez a dogot, de hogy én összevesztem a
                     zannyukommal, hát azt tanáltam mondani, hogy mondok, majd beszélsz énvelem még
                     térgyön is, mikor kazallal lösz a bankóm, hát lám estére már addig simogatott,
-                    hogy kisimogatta belülem. Lölkire fogat­ta, hogy el nem mongya, de mért is hogy
+                    hogy kisimogatta belülem. Lölkire fogatta, hogy el nem mongya, de mért is hogy
                     az asszonyi nyelvet madzagra nem löhet kötni mint az malatzot. Másnap estefelé
                     már innen is onnan is gyöttek az embörök, oszt ott pélpáztak a Kátsa körül.</p>
-                <p>A mónár sógor is odagyött, oszt aszondi akkor röpül evvel az embör, majd mikor a
+				<p>A mónár sógor is odagyött, oszt aszondi akkor röpül evvel az embör, majd mikor a
                     malom kereke visszafele forog. Aszondi a Kátsa:</p>
-                <p>- Hogy aszondi ád-e egy zsák listet malnár uram, ha megles a repülés?</p>
-                <p>- Adok aszondi a mónár sógor hármat, ha a malomon körösztül röpülsz.</p>
-                <p>Senkise hitte, hogy löhet röpülni, tsak a Kátsa. Én magam is kétségösköttem, mert
+				<p>- Hogy aszondi ád-e egy zsák listet malnár uram, ha megles a repülés?</p>
+				<p>- Adok aszondi a mónár sógor hármat, ha a malomon körösztül röpülsz.</p>
+				<p>Senkise hitte, hogy löhet röpülni, tsak a Kátsa. Én magam is kétségösköttem, mert
                     mondok a mi még nem vót, nem igen szokott lönni.</p>
-                <p>Harmadnapra mán úgy kiszabta az egyik szárnyat, hogy még aki nem hitt is benne,
+				<p>Harmadnapra mán úgy kiszabta az egyik szárnyat, hogy még aki nem hitt is benne,
                     adott egy garast belé.</p>
-                <p>Mert hogy szavamat ne felejtsem mindönnap új kőtség adódott elő. Hol a tzérna
+				<p>Mert hogy szavamat ne felejtsem mindönnap új kőtség adódott elő. Hol a tzérna
                     fogyott el, hol a tsiriz, hol apró szög köllött, hol fót a vászonra, hát
                     mindönki belé állott egy-két garassal a haszonba, oszt még sajtot is hozattak a
                     tzigánynak tsakhogy dógozzon.</p>
-                <p>Mikor mán mögvót az egyik szárny, a Kátsa fölőtötte az karjára, oszt lebögtette,
+				<p>Mikor mán mögvót az egyik szárny, a Kátsa fölőtötte az karjára, oszt lebögtette,
                     közbe mög nagyokat ugrott félszögön, oszt kajabált, hogy jaj aszondi bizony
                     elkap!</p>
-                <p>Hát még jobban hordták neki a garast mög a pájinkát, oszt még a zasszonyok is
+				<p>Hát még jobban hordták neki a garast mög a pájinkát, oszt még a zasszonyok is
                     kijártak a tsudájára.</p>
-                <p>Hanem hogy ojan nagyon jól tartották a Kátsát, mán a második szárnynyal sehosse
+				<p>Hanem hogy ojan nagyon jól tartották a Kátsát, mán a második szárnynyal sehosse
                     boldogult, mert délbe mán mindig részög vót, oszt ögyre azt hajtotta, hogy
                     aszondi, ráérünk, hát pihennyünk.</p>
-                <p>Hát mögtiltottam a pájinkát.</p>
-                <p>Oszt ott beszélgettünk mindön délután, hogy mi lösz, ha ez a találmány közönségös
+				<p>Hát mögtiltottam a pájinkát.</p>
+				<p>Oszt ott beszélgettünk mindön délután, hogy mi lösz, ha ez a találmány közönségös
                     lösz, oszt a tolvajok szárnyon járnak, hát mondok akkor a kisbirónak is szárnyon
                     köll járnia, mög a tsöndőröknek, oszt ahejött hogy a derekát ütnék le a
                     tolvajnak, hát a szárnyát ütik le.</p>
-                <p>Mög más effélét beszélgettünk.</p>
-                <p>De lám hogy a Kátsának pájinkát nem attunk, hát egypár tsizmát követelt, mög egy
+				<p>Mög más effélét beszélgettünk.</p>
+				<p>De lám hogy a Kátsának pájinkát nem attunk, hát egypár tsizmát követelt, mög egy
                     uj viselt ruhát a városbúl mer aszondi nem dógozhatik, ha fázik a lába.</p>
-                <p>- Hogy a penísz ögyön mög mondok, hát a télön nem fáztál mezitláb, most mög mán
+				<p>- Hogy a penísz ögyön mög mondok, hát a télön nem fáztál mezitláb, most mög mán
                     nyáron is fázol? No nézd! Mintha nem egész életibe mezitláb járt vóna.</p>
-                <p>De azér mögvöttük neki, amit kivánt a városi ótskásnál.</p>
-                <p>Akkor mög, hogy pájinkát nem adtunk neki minduntalan az görtsrül panaszkodott,
+				<p>De azér mögvöttük neki, amit kivánt a városi ótskásnál.</p>
+				<p>Akkor mög, hogy pájinkát nem adtunk neki minduntalan az görtsrül panaszkodott,
                     hogy beléállt az karjába, hogy ha mán nem ihatik, legalább az karját dörgöjjék
                     pájinkával.</p>
-                <p>Utójjára mán annyira elkényösödött, hogy még a bagóba is válogatott, tsak a
+				<p>Utójjára mán annyira elkényösödött, hogy még a bagóba is válogatott, tsak a
                     tzibarvéget akarta bérakni.</p>
-                <p>Uram isten mondok, bizony mögdobálom ezt az akasztófáravalót minekelőtte
+				<p>Uram isten mondok, bizony mögdobálom ezt az akasztófáravalót minekelőtte
                     elkészülne, de tsak türtőztettem a boszuságomat.</p>
-                <p>A harmadik hét végin mán készen vót mind a két szárny, de a Kátsa mégis tsak
+				<p>A harmadik hét végin mán készen vót mind a két szárny, de a Kátsa mégis tsak
                     szöszmötölt rajta.</p>
-                <p>De a füstös tagadódat mondok, most mán vagy röpüjj, vagy rosszul jársz.</p>
-                <p>Aszondi ű péntökön nem kezdi, hát jól van mondok, de hónapnál tovább nem
+				<p>De a füstös tagadódat mondok, most mán vagy röpüjj, vagy rosszul jársz.</p>
+				<p>Aszondi ű péntökön nem kezdi, hát jól van mondok, de hónapnál tovább nem
                     várok.</p>
-                <p>Másnap oszt öszvegyült az egész falu a pintzénél, vártuk az röpülést, de aszondi
+				<p>Másnap oszt öszvegyült az egész falu a pintzénél, vártuk az röpülést, de aszondi
                     a Kátsa, hogy ű nem röpül, mert az nem vót az öggyességbe, tsak az, hogy ű
                     szárnyat tsinájjon, hát ihol a szárny, mög van tsinálva bötsületössen, röpüjjön
                     aki akar.</p>
-                <p>- De a tagadóját mondok, ha mögtsináltad, mutasd is mög hogy hogyan köll vele
+				<p>- De a tagadóját mondok, ha mögtsináltad, mutasd is mög hogy hogyan köll vele
                     bánni.</p>
-                <p>- Aszondi tsak azt azs egyet ne kivánnya tílem a kesség, más mindent eremest.</p>
-                <p>- Mondok nekünk most ez köll.</p>
-                <p>- Aszondi, próbálja talán a kisbiró, énnekem nem való a repilés. Sohse hallottam,
+				<p>- Aszondi tsak azt azs egyet ne kivánnya tílem a kesség, más mindent eremest.</p>
+				<p>- Mondok nekünk most ez köll.</p>
+				<p>- Aszondi, próbálja talán a kisbiró, énnekem nem való a repilés. Sohse hallottam,
                     hogy tzigány repilt valna.</p>
-                <p>- Hát mondok száz szónak is egy a vége.</p>
-                <p>Avval két kézre fogom az botomat, oszt mondok:</p>
-                <p>- Röpülsz-e vagy nem?</p>
-                <p>- Jojó, aszondi a Kátsa elugorva hát repilek repilek tsak ne siessünk. Megmutatom
+				<p>- Hát mondok száz szónak is egy a vége.</p>
+				<p>Avval két kézre fogom az botomat, oszt mondok:</p>
+				<p>- Röpülsz-e vagy nem?</p>
+				<p>- Jojó, aszondi a Kátsa elugorva hát repilek repilek tsak ne siessünk. Megmutatom
                     hogyan kell.</p>
-                <p>Avval fölőtti a karjára a két szárnyat, oszt lebögteti.</p>
-                <p>De nem röpül.</p>
-                <p>- Jobban lebögtesd mondok.</p>
-                <p>- Nem merem aszondi a Kátsa. Félek hogy elkap.</p>
-                <p>Mögen emelöm a botomat, mögen lebögtet, oszt ugrik is közbe, de tsak nem
+				<p>Avval fölőtti a karjára a két szárnyat, oszt lebögteti.</p>
+				<p>De nem röpül.</p>
+				<p>- Jobban lebögtesd mondok.</p>
+				<p>- Nem merem aszondi a Kátsa. Félek hogy elkap.</p>
+				<p>Mögen emelöm a botomat, mögen lebögtet, oszt ugrik is közbe, de tsak nem
                     száll.</p>
-                <p>- No mondok, hát nem jó a szárny, most már nyilván való.</p>
-                <p>- De aszondi jó a szárny, tsakhogy meg vagyok ijedve. Ha valaki két pöngőt adna,
+				<p>- No mondok, hát nem jó a szárny, most már nyilván való.</p>
+				<p>- De aszondi jó a szárny, tsakhogy meg vagyok ijedve. Ha valaki két pöngőt adna,
                     mindjárt tudnik.</p>
-                <p>- No aszondi a Durbints sógor, hát ö. m. a f. azt a két pöngőt, mögadom.</p>
-                <p>- Még egy garast pájinkára, mondja a Kátsa.</p>
-                <p>- Azt is mögadom ö. m. a f.</p>
-                <p>Föláll a Kátsa, pöki az markát dühösen oszt lebögteti mögen a két szárnyat, ugrik
+				<p>- No aszondi a Durbints sógor, hát ö. m. a f. azt a két pöngőt, mögadom.</p>
+				<p>- Még egy garast pájinkára, mondja a Kátsa.</p>
+				<p>- Azt is mögadom ö. m. a f.</p>
+				<p>Föláll a Kátsa, pöki az markát dühösen oszt lebögteti mögen a két szárnyat, ugrik
                     nagyokat, mög visit is hogy félre azs útbúl, detsak nem bírt fölszállani.</p>
-                <p>- No mondok gazembör vótál egész életödbe, gazembör is maradsz.</p>
-                <p>A mónár akkor érközött oda, látta, hogy a Kátsa nem tud röpülni, hát aszondi:</p>
-                <p>- Száz pöngőt adok, ha a malmot átröpülöd.</p>
-                <p>Avval kivöszi az bugyellárist oszt kivág az én markomba egy 100-áz pöngős
+				<p>- No mondok gazembör vótál egész életödbe, gazembör is maradsz.</p>
+				<p>A mónár akkor érközött oda, látta, hogy a Kátsa nem tud röpülni, hát aszondi:</p>
+				<p>- Száz pöngőt adok, ha a malmot átröpülöd.</p>
+				<p>Avval kivöszi az bugyellárist oszt kivág az én markomba egy 100-áz pöngős
                     bankót.</p>
-                <p>- Itt van aszondi a kösség színe előtt lötöszöm a biróság kezibe a százast.
+				<p>- Itt van aszondi a kösség színe előtt lötöszöm a biróság kezibe a százast.
                     Aggyák oda neki, ha az én malmomat átröpüli.</p>
-                <p>Itt a Kátsa is mögharagszik, szödi-vödi a két szárnyat, indul az malomnak.
-                    Aszondi az ma­lomnál tsak egy iveg bort aggyanak előbb, mert elfogyott az
+				<p>Itt a Kátsa is mögharagszik, szödi-vödi a két szárnyat, indul az malomnak.
+                    Aszondi az malomnál tsak egy iveg bort aggyanak előbb, mert elfogyott az
                     ereje.</p>
-                <p>Hát azt is kapott.</p>
-                <p>Akkor oszt aszondi, mögtróbáli először, hogy fölülrül száll le, mert még nem
+				<p>Hát azt is kapott.</p>
+				<p>Akkor oszt aszondi, mögtróbáli először, hogy fölülrül száll le, mert még nem
                     tuggya a járást a malom tetejin körösztül.</p>
-                <p>Hát még a kisbiró is segitött neki. Fölvitte neki a két szárnyat a malom tetejire
+				<p>Hát még a kisbiró is segitött neki. Fölvitte neki a két szárnyat a malom tetejire
                     oszt öszve kötötte rajta.</p>
-                <p>A malom van vagy négy öl magos, de mondok lássuk a leszállást.</p>
-                <p>Hát lám mijen a tzigány, nem hogy körösztül tudott vóna rajta röpülni, hanem még
+				<p>A malom van vagy négy öl magos, de mondok lássuk a leszállást.</p>
+				<p>Hát lám mijen a tzigány, nem hogy körösztül tudott vóna rajta röpülni, hanem még
                     lefele is háttal gyött.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                    Levél a vasuti minyisztör urnak.
                 </head>
-                <p>Tisztőtt minyisztör ur lyó egésségöt és hasolló lyókat kivánok, továbbá tsak azt
-                    akarom mög­irni, hogy a vasuti öszveütődésöket hogyan löhet mögszüntetni. Mert
+				<p>Tisztőtt minyisztör ur lyó egésségöt és hasolló lyókat kivánok, továbbá tsak azt
+                    akarom mögirni, hogy a vasuti öszveütődésöket hogyan löhet mögszüntetni. Mert
                     mindönki ugy használ az hazának ahogyan tud.</p>
-                <p>Hát hogy a zelejin kezgyem, bémöngyönk a nyáron a méltóságos báró urhon az hid
+				<p>Hát hogy a zelejin kezgyem, bémöngyönk a nyáron a méltóságos báró urhon az hid
                     erányába, mivelhogy azt igérte választáskor, hogy a maga kőtségin tsináltati mög
                     az kösség higgyát. Oszt az ámbituson ott lapdázik a kis méltóságos.</p>
-                <p>Piros lapda vót a kézibe, oszt ahányszor leütötte, mindig fölugrott, már mint a
+				<p>Piros lapda vót a kézibe, oszt ahányszor leütötte, mindig fölugrott, már mint a
                     labda.</p>
-                <p>- Ejnye fene mondok mitsoda labda az méltóságos urfi?</p>
-                <p>- Aszondi apám hozta Pestrül.</p>
-                <p>Mutati, nézöm, tsapom az fődhön, hát úgy ugrik mint az bolha.</p>
-                <p>- Mibűl löhet ez mondok.</p>
-                <p>Aszondi a gubernátor kisasszony gumilásztikony.</p>
-                <p>- Mi az a gumilásztikony mondok.</p>
-                <p>- Aszondi valami fának a levibül van. Mikor mögkeményödik labdát tsinálnak
+				<p>- Ejnye fene mondok mitsoda labda az méltóságos urfi?</p>
+				<p>- Aszondi apám hozta Pestrül.</p>
+				<p>Mutati, nézöm, tsapom az fődhön, hát úgy ugrik mint az bolha.</p>
+				<p>- Mibűl löhet ez mondok.</p>
+				<p>Aszondi a gubernátor kisasszony gumilásztikony.</p>
+				<p>- Mi az a gumilásztikony mondok.</p>
+				<p>- Aszondi valami fának a levibül van. Mikor mögkeményödik labdát tsinálnak
                     belüle.</p>
-                <p>Mögnyomogatom az labdát, hát puha mint az emböri test. Mögen ütöm az fődhön,
+				<p>Mögnyomogatom az labdát, hát puha mint az emböri test. Mögen ütöm az fődhön,
                     mögen ugrik.</p>
-                <p>- Mondok szétmönne-é ha ráállnék.</p>
-                <p>- Nem aszondi a gubernátor.</p>
-                <p>Tróbálok ráállani, hát nem hogy a labda mönt vóna széjjel, hanem majd hogy a
+				<p>- Mondok szétmönne-é ha ráállnék.</p>
+				<p>- Nem aszondi a gubernátor.</p>
+				<p>Tróbálok ráállani, hát nem hogy a labda mönt vóna széjjel, hanem majd hogy a
                     fejem nem esőtt széjjel ugy a zasztalnak vágóttam.</p>
-                <p>Hát lám mijen kitalálás.</p>
-                <p>Sokat forgattam a zeszömbe, hogy mi hasznosat löhetne ebbül tsinálni, a
+				<p>Hát lám mijen kitalálás.</p>
+				<p>Sokat forgattam a zeszömbe, hogy mi hasznosat löhetne ebbül tsinálni, a
                     kösségházán is beszéltünk rúla, hát mondok mögirom kigyelmednek minyisztör
                     uram.</p>
-                <p>Azt köllene ebbül tsinálni, hogy akkora labdákat köllene tsináltatni, mint a
+				<p>Azt köllene ebbül tsinálni, hogy akkora labdákat köllene tsináltatni, mint a
                     tizakós hordó. Oda köllene kötni mindön gőzös elejire öggyet mög a hátujjára
                     öggyet. Már most akár elül, akár hátrul esnék az öszveütközés, nem tönne kárt
                     sem az embörbe, sem a gőzösbe, hanem elrugná az gőzöst. Oszt mentül nagyobb
                     lönne az öszverugodás, antul nagyobb lönne az széjjel rugódás.</p>
-                <p>Mejhöz hasolló lyókat kivánok.</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Mejhöz hasolló lyókat kivánok.</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                   A vadász igy járt.
                 </head>
-                <p>Lyó egésségöt és hasolló lyókat kivánok, továbbá, hogy a városba jártunk, láttuk
+				<p>Lyó egésségöt és hasolló lyókat kivánok, továbbá, hogy a városba jártunk, láttuk
                     kiirva, hogy aszondi Rip van Vinkle, eleinte nem ügyeltünk rá, de hogy a
                     harmadik negyedik sarkon is mögen ki vót irva, hát ott tüneködünk, hogy mi löhet
                     az, hát aszondi egy ur azt jelönti az, hogy az egy embörnek a neve.</p>
-                <p>- No mondok bizonyosan nímöt embör az, mert én ijen nevet sohase hallottam.</p>
-                <p>- Az tsak olyan komégyiás név, aszondi, mert komégyiások vannak a városba.</p>
-                <p>- No mondok ezt mögnézzük. Hát beváltakoztunk a szinház pallására este a
+				<p>- No mondok bizonyosan nímöt embör az, mert én ijen nevet sohase hallottam.</p>
+				<p>- Az tsak olyan komégyiás név, aszondi, mert komégyiások vannak a városba.</p>
+				<p>- No mondok ezt mögnézzük. Hát beváltakoztunk a szinház pallására este a
                     sógorral, oszt ott hallgattuk hogyan muzsikálnak odale.</p>
-                <p>Etzör tsak fölhúzódik a fal, oszt láttyuk hogy ott összevissza énekölnek, ki
+				<p>Etzör tsak fölhúzódik a fal, oszt láttyuk hogy ott összevissza énekölnek, ki
                     szaladgálva, ki álltában, de mindönféle idegön ember.</p>
-                <p>- Mi lösz ebbül sógor mondok, mert hiába nints soha szaladgálás.</p>
-                <p>- Aszondi talán tűz van odaki.</p>
-                <p>- Mondok az möglöhet. Maragygyon tsak itt kend én majd mögnézöm.</p>
-                <p>Avval leballagok oszt körüljárom a házat. Mondok egy tüzoltónak:</p>
-                <p>- Nints tüz?</p>
-                <p>- Nints aszondi.</p>
-                <p>- Hát mondok mi baj van, hogy ugy zavarognak odabe.</p>
-                <p>- Aszondi nem tudom, mer én tsak ideki vigyázok.</p>
-                <p>Vissza akarok mönni, hát elájja a zutamat egy vörösgalléros embör.</p>
-                <p>- Jegyet aszondi.</p>
-                <p>- Mondok tán a reskontót kéri? Váltottam mán mondok.</p>
-                <p>- Hát hun van?</p>
-                <p>- Odaattam a zasszonynak?</p>
-                <p>- Mitsoda asszonynak?</p>
-                <p>- A ki odafönn van a palláson.</p>
-                <p>- Aszondi beszélhet kend, jegy nélkül nem eresztem be kendöt.</p>
-                <p>- De mondok kétször a patikába se köll füzetni. Húsz krajtzárt fizettem én.
+				<p>- Mi lösz ebbül sógor mondok, mert hiába nints soha szaladgálás.</p>
+				<p>- Aszondi talán tűz van odaki.</p>
+				<p>- Mondok az möglöhet. Maragygyon tsak itt kend én majd mögnézöm.</p>
+				<p>Avval leballagok oszt körüljárom a házat. Mondok egy tüzoltónak:</p>
+				<p>- Nints tüz?</p>
+				<p>- Nints aszondi.</p>
+				<p>- Hát mondok mi baj van, hogy ugy zavarognak odabe.</p>
+				<p>- Aszondi nem tudom, mer én tsak ideki vigyázok.</p>
+				<p>Vissza akarok mönni, hát elájja a zutamat egy vörösgalléros embör.</p>
+				<p>- Jegyet aszondi.</p>
+				<p>- Mondok tán a reskontót kéri? Váltottam mán mondok.</p>
+				<p>- Hát hun van?</p>
+				<p>- Odaattam a zasszonynak?</p>
+				<p>- Mitsoda asszonynak?</p>
+				<p>- A ki odafönn van a palláson.</p>
+				<p>- Aszondi beszélhet kend, jegy nélkül nem eresztem be kendöt.</p>
+				<p>- De mondok kétször a patikába se köll füzetni. Húsz krajtzárt fizettem én.
                     Mitsoda huntzutság-e? Elvöszik az embörtül a tzédulát, oszt hogy mögen
                     váltsak!</p>
-                <p>Addig addig veszeköttünk, hogy odagyütt egy úr oszt uj czédulát adott.</p>
-                <p>Fölmászok vele a pallásra, mögen kéri az asszony.</p>
-                <p>- Csak azt lesse mondok, hogy odaaggyam. Vögyön magának odale ha akar.</p>
-                <p>- De aszondi ide köll adni.</p>
-                <p>- Majd ha fagy mondok, nem vagyok bolond.</p>
-                <p>A szinház népe is odafordult, oszt sziszögtek mint a liba, hát beszélni kezdöm,
+				<p>Addig addig veszeköttünk, hogy odagyütt egy úr oszt uj czédulát adott.</p>
+				<p>Fölmászok vele a pallásra, mögen kéri az asszony.</p>
+				<p>- Csak azt lesse mondok, hogy odaaggyam. Vögyön magának odale ha akar.</p>
+				<p>- De aszondi ide köll adni.</p>
+				<p>- Majd ha fagy mondok, nem vagyok bolond.</p>
+				<p>A szinház népe is odafordult, oszt sziszögtek mint a liba, hát beszélni kezdöm,
                     hogy mit akar az asszony, hadd tuggyák odale is.</p>
-                <p>- Hallgasson kend aszondi a röndér mert kitöszöm.</p>
-                <p>- Azt szeretném látni mondok. Nem azér fizettem én.</p>
-                <p>Hát akkor elhallgatott.</p>
-                <p>Nézzük oszt, hogy mi van odale, hát gyön ám egy vadász a röttentő erdőbe, oszt
+				<p>- Hallgasson kend aszondi a röndér mert kitöszöm.</p>
+				<p>- Azt szeretném látni mondok. Nem azér fizettem én.</p>
+				<p>Hát akkor elhallgatott.</p>
+				<p>Nézzük oszt, hogy mi van odale, hát gyön ám egy vadász a röttentő erdőbe, oszt
                     ott hujángat mög danógat magába, de nem magyarosan. Egyször tsak előtűnik a sok
                     késértet, a vadász mögijed, de rajtam is végig futkosott a hideg, még a szűröm
                     szőre is fölborzolódott, mert késértetöt tsak etzör láttam életömbe, akkor is
                     tsak öggyet.</p>
-                <p>A sok késértet innya adott a vadásznak, hogy ne féjjön, mink is előszöttük az
+				<p>A sok késértet innya adott a vadásznak, hogy ne féjjön, mink is előszöttük az
                     kulatsot, hogy ne féjjünk, de a sok késértet tsak ott maratt, oszt úgy danótak
                     majd föl vötték a házat.</p>
-                <p>Féltömbe aztán öszve szödöm a lölki erőmet, oszt nagyot huritok:</p>
-                <p>- Mindön jótét lélök ditséri a zurat!</p>
-                <p>Hát nem hogy eloszlott vóna a sok késértet, hanem még nevettek. A röndér mögen
+				<p>Féltömbe aztán öszve szödöm a lölki erőmet, oszt nagyot huritok:</p>
+				<p>- Mindön jótét lélök ditséri a zurat!</p>
+				<p>Hát nem hogy eloszlott vóna a sok késértet, hanem még nevettek. A röndér mögen
                     odagyön, hogy aszondi nem igazi késértet az, hallgasson kend!</p>
-                <p>- De a kutya ugassa mög mondok, ha nem igazi ne rémijje a bötsületös embört.</p>
-                <p>Hát mi történt a vadászszal? Nem jó bort attak neki innya, hanem valami
+				<p>- De a kutya ugassa mög mondok, ha nem igazi ne rémijje a bötsületös embört.</p>
+				<p>Hát mi történt a vadászszal? Nem jó bort attak neki innya, hanem valami
                     maszlagosat. Ugy összerogyott tűle, hogy a fejit is alig birta. A késértetök mög
                     rádanótak, hogy aszondi: Husz évig itt alunni fogsz!</p>
-                <p>- De mondok ez nem igasság, ezt föl köll jelönteni, mert mög is halhat.</p>
-                <p>- Hagyja kend ö. m. a f. - feleli a sógor, vannak itt ölögen majd elvégzik.</p>
-                <p>Avval, hogy leeresztötték a falat, szöggyük a kalapot oszt indúlunk.</p>
-                <p>Aszondi egy úr:</p>
-                <p>- Föléled mögen, ne búsújjanak.</p>
-                <p>- Mondok ha föléled is, ki tuggya mögérjük-e?</p>
-                <p>Aszondi komégyia ez tsak.</p>
-                <p>- Tudom én mondok, de éppen az a gyisznóság benne, hogy komégyia oszt mégis húsz
-                    eszten­deig köll várakozni.</p>
-                <p>Avval visszamöntünk a kotsmába.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>- De mondok ez nem igasság, ezt föl köll jelönteni, mert mög is halhat.</p>
+				<p>- Hagyja kend ö. m. a f. - feleli a sógor, vannak itt ölögen majd elvégzik.</p>
+				<p>Avval, hogy leeresztötték a falat, szöggyük a kalapot oszt indúlunk.</p>
+				<p>Aszondi egy úr:</p>
+				<p>- Föléled mögen, ne búsújjanak.</p>
+				<p>- Mondok ha föléled is, ki tuggya mögérjük-e?</p>
+				<p>Aszondi komégyia ez tsak.</p>
+				<p>- Tudom én mondok, de éppen az a gyisznóság benne, hogy komégyia oszt mégis húsz
+                    esztendeig köll várakozni.</p>
+				<p>Avval visszamöntünk a kotsmába.</p>
+			</div>
+			<div type="chapter">
+				<head>
                     A zuj rutli.
                 </head>
-                <p>Lyó egésségöt és hasolló lyókat kivánok továbbá olvassuk ám a sógorral, hogy
+				<p>Lyó egésségöt és hasolló lyókat kivánok továbbá olvassuk ám a sógorral, hogy
                     aszondi osztáj sors játék. Mi löhet ez mondok.</p>
-                <p>- Rutli az ö. m. a f. - aszondi a sógor, tsakhogy elforditották a nevit.</p>
-                <p>- No mondok tsakugyan, mer ihol e itt van, hogy egy millió koronát is löhet
+				<p>- Rutli az ö. m. a f. - aszondi a sógor, tsakhogy elforditották a nevit.</p>
+				<p>- No mondok tsakugyan, mer ihol e itt van, hogy egy millió koronát is löhet
                     nyerni mög százezreket.</p>
-                <p>- No aszondi a sógor tögyünk rája.</p>
-                <p>- Mögájjunk mondok, hagy olvasom végig.</p>
-                <p>Hát végig olvasom, oszt ott a vége nagy ordéttó bötükkel, hogy aszondi mindön
+				<p>- No aszondi a sógor tögyünk rája.</p>
+				<p>- Mögájjunk mondok, hagy olvasom végig.</p>
+				<p>Hát végig olvasom, oszt ott a vége nagy ordéttó bötükkel, hogy aszondi mindön
                     második sorsjegy nyer.</p>
-                <p>- No mondok hát tögyünk. De mijik számra?</p>
-                <p>- Hát aszondi a sógor a másodikra ö. m. a f.</p>
-                <p>- Belépünk a bótba, mondok a szőrös fülünek, a nagy rutli erányába gyöttünk.</p>
-                <p>Röttentő mögörül, oszt szödi ki a nagy sok rutli tzédulát.</p>
-                <p>- Hát aszondi mijen köll: 70-ven 5 karajtzáros-e vagy derágább.</p>
-                <p>- Mondok tsak egy 10-iz karajtzáros, mert közösen tösszük mög a sógorral.</p>
-                <p>- Aszondi ez a legótsóbb, a másfél koronás.</p>
-                <p>- No mondok ez hát fene derága. Mit szól kend rá sógor?</p>
-                <p>- Hát aszondi a sógor, ha biztosan nyerünk, nem bánom ö. m. a f.</p>
-                <p>A bótos ide ad öggyet. Fölrakom a zókulárét, nézöm, hát öt szám is van rajta
+				<p>- No mondok hát tögyünk. De mijik számra?</p>
+				<p>- Hát aszondi a sógor a másodikra ö. m. a f.</p>
+				<p>- Belépünk a bótba, mondok a szőrös fülünek, a nagy rutli erányába gyöttünk.</p>
+				<p>Röttentő mögörül, oszt szödi ki a nagy sok rutli tzédulát.</p>
+				<p>- Hát aszondi mijen köll: 70-ven 5 karajtzáros-e vagy derágább.</p>
+				<p>- Mondok tsak egy 10-iz karajtzáros, mert közösen tösszük mög a sógorral.</p>
+				<p>- Aszondi ez a legótsóbb, a másfél koronás.</p>
+				<p>- No mondok ez hát fene derága. Mit szól kend rá sógor?</p>
+				<p>- Hát aszondi a sógor, ha biztosan nyerünk, nem bánom ö. m. a f.</p>
+				<p>A bótos ide ad öggyet. Fölrakom a zókulárét, nézöm, hát öt szám is van rajta
                     egymás mellett, oszt sömmi az első.</p>
-                <p>- Mondok ez nem jó szám. Én ijet világéletömbe se láttam, hogy sömmivel
+				<p>- Mondok ez nem jó szám. Én ijet világéletömbe se láttam, hogy sömmivel
                     kezdőggyék. Talán zsidó szám ez?</p>
-                <p>Mutati a másikat, azt is nézöm, az mög tsupa hármas.</p>
-                <p>- Esse jó mondok.</p>
-                <p>Mutati oszt valamennyit. De mondok had gyujtok pélpára, mer e soká tart.</p>
-                <p>Hát ott válogattam vagy egy óra hosszáig.</p>
-                <p>Aszondi a bótos, hát mit keres benne? A másodikat mondok, de mán azt kivötte az
+				<p>Mutati a másikat, azt is nézöm, az mög tsupa hármas.</p>
+				<p>- Esse jó mondok.</p>
+				<p>Mutati oszt valamennyit. De mondok had gyujtok pélpára, mer e soká tart.</p>
+				<p>Hát ott válogattam vagy egy óra hosszáig.</p>
+				<p>Aszondi a bótos, hát mit keres benne? A másodikat mondok, de mán azt kivötte az
                     ur, ne is tagaggya.</p>
-                <p>- De nem vöttem én aszondi mérgesen.</p>
-                <p>- Debizony kivötte mondok. Nem ér ez sömmit egy se.</p>
-                <p>- Hogyne érne aszondi.</p>
-                <p>- De mondok nem tösz engöm bolonddá a zur, mer ha evvel nyerni löhetne, nem adná
+				<p>- De nem vöttem én aszondi mérgesen.</p>
+				<p>- Debizony kivötte mondok. Nem ér ez sömmit egy se.</p>
+				<p>- Hogyne érne aszondi.</p>
+				<p>- De mondok nem tösz engöm bolonddá a zur, mer ha evvel nyerni löhetne, nem adná
                     el a zur még 100-áz pöngőjér se.</p>
-                <p>Hát lám mijen goromba vót, még aszondi, ottkin tágasabb. Oszt kinoszogatott
+				<p>Hát lám mijen goromba vót, még aszondi, ottkin tágasabb. Oszt kinoszogatott
                     bennünket.</p>
-                <p>Mejhöz hasolló lyókat kivánok.</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Mejhöz hasolló lyókat kivánok.</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                     Beszélgetés.
                 </head>
-                <p>- Mi baj biró sógor, hogy úgy ki van kend kelve a képibül?</p>
-                <p>- Ki ütött a háboru sógor!</p>
-                <p>- Hun?</p>
-                <p>- Áprika országba.</p>
-                <p>- Áprika? Hun az az Áprika ország ö. m. a f.</p>
-                <p>- Tugya fene sógor, valahun Amerikába.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>- Mi baj biró sógor, hogy úgy ki van kend kelve a képibül?</p>
+				<p>- Ki ütött a háboru sógor!</p>
+				<p>- Hun?</p>
+				<p>- Áprika országba.</p>
+				<p>- Áprika? Hun az az Áprika ország ö. m. a f.</p>
+				<p>- Tugya fene sógor, valahun Amerikába.</p>
+			</div>
+			<div type="chapter">
+				<head>
                    Levél a sógornak.
                 </head>
-                <p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá hogy
+				<p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá hogy
                     mostanába nem irtam, az azért vót mert sógor nem azér van a gyesznótor, hogy az
                     embör irjon most pedig ádvent első vasárnapja óta hun itt hun amott van
                     gyesznótor, oszt ha gyesznórúl van szó akkor is én vagyok a zelső a faluba. Mert
                     valamiképpen nem eshetik mög püspök nélkül bérmálás, akképen nálam nélkül se
                     eshetik mög a gyesznótor.</p>
-                <p>De hála légyön a lyó Istennek, hogy a gyesznót teremtötte, mer ennél különb állat
+				<p>De hála légyön a lyó Istennek, hogy a gyesznót teremtötte, mer ennél különb állat
                     nints a világon, ebbül is látzik hogy Noé apánk körösztény embör vót, mert
                     nemtsak a bort szerette, hanem gyesznó ólat is tsinált az bárkába, hogy a
                     zemböri nemzet kóbászból ki ne foggyon, se szalonnábul. Hát mink a Durbints
                     sógorral mán harmadik hete mindönnap kóbászos jóestét kivánunk egymásnak, mégis
                     azt olvastam harmadéve, hogy a Szemere nagyságos ur aszonta hogy aszondi nem
                     boldog az magyar. Nem a fenét. Nézzön szét ádventbe azután beszéjjünk.</p>
-                <p>Mejhöz hasolló lyókat kivánok.</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Mejhöz hasolló lyókat kivánok.</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                     Uly esztendő napja minálunk igy vót.
                     (1901)</head>
-                <p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá bort,
-                    buzát, békes­ségöt, jó egésségöt, és hogy az Isten éltessön bennünket ebbe a
+				<p>Tisztőtt Mártony sógor lyó egésségöt és hasolló lyókat kivánok, továbbá bort,
+                    buzát, békességöt, jó egésségöt, és hogy az Isten éltessön bennünket ebbe a
                     zuly századba is.</p>
-                <p>Továbbá mondok azt is mög köll irni, hogy a zuly esztendő hogyan köszöntött be
+				<p>Továbbá mondok azt is mög köll irni, hogy a zuly esztendő hogyan köszöntött be
                     nálunk.</p>
-                <p>Hát a pap kihirdette, hogy aszondi éjféli mise lösz, mer aszondi uj esztendőbe
+				<p>Hát a pap kihirdette, hogy aszondi éjféli mise lösz, mer aszondi uj esztendőbe
                     fordul a züdő szekere, oszt ugy illik, hogy az templomba tanájjon bennünket a
                     forduló. Hát ott vótam, oszt aszondi a sógor, hogy aszondi mér búsúl kend ö. m.
                     a f.</p>
-                <p>Mondok a sógornak, bizony sógor nagy nap ez, mert az bizonyos, hogy most itt
+				<p>Mondok a sógornak, bizony sógor nagy nap ez, mert az bizonyos, hogy most itt
                     vagyunk a század első napján, de az nem bizonyos, hogy itt löszünk-e a zutolsó
                     napján.</p>
-                <p>- Dehonnem aszondi, elgyövünk akkor is.</p>
-                <p>- Látszik mondok, hogy nem tud kend se irni se olvasni, mert nem tuggya kend,
+				<p>- Dehonnem aszondi, elgyövünk akkor is.</p>
+				<p>- Látszik mondok, hogy nem tud kend se irni se olvasni, mert nem tuggya kend,
                     hogy egy század ippeg száz esztendő.</p>
-                <p>Akkor a sógor is elbúslakodott, hogy aszondi:</p>
-                <p>- Ö. m. a f. kár hogy mink ketten möghalunk.</p>
-                <p>- Mondok még az se vóna kár, ha tudná a zembör, hogy hova kerül? Mert lássa kend,
+				<p>Akkor a sógor is elbúslakodott, hogy aszondi:</p>
+				<p>- Ö. m. a f. kár hogy mink ketten möghalunk.</p>
+				<p>- Mondok még az se vóna kár, ha tudná a zembör, hogy hova kerül? Mert lássa kend,
                     ha a mi falunkbéliek ott is egy hejön vannak, akkor ott is én löszök a biró,
                     kend mög a zelső eskütt, de ha szanaszéjjel vannak, akkor tsak úgy löszünk a sok
                     idegöny között mint Pestön, hogy tsak ide oda lükdösnek bennünket, oszt
                     minduntalan ránk ordéttoznak, hogy nem szabad pélpázni.</p>
-                <p>A pap aztán ránk atta a záldást, mink mög nagybúsan haza möntünk.</p>
-                <p>Másnap még ki se keltem a zágybúl, jelönti a zasszony, hogy aszondi bujjon ki mán
+				<p>A pap aztán ránk atta a záldást, mink mög nagybúsan haza möntünk.</p>
+				<p>Másnap még ki se keltem a zágybúl, jelönti a zasszony, hogy aszondi bujjon ki mán
                     kend a dunna alól, mer a zesküttek várják kendöt.</p>
-                <p>Hát hamarosan felőtözködtem, möghúztam a tsutorámat, oszt átmöntem a kösség
+				<p>Hát hamarosan felőtözködtem, möghúztam a tsutorámat, oszt átmöntem a kösség
                     szobába.</p>
-                <p>Itt elém áll a Durbints sógor az esküttek szószólója képpen oszt aszondi:</p>
-                <p>- Hála lögyön a fölségös Istennek, hogy mögen uly századra virradtunk, kigyelmed
+				<p>Itt elém áll a Durbints sógor az esküttek szószólója képpen oszt aszondi:</p>
+				<p>- Hála lögyön a fölségös Istennek, hogy mögen uly századra virradtunk, kigyelmed
                     biró uram a falu feje ö. m. a f. hát kigyelmedhöz jöttünk legelsőbe, hogy az lyó
                     Isten ebbe a századba is éltesse ö. m. a f. Mert ahol a biró lyó, ott a kösség
                     is lyó ö. m. a f. valamint ahol a gazda lyó, ott a zökrök is röndbe vannak ö. m.
-                    a f. Kigyelmed a zokosságával is, tudományával is bötsü­le­töt szörzött a
+                    a f. Kigyelmed a zokosságával is, tudományával is bötsületöt szörzött a
                     kösségnek, hát ö. m. a f. azt kivánjuk, hogy sokájig üjjön az birói székön ö. m.
                     a f. ne lögyön sok panasz, tsak sok igazság, ö. m. a f.</p>
-                <p>Avval elmondta a végin a szokásbéli köszöntőt, hogy aszondi:</p>
-                <p>Örüjjön kigyelmed ma uly év napjára ö. m. a f.</p>
-                <p> Hogy szépen fölvératt piros hajnalára ö. m. a f.</p>
-                <p> Valamennyi fűszál az kerek mezőbe ö. m. a f.</p>
-                <p> Annyi áldás szájjon fejére ebbe a zesztendőbe ö. m. a f.</p>
-                <p> Ha pegyiglen möghal, mönyekbe vitessön ö. m. a f.</p>
-                <p> A zarany korona fejibe tétessön ö. m. a f.</p>
-                <p> Éjjön!</p>
-                <p>Ojan szépen elmonta, hogy magam is mögkönyveztem, oszt alig jutottam szóhon, de
+				<p>Avval elmondta a végin a szokásbéli köszöntőt, hogy aszondi:</p>
+				<p>Örüjjön kigyelmed ma uly év napjára ö. m. a f.</p>
+				<p> Hogy szépen fölvératt piros hajnalára ö. m. a f.</p>
+				<p> Valamennyi fűszál az kerek mezőbe ö. m. a f.</p>
+				<p> Annyi áldás szájjon fejére ebbe a zesztendőbe ö. m. a f.</p>
+				<p> Ha pegyiglen möghal, mönyekbe vitessön ö. m. a f.</p>
+				<p> A zarany korona fejibe tétessön ö. m. a f.</p>
+				<p> Éjjön!</p>
+				<p>Ojan szépen elmonta, hogy magam is mögkönyveztem, oszt alig jutottam szóhon, de
                     asztán ojan szép beszédöt pöndöritöttem vissza, hogy mind réttak, mert mondok a
-                    kösség virág­zá­sába rönd köll, oszt ebbe a zeskütteknek is része van, mert
-                    valamind az főd is tsak akkor hor­doz­za jól az termést, ha jól mögtrágyázzák,
+                    kösség virágzásába rönd köll, oszt ebbe a zeskütteknek is része van, mert
+                    valamind az főd is tsak akkor hordozza jól az termést, ha jól mögtrágyázzák,
                     akképpen az kösség is az jó példa adásba erősödik.</p>
-                <p>Pájinkát hozattam osztán mög foghagymás piritóst, oszt tsak azután möntünk a
+				<p>Pájinkát hozattam osztán mög foghagymás piritóst, oszt tsak azután möntünk a
                     paphon mög a méltóságos bárónéhon, de ott mán én magam montam a beszédöt, jól
                     kivágtam mindön hejön a zesküttek örömére.</p>
-                <p>Mejhöz hasolló lyókat kivánok.</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Mejhöz hasolló lyókat kivánok.</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                 A ZÖREG TÁTRA.
                 </head>
-                <p>Irás az tátra nevezetü högyekről, de </p>
-                <p> főképpen a lomnitzi tsútsos högyrül.</p>
-                <p> Sok mindenfélét mögirtam a Veszödelmek nevü könyvembe, oszt hogy élőszóval is
+				<p>Irás az tátra nevezetü högyekről, de </p>
+				<p> főképpen a lomnitzi tsútsos högyrül.</p>
+				<p> Sok mindenfélét mögirtam a Veszödelmek nevü könyvembe, oszt hogy élőszóval is
                     elmondok öggyet mást, akkor látom hogy vagy kifelejtődött az könyvbűl, vagy
                     pedig tarisznyába maratt.</p>
-                <p>Mert ki is győzné mindazt irásba foglalni, amit látott hallott, még a végrehajtó
+				<p>Mert ki is győzné mindazt irásba foglalni, amit látott hallott, még a végrehajtó
                     se tudná leirni, pedig annak ugy nyargalászik a tolla az papiroson, mint a három
                     hónapos tsikó a gyöpön.</p>
-                <p>Én bizony nem tudok ojan sebössen irni, amikor keveset irok is, ugy sörtzög a
+				<p>Én bizony nem tudok ojan sebössen irni, amikor keveset irok is, ugy sörtzög a
                     tollam, hogy a minap is ahogy itt mönt el a kösségháza előtt a Fekete Turgony
                     sógor, aszondi vagy petsönyét sütnek a biró sógornál, vagy ir.</p>
-                <p>Hát hogy a Durbints sógornak elolvastam a könyvemet, aszondi fáinul mögirta
+				<p>Hát hogy a Durbints sógornak elolvastam a könyvemet, aszondi fáinul mögirta
                     kigyelmed, de valami kimaratt. A Tátrabeli járás.</p>
-                <p>- Ki győzné mondok.</p>
-                <p>- De aszondi ezt még irja mög kend, mert lám sok magyar él a hazába, aki csak
+				<p>- Ki győzné mondok.</p>
+				<p>- De aszondi ezt még irja mög kend, mert lám sok magyar él a hazába, aki csak
                     hirbűl ösmeri a Tátrát ö. m. a f.</p>
-                <p>- Tsakhogy sógor, én úgy elfárattam ottan, hogy ha tsak rágondolok is le ver az
+				<p>- Tsakhogy sógor, én úgy elfárattam ottan, hogy ha tsak rágondolok is le ver az
                     fárattság.</p>
-                <p>- Mindögy sógor, ezt mög köll irnia ö. m. a f. mert ennél magosabb hejön sohse
+				<p>- Mindögy sógor, ezt mög köll irnia ö. m. a f. mert ennél magosabb hejön sohse
                     jártunk ö. m. a f. Oszt még az unokánk is tanulhat belüle ö. m. a f.</p>
-                <p>Addig addig noszogtattak, hogy most mán nem maradhatok tőlük, mögirom.</p>
-                <p>Hát úgy kezdődik, hogy mikor Egörbül Fijoméba ügyeköztünk etzör tsak látunk a zég
+				<p>Addig addig noszogtattak, hogy most mán nem maradhatok tőlük, mögirom.</p>
+				<p>Hát úgy kezdődik, hogy mikor Egörbül Fijoméba ügyeköztünk etzör tsak látunk a zég
                     ajján egy nagy tarjagos fölhőt magunk előtt. Mondok a sógornak nem éröz-e a kend
                     lába valami üdőváltozást?</p>
-                <p>- Nem aszondi.</p>
-                <p>Hát mondok nézze kend azt a haragos fölhőt.</p>
-                <p>- Régön nézöm, aszondi, de nem tudok kiokosodni belüle.</p>
-                <p>Másnap ahogy tovább utazunk, nézöm a zeget, hogy mijen lösz a züdő? hát mögen ott
+				<p>- Nem aszondi.</p>
+				<p>Hát mondok nézze kend azt a haragos fölhőt.</p>
+				<p>- Régön nézöm, aszondi, de nem tudok kiokosodni belüle.</p>
+				<p>Másnap ahogy tovább utazunk, nézöm a zeget, hogy mijen lösz a züdő? hát mögen ott
                     a nagy fölhő.</p>
-                <p>- No mondok azt a réz tsákányát annak a fölhőnek, abbúl vagy fődindulás lösz,
+				<p>- No mondok azt a réz tsákányát annak a fölhőnek, abbúl vagy fődindulás lösz,
                     vagy más valami nem szeretöm.</p>
-                <p>Aszondi a sógor is:</p>
-                <p>- Tennap óta nem változott az a fölhő ö. m. a f. magam is rosszat gondolok
+				<p>Aszondi a sógor is:</p>
+				<p>- Tennap óta nem változott az a fölhő ö. m. a f. magam is rosszat gondolok
                     mán.</p>
-                <p>Egész nap azt néztük, mert szömbe möntünk vele, de nem változott, hát azt a vörös
+				<p>Egész nap azt néztük, mert szömbe möntünk vele, de nem változott, hát azt a vörös
                     tulipántját annak a fölhőnek, mikor közelebb érünk hozzá, akkor láttyuk, hogy
                     nem fölhő az, hanem högy.</p>
-                <p>Itt még a pélpa is majdhogy ki nem esött a szánkbul, úgy elbávászkottunk, mert
+				<p>Itt még a pélpa is majdhogy ki nem esött a szánkbul, úgy elbávászkottunk, mert
                     soha ekkora högyet még álmunkba se láttunk. Kérdöm egy embertül, hogy mitsoda
                     högy az?</p>
-                <p>- Hát aszondi mi vóna más mint a Tátra.</p>
-                <p>- Tyű mondok hát ez van a magyar tzimörbe?</p>
-                <p>- Ez aszondi.</p>
-                <p>Elmutogatta oszt a lomnitzi tsutsos högyet is, mer az a legnagyobb. Ha
+				<p>- Hát aszondi mi vóna más mint a Tátra.</p>
+				<p>- Tyű mondok hát ez van a magyar tzimörbe?</p>
+				<p>- Ez aszondi.</p>
+				<p>Elmutogatta oszt a lomnitzi tsutsos högyet is, mer az a legnagyobb. Ha
                     szalonnábúl vóna, abbiz akkora vóna, hogy a magyar nemzet ezör esztendejig el
                     nem bírná kőtteni, de bár hogy abból vóna.</p>
-                <p>Möntünk möndögéltünk, de mégis nagyon soká értünk oda. Tsak másnap délbe
+				<p>Möntünk möndögéltünk, de mégis nagyon soká értünk oda. Tsak másnap délbe
                     érköztünk egy kis faluba. Ki vót irva a neve, hogy aszondi Tátrafüred.</p>
-                <p>- No mondok ki itt a biró?</p>
-                <p>Aszondi egy embör, hogy aszondi nem falu e, hogy biró vóna benne, hanem
+				<p>- No mondok ki itt a biró?</p>
+				<p>Aszondi egy embör, hogy aszondi nem falu e, hogy biró vóna benne, hanem
                     dilektor.</p>
-                <p>- Mondok akármi a neve, be köll hozzá szólni, hogy aggyon szállást.</p>
-                <p>Hát bevezettek egy patika forma szobába.</p>
-                <p>- Aggy isten mondok, hát ki itt a dilektor?</p>
-                <p>Föláll egy kis tsenevész embör, oszt aszondi, hogy ű a dilektor.</p>
-                <p>- Hát mondok löhet-e szállást kapni ebbe a faluba?</p>
-                <p>- Löhet aszondi akár ebbe a házba is adhatok. Hányan vannak?</p>
-                <p>- Hárman mondok, de a tzigány möghálhat a kotsin is.</p>
-                <p>- Aszondi fürödni jöttek kendtök?</p>
-                <p>- Mondok hát ha löhet itt fürödni is, azt se bánnyuk.</p>
-                <p>Benyul a fijókba oszt kimarkol egy tsomó tzédulát.</p>
-                <p>- Aszondi mijen fördő köll. Gőzbe kádba vagy fenyőbe?</p>
-                <p>- Mondok fenyőbe még nem füröttem, hát azt tapasztajjuk mög.</p>
-                <p>- Aszondi ötven grajtzár fejenkint.</p>
-                <p>No mondok magamba ez fene derága, de hadd lögyön mög a kedve, hát vöttünk két
+				<p>- Mondok akármi a neve, be köll hozzá szólni, hogy aggyon szállást.</p>
+				<p>Hát bevezettek egy patika forma szobába.</p>
+				<p>- Aggy isten mondok, hát ki itt a dilektor?</p>
+				<p>Föláll egy kis tsenevész embör, oszt aszondi, hogy ű a dilektor.</p>
+				<p>- Hát mondok löhet-e szállást kapni ebbe a faluba?</p>
+				<p>- Löhet aszondi akár ebbe a házba is adhatok. Hányan vannak?</p>
+				<p>- Hárman mondok, de a tzigány möghálhat a kotsin is.</p>
+				<p>- Aszondi fürödni jöttek kendtök?</p>
+				<p>- Mondok hát ha löhet itt fürödni is, azt se bánnyuk.</p>
+				<p>Benyul a fijókba oszt kimarkol egy tsomó tzédulát.</p>
+				<p>- Aszondi mijen fördő köll. Gőzbe kádba vagy fenyőbe?</p>
+				<p>- Mondok fenyőbe még nem füröttem, hát azt tapasztajjuk mög.</p>
+				<p>- Aszondi ötven grajtzár fejenkint.</p>
+				<p>No mondok magamba ez fene derága, de hadd lögyön mög a kedve, hát vöttünk két
                     tzédulát.</p>
-                <p>- Hát mondok hova szól ez a két tzédula?</p>
-                <p>Mutat egy nagy házat.</p>
-                <p>- Oda mönjenek aszondi. Óra is van a házon. Ezér a tzédulájér adnak két
+				<p>- Hát mondok hova szól ez a két tzédula?</p>
+				<p>Mutat egy nagy házat.</p>
+				<p>- Oda mönjenek aszondi. Óra is van a házon. Ezér a tzédulájér adnak két
                     fördőt.</p>
-                <p>Avval egy inas forma fölvezet az emeletre egy szobába. Két ágy van benne. Szörnyű
+				<p>Avval egy inas forma fölvezet az emeletre egy szobába. Két ágy van benne. Szörnyű
                     uras. Mondok az inasnak, talán ezt se adják itt ingyen?</p>
-                <p>- Nem aszondi 7-forint egy napra.</p>
-                <p>- Tyű a zárgyélusát mondok, akkor nem is szállunk belé. Hát igy vendégölik mög
+				<p>- Nem aszondi 7-forint egy napra.</p>
+				<p>- Tyű a zárgyélusát mondok, akkor nem is szállunk belé. Hát igy vendégölik mög
                     itt az magyart?</p>
-                <p>- Igy aszondi.</p>
-                <p>- No mondok, hát tsak fökügyön bele maga a dilektor ur.</p>
-                <p>Avval ujra kimöntünk.</p>
-                <p>Mondok a sógornak a fürdőt mán kifizettük hát hasznájjuk el.</p>
-                <p>Avval béballagtunk a fürdőházba.</p>
-                <p>Elvöszi egy embör a tzédulát, oszt aszondi várjanak.</p>
-                <p>Várunk sokájig. Etzör benézök a zajtón, hogy mit tsinál, hát látom hogy habot ver
+				<p>- Igy aszondi.</p>
+				<p>- No mondok, hát tsak fökügyön bele maga a dilektor ur.</p>
+				<p>Avval ujra kimöntünk.</p>
+				<p>Mondok a sógornak a fürdőt mán kifizettük hát hasznájjuk el.</p>
+				<p>Avval béballagtunk a fürdőházba.</p>
+				<p>Elvöszi egy embör a tzédulát, oszt aszondi várjanak.</p>
+				<p>Várunk sokájig. Etzör benézök a zajtón, hogy mit tsinál, hát látom hogy habot ver
                     a kádba, mint a báró szakátsa.</p>
-                <p>Aszondi oszt mikor kigyön:</p>
-                <p>- Tessék aszondi kész a fürdő.</p>
-                <p>Bemögyünk a szobába, hát két kád van benne. Arasznyi magos fehér hab mind a
+				<p>Aszondi oszt mikor kigyön:</p>
+				<p>- Tessék aszondi kész a fürdő.</p>
+				<p>Bemögyünk a szobába, hát két kád van benne. Arasznyi magos fehér hab mind a
                     kettőbe.</p>
-                <p>Összenézünk a sógorral, oszt mondok:</p>
-                <p>- Nem ojan-e ez sógor, mint a pesti kávé?</p>
-                <p>- De aszondi szakasztott ojan.</p>
-                <p>Félreütöm a habot, hát tsakugyan barna lé van alatta.</p>
-                <p>- No sógor mondok ugyan mögurasodtunk, kávéba fördünk azér a zötven
+				<p>Összenézünk a sógorral, oszt mondok:</p>
+				<p>- Nem ojan-e ez sógor, mint a pesti kávé?</p>
+				<p>- De aszondi szakasztott ojan.</p>
+				<p>Félreütöm a habot, hát tsakugyan barna lé van alatta.</p>
+				<p>- No sógor mondok ugyan mögurasodtunk, kávéba fördünk azér a zötven
                     grajczárér.</p>
-                <p>Aszondi a sógor ne ögyük-e mög inkább?</p>
-                <p>- Mondok nem látok kanalat.</p>
-                <p>- Aszondi löhet, hogy ezt ugy öszik az urak, hogy benne ülnek ö. m. a f. De sok
+				<p>Aszondi a sógor ne ögyük-e mög inkább?</p>
+				<p>- Mondok nem látok kanalat.</p>
+				<p>- Aszondi löhet, hogy ezt ugy öszik az urak, hogy benne ülnek ö. m. a f. De sok
                     mindönt kitalálnak!</p>
-                <p>Avval beleülünk nyakig, oszt szörpöjjük a habot.</p>
-                <p>Hát nem vót nagyon jó, de mink ketten mégis elmondhatjuk, hogy kávéba
+				<p>Avval beleülünk nyakig, oszt szörpöjjük a habot.</p>
+				<p>Hát nem vót nagyon jó, de mink ketten mégis elmondhatjuk, hogy kávéba
                     föröttünk.</p>
-                <p>A Kátsa májig is sajnájja, hogy oda nem hittuk, hogy aszondi, hagy lakott vóna
+				<p>A Kátsa májig is sajnájja, hogy oda nem hittuk, hogy aszondi, hagy lakott vóna
                     jól életibe etzör kávéval.</p>
-                <p>Ott háltunk osztán, én a kotsin, a sógor a kotsi alatt, a kotsisunk a jászolba, a
+				<p>Ott háltunk osztán, én a kotsin, a sógor a kotsi alatt, a kotsisunk a jászolba, a
                     tzigány a jászol alatt.</p>
-                <p>Mondok másnap a sógornak, ha mán itt vagyunk, nézzük körül azt a lomnitzi tsútsos
+				<p>Mondok másnap a sógornak, ha mán itt vagyunk, nézzük körül azt a lomnitzi tsútsos
                     högyet, hát neki indultunk oszt elballagtunk a högy lábájig. No ménkü nagy högy,
                     a babilonyi torony se löhetett annál magosabb, de hogy tudott igy mögnőni?</p>
-                <p>A sógor is elámészkodott rajta oszt aszondi:</p>
-                <p>- Ez hát dörék högy ö. m. a f. Nem hiszöm, hogy párja akadna ez világon.</p>
-                <p>- Ma mondok magam is azt gondolom, mert lássa kend, ha nem vóna ekkora ez a högy,
+				<p>A sógor is elámészkodott rajta oszt aszondi:</p>
+				<p>- Ez hát dörék högy ö. m. a f. Nem hiszöm, hogy párja akadna ez világon.</p>
+				<p>- Ma mondok magam is azt gondolom, mert lássa kend, ha nem vóna ekkora ez a högy,
                     hát Árpád apánk nem föstette vóna bele az magyar tzimörbe.</p>
-                <p>Itt egy patakot is láttunk, ugy szakadt le a högyrül, hogy ha embör gyönne úgy
+				<p>Itt egy patakot is láttunk, ugy szakadt le a högyrül, hogy ha embör gyönne úgy
                     le, hát izzé porrá törne mindön tsontya.</p>
-                <p>Talán máig is ott tsudálnánk az patakot, ha mög nem láttyuk, hogy kotsma van az
+				<p>Talán máig is ott tsudálnánk az patakot, ha mög nem láttyuk, hogy kotsma van az
                     partyán. Neköm a vizrül mindig bor jut a zeszömbe. Gyerünk be mondok.</p>
-                <p>Kérdöm a kotsmárost, hogy mi ebédöt adna?</p>
-                <p>- Hát aszondi van leves, mög forrázott istráng.</p>
-                <p>- Mondok istrángot tsak nem ötet tán velünk?</p>
-                <p>- De aszondi fájin étel az.</p>
-                <p>Akkor magyarázza elő aztán, hogy a halat hijják erre istrángnak. Mert tudni köll,
+				<p>Kérdöm a kotsmárost, hogy mi ebédöt adna?</p>
+				<p>- Hát aszondi van leves, mög forrázott istráng.</p>
+				<p>- Mondok istrángot tsak nem ötet tán velünk?</p>
+				<p>- De aszondi fájin étel az.</p>
+				<p>Akkor magyarázza elő aztán, hogy a halat hijják erre istrángnak. Mert tudni köll,
                     hogy erre mán tótok laknak, mert itt teröm a derót, mög nímötök is laknak erre,
                     oszt ögye mög a ziz őket az mög mind nímötül beszél.</p>
-                <p>- No mondok hát aggyon istrángot.</p>
-                <p>Ott ahogy elmulatozunk az istráng mellett, ránk estélödik, oszt láttyuk ám, hogy
+				<p>- No mondok hát aggyon istrángot.</p>
+				<p>Ott ahogy elmulatozunk az istráng mellett, ránk estélödik, oszt láttyuk ám, hogy
                     a zeggyik sarokba ott beszélget nagy halkan két ur mög két asszony. A zegyik
                     asszony tsúnya vörös orru sovány. Láttam mikor bégyött is. Ojan sapka vót a
                     fejin, mint a zispány fijának télön, hogy ne fázzon a füle. De főképpen az kapta
                     mög a szömömet, hogy hosszu bot vót valamennyinél.</p>
-                <p>Mondok a kotsmárosnak, hogy mondok talán tsak nem juhokat őriznek ezök?</p>
-                <p>- Nem aszondi, ezök azér gyöttek ide, hogy fölmásznak hónap röggel a lomnitzi
+				<p>Mondok a kotsmárosnak, hogy mondok talán tsak nem juhokat őriznek ezök?</p>
+				<p>- Nem aszondi, ezök azér gyöttek ide, hogy fölmásznak hónap röggel a lomnitzi
                     tsutsos högyre. Ánglusok ezök.</p>
-                <p>Szöget üt ez a fejembe. Mondok a sógornak, hogy mondok:</p>
-                <p>- Mit gondol kend mér másznak ezök arra a nagy fene kopár högyre?</p>
-                <p>Aszondi a sógor nem gondolhatok mást, tsak azt hogy ha másznak, nem másznak
+				<p>Szöget üt ez a fejembe. Mondok a sógornak, hogy mondok:</p>
+				<p>- Mit gondol kend mér másznak ezök arra a nagy fene kopár högyre?</p>
+				<p>Aszondi a sógor nem gondolhatok mást, tsak azt hogy ha másznak, nem másznak
                     hijába ö. m. a f.</p>
-                <p>- Magam is azt gondolom mondok, hogy van valami azon a högyön. Mögszólitom mögen
+				<p>- Magam is azt gondolom mondok, hogy van valami azon a högyön. Mögszólitom mögen
                     a kotsmárost, hogy mondok:</p>
-                <p>- Hajja-e tés ur, mi van azon a högyön:</p>
-                <p>Aszondi a kotsmáros, hogy aszondi:</p>
-                <p>- Nints azon sömmise.</p>
-                <p>- No mondok a sógornak, akkor ezök kéntsöt keresnek ottan.</p>
-                <p>- Nem löhet másképpen ö. m. a f.</p>
-                <p>Mondom oszt a Kátsának, hogy mondok te tzigány vagy, mögérzöd-é a pízt a
+				<p>- Hajja-e tés ur, mi van azon a högyön:</p>
+				<p>Aszondi a kotsmáros, hogy aszondi:</p>
+				<p>- Nints azon sömmise.</p>
+				<p>- No mondok a sógornak, akkor ezök kéntsöt keresnek ottan.</p>
+				<p>- Nem löhet másképpen ö. m. a f.</p>
+				<p>Mondom oszt a Kátsának, hogy mondok te tzigány vagy, mögérzöd-é a pízt a
                     fődbe?</p>
-                <p>- Azt nem aszondi. Én tsak az emböri zsebbe érzöm mög a pízt, akkor is tsak ha
+				<p>- Azt nem aszondi. Én tsak az emböri zsebbe érzöm mög a pízt, akkor is tsak ha
                     hedegilök.</p>
-                <p>Eltanakottunk osztán, hogy mondok ne eresszük el szöm elül a zánglusokat. Mert ha
+				<p>Eltanakottunk osztán, hogy mondok ne eresszük el szöm elül a zánglusokat. Mert ha
                     magyar fődbe van az kénts, hát nints abba jussa a zidegöny embörnek.</p>
-                <p>A kotsmáros ötven grajzárér adott szobát, hát ott háltunk a zánglusok szobája
+				<p>A kotsmáros ötven grajzárér adott szobát, hát ott háltunk a zánglusok szobája
                     mellett.</p>
-                <p>A zánglusok szobájából mindön szó áthallatszott, hát vigyázhattunk. Röggel mihent
+				<p>A zánglusok szobájából mindön szó áthallatszott, hát vigyázhattunk. Röggel mihent
                     a zánglusok elkeztek köhögni, mink is fölébredtünk.</p>
-                <p>Finom uri szoba vót az, hogy errül is szójjak. Piros paklany vót a takaródzónk.
+				<p>Finom uri szoba vót az, hogy errül is szójjak. Piros paklany vót a takaródzónk.
                     Én a zágyba aluttam, a sógor a déványon, a Kátsa a pallón a szoba közepin.</p>
-                <p>Ahogy a zánglusok elkeztek őtözkönni, mink is.</p>
-                <p>A Kátsa nem őtözködött, mer ű úgy alszik ahogy jár, hát amig mink őtözköttünk, a
+				<p>Ahogy a zánglusok elkeztek őtözkönni, mink is.</p>
+				<p>A Kátsa nem őtözködött, mer ű úgy alszik ahogy jár, hát amig mink őtözköttünk, a
                     Kátsa a szökrényöket nyitogatta, hogy aszondi valamijik ánglus nem felejtette-e
                     itt a pízös erszényit, vagy a tzigáré szopókáját.</p>
-                <p>Hát tanált is egy kis szökrénybe egy portzolány fazokat.</p>
-                <p>- No aszondi ez mögéri a zötven grajzárt.</p>
-                <p>- De mondok ezt nem szabad elhozni, mer akijé a ház, azé a benne való is.</p>
-                <p>Aszondi a sógor, jó lösz pedig ha elhozza a Kátsa, mer úgy vélekszök, hogy nem
+				<p>Hát tanált is egy kis szökrénybe egy portzolány fazokat.</p>
+				<p>- No aszondi ez mögéri a zötven grajzárt.</p>
+				<p>- De mondok ezt nem szabad elhozni, mer akijé a ház, azé a benne való is.</p>
+				<p>Aszondi a sógor, jó lösz pedig ha elhozza a Kátsa, mer úgy vélekszök, hogy nem
                     kerülünk vissza délre, hát legalább mög fözzük benne ö. m. a f. a zebédöt.</p>
-                <p>De én nem engettem, mert mondok előbbre való az becsület, mint az portzolány
+				<p>De én nem engettem, mert mondok előbbre való az becsület, mint az portzolány
                     fazék.</p>
-                <p>Itt hogy a zánglusok után kikopogtak a szobábul, nem volt sok üdő, teli tőttettem
-                    a kulatso­mat, oszt így főtarisznyázva mögindultunk a zánglusok után.</p>
-                <p>Tsak arra vigyázzunk mondok, hogy mög ne szökjenek.</p>
-                <p>A zánglusoknak nem is nagyon tetszött, hogy a nyomukat járjuk. Vissza-vissza
+				<p>Itt hogy a zánglusok után kikopogtak a szobábul, nem volt sok üdő, teli tőttettem
+                    a kulatsomat, oszt így főtarisznyázva mögindultunk a zánglusok után.</p>
+				<p>Tsak arra vigyázzunk mondok, hogy mög ne szökjenek.</p>
+				<p>A zánglusoknak nem is nagyon tetszött, hogy a nyomukat járjuk. Vissza-vissza
                     fordultak. Nekik is tarisznya vót a hátukon, mint nekünk, a nagy bot a kezükbe,
                     szöges talpu bakants a lábukon.</p>
-                <p>- De mondok magamba nézhettök benünket a mi szömünk elől mög nem szabadultok.</p>
-                <p>Hát tsak möntünk möndögéltünk a nyomukba.</p>
-                <p>Mán elejinte se tetzött neköm a högyön való járás, mert nem szokta az magyar,
+				<p>- De mondok magamba nézhettök benünket a mi szömünk elől mög nem szabadultok.</p>
+				<p>Hát tsak möntünk möndögéltünk a nyomukba.</p>
+				<p>Mán elejinte se tetzött neköm a högyön való járás, mert nem szokta az magyar,
                     tsak a lapos fődet. De a Kátsának se nagyon tetzhetött a zút mer aszondi: a ros
                     féreg egye meg est a bides hegyet, messze van-e még a teteje?</p>
-                <p>Vissza nézök, hát még alig haladtunk valamit.</p>
-                <p>Mondok a Kátsának hozd a szürömet mert meleg van.</p>
-                <p>Aszondi a sógor hozd az enyimet is ö. m. a f. mer én is kimelegöttem.</p>
-                <p>A Kátsa a nyakába szötte a két szürt, oszt még jobban szitta a högyet. Úgy
+				<p>Vissza nézök, hát még alig haladtunk valamit.</p>
+				<p>Mondok a Kátsának hozd a szürömet mert meleg van.</p>
+				<p>Aszondi a sógor hozd az enyimet is ö. m. a f. mer én is kimelegöttem.</p>
+				<p>A Kátsa a nyakába szötte a két szürt, oszt még jobban szitta a högyet. Úgy
                     mászott utánunk mint az tekenyősbéka.</p>
-                <p>Mondok a sógornak mögen félóra mulva, hogy mondok fene nehéz ez az idevaló bor,
+				<p>Mondok a sógornak mögen félóra mulva, hogy mondok fene nehéz ez az idevaló bor,
                     sohse huzta még az kulats így az vállamat.</p>
-                <p>- Az enyimet is húzi feleli a sógor, könnyebitsünk rajta ö. m. a f.</p>
-                <p>Avval mögálltunk, oszt jól möghúztuk a kulatsot.</p>
-                <p>A Kátsának is attam, mert mán úgy lehögött, hogy majd a nyelvit lógatta.</p>
-                <p>Avval möntünk tovább.</p>
-                <p>A högy fene meredök högy, oszt a zajján tsak van valami hitvány karácsonyfa erdő,
+				<p>- Az enyimet is húzi feleli a sógor, könnyebitsünk rajta ö. m. a f.</p>
+				<p>Avval mögálltunk, oszt jól möghúztuk a kulatsot.</p>
+				<p>A Kátsának is attam, mert mán úgy lehögött, hogy majd a nyelvit lógatta.</p>
+				<p>Avval möntünk tovább.</p>
+				<p>A högy fene meredök högy, oszt a zajján tsak van valami hitvány karácsonyfa erdő,
                     de mán föjebb mindig kopárabb, mert kűbül van az egész högy.</p>
-                <p>Mondok a sógornak, ha egy ilyen kűhögy vóna nálunk a zalfődön régön elhorták vóna
+				<p>Mondok a sógornak, ha egy ilyen kűhögy vóna nálunk a zalfődön régön elhorták vóna
                     a högyet háznak. Oszt lám erre mijen gyatra nép lakik itt a kű oszt fábúl
                     épit.</p>
-                <p>- Kása nem étel - feleli rá a sógor.</p>
-                <p>Mondok oszt mögen, hogy mondok nem köllött vóna ennyi bort elhozni.</p>
-                <p>Hát mögen mögálltunk, oszt könnyitöttünk az kulatson.</p>
-                <p>Aszondi a Kátsa avval nem könnyebb ha maguk isszák mög, mert akkor is tsak maguk
+				<p>- Kása nem étel - feleli rá a sógor.</p>
+				<p>Mondok oszt mögen, hogy mondok nem köllött vóna ennyi bort elhozni.</p>
+				<p>Hát mögen mögálltunk, oszt könnyitöttünk az kulatson.</p>
+				<p>Aszondi a Kátsa avval nem könnyebb ha maguk isszák mög, mert akkor is tsak maguk
                     vüszik.</p>
-                <p>- De mondok inkább vüszöm a hasamba mint az vállamon.</p>
-                <p>Hát neki is attam mögen.</p>
-                <p>Avval tovább hágunk.</p>
-                <p>Mán egy óra mulva szuszogott bennem a lélök is.</p>
-                <p>Aszondi a Kátsa:</p>
-                <p>- Hogy a ménkü tsapjon ebbe a högybe.</p>
-                <p>- Mondok ne káromkogy mert mink is rajta vagyunk.</p>
-                <p>De mentül föjjebb hágtunk a högyön, antul magossabb lett.</p>
-                <p>- No mondok, ha ezt tudtam vóna, neki nem indultam vóna, de ha mán eddig
+				<p>- De mondok inkább vüszöm a hasamba mint az vállamon.</p>
+				<p>Hát neki is attam mögen.</p>
+				<p>Avval tovább hágunk.</p>
+				<p>Mán egy óra mulva szuszogott bennem a lélök is.</p>
+				<p>Aszondi a Kátsa:</p>
+				<p>- Hogy a ménkü tsapjon ebbe a högybe.</p>
+				<p>- Mondok ne káromkogy mert mink is rajta vagyunk.</p>
+				<p>De mentül föjjebb hágtunk a högyön, antul magossabb lett.</p>
+				<p>- No mondok, ha ezt tudtam vóna, neki nem indultam vóna, de ha mán eddig
                     fömásztunk, nem engedök a zánglusoknak.</p>
-                <p>Avval mögen elővöttük a kulatsot.</p>
-                <p>A Kátsa mán akkor leült, hogy ű aszondi vakujjon mög, ha tovább biri a szürt.</p>
-                <p>Neköm is fájt mán mind a két inam, a nagy mögerőltetéstül, hát mondok
+				<p>Avval mögen elővöttük a kulatsot.</p>
+				<p>A Kátsa mán akkor leült, hogy ű aszondi vakujjon mög, ha tovább biri a szürt.</p>
+				<p>Neköm is fájt mán mind a két inam, a nagy mögerőltetéstül, hát mondok
                     pihennyünk.</p>
-                <p>A zánglusok nem pihentek. Könnyü nekik. Olyan vékony vót a lábaszára
+				<p>A zánglusok nem pihentek. Könnyü nekik. Olyan vékony vót a lábaszára
                     valamennyinek, mint a gójájé.</p>
-                <p>Hát mögen ittunk, oszt mondok tovább mönnyünk-e?</p>
-                <p>Aszondi a sógor:</p>
-                <p>- Mán én nem birom tovább sógor ö. m. a f. mer úgy röszket a zinam, mint a fázó
+				<p>Hát mögen ittunk, oszt mondok tovább mönnyünk-e?</p>
+				<p>Aszondi a sógor:</p>
+				<p>- Mán én nem birom tovább sógor ö. m. a f. mer úgy röszket a zinam, mint a fázó
                     agáré.</p>
-                <p>- Hát mondok, magamnak sincs mán kedvem, de nem is köll, mer itt a zút, erre
+				<p>- Hát mondok, magamnak sincs mán kedvem, de nem is köll, mer itt a zút, erre
                     gyönnek vissza a zánglusok. Ha láttyuk, hogy sok kéntsöt hoznak, hát majd számon
                     kéröm tőlük, hogy honnan?</p>
-                <p>Avval nekiültünk szalonnát sütni, oszt annak utána nagyot aluttunk.</p>
-                <p>Hát estefelé gyönnek ám vissza a zánglusok.</p>
-                <p>Ahogy möglátom üket, mondok mögájjunk.</p>
-                <p>Aszondi a vezető embör:</p>
-                <p>- Mi köll?</p>
-                <p>- Mondok először is aztat kérdözöm, hogy tanáltak-e kéncsöt, vagy nem
+				<p>Avval nekiültünk szalonnát sütni, oszt annak utána nagyot aluttunk.</p>
+				<p>Hát estefelé gyönnek ám vissza a zánglusok.</p>
+				<p>Ahogy möglátom üket, mondok mögájjunk.</p>
+				<p>Aszondi a vezető embör:</p>
+				<p>- Mi köll?</p>
+				<p>- Mondok először is aztat kérdözöm, hogy tanáltak-e kéncsöt, vagy nem
                     tanáltak?</p>
-                <p>Aszondi.</p>
-                <p>- Mitsoda kéntsöt?</p>
-                <p>- Mondok ne tagaggyák, hogy kéntsöt ásni gyöttek ide.</p>
-                <p>- Kéntsöt? aszondi, nints itt még ólom se.</p>
-                <p>- Mondok, hát minek möntek vóna a högy tetejire?</p>
-                <p>- Hát aszondi nézni.</p>
-                <p>- Mit nézni?</p>
-                <p>- Aszondi a högyet. Mer azér jár erre a högyre ez a sok embör, hogy mind ezt
+				<p>Aszondi.</p>
+				<p>- Mitsoda kéntsöt?</p>
+				<p>- Mondok ne tagaggyák, hogy kéntsöt ásni gyöttek ide.</p>
+				<p>- Kéntsöt? aszondi, nints itt még ólom se.</p>
+				<p>- Mondok, hát minek möntek vóna a högy tetejire?</p>
+				<p>- Hát aszondi nézni.</p>
+				<p>- Mit nézni?</p>
+				<p>- Aszondi a högyet. Mer azér jár erre a högyre ez a sok embör, hogy mind ezt
                     nézi.</p>
-                <p>- Mondok hát mit néznek rajta?</p>
-                <p>- Aszt aszondi, hogy ennél nagyobb högy nints magyar országon.</p>
-                <p>- No mondok, hát tsak mönnyenek békével, mert látom, hogy üres a zsebök, de azt
+				<p>- Mondok hát mit néznek rajta?</p>
+				<p>- Aszt aszondi, hogy ennél nagyobb högy nints magyar országon.</p>
+				<p>- No mondok, hát tsak mönnyenek békével, mert látom, hogy üres a zsebök, de azt
                     is tuggyák mög, hogy éngöm nem bolonditanak el, mer a ki högyet akar nézni,
                     mögnézheti azt alulról is.</p>
-                <p>Avval eleresztöttem a zánglusokat. De a viz mossa el a zegész Tátrát, ugy fájt a
+				<p>Avval eleresztöttem a zánglusokat. De a viz mossa el a zegész Tátrát, ugy fájt a
                     zinunk, mikorra leértünk, hogy a Kátsának aztán egész éjjel pájinkával köllött
                     bennünket dörgőnie.</p>
-                <p>De szivesen dörgőt, mer ihatott.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>De szivesen dörgőt, mer ihatott.</p>
+			</div>
+			<div type="chapter">
+				<head>
                 A Tajtékpélpa.
                 </head>
-                <p>Lyó egésségöt és hasolló lyókat kivánok, továbbá, hogy a vásárba jártunk, hát
+				<p>Lyó egésségöt és hasolló lyókat kivánok, továbbá, hogy a vásárba jártunk, hát
                     mögállunk a pélpás sátor előtt. Sok mindönféle tajtékpélpa lógott a sátor falán,
                     ki igenyös, ki hajlott nyaku, de tsupa úri pélpa.</p>
-                <p>Aszondi a zsidó, hogy aszondi:</p>
-                <p>- Pélpás embör-e kend?</p>
-                <p>- Az vagyok mondok.</p>
-                <p>A kezibe kap egy szép nagy pirosnyaku pélpát, oszt aszondi:</p>
-                <p>- Vögye mög ezt kend, árán alul adom, hogy pízöm lögyön a vasutra. Odaadom négy
+				<p>Aszondi a zsidó, hogy aszondi:</p>
+				<p>- Pélpás embör-e kend?</p>
+				<p>- Az vagyok mondok.</p>
+				<p>A kezibe kap egy szép nagy pirosnyaku pélpát, oszt aszondi:</p>
+				<p>- Vögye mög ezt kend, árán alul adom, hogy pízöm lögyön a vasutra. Odaadom négy
                     pöngőjér.</p>
-                <p>Nézöm a pélpát hát röttentő szép uri pélpa, még a kupakja is olyan, mint a
+				<p>Nézöm a pélpát hát röttentő szép uri pélpa, még a kupakja is olyan, mint a
                     templom kupolája.</p>
-                <p>Aszondi a sógor halkan, hogy aszondi vögye mög kend de rögvest ö. m. a f. mögér
+				<p>Aszondi a sógor halkan, hogy aszondi vögye mög kend de rögvest ö. m. a f. mögér
                     ez huszonöt pöngőt is!</p>
-                <p>Hát mondok a zsidónak:</p>
-                <p>- Két pöngőt adok érte.</p>
-                <p>De rögvest mögbántam, hogy annyit igértem érte, mer a zsidó egy szót se szólt
+				<p>Hát mondok a zsidónak:</p>
+				<p>- Két pöngőt adok érte.</p>
+				<p>De rögvest mögbántam, hogy annyit igértem érte, mer a zsidó egy szót se szólt
                     tsak idadta. Löhet hogy idatta vóna másfél forintér is.</p>
-                <p>Hazavisszük a pélpát, kiülök otthon a ház elejbe, rágyujtok, hát ojan büdös mint
+				<p>Hazavisszük a pélpát, kiülök otthon a ház elejbe, rágyujtok, hát ojan büdös mint
                     a miskótzi patak.</p>
-                <p>Mondok a sógornak ez nem löhet igazi.</p>
-                <p>- De aszondi tsak szijja kend ö. m. a f. igazi ez, tsak talán mögkenték valamivel
+				<p>Mondok a sógornak ez nem löhet igazi.</p>
+				<p>- De aszondi tsak szijja kend ö. m. a f. igazi ez, tsak talán mögkenték valamivel
                     attul ojan büdös.</p>
-                <p>Mutattyuk oszt a Kátsának, hogy itéjje mög ha igazi-e? Hát a Kátsa mingyán
+				<p>Mutattyuk oszt a Kátsának, hogy itéjje mög ha igazi-e? Hát a Kátsa mingyán
                     aszonta rá hogy aszondi kű pélpa.</p>
-                <p>No mondok, hogy a szilokféreg essön abba a zsidóba, mögtsalt éngöm. De nem azér
+				<p>No mondok, hogy a szilokféreg essön abba a zsidóba, mögtsalt éngöm. De nem azér
                     vagyok én biró, hogy annyiban haggyam, mer a törvény arravaló, hogy a hamisságot
                     visszaigazitsa.</p>
-                <p>Aszondi a sógor, hogy aszondi öheti mán a fene a kend pízit sógor, ki tuggya hol
+				<p>Aszondi a sógor, hogy aszondi öheti mán a fene a kend pízit sógor, ki tuggya hol
                     jár azóta a pélpás zsidó.</p>
-                <p>- De mondok akárhol jár, mögkerestetöm a gézönguzt!</p>
-                <p>Oszt ösz a mérög, még a sógort is szidtam, hogy mondok de bolond esze van kendnek
+				<p>- De mondok akárhol jár, mögkerestetöm a gézönguzt!</p>
+				<p>Oszt ösz a mérög, még a sógort is szidtam, hogy mondok de bolond esze van kendnek
                     is, hogy igy rá noszitott erre a pélpára.</p>
-                <p>Oszt mérgembe a falhon akartam tsapni, de a Kátsa nem engette. Aszondi bizzam rá
+				<p>Oszt mérgembe a falhon akartam tsapni, de a Kátsa nem engette. Aszondi bizzam rá
                     a pélpát, kikeresi ű a zsidót akárhol is, oszt vissza véteti vele.</p>
-                <p>- Hát mondok nesze.</p>
-                <p>Elballag a Kátsa a zurasági kastély felé, de egy óra is alig fordult el, gyön
+				<p>- Hát mondok nesze.</p>
+				<p>Elballag a Kátsa a zurasági kastély felé, de egy óra is alig fordult el, gyön
                     vissza, letösz két forintot a zasztalra.</p>
-                <p>- Hol vötted mondok.</p>
-                <p>- Ne tessön keresni, igy felel. Én mögvöttem a pélpát biró uramtól, avval
+				<p>- Hol vötted mondok.</p>
+				<p>- Ne tessön keresni, igy felel. Én mögvöttem a pélpát biró uramtól, avval
                     mögvan.</p>
-                <p>- Hát jól van.</p>
-                <p>Beállit másnap egy idegöny embör, oszt aszondi panasza vóna.</p>
-                <p>Mondok hát ki maga?</p>
-                <p>Aszondi Petrás Károj az én bötsületös nevem, kőmives vagyok. A városbúl hittak
+				<p>- Hát jól van.</p>
+				<p>Beállit másnap egy idegöny embör, oszt aszondi panasza vóna.</p>
+				<p>Mondok hát ki maga?</p>
+				<p>Aszondi Petrás Károj az én bötsületös nevem, kőmives vagyok. A városbúl hittak
                     éngöm ide harmad magammal a kastéjt vakolni.</p>
-                <p>- Hát mondok mi a panasz?</p>
-                <p>Előhuzi a zsebibül a kű tajték pélpát oszt mutati.</p>
-                <p>- Ihol ez a pélpa aszondi, rászödött vele a Kátsa tzigány.</p>
-                <p>- Hogyan? mondok.</p>
-                <p>- Hát aszondi, ahogy ott dógozunk odagyön beszélgetni. Leül velem szömbe, oszt
+				<p>- Hát mondok mi a panasz?</p>
+				<p>Előhuzi a zsebibül a kű tajték pélpát oszt mutati.</p>
+				<p>- Ihol ez a pélpa aszondi, rászödött vele a Kátsa tzigány.</p>
+				<p>- Hogyan? mondok.</p>
+				<p>- Hát aszondi, ahogy ott dógozunk odagyön beszélgetni. Leül velem szömbe, oszt
                     rágyujt. Mögtetszik neköm a pélpa, mondok hol loptad azt a gyönyörü pélpát?
-                    Aszondi a zöreg­apám­tul maradt az rám. No mondok akkor nem is halt meg a te
-                    öregapád máshol mint a zakasztó­fán. Mán az mindegy aszondi tsak mög ne köllene
+                    Aszondi a zöregapámtul maradt az rám. No mondok akkor nem is halt meg a te
+                    öregapád máshol mint a zakasztófán. Mán az mindegy aszondi tsak mög ne köllene
                     tüle válnom, de mög köll tüle válnom, mert a végrehajtó gyön rám; hát beviszüm
                     hónap a városba. Mondok hát mennyiér adod el neköm? Aszondi nem adnám én száz
                     forintér se, de ha nem alkuszik, mög mingyár kifizet, hát odaadom három
@@ -1260,489 +1248,484 @@
                     mögéri a pélpa. Éppen három forint volt nálam, odaattam a pélpájáér. Mikor
                     rágyujtottam, akkor láttam, hogy nem igazi, de mán akkor a tzigány nem vót
                     ottan.</p>
-                <p>- Hát mondok el se hivatom a Kátsát, ha igy van, mert magának barátom nints
+				<p>- Hát mondok el se hivatom a Kátsát, ha igy van, mert magának barátom nints
                     igazsága.</p>
-                <p>- Hogyne vóna mikor mögtsaltak.</p>
-                <p>- Mondok hát ha vak lovat vösz a vásárba oszt nem tudta tsak mikor a ló otthon a
+				<p>- Hogyne vóna mikor mögtsaltak.</p>
+				<p>- Mondok hát ha vak lovat vösz a vásárba oszt nem tudta tsak mikor a ló otthon a
                     falnak mögy ki itéli vissza? Azér van szöme az embörnek, hogy lásson.</p>
-                <p>Hogy erre a kőmives nagyon káromkodott a zudvaron, behajitattam egy napra az
+				<p>Hogy erre a kőmives nagyon káromkodott a zudvaron, behajitattam egy napra az
                     kösségi tömlötzbe.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                    Levél a Kokas Mártony sógornak.
                 </head>
-                <p>Tisztőtt Mártony sógor, lyó egésségöt és hasolló lyókat kivánok továbbá nálunk is
+				<p>Tisztőtt Mártony sógor, lyó egésségöt és hasolló lyókat kivánok továbbá nálunk is
                     vót mártzius 15-dike mer én összvedoboltattam a népet, hogy mondok tsütörtökön
                     este mindönki a kösség házánál lögyön a harangozás után. Hát el is gyöttek.</p>
-                <p>Én osztán ezt a beszédöt mondtam nekik, hogy mondok:</p>
-                <p>Tisztőtt kösség, tudom, hogy nints mindönik háznál kalendárijom, mert kinek
+				<p>Én osztán ezt a beszédöt mondtam nekik, hogy mondok:</p>
+				<p>Tisztőtt kösség, tudom, hogy nints mindönik háznál kalendárijom, mert kinek
                     tellik, kinek nem tellik, de a kinek nints is kalendárijuma, mindön esztendőbe
                     tuggya mög, hogy mikor van mártzijus 15-tödike?</p>
-                <p>Mer ez nevezetös jelös nap. Ezön a napon ütött ki a szabadság.</p>
-                <p>Az urak mindönfele mögünneplik ezt a napot, pedig a parasztságnak köllene jobban
-                    mög­ünnepölnie. Mér? Azér mer a zurak mindig szabadok vótak, de a parasztok
+				<p>Mer ez nevezetös jelös nap. Ezön a napon ütött ki a szabadság.</p>
+				<p>Az urak mindönfele mögünneplik ezt a napot, pedig a parasztságnak köllene jobban
+                    mögünnepölnie. Mér? Azér mer a zurak mindig szabadok vótak, de a parasztok
                     jobbágyok vótak annak előtte, oszt akkor vertek rájok 25-töt mikor akartak. Hát
-                    ettül szabadultunk mög fő­képpen és ezér hijják ezt a szabadság napjának.
+                    ettül szabadultunk mög főképpen és ezér hijják ezt a szabadság napjának.
                     Minekutána igy mögmagyaráztam, hogy ezt mártzijus 15-tödikének köszönhettyük,
                     mindönki helyösölte, hogy ezön a napon mindön esztendőbe ünnepöjjünk, oszt ha
                     lösz könyv a kaszinóba a szabadság háboru történetérül, hát akkor én abbul
                     fönszóval olvassak, de ha nem lösz könyv a jövő esztendőbe se, akkor ne
                     olvassak, hanem az utána következő esztendőbe olvassak, ha akkor lösz könyv.</p>
-                <p>Továbbá azt hallom, hogy most mán az én ábrázatomat mög a Durbints sógorét képes
+				<p>Továbbá azt hallom, hogy most mán az én ábrázatomat mög a Durbints sógorét képes
                     levelező papiroson kűdözgetik egymásnak a zurak, hát küdözgethetik is, mert én
                     zabot nem szállitok a zosztráknak, tsak a zannyukom szigyölli, hogy aszondi
                     mezitláb van kend leábrázolva.</p>
-                <p>- Hadd el mondok, láthati akinek szöme van, hogy ott a tsizma előttem, tsak azér
+				<p>- Hadd el mondok, láthati akinek szöme van, hogy ott a tsizma előttem, tsak azér
                     nem huztam föl, hogy könnyebben essék a levélirás.</p>
-                <p>Tovább aztán igy vót a mártzijus 15.</p>
-                <p>A beszéd végin azt mondtam a népnek, hogy mondok közös vatsorát illenék önni mint
+				<p>Tovább aztán igy vót a mártzijus 15.</p>
+				<p>A beszéd végin azt mondtam a népnek, hogy mondok közös vatsorát illenék önni mint
                     más hejön olvassuk, de mivelhogy mink szögényök vagyunk, oszt ki tejet öszik ki
                     pedig kolompért vagy csak könyeret magába, hát azon is segithetünk. Hozza el
                     kiki a maga vatsoráját a kösség házára oszt ott költse el, mert nem a vatsora a
                     fő hanem az hazafiság.</p>
-                <p>Hát ugy is lött. Hanem a zembörök elhozták a tsutorájukat is, oszt megemléköztünk
-                    Kossuth apánk­ról is, mög a költőrül, aki talpra állitotta az magyart. Föláll
-                    oszt Balog sógor oszt aszon­di, ojan szépön beszélt kend biró sógor, hogy az
+				<p>Hát ugy is lött. Hanem a zembörök elhozták a tsutorájukat is, oszt megemléköztünk
+                    Kossuth apánkról is, mög a költőrül, aki talpra állitotta az magyart. Föláll
+                    oszt Balog sógor oszt aszondi, ojan szépön beszélt kend biró sógor, hogy az
                     vóna a kérésünk mongya el mégegyször.</p>
-                <p>Hát én el is mondtam, de hogy a Burutz Jóska részög vót, minduntalan belekajabált
-                    a beszé­dömbe.</p>
-                <p>- Halgass mondok mert bizony rosszul jársz!</p>
-                <p>De tsak járt a szája.</p>
-                <p>Mikor oszt oda értem, hogy a jobbágy embörre a régi időbe gyakorta ráverték a
+				<p>Hát én el is mondtam, de hogy a Burutz Jóska részög vót, minduntalan belekajabált
+                    a beszédömbe.</p>
+				<p>- Halgass mondok mert bizony rosszul jársz!</p>
+				<p>De tsak járt a szája.</p>
+				<p>Mikor oszt oda értem, hogy a jobbágy embörre a régi időbe gyakorta ráverték a
                     huszonötöt, mögen beleordét, hogy aszondi:</p>
-                <p>- Ugy köllött nekik.</p>
-                <p>Hallgass mondok, mert mán haragszok.</p>
-                <p>Avval tovább beszélök, hogy mondok, hát ezt a szabadságot ünnepöjjük ma, mög
+				<p>- Ugy köllött nekik.</p>
+				<p>Hallgass mondok, mert mán haragszok.</p>
+				<p>Avval tovább beszélök, hogy mondok, hát ezt a szabadságot ünnepöjjük ma, mög
                     mindönféle szabadságot.</p>
-                <p>Mögen közbe ordét a Burutz, hogy aszondi:</p>
-                <p>- Hát ha szabadság van, akkor én is beszélhetök.</p>
-                <p>Itt engöm is elönt a zepe, mondok ejnye azt a vertyogó tütskit a zapádnak, hát
+				<p>Mögen közbe ordét a Burutz, hogy aszondi:</p>
+				<p>- Hát ha szabadság van, akkor én is beszélhetök.</p>
+				<p>Itt engöm is elönt a zepe, mondok ejnye azt a vertyogó tütskit a zapádnak, hát
                     velem mersz e pistikázni?</p>
-                <p>Elő azt a derest.</p>
-                <p>Avval ojan huszonötöt vágattam rája, hogy még ma is tapogati.</p>
-                <p>Mejhöz hasolló lyókat kivánok</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Elő azt a derest.</p>
+				<p>Avval ojan huszonötöt vágattam rája, hogy még ma is tapogati.</p>
+				<p>Mejhöz hasolló lyókat kivánok</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                    Tapasztalat az pötsét faragásrúl mög a Kirisztus
                         koporsójárúl.
                 </head>
-                <p>Ahogy elbeszélgetünk a tanácskozás után a kösségházán, aszondi Köpe Balázs, hogy
+				<p>Ahogy elbeszélgetünk a tanácskozás után a kösségházán, aszondi Köpe Balázs, hogy
                     aszondi:</p>
-                <p>- Kentök mán nagy darab világot bejártak sógor, oszt mindönt láttak.</p>
-                <p>- Bizony mondok mink a Durbints sógorral mindönt láttunk még krokogyélust is.</p>
-                <p>Hát aszondi a sógor, azt mongyák mög néköm, hogy mijen Budán a Kirisztus
+				<p>- Kentök mán nagy darab világot bejártak sógor, oszt mindönt láttak.</p>
+				<p>- Bizony mondok mink a Durbints sógorral mindönt láttunk még krokogyélust is.</p>
+				<p>Hát aszondi a sógor, azt mongyák mög néköm, hogy mijen Budán a Kirisztus
                     koporsója?</p>
-                <p>Hát igy jukattunk rá, hogy ezt még nem láttuk.</p>
-                <p>Mondok a sógornak a nagyhétön ugysints falu dóga, mögfordulhatnánk ottan, kösség
+				<p>Hát igy jukattunk rá, hogy ezt még nem láttuk.</p>
+				<p>Mondok a sógornak a nagyhétön ugysints falu dóga, mögfordulhatnánk ottan, kösség
                     pötséttyit is köll metzetni, mer a régi mán elkopott a sok nyálastul.</p>
-                <p>Hát föltarisznyáztunk nagy szördán oszt fölültünk a gőzösre.</p>
-                <p>A gőzös nagyon tele vót, még a marha bagonyba is embörök ültek még pedig bakák.
+				<p>Hát föltarisznyáztunk nagy szördán oszt fölültünk a gőzösre.</p>
+				<p>A gőzös nagyon tele vót, még a marha bagonyba is embörök ültek még pedig bakák.
                     Minket is oda akartak tönni, de mondok én biró vagyok, nem engedi a méltóságom,
                     hogy a 3-ik osztájon alul utazzak.</p>
-                <p>Igy osztán éngöm föl is eresztött a 3-ik osztájba, de a sógort a marha bagonyba
+				<p>Igy osztán éngöm föl is eresztött a 3-ik osztájba, de a sógort a marha bagonyba
                     lükdöste be, hogy aszondi sijessön kend, mer indulnak.</p>
-                <p>Hijába akarta mondani a sógor, hogy mink összve tartozunk, mikorra kimondta vóna
+				<p>Hijába akarta mondani a sógor, hogy mink összve tartozunk, mikorra kimondta vóna
                     már föl lükdösték tsak a fejit láttam Ketskemétön, ahogy kidugta a marha
                     bagonybúl, oszt éntögetött, hogy mönnyek át, ott nagyobb a társaság, de mondok
                     nem töhetöm.</p>
-                <p>Pedig nagyon szorosan vótunk mindönféle népség még kováts legény is mög két
+				<p>Pedig nagyon szorosan vótunk mindönféle népség még kováts legény is mög két
                     tót.</p>
-                <p>A két tót odaül mellém, de mondok félre innen Jano azt a hetvenhét
+				<p>A két tót odaül mellém, de mondok félre innen Jano azt a hetvenhét
                     pipaszurkálóját annak a fatornyu hazádnak, hogy mersz leülni magyar biró
                     mellé!</p>
-                <p>Hát el is tágultak, mer nagyon mögijettek, oszt egész Pestig abba a kis fülkébe
+				<p>Hát el is tágultak, mer nagyon mögijettek, oszt egész Pestig abba a kis fülkébe
                     álltak, a mejikre fehér tojás van irva, énmellém mög két kofa ült egyik vékony
                     másik vastag, mondok ebbe mán belenyugszok.</p>
-                <p>Avval elővöttem az pélpámat oszt rásörtzentöttem.</p>
-                <p>Mondok a két asszonynak, hát maguk örülnek-é, hogy ijjen dörék embör a
+				<p>Avval elővöttem az pélpámat oszt rásörtzentöttem.</p>
+				<p>Mondok a két asszonynak, hát maguk örülnek-é, hogy ijjen dörék embör a
                     szomszéggyuk.</p>
-                <p>- Honne aszondi a két asszony, bizony örülünk.</p>
-                <p>- No mondok hát akkor mögkénálom az kulatsombúl.</p>
-                <p>A soványabbik szömérmetösködött, hogy ű aszondi nem szokta, de a vastag nagy
-                    szégyön­telenül ugy möghuzta a kulatsomat, hogy mondok magamba ez se ma ivott
+				<p>- Honne aszondi a két asszony, bizony örülünk.</p>
+				<p>- No mondok hát akkor mögkénálom az kulatsombúl.</p>
+				<p>A soványabbik szömérmetösködött, hogy ű aszondi nem szokta, de a vastag nagy
+                    szégyöntelenül ugy möghuzta a kulatsomat, hogy mondok magamba ez se ma ivott
                     először.</p>
-                <p>A bakák aztán danolásba fogtak, egy röndöt tsak hallgattam, de osztán magam is
+				<p>A bakák aztán danolásba fogtak, egy röndöt tsak hallgattam, de osztán magam is
                     átkarótam az vastag asszony derekát, oszt elhujántottam magamat, hogy
                     mondok:</p>
-                <p>Hej! Én is vótam katona,</p>
-                <p> Ahol teröm a kova!</p>
-                <p> Bosnyiába a kova,</p>
-                <p> Ott vótam én katona!</p>
-                <p>Kék posztó vót a sipkám</p>
-                <p> Kurtaszáru a tsizmám</p>
-                <p> Bornyúbűr az tarisznyám,</p>
-                <p> Harmintz fontos a puskám</p>
-                <p>Van ott bosnyák bugyogós</p>
-                <p> Bódi szilva ropogós</p>
-                <p> Elszaladt az bugyogós,</p>
-                <p> Elfogyott az ropogós.</p>
-                <p>Haj de szörnyű tsata vót!</p>
-                <p> Három litör véröm fót.</p>
-                <p> Nem a bosnyák haszna vót</p>
-                <p> Tsak a zórom vére fót.</p>
-                <p>Bosnyák asszony hódvilág!</p>
-                <p> Magyar asszony gyöngyvirág!</p>
-                <p> Messzi van a hódvilág!</p>
-                <p> Üjj ölembe gyöngyvirág!</p>
-                <p>Mondom a zasszonynak, hogy ez a nóta olyan természetü, hogy amit mond mög köll
+				<p>Hej! Én is vótam katona,</p>
+				<p> Ahol teröm a kova!</p>
+				<p> Bosnyiába a kova,</p>
+				<p> Ott vótam én katona!</p>
+				<p>Kék posztó vót a sipkám</p>
+				<p> Kurtaszáru a tsizmám</p>
+				<p> Bornyúbűr az tarisznyám,</p>
+				<p> Harmintz fontos a puskám</p>
+				<p>Van ott bosnyák bugyogós</p>
+				<p> Bódi szilva ropogós</p>
+				<p> Elszaladt az bugyogós,</p>
+				<p> Elfogyott az ropogós.</p>
+				<p>Haj de szörnyű tsata vót!</p>
+				<p> Három litör véröm fót.</p>
+				<p> Nem a bosnyák haszna vót</p>
+				<p> Tsak a zórom vére fót.</p>
+				<p>Bosnyák asszony hódvilág!</p>
+				<p> Magyar asszony gyöngyvirág!</p>
+				<p> Messzi van a hódvilág!</p>
+				<p> Üjj ölembe gyöngyvirág!</p>
+				<p>Mondom a zasszonynak, hogy ez a nóta olyan természetü, hogy amit mond mög köll
                     tönni.</p>
-                <p>Én csak teréfábúl mondtam ezt, de a vastag asszony kétszer se danótatta magának,
+				<p>Én csak teréfábúl mondtam ezt, de a vastag asszony kétszer se danótatta magának,
                     hanem ugy a zölembe ült, hogy még most is lapos tűle az térgyem kalátsa.</p>
-                <p>Aszondi osztán, hogy aszondi ijjen embör köllene neköm, hajjaé, özvegy vagyok én,
+				<p>Aszondi osztán, hogy aszondi ijjen embör köllene neköm, hajjaé, özvegy vagyok én,
                     vögyön el!</p>
-                <p>Mondok rögvest-é avagy mingyár?</p>
-                <p>- Hát aszondi öszve esket a szógabiró mingyán is, mihent Pestre érünk.</p>
-                <p>- Mondok el is vönném kendöt ha öszve esketne, de nem esket egy kis ideig.</p>
-                <p>- Meddig aszondi.</p>
-                <p>- Addig mondok mig két asszonyra nem röndözik a házasságot.</p>
-                <p>No igy el teréfálkoztunk.</p>
-                <p>De a vastag asszony úgy belém szeretött, hogy mindön boromat mögitta Budapestig,
+				<p>Mondok rögvest-é avagy mingyár?</p>
+				<p>- Hát aszondi öszve esket a szógabiró mingyán is, mihent Pestre érünk.</p>
+				<p>- Mondok el is vönném kendöt ha öszve esketne, de nem esket egy kis ideig.</p>
+				<p>- Meddig aszondi.</p>
+				<p>- Addig mondok mig két asszonyra nem röndözik a házasságot.</p>
+				<p>No igy el teréfálkoztunk.</p>
+				<p>De a vastag asszony úgy belém szeretött, hogy mindön boromat mögitta Budapestig,
                     oszt Tzöglédön mán akkorát sóhajtott, mint a zalvó bihal.</p>
-                <p>Hát azt nem is tsudáltam én hogy belém szeretött a zasszony, mert legénykoromba
+				<p>Hát azt nem is tsudáltam én hogy belém szeretött a zasszony, mert legénykoromba
                     is ha fölőtöztem a zuj ruhámba mög a tiszta ingöm gatyám végiglobogtattam a
                     falun, hát mindön lánynak ugy vert a szive mint a gőzös mitsodája, de mihaszna
                     ha belém szeretött is, mán én rám szöttem a házasság szentségeit.</p>
-                <p>Ahogy kiszállunk megkeresöm a sógort a baromkupétába, oszt mondok a vastag
+				<p>Ahogy kiszállunk megkeresöm a sógort a baromkupétába, oszt mondok a vastag
                     asszonynak, hogy most mán elbútsuzhatunk, hát rivásnak ered, hogy aszondi ne
                     vájjak el tűle.</p>
-                <p>Aszondi a sógor, hogy mi dolog ez?</p>
-                <p>- Hát mondok nem láttya kend, hogy belém szeretött.</p>
-                <p>- Én tsak azt látom aszondi, hogy alig áll a lábán ö. m. a f.</p>
-                <p>A zasszony belékapaszkodott az karomba. Egy darabig vezettem is, de mikor aztán
+				<p>Aszondi a sógor, hogy mi dolog ez?</p>
+				<p>- Hát mondok nem láttya kend, hogy belém szeretött.</p>
+				<p>- Én tsak azt látom aszondi, hogy alig áll a lábán ö. m. a f.</p>
+				<p>A zasszony belékapaszkodott az karomba. Egy darabig vezettem is, de mikor aztán
                     kiértünk a zállomás kertyébe neki támasztottam egy bukornak. Ott is maratt.
                     Azóta se láttam. Azután gondótam rá, hogy mondok jó lött vóna a Börtsöknek
                     mivelhogy 400-áz foréntja is van, mög a Börtsök úgyse kap asszonyt a mi
                     vidékünkön, mivelhogy nagyon verekedős embör.</p>
-                <p>Nagyszerda délután értünk a fővárosba. Mondok minekelőtte szállást néznénk,
+				<p>Nagyszerda délután értünk a fővárosba. Mondok minekelőtte szállást néznénk,
                     keressük mög a pötsét faragót.</p>
-                <p>Egy úr ráigazitott bennünket. Ott lakik a pötsétfaragó egy nagy háznak a zudvara
+				<p>Egy úr ráigazitott bennünket. Ott lakik a pötsétfaragó egy nagy háznak a zudvara
                     elejin. Tiszta üvegbűl van a szobája. Oszt van ott ezör pötsét nyomó is az üveg
                     mögé akasztva néhol mög nagy kerek pötsét is lóg a nyomó mellett.</p>
-                <p>- No aszondi a sógor itt válogathat kend ö. m. a f.</p>
-                <p>- De mondok ebből nem válogathatok, mert ez nem a mi kösségünket nyomi.</p>
-                <p>Avval rágyujtunk oszt ott nézögettyük, hogy ki mitsodás, hát remökül ki vót
-                    aprózva vala­mennyi. Ojat is láttunk a mejikre embör vót kifaragva. Kardot
+				<p>- No aszondi a sógor itt válogathat kend ö. m. a f.</p>
+				<p>- De mondok ebből nem válogathatok, mert ez nem a mi kösségünket nyomi.</p>
+				<p>Avval rágyujtunk oszt ott nézögettyük, hogy ki mitsodás, hát remökül ki vót
+                    aprózva valamennyi. Ojat is láttunk a mejikre embör vót kifaragva. Kardot
                     tartott a kezibe, oszt még a kardon egy oroszleány fej.</p>
-                <p>- Lássa kend mondok, aki ezt tsináltatta, ráfaragtatta magát hogy ű oroszleányt
+				<p>- Lássa kend mondok, aki ezt tsináltatta, ráfaragtatta magát hogy ű oroszleányt
                     ölt, oszt azt nyomogati az leveleire. No mondok akkurátosan el van tanálva.</p>
-                <p>- Hát aszondi a sógor gyerünk be ö. m. a f.</p>
-                <p>- Mögájjunk mondok, mégse löhet ez jó pötsétfaragó.</p>
-                <p>- Mirül gondojja kend?</p>
-                <p>- Arrul, hogy itt a sok nyomó. Mert lássa kend ha jó pötsétfaragó vóna, akkor nem
+				<p>- Hát aszondi a sógor gyerünk be ö. m. a f.</p>
+				<p>- Mögájjunk mondok, mégse löhet ez jó pötsétfaragó.</p>
+				<p>- Mirül gondojja kend?</p>
+				<p>- Arrul, hogy itt a sok nyomó. Mert lássa kend ha jó pötsétfaragó vóna, akkor nem
                     hatták vóna a nyakán.</p>
-                <p>Aszondi a sógor hát ebbe is jól beszél kend, de azért bemöhetünk. Ha a mi
+				<p>Aszondi a sógor hát ebbe is jól beszél kend, de azért bemöhetünk. Ha a mi
                     pötsétünket is elhibázza, mink is itt hagyjuk ö. m. a f.</p>
-                <p>Mondok ez is igaz.</p>
-                <p>Avval éppen be akartunk mönni, de mondok hogyan mönnyünk be: ojan kitsi a
+				<p>Mondok ez is igaz.</p>
+				<p>Avval éppen be akartunk mönni, de mondok hogyan mönnyünk be: ojan kitsi a
                     szobája, hogy nálunk a gyesznó ól is tágasabb.</p>
-                <p>Rázörgetöm a ház ódalát, hogy mondok hajja-e tisztőt ur!</p>
-                <p>Kinyit egy kis ablakot, oszt kidugi az orrát, hogy aszondi mi köll?</p>
-                <p>- Mondok tudnak-e itt pötsétnyomót tsinálni?</p>
-                <p>- Tudunk aszondi, mijen köll?</p>
-                <p>- Ótsó mondok.</p>
-                <p>- Tudunk ótsót is aszondi.</p>
-                <p>- Hát mondok mégis mit kóstál?</p>
-                <p>- Ki mijen aszondi. Kezdődik 20-sz grajtzárnál.</p>
-                <p>- Mondok nekünk 18-tz grajtzáros is mögtenné, de ha szépet tud faragni nem
+				<p>Rázörgetöm a ház ódalát, hogy mondok hajja-e tisztőt ur!</p>
+				<p>Kinyit egy kis ablakot, oszt kidugi az orrát, hogy aszondi mi köll?</p>
+				<p>- Mondok tudnak-e itt pötsétnyomót tsinálni?</p>
+				<p>- Tudunk aszondi, mijen köll?</p>
+				<p>- Ótsó mondok.</p>
+				<p>- Tudunk ótsót is aszondi.</p>
+				<p>- Hát mondok mégis mit kóstál?</p>
+				<p>- Ki mijen aszondi. Kezdődik 20-sz grajtzárnál.</p>
+				<p>- Mondok nekünk 18-tz grajtzáros is mögtenné, de ha szépet tud faragni nem
                     sajnájjuk a zárát.</p>
-                <p>- Tudok én mindenfélét aszondi. Hát mijen köll?</p>
-                <p>- Hát mondok rézbűl való. Ihol a párja. Ezt mán elnyaltuk, pedig ez is rézbűl
+				<p>- Tudok én mindenfélét aszondi. Hát mijen köll?</p>
+				<p>- Hát mondok rézbűl való. Ihol a párja. Ezt mán elnyaltuk, pedig ez is rézbűl
                     vót, hát tud-e ijet?</p>
-                <p>- Tudok aszondi külömbet is, mert ez mán nagyon régi.</p>
-                <p>- Bizony mondok ez még talán annak a birónak a nyakába lógott, aki Árpád apánkkal
+				<p>- Tudok aszondi külömbet is, mert ez mán nagyon régi.</p>
+				<p>- Bizony mondok ez még talán annak a birónak a nyakába lógott, aki Árpád apánkkal
                     gyütt bé Ázsijábúl.</p>
-                <p>- No aszondi nem is látzik ezön sömmi.</p>
-                <p>Avval nyom ögyet vele, oszt aszondi Lepénd község ha jól olvasom.</p>
-                <p>- Az mondok, de a közepibe szeretném, ha embört faragna bele.</p>
-                <p>- Mijen embört?</p>
-                <p>- Ippeg ojant mint én vagyok, vagyishogy éngöm.</p>
-                <p>- Az aszondi bajos, hanem egy embört faraghatok belé parasztot.</p>
-                <p>- Hát mondok ha vastag parasztot farag belé oszt birói pátzát a kezibe, arrúl is
+				<p>- No aszondi nem is látzik ezön sömmi.</p>
+				<p>Avval nyom ögyet vele, oszt aszondi Lepénd község ha jól olvasom.</p>
+				<p>- Az mondok, de a közepibe szeretném, ha embört faragna bele.</p>
+				<p>- Mijen embört?</p>
+				<p>- Ippeg ojant mint én vagyok, vagyishogy éngöm.</p>
+				<p>- Az aszondi bajos, hanem egy embört faraghatok belé parasztot.</p>
+				<p>- Hát mondok ha vastag parasztot farag belé oszt birói pátzát a kezibe, arrúl is
                     mögismernek éngöm tsak a bajuszomat kanyaritsa ki, oszt irja alá, hogy bajjal
                     adózik az magyar, mer a zosztrák sokat akar.</p>
-                <p>- Sok ez aszondi nem fér rá.</p>
-                <p>- Hát mondok mi fér rá?</p>
-                <p>Aszondi:</p>
-                <p>- Ha embör is lösz rajta, mög bötü is, akkor ölég lösz rá az hogy Lepénd kösség
+				<p>- Sok ez aszondi nem fér rá.</p>
+				<p>- Hát mondok mi fér rá?</p>
+				<p>Aszondi:</p>
+				<p>- Ha embör is lösz rajta, mög bötü is, akkor ölég lösz rá az hogy Lepénd kösség
                     pötséttye.</p>
-                <p>- Mondok legalább azt faragja még rá, hogy Isten áldd mög az magyart.</p>
-                <p>- Aszondi akkor nagy nyomó lösz.</p>
-                <p>- Mondok elbirom én akármijen nagy, tsak az ára ne lögyön nagy.</p>
-                <p>- Öt forint aszondi.</p>
-                <p>- Tyhü azt a rézbányáját, mondok talán bizony azt hiszi a zur, hogy én öltem mög
+				<p>- Mondok legalább azt faragja még rá, hogy Isten áldd mög az magyart.</p>
+				<p>- Aszondi akkor nagy nyomó lösz.</p>
+				<p>- Mondok elbirom én akármijen nagy, tsak az ára ne lögyön nagy.</p>
+				<p>- Öt forint aszondi.</p>
+				<p>- Tyhü azt a rézbányáját, mondok talán bizony azt hiszi a zur, hogy én öltem mög
                     a pásztói kutsébert?</p>
-                <p>- Aszondi sok munka van vele. Ha tsak azt köll ráfaragni, hogy Lepénd kösség
-                    akkor harmintz­krajtzár.</p>
-                <p>Alkudozni akartam vele, de bétsapta a zablakot.</p>
-                <p>Mondok a sógornak mit gondol kend.</p>
-                <p>- Hát aszondi jó lösz 30-tz krajczáros is ö. m. a f.</p>
-                <p>- De mondok azt le nem engedhetöm rúla, hogy isten áldd mög az magyart.</p>
-                <p>- Hajja-e mondok, hát az mibe kerül, hogy isten áldd mög az magyart.</p>
-                <p>- Aszondi két forint.</p>
-                <p>- Hát én ha rajta löszök?</p>
-                <p>- Aszondi az is két forint.</p>
-                <p>Mögen tanakottunk, hogy az Isten áldását haggyuk-é el vagy éngöm, de mondok a
+				<p>- Aszondi sok munka van vele. Ha tsak azt köll ráfaragni, hogy Lepénd kösség
+                    akkor harmintzkrajtzár.</p>
+				<p>Alkudozni akartam vele, de bétsapta a zablakot.</p>
+				<p>Mondok a sógornak mit gondol kend.</p>
+				<p>- Hát aszondi jó lösz 30-tz krajczáros is ö. m. a f.</p>
+				<p>- De mondok azt le nem engedhetöm rúla, hogy isten áldd mög az magyart.</p>
+				<p>- Hajja-e mondok, hát az mibe kerül, hogy isten áldd mög az magyart.</p>
+				<p>- Aszondi két forint.</p>
+				<p>- Hát én ha rajta löszök?</p>
+				<p>- Aszondi az is két forint.</p>
+				<p>Mögen tanakottunk, hogy az Isten áldását haggyuk-é el vagy éngöm, de mondok a
                     zisten áldását nem hagyhattyuk el mert az 2-t forintnál mindig többet ér.
                     Magamat se hagyhatom, mer én is többet érök két forintnál. Utojjára is
                     mögalkuttunk vele 3-om forint 80-van grajczárba, mög hogy ráadásul ad egy panyor
                     viaszkot.</p>
-                <p>Oszt mondok a kostökömet le ne felejtse, mer akkor 1-gy forintot lehuzok, hát
+				<p>Oszt mondok a kostökömet le ne felejtse, mer akkor 1-gy forintot lehuzok, hát
                     igérte is, hogy nem felejti le.</p>
-                <p>Hálni mögen odamöntünk a Magyar tudományos akadémija kapuja alá ahun tavaj a
+				<p>Hálni mögen odamöntünk a Magyar tudományos akadémija kapuja alá ahun tavaj a
                     dinnyét öttük, nagyon jó hej az nem esik oda a zesső, oszt mondok a sógornak,
                     lássa-e kend itt van ám sok tudomány itt a kapun bévül.</p>
-                <p>- Minek az aszondi a sógor.</p>
-                <p>- Tuggya tatár mondok, köll a zuraknak.</p>
-                <p>- Aszondi a sógor tán a pízt is itt tsinájják ö. m. a f.</p>
-                <p>- Itt tsak kőtik mondok.</p>
-                <p>Röggel mögmosakottunk a dunába oszt bepájinkáztunk egy kitsit, úgy indultunk neki
+				<p>- Minek az aszondi a sógor.</p>
+				<p>- Tuggya tatár mondok, köll a zuraknak.</p>
+				<p>- Aszondi a sógor tán a pízt is itt tsinájják ö. m. a f.</p>
+				<p>- Itt tsak kőtik mondok.</p>
+				<p>Röggel mögmosakottunk a dunába oszt bepájinkáztunk egy kitsit, úgy indultunk neki
                     a budaji várnak.</p>
-                <p>Mondok egy urnak, hogy mondok tisztőtt ur mejik templomba van a legszöbb
+				<p>Mondok egy urnak, hogy mondok tisztőtt ur mejik templomba van a legszöbb
                     Kirisztus koporsója.</p>
-                <p>- Abba a tarka tetejübe aszondi.</p>
-                <p>Hát tsak elállott szömünk szánk a sok képtül aranytul ezüsttül, mert ott még a
+				<p>- Abba a tarka tetejübe aszondi.</p>
+				<p>Hát tsak elállott szömünk szánk a sok képtül aranytul ezüsttül, mert ott még a
                     zoszlopok is szin arany márványbul vannak.</p>
-                <p>Mondok egy kódus asszonynak, hogy mondok mér van itt ennyi úr talán bizony itt
+				<p>Mondok egy kódus asszonynak, hogy mondok mér van itt ennyi úr talán bizony itt
                     van a kiráj is?</p>
-                <p>Nem aszondi, hanem a hertzeg primás van itt, mer láb mosás lösz.</p>
-                <p>- Mitsoda láb mosás mondok.</p>
-                <p>- Hát aszondi nézze azt a tizönkét embört, annak mossa mög a lábát a primás.</p>
-                <p>Nézöm a tizönkét embört, hát látom hogy paraszt sorbul valók, mégpedig svábok
+				<p>Nem aszondi, hanem a hertzeg primás van itt, mer láb mosás lösz.</p>
+				<p>- Mitsoda láb mosás mondok.</p>
+				<p>- Hát aszondi nézze azt a tizönkét embört, annak mossa mög a lábát a primás.</p>
+				<p>Nézöm a tizönkét embört, hát látom hogy paraszt sorbul valók, mégpedig svábok
                     oszt ki öreg, ki görbe. Mondok a sógornak, ne ájjunk-e közibük sógor?</p>
-                <p>- Minek aszondi?</p>
-                <p>- Hát mondok, ha itt a sváboknak is mögmossák a lábát, a mijenket jobban
+				<p>- Minek aszondi?</p>
+				<p>- Hát mondok, ha itt a sváboknak is mögmossák a lábát, a mijenket jobban
                     mögmoshattyák, mert mink magyarok vagyunk.</p>
-                <p>Avval oda állunk közibük, mink is levettyük a tsizmát, akasztyuk a vállunkra.</p>
-                <p>Odagyön a segröstyés, oszt aszondi mit akarnak kendtök?</p>
-                <p>- Mondok, azt a mit a többi.</p>
-                <p>- De aszondi mönnyenek innen.</p>
-                <p>- Mondok mér mönnénk?</p>
-                <p>- Azér aszondi, hogy tsak ezöknek a lábát mossák.</p>
-                <p>- Mondok ezök se külömbek mint mink ketten. Vagyok ojan embör mint akármijik.</p>
-                <p>- De aszondi a hertzegprimás nem mossa mög mindenkinek a lábát.</p>
-                <p>- Mondok ha ijen hitvány embörökét mögmossa, a zenyimet lyobban mögmoshati mer én
+				<p>Avval oda állunk közibük, mink is levettyük a tsizmát, akasztyuk a vállunkra.</p>
+				<p>Odagyön a segröstyés, oszt aszondi mit akarnak kendtök?</p>
+				<p>- Mondok, azt a mit a többi.</p>
+				<p>- De aszondi mönnyenek innen.</p>
+				<p>- Mondok mér mönnénk?</p>
+				<p>- Azér aszondi, hogy tsak ezöknek a lábát mossák.</p>
+				<p>- Mondok ezök se külömbek mint mink ketten. Vagyok ojan embör mint akármijik.</p>
+				<p>- De aszondi a hertzegprimás nem mossa mög mindenkinek a lábát.</p>
+				<p>- Mondok ha ijen hitvány embörökét mögmossa, a zenyimet lyobban mögmoshati mer én
                     biró vagyok.</p>
-                <p>Hogy osztán nagyon veszöködött, mink is mögharaguttunk, fölhuztuk a tsizmát oszt
+				<p>Hogy osztán nagyon veszöködött, mink is mögharaguttunk, fölhuztuk a tsizmát oszt
                     ott hagytuk a segröstyést.</p>
-                <p>Mondok a sógornak azér se mönnyünk el, nézzük mög mijen az a pirimás?</p>
-                <p>Hát láttuk is osztán, sovány kis barna embör, de röttentő nagy úr löhet, mert
+				<p>Mondok a sógornak azér se mönnyünk el, nézzük mög mijen az a pirimás?</p>
+				<p>Hát láttuk is osztán, sovány kis barna embör, de röttentő nagy úr löhet, mert
                     akármőre fordult a többi pap minduntalan hajlongott előtte.</p>
-                <p>De jó, hogy nem mosattuk mög vele lábunkat, mert a többijét se mosta mög, tsak a
+				<p>De jó, hogy nem mosattuk mög vele lábunkat, mert a többijét se mosta mög, tsak a
                     két ujját huzta végig a lábukfejin. Mondok a Kátsa lába ugyan nem elégödött vóna
                     mög ijen mosással.</p>
-                <p>Mögnéztük oszt a Kirisztus koporsóját is, hát szörnyü szép vót. A sok virág mög a
-                    sok piros­lámpás, oszt a Jézus amint ott feküdt halva, majd hogy mög nem
+				<p>Mögnéztük oszt a Kirisztus koporsóját is, hát szörnyü szép vót. A sok virág mög a
+                    sok piroslámpás, oszt a Jézus amint ott feküdt halva, majd hogy mög nem
                     szólalt, ojan igazi vót.</p>
-                <p>Két katona állott a szent sir mellett. Mondok a sógornak, nézze kend, ezt a két
+				<p>Két katona állott a szent sir mellett. Mondok a sógornak, nézze kend, ezt a két
                     katonát, ki hinné, hogy igy ki löhessen tsinálni.</p>
-                <p>Ahogy ott tapigatom a zorrát a katonának, hát mögszólal, hogy aszondi:</p>
-                <p>- Mönnyön a fenébe kend.</p>
-                <p>Hát ma se tugygyuk, hogy igazi vót-e az a katona, mert mióta a kis ládát szólani
+				<p>Ahogy ott tapigatom a zorrát a katonának, hát mögszólal, hogy aszondi:</p>
+				<p>- Mönnyön a fenébe kend.</p>
+				<p>Hát ma se tugygyuk, hogy igazi vót-e az a katona, mert mióta a kis ládát szólani
                     hallottam, nem hiszök mán a Pilátus katonájának se.</p>
-                <p>Hogy a templombúl kifordultunk, mondok a sógornak, keressük mög a méltóságos
+				<p>Hogy a templombúl kifordultunk, mondok a sógornak, keressük mög a méltóságos
                     bárónét, hogy akar-e valamit adni a Nepomuki Jánosra? Mert hogy a tavaszi áradás
                     mögen elvitte a papnak a szénáját, hát kihirdette a templomba, hogy aszondi
                     mindön kösségbe löhet látni a hidak mellett a Nepomuki szent János
                     kűbálványkípit, tsak a miénkbe nem, hát mink is állitsunk a patak mellé ijen
                     szentöt, oszt ki mit szánt rá, azt aggya. Én is attam négy krajcárt, a sógor is.
                     Hát lássuk most hogy a báróné mit szánt rá?</p>
-                <p>Mögkerestük a báró ur pesti házát, oszt mögtudtuk a kapu vigyázótúl, hogy itthon
-                    van. Le­töttük a botot a kapu alá, oszt fölballagtunk a gerádicsonyon.</p>
-                <p>A zinas bévezetött bennünket egy ződ bársony kis szobába, oszt aszondi
+				<p>Mögkerestük a báró ur pesti házát, oszt mögtudtuk a kapu vigyázótúl, hogy itthon
+                    van. Letöttük a botot a kapu alá, oszt fölballagtunk a gerádicsonyon.</p>
+				<p>A zinas bévezetött bennünket egy ződ bársony kis szobába, oszt aszondi
                     várjunk.</p>
-                <p>Hát vártunk is. De hogy üléssel nem kinált mög bennünket, nem mertünk a szép
+				<p>Hát vártunk is. De hogy üléssel nem kinált mög bennünket, nem mertünk a szép
                     sejöm bársony székökre leülni, tsak álltunk a szoba közepin sokájig.</p>
-                <p>Hogy a várást nagyon möguntuk, aszondi a sógor szabad vóna-e itt rágyújtani?</p>
-                <p>- Magam is ezön gondókodok mondok, de azt gondolom, hogy szabad, mert lám a
+				<p>Hogy a várást nagyon möguntuk, aszondi a sógor szabad vóna-e itt rágyújtani?</p>
+				<p>- Magam is ezön gondókodok mondok, de azt gondolom, hogy szabad, mert lám a
                     báróné is mindig szijja a papiros tzibart, oszt majd möghajjuk ha gyön,
                     eltösszük az pélpát.</p>
-                <p>Avval a sógor előveszi a pélpát, rágyujt a maradékra, én is.</p>
-                <p>De lám hogy a paraszt embör nem tud pélpázni pökés nélkül, aszondi a sógor, hogy
+				<p>Avval a sógor előveszi a pélpát, rágyujt a maradékra, én is.</p>
+				<p>De lám hogy a paraszt embör nem tud pélpázni pökés nélkül, aszondi a sógor, hogy
                     aszondi, hova köpjek ö. m. a f.</p>
-                <p>- Én is ezön gondókodok mondok.</p>
-                <p>Mert hogy a szoba főggye tsupa bársony vót, oda nem löhetött.</p>
-                <p>Mondok a sógornak itt is bizonyosan tzibar ládába köll pökni mint a plébános
+				<p>- Én is ezön gondókodok mondok.</p>
+				<p>Mert hogy a szoba főggye tsupa bársony vót, oda nem löhetött.</p>
+				<p>Mondok a sógornak itt is bizonyosan tzibar ládába köll pökni mint a plébános
                     urnál.</p>
-                <p>De nem láttunk a szoba szögletibe ojat se.</p>
-                <p>Ahogy ott nézgelődtünk, möglátok a falon egy egy forgátsbul font kosarat, körül
+				<p>De nem láttunk a szoba szögletibe ojat se.</p>
+				<p>Ahogy ott nézgelődtünk, möglátok a falon egy egy forgátsbul font kosarat, körül
                     vót dugdosva képekkel. No mondok ihol van-e! Ilyen most a divat, lám hogy
                     kitanálták az urak, hogy hajolni ne köjjön.</p>
-                <p>Avval odaállunk szépen pélpázni a mellé.</p>
-                <p>Hát a pélpánk mán ki is égött, mikor gyött a zinas, oszt bejjebb vezetött
+				<p>Avval odaállunk szépen pélpázni a mellé.</p>
+				<p>Hát a pélpánk mán ki is égött, mikor gyött a zinas, oszt bejjebb vezetött
                     bennünket.</p>
-                <p>- No aszondi a méltóságos asszony, hát mi ujság?</p>
-                <p>Kezet tsókoltunk neki, oszt mondok, hát semmi különös méltóságos asszony tsak
+				<p>- No aszondi a méltóságos asszony, hát mi ujság?</p>
+				<p>Kezet tsókoltunk neki, oszt mondok, hát semmi különös méltóságos asszony tsak
                     éppen hogy a Nepomuki szent János erányába látogattunk ide. A nagy árviz mögen
                     kárt tött, még a kántor ártánnyát is elvütte, de még a sógornak a ganajdombját
                     is, hát annak erányába jöttünk, hogy ki mit szánt rá, avval adózik az
                     Istennek.</p>
-                <p>Mingyár a zsebibe is nyult, oszt ojan szép 10-iz pöngőset adott, hogy még
+				<p>Mingyár a zsebibe is nyult, oszt ojan szép 10-iz pöngőset adott, hogy még
                     gyürődés se vót rajta.</p>
-                <p>Itt hogy a kis öklöm borzas kutya nagyon kapkodta a gatyám szélit, én is feléje
+				<p>Itt hogy a kis öklöm borzas kutya nagyon kapkodta a gatyám szélit, én is feléje
                     legyéntök a lábommal.</p>
-                <p>- Tzoki te kis büdös mondok.</p>
-                <p>Hát lám a báróné fölemelte az kutyát, oszt összevissza nyalta falta.</p>
-                <p>- No mondok odaki a sógornak tisztölet bötsület a zuraknak, de fölfordult a
+				<p>- Tzoki te kis büdös mondok.</p>
+				<p>Hát lám a báróné fölemelte az kutyát, oszt összevissza nyalta falta.</p>
+				<p>- No mondok odaki a sógornak tisztölet bötsület a zuraknak, de fölfordult a
                     gyomrom.</p>
-                <p>Melyhöz hasolló lyókat kivánok</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+				<p>Melyhöz hasolló lyókat kivánok</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+			</div>
+			<div type="chapter">
+				<head>
                    Ésszel él a biró, vagyis én rajtam nem foksz
                     ki!</head>
-                <p>Lyó egésségöt és hasolló lyókat kivánok, továbbá hogy a biróválasztás
+				<p>Lyó egésségöt és hasolló lyókat kivánok, továbbá hogy a biróválasztás
                     esztendejibe kerültünk, azt látom hogy Fekete Gyombár Andorás esküttnek is
-                    keletközik pártya, mivelhogy mög­irigyölte tűlem az biróji méltóságot, hát ásta
+                    keletközik pártya, mivelhogy mögirigyölte tűlem az biróji méltóságot, hát ásta
                     is a zárkot a hátam mögött. Oszt lám még avval támasztott pártot magának, hogy
                     aszondi mőte Göre Gábor az biró, több a kösségnek a kőttsége.</p>
-                <p>Nem szóltam érte, mert mondok a saját jukába köll mögfogni a rókát.</p>
-                <p>Hát hogy közgyülést doboltattam összve az nemzeti ügybe, mondok a gyülés végén,
+				<p>Nem szóltam érte, mert mondok a saját jukába köll mögfogni a rókát.</p>
+				<p>Hát hogy közgyülést doboltattam összve az nemzeti ügybe, mondok a gyülés végén,
                     hogy mondok tizenhat vén akátzfa van párossan az vasuti tőttés mellett, az a
                     kösségé, de mivelhogy a vasut is az maga tulajdonának tarti, legjobb lösz a
                     fákat idejébe elemelni a község lyavára, hát mondok mivelhogy ez kőttségbe
                     kerül, nyilatkozzék kiki, hogyan löhetne ótsóbban?</p>
-                <p>Hát ki két forintot számitott, ki hármat, végtére föláll Gyombár sógor is, oszt
+				<p>Hát ki két forintot számitott, ki hármat, végtére föláll Gyombár sógor is, oszt
                     aszondi, hogy mivel ez a kösség kőttsége, hát ű 3-m koronájér magára
                     vállali.</p>
-                <p>No mondok, hát utójjára én szólok, tsak anynyit mondok, hogy se 2-ét forint, se
+				<p>No mondok, hát utójjára én szólok, tsak anynyit mondok, hogy se 2-ét forint, se
                     3-m, se 3-m korona, hanem én magamra vállalom, hogy sömmibe se kerül.</p>
-                <p>Aszondi a Durbints sógor, mán azt nem kivánnyuk ö. m. a f. hogy a biró sógor
+				<p>Aszondi a Durbints sógor, mán azt nem kivánnyuk ö. m. a f. hogy a biró sógor
                     ingyen fáraggyon az kösség javára.</p>
-                <p>- Hagya kend abba mondok, mert észszel dógozok én, nem erővel.</p>
-                <p>Avval hogy ránk sötétödött, elhozatom a zuraságtul a hordókötő láncokat, oszt
+				<p>- Hagya kend abba mondok, mert észszel dógozok én, nem erővel.</p>
+				<p>Avval hogy ránk sötétödött, elhozatom a zuraságtul a hordókötő láncokat, oszt
                     kivezetöm a zeskütteket a vasut mellé.</p>
-                <p>- No mondok, hát nem arra való-e a zész, hogy a zembör éjjön vele?</p>
-                <p>Avval egyik fa dörökára köttetöm a lántz egyik végét, a másikat a másik fáhon,
+				<p>- No mondok, hát nem arra való-e a zész, hogy a zembör éjjön vele?</p>
+				<p>Avval egyik fa dörökára köttetöm a lántz egyik végét, a másikat a másik fáhon,
                     ugy hogy a lántz a sinök fölött embör döréknyire vót körösztbe kifeszitve.</p>
-                <p>Igy köttetem össze valamennyi fát.</p>
-                <p>Éjfél felé gyött egy hosszu teher vonat. A masina neki mönt a lántznak, ugy
+				<p>Igy köttetem össze valamennyi fát.</p>
+				<p>Éjfél felé gyött egy hosszu teher vonat. A masina neki mönt a lántznak, ugy
                     kihuzogatta a fákat párosával gyökerestül, hogy meg se szottyant neki.</p>
-                <p>A község tsak elálmélkodott a zén okosságomon, és ameddig én élök, beszélni se
+				<p>A község tsak elálmélkodott a zén okosságomon, és ameddig én élök, beszélni se
                     löhet más birórul.</p>
-                <p>Mejhöz hasolló lyókat kivánok</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p>Igazis: A lántzokat ellapitotta a bagony kereke, de az nem a kösség kára, hanem a
+				<p>Mejhöz hasolló lyókat kivánok</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+				<p>Igazis: A lántzokat ellapitotta a bagony kereke, de az nem a kösség kára, hanem a
                     zuraságé.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                     Levél a zuri ebédrűl mög az görtsrül.
                 </head>
-                <p>Lyó egésségöt és hasolló lyókat kivánok, továbbá hogy Túrús János sógort
+				<p>Lyó egésségöt és hasolló lyókat kivánok, továbbá hogy Túrús János sógort
                     Budapestre kűtte a doktorunk gyomorgörts erányába, hát én késörtöttem föl, mert
                     akármit lönyel, rögvest beléáll az görts az gyomrába, hát a Zángyán nevezetü
                     fődoktorhon köllött az gyomrát elvünni.</p>
-                <p>Keressük a Zángyánt egy napig, nem tanájjuk, mer a zátretzöt az kalapom
+				<p>Keressük a Zángyánt egy napig, nem tanájjuk, mer a zátretzöt az kalapom
                     pántlikájába dugtam, hogy elneveszítsem, oszt útközbe elvesztöttem. Hát mondok
                     most mán nem töhetünk ögyebet, tsak azt, hogy sorra járjuk a házakat,
                     valamelyikbe tsak ráakadunk.</p>
-                <p>Hogy im ott delelünk a Zarany János rézképe alatt, oda gyön ám hozzánk egy öreg
+				<p>Hogy im ott delelünk a Zarany János rézképe alatt, oda gyön ám hozzánk egy öreg
                     zsidó oszt aszondi vögyenek kentök osztájos sors-jegyöt, nem vöszök mondok, mer
-                    etzör mán mög­jár­tam vele, de lám addig addig beszélt, hogy mindön második
+                    etzör mán mögjártam vele, de lám addig addig beszélt, hogy mindön második
                     nyer, hogy vöttünk kettőt. Mondok ha egyik nem nyer, hát nyer a másik.</p>
-                <p>Ez vót a zelső nap. Harmadik napon röggel vöszök egy grajtzáros ulyságot, hát
+				<p>Ez vót a zelső nap. Harmadik napon röggel vöszök egy grajtzáros ulyságot, hát
                     benne vót, hogy mitsoda számok nyertek.</p>
-                <p>- No mondok olvassuk röndre a számokat. Kend Túrús sógor tsak a két sors jegyöt
+				<p>- No mondok olvassuk röndre a számokat. Kend Túrús sógor tsak a két sors jegyöt
                     tartsa, oszt ha én olvasom a számot oszt nem az, hát mongya, hogy nem az.</p>
-                <p>Röggeltül majdnem délig eltartott a zolvasás, százszor is elmonta mán a sógor,
+				<p>Röggeltül majdnem délig eltartott a zolvasás, százszor is elmonta mán a sógor,
                     hogy nem az, hát úgy dél felé ráakattunk a zegyik számra. Oda vót irva hogy
                     aszondi nyert 10-iz koronát.</p>
-                <p>Bözzög mögörültünk. Kérdözök egy urat, hogy mondok hol fizetik ki, hát mutat egy
+				<p>Bözzög mögörültünk. Kérdözök egy urat, hogy mondok hol fizetik ki, hát mutat egy
                     pízös bótot, ott tsak 8-tz koronát igértek, hát másikba möntünk, ott is tsak
                     8-tz koronát kináltak, a harmadikba oszt odaattuk.</p>
-                <p>- No mondok, ha mán ijjen szöröntse ért bennünket, ögyünk egy fájintos ebédöt,
+				<p>- No mondok, ha mán ijjen szöröntse ért bennünket, ögyünk egy fájintos ebédöt,
                     ennek örömire. Én fizetök.</p>
-                <p>Kérdözök egy piros sapkás urat, hogy hol a legközelebbi vendéglő, hát aszondi
+				<p>Kérdözök egy piros sapkás urat, hogy hol a legközelebbi vendéglő, hát aszondi
                     ippeg előtte állunk, tsak bejjebb köll mönni a kapu alatt.</p>
-                <p>Nézöm hogy mi vendéglő ez, hát Panna vagy Pannónia vagy mitsoda.</p>
-                <p>Bétapogatunk mindönféle üvegajtón átal, hát egy nagy ebédlő szobába lyutottunk,
+				<p>Nézöm hogy mi vendéglő ez, hát Panna vagy Pannónia vagy mitsoda.</p>
+				<p>Bétapogatunk mindönféle üvegajtón átal, hát egy nagy ebédlő szobába lyutottunk,
                     de ojan nagy vót az, hogy templomnak is beillenék, oszt annyi vót a zasztal,
                     hogy lagziba se több.</p>
-                <p>Leülünk egy szép fehér asztalhon, hát körül környéköz bennünket a sok
+				<p>Leülünk egy szép fehér asztalhon, hát körül környéköz bennünket a sok
                     kernyel.</p>
-                <p>Mondok nekik:</p>
-                <p>- Hát mit főztek máma?</p>
-                <p>Kezembe nyom a zegyik egy nagy fekete könyvet, de tsak két levél van benne.
+				<p>Mondok nekik:</p>
+				<p>- Hát mit főztek máma?</p>
+				<p>Kezembe nyom a zegyik egy nagy fekete könyvet, de tsak két levél van benne.
                     Aszondi oda van fölirva.</p>
-                <p>- Mondok hát legelőször is valami levest hozzanak, három portzijót.</p>
-                <p>Aszondi barna leves lyó lösz-e?</p>
-                <p>- Hát mondok lyó.</p>
-                <p>Avval még lyóformán el se végeztük a zasztali áldást, szépen elénk öntögeti a zúr
+				<p>- Mondok hát legelőször is valami levest hozzanak, három portzijót.</p>
+				<p>Aszondi barna leves lyó lösz-e?</p>
+				<p>- Hát mondok lyó.</p>
+				<p>Avval még lyóformán el se végeztük a zasztali áldást, szépen elénk öntögeti a zúr
                     a barna levest. Hát fájin volt. Tsak az vót a kár, hogy a tésztát sajnálták
                     belé. Az én feleségöm bözzög vetött vóna belé öszve marokkal.</p>
-                <p>- No mondok a sógornak, máma uras ebédöt öszünk, tsupa városi ételt.</p>
-                <p>Avval előnyitom a zételös könyvet oszt mondok ögyünk sorba. Lássuk mi a rönd az
+				<p>- No mondok a sógornak, máma uras ebédöt öszünk, tsupa városi ételt.</p>
+				<p>Avval előnyitom a zételös könyvet oszt mondok ögyünk sorba. Lássuk mi a rönd az
                     nagyúri ebédnél?</p>
-                <p>Hát kiolvasom, hogy aszondi: Tzonsomé. Odaéntöm az legényt, oszt mondok:</p>
-                <p>- Három portzió Tzonsomét.</p>
-                <p>Azt gondolám, hogy valami tsontos hus, de findsákba hoztak valami levet. Mondok
+				<p>Hát kiolvasom, hogy aszondi: Tzonsomé. Odaéntöm az legényt, oszt mondok:</p>
+				<p>- Három portzió Tzonsomét.</p>
+				<p>Azt gondolám, hogy valami tsontos hus, de findsákba hoztak valami levet. Mondok
                     ez bizonyosan innya való. Mögisszuk, hát lyó vót, de se bor nem vót, se sör,
                     tsak valami meleg lötty. Mondok ez tsakugyan úri gyomorba való hitványság.</p>
-                <p>Nézöm mögen, hogy mi követközik, hát aszondi: Bouillon. Hatszor is nekimöntem,
+				<p>Nézöm mögen, hogy mi követközik, hát aszondi: Bouillon. Hatszor is nekimöntem,
                     mig el tudtam olvasni.</p>
-                <p>Mondok a legénynek:</p>
-                <p>- Három portzijó bouillont.</p>
-                <p>A legény mögen elpitlikel, oszt tsakhamar visszatér, önti elejbénk a zételt
+				<p>Mondok a legénynek:</p>
+				<p>- Három portzijó bouillont.</p>
+				<p>A legény mögen elpitlikel, oszt tsakhamar visszatér, önti elejbénk a zételt
                     vasibrikbül. De az is tsak lé lötty, mindösszve valami sárga uszkált benne.</p>
-                <p>Nézöm, hogy mi az a sárga? Hát tojás. Azt bizony nem öttük mög, mert nem vót
+				<p>Nézöm, hogy mi az a sárga? Hát tojás. Azt bizony nem öttük mög, mert nem vót
                     bötstösen mögfőve.</p>
-                <p>- No mondok most mán valami rágható ételt szeretnék.</p>
-                <p>Nézöm a könyvet, hát oda van irva negyedik ételnek: purée.</p>
-                <p>- Ez valami fájin porhanyó étel lösz mondok.</p>
-                <p>Avval odaéntöm a legényt:</p>
-                <p>- Mondok három portzijó puréet.</p>
-                <p>Mögen vas ibrikbe hozza. Mögen lé, ojan forma, mint a tziböre, de sürübb.</p>
-                <p>Mondok sokallom mán a lét. Mer ugy duzzadt mán a gyomrom a sok létül, hogy még a
+				<p>- No mondok most mán valami rágható ételt szeretnék.</p>
+				<p>Nézöm a könyvet, hát oda van irva negyedik ételnek: purée.</p>
+				<p>- Ez valami fájin porhanyó étel lösz mondok.</p>
+				<p>Avval odaéntöm a legényt:</p>
+				<p>- Mondok három portzijó puréet.</p>
+				<p>Mögen vas ibrikbe hozza. Mögen lé, ojan forma, mint a tziböre, de sürübb.</p>
+				<p>Mondok sokallom mán a lét. Mer ugy duzzadt mán a gyomrom a sok létül, hogy még a
                     madzagot is mög köllött tágitanom a dörökamon.</p>
-                <p>- Hát kendnek hogy izlik, - mondom a templom atyának.</p>
-                <p>- Még eddig nem bánt a görts aszondi, de mán én is duzzadok.</p>
-                <p>- Most mán mindögy mondok, ögyük mög ha idehozták. Szörentse hogy sört is töttek
+				<p>- Hát kendnek hogy izlik, - mondom a templom atyának.</p>
+				<p>- Még eddig nem bánt a görts aszondi, de mán én is duzzadok.</p>
+				<p>- Most mán mindögy mondok, ögyük mög ha idehozták. Szörentse hogy sört is töttek
                     ide, az leviszi.</p>
-                <p>Békanalaztuk azt is.</p>
-                <p>Nézöm mögen a könyvet, hát oda van irva, hogy aszondi tsirke ragout. No mondok
-                    hál­istennek, tsakhogy valami rághatót is öhetünk valahára.</p>
-                <p>- Hozzon három portzijó tsirke rágot.</p>
-                <p>Hát a ragya üsse el, mögen lé levet hozott, tsak éppen kép útalásképpen töttek
+				<p>Békanalaztuk azt is.</p>
+				<p>Nézöm mögen a könyvet, hát oda van irva, hogy aszondi tsirke ragout. No mondok
+                    hálistennek, tsakhogy valami rághatót is öhetünk valahára.</p>
+				<p>- Hozzon három portzijó tsirke rágot.</p>
+				<p>Hát a ragya üsse el, mögen lé levet hozott, tsak éppen kép útalásképpen töttek
                     beléje egy-egy tsirke szárnyat.</p>
-                <p>No mondok süjjegyön el a zijjen vendéglő, nem vagyunk mink tsöts szopós
+				<p>No mondok süjjegyön el a zijjen vendéglő, nem vagyunk mink tsöts szopós
                     gyermökök, hogy tsupa lével éjjünk.</p>
-                <p>De azér mögöttük azt is, hogy hijába ne fizessünk.</p>
-                <p>- No, mondok, hát hozassak-e még valamit?</p>
-                <p>Aszondi a Durbints sógor:</p>
-                <p>- Nem köll neköm ö. m. a f. mert ha estig hordati is kend a sok levet, mink avval
+				<p>De azér mögöttük azt is, hogy hijába ne fizessünk.</p>
+				<p>- No, mondok, hát hozassak-e még valamit?</p>
+				<p>Aszondi a Durbints sógor:</p>
+				<p>- Nem köll neköm ö. m. a f. mert ha estig hordati is kend a sok levet, mink avval
                     lyól nem lakunk.</p>
-                <p>- No mondok, magam is ugy véleködök, hogy hitvány városi uraknak való ebéd a
+				<p>- No mondok, magam is ugy véleködök, hogy hitvány városi uraknak való ebéd a
                     zijjen.</p>
-                <p>Avval előbontottuk az tarisznyát, kinyeret szalonnát oszt jól bé szalonnáztunk,
+				<p>Avval előbontottuk az tarisznyát, kinyeret szalonnát oszt jól bé szalonnáztunk,
                     hogy éhön ne maraggyunk.</p>
-                <p>Mejhöz hasonlló lyókat kiván</p>
-                <p>Göre Gábor</p>
-                <p>biró ur. </p>
-                <p>Igazis: A Zángyán doktort nem keresgéltük aztán, mer a sok lé a Túrús sógort úgy
+				<p>Mejhöz hasonlló lyókat kiván</p>
+				<p>Göre Gábor</p>
+				<p>biró ur. </p>
+				<p>Igazis: A Zángyán doktort nem keresgéltük aztán, mer a sok lé a Túrús sógort úgy
                     helyre igazétotta, hogy azóta se járt görts a gyomrába.</p>
-                <p> </p>
-            </div>
-        <div type="chapter">
-                <head>
+			</div>
+			<div type="chapter">
+				<head>
                   Hátuljáró beszéd.
                 </head>
-                <p>Arrúl is vót mán szó, hogy hogyan köll az én könyveimet olvasni?</p>
-                <p>Hát úgy köll olvasni, ahogy én szoktam olvasni mindön könyvet vagyis
+				<p>Arrúl is vót mán szó, hogy hogyan köll az én könyveimet olvasni?</p>
+				<p>Hát úgy köll olvasni, ahogy én szoktam olvasni mindön könyvet vagyis
                     fönhangosan.</p>
-                <p>Aki tsak a szömivel olvas annak vagy a foga fáj, vagy nem magyar embör.</p>
-                <p> Itt a vége.</p>
-            </div>
-        </body>
-    </text>
+				<p>Aki tsak a szömivel olvas annak vagy a foga fáj, vagy nem magyar embör.</p>
+				<p> Itt a vége.</p>
+			</div>
+		</body>
+	</text>
 </TEI>

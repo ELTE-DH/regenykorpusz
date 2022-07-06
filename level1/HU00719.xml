@@ -1,86 +1,84 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00719" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Tanár úr kérem : ELTeC edition</title>
-            <author ref="viaf:46762994">Karinthy Frigyes (1887-1938)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">17484</measure>
-            <measure unit="pages">36</measure>
-           
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>Tanár úr kérem</title>
-               <date>1997-09-21</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/00700/00719"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Funke Attila</name>
-               </respStmt>
-             
-                  <bibl type="digitalSource">
-                     <title>Tanár úr kérem</title>
-                     <date>1997-09-21</date>
-                     <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
-                  </bibl>
-               
-                  <bibl type="printSource">
-                     <title>Tanár úr kérem</title>
-                     <author>Karinthy Frigyes</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <publisher>Talentum: Akkord</publisher>
-                     <idno>ISBN 963 8396 30 </idno>
-                     <ref target="http://mek.oszk.hu/00700/00719/00719.pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>Tanár úr kérem</title>
-               <author>Karinthy Frigyes</author>
-               <date>1916</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-21"/>
-         <change when="2020-11-13"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+<TEI xml:id="HU00719" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Tanár úr kérem : ELTeC edition</title>
+				<author ref="viaf:46762994">Karinthy Frigyes (1887-1938)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">17484</measure>
+				<measure unit="pages">36</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Tanár úr kérem</title>
+					<date>1997-09-21</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00700/00719"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Funke Attila</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Tanár úr kérem</title>
+						<date>1997-09-21</date>
+						<ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Tanár úr kérem</title>
+						<author>Karinthy Frigyes</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Talentum: Akkord</publisher>
+						<idno>ISBN 963 8396 30 </idno>
+						<ref target="http://mek.oszk.hu/00700/00719/00719.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Tanár úr kérem</title>
+					<author>Karinthy Frigyes</author>
+					<date>1916</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+			<change when="2020-11-13"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="chapter">
-            <head>BEVEZETÉS</head>
-            <p>Az udvaron keresztül belopóztam - fél tíz után járhat az idő, most a folyosók
+				<head>BEVEZETÉS</head>
+				<p>Az udvaron keresztül belopóztam - fél tíz után járhat az idő, most a folyosók
                kihaltak és konganak, csak néha, mikor egy becsukott ajtó előtt elmegyek, csap ki
                felém a zümmögés és egyszerre mélyen és igen komolyan elszorul a szívem. A második
                emeleten, jobbra a tanári szoba mellett, a VI-ik b) osztály ajtaját kinyitották,
@@ -91,21 +89,21 @@
                perccel előbb kiment. Nesztelenül megkerülöm a köpőládát és a szemétkosarat. Rálépek
                egy fél kiflire, óvatosan megfordulok és beülök az utolsó padba. Vörösesszőke,
                szeplős fiú ül mellettem - oh igen, oh igen - és majdnem felkiáltok örömömben,
-               meglepeté­semben, boldogságomban: hiszen ez a Büchner! - milyen, milyen régen nem
+               meglepetésemben, boldogságomban: hiszen ez a Büchner! - milyen, milyen régen nem
                láttam, hol jártam én, istenem, milyen borzasztó álmaim voltak. De most itthon vagyok
-               megint, a jó, igazi való­ságban, az én valóságos életemben, amiből nem volt jó
+               megint, a jó, igazi valóságban, az én valóságos életemben, amiből nem volt jó
                kimenni - oh, itthon vagyok, én vagyok az, Karinthy Frigyes a hatodik béből, hát
-               persze, mi csoda ostoba álom volt az. Egy­szerre min­den szag ismerős: remegve nyúlok
+               persze, mi csoda ostoba álom volt az. Egyszerre minden szag ismerős: remegve nyúlok
                be a padba és kihúzok egy füzetet. Egy pillanatig káprázik a szemem, de aztán
                világosan elolvasom: az én nevem, hatodik bé, magyar dolgozatok.</p>
-            <p>Büchner, édes Büchnerkém, hogy vagy, te drága, vörös ember. Büchner kissé csodálkozva
+				<p>Büchner, édes Büchnerkém, hogy vagy, te drága, vörös ember. Büchner kissé csodálkozva
                néz rám, nem érti, minek örülök úgy, hogy értené! Pszt, mondja, meglök, és mérgesen
                néz rám oldalt. Persze, én itt lármázok, mikor odakint felelnek - ki felel? ahá, a
                Steinmann, a Bódog! - és aztán! Neki lesz baja belőle! De édes Büchnerkém, nem érted,
                alig tudok uralkodni az örömömön. Büchner nem érti, hogy lehet valaki ilyen marha,
                aszongya, minek röhögsz úgy, tudod, hogy pikkje van rám, azt hiszi, én bolondozok és
                azon röhögsz. Különben pedig miért nem férsz a bőrödbe? Pszt, lassan beszélj.</p>
-            <p>Hát idehallgass, édes Büchnerkém, milyen marhaságot álmodtam - és most boldog vagyok,
+				<p>Hát idehallgass, édes Büchnerkém, milyen marhaságot álmodtam - és most boldog vagyok,
                hogy csak álmodtam. Azt álmodtam, hogy én nem vagyok már tizenhat éves, hanem sok év
                telik-múlik és tudod, és sok zavaros és zagyva dolog jön, egészen másképpen, mint
                ahogy én most elképzelem. Tudod, álmomban leérettségiztem, képzeld (na és örülsz,
@@ -131,50 +129,49 @@
                hogy a legokosabb, amit tehetek, ha erőlködöm és fölébredek, és átnézem a mértant, és
                bejövök az osztályba. Az esős ablaküveghez szorítottam a fejem, és erősen
                elhatároztam, hogy most felébredek és egészen más szemmel nézem majd azt az igazi
-               életemet, a közép­iskolában. Nem látom olyan keservesnek és fárasztónak és
+               életemet, a középiskolában. Nem látom olyan keservesnek és fárasztónak és
                nyomasztónak; hanem figyelni fogom benne mindazt, ami benne kedély és humor és emlék
                és szép fiatalság: amit innen, ebből a távolságból olyan tisztán látok már - megnézek
                mindent jobban, mint eddig - és nektek, édes barátaim, kedves középiskolai tanulók,
                újra megmutatom, és figyelmeztetlek benneteket, hogy mennyi szín és furcsaság és élet
                mindez és mennyi emlék és mennyi remény.</p>
-            
-         </div>
-         <div type="chapter">
-            <head>REGGEL HÉTKOR</head>
-            <p>Krrr... Brrr...</p>
-            <p>Mi ez, mi ez, mi ez, ez a rettentő csengetés? Tűz van? Ezek nyilván tűzoltók...
+			</div>
+			<div type="chapter">
+				<head>REGGEL HÉTKOR</head>
+				<p>Krrr... Brrr...</p>
+				<p>Mi ez, mi ez, mi ez, ez a rettentő csengetés? Tűz van? Ezek nyilván tűzoltók...
                szólni kellene az Erzsinek, hogy oltsa el a lámpát, biztosan meggyulladt a
                kredenc.</p>
-            <p>Krrr... Brrr...</p>
-            <p>Dehogy... hiszen ez a vekker... A vekker csönget... De hiszen akkor fél hét van
+				<p>Krrr... Brrr...</p>
+				<p>Dehogy... hiszen ez a vekker... A vekker csönget... De hiszen akkor fél hét van
                már... fel kellene kelni.</p>
-            <p>De hisz az lehetetlen, hiszen csak most feküdtem le. Mi van ma?</p>
-            <p>Szerda? Magyar, német, mennyiségtan, földrajz, torna. Ez öt. Rendben van! Akkor még
+				<p>De hisz az lehetetlen, hiszen csak most feküdtem le. Mi van ma?</p>
+				<p>Szerda? Magyar, német, mennyiségtan, földrajz, torna. Ez öt. Rendben van! Akkor még
                alhatom öt percet.</p>
-            <p>Magyar, német, mennyiségtan, földtan... Tyű! Hiszen én még nem csináltam meg a
+				<p>Magyar, német, mennyiségtan, földtan... Tyű! Hiszen én még nem csináltam meg a
                térképet... Ceruzával megvan már, most ki kellene húzni tussal Magyarország
                határát... Tyű! Hiszen át kellene olvasni még a földrajzot és a magyart, föl kellene
                kelni, felelés van... felelelele... fefe...</p>
-            <p>Na - mi ez? Csak nem alszom el megint - ezt mégse lehet, felelés, Mákossy tanár úr és
+				<p>Na - mi ez? Csak nem alszom el megint - ezt mégse lehet, felelés, Mákossy tanár úr és
                Magyarország határa...</p>
-            <p>Hát kérem, Bauer, csak nyugalom. Csak nyugalom, kedves Bauer, azért nem muszáj
+				<p>Hát kérem, Bauer, csak nyugalom. Csak nyugalom, kedves Bauer, azért nem muszáj
                elsietni a dolgot... Nem kell kapkodni, meg lehet csinálni azt a felkelést szép
                nyugodtan - - biztos kézzel - - előkészítve... Zrínyi se rohant ki csak úgy az
                ágyból, hanem előbb előkészült... Kérem, tanár úr, én készültem...</p>
-            <p>Arra semmi szükség nincsen, hogy az ember azért mindjárt kidugja a lábát a takaró
+				<p>Arra semmi szükség nincsen, hogy az ember azért mindjárt kidugja a lábát a takaró
                alól, ilyen hidegbe... Persze, a harisnya, az fontos, ha fel akar kelni az ember...
                de csak óvatosan, kedves Bauer, csak óvatosan... Így, szépen, lenyúl az ember a szék
-               alá, óvatosan felkaparja a haris­nyá­ját... így... behúzza szépen a takaró alá...
-               hogy én minek dugjam azért ki a lábam?... nevet­sé­ges, itt is fel lehet húzni a
+               alá, óvatosan felkaparja a harisnyáját... így... behúzza szépen a takaró alá...
+               hogy én minek dugjam azért ki a lábam?... nevetséges, itt is fel lehet húzni a
                takaró alatt... Na, ugye!... tyű, ott oldalt bejön a hideg... Kapitány úr, kapitány
                úr, léket kapott az ágy, Némó kapitány, mindjárt elsüllyed... ezt be kell tömni... hú
                de jó!</p>
-            <p>Na. Hát ez megvan. Fent van. Hát ez kemény munka volt, ez igen. Ezután néhány percnyi
+				<p>Na. Hát ez megvan. Fent van. Hát ez kemény munka volt, ez igen. Ezután néhány percnyi
                pihenés következik. Hiszen a nehezén túl vagyok, most már csak a cipő jön és a ruha,
                erre lehet pihenni néhány percet. Pihenni szükséges, úgyis beteg vagyok. Mélyen
                tisztelt tanár úr, fiam ma gyöngélkedése következtében nem vehet részt az előadáson,
                tisztelettel Bauer Károly.</p>
-            <p>Bár ez nem valószínű. Bár azért a földrajzot mégis át kellene nézni és kihúzni
+				<p>Bár ez nem valószínű. Bár azért a földrajzot mégis át kellene nézni és kihúzni
                tussal... Bár miért kellene azért fölkelni... tegnap egyszer átnéztem részint, úgyis
                mindjárt fölkelek és megnézem, hát most már mindegy. Nevetséges. Egy oldal különben
                is az egész, másrészt, de azonban gyöngélkedem is. Nemcsak átnézem én aztat, hanem
@@ -182,61 +179,60 @@
                nem henyélésből fekszem, kérem tanár úr, hanem hogy elmondjam magamban a
                földrajzot... nekem itt sürgős és halaszthatatlan feküdnivalóm van, itt az ágyban...
                ezt rögtön el kell intézni... ezt a fekvést... mert már hét óra is lehet...</p>
-            <p>Tehát Norvégiát délen határolja Dánia... nyugaton a Balti-tenger... és Dánia
+				<p>Tehát Norvégiát délen határolja Dánia... nyugaton a Balti-tenger... és Dánia
                fővárosa... és Főváros Dániája...</p>
-            <p>Na, kezdje elölről, Bauer, maga szerencsétlen. Kérem, tanár úr, én készültem. Tudtam,
-               de elfelej­­tettem. Ne feleseljen Bauer, mert magának felelnie kell, mert maga
+				<p>Na, kezdje elölről, Bauer, maga szerencsétlen. Kérem, tanár úr, én készültem. Tudtam,
+               de elfelejtettem. Ne feleseljen Bauer, mert magának felelnie kell, mert maga
                Dániából négyesre áll, és az intőkonferencia már össze is ült. Fogd be a szád,
                Bauer.</p>
-            <p>Igenis, az intőkonferencia ott ül már Dánia határán és tanácskoznak. Még csak a
+				<p>Igenis, az intőkonferencia ott ül már Dánia határán és tanácskoznak. Még csak a
                hadvezért várják, és a csatát azonnal megkezdik. Tehát mi Németalföld fővárosa?
                Bauer, fogd be a szájadat, és ülj ide az ágyú mellé, most te vagy az Ágyútüzér, és
                teneked kell megvédeni Norvégia határát. Hát jó, ha nekem kell megvédeni, adjanak
                mellém ezer kipróbált, derék cowboyt, mindegyik egy-egy mozigéppel, majd én
                megmutatom nekik. Hajrá, hajrá, derék fiúk! Fel a csatába! Adjatok egy lovat Bauer
                alá!</p>
-            <p>Na most!... Hadaink már bent járnak Dániában... Én azt hiszem, igazgató úr, mégiscsak
+				<p>Na most!... Hadaink már bent járnak Dániában... Én azt hiszem, igazgató úr, mégiscsak
                ez a Bauer fogja megvédeni Norvégia határát. Mennyiségtanból rosszul áll, az igaz, de
                húsz saslengést csinál a nyújtón, és mint fővezérnek, ez kell. Na Bauer, hát akkor
                csak neki, édes fiam... foglald el Dániát... így még kijavíthatod a négyesedet.</p>
-            <p>Jó, nem bánom tanár úr. Tábornoki egyenruhám megfelel? Így. Hát most utánam, fiúk.
+				<p>Jó, nem bánom tanár úr. Tábornoki egyenruhám megfelel? Így. Hát most utánam, fiúk.
                Maga, Mákossy tanár úr, maga lesz a hadsegédem... de vigyázzon, hogy mit parancsolok,
                és fogja be a száját... Így. Üljön fel ide hátra a lovamra, és kapja el, ha golyó
                jön... Majd adok én magának. Ne feleseljen, tanár úr. Tanár úr, nem készültél. Hát
                mondd meg, tanár úr, mi a fővárosa Dániának? Na ugye, nem tudod. Dánia fővárosa
                Budapest, miután én most elfoglalom, és hozzácsatolom Magyarországhoz. Ülj le, tanár
                úr, négyest kapsz.</p>
-            <p>Hát hol is van az a Dánia? Hol is van? Az bizonyos, hogy valahol van. De nem találom.
+				<p>Hát hol is van az a Dánia? Hol is van? Az bizonyos, hogy valahol van. De nem találom.
                Jaj, jaj, tanár úr, nem találom Dániát, hogy foglaljam el?</p>
-            <p>Persze, hogy nem találod, gazember, miután nem húztad ki tussal Magyarország határát
+				<p>Persze, hogy nem találod, gazember, miután nem húztad ki tussal Magyarország határát
                a térképen, hát most nem látni, hol kezdődik Dánia. A katonák ott állanak a határon,
                és nem mernek átlépni, mert félnek, hogy belépnek a tusba, mielőtt megszáradt.</p>
-            <p>Na megállj, te gazember Bauer, ezt te csináltad! Le a fejeddel! Le a fejeddel! Hóhér,
+				<p>Na megállj, te gazember Bauer, ezt te csináltad! Le a fejeddel! Le a fejeddel! Hóhér,
                vágja le gyorsan a fejét, azzal a cigarettavágóval!</p>
-            <p>Jaj, jaj, hóhér úr, én készültem! Jaj, Erzsi, Erzsi!...</p>
-            <p>Na, mi az, ifiúr?... Mi?! Maga még az ágyban van? Hiszen nyolc óra van már, a
+				<p>Jaj, jaj, hóhér úr, én készültem! Jaj, Erzsi, Erzsi!...</p>
+				<p>Na, mi az, ifiúr?... Mi?! Maga még az ágyban van? Hiszen nyolc óra van már, a
                nagyságos úr már el is ment a hivatalba.</p>
-            <p>Tyű! Ezt elaludtuk megint!</p>
-            <p>Tyű! Mi lesz itt!! Még jó, hogy a harisnyám fent van.</p>
-           
-         </div>
-         <div type="chapter">
-            <head>ELKÉSTEM</head>
-            <p>Nyolc órakor még homályos a reggel és homályosan bukdácsolnak álmos fejemben a másnap
+				<p>Tyű! Ezt elaludtuk megint!</p>
+				<p>Tyű! Mi lesz itt!! Még jó, hogy a harisnyám fent van.</p>
+			</div>
+			<div type="chapter">
+				<head>ELKÉSTEM</head>
+				<p>Nyolc órakor még homályos a reggel és homályosan bukdácsolnak álmos fejemben a másnap
                esélyei és minden lehetősége. A középiskolai tanuló élete: nyolc éven át napról napra
                megújuló harcba szállás, halálos veszedelem: minden reggel pontban nyolckor, a
                véletlenek és ravasz kelepcék és elhatározó események hullámzó harcterére kiront:
                sebeket kap, sebeket oszt, néha elvérzik. Másnap újra feltámad, kezdi elölről.</p>
-            <p>Minden reggel új fegyverzet és új haditerv. Furfangos és végtelenül komplikált
+				<p>Minden reggel új fegyverzet és új haditerv. Furfangos és végtelenül komplikált
                megfontolás, amiben százféle ok és okozat kombinálódik.</p>
-            <p>A fegyverzet ma hiányos: éppen azért gondosan kell összeválogatni. Első óra
+				<p>A fegyverzet ma hiányos: éppen azért gondosan kell összeválogatni. Első óra
                mennyiségtan. Az irracionális egyenleteknél tartunk, de a múlt órán még nem fejeztük
                be. Felelés eshetősége 25-27 százalék. Ebben a kis százalékban szerepet játszik az a
                körülmény, hogy sokan még nem javítottak, s hogy Frőhlich megbízhatatlan jellemű,
                ingatag és gyenge akaratú ember, aki a múlt órán talán még maga is azt hitte, hogy
                jövőre tovább magyaráz, és most egyszerre, szinte öntudatlanul, feleltetni kezd. Az
                emberi lélek mélyén vannak ilyen kóros tünetek, amikkel számolni kell.</p>
-            <p>Szerdai nap lévén, én istenem, a mennyiségtan után két óra mértani rajz. Hiányzik a
+				<p>Szerdai nap lévén, én istenem, a mennyiségtan után két óra mértani rajz. Hiányzik a
                szépiám, a görbe léniám is hiányzik, amit pedig ma összeírnak. Guttmann ígért egy
                gumiguttit, azt elkérem. Vörösmarty Nyelvszépségei. Na, igen Vörösmarty
                Nyelvszépségei, tudom, tudom: ma ez a tét, kettő vagy semmi. Csak a másik felét
@@ -247,61 +243,60 @@
                mennyiségtani dolgozatot nem készíthette el. Igen tisztelt tanár úr, fiam gyengéd
                szervezetének ápolása hosszabb időt vesz igénybe, mely idő alatt háziorvosunk a
                mennyiségtan-dolgozatoktól való tartózkodást ajánlotta.</p>
-            <p>Hát ez semmi. Ezek csak olyan ábrándok, megvalósíthatatlan ködképek. A rideg valóság
+				<p>Hát ez semmi. Ezek csak olyan ábrándok, megvalósíthatatlan ködképek. A rideg valóság
                nem az, a rideg valósághoz szívós elszántság és lélekjelenlét kell, és kell hozzá
                Guttmann megint, akinek a füzetéből öt röpke perc alatt átírom az egészet. Bár mit ér
                nekem, ha megvan a dolgozat, ha egyszer a kamatos kamatot úgyse tudom, pedig ha
                felelés van, az csak abból van, az tiszta sor. Ne ábrándozz, hanem cselekedj!</p>
-            <p>Most pedig, ejnye, jó lesz sietni, ezzel az úrral, aki most szembejön, nyolc óra öt
+				<p>Most pedig, ejnye, jó lesz sietni, ezzel az úrral, aki most szembejön, nyolc óra öt
                perckor szoktam találkozni. Hát lássuk csak, szedjük össze a gondolatainkat, mert a
                perc közel van. Szóval: csak a szépia kell és a lénia. Ezzel szemben Vörösmarty, mint
-               tudjuk, klasszikus tiszta­ságban tartotta a nyelvet, szavai kristályos
+               tudjuk, klasszikus tisztaságban tartotta a nyelvet, szavai kristályos
                tökéletességgel - micsinálnak a szavai? Szentisten, hiszen ezt sem tudom, meg kell
-               gyorsan nézni, micsinálnak Vörösmarty szavai kristályos töké­le­tességgel. És Nagy
+               gyorsan nézni, micsinálnak Vörösmarty szavai kristályos tökéletességgel. És Nagy
                Lajos! Szentatyám, gyerünk, ne zavarjunk össze mindent. Vörösmarty kristálytiszta
                szavakkal elkérte Guttmanntól a gumiguttit. De ha Guttmann nem adja? Akkor tisztelt
                tanár úr, fiam ma gyöngélkedett, és nem bírta elhozni a gumiguttit. Még van egy eset
                hátra, hogy kigyullad valami, vagy valamelyik tanár meghalt, és hazaküldik utána az
                egész osztályt.</p>
-            <p>Na, mi ez? Szívem nyugtalanul kalapálni kezd. A bejárat előtt nem áll senki. Az egész
+				<p>Na, mi ez? Szívem nyugtalanul kalapálni kezd. A bejárat előtt nem áll senki. Az egész
                épület gyanúsan, fenyegetően csendes. Csak nem?...</p>
-            <p>Nem, nem... Az nem lehet. Az csak nem történik velem. Mindenesetre jó lesz
+				<p>Nem, nem... Az nem lehet. Az csak nem történik velem. Mindenesetre jó lesz
                sietni.</p>
-            <p>Az első emeleten csend... Hallgatnak a falak és a lépteim konganak.</p>
-            <p>Nincs kétség benne. A szörnyű, az elképzelhetetlen megtörtént. Itt már
+				<p>Az első emeleten csend... Hallgatnak a falak és a lépteim konganak.</p>
+				<p>Nincs kétség benne. A szörnyű, az elképzelhetetlen megtörtént. Itt már
                lecsengettek.</p>
-            <p>Most még csak egy lehetőségem van: talán még nem jött be Frőhlich.</p>
-            <p>Az üres folyosókon lábujjhegyen lopózom az Osztály ajtaja elé. Fülemet óvatosan
+				<p>Most még csak egy lehetőségem van: talán még nem jött be Frőhlich.</p>
+				<p>Az üres folyosókon lábujjhegyen lopózom az Osztály ajtaja elé. Fülemet óvatosan
                tapasztom a kulcslyukra. A lemondás keserű vonása görbíti le ajkam. Odabentről
                egyhangú csönd beszél mindennél érthetőbben.</p>
-            <p>Hát ezen már nem lehet segíteni: talán még nem írtak be, lassan benyitok. Frőhlich
+				<p>Hát ezen már nem lehet segíteni: talán még nem írtak be, lassan benyitok. Frőhlich
                egyetlen szót sem szól, csak valami kegyetlen elégtétel villan át rajta, míg
                szerényen és udvariasan bevánszorgok a padomba. Az osztályon az elszörnyedés halk
                moraja fut keresztül. Frőhlich lassan előveszi óráját és megnézi. Könyveimet belököm
                a fiókba. Büchner, aki mellettem ül, előrehajlik a tábla felé, az arcán a
-               mennyiségtani tudományok iránt érzett mély és kielégít­hetetlen szomjúság lángol:
+               mennyiségtani tudományok iránt érzett mély és kielégíthetetlen szomjúság lángol:
                csak én látom, hogy a szája kissé balra húzódik, felém, és a fogai közül csak én
                hallom a sziszegést:</p>
-            <p>- Beírtak a hiányzók közé.</p>
-            <p>Jobbra húzom a szájam. Előremeredek, a matematikai tudományok összességével szemben
+				<p>- Beírtak a hiányzók közé.</p>
+				<p>Jobbra húzom a szájam. Előremeredek, a matematikai tudományok összességével szemben
                táplált elfojthatatlan érdeklődés ül ki az arcomra. A fogaim közt sziszegem:</p>
-            <p>- Tovább megyünk?</p>
-            <p>Büchner balra sziszeg:</p>
-            <p> - Nem. Felelés.</p>
-           
-         </div>
-         <div type="chapter">
-            <head>ELADOM A KÖNYVEM</head>
-            <p>- Ennyi könyvet viszel máma magaddal? - kérdezi apám, s amikor én lemondóan
+				<p>- Tovább megyünk?</p>
+				<p>Büchner balra sziszeg:</p>
+				<p> - Nem. Felelés.</p>
+			</div>
+			<div type="chapter">
+				<head>ELADOM A KÖNYVEM</head>
+				<p>- Ennyi könyvet viszel máma magaddal? - kérdezi apám, s amikor én lemondóan
                bólogatok, a nagynéném, aki szintén jelen van, németül szidni kezdi az iskolát. Csupa
                svindler, drága és új könyveket szerkesztenek, amibe semmi új nincs, és
                rákényszerítik a szülőket, hogy megvegyék.</p>
-            <p>Bánom is én, csak az utcán legyek. Letérek a Múzeum körútra és a Károly körútra. Ez a
+				<p>Bánom is én, csak az utcán legyek. Letérek a Múzeum körútra és a Károly körútra. Ez a
                mi utcánk: az antikváriumok egész rajvonala. Megyek előre, hónom alá csapom a
                füzeteket - és a könyvet, a kritikus könyvet kényelmesen átlapozom menet közben,
                mintha otthon ülnék. Ebben nagy praxisom van; - megyek az iskolába, és az utcán
                tanulok, még írok is néha.</p>
-            <p>Tehát lássuk csak. Ez a tavalyi természetrajz, ötödik kiadás, lényegesen javítva,
+				<p>Tehát lássuk csak. Ez a tavalyi természetrajz, ötödik kiadás, lényegesen javítva,
                átdolgozva. Lényegesen átdolgoztam magam is - a hátulsó fele levált, annyi baj
                legyen. Az első fedelen egy mértani rajz. A 178-ik lap, sajnos, hiányzik. Az Ember
                Csontvázára (87-ik ábra) sajnos, igen kemény ceruzával rajzoltam a cilindert és a
@@ -313,18 +308,18 @@
                hogy az Állatvilági Statisztikai Térkép közepéből egy ötszög alakú, hosszúkás darab
                hiányzik, az igen, rendben van, arra emlékszem, akkor repülőgépet szerkesztettem, és
                kellett a kemény papír. De a tartalomjegyzéket igazán nem kellett volna körös-körül
-               kicsipkézni, nehéz, verej­tékes munkával, hogy aztán egy vékony pálcikává
+               kicsipkézni, nehéz, verejtékes munkával, hogy aztán egy vékony pálcikává
                összesodorjam az egészet, amit képtelenség kisimítani, mindig visszakunkorodik.</p>
-            <p>Egészben véve azonban igen csinos könyv. Így egy kicsit messziről nézve, félig
-               behunyt szem­mel, nagyon takaros, rendes könyv. Na, látszik, látszik, hogy hordták,
+				<p>Egészben véve azonban igen csinos könyv. Így egy kicsit messziről nézve, félig
+               behunyt szemmel, nagyon takaros, rendes könyv. Na, látszik, látszik, hogy hordták,
                de azért olyan kedves, szerény, jó könyv. Újonnan 2 korona 70 fillér. Megmagyarázom
                annak az embernek, hogyha a fedelet leradírozza, eladhatja új könyvnek. Egy kicsit
                csal, mit tesz az? Ha ő kérdez, egy koronát kérek - ha nem kérdez, csak mond egy
                összeget, hússzal többet kérek, mint amennyit mondott.</p>
-            <p>Állok egy-két percig a kirakat előtt, és az üvegen át tanulmányozom a terepet. Kicsi
-               öreg­ember: szemüvegen át néz valami képet. Kilencven fillérért is odaadom. Komoly
+				<p>Állok egy-két percig a kirakat előtt, és az üvegen át tanulmányozom a terepet. Kicsi
+               öregember: szemüvegen át néz valami képet. Kilencven fillérért is odaadom. Komoly
                öreg ember.</p>
-            <p>Hirtelen nyitok be. Az öreg most beszél valakivel: oldalt néz rám, nem köszön, mikor
+				<p>Hirtelen nyitok be. Az öreg most beszél valakivel: oldalt néz rám, nem köszön, mikor
                belépek. Ismeri már az emberét. Nem zavarom, állok türelmesen, köhögök. Egyszerre
                végtelen, bús kishitűség tölti el a szívem, magamban szelíden, könnyes megadással
                simogatom az öregember lelkét. Te hideg, kemény öregember; értsd meg a szegény,
@@ -334,52 +329,51 @@
                egy koronát, kettőt, magáért a pénzért, l’art pour l’art. Látod, én értelek téged, te
                öregember, tudom, én tudom, hogy magadnak is annyiban van, hogy nehéz a dolog nagyon,
                és hogy ez a könyv piszkos. És látod, én odaadom neked 70 fillérért.</p>
-            <p>Az öregember közben tovább tárgyal. Hozzám nem szól semmit, értjük mi már egymást:
+				<p>Az öregember közben tovább tárgyal. Hozzám nem szól semmit, értjük mi már egymást:
                hirtelen kinyújtja oldalt a kezét, és én beleteszem a könyvet. Beszél a vevővel,
                megforgatja két ujja közt a könyvet, rettenetes undorral kinyitotta... istenem...
                Igen, éppen a rozmárnál nyitotta ki, és ott van a kőporos oldal. Hatvanért odaadom
                neki, egye meg.</p>
-            <p>Lelöki az asztalra.</p>
-            <p>- Régi kiadás - és szakadt, hiányzik.</p>
-            <p>A világ elsötétül előttem.</p>
-            <p>- Ezt használják a Markóba’... mondom vad daccal, elszorult torokkal.</p>
-            <p>- Tudom. - És tárgyal tovább. Levegő vagyok.</p>
-            <p>Tétován, percekig állok. Embertelen keserűség ül a mellemen.</p>
-            <p>- Harmincért odaadom - szólok végre halkan.</p>
-            <p>Az antikvárius tovább beszélget a vevővel. Két perc múlva felel, mikor már nem is
+				<p>Lelöki az asztalra.</p>
+				<p>- Régi kiadás - és szakadt, hiányzik.</p>
+				<p>A világ elsötétül előttem.</p>
+				<p>- Ezt használják a Markóba’... mondom vad daccal, elszorult torokkal.</p>
+				<p>- Tudom. - És tárgyal tovább. Levegő vagyok.</p>
+				<p>Tétován, percekig állok. Embertelen keserűség ül a mellemen.</p>
+				<p>- Harmincért odaadom - szólok végre halkan.</p>
+				<p>Az antikvárius tovább beszélget a vevővel. Két perc múlva felel, mikor már nem is
                számítottam rá. Negyven fillér - mondja, de nem fordul felém.</p>
-            <p>Rövid számadás. Ez még a mozira se elég. De a perc elhatározó. Bátran, gyorsan,
+				<p>Rövid számadás. Ez még a mozira se elég. De a perc elhatározó. Bátran, gyorsan,
                fejest a helyzetbe - utánam az özönvíz. Hirtelen előkapom a vadonatúj Stilisztikámat,
                ami ma is kell.</p>
-            <p>- Ezért mennyit ad?</p>
-            <p>Összesen egy korona és hatvan fillért fizetnek ki a kasszánál - oh, a Stilisztika
+				<p>- Ezért mennyit ad?</p>
+				<p>Összesen egy korona és hatvan fillért fizetnek ki a kasszánál - oh, a Stilisztika
                kellett neki, a nyomorultnak, a sátánnak, az én idei Stilisztikám, azt elhiszem,
                kapott utána, elvitte, kikapta a kezemből, nem is volt időm meggondolni.</p>
-            <p>És most mi lesz?</p>
-            <p>Mi lesz? Mi lehet? A pénzt itt szorongatom a kezemben.</p>
-            <p>Holnap visszaveszem a Stilisztikát. Kérek ehhez a pénzhez még egy koronát léniára és
+				<p>És most mi lesz?</p>
+				<p>Mi lesz? Mi lehet? A pénzt itt szorongatom a kezemben.</p>
+				<p>Holnap visszaveszem a Stilisztikát. Kérek ehhez a pénzhez még egy koronát léniára és
                visszaveszem.</p>
-            <p>Holnap elmegyek címet írni, falat hordani. Holnap beállok hajósinasnak.</p>
-            <p>Holnap visszaveszem a Stilisztikámat.</p>
-            <p> </p>
-         </div>
-         <div type="chapter">
-            <head>A JÓ TANULÓ FELEL</head>
-            <p>A jó tanuló az első padban ül, ahol hárman ülnek: ő a középen, a jó tanuló,
+				<p>Holnap elmegyek címet írni, falat hordani. Holnap beállok hajósinasnak.</p>
+				<p>Holnap visszaveszem a Stilisztikámat.</p>
+			</div>
+			<div type="chapter">
+				<head>A JÓ TANULÓ FELEL</head>
+				<p>A jó tanuló az első padban ül, ahol hárman ülnek: ő a középen, a jó tanuló,
                Steinmann. Az ő neve nem tisztán egy ember jelzésére szolgál; - szimbólum ez a név,
                ahány fiú az Osztályban, annyi apa ismeri otthon ezt a nevet. “A Steinmann miért
                tudja megtanulni?” - kérdezi otthon harminckét apa harminckét fiútól. “Kérd meg
                Steinmannt, hogy magyarázza meg”, mondja az apa, és a fiú valóban megkéri a
-               Steinmannt. A Steinmann mindent tud előre, még mielőtt meg­magyarázták volna.
+               Steinmannt. A Steinmann mindent tud előre, még mielőtt megmagyarázták volna.
                Matematikai lapokba dolgozik, és titokzatos szavakat tud, amiket csak az egyetemen
                tanítanak. Vannak dolgok, amiket mi is tudunk, de ahogy Steinmann tudja, az a biztos,
                az az egyedüli helyes, az az Abszolút.</p>
-            <p>Steinmann felel.</p>
-            <p>Ez különleges, ünnepélyes pillanat. A tanár sokáig nézte a noteszt; halálos
+				<p>Steinmann felel.</p>
+				<p>Ez különleges, ünnepélyes pillanat. A tanár sokáig nézte a noteszt; halálos
                feszültség remeg az Osztály felett. Mikor később a francia rémuralom történetét
                olvastam, mikor a Bicêtre foglyai közül előszólítják a halálraítélteket: mindig így
                tudtam csak elképzelni. Az agyak utolsó, véres erőfeszítésben kapkodnak lélegzet után
-               - még van két másodperc, azalatt mindenki villám­gyorsan elmondja magában a mértani
+               - még van két másodperc, azalatt mindenki villámgyorsan elmondja magában a mértani
                haladvány tételeit. Tanár úr, én készültem, mondja az ember magában. Tanár úr, fiam
                tegnap gyöngélkedett. Az egyik lehajol a füzete fölé, mint a strucc, hogy ne lássák.
                A másik merőben szembenéz a tanárral, szuggerálja. A harmadik, idegember, egészen
@@ -387,128 +381,127 @@
                egészen elbújik Deckmann háta mögé, ő nincs is itt, köszöni szépen, nem tud semmiről,
                őt írják be a hiányzók közé, töröljék ki az élők sorából, őt felejtsék el, béke
                poraira, ő nem akar részt venni a közélet küzdelmeiben.</p>
-            <p>A tanár kettőt lapoz, a K betűnél lehet - Altmann, aki az év
+				<p>A tanár kettőt lapoz, a K betűnél lehet - Altmann, aki az év
                elején Katonára magyarosította a nevét, e percben mélyen megbánta ezt az
                elhamarkodott lépést. - De aztán nagyot lélegzik: egyszerre megállnak, és a tanár
                becsukja a noteszt.</p>
-            <p>- Steinmann! - mondja egészen halkan és kivételesen.</p>
-            <p>Nehéz, felszabadult sóhaj. Kivételes, ünnepélyes hangulat. Steinmann gyorsan feláll -
+				<p>- Steinmann! - mondja egészen halkan és kivételesen.</p>
+				<p>Nehéz, felszabadult sóhaj. Kivételes, ünnepélyes hangulat. Steinmann gyorsan feláll -
                a mellette ülő kiugrik a padból, szerényen és udvariasan áll, míg a jó tanuló
                kimászik a padból: mint egy testőr, néma és mellékes dekoratív szereplője egy nagy
                eseménynek.</p>
-            <p>Maga a tanár is ünnepélyes. Oldalt ül le a székre, és összetett ujjakkal gondolkodik.
+				<p>Maga a tanár is ünnepélyes. Oldalt ül le a székre, és összetett ujjakkal gondolkodik.
                A jó tanuló a táblához megy, és kezébe veszi a krétát. A tanár gondolkodik. A jó
                tanuló erre felkapja a spongyát, és sebesen törülni kezdi a táblát: ebben végtelen
                előkelőség és önérzet van, ezzel azt akarja jelezni, hogy ő ráér, hogy neki nem kell
                most törni a fejét, ő nem fél, ő mindig készen van, ő addig is, míg a felelés
-               kezdődik, valami hasznosat akar csinálni a társa­da­lomnak, ő ráér gondolni a
+               kezdődik, valami hasznosat akar csinálni a társadalomnak, ő ráér gondolni a
                köztisztaságra és az emberiség békés fejlődésére, és letörüli a táblát.</p>
-            <p>- Hát - mondja a tanár, és gondolkodva húzza a szót -, majd valami érdekes példát
+				<p>- Hát - mondja a tanár, és gondolkodva húzza a szót -, majd valami érdekes példát
                veszünk...</p>
-            <p>A jó tanuló udvariasan és végtelen megértéssel köhög. Természetesen, valami érdekes
+				<p>A jó tanuló udvariasan és végtelen megértéssel köhög. Természetesen, valami érdekes
                példát, az érdekes helyzetnek megfelelőt. Most úgy néz a tanárra, komolyan és
                melegen, mint egy szép grófnő, akinek egy gróf megkérte a kezét, és mielőtt
                válaszolna, megértéssel és rokonszenvvel mélyen a gróf szemébe néz, jól tudva, hogy e
                tekintet elbűvöli a grófot, s a gróf remegő boldogsággal sejti, hogy a válasz kedvező
                lesz.</p>
-            <p>- Vegyünk egy kúpot... - mondja a gróf.</p>
-            <p>- Egy kúpot - mondja Steinmann, a grófnő. De már ezt is úgy tudja mondani, ez a
+				<p>- Vegyünk egy kúpot... - mondja a gróf.</p>
+				<p>- Egy kúpot - mondja Steinmann, a grófnő. De már ezt is úgy tudja mondani, ez a
                Steinmann, annyi megértéssel, olyan okosan: csak ő tudja, mennyire kúp az, amit veszünk. Én, Steinmann, a legjobb tanuló az egész
-               osztályban, veszek egy kúpot, mivel engem, mint az erre leg­alkalmasabbat, megbízott
-               a társadalom. Még nem tudom, miért vettem a kúpot, de nyugod­tak lehettek
+               osztályban, veszek egy kúpot, mivel engem, mint az erre legalkalmasabbat, megbízott
+               a társadalom. Még nem tudom, miért vettem a kúpot, de nyugodtak lehettek
                mindannyian, bármi történjék ezzel a kúppal, én is ott leszek a helyemen, és
-               megbir­kózom vele.</p>
-            <p>- Különben - mondj a tanár hirtelen -, vegyünk inkább egy csonka gúlát.</p>
-            <p>- Csonka gúla - ismétli a jó tanuló, ha lehet még értelmesebben. Ő a csonka gúlával
+               megbirkózom vele.</p>
+				<p>- Különben - mondj a tanár hirtelen -, vegyünk inkább egy csonka gúlát.</p>
+				<p>- Csonka gúla - ismétli a jó tanuló, ha lehet még értelmesebben. Ő a csonka gúlával
                éppen olyan határozott, barátságos, bár fölényes viszonyban van, mint a kúppal. Mi
                neki egy csonka gúla? Ő nagyon jól tudja, őt nem lehet félrevezetni, a csonka gúla is
                csak olyan gúla, mint más, normális gúla, egyszerű gúla, amilyent egy Eglmayer is el
                tud képzelni - csak le van vágva belőle egy másik gúla.</p>
-            <p>A felelés rövid ideig tart. Félszavakban beszélnek egymással, értik egymást,
+				<p>A felelés rövid ideig tart. Félszavakban beszélnek egymással, értik egymást,
                lassanként intim dialógus alakul ki a tanár és a jó tanuló közt: mi már nem is
                értjük, ez az ő kettejük dolga, két rokon lélek, mely itt előttünk egyesül, a
                differenciálegyenletnek éteri légkörében. Egy mondat közepén eszmél rá a tanár, hogy
                miért is beszélgetnek ők, hogy ez felelés, az előmenetel megítélése. A jó tanulónak
                be se kell fejezni ezt a mondatot. Minek befejezni? Maradt-e szemernyi kétség afelől,
                hogy be tudja fejezni?</p>
-            <p>A jó tanuló szerényen és illedelmesen ül le. A következő percben már roppant
+				<p>A jó tanuló szerényen és illedelmesen ül le. A következő percben már roppant
                érdeklődéssel figyeli a következő felelő szánalmas dadogását: egy szónál gúnyosan és
-               diszkréten elmoso­lyodik, és a tanár tekintetét keresi lopva, hogy még egyszer
+               diszkréten elmosolyodik, és a tanár tekintetét keresi lopva, hogy még egyszer
                összenézzen vele, és a tanár lássa, hogy ő, bár nem szól, arcizma se rándul: e gúnyos
-               mosolyban jelezni óhajtja, mennyire tisztá­ban van vele, milyen marhaságot mondott a
+               mosolyban jelezni óhajtja, mennyire tisztában van vele, milyen marhaságot mondott a
                felelő, és hogy mit kellett volna felelnie.</p>
-          
-         </div>
-         <div type="chapter">
-            <head>A ROSSZ TANULÓ FELEL</head>
-            <p>Nem, mára nem lehetett számítani, igazán. Hiszen számított rá, persze hogy számított,
+			</div>
+			<div type="chapter">
+				<head>A ROSSZ TANULÓ FELEL</head>
+				<p>Nem, mára nem lehetett számítani, igazán. Hiszen számított rá, persze hogy számított,
                sőt múlt éjjel álmodott is ilyesfélét: de álmában magyarból hívták ki, igaz, hogy úgy
                volt, mintha a magyart is a Frőhlich tanítaná. Álmában elintézte az egész kérdést, a
                párhuzamos vonalakról felelt, egyfelesre.</p>
-            <p>Mikor kimondják a nevét, nem hisz a füleinek, körülnéz: hátha csoda történik, hátha
+				<p>Mikor kimondják a nevét, nem hisz a füleinek, körülnéz: hátha csoda történik, hátha
                csak agyrém, nyomasztó lidércnyomás volt, hogy ez az ő neve,
                és most felébred ebből az álomból. Aztán egy csomó füzetet felkap a padról. Míg
                végigmegy a kis utcán, a padsorok közt, ezt gondolja: “Ápluszbészerámínuszbé egyenlő
                ánégyzetmínuszbénégyzet.” Ezt fogja kérdezni. Biztosan ezt fogja kérdezni. “Ha nem
                ezt kérdezi, átmegyek különbözeti vizsgával a polgáriba, és katonai pályára
                lépek.”</p>
-            <p>Közben megbotlik, és elejti a füzeteket. Míg a földön szedeget, háta mögött felzúg az
+				<p>Közben megbotlik, és elejti a füzeteket. Míg a földön szedeget, háta mögött felzúg az
                obligát nevetés, amit ezúttal senki se tilt be: a rossz tanuló törvényen kívül áll,
                rajta lehet nevetni.</p>
-            <p>A tanár leül, és maga elé teszi a noteszt. Ránéz. A rossz tanuló görcsösen mondogatja
-               magá­ban: “ápluszbészer...” veszi a krétát. A tanár ránéz.</p>
-            <p>- Készült? - mondja a tanár.</p>
-            <p>- Készültem.</p>
-            <p>Ó igen, hogyne készült volna. A halálraítélt is elkészül: felveszi az utolsó kenetet,
+				<p>A tanár leül, és maga elé teszi a noteszt. Ránéz. A rossz tanuló görcsösen mondogatja
+               magában: “ápluszbészer...” veszi a krétát. A tanár ránéz.</p>
+				<p>- Készült? - mondja a tanár.</p>
+				<p>- Készültem.</p>
+				<p>Ó igen, hogyne készült volna. A halálraítélt is elkészül: felveszi az utolsó kenetet,
                és lenyíratja a haját.</p>
-            <p>- Hát akkor írja.</p>
-            <p>A rossz tanuló a tábla felé fordul.</p>
-            <p>- bénégyzetmínuszpluszmínusznégyzetgyökbémínusznégyácészerkétá.</p>
-            <p>És a rossz tanuló engedelmesen írni kezdi és mondja utána a számokat. Írja, írja,
+				<p>- Hát akkor írja.</p>
+				<p>A rossz tanuló a tábla felé fordul.</p>
+				<p>- bénégyzetmínuszpluszmínusznégyzetgyökbémínusznégyácészerkétá.</p>
+				<p>És a rossz tanuló engedelmesen írni kezdi és mondja utána a számokat. Írja, írja,
                mint Ágnes asszony, tudja, miről van szó, látja a tételt “éppen úgy, mint akkor
                éjjel”, mikor elaludt mellette, és fogalma se volt róla, mit jelent az egész. Igen,
                ez az, homályosan sejti, valami másodfokú egyenlet - de hogy mi lesz ebből.</p>
-            <p>Szép lassan és kaligrafikusan ír. A négyesnek a szárát vastagítja - a vonalból, ami
+				<p>Szép lassan és kaligrafikusan ír. A négyesnek a szárát vastagítja - a vonalból, ami
                törtet jelent, gondosan letörül egy darabot, ehhez külön elmegy az ablakig a
                spongyáért. Időt nyer ezzel. Hátha csöngetnek addig. Vagy valami lesz. Úgyse sokáig
                szerepel ő itten a dobogón. Ezt még felírja, az egyenlőségjelet is szép lassan
                felrakja - igen, ezt még úgy csinálja, mint más, felsőbb lények, mint egy jó tanuló.
                Felírja még “á2”. A katonaiskolában nagyon korán kell felkelni, villan át az agyán,
                hirtelen. De aztán hadnagy lesz az ember. Esetleg kimegy Fiuméba.</p>
-            <p>Közben szép lassan ír - még mindig nem írta le. Hozzá nem értő ember, aki ezt a
+				<p>Közben szép lassan ír - még mindig nem írta le. Hozzá nem értő ember, aki ezt a
                jelenetet figyeli, azt hiszi, valami jó tanuló felel. De a szakértő tudja már, mit
                jelent az, mikor valaki ilyen határtalan gonddal rajzolja a kettes farkincáját.
                Halálos csend körös-körül. A tanár nem mozdul. Most beszélni kell.</p>
-            <p>- A másodfokú egyenlet... - kezdi értelmesen és összehúzott szemmel, és mélységes
-               figye­lemmel nézi a táblát.</p>
-            <p>- A másodfokú egyenlet... - ismétli olyan ember modorában, aki nem azért ismétli a
+				<p>- A másodfokú egyenlet... - kezdi értelmesen és összehúzott szemmel, és mélységes
+               figyelemmel nézi a táblát.</p>
+				<p>- A másodfokú egyenlet... - ismétli olyan ember modorában, aki nem azért ismétli a
                szót, mintha nem tudná, mit akar mondani, hanem inkább azért, mert rengeteg
                mondanivalója közül a leghelyesebbet, a legfrappánsabbat, a legtökéletesebbet
                válogatja és mérlegeli.</p>
-            <p>De a tanár, ó, a tanár már tudja, mit jelent ez.</p>
-            <p>- Készült? - mondja keményen és szárazon.</p>
-            <p>- Tanár úr kérem, én készültem.</p>
-            <p>Ezt bezzeg villámgyorsan mondja: véres dac, lázadó kétségbeesés remeg a
+				<p>De a tanár, ó, a tanár már tudja, mit jelent ez.</p>
+				<p>- Készült? - mondja keményen és szárazon.</p>
+				<p>- Tanár úr kérem, én készültem.</p>
+				<p>Ezt bezzeg villámgyorsan mondja: véres dac, lázadó kétségbeesés remeg a
                hangjában.</p>
-            <p>Tanár (széles gesztussal): - Hát akkor halljuk.</p>
-            <p>A rossz tanuló nagy lélegzetet vesz.</p>
-            <p>- A másodfokú egyenlet az elsőfokú egyenletből származik oly módon, hogy az egész
-               egyen­letet megszorozzuk...</p>
-            <p>És most beszél. Valamit beszél. A második mondatnál arra számított, hogy
+				<p>Tanár (széles gesztussal): - Hát akkor halljuk.</p>
+				<p>A rossz tanuló nagy lélegzetet vesz.</p>
+				<p>- A másodfokú egyenlet az elsőfokú egyenletből származik oly módon, hogy az egész
+               egyenletet megszorozzuk...</p>
+				<p>És most beszél. Valamit beszél. A második mondatnál arra számított, hogy
                félbeszakítják - lopva néz a tanár felé. De az mozdulatlan arccal néz, se azt nem
                mondja, hogy jó, se azt, hogy rossz. Nem szól. Pedig a rossz tanuló nagyon jól tudja,
                hogy nem lehet az jó, amit ő beszél. Hát akkor miért nem szól a tanár? Ez rettenetes.
                A hangja reszketni kezd. Egyszerre látja, hogy a tanár felemeli a noteszt. Erre
                elsápad, és szédítő gyorsasággal kezdi:</p>
-            <p>- A másodfokú egyenlet úgy származik az elsőből, hogy végig... Tanár úr kérem, én
+				<p>- A másodfokú egyenlet úgy származik az elsőből, hogy végig... Tanár úr kérem, én
                készültem.</p>
-            <p>- Polgár Ernő - mondja hangosan a tanár.</p>
-            <p>Mi ez?</p>
-            <p>Már egy másikat hívtak ki? Ővele végeztek? Mi ez? Álmodik?</p>
-            <p>- A másodfokú egyenlet... - kezdi újra, fenyegetően.</p>
-            <p>Polgár Ernő fürgén kijön, és a tábla másik végén már veszi a másik krétát.</p>
-            <p>- A másodfokú... Tanár úr kérem, én készültem.</p>
-            <p>Senki sem felel. És most ott áll, egyedül a tömegben, mint egy szigeten. De még nem
+				<p>- Polgár Ernő - mondja hangosan a tanár.</p>
+				<p>Mi ez?</p>
+				<p>Már egy másikat hívtak ki? Ővele végeztek? Mi ez? Álmodik?</p>
+				<p>- A másodfokú egyenlet... - kezdi újra, fenyegetően.</p>
+				<p>Polgár Ernő fürgén kijön, és a tábla másik végén már veszi a másik krétát.</p>
+				<p>- A másodfokú... Tanár úr kérem, én készültem.</p>
+				<p>Senki sem felel. És most ott áll, egyedül a tömegben, mint egy szigeten. De még nem
                megy helyre. Neki nem mondták, hogy menjen helyre - odvas és züllött, kitaszított
                szívvel áll ott -, neki nem mondták, nem mondták. Ő még felel. Most végigmenjen,
                újra, a padsorok közt? Nem, inkább áll, hülyén: keze dadogva babrál a táblán, a
@@ -517,14 +510,14 @@
                - ez is olyan idegen és furcsa... mint minden... amivel itt évek óta foglalkoznak
                körülötte... foglalkoznak vidáman és ruganyosan és hangosan... és amiből ő soha nem
                fogott fel semmit... néhány mondatot jegyzett meg eddig, s azokon úszott...</p>
-            <p>És így áll most, még áll, reménykedik, udvariasan figyeli, amit a másik beszél...
+				<p>És így áll most, még áll, reménykedik, udvariasan figyeli, amit a másik beszél...
                néha helyeslően bólint, legalább ezzel jelzi, hogy ő készült, ő tud... néha
                bátortalanul meg is szólal, abban az illúzióban ringatja magát, hogy őt kérdezték, de csak halkan, hogy ne küldjék helyre... aztán
                szerényen elhallgat és figyel... előrehajol, részt vesz a felelésben, odaadja a
                krétát, buzgólkodik a felelő körül, még súg is neki, hangosan, nem azért, hogy
                segítsen, de hogy a tanár lássa, hogy ő súg, tehát ő tud... Egyszóval: nem adja meg
                magát.</p>
-            <p>Egyszer aztán minden ereje elhagyja, elhallgat, és még egyszer a katonaiskolára
+				<p>Egyszer aztán minden ereje elhagyja, elhallgat, és még egyszer a katonaiskolára
                gondol. Elboruló elméjében, mint távoli szavak, verődnek vissza a zajok... a kréta
                ropogása... elfolynak az arcok, és egy pillanatra világosan látja a végtelent,
                amelyről e percben jelentette ki a felelő, hogy ott a párhuzamos vonalak találkoznak.
@@ -534,11 +527,10 @@
                és örömmel üdvözlik egymást... a párhuzamos vonalak, igen... a végtelen, a megértés,
                a jóság és emberszeretet osztályában, ahová ő soha eljutni nem fog... ama “felsőbb
                osztály”, melybe “elégtelen eredmény miatt fel nem léphet” soha.</p>
-          
-         </div>
-         <div type="chapter">
-            <head>A BUKOTT FÉRFI</head>
-            <p>A bukott férfi hosszan álldogált a tanári szoba ajtaja előtt. Már mindenki hazament,
+			</div>
+			<div type="chapter">
+				<head>A BUKOTT FÉRFI</head>
+				<p>A bukott férfi hosszan álldogált a tanári szoba ajtaja előtt. Már mindenki hazament,
                egyenként szállingóztak a tanárok is. “Alászolgája”, mondja udvariasan hússzor egymás
                után és meghajtja a fejét. Ő azonban Schwickert várja, ó igen, már tizenegy óta várja
                Schwickert, akivel röviden és nyugodtan és érctelen hangon fog beszélni. “Tanár úr”,
@@ -551,7 +543,7 @@
                bírálni akarom Önt, csak hidegen megállapítom a tényt - Ön azonnal leültetett engem.
                Ne vizsgáljuk, hogy törvény és szokás szerint tette-e ezt - én azt akarom, hogy
                egymás közt intézzük el ezt az ügyet. Bemegyünk ide a tanáriba, Ön áthúzza az
-               elég­telent, és alul ezt a mondatot “Osztályismétlésre utasíttatik”. Aztán elválunk
+               elégtelent, és alul ezt a mondatot “Osztályismétlésre utasíttatik”. Aztán elválunk
                egymástól, mint férfi férfitől. Ön talán csodálkozik, hogy ilyen szokatlan hangon
                hall beszélni - nos, hagyjuk ezt. Hogy Önök engem félreértettek, azt, jól tudom,
                zárkózott természetemnek köszönhetem - nem volt okom nyilatkozni eddig, és mit
@@ -560,28 +552,28 @@
                mélyen a szemébe néz, majd kipirul és hirtelen a kezét nyújtja. “Neugebauer - mondja
                Schwicker -, elég. Én értem önt. Adja ide azt a bizonyítványt. Ön rideg embernek hitt
                engem - de én nem tudtam eddig, kivel van dolgom, Neugebauer.”</p>
-            <p>Igen, a bukott férfi így fog beszélni Schwickerrel. Miért hát, hogy a bukott férfi
+				<p>Igen, a bukott férfi így fog beszélni Schwickerrel. Miért hát, hogy a bukott férfi
                mégis riadtan húzódik vissza, valahányszor nyitják az ajtót? Már kettő felé jár az
-               idő, és ő tizenegyre haza­ígérkezett a bizonyítvánnyal - jó volna, ha Schwicker jönne
+               idő, és ő tizenegyre hazaígérkezett a bizonyítvánnyal - jó volna, ha Schwicker jönne
                már - vagy miért volna jó? Hiszen ő nem is akar hazamenni - van neki hazája, a bukott
                férfinak?</p>
-            <p>De íme, itt jön Schwicker... igen, beszél hátrafelé valamit, most nem lehet
+				<p>De íme, itt jön Schwicker... igen, beszél hátrafelé valamit, most nem lehet
                megszólítani. Most se, most megy a lépcső felé - gyerünk utána, majd a lépcsőn. Nem,
                a lépcsőn mégse lehet, annak semmi formája - majd a portás ajtaja előtt. De a portás
                kint áll az ajtóban, nem lehet... itt nem lehet... De mi ez, hiszen mindjárt kimegy a
                kapun és aztán...</p>
-            <p>- Kérem szépen, tanár úr... tanár úr kérem...</p>
-            <p>- Na, mi az? Mit akarsz?</p>
-            <p>- Kérem szépen, tanár úr... itt az van... itt az van...</p>
-            <p>- Mi van? Hogy hívnak?</p>
-            <p>- Neugebauer.</p>
-            <p>- Ja, te nálam megbuktál! Na csak eriggy haza, aztán majd készülj a pótvizsgára.</p>
-            <p>- Igenis, tanár úr.</p>
-            <p>- Nem fog megártani egy kis tanulás a szünidőben.</p>
-            <p>És Neugebauer udvariasan vigyorog.</p>
-            <p>- Igenis, tanár úr. Alászolgája.</p>
-            <p>- Szervusz.</p>
-            <p>A bukott férfi hajlong, és megindul a körúton. Nem sok értelme van annak, hogy
+				<p>- Kérem szépen, tanár úr... tanár úr kérem...</p>
+				<p>- Na, mi az? Mit akarsz?</p>
+				<p>- Kérem szépen, tanár úr... itt az van... itt az van...</p>
+				<p>- Mi van? Hogy hívnak?</p>
+				<p>- Neugebauer.</p>
+				<p>- Ja, te nálam megbuktál! Na csak eriggy haza, aztán majd készülj a pótvizsgára.</p>
+				<p>- Igenis, tanár úr.</p>
+				<p>- Nem fog megártani egy kis tanulás a szünidőben.</p>
+				<p>És Neugebauer udvariasan vigyorog.</p>
+				<p>- Igenis, tanár úr. Alászolgája.</p>
+				<p>- Szervusz.</p>
+				<p>A bukott férfi hajlong, és megindul a körúton. Nem sok értelme van annak, hogy
                megindult, mert ugyan hova menjen? A Schwickerrel való beszélgetés csak valami
                fásult, tompa érzést hagyott maga után, nem csalódottságot. Hiszen nyilvánvaló volt,
                hogy így lesz, hiszen ő nem is akart Schwickerrel beszélni, mi dolga van neki
@@ -594,35 +586,35 @@
                első...” igen, ez biztosan nagyon szép; bár ő nem nagyon érti, de azok majd, azok
                érteni fogják... a nyomorultak... bár csak értsék. Inkább vagyok a sírban az
                első...</p>
-            <p>A bukott férfi szeme előtt színes, szivárványos felhőcske ugrál, a torka elszorul, és
+				<p>A bukott férfi szeme előtt színes, szivárványos felhőcske ugrál, a torka elszorul, és
                csak most veszi észre, hogy az egész idő alatt, míg ezeket elgondolta, majdnem
                hangosan énekelgette magában a tornaünnepély indulójának a tenorját, amit
                betanult</p>
-            <p>»Fel hazánk hű nehem-zehe-déke.</p>
-            <p> Itt a pálya, itt a tér, -</p>
-            <p> Ittatér!«</p>
-            <p>Ezt énekelte, közben ugrált, és viaszosvászon táskájával a falakat csapkodta.
+				<p>»Fel hazánk hű nehem-zehe-déke.</p>
+				<p> Itt a pálya, itt a tér, -</p>
+				<p> Ittatér!«</p>
+				<p>Ezt énekelte, közben ugrált, és viaszosvászon táskájával a falakat csapkodta.
                Azonkívül pedig valami nyugtalan érzése is volt, mintha elfelejtett volna valamit,
                amit pedig előbb el kell intézni. Mi is volt az, istenem, mi volt, pedig ma reggel
-               nagyon elhatározta. Üveglénia... nem, gőz­turbina... nem, hisz arról nem is álmodhat
+               nagyon elhatározta. Üveglénia... nem, gőzturbina... nem, hisz arról nem is álmodhat
                egyelőre, míg az öt forint együtt nincs, pedig az mikor lesz! Legföljebb jövő
                elsején... aha, tudja már, ceruzahegyező... és, és még valami, mustkolbász.</p>
-            <p>Mustkolbász! a nyál összefolyik a szájában. Milyen furcsa neve van, mi lehet az?
+				<p>Mustkolbász! a nyál összefolyik a szájában. Milyen furcsa neve van, mi lehet az?
                olyan barna, bütykös valami, ott lóg a csemegekereskedésben - de túlvilágian jó
                lehet, must is, kolbász is. Egyelőre ezt, mindent nem lehet egyszerre - a kocsonyás
                pisztráng, az még a jövő zenéje. Mennyi pénze van, lássuk csak. Itt van nyolc, emitt
                négy hatos, meg hat krajcár is és egy fillér, azt esetleg el lehet sütni krajcárnak.
                Összesen közel három korona.</p>
-            <p>Két perc múlva megvan a ceruzahegyező, s további két perc múlva a bukott férfi ott
-               áll a cse­me­gekereskedésben. “Ebből harmincér”, mondja, és piszkos kis ujja reszket,
-               amint kinyújt­ja, a torka meg lüktet. Hirtelen elszánás, halálos könnyelműség önti
-               el, megmámoro­sodik. “Meg húsz deka törmelékcsokoládét is kérek... Azt hiszem,
+				<p>Két perc múlva megvan a ceruzahegyező, s további két perc múlva a bukott férfi ott
+               áll a csemegekereskedésben. “Ebből harmincér”, mondja, és piszkos kis ujja reszket,
+               amint kinyújtja, a torka meg lüktet. Hirtelen elszánás, halálos könnyelműség önti
+               el, megmámorosodik. “Meg húsz deka törmelékcsokoládét is kérek... Azt hiszem,
                elég... meg kérek húszér ementálit is... meg huszonötér abból a vörösből... lazac?...
                kérek abból is...”</p>
-            <p>Mindent külön, csinosan becsomagolnak, és ő hagyja, bár tudja jól, hogy nem érdemes,
+				<p>Mindent külön, csinosan becsomagolnak, és ő hagyja, bár tudja jól, hogy nem érdemes,
                hiszen a legközelebbi kapu alatt úgyis felbont mindent. Két korona öt... tessék...
                néhány fillért visszakap.</p>
-            <p>A kapu alatt felbont mindent, és a zsebébe gyűri. Kezdi az ementálin, vastag
+				<p>A kapu alatt felbont mindent, és a zsebébe gyűri. Kezdi az ementálin, vastag
                darabokat tör le, bent a zsebben, és hirtelen dugja a szájába, majd megfúl,
                kivörösödik. Aztán a mustkolbászt eszi meg... aztán a lazacot... Mintha köveket
                raktak volna a gyomrába. Mindegy, vesszen minden, következik a törmelékcsokoládé, az
@@ -630,109 +622,104 @@
                valami könnyű kellene... ami felüdíti, felfrissíti. “Hogy ez a narancs?” persze
                drága, az utolsók közül, mindegy. Mi van még? Kilenc krajcár maradt, mihez kezdjen
                vele? “Kérek kilencér törökmészt.”</p>
-            <p>És most itt megy ő, a bukott férfi, a Nefelejcs utcában - hogy került ide? Mindegy.
+				<p>És most itt megy ő, a bukott férfi, a Nefelejcs utcában - hogy került ide? Mindegy.
                Megy, megy a hosszú Nefelejcs utcán, benéz a kapuk alá, nehéz érzéssel belül... és
                nem tudja, a gyomra nehéz-e, vagy a szíve. Benéz a kapuk alá, rágja a törökmézt, csak
                rágja... körös-körül halálos üresség, céltalan élet, hideg igaztalanság. Valami
                jajongó, egyforma hang kíséri, végtelenül, makacsul, lerázhatatlanul... jajongó,
                pokoli gyötrelemmel.</p>
-            <p>»Fel hazánk hű nehem-zehe-déke...«</p>
-            <p>Kínlódva rágja a ragacsos, foghoz tapadó csirizt, és a nyála és a könnye fuldoklón
+				<p>»Fel hazánk hű nehem-zehe-déke...«</p>
+				<p>Kínlódva rágja a ragacsos, foghoz tapadó csirizt, és a nyála és a könnye fuldoklón
                csorog le a torkán.</p>
-            <p> </p>
-         </div>
-         
-         <div type="chapter">
-            <head>MAGYAR DOLGOZAT</head>
-           
-            <milestone unit="startSubChapter" n="1"/>
-            <p rend="head">   I. HÁROMNEGYEDES DOLGOZAT</p>
-               <p>
+			</div>
+			<div type="chapter">
+				<head>MAGYAR DOLGOZAT</head>
+				<milestone n="1" unit="startSubChapter"/>
+				<p rend="head">   I. HÁROMNEGYEDES DOLGOZAT</p>
+				<p>
                   Petőfi lírai költészete
                </p>
-               <p>Petőfi Sándor, a világhírű nagy magyar költő, mint lírikus is kiváló helyet foglal
+				<p>Petőfi Sándor, a világhírű nagy magyar költő, mint lírikus is kiváló helyet foglal
                   el ebben a tejjel-mézzel folyó Kánaánban, melyet oly gyönyörűen jellemzett leíró
                   költeményeiben.</p>
-               <p>Petőfi lírai költészetében legfontosabb a szubjektivitás, azonban Arany Jánosnál
+				<p>Petőfi lírai költészetében legfontosabb a szubjektivitás, azonban Arany Jánosnál
                   inkább az objektivitást látjuk túlsúlyra vergődni.</p>
-               <p>Míg Petőfinél olyan szépen domborodik ki a naiv, népies hang, addig Arany Jánosnál
+				<p>Míg Petőfinél olyan szépen domborodik ki a naiv, népies hang, addig Arany Jánosnál
                   a népies hang háttérbe szorul, és helyét a nyelvszépség foglalja el, amely
                   különben Petőfi gyönyörű költeményeiben is föllelhető.</p>
-               <p>Petőfi lírai költeményeiben a következő szépségeket találjuk, úgymint: 1. népies
+				<p>Petőfi lírai költeményeiben a következő szépségeket találjuk, úgymint: 1. népies
                   egyszerűség, 2. nemzeti hazafiság, 3. trópusok és figurák, 4. fiúi szeretet anyja
                   iránt, 5. szerelmi költészet stb.</p>
-               <p>Petőfi mindig a szubjektivitásra törekedett, és célját a legnagyobb mértékben el
+				<p>Petőfi mindig a szubjektivitásra törekedett, és célját a legnagyobb mértékben el
                   is érte, mert költeményei utat találnak a legegyszerűbb nép szívébe éppenúgy,
                   valamint a paloták ragyogó és fényben úszó csarnokaiba is!...</p>
-               <p>Költeményeiben az aranykalászos, gyönyörű nagy magyar Alföldet látjuk megénekelve,
+				<p>Költeményeiben az aranykalászos, gyönyörű nagy magyar Alföldet látjuk megénekelve,
                   melyet nála kívül senki oly szépen jellemezni nem volt képes, mint ahogy maga is
                   írja gyönyörű költeményében, mely így kezdődik</p>
-               <p>“Szép vagy Alföld, legalább nekem szép...”</p>
-               <p>Mindazonáltal Petőfi nemcsak az Alföldet bírta jellemezni, de azonban a Tiszát is
+				<p>“Szép vagy Alföld, legalább nekem szép...”</p>
+				<p>Mindazonáltal Petőfi nemcsak az Alföldet bírta jellemezni, de azonban a Tiszát is
                   és a “jó öreg kocsmáros”-t, aki alatt saját atyja értendő.</p>
-               <p>Egy másik költeményében még inkább kidomborította az egyszerűséget, midőn a juhász
+				<p>Egy másik költeményében még inkább kidomborította az egyszerűséget, midőn a juhász
                   oly szamáron megy, melynek alacsonysága következtében a juhász lába a földig ér.
                   Egyszer csak hallja, hogy haldoklik a juhász babája, s hazasiet azonnal, hogy még
                   életben találja, de azonban csak halottat talál. Elkeseredésében mi telhetett a
                   juhásztól, tehát botjával nagyot üt a szamár fejére. Mily csodaszépen látjuk itt
                   ugyebár az egyszerűséget, mellyel a juhász a szamár fejére üt
                   elkeseredésében!!...</p>
-               <p>Vannak Petőfinek viszont költeményei, melyekben ő ellentétet állít be, például
+				<p>Vannak Petőfinek viszont költeményei, melyekben ő ellentétet állít be, például
                   “Befordultam a konyhába...” című költeményében, midőn azt írja, hogy az ő égő
                   pipája kialudott, míg ellenben alvó szíve meggyulladott. Míg előbb pipája égett,
                   most szíve ég, mely viszont azelőtt aludott. Már ezen is láthatjuk az
                   ellentétet.</p>
-               <p>Ez Petőfi lírai költészete, mely az egész világ költői között nagy szerepet
+				<p>Ez Petőfi lírai költészete, mely az egész világ költői között nagy szerepet
                   játszik ennek a gyönyörű aranykalászos nemzetnek dicsőségére!!...</p>
-               <p>Skurek Ferenc</p>
-               <p> VI. b. o. t.</p>
-            
-            <milestone unit="endSubChapter" n="1"/>
-            <milestone unit="startSubChapter" n="2"/>
-               <p rend="head">II. EGYFELES DOLGOZAT</p>
-               <p>
+				<p>Skurek Ferenc</p>
+				<p> VI. b. o. t.</p>
+				<milestone n="1" unit="endSubChapter"/>
+				<milestone n="2" unit="startSubChapter"/>
+				<p rend="head">II. EGYFELES DOLGOZAT</p>
+				<p>
                   Petőfi és a líra
                </p>
-               <p>1823 Szilveszter éjszakáján vagyunk! Odakünt apró pihékben szállingózik a hó.</p>
-               <p>De bezzeg nagy öröm dagasztja keblét a helybeli mészárosnak, kinek Kiskőrösön
+				<p>1823 Szilveszter éjszakáján vagyunk! Odakünt apró pihékben szállingózik a hó.</p>
+				<p>De bezzeg nagy öröm dagasztja keblét a helybeli mészárosnak, kinek Kiskőrösön
                   gyermeke született Szilveszter szent éjszakáján.</p>
-               <p>Egészen kicsi csecsemő. Fekete szemeivel, melyek még gondtalanul bámulják a
+				<p>Egészen kicsi csecsemő. Fekete szemeivel, melyek még gondtalanul bámulják a
                   szegényes szoba nyirkos gerendáit, most anyjára pillant s nem tudja róla levenni a
                   tekintetét... Az anya szeretetteljes bensőséggel hajol a gyermek fölé s az igazi
                   anyákat jellemző gondossággal igazítja meg a bölcső kemény (?), de fehér
                   vánkosait...</p>
-               <p>Mit sejt ezen anya?</p>
-               <p>Ezen anya nem sejti még, hogy a parányi bölcsőben az egykor nagy Petőfi Sándor
+				<p>Mit sejt ezen anya?</p>
+				<p>Ezen anya nem sejti még, hogy a parányi bölcsőben az egykor nagy Petőfi Sándor
                   piheni ártatlan gyerekálmait...</p>
-               <p>Petőfi!</p>
-               <p>Midőn e szót leírom, ezer emlék rajzik fel lelkesült agyamban!!... Gyönyörű
+				<p>Petőfi!</p>
+				<p>Midőn e szót leírom, ezer emlék rajzik fel lelkesült agyamban!!... Gyönyörű
                   költemények zengenek-bonganak, melyeket oly lelkesen, kipirult arccal olvasgattunk
                   otthon szerető szüleink körében s az iskolában, ahol nagyra becsült tanárunk oly
                   szépen magyarázta el a költemények rejtett szépségeit. S lelki szemeink előtt, míg
                   a magyarázatot hallgattuk, mintegy álomkép vonult el a napsugaras Alföld, a kis
                   tanya, a betyár, a juhász és a szamár. De ki győzné felsorolni!...</p>
-               <p>Petőfi lírai költészetében a szubjektív, az alanyi elem lelkesíti legjobban
+				<p>Petőfi lírai költészetében a szubjektív, az alanyi elem lelkesíti legjobban
                   szívünket, míg Aranynál a komoly, objektív hang késztet férfias
                   bölcselkedésre.</p>
-               <p>Petőfi, mi nagy költőnk, mi büszkeségünk, egyik kezedben lanttal, másik kezedben
-                  csata­bárddal, nyugodj békében a segesvári harctér elfedett hantjai alatt korhadó
+				<p>Petőfi, mi nagy költőnk, mi büszkeségünk, egyik kezedben lanttal, másik kezedben
+                  csatabárddal, nyugodj békében a segesvári harctér elfedett hantjai alatt korhadó
                   sírhelyeden...!</p>
-               <p>Goldfinger Rezső</p>
-               <p> VI. b. o. t.</p>
-               <p> </p>
-            <milestone unit="endSubChapter" n="2"/>
-         </div>
-      <div type="chapter">
-               <head>RÖHÖG AZ EGÉSZ OSZTÁLY</head>
-               <p>Az ördög bújt az osztályba. Reggel, mikor bejöttünk, új szemétládát találtunk.
+				<p>Goldfinger Rezső</p>
+				<p> VI. b. o. t.</p>
+				<milestone n="2" unit="endSubChapter"/>
+			</div>
+			<div type="chapter">
+				<head>RÖHÖG AZ EGÉSZ OSZTÁLY</head>
+				<p>Az ördög bújt az osztályba. Reggel, mikor bejöttünk, új szemétládát találtunk.
                   Szép, nagy szemétláda, politúros. Azonnal kiderült, hogy egész kényelmesen el
                   lehet férni benne.</p>
-               <p>A szemetet természetesen kiszedjük belőle, és szépen eltrancsírozzuk a tetején.
+				<p>A szemetet természetesen kiszedjük belőle, és szépen eltrancsírozzuk a tetején.
                   Ehhez művészi ösztön kell. Körös-körül egyenlő távolságban kenyérbelek jönnek:
-                  közepére, mint valami dísz­tárgy, egy nagy darab szalonnahéj. Mindenki rendez
+                  közepére, mint valami dísztárgy, egy nagy darab szalonnahéj. Mindenki rendez
                   valamit: régi vasakat, tollszárakat viszünk a szemétkiállításra, amit belépődíj
                   mellett mutogat a Deckner.</p>
-               <p>A második tíz percben váratlanul kitör a cédularagasztás. Először Kelemen hátán
+				<p>A második tíz percben váratlanul kitör a cédularagasztás. Először Kelemen hátán
                   jelenik meg egy rövid jelentés, mely tudtul adja, hogy az illető önmagát
                   “szamár”-nak minősíti, s ezt minden külön értesítés helyett állandóan reklamírozni
                   óhajtja. Kelemennek aztán bizalmasan megsúgja valaki, hogy elhatároztuk, hogy
@@ -741,16 +728,16 @@
                   céduláján. Kelemen már fuldoklik, hunyorog a szemével - a röhögés nő, dagad, egyre
                   vidámabb lesz, orkánná fajul -, de minél jobban röhögnek ők egymáson, mi annál
                   jobban röhögünk őrajtuk.</p>
-               <p>Aztán a következő dolgot találja ki valaki. Az ember odamegy például Auerhez, aki
-                  szorgal­masan ír valamit; lihegve nekiszalad, lázasan, örömtől feldúlt arccal -
+				<p>Aztán a következő dolgot találja ki valaki. Az ember odamegy például Auerhez, aki
+                  szorgalmasan ír valamit; lihegve nekiszalad, lázasan, örömtől feldúlt arccal -
                   kapkodó hangon karon ragadja. “Gyere, gyere, gyorsan...!” fuldokol és viszi
                   magával. Auer kapkod, nem érti. “Na mi az, mi az, mi történt, hová?” kérdi
                   izgatottan és ijedten, és szedi a lábát. A másik nem felel, lihegve cipeli,
                   keresztülvonszolja a folyosón, felrohan vele a harmadik emeletre. Auer agyán
-                  villám­gyors iramban többféle lehetőség mozgóképe száguld. A nagybácsija jött meg
-                  Ameriká­ból. Az igazgató hívatja, mert konferencia volt, és ott végre
+                  villámgyors iramban többféle lehetőség mozgóképe száguld. A nagybácsija jött meg
+                  Amerikából. Az igazgató hívatja, mert konferencia volt, és ott végre
                   megállapodtak a tanárok, hogy ez az Auer egészen kivételes, érthetetlen zseni,
-                  amilyent egy században egyet szül csak a kor­szellem, és azért rögtön ki kell adni
+                  amilyent egy században egyet szül csak a korszellem, és azért rögtön ki kell adni
                   neki az érettségi bizonyítványt és ezer korona ösztöndíjat egy nagy beszéd
                   kíséretében, amit a tanári szobában tart az igazgató. A kultuszminiszter hívatja,
                   aki itt van a tanáriban, direkt miatta jött, mert valaki beküldte neki Auer
@@ -764,19 +751,19 @@
                   utánafordul, a lépcső alján már ott áll az egész osztály és röhög. Auer egy percig
                   áll, marhák, mondja, aztán dühösen indul, szégyenszemre lefelé, két perc múlva már
                   ő röhög legjobban, mikor Robozzal csinálják végig ugyanazt.</p>
-               <p>Közben Wlach a táblára lerajzolta Kökörcsin tanár urat, alsónadrágban, de különben
+				<p>Közben Wlach a táblára lerajzolta Kökörcsin tanár urat, alsónadrágban, de különben
                   cilinderrel a fején, amint II. Józsefnek jelentést tesz az Osztály
-                  magaviseletéről. II. József az orrát pisz­kálja, és egy üveg Zacherlint nyújt át
+                  magaviseletéről. II. József az orrát piszkálja, és egy üveg Zacherlint nyújt át
                   Kökörcsinnek, aki köszöni alássan, és jót húz az üvegből.</p>
-               <p>Zajcsek ordít, hogy őt nem hagyják tanulni, végre fogja magát, beül az új
+				<p>Zajcsek ordít, hogy őt nem hagyják tanulni, végre fogja magát, beül az új
                   szemétládába, magára húzza a fedelet, és orrhangon énekel. Wlach jelt ad,
                   egyszerre mindenki elhallgat és feláll. Zajcsek rémülten dugja ki fejét, azt
-                  hiszi, a tanár jött be. Vad röhögés. Zajcsek meg­vetően kiköp a ládából, és
+                  hiszi, a tanár jött be. Vad röhögés. Zajcsek megvetően kiköp a ládából, és
                   undorral magára húzza a fedelet.</p>
-               <p>Hanem most tényleg belép Kökörcsin. Halálos csend: egyszerre mindnyájunknak eszébe
+				<p>Hanem most tényleg belép Kökörcsin. Halálos csend: egyszerre mindnyájunknak eszébe
                   jut Zajcsek, aki a szemétládában ül. De Zajcsek másodszor már nem hagyja becsapni
                   magát, nem mozdul.</p>
-               <p>És most rettenetes óra következik. Az egész osztály egyetlen, hullámzó rekeszizom,
+				<p>És most rettenetes óra következik. Az egész osztály egyetlen, hullámzó rekeszizom,
                   amit képtelen erőfeszítéssel szorít le a halálos röhögés. A fojtott röhögés
                   forróláza lüktet a vérvörös arcokon, és a halántékok kidagadnak. Mindenki a pad
                   fölé hajol. A csönd, melynek fenekén egy esetleges kipukkadás borzasztó réme
@@ -792,30 +779,29 @@
                   anyja második Jóska!! - mondja Eglmayer az utolsó percben hihetetlenül mély
                   gyomorhangon. Auer élesen felszisszen: - Löbl most ért odáig, és belecsípett.
                   Nézd, mondja valaki mellettem, Kökörcsin egyik lába rövidebb, mint a másik.</p>
-               <p>A szemem majd kiugrik. Most... most vége... még egy pillanat... robban... Ebben a
+				<p>A szemem majd kiugrik. Most... most vége... még egy pillanat... robban... Ebben a
                   percben a tanár a következő viccet csinálja:</p>
-               <p>- Auer... mit mozgolódik maga, mint egy sajtkukac?</p>
-               <p>Soha még bohózatírónak olyan hatása nem volt közönségére. Mint gátját áttépő
+				<p>- Auer... mit mozgolódik maga, mint egy sajtkukac?</p>
+				<p>Soha még bohózatírónak olyan hatása nem volt közönségére. Mint gátját áttépő
                   áradat: harsan fel a röhögés. Percekig röhögünk, felszabadulva, hörögve. A tanár
-                  csodálkozva néz, és elné­zően mosolyog - magában megállapítja, hogy milyen
+                  csodálkozva néz, és elnézően mosolyog - magában megállapítja, hogy milyen
                   frappáns és ellenállhatatlan humora van neki.</p>
-               <p> </p>
-         </div>
-         <div type="chapter">
-               <head>KÍSÉRLETEZEM</head>
-               <p>A mágnesesség és villamosság mágikus jegyében folyt le november. A fizikaterem
+			</div>
+			<div type="chapter">
+				<head>KÍSÉRLETEZEM</head>
+				<p>A mágnesesség és villamosság mágikus jegyében folyt le november. A fizikaterem
                   asztala állandóan tele van gépekkel, korongokkal, elemekkel, induktorokkal és
                   dinamókkal. Borzasztó dolgok történtek: Pollákovics ráállt egy üveglábú zsámolyra,
-                  mire beleeresztették a villamossá­got, mire Pollákovicsból szikrák pattantak ki,
+                  mire beleeresztették a villamosságot, mire Pollákovicsból szikrák pattantak ki,
                   és a haja égnek meredt. Müller elmagyarázta, hogy Pollákovics mint emberi test, jó
-                  vezető. Pollákovics szerényen és áhítattal állt a zsá­molyon, mint ahogy egy jó
-                  vezetőhöz illik, és lelke mélyén homályos örömmel villant át az elektro­mos áram
-                  szárnyain, hogy Müller ezek után feltétlenül kijavítja kettesre a három­negyedét -
+                  vezető. Pollákovics szerényen és áhítattal állt a zsámolyon, mint ahogy egy jó
+                  vezetőhöz illik, és lelke mélyén homályos örömmel villant át az elektromos áram
+                  szárnyain, hogy Müller ezek után feltétlenül kijavítja kettesre a háromnegyedét -
                   hiszen nem lehet ő rossz tanuló, lám milyen szépen átvezette a villamos áramot is
                   -, zavarosan olyan érzése van, hogy aki nem érti a fizikát, azon nem megy át a
                   villamos áram, mely a tanár úr szolgálatában áll, és mint ilyen, tisztában van a
                   helyzettel és az osztálykönyvvel.</p>
-               <p>Hazamenet hatér veszek egy mágnesvasat. Ámulatos dolgokat tud a mágnesvas, de nem
+				<p>Hazamenet hatér veszek egy mágnesvasat. Ámulatos dolgokat tud a mágnesvas, de nem
                   vagyok megelégedve az eredménnyel. Már útközben elhatároztam, hogy otthon a patkó
                   alakú vasat kiegyenesítem, a közepébe lukat fúrok a... a... mondjuk az apám hegyes
                   papírvágójával (esetleg ollóval), és iránytűt csinálok belőle, de
@@ -823,7 +809,7 @@
                   lefelé áll, mert hiszen esetleg nagy földrengés is lehet, a ház oldalt billen,
                   mint egy hajó - és én mégis tudom majd az irányt; milyen jó lesz! Lelkesen
                   elvégzem magamban, hogy sohasem járok iránytű nélkül ezentúl.</p>
-               <p>Csupa izgalmas terv vagyok, mire hazaérek. Mert Heron-labdát is csinálok, úgy van,
+				<p>Csupa izgalmas terv vagyok, mire hazaérek. Mert Heron-labdát is csinálok, úgy van,
                   és magdeburgi féltekéket, ha tudni akarjátok és egy Leclanché-elemet. Csak a
                   húgomat találom otthon, akinek lelkesen magyarázni kezdem a Torricelli-féle űrt.
                   Na, mit gondolsz, mi tartja fenn a hetven centiméter magas higanyoszlopot, kérdem
@@ -831,24 +817,24 @@
                   teszek alája - most idenézz, megfordítom az egészet és nem folyik ki. Na jó, most
                   csak azért folyik ki, mert... persze, nem a pohár alá kell tenni a papírt,
                   elfelejtettem.</p>
-               <p>Balsikerem nem veszi el önbizalmamat. Fésűt dörgölök és papírszeletkéket
+				<p>Balsikerem nem veszi el önbizalmamat. Fésűt dörgölök és papírszeletkéket
                   csipegetek fel a fésűvel. A húgom azonban felbosszant, és azt állítja, hogy a
                   papírszeletkék csak azért ragadnak a fésűhöz, mert a fésű piszkos.</p>
-               <p>Áttérek a Leclanché-elemre. Ez kicsit bonyolult dolog. A befőttesüveg rendben
+				<p>Áttérek a Leclanché-elemre. Ez kicsit bonyolult dolog. A befőttesüveg rendben
                   volna, de honnan veszek staniolt? Réz is jó volna, - hja, ha a fürdőszoba csapját
                   le lehetne olvasztani! Csakhogy ez több nehézségbe ütközik, aztán meg, nem tudom,
                   meggyőzhetem-e családomat fölfedezéseim fontosságáról, és arról, hogy ezek a
                   fölfedezések a család részéről bizony áldozatokat és nélkülözéseket
                   követelnek.</p>
-               <p>Ellenben ki fogom szivattyúzni a vizet a vizeskannából, ki én, és bebizonyítom, be
+				<p>Ellenben ki fogom szivattyúzni a vizet a vizeskannából, ki én, és bebizonyítom, be
                   én, a légnyomást. A légszivattyút azonnal megtervezem papíron, fantasztikus
                   utópiák ragadnak magukkal. Az egész szobából kiszivattyúzom a levegőt, ki én,
                   úgyhogy a tárgyak elvesztik szabadesésüket.</p>
-               <p>Marinak, a mindenesnek, az a nézete, hogy én egy pofont fogok a papától
+				<p>Marinak, a mindenesnek, az a nézete, hogy én egy pofont fogok a papától
                   kiszivattyúzni, ha azonnal nem veszem ki a mozsárból az ecetet és a széndarabokat,
                   amiket beleraktam. A természettudományokat kezdik görbe szemmel nézni - de hát nem
                   lehet forradalmat csinálni anélkül, hogy föl ne forgassuk a fennálló világrendet.
-                  Hát nem hisztek Newtonnak és Koper­nikusnak? Hát idenézzetek - mondjuk, ez a lámpa
+                  Hát nem hisztek Newtonnak és Kopernikusnak? Hát idenézzetek - mondjuk, ez a lámpa
                   legyen a Nap - a szabad térben mozgó égitest. Nézzétek, ideteszem a mágnesvasat -
                   képviselje a gravitációs erőt. Vagy, mondjuk, ne a lámpa legyen a Nap, hanem ez a
                   mágnesvas, és legyen a lámpa csak egyszerűen a Föld. Na most már, na már most.
@@ -861,16 +847,15 @@
                   Földnek is el kell mozdulni - keringeni kell - mozdulni kell neki, az istenit -
                   nna!! látjátok?! így mozog... így mozog a Föld... így kell neki mozogni - és mégis
                   mozog...</p>
-               <p>Arról nem tehetek, hogy a lámpa leszakadt. Rosszul volt feltéve - a csavar nem
+				<p>Arról nem tehetek, hogy a lámpa leszakadt. Rosszul volt feltéve - a csavar nem
                   működött. Azt pedig természetesnek találom, hogy a hálátlan és meg nem értő bírák
                   vacsora helyett kilöktek a cselédszobába, és rámzárták az ajtót. Galileivel is
                   pont ezt csinálták. De az igazságot nem lehet véka alá rejteni. Eppur si
                   muove!</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>MAGYARÁZOM A BIZONYÍTVÁNYOM</head>
-               <p>Hát kérem szépen, először is: ez még nem végleges bizonyítvány - ez csak afféle
+			</div>
+			<div type="chapter">
+				<head>MAGYARÁZOM A BIZONYÍTVÁNYOM</head>
+				<p>Hát kérem szépen, először is: ez még nem végleges bizonyítvány - ez csak afféle
                   lenyomat, amit ideiglenesen kiosztottak nekem. Hogy ma van a féléves
                   bizonyítvány-nap, az nem jelent semmit. A többiek tényleg kikapták a
                   bizonyítványt, de az enyémet föl kellett küldeni a minisztériumba, mivel tévedések
@@ -878,7 +863,7 @@
                   bizonyítvány-ellenőrző és kiegészítő konferencia foglalkozni fog az esettel,
                   tanfelügyelői középülésen. Az osztályfőnök úr, mikor ideadta nekem a
                   bizonyítványt, beszédet tartott: kicsit zavarban volt, és tiszteltette a papát.
-                  Kérlek, kedves Bauer, mondta, légy szíves, közöld szüleid­del, miszerint
+                  Kérlek, kedves Bauer, mondta, légy szíves, közöld szüleiddel, miszerint
                   sajnálatos tévedés történt bizonyítványoddal, hibás tételek csúsztak bele. A
                   bélyeghatósági szabályrendelet szerint, sajnos, így is ki kell adni a
                   bizonyítványt, de kérnelek kell, kedves Bauer, közöld a szülővel, miszerint ez
@@ -887,22 +872,22 @@
                   kiállítjuk - egyelőre kéretem őket, hogy írják alá ezt, mert az összes iratokat
                   átküldtük a rendőrségre, ahol a nyomozás miatt szükség van erre az aláírásra; de
                   hangsúlyozd kérlek, hogy ez csak formaság. A főkapitány személyesen átírt a fiumei
-                  tengeré­szeti gimnáziumba, derítenék ki, hogy került bele a bizonyítványomba
+                  tengerészeti gimnáziumba, derítenék ki, hogy került bele a bizonyítványomba
                   történelemből ez a... ez a... szám, ami ugyancsak egy közönséges szám, azt
-                  jelenti, hogy négyszer feleltem történe­lemből - de esetleges félreértésekre ad
+                  jelenti, hogy négyszer feleltem történelemből - de esetleges félreértésekre ad
                   alkalmat.</p>
-               <p>Tudniillik Mangold, a történelemtanár, az csak helyettes tanár nálunk, még nem is
-                  osztályoz­hat, mert előbb vizsgáznia kell osztályzástanból a főegyetemen. Ő csak
+				<p>Tudniillik Mangold, a történelemtanár, az csak helyettes tanár nálunk, még nem is
+                  osztályozhat, mert előbb vizsgáznia kell osztályzástanból a főegyetemen. Ő csak
                   helyettes osztályzatot adhat, amit másképpen kell érteni - egyes helyett kettest,
                   kettes helyett négyest -, majd ha letette a vizsgát, akkor az összes
-                  bizonyítványokban kiigazítják az osztályzatokat igazi osztály­zatokra. Most
-                  egyelőre kéreti a papát, ne tessék haragudni egyelőre, és üzeni, hogy én négy­szer
+                  bizonyítványokban kiigazítják az osztályzatokat igazi osztályzatokra. Most
+                  egyelőre kéreti a papát, ne tessék haragudni egyelőre, és üzeni, hogy én négyszer
                   feleltem történelemből, egyszer aláhúzott kétharmadra, egyszer egyesre, kétszer
-                  három­negyedkettesre, tessék ezt összeadni, számtani középarányost venni, kijön a
+                  háromnegyedkettesre, tessék ezt összeadni, számtani középarányost venni, kijön a
                   háromnegyed egyes, aláhúzva. Először a második Józsefből feleltem, de akkor
                   csengettek; másodszor kérdezte az örökösödési jogot, mondtam schmalkaldeni
                   szövetség, láttam, mikor beírta az egyfelest, de akkor elvesztette a noteszt.</p>
-               <p>Fizikából. Hát fizikából már novemberben feleltem, kérdezte a Föld mozgását, s én
+				<p>Fizikából. Hát fizikából már novemberben feleltem, kérdezte a Föld mozgását, s én
                   mondtam, hogy a Nap körül és ellipszis-alakú pályán, melynek egyik gyújtópontjában
                   a Nap van, és ez a Newton érdeme. De akkor a mellettem ülő fiúval összetévesztett,
                   akinek háromnegyede van a fizikából, és nekem írta be véletlenül. Akkor szóltam, a
@@ -912,7 +897,7 @@
                   és tegyem meg neki, hogy most egyezzem bele a hármasba, év végére kijavítja
                   jelesre, és nem is kell felelni a következő félévben. A jelest mindjárt be is
                   vezette a születési bizonyítványomba, főigazgatói aláírással.</p>
-               <p>Frőhlichnek pikkje van rám algebrából, arról nem tehetek. A határozatlan
+				<p>Frőhlichnek pikkje van rám algebrából, arról nem tehetek. A határozatlan
                   együtthatóval kellett megoldani az egyenletet és akkor mikor kihívott, és akkor
                   mikor megmondtam, hogy akkor beszorzok lambdával, erre kiesik a második egyenlet,
                   persze, azért nem esett ki, mert iksszel is be kellett volna szorozni, csakhogy
@@ -924,29 +909,28 @@
                   legjobb tanuló is mondta, hogy föl lehet jelenteni Frőhlicht, de nem akartam, mert
                   úgyis pikkje van rám, pedig a dolgozatba nekem ugyanaz jött ki, mint
                   Steinmannak.</p>
-               <p>Magaviseletből azért van kettes, mert ha van három hármas, akkor nem lehet a
+				<p>Magaviseletből azért van kettes, mert ha van három hármas, akkor nem lehet a
                   magaviseletből se egyes, hanem akkor külön bizonyítványt adnak magaviseletből,
                   amit postán küldenek el a szülőknek.</p>
-               <p>Ezt!?... Ez nem hármas, ez kettes, csakhogy az osztályfőnök úr olyan furcsán írja
+				<p>Ezt!?... Ez nem hármas, ez kettes, csakhogy az osztályfőnök úr olyan furcsán írja
                   a kettest, véletlenül felül írja a végét a kettesnek. Csak a vezetéknevet tessék
                   aláírni... de mostanában ne tessék bemenni az iskolába... a kaput kiemelték...
                   most átalakítják... nincs kapu... nem lehet bemenni... majd egy-két hét
                   múlva...</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>A LÁNYOK</head>
-               <p>A lányok a Vadász utcába járnak: egy órakor gyakran találkozunk velük, tarkán
+			</div>
+			<div type="chapter">
+				<head>A LÁNYOK</head>
+				<p>A lányok a Vadász utcába járnak: egy órakor gyakran találkozunk velük, tarkán
                   sereglenek ki a körútra, vihognak és sugdolóznak. Copfjukon piros és kék pántlika
                   fityeg, hárman-négyen összefogóznak, egymásba karolnak, az egyik halkan, súgva
                   mond valamit, hangosan kuncogni kezdenek.</p>
-               <p>Ellenségesen és értetlenül és irigyen nézem őket, vajon miféle butaságon nevetnek
+				<p>Ellenségesen és értetlenül és irigyen nézem őket, vajon miféle butaságon nevetnek
                   folyton? És mit sugdolóznak? Ha két lány összejön, mindjárt sugdolózni kezdenek -
                   ismeretlen dolgon nevetnek, elkomolyodom, és gyanakodva, rossz érzéssel húzom föl
                   a szemöldököm - valami profán, cinikus, tisztátalan dolog van a világon; amiről
-                  csak ők tudnak, és mindig arról beszél­nek; gúnyosan, alattomosan néznek rám és
+                  csak ők tudnak, és mindig arról beszélnek; gúnyosan, alattomosan néznek rám és
                   elszaladnak. Vajon mi lehet az?</p>
-               <p>Mert valamit tudnak, amit én nem tudok. Különben buták és tehetetlenek, növényt és
+				<p>Mert valamit tudnak, amit én nem tudok. Különben buták és tehetetlenek, növényt és
                   bogarat nem gyűjtenek, bélyeget se. Leydeni palackot nem csinálnak, se magdeburgi
                   féltekét. Egyszer napfogyatkozás volt, a Hold árnyéka elhaladt a Napkorong előtt.
                   Napokig készültem rá, üveget kormoztam, és dobogó szívvel vártam a csillagászok
@@ -961,10 +945,10 @@
                   lesz, de hiszen csak arról van szó, hogy átjöjjenek az utcai szobába, kiabáltam
                   elkeseredve. Valami kétértelmű ostobaságot feleltek, egy szón megint vihogni
                   kezdtek, nem jöttek át, nem nézték meg.</p>
-               <p>De vajon mi lehet az - mert van valami velük. Valami van, amit mindenki tud, csak
+				<p>De vajon mi lehet az - mert van valami velük. Valami van, amit mindenki tud, csak
                   én nem, ami miatt úgy bánnak a lányokkal, mint valami kiváltságosokkal, és ezt ők
                   tudják.</p>
-               <p>Még egészen kicsike voltam, mikor a rokonaim ilyeneket mondtak nekem, “hát állva
+				<p>Még egészen kicsike voltam, mikor a rokonaim ilyeneket mondtak nekem, “hát állva
                   hagyod a kis kisasszonyt, és te leülsz? nem szégyelled magad? milyen gavallér lesz
                   belőled?”, és nekem fel kellett állni a kényelmes székről, hogy a csipkébe
                   öltözött kis majom leülhessen. Az arcom égett a szégyentől és haragtól - miért?
@@ -972,81 +956,80 @@
                   hát ő pofon vághat és megalázhat engem, csak azért, mert ő gyengébb, és így
                   lovagiasságból nem üthetem vissza? Hát nem látják, hogy ő tudja ezt, és kinevet
                   bennünket, és kényelmesen elterpeszkedik?</p>
-               <p>Miért? Miért? Mi lehet ez?</p>
-               <p>A lányokat nem bántja senki. Taknyos másodista korukban már magázza őket a tanár,
+				<p>Miért? Miért? Mi lehet ez?</p>
+				<p>A lányokat nem bántja senki. Taknyos másodista korukban már magázza őket a tanár,
                   nem kapnak barackot a fejükre, udvariasan beszélnek velük. A felsőbbistákat pláne
                   kisasszonynak szólítják, az iskolában is. Fiatalabb tanárok előre köszönnek nekik
-                  az utcán - hallatlan! Szelíd­ség gyöngédség veszi körül őket - én meg tegnap egy
+                  az utcán - hallatlan! Szelídség gyöngédség veszi körül őket - én meg tegnap egy
                   olyan brusztflekket kaptam verekedés közben, hogy egész nap nehezen lélegzem. Ha
                   elmondanám, azt felelnék, úgy kell, miért nem vágtad pofon, nem szégyenled magad?
                   De hát ő kezdte tanár úr - hát engem nem véd senki? Nem szégyelled magad? Egy
                   felnőtt fiút védeni kell - micsoda katona lesz belőled?</p>
-               <p>- Az ám - katonaság! A tornaórán, szabadgyakorlatokban, felvonulásokban készülünk
+				<p>- Az ám - katonaság! A tornaórán, szabadgyakorlatokban, felvonulásokban készülünk
                   rá. Az kemény dolog lesz, tudom, eleget hallottam róla. Hideg priccs, borjú a
-                  hátamon, alélt mene­telések, puska és szurony. Hiszen szép, lelkes dolog, tudom,
+                  hátamon, alélt menetelések, puska és szurony. Hiszen szép, lelkes dolog, tudom,
                   vágyom is rá - de hát miért csak mi? A hazát meg kell védeni. Aki nem kockáztatja
                   életét a hazáért, gyáva és becstelen. Hát ők? Ők miért nem gyávák és becstelenek?
                   Eszükbe sem jut kockáztatni az életüket - ezek vihognak és pipiskednek: mégis,
                   senki se mondja, hogy ők gyávák és becstelenek, sőt! inkább eszményül állítják
                   elénk. Meg kell védeni a nőket, a gyenge nőket! Királyért és hazáért - és a
                   nőkért! Hát a lányok királyok?</p>
-               <p>Miért? Miért? Miért?</p>
-               <p>Miért mindenütt, mindég, ez a kivételezés, ez az extravurst, ez az elnézés -
+				<p>Miért? Miért? Miért?</p>
+				<p>Miért mindenütt, mindég, ez a kivételezés, ez az extravurst, ez az elnézés -
                   miért, miért? A villamosban fel kell állni nekik - a legjobb falattal őket kell
                   megkínálni, ha leejtenek valamit, úgy állnak ott, hanyagul és kényelmesen, mintha
                   a természet törvénye volna, hogy azért nekem kell lehajolni. Tizennyolc éves
-                  koruktól kezdve már kezet csókolnak nekik, mint az öreg püs­pö­köknek, akik
+                  koruktól kezdve már kezet csókolnak nekik, mint az öreg püspököknek, akik
                   munkában és áldásban töltötték életüket. Jobb oldalra kell engedni őket az utcán.
                   De hát miért? Mit nyújtanak ők, mit tesznek, miért kell tisztelni őket? Hiszen
-                  művelet­lenek, ostobák, lusták és dologtalanok. Mulatságban nőnek fel, férjhez
+                  műveletlenek, ostobák, lusták és dologtalanok. Mulatságban nőnek fel, férjhez
                   mennek - attól kezdve a férjük dolgozik helyettük, eltartja őket. Szabadjegyet
-                  váltottak az életre azzal, hogy meg­születtek - míg nekünk véres verejtékkel kell
+                  váltottak az életre azzal, hogy megszülettek - míg nekünk véres verejtékkel kell
                   kiverekedni minden percünket, újra és újra bebizonyítani, hogy jogunk van az
                   élethez.</p>
-               <p>De hát miért, miért, miért?</p>
-               <p>A fiúk valami szégyenletes és ostoba dologról fecsegnek, az iskolában. Nem, az
+				<p>De hát miért, miért, miért?</p>
+				<p>A fiúk valami szégyenletes és ostoba dologról fecsegnek, az iskolában. Nem, az
                   képtelenség, ostobaság, nem lehet. Itt valami titok lappang, az bizonyos - de az
                   őrültség, az lehetetlen, hogy az legyen a titok. Hiszen az egy buta vicc, egy
                   gyerekes játék - hiszen ennél csak érdekesebb a Torricelli-féle űr, vagy egy
                   Leclanché-elem?</p>
-               <p>Miért? Miért?</p>
-               <p>Érzem, hogy egy napon meg fogom érteni. Félek ettől a naptól - ezen a napon
+				<p>Miért? Miért?</p>
+				<p>Érzem, hogy egy napon meg fogom érteni. Félek ettől a naptól - ezen a napon
                   keveredem majd el a szürke tömegbe: ezen a napon jövök rá, hogy én is az vagyok,
-                  amik ezek itt, akik szembe­jönnek velem az utcán. Ezen a napon el fogom felejteni
+                  amik ezek itt, akik szembejönnek velem az utcán. Ezen a napon el fogom felejteni
                   az Osztályt, a Leclanché-elemet, a növénygyűjteményemet, és el fogom felejteni
                   önmagamat.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>NAPLÓM</head>
-               <p>szept. 5.</p>
-               <p>Új év, új napló, új élet... Ma volt az első nap a suliba. Osztályfőnök Lenkei, de
+			</div>
+			<div type="chapter">
+				<head>NAPLÓM</head>
+				<p>szept. 5.</p>
+				<p>Új év, új napló, új élet... Ma volt az első nap a suliba. Osztályfőnök Lenkei, de
                   még nem biztos, azaz rendőr. Tanarak általában a régiek, majd meglátjuk, mi lesz.
                   Egyelőre a harmadik padban ülök. Az a hülye Benkő jött oda, hogy lépjek be a
                   körbe, majd bolond vagyok. Elhatároztam, hogy ezentúl mindent pontosan megírok.
                   Este voltunk az Angi néninél, de snassz volt, nem hoztak petróleumot, de snassz
                   volt, nap kél 6 óra 15 perckor, nyugszik 5 óra 45. Ebédre: húsleves, leveshús,
                   tökfőzelék. Most itt ülök az utcai szobába, a lámpa alatt és írok.</p>
-               <p>szept. 31.</p>
-               <p>Ma volt az önképzőköri megalakuló ülés. Elnök: Mautner, alelnök Gelléri, titkár
+				<p>szept. 31.</p>
+				<p>Ma volt az önképzőköri megalakuló ülés. Elnök: Mautner, alelnök Gelléri, titkár
                   Székely a nyolcadikból, gazda Várnai. Én bekerültem a választmányba 6 szavazattal,
                   mint bizottsági tag. Kitűztek pályázatot elbeszélő költeményre, értekezésre,
                   szavallatra és matematikai értekezésre. Mint választmányi tag egyedül vagyok
                   ötödista a bizottságban, címzetes jelleggel csak, de bíráló bizottsági tag. Ebéd:
                   gombaleves, fasírt, rizskoch. Voltunk múlt héten a Kereskedelmi Múzeumban.
                   Szombaton Uránia, utána vasárnap, hétfőn csak tizenkettőig van előadás.</p>
-               <p>okt. 6.</p>
-               <p>Aradi vértanúk, nincs suli, ünnepélyt elblicceltem. Hazajövet találkoztam
+				<p>okt. 6.</p>
+				<p>Aradi vértanúk, nincs suli, ünnepélyt elblicceltem. Hazajövet találkoztam
                   Gárdossal, mondta, hogy semmi se volt, diri beszélt, aztán Földessy a vértanúkról.
                   Sebők szavalt, de súgtak és erre összezavarodott. Mondta, hogy tanrendben újítás
-                  van, fizika helyett kedden kilenctől törté­nelem. Gerő elmegy az iskolától.
+                  van, fizika helyett kedden kilenctől történelem. Gerő elmegy az iskolától.
                   Délután megvettem a szépiát, a nullkörzőt és gummit, maradt ötvenhét, és
                   megcsináltam az ábrázoló rajzot, nagyon szép volt, de a végén a kihúzóból kifolyt
                   a tuss, valahogy kivakartam. Elhatároztam, hogy ezentúl mindig hordok iránytűt.
                   Most az utcaiban ülök, de a sublód előtt, mert az asztal tele van friss
                   fehérneművel, amit hoztak. Mindjárt vacsorázunk, ebédre mákosrétes volt.</p>
-               <p>nov. 2.</p>
-               <p>Elhatároztam, hogy ezentúl fontosabb dolgaimat titkos írással írom. Minden betű
+				<p>nov. 2.</p>
+				<p>Elhatároztam, hogy ezentúl fontosabb dolgaimat titkos írással írom. Minden betű
                   helyett az ábécében az utána következő második betűt írom. Oc dgfcekbvco
                   hkbkmcdrn. Vagy esetleg fordítva írom a szavakat. Matpak lótápap totnirof aráinél
                   ed mettötlökle. Ma olvastam Jókaitól Szerelem komédiásai, gyönyörű szép. Grant
@@ -1057,20 +1040,20 @@
                   Mértanból jól állok, de még javítani fogok karácsonyig, magyarból egy felesre
                   állok, dolgozat kétharmad, de még lesz egy iskolai dolgozat. Nagyon kíváncsi
                   vagyok a bizonyítványomra.</p>
-               <p>dec. 6.</p>
-               <p>Uránia. “A jégvilág” című darabot adták, jó volt a fűrészes hal. Csináltunk
+				<p>dec. 6.</p>
+				<p>Uránia. “A jégvilág” című darabot adták, jó volt a fűrészes hal. Csináltunk
                   dobtapsot, mire az igazgató lekiabált a páholyból, hogy az egész iskolát
-                  hazakergeti, nagyon röhögtünk Gárdos­sal, minden kép után állathangot utánoztunk
+                  hazakergeti, nagyon röhögtünk Gárdossal, minden kép után állathangot utánoztunk
                   és mondtuk “Náttyon széb! Náttyon széb!” - és minden képnél olyan hangosan
                   álmélkodtunk, hogy milyen gyönyörű, hogy a felolvasó egész büszke volt és minden
-                  kép után úgy nézett szét, mintha ő festette volna. Kivettem a könyv­tárból
+                  kép után úgy nézett szét, mintha ő festette volna. Kivettem a könyvtárból
                   “Servadec Hektort”, este olvasok majd. Délután bent voltam a plébániakertben és
                   eperfalevelet szedtem a hernyóknak, ja igaz, megölték a kínai császárt, nagy
                   forradalom lesz. Nem férnek a bőrükbe ezek a kínaiak! Mostan az udvariban ülök,
                   holnap nem lesz suli. Átnézem a történelmet és megcsináltam az ábrázolót, kúp
                   lefordítása az első képsíkba, jó nehéz volt.</p>
-               <p>febr. 14.</p>
-               <p>Ma beírtak az osztálykönyvbe, mert a Jákó rámfogta, hogy a manzsettámra írtam a
+				<p>febr. 14.</p>
+				<p>Ma beírtak az osztálykönyvbe, mert a Jákó rámfogta, hogy a manzsettámra írtam a
                   puskát, pedig nem is természetrajzból írtam, hanem németből. Annyi baj legyen,
                   majd megkérem az osztályfőnököt, hogy húzzon ki. Ma Shakespeare-től olvastam
                   Hamletet, igen jó tragédia a nagy brit költő tollából. Ma egész nap olyan szomorú
@@ -1079,12 +1062,11 @@
                   Hamletben. Arra gondoltam, hogy milyen kár az ifjúságért, mely elmúlik és hogy én
                   már sohase leszek olyan vidám és elégedett, mint harmadikban. Hiába! az élet nem
                   olyan víg dolog!... de hagyjuk!...</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>LÓGOK A SZEREN</head>
-               <p>Lógok a szeren.</p>
-               <p>Azt, hogy az izmaim még fejletlenek s mellem is szűkecske, azt én nagyon jól
+			</div>
+			<div type="chapter">
+				<head>LÓGOK A SZEREN</head>
+				<p>Lógok a szeren.</p>
+				<p>Azt, hogy az izmaim még fejletlenek s mellem is szűkecske, azt én nagyon jól
                   tudom. De nem tudhatjátok, hogy mi lakik bennem. Én is csak homályosan sejtem,
                   borzongva gondolok rá, olyankor, mikor könnyedén simul rám a tornatrikó, és lábam
                   gumicipősen szökdel a tornaterem csertörmelékében. Igaz: Wlach ötvenkilós súlyokat
@@ -1096,29 +1078,29 @@
                   mégis megtanulom? Csodálatos lény jelenik meg ez esetben a világ színpadán;
                   tüneményes ember, akihez képest Jókai hősei közönséges tucatemberek. Képzeljék el,
                   hogy egy napon ilyen újságcikk jelenik meg a lapokban: “Érthetetlen és nagyszerű
-                  előadás kápráz­tatta el tegnap a Vigadó dísztermében összegyűlt álmélkodó
+                  előadás kápráztatta el tegnap a Vigadó dísztermében összegyűlt álmélkodó
                   közönséget. Egy fiatalember, akiről eddig senki se tudott (itt az én nevem
                   következik) jelent meg a dobogón s »Az élet értelme másodfokú egyenletekben« című
-                  előadásban tökéletes francia nyelven, meg­oldotta a világnak rejtélyét, amin eddig
+                  előadásban tökéletes francia nyelven, megoldotta a világnak rejtélyét, amin eddig
                   hiába fáradoztak a legnagyobb elmék - s mindezt oly nagyszerű előadóművészettel,
                   hogy a jelenvolt világhírű színészek sírva tolongtak a dobogó felé, hogy kezet
-                  szoríthassanak az alig tizenhat éves zsenivel. De az ifjú szerényen és nyu­god­tan
-                  mosoly­gott csupán, s egy váratlan mozdulattal az asztalra ugorva, kézállásba
-                  helyez­kedett, majd három salto mortale-t csinálva a megdöbbent közönség fölött,
+                  szoríthassanak az alig tizenhat éves zsenivel. De az ifjú szerényen és nyugodtan
+                  mosolygott csupán, s egy váratlan mozdulattal az asztalra ugorva, kézállásba
+                  helyezkedett, majd három salto mortale-t csinálva a megdöbbent közönség fölött,
                   elkapta a feje fölött húzódó vasrudat, és azon szédítő halálforgásokat végezve,
-                  átugrott a kilencméternyire elhelye­zett kály­hára, de úgy, hogy kézállásban
+                  átugrott a kilencméternyire elhelyezett kályhára, de úgy, hogy kézállásban
                   maradt azért, s előbbi előadását ebben a helyzetben folytatta, nyugodt és
                   behízelgő modorban, végleg megoldva a nagyszerű problémát...”</p>
-               <p>Lógok a szeren.</p>
-               <p>Ti ezen csodálkoztok, mert nem tudjátok elképzelni, hogy lehet ember, aki
-                  mindenben egy­formán tökéletes. Ti öregek és konzervatívok vagytok, és azt
+				<p>Lógok a szeren.</p>
+				<p>Ti ezen csodálkoztok, mert nem tudjátok elképzelni, hogy lehet ember, aki
+                  mindenben egyformán tökéletes. Ti öregek és konzervatívok vagytok, és azt
                   hiszitek, hogy a világ ezentúl is csak olyan lesz, mint eddig, és elfelejtitek,
                   hogy egyszer eljön majd az érettségi. Ti nem tudjátok például elképzelni, hogy
                   lehet majd esetleg egy miniszterelnök (a nevét szerénységem tiltja megsejtetni
                   veletek), aki egy napon, miután szenvtelen és nyugodt hangon bejelentette az
                   országgyűlésnek, hogy néhány jól megfontolt diplomáciai művelettel, amikről eddig
                   nem akart beszélni, mert nem a szavak embere, sikerült Angliát, mint egyszerű
-                  gyarmatot, Magyar­országhoz csatolni, s ezt ezennel tudatja a tisztelt Házzal -
+                  gyarmatot, Magyarországhoz csatolni, s ezt ezennel tudatja a tisztelt Házzal -
                   mondom, miután ezt szenvtelen és hideg hangon előadta, nem törődve az ordító és
                   ujjongó képviselőkkel, akik vállukra akarják emelni, hirtelen vívóállásba
                   helyezkedik s egy szédítő, eddig ismeretlen dzsiu-dzsicu fogással, ott, a
@@ -1126,7 +1108,7 @@
                   világbirkózóbajnokot, akit az angol ellenzék orvul elhelyezett az emelvény
                   belsejében, hogy a legnagyobb európai férfit megölje. Ti nem tudjátok elképzelni,
                   hogy valaki délelőtt mint Főakadémikus előadást tart az egyetemi tanároknak,
-                  délután pedig megnyeri a hátúszás és függeszkedés világbajnok­ságát, mellesleg a
+                  délután pedig megnyeri a hátúszás és függeszkedés világbajnokságát, mellesleg a
                   rúdugrásét is esetleg, hogy aztán este az ámuló közönség előtt hajlongjon, mely a
                   Nemzeti Színházban ugyanezen ifjú drámájának ötszázadik előadását tapsolja orkán
                   gyanánt. Ez a rendkívüli ifjú nem azért találta fel a Holdbarepülőgépet, mintha
@@ -1134,10 +1116,10 @@
                   férfi időnként hanyag mozdulattal rúg be harminckét gólt az Eftécé vagy Mac
                   kapujába, mely csapatok együttes erővel sem bírnak vele, aki egyedül áll ki
                   ellenök.</p>
-               <p>Lógok a szeren.</p>
-               <p>Na jó, jó, egyelőre persze még egy kicsit gyakorolni kell magamat. A lélek
+				<p>Lógok a szeren.</p>
+				<p>Na jó, jó, egyelőre persze még egy kicsit gyakorolni kell magamat. A lélek
                   jóllehet, kész, de a test erőtlen, és a szereket nagyon ravasz emberek találták
-                  ki. Síkos a pózna, és pontos meg­figyelések alapján állíthatom, hogy fölül, a vége
+                  ki. Síkos a pózna, és pontos megfigyelések alapján állíthatom, hogy fölül, a vége
                   felé lényegesen nehezebben mászható, mint eleinte; holott a felületes szemlélő azt
                   hihetné, hogy mindenütt egyformán síkos. Azonkívül az a disznó Bauer mindig a
                   vékonyabb póznához ugrik, és rámhagyja a vastagot. A negyedik-ötödik fogás után
@@ -1147,14 +1129,14 @@
                   szeles emberek, akik magasugrásnál nekirugaszkodnak, nagy svungot vesznek,
                   rádobbantanak az ugródeszkára, földobják magukat és gyakran leverik a mércét. Én
                   nem áltatom magam hiú reményekkel. Eleinte persze - istenem, az ember fiatal és
-                  tüzes - én is bízom a jövőben, sas­szemekkel mérem a távolságot meg a mérce
+                  tüzes - én is bízom a jövőben, sasszemekkel mérem a távolságot meg a mérce
                   magasságát: apró léptekkel kezdem, nekilódulok s már látom magam, repülve lebegni
                   a mérce fölött. De az utolsó pillanatban bölcs rezignáció fog el, közvetlen a
                   mérce előtt - micsoda ostobaság, gondolom, és szerényen, mint egy ibolya,
                   lehajtott fejjel bújok át alatta, olyan ember szelíd és megadó modorában, akinek
                   esze ágában se volt ugorni, csak egy kicsit sétálni akart.</p>
-               <p>Lógok a szeren.</p>
-               <p>Utóvégre, ha meggondoljuk, tulajdonképpen micsoda marhaság az egész - ez az egész
+				<p>Lógok a szeren.</p>
+				<p>Utóvégre, ha meggondoljuk, tulajdonképpen micsoda marhaság az egész - ez az egész
                   intézmény, melyben minden arra megy ki, hogy az emberi testrészek közül lehetőleg
                   egy se maradjon azon a helyen, ahová az Isten teremtette, hanem lehetőleg olyan
                   helyzetet foglaljon el, amelyre az illető testrész soha életében nem számított.
@@ -1170,44 +1152,43 @@
                   ha ezt már tudom: vajon melyik irányban keresendő az illető testrész: - minderre,
                   ugye nem kívánhatjátok, hogy válaszoljak ilyen állapotban. Rúgok egyet, előre vagy
                   hátra, mindegy - kinyitom a szájamat, a szemem becsukom - undorral és
-                  kétségbe­esve eleresztem kezemmel a szert, és hátam nagyot nyekken a vastag
+                  kétségbeesve eleresztem kezemmel a szert, és hátam nagyot nyekken a vastag
                   szőnyegen. Hála istennek - nevethettek már. Az ördög vigye az egész
                   tornaünnepélyt, a benevezést, az első díjat - majom lesz, aki megnyeri.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>A VÉSZTANÁCS</head>
-               <p>Távol áll tőlem, hogy arrogáljam magamnak, mintha a most bekövetkezett nagy
+			</div>
+			<div type="chapter">
+				<head>A VÉSZTANÁCS</head>
+				<p>Távol áll tőlem, hogy arrogáljam magamnak, mintha a most bekövetkezett nagy
                   eseményeket anticipáltam volna; jelen tanulmányomnak egyszerűen csak az a célja,
-                  hogy rávilágítson bizo­nyos eseményekre, melyeknek már 1898-ban szemlélő tanúja és
+                  hogy rávilágítson bizonyos eseményekre, melyeknek már 1898-ban szemlélő tanúja és
                   némiképp szerényen cselekvő szereplője voltam. Nem tudom, mekkora jelentősége
-                  lehet feljegyzéseimnek a világ­háború oknyomozó történetében, a magam részéről nem
+                  lehet feljegyzéseimnek a világháború oknyomozó történetében, a magam részéről nem
                   békülhetnék ki lelkiismeretemmel, ha akár óvatosságból, akár szerénységből
                   elhallgatnék olyan adalékokat, melyeknek véletlenül jutottam birtokába; de
-                  amelyeknek történelmi jelentősége talán nagyobb, semhogy közlésüket mellőz­het­ném
+                  amelyeknek történelmi jelentősége talán nagyobb, semhogy közlésüket mellőzhetném
                   azzal az önmegnyugtatással, hogy én ezzel a jelentőséggel nem vagyok teljesen
-                  tisz­tában.</p>
-               <p>Nyilvánosságra bocsátom hát azt, amit a dologról tudok, minden reflexió vagy
+                  tisztában.</p>
+				<p>Nyilvánosságra bocsátom hát azt, amit a dologról tudok, minden reflexió vagy
                   kritika nélkül, talán lazán és rendszertelenül, de őszintén, nevekkel és
                   évszámokkal. A többit, hogy adataim mennyiben magyarázzák a ma eseményeit, s
                   mennyiben vernek rájuk világosságot, ennek megítélését azokra bízom, akik többet
                   értenek ehhez: a politikusokra és a történelemírókra. Igyekszem röviden és
                   szárazon ragaszkodni a tényekhez.</p>
-               <p>Én Rogyákkal már 1898 szeptemberében ismerkedtem meg; szorosabb ez a nexus azonban
+				<p>Én Rogyákkal már 1898 szeptemberében ismerkedtem meg; szorosabb ez a nexus azonban
                   csak novemberben lett, mikor én, bizonyos adminisztratív körülmények folytán,
                   melyek itt nem bírnak fontossággal, a hatodik padba kerültem, jobbról negyediknek.
                   Hátam mögött, de inkább balra, Zsemlye Tivadar ült és Rogyák előtt Singer. Ennek,
                   mint látni fogjuk, fontos jelentősége van az egész dologban.</p>
-               <p>A lényeges mégis az, hogy én már novemberben olyan belső viszonyban voltam
+				<p>A lényeges mégis az, hogy én már novemberben olyan belső viszonyban voltam
                   Rogyákkal, hogy már akkor egész bizalmasan beszélt nekem politikai
                   állásfoglalásáról, anélkül, hogy ebben az időben sejthettem volna valamit ennek az
                   érdekes embernek a programjából. Elhatározó eseményeknek kellett közbejönniök,
-                  hogy világossá váljon előttem, miszerint itt nem egy­szerűen meggyőződésről vagy
+                  hogy világossá váljon előttem, miszerint itt nem egyszerűen meggyőződésről vagy
                   felfogásról van szó hanem nyílt programról és radikális tervről.</p>
-               <p>Erről az elhatározó eseményről én november végén értesültem. Rogyákot egy reggel
+				<p>Erről az elhatározó eseményről én november végén értesültem. Rogyákot egy reggel
                   izgatott és heves beszélgetésben találtam Singerrel. Áthajolt a pad fölött, élénk
                   taglejtésekkel suttogtak. Singer igen komolynak látszott, keveset beszélt, de
-                  éreztem, hogy döntő fontosságú kijelen­téseket tesz. Érkezésemre hirtelen
+                  éreztem, hogy döntő fontosságú kijelentéseket tesz. Érkezésemre hirtelen
                   elhallgattak. Ez a bizalmatlanság nem sértett, mert ekkor még nem voltam annyira
                   beavatva a dolgokba (később is óvatosak voltak velem szemben), hogy érdemlegesen
                   részt vehettem volna a társalgásban. Tízpercben a folyosón találkoztam Rogyákkal.
@@ -1215,10 +1196,10 @@
                   és kitérő választ adott. Singer már valamivel közlékenyebb volt. Megtudtam, hogy a
                   Rogyák-Zsemlye-ügy, mely már régóta válsággal fenyegetett, ma reggel olyan
                   fordulatot vett, amit már nem lehet tisztán diplomáciai úton elintézni.</p>
-               <p>Arról régebben tudtam, hogy Rogyák és Zsemlye Tivadar között áthidalhatatlan elvi
+				<p>Arról régebben tudtam, hogy Rogyák és Zsemlye Tivadar között áthidalhatatlan elvi
                   ellentétek állanak fenn. Rogyák, mint a radikális program pártfőnöke, Zsemlyét
                   pánjassz aspirációkkal vádolta; - tudnivaló, hogy abban az időben a jasszok
-                  valóságos rémuralmat csináltak a József­városban, és messzeható befolyásuk már a
+                  valóságos rémuralmat csináltak a Józsefvárosban, és messzeható befolyásuk már a
                   Rigó utcában is éreztette hatását. Arról suttogtak néhányan, hogy kémeik közénk
                   furakodtak, beiratkoztak az ötödik, hatodik osztályba, mintha igazi Tanulók
                   volnának. Zsemlye Tivadar nyíltan tagadta, mintha a jasszokkal bármiféle politikai
@@ -1231,14 +1212,14 @@
                   megfeledkezve az elővigyázatról, azzal fenyegette meg Rogyákot és párthíveit, hogy
                   hat órakor, hazamenet, dorongokkal felfegyverkezett jasszok támadják meg az
                   Osztályt.</p>
-               <p>Később belátván elhamarkodott kijelentésének rendkívüli fontosságát, igyekezett
+				<p>Később belátván elhamarkodott kijelentésének rendkívüli fontosságát, igyekezett
                   visszaszívni a dolgot, és azt állította, hogy neki ebben a dologban semmi szerepe
                   nincsen, hitelesen nem tud semmit az egészről, és neki is csak úgy mondták. Rogyák
                   ezt már nem vette tudomásul, azonnal megszüntette Zsemlye Tivadarral a tárgyalást,
                   és Singerrel visszavonult tanácskozni.</p>
-               <p>Így álltak a dolgok délelőtt tizenegy órakor. A helyzet képét töredékes
+				<p>Így álltak a dolgok délelőtt tizenegy órakor. A helyzet képét töredékes
                   megjegyzésekből rekonstruáltam - Singer és Rogyák, a nehéz órák felelősségét
-                  érezve, csak a legnagyobb tartóz­kodással beszéltek a helyzetről. Még tizenegy
+                  érezve, csak a legnagyobb tartózkodással beszéltek a helyzetről. Még tizenegy
                   előtt, óra alatt, a padon át küldött Marconi-lökdösést kaptam Zsemlyétől, melyben
                   becsületisten terhe alatt felszólított, hogy óra után várjam meg a kapunál,
                   rendkívüli fontosságú közlései vannak a számomra. Bár akkor még nem értettem
@@ -1247,20 +1228,20 @@
                   beállítaná: ösztönszerűleg éreztem, hogy ebben a kérdésben Rogyákék mellé kell
                   állanom, és Zsemlye Tivadar felszólítására, hogy tárgyaljak vele, kitérő választ
                   adtam.</p>
-               <p>Rogyák, aki tanúja volt lojális viselkedésemnek, nem szólt, de éreztem, hogy
-                  bennem való bizal­ma nagyban megerősödött. Azzal az udvarias, de rövid
-                  komolysággal, amit azóta se tapasz­­taltam államférfiúban, tudtomra adta utóbb, ha
+				<p>Rogyák, aki tanúja volt lojális viselkedésemnek, nem szólt, de éreztem, hogy
+                  bennem való bizalma nagyban megerősödött. Azzal az udvarias, de rövid
+                  komolysággal, amit azóta se tapasztaltam államférfiúban, tudtomra adta utóbb, ha
                   nincs kifogásom ellene, tizenkettőkor szívesen lát a Mária Terézia téren, ahol
                   Singerrel “vésztanácsi előharcban” (így fejezte ki magát) megbeszélik a
                   teendőket.</p>
-               <p>Dobogó szívvel jelentem meg a megjelölt időben és helyen. A nagy dolgok, melyeknek
+				<p>Dobogó szívvel jelentem meg a megjelölt időben és helyen. A nagy dolgok, melyeknek
                   így gyújtópontjába kerültem, remegő és büszke izgalommal töltöttek el - ezt az
                   izgalmat azonban palástolni igyekeztem, látva azt a komoly, majdnem gúnyos
                   nyugalmat, amivel ez a két nagyszabású férfiú megbeszélte az óriási horderejű
                   teendőket. Bár nem fogtam fel egészen az összefüggéseket, igyekeztem utánozni az ő
                   fölényes, határozott modorukat, titokban szégyellve, de be nem vallva, hogy a
                   szakkifejezéseket nem mindig értettem meg.</p>
-               <p>Singer az általános helyzet vázolásával kezdte. Zsemlye Tivadar mai kijelentése
+				<p>Singer az általános helyzet vázolásával kezdte. Zsemlye Tivadar mai kijelentése
                   oda enged következtetni, hogy a jasszok árulást követtek el (az “árulás” szó igen
                   gyakran fordult elő ezen a haditanácson), és így a Rigó utca e percben
                   vészbajviszonyba került részint Zsemlye Tivadarral, részint azokkal a jasszokkal,
@@ -1269,10 +1250,10 @@
                   egy napon a késekkel felfegyverzett jasszok, este, a sötétben, fejbőrünket
                   levágják. A válságos helyzetért Zsemlye felelős - e pontban haladéktalanul
                   intézkedni kell.</p>
-               <p>Singer szavaira Rogyák azzal a hanyag nyugalommal, mely valósággal
+				<p>Singer szavaira Rogyák azzal a hanyag nyugalommal, mely valósággal
                   megborzongatott, kijelentette, hogy ő hajlandó Zsemlye Tivadarral vészpárbajt
                   vívni, meghívott törzsfőnökök előtt, persze csak angolul. Ehhez ragaszkodott, és
-                  ahhoz is, hogy Zsemlyét előzőleg két vész­hadnagy vizsgálja meg, hogy nem
+                  ahhoz is, hogy Zsemlyét előzőleg két vészhadnagy vizsgálja meg, hogy nem
                   rejteget-e páncélt, ami, ugye, árulás volna. Singer bólintott, és könnyedén
                   megjegyezte, hogy az árulásra ő már régen készült, s tekintve, hogy atyjának a
                   Bakonyban óriási földalatti vastelepei vannak, máris intézkedett, hogy nyolcezer
@@ -1280,21 +1261,21 @@
                   bárki is észrevenné. A munkások hónapok óta serényen dolgoznak, s a napokban
                   megérkezik az első szállítmány, mintegy háromezer darab. Ha a jasszok árulás révén
                   megtudtak volna valamit a dologról, és ők is szereznének valahonnan páncélt, arra
-                  az esetre néhány vasruhát csináltatott, vascipőket, vas­nadrágot és teljes
+                  az esetre néhány vasruhát csináltatott, vascipőket, vasnadrágot és teljes
                   vastrikót. A vészpárbajhoz különben ő is hozzájárult, azzal a megszorítással, hogy
                   a vészhadnagyok helyett inkább farmereket kellene hívni, ezekben jobban meg lehet
                   bízni.</p>
-               <p>Abban az időben kicsit félénk voltam, s így sokáig nem mertem megszólalni. Éreztem
+				<p>Abban az időben kicsit félénk voltam, s így sokáig nem mertem megszólalni. Éreztem
                   azonban, hogy tekintélyem így nagyon alászáll, s így zavartan és pirulva én is
-                  megszólaltam, s felve­tet­tem a kérdést, vajon nem volna-e jobb, ha Zsemlye
+                  megszólaltam, s felvetettem a kérdést, vajon nem volna-e jobb, ha Zsemlye
                   Tivadart egyszerűen lefejeztetnénk? Hiszen, ha kimondjuk, hogy tényleg árulás
                   történt, ennek nem volna semmi akadálya.</p>
-               <p>Bár nem mutatták, magam is meglepetve éreztem, hogy indítványom meglepte a
+				<p>Bár nem mutatták, magam is meglepetve éreztem, hogy indítványom meglepte a
                   vésztanácsot. Singer hosszabb beszédben válaszolt, melyben kifejtette, hogy az
                   ötlet magában nem volna rossz, csak az a baj, hogy hadüzenet nélkül az ilyesmit
                   nem lehet megcsinálni, mert hiszen ez (a következő kifejezést sokáig kereste),
-                  mert hiszen ez kelepce volna. Rogyák azonnal hozzá­járult ehhez a felfogáshoz.
-                  Hevesen magyarázni kezdte, hogy jellembecsület szempont­jából hadüzenet nélkül
+                  mert hiszen ez kelepce volna. Rogyák azonnal hozzájárult ehhez a felfogáshoz.
+                  Hevesen magyarázni kezdte, hogy jellembecsület szempontjából hadüzenet nélkül
                   képtelenség kelepcét állítani (így mondta), ennek megvan a maga módja. Különben a
                   kelepce nagyon kényes dolog, ehhez külön megállapodás kell és sok feltétel, amit
                   mind tisztázni kellene, és e pillanatban nem tudja egészen biztosan, vajon
@@ -1303,7 +1284,7 @@
                   háborús kérdésekben az ő tanácsadója. Nehogy azonban közben ismét elrontson
                   mindent az árulás, azt ajánlja, hogy kelepce helyett indítsunk csatát, mégpedig
                   haladéktalanul.</p>
-               <p>Singer ehhez hozzájárult. Most már csak a formai kérdések voltak hátra: elsősorban
+				<p>Singer ehhez hozzájárult. Most már csak a formai kérdések voltak hátra: elsősorban
                   persze a zászló. Singer megígérte, hogy másnapra behozza a zászlót, a hozzávaló
                   bélyegzővel, amit az ő atyja már régebben megcsináltatott, és eddig az íróasztalon
                   tartogatott, várva, míg szükség lesz rá. Rogyáknak itt újabb nehézség ötlött
@@ -1312,36 +1293,35 @@
                   jött. Ekkor megint megszólaltam, s azt ajánlottam, hogy a prédát talán gyűjtés
                   útján lehetne beszerezni. Mindjárt megbántam elhamarkodott közbeszólásomat, mert
                   mind a ketten hirtelen elhallgattak, összenéztek, és gúnyosan elmosolyodtak.
-                  Megint elpirul­tam, és zavartan dadogtam valamit, hogy hiszen nem úgy értem, mire
-                  Rogyák atyásan magya­rázó, fölényes jóindulattal fölvilágosított, hogy a prédát
+                  Megint elpirultam, és zavartan dadogtam valamit, hogy hiszen nem úgy értem, mire
+                  Rogyák atyásan magyarázó, fölényes jóindulattal fölvilágosított, hogy a prédát
                   nem lehet gyűjteni, mert hiszen az egy vérengző állat, és a csatába két rendőr
                   szokta vinni láncon, a sereg előtt, közvetlenül a zászló mellett.</p>
-               <p>Ebben állapodtunk meg. A tanácskozás után Rogyák vészesküt vett tőlünk, hogy nem
+				<p>Ebben állapodtunk meg. A tanácskozás után Rogyák vészesküt vett tőlünk, hogy nem
                   követünk el árulást.</p>
-               <p>Másnap kilenc órakor meginterpelláltam Rogyákot, hogyan állunk a háborúval. Azt
+				<p>Másnap kilenc órakor meginterpelláltam Rogyákot, hogyan állunk a háborúval. Azt
                   felelte: hogy Singer nem kapta meg a páncélokat, mert a hajó, amely a Bakonyból
                   hozza a holmit, zátonyra futott.</p>
-               <p>Később közölte velem, hogy az egész dolgot el kell halasztani bizonytalan időre,
-                  mert kará­csony előtt, míg meg nem tudjuk, hogy leszünk az okiratokkal, az egész
-                  dolog nem tény­valóság. Biztosított azonban, hogy az előkészületek minden irányban
+				<p>Később közölte velem, hogy az egész dolgot el kell halasztani bizonytalan időre,
+                  mert karácsony előtt, míg meg nem tudjuk, hogy leszünk az okiratokkal, az egész
+                  dolog nem tényvalóság. Biztosított azonban, hogy az előkészületek minden irányban
                   folynak. A mozgalom egyre terjed, hogy a zászló igenis megvan már, és hogy egész
                   Amerika tud már a dologról. Kaliforniával való szövetségünk már biztos és csak az
                   alkalmas időt várja, hogy egészen csendben és szerényen, anélkül, hogy valaki
                   észrevenné, megindítsa a világcsatát.</p>
-               <p>Ennyi az, amit az 1898-i vésztanácsról tudok. Hosszú ideig nem foglalkoztam a
+				<p>Ennyi az, amit az 1898-i vésztanácsról tudok. Hosszú ideig nem foglalkoztam a
                   dologgal. 1899-ben a reáliskola első osztályába iratkoztam, és évekig egyéb
                   tanulmányok foglaltak le. E nagy események juttatták eszembe mindazt, amit
                   megírtam. Az összefüggések felismerését, ismétlem, azokra bízom, akik erre nálam
                   hivatottabbak.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>HAZUDOK</head>
-               <p>Kezdetben voltak a betűk, és én így szóltam: »úr ír«.</p>
-               <p>Az úr, akiről itt szó volt, magas ember volt, fején fényes cilinderrel - hogy
+			</div>
+			<div type="chapter">
+				<head>HAZUDOK</head>
+				<p>Kezdetben voltak a betűk, és én így szóltam: »úr ír«.</p>
+				<p>Az úr, akiről itt szó volt, magas ember volt, fején fényes cilinderrel - hogy
                   miről és mit ír, arról kevés sejtelmem volt, de éppen azért izgatott ez a kérdés.
                   Egyik barátomtól megkérdeztem, de az kitérő választ adott.</p>
-               <p>Egy másik barátom engem kérdezett, hogy mi hol lakunk. Az utcát nem tudtam
+				<p>Egy másik barátom engem kérdezett, hogy mi hol lakunk. Az utcát nem tudtam
                   pontosan megmondani, de biztosítottam, hogy Pesten az a legelőkelőbb utca. További
                   kérdésekre kissé zárkózottan, mint olyan ember, aki magánügyeiről nem szívesen
                   nyilatkozik - de rövidségéhez képest elég plasztikus válaszban elmondtam neki,
@@ -1349,14 +1329,14 @@
                   kastélyt, a hozzávaló ménessel és két wigwammal. Meg voltam róla győződve, hogy a
                   barátom nem tudja, mi az a wigwam, és bosszantott, hogy nem kérdezi, tehát úgy
                   tesz, mintha tudná.</p>
-               <p>Barátom azonban nem kérdezte, sőt a saját dolgaira tért, és elmondta, hogy náluk
+				<p>Barátom azonban nem kérdezte, sőt a saját dolgaira tért, és elmondta, hogy náluk
                   vettek egy fürdőkádat. Könnyedén bólintottam, és megjegyeztem, hogy nálunk van már
                   ugyan négy kád, egy az ebédlőben, egy az írószobában és kettő a wigwamban, de
                   tudomásom szerint most vesznek a hozzám tartozók még ötöt, melyek közül kettőre
                   rácsavarható laterna magicát szereltek fel, és egy kis gépet, amelynek
                   segítségével a fürdőkád magától mozog, mikor benne ülök - sétál, forog, sőt egy
                   kicsit - egy egész picikét - fel is tud emelkedni a levegőbe.</p>
-               <p>Arra a figyelmeztetésre, hogy hiszen a wigwamok bakonyi kastélyunkban vannak és
+				<p>Arra a figyelmeztetésre, hogy hiszen a wigwamok bakonyi kastélyunkban vannak és
                   nem itt Pesten, megmagyaráztam, hogy itteni lakásunk csak ideiglenes, és hogy a
                   kastélyt most alakítják át amerikai rendszerűvé. Megjegyeztem, hogy e célból
                   évekig tanulmányoztam Amerikát, mert apám engem bízott meg ezzel a jelentéktelen
@@ -1365,31 +1345,31 @@
                   derék gépem mindig jól hajtotta, és így néhány hónap alatt megtettem az utat.
                   Őszintén bevallottam, mert nem szerettem a hazudozást, hogy a kis gőzhajó már
                   nincsen meg - egy gyárba adtuk, ahol mostan tágítják egy kicsit.</p>
-               <p>Ezután bizonyára abbahagytam volna a témát, mert akkoriban még nem voltam barátja
+				<p>Ezután bizonyára abbahagytam volna a témát, mert akkoriban még nem voltam barátja
                   a fecsegésnek, és dicsekedni se szerettem: - de hát mit tehettem, a barátom
                   kíváncsiskodott, és tudni óhajtotta, milyen rangom volt a hajón. Mosolyognom
                   kellett ezen a naivságon, és tartózkodó, de barátságtalan leereszkedéssel
-                  megmagyaráztam neki, hogy ezen a hajón nincse­nek rangok, és ilyenre én nem is
+                  megmagyaráztam neki, hogy ezen a hajón nincsenek rangok, és ilyenre én nem is
                   reflektáltam - különben pedig egy régebbi tengerészutam alkalmából, amiről most
                   nem akarok beszélni, megkaptam a másodtábornoki kinevezést és címert, és én
                   teljesen meg voltam elégedve ezzel.</p>
-               <p>Barátomat érdekelte, hogy rablókkal nem találkoztam-e abban az időben. Jólelkűen
-                  megma­gya­ráztam, hogy a tengeri rablók csak vitorláshajókat támadnak meg: - s ha
-                  effajta kalan­dok­ban volt némi szerény szerepem, az csak szárazföldi rablókkal és
+				<p>Barátomat érdekelte, hogy rablókkal nem találkoztam-e abban az időben. Jólelkűen
+                  megmagyaráztam, hogy a tengeri rablók csak vitorláshajókat támadnak meg: - s ha
+                  effajta kalandokban volt némi szerény szerepem, az csak szárazföldi rablókkal és
                   gyilkosokkal kapcsolatban történhetett, akiket apámmal együtt hajtottunk a bakonyi
                   rengetegben. A felidézett emlékek hatása alatt elmondtam egyik érdekes
                   hajtásunkat, mikor tizenkét rablót és négy gyilkost hajtottunk almáspejkón, akik
                   fára másztak előlünk, mire apám addig rázta a fát, míg négy rabló és - ha jól
                   emlékszem - egy gyilkos leesett. Ezek közül hármat otthon megszelídítettünk, és a
                   kisebb házimunkák elvégzésére szoktattunk.</p>
-               <p>Láttam, hogy barátomat meglepik az apámról mondottak: megkértem tehát, ne szóljon
+				<p>Láttam, hogy barátomat meglepik az apámról mondottak: megkértem tehát, ne szóljon
                   senkinek ezekről a dolgokról, mert nem szeretem, ha kérdezősködésekkel zaklatnak.
                   Apám valamikor megállított két lokomotívot félkézzel, és emiatt most nagyon nehéz
                   a helyzetünk - kiderült ugyanis, hogy a lokomotívok az ellenségé voltak, és e
                   miatt apámnak sok baja volt az ellenséggel. Ha megígérné, már mint a barátom, hogy
                   igazán nem említi senkinek ezt a dolgot, akkor - titoktartásra - közölném vele,
                   hogy a király saját maga volt kénytelen beleavatkozni az ügyekbe. Egy reggel
-                  személyesen megjelent bakonyi kastélyunkban - még egyszer figyel­mez­tetem, ne
+                  személyesen megjelent bakonyi kastélyunkban - még egyszer figyelmeztetem, ne
                   említsen erről semmit, mert súlyos politikai következményei lehetnek, ha valaki
                   megtudja. Szóval - ha igazán érdeklik ilyen jelentéktelen dolgok, amiknek én kevés
                   fontosságot tulajdonítok -, megjelent a király, és igen kérte apámat, ne ingerelné
@@ -1399,7 +1379,7 @@
                   ettünk - nem úgy említem ezt, mint kivételes dolgot, mert őszintén szólva, mi
                   reggelire fagylaltot és csokoládét szoktunk enni -, de akkor délben is fagylalt
                   volt.</p>
-               <p>Barátom figyelmesen hallgatott végig, és egy üveget mutatott, amivel a betűket
+				<p>Barátom figyelmesen hallgatott végig, és egy üveget mutatott, amivel a betűket
                   nagyobbnak lehetett látni. Mosolyogva jegyeztem meg, hogy ismerem ezt a
                   szerszámot, hiszen nekünk otthon van egy há... három méter nagy darab belőle,
                   amibe ha belenéz az ember, egy betűt akkorának lát, mint egy kisebb ház - ezzel az
@@ -1407,16 +1387,16 @@
                   Mars-csillagot is szoktuk nézni vele. Hogy mekkorának látjuk? Na, nem nagynak -
                   akkorának talán, mint az Erzsébet tér -, de viszont nagyon tisztán és világosan
                   meg tudjuk különböztetni az egyes tárgyakat.</p>
-               <p>Ó igen, elég érdekes dolgok, amiket látunk. A Marson főleg hangyák vannak, de
+				<p>Ó igen, elég érdekes dolgok, amiket látunk. A Marson főleg hangyák vannak, de
                   akkora mindegyik, mint nálunk egy ember. Páncélos hangyák vannak és repülő
-                  hangyák, és mond­hatom, jelenleg éppen nagy a mozgalom; tudni kell ugyanis, hogy
+                  hangyák, és mondhatom, jelenleg éppen nagy a mozgalom; tudni kell ugyanis, hogy
                   kétféle hangya van a Marson; vörös hangyák és fekete hangyák, és ezek éppen
                   háborúban vannak egymással.</p>
-               <p>A részleteket aznap nem mondhattam már el a barátomnak, de hazafelé, útközben
-                  össze­szedtem gondolataimat a vörös és fekete hangyákkal kapcsolatban, hogy
+				<p>A részleteket aznap nem mondhattam már el a barátomnak, de hazafelé, útközben
+                  összeszedtem gondolataimat a vörös és fekete hangyákkal kapcsolatban, hogy
                   másnap, ha megint szóba kerül ez a dolog, helyes válaszokat adhassak tudnivágyó
                   barátomnak.</p>
-               <p>Másnap, mikor barátom megint előhozakodott az üveggel, már örömmel értesíthettem
+				<p>Másnap, mikor barátom megint előhozakodott az üveggel, már örömmel értesíthettem
                   őt, hogy az előtte való este - direkte az ő kedvéért - behatóan tanulmányoztam a
                   hangyaháborút, jó teleszkópom segítségével. A vörös hangyák hadállása most elég
                   jó, mondtam - egy nagy hegy mögött helyezkedtek el, és készülnek átkelni a folyón
@@ -1426,14 +1406,14 @@
                   rokonszenves nekem, mert haláltmegvető bátorsággal védte magát egy hegyszorosban,
                   ahol gondolkodva sétált éppen, midőn egy barlangból vörös hangya ugrott elő, és
                   kardját lobogtatva rátámadott.</p>
-               <p>Hazamenet főleg a fekete hangyakirállyal foglalkoztam. A vörös hangyával szemben
+				<p>Hazamenet főleg a fekete hangyakirállyal foglalkoztam. A vörös hangyával szemben
                   tanúsított viselkedése mondhatatlanul meghatott engem is. Éreztem, hogy ilyen
                   viselkedéshez nemcsak roppant testi erő és bátorság kell, de őszintén szólva,
                   olyan lelkiismeretesség, mely a gonosz és áruló támadásokkal szemben éppoly
                   kérlelhetetlen szigort vált ki egy királyból, mint ahogy jóvá és könyörületessé
                   hangolja őt saját népével, az özvegyekkel és árvákkal és más védtelenekkel
                   szemben.</p>
-               <p>Biztos voltam benne, hogy a fekete hangyakirály előbb-utóbb győzni fog, de
+				<p>Biztos voltam benne, hogy a fekete hangyakirály előbb-utóbb győzni fog, de
                   barátomnak ezt nem mondtam meg. Tudtam, hogy a fekete hangyakirály fölényes
                   győzelme csak akkor hat rá teljes erővel, ha előbb végigkíséri a megpróbáltatások
                   egész kálváriáján: - közöltem hát vele, hogy a vörös és fekete hangyák között
@@ -1441,147 +1421,145 @@
                   leírva, mint ez a ház, ennek a könyvnek a lapjait gépek hajtják, és az ember egy
                   hídon állva olvassa a lapokat: - egy lap akkora, hogy a felére rá lehet írni az
                   egész Robinsont. A hangyák háborúja négyezerkétszáz lap hosszú lesz.</p>
-               <p>És aznap, hazamenet, részleteket dolgoztam ki magamban, hogy másnapra kész legyen
+				<p>És aznap, hazamenet, részleteket dolgoztam ki magamban, hogy másnapra kész legyen
                   az anyagom. Két hangya összebeszél, hogy elárulj a fekete hangyakirályt - egy
                   sötét völgyben találkoznak és éjnek évadján megtámadják a palotát. Szerencsére a
                   hangyakirályné ébren van, és figyelmezteti férjét. Azonnal fellármázzák a tábort,
                   két főhangya vezérlete alatt megindul a tenger felé...</p>
-               <p>Erről a fekete, kanyargó rajról beszéltem másnap. Távol a tenger vize csillog a
+				<p>Erről a fekete, kanyargó rajról beszéltem másnap. Távol a tenger vize csillog a
                   lemenő nap fényében. Vadregényes hegyek és végtelen lapályok váltakoznak. Az erdők
                   mélyében, fák között, bokrok árnyékában rejtekeznek és figyelnek a vörös hangyák.
                   Órák kérdése, mikor törnek elő... A fekete raj komoran, baljós nyugalommal,
                   összenyüzsögve zúdul le a völgyre...</p>
-               <p>Így lettem íróvá.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>TANÍTOM A KISFIAMAT</head>
-               <p>- Ha kilenc kályhában öt és fél nap alatt tizenkét köbméter bükkfa ég el - mennyi
+				<p>Így lettem íróvá.</p>
+			</div>
+			<div type="chapter">
+				<head>TANÍTOM A KISFIAMAT</head>
+				<p>- Ha kilenc kályhában öt és fél nap alatt tizenkét köbméter bükkfa ég el - mennyi
                   nap alatt ég el tizenkét kályhában kilenc köbméter bükkfa...</p>
-               <p>- Ha kilenc kályhában...</p>
-               <p>Az íróasztal előtt ülök, valami cikket olvasok. Nem tudok figyelni. A másik
+				<p>- Ha kilenc kályhában...</p>
+				<p>Az íróasztal előtt ülök, valami cikket olvasok. Nem tudok figyelni. A másik
                   szobából már harmincötödször hallom a fenti mondatot.</p>
-               <p>Mi a csoda van már azzal a bükkfával. Muszáj kimenni.</p>
-               <p>Gabi az asztal fölé görnyedve rágja a tollat. Úgy teszek, mintha valami más miatt
+				<p>Mi a csoda van már azzal a bükkfával. Muszáj kimenni.</p>
+				<p>Gabi az asztal fölé görnyedve rágja a tollat. Úgy teszek, mintha valami más miatt
                   mentem volna ki, fontoskodva keresgélek a könyvszekrényben. Gabi lopva rám néz, én
                   összehúzom a szemem, mintha nagyon el volnék foglalva gondjaimmal és nem vennék
                   tudomást róla - érzem is, hogy erre gondol, közben görcsösen mondogatom magamban:
                   “Ha kilenc bükkfa... tizenkét köbméter... akkor hány kályhában...” Ejnye, a
                   csudába! Hogy is van?</p>
-               <p>Elmegyek előtte szórakozottan, megállok, mintha ebben a pillanatban vettem volna
+				<p>Elmegyek előtte szórakozottan, megállok, mintha ebben a pillanatban vettem volna
                   észre.</p>
-               <p>- Na, mi az, kisfiam, tanulgatunk?</p>
-               <p>Gabi szája lefelé görbül.</p>
-               <p>- Apukám...</p>
-               <p>- Mi az?</p>
-               <p>- Nem értem ezt a dolgot.</p>
-               <p>- Nem értem?!.. Gabi!... Hogy lehet ilyet mondani?! Hát nem magyarázták el az
+				<p>- Na, mi az, kisfiam, tanulgatunk?</p>
+				<p>Gabi szája lefelé görbül.</p>
+				<p>- Apukám...</p>
+				<p>- Mi az?</p>
+				<p>- Nem értem ezt a dolgot.</p>
+				<p>- Nem értem?!.. Gabi!... Hogy lehet ilyet mondani?! Hát nem magyarázták el az
                   iskolában?</p>
-               <p>- De igen, csakhogy...</p>
-               <p>A torkomat köszörülöm. Aztán már nyersen és ellenségesen:</p>
-               <p>- Mi az, amit nem értesz?</p>
-               <p>Gabi mohón, gyorsan és megkönnyebbülve, máris hadarni kezdi, mint akinek nagy
+				<p>- De igen, csakhogy...</p>
+				<p>A torkomat köszörülöm. Aztán már nyersen és ellenségesen:</p>
+				<p>- Mi az, amit nem értesz?</p>
+				<p>Gabi mohón, gyorsan és megkönnyebbülve, máris hadarni kezdi, mint akinek nagy
                   súlyt vettek le a válláról.</p>
-               <p>- Nézd apukám, ha kilenc kályhában öt és fél nap alatt tizenkét köbméter bükkfa ég
+				<p>- Nézd apukám, ha kilenc kályhában öt és fél nap alatt tizenkét köbméter bükkfa ég
                   el...</p>
-               <p>Én dühösen:</p>
-               <p>- Papperlapapp!... Ne hadarj!... Így nem lehet értelmesen gondolkodni!... Tessék
+				<p>Én dühösen:</p>
+				<p>- Papperlapapp!... Ne hadarj!... Így nem lehet értelmesen gondolkodni!... Tessék
                   még egyszer nyugodtan és megfontoltan elmondani, majd akkor meg fogod érteni! -
                   Nna, adj egy kis helyet.</p>
-               <p>Gabi boldogan és fürgén félrehúzódik. Ő azt hiszi, hogy én most nem tudom, hogy ő
+				<p>Gabi boldogan és fürgén félrehúzódik. Ő azt hiszi, hogy én most nem tudom, hogy ő
                   most vidáman rám bízta az egész dolgot - ő nem tudja, ő persze nem emlékszik
                   ugyanerre a jelenetre, húszegynéhány évvel ezelőtt, mikor én húzódtam így félre,
-                  boldogan és meg­könnyebbülve, és az apám ült le így mellém, ugyanezzel a
+                  boldogan és megkönnyebbülve, és az apám ült le így mellém, ugyanezzel a
                   bosszankodó és fontoskodó arccal, mint most én. És ami a legborzasztóbb, még hozzá
                   - ebben a pillanatban villan át rajtam - erről, ugyanerről a példáról volt szó
                   akkor is!... Úgy van, nincs kétség!... a bükkfa és a kályha! szent Isten!... pedig
                   akkor már majdnem megértettem - csak elfelejtettem!...</p>
-               <p>Az egész húszegynéhány éves korunk egy pillanat alatt a semmibe süllyed. Hogy is
+				<p>Az egész húszegynéhány éves korunk egy pillanat alatt a semmibe süllyed. Hogy is
                   volt csak?</p>
-               <p>- Nézd, Gabi, mondom türelmesen - az ember nem a szájával gondolkodik, hanem az
+				<p>- Nézd, Gabi, mondom türelmesen - az ember nem a szájával gondolkodik, hanem az
                   eszével. Mi az, amit nem értesz?!... Hiszen ez olyan egyszerű és világos, mint a
                   nap - ezt az első elemista is megérti, ha egy pillanatig figyel. Nézd, fiam. Ugye,
                   itt van az, hogy kilenc kályhában öt és fél nap alatt ennyi és ennyi bükkfa ég el.
                   Nnna. Mit nem értesz ezen?</p>
-               <p>- Ezt értem, apukám... csak azt nem tudom, hogy az első aránypár fordított és a
+				<p>- Ezt értem, apukám... csak azt nem tudom, hogy az első aránypár fordított és a
                   második egyenes, vagy az első egyenes és a második fordított, vagy mind a kettő
                   egyenes, vagy mind a kettő fordított.</p>
-               <p>A fejbőröm, a hajam tövében, lassan hidegedni kezd. Mi a csudát fecseg ez itt
-                  össze az arány­párokról? Mik lehetnek azok az átkozott aránypárok?!... Honnan
+				<p>A fejbőröm, a hajam tövében, lassan hidegedni kezd. Mi a csudát fecseg ez itt
+                  össze az aránypárokról? Mik lehetnek azok az átkozott aránypárok?!... Honnan
                   lehetne ezt hirtelenében megtudni?</p>
-               <p>Most már hangosan szólok rá:</p>
-               <p>- Gabi!.. Már megint hadarsz!... Hogy akarod így megérteni?... Az ember a
+				<p>Most már hangosan szólok rá:</p>
+				<p>- Gabi!.. Már megint hadarsz!... Hogy akarod így megérteni?... Az ember a
                   szájával, izé... Mi az, hogy fordított meg egyenes, meg egyenes meg fordított,
                   papperlapapp, vagy a falramászott nagybőgős!</p>
-               <p>Gabi röhög. Ráordítok:</p>
-               <p>- Ne röhögj! Ezért taníttatlak, kínlódom veled!... Ez azért van, mert nem figyelsz
-                  az isko­lá­ban!... Hiszen te azt se tudod... hiszen te azt se tudod... (Elképedve
+				<p>Gabi röhög. Ráordítok:</p>
+				<p>- Ne röhögj! Ezért taníttatlak, kínlódom veled!... Ez azért van, mert nem figyelsz
+                  az iskolában!... Hiszen te azt se tudod... hiszen te azt se tudod... (Elképedve
                   meredek rá, mintha egy szörnyű gyanú ébredt volna fel bennem.) Hiszen te talán azt
                   se tudod, hogy mi az az aránypár?!...</p>
-               <p>- Dehogynem, apukám... Az aránypár... az aránypár... az aránypár az a két
+				<p>- Dehogynem, apukám... Az aránypár... az aránypár... az aránypár az a két
                   viszony... amelyben a belső tagok hányadosa... illetve a külső tagok
                   szorzata...</p>
-               <p>Összecsapom a kezem.</p>
-               <p>- Mondom!... Tizennégy éves kamasz, és nem tudja, mi az az aránypár!</p>
-               <p>Gabi szája megint lefelé görbül.</p>
-               <p>- Hát mi?</p>
-               <p>- Hogy mi? Na megállj, te csirkefogó!... Most azonnal előveszed a könyvet, és
+				<p>Összecsapom a kezem.</p>
+				<p>- Mondom!... Tizennégy éves kamasz, és nem tudja, mi az az aránypár!</p>
+				<p>Gabi szája megint lefelé görbül.</p>
+				<p>- Hát mi?</p>
+				<p>- Hogy mi? Na megállj, te csirkefogó!... Most azonnal előveszed a könyvet, és
                   harmincszor elmondod!!... mert különben...</p>
-               <p>Gabi megszeppenve lapozgat, aztán hadarni kezdi:</p>
-               <p>- Az aránypár azon mennyiség, melynek két beltagja úgy viszonylik két másik
+				<p>Gabi megszeppenve lapozgat, aztán hadarni kezdi:</p>
+				<p>- Az aránypár azon mennyiség, melynek két beltagja úgy viszonylik két másik
                   mennyiséghez, valamint... igen, apukám, de melyik itt a két beltag, a bükkfa
                   térfogata és a napok száma, vagy a kályhák száma és a bükkfa térfogata?...</p>
-               <p>- Már megint hadarsz?! Add ide azt a könyvet.</p>
-               <p>És most rettentő komolyan kezdem:</p>
-               <p>- Ide nézz, Gabi, ne légy már olyan ostoba. Hiszen ez olyan világos, mint a nap.
+				<p>- Már megint hadarsz?! Add ide azt a könyvet.</p>
+				<p>És most rettentő komolyan kezdem:</p>
+				<p>- Ide nézz, Gabi, ne légy már olyan ostoba. Hiszen ez olyan világos, mint a nap.
                   Na nézd, milyen egyszerű. Na. Ide figyelj! Ugye, azt mondja, hogy kilenc kályhában
                   ennyi nap alatt ennyi és ennyi bükkfa. Tehát ha ennyi és ennyi bükkfa kilenc nap
                   alatt, akkor világos, ugye, hogy tizenkét nap alatt viszont nem ennyi és ennyi,
                   hanem...</p>
-               <p>- Igen, apukám, eddig én is értem, de az aránypár...</p>
-               <p>Dühbe jövök.</p>
-               <p>- Ne fecsegj bele, így nem érte... nem érted meg. Ide figyelj. Ha kilenc nap alatt
+				<p>- Igen, apukám, eddig én is értem, de az aránypár...</p>
+				<p>Dühbe jövök.</p>
+				<p>- Ne fecsegj bele, így nem érte... nem érted meg. Ide figyelj. Ha kilenc nap alatt
                   ennyi és ennyi - akkor tizenkét nap alatt, mondjuk, esetleg ennyi és ennyivel
                   több. De viszont, pardon, azért nem több mégse, mert nem kilenc kályhában, hanem
                   tizenkettőben, tehát ennyivel kevesebb, vagyis ennyivel több, mintha ugyanannyival
                   kevesebb volna, mint amennyivel több... Itt ugyanis az aránypár... az
                   aránypár...</p>
-               <p>Egyszerre világosság gyúl az agyamban. Mint egy villámcsapás, úgy ér a Nagy
+				<p>Egyszerre világosság gyúl az agyamban. Mint egy villámcsapás, úgy ér a Nagy
                   Megismerés, aminek hiánya húszegynéhány év óta lappang és borong bennem - úgy van,
                   most rájöttem!... Nincs kétség - akkor... ott... egészen nyilvánvaló - úgy van,
                   nyilvánvaló, az apám se értette ezt a példát!
                </p>
-               <p>Lopva a Gabira nézek. Gabi közben észrevétlenül kinyitja a történelemkönyvet, és
+				<p>Lopva a Gabira nézek. Gabi közben észrevétlenül kinyitja a történelemkönyvet, és
                   most félszemmel azt a jelenetet nézi egy régi képen nagy kéjjel, ahogy Kinizsi Pál
                   két törököt dögönyöz.</p>
-               <p>Nagyot ütök a kobakjára, csak úgy csattan.</p>
-               <p>- Nesze!... majd bolond leszek itt kínlódni veled, mikor nem figyelsz!</p>
-               <p>Gabi bőg, mint a két török együttvéve.</p>
-               <p>Én pedig megkönnyebbülve ugrom fel, és a múlt ködén keresztül egy arc rajzolódik
+				<p>Nagyot ütök a kobakjára, csak úgy csattan.</p>
+				<p>- Nesze!... majd bolond leszek itt kínlódni veled, mikor nem figyelsz!</p>
+				<p>Gabi bőg, mint a két török együttvéve.</p>
+				<p>Én pedig megkönnyebbülve ugrom fel, és a múlt ködén keresztül egy arc rajzolódik
                   elém - az apámé, amint nagyot üt a kobakomra, vígan és megkönnyebbülve, mintha azt
                   mondaná: “add tovább a fiadnak! énnekem már elég volt!”, és fütyörészve,
                   zsebredugott kezekkel, vígan indul el a sír felé, ahol egészen mindegy, hogy hány
                   nap alatt ég el kilenc köbméter bükkfa és hatvan-hetven év élet.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>ELNÖKÖLTEM AZ OSZTÁLYVIZSGÁN</head>
-               <p>Az osztályvizsga - negyedik elemiből - tegnap volt a Vály utcában. Gabi, akinek ez
+			</div>
+			<div type="chapter">
+				<head>ELNÖKÖLTEM AZ OSZTÁLYVIZSGÁN</head>
+				<p>Az osztályvizsga - negyedik elemiből - tegnap volt a Vály utcában. Gabi, akinek ez
                   kétszeresen nagy nap, hiszen nemcsak az osztályból, hanem egész elemi iskolai
                   minőségétől búcsúzik vele, jövőre már gimnazista - néhány jóakaratú, atyai
                   felvilágosítással próbálja megértetni velem, miről van szó.</p>
-               <p>- Dehogyis, apukám - csóválja a fejét elnézően -, a bizonyítványt nem ma kapjuk,
+				<p>- Dehogyis, apukám - csóválja a fejét elnézően -, a bizonyítványt nem ma kapjuk,
                   hanem majd a záróünnepélyen.</p>
-               <p>- S a szülőknek se mutatják meg?</p>
-               <p>- Hogyisne! Senkinek a világon. A tanító úr megmondta a Dudásnak, hogy abba az
+				<p>- S a szülőknek se mutatják meg?</p>
+				<p>- Hogyisne! Senkinek a világon. A tanító úr megmondta a Dudásnak, hogy abba az
                   atyaúristen se nézhet bele, míg ki nem osztják.</p>
-               <p>Sértve érzem magam.</p>
-               <p>- Hát fogadjunk, hogy nekem megmutatják.</p>
-               <p>Gabi oldalról néz rám, és a tekintetében udvariasan, de határozottan benne van a
+				<p>Sértve érzem magam.</p>
+				<p>- Hát fogadjunk, hogy nekem megmutatják.</p>
+				<p>Gabi oldalról néz rám, és a tekintetében udvariasan, de határozottan benne van a
                   szánakozó feddés: kicsit sokat képzelsz magadról, barátom. Ha a Dudás papájának
                   se, aki pedig mészáros...</p>
-               <p>Na jó, majd meglátjuk. Abba igaza van a gyereknek, hogy az iskolának van valami
-                  meg­szeppentő hatása rám is. A kis könyv, amit évközben kapni szoktak,
+				<p>Na jó, majd meglátjuk. Abba igaza van a gyereknek, hogy az iskolának van valami
+                  megszeppentő hatása rám is. A kis könyv, amit évközben kapni szoktak,
                   utasításaiban határozottan és kategorikusan beszél tanulóról és szülőről. Tanuló,
                   az tanuló, és a szülő, az szülő. A tanuló tartozik ezt és azt - mondja a kiskönyv,
                   ezzel szemben a szülő vagy gyám így és úgy, ekkor és akkor. A kiskönyv jóságosan,
@@ -1589,9 +1567,9 @@
                   Az a furcsa, félig jóleső, félig nyugtalanító érzésem van, ha olvasom, hogy én, a
                   szülő, tulajdonképpen szintén hozzátartozom az iskolához, fennhatósága alatt
                   állok, tartozom elvégezni szülői kötelességem, a többit bízzam rájuk. A tanuló az
-                  iskolában tartóz­kodik és tanul - a szülő közben otthon tartózkodik és... izé...
+                  iskolában tartózkodik és tanul - a szülő közben otthon tartózkodik és... izé...
                   (mellékesen szólva, miért hívnak engem szülőnek, sohase szültem életemben!)</p>
-               <p>Akárhogy csűröm-csavarom, nem tudom legyőzni elfogultságom: és a nagyobbik baj,
+				<p>Akárhogy csűröm-csavarom, nem tudom legyőzni elfogultságom: és a nagyobbik baj,
                   hogy Gabi ezt tudja és természetesnek találja. Természetesnek találja, hogy az
                   iskolaszolgának azt mondom, kicsit drukkolva: “pardon, kérem szépen, erre van a
                   negyedik osztály?” és leveszem a kalapom. Gabi nem tudja, hogy a miniszterelnökség
@@ -1599,45 +1577,45 @@
                   szülő s tanuló közt, az iskola szempontjából, lényeges különbség nincsen, és
                   nagyon helyes, hogy én is lábujjhegyen és félszegen baktatok el az osztályok
                   előtt, melyeknek zárt ajtaján zümmögés szűrődik át. Még rám is szól:</p>
-               <p>- Pszt, apukám, itt halkabban kell beszélni.</p>
-               <p>A Negyedik Osztály hangulata ünnepi. Virágcsokrok az asztalon. A gyerekek
-                  fehérben, csen­desen suttogva ülnek, még nem jött be a tanító úr. Néhány szülő a
+				<p>- Pszt, apukám, itt halkabban kell beszélni.</p>
+				<p>A Negyedik Osztály hangulata ünnepi. Virágcsokrok az asztalon. A gyerekek
+                  fehérben, csendesen suttogva ülnek, még nem jött be a tanító úr. Néhány szülő a
                   fal mellé állított székeken, csendben és illedelmesen. A gyerekek végigmustrálnak,
                   megállapítják, hogy Gabihoz tartozom mint szülő, azaz gyám, akinek az ajtó mellett
                   a helye. Gabi előremegy, a padok felé, könnyedén és otthonosan - én félszegen az
                   ajtóban maradok, mint az inas, aki elkísérte gazdáját a klubba. Gabit körülveszik,
                   Gabi is felélénkül. Csodálkozva nézem, milyen elfogulatlanul cseveg
-                  osztály­társaival; és irigylem, hogy azok milyen maguk közé tartozónak érzik.
+                  osztálytársaival; és irigylem, hogy azok milyen maguk közé tartozónak érzik.
                   Szeretnék én is úgy beszélni velük, elfogulatlanul és hatalmasan, mint Gabi, de
                   érzem, hogy zavarba jönnék, félszeg volnék: ők pedig megmerevednének, hűvös
                   udvariassággal felelnének. Hiába. Ez a negyedikes tanulók osztálya, én pedig a
                   negyedikes szülők osztályához tartozom. Nincs az a forradalmi cselekedet, ami ezt
                   az osztálykülönbséget megszüntethetné.</p>
-               <p>Kezdem egészen árvának érezni magam. Odamegyek Gabihoz, aki két fiúval nevetgél.
+				<p>Kezdem egészen árvának érezni magam. Odamegyek Gabihoz, aki két fiúval nevetgél.
                   Halkan megszólítom, felém fordul, elkomolyodik, ő is halkabban beszél.</p>
-               <p>- Gabi kérlek - mondom, közönyös elfogulatlanságot erőltetve -, hol lehet ilyenkor
+				<p>- Gabi kérlek - mondom, közönyös elfogulatlanságot erőltetve -, hol lehet ilyenkor
                   a tanító úr? Bemennék hozzá.</p>
-               <p>- Nem lehet, apukám. A tanáriba nem mehet be a szülő. Majd mindjárt bejön.</p>
-               <p>Köhög, félreállok. A gyerekek szigorúan néznek rám.</p>
-               <p>De íme, jön a tanító, sietve. Nagy suhogás, mindenki feláll - én is, ijedten.</p>
-               <p>- Üljenek le!</p>
-               <p>Most ima következik. Utána a tanító úr köhög, körülnéz. Engem is észrevesz,
+				<p>- Nem lehet, apukám. A tanáriba nem mehet be a szülő. Majd mindjárt bejön.</p>
+				<p>Köhög, félreállok. A gyerekek szigorúan néznek rám.</p>
+				<p>De íme, jön a tanító, sietve. Nagy suhogás, mindenki feláll - én is, ijedten.</p>
+				<p>- Üljenek le!</p>
+				<p>Most ima következik. Utána a tanító úr köhög, körülnéz. Engem is észrevesz,
                   nyájasan és kedvesen biccent. Én is mosolyogva válaszolok - később rajtakapom
                   magam, hogy rögtön Gabira néztem utána, vajon észrevette-e, hogy milyen jóba
                   vagyunk a tanító úrral. Önbizalmam kezd visszatérni.</p>
-               <p>Számolnak. - Nyolc meg négy... leírom az egyest, marad...</p>
-               <p>- Folytasd, Gabi!</p>
-               <p>Gabi fürgén ugrik a táblához. Izgatottan figyelem minden mozdulatát, hogy veszi
+				<p>Számolnak. - Nyolc meg négy... leírom az egyest, marad...</p>
+				<p>- Folytasd, Gabi!</p>
+				<p>Gabi fürgén ugrik a táblához. Izgatottan figyelem minden mozdulatát, hogy veszi
                   fel a krétát, hogy húzza össze szemöldökét a rettenetes nagy figyelemtől,
                   kinyújtott karjában a krétával, úgy áll, mint egy vívó, akinek most meg kell
                   mérkőznie a négyszögletes alakú nagy Feladattal.</p>
-               <p>De rám nem néz egy pillanatra se.</p>
-               <p>Közben váratlan esemény. Az igazgató úr csendben bejött az ajtón, egy kicsit nézi
+				<p>De rám nem néz egy pillanatra se.</p>
+				<p>Közben váratlan esemény. Az igazgató úr csendben bejött az ajtón, egy kicsit nézi
                   az ügyet, megismer, és odajön hozzám.</p>
-               <p>- Egy kérésünk volna. Nincs elnök a vizsgához... - és ha már úgyis itt vagyok...
+				<p>- Egy kérésünk volna. Nincs elnök a vizsgához... - és ha már úgyis itt vagyok...
                   tiszteljem meg az iskolát... és a többi... szóval, foglaljam el az elnöki
                   széket.</p>
-               <p>Érzem, hogy elvörösödök. És itt közbe kell szúrnom valamit, ami egyrészt a Vály
+				<p>Érzem, hogy elvörösödök. És itt közbe kell szúrnom valamit, ami egyrészt a Vály
                   utcai iskola kitűnő igazgatójának szól, mint lovagias köszönet és hála, a
                   megtiszteltetésért, másrészt kevés számú híveimnek, mint magyarázat és
                   mentegetőzés. Én nagyon jól tudom, hogy nem vagyok se tanügyi, se másféle
@@ -1651,58 +1629,57 @@
                   van szó, hogy meg kell mutatnom, hogy az én osztályomban, mint az Életiskola
                   negyedikese, én is vagyok valaki, vagyok annyi, mint ő az ő
                      Osztályában! Bocsássanak meg!</p>
-               <p>Óvatosan megyek fel a katedrára. Gabi még felel, nem vesz észre. Csak miután
+				<p>Óvatosan megyek fel a katedrára. Gabi még felel, nem vesz észre. Csak miután
                   visszament a helyére és felveti a szemét, csodálkozik el, ott látván az Asztal
                   előtt, hanyagul, előkelően.</p>
-               <p>De gazda nélkül csináltam a számítást.</p>
-               <p>Amíg a fiúk felelnek, minden jól megy. Helyeslően bólintok, fejemet csóválom. A
-                  földrajz­vizsgán titokban megcsodálom azt a diplomáciai tapintatot, azt a pompás
+				<p>De gazda nélkül csináltam a számítást.</p>
+				<p>Amíg a fiúk felelnek, minden jól megy. Helyeslően bólintok, fejemet csóválom. A
+                  földrajzvizsgán titokban megcsodálom azt a diplomáciai tapintatot, azt a pompás
                   ügyességet, ahogy szegény Magyarországnak szomorú földrajztörténelmi és
-                  problematikus alkotmányjogi helyze­tét intézi a pedagógia. És már-már úgy érzem,
-                  minden jól fog végződni, aláírom a jegyző­könyvet és módomban van bepillantani az
+                  problematikus alkotmányjogi helyzetét intézi a pedagógia. És már-már úgy érzem,
+                  minden jól fog végződni, aláírom a jegyzőkönyvet és módomban van bepillantani az
                   előttem heverő Naplóba és Osztályfüzetbe.</p>
-               <p>Ekkor, öt perccel a vizsga vége előtt, odajön hozzám az igazgató és a fülembe
+				<p>Ekkor, öt perccel a vizsga vége előtt, odajön hozzám az igazgató és a fülembe
                   súgja, amiről megfeledkeztem: hogy legyek szíves néhány szót szólni befejezésül,
                   egy rövid kis beszédet, a tanulókhoz, amivel elbúcsúztatom őket, mint elnök.</p>
-               <p>Puff!</p>
-               <p>Ahogy előbb elvörösödtem, most elsápadok. Erre nem számítottam. Nem számítottam?
+				<p>Puff!</p>
+				<p>Ahogy előbb elvörösödtem, most elsápadok. Erre nem számítottam. Nem számítottam?
                   Mondjuk ki egyenesen: “nem készültem!” És most megint közbe kell szúrnom egy szót
                   azoknak, akik tartanak valamit ékesszólásomról. Ha Bethlen István őexcellenciája
                   szólít fel, hogy aszongya, neki egy kis dolga van éppen, legyek szíves a parlament
                   plénuma előtt rövid kis beszámolót a londoni út eredményéről - legfeljebb azon
-                  tűnődöm, méltó-e a politikai meg­győződésemhez, de pillanatig se aggódom, vajon
+                  tűnődöm, méltó-e a politikai meggyőződésemhez, de pillanatig se aggódom, vajon
                   mint szónok, méltó vagyok-e erre a feladatra. De értsétek meg: öt perc múlva
                   beszélnem kell - mit beszélni! Felelnem kell! és Gabi itt
                   van! a Gabi, akinek annyiszor magyaráztam, milyen szépen és bátran és okosan kell
                   felelni, ha az emberre kerül a sor.</p>
-               <p>Több szellemi munka előtt ekkora erőfeszítést nem fejtettem ki magamban, mint
+				<p>Több szellemi munka előtt ekkora erőfeszítést nem fejtettem ki magamban, mint
                   most, öt perc alatt. Mi a csudát beszéljek? Egész könyvtárra való elmélete a
                   gyermekpszichológiának átsuhan tudatomon. Pedagógiai elvek törmeléke zörög kapkodó
                   fejemben. Haza... kötelesség... hála... derék polgára a társadalomnak... intő
                   példa... izé... lobogó fáklya... Kossuth Lajos... Bőrharisnya... buzgalom és
                   kitartás, egy szebb jövő gyümölcse gyanánt... csúzli...</p>
-               <p>Hideg veríték lepi el a homlokom. Csönd lesz, vége a vizsgának. Az igazgató
+				<p>Hideg veríték lepi el a homlokom. Csönd lesz, vége a vizsgának. Az igazgató
                   szánakozóan néz rám. Előredűlök.</p>
-               <p>- Kedves gyerekek!</p>
-               <p>Feszült figyelem. Gabi tágrameresztett szemekkel bámul.</p>
-               <p>- Kedves gyerekek! Én is voltam negyedikes elemista... bár most már felnőtt, nagy
+				<p>- Kedves gyerekek!</p>
+				<p>Feszült figyelem. Gabi tágrameresztett szemekkel bámul.</p>
+				<p>- Kedves gyerekek! Én is voltam negyedikes elemista... bár most már felnőtt, nagy
                   ember vagyok, láthatjátok a hosszú ősz szakállamon...</p>
-               <p>Páran nevetnek. Ijedten állok meg. Persze, hisz nincs is szakállam, méregbe
+				<p>Páran nevetnek. Ijedten állok meg. Persze, hisz nincs is szakállam, méregbe
                   jövök.</p>
-               <p>- És akkor, mikor vége volt a vizsgának, az volt a vágyam, hogy az a bácsi, aki
+				<p>- És akkor, mikor vége volt a vizsgának, az volt a vágyam, hogy az a bácsi, aki
                   ott beszél a katedrán, minél hamarabb fejezze be, hogy már mehessek. Tehát Isten
                   veletek!</p>
-               <p> Gabi hazamenet büszkén dicsekszik, hogy a Dudás odajött hozzá, és azt mondta,
+				<p> Gabi hazamenet büszkén dicsekszik, hogy a Dudás odajött hozzá, és azt mondta,
                   elismerően:</p>
-               <p>- A te apád beszélt.</p>
-               <p>Közölte Gabival, amennyiben nem vette volna észre.</p>
-               <p>De utána a Dudás férfiasan kezetfogott vele, és én érzem, hogy kezdek imponálni
+				<p>- A te apád beszélt.</p>
+				<p>Közölte Gabival, amennyiben nem vette volna észre.</p>
+				<p>De utána a Dudás férfiasan kezetfogott vele, és én érzem, hogy kezdek imponálni
                   Gabinak.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>SZERETEM AZ ÁLLATOT</head>
-               <p>A kis házinyúl mindjárt nagyon megtetszett, mikor a konyhában letették: buta,
+			</div>
+			<div type="chapter">
+				<head>SZERETEM AZ ÁLLATOT</head>
+				<p>A kis házinyúl mindjárt nagyon megtetszett, mikor a konyhában letették: buta,
                   kedves kis feje, ijedt szemei és lágy, sima szőre. Azt a jellemző, gyöngéd,
                   pártoló szeretetet érzem, amit nagyon jól ismernek kezdő szerelmesek, akiknek
                   kicsi és macskaszerű nőkkel akadt dolguk. Nem akarok semmit tőled, te fehér, ijedt
@@ -1710,11 +1687,11 @@
                   jól essék neked, ölembe vennélek, és a kis fejedet simogatnám, hogy megnyugodj, és
                   jól érezd magad, biztonságban, és elhidd, hogy nincs okod félni, nem kell tartanod
                   semmitől, én vigyázok rád és megvédelek.</p>
-               <p>Ezt érzem, egészen melegen és önzetlenül, felolvadva ebben a védő, önzetlen,
+				<p>Ezt érzem, egészen melegen és önzetlenül, felolvadva ebben a védő, önzetlen,
                   odaadó szeretetben, és a kis fehér nyúl után nyúlok, hogy megsimogassam. A kis
                   nyúl azonban, ijedt kis dög, riadtan lelapul, és kifut a tenyerem alól, be a
                   konyhaszekrény alá.</p>
-               <p>Te csacsi kis nyúl, mondom neki fejcsóválva, lám milyen kedves, ostoba ijedt kis
+				<p>Te csacsi kis nyúl, mondom neki fejcsóválva, lám milyen kedves, ostoba ijedt kis
                   nyúl vagy te, hát most azt hiszed, hogy bántani akarlak, megfogni, mohón
                   megragadni, agyonütni, megenni, mert erősebb vagyok nálad. De értsd meg, hogy szó
                   sincsen minderről, hát persze, hogy erősebb vagyok nálad és mindezt megtehetném,
@@ -1723,14 +1700,14 @@
                   magam jogairól, vágyairól, élvezeteiről, te miattad, akit meg akarok simogatni,
                   hogy dobogó kis szíved megnyugodjon, és jól érezd magadat, egész finom, bájos,
                   törékeny, félénk kis lényedet.</p>
-               <p>Ezt gondolom megindult lélekkel és egy piszkafával piszkálom a kis nyulat, hogy
+				<p>Ezt gondolom megindult lélekkel és egy piszkafával piszkálom a kis nyulat, hogy
                   kijöjjön a konyhaszekrény alól, és én megsimogathassam. A kis nyúl előbb húzódozik
                   a piszkafa elől, orrcimpái idegesen, rémülten táncolnak, aztán usgye, kiugrik,
                   átfut a konyhán, bebújik egy sarokba.</p>
-               <p>Utána megyek, és óvatosan leguggolok melléje. Ejnye, mondom neki, hát milyen
+				<p>Utána megyek, és óvatosan leguggolok melléje. Ejnye, mondom neki, hát milyen
                   ostoba vagy. Nini, hiszen még sokkal jobban reszketsz és félsz, mint az imént.
                   Persze, ez érthető a te elfogult és szűk kis értelmed szempontjából, mely azt
-                  súgja neked, hogy abban a makacs­ságban, amivel utánad jövök, csak a vérengző
+                  súgja neked, hogy abban a makacsságban, amivel utánad jövök, csak a vérengző
                   vadállatok mohósága rejlhetik, és amely nem tudja megérteni az erősebbnek
                   fejlettebb erkölcsi érzését és altruizmusát. No, most már aztán tényleg meg kell,
                   hogy fogjalak, meg kell, hogy simogassalak, azzal az érzéssel, amit most érzesz
@@ -1738,15 +1715,15 @@
                   hagyhatlak magadra. Be kell bizonyítsam neked, hogy mennyire tévedtél, hogy
                   mennyire nem azért akarlak megfogni, hogy átharapjam a torkodat, hanem csak
                   önzetlenül meg akarlak simogatni, kellemessé akarom tenni az életedet, és nem
-                  számítok se hálára, se ellenszolgál­tatásra.</p>
-               <p>Óvatosan kinyújtom a kezem, s már a nyakán vannak ujjaim, mikor egy kétségbeesett
+                  számítok se hálára, se ellenszolgáltatásra.</p>
+				<p>Óvatosan kinyújtom a kezem, s már a nyakán vannak ujjaim, mikor egy kétségbeesett
                   ugrással kirántotta magát, fuldokolva nyifogott, és szétterpesztett lábakkal,
                   lihegve, halálos félelemben bebújik a kályha alá.</p>
-               <p>Nyelek egyet, és érzem, hogy a vér a fejembe száll. No, igazán példátlan
+				<p>Nyelek egyet, és érzem, hogy a vér a fejembe száll. No, igazán példátlan
                   butasággal van dolgom. Most mit tegyek? Abbahagyjam? De akkor azt fogja hinni,
                   hogy neki volt igaza, hogy tényleg meg akartam enni, vagy agyonverni, és most
                   kifáradva, egyelőre lemondtam szándékomról.</p>
-               <p>A kályha elé fekszem, és benézek a kályha alá. Ott kucorog apróra összehúzódva, és
+				<p>A kályha elé fekszem, és benézek a kályha alá. Ott kucorog apróra összehúzódva, és
                   fekete szemeiben kimondhatatlan félelem csillog, amint tekintete az enyémmel
                   találkozik. Most már igazán megharagszom. Te szamár, mondom neki elkeseredve, hát
                   nem hiszel semmiben, ami szép és kedves? Hát nem hiszel az önzetlenségben, a
@@ -1758,24 +1735,23 @@
                   nekem, hogy van harmónia, van bensőséges, könnyes megindulás, mely a gyöngeség,
                   szegénység, tehetetlenség láttán elfogja lelket? A teremtésit annak a nehéz
                   fejednek, csak azért is bebizonyítom neked, hogy van!</p>
-               <p>Most már hirtelen és mérgesen kapok utána, erőlködöm, kivörösödöm, a nyelvem
+				<p>Most már hirtelen és mérgesen kapok utána, erőlködöm, kivörösödöm, a nyelvem
                   kilóg, megbotlom, leesem, négykézláb futok utána, be az asztal alá, a dézsa mögé.
                   Beverem a fejem az ajtófélfába, kiszakad a kabátom, a fogamat csikorgatom, és
                   egyszer már meg is kapom a füleit, de ő lihegve, most már hangosan makogva kitépi
                   magát, megharap, és a kamrában elbújik a hasábfák mögé.</p>
-               <p>Most ott van és nekem szét kellene szedni az egész halom fát, hogy megtaláljam. De
-                  szét­szedem, szétszedem én, ha addig élek is, szétszedem, és megfogom és
+				<p>Most ott van és nekem szét kellene szedni az egész halom fát, hogy megtaláljam. De
+                  szétszedem, szétszedem én, ha addig élek is, szétszedem, és megfogom és
                   megragadom a füleit és felkapom a levegőbe, és megforgatom, és a falhoz vágom, és
                   szétloccsantom a fejét, azt az ostoba, makacs, szamár fejét, amivel nem akarja
                   megérteni, hogy csak meg akarom simogatni.</p>
-               <p> </p>
-            </div>
-            <div type="chapter">
-               <head>A PAPÁM</head>
-               <p>
+			</div>
+			<div type="chapter">
+				<head>A PAPÁM</head>
+				<p>
                   Hathónapos fiú naplójából
                </p>
-               <p>Elhatároztam, hogy feljegyzek magamnak néhány megfigyelést, amikre később, mint
+				<p>Elhatároztam, hogy feljegyzek magamnak néhány megfigyelést, amikre később, mint
                   naturalista írónak, szükségem lehet. Szűk környezetem csak kevés teret enged a
                   szemlélődésre, s így egyelőre néhány állandó jelenséggel foglalkozom: ezek között
                   az én szolgálatomra kirendelt személyzetnek egyik sajátos alakjával, aki hetek óta
@@ -1784,19 +1760,19 @@
                   belőlem. Ez a személyzetem középtermetű, kuszált hajú és sárgás arcbőrű ember,
                   egyebet nem tudok róla, nem is érdekel, bár, mondom, sokszor igazán meghat az a
                   buzgalom, amivel észre akarja vétetni magát. Állandóan körülöttem kuncsorog, a
-                  leg­kisebb jelre odaugrik hozzám, és naiv, lelkesedő arcán csak úgy világít a
+                  legkisebb jelre odaugrik hozzám, és naiv, lelkesedő arcán csak úgy világít a
                   forró vágy, hogy valamiben szolgálatomra lehessen, szegényke. Főleg az utóbbi
                   időben minden igyekezetével azon van, hogy megjegyezzem az arcát és a nevét.
                   Naponta százszor bemutatkozik nekem: “Papa, papa - én a papa vagyok”, mondta újra
                   és újra, kétségbeesetten és reménykedve, hogy talán egyszer mégis méltatom majd
                   arra, hogy megjegyezem magamnak.</p>
-               <p>Annyit erőlködik, hogy most már körülbelül tudom is, sőt ki is tudnám mondani a
+				<p>Annyit erőlködik, hogy most már körülbelül tudom is, sőt ki is tudnám mondani a
                   “papa” szót, de direkte nem teszem, az ember ne bizalmaskodjék a szolgáival, az
                   sose jó. Nem kell, hogy elbízza magát, úgyis eleget a terhemre van.</p>
-               <p>Bár, ismétlem, ez a kutyahűség bizonyos szánakozó jóindulatot kelt bennem. Bokros
+				<p>Bár, ismétlem, ez a kutyahűség bizonyos szánakozó jóindulatot kelt bennem. Bokros
                   teendőim közt (most kezdenek kibújni a fogaim, nagyon el vagyok velük foglalva)
                   néha futólag gondolok rá: miféle ember lehet szegény?</p>
-               <p>Múltkor, reggel, még ágyban fekve, miután néhány parancsoló kiáltással berendeltem
+				<p>Múltkor, reggel, még ágyban fekve, miután néhány parancsoló kiáltással berendeltem
                   Mama nevű szolgálómmal a reggelit, és jóízűen elfogyasztottam: eluntam magam,
                   szórakozottan nézegettem körül, és megpillantottam őt, az asztal előtt ült, valami
                   fekete rudacskát tartott a kezében, és ezzel a rudacskával kapirgált egy előtte
@@ -1809,7 +1785,7 @@
                   egész csövet megpróbálta volna lenyelni; szegény, buta ember, hiszen ez még azt se
                   tudja, hogy a dolgokat, amik a kezünkbe kerülnek, kivétel nélkül be kell dugni a
                   szájunkba, ez az egyetlen mód, hogy kívül ne maradjanak.</p>
-               <p>Mondom, nagyon megszántam és halkan felnevettem. Persze rögtön odanézett,
+				<p>Mondom, nagyon megszántam és halkan felnevettem. Persze rögtön odanézett,
                   felugrott, és sugárzó arccal, sopánkodva futott hozzám, mint egy kiskutya.
                   Kegyesen rámosolyogtam, hogy buzgalmát megjutalmazzam, és megengedtem neki, hogy
                   időközben átnedvesedett toalettemet szárazzal cserélje ki. Ezután intettem neki,
@@ -1817,7 +1793,7 @@
                   azért, mert kíváncsi voltam rá, mit mível azzal a fekete rudacskával, minek az
                   neki, szegénykének. “Kö, kö” mondtam neki értelmesen, franciául (Que faites vous?
                   ezt akartam kérdezni).</p>
-               <p>Erőlködve figyelt, hogy megértse, mit parancsolok, de rögtön láttam, hogy szűk kis
+				<p>Erőlködve figyelt, hogy megértse, mit parancsolok, de rögtön láttam, hogy szűk kis
                   agya nem fogja fel szavam jelentését. Zavartan elvigyorodott és ismételte, amit
                   beszéltem. “Kö, kö” mondta, és ugrált, mint egy papagáj. Bosszantott ez az
                   együgyűség, és kicsit összehúztam a szemöldököm, mire aggódva és ijedten figyelni
@@ -1832,11 +1808,8 @@
                   innen ezt az embert. Jött is már, futva, jól összeszidta a “papá”-t, és átvett
                   tőle. Szegény “papa” elszontyolodva, lehorgasztott fejjel ódalgott vissza az
                   asztalhoz.</p>
-               <p> </p>
-               <p>.oOo.</p>
-               <p> </p>
-            </div>
-       
-      </body>
-  </text>
+				<p>.oOo.</p>
+			</div>
+		</body>
+	</text>
 </TEI>

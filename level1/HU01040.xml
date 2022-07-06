@@ -1,81 +1,83 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU01040" xml:lang="hu">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Vissza a pokolba</title>
-                <author ref="viaf:54974682">Rejtő Jenő (1905-1943)</author>
-                <respStmt>
-                    <resp>ELTeC conversion</resp>
-                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-                    </name>
-                    <name>Fellegi Zsófia</name>
-                    <name>Bajzát Tímea Borbála</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">12980</measure>
-                <measure unit="pages">35</measure>
-                <measure unit="vols">1</measure>
-            </extent>
-            <publicationStmt>
-                <p>Published as part of ELTeC</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Vissza a pokolba</title>
-                    <date>2003-08-29</date>
-                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-                    <ref target="https://mek.oszk.hu/01000/01040"/>
-                    <respStmt>
-                        <resp>Original Electronic Edition</resp>    
-                        <name>Juhász Lehel</name>
-                        <name>Szabolcsi József</name>
-                        <name>Lukács József</name>
-                        <name>Németh Ibolya</name>
-                    </respStmt>
-                </bibl>
-                <bibl type="firstEdition">
-                    <title>Vissza a pokolba</title>
-                    <author>Rejtő Jenő</author>
-                    <date>1936</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-0">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="hu">Hungarian</language>
-            </langUsage>
-            <textDesc>
-                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
-                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T5"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-07-10"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-       <div type="chapter">
-                <head>1.</head>
-                <p>Barátom, Rézfejű egy pálinkásüveggel könnyedén fejbe sújtotta a Kormányost, aztán
+<TEI xml:id="HU01040" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vissza a pokolba</title>
+				<author ref="viaf:54974682">Rejtő Jenő (1905-1943)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">12980</measure>
+				<measure unit="pages">35</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Vissza a pokolba</title>
+					<date>2003-08-29</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="https://mek.oszk.hu/01000/01040"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Juhász Lehel</name>
+						<name>Szabolcsi József</name>
+						<name>Lukács József</name>
+						<name>Németh Ibolya</name>
+					</respStmt>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Vissza a pokolba</title>
+					<author>Rejtő Jenő</author>
+					<date>1936</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T5"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-07-10"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>1.</head>
+				<p>Barátom, Rézfejű egy pálinkásüveggel könnyedén fejbe sújtotta a Kormányost, aztán
                     a tőle megszokott udvariassággal, mintegy kedvesen invitálva, ahogy a fogorvosok
                     szólítják be a következő pácienst, vigyorogva odaszólt az uraknak: “Parancsol
                     még valaki?” A Kormányos bezúzott fejjel hanyatlott a véres üvegcserepek közé a
                     padlóra, és egy pillanatra, mint vihar előtti szélcsend, némaság állt be.</p>
-                <p>A helyzet most ez volt: mi hárman voltunk: Rézfejű, Bobi és én. Velünk volt, de
+				<p>A helyzet most ez volt: mi hárman voltunk: Rézfejű, Bobi és én. Velünk volt, de
                     nem számított Csenevész nevű újdonsült ismerősünk, egy csinos, sovány, nagy
                     szemű suhanc, aki egyik kezével még mindig a nyakát tapogatta, mivel ez a nyak
                     néhány perccel előbb még az imént leütött Kormányos szőrös, nagy mancsaiban
-                    fuldoklott. Velünk szemben öten álltak, mozdu­latlanul és támadásra készen a
-                    “Gyilkosok” nevű állástalan matrózok segély­egyesületének tagjai, akik karitatív
+                    fuldoklott. Velünk szemben öten álltak, mozdulatlanul és támadásra készen a
+                    “Gyilkosok” nevű állástalan matrózok segélyegyesületének tagjai, akik karitatív
                     működésüket, a önsegélyezést a szónak abban a szoros értelmében űzték, hogy
                     önmagukon segítettek, tekintet nélkül a segélyezés eszközeire, amelyek
                     feszítővastól késig a legkülönbözőbbek voltak. Támadásukat néhány másodpercre
@@ -88,12 +90,12 @@
                     kezével hirtelen feléjük dobott egy asztalt, és a magasra tartott széket máris a
                     lámpához lökte. A lámpa leverését évszázadok óta a gyengébbek törvénye alapján
                     űzik a menekülni kívánó verekedők.</p>
-                <p>A sötétség még jóformán be sem állt, mikor én már dobtam a széket az utcára néző
-                    kirakat­ablakba, nyomban utána, még hulló cserepek között repültem én, és mire
+				<p>A sötétség még jóformán be sem állt, mikor én már dobtam a széket az utcára néző
+                    kirakatablakba, nyomban utána, még hulló cserepek között repültem én, és mire
                     az utcára értem, Csenevész keskeny árnyéka suhant mellém. Ha Rézfejű és Bobi
                     utánunk akarnak menekülni, végük van, mert hátukba kapják a késeket. Ők az
                     egyetlen helyes stratégiai elgondolás alapján belerohantak a Gyilkosok közé,
-                    akik éppen szembe készülve ugrani, a váratlan össze­ütközéstől szétperdültek.
+                    akik éppen szembe készülve ugrani, a váratlan összeütközéstől szétperdültek.
                     Bobi átugrotta a söntéspolcot, Rézfejű felugrott a polcra, ötösével dobálta az
                     üvegeket, és mialatt az ellenfelek megtorpantak egy pillanatra, felborította a
                     likőrökkel megrakott állványt, és egy hatalmas ugrással eltűnt Bobi után a
@@ -105,10 +107,10 @@
                     utána Bobi és utánuk egy hatalmas sötét tárgy, nyilván eltévesztette a fejüket,
                     csörömpölve zuhant a kövezetre... Rohantunk a Repoublique-on végig, nyomunkban
                     három csaholó, dühös kóbor kutyával...</p>
-            </div>
-       <div type="chapter">
-                <head>2.</head>
-                <p>Az egész bajt tulajdonképpen én idéztem elő, mert nem hagytam megölni Csenevészt.
+			</div>
+			<div type="chapter">
+				<head>2.</head>
+				<p>Az egész bajt tulajdonképpen én idéztem elő, mert nem hagytam megölni Csenevészt.
                     A marseille-i kikötőnek megvannak a maga íratlan, de az írottnál is szigorúbb
                     törvényei. Azért szigorúbb, mert aránylag igen csekély törvénysértésekért
                     agyonveretéssel fizetnek. Ilyen törvény például, hogy: “ne avatkozz a te
@@ -121,112 +123,112 @@
                     van: tabu. Minden ember, akit vernek, ha nem a barátod, rokonod, vagy
                     jövedelmező üzletfeled: tabu. Aki a parancsolatokat nem tartja meg, az igazán
                     nem lehet hosszú életű, speciel ezen a földön.</p>
-                <p>Nos, a “Kikötői Vénasszony”-ról elnevezett vendéglőben Csenevészt, akit előzőleg
+				<p>Nos, a “Kikötői Vénasszony”-ról elnevezett vendéglőben Csenevészt, akit előzőleg
                     nem ismertem, agyon akarták verni, mert rendőrkémnek nézték. Nem is tudom, miért
                     sajnáltam meg ezt a vézna, rémült suhancot annyi ember közül, akiket már verni
-                    láttam... Éppen ezt a szo­morú kölyköt, de annyira, hogy szinte önmagam
+                    láttam... Éppen ezt a szomorú kölyköt, de annyira, hogy szinte önmagam
                     ellenőrzése nélkül vettem ki a Kormányos mancsaiból, aki természetesen úgy
                     vágott rögtön szájon, hogy hanyatt estem, és ha Rézfejű meg Bobi nincsenek
                     jelen, a Gyilkosok bizonyára “megszigonyoztak” volna, ahogy ők a késelést
                     nevezik tréfásan.</p>
-                <p>Nagy kerülővel leértünk a régi kikötőbe, és törzscsapszékünkben, a Grand bar du
+				<p>Nagy kerülővel leértünk a régi kikötőbe, és törzscsapszékünkben, a Grand bar du
                     Lyon D’orban lemostuk a sarat és a vért magunkról. Aztán pálinkát rendeltünk, és
                     fixírozni kezdtük Csenevészt, aki remegő kézzel, ügyetlenül cigarettázott. Meg
                     akart szólalni, de olyan vékonyka hang jött csak ki a torkán, hogy kénytelen
                     volt krákogni egyet, aztán illedelmesen ezt mondta:</p>
-                <p>- Köszönöm... amit tettek...</p>
-                <p>- Miért kezdte a Kormányos azt kiabálni, hogy spion vagy?</p>
-                <p>- Mert én keresem a bátyámat... aki itt eltűnt.</p>
-                <p>- Eltűnt embereket keresni a kikötőben nem hálás dolog vélte Bobi.</p>
-                <p>- Mi a foglalkozása?</p>
-                <p>- Lakatos... vagyok...</p>
-                <p>- Ne hazudozz, fiam - szólt rá Rézfejű, és felemelte Csenevész piszkos kis kezét.
+				<p>- Köszönöm... amit tettek...</p>
+				<p>- Miért kezdte a Kormányos azt kiabálni, hogy spion vagy?</p>
+				<p>- Mert én keresem a bátyámat... aki itt eltűnt.</p>
+				<p>- Eltűnt embereket keresni a kikötőben nem hálás dolog vélte Bobi.</p>
+				<p>- Mi a foglalkozása?</p>
+				<p>- Lakatos... vagyok...</p>
+				<p>- Ne hazudozz, fiam - szólt rá Rézfejű, és felemelte Csenevész piszkos kis kezét.
                     - Még soha életedben nem dolgoztál fizikai munkát. Mit csinálsz
                     Marseille-ben?</p>
-                <p>- Itt lakom.</p>
-                <p>- Ne hazudozz - szóltam közbe -, soha életedben nem voltál Marseille-ben,
+				<p>- Itt lakom.</p>
+				<p>- Ne hazudozz - szóltam közbe -, soha életedben nem voltál Marseille-ben,
                     különben nem kezdtél volna a Repoublique felé futni, mikor azt kiabáltam, hogy
                     “a régi kikötőhöz!”</p>
-                <p>Hallgatott.</p>
-                <p>- Hát nézd, Csenevész mondta Rézfejű miután összevissza hazudozol mindenfélét,
+				<p>Hallgatott.</p>
+				<p>- Hát nézd, Csenevész mondta Rézfejű miután összevissza hazudozol mindenfélét,
                     nem fogunk veled barátkozni. Egy tanácsot adhatok: hordd el magad ebből a
                     városból, mert ha még egyszer a Kormányos kezébe kerül a nyakad, hideg lesz,
                     mire elereszti.</p>
-                <p>Csenevész maga elé nézett, és egy idő múlva, mint aki végre elszánta magát, hogy
+				<p>Csenevész maga elé nézett, és egy idő múlva, mint aki végre elszánta magát, hogy
                     vallani fog, megszólalt:</p>
-                <p>- Én... - kezdte akadozva - egy Bremont nevű férfit keresek, aki három hónappal
+				<p>- Én... - kezdte akadozva - egy Bremont nevű férfit keresek, aki három hónappal
                     ezelőtt Rómából jött ide... üzleti ügyben... A fivérem az illető... Egy
                     rejtélyes levelet kaptunk tőle, hogy valami bűnt követett el, és ezért örökre
                     búcsúzik...</p>
-                <p>- A rendőrség is kereste?</p>
-                <p>- Igen, és nemrégen értesítettek, hogy a nyomozás holtpontra jutott. Most én
+				<p>- A rendőrség is kereste?</p>
+				<p>- Igen, és nemrégen értesítettek, hogy a nyomozás holtpontra jutott. Most én
                     eljöttem őt megkeresni...</p>
-                <p>Rézfejű tűnődve fújta a füstöt, láttam rajta, hogy ideges és ezt leplezni
+				<p>Rézfejű tűnődve fújta a füstöt, láttam rajta, hogy ideges és ezt leplezni
                     igyekszik.</p>
-                <p>- Azt mondod, Bremontnak hívták?... Rajzoló, húsvét táján járt
+				<p>- Azt mondod, Bremontnak hívták?... Rajzoló, húsvét táján járt
                     Marseille-ben...</p>
-                <p>- Igen, igen! Az Istenért... - megragadta Rézfejű karját - maga tud róla
+				<p>- Igen, igen! Az Istenért... - megragadta Rézfejű karját - maga tud róla
                     valamit?</p>
-                <p>- Tudni éppen nem tudok róla, de valamit hallottam... Rémlik... Lehet, hogy meg
+				<p>- Tudni éppen nem tudok róla, de valamit hallottam... Rémlik... Lehet, hogy meg
                     fogom tudni, hol van, ha egyáltalán van, ami magában véve is külön probléma
                     tárgya. Egy kellemes hölgyismerősöm, bizonyos Micsuri, azt hiszem, tud valamit
                     erről az úrról.</p>
-                <p>- Kérem, hozzon össze vele - könyörgött szinte lihegve Csenevész.</p>
-                <p>- Nem hiszem, hogy ezt megtenném. Megint csak úgy járnál, mint a Kormányossal.
+				<p>- Kérem, hozzon össze vele - könyörgött szinte lihegve Csenevész.</p>
+				<p>- Nem hiszem, hogy ezt megtenném. Megint csak úgy járnál, mint a Kormányossal.
                     Eltűnt emberek után érdeklődni nem valami szalonképes viselkedés itt, a régi
                     kikötő környékén. Ezzel szemben ajánlatom a következő: feküdj le aludni, holnap
                     délután találkozunk itt, és addigra megtudom, ami tőlem telik.</p>
-                <p>Miután Csenevész belátta, hogy legokosabb, ha szót fogad nekünk, hazament. Mi
+				<p>Miután Csenevész belátta, hogy legokosabb, ha szót fogad nekünk, hazament. Mi
                     hárman nekivágtunk az éjszakának.</p>
-                <p>- Tudjátok - kezdte Rézfejű -, azt hiszem, ezt a szegény ördögöt megszigonyozták.
+				<p>- Tudjátok - kezdte Rézfejű -, azt hiszem, ezt a szegény ördögöt megszigonyozták.
                     Nem tudom pontosan, mit mesélt Micsuri, de úgy emlékszem, hogy Vörös Pofa és az
                     orosz Szasa intézték el.</p>
-                <p>Itt a kikötőben, mint a vad népeknél, találó nevekkel jelöltek meg mindenkit, és
+				<p>Itt a kikötőben, mint a vad népeknél, találó nevekkel jelöltek meg mindenkit, és
                     ez volt tulajdonképpen az igaz neve, mert a legtöbbnél a valóságos kereszt- és
                     vezetékneve jóformán ismeretlen volt a barátai előtt. A fenti két név rettegett
                     volt a külvárosban.</p>
-                <p>Micsurit, a japán táncosnőt, gyengéd szálak fűzték Rézfejűhöz, és a zenétől,
+				<p>Micsurit, a japán táncosnőt, gyengéd szálak fűzték Rézfejűhöz, és a zenétől,
                     lampionoktól, matrózoktól zajos és mozgalmas rue de la Mure egyik csapszékében
-                    szórakoztatta a vendé­geket.</p>
-                <p>A keskeny utca zsivajában és torlódásában részeg légionisták és tarkabarka árusok
+                    szórakoztatta a vendégeket.</p>
+				<p>A keskeny utca zsivajában és torlódásában részeg légionisták és tarkabarka árusok
                     között préseltük magunkat a Golyó mulató irányába.</p>
-                <p>- Úgy tudom, hogy Micsuri is benne volt a játékban. A lánynak nagyon rossz
-                    emlékező­tehetsége van, ezt próbálom majd kihasználni, mert egyenes úton még
+				<p>- Úgy tudom, hogy Micsuri is benne volt a játékban. A lánynak nagyon rossz
+                    emlékezőtehetsége van, ezt próbálom majd kihasználni, mert egyenes úton még
                     nekem sem mondana meg őszintén semmit - mondta Rézfejű.</p>
-                <p>*</p>
-                <p>A Golyó a külváros jobb mulatói közé tartozott. Vágni lehetett volna a füstöt,
+				<p>*</p>
+				<p>A Golyó a külváros jobb mulatói közé tartozott. Vágni lehetett volna a füstöt,
                     amit még súlyosabbá tett az olajban rántott hal nehéz szaga. Egy félszemű matróz
                     harmonikázott, és érzelmes dalt énekelt Dodóról, aki levelet ír babájának a
                     Társaság-szigetekről. A helyiség hátsó falát négy boksszal látták el, ezek
                     egyikébe ültünk be hárman, és iderohant hozzánk rögtön Micsuri, mikor
                     megpillantotta Rézfejűt. Valahonnan egy borízű hang ordított feléje:</p>
-                <p>- Ki jött?!</p>
-                <p>- Rézfejű, Bobi és a Füttyös!</p>
-                <p>A Füttyös az én voltam. Közbevetőleg megjegyzem, hogy triumvirátusunk elég jó
+				<p>- Ki jött?!</p>
+				<p>- Rézfejű, Bobi és a Füttyös!</p>
+				<p>A Füttyös az én voltam. Közbevetőleg megjegyzem, hogy triumvirátusunk elég jó
                     hírnévnek örvendett a kikötő százezrekre menő verekedő csirkefogói között. Az
                     ilyen hírnév nagyon kétes értékű, mert ha az emberek év végén mérleget
                     készítenének az afférjeikről, senkinél sem mutatkozna nagy különbözet a bevett
                     és kiadott pofonok egyenlegénél. Itt már voltak legendás hírű verekedők,
                     hallottam herkulesi gyilkosokról, de olyanról, akit több ízben nem vertek volna
                     félig holtra, nem hallottam.</p>
-                <p>Micsuri bájos kis japán teremtés volt, és vizespohárból itta a rumot. Rézfejű
+				<p>Micsuri bájos kis japán teremtés volt, és vizespohárból itta a rumot. Rézfejű
                     titokzatos és aggódó arccal hajolt hozzá:</p>
-                <p>- Hol van a Vörös és az orosz?</p>
-                <p>- Ők most Olaszországba mentek... Nőket visznek valahová Genuából - és ijedten
+				<p>- Hol van a Vörös és az orosz?</p>
+				<p>- Ők most Olaszországba mentek... Nőket visznek valahová Genuából - és ijedten
                     hozzátette: - Miért, mi van?</p>
-                <p>- Emlékszel, mit csináltunk húsvétkor avval a francia fiúval, aki Rómából jött? -
+				<p>- Emlékszel, mit csináltunk húsvétkor avval a francia fiúval, aki Rómából jött? -
                     gyors oldalpillantást vetett felém. - A rendőrség a nyomunkban van.</p>
-                <p>- De hát... - révedezett bizonytalanul Micsuri - te ott sem voltál.</p>
-                <p>- Hülye! Én álltam az ajtóban... hogy neked milyen rossz fejed van!</p>
-                <p>- Én tulajdonképpen nem is csináltam semmit...</p>
-                <p>- Nekem ne magyarázz! Nagyon csúnyán eltettük láb alól azt a pasast...</p>
-                <p>- Arról nem is volt szó, hogy megölitek.</p>
-                <p>- Nem nézzük azt babám, hogy miről volt szó! Ebbe az ügybe csúnyán belemásztál te
+				<p>- De hát... - révedezett bizonytalanul Micsuri - te ott sem voltál.</p>
+				<p>- Hülye! Én álltam az ajtóban... hogy neked milyen rossz fejed van!</p>
+				<p>- Én tulajdonképpen nem is csináltam semmit...</p>
+				<p>- Nekem ne magyarázz! Nagyon csúnyán eltettük láb alól azt a pasast...</p>
+				<p>- Arról nem is volt szó, hogy megölitek.</p>
+				<p>- Nem nézzük azt babám, hogy miről volt szó! Ebbe az ügybe csúnyán belemásztál te
                     is.</p>
-                <p>- Én?!... Mit csináltam én?! Mikor az a szőke elsütötte a revolvert, akkor
+				<p>- Én?!... Mit csináltam én?! Mikor az a szőke elsütötte a revolvert, akkor
                     halottnak tetettem magam, én azt hittem, hogy csak egy viccről van itt szó,
                     valami tréfáról...</p>
-                <p>Lassan kezdett kibontakozni az egész aljas gaztett. Marseille-ben nem is ritka
+				<p>Lassan kezdett kibontakozni az egész aljas gaztett. Marseille-ben nem is ritka
                     csíny, hogy valakit, aki kellemetlen bizonyos embereknek, egy jó ötlettel
                     “beugratnak” a légióba. Egy óra múlva már rekonstruálni tudtuk a történteket.
                     Valami párizsi úr felbérelte Szaszimovot és a Vöröst, hogy Bremont-t ugrassák be
@@ -243,10 +245,10 @@
                     maga támogatta az erőd kapujáig a részeg Bremont-t. A fiatalember, aki azt
                     hitte, hogy megölte Micsurit, belépett a poszt mögött a citadella kapuján, ahová
                     mindenkit beengednek, de civil még soha sem jött ki...</p>
-            </div>
-       <div type="chapter">
-                <head>3.</head>
-                <p>Mi hárman azért voltunk elválaszthatatlanok, mert a múltunkban volt egy nagy
+			</div>
+			<div type="chapter">
+				<head>3.</head>
+				<p>Mi hárman azért voltunk elválaszthatatlanok, mert a múltunkban volt egy nagy
                     közös emlék: a Légió! Rézfejű három év előtt szerelt le, miután hat és fél évet
                     szolgált. A szolgálati idő csak öt év, de a kényszermunkát, a másfél év
                     “travaux”-t nem számítják be. Bobi három év előtt szökött meg, én öt év előtt.
@@ -257,44 +259,44 @@
                     kínszenvedések tüzes katlanába, egy afrikai garnizonba, ahonnan, ha vissza is
                     tér öt év múlva, testben és lélekben már roncs. Olyan gorillaszervezetű, ősi
                     óriás, mint ez a Rézfejű, millió ember között egy, ha van.</p>
-                <p>Afrika! Erre a szóra az irtózatnak egy hányingerrel párosult görcse szorított meg
+				<p>Afrika! Erre a szóra az irtózatnak egy hányingerrel párosult görcse szorított meg
                     belülről mind a hármunkat. A pokol! Egyszer visszatértem onnan, egy szaharai
-                    garnizon ember­malmából, ahol hatalmas vaskerekek őrlik nap-nap után az ideget,
-                    a lelket, a csontot, hőségben, elhagya­tottságban és végtelen hónapokon át
+                    garnizon embermalmából, ahol hatalmas vaskerekek őrlik nap-nap után az ideget,
+                    a lelket, a csontot, hőségben, elhagyatottságban és végtelen hónapokon át
                     azonosan múló órák súlyos ritmusában, egyszer eljöttem onnan, egy minden
-                    képzeletet felülmúló, több hónapos ájult vánszorgással, gyilkolva, haldo­kolva,
+                    képzeletet felülmúló, több hónapos ájult vánszorgással, gyilkolva, haldokolva,
                     sírva és félig tébolyultan... Fehér falakról vakító, izzó reflexei a napnak,
                     moszkitók, lármák, kinin és forró porhullámok, a délnyugati sirokkó agyvelőbe
                     nyilalló légáramlása... Miazmás kikötők, bástyaszerű kaszárnyák, alattomos
                     beduinok, barbár franciák...</p>
-                <p>Mondom, mi hárman tudtuk nagyon jól, hogy menynyire elveszett ez a francia, és
+				<p>Mondom, mi hárman tudtuk nagyon jól, hogy menynyire elveszett ez a francia, és
                     milyen szomorú sorsban, ezért szótlanul mentünk délután a Grand Barba. Csenevész
                     olyan sóvárgó arccal nézett ránk, hogy legszívesebben elszaladtunk volna.
                     Leültünk, és Csenevész kezdte megérteni komolyságunkat.</p>
-                <p>- Meghalt? - kérdezte csendesen.</p>
-                <p>- Él - mondtam szomorúan.</p>
-                <p>Megragadta a kezemet, és felugrott, mint aki rögtön Bremonthoz akar sietni.</p>
-                <p>- Hol van?</p>
-                <p>- Mindenek előtt ülj le! - mondta Rézfejű. - Nincs semmi okod az örömre, és még
+				<p>- Meghalt? - kérdezte csendesen.</p>
+				<p>- Él - mondtam szomorúan.</p>
+				<p>Megragadta a kezemet, és felugrott, mint aki rögtön Bremonthoz akar sietni.</p>
+				<p>- Hol van?</p>
+				<p>- Mindenek előtt ülj le! - mondta Rézfejű. - Nincs semmi okod az örömre, és még
                     kevesebb az okod, hogy siess valamerre.</p>
-                <p>Lassan elmondott mindent, amit megtudtunk.</p>
-                <p>- De hát... ha mindezt megmondjuk a hadügyminisztériumban...</p>
-                <p>- Nem érsz vele semmit. A légióból nem hozzák vissza... Csúnyán elintézték.</p>
-                <p>Hallgatott. Sokáig meredt maga elé, idegesen rágta a cigarettát a szájában, és a
+				<p>Lassan elmondott mindent, amit megtudtunk.</p>
+				<p>- De hát... ha mindezt megmondjuk a hadügyminisztériumban...</p>
+				<p>- Nem érsz vele semmit. A légióból nem hozzák vissza... Csúnyán elintézték.</p>
+				<p>Hallgatott. Sokáig meredt maga elé, idegesen rágta a cigarettát a szájában, és a
                     szeme lassan fényesedett, nedves csillogással. Egészen fiatal gyerek
                     lehetett...</p>
-                <p>- Köszönöm - mondta, és köszörülte a torkát. Azután hirtelen felállt.</p>
-                <p>- Mit akarsz tenni?</p>
-                <p>- Megyek Afrikába. Ki fogom szabadítani, vagy én is elpusztulok.</p>
-                <p>- Ostoba kölyök vagy - mondta Rézfejű. - Az újoncokat leviszik a déli
+				<p>- Köszönöm - mondta, és köszörülte a torkát. Azután hirtelen felállt.</p>
+				<p>- Mit akarsz tenni?</p>
+				<p>- Megyek Afrikába. Ki fogom szabadítani, vagy én is elpusztulok.</p>
+				<p>- Ostoba kölyök vagy - mondta Rézfejű. - Az újoncokat leviszik a déli
                     határvidékre, ahová az ilyen legény, mint te, még akkor sem érkezik meg élve, ha
                     a legkényelmesebben utazik.</p>
-                <p>Eszembe jutott a saját utam, láttam a vakító sárga port, éreztem a perzselést, a
+				<p>Eszembe jutott a saját utam, láttam a vakító sárga port, éreztem a perzselést, a
                     halál ízét a számban...</p>
-                <p>- Ne próbáljatok lebeszélni! Én megyek. Előbb még elmondok nektek valamit. - Újra
+				<p>- Ne próbáljatok lebeszélni! Én megyek. Előbb még elmondok nektek valamit. - Újra
                     visszaült. - Mi franciák vagyunk, de Rómában telepedtünk le. Az az ember, aki a
                     fivéremet tőrbe csalta, Corot, tulajdonképpen a nagybátyja. Ő bérelte fel ezeket
-                    a csirkefogókat. Nekünk Ausztrá­liában meghalt egy nagyon gazdag rokonunk, aki
+                    a csirkefogókat. Nekünk Ausztráliában meghalt egy nagyon gazdag rokonunk, aki
                     kétmillió frankot hagyott hátra Bremontnak. A végrendelet úgy szól, hogy ha
                     Bremont egy éven belül nem jelentkezik az örökségért, Corot doktor kapja meg. Az
                     a rokonunk ugyanis, aki meghalt, egyszer megjárta egy örökséggel, amit tíz évig
@@ -309,85 +311,85 @@
                     volt a végrendeletről, elcsalta magával Rómából Marseille-be. Két hónap előtt
                     érkezett meg a római angol követségre a végrendelet, amely szerint, ha Jules egy
                     éven belül nem jelentkezik, minden további igazolás nélkül Coroté a vagyon.</p>
-                <p>Csendben ültünk. Bobi köpött.</p>
-                <p>- Szeretnék evvel a Corot-val éjszaka valamelyik dokkon véletlenül találkozni...
+				<p>Csendben ültünk. Bobi köpött.</p>
+				<p>- Szeretnék evvel a Corot-val éjszaka valamelyik dokkon véletlenül találkozni...
                     Akkor lehet, hogy ő sem jelentkezne. - Bobi előtt egy új eshetőség körvonalai
                     bontakoztak ki saját szavai nyomán. - Mondd Csenevész, ha ne adj Isten, ezt a
-                    Corot-t valami váratlan esemény meg­akadályozná abban, hogy tovább éljen, ez
+                    Corot-t valami váratlan esemény megakadályozná abban, hogy tovább éljen, ez
                     esetben te lennél az örökös?</p>
-                <p>- Nem. És itt nem is az örökség a fontos... Hanem szegény Bremont... - És
+				<p>- Nem. És itt nem is az örökség a fontos... Hanem szegény Bremont... - És
                     kétségbeeséssel ismételte: - Szegény Bremont, meg kell menteni...</p>
-                <p>- Az, sajnos, jól el van intézve. Ez a nyomorult Corot tiszta munkát végzett.</p>
-                <p>- Ide hallgassatok, fiúk! - folytatta, mint egy váratlan ötlet lendületében
+				<p>- Az, sajnos, jól el van intézve. Ez a nyomorult Corot tiszta munkát végzett.</p>
+				<p>- Ide hallgassatok, fiúk! - folytatta, mint egy váratlan ötlet lendületében
                     Csenevész. - Ha mondjuk, Bremont jelentkezne egy év múlva, és ha ti segítenétek
                     őt visszahozni, százezer frankot kapnátok fejenként.</p>
-                <p>- Hogy érted ezt?</p>
-                <p>- Ha mondjuk, velem jönnétek Afrikába...</p>
-                <p>Olyan csend lett, hogy egy nagyon távoli autóduda hallatszott fel hirtelen. Aztán
+				<p>- Hogy érted ezt?</p>
+				<p>- Ha mondjuk, velem jönnétek Afrikába...</p>
+				<p>Olyan csend lett, hogy egy nagyon távoli autóduda hallatszott fel hirtelen. Aztán
                     Rézfejű válaszolt igen komolyan.</p>
-                <p>- Kedves fiam, és harminchat éves vagyok, bejártam az egész világot, sokféle
+				<p>- Kedves fiam, és harminchat éves vagyok, bejártam az egész világot, sokféle
                     halállal bratyiztam. Halásztam szardíniát Svédországban, ástam guanót
                     Új-Zélandban, voltam légionista, ópiumcsempész, bányásztam salétromot Chilében,
                     és több évig mint utcasöprő működtem Londonban. Ha valaki azt mondaná, hogy
-                    százezer frankért menjek el motor­csónakkal a Déli-sarkra vagy vitorlással az
+                    százezer frankért menjek el motorcsónakkal a Déli-sarkra vagy vitorlással az
                     északira, szó nélkül hozzáfognék. De Afrikába, ha minden lépésemért egy kiló
                     aranyat fizetsz, akkor se megyek. Mi hárman különös véletlenek következtében
                     visszakerültünk onnan, és azt hiszem, ha az összes hindu alkirályok minden
                     kincsét össze lehetne ott lopkodni egy hónap alatt, akkor se mennék érte. Mert
                     az, kedves fiam, a pokol!</p>
-                <p>A lelkünkből beszélt. Bobi, mint az elmondottak rezüméjét, még hozzáfűzte:</p>
-                <p>- És ahová három ilyen veszett csavargó nem mer elmenni, ott, elképzelheted,
+				<p>A lelkünkből beszélt. Bobi, mint az elmondottak rezüméjét, még hozzáfűzte:</p>
+				<p>- És ahová három ilyen veszett csavargó nem mer elmenni, ott, elképzelheted,
                     milyen sors vár egy nyeszlett fiúcskára.</p>
-                <p>- Köszönöm az őszinteségteket - mondta és felállt. - Én most elmegyek Afrikába,
+				<p>- Köszönöm az őszinteségteket - mondta és felállt. - Én most elmegyek Afrikába,
                     és vagy elhozom Julest, vagy én is ott halok meg. Talán, ha ti velem jöttetek
                     volna, akkor sikerül. Így valószínűleg csak feláldozom magam. Köszönöm a
                     jóságtokat, szervusztok...</p>
-                <p>És elszántan nyújtotta felénk a kezét.</p>
-                <p>- Hát várj, te kis hülye! - mordult rá Rézfejű. Csak nem akarsz így elindulni
+				<p>És elszántan nyújtotta felénk a kezét.</p>
+				<p>- Hát várj, te kis hülye! - mordult rá Rézfejű. Csak nem akarsz így elindulni
                     Afrikába, mintha itt lenne a másik utca sarkán?</p>
-                <p>- Elárulom nektek, hogy a kabátom bélésében tízezer frank van bevarrva, ezzel
+				<p>- Elárulom nektek, hogy a kabátom bélésében tízezer frank van bevarrva, ezzel
                     talán megvesztegethetek ott valakit. Lebeszélni ne próbáljatok! De ha tudtok
                     valami tanácsot adni, azt nagyon megköszönném...</p>
-                <p>- Tanáccsal majd ellát a Füttyös. Neki minden fel van írva a fejében.</p>
-                <p>Tényleg, volt bizonyos tekintélyem, mint olyan embernek, aki jártas az afrikai
+				<p>- Tanáccsal majd ellát a Füttyös. Neki minden fel van írva a fejében.</p>
+				<p>Tényleg, volt bizonyos tekintélyem, mint olyan embernek, aki jártas az afrikai
                     dolgokban.</p>
-                <p>- A tízezer frankhoz ne nyúlj hozzá! Ez tényleg az egyetlen lehetőség, hogy
+				<p>- A tízezer frankhoz ne nyúlj hozzá! Ez tényleg az egyetlen lehetőség, hogy
                     kiszabadítsd, ha megtalálod. Elsősorban Oranba menj, ahol a Fort St. Therèse-ben
                     megtudhatod, hogy az első vagy a második századnál van-e, szóval Bell Abbesben
-                    vagy Saidában. Ha véletlenül Indo­kínában van, akkor vége. Ha Marokkó valamelyik
+                    vagy Saidában. Ha véletlenül Indokínában van, akkor vége. Ha Marokkó valamelyik
                     oázisában vagy erődjében van, akkor ezer az egyhez áll a lehetőség, hogy eljutsz
                     hozzá.</p>
-                <p>- Most még csak azt mondd meg, hogy juthatok el “feketén” Afrikába? - Arról tehát
+				<p>- Most még csak azt mondd meg, hogy juthatok el “feketén” Afrikába? - Arról tehát
                     már hallott, hogy a kikötő népe kizárólag mint potyautas közlekedik városok és
                     világrészek között.</p>
-                <p>- Holnap reggel hétkor indul a Teneriffa, a harmadik szekció második bazenjéből
+				<p>- Holnap reggel hétkor indul a Teneriffa, a harmadik szekció második bazenjéből
                     egyenesen Oranba. Keresd meg Nurét, a munkafelügyelőt, adj neki húsz frankot, és
                     mondd, hogy a Lyon D’or tulajdonosa üdvözli. Ő majd ad neked egy számot, és te
                     megindulsz a csomaghordókkal fel a hajóra. Vigyél magaddal egy üveg vizet és
                     négy vagy öt tábla csokoládét. Bújj el a fenékben, a gépházat elválasztó falnál,
                     mert ha szorosan hozzátapadsz éjjel, az ad valami meleget.</p>
-                <p>- Nagyon köszönöm nektek... Holnap reggel utazom.</p>
-                <p>- Eredj a fenébe! - rivallt rá dühösen Rézfejű. És Csenevész szinte boldogan
+				<p>- Nagyon köszönöm nektek... Holnap reggel utazom.</p>
+				<p>- Eredj a fenébe! - rivallt rá dühösen Rézfejű. És Csenevész szinte boldogan
                     elsietett.</p>
-                <p>- Micsoda hülye pasas! - mondta gúnyosan Bobi. - Ahogy az ilyenek elképzelik
+				<p>- Micsoda hülye pasas! - mondta gúnyosan Bobi. - Ahogy az ilyenek elképzelik
                     Afrikát!</p>
-                <p>- Hála Istennek - mondtam én -, hogy semmi közöm többé hasonló ügyekhez. Jövő
+				<p>- Hála Istennek - mondtam én -, hogy semmi közöm többé hasonló ügyekhez. Jövő
                     héten utazom haza, addig becsavargom Provence-t, végig megyek gyalog a
                     tengerparton, és ha fürdeni akarok, ruhástól ugrom a tengerbe.</p>
-                <p>- Nálam, barátom - röhögött Rézfejű - már elmúltak azok az idők, mikor még
+				<p>- Nálam, barátom - röhögött Rézfejű - már elmúltak azok az idők, mikor még
                     napirenden volt a lábon felrepedező bőr tikkadt gyaloglások közben, rettegés,
                     vérhas, pofonok az őrszobán! Ez többé nem lesz...</p>
-                <p>És valahogy nem jól éreztük magunkat. Meg is jegyezte Bobi, hogy “tudjátok, azért
+				<p>És valahogy nem jól éreztük magunkat. Meg is jegyezte Bobi, hogy “tudjátok, azért
                     van valami megható ebben a macskányi kölyökben, van valami megindító, ahogy ez
                     az izomtalan, sápadt bőrű fiúcska nekimegy az öreg Afrikának, hogy elhozza a
                     bátyját. És közben azt sem tudja, mi az a moszkitó!”</p>
-                <p>- Torkig vagyok evvel a kölyökkel! Értitek?! Nem érdekelnek más emberek
+				<p>- Torkig vagyok evvel a kölyökkel! Értitek?! Nem érdekelnek más emberek
                     nyavalyái! - kiáltotta Rézfejű, és otthagyott bennünket.</p>
-                <p>- Mi lesz evvel a szerencsétlen fráterrel Afrikában? - kezdtem meditálni, de Bobi
+				<p>- Mi lesz evvel a szerencsétlen fráterrel Afrikában? - kezdtem meditálni, de Bobi
                     felállt.</p>
-                <p>- Nézd, igaza van a Réznek. Mindenki úgy hal meg, ahogy neki tetszik. Semmi
+				<p>- Nézd, igaza van a Réznek. Mindenki úgy hal meg, ahogy neki tetszik. Semmi
                     közünk hozzá. És ő is elment.</p>
-                <p>Hat óra volt, gondoltam, még beérek a menhelyre. Esőre állt az idő, ilyenkor a
+				<p>Hat óra volt, gondoltam, még beérek a menhelyre. Esőre állt az idő, ilyenkor a
                     bálák büdösek, nem lehet jól aludni rajtuk. Vágyódtam a menhely száraz, kemény
                     ágya után. Ahogy mentem a rue Forbinen, újra rajtakaptam magam, hogy Csenevészen
                     jár az eszem. Láttam őt, amint az országúton elfogják a goumièrek, és
@@ -397,47 +399,47 @@
                     héten lemegyünk Korzikára, és áthozunk egy pár ezer cigarettát, mielőtt a
                     viharok kezdődnek. Lodoc azt mondta, hogy háromszoros árat fizet, meg a vitorlás
                     bérét...</p>
-                <p>A pap végigment a termen, és eloltotta a villanyt. Aludni akartam, de újra
+				<p>A pap végigment a termen, és eloltotta a villanyt. Aludni akartam, de újra
                     Csenevészre kellett gondolnom. Mi kényszerít, hogy állandóan magam előtt lássam
                     ennek a fiúnak ijedt, sovány arcát, azokkal a szomorú szemekkel, azokkal a
                     kedves, csüggedt vonásokkal?... Végre is mit tehetek?...</p>
-                <p>*</p>
-                <p>Reggel fejfájással ébredtem. Lementem az utcára, és csodálatos, minden rossz
+				<p>*</p>
+				<p>Reggel fejfájással ébredtem. Lementem az utcára, és csodálatos, minden rossz
                     érzésem elmúlt. A nap már felkelt, egy villamos lépcsőkön és kapcsolókon
-                    kapaszkodó ember­fürtökkel igyekezett a Que de Belges felé. Autódudája
+                    kapaszkodó emberfürtökkel igyekezett a Que de Belges felé. Autódudája
                     utálatosan szól, mindenfelől munkások özönlenek a Piacé de la Joliette
                     irányába... Egy fűszeresnél öt tábla csokoládét vettem, és megtöltöttem az
                     üvegemet szódavizes vörösborral. A szekció rácsos kapujában Rézfejűvel
                     találkoztam. Csokoládé táblák lógtak ki a zsebéből. Agresszíven fixíroztuk
                     egymást, aztán fel-alá járkáltunk szó nélkül. Rövidesen megérkezett Bobi egy
                     üveg vörösborral. Búgás. Hét óra volt.</p>
-                <p>- Elaludt az a kölyök, vagy mi az istennyila?! - mordult fel Rézfejű.</p>
-                <p>- Tudjátok - mentegetőzött Bobi -, gondoltam, nekem már úgyis mindegy... végre is
+				<p>- Elaludt az a kölyök, vagy mi az istennyila?! - mordult fel Rézfejű.</p>
+				<p>- Tudjátok - mentegetőzött Bobi -, gondoltam, nekem már úgyis mindegy... végre is
                     mi lehet? - mondta az ő sajátos beszédmódján.</p>
-                <p>- Gyerekek - mondta Rézfejű -, sajnos el kell mennünk evvel a kölyökkel! Végre is
+				<p>- Gyerekek - mondta Rézfejű -, sajnos el kell mennünk evvel a kölyökkel! Végre is
                     100 000 frank rengeteg pénz!</p>
-                <p>Jött Csenevész. Hálálkodó szavakat akart mondani, megilletődve szorongatta a
+				<p>Jött Csenevész. Hálálkodó szavakat akart mondani, megilletődve szorongatta a
                     kezünket, de Réz nyersen elébevágott:</p>
-                <p>- Hagyjuk ezeket a marhaságokat, és induljunk. Egyesével, vigyázzatok!</p>
-                <p>Milyen hihetetlen! Itt kuporgok a sötétben a gépház oldala mellett, türelmetlenül
+				<p>- Hagyjuk ezeket a marhaságokat, és induljunk. Egyesével, vigyázzatok!</p>
+				<p>Milyen hihetetlen! Itt kuporgok a sötétben a gépház oldala mellett, türelmetlenül
                     búg a hajó, erősen dohog a gép, ahogyan bejáratják, és mezítlábas lépések
                     döngenek a fejem felett. Vészesen csörög a horgonylánc... Hórukk!... Most ér fel
                     a vasmacska... A csavarlapátok harsogva járnak... Most biztosan ledobják a
                     kötelet a pilótagőzösnek. A szellőztető ablakon beszűrődő fény megremeg, azután
                     lassan tolódik...</p>
-                <p>- Megyünk... - dörmögi Rézfejű.</p>
-                <p>Vissza a pokolba!</p>
-            </div>
-       <div type="chapter">
-                <head>4.</head>
-                <p>És megint széles, sárga sugarak, fehér falak, dobozszerű házak, fülledtség,
+				<p>- Megyünk... - dörmögi Rézfejű.</p>
+				<p>Vissza a pokolba!</p>
+			</div>
+			<div type="chapter">
+				<head>4.</head>
+				<p>És megint széles, sárga sugarak, fehér falak, dobozszerű házak, fülledtség,
                     rongyszag, fekete vigyorgások, burnuszok és millió szállongó porszemecske.
                     Ismerlek benneteket, ismerlek...</p>
-                <p>Ennyi év után nem kellett attól tartanunk, hogy Bobit, vagy engem felismernek
+				<p>Ennyi év után nem kellett attól tartanunk, hogy Bobit, vagy engem felismernek
                     mint szökött légionistákat, de ezzel nem is nagyon törődtünk volna. Olyan
                     emberek voltunk, akik nem nagyon latolgatják a következményeket, ha már
-                    belefogtak valamibe. Megszoktuk a kényszer­munka, a késelés állandó kockázatát,
-                    amihez nem is kell rendkívüli bátorság, mert a társa­dalmon kívül élő
+                    belefogtak valamibe. Megszoktuk a kényszermunka, a késelés állandó kockázatát,
+                    amihez nem is kell rendkívüli bátorság, mert a társadalmon kívül élő
                     kikötő-páriák között ez éppen olyan váratlan, de magától értetődő eshetőség,
                     mint tisztes polgároknál a szívszélhűdés, vagy az influenza következtében beálló
                     halál. Tudjuk, hogy van, félünk is tőle, de úgysem tehetünk ellene semmit.
@@ -446,31 +448,31 @@
                     kedvét a “maszkírozástól”. Expedíciónk - négytagú kopott társulatunkat ugyanis
                     így neveztük el - egy humánus felfogású arab hotelban szállt meg, ahol nem
                     érdeklődnek a vendégek személyazonossága iránt.</p>
-                <p>Írásokra mindenesetre szükségünk volt, és Rézfejű, az expedíció főnöke
+				<p>Írásokra mindenesetre szükségünk volt, és Rézfejű, az expedíció főnöke
                     elővetetett ezer frankot Csenevész kabátjából. Délután két kosárral tért haza,
                     amelyek színültig meg voltak töltve önborotvákkal, noteszekkel,
                     bugylibicskákkal, fésűkkel és cigarettaszipkákkal. Az ő zárkózott modorában,
                     ügyet sem vetve ránk, két batyuba kezdte szortírozni a töméntelen filléres
                     pakfong- és pléh-ócskaságot.</p>
-                <p>- Ha meg nem sértlek érdeklődésemmel, talán a Szunda-szigetekre készülsz
+				<p>- Ha meg nem sértlek érdeklődésemmel, talán a Szunda-szigetekre készülsz
                     csereberélni a bennszülöttekkel? - kérdeztem.</p>
-                <p>- Ószeres leszek - felelte röviden Rézfejű, mintha direkt ebből a célból jöttünk
+				<p>- Ószeres leszek - felelte röviden Rézfejű, mintha direkt ebből a célból jöttünk
                     volna Afrikába a legsürgősebben. Nem zavartuk tovább, mivel sejtettük, hogy a
                     legközelebbi kérdésünkre már egész közvetlen dolgokat mondana. Később elővett
                     négy certifíkátot.</p>
-                <p>- Házalók vagyunk, az afrikai vasút mentén kereskedünk ilyen apróságokkal. Ez
+				<p>- Házalók vagyunk, az afrikai vasút mentén kereskedünk ilyen apróságokkal. Ez
                     elég megszokott mesterség, a hatóságok egyenesen pártolják itt a házalókat.
                     Négyen nem mehetünk egy kosárral, mert az feltűnő, tehát ketten-ketten alkotunk
-                    egy céget. Az egész hecc papírok­kal, áruval együtt hatszáz frankba került. A
+                    egy céget. Az egész hecc papírokkal, áruval együtt hatszáz frankba került. A
                     négyszázat elosztjuk, mindegyikünknél legyen legalább száz frank.</p>
-                <p>- És mi a legközelebbi teendő? - kérdezte izgatottan Csenevész.</p>
-                <p>- Elmegyünk, fiam, pálinkát inni, mert átkozottul szomjas vagyok.</p>
-                <p>És az expedíció felfedezett valahol egy Etrangers nevű kitűnő csapszéket, ahová
+				<p>- És mi a legközelebbi teendő? - kérdezte izgatottan Csenevész.</p>
+				<p>- Elmegyünk, fiam, pálinkát inni, mert átkozottul szomjas vagyok.</p>
+				<p>És az expedíció felfedezett valahol egy Etrangers nevű kitűnő csapszéket, ahová
                     bevonultunk.</p>
-            </div>
-       <div type="chapter">
-                <head>5.</head>
-                <p>Tulajdonképpen el sem tudtuk képzelni, hogy mit csinált volna Csenevész itt
+			</div>
+			<div type="chapter">
+				<head>5.</head>
+				<p>Tulajdonképpen el sem tudtuk képzelni, hogy mit csinált volna Csenevész itt
                     egyedül. Még hármunknak is nehéz munka volt kinyomozni Oranban, hogy hetekkel
                     ezelőtt egy átutazó légionistát merre irányítottak a Fort St. Therèse-ből?
                     Csenevész már itt, Oranban nagyon szenvedett a melegtől, de igyekezett ezt
@@ -478,7 +480,7 @@
                     könyökölve, cigarettázott és a padlót bámulta. Ha valamelyikünk bejött, olyan
                     hirtelen izgalommal ugrott fel, mint aki minden pillanatban azt várja, hogy már
                     hozzák a bátyját.</p>
-                <p>Bobi egy őrmesterrel kvaterkázott egész nap, Rézfejű meg én a városon kívül
+				<p>Bobi egy őrmesterrel kvaterkázott egész nap, Rézfejű meg én a városon kívül
                     csatangoltunk, a sivatag kezdetén, ahol egy kis emelkedésen látható a St.
                     Therèse erőd. Öszvéreket és tevéket hajtottak be, gyakorlatozó újoncokat
                     vezettek ki, gyümölcsöt s kalácsot áruló arab nők ólálkodtak a falak körül.
@@ -487,26 +489,26 @@
                     várva. Estig hiába cserkésztünk, hogy valami kompetensnek látszó személyt
                     találjunk. Kilenc óra felé visszatértünk a városba, mert Rézfejű ismét szomjas
                     lett.</p>
-                <p>Az Etrangersben ott találtuk Bobit. Egyedül ült és fütyörészett. Mikor leültünk,
+				<p>Az Etrangersben ott találtuk Bobit. Egyedül ült és fütyörészett. Mikor leültünk,
                     egy cédulát tolt elénk, amin ez állt: “Jules Bremont, első század, Saramra
                     helyőrség, utolsó állomás Igli, karaván-út Beni-Abbesig”. Bobi indolens
                     hidegvére sokszor a végsőkig dühített minket. Most is úgy nézett ránk, mint aki
                     egy lóversenyhalmozás tippjét tette elénk.</p>
-                <p>- Szóval megvan az ipse. - mondta megelégedetten Rézfejű. Aztán megivott egy fél
+				<p>- Szóval megvan az ipse. - mondta megelégedetten Rézfejű. Aztán megivott egy fél
                     liter pálinkát, és kiadta a jelszót: - Gyerünk!</p>
-                <p>Csenevész hanyatt feküdt az ágyon, és cigarettázott. Most a mennyezetet bámulta.
+				<p>Csenevész hanyatt feküdt az ágyon, és cigarettázott. Most a mennyezetet bámulta.
                     Azt hiszem, mind a hárman azt a furcsa gyengédséget éreztük iránta, amit egy
                     fészekből kihullott szerencsétlen madárfióka vált ki az emberből. Nem mondom,
                     hogy a százezer frank csábító lehetősége nem ösztönzött, de az bizonyos, hogy
                     expedíciónk fő mozgatóereje mégiscsak az a gyengéd érzés volt, amivel Csenevészt
                     sajnáltuk. Még a látszólag nagyon durva Rézfejű is. Kiterítettünk egy térképet,
                     és nekiláttunk az útitervnek.</p>
-                <p>Saramra bizony jó messze bent volt a Szaharában, de szerencsére aránylag közel a
+				<p>Saramra bizony jó messze bent volt a Szaharában, de szerencsére aránylag közel a
                     főútvonalhoz. Iglinél el kellett hagyni a vasutat. Innen Beni-Abbesig az új
                     Szahara-országút vezetett, amit jól ismertünk. Akkor építették, mikor Rézfejű a
-                    “Zephyreknél” volt. (Zephyrek­nek hívják a büntetőszázadokat.) Beni-Abbestől egy
+                    “Zephyreknél” volt. (Zephyreknek hívják a büntetőszázadokat.) Beni-Abbestől egy
                     rövid sivatagi úttal elérhettük Saramrát, amely egy úgynevezett “wadi” keleti
-                    partján terült el. Afrikában a wadik tulajdon­képpen hosszú kanyonokat,
+                    partján terült el. Afrikában a wadik tulajdonképpen hosszú kanyonokat,
                     szakadékos medreket jelentenek, amelyekben az esős időszak idején hatalmas
                     folyók hömpölyögnek, viszont a szárazság idején ezek a folyók hónapokra
                     eltűnnek. A wadi Saukra az év nyolc hónapjában nem létezik, az év további négy
@@ -516,25 +518,25 @@
                     ragadva a mélybe, és két hónappal később ugyanezen a helyen hiába ástunk több
                     méter mélységig, nem bírtunk egy kortyra való pocsolyát találni. Ez a
                     “wadi”.</p>
-                <p>Este már vonaton ültünk, és a Szahara-vasút döcögő kemencéjében megindultunk
+				<p>Este már vonaton ültünk, és a Szahara-vasút döcögő kemencéjében megindultunk
                     Colomb-Igli felé.</p>
-            </div>
-       <div type="chapter">
-                <head>6.</head>
-                <p>Nagyon meleg volt. Bizonyos fokig eldurvult és érzéketlen emberek voltunk, de
+			</div>
+			<div type="chapter">
+				<head>6.</head>
+				<p>Nagyon meleg volt. Bizonyos fokig eldurvult és érzéketlen emberek voltunk, de
                     szántuk és csodáltuk ezt a kimerült, sovány fiúcskát, ahogy kedves arca lassan
                     felvette a beteges, sárgás afrikai színt, ahogy a szív és a tüdő tehetetlen
                     légszomjától percenként sóhajtott, és homloka, keze lassan állandóan nyirkossá
                     vált a verejtéktől. Folyton aludt. Ha néha ébren volt, igyekezett mosolyogva
                     beszélni, mint aki aránylag igen jól érzi magát. Mint aki fél, hogy hazaküldik,
                     ha meglátszik rajta, hogy beteg.</p>
-                <p>Bár az Atlasz-hegység változatos sziklái között mentünk, a hőmérő lassan
+				<p>Bár az Atlasz-hegység változatos sziklái között mentünk, a hőmérő lassan
                     közeledett a negyven fok felé, és bent a fülkében sokszor ötven felett is
                     lehetett, ahogy ez a vaskazetta reggeltől estig haladt a perzselő napsugarak
                     alatt.</p>
-                <p>Számunkra mégis az volt a legrosszabb érzés, midőn este fél kilenckor befutott
+				<p>Számunkra mégis az volt a legrosszabb érzés, midőn este fél kilenckor befutott
                     vonatunk a világ legnevezetesebb garnizonjába: Sidi bel Abbesbe.</p>
-                <p>Itt kapják a légionisták az első nagy adag Afrikát, amelytől vagy meghalnak, vagy
+				<p>Itt kapják a légionisták az első nagy adag Afrikát, amelytől vagy meghalnak, vagy
                     vasemberek lesznek. Itt gyalogolnak először negyven kilométert teljes
                     felszereléssel sivatagi terepen, és itt lövöldöznek addig célba naponta, amíg
                     izzadó kezük feltörik a forró fegyveren, és válluk kisebesedve sajog a nehéz
@@ -542,45 +544,45 @@
                     újra meg újra odanyomni a puskatust, amelynek minden egyes rándulása a
                     nyúltagytól a lábujjakig hasít görcsös fájással, és aki maródira jelentkezik, az
                     patriarchális szokások szerint négy nap salle de police-t kap.</p>
-                <p>A kocsisor végéről újoncokat vagoníroznak le. Sorba állítják őket. Névsorolvasás,
+				<p>A kocsisor végéről újoncokat vagoníroznak le. Sorba állítják őket. Névsorolvasás,
                     elkínzott hangok: “present”... A pályaudvar felett látszik a szpáhi-laktanya
                     magas, lapos teteje, szemben vele a légió kaszárnyájának várszerű ornamentikája.
                     Távol egy mecset karcsú, oszlopszerű árnya, és mindez a poros, holdas, afrikai
                     estébe burkoltan. A fújtató mozdony pöfög, és az újoncok előtt felharsan a
                     káplár éles torokhangon: “Par fills de quatre!” Pillanatnyi szünet, aztán
                     mintegy rövid vakkantás: “An avant!” Megindul az újoncok szomorú serege...</p>
-                <p>Már szeretnénk tovább menni. Halk jelzőcsengés, távírókopogás, és egy öszvér
+				<p>Már szeretnénk tovább menni. Halk jelzőcsengés, távírókopogás, és egy öszvér
                     ordít fel valahol kint az utcán. De hirtelen fegyvercsörgést hallunk, egy káplár
                     és négy ember megy végig a vonaton, összeszorul a szívünk... A stentori hang
                     közeledik: “Legitimations... certifícats...”</p>
-                <p>Bakancsok és puskatusok dobbannak, szuronyok villannak, kék kabátok, fehér
+				<p>Bakancsok és puskatusok dobbannak, szuronyok villannak, kék kabátok, fehér
                     tarkófátylak és barna, markáns arcok: mint egy lidércnyomás, olyan az egész, és
                     rettentő súllyal nehezedik a mellkasomra... Minden szakaszba alsókarra
                     fektetett, szuronyos puskákkal lépnek be, támadó szándékkal, a bejáratot
                     gyakorlott gyorsasággal elállva, mint akik biztosan tudják, hogy itt az a
                     gazember!</p>
-                <p>És valószínűleg minden szakasznál van valami igazuk. Egy gyors, szúrós pillantás
+				<p>És valószínűleg minden szakasznál van valami igazuk. Egy gyors, szúrós pillantás
                     siklik végig az arcunkon, az írásainkon, a poggyászainkon, aztán visszadobja a
                     káplár a papírokat, és vakkant egyet: “An avant!...” Elmennek. Megkönnyebbülten,
                     szinte elgyengülten dőlünk hátra az ülésen, pedig ez még igazán csak ártalmatlan
                     előjáték. Már a szomszéd kupéban dong és csörömpöl a négy ember, és harsan fel a
                     farkasordítás: “Legitimations... certificats...”</p>
-                <p>Azután döcög tovább a vonat alagutak és vulkanikus sziklák között. Délután
+				<p>Azután döcög tovább a vonat alagutak és vulkanikus sziklák között. Délután
                     megérkeztünk Saidába...</p>
-            </div>
-       <div type="chapter">
-                <head>7.</head>
-                <p>Itt már jobban kellett vigyázni. Kisebb város, közel a Szaharához, kevés az
+			</div>
+			<div type="chapter">
+				<head>7.</head>
+				<p>Itt már jobban kellett vigyázni. Kisebb város, közel a Szaharához, kevés az
                     európai, és légió, légió, mindenütt légió... Már két napja utaztunk a rossz
                     szagú, forró fülkében, egy ismeretlen helyre, valami lehetetlen dolgot csinálni.
-                    Csenevész szemmel láthatólag nagyon szenvedett, de min­den erejét összeszedte,
+                    Csenevész szemmel láthatólag nagyon szenvedett, de minden erejét összeszedte,
                     hogy ne essen le végképp a lábáról. Váratlanul kicsapódott az ajtó, és valaki
                     magas orrhangon szitkozódott visszafelé, hogy amennyiben Igliben sem lenne külön
                     kocsi, úgy az összes hanyag és lehetetlen állomásfőnököt nyugdíjaztatja. Azután
-                    megjelent a fül­­kében egy magas, vállas, gőgös arcú kapitány, azután a
-                    tisztiszolga, nyomban mögötte egy káp­lár, utánuk az arab hordár kofferral és
+                    megjelent a fülkében egy magas, vállas, gőgös arcú kapitány, azután a
+                    tisztiszolga, nyomban mögötte egy káplár, utánuk az arab hordár kofferral és
                     egy katonaládával. A katonaláda nyilván a kápláré volt.</p>
-                <p>A kapitány káromkodásaiból kivehettük, hogy valami inspiciáló úton van, és
+				<p>A kapitány káromkodásaiból kivehettük, hogy valami inspiciáló úton van, és
                     nemcsak a külön kocsit kellett nélkülöznie már Saidáig is, hanem, az
                     állomásfőnök szerencsétlenségére, rövid kis vonatunkhoz, amely nem vásárra
                     indult az utazási szezon végén, másodosztályú kocsit nem is kapcsoltak. Ez a
@@ -595,7 +597,7 @@
                     lövik a másik után. Káplárok, sőt ezredesek átka kíséri őket útjukon, amelyről
                     hosszú jelentéseket írnak, majd maláriásan hazatérnek, és rablóhistóriákat adnak
                     elő az igazán kitűnően elgondolt és keresztülvitt afrikai militarizmusról.</p>
-                <p>Ez a fehér arcú és gőgös katona egyik típusa volt a fenti hadügyi
+				<p>Ez a fehér arcú és gőgös katona egyik típusa volt a fenti hadügyi
                     informátoroknak. A kék huszárok előkelő uniformisát hordta, nyílt megvetéssel
                     mért végig bennünket, és kisétált a folyosóra. Ott kigombolta a zubbonyát, amit
                     például egy igazi gyarmati katonatiszt a lakásán kívül sohasem tesz. Szemmel
@@ -603,12 +605,12 @@
                     termoszából az italt. Látszott, hogy utál közénk ülni, és a nyaka még fehérebb
                     volt, mint az arca. Mindezeket mi szemmel elmondtuk egymásnak, sőt a káplár is
                     részt vett a pillantásainkban. Régi, zupás légionistának látszott.</p>
-                <p>Hajnalban elértük a Szaharát. Egyhangú homoksivatagokon döcögött át a vonat. A
+				<p>Hajnalban elértük a Szaharát. Egyhangú homoksivatagokon döcögött át a vonat. A
                     végtelenbe nyúló dűnék finom hullámvonalait csak néha szakította meg kopár,
                     cserjés táj és az egyhangú alfafűsíkság. A hőség percről percre nőtt. A kocsi
                     belsejében talán hatvan fok is lehetett... Csenevész gyors, apró lihegéssel vett
                     lélegzetet, az arca fényes lett és sárga.</p>
-                <p>Délfelé a kocsi falai olyan forróak voltak, hogy szinte égették a kezet, és a
+				<p>Délfelé a kocsi falai olyan forróak voltak, hogy szinte égették a kezet, és a
                     tiszt már az ingét is kigombolta. Nagyon szenvedtünk, de belénk verték, hogy a
                     szenvedést hosszan, türelmesen és egyhangúan kell tudni elviselni. Aztán
                     Csenevész egyszer csak előrehanyatlott, és egy artikulátlan hörgéssel ájultan
@@ -616,13 +618,13 @@
                     tetszik-e a tisztnek vagy sem, töltött egy kis hideg teát a termoszból, amit a
                     kapitány egy lusta oldalpillantással vett tudomásul. Kigomboltuk Csenevész
                     kabátját...</p>
-                <p>Aztán gyorsan újra begomboltuk...</p>
-                <p>Csenevész nő volt.</p>
-                <p>Bután néztünk egymásra. Milyen ostobák voltunk, hogy nem jöttünk rá! Rézfejű
+				<p>Aztán gyorsan újra begomboltuk...</p>
+				<p>Csenevész nő volt.</p>
+				<p>Bután néztünk egymásra. Milyen ostobák voltunk, hogy nem jöttünk rá! Rézfejű
                     elkáromkodta magát. Bobi, aki talán még egy földrengéstől sem veszítette volna
                     el a nyugalmát, csendesen így szólt:</p>
-                <p>- Fiaim, hozzánk képest a legbárgyúbb sivatagi teve egy lángész!</p>
-                <p>- Nem történt semmi, nem tudunk semmit! - adta ki az utasítást Rézfejű. Valami
+				<p>- Fiaim, hozzánk képest a legbárgyúbb sivatagi teve egy lángész!</p>
+				<p>- Nem történt semmi, nem tudunk semmit! - adta ki az utasítást Rézfejű. Valami
                     megdöbbenés, megindultság és ijedelem vett rajtunk erőt. Itt robogtunk a föld
                     leghalálosabb és legsivárabb foltján keresztül egy gyenge, beteg, szerencsétlen
                     kislánykával, akiről e pillanatban már tudtuk, hogy nagyobb hős sok kiszolgált
@@ -635,11 +637,11 @@
                     mértékben növekedett. A tiszt és a káplár mit sem vett észre. Csenevész lassan
                     magához tért és egy ösztönös mozdulattal a kabátjához markolt, aztán megnyugodva
                     érezte, hogy minden úgy van begombolva, ahogy volt. Kint végtelen, vakító, sárga
-                    hullámok­ban rohant a sivatag, és ettől a látványtól egy undorodó grimasszal
+                    hullámokban rohant a sivatag, és ettől a látványtól egy undorodó grimasszal
                     újból elájult. Az ájulás mély, hörgő alvásba ment át. Elhatároztuk, hogy mi nem
                     iszunk többet Colombig. Vizünk egy részével lemostuk az arcát, másik részével
                     időnkint megitattuk...</p>
-                <p>Fél hétkor minden átmenet nélkül este lett, és a hőmérő úgy lesüllyedt, hogy a
+				<p>Fél hétkor minden átmenet nélkül este lett, és a hőmérő úgy lesüllyedt, hogy a
                     nagy forróság után januári hidegnek illett be a hirtelen, durva
                     hőmérsékletváltozás. Csenevész magához tért, és hisztérikus rázkódást kapott a
                     hidegtől. Három kabátot tettünk rá, a kézfejét és a lábát dörzsöltük, amíg
@@ -647,18 +649,18 @@
                     nyakát egy sálba, majd felvette a köpenyét. A káplár alva aludt a sarokban. Mi
                     szinte megkékültünk, ahogy ingujjban voltunk kénytelenek utazni, míg Csenevész a
                     három kabát alatt végre elaludt.</p>
-                <p>A vonat váratlanul lassított. A hideg dacára leeresztettem az ablakot, és
+				<p>A vonat váratlanul lassított. A hideg dacára leeresztettem az ablakot, és
                     kinéztem. Hatalmas máglya égett a síneken, messzire bevilágított a sivatagba,
                     szuronyos fegyverek csillognak mindenfelé, és maris golyók fütyülnek el a
                     kíváncsi utasok feje körül. Visszarántom az ablakot. Nem arabok voltak, tisztán
                     láttam a vékony francia szuronyokat. A vonat állt.</p>
-                <p>- En masse... - mondtam Rézfejűnek, aki bólintott, és nyugodtan odaszólt
+				<p>- En masse... - mondtam Rézfejűnek, aki bólintott, és nyugodtan odaszólt
                     Csenevésznek:</p>
-                <p>- Akármi történik, ülj nyugodtan a helyeden.</p>
-                <p>A tiszt végre kitüntetett minket megszólításával:</p>
-                <p>- Mi történik kint?</p>
-                <p>- Nézze meg! - mondtam egyszerűen, és leültem.</p>
-                <p>A tiszt nem tudott válaszolni, mert lövöldözés és kiabálás hallatszott kintről.
+				<p>- Akármi történik, ülj nyugodtan a helyeden.</p>
+				<p>A tiszt végre kitüntetett minket megszólításával:</p>
+				<p>- Mi történik kint?</p>
+				<p>- Nézze meg! - mondtam egyszerűen, és leültem.</p>
+				<p>A tiszt nem tudott válaszolni, mert lövöldözés és kiabálás hallatszott kintről.
                     Előhúzta a revolverét, és kinyitotta az ajtót. Kint kiabálás: “Mindenki maradjon
                     a helyén, aki megmozdul, golyót kap!” Vagonajtók csapódnak, a tiszt keményen
                     kiszól a lépcsőn: “Halt! Qui est la?” Hang felel egy megvillanó szurony mögül:
@@ -669,13 +671,13 @@
                     tiszt átszúrt mellel bukik be a fülkébe, és jól látni, amint egy golyó éppen
                     belecsap az arcába, és vérpatak önti el az orra mellett. Több légionista átlép
                     rajtuk, majd a folyosón indulnak el minden irányban...</p>
-                <p>Egyedül maradunk a két mozdulatlan testtel: a kapitány és a káplár. Csenevész
+				<p>Egyedül maradunk a két mozdulatlan testtel: a kapitány és a káplár. Csenevész
                     régen elájult, vagy az is lehet, hogy én ütöttem le, mikor fel akart ugrani.</p>
-                <p>Az egész másodpercek alatt zajlott le, és minket, akik nyugodtan ültünk, nem
+				<p>Az egész másodpercek alatt zajlott le, és minket, akik nyugodtan ültünk, nem
                     bántottak. Mint utóbb kiderült, senkit sem bántottak, csak a kapitányt és a
                     káplárt, akik harcba keveredtek velük. Rézfejű a kapitányt vizsgálta, én a
                     káplárt. De minden hiába, halottak.</p>
-                <p>Az “en masse” a légióból való megszökés modern intézménye. Tízen, tizenöten
+				<p>Az “en masse” a légióból való megszökés modern intézménye. Tízen, tizenöten
                     összeállnak, nekivágnak a sivatagnak vagy az Atlasz-hegységnek, ahol az arabok
                     tíz-tizenöt puskáért cserébe - mert a Lebel-puska hatalmas értéket jelent
                     kabilnak, arabnak, tuaregnek - átsegítik a légionistát spanyol, vagy angol
@@ -683,20 +685,20 @@
                     megnyálazza a papírt. Az ajtóból egyszerre négy szurony mered ránk. Bobi éppen
                     befejezi a sodrást, és mintha kapóra jönnének a lázadók, odaszól egy hatalmas
                     legénynek, aki nyilván a vezér:</p>
-                <p>- Nincs egy szál gyufátok?</p>
-                <p>Az imponálni kívánó legény ettől zavarba jön. Aztán összeszedi magát, és ránk
+				<p>- Nincs egy szál gyufátok?</p>
+				<p>Az imponálni kívánó legény ettől zavarba jön. Aztán összeszedi magát, és ránk
                     kiabál:</p>
-                <p>- Kik vagytok?!</p>
-                <p>Bobi úgy érezte, hogy ő hivatott a válaszadásra, tehát készséggel bemutatott
+				<p>- Kik vagytok?!</p>
+				<p>Bobi úgy érezte, hogy ő hivatott a válaszadásra, tehát készséggel bemutatott
                     mindannyiunkat:</p>
-                <p>- Részemről a stockholmi opera balettmestere vagyok. Ez itt barátom, Rézfejű, egy
+				<p>- Részemről a stockholmi opera balettmestere vagyok. Ez itt barátom, Rézfejű, egy
                     jó nevű kanadai ügyvéd, nem egészen normális. Ez a másik itt Füttyös,
                     hegedűtanár. Az a sovány, sápadt fiú pedig egy mormon hittérítő, aki meg akarja
                     keresztelni a tuaregeket a quecker vallásra, és aztán Amerika költségén
                     átszállítja mindet a Nagy Sós Tó vidékére.</p>
-                <p>A marcona légionista még jobban megzavarodott, de társainak tetszett a válasz,
+				<p>A marcona légionista még jobban megzavarodott, de társainak tetszett a válasz,
                     mert valamennyien nevettek.</p>
-                <p>Később dohányoztunk, és nagyon kedélyesen elbeszélgettünk. Ha jól emlékszem,
+				<p>Később dohányoztunk, és nagyon kedélyesen elbeszélgettünk. Ha jól emlékszem,
                     Rézfejű valami csekélységért pofonokat is ígért nekik. Csenevésznek eleinte zöld
                     volt a szája, és egész testében remegett, de később ő is megnyugodott
                     valamennyire. A katonák egy Colomb melletti helyőrségből dezertáltak. Harmincan
@@ -704,7 +706,7 @@
                     Izmin sejkkel megállapodtak, hogy harminc puskáért angol tengerpartra segíti
                     őket. Izmin sejkben meg lehet bízni, mert nem az első eset, hogy légionistákat
                     “en masse” hazasegít.</p>
-                <p>Hajnalig utaztak velünk. A nap már piros és aranysárga reflexekkel derengett a
+				<p>Hajnalig utaztak velünk. A nap már piros és aranysárga reflexekkel derengett a
                     keleti látóhatár peremén, mikor a mozdony megállt. Fegyvercsörgés,
                     ajtócsapkodások, és a légionisták kis csapata nekivágott a sivatagnak. Gyönyörű
                     látvány volt. A szürkületben talán száz méternyire a vonattól egy mozdulatlan
@@ -713,7 +715,7 @@
                     csík; lövésre kész, célba emelt puskacsövek. Izmin minden eshetőségre elkészült.
                     Az egész olyan volt, mint egy álomkép. A következő percben a vonat rémült
                     sebességgel repült tovább a sivatagban Igli irányába...</p>
-                <p>A Szahara törvényeinek értelmében a halottak ivóvizét, illetve a hatalmas
+				<p>A Szahara törvényeinek értelmében a halottak ivóvizét, illetve a hatalmas
                     termoszt nyomban birtokunkba vettük, és először megitattuk a rémülettől
                     félhalott Csenevészt. Kikutattuk a halottakat. Vagy nyolcezer frank készpénzt
                     találtunk a tisztnél, ezt természetesen eltettük. Azután tanácskoztunk. Eddig
@@ -721,14 +723,14 @@
                     távoli garnizonba, hogy kiragadjunk egy embert a törvény és a fegyveres hatalom
                     kezéből. Csenevész aludt, Rézfejű halkan és hosszasan magyarázott, mi
                     bólogattunk... Később egy kanyarodónál, ahol a mögöttünk lévő kocsisort
-                    eltakarták a homokpadok, két hiá­nyosan öltözött holttestet dobtunk ki a hajnali
+                    eltakarták a homokpadok, két hiányosan öltözött holttestet dobtunk ki a hajnali
                     homályban. Távolból sötét pontok tűntek fel...</p>
-                <p>Sakálok.</p>
-            </div>
-       <div type="chapter">
-                <head>8.</head>
-                <p>Igli!</p>
-                <p>Az állomáson nagy riadalom támadt. Mindenki egyszerre beszélt, az utórémület
+				<p>Sakálok.</p>
+			</div>
+			<div type="chapter">
+				<head>8.</head>
+				<p>Igli!</p>
+				<p>Az állomáson nagy riadalom támadt. Mindenki egyszerre beszélt, az utórémület
                     izgalmában mesélték a lövöldözést és támadást. Az állomásfőnök azonnal
                     sürgönyöztetett, a csendőrök kezdtek jegyzőkönyvezni, és végigkutatták a
                     vonatot. Két házaló elindult a város felé, az egyiket támogatni kellett, úgy
@@ -738,7 +740,7 @@
                     állomásfőnökkel, hogy jelentést fog tenni az egész disznóságról. Aztán kemény
                     léptekkel, a káplárral együtt elvonultak, hogy lakás után nézzenek ebben az
                     undorító fészekben!</p>
-                <p>Az utcán már határozottan kértem Rézfejűt, hogy hagyja abba az ordítozást.
+				<p>Az utcán már határozottan kértem Rézfejűt, hogy hagyja abba az ordítozást.
                     Borzasztóan tetszett neki, hogy ő a kapitány. Mellesleg az volt a szerencsénk,
                     hogy úgy a kapitány, mint a káplár úgynevezett extra uniformist is hoztak
                     magukkal, mert a rajtuk lévő ruhát végig bemocskolta a sok elfolyt vér. Így elég
@@ -758,16 +760,16 @@
                     szálldostak ki és be Afrika máig is rendszerezetlen szúnyogfajtái, és ahogy
                     felhajtottuk az ágytakarót, számos pondró igyekezett menedéket találni a piszkos
                     lepedő ránca között.</p>
-                <p>Mélységes undorral vettük birtokba lakrészeinket. Azután bementünk
+				<p>Mélységes undorral vettük birtokba lakrészeinket. Azután bementünk
                     útitársainkhoz. Csenevészen meglátszott, hogy utolsó erőit is elhasználta. Nem
                     is sejtette, hogy tudjuk a titkát, és szokott hősiességével igyekezett
                     mosolyogni.</p>
-                <p>- Kedves gyermekeim! - kezdte Rézfejű. - A játék most igazira fordult. Ugyanis,
+				<p>- Kedves gyermekeim! - kezdte Rézfejű. - A játék most igazira fordult. Ugyanis,
                     ahogy mi most Füttyössel itt állunk egy vezérkari tiszt és ordonáncának
                     uniformisában, tökéletesen kimerítjük a haditerületen elkövetett kémkedés
                     ismertetőit. Most már arról van szó, hogy vagy sikerül kiszabadítani azt a
                     frátert valami újsütetű köpenicki heccel, vagy felkötnek bennünket Oranban.
-                    Tehát menjetek gyermekeim a fészkes fenébe! Vagy ami még rosszabb: Mara­keschbe,
+                    Tehát menjetek gyermekeim a fészkes fenébe! Vagy ami még rosszabb: Marakeschbe,
                     ahol is várakozzatok ránk! A továbbiakban aztán két eset lehet: vagy megérkezünk
                     avval a nyavalyás Bremont-nal Marakeschbe, vagy nem. Ha nem érkezünk meg, azt
                     onnan fogjátok majdnem biztosan tudni, hogy hosszabb ideig hiába vártok ránk. Az
@@ -778,12 +780,12 @@
                     teljesen lehetetlen feltűnés nélkül közlekedni ezen a vad vidéken. Ergo kiadtam
                     a marsrutát, és ti ketten Bobival holnap indultok vonattal vissza Gervville-ig.
                     Ott átszálltok Marakesch felé, és a Hotel Du Negriében vártok minket.</p>
-                <p>Csenevész szokatlan energiával kezdett ellenkezni, de Rézfejű a kék huszárok
+				<p>Csenevész szokatlan energiával kezdett ellenkezni, de Rézfejű a kék huszárok
                     festői uniformisának hatása alatt különösen kérlelhetetlen volt:</p>
-                <p>- Itt két eset lehetséges - kezdte a szavajárását -, és mind a két eset az, hogy
+				<p>- Itt két eset lehetséges - kezdte a szavajárását -, és mind a két eset az, hogy
                     szó nélkül elindultok Gervville-be. Ha nem tetszik, akkor mehetsz tovább
                     egyedül, és mi hárman itt hagyunk.</p>
-                <p>Csenevésznek végre is engednie kellett. Különben is, bizonyára megtörte már
+				<p>Csenevésznek végre is engednie kellett. Különben is, bizonyára megtörte már
                     annyira Afrika, hogy feladja a küzdelmet. Rézfejű kitűnő lélektani érzékkel
                     dolgozott, amikor nem árulta el Csenevésznek, hogy tudjuk a titkát, és azért
                     távolítjuk el sürgősen, mert csak egy gyenge nő. Dehogyis jelent terhet itt az
@@ -792,7 +794,7 @@
                     egyenértékű bajtársunkat, a higgadt, elszánt és ügyes Bobit nélkülöztük, hogy
                     Csenevésznek kísérője és gyámolítója legyen. Morgott is a fiú, de Rézfejű
                     mindent elsöprő terrorja őt is meggyőzte.</p>
-                <p>Ezután visszatértünk a szobánkba és megbeszéltük a tervet. A kapitány poggyásza
+				<p>Ezután visszatértünk a szobánkba és megbeszéltük a tervet. A kapitány poggyásza
                     valóságos kincseskamra volt, amely nélkül elképzelhetetlen lett volna a
                     vállalkozásunk. Eltekintve attól a régimódi, de kitűnő 10.75-ös Mauzertől, amely
                     az Atlaszban sűrűn előforduló leopárdokkal szemben sokkal többet ér a nagy
@@ -803,17 +805,17 @@
                     legnagyobb és legveszélyesebb kalandja következik. De azért amint lehajtottuk a
                     fejünket, mar azon nyomban aludtunk is a felelőtlen emberek veszéllyel, élettel,
                     tegnappal és holnappal nem törődő lelki közönyének egészséges nyugalmában.</p>
-            </div>
-       <div type="chapter">
-                <head>9.</head>
-                <p>Rézfejű hajnali négy órakor felkeltett.</p>
-                <p>- Mozogj, te ló! Nem szeretném, ha búcsúzkodásra kerülne sor.</p>
-                <p>Szavamra, ez a Rézfejű zseni volt. Elsősorban minek kompromittáljuk kötélre
+			</div>
+			<div type="chapter">
+				<head>9.</head>
+				<p>Rézfejű hajnali négy órakor felkeltett.</p>
+				<p>- Mozogj, te ló! Nem szeretném, ha búcsúzkodásra kerülne sor.</p>
+				<p>Szavamra, ez a Rézfejű zseni volt. Elsősorban minek kompromittáljuk kötélre
                     megérett társaságunkkal Bobit és Csenevészt, másodsorban mi a fenét rázogassuk
                     egymás kezét és mondjunk érzelmes hülyeségeket, mikor minden perc drága? Az
                     ilyesmi sokkal megfelelőbb szertartás Kovácsné és férje között, ha valamelyikük
                     egyedül utazik nyaralni.</p>
-                <p>A derengő nap első, hűvös pásztái az utcán találtak bennünket. Karavánt kellett
+				<p>A derengő nap első, hűvös pásztái az utcán találtak bennünket. Karavánt kellett
                     szervezni. A városkában francia hűbérben élő, úgynevezett partizánok laktak.
                     Indolensek, pimaszok és tolvajok mind. Egy sárga burnuszos szállítóval, aki a
                     datolyakereskedők forgalmát bonyolította le, nagy nehezen megalkudtunk. A
@@ -821,15 +823,15 @@
                     mi addig pofoztuk, amíg azt mondta, hogy jó, legyen hetven. Ezután vidám
                     beszélgetéssel megittunk egy pár pohár pinárd nevezetű rossz burgundi vörösbort,
                     amivel a franciák hihetetlen mennyiségben árasztják el Afrikát.</p>
-                <p>Hozzáláttunk a felnyergeléshez, rendeztünk egy próbatáborozást, és a harmat még
+				<p>Hozzáláttunk a felnyergeléshez, rendeztünk egy próbatáborozást, és a harmat még
                     fel sem száradt, mikor hét tevéből álló fegyveres karavánunk nekivágott a
                     sivatagnak.</p>
-                <p>Kísérőink görcsös bunkókra emlékeztető Snider-puskákkal voltak ellátva. Érdekes,
+				<p>Kísérőink görcsös bunkókra emlékeztető Snider-puskákkal voltak ellátva. Érdekes,
                     hogy ezek a partizánok francia szolgálatban még Riffle és Remington-puskákat is
                     produkálnak, ha viszont fellázadnak, Isten tudja, honnan, remek Winchester és
                     Manlicher gyártmányokkal rendelkeznek tucatszámra. Érdemes lenne ennek végére
                     járni. Lehetséges, hogy diplomáciai bonyodalmakra vezetne.</p>
-                <p>Rézfejű poroszkált a karaván előtt, én a végén, mert nem árt, ha az ember a
+				<p>Rézfejű poroszkált a karaván előtt, én a végén, mert nem árt, ha az ember a
                     védelmére szerződtetett arabokra a nyergén keresztbe nyugvó fegyverével vigyáz.
                     Rézfejű málhájába tette az elegáns kék huszárkabátot, amelyet bizonyára ronggyá
                     izzadt volna. Most már jó mélyen bent jártunk a Szaharában, és nem tudtuk, mi
@@ -845,18 +847,18 @@
                     környékén hánykolódik, a fej a tevejárás ütemében bólogat, és rövid idő múlva
                     viszket a nyak, hát és comb a por és a teve testéről kivándorolt különböző
                     élősdiek miatt.</p>
-                <p>Délután néhány fehér oszlopot pillantottunk meg. Újonc Afrika-járók ledőlt
+				<p>Délután néhány fehér oszlopot pillantottunk meg. Újonc Afrika-járók ledőlt
                     városok romjának néznék, pedig ezek a hosszú, fehér hengerek sivatagi kutak.
                     Ilyenkor nincs oázis körülöttük. Nyár van. Kiszáradt cserjék, szegényes alfafű
                     és a föld alól kirothadt gyökerek tömege. Pihenő!</p>
-                <p>A tevék vágyakozva bőgnek a bőrvedrek körül. Felállítunk egy kis sátort, és
+				<p>A tevék vágyakozva bőgnek a bőrvedrek körül. Felállítunk egy kis sátort, és
                     félholtan elnyúlunk alatta. Az arabok hangos gajdolással főzik a kuszkuszt.
                     Rézfejű előveszi a szájharmonikáját, és eljátssza a “Miattad bánatos az én
                     szívem” refrénű dalt...</p>
-            </div>
-       <div type="chapter">
-                <head>10.</head>
-                <p>Hajnalban tovább himbálóztunk a sivatagon át. Lassan megtelt a levegő szállongó
+			</div>
+			<div type="chapter">
+				<head>10.</head>
+				<p>Hajnalban tovább himbálóztunk a sivatagon át. Lassan megtelt a levegő szállongó
                     porral, és csontig hasogató fájások nyilalltak az agyunkba: sirokkóba kerültünk.
                     A tevék hörögtek és kirúgtak. A csökönyös dög, amelyen én ültem, úgy harapta
                     össze a zablát, hogy percekig vertem revolvercsővel a fejét, mire hosszas
@@ -864,9 +866,9 @@
                     alatt ropogott, a torkunkat karcolta, fuldokolva köhögtünk. A sirokkó csak
                     erősbödött, az ég hamuszínűnek tetszett, és a nap, mint egy halom hamvadó rőzse,
                     sötétvörösen izzott. Vakon, félájultan, a vezérteve ösztönére bízva magunkat,
-                    halad­tunk. Versenyt köhögtünk és hörögtünk a tevékkel az egyre sűrűbben
+                    haladtunk. Versenyt köhögtünk és hörögtünk a tevékkel az egyre sűrűbben
                     szállongó porban. Csupa hamuszürke lovas, gyulladt szemekkel.</p>
-                <p>Négy órára ténferegtünk el Beni-Abbesig. Itt egy légyfelhő ereszkedett ránk, és
+				<p>Négy órára ténferegtünk el Beni-Abbesig. Itt egy légyfelhő ereszkedett ránk, és
                     csak aki már járt Afrikában, az tudja, milyen szörnyű veszélyt jelentenek ott a
                     legyek. Vannak oázisok, ahonnan házaikat, datolyapálmáikat otthagyva örökre
                     elmenekült a lakosság a legyek elől. Marokszámra szedtük le az arcunkról őket,
@@ -877,40 +879,40 @@
                     sajnáltam. Betértünk az alacsony ivóba. Kifizettük a karaván vezetőjét, és
                     Rézfejű azonnal elővette a tulajdonost, egy alacsony, ősz szakállú arabot, aki
                     szólni is alig tudott az ijedtségtől, mikor a “rumi” tisztet meglátta.</p>
-                <p>- Fehér embereket keresek! - és rövid gondolkozás után hozzátette: - Két
+				<p>- Fehér embereket keresek! - és rövid gondolkozás után hozzátette: - Két
                     ferencsit, akik tiltott kereskedést űznek. - Ferencsinek hívják errefele az
                     európaiakat.</p>
-                <p>- Uram! Két ferencsi van nálam... De én nem tudok róluk semmit! - Rézfejű karba
+				<p>- Uram! Két ferencsi van nálam... De én nem tudok róluk semmit! - Rézfejű karba
                     font kézzel lépett eléje.</p>
-                <p>- Nem tudsz? - kérdezte vészjóslóan. - Ha igazat mondsz, nem lesz bántódásod, ha
+				<p>- Nem tudsz? - kérdezte vészjóslóan. - Ha igazat mondsz, nem lesz bántódásod, ha
                     hazudsz, Oranba viszlek a Falot elé!</p>
-                <p>Az orani Falot a haditörvényszék, amely statáriálisan ítélkezik bizonyos
+				<p>Az orani Falot a haditörvényszék, amely statáriálisan ítélkezik bizonyos
                     bűntettekben, amit az ügyesen “haditerületnek” nyilvánított Szaharában követnek
                     el. Rézfejű találomra ment, hogy hátha görbe utakon járnak az autó
                     tulajdonosai.</p>
-                <p>- Uram - vallott a rémült tulajdonos -, én whiskyt szoktam tőlük venni és
+				<p>- Uram - vallott a rémült tulajdonos -, én whiskyt szoktam tőlük venni és
                     pinárdot, de most tartsd meg a szavadat, és ne bánts!</p>
-                <p>Az alkohollal való kereskedés Afrika területén tilos. De lelketlen emberek
+				<p>Az alkohollal való kereskedés Afrika területén tilos. De lelketlen emberek
                     hitvány pancsokkal mégis mérgezik, egyre mérgezik a partizán életben züllésnek
                     induló arabokat. Rézfejű azt is megtudta, hogy az autó utasai nemegyszer
                     hölgyeket visznek magukkal, akiket azonban visszafelé már nem hoznak. Szóval
                     ezek az arabokkal barátságban élő európai típusából valók, akik alkoholt
                     csempésznek, lánykereskedést folytatnak, és mellesleg kémkednek is, hogy
                     bántatlanul járhassanak a tuaregek között.</p>
-                <p>- Goumièreket! - süvöltötte Rézfejű, aztán berúgta az ivóba nyíló ajtót, amely az
+				<p>- Goumièreket! - süvöltötte Rézfejű, aztán berúgta az ivóba nyíló ajtót, amely az
                     egyetlen gerendás szobából álló hotelbe vezetett. - Hé! Uraim! Szabad egy pár
                     szóra?</p>
-                <p>Két holtfáradt, álmos ember kezdett mocorogni, és Rézfejű stentorian vezényelt
+				<p>Két holtfáradt, álmos ember kezdett mocorogni, és Rézfejű stentorian vezényelt
                     nekem:</p>
-                <p>- Szuronyt fel! Súlyba!</p>
-                <p>Feltűztem a vékony “eguille-t”, és támadóan megálltam. Egy kis köpcös és egy
+				<p>- Szuronyt fel! Súlyba!</p>
+				<p>Feltűztem a vékony “eguille-t”, és támadóan megálltam. Egy kis köpcös és egy
                     hatalmas gorillaszerű ember jelent meg sátorponyvából készült bricseszben.</p>
-                <p>- Önöket letartóztatom! Papírjaikat és fegyvereiket kérem!</p>
-                <p>Végignéztek rajtunk.</p>
-                <p>- Hohó! Mi angol állampolgárok vagyunk! Hol az elfogatóparancs! Különben is, ön
+				<p>- Önöket letartóztatom! Papírjaikat és fegyvereiket kérem!</p>
+				<p>Végignéztek rajtunk.</p>
+				<p>- Hohó! Mi angol állampolgárok vagyunk! Hol az elfogatóparancs! Különben is, ön
                     katona, és nincs joga polgári személyeket letartóztatni!</p>
-                <p>- Vállalom a felelősséget! - mondta Rézfejű. - De most már gyerünk!</p>
-                <p>A hatalmas ember elszánt fickó lehetett, mert kitaszította Rézfejűt, és be akarta
+				<p>- Vállalom a felelősséget! - mondta Rézfejű. - De most már gyerünk!</p>
+				<p>A hatalmas ember elszánt fickó lehetett, mert kitaszította Rézfejűt, és be akarta
                     csapni az ajtót, ami után kétes kimenetelű revolverharc keletkezett volna. De
                     Rézfejű kirántotta őt a karjánál fogva, és a következő pillanatban úgy csaptam
                     arcul, hogy elborította a vér. Rézfejű hatalmas rúgásától az asztalnak repült,
@@ -925,18 +927,18 @@
                     hatalmas angol másodpercek alatt hozzávetőleg két-háromszáz pofont kapott. A
                     továbbiakban bizonyára jókedvűen táncoltak volna rajta az arabok, ha közbe nem
                     lépünk. Mikor az angolt felszedtük, alig lehetett ráismerni.</p>
-                <p>- Ez se fog egy ideig hölgyeket exportálni - motyogta felém Rézfejű. Azután a
+				<p>- Ez se fog egy ideig hölgyeket exportálni - motyogta felém Rézfejű. Azután a
                     goumièrekhez fordult:</p>
-                <p>- A két angolt nem szabad agyonütni, különben Falot elé kerültök. Jól megkötözve
+				<p>- A két angolt nem szabad agyonütni, különben Falot elé kerültök. Jól megkötözve
                     elszállítjátok őket Saidába.</p>
-                <p>Tudta jól, hogy a két angol háromszor is kereket old addig a bennszülött
+				<p>Tudta jól, hogy a két angol háromszor is kereket old addig a bennszülött
                     csendőröktől. Mi pedig egy óra múlva kellő üzemanyaggal felszerelve megindultunk
                     a zötykölő kis Citroennel a sivatagon át wadi Saukra felé, amelynek túlsó
                     oldalán van a Fort Saramra nevű előretolt helyőrség.</p>
-            </div>
-       <div type="chapter">
-                <head>11.</head>
-                <p>Most következett utunk fizikailag legkönnyebb, de kockázatokban legveszélyesebb
+			</div>
+			<div type="chapter">
+				<head>11.</head>
+				<p>Most következett utunk fizikailag legkönnyebb, de kockázatokban legveszélyesebb
                     része. A legforróbb nyár perzselt mindent, ez a Szahara legrosszabb időszaka. A
                     végletekig kiszikkadt föld félméteres repedésekkel volt borítva, a wadi Saukra
                     alfafű csomói szalmává égtek. Déli kettőkor keltünk át rajta az autónkkal. A
@@ -946,71 +948,71 @@
                     tetejére épített megfigyelőhely posztja már észrevehette, hogy érkezünk. Valaki,
                     csakis őrmester lehetett, távcsövön át nézett, aztán egyszerre felharsant a
                     riadó kürtjele:</p>
-                <p>“Aux armes!”</p>
-                <p>A trombita szakadatlanul recseg, a kapu kitárul, és méltóságteljesen begördülünk
+				<p>“Aux armes!”</p>
+				<p>A trombita szakadatlanul recseg, a kapu kitárul, és méltóságteljesen begördülünk
                     az udvarra. Az udvaron fegyverben állt a helyőrség. Az őrmester tisztelgett:</p>
-                <p>- Létszám egy peloton légionista a második századból, kilenc salle de police, hét
+				<p>- Létszám egy peloton légionista a második századból, kilenc salle de police, hét
                     beteg. A kapitány és a hadnagy egy heti szabadságra utaztak, és sergeant Turnier
                     vette át a helyőrség parancsnokságát, present, mon commandant!</p>
-                <p>A szaharai nyárban, ha békésen telik, megszokott dolog, hogy istenverte kis
+				<p>A szaharai nyárban, ha békésen telik, megszokott dolog, hogy istenverte kis
                     helyőrségekben a főtisztek sokszor hetekre magára hagyják az őrmestert. Hiszen
                     ha ott vannak, tulajdonképpen akkor is az őrmester csinál mindent.</p>
-                <p>Rézfejű remekül tudta az egész leckét. Kezet fogott az őrmesterrel, ellépett a
+				<p>Rézfejű remekül tudta az egész leckét. Kezet fogott az őrmesterrel, ellépett a
                     legénység előtt, az egyiknél megállt, és megszámolta kamásniján a gombokat.
                     Aztán pihenjt vezényelt, majd megszólalt:</p>
-                <p>- Az újságok megint botrányos dolgokat szellőztettek az őrmesterek
+				<p>- Az újságok megint botrányos dolgokat szellőztettek az őrmesterek
                     kegyetlenségeiről. Állítólag ezeken a távoli pontokon még mai is rettenetes
                     disznóságok, kikötések, siló, crapaudine és hasonló büntetések fordulnak elő. Ha
                     ilyesmit megtudunk, akkor jaj a fejeteknek!</p>
-                <p>Az őrmester meghökkenéséről láttam, hogy Réznek sikerült elevenére tapintani.
+				<p>Az őrmester meghökkenéséről láttam, hogy Réznek sikerült elevenére tapintani.
                     Régi divat volt a légióban, hogy öt-hat évenként, mindenféle európai
                     újságközlemények hatása alatt néhány őrmestert odadobtak a közvéleménynek
                     áldozatul. Egy-két lefokozás vagy néhány év travaux, azután ment minden tovább
                     ugyanúgy, és maradt a régiben. Rézfejű folytatta:</p>
-                <p>- Elsősorban azonban keresünk egy kémet, aki a párizsi katonai fegyházból
+				<p>- Elsősorban azonban keresünk egy kémet, aki a párizsi katonai fegyházból
                     megszökött, és a légióba jelentkezett. Biztos tudomásunk van róla, hogy itt van,
                     Saramra erődjében. A neve Jules Bremont!</p>
-                <p>- Jules Bremont itt van, mon commandant. Beteg.</p>
-                <p>- Ha beledöglik, akkor is visszük a kutyát. Úgy kötözze meg a káplár, hogy a
+				<p>- Jules Bremont itt van, mon commandant. Beteg.</p>
+				<p>- Ha beledöglik, akkor is visszük a kutyát. Úgy kötözze meg a káplár, hogy a
                     csontjai ropogjanak! Oszolj! Sziesztához!</p>
-                <p>A legénység elkullogott, csak az őrség maradt ott. Valahova messzire mentek el az
+				<p>A legénység elkullogott, csak az őrség maradt ott. Valahova messzire mentek el az
                     őrmesterrel, majd jó tíz perc múlva hozták Bremont-t. Irtózatosan nézett ki! Az
                     udvarra nyíló ablakok telve voltak kíváncsi legényekkel. Bremont zöld volt,
                     rémületesen sovány, halkan hörgött, és imbolyogva állt a lábán. Rézfejű
                     megragadta a zubbonyát, amelyet nedves, zöld penész borított.</p>
-                <p>- Te vagy Bremont?! Jules Bremont vagy?! Felelj kutya, mert összetörlek!</p>
-                <p>- Oui... oui... mon... commandant...</p>
-                <p>- Káplár! Kötözze meg!</p>
-                <p>Hátára kötöttem a két karját olyan szívtelenül, hogy közben a tomporának feszítve
+				<p>- Te vagy Bremont?! Jules Bremont vagy?! Felelj kutya, mert összetörlek!</p>
+				<p>- Oui... oui... mon... commandant...</p>
+				<p>- Káplár! Kötözze meg!</p>
+				<p>Hátára kötöttem a két karját olyan szívtelenül, hogy közben a tomporának feszítve
                     a térdemet húztam teljes erőből a háromszoros zsinórt. Ezen az emberen még egy
                     hóhérnak is megesett volna a szíve, és nekünk minden nyílt parancsnál jobb
                     igazolás volt kegyetlen eljárásunk, amely nyilvánvalóvá tette, hogy két olyan
                     ember áll itt, akiket több évtized tanított meg rá, hogy milyennek kell lenni
                     Afrikában a katonai szigornak. Nagyon kellett vigyáznunk, száz szempár figyelő
                     kereszttüzében, de itt senkiben sem támadhatott kétség. A mozdulatlanságig
-                    meg­kötözött ember a fal mellett leroskadt szépen, mint egy halom rongy. Rézfejű
+                    megkötözött ember a fal mellett leroskadt szépen, mint egy halom rongy. Rézfejű
                     üvölteni kezdett: “Rángassa fel, káplár! A fülénél rángassa fel, és addig rúgja,
                     míg vagy meghal, vagy egyenesen áll! Gardez vous! Gardez vous! Disznó! Vagy
                     kettéhasítalak!”</p>
-                <p>És megtörtént a légió naponta ismétlődő emberi csodája, az erők végső határát
+				<p>És megtörtént a légió naponta ismétlődő emberi csodája, az erők végső határát
                     messze túlszárnyaló fegyelem érthetetlen tüneménye: A jóformán teljesen
                     élettelen roncs úgy állt ott fedetlen fővel hatvan fokos napsütésben, mint a
                     cövek.</p>
-                <p>- Mi bajod, disznó? Az igazat mondd, kutya! Az igazat, te barom! És ne pislogj az
+				<p>- Mi bajod, disznó? Az igazat mondd, kutya! Az igazat, te barom! És ne pislogj az
                     őrmesterre, mert cafatokra veretlek!</p>
-                <p>Mintha végtelen távolról, az élet messzi, túlsó partjáról jönne, úgy suttogta
+				<p>Mintha végtelen távolról, az élet messzi, túlsó partjáról jönne, úgy suttogta
                     halódó hangon:</p>
-                <p>- “Siló”...</p>
-                <p>Azután végérvényesen lezuhant a földre, és nekünk ott kellett hagynunk
+				<p>- “Siló”...</p>
+				<p>Azután végérvényesen lezuhant a földre, és nekünk ott kellett hagynunk
                     megkötözve, ájultán a napon, ami igazán próbára tette színészi képességeinket,
                     mert meg vagyok győződve róla, hogy Rézfejű is szívből sajnálta a nyomorultat.
                     Egy párat még rúgtunk beléje, hogy hátha felkel, azután Rézfejű az őrmesterhez
                     lépett:</p>
-                <p>- Őrmester! Maga vérengző leopárdba oltott bárgyú teve! Hát itt még siló létezik?
+				<p>- Őrmester! Maga vérengző leopárdba oltott bárgyú teve! Hát itt még siló létezik?
                     Hát maga az, aki aláássa a légió becsületét a külföld előtt? Na megálljon!
                     Megállj te canaille! Majd én megtanítlak törvénytiszteletre! Ezért
                     Colomb-Becharba kerülsz! Vezess a silóhoz! En avant! Mars!</p>
-                <p>A siló ősrégi arab gabonaraktár. Földbevájt üreg, amelynek keskeny nyílás a
+				<p>A siló ősrégi arab gabonaraktár. Földbevájt üreg, amelynek keskeny nyílás a
                     bejárata, és a fenekéig egyre szélesedik. Szóval olyan, mint egy lefelé
                     fordított tölcsér. Törvényen kívül helyezett büntetési mód, amely azonban ma is
                     vidáman dívik. Ezekbe az üregekbe egy korsó vízzel és nyolcszáz gramm kenyérrel
@@ -1025,13 +1027,13 @@
                     élt, kettő elvakultan a napvilágtól, hason csúszott a földön, a negyedik
                     fütyörészett, vakarózott és enni kért. Átlag egy méter nyolcvan magasak voltak,
                     súlyuk lehetett harmincnyolc-negyvenkét kiló. Szóval tisztára csontvázak...</p>
-                <p>- Őrmester! Nekem most magát Oranba kellene vinnem a Falothoz.</p>
-                <p>Az őrmester rimánkodott. Már gazdasági tisztnek számít. Tizenkét évet szolgált...
+				<p>- Őrmester! Nekem most magát Oranba kellene vinnem a Falothoz.</p>
+				<p>Az őrmester rimánkodott. Már gazdasági tisztnek számít. Tizenkét évet szolgált...
                     Rézfejű töprengett, aztán megszólalt:</p>
-                <p>- Hát nem bánom, fussa körül ötvenszer az udvart! De serényen csinálja, nehogy
-                    meg­gondoljam magam! Három év travaux-ot takarít meg. - És beléptünk a
+				<p>- Hát nem bánom, fussa körül ötvenszer az udvart! De serényen csinálja, nehogy
+                    meggondoljam magam! Három év travaux-ot takarít meg. - És beléptünk a
                     kantinba.</p>
-                <p>A légió történetében sok gyászos és hősies nap van megemlítve, de ez a nap örökre
+				<p>A légió történetében sok gyászos és hősies nap van megemlítve, de ez a nap örökre
                     belekerül a francia idegen légió annaleseibe, mint a legvidámabb, legderűsebb
                     napja ennek a szomorú katonai alakulatnak. A helyzet ez volt: az őrmester
                     összeszorított fogakkal, verejtéktől elöntve rohant a merőlegesen tűző
@@ -1039,34 +1041,34 @@
                     udvaron. Az ablakokban vidám katonák nézték boldogan, fogadásokat kötöttek, és
                     derűsen lobogtatták feléje zsebkendőiket. A nyelve kilógott, már kétszer
                     felbukott. Rézfejű időnként megjelenve a kantin ajtajában, odakiáltott neki:</p>
-                <p>- Hé! Ne aludjon, maga disznó! - Aztán visszament.</p>
-                <p>Egy érzelmes fiatalember virágot dobott le, és marcona vén bakák a boldogságtól
+				<p>- Hé! Ne aludjon, maga disznó! - Aztán visszament.</p>
+				<p>Egy érzelmes fiatalember virágot dobott le, és marcona vén bakák a boldogságtól
                     sírva ölelgették egymást. Az őrmester futott... Az ötvenedik után betámolygott a
                     kantinba, és haptákban állva, de hörögve, sípolva jelentkezett. Ruhája ázottan
                     tapadt a testéhez. Rézfejű barátságosan, megelégedetten bólogatott:</p>
-                <p>- Nagyon kedves volt. Most legyen szíves ugyanezt még egyszer. De ne aludjon, az
+				<p>- Nagyon kedves volt. Most legyen szíves ugyanezt még egyszer. De ne aludjon, az
                     istenit magának!</p>
-                <p>A katonák kórusban vidám dalokat énekeltek, és az őrmester csak futott. Már
+				<p>A katonák kórusban vidám dalokat énekeltek, és az őrmester csak futott. Már
                     vérbeborult a szeme, elsötétedett előtte minden, de futott, mint az arénában
                     agyonhajszolt bika. Rézfejű szomorú lemondással súgta nekem: “Sajnos, ezt nem
                     üti meg a guta!”.</p>
-            </div>
-       <div type="chapter">
-                <head>12.</head>
-                <p>Eddig szerencsejátékot játszottunk, és minden lapunk nyert. Bizakodva vágtunk
+			</div>
+			<div type="chapter">
+				<head>12.</head>
+				<p>Eddig szerencsejátékot játszottunk, és minden lapunk nyert. Bizakodva vágtunk
                     neki a legnehezebbnek, a menekülés egyetlen lehetséges útjának: az
                     Atlasz-hegységen keresztül Marakeschbe. Tudtuk, hogy órákon belül körözni
                     fognak, és az apró oázisokon át, ahol minden új jövevény feltűnést kelt,
                     lehetetlen átvágni magunkat.</p>
-                <p>A poggyászként lelketlenül feldobott, megkötözött Bremont ott volt mögöttünk a
-                    hátsó ülé­sen. Amint a homokpadok eltakarták az erődöt mögöttünk, ápolás alá
-                    vettük. Az elnyisszan­tott kötelekből élettelen test buggyant szét. Az arcát
-                    lemostuk tiszta alkohollal, majd meg­itattunk vele jó adagot a kapitány
+				<p>A poggyászként lelketlenül feldobott, megkötözött Bremont ott volt mögöttünk a
+                    hátsó ülésen. Amint a homokpadok eltakarták az erődöt mögöttünk, ápolás alá
+                    vettük. Az elnyisszantott kötelekből élettelen test buggyant szét. Az arcát
+                    lemostuk tiszta alkohollal, majd megitattunk vele jó adagot a kapitány
                     whiskyjéből. Ez egyelőre elég volt. Nem kis munka lesz átcipelni az Atlaszon,
                     vélte Rézfejű. Estig futottunk az autóval, és messziről feltűnt Colomb Bechar.
                     Itt van a légió hírhedt Compagnie-Discipline-je. A büntetőszázad pokoli
                     erődítménye.</p>
-                <p>Meg kellett kockáztatnunk, hogy áthaladjunk Colomb Becharon. Erre “be kellett
+				<p>Meg kellett kockáztatnunk, hogy áthaladjunk Colomb Becharon. Erre “be kellett
                     vágni”, ahogy a kártyások mondják. Ha tudnak már rólunk, akkor vége mindennek,
                     ha nem, akkor holnap délre elértük az Atlaszt. Gondolkozni, félni nincs idő!
                     Vagy-vagy! Itt már persze nem szerepelhettünk mint katonák. A wadi Saukra holt
@@ -1075,7 +1077,7 @@
                     ájult Bremont-t és jókora málhánkkal együtt cipeltük Colomb-Bechar felé. Estére
                     elértünk az oázis szélén egy arab duárt. Koszos gyerekek és kutyák hada
                     fogadott. Elmondtuk, hogy társunk napszúrást kapott, házalók vagyunk. Néhány
-                    bugyli­bicskát, tükröt és fésűt adtunk az arabnak, erre kiürített számunkra egy
+                    bugylibicskát, tükröt és fésűt adtunk az arabnak, erre kiürített számunkra egy
                     fészert. Nagy a gyanúm, hogy előzőleg kecskék lakhattak benne. Itt elkezdtük új
                     társunkat masszírozni, lemostuk az egész testét, étert szagoltattunk vele, és
                     whiskyvel itattuk. Nagy örömünkre kissé magához tért. Rézfejű röviden elmondta
@@ -1086,13 +1088,13 @@
                     megivott egy pohár kecsketejet, és két pokrócba burkolózva mélyen elaludt. Szép
                     holdas este volt, fehér fényben úsztak a pálmák, víg karattyolással zajlott az
                     oázis, amely mellett egy dombon komoran, félelmesen és mozdulatlanul emelkedett
-                    a poklok pokla, a büntető­garnizon. Egy mozdulatlan, szuronyos őrszem állt a fal
+                    a poklok pokla, a büntetőgarnizon. Egy mozdulatlan, szuronyos őrszem állt a fal
                     tetején. Bizonyára ő is hazavágyott innen, mint én is annyiszor, ha posztoltam a
                     félelmes, szomorú éjszakai nagy bled felett.</p>
-            </div>
-       <div type="chapter">
-                <head>13.</head>
-                <p>Kora hajnalban indultunk. Bremont lábra állt, de imbolygott. Megkértük a
+			</div>
+			<div type="chapter">
+				<head>13.</head>
+				<p>Kora hajnalban indultunk. Bremont lábra állt, de imbolygott. Megkértük a
                     házigazdánkat, hogy kísérjen bennünket egy öszvérrel, kap óránként tizenhat
                     frankot. Bremont-t öszvérre ültettük, és a vén arab kantáron vezette. Ahogy
                     kiértünk Colomb Becharból, kavicsos talaj jelezte, hogy a hegységek felé
@@ -1102,13 +1104,13 @@
                     a pihenésből, hogy ereje legyen Bremontnak későbbi utunkhoz, amelyet
                     előreláthatólag jóformán teljesen pihenés nélkül kell megtennünk, sarkunkban a
                     halállal, a világ legrosszabb terepén keresztül.</p>
-                <p>Mire alkonyodott, már feltűntek távolról a hegység körvonalai. Hét órakor
+				<p>Mire alkonyodott, már feltűntek távolról a hegység körvonalai. Hét órakor
                     visszaküldtük az arabot, elosztottuk Rézfejűvel a málhát, és rendeztünk egy
                     próbagyaloglást. Először tíz percet ugyanannyi pihenéssel, aztán negyedórát tíz
                     perc pihenéssel. Bremont vonszolta magát, miközben Rézfejű katonásan
                     biztatta:</p>
-                <p>- Szedje össze magát, az istenfáját! - Aztán próbáltunk futólépést, de ettől
-                    Bremont össze­roskadt. Sátort vertünk, ápoltuk megint, whiskyt kapott, csontig
+				<p>- Szedje össze magát, az istenfáját! - Aztán próbáltunk futólépést, de ettől
+                    Bremont összeroskadt. Sátort vertünk, ápoltuk megint, whiskyt kapott, csontig
                     soványodott testét alkohollal masszíroztuk és pokrócokba csavartuk. Azonnal
                     mélyen elaludt, amit biztató jelnek vettünk. Mi ketten még cigarettáztunk, mikor
                     a távoli horizontról egyszerre fénypászták kezdtek felvillanni az éjszakában.
@@ -1117,18 +1119,18 @@
                     morzejelek alapján. Lehet, hogy már minket köröznek... És az éjszakában négy-öt
                     helyen egyszerre villantak fel és szántottak végig hosszabb és rövidebb
                     fénysugarak... Pont... Vonás... Pont...</p>
-                <p>Éjjel egy órakor egy fél liter forró, rumos feketét itattunk Bremont-tal, és négy
+				<p>Éjjel egy órakor egy fél liter forró, rumos feketét itattunk Bremont-tal, és négy
                     fok hidegben elindultunk, hogy a nappali hőség kezdetéig elhagyjuk a sivatagot.
                     Bremont már tudott menni. A hegy lábánál pihentünk. Kiselejteztük a poggyászt,
-                    és a fegyvereken kívül csak a legszük­ségesebbet tartottuk meg. Azután
+                    és a fegyvereken kívül csak a legszükségesebbet tartottuk meg. Azután
                     nekivágtunk az első emelkedésnek, és felváltva toltuk csípőjénél fogva az egyre
                     összecsukló Bremont-t. Elértük Marokkó leghosszabb útját, a Guiri utat, amely
                     légionista rabok hulla hekatombáján át sóhajból, könnyből, vérből és őrületből
                     épült, Colomb-Bechartól Marakeschig a nagy Atlaszon keresztül.</p>
-            </div>
-       <div type="chapter">
-                <head>14.</head>
-                <p>Miután megmásztuk az első emelkedést, Rézfejű egy óra pihenőt vezényelt.
+			</div>
+			<div type="chapter">
+				<head>14.</head>
+				<p>Miután megmásztuk az első emelkedést, Rézfejű egy óra pihenőt vezényelt.
                     Tulajdonképpen most beszéltünk először Bremont-nal, most tért először annyira
                     magához, hogy egyáltalán gondolkozni tudjon. Eddig csak ment, azzal az életen
                     túli motorikus járással, amellyel csak a légionista képes menni, aki hosszú
@@ -1137,24 +1139,24 @@
                     halálba boruló szemeit ránk emelte, és végighallgatta a történetünket. Sokáig
                     hallgatott. Azután szakadozottan kezdett beszélni, mint akinek nehezére esik a
                     szó:</p>
-                <p>- Ednával... egy év előtt jöttünk össze... Nagyon szeretjük egymást... Edna
+				<p>- Ednával... egy év előtt jöttünk össze... Nagyon szeretjük egymást... Edna
                     hivatalnoknő volt... Dolgoztunk éjjel, nappal, hogy legyen valamink... Hogy
                     megesküdhessünk... Úgy csaltak el Marseilles-be is... Azt ígérték, hogy ötezer
-                    frankot kapok... egy portrésorozatért... Az örök­ségről tényleg nem tudtam...
+                    frankot kapok... egy portrésorozatért... Az örökségről tényleg nem tudtam...
                     Illetve csak azt tudtam, hogy nagybátyám Ausztráliában nagyon gazdag... És
                     leitattak... Nem is tudom, hogy én sütöttem-e el a revolvert... És az az egész
                     éjszaka... Szörnyű volt!... Afrika!... Ez az őrmester állandóan üldözött...
                     Tudtam, hogy el akar pusztítani... Azért könnyelműség volt Ednától... Az a
                     gyönge kislány... Ebben a pokolban... Az a szent lány!... - könnyek jöttek a
                     szeméből. - Milyen nyomorultak vagyunk most mind a ketten...</p>
-                <p>- De legalább nagyszerű kezekben vannak - mondta Rézfejű, és megveregette
+				<p>- De legalább nagyszerű kezekben vannak - mondta Rézfejű, és megveregette
                     bátorítón a vállát. - Most igyon még whiskyt, és ne járjon annyit a szája, mert
                     az kifárasztja.</p>
-                <p>Uraim - suttogta -, amit maguk, amit maguk értem tettek... Hogy ide eljöttek...
+				<p>Uraim - suttogta -, amit maguk, amit maguk értem tettek... Hogy ide eljöttek...
                     Hogy mit kockáztattak...</p>
-                <p>- Mi már régen kockázunk így. Próbáljon aludni egy kicsit. Addig Füttyössel
+				<p>- Mi már régen kockázunk így. Próbáljon aludni egy kicsit. Addig Füttyössel
                     megbeszéljük az útitervet.</p>
-                <p>Megállapítottuk, hogy ha állandóan megtartjuk az északnyugati irányt, Taurirt del
+				<p>Megállapítottuk, hogy ha állandóan megtartjuk az északnyugati irányt, Taurirt del
                     Uarzasztba kell érnünk, ahol - ha délkeletre fordulunk - fel kell jutnunk a
                     magas Atlasz lejtőjén az utolsó emberlakta pontig, Tiz’n Tizkáig. Innen már
                     állandóan lefelé vezet az út Marakeschbe. Közben két helyőrség van, két
@@ -1162,7 +1164,7 @@
                     óvatosan és messze kell kerülni. Egy kitűnően felszerelt ötven tagú karavánnak
                     nehéz, veszélyes út. Mi itt állunk, két csavargó egy batyuval és egy
                     beteggel.</p>
-                <p>Délután haladtunk tovább, egyelőre kényelmes szerpentin úton, “tolatva”, ahogy
+				<p>Délután haladtunk tovább, egyelőre kényelmes szerpentin úton, “tolatva”, ahogy
                     betegünk fáradságos támogatását neveztük. Rendes hadimenetben voltunk. Először
                     egyikünk felmászott valami magas fára, végiggukkerezte az utat, aztán előrement
                     és bevárta a többieket. Kétnapi fáradtságos és lassú út után elértük a Ziz
@@ -1174,18 +1176,18 @@
                     Dzsebel-Sagrot, és további másfél nap alatt kétezer méter magasságban jártunk,
                     mintegy az őskorban, magányos, döbbenetesen óriási puszta hegyláncok között,
                     kristálytiszta, jéghideg levegőben, dideregve és kimerülten.</p>
-            </div>
-       <div type="chapter">
-                <head>15.</head>
-                <p>Úgy haladtunk hárman, mint egy hadsereg. Egyikünk állandóan előrement, a másik
+			</div>
+			<div type="chapter">
+				<head>15.</head>
+				<p>Úgy haladtunk hárman, mint egy hadsereg. Egyikünk állandóan előrement, a másik
                     állandóan elmaradt, de Bremont mindig a középen. Füttyjelekkel érintkeztünk.
-                    Összesen kétszer talál­koztunk berberekkel, akik jellegzetes törpe pónijaikon
+                    Összesen kétszer találkoztunk berberekkel, akik jellegzetes törpe pónijaikon
                     szállítottak valamit. Mindig idejekorán vettük észre őket, és
                     felkapaszkodhattunk a környező sziklák közé.</p>
-                <p>Dupla fehérneműkkel, magunkra csavart takarókkal védekeztünk a hideg ellen, amely
+				<p>Dupla fehérneműkkel, magunkra csavart takarókkal védekeztünk a hideg ellen, amely
                     éjszakára kemény téllé erősödött. Taurirt del Uarzaszt magasságában már
                     mindenütt hó volt. Jobbra fent, nagyon távol egy kráter füstölgött. A bazalt- és
-                    lávakőhegyek felett trónolva még félel­meseb­bé, nyomasztóbbá tette ezt a
+                    lávakőhegyek felett trónolva még félelmesebbé, nyomasztóbbá tette ezt a
                     halálosan fenséges panorámát, amely körülfogott bennünket. Rézfejű füttye
                     hasított a levegőbe. Feltoltam Bremont-t, majd magam is utána kapaszkodtam vagy
                     húsz-huszonöt méternyire az út menti sziklák között. Valamivel távolabb, velünk
@@ -1194,32 +1196,32 @@
                     légionista jött az úton, velük két öszvér a gépfegyver-szerelvényekkel. És
                     jobbra-balra a Marakesch felé lejtősödő út szikláin katonák táboroztak. Legalább
                     két peloton katona volt, gépfegyverekkel, mozgókonyhával.</p>
-                <p>Te Úristen! Csak nem miértünk mindez?</p>
-                <p>A Marakesch felé vezető út mindenesetre el volt zárva. Jobbra és balra tűzhányók,
+				<p>Te Úristen! Csak nem miértünk mindez?</p>
+				<p>A Marakesch felé vezető út mindenesetre el volt zárva. Jobbra és balra tűzhányók,
                     mögöttünk a Szahara és előttünk két század katonaság.</p>
-                <p>Rézfejű meglátcsövezte a helyzetet, és gyors katonai intézkedéseket
+				<p>Rézfejű meglátcsövezte a helyzetet, és gyors katonai intézkedéseket
                     foganatosított.</p>
-                <p>- Még egy lehetőség van. Visszavonulunk Dzsebel-Sagróba, leereszkedünk a Ziz
+				<p>- Még egy lehetőség van. Visszavonulunk Dzsebel-Sagróba, leereszkedünk a Ziz
                     mentén Erfutba, és bemegyünk a Tafílalet oázisba.</p>
-                <p>A Tafílalet oázis ugyan a legveszélyesebb arab rablók országa volt, de még tőlük
+				<p>A Tafílalet oázis ugyan a legveszélyesebb arab rablók országa volt, de még tőlük
                     is többet remélhettünk, mint ha a katonák kezeibe kerülünk. Felmásztam a
                     látcsővel egy sziklára, hogy mögöttünk is kikémleljem a terepet, azután gyorsan
                     lejöttem. A tiszta, páratlan levegőben jól látszott Dzsebel-Sagro és környéke.
                     Nyüzsögtek körülötte a szuronyok, és felfelé is kígyózott egy kis libasor
                     gépfegyveres öszvérekkel. Úgy látszik, az egész gyarmati hadsereget
                     mozgósították ellenünk.</p>
-                <p>A helyzet eléggé reménytelen volt. Legfeljebb két-három napig bujkálhatunk,
+				<p>A helyzet eléggé reménytelen volt. Legfeljebb két-három napig bujkálhatunk,
                     azután meg kell adni magunkat.</p>
-                <p>Rézfejűnek máris új ötlete volt:</p>
-                <p>- Gyerekek, van egy fantasztikus tervem. Ha felkapaszkodunk vagy ezer métert ezen
+				<p>Rézfejűnek máris új ötlete volt:</p>
+				<p>- Gyerekek, van egy fantasztikus tervem. Ha felkapaszkodunk vagy ezer métert ezen
                     a vulkánon, megkerüljük a gerincét, és széles ívben lejövünk, akkor talán
                     kijutunk valahol Tiz’n Tizka alatt a marakeschi országútra, az utat elzáró
                     katonaság mögött. Ez ugyan rettenetes és kétségbeejtő út, de itt viszont a
                     biztos halál vár ránk. Tehát indulunk. Óvatosan, és minden kőre vigyázni! Előre
                     Bremont, az istenfáját!</p>
-                <p>És megindultunk a sima, járhatatlan lávaköveken, hóbuckákon át a kráter
+				<p>És megindultunk a sima, járhatatlan lávaköveken, hóbuckákon át a kráter
                     lejtőjén.</p>
-                <p>Ha eredményre akartunk számítani, legalább nyolcszáz métert kellett felfelé és
+				<p>Ha eredményre akartunk számítani, legalább nyolcszáz métert kellett felfelé és
                     oldalt haladni, különben egyenesen a táborozó légionisták közé érünk. Ember
                     valószínűleg még sohasem járt erre. Nem is lehetett erre járni. Ronggyá
                     szakadozott rajtunk minden, és ahogy kiálló szikláról sziklára léptünk, olyan
@@ -1234,10 +1236,10 @@
                     Mindenünk vérzett, minden csontunk sajgott. Ruha és bőr ledörzsölve a
                     testünkről. Mintha a távoli űrből szüremlene hozzám, hallottam Rézfejű rekedt
                     suttogását: “Ne aludjon, Bremont, az istenfáját!”</p>
-                <p>Forró volt alattunk a föld, körülöttünk a levegő. Huszonnégy órája ivóvíz nélkül
+				<p>Forró volt alattunk a föld, körülöttünk a levegő. Huszonnégy órája ivóvíz nélkül
                     haladtunk. Szájaink felhasadoztak, és mint ormótlan, nyers négerajkak tátongtak
                     nyitva és lihegve... És csak feljebb, feljebb, kénhidrátos, ammóniákos bűzben,
-                    szállongó, forró hamu között, a gázok­tól mérgezetten. Már hánytunk, repedezni
+                    szállongó, forró hamu között, a gázoktól mérgezetten. Már hánytunk, repedezni
                     éreztük a halántékunkat. Éjszakánként a kráter egy-egy villanásában látszott a
                     félig megmászott csonka kúp ijesztő, gömbölyű torka a sötét ég alatt, amint
                     egy-egy mázsányi követ hajított néha le, és percekig hallhattuk dübörgését.
@@ -1247,28 +1249,28 @@
                     leereszkedni. Minden akaratunkra szükség volt, hogy ebben az állapotban ne
                     hagyjuk fekve az ájult Bremont-t, hanem cipeljük tovább. Három napja mentünk!
                     Azután másfél napig ereszkedtünk le...</p>
-                <p>Végre leértünk egy kis füves tisztásra. A dús növényzetből ítélve valahol víznek
+				<p>Végre leértünk egy kis füves tisztásra. A dús növényzetből ítélve valahol víznek
                     kellett lennie. Fél óra alatt kis hegyi patakhoz értünk. Lehasaltunk és ittunk,
                     ittunk, ki tudja meddig. Megitattuk Bremont-t is, majd lemostuk magunkat. Ha
                     feljebb vagyunk még Tiz’n Tizkánál, és a katonai kordonon belül, akkor az egész
                     pokoljárás hiábavaló volt. Fogalmunk sem volt, hogy merre járunk. Lefeküdtünk
                     aludni.</p>
-                <p>A hajnali ködben nem láttunk semmit. Tizenegy órára eloszlott a köd, és ahogy
+				<p>A hajnali ködben nem láttunk semmit. Tizenegy órára eloszlott a köd, és ahogy
                     lassan emelkedett fel, mint valami fátyolfüggöny a következő színpadi kép előtt,
                     megláttuk fent, magasan a Tiz’n Tizka havas lejtőjét, füstölgő mozgókonyhával és
                     gúlába rakott fegyverek körül táborozó katonasággal. Régen túlmentünk rajtuk!
                     Közvetlenül alattunk végig szabadon kanyargott a szép, széles, aszfaltos
                     marakeschi országút.</p>
-                <p>- Ilyenek akarnak kifogni rajtam! - mondta Rézfejű, és köpött egyet.</p>
-            </div>
-       <div type="chapter">
-                <head>16.</head>
-                <p>Egyáltalán nem tartottuk valószínűnek, hogy Marakeschig még egy kordont vonjanak
+				<p>- Ilyenek akarnak kifogni rajtam! - mondta Rézfejű, és köpött egyet.</p>
+			</div>
+			<div type="chapter">
+				<head>16.</head>
+				<p>Egyáltalán nem tartottuk valószínűnek, hogy Marakeschig még egy kordont vonjanak
                     ezen a keskeny úton.</p>
-                <p>- A papuskák most ott fenn csücsülnek - mondta Rézfejű -, és sehogy sem lehetne
-                    megmagya­rázni nekik, hogy a két tűz közé szorított madárkák elrepültek az orruk
+				<p>- A papuskák most ott fenn csücsülnek - mondta Rézfejű -, és sehogy sem lehetne
+                    megmagyarázni nekik, hogy a két tűz közé szorított madárkák elrepültek az orruk
                     előtt ezen a keskeny ösvényen.</p>
-                <p>Egy napi úttal elértük a Marakesch körüli szőlőhegyeket, melyek most szüret után
+				<p>Egy napi úttal elértük a Marakesch körüli szőlőhegyeket, melyek most szüret után
                     teljesen elhagyatottak voltak. Este ott láttuk magunk alatt a fényben úszó
                     várost. Sok elhagyott csőszputri volt itt, tehát nem okozott gondot, hogy hol
                     tanyázzunk. Elhatároztuk, hogy reggel bemegyek a városba, azután majd
@@ -1281,10 +1283,10 @@
                     történtek után azt mondani: köszönöm. Csak néha, ahogy ránk nézett, ahogy
                     igyekezett a terhünkön könnyíteni, abban volt valami gyermekien őszinte és
                     rajongó. Foglalkozására nézve rajzoló volt. Afrikában! Hát nem megható?</p>
-            </div>
-       <div type="chapter">
-                <head>17.</head>
-                <p>Marokkó, a nagy városok városa, a legtöbb karavánút célja az általános afrikai
+			</div>
+			<div type="chapter">
+				<head>17.</head>
+				<p>Marokkó, a nagy városok városa, a legtöbb karavánút célja az általános afrikai
                     zsivajt és tolongást túlszárnyaló rekordot ért el. A Hotel du Negriébe persze
                     nem mehettem. Ott cirkáltam körülötte, bízva a találkozásban. Közben kellemetlen
                     meglepetéssel tapasztaltam, hogy minden második díszpálma oldalán ott függött a
@@ -1302,7 +1304,7 @@
                     áthelyezték Indokínába, és az őrmestertől megvontak egy rangfokozatot. Bevallom,
                     hideg verejték ült ki a homlokomra. Egy egész földrész összefogott néhány
                     csavargó ellen.</p>
-                <p>A szemközti bisztróból Csenevész és Bobi léptek ki. Na, ha ezek észrevesznek,
+				<p>A szemközti bisztróból Csenevész és Bobi léptek ki. Na, ha ezek észrevesznek,
                     akkor sajnos itt nagy feltűnés lesz. Idegesen szívtam a cigarettát. Bobi
                     meglátott, aztán egy mellette álló öszvér nyakát kezdte veregetni, mintha nem
                     érdekelném jobban a házfalnál. Mosolyogva mondott valamit Csenevésznek,
@@ -1312,8 +1314,8 @@
                     mindnyájunk vesztét okozhatja. Bobi zsebre dugott kézzel kisétált, és mikor a
                     közelembe ért, észrevette, hogy nem ég a cigarettája, tehát tüzet kért. Csak
                     ennyit súgtam:</p>
-                <p>- Gardian.</p>
-                <p>Aztán két irányban mentünk tovább. A város többszáz éves kapuján át kimentem
+				<p>- Gardian.</p>
+				<p>Aztán két irányban mentünk tovább. A város többszáz éves kapuján át kimentem
                     Marakeschbe, az arab részbe, és a világ legnagyobb vásárterén, ahol a tevék és
                     az emberek nyüzsgése számomra a legnagyobb biztonságot jelentette, beültem a
                     Gardian nevű örmény vendéglőbe. Nemsokára jött Bobi, leült hozzám, és snapszot
@@ -1332,73 +1334,73 @@
                     halászbárkákat cirkálókkal üldöznek naponta. Egyetlen halvány lehetőség volt:
                     Rio el Oronál átlépni a határt, majd kelet-afrikai spanyol partról elhajózni. De
                     hogyan?</p>
-                <p>Röviden elmondtam Bobinak a tervemet. Ő azonnal utazzon Csenevésszel Diaha
+				<p>Röviden elmondtam Bobinak a tervemet. Ő azonnal utazzon Csenevésszel Diaha
                     spanyol kikötővárosba, El Oroba. Ott érdeklődjön olasz hajó iránt, mi pedig
                     megpróbálunk valahol áttörni, és El Oroba menekülni.</p>
-                <p>- Nagyon nehéz lesz - mondta Bobi -, az országutakon egy légy sem mehet át
+				<p>- Nagyon nehéz lesz - mondta Bobi -, az országutakon egy légy sem mehet át
                     igazolatlanul.</p>
-                <p>- Fiam, nincs más út! Nem öregedhetünk meg a sziklák között, mint gyökérevő
+				<p>- Fiam, nincs más út! Nem öregedhetünk meg a sziklák között, mint gyökérevő
                     remeték.</p>
-                <p>Azután elváltunk. Bobi még nyájasan utánam kiáltott:</p>
-                <p>- Ne félj, Füttyös, nóta lesz rólatok!</p>
-            </div>
-       <div type="chapter">
-                <head>18.</head>
-                <p>Rézfejű körülbelül negyedóráig úgy ült ott törökülésben, mint egy hatalmas hindu
+				<p>Azután elváltunk. Bobi még nyájasan utánam kiáltott:</p>
+				<p>- Ne félj, Füttyös, nóta lesz rólatok!</p>
+			</div>
+			<div type="chapter">
+				<head>18.</head>
+				<p>Rézfejű körülbelül negyedóráig úgy ült ott törökülésben, mint egy hatalmas hindu
                     bálvány. Még füstölt is. Az újságokat alig olvasta. A nagy emberek
                     egykedvűségével fogadta hírlapi sikerét. Később Bremont-nal komolyan azt hittük,
                     hogy megbolondult, mert hol a tőzsde-, hol a sportrovatot kezdte tanulmányozni,
                     végül az utóbbinál megállapodott, majd rövid előadást tartott nekünk a
                     kerékpársport szépségeiről.</p>
-                <p>- Nektek, fiaim, a műveltség, sajnos, tökéletesen megmérgezte és elrontotta az
+				<p>- Nektek, fiaim, a műveltség, sajnos, tökéletesen megmérgezte és elrontotta az
                     agyatokat. Ti bizonyára nem tudtok kerékpározni...</p>
-                <p>- Nem tudom ugyan, mennyiben tartozik ez ide, de én hosszú ideig voltam Párizsban
+				<p>- Nem tudom ugyan, mennyiben tartozik ez ide, de én hosszú ideig voltam Párizsban
                     kifutó, és bár te igazán teljesen mentes vagy a műveltség mérgétől, azért
                     kerékpározok veled pénzbe, ha akarod.</p>
-                <p>Bálványunk mély lélegzetet vett, lehunyta a szemét, és Bremont felé fordult.</p>
-                <p>- És maga, satnya védencünk? Ért maga egyáltalán máshoz, mint emberi ábrázatok
+				<p>Bálványunk mély lélegzetet vett, lehunyta a szemét, és Bremont felé fordult.</p>
+				<p>- És maga, satnya védencünk? Ért maga egyáltalán máshoz, mint emberi ábrázatok
                     lefirkálásához?</p>
-                <p>Kiderült, hogy Bremont Hollandiában nevelkedett, ahol mindenki kerékpározik.</p>
-                <p>- Arra gondoltam ugyanis - mondta elgondolkozva Rézfejű - ahogy itt olvasom, hogy
+				<p>Kiderült, hogy Bremont Hollandiában nevelkedett, ahol mindenki kerékpározik.</p>
+				<p>- Arra gondoltam ugyanis - mondta elgondolkozva Rézfejű - ahogy itt olvasom, hogy
                     megindult a nagy marokkói túra Meknestől Marakeschen át Nunig és vissza, arra
                     gondoltam, hogy részt vehetnénk ezen a versenyen. Milyen szép lenne, ha
                     népszerűségünk eme teljében egy bicikliversenyt is megnyernénk!</p>
-                <p>Bremont majdnem sírva fakadt, annyira sajnálta, hogy látszólag bivaly fizikumú
+				<p>Bremont majdnem sírva fakadt, annyira sajnálta, hogy látszólag bivaly fizikumú
                     társunk beleőrült az út fáradalmaiba.</p>
-                <p>- Ha nem csalódom, ezek a kedves atléták holnapra Marakeschbe érnek. Füttyös,
+				<p>- Ha nem csalódom, ezek a kedves atléták holnapra Marakeschbe érnek. Füttyös,
                     szerezzél kerékpárokat! Versenyezni fogunk! - szólt, és lefeküdt aludni.</p>
-                <p>*</p>
-                <p>A város üdvrivalgással fogadta a marokkói túra negyven résztvevőjét, akik
+				<p>*</p>
+				<p>A város üdvrivalgással fogadta a marokkói túra negyven résztvevőjét, akik
                     befutottak Meknes felől.</p>
-                <p>Körülbiciklizték a várost, majd továbbhaladtak a végtelenbe nyúló szőlőhegyek
+				<p>Körülbiciklizték a várost, majd továbbhaladtak a végtelenbe nyúló szőlőhegyek
                     között, a nagy kanyarulatokkal megépített szép, fehér országúton. Észre sem
                     vették, hogy az egyik szőlőhegy mögül három bicikli kanyarodik közéjük,
                     tizennégy, tizenöt és tizenhatos számú versenyzőkkel, egy rejtélyes egyesület
                     hálóingszerű dresszében, rövid alsónadrágban és napellenzővel.</p>
-                <p>Délután Tarudantba értünk, ahol a lakosság felvágottal és banánnal vendégelt meg
-                    mind­nyájunkat. Rézfejű verést ígért a polgármesternek, ha nem hoz azonnal egy
+				<p>Délután Tarudantba értünk, ahol a lakosság felvágottal és banánnal vendégelt meg
+                    mindnyájunkat. Rézfejű verést ígért a polgármesternek, ha nem hoz azonnal egy
                     fél liter pálinkát. Egyesületének nevében tiltakozott, a város
                     sportszerűtlensége ellen, amely szerinte abban nyilvánult meg, hogy a
                     versenyzőknek alkoholmentes frissítő italokat adtak.</p>
-                <p>Alkonyodott, mire elértük Nun városát, Marokkó utolsó pontját Rio El Oro spanyol
+				<p>Alkonyodott, mire elértük Nun városát, Marokkó utolsó pontját Rio El Oro spanyol
                     gyarmat határán. A város végén fordult vissza a biciklik sora, tíz lépésnyire a
                     spanyol határtól... De nini! Három versenyző megőrült, vagy nem tudják a helyes
-                    irányt! Biciklijük fölé hajolva szágul­danak, egyenesen neki a határt jelző
+                    irányt! Biciklijük fölé hajolva száguldanak, egyenesen neki a határt jelző
                     tarka póznának... “Nem arra, hé!” - kiabál valaki. Egy stopperórás izgatott úr
-                    zászlóval lenget. De ezek nem látnak, nem hallanak, és egy kak­tusszal
+                    zászlóval lenget. De ezek nem látnak, nem hallanak, és egy kaktusszal
                     szegélyezett sík részen a tizenötös számú már át is kerekezett a határon, a
                     tizenhatos is átért... Bremont-t elkapja egy francia csendőr, mire Rézfejű
                     visszajön Spanyolországból, és úgy üti pofon a goumière-t, hogy törött
                     állkapoccsal bukik a kaktuszok közé. Óriási riadalom!... Futva cipeljük
                     Bremont-t...</p>
-                <p>“Aux armes! Aux armes!”</p>
-                <p>Lövés... Leírhatatlan zűrzavar, mi pedig rohanunk, amíg a spanyol határőrök meg
+				<p>“Aux armes! Aux armes!”</p>
+				<p>Lövés... Leírhatatlan zűrzavar, mi pedig rohanunk, amíg a spanyol határőrök meg
                     nem ragadnak mind a hármunkat...</p>
-                <p>Megmenekültünk!</p>
-            </div>
-       <div type="chapter">
-                <head>19.</head>
-                <p>Persze a spanyolok is tudták a történetünket, de azért ötször is elmeséltették
+				<p>Megmenekültünk!</p>
+			</div>
+			<div type="chapter">
+				<head>19.</head>
+				<p>Persze a spanyolok is tudták a történetünket, de azért ötször is elmeséltették
                     maguknak, és gurultak a nevetéstől. Megvendégeltek bennünket vörösborral és
                     disznósajttal, cigarettát kaptunk és lefekhettünk aludni. Különös, hogy itt a
                     gyarmatokon mennyire utálják egymást az európai hatalmak, mennyire örül egyik,
@@ -1406,10 +1408,10 @@
                     modern és kitűnő fegyverei bizonyítják, hanem az a jókedv, szeretet és
                     pártfogás, az az ünneplésszámba menő bánásmód, ahogy itt kezeltek minket, mert
                     blamíroztuk a franciákat. Másnap kipihenten Diakába értünk.</p>
-                <p>Bremont találkozása a menyasszonyával megrázó volt. Percekig egyáltalán nem
+				<p>Bremont találkozása a menyasszonyával megrázó volt. Percekig egyáltalán nem
                     tudtak szólni, azután csak összefüggéstelen szavakat mondtak, ölelték egymást és
                     sírtak...</p>
-                <p>Az olasz gőzös, amelynek parancsnoka elhatározta, hogy felvesz bennünket, csak
+				<p>Az olasz gőzös, amelynek parancsnoka elhatározta, hogy felvesz bennünket, csak
                     tizenegykor indult, és mi ott ültünk a kikötő kávéházának teraszán, színes
                     lampionok alatt a gyönyörű estében. A hatalmas, karcsú kókuszpálmák levelei
                     lomhán meg-megmozdultak a szabad tengerről jövő sós, nagyszerű légáramlástól.
@@ -1419,37 +1421,37 @@
                     ittunk, és nagyszerűen éreztük magunkat. Csak Bobi sóhajtott fel néha
                     fájdalmasan, mert borzasztóan sajnálta, hogy ebből az “elsőrendű mókából”
                     kimaradt.</p>
-                <p>És ezen a gyönyörű, holdas estén a harsogva lapátoló gőzös távolodni kezdett
+				<p>És ezen a gyönyörű, holdas estén a harsogva lapátoló gőzös távolodni kezdett
                     velünk a pálmáktól, a kávéházi lampionok sorától. Bremont és Edna egymást
                     átkarolva álltak a korlátnál, bámulták a titokzatos trópusi partot. Távolabbról
                     egy szájharmonika muzsikája hallatszott, ahogy Rézfejű játszotta érzelmesen, még
                     hunyódó szemhéjaival is trillázva Dodó gyönyörű levelét barátnőjéhez a Társaság
                     szigetekről...</p>
-            </div>
-       <div type="chapter">
-                <head>20.</head>
-                <p>Corot doktort természetesen nem lehetett felelősségre vonni, semmi bizonyíték nem
+			</div>
+			<div type="chapter">
+				<head>20.</head>
+				<p>Corot doktort természetesen nem lehetett felelősségre vonni, semmi bizonyíték nem
                     volt ellene. De a boldog expedíció keveset törődött vele. Bremont Rómában
                     átvette az örökséget. Kifizette a részünket, de azzal a megjegyzéssel, hogy ha
                     bármikor szükségünk lenne valamire, ami az övé, az mindig a mienk is. Edna és ő
                     addig kértek hármunkat, amíg letelepedtünk Rómában. Bobi és Rézfejű vettek egy
                     kávéházat a város szívében, és kezdtek elpolgáriasodni.</p>
-                <p>Barátaink esküvőjén természetesen mi ketten voltunk a tanúk Rézfejűvel.
+				<p>Barátaink esküvőjén természetesen mi ketten voltunk a tanúk Rézfejűvel.
                     Mondhatom, először életemben láttam barátomat zavarba jönni. Olyan volt
                     frakkban, mint egy bokszbajnok a mérkőzést követő banketten. Állandóan egyik
                     lábáról a másikra helyezkedett, rágta a körmét, és mikor templomi esküvőn a pap
                     - kissé elkésetten - figyelmeztette a fiatal párt, hogy nekik jóban-rosszban
                     követniük kell egymást, azt hiszem, megesküdni nem mernék rá, de úgy láttam,
                     mintha Rézfejű szemében valami szokatlan nedves csillogás keletkezne...</p>
-                <p>Aztán sokáig nem láttam Rézfejűt, míg egy vasárnap reggel udvariasan kopogott,
+				<p>Aztán sokáig nem láttam Rézfejűt, míg egy vasárnap reggel udvariasan kopogott,
                     majd berúgta az ajtót, és megjelent a hálószobámban:</p>
-                <p>- Gyere ma velem ebédelni, kitűnően fogsz szórakozni - invitált biztatóan.
+				<p>- Gyere ma velem ebédelni, kitűnően fogsz szórakozni - invitált biztatóan.
                     Bevallom, barátom felfogásai a szórakozást illetőleg olyan sokféle változattal
-                    rendelkeztek, hogy némi bizal­matlansággal mentem vele. Ez egyszer azonban
+                    rendelkeztek, hogy némi bizalmatlansággal mentem vele. Ez egyszer azonban
                     tényleg kitűnően szórakoztam. Előkelő étterembe mentünk, ahol két óra felé egy
                     kövér, jól öltözött, szemüveges úr jelent meg, és az étlapot kezdte
                     tanulmányozni.</p>
-                <p>Rézfejű odament hozzá, kissé meghajolt, és kedves mosollyal, szinte alázatosan
+				<p>Rézfejű odament hozzá, kissé meghajolt, és kedves mosollyal, szinte alázatosan
                     kérdezett valamit. Persze láttam, hogy rögtön verekedni fog. A gyanútlan
                     szemüveges úr kedvesen felelt, és Rézfejű látszólag nem is erősen az arcába
                     vágott. Ilyen ökölcsapásokat csak tőle láttam, amellyel mintegy könnyedén s
@@ -1457,16 +1459,16 @@
                     szétrepedjen csontja, bőre, kitörjön a foga, befeketedjen a szeme, és magával
                     rántva zuhanásában mindent, olyan benyomást keltsen az odasietőben, mint akit
                     huzamosabb ideig vertek ólmosbotokkal.</p>
-                <p>- Ez volt az a Corot doktor - magyarázta vidáman Rézfejű, miután rendelkezésére
+				<p>- Ez volt az a Corot doktor - magyarázta vidáman Rézfejű, miután rendelkezésére
                     állt a megjelenő hatóságnak. - Kinyomoztam, és ezentúl minden kéthétben egyszer
                     megverem! - fejezte be fiatalos lelkesedéssel.</p>
-                <p>A történethez már nincs sok hozzáfűznivalóm. Bremont és felesége boldogan éltek.
+				<p>A történethez már nincs sok hozzáfűznivalóm. Bremont és felesége boldogan éltek.
                     Hogy Bobinak is jusson szerep a családalapítás körül, ő lett az első gyermek
                     keresztapja. Sokszor jöttünk össze öten, és újra meg újra átéltük éjfélbe nyúló
                     beszélgetések közben a borzalmas, de feledhetetlen kalandokat. A történet
                     epilógusához tatozik, hogy Corot doktor még kétszer találkozott Rézfejűvel,
                     azután kivándorolt, és örökre távol tartotta magát a kontinenstől.</p>
-            </div>
-        </body>
-    </text>
+			</div>
+		</body>
+	</text>
 </TEI>

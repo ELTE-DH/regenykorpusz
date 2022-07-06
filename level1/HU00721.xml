@@ -1,108 +1,110 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU00721" xml:lang="hu">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title>Utazás Faremidóba - Gulliver ötödik útja</title>
-                <author ref="viaf:46762994">Karinthy Frigyes (1887-1938)</author>
-                <respStmt>
-                    <resp>ELTeC conversion</resp>
-                    <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-                    </name>
-                    <name>Fellegi Zsófia</name>
-                    <name>Bajzát Tímea Borbála</name>
-                </respStmt>
-            </titleStmt>
-            <extent>
-                <measure unit="words">11930</measure>
-                <measure unit="pages">25</measure>
-                <measure unit="vols">1</measure>
-            </extent>
-            <publicationStmt>
-                <p>Published as part of ELTeC</p>
-            </publicationStmt>
-            <sourceDesc>
-                <bibl type="digitalSource">
-                    <title>Utazás Faremidóba - Gulliver ötödik útja</title>
-                    <date>2003-05-14</date>
-                    <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-                    <ref target="https://mek.oszk.hu/00700/00721"/>
-                    <respStmt>
-                        <resp>Original Electronic Edition</resp>    
-                        <name>Drótos László</name>
-                        <name>Moldován István</name>
-                        <name>Szabolcsi József</name>
-                        <name>Kiss András</name>
-                        <name>Lelovics Zoltánn</name>
-                    </respStmt>
-                    <bibl type="printSource">
-                        <title>Utazás Faremidóba - Gulliver ötödik útja</title>
-                        <author>Karinthy Frigyes</author>
-                        <pubPlace>Budapest</pubPlace>
-                        <publisher>Szépirodalmi Kvk.</publisher>
-                        <date>1976</date>
-                        <ref target="https://mek.oszk.hu/00700/00721"/>
-                    </bibl>
-                </bibl>
-                <bibl type="firstEdition">
-                    <title>Utazás Faremidóba - Gulliver ötödik útja</title>
-                    <author>Karinthy Frigyes</author>
-                    <date>1916</date>
-                </bibl>
-            </sourceDesc>
-        </fileDesc>
-        <encodingDesc n="eltec-0">
-            <p/>
-        </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="hu">Hungarian</language>
-            </langUsage>
-            <textDesc>
-                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-                <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-                <canonicity xmlns="http://distantreading.net/eltec/ns" key="high"/>
-                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-            </textDesc>
-        </profileDesc>
-        <revisionDesc>
-            <change when="2021-07-02"/>
-        </revisionDesc>
-    </teiHeader>
-    <text>
-        <body>
-            <div type="chapter">
-                <head>ELSŐ FEJEZET</head>
-                    <head>Szerző visszapillant eddigi kalandjaira. - Kitör az európai világháború:
+<TEI xml:id="HU00721" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Utazás Faremidóba - Gulliver ötödik útja</title>
+				<author ref="viaf:46762994">Karinthy Frigyes (1887-1938)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">11930</measure>
+				<measure unit="pages">25</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Utazás Faremidóba - Gulliver ötödik útja</title>
+					<date>2003-05-14</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="https://mek.oszk.hu/00700/00721"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Drótos László</name>
+						<name>Moldován István</name>
+						<name>Szabolcsi József</name>
+						<name>Kiss András</name>
+						<name>Lelovics Zoltánn</name>
+					</respStmt>
+					<bibl type="printSource">
+						<title>Utazás Faremidóba - Gulliver ötödik útja</title>
+						<author>Karinthy Frigyes</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kvk.</publisher>
+						<date>1976</date>
+						<ref target="https://mek.oszk.hu/00700/00721"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Utazás Faremidóba - Gulliver ötödik útja</title>
+					<author>Karinthy Frigyes</author>
+					<date>1916</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2021-07-02"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>ELSŐ FEJEZET</head>
+				<head>Szerző visszapillant eddigi kalandjaira. - Kitör az európai világháború:
                         szerző mint seborvos kerül a Bulwark sorhajóra. - Essex közelében a németek
                         felrobbantják a hajót. - Szerző és a hajó parancsnoka hidroplánon
                         menekülnek. - A válságos percben egy csodálatos repülőgép megmenti a
                         szerzőt, és épségben partra szállítja Faremidóban.</head>
-                    <p>Az olvasó bizonyára csodálkozik, hogy annyi szomorú tapasztalat ellenére s
+				<p>Az olvasó bizonyára csodálkozik, hogy annyi szomorú tapasztalat ellenére s
                         miután örökre megfogadtam, hogy többé nem kelek útra:
                         ezerkilencszáztizennégy júliusában mégis elhagytam feleségemet és
                         gyermekeimet, hogy a Bulwark sorhajón mint seborvos induljak a Balti-tenger
                         vizeire. Lesznek olyanok, akik állhatatlansággal vádolnak ezért, hiszen már
-                        első utam végez­tével, miután Lilliputból szerencsésen megmenekültem, rá
+                        első utam végeztével, miután Lilliputból szerencsésen megmenekültem, rá
                         kellett jöttem légyen, hogy igazi angol alattvaló jobban teszi, ha sohase
                         lépi át határtalanul szeretett hazánk határait, mert hiszen csak oktalan és
-                        céltalan keserűséget okoz magának, nem gondolva meg, hogy egyszer mégis­csak
+                        céltalan keserűséget okoz magának, nem gondolva meg, hogy egyszer mégiscsak
                         vissza kell térnie forrón szeretett szülőföldjére. Későbbi utaim,
                         Brobdingnagba, Laputába és Hauhnhnmországba, csak jobban meggyőztek erről az
                         igazságról, amint az olvasó bizonyára emlékszik, hisz, ugyebár (főleg utolsó
-                        kalandos utazásomra gondolva), ha Laputából és Laga­dóból hazatérve, veszteg
+                        kalandos utazásomra gondolva), ha Laputából és Lagadóból hazatérve, veszteg
                         maradtam volna, mennyi borzalmas és halálos veszedelmet takarítok meg: hogy
                         egyebet ne mondjak, csak azt a majdnem végzetes kalandot említem fel, midőn
                         a hajó orrából beugrottam a tengerbe afölött való elkeseredésemben, hogy
                         erővel vissza akarnak hozni Angolországba, amely alkalommal csaknem életemet
                         vesztettem. Ha itthon maradok, soha nem kerülök vala ilyen helyzetbe.</p>
-                    <p>Hogy látszólagos állhatatlanságomat mentegessem, csak arra a lángoló és
-                        határtalan haza­szeretetre kell utalnom, amely minden angol alattvaló
+				<p>Hogy látszólagos állhatatlanságomat mentegessem, csak arra a lángoló és
+                        határtalan hazaszeretetre kell utalnom, amely minden angol alattvaló
                         lelkében ott ég, arra a gondolatra, hogy hazájáért életét és vagyonát
                         kockára tegye. Ezerkilencszáztizennégy nyarán az Osztrák-Magyar monarchia
                         elégtételt kért a szerb kormánytól azért, mert az felbérelt emberekkel orvul
-                        meg­ölette az ország trónörökösét. Szeretett hazánk és Oroszország
+                        megölette az ország trónörökösét. Szeretett hazánk és Oroszország
                         lovagiassága természetesen nem tűrhette, hogy egy erős és hatalmas állam,
                         amilyen a monarchia, megtámadjon egy olyan gyenge és tehetetlen kis népet,
                         amelyiknek még ahhoz sincsen elég ereje, hogy nyílt csatában ölje meg
@@ -111,7 +113,7 @@
                         Németországnak, mint a kultúra kerékkötőjének, amelyik folyton háborúval
                         fenyegette a világot. Oroszországgal is kibékült, abban a reményben, hogy az
                         segítségül hívja régi ellenségét, Japánt, ami meg is történt.</p>
-                    <p>Ilyen körülmények közt természetesen minden angol ember kötelességének
+				<p>Ilyen körülmények közt természetesen minden angol ember kötelességének
                         érezte, hogy megvédje jogtalanul és váratlanul megtámadott hazáját, annál is
                         inkább, mert hiszen, hogy nagyszerű hadseregünket és legyőzhetetlen
                         hajóhadunkat már tíz éve előkészítettük erre a háborúra, azt mindenki tudta.
@@ -122,8 +124,8 @@
                         kerül a sor, hogy életét és vérét áldozza a közös ügyért. Elhatározásomban
                         csak megerősített végre az a körülmény is, hogy mint tartalékos hajóorvost,
                         sürgős behívóval rendeltek csapatomhoz, s tudtam, hogy ha önként nem
-                        jelent­kezem, haditörvényszék elé állítanak és valószínűleg főbe lőnek.</p>
-                    <p>Jelentkezésem után a Bulwark sorhajóra osztottak be, amelynek feladata volt
+                        jelentkezem, haditörvényszék elé állítanak és valószínűleg főbe lőnek.</p>
+				<p>Jelentkezésem után a Bulwark sorhajóra osztottak be, amelynek feladata volt
                         Essex közelében védeni a partokat, és esetleg támogatni a hajóhad támadó
                         akcióját. Parancsnokom, Sir Edward B..., igen kitűnő és művelt férfiú, már
                         az első napokban barátságot kötött velem, és sok érdekes és hadi értelemben
@@ -135,16 +137,16 @@
                         tudományát annyira előbbrevinné, mint egy ilyen modern háború, mely
                         számtalan fegyverével, géppuskájával, gránátjával, gőzmozsarával, légben
                         pukkanó bombájával, faragott hegyű golyójával, mérgezett nyilaival
-                        érdekesnél-érdekesebb és újabbnál-újabb eseteket szol­gáltat a tanulékony
+                        érdekesnél-érdekesebb és újabbnál-újabb eseteket szolgáltat a tanulékony
                         seborvos épülésére. Magam is nem kevesebb, mint harmincnégy olyan külső és
                         belső halálos sebesülést és betegséget tapasztaltam, amelyek eddig semmiféle
                         orvosi lexikonban nem szerepeltek s melyeknek feljegyzésével,
                         szerénytelenség nélkül mondhatom, nem jelentéktelen szolgálatot tettem az
-                        orvostudománynak. Voltak ott eltörött csontok, szét­roncsolt májak, voltak
+                        orvostudománynak. Voltak ott eltörött csontok, szétroncsolt májak, voltak
                         kifordult belek és benyomott szemek. Volt egy ember, akinek az arca és melle
                         hordónagyságúra dagadt, mert a gégét átfúrta egy golyó s a levegő félig a
                         tüdőbe, félig a bőr alá hatolt, és volt egy másik, akinek a bal karja
-                        leszáradt, mert a jobb vállán egy gránát­szilánk szétszaggatta az artériát.
+                        leszáradt, mert a jobb vállán egy gránátszilánk szétszaggatta az artériát.
                         Voltak lőtt, vágott és szúrt sebek bőven s néhány érdekes, fiziológiai
                         szempontból igen megfontolandó eset, mely a nyaktáji izmok sebészi
                         bántalmainak mekkoraságával jelezte az emberi fogazat dinamikus erejét. Bár
@@ -153,7 +155,7 @@
                         (tudnivaló, hogy az európai kultúra megmentésére japánokat is segítségül
                         hívtunk), aki a harctéren megőrült - az a rögeszméje volt, hogy ő tudja,
                         miért harcol.</p>
-                    <p>Hajónk egész november végéig cirkált az angol partok közelében - a
+				<p>Hajónk egész november végéig cirkált az angol partok közelében - a
                         részletekkel nem untatom az olvasót. November huszonkettedikén
                         szikratáviratban érkezett a parancs, hogy a Bulwark rakja partra
                         sebesültjeit, legénységét egészítse ki hadilétszámra, és vonuljon fel
@@ -163,7 +165,7 @@
                         így is eltévedtünk, és kevéssé letértünk az útról, az angol partok
                         irányában, nyugat-délnyugat felé. November huszonötödikén a ködben
                         fényjeleket kaptunk, de nem tudtuk elolvasni, néhány csomónyira fényszóróink
-                        hajót jeleztek. Kifordítottuk a süllyesz­tett ágyúkat, és riadót adtunk le a
+                        hajót jeleztek. Kifordítottuk a süllyesztett ágyúkat, és riadót adtunk le a
                         legénységnek. Mindenki elfoglalta helyét, s már éppen teljes gőzt parancsolt
                         a hajómérnök, mikor rettenetes dördülés rázta meg a fedélzetet: a hajó
                         aknára futott. Vad rémület támadt a fedélzeten, mindenki elvesztette a
@@ -184,8 +186,8 @@
                         kilométert a vízen futottunk, aztán hirtelen fellibbentünk a ködbe.
                         Visszapillantva semmit sem láttam már a hajóból: a ködön keresztül
                         bizonytalan fények villództak alattam. Metsző hideg volt, és csakhamar
-                        eltűnt minden körü­löttünk: áthatlan, sűrű köd vette körül a gépet, mely nem
-                        hogy tisztult volna, de egyre erősbö­dött. A motor zakatolásától beszélni se
+                        eltűnt minden körülöttünk: áthatlan, sűrű köd vette körül a gépet, mely nem
+                        hogy tisztult volna, de egyre erősbödött. A motor zakatolásától beszélni se
                         lehetett, s így fogalmam se volt róla, merrefelé tartunk és milyen
                         magasságban. Szorongva ültem helyemen, időnként a hidegtől és a sebes
                         légáramtól félig elvesztve öntudatom, úgyhogy ma se tudom: három órát
@@ -199,7 +201,7 @@
                         mozdulatlan és merev volt, szemei üvegből, két orrlikából csendesen csurgott
                         a vér. Kezei egy taszító mozdulattal görcsösen szorították a magassági
                         kormányt. Iszonyú rémület fogott el, és félrelöktem őt; nehezen billent
-                        balra és feje előre­bukott. Feje fölött kinyújtottam két karom, és
+                        balra és feje előrebukott. Feje fölött kinyújtottam két karom, és
                         megragadtam a kormányt, de már éreztem, hogy végem van, nem bírom tovább.
                         Ekkor fejem fölött suhogást hallottam; felpillantva hatalmas, madárformájú
                         szerkezetet láttam a tisztuló ködön keresztül. Kiáltani akartam, hogy
@@ -227,15 +229,12 @@
                         tudtam állapítani, hogy e négy hang így következik egymásra: f, d, e, c, a
                         skála doremifaszolaszidója szerint így: Fa-re-mi-dó. Ugyanekkor földet
                         értünk.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>MÁSODIK FEJEZET</head>
-              
-                    <head>Az a gép, mely a szerzőt idehozta, csodálatos öntudatot árul el. - Különös
+			</div>
+			<div type="chapter">
+				<head>MÁSODIK FEJEZET</head>
+				<head>Az a gép, mely a szerzőt idehozta, csodálatos öntudatot árul el. - Különös
                         beszélgetés. - Emberformájú fák. - A kastély.</head>
-                    <p>Magamhoz térve kábultságomból, kinyitottam a szemem és körülnéztem. Ragyogó
+				<p>Magamhoz térve kábultságomból, kinyitottam a szemem és körülnéztem. Ragyogó
                         napfényben úszó vidék terült el: egyik oldalon enyhén emelkedő hegyhát, bal
                         kéz felől csillogva kanyargó folyó, partjain kékeszöld cserjék. A folyón
                         egyszerű vashíd vezetett korlát nélkül; távoli erdő felé fehér út, kétoldalt
@@ -247,20 +246,20 @@
                         ezen a vidéken. Később, álmélkodásaim közepette, gondolkoztam ezen, és
                         rájöttem, honnan ismerem én ezt a tájat: álmomban jártam itt, nem is
                         egyszer, főleg gyermekkoromban; nagy időközökben váratlanul visszatérő álom
-                        volt ez; eleinte, gyermek­koromban, a folyónak innenső partján álldogáltam,
+                        volt ez; eleinte, gyermekkoromban, a folyónak innenső partján álldogáltam,
                         és vágyakozva néztem az erdő felé, ahonnan valami ismeretlen, édes zene
                         szólt, aztán álmodtam úgy is, hogy átmegyek a hídon, és megindulok a fehér
                         út homokján. Mint kiképzés alatt álló katona is álmodtam róla, borjúval a
                         hátamon meneteltem az erdő felé; tudtam azt is, hogy ott valami jó vár rám,
                         üde pihenés és nyugalom, de úgy rémlett, sohase jutunk el odáig.</p>
-                    <p>Most azonban mindez kézzelfogható valóság volt, ébren voltam, szomjúságot
+				<p>Most azonban mindez kézzelfogható valóság volt, ébren voltam, szomjúságot
                         éreztem, és mozgolódni próbáltam. Ekkor kemény szorítást éreztem a
                         derekamon, ugyanekkor valami erő kiemelt ülésemből, s egy percig a levegőben
                         lóbált. Ijedten néztem oda: a derekamhoz keskeny fémgyűrű tapadt, mint
                         valami csukló, ez a fémgyűrű felfelé vastagodó fémkarban végződött. A
                         következő pillanatban még magasabbra emelt e kar, aztán lassan leeresztett,
                         és letett a földre, mintegy három-négy méternyire a géptől, amelyben ültem;
-                        aztán eleresztett, s a kar vissza­húzódott. Felnéztem és különös, soha nem
+                        aztán eleresztett, s a kar visszahúzódott. Felnéztem és különös, soha nem
                         látott szerkezetet, vagy gépet láttam magam előtt: csak zavaros
                         körvonalakban tudom leírni, mert tiszta képet adni róla még talán rajzban se
                         tudnék, jóllehet azóta gyakran láttam hasonlót. Első gondolatom, érthetően,
@@ -269,21 +268,21 @@
                         kétoldalt ezüstből alkalmazott szárnyakkal. Ennek a váznak azonban
                         kimondhatatlanul különös formája volt: felül tojás alakú aranytömb, tetején
                         belapítva, olyanforma, mint egy nagyon szabályos, stilizált emberfej,
-                        amilyenhez hason­lót épületek díszítésére alkalmaznak a szobrászok, a két
-                        szem helyén két csillogó, kerek üveg­lencse, mely mögött vöröses fény
+                        amilyenhez hasonlót épületek díszítésére alkalmaznak a szobrászok, a két
+                        szem helyén két csillogó, kerek üveglencse, mely mögött vöröses fény
                         villódzott. E lencsék alatt két csőféle állt ki a fejből, ezalatt pedig
                         hosszúkás, szépvonalú nyílás, aranylappal befödve, mely szabályosan
                         emelkedett és csukódott. A váz törzse pajzs alakú, szintén aranyból, rajta
                         igen széprajzú, művészi berakások, drágakövekből, alul, a derék táján
                         fémkarika. Két lefelé keskenyedő, formás támasztékon állt a szerkezet: e
                         támasztékok bonyolult kerékrendszerben végződtek; a kerekek szabadon
-                        mozog­tak, emelkedni és lépni is tudott velük a gép, sík földön sebesen
+                        mozogtak, emelkedni és lépni is tudott velük a gép, sík földön sebesen
                         forogtak.</p>
-                    <p>A váz két karja volt a szárny, de ezenkívül még több keskeny, hajlékony
-                        fémkar nyúlt ki a derék­ból, különböző végződésekkel, egyike ezeknek volt
+				<p>A váz két karja volt a szárny, de ezenkívül még több keskeny, hajlékony
+                        fémkar nyúlt ki a derékból, különböző végződésekkel, egyike ezeknek volt
                         az, ami engem a szerkezetből kiemelt.</p>
-                    <p>Az egész gép, bonyolultsága ellenére, valahogyan az egyszerűség és magától
-                        értetődő szükség­szerűség benyomását keltette, érződött, hogy minden a
+				<p>Az egész gép, bonyolultsága ellenére, valahogyan az egyszerűség és magától
+                        értetődő szükségszerűség benyomását keltette, érződött, hogy minden a
                         helyén van és csodálatos összhangban működik össze, de mindezek fölött
                         valami kifejezhetetlenül kellemes érzést is keltett első pillanatban, mely
                         nem állott összefüggésben azzal a benyomással, hogy a gép feltétlenül
@@ -291,7 +290,7 @@
                         külön hatott: nem tudom másképpen kifejezni magam, csak megközelítő szót
                         használok, amikor azt mondom, hogy ez a gép szép volt, szép alatt nemcsak,
                         hogy annyit, de jóval többet értve, mint ahogy ezt a szót például egy
-                        festményre, vagy még inkább egy nőre alkalmazni szoktuk. Egyszerű seb­orvos
+                        festményre, vagy még inkább egy nőre alkalmazni szoktuk. Egyszerű seborvos
                         vagyok, és nem járatos a szavak művészetében, de emlékszem, hogy akkor
                         elragadtatott jelzők jutottak eszembe, amilyeneket szerelmes ifjak találtak
                         ki a mámor perceiben. Lehet, hogy nem is voltam normális állapotban, részben
@@ -313,23 +312,23 @@
                         majd kinyitottam a szájam és néhányszor ügyetlenül próbálkozva, végre
                         megközelítően helyesen ismételtem a hangokat. A zene abban a pillanatban
                         megszakadt, a gép megállt, és mintha megfeszülve figyelt volna. Hangosabban
-                        ismételtem a hangokat. A gép most három más hang­jegyet muzsikált, ezt is
+                        ismételtem a hangokat. A gép most három más hangjegyet muzsikált, ezt is
                         utánaénekeltem. Most másik kar nyúlt felém és megtapogatott. Aztán
                         néhányszor ismétlődött még ez a játék más-más hangjegyekkel. Hirtelen
                         suhogást hallottam, a szárnyak zúgni kezdtek, légáram ütötte meg arcom, s a
                         következő pillanatban felemelkedett a gép, néhányszor keringett a fejem
                         fölött, aztán a folyó felé tartott, emelkedett, kisebb lett, végre eltűnt az
                         erdő fölött. Kábultan álltam ott néhány percig, aztán körülnéztem.</p>
-                    <p>Finom fű borította azt a helyet, ahol álltam, alatta valami nagyon puha,
+				<p>Finom fű borította azt a helyet, ahol álltam, alatta valami nagyon puha,
                         süppedő talaj. Most egyszerre élesen villant agyamba kétségbeejtő helyzetem,
                         ismeretlen helyen vagyok, mondtam magamban, ahol tanácstalanul és
                         tehetetlenül elpusztulok, mert nem tudom, ellenséges terület‑e, vagy
                         bajtársi. Másrészt bajtársaim sorsa is aggasztott, nem lehettem biztos
                         benne, vajon megmenekült-e valaki a Bulwarkról, s hírül adván, hogy én meg a
-                        parancsnok repülő­gépen hagytuk el a süllyedő hajót, valószínűleg
+                        parancsnok repülőgépen hagytuk el a süllyedő hajót, valószínűleg
                         körözőlevelet adnak ki ellenem, s ha nem jelentkezem, szökevénynek
                         nyilvánítanak, és haditörvényszék elé állítanak.</p>
-                    <p>Azután ismét úgy okoskodtam, hogy ahol ilyen tökéletes gépek vannak, ott
+				<p>Azután ismét úgy okoskodtam, hogy ahol ilyen tökéletes gépek vannak, ott
                         nyilván rendkívüliek és fejlett értelműek az emberek, s meg fogják érteni
                         sanyarú helyzetemet. Csak azt nem tudtam, hol találom azt a várost vagy
                         tábort, ahonnan ez a repülőgép való: azzal tisztában voltam, hogy nem
@@ -338,12 +337,12 @@
                         bíztam hát magam, fegyvereimet leraktam a fűre, s elkészítettem
                         zsebkendőmet, hogy abban az esetben, ha ellenség területén vagyok, megadjam
                         magamat a hágai egyezmény értelmében annak, akivel először találkozom.</p>
-                    <p>Majd óvatosan megindultam a folyó felé, körülnézelődve, de anélkül, hogy
+				<p>Majd óvatosan megindultam a folyó felé, körülnézelődve, de anélkül, hogy
                         egyetlen élő lelket pillantottam volna meg. Akadálytalanul keresztüljutottam
                         a hídon, s elhatároztam, hogy a fehér úton indulok az erdő irányában. A
                         legközelebbi facsoport felé közeledtem, mely a fasor szélén állott. Hirtelen
                         meghökkenve torpantam vissza, s önkéntelenül zsebkendőmhöz kaptam.
-                        Pilla­natra úgy tűnt, hogy az a fa, amelyhez legközelebb voltam, nem is fa,
+                        Pillanatra úgy tűnt, hogy az a fa, amelyhez legközelebb voltam, nem is fa,
                         hanem élőlény. Így húszlépésnyi távolságról tisztán kivehettem egész
                         alakját, határozottan emberformájú volt, bár szokatlanul hatott. Bőr helyett
                         barna kéreg födte el testét, két lába a földbe gyökeredzett, és kitárt
@@ -355,7 +354,7 @@
                         Megkönnyebbülve közel mentem a különös növényhez és megtapogattam. Igen,
                         kéreg volt biz az, de puhább, mint a közönséges fáké, érintésemre rózsaszínű
                         nedv szivárgott belőle. Kissé megriadtam megint, mikor a fa vonaglani
-                        kezdett, vissza is húzódtam, de aztán megnyugod­tam. Láttam, hogy a két láb
+                        kezdett, vissza is húzódtam, de aztán megnyugodtam. Láttam, hogy a két láb
                         alakú gyökér keményen kapaszkodik a földben, és nem tud mozdulni. Mégis az
                         egésznek emberformája volt, ismétlem, sőt, az arc vonásai is kivehetők
                         voltak: a szemek nagyon üresek és szárazok, de az orr csaknem szabályos, s a
@@ -366,17 +365,17 @@
                         valamit; ekkor érthetetlen részvét szorította marokra szívemet, s
                         fájdalmamban hangosan felkiáltottam. Válaszul fülsértő, süket recsegés
                         támadt a fa belsejében, a kitárt karok erőlködve rángatództak, aztán megint
-                        csendes lett a fa. Nem tudtam megmagyarázni magam­nak hirtelen támadt
+                        csendes lett a fa. Nem tudtam megmagyarázni magamnak hirtelen támadt
                         érthetetlen levertségemet, de éreztem, hogy nem tudnám még egyszer hallani
                         azt a kongó, üres recsegést. Gyorsan elfordultam és elmentem onnan; ekkor
-                        csodál­kozva vettem észre, hogy a többi fa is hasonló ehhez: kisebb-nagyobb
+                        csodálkozva vettem észre, hogy a többi fa is hasonló ehhez: kisebb-nagyobb
                         alakú emberfák, kitárt karokkal és keserű, öreg arccal. Nagyon rosszul
                         éreztem magamat, és meggyorsítottam lépteimet, nem néztem körül, de úgy
                         rémlett, az egész fasort, amelyen végigmentem, ilyen fák alkották.</p>
-                    <p>Később elmaradtak a fák, és finom fehér porral behintett út kanyargott
+				<p>Később elmaradtak a fák, és finom fehér porral behintett út kanyargott
                         előttem; megint elfogott az a különös emlék, hogy én már egyszer jártam erre
                         álmomban.</p>
-                    <p>Az erdő és az út találkozásánál, mint ahogy messziről kivettem, csakugyan
+				<p>Az erdő és az út találkozásánál, mint ahogy messziről kivettem, csakugyan
                         diadalív állt, mely magasan ért össze a fejem felett. Megkönnyebbülve
                         lélegzettem fel, látva, hogy ezek a fák már nem ember formájúak; igaz, hogy
                         nem láttam még ilyen fákat se: húsos, csaknem gömbölyű levelek buja koronája
@@ -386,29 +385,26 @@
                         tekingettem körül, ekkor keskeny nyíláson ismét megpillantottam a napfényt,
                         és sietve tartottam arrafelé. Néhány perc múlva kiértem az erdőből és
                         elvakulva kaptam szemeimhez.</p>
-                    <p>Óriási, szabályos alakú fennsík bukkant elő. Pompás, vörös kövekből épített
+				<p>Óriási, szabályos alakú fennsík bukkant elő. Pompás, vörös kövekből épített
                         lépcső vezetett a háttérbe, ahol óriási épület zárta el az eget. Ennek az
-                        épületnek a frontkapujához vezetett a lép­cső, óriási, kitárt kapu volt ez,
+                        épületnek a frontkapujához vezetett a lépcső, óriási, kitárt kapu volt ez,
                         aligha alacsonyabb negyven méternél. Az egész front egyetlen, félkör alakú
-                        fal, kétoldalt monumentális oszlopok: soha nagyszerűbb, impozánsabb reme­két
+                        fal, kétoldalt monumentális oszlopok: soha nagyszerűbb, impozánsabb remekét
                         az építőművészetnek nem láttam. Ami azonban első percben ennél jobban
                         lekötötte figyelmem: két alak volt a kapu előtt, formában, nagyságban
                         tökéletesen hasonló ahhoz a géphez, mely engem idehozott.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>HARMADIK FEJEZET</head>
-                
-                    <head>Néhány szó az olvasóhoz. - Az ember és a gépek. - Faremidó lakosai. -
+			</div>
+			<div type="chapter">
+				<head>HARMADIK FEJEZET</head>
+				<head>Néhány szó az olvasóhoz. - Az ember és a gépek. - Faremidó lakosai. -
                         Szerzőt összehasonlítják a növényekkel.</head>
-                    <p>Az olvasó, útleírásokkal különben is nagyon elkényeztetve, talán
+				<p>Az olvasó, útleírásokkal különben is nagyon elkényeztetve, talán
                         elégedetlenül s türelmetlenül állapította meg az előbbi fejezet végére
                         érvén, hogy annak summájából alig fogott fel valamit, nem értvén, mik
                         legyenek ama csodálatos gépek s meglepő növények, melyeket különben is csak
                         hézagosan írhattam le, oly jelenségekről szólván, amiket, úgy tudom, eddig
                         útleíró még fel nem jegyzett naplójában.</p>
-                    <p>Alázatosan kérem az olvasót, gondolná meg, hogy egyrészt egyszerű seborvosi
+				<p>Alázatosan kérem az olvasót, gondolná meg, hogy egyrészt egyszerű seborvosi
                         mivoltomban, mint említettem, nem vagyok a szavak művésze, s talán
                         tökéletlenül fejeztem ki magam, másrészt azok a tünemények, amiket a második
                         fejezetben leírtam, engem is éppen úgy megleptek s éppoly érthetetlenek
@@ -419,12 +415,12 @@
                         könnyebbséget jelent az olvasónak, ha ismeri négy előbbi útleírásom
                         (Liliputba, Brobdingnagba, Laputába és Hauhnhnmiába), melyeket Swift
                         Jonathan rendezett sajtó alá.</p>
-                    <p>Mégis, hogy rövidebbre fogjam a dolgot, előrebocsátom azt a tanulságot, ami
+				<p>Mégis, hogy rövidebbre fogjam a dolgot, előrebocsátom azt a tanulságot, ami
                         Faremidóban való tartózkodásom folyamán később érlelődött meg bennem, s
                         amit, ha a huszadik század metafizikusainak művei el nem rontanak s meg nem
                         fertőznek, már réges-rég, Faremidó előtt, meg kellett volna értenem, hogy
                         meg ne lepjenek, amit ebben az országban tapasztaltam.</p>
-                    <p>Megállapítható, hogy mikor az emberek először megjelentek a földön, még nem
+				<p>Megállapítható, hogy mikor az emberek először megjelentek a földön, még nem
                         voltak gépek, nem volt művészet és tudomány. Akkor minden, amit az emberek
                         csináltak, természetes szükségletből fakadt: ruhát azért öltöttek, mert
                         hideg volt, baltát csináltak, hogy könnyebben elvágják a fát. Ezután jöttek
@@ -433,30 +429,30 @@
                         érzékelt jelenségekről alkotott fogalmainkat és képzeteinket. A nehéz
                         tárgyak emelésére kitalálták a csigát, a látott jelenségek pontosabb és
                         tüzetesebb megismerésére kitalálták a rajzolást és az írást.</p>
-                    <p>Évszázadok múlva természetszerűleg egyre tökéletesebb lett a tudomány és a
+				<p>Évszázadok múlva természetszerűleg egyre tökéletesebb lett a tudomány és a
                         művészet; az embert munkájában nagyszerű gépek segítették, megsokszorozva
                         minden lehetőséget, a hevenyén érzékelt időbeli és térbeli jelenségeket
                         pedig egyre tökéletesebb szobrok, festmények, költői művek rögzítették s
                         mutatták be teljes jelentőségben.</p>
-                    <p>Végre addig jutottunk, hogy a gépek nemcsak hogy megsegítették az embert
+				<p>Végre addig jutottunk, hogy a gépek nemcsak hogy megsegítették az embert
                         minden dolgában s megsokszorozták erejét, de egymagukban sokkal
                         tökéletesebben végezték el a munkát, mint ahogy gyarló emberi testünk valaha
-                        elvégezhette. Így a művészetek is: képek, szobrok, írás­művek, zeneművek, az
+                        elvégezhette. Így a művészetek is: képek, szobrok, írásművek, zeneművek, az
                         élet tüneteit, a formát, színt, történetet, érzelmet oly tökéllyel fejezték
                         ki, hogy a való élet messze mögöttük maradt leleményben, szépségben,
                         kifejező erőben.</p>
-                    <p>Mi következett ebből? Gépek és művek felülmúlták az embert: tökéletesebbé
-                        lettek, s csak­hamar ott tartottunk, hogy ha az ember tökéletes akart lenni,
+				<p>Mi következett ebből? Gépek és művek felülmúlták az embert: tökéletesebbé
+                        lettek, s csakhamar ott tartottunk, hogy ha az ember tökéletes akart lenni,
                         utánozni volt kénytelen a gépeket és a műveket, amik egykor az embert
                         utánozták. Jellemünk kialakulására legnagyobb hatással kultúránk volt,
                         regények, drámák, művek. Formáinkat a művészet írta elő. Egyszer,
-                        Buda­pesten járván, láttam egy cukrosboltot, amely magát “automatának”
+                        Budapesten járván, láttam egy cukrosboltot, amely magát “automatának”
                         nevezte, az ember felül bedobott egy krajcárt, mire egy nyíláson cukor jött
                         ki. Ebben az automatában belül egy ember ült, az ő kezébe esett a pénz, és ő
                         tolta ki a cukrot a nyíláson. Ez az ember öntudatlanul rájött, hogy az
                         emberek jobban bíznak a gépekben, mint egymásban, s ravasz fondorlattal el
                         akarta hitetni, hogy ő gép.</p>
-                    <p>Odáig jutottak az emberek, hogy egy meztelen nőt ábrázoló festményért tízszer
+				<p>Odáig jutottak az emberek, hogy egy meztelen nőt ábrázoló festményért tízszer
                         annyit adtak már, mint a nőért, aki a festőnek modellül szolgált; az
                         embernek nem adták meg azt a tiszteletet, ami utánzott, rekonstruált másának
                         kijárt. Emlékszem, milyen őszinte felháborodást keltett bennem, röviddel
@@ -479,16 +475,16 @@
                         részekben és egészben, az ember önmagánál tökéletesebb lényt szeretett volna
                         kezdettől fogva: erre kellett a mikroszkóp és a teleszkóp, a fénykép és a
                         röntgen-sugár, az automobil és a repülőgép.</p>
-                    <p>Mondom, ha mindezt józanul elgondolom s megértem: nagyobb tiszteletet és
-                        becsülést kelt­hettem volna forrón szeretett hazám iránt Faremidó lakosainak
+				<p>Mondom, ha mindezt józanul elgondolom s megértem: nagyobb tiszteletet és
+                        becsülést kelthettem volna forrón szeretett hazám iránt Faremidó lakosainak
                         szemében. Belátták volna, hogy az a csodálat, ami valósággal elkábított,
                         mikor az erdei út végén feltárult előttem ama ragyogó épület, hogy ez a
                         csodálat már maga bizonyította; gyarló emberi mivoltomban mégis méltó voltam
                         hozzá, hogy közöttük élhessek, s talán valamikor hasonlóvá legyek hozzájuk.
                         De én, elfogultan és ostobán, sokáig ragaszkodtam ahhoz a feltevéshez, hogy
                         ilyen művet csak emberi kéz hozhatott létre.</p>
-                    <p>Ott álltam, s szédülve nézegettem szerteszét: ekkor a csarnok előtt álló
-                        gépek egyike meg­mozdult, s könnyedén szökellve közeledett felém.
+				<p>Ott álltam, s szédülve nézegettem szerteszét: ekkor a csarnok előtt álló
+                        gépek egyike megmozdult, s könnyedén szökellve közeledett felém.
                         Megismertem azt a gépet, amelyik engem idehozott, s a folyó túlsó partján
                         magamra hagyott. Ugyanazt a zenei ütemet hallatta, a többi gépek közül is
                         megmozdult egynéhány és odajött. Körülálltak és valóságos hangverseny
@@ -505,8 +501,8 @@
                         négyszögletes és gömbölyű fejű, különböző színű fémekből; de testtartásra
                         nézve hasonlítottak s abban is, hogy bonyolult és végtelenül finom, precíz
                         szerkezet volt valamennyi.</p>
-                    <p>Míg ezen tűnődtem, fémkar nyúlt ki felém, s a levegőbe emelt: hatalmas
-                        üveglencsét pillan­tottam meg, melyet fejem fölé tartott valami, az
+				<p>Míg ezen tűnődtem, fémkar nyúlt ki felém, s a levegőbe emelt: hatalmas
+                        üveglencsét pillantottam meg, melyet fejem fölé tartott valami, az
                         üveglencse mögött, csillogva és figyelmesen, mintha óriási szem ragyogott
                         volna le rám. A kar, amely felemelt, lassan mozgatta és csúsztatta fejemet,
                         az a kényelmetlen érzésem volt, hogy megfigyelnek, mint a bogarász holmi
@@ -518,7 +514,7 @@
                         gyakran lefordította felém aranyló fémfejét, s a ragyogó szemekből kékes
                         fény áradt le rám, majd énekelni kezdett, és most már határozottan éreztem,
                         hogy ezekkel a hangokkal hozzám szól, és hogy ebben az országban így, zenei
-                        hangokkal beszélnek, zenei hangokból tevődnek össze a szavak. Meg­értvén
+                        hangokkal beszélnek, zenei hangokból tevődnek össze a szavak. Megértvén
                         ezt, igyekeztem vele is megértetni, hogy szeretném megtanulni ezt a nyelvet,
                         a palota felé mutogatva jeleztem, hogy tudni óhajtom, hogy nevezik. Rögtön
                         felfogta, mit akarok; néhány hangot ejtett: mi, fa, re, amit rögtön
@@ -529,21 +525,18 @@
                         amit már akkor hallottam, mikor idehozott. Ekkor tudtam meg, hogy az ország
                         neve: Faremidó. (Kérem az olvasót, az eredeti szavakat mindig énekelve
                         mondja ki, mert csak így van értelme.)</p>
-                    <p>Végre a fasorhoz értünk, ahol már az imént végigmentem volt, az emberformájú
+				<p>Végre a fasorhoz értünk, ahol már az imént végigmentem volt, az emberformájú
                         fák közé. Egy ilyen fa mellett vezetőm megállt, gyengéden derékon fogott, és
                         odaállított a fa mellé, majd kissé visszalépve, fémkarját feje fölé emelte;
                         láttam, hogy vizsgál és összehasonlít bennünket. Megint elfogott az a
                         kényelmetlen érzés: most úgy volt, mint mikor a botanikus összehasonlít két
                         növényt, hogy a rokonságot megállapítsa.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>NEGYEDIK FEJEZET</head>
-                
-                    <head>Világnézletek. - Szerző kezdi sejteni, miféle lények közé került. - A
+			</div>
+			<div type="chapter">
+				<head>NEGYEDIK FEJEZET</head>
+				<head>Világnézletek. - Szerző kezdi sejteni, miféle lények közé került. - A
                         szolaszik. - Néhány szó a szolaszi-gyárról.</head>
-                    <p>Mindazt, amit eddig megértetni próbáltam az olvasóval, én magam csak hosszú
+				<p>Mindazt, amit eddig megértetni próbáltam az olvasóval, én magam csak hosszú
                         napok és hetek múlva értettem meg és fogtam fel, annyi bizonyos, hogy már
                         akkor, mikor ott álltam az emberformájú fa alatt, s egyszerre megéreztem,
                         hogy ama csodálatos gépezet, Faremidó egyik polgára engem e növénnyel
@@ -551,13 +544,13 @@
                         amilyenekről nem is álmodhattam eleddig. Csodálatos kalandjaim, melyek
                         korábbi útjaim folyamán gyakran döbbentették meg érzelmemet,
                         hozzászoktattak, hogy fenntartva kitűnő filozófusok és logikusok, főleg
-                        imádott hazám természettudósai által meg­szabott világnézletemet: mégis
+                        imádott hazám természettudósai által megszabott világnézletemet: mégis
                         igyekezzek tudomásul venni olyan tényeket és valóságokat, melyek ebbe a
                         világnézletbe semmiképpen nem illeszthetők; tudom azt, hogy komoly
-                        ter­mészet­tudóst elméleteinek felállításában nem befolyásolhat olyan
+                        természettudóst elméleteinek felállításában nem befolyásolhat olyan
                         csekélység, mint például egy tény vagy jelenség, mely homlokegyenest
                         ellentmond az elméletnek.</p>
-                    <p>Fenntartva tehát eddigi világnézletemet, mégis tudomásul vettem, hogy olyan
+				<p>Fenntartva tehát eddigi világnézletemet, mégis tudomásul vettem, hogy olyan
                         országba vagy világrészbe, vagy talán olyan égitestre vetett balsorsom, ahol
                         a természetet uraló lények, ez égitest lakói nemcsak hogy nem hasonlók az
                         emberhez, de földi értelemben élő lényeknek sem tekinthetők, mert jóllehet
@@ -565,7 +558,7 @@
                         formákat alkotnak együtt: nincsen testüknek egyetlen porcikája sem abból a
                         bizonyos matériából, mely felfogásunk szerint az élet egyetlen lehető
                         hordozója és feltétele, s amit közönségesen szerves anyagnak nevezünk. Ezek
-                        a lények, a szolaszik (így nevezik magu­kat hangjegyekben), szervetlen
+                        a lények, a szolaszik (így nevezik magukat hangjegyekben), szervetlen
                         elemekből állanak: vasból, aranyból és még sokféle fémből és ásványból,
                         közöttük néhány olyanból is, amit a mi szervetlen kémiánk nem ismer. Hogy
                         ezek az élettelen anyagok mégis mozognak és cselekszenek, erre vonatkozóan
@@ -582,7 +575,7 @@
                         létezés értéktelenebb, bizonyos szempontból beteg és természetellenes
                         formájának tekintik, mely nem alkalmas arra, hogy azt a lelket, mely a
                         természet erőinek anyagban való összesűrűsödése, s mely a természet
-                        meg­érté­sé­re és talán megjavítására hivatott (s melyet mi emberi léleknek,
+                        megértésére és talán megjavítására hivatott (s melyet mi emberi léleknek,
                         emberi értelemnek nevezünk), hogy ezt a lelket és értelmet boldoggá,
                         harmonikussá és, megérthetővé tegye. A szolaszik értelmének szerve, az ő
                         agyuk, szervetlen anyagból van; egy higanyféle, folyós fémnek s még valami
@@ -590,18 +583,18 @@
                         hanem ismert és ellenőrizhető erők: hő és villamosság idézik elő az általunk
                         gondolatnak és érzésnek nevezett mozgásokat. Hogy ezek az érzések és
                         gondolatok értéktelenebbek-e, mint a mieink, azt én véges eszemmel nem tudom
-                        megállapítani; csak annyit tapasztaltam idővel, hogy lé­nyeg­ben nem
+                        megállapítani; csak annyit tapasztaltam idővel, hogy lényegben nem
                         különböznek a mi szerves értelmünk produktumaitól, csak mérhetetlenül
-                        fokozottab­bak és intenzívebbek, de hiszen ebben nincsen semmi meglepő, a
+                        fokozottabbak és intenzívebbek, de hiszen ebben nincsen semmi meglepő, a
                         Földön is tapasztaljuk, ugyebár, hogy a szervetlen anyagból készült gépek
-                        többet és jobbat produkálnak az időegység­ben, mint az emberi vagy állati
+                        többet és jobbat produkálnak az időegységben, mint az emberi vagy állati
                         munka. A szolaszik képzetkapcsolódása jelentékenyen gyorsabb és precízebb,
                         mint a miénk, ami pedig érzéseik és indulataik erejét illeti, erre nézve
                         jellemző, hogy ők már a legegyszerűbb gondolataik közlésére is azt az
                         eszközt használják, amit mi csak legfokozottabb és legkomplikáltabb érzésünk
                         kifejezésére használunk: a zenét. Egyébiránt lehet, hogy gondolat és érzés
                         náluk nincs úgy elhatárolva, mint a mi értelmünkben.</p>
-                    <p>Az olvasó természetesnek találja, hogy első gondolatom, mikor mindezeket
+				<p>Az olvasó természetesnek találja, hogy első gondolatom, mikor mindezeket
                         sejteni kezdtem, az volt: hogyan jönnek létre ezek a lények, mert hisz a
                         szaporodásnak ez a formája, ahogy az minálunk tapasztalható, az ő szervetlen
                         életükben tárgytalan. Nagyon hamar megkaptam a választ erre a kérdésemre. Az
@@ -610,33 +603,33 @@
                         karjával (egyelőre karnak nevezem), hogy kövessem. Sietve megindultam
                         mellette, miközben észrevettem, hogy erőlködve igyekszik lépteit
                         hozzáhangolni az én hozzá képest szánalmas vánszorgásomhoz. Olyan volt ez,
-                        mintha egy automobil vezetne a földön egy embert. Csak­hamar elértük azért
+                        mintha egy automobil vezetne a földön egy embert. Csakhamar elértük azért
                         ama nagyszerű épület bejáratát, mely már egyszer elkápráztatta szemeimet. A
                         kapu fölött aranyjegyeket vagy betűket vettem észre ez alkalommal; később
                         megtudtam, hogy az ő írásukban ezek a jegyek annyit tesznek:
                         szola-szi-mi-re, ami hozzávetőleges magyar fordításban szolaszi-gyárat, vagy
                         szolaszi-műhelyt jelent.</p>
-                    <p>Az ellipszis alakú küszöbre lépve, sajátságos rengés és zakatolás ütötte meg
+				<p>Az ellipszis alakú küszöbre lépve, sajátságos rengés és zakatolás ütötte meg
                         fülemet, amint a márványfolyosón végigmentünk, ezek a hangok erősödtek.
                         Hajlékony üvegből való ajtó csapódott ki előttünk és óriási fehér fényben
                         úszó csarnok tárult fel szemeimnek. Hosszú ideig tartana, míg elmondanám
                         mindazt a leírhatatlan, legfeljebb körülírható zűrzavart, ami ebben a
                         csarnokban fogadott, talán rajzban, papíron jobban meg tudnám közelíteni a
                         látványt. Hosszú kőasztalok húzódtak párhuzamosan, elborítva ezer- meg
-                        ezerféle fantasztikus műszerekkel, tár­gyakkal, görebekkel, csapokkal,
-                        üvegekkel, fémekkel, forrasztókkal, csavarokkal, emelők­kel, mérlegekkel,
+                        ezerféle fantasztikus műszerekkel, tárgyakkal, görebekkel, csapokkal,
+                        üvegekkel, fémekkel, forrasztókkal, csavarokkal, emelőkkel, mérlegekkel,
                         edényekkel, izzasztókkal, folyadékokkal, csövekkel, retortákkal,
-                        áramfejlesz­tők­kel, huzalokkal, tengelyekkel, kerekekkel, forgókkal,
+                        áramfejlesztőkkel, huzalokkal, tengelyekkel, kerekekkel, forgókkal,
                         fogókkal, csipeszekkel, fúrókkal. Ezeknek nagy része ütemes mozgásban volt,
                         valami láthatatlan áramtól hajtva hangtalanul, de szédítő gyorsasággal forgó
                         és keringő korongok villództak a fényben, sziszegve pörögtek felülről és
                         alulról szíjak és drótok, acélpántok remegtek, és könyökforgók futkostak az
                         asztalok szélén. Itt-ott vörös, lila, kék fények és lángok libegtek, üvegek
                         alatt és szabadon sűrű folyadékok csörögtek nagy tartályokban.</p>
-                    <p>Első pillanatban alig vettem észre, hogy e látszólagos zűrzavarban szolaszik
+				<p>Első pillanatban alig vettem észre, hogy e látszólagos zűrzavarban szolaszik
                         dolgoznak: hiszen e lények alkata tulajdonképpen ugyanaz, mint amit gépekben
                         és műszerekben láttam. Hogy kissé hozzászokott szemem a látványhoz,
-                        rájöttem, hogy az asztalok mellett egyenlő távol­ságban kisebb-nagyobb
+                        rájöttem, hogy az asztalok mellett egyenlő távolságban kisebb-nagyobb
                         szolaszik állanak, serény munkába merülve. Az ovális aranyfejről ismertem
                         rájuk s a két fényes üveglencséről, mely a homloktájon villog. Testükből
                         karok és emelők nyúltak az asztal felé, igazgatva és összerakosgatva a
@@ -647,13 +640,13 @@
                         éreztem, hogy rólam van szó. Zavartan s magam előtt is érthetetlen
                         szégyenkezéssel fordítottam el szememet, s az asztalon heverő tárgyakat és
                         alkatrészeket kezdtem vizsgálni.</p>
-                    <p>Sok domború és homorú üveglencse hevert az asztalon; egy üvegben valami
-                        átlátszó ragasztó­anyag. Az asztal szélén egy már összerakott szerkezet:
+				<p>Sok domború és homorú üveglencse hevert az asztalon; egy üvegben valami
+                        átlátszó ragasztóanyag. Az asztal szélén egy már összerakott szerkezet:
                         hogy jobban megnéztem, csodálkozva jöttem rá, hogy ez a szerkezet, legalább
                         lényegében, nem is egészen ismeretlen előttem. Nagyon hasonlított egy apró,
                         végtelenül precíz és finom fotografálómasinához, csakhogy gömb alakú volt az
                         egész, és kétoldalt és hátul acélhuzalok lógtak le a földre, elöl egy
-                        villogó, dom­ború lencse, mögötte gömb alakú sötét kamara. Világos volt
+                        villogó, domború lencse, mögötte gömb alakú sötét kamara. Világos volt
                         előttem, hogy a célja is ugyanaz: egyben mégis olyan volt az egész, mint egy
                         nagy, exorbitált szemgolyó. Rögtön átvillant agyamon, hogy hiszen ez rendben
                         is van: tudjuk, hogy a fotografáló gép lényegében nem más, mint egy
@@ -662,14 +655,14 @@
                         szerkeszthetjük, hogy százszor élesebben és gyorsabban reprodukálja a
                         fényjelenségeket, mint a szem, gondoljunk csak azokra az érzékeny
                         mozgóképfelvételekre, amelyek százszor többet fognak föl a
-                        mozgás­jelenségekből, mint szemünk.</p>
-                    <p>Egy pillantás a szolaszi arcára meggyőzött, hogy ugyanazt csinálja, amire
+                        mozgásjelenségekből, mint szemünk.</p>
+				<p>Egy pillantás a szolaszi arcára meggyőzött, hogy ugyanazt csinálja, amire
                         neki is szüksége van: szemeket. Most világos volt előttem, hogyan jönnek
-                        létre ezek a csodálatos lények vagy szer­ke­zetek: önmaguk gyártják a
-                        hozzájuk hasonlókat fémekből, ásványokból, s az elkészült szo­la­szit
+                        létre ezek a csodálatos lények vagy szerkezetek: önmaguk gyártják a
+                        hozzájuk hasonlókat fémekből, ásványokból, s az elkészült szolaszit
                         önmaguk hozzák mozgásba a testükben elhelyezett erőforrások (villamos
                         akkumulátorok, gőz, gáz) által.</p>
-                    <p>Első pillanatra a fajta szaporításának ez talán nehézkesebb és körülményesebb
+				<p>Első pillanatra a fajta szaporításának ez talán nehézkesebb és körülményesebb
                         módja, mint amilyen bolygónkon dívik - és lesznek, akik hozzáteszik, hogy
                         kevésbé mulatságos -, de el kell ismerni, hogy az eredmény szempontjából
                         megbízhatóbb és lelkiismeretesebb. A szolaszinak, aki társát megteremti vagy
@@ -677,38 +670,35 @@
                         nevezhetném, tekintve, hogy egy szolaszit nemcsak ketten, de hatan-heten
                         hoznak létre, egynemű lények), a szolaszinak módjában van minden egyes
                         alkatrészt tüzetesen megvizsgálni a célszerűség szempontjából, s úgy
-                        állítani össze, hogy annak semmi hibája ne legyen. Kicse­rélheti azokat az
+                        állítani össze, hogy annak semmi hibája ne legyen. Kicserélheti azokat az
                         anyagokat, melyek zavarnák az összműködést, a mozgató szerkezeteket
                         tökéletes összhangba hozhatja az egyes szervekkel. Innen van, hogy a
                         szolaszik között nincsen nyomorék, béna vagy hibás egyén, ez különben
-                        magyarázható azzal is, amire később még rá­térek, hogy az egyszer elkészült
-                        szolaszi alkatrészei romlás vagy kopás esetén bármikor felcse­rél­hetők és
+                        magyarázható azzal is, amire később még rátérek, hogy az egyszer elkészült
+                        szolaszi alkatrészei romlás vagy kopás esetén bármikor felcserélhetők és
                         pótolhatók anélkül, hogy az egésznek összhangja és egyénisége megváltoznék.
                         Erről még bővebben kell majd beszélnem, kapcsolatban azzal a nagy
                         különbséggel, ami a faremidói lények közt és közöttünk fennáll a születés,
                         élet és halál fogalmazásának szempontjából.</p>
-                    <p>Arról is korai volna még beszélni, hogy a hosszú asztalok mellett és között
+				<p>Arról is korai volna még beszélni, hogy a hosszú asztalok mellett és között
                         elhaladva, hányféle és minemű szervek gyártását figyelhettem meg, e szervek
                         nagy részének nemcsak célja, de még szerkezete is merőben érthetetlen és
                         felfoghatatlan lévén akkori ismereteimmel. Csak annyit jegyzek meg, hogy az
                         utolsó asztalon túl egy dobogón láttam egy teljesen elkészült,
-                        össze­állított szolaszit mozdulatlanul állani, körülötte sürögtek a
+                        összeállított szolaszit mozdulatlanul állani, körülötte sürögtek a
                         munkások, és úgy látszik, éppen azokkal a mozgató szerkezetekkel szerelték
                         fel, amiket földi szóval motornak neveznek: egy nyíláson éppen valami
                         folyadékot öntöttek bele, és alulról megcsavartak valamit. Elmenőben még
                         hallottam, amint a szolaszi belsejében zengés indult meg, és visszapillantva
                         láttam, amint fejét lassan felemeli és körülnéz.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>ÖTÖDIK FEJEZET</head>
-               
-                    <head>Szerző megtanulja a szolaszik nyelvét. - Egy kis kitérés a külső és belső
+			</div>
+			<div type="chapter">
+				<head>ÖTÖDIK FEJEZET</head>
+				<head>Szerző megtanulja a szolaszik nyelvét. - Egy kis kitérés a külső és belső
                         szemléletről. - Az ismerettan. - Beteg szolaszik. - Néhány szó a “szférák
                         zenéjé”-ről.</head>
-                    <p>Hosszadalmas volna időrendben részletezni annak a néhány hónapnak történetét,
-                        mely Fare­midóba való érkezésem s ama nap közt eltelt, amikor elmondhattam,
+				<p>Hosszadalmas volna időrendben részletezni annak a néhány hónapnak történetét,
+                        mely Faremidóba való érkezésem s ama nap közt eltelt, amikor elmondhattam,
                         hogy törve és ügyetlenül bár, de már ki tudom magam fejezni a szolaszik
                         nyelvén, s nagyjából megértettem azt, amit ők beszéltek. Különben lehet,
                         hogy ez a tanulmány maga is hosszabb időt vett igénybe, mintsem akkor
@@ -721,8 +711,8 @@
                         inkább az a sok tanulság maradt meg, amit felszedtem, s elmosódott minden,
                         ami testi életemre vonatkozott. Mintegy megérteni véltem, s tapasztaltam
                         magamon is, hogy az értelem, mely hitünk szerint a dolgok megismerésére
-                        hivatott, e munkájának legmagasabb és legbeha­tóbb fokát akkor éri el, mikor
-                        teljesen megfeledkezik önmagáról, hogy összegyűjtse és rendbe­rakja a külső
+                        hivatott, e munkájának legmagasabb és legbehatóbb fokát akkor éri el, mikor
+                        teljesen megfeledkezik önmagáról, hogy összegyűjtse és rendberakja a külső
                         világ jelenségeit. Gazdámmal, Midoréval, sokat beszéltünk erről később:
                         abból az alkalomból, hogy minden erőfeszítésemmel igyekeztem elmagyarázni
                         neki, mit értünk mi az emberi agy szó alatt, ezt a fogalmat ugyanis képtelen
@@ -730,10 +720,10 @@
                         ön testéhez hasonló romlott és felbomlott anyagokból készült (így nevezte a
                         húst és vért, e fogalmakra nem lévén szavuk), elvégezhesse az agy munkáját:
                         megértését a dolgok összefüggésének”. Midőn tévedését helyreigazítandó
-                        felvilá­gosí­tottam, hogy a mi gondolkodóink is tisztában vannak vele, hogy
+                        felvilágosítottam, hogy a mi gondolkodóink is tisztában vannak vele, hogy
                         az emberi értelem célja a világ megértése, csak hitetlenkedve rázta a fejét,
                         és megkérdezte, hogyan csinálják ezt a mi állítólagos gondolkodóink.</p>
-                    <p>Örömmel és boldogan ragadtam meg az alkalmat, hogy a távol idegenben
+				<p>Örömmel és boldogan ragadtam meg az alkalmat, hogy a távol idegenben
                         dicsőséget szerezzek emberi fajunk s főleg imádott hazám nagy
                         filozófusainak. Hamarjában négy vagy öt tudós gondolkodó művét említettem
                         fel, s röviden vázoltam ezek tartalmát. Elmondtam, hogy milyen örvendetes
@@ -749,7 +739,7 @@
                         vázoltam a filozófia mai állását, s diadalmasan jegyeztem meg a végén, hogy
                         nagyon közel vagyunk ahhoz az időhöz, mikor tudni fogjuk, mit kell érteni
                         szellemi működés alatt.</p>
-                    <p>Midore udvariasan hallgatott végig, s aztán megjegyezte, hogy mindenre
+				<p>Midore udvariasan hallgatott végig, s aztán megjegyezte, hogy mindenre
                         válaszoltam, csak arra nem, amit kérdezett. Mert hiszen, a cél szempontjából
                         egészen közönyös az az eszköz vagy műszer, amivel a célt elérjük. Mert
                         ugyebár, aki egy műszert vizsgál, nem azért teszi ezt, hogy megtudja, mire
@@ -771,7 +761,7 @@
                         állítottak fel: megtörténik ugyanis, hogy a koponya tiszta és helyesen
                         összeállított folyadéka, a szolaszi agyveleje (mint ahogy mi mondanók)
                         elromlik. Láthattam, hogy a tiszta földön sok helyen található az a romlott
-                        és bomlófélben levő anyag, amit én szerves vegyület­nek szoktam nevezni, ez
+                        és bomlófélben levő anyag, amit én szerves vegyületnek szoktam nevezni, ez
                         a romlott, mérges anyag valahogyan belekerül a szolaszi fejébe, és
                         megmérgezi a gondolkodás szervét. Ilyenkor sűrű, nyálkaszerű salak csapódik
                         le a koponya aranyfalára, és megzavarja a szemlencse tisztaságát, a kívülről
@@ -780,7 +770,7 @@
                         létre. Az ilyen beteg szolaszit onnan lehet megismerni, hogy a szeme befelé
                         fordul; zavart és lázas szavaiból kiderül, hogy a saját agyát látja a világ
                         helyett, amit látni kellene, s úgy beszél agyáról, erről az egyszerű és
-                        jelentéktelen műszerről, mely csak hasz­ná­lata révén ér valamit, mintha az
+                        jelentéktelen műszerről, mely csak használata révén ér valamit, mintha az
                         volna maga a világ. Mindenféle badar és nevetséges kijelentést tesz, azt
                         mondja például, hogy az égen zöld pettyek vannak és hogy az élet egy
                         folyadék; azon vitatkozik, hogy a tér, az tulajdonképpen idő, és hogy az
@@ -801,14 +791,14 @@
                         ilyen hangot. E szavaknál Midore utánozni próbálta ezt a beteges zörejt, és
                         legnagyobb meglepetésemre, eléggé érthetően, két, előttem ismerős szót
                         ejtett ki, ezeket: “történelmi materializmus”.</p>
-                    <p>Ezután Midore elmondta még, hogy ennek a betegségnek okát már régen ismerik,
+				<p>Ezután Midore elmondta még, hogy ennek a betegségnek okát már régen ismerik,
                         és nagyon könnyen lehet segíteni rajta - a szolaszi-gyárban kiöntik a beteg
                         egyén agyát, és bizonyos reagensekkel keverve keresztülszűrik egy bizonyos
                         vegyületen. Ez alkalommal a bomlott anyagok kiválnak, és a szem visszakapja
                         eredeti tisztaságát: - ha nagyon fertőzött már a folyadék, akkor egyszerűen
                         kiöntik, és frisset alkalmaznak.</p>
-                    <p>- Mindezt - fejezte be Midore - csak azért mondtam el, hogy bizonyítsam,
-                        mennyire meg­értettem azt, amit ön előadott; hasonló elmezavarok
+				<p>- Mindezt - fejezte be Midore - csak azért mondtam el, hogy bizonyítsam,
+                        mennyire megértettem azt, amit ön előadott; hasonló elmezavarok
                         előfordulhatnak, s elő is fordulnak. Csak az lepett meg, hogy ön az
                         emberiség legnagyobb gondolkodóinak éppen ezeket a beteg elméket nevezte
                         meg, melyek önmagukba zavarodtak. Hiszen megengedem, hogy az emberi agy,
@@ -822,7 +812,7 @@
                         emberi agyat holmi nyers üvegnek kell tekintenem, amiből nagyítóüveget
                         akarnak csinálni. Ahhoz, hogy ezt elérjük, addig kell szűrni és tisztítani
                         az üveg folyékony anyagát, míg tökéletesen átlátszó lesz, hogy rajta
-                        keresztül meg­láthassuk a megnagyítandó tárgyat. Önök azonban nem ezt
+                        keresztül megláthassuk a megnagyítandó tárgyat. Önök azonban nem ezt
                         teszik, hanem éppen ellenkezőleg, mindenféle átlátszatlan, nyers dolgot
                         raknak a folyadékba, ilyeneket, mint öntudat, önismeret, én-fogalom, hogy
                         sötétebb és tömörebb legyen, attól való félelmükben, hogy a teljesen
@@ -830,15 +820,15 @@
                         látható, mint az üveg. Holott e félelem egészen alaptalan, mert hiszen a
                         nagyítóüveg jelenlétét és tökéletességét éppen abból ismerem fel, hogy
                         tisztán és világosan láthatóvá teszi nekem a külvilágot.</p>
-                    <p>Még mielőtt ezekről szó lett volna, egy alkalommal megkérdezte tőlem Midore,
+				<p>Még mielőtt ezekről szó lett volna, egy alkalommal megkérdezte tőlem Midore,
                         honnan van az, hogy én, mint szerves, földi ember, meg tudtam tanulni az ő
                         nyelvüket. Elmondtam neki, hogy a zenét mi is ismerjük, de arról nem is
-                        álmodtunk soha, hogy zenei hangokkal konkrét gondo­latokat is ki lehessen
+                        álmodtunk soha, hogy zenei hangokkal konkrét gondolatokat is ki lehessen
                         fejezni. Arra a kérdésre, hogy mire használjuk mi a zenét, elmondtam, hogy
                         mi érzéseinket fejezzük ki zenével, és hosszasan beszéltem arról a
                         különbségről, ami nálunk az érzést és a gondolatot elválasztja
                         egymástól.</p>
-                    <p>Csodálkozott ezen, mert náluk érzés és gondolat egy lévén, nem értette, hogy
+				<p>Csodálkozott ezen, mert náluk érzés és gondolat egy lévén, nem értette, hogy
                         lehet az, hogy mi a kifejezett érzésen keresztül nem vesszük észre a
                         gondolatot is, ami ezt az érzést létrehozta és viszont. Elmondtam, hogy mi
                         is összeolvasztjuk néha ezt a két dolgot, gondolatainkat érzéssel mondva el,
@@ -853,41 +843,38 @@
                         voltam, hogy ellentmondjak e képtelen feltevésnek, de hirtelen eszembe
                         jutott a sokszor kigúnyolt és sokszor megcáfolt “szférák zenéje”, amiről a
                         középkor néhány rajongó csillagásza beszélt és elhallgattam.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>HATODIK FEJEZET</head>
-              
-                    <head>Szerző megtudja, hogy került Faremidóba. - A doszire, vagyis a világ
+			</div>
+			<div type="chapter">
+				<head>HATODIK FEJEZET</head>
+				<head>Szerző megtudja, hogy került Faremidóba. - A doszire, vagyis a világ
                         betegsége. - Szerző méltatlankodása az emberi faj nevében.</head>
-                    <p>Az első dolog, amit gazdámtól, Midorétól megkérdeztem, mihelyt egy kicsit -
+				<p>Az első dolog, amit gazdámtól, Midorétól megkérdeztem, mihelyt egy kicsit -
                         hamisan és tökéletlenül - meg tudtam értetni magam az ő nyelvükön,
                         természetesen az volt: milyen különös véletlennek köszönhetem, hogy
                         Faremidóba kerültem, hol akadtak rám, és hogy találtak meg?</p>
-                    <p>Gazdám elmondta, hogy villamos sugaraktól hajtott tüdővel (így nevezem azt a
+				<p>Gazdám elmondta, hogy villamos sugaraktól hajtott tüdővel (így nevezem azt a
                         motort, melyet törzsük felső részében viselnek) gyakran bekalandozzák a
-                        Teret, tisztább és tágabb harmó­niákat keresve, és útjokban érintik idegen
+                        Teret, tisztább és tágabb harmóniákat keresve, és útjokban érintik idegen
                         bolygók és csillagrendszerek légkörét. Az ő barátja, Szidó, egy alkalommal a
-                        Laszomi bolygó légkörét horzsolva (így nevezik a Földet), csodál­kozva
+                        Laszomi bolygó légkörét horzsolva (így nevezik a Földet), csodálkozva
                         fedezett fel a légkörben egy csaknem értelmes lénynek látszó alakot lebegni,
                         olyan magasságban, ahol az ő Laszomiról való tudomásuk szerint, semmiféle
                         anyag nem szokott jelentkezni. Megszólította, de a lény nem válaszolt.
                         Fölébe repülve, két doszirét vett észre az értelmesnek látszó lény
                         belsejében: az egyik már nem mozgott, nem volt fertőző, a másik azonban még
                         igen. A doszire formája érdekes és újszerű lévén, Szidó kiemelte a lény
-                        belsejé­ből, hogy mikroszkóp vizsgálat szempontjából elhozza Faremidóba. Ez
+                        belsejéből, hogy mikroszkóp vizsgálat szempontjából elhozza Faremidóba. Ez
                         a doszire volnék én, ugyebár, akiben sajátságos, értelmes jeleket fedeztek
                         fel, s most mint fami-doszirét, élő vagy értelmes betegséget
                         tanulmányoznak.</p>
-                    <p>A legnagyobb meglepetéssel hallgatva ezeket a szavakat, tisztelettel
+				<p>A legnagyobb meglepetéssel hallgatva ezeket a szavakat, tisztelettel
                         megkérdeztem gazdámtól, mit értenek ők doszire alatt, s mennyiben hiszik,
                         hogy én is az volnék, vagy honnan lehet fogalmuk eddig hozzám hasonló
                         lényekről, tekintve, hogy az ő lényük annyira elüt az enyémtől? Másrészt mit
                         ért az alatt, hogy fertőző, mert, ha jól vettem ki szavaiból, az ő barátja
                         tévedésből a repülőgépet nézte értelmes lénynek és engem, aki benne voltam,
                         valami egyébnek tekintett.</p>
-                    <p>Gazdám elmondta, hogy Laszomit, a Földet, ők már régen és jól ismerik,
+				<p>Gazdám elmondta, hogy Laszomit, a Földet, ők már régen és jól ismerik,
                         nagyítóüvegekkel régen és igen tüzetesen megvizsgálták felületét, és aligha
                         van ott valami, ami figyelmüket kikerülte. (Meg kell állapítanom, hogy ez
                         alkalommal színtiszta valóságot beszélt; később egyszer megmutattak nekem
@@ -901,17 +888,17 @@
                         Földön, különböző formákban és sokféle fajtát; feltehető, hogy ezek a
                         betegségokozó csírák pusztították el a földi szolaszik életlehetőségét, ez
                         valószínű is, mert mindenütt, ahol valami értelmesnek látszó lényt
-                        felfedeznek, olyat, amelyik vasból vagy acélból van, s amit villa­mos­ság
+                        felfedeznek, olyat, amelyik vasból vagy acélból van, s amit villamosság
                         vagy hő mozgat: mindig ott lebzsel benne, vagy körülötte az egész sereg
                         doszire vagyis élősdi.</p>
-                    <p>Arra a kérdésre, hogy miért tartanak engem is doszirének, gazdám mosolyogva
+				<p>Arra a kérdésre, hogy miért tartanak engem is doszirének, gazdám mosolyogva
                         utalt azokra a különös növényekre, melyek ideérkezésem napján annyira
                         megleptek, s melyeket ember formájú fáknak neveztem. Elmondta, hogy ezek a
                         fák a doszirék egyik fajtája, már régen tengődnek és élősködnek Faremidó
                         különben egészséges talajában, s megmérgezik a szolaszi-gyártáshoz való
                         egyszerű és tiszta elemeket. Különös összetétel ez, amelynek természetét az
                         ő vegyészeik még nem ismerik, csak romboló és beteges hatását; ahol egy
-                        ilyen doszire meg­jelenik, az anyag felbomlik, rossz szagú nedvek
+                        ilyen doszire megjelenik, az anyag felbomlik, rossz szagú nedvek
                         keletkeznek és formátlan viszkető daganat. A doszire szó alatt általában
                         mérget, fertőző anyagot, élősdit értenek Faremidóban; ha egy ilyen lény
                         bejut a szolaszi részei közé, ott zavart és betegséget támaszt: hála
@@ -919,17 +906,17 @@
                         segítségével, különben maga is romlandó anyag, beteg betegség, mely önmagát
                         teszi tönkre azokkal a maró és romboló anyagokkal, melyeket termel és
                         felbomlaszt. Mikor én, Gulliver, idekerültem: első dolguk volt, hogy
-                        mikroszkópon tüzete­seb­ben megvizsgáljanak, mint ahogy teleszkópon
+                        mikroszkópon tüzetesebben megvizsgáljanak, mint ahogy teleszkópon
                         tehették, mikor még a Földön éltem, és sajnálattal állapították meg, hogy
                         lényegben ugyanolyan doszire vagyok, mint amilyen elvétve az ő talajukban is
                         akad s mint amilyen oly sokféle hemzseg a Földön. A faremidói tudósok már
                         meg is állapították helyemet a betegségokozó baktériumok sorrendiében, és
-                        Szidó, akinek fel­fedeztetésemet köszönni lehet: remiszolami-szidorénak
-                        nevezett el, ami megközelítő fordítás­ban emberutánzó-bacillust jelent,
+                        Szidó, akinek felfedeztetésemet köszönni lehet: remiszolami-szidorénak
+                        nevezett el, ami megközelítő fordításban emberutánzó-bacillust jelent,
                         olyan betegségcsírát, mely mint élősdi, az élő, szervetlen lényekéhez
                         hasonló tulajdonságokat vesz fel, hogy közelebb férkőzhessen hozzájuk; így
                         hangokat is ad és fej alakú felső részében egy olyan anyagot termel, melynek
-                        váladéka, a gon­dolat, külsőleg hasonlít az ő szellemi termékeikhez. Hogy
+                        váladéka, a gondolat, külsőleg hasonlít az ő szellemi termékeikhez. Hogy
                         azonban ettől eltekintve ugyanolyan doszire vagyok, mint más, az bizonyítja,
                         hogy összetételemben semmiféle értékes anyag, fém vagy ásvány nem található,
                         s hogy ennek következtében szükségszerűen betegség, vagyis mulandó jelenség
@@ -937,12 +924,12 @@
                         önmagát megemésztő kóranyag. Különben, hogy feltevésük mennyire helyes volt,
                         azt magam is bizonyítottam azóta: megfigyelték, hogy a nap bizonyos részében
                         nyugtalanság fog el, s ilyenkor felkeresek egy ilyen faremidói doszirét, s
-                        annak néhány daganatát letépem (gyümöl­csöt értett), s felhabzsolva azt,
+                        annak néhány daganatát letépem (gyümölcsöt értett), s felhabzsolva azt,
                         elpusztítom, nyilvánvaló tehát, hogy ama másodlagos lények közé tartozom,
                         melyek rövid ideig tartó életüket úgy tarthatják csak fenn, ha elpusztítanak
                         valami önmagukhoz hasonló szervezetet, hogy aztán őket is elpusztítsa egy
                         következő generáció.</p>
-                    <p>Mindezeket gazdám egészen nyugodtan és hidegen mondta el, érdekes, hogy
+				<p>Mindezeket gazdám egészen nyugodtan és hidegen mondta el, érdekes, hogy
                         különös véletlen folytán az elzenélt szavak, eltekintve értelmüktől, oly
                         csodálatos melódiává olvadtak össze, hogy miután a “generáció” szóval, mint
                         egy elhaló akkorddal, befejezte előadását: percekig elbűvölve és szótlanul
@@ -955,7 +942,7 @@
                         mindenek fölött való szuverenitását kinyilatkozatni. Mik ezek a gépek, ezek
                         a csavarnyakú és csigafejű harapófogók és fonográfok, gondoltam magamban
                         gőgösen, az élet nagyszerű rejtélyéhez képest?</p>
-                    <p>Kértem gazdámat, hallgatna meg nyugodtan, míg néhány dologgal tisztába
+				<p>Kértem gazdámat, hallgatna meg nyugodtan, míg néhány dologgal tisztába
                         jövünk. Röviden összefoglaltam mindazt, amit e kérdésről tudok: Ádám és
                         Évával kezdtem, de mértéket tartva, igyekeztem tartózkodni a
                         hosszadalmasságtól: mindenütt a modern természettudományok útmutatása
@@ -971,7 +958,7 @@
                         magának s a levegőbe emelkedik, néha tíz lába van és sok szája, néha
                         megnöveszti nyakát, hogy a pálmák gyümölcsét elérje, néha éles ásót növeszt
                         szája elé, hogy a föld porából kitúrja magának a táplálékot. Óriási testet
-                        növeszt, hogy rengeteg utódot hozhas­son létre, néha borotvaéles fogakat,
+                        növeszt, hogy rengeteg utódot hozhasson létre, néha borotvaéles fogakat,
                         hogy védekezhessék és fenntartsa faját. Végre, hosszas kísérletezés után,
                         gondolkodóba esik az egyik forma előtt: négykezű, ráncosképű állat ez,
                         bozontos szemöldök alatt nyugtalanul forgó szemgolyók. Fejének hátsó
@@ -980,7 +967,7 @@
                         fenevad, behunyja a szemét, anélkül, hogy akarná. Ezt az állatot választja
                         ki az élet, hogy belőle tökéletest alkosson. Az ösztön szervét kell
                         fejleszteni, hogy ami eddig öntudatlan és mechanikus volt, tudatossá váljék
-                        s önmagát meg­ismerővé. Néhány ezer év s a munka sikerül, a koponya üregében
+                        s önmagát megismerővé. Néhány ezer év s a munka sikerül, a koponya üregében
                         lassan fejlődni kezd az új szerv: a Tudat szerve, mely a külső és belső
                         jelenségeket megérti, s azokhoz nem álomszerű tudatlanságban alkalmazkodik,
                         de a belátás és akarat világító fáklyája mellett. S íme, előttünk áll az
@@ -988,29 +975,26 @@
                         nyers és ostoba anyagban rejlő erőket, hogy az egyén életét minél szebbé és
                         boldogabbá tegye és ujjonghasson a kék és távoli ég s a felkelő nap
                         felé!</p>
-                    <p>Gazdám figyelmesen hallgatott végig; úgy vettem észre, hogy előadásomnak
+				<p>Gazdám figyelmesen hallgatott végig; úgy vettem észre, hogy előadásomnak
                         főleg első fele érdekelte, holott én a hatást inkább a végére készítettem
                         elő. Attól tartva, hogy talán nem értett meg jól, a részletekre akartam
                         rátérni, de ő intett, és szavaiból csodálkozva láttam utóbb, hogy a
                         legmélyrehatóbb értelemben felfogta szavaim lényegét s néhány perc alatt
                         tisztában volt az egész kérdéssel, aminek megértéséhez nekünk jó pár ezer év
                         kellett. Válaszát a következő fejezetben próbálom röviden összefoglalni.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>HETEDIK FEJEZET</head>
-               
-                    <head>A Földgolyó mint szolaszi. - A beteg világ. - Midore aggódik a Föld
+			</div>
+			<div type="chapter">
+				<head>HETEDIK FEJEZET</head>
+				<head>A Földgolyó mint szolaszi. - A beteg világ. - Midore aggódik a Föld
                         életéért. - A tudat és az ösztön, kétfejű torzszülött.</head>
-                    <p>Az a fölény és biztonság, amivel Midore, szavaimra válaszolva, az Emberiség
+				<p>Az a fölény és biztonság, amivel Midore, szavaimra válaszolva, az Emberiség
                         történetéről beszélt, csak az első szavaknál lepett meg. Csakhamar rá
                         kellett jönnöm, hogy ezt a történetet ők külső megjelenéseiből éppen oly jól
                         ismerik, mint magam, sőt, úgy látszik, még nálam is jobban. Röviden
                         szeretném összefoglalni azt a káprázatos megismerést, amit közlései
-                        kinyilat­koztattak bámuló elmémnek.</p>
-                    <p>Már említettem, hogy a szolaszik olyan nagyítószerkezetekkel rendelkeznek,
-                        amelyeknek segít­ségével néhány tízezer esztendeje a legaprólékosabb
+                        kinyilatkoztattak bámuló elmémnek.</p>
+				<p>Már említettem, hogy a szolaszik olyan nagyítószerkezetekkel rendelkeznek,
+                        amelyeknek segítségével néhány tízezer esztendeje a legaprólékosabb
                         részletekig oly módon vizsgálják bolygómnak, a Földnek életét, mint ahogy mi
                         mikroszkópjainkkal a vízcseppet vizsgáljuk. Midore szavaiból most aztán
                         ámulva tudtam meg, hogy a földbolygót ők egyszerűen egy primitív és
@@ -1025,16 +1009,16 @@
                         folyamatot, látta, hogy keletkezett a betegség, s hogyan fejlődött idáig.
                         Mivel látja, hogy engem az eset érdekel, s szavaimból azt veszi ki, hogy
                         valami halvány fogalmam is van a történtekről, szívesen elmondja nekem
-                        tapasz­talatait, mert az, hogy magam is egyszerű doszire voltam, nem zárja
+                        tapasztalatait, mert az, hogy magam is egyszerű doszire voltam, nem zárja
                         ki, hogy a dolgokat bizonyos fokig megérthessem, hiszen sikerült már az első
                         hónapokban bizonyos szervetlen anyagokat elhelyezni agyamban, amik azt máris
                         nagymértékben meggyógyították. Ez különben kísérleti kérdés, amit majd
                         később megértek.</p>
-                    <p>Azután elmondta Midore, hogy a Föld nevű szolaszit tényleg mintegy hatvanezer
+				<p>Azután elmondta Midore, hogy a Föld nevű szolaszit tényleg mintegy hatvanezer
                         éve vizsgálja ő maga, mert ez a kérdés érdekelte, és sejtette, hogy ott
                         valami baj van. A Föld szervei: hegyek, tüzek, vizek egy ideig szépen
                         fejlődtek. Egy időben aztán sajnálkozva vette észre, hogy nagy mennyiségű,
-                        egészen apró doszire támadt egyik hajlásában. (Mikor kérdezősköd­tem,
+                        egészen apró doszire támadt egyik hajlásában. (Mikor kérdezősködtem,
                         pontosan meghatározta Midore ezt a helyet, s én a Gangesz és Eufrát vidékét
                         ismertem meg szavaiból.) Valószínűleg kevés hő- és villamosság volt azon a
                         helyen. (Mert tudnom kell, hogy a hő és villamosság, fény és hang ugyanaz a
@@ -1046,7 +1030,7 @@
                         meleget, mert csakhamar felismerték mind a ketten, hogy a doszire igen
                         nyomorult és tehetetlen élősdi, akit néhány foknyi hőemelkedés, alig
                         nyolcvan-száz fok, megöl, elpusztít.</p>
-                    <p>De a Föld elhanyagolta a dolgot s az általam Életnek nevezett betegség egyre
+				<p>De a Föld elhanyagolta a dolgot s az általam Életnek nevezett betegség egyre
                         terjedt. Érdekes, hogy egyszer ő, Midore, akart rajta segíteni, s egy e
                         célra szolgáló szerkezetből sugarakat bocsátott a Föld testére, hogy
                         meggyógyítsa, a sugarak forró vizet váltottak ki a beteg testből, s ebben a
@@ -1066,7 +1050,7 @@
                         levegő után kapkodó csomójából kivált egy erősen fejlett példány, oldalt
                         futott, aztán hirtelen felkapta csápjait vagy karjait, és felfelé
                         mutogatott, arrafelé, ahonnan ő, Midore, a pusztító sugarakat bocsátotta
-                        feléjük, s ahonnan a mikrosz­kópon át lenézett rájuk. Igen, egyenesen a
+                        feléjük, s ahonnan a mikroszkópon át lenézett rájuk. Igen, egyenesen a
                         szemébe mutatott neki, Midorénak, s erre a többi is odafordult, majd
                         lerogytak a Földön s felfelé emelgetett karokkal, térdepelve kiáltoztak
                         feléje valamit. Ekkor kitört alattuk a forró víz, és ők mind elpusztultak.
@@ -1074,34 +1058,34 @@
                         pusztulásuk előtt néhány perccel, hirtelen felfelé fordítják arcukat,
                         arrafelé, ahol a szolaszik laknak, mintha onnan várnának segítséget, ahonnan
                         e pusztulás ered.</p>
-                    <p>Midore aztán megjegyezte, hogy a gyógykezelésnek ezt a módját idővel
+				<p>Midore aztán megjegyezte, hogy a gyógykezelésnek ezt a módját idővel
                         abbahagyta. Rájött ugyanis, hogy nincsen rá semmi szükség: a doszire,
                         ismétli, beteg betegség lévén, mely önmagát pusztítja annak a szervnek
                         segítségével, ami rendesen az állat felső részében, fejében székel, s amit
                         én ösztönnek neveztem. Legjobb tehát, ha bevárjuk, míg a betegség önmagától
                         lefolyik: bevárjuk, míg a doszirék elborítják az egész Földet, s testi
-                        értelemben, teljesen kifej­lődnek; ekkor, tapasztalás szerint, az ösztön
-                        szerve úgyis elvégzi a többit: a doszirék meg­támadják egymást, egymásban
+                        értelemben, teljesen kifejlődnek; ekkor, tapasztalás szerint, az ösztön
+                        szerve úgyis elvégzi a többit: a doszirék megtámadják egymást, egymásban
                         önmagukat, s megindul a pusztulás, kezdődik a betegség halála. Kiderült,
                         hogy a doszirék életüket úgy akarják fenntartani, hogy egymást megeszik,
                         százféle alakban; ebből nyilvánvaló, hogy az egész dolog nem tarthat soká,
                         valamint el kell pusztulnia minden szerkezetnek, mely az életéhez szükséges
-                        anyagot nem kívülről, egy nem hozzá hason­ló világból veszi s alakítja át
+                        anyagot nem kívülről, egy nem hozzá hasonló világból veszi s alakítja át
                         céljainak, hanem belülről, önmagában emészti fel, újra és újra. Csónakot,
                         ugye, nem lehet belülről előremozgatni, csak ha kívül, evezők segítségével,
-                        meg­kapasz­kodom a vízben, az élet csónaka is megáll, ha nincs hozzá evező,
+                        megkapaszkodom a vízben, az élet csónaka is megáll, ha nincs hozzá evező,
                         ami a valódi létbe ereszti gyökerét. Más szóval: Midore aggodalma, hogy az
                         élősdi doszirék a szegény Földet pusztítják el, eszik meg s így
                         diadalmaskodnak rajta, túlzottnak bizonyult: a doszirék éppen csak arra
                         használták a Földet, hogy kibújjanak belőle, s aztán, hála az ösztön
                         szervének, egymásnak estek.</p>
-                    <p>Így hát egészen nyugodt volt szenvedő szolaszi-társának, a Földnek sorsában;
+				<p>Így hát egészen nyugodt volt szenvedő szolaszi-társának, a Földnek sorsában;
                         előre tudta, hogy a doszirék, bárhogy ellepik is testét egy ideig,
                         bizonyosan elpusztulnak a végén, s a Föld meggyógyul. Igaz - ezt be kell
                         vallania -, hogy volt egy idő, amikor komolyan megrémült, s azt hitte, a
                         betegség komoly és végzetes fordulatot vesz: abban az időben lehetett ez,
                         mikor az én szavaim szerint az általam embernek nevezett doszire agyában
-                        hirtelen új szerv indult fejlődés­nek, az a szerv, amit én a tudat szervének
+                        hirtelen új szerv indult fejlődésnek, az a szerv, amit én a tudat szervének
                         neveztem. Ez a szerv valóban veszélyes lehetett volna a Földre, mert
                         segítségével az ember nevű doszire rájött, hogy az életbenmaradás módja nem
                         az, hogy az élet önmagát pusztítsa, hanem az, hogy az élethez szükséges
@@ -1110,11 +1094,11 @@
                         fejlődésnek, az ösztön szervén belül: félni lehetett, hogy teljesen
                         kifejlődik, elnyomja és fölöslegessé téve, végleg kiszorítja az ösztön
                         szervét, annak helyébe lép, megismeri a lét lényegét s megértvén a szerves
-                        test tökéletlenségét, romlandósá­gát, a szolaszi szervetlen, maradandó,
-                        pusztulásnak ki nem tett anyagával, arannyal és ásvá­nyokkal pótolja azt, s
+                        test tökéletlenségét, romlandóságát, a szolaszi szervetlen, maradandó,
+                        pusztulásnak ki nem tett anyagával, arannyal és ásványokkal pótolja azt, s
                         végre legyőzi a halált, más szóval megszűnik betegség, azaz mulandó jelenség
                         lenni.</p>
-                    <p>Ettől komolyan tartani kellett: a tudat segítségével megindult ez a munka,
+				<p>Ettől komolyan tartani kellett: a tudat segítségével megindult ez a munka,
                         fúrni, faragni kezdték a Földet: annak vérét, hőt és villamosságot használni
                         kezdték, s a doszire egyre erősödött. Lám, a kemény anyagból már szárnyakat
                         is tudott csinálni magának végül, úgyhogy veszedelmesen kezdett hasonlítani,
@@ -1141,62 +1125,59 @@
                         épít, a másik rombol; az egyik megkapaszkodik, hogy ne ragadja el a vihar, a
                         másik eltépi a horgony kötelét; az egyik befedi a testét, hogy meg ne
                         fagyjon, a másik föltakarja!”</p>
-                    <p>Midore e szavaknál különös, ovális alakú tárgyat tett elém, üveg alatt
+				<p>Midore e szavaknál különös, ovális alakú tárgyat tett elém, üveg alatt
                         zöldeslila fény villant fel. A fényen keresztül először csak valami felhős
-                        derengést láttam, aztán egy tág, mély mezőt pillan­tottam meg, végtelen
+                        derengést láttam, aztán egy tág, mély mezőt pillantottam meg, végtelen
                         távolságban, de tisztán és világosan. Percek teltek el, míg
-                        megis­mer­hettem: a Balti-tenger volt, ahonnan hidroplánon indultam el egy
+                        megismerhettem: a Balti-tenger volt, ahonnan hidroplánon indultam el egy
                         éve. Angol és német hajókat láttam, ütközet folyt. A magasból a tenger
                         fenekéig láthattam: éppen egy nagy hajónk süllyedt el, torpedótól találva,
                         lassan tűnt el a zöld szőnyeg mögött, és ringatózva, csendben szállott alá,
                         mint valami nehéz buborék, aztán eltűnt a csillogó fövenyen.</p>
-                    <p> </p>
-                
-            </div>
-            <div type="chapter">
-                <head>NYOLCADIK FEJEZET</head>
-                
-                    <head>Szerző mentegeti magát, amiért nagyjelentőségű útjából csak vázlatszerű
+			</div>
+			<div type="chapter">
+				<head>NYOLCADIK FEJEZET</head>
+				<head>Szerző mentegeti magát, amiért nagyjelentőségű útjából csak vázlatszerű
                         képet adhatott. - Gazdája felviszi a szerzőt egy hegyre, ahol csodálatos
                         megismerések döbbentik meg a szerzőt. - Szerző visszatér hazájába, és
                         családját jó egészségben találja.</head>
-                    <p>Köteteket tölthettem volna meg és száz zeneművet írhattam volna arról, amit
+				<p>Köteteket tölthettem volna meg és száz zeneművet írhattam volna arról, amit
                         Faremidóban tanultam, de csak egy rövid vázlat lett belőle, amihez aligha
-                        nyúlok már hozzá. Azt a tanul­ságot, amit ott szélben és viharban, a hő és
+                        nyúlok már hozzá. Azt a tanulságot, amit ott szélben és viharban, a hő és
                         villamosság testetlen zenéjében felfogtam, végleges igazságában el nem
                         magyarázhatom itt a Földön, mert amaz egyetlen nyelv, amelyen
-                        kifejez­hetném, nálunk idegen és érthetetlen dadogás csak, amit úgy
+                        kifejezhetném, nálunk idegen és érthetetlen dadogás csak, amit úgy
                         nevezünk: a zene misztikuma, s ami alatt olyasvalamit s annyit sejtünk csak,
                         mint az alvó azoknak beszédjéből, akik ágya mellett állanak. Maradjon hát
                         faremidói utazásom emléke szavakban elmondva, egy zavaros és kusza töredék,
                         szerény jelecske, kormos csillagszilánk a múzeumban, hirdetni annak, aki el
                         meri hinni, hogy volt ember, aki járt ama csillag partjain.</p>
-                    <p>Néhány szóval, inkább magamnak, hadd jegyzem hát le utolsó napomat
+				<p>Néhány szóval, inkább magamnak, hadd jegyzem hát le utolsó napomat
                         Faremidóban, s hogyan kerültem vissza a Földre.</p>
-                    <p>Egy napon gazdám, Midore, magas hegyre vitt fel magával, s leültetett maga
+				<p>Egy napon gazdám, Midore, magas hegyre vitt fel magával, s leültetett maga
                         mellé. Bárhová néztem, végtelen tenger terült el a messzeségben: tenger,
                         aminek nincs horizontja, hanem körös-körül az égbe olvad el, mintha ama
                         hegy, amelyen ültünk, a végtelen térből, emelkedne ki egymagában.</p>
-                    <p>Ekkor, ott ülve gazdám mellett, ismét éreztem azt, amit először, mikor
+				<p>Ekkor, ott ülve gazdám mellett, ismét éreztem azt, amit először, mikor
                         Faremidó földjén megpillantottam őt: a végtelen Szépség gyönyörét, azt, amit
                         művész érez, midőn szerelmesét, a húsból és vérből valót, húsnál és vérnél
                         maradandóbb s az ő szépségéhez méltóbb márványba faragja. Ekkor különös, nem
                         kínzó, inkább jóleső szomorúság fogott el. Végiggondoltam mindazt, amit
                         nekem a Szerves Életről mint betegségről Midore elmondott, s többé nem
                         akartam vitázni vele. Eszembe jutott a nyomorúságnak, szenvedésnek,
-                        betegségnek, gyilkolás­nak, halálhörgésnek és halálnak, vérnek és
+                        betegségnek, gyilkolásnak, halálhörgésnek és halálnak, vérnek és
                         sziszegésnek, rémületnek és homálynak, bujkálásnak és hazugságnak,
                         ellentmondó és baljós vágyaknak az a zűrzavaros, képtelen panorámája, amit
                         az Élet történetének nevezett nálunk minden tudomány. S ha mindezek után
                         Midore arcába néztem, mely a mi földi tudásunk szerint halott és élettelen
-                        anyagból, aranyból és hideg kövek­ből volt s amelyből, íme, a legszebb
+                        anyagból, aranyból és hideg kövekből volt s amelyből, íme, a legszebb
                         ritmus, a legcélszerűbb mozgás, a legragyogóbb fény, a legtisztább meleg, a
                         legédesebb hang sugárzott felém: világosan éreznem kellett, hogy én
                         tévedtem, s velem együtt az egész emberi értelem. Ekkor zokogni kezdtem s
-                        dadogva és hebeg­ve mondtam el kétségeimet és megtérésemet Midorénak, térden
+                        dadogva és hebegve mondtam el kétségeimet és megtérésemet Midorénak, térden
                         állva könyörögtem neki, hogy váltson meg értéktelen és ostoba életemtől,
                         mely csak betegség és teher, másoknak és magamnak.</p>
-                    <p>Kétségbeesetten kiáltoztam, hogy nem akarok hasonlóvá válni azokhoz a
+				<p>Kétségbeesetten kiáltoztam, hogy nem akarok hasonlóvá válni azokhoz a
                         fájdalmas, kiszikkadt fákhoz, itt az országútja mentén, midőn majd elpusztul
                         a beteg élet a földön, s átveszi uralmát a Lét igazi törvénye: a hő és erő,
                         delej és fény. Emlékeztettem rá, hogy hiszen az én nyomorult és beteg testem
@@ -1209,7 +1190,7 @@
                         ők mindent tudnak, és mindent értenek: sok millió éve élnek immár, s a
                         természetnek nincs titka többé előttük), s nem kell meghalnom kínok
                         kínjával, büntetésül azért, hogy a világra jöttem.</p>
-                    <p>Midore mosolygott, s az ő jóságos és nyugodt modorában figyelmeztetett, hogy
+				<p>Midore mosolygott, s az ő jóságos és nyugodt modorában figyelmeztetett, hogy
                         milyen hibásan fejeztem ki magam, midőn arról beszéltem, hogy ők a természet
                         minden titkát megfejtették. A szolaszinak erre nincsen szüksége, mert a
                         szolaszi maga a természet titka, a szolaszi maga a természet. Az igazság az,
@@ -1218,7 +1199,7 @@
                         nem az én gőzölgő, vértől hajtott s minden rothadásra és pusztulásra
                         megérett agyamra. Ami abbeli kívánságomat illeti, hogy testemet gyógyítsa
                         meg s használja fel valamire: ez a kívánság nagyon logikus és helyes, s azt
-                        látja belőle, hogy kezdek sejteni valamit a Lét lényegéből. Lehet­ne is
+                        látja belőle, hogy kezdek sejteni valamit a Lét lényegéből. Lehetne is
                         beszélni a dologról, hiszen egyszerű kémiai folyamatról volna szó;
                         reagenseket kellene alkalmazni, szűrőket és izzasztókályhákat, melyekben az
                         oxidáció folyamatba lép. Csakhogy az én testem mai formájában még nem érett
@@ -1228,23 +1209,23 @@
                         kell majd szenvednem miatta. Hogy ez a folyamat most milyen zavarokkal és
                         kínokkal járna, azt hamarosan bebizonyíthatja nekem: van nála egy folyadék,
                         amit, ha nyúltagyamba injektál, néhány percre kevéssé megtisztul az
-                        értelmem, s érzékszerveim valamivel világo­sabban fogják fel a
+                        értelmem, s érzékszerveim valamivel világosabban fogják fel a
                         tüneményeket.</p>
-                    <p>Midore üvegfecskendőt vett elő, s megszúrta a nyakamat, éreztem, amint a
+				<p>Midore üvegfecskendőt vett elő, s megszúrta a nyakamat, éreztem, amint a
                         hűvös folyadék ereimbe nyomul. Néhány pillanatra elsötétült előttem a világ,
                         egyre hangosabb és diadalmasabb muzsikára ébredtem aztán. Amit e pár perc
                         alatt érzésekben átéltem, arról igazán nagyon zavaros képet tudok csak adni,
                         szavakban: Sokféle, egymástól élesen különböző s mégis egymásba folyó
                         hangszer muzsikája volt ez; Midore aztán meg is mutatta nekem a
-                        hangsze­reket, egyenként, és én e néhány perc alatt láttam is azt, amit
+                        hangszereket, egyenként, és én e néhány perc alatt láttam is azt, amit
                         látni emberi szemnek eddig még meg nem adatott. A hőt láttam, amint színes
                         és hullámzó patakban körülfolyt, s elborította testemet: a fényt láttam,
                         amint ugrálva közeledett, egyik tárgyról a másikra; a vonzást láttam, amint
                         csápokat és hegyeket lövelltek magukból a testek, tapogatták, megfogták
                         egymást, megindultak egymás felé. De mindennél fontosabb volt, amit akkor
-                        érzésemen keresztül meg­értettem: hogy mindez, amit most szememmel láttam,
+                        érzésemen keresztül megértettem: hogy mindez, amit most szememmel láttam,
                         bennem élt eddig is, bennem és minden emberben, évezredeken át, hogy ez a
-                        kézzelfogható és egyszerű világ volt az, amit kifejezhe­tetlennek és
+                        kézzelfogható és egyszerű világ volt az, amit kifejezhetetlennek és
                         Földöntúlinak és Emberfölöttinek neveztünk, holott bennünk volt és
                         körülöttünk, csak érzékeink, a tompa és tökéletlen műszerek nem adtak képet
                         róla a mi elménknek. Mint aki a sötétben tapogatózott, s meglátván a napot,
@@ -1258,18 +1239,18 @@
                         ébredtem fel, mert egy hideg és nedves és idegen kéz fogta a karomat, s
                         mikor odafutottak hozzám, nevetve csitítottak el, és mutatták, hogy az én
                         kezem volt az, amelyre álmomban ráfeküdtem és elzsibbasztottam.</p>
-                    <p>S hogy mindezt ekként felfogtam, nagy zavar és nyugtalanság keletkezett a
+				<p>S hogy mindezt ekként felfogtam, nagy zavar és nyugtalanság keletkezett a
                         szívemben, s hangosan kiáltoztam: “de hát miért? miért?” így kiáltottam
                         “miért kellett ennek így történnie, miért nem értettük meg mindjárt a
                         szféráknak ezt a világos és egyszerű szavát?” De senki sem válaszolt, s a
                         bűvös folyadék hatása lassan oszlani kezdett, egyre halkult körülöttem az
                         elemek muzsikája, és szemem elé homályos ködfátyol függönye ereszkedett.</p>
-                    <p>Ekkor igazat adtam Midorénak, hogy testem és elmém még nem elég érett arra,
+				<p>Ekkor igazat adtam Midorénak, hogy testem és elmém még nem elég érett arra,
                         hogy fájdalom s szomorúság nélkül tudjak megválni tőlük, egy jobb cél,
                         tisztább harmónia érdekében. Megkérdeztem tőle, mit tegyek hát, s ő azt
                         ajánlotta, térjek vissza a földre, s éljem az emberek életét addig, míg
                         alkalmasnak ítélnek idefent arra, hogy az említett kémiai folyamatnak
-                        alá­ves­se­nek. Ígérte, hogy addig, amíg a Földön leszek, nagyszerű
+                        alávessenek. Ígérte, hogy addig, amíg a Földön leszek, nagyszerű
                         műszereik segítségével állandóan figyelni fognak, szolgáljon ez
                         megnyugtatásomul, ha azok után, amiket itt láttam, elcsüggedek majd. Ezt
                         azért tette hozzá Midore, mert szorongva és kishitűen panaszkodtam neki,
@@ -1277,7 +1258,7 @@
                         doszirét, amit az ő műszereiken át szemlélve, annyira megutáltam. Arra a
                         kérdésre, hogy hazautazásom hogyan történjék, gazdám mosolygott, s azt
                         mondta, hogy ezt teljesen rábízhatom.</p>
-                    <p>Aznap fájó szívvel s reménytelen bánattal lelkemben, elbúcsúztam azoktól a
+				<p>Aznap fájó szívvel s reménytelen bánattal lelkemben, elbúcsúztam azoktól a
                         szolasziktól, akiket megismerni szerencsém lehetett. Gazdám egy gép hátára
                         ültetett, s valami port adott be nekem, hogy elaludjak s ne érezzem a hosszú
                         út fáradalmait. Mikor mély álmomból magamhoz tértem, sziklás parton feküdtem
@@ -1285,18 +1266,18 @@
                         ismét a Földön vagyok s a Faremidóban eltöltött idő emléke mint egy távoli,
                         gyönyörű álom lebegett az időben és a térben. A kemény porba hajtottam
                         fejemet, és keservesen sírtam.</p>
-                    <p>Ugyanaznap este egy norvég paraszt akadt rám: megtudtam, hogy Helsingforshoz
+				<p>Ugyanaznap este egy norvég paraszt akadt rám: megtudtam, hogy Helsingforshoz
                         közel, semleges területen vagyok, s nem kell tartanom semmitől, míg a
                         határig érek; hogy onnan útlevéllel eljutok-e hazámba, az nagyon kétséges,
                         mert Hollandia semlegességét rossz szemmel nézi a Németországgal hadban álló
                         Anglia.</p>
-                    <p>A paraszt nagyon csodálkozott azon, hogy engem egy cseppet sem érdekelt,
+				<p>A paraszt nagyon csodálkozott azon, hogy engem egy cseppet sem érdekelt,
                         vajon a másfél év alatt hová fejlődött a világháború, mekkora területeket
                         foglaltak el egymástól az ellenfelek, hány embert vesztettek, hányat fűztek
                         rabszíjra, hány pusztult el járványos betegségben, hány repülőgépet lőttek
                         le, hány várost bombáztak, hány hadvezért tüntettek ki, és hányat
-                        moz­dítottak el állásából.</p>
-                    <p>Nem untatom az olvasót hazatérésem részleteivel, azzal se, milyen nehezen
+                        mozdítottak el állásából.</p>
+				<p>Nem untatom az olvasót hazatérésem részleteivel, azzal se, milyen nehezen
                         szoktam hozzá a doszirékkal való érintkezés rám nézve tűrhetetlen formáihoz.
                         Eleinte bolondnak néztek rémült és ijedező visszahőköléseim miatt, amivel
                         felém nyújtott kezek, vagy testemhez közeledő élőlények elől védekeztem, az
@@ -1309,12 +1290,11 @@
                         nézek néha a kék ég felé, és az ő jóságos, meleg szemében, amit az emberek
                         Napnak neveznek, néha mintha biztatást olvasnék, mely csak nekem szól: hogy
                         még emlékszik rám, és nem fog megfeledkezni rólam.</p>
-                    <p>Faremidói utam, földi mértékkel mérve, összesen közel másfél évig tartott:
+				<p>Faremidói utam, földi mértékkel mérve, összesen közel másfél évig tartott:
                         1916. január tizennyolcadikán szálltam le Helsingforsba és két hét múlva,
                         február másodikán értem Redriffbe, ahol nőmet és gyermekeimet jó egészségben
                         találtam.</p>
-                
-            </div>
-        </body>
-    </text>
+			</div>
+		</body>
+	</text>
 </TEI>

@@ -1,94 +1,92 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HU08571" xml:lang="hu">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Muzsikáló óra</title>
-            <author ref="viaf:73382097">Szomaházy István (1864-1925)</author>
-            <respStmt>
-               <resp>ELTeC conversion</resp>
-               <name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/>
-               </name>
-               <name>Fellegi Zsófia</name>
-               <name>Vétek Bence</name>
-               <name>Bajzát Tímea Borbála</name>
-            </respStmt>
-         </titleStmt>
-         <extent>
-            <measure unit="words">30931</measure>
-            <measure unit="pages">67</measure>
-            <measure unit="vols">1</measure>
-         </extent>
-         <publicationStmt>
-            <p>Published as part of ELTeC</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl type="digitalSource">
-               <title>Muzsikáló óra</title>
-               <date>2010-08-19</date>
-               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="http://mek.oszk.hu/08500/08571"/>
-               <respStmt>
-                  <resp>Original Electronic Edition</resp>
-                  <name>Varjú Mária</name>
-              
-                  <name>Kindlevarázs </name>
-               </respStmt>
-          
-                  <bibl type="digitalSource">
-                     <title>Muzsikáló óra</title>
-                     <date>2010-08-19</date>
-                     <ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
-                  </bibl>
-         
-                  <bibl type="printSource">
-                     <title>Muzsikáló óra</title>
-                     <author>Szomaházy István</author>
-                     <pubPlace>Budapest</pubPlace>
-                     <author>Singer és Wolfner</author>
-                     <date>1922</date>
-                     <ref target="http://mek.oszk.hu/08500/08571/08571.pdf"/>
-                  </bibl>
-               
-            </bibl>
-            <bibl type="firstEdition">
-               <title>Muzsikáló óra</title>
-               <author>Szomaházy István</author>
-               <date>1916</date>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc n="eltec-0">
-         <p/>
-      </encodingDesc>
-      <profileDesc>
-         <langUsage>
-            <language ident="hu">Hungarian</language>
-         </langUsage>
-         <textDesc>
-            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
-            <size xmlns="http://distantreading.net/eltec/ns" key="short"/>
-            <canonicity xmlns="http://distantreading.net/eltec/ns" key="low"/>
-            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
-         </textDesc>
-      </profileDesc>
-      <revisionDesc>
-         <change when="2020-07-23"/>
-         <change when="2020-11-12"/>
-      </revisionDesc>
-   </teiHeader>
-  <text>
-      <body>
+<TEI xml:id="HU08571" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Muzsikáló óra</title>
+				<author ref="viaf:73382097">Szomaházy István (1864-1925)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">30931</measure>
+				<measure unit="pages">67</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Muzsikáló óra</title>
+					<date>2010-08-19</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/08500/08571"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Varjú Mária</name>
+						<name>Kindlevarázs </name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Muzsikáló óra</title>
+						<date>2010-08-19</date>
+						<ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Muzsikáló óra</title>
+						<author>Szomaházy István</author>
+						<pubPlace>Budapest</pubPlace>
+						<author>Singer és Wolfner</author>
+						<date>1922</date>
+						<ref target="http://mek.oszk.hu/08500/08571/08571.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Muzsikáló óra</title>
+					<author>Szomaházy István</author>
+					<date>1916</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-23"/>
+			<change when="2020-11-12"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
 			<div type="chapter">
-            <head>
+				<head>
                Takácsy János fiai.
             </head>
-            <p>
+				<p>
                A fűszerüzlet fölött, széles kőtalapzaton, egy kékre festett elefánt
                   trónolt.
             </p>
-            <p>
+				<p>
                Mikor került oda? Ki volt a szobrász, akinek agyában a fantasztikus
                   állat megszületett? Mit jelképezett a sötét bolt fölött, melynek áruit még a
                   legrugalmasabb logika se tudta volna össz
@@ -96,7 +94,7 @@
                   volna valaki a kisváros lakói közül, akik ősidők óta megszokott háziállatjaik közé
                   sorozták a fűszerüzlet kék elefántját.
             </p>
-            <p>
+				<p>
                A bolt, mely fölött a furcsa állat trónolt, sötét, boltozatos és
                 hosszú volt s nehéz, fűszeres illatok áramlottak ki belőle a szürke
                   templomtér házai közé. A sáfrány, a petroleum, a fejetlen halak, a kövér
@@ -108,14 +106,12 @@
                   óta csak tétova vonások jelezték, hogy az üzlet a Takácsy János fiai-nak
                   tulajdona, hogy fűszer- és gy
                armatárukat árusítanak benne s hogy a
-               
                   Déli Csillag
-               
                 című német biztosító-társaság főügynöksége is e tiszteletreméltó
                   helyiségekben székel. A kék elefánt az ósdi erkölcsök, az üzleti szolidság, a
                   polgári jólét szimbolumakép állt a kisvárosiak köztudatában.
             </p>
-            <p>
+				<p>
                Ta
                kácsy János, aki az üzletet hasonnevü apjától örökölte, rég meghalt,
                   de emléke még most is ott lebegett az alacsony házak fölött, melyek a dunántúli
@@ -134,9 +130,7 @@
                   ételek kerültek mindennap az asztalra, az ebédet az üzlet pultján, a vacsorát az
                   üvegajtó mögött lévő ebédlőben tálalták föl s este kilenckor, mikor az öreg
                   muzsikáló óra a
-               
                   Havasi lány
-               
                 cí
                mű opera gavotte-ját eljátszotta, könyörtelenül eloltottak minden
                   lámpát, mert Takácsy János bűnös léhaságnak minősítette a céltalan esti
@@ -150,7 +144,7 @@
                   melyben az edényeket elmosta. Féltízkor azonban a konyha petroleumlámpája is
                   követte előkelőbb társai példáját.
             </p>
-            <p>
+				<p>
                Igy élt késő aggságáig a szigorú vén ember s gyermekeit, akikkel az
                   ég megáldot
                ta, szintén a maga és az öreg ház képére formálta. A két fiú sohase
@@ -170,7 +164,7 @@
                   Takácsy János ilyenkor helyeslőleg bólintott s a tizenkét krajcárt gyümölcsözőleg
                   elhelyezte a Takarékpénztárban, amelynek ügyvezető igazgatója volt.
             </p>
-            <p>
+				<p>
                Az öreg Takácsy János szelleme mikor a
                 Kék elefánt gazdája végre beköltözött a sírboltba, melyet aggodalmas
                   gonddal építtetett (önmaga ellenőrizte naponként a kőmivesek munkáját), még sokáig
@@ -190,7 +184,7 @@
                   éjjelenként rohant vissza a Templom-utcába, hogy régi házatája fölött szemlét
                   tartson.
             </p>
-            <p>
+				<p>
                Az aszaltszilva-formáju kis öregasszony azonban nem sokáig
                   özvegyeskedett a csöndes tanyán, hanem egy tavaszi reggel örökre búcsút mondott
                   rézedényeinek s engedelmesen odafeküdt az ura mellé, ahogy öt
@@ -223,7 +217,7 @@
                   muzsikaszó mellett töltötte el az éjszakát s a vén elefánt riadtan nyitotta föl
                   apró kőszemeit, mikor dülöngélő kis gazdáját a kövezeten megpillantotta.
             </p>
-            <p>
+				<p>
                A két fiú életútja - bár látszólag egy
                 ösvényen haladtak - e perctől fogva végképen elkanyarodott
                   egymástól: Mihály hajnaltól napestig a Kék elefánt-ot szolgálta, nehézkes lábaival
@@ -238,19 +232,17 @@
                be a héring- és kocsikenőcs-szag bevette magát. És este, zárás után,
                   a fiatalabb örökös mind ritkábban jelent meg a családi asztalnál; zsakettben,
                   selyemnyakkendősen vacsorált az
-               
                   Arany korona
-               
                 éttermében, a kisváros előkelő fiatalsága közt, mely aranyvignettás
                   palackok mellett virrasztotta át az éjszakákat s hajnaltájt éjjeli zenével
                   riasztotta föl álmukból a divatban lévő kisasszonyokat.
             </p>
-            <p>
+				<p>
                - Nem gondolod, hogy botrányos életmódot folytatsz, öcsém? - kérdezte
                   néha a becsületes Mihály, aki otromba bőrujjasában már akárhányszor ott állt az
                   üzlet előtt, mikor Viktor a mulatozásból hazatért.
             </p>
-            <p>
+				<p>
                Viktor vállat vont és fütyörészve sietett föl a keskeny falépcsőn,
                   mely ötven éven át az édesapja kemény lépteitől visszhangzott. És délfelé ha nehéz
                   álmából felébredt, míg Mihály, ceruzával a füle mögött, sietve kanalazta levesét a
@@ -262,76 +254,76 @@
                   Viktor gúnyosan lóbálta sovány lábszárait s impertinensül fújta cigarettája
                   füstjét a bátyja arcába.
             </p>
-            <p>
+				<p>
                - Huszonöt éven át úgy kellett élnem, mint egy árvaházi növendéknek,
                   - most már élvezni akarom az életemet és a vagyonomat. Csak azt költöm, ami jog
                   szerint engem illet, - és ha kifogásod van ellene, hát akár azonnal elválhatunk
                   egymástól.
             </p>
-            <p>
+				<p>
                Mihály, aki rettegett attól, hogy a vagyont kétfelé osszák s aki
                   testestül-lelkestül kereskedő volt, mint az édesapja, szó nélkül visszatért
                   ilyenkor a ládái közé, Viktor pedig, ezüstbotját lóbálva, sétált végig a
                   járókelőktől népes piaci korzón.
             </p>
-            <p>
+				<p>
                Igy érkezett el az a nap, mikor Viktor, egy vasárnap délelőtt,
                   váratlanul bekopogtatott az emeleti oduba, mely Mi
                hálynak a hálószobája, a szalonja és a fogadóterme volt.
             </p>
-            <p>
+				<p>
                - Ráérsz? Nem zavarlak? Van egy félórád a számomra? - kérdezte öreges
                   testvérétől, aki éppen a heti borotválkozásához készülődött.
             </p>
-            <p>
+				<p>
                Mihály csodálkozva bólintott, mire Viktor, kissé húzódozva, helyet
                   foglalt egy öreg ripszkarosszékben, melyben néhai édesapja az ujságot olvasni
                   szokta.
             </p>
-            <p>
+				<p>
                - Mihály, nagy ujság van, - és illőnek tartom, hogy te veled közöljem
                   először. Feleségül veszek egy drága kis leányt, akivel kölcsönösen szeretjük
                   egymást. Van tisztesség
                es fekete kabátod, hogy az eljegyzésre eljöhess?
             </p>
-            <p>
+				<p>
                Mihály, nagy meglepetésében, borotvájával majdnem lenyisszantotta a
                   füle cimpáját.
             </p>
-            <p>
+				<p>
                - Megházasodol? - kérdezte oly ijedtséggel, mintha az öccse arról
                   értesítette volna, hogy őrnek áll be a középkori Zsigmond-
                toronyba.
             </p>
-            <p>
+				<p>
                Viktor nevetve bólintott:
             </p>
-            <p>
+				<p>
                - Mi ebben a csodálnivaló, jámbor bátyám? Huszonhatéves vagyok, tehát
                   megértem arra, hogy egy asszonnyal háborúságba keveredjem, Istennek hála, a tejbe
                   is van mit apritanom, nem is szólva arról, hogy a jövendőbelim se sz
                egény leány.
             </p>
-            <p>
+				<p>
                - És kit akarsz feleségül venni?
             </p>
-            <p>
+				<p>
                Viktor belenyúlt a tárcájába és egy kicsike, sápadt fényképet szedett
                   elő a temérdek írás közül.
             </p>
-            <p>
+				<p>
                - Ismered? - kérdezte mosolyogva, de valami hányiveti büszkeséggel,
                   miközben a szép leányarcot gyengéden végigsimogatta a szemével.
             </p>
-            <p>
+				<p>
                Mihály ránézett a képre s az arca szinte téglaszínűvé vált
                   meglepetésében.
             </p>
-            <p>
+				<p>
                - Mici, Putnoky Mici a menyasszonyod? - kiáltott föl elképedve,
                   miközben újra csöpp híjja volt, hogy a füléből egy jó darabot lekanyarítson.
             </p>
-            <p>
+				<p>
                Mici gazdag árvalány
                volt, közeli rokonuk a Takácsyaknak, aki ötéves kora óta az
                   angolkisasszonyok kolostorában nevelkedett s vasárnap délutánonként habos
@@ -341,11 +333,11 @@
                érek szabadságot adtak neki, Viktor volt a kisérő lovagja az
                   elcsendesült kisvárosi utcákon.
             </p>
-            <p>
+				<p>
                - És Mici feleségül megy hozzád? Már nyilatkozott, hogy hajlandó
                   hozzád feleségül menni? - kérdezte még mindig elhülve Takácsy Mihály.
             </p>
-            <p>
+				<p>
                - Ugy van, a kisleány kész e
                rre a hőstettre, nem hiába, hogy már gyerekkorában is egyedül mert
                   aludni a legsötétebb szobájukban. Az ilyen tizennyolcéves fruskák egyáltalában
@@ -353,35 +345,32 @@
                   egy ilyen korhelyhez feles
                égül menjen?
             </p>
-            <p>
+				<p>
                Mihály nem szólt, hanem csöndesen tovább folytatta a borotválkozást.
                   Nem mondta meg, hogy mit gondol, de később megkérdezte az öccsétől:
             </p>
-            <p>
+				<p>
                - És mikor lesz az eljegyzésed?
             </p>
-            <p>
+				<p>
                - Szombat este és melegen ajánlom, hogy benzineztesd ki addig
                   tisztességesen a szalonkabátodat. Vagy ha nem sajnálod a pénzt, hát csináltass egy
                   új kabátot az öreg Novotnynál, - utóvégre nincs kizárva, hogy még a magad
                   eljegyzésén is hasznát veszed.
             </p>
-            <p>
+				<p>
                Mihály - isten csodája - új kabátot csináltatott s szombat este már a
                   Novotny bácsi remekében vett részt a fiatalok eljegyzési ünnepén. Hat
                héttel később megvolt az esküvő is s a komoly kis szőke nő
                   beköltözött az apró, emeleti ablakok mögé, melyek előtt a kőből faragott kék
                   elefánt posztolt.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Micike beköltözik a sárga házba.
             </head>
-            <p>
+				<p>
                A néhai Putnoky, Takácsyné testvéröcscse, jószágkormányzója volt
                   az
                öreg püspök őméltóságának s a töpörödött, szentéletű kis főpap még
@@ -398,12 +387,12 @@
                   szőke Putnoky, aki néha szimatolva, felhúzott orral nézett körül a sógora
                   fűszeresboltjában.
             </p>
-            <p>
+				<p>
                - Tengeri rákot még mindig nem tartasz? - kérdezte a megbotránkozott,
                   öreg Takácsy Jánost, aki minden garast a fogához vert és egy héringet is sajnált
                   volna elfogyasztani, mivel ebben is oktalan pénzfecsérlést látott.
             </p>
-            <p>
+				<p>
                A kék elefánt azonban, jó üzletember létére, nem adott hangosan
                   kifejezést érzelmeinek; sőt: rákot, pástétomot és déligyümölcsöt is készséggel
                   rendelt pazarló sógora számára, aki a pénzt csak haszontalan lim-lomnak
@@ -414,18 +403,18 @@
                yalánkságokban s legföljebb otthon, vetkőzés közben, szólt a
                   feleségéhez:
             </p>
-            <p>
+				<p>
                - Az öcséd a szegények házában fog meghalni, - ez épp oly bizonyos,
                   mint a kétszer kettő négy. Magunk közt szólva, nem is hiszem, hogy valamennyi
                   kereke együtt van...
             </p>
-            <p>
+				<p>
                A jóslat nem vált be, mert Putnokyt, rövid életében, szinte üldözte a
                   szerencse. A püspöknél annyi pénzt keresett, amennyi csak jól esett neki, a
                   kártyában minden partnerét kifosztotta s akármennyi nagy bankót dobott is ki az
                   ajtón, valamennyi visszatért hozzá az ablakon keresztül.
             </p>
-            <p>
+				<p>
                Micike, a család egyetlen kislánya, ebben a vídám és könnyelmű
                   környezetben töltötte a gyermekéveit, francia kisasszonnyal, kis hercegnőnek
                   kiöltözve, ment reggelenként az iskolába, s fehér szobácskájában annyi drága
@@ -439,11 +428,11 @@
                l a kicsike rózsás arcát, mintha attól félt volna, hogy egy rossz
                   szellem hirtelen elragadja tőle.
             </p>
-            <p>
+				<p>
                - Apa, - mondta ilyenkor a kisleány lihegve, - ne szeress ennyire,
                   mert mindjárt megfojtasz a csókjaiddal.
             </p>
-            <p>
+				<p>
                A Putnoky-ház zöld zsalúja mögül naphosszat édes z
                ongoraszó verődött ki a püspök kertjére, melyben komorarcú
                   penzionátusok sétáltak. Odabenn, a pompás földszintes kuriában, irígylésreméltóan
@@ -457,12 +446,12 @@
                igazda megérkezése zavarta meg, aki hangos szóval, fiatalos
                   féktelenséggel rontott be, mintha állandóan valami örvendetes ujságot hozna.
             </p>
-            <p>
+				<p>
                - Teringettét, ti itt nyugodtan szieztáztok, mikor én nyolc vendéget
                   hívtam vacsorára? Egy-kettő, lássatok hozzá a sütéshez-főzéshez, mert nem akarom,
                   hogy a barátaim előtt szégyent valljak...
             </p>
-            <p>
+				<p>
                Az állandó napsütés, mely a kedves házat bearanyozta, fájdalom,
                   nagyon rövid életű volt: Putnokyné meghalt, mielőtt második kicsikéjének életet
                   adott volna, a szőke, örökké vídám boh
@@ -474,13 +463,13 @@
                   rebbenésével, magához intette megdöbbent sógorát, aki családostul mellette
                   virrasztott.
             </p>
-            <p>
+				<p>
                - Vigyázz rá, - súgta kínosan, miköz
                ben beteg tüdeje ijesztően zihált - és légy az apja helyett az
                   édesapja. János, most hiszem az Istent, mert nem lehet, hogy a kislányomat ne
                   lássam többé...
             </p>
-            <p>
+				<p>
                Takácsy János másnap gyámja lett a szegény kis csöppségnek, aki hat
                   esztendejével egyedül maradt ezen a hideg földön, - és pedáns ember létére azt
                   tartotta a leghelyesebbnek, hogy hugocskáját a jó angol kisasszonyok gondjaira
@@ -493,7 +482,7 @@
                a félelme s megvígasztalódva, majdnem boldogan babusgatta a csinos
                   szentképecskét, melyet egy jó nővér adott neki.
             </p>
-            <p>
+				<p>
                Micike csakhamar beletörődött új életébe; kis gyermeklelkében
                   lassanként mindinkább elmosódott a vidám szülői ház képe s anyja sápadt arca,
                   édesapja derűs kék szeme elhalványult mesévé lett a fantáziájában, akár
@@ -524,7 +513,7 @@
                   csöndjére, mely buzavirágszín ruháját, fehér köténykéjét körüllengte
                   valamikor!
             </p>
-            <p>
+				<p>
                A kisleány vasárnaponként ot
                t uzsonnázott a hideg ebédlőben, ahol gyámja a heti élményeit számon
                   kérte tőle; ünnepies komolysággal itta a csokoládéját, illedelmesen felelt a
@@ -535,43 +524,43 @@
                   haza a zárdába; de a gavalléros hajlamú fiú a cukrászda előtt mindig megállította
                   a tipegő kisleányt, akinek szemében ő a rég letűnt lovagkort képviselte.
             </p>
-            <p>
+				<p>
                - Akarsz cukrot! - kérdezte tőle
                ragyogó szemmel, miközben az aprópénzét megcsörgette.
             </p>
-            <p>
+				<p>
                Micike élénken tiltakozott a pazarlás ellen, de lovagias unokabátyja
                   nem hallgatott rá; pár perc múlva aranytól csillogó csomaggal jött ki a
                   cukrászdából s ajándékát egy fejedelmi gesztussal nyújtotta át a meghatott
                   kisleánynak, aki sírni is, nevetni is szeretett volna egyszerre.
             </p>
-            <p>
+				<p>
                - A sötétben, ha a cukrot rágicsálni fogod, legalább rám gondolsz, -
                   mondta nagylelkűen Viktor, miközben a cukrászbolt kirakatüvegének segítségével a
                   nyakkendőjét megigazgatta.
             </p>
-            <p>
+				<p>
                Mikor az öreg Takácsyék meghaltak, Micike sírva borult árván maradt
                   unokabátyja nyakába; s a nagy fiú könyeit látva, szinte anyai gyöngédséggel szólt
                   hozzá:
             </p>
-            <p>
+				<p>
                - Ne sírj, ők az égben is szeretni fognak, hiszen te voltál nekik a
                   legkedvesebb! És a földön se kell lemondanod a szeretetről; én, kis Viktorom,
                   ezután is itt maradok a számodra
                !
             </p>
-            <p>
+				<p>
                Viktor ekkor megcsókolta és szenvedélyesen magához ölelte a
                   húgocskáját; e percben úgy érezte, hogy meg is tudna halni érte. De később, mikor
                   a zárda kapújában búcsút vett tőle, mást gondolt; s halkan, de valami fanatikus
                   elhatározással így szólott magáb
                an:
             </p>
-            <p>
+				<p>
                - Feleségül veszem!
             </p>
-            <p>
+				<p>
                Huszonhat éves volt, a kora már meg volt hozzá, hogy családot
                   alapítson, de e percig még sohase gondolt a házasságra; hiszen megboldogult szülői
                   még valóságos kis fiúnak tartották. De most érezte, hogy férfivé serdűlt; a
@@ -583,13 +572,13 @@
                   fehér virágtengerében pompázó püspökkert fái alatt hazafelé ment, szinte a
                   boldogságtól sápadozva, ismételte magában:
             </p>
-            <p>
+				<p>
                - Igen, feleségül fogom venni, - a jó isten is ezt akarja. Lujza néni
                   örö
                mkönyeket fog sírni az égben, ha a szőke kis Micikéje a feleségem
                   lesz.
             </p>
-            <p>
+				<p>
                Egy vasárnap délelőtt - a vén várost övező erdőkből már kábító
                   ibolyaillat áramlott a házak közé, - Viktor, a korai felkeléstől kissé bágyadtan,
                   beavatta unokahugát a titokba. Délfelé volt, a harangszó ide hallatszott a
@@ -601,45 +590,45 @@
                   hófehér ünnepi ruháját, aztán gyöngéden megsímogatta a világoskék szalagot, mely a
                   szép gyermek szőke hajában fénylett.
             </p>
-            <p>
+				<p>
                - Micike, - mondta neki bizonyos bámulattal, - tudod, hogy nagy
                   lányny
                á lettél tegnap óta? Tegnap még egy édes kis babának néztelek, ma már
                   férjhezmenő kisasszony vagy.
             </p>
-            <p>
+				<p>
                - Tizennyolc éves múltam január végén, - szólt Micike oly elégült
                   fejbólintással, mintha a negyedik unokáját is szerencsésen férjhez adta
                   volna.
             </p>
-            <p>
+				<p>
                - Nagy kisas
                szony vagy és legfőbb ideje, hogy a jövődről gondoskodj. Miért
                   választanál idegent, mikor a családban is akad egy mártir, aki szívesen feláldozza
                   magát érted? Mit gondolsz, el tudnád magadat szánni arra, hogy az életedet megoszd
                   velem?
             </p>
-            <p>
+				<p>
                Micike, nagy meglep
                etésében, leejtette kezéből a rózsabimbót, amit lovagias unokabátyja
                   öt perccel ezelőtt tépett neki.
             </p>
-            <p>
+				<p>
                - Szerelmes vagy belém? - kérdezte elképedve, miközben szemmellátható
                   respektussal nézte a Viktor császárkabátját és sárga keztyűjét.
             </p>
-            <p>
+				<p>
                Viktor most bevallotta a titkát: igen, már kis kora óta bizonyos volt
                   benne, hogy a hugocskája a felesége lesz. Hát nem volt mindig a lovagja, mióta
                   csak az eszét tudja? Nem árulta el már diákkorában az érzéseit, mikor az
                   aprópénzes fiókból elcsent filléreiért cukrot vásárolt a számára?
             </p>
-            <p>
+				<p>
                - Igen, - mondta Micike elgondolkodva, - mindig tudtam, hogy jobban
                   szeretsz, mint a többi leányt, de hogy szerelmes vagy belém, azt eddig még az
                   álmomban sem gondoltam.
             </p>
-            <p>
+				<p>
                A lángralobbant Viktor, miután nehány kicsinylő megjegyzést tett a
                   fiatal lányok emberismeretéről, lelkesedve kijelentette, hogy Micike nélkül épp
                   úgy elzüllenék, mint az a francia ifjú, akit egy vándor szintársulat a legutóbbi
@@ -649,26 +638,23 @@
                   szobácskájában, mindig regényhősökről álmodott, nagykomolyan megbólintotta szőke
                   fejecskéjét, mely csak úgy ragyogott az aranyos májusi napsugárban.
             </p>
-            <p>
+				<p>
                - Igen, szívesen a feleséged leszek, Viktor. Hiszen már kétéves korom
                   óta megszoktam, hogy a szegény édesapám után téged szeresselek a legjobban.
             </p>
-            <p>
+				<p>
                Két hónappal később Takácsy Viktor az angolkisasszonyok templomában
                   feleségül vette az unokahúgát. És a szép gyermek, viruló asszonyfejével és édes
                   álmaival,
                 egy nap beköltözött az emeleti szobácskákba, az öreg és bizalmas
                   biedermeyer-bútorok közé, ahol az öreg Takácsyné az életét eltöltötte.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Ég a lámpa.
             </head>
-            <p>
+				<p>
                Ha a kék elefánt, valami csoda folytán, benézhetett volna az emeleti
                   ablakokon, melyeknek nyolcvan év óta
                hátat fordított, ugyancsak csodálkozva hunyorította volna meg
@@ -679,13 +665,13 @@
                   aranyos empire-sas terjesztette szét szárnyait, hajszálfinom és csodaszövésű
                   aranyfátyol csillogott.
             </p>
-            <p>
+				<p>
                A május, gyöngyvirágokkal ékes, szőke hajával, mely hajnalonkint a
                   vízmosásos erdei tisztásokon, ezüstös nyírfák és mohos derekú tölgyek között
                   kóborol, szellős selyem-szandáljában beköltözött a picike szobákba, melyekben még
                   megérzett a Takácsy néni füstölőinek illata.
             </p>
-            <p>
+				<p>
                A májusi tündér, menyecskésen bekötött fejecskéjével, melyben két
                   nag
                y, örökké csodálkozó kék szem ragyogott, tanyát ütött az öreg
@@ -695,19 +681,19 @@
                és kötelességeikért élő vénasszonyokat, akik egy-egy meghiggadt
                   matróna szívét hozták ide, a húszesztendős bársonybőrük alatt.
             </p>
-            <p>
+				<p>
                A szőke májusi tündér cipőcskéi tavaszi frisseséggel koppantak meg a
                   keskeny falépcsőn, s a füstölők fűszeres illatát egy reggel végképp száműzte a
                   gyöngyvirág illata, mely az erdők és a patakok fiatalságát hozta ide a morózus
                   bútor-aggastyánok közé.
             </p>
-            <p>
+				<p>
                A subládok rézverete előtt, egy szürke délután, megjelent az Élet és
                   az Ifjúság. Furcsa, kacérul megkötött, bécsipiros kendőcskét viselt, s rakoncátlan
                   hajfürtjei kíváncsian kémlődtek ki az idegen világba, mely tele volt ismeretlen
                   szenzációkkal.
             </p>
-            <p>
+				<p>
                A bécsipiros kendő alatt, mely könnyelmű pipacsként virított az
                   embergyűlölő, vén bútorok között, a legsajátszerűbb holmik lappangtak: egy leányos
                   bársonyszalag, egy pufókképű angyalfejjel díszített medaillon, egy nagyon bő és
@@ -720,30 +706,30 @@
                   felriasztotta álmából a tűzhely mellett bóbiskoló öregasszonyt, akinek valaha a
                   Napoleon gránátosai udvaroltak.
             </p>
-            <p>
+				<p>
                - Mit f
                őzünk ma ebédre Borbála néni? - mondta ennivaló komolysággal a bő
                   pongyola.
             </p>
-            <p>
+				<p>
                - Ebédre? Jó istenkém! Hát maga, lelkecském, szakítani akar a régi
                   szokásokkal?
             </p>
-            <p>
+				<p>
                - Mi a régi szokás?
             </p>
-            <p>
+				<p>
                - Ötven év óta itt mindennap húsleves, főtt marhahús és
                   paradicsommártás kerül az asztalra. Tészta csak vasárnap délben van, mákospatkó
                   pedig csak karácsony első napján. Az öreg nemzetes úr bizonyosan megfordulna
                   sírjában, ha az ötvenéves rendtől eltérni merészkednénk.
             </p>
-            <p>
+				<p>
                Pajkosan, kamaszlányos huncutsággal hajolt most közelebb a
                   tulipi
                ros fejkendő a vén szakácsné arcához.
             </p>
-            <p>
+				<p>
                - Oh drágicám, hogyan képzel olyasmit, hogy a halottak megmozdulnának
                   sírjukban? Az elköltözött lelkek nem törődnek a főtt marhahússal és a
                   paradicsommártással, mert ők az örökzöld mezőkön járnak és az angyalok karénekét
@@ -754,7 +740,7 @@
                e
                n át mindennap csak főtt marhahúst adtak az asztalra?
             </p>
-            <p>
+				<p>
                - Azért lelkecském, hogy betegnek való ételt is készíthessünk, ha
                   valaki, isten ments, az ágynak dőlne. Az öreg nemzetes úr gégehurutot szokott
                   kapni az őszi esőzések idején, Mihály úrfit meg Viktor úrfit pedig néha egy héten
@@ -764,21 +750,21 @@
                er doktort akárhányszor éjszaka idején is fel kellett zavarnunk a
                   meleg ágyból.
             </p>
-            <p>
+				<p>
                Borbála néni szóáradata alkalmasint délig se apadt volna el, ha a
                   tekintélyes pongyola most hirtelen meg nem szólal:
             </p>
-            <p>
+				<p>
                - Nyárson sült, fiatal csirkét fogunk ebédre készíteni és rizskochot
                   baracklekvárral, hogy az uracskám a száját is megnyalja utána. A jó
                   fejedelemasszony azt mondta nekem, hogy hízlalni kell a férfiakat, - már pe
                dig ő bizonyosan jobban tudja nálunk, hogy a jó istennek ebben a
                   tekintetben mi az akarata.
             </p>
-            <p>
+				<p>
                *
             </p>
-            <p>
+				<p>
                Az emeleten öt kicsi szobácska volt s a háztetőről hosszú, vörös
                   csatorna húzódott le, melyben novemberi estéken egyhangúan kopogott az őszi eső.
                   Kip-kop, kip-kop, mondták sűrű egymásutánban a lehulló vízcseppek s a lebocsátott
@@ -811,7 +797,7 @@
                   Liliputországban a táncot ro
                pják...
             </p>
-            <p>
+				<p>
                Mihálynak, a komoly, vén fiúnak, aki most a furcsa csecsebecsék,
                   aranyos selyempárnák közt töltötte az estéit, sokáig úgy tetszett, hogy a
                   pongyolaruha egy távoli meseországból került ide a szigorú vén házba. A
@@ -827,11 +813,11 @@
                   akár a harctérről jövő drago
                nyos csizmái a királyi kastély parkettjére.
             </p>
-            <p>
+				<p>
                - Min merengsz, tiszteletreméltó bátyám? - kérdezte ilyenkor a fiatal
                   férj, miközben ezüstkanalával a gőzölgő feketéjét kavargatta.
             </p>
-            <p>
+				<p>
                Mihály zavartan nevetett, míg a pongyolaruhás kis dáma, forró
                   bársonytenyerével g
                yöngéden megcirógatta vörös arcát s egy hirtelen mozdulattal,
@@ -865,12 +851,12 @@
                   a forgatható kis fehé
                r székre, melyen egy hófehér tündérkisasszony ül.
             </p>
-            <p>
+				<p>
                - Szép volt? - kérdezte Viktor, míg a pongyolaruha ismét meglibbent,
                   mint valami egzótikus virág és mozdulatlanul terült el újra a virágos szőnyegen,
                   melyre a kályha parazsa vérvörös fényt vetett.
             </p>
-            <p>
+				<p>
                Mihály meg
                bólintotta a fejét, de semmitse szólt: a beszéd szentségtörésnek
                   tetszett volna előtte, mely a gyönyörű káprázatot egyszerre szétfújhatná. Oh igen,
@@ -886,11 +872,11 @@
                   drága, mindennél bájosabb virág illata töltötte meg a kicsike szoba
                   levegőjét...
             </p>
-            <p>
+				<p>
                - Öreg Mihály, úgy látom, hogy mindjárt leragad a szempillád! -
                   mondta most a fiatal férj és szivarját lustálkodva a hamutartóba tette.
             </p>
-            <p>
+				<p>
                Mihály ravaszul hunyorított, - pedig óh Istenem, mily messze volt
                   attól, hogy a puha ágy után vágyakozzék! Régebben ilyentájt már csak mondhatatlan
                   fáradsággal tudta nyitva tartani a szemeit, de most - bár hajnaltól napestig
@@ -901,10 +887,10 @@
                e hajtotta. De Mihály furfangos vén legény volt s nem árulta el szíve
                   vágyát; derüsen hunyorított tehát és így szólott:
             </p>
-            <p>
+				<p>
                - Igen, tegyük el magunkat holnapra, Viktor öcsém!
             </p>
-            <p>
+				<p>
                A pongyola most kedveskedve hozzásímúlt és egy fehér homlok, melyet
                   szétkúszált hajfür
                tök vettek körül, a Mihály reszkető ajkához ért. Aztán... aztán
@@ -934,45 +920,42 @@
                 Mihály épp oly mozdulatlan volt, mint a szentjánoskenyérrel telt
                   zsákok, melyek a hátulsó udvari raktárban feküdtek.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Mihály gondolkodik.
             </head>
-            <p>
+				<p>
                A szép gyermek, aki a kis emeletes ház szobácskáit birtokába vette, a
                   Mihály dolgos és szürke életében csodálatos változásokat okozott.
             </p>
-            <p>
+				<p>
                - Hány éves vagy tulajdonképen, öreg Mihály? - kérdezte egy nap
                   Micike asszony, miközben a sötét, barátságtalan irodában, amelynek ablakai a
                   félszerekre és istállókra nyíltak, a kézelőjével bíbelődő urára várakozott.
             </p>
-            <p>
+				<p>
                Mihály, vörösbarna ujjasában, tűnődve nézett a levegőbe s félhangosan
                   kivont meg összeadott néhány évszámot.
             </p>
-            <p>
+				<p>
                - Harmincegy múltam az idei Szentgyörgykor. Öt évvel vagyok öregebb,
                   mint Viktor, de azt hiszem, tízzel is többnek látszom.
             </p>
-            <p>
+				<p>
                Micike összecsapta a keztyűs kezét.
             </p>
-            <p>
+				<p>
                - Harmincegy? Te mindöss
                ze harmincegy éves vagy, öreg Mihály? A külsőd meg a komolyságod után
                   legalább hatvanesztendősnek néztelek volna, hiszen tulajdonkép már gyerekkorodban
                   is egyidősnek látszottál a boldogult édesapáddal.
             </p>
-            <p>
+				<p>
                Mihály kissé esetlenül mosolygott, Micike pedig megr
                ázta szőke fejét, melyen egy édes, aranyos kalap virított.
             </p>
-            <p>
+				<p>
                - Mi dolog, hogy így elhagyod magad vén pajtás, mintha az élet
                   javarésze már a hátad mögött volna? Sohase gondoltál arra, hogy egy drága kis
                   leányba szerelmes légy, hogy családot alapíts, mint más
@@ -984,7 +967,7 @@
                apkával, amilyet az öreg koldúsok viselnek reggelenkint a templom
                   előtt?
             </p>
-            <p>
+				<p>
                Mihály - a segédek és az inasok megdöbbenve bámultak rá az árúpolcok
                   mögül és a fuvarosok, meglepetésükben, majdnem kiejtették szájukból a pipájukat -
                   sötétkék kabátban és fehér gall
@@ -1005,14 +988,14 @@
                   töltött a mosdó előtt, mely éveken keresztül mint fölösleges fényűzési cikk állt a
                   pókhálós iroda sarkában.
             </p>
-            <p>
+				<p>
                Viktor, aki most is későn kelt és fiatal princ módjára kényeztette
                   magát hófehér kis nemtőjével, délfelé, ha a bolton keresztülhaladt, cigarettája
                   jószagú és finom fátyolán át néha derűs pillantást vetett a bátyjára, aki fiatal
                   hadnagyéhoz hasonló síma arcával elmerülve hajolt rézsarkos üzleti könyvei
                   fölé.
             </p>
-            <p>
+				<p>
                - Mihály bátyám - mondta a fia
                talabb Takácsy bólintva - ugyan mit szólna az édesapánk, ha téged
                   ilyen korrekt angol lordnak kiöltözve látna az ötvenéves karosszékben? Mondd meg
@@ -1020,7 +1003,7 @@
                   ezt a tiszteletreméltó ö
                reg házat?
             </p>
-            <p>
+				<p>
                Mihály nem válaszolt, hanem szorgoskodva tovább számolt a nagy
                   könyvben, Viktor pedig, miután barátságosan megveregette a bátyja széles hátát, a
                   keztyűit lóbálva, sietett ki a piaci korzóra, hogy a délelőtti eszmecserére
@@ -1033,14 +1016,14 @@
                   csillogó üvegneműekre s a sok édes és haszontalan csecsebecsére, mely szivárványos
                   fénnyel ragyogott az ablakon át beáradó havas fehérségben.
             </p>
-            <p>
+				<p>
                - Tudod, hogy Mihály csak a te kedvedért cicom
                ázza magát ennyire? El birtál volna képzelni valaha olyan lényt,
                   akinek kedvéért a bőrujjasát vagy a térdigérő vászonzubbonyát levetette volna?
                   Tudod, hogy most mértföldnyire elkerüli a petróleumos hordókat, nehogy a
                   kellemetlen szag megérezzék rajta?
             </p>
-            <p>
+				<p>
                Mic
                ike helyeslően bólintott és hajnalszínű, finom arcával, mely csakúgy
                   tüzelt a háziasszonyi büszkeségtől, kedveskedve odadörzsölőzködött a vén
@@ -1049,14 +1032,14 @@
                e
                treméltó, felnőtt emberhez.
             </p>
-            <p>
+				<p>
                - Igy is kell, mert különben a sarokba térdeltetném, mint valami
                   rossz gyereket! Mihály szép férfi és bizonyos vagyok benne, hogy nemsokára épp úgy
                   búcsút mond az agglegény-életének, mint ahogy valaha a rövid nadrágjának búcsút
                   mondott. Akarsz fogadni velem, hogy egy év múlva új emeletet húzatunk a Kék
                   elefánt fölé?
             </p>
-            <p>
+				<p>
                Mihály nem válaszolt, mert neki nem volt kenyere a beszéd, csak
                   zavartan, iskolásfiú módjára nevetett a paradicsommártásra, melylyel tányérját
                   szórakozottságában tele
@@ -1092,13 +1075,13 @@
                 föl azokkal a pillanatokkal, melyekben az ember egy japáni
                   pongyolából kifehérlő asszonyi kar melegségét érzi.
             </p>
-            <p>
+				<p>
                - Kit vennék el, amikor Viktor már Egyetlent feleségül vette? -
                   kérdezte magától az öreg Mihály, aki voltakép most se volt sokkal bölcsebb,
                   mint
                 akkor, amidőn az elemiben a földrajzot tanulta.
             </p>
-            <p>
+				<p>
                Oh nem, Mihály nem volt oly becstelen, hogy a testvéröcscse
                   boldogságát irigyelje; sőt: a maga módja szerint helyesnek és igazságosnak
                   találta, hogy ez a szédületes boldogság az öcscsének jutott osztályrészül. Hiszen
@@ -1114,13 +1097,13 @@
                   bólintott, mint akkor szokta, ha a falusi boltosokkal megalkudott; és a teherhordó
                   rabszolgák csöndes rezignációjával mondta magában:
             </p>
-            <p>
+				<p>
                - I
                gen, így van rendjén, hogy a Viktoré legyen, hiszen ő az egyetlen
                   férfi, aki boldoggá teheti! Én már akkor is boldog leszek, ha egyszer majd a kis
                   fiát a keresztvízre tarthatom.
             </p>
-            <p>
+				<p>
                És ha mégsem, ha Viktor mégse tenné boldoggá? Az öreg legény e
                   gondolatra úgy érezte, hogy minden vére a fejébe száll; és lassújáratú fantáziája
                   egyszerre csak megindult, mint az olajozatlan kerék, mely nyikorogva forog a
@@ -1140,10 +1123,10 @@
                   valami hóhéré és dolgos, vörös keze önkéntelenül ökölbe szorult. És ekkor szinte
                   elfulladt lélekzettel szólott magában:
             </p>
-            <p>
+				<p>
                - Akkor leütném, én ütném le, mint a veszett kutyát.
             </p>
-            <p>
+				<p>
                Megrázkódott
                és ijedten nézett körül: gyönyörű téli nap sütött, a hó bevilágított
                   az ablakon, odakünn csilingeltek a tovasuhanó szánkók és itt, a finom kis
@@ -1166,36 +1149,33 @@
                s
                zerű kéksége borult.
             </p>
-            <p>
+				<p>
                - Mire gondolsz, vén Mihály, hogy így elszomorodtál? - kérdezte
                   Viktor, míg Micike egy aranyhátú kefével az asztalkendő morzsáit söpörgette.
             </p>
-            <p>
+				<p>
                Mihály leoldotta nyakáról a szalvétát és sóhajtva kelt föl a
                   karosszékből, amelyben eddig öreg
                urasan elterült.
             </p>
-            <p>
+				<p>
                - Arra öcsém, hogy én nyugodtan sziesztázom, míg odalenn akár az
                   egész boltot ellophatják. Szép pár pofont kaphattunk volna a szegény édesapánktól,
                   ha az ő életében is ennyi időt töltöttünk volna az asztal mellett.
             </p>
-            <p>
+				<p>
                Búcsúzott és tipegve, va
                skos léptekkel indult lefelé a keskeny falépcsőn, mely az emeletről a
                   földszintre vezetett. Két óra volt és az ebédlőből pókhálószerű finomsággal
                   hangzott utána a Havasi leány gavotteja, melyet a régi muzsikáló óra játszott
                   fiatal gazdái tiszteletére.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Micike átvirrasztja az éjszakát.
             </head>
-            <p>
+				<p>
                A kisvárosban korán beállott a tél, a petróleumlámpákat már négy óra
                   felé fölgyújtották, a honoráciorok nehéz csizmákban taposták estefelé a havat, a
                   pápaszemes cukrász diókat aranyozott a fehér pulton s az ifjúság esténkint t
@@ -1214,7 +1194,7 @@
                   ötven év óta, mindig ugyanabban a hosszú, fekete kabátban nyújtotta át az évi
                   mérleget a cég főnökének.
             </p>
-            <p>
+				<p>
                Selmeczy - a keresztneve rég elmosódott a múltak homályában, - most
                   is ott virrasztott a “Kék elefánt” irodájában, míg odakünn az utolsó korhelyek
                   lépései is elvesztek a kisváros hósivatagában. Selmeczy végtelen számsorokat írt a
@@ -1229,18 +1209,18 @@
                   illatáramlatok keltek szárnyra, mel
                yek sűrű gomolyagban lebegtek a ködpárás levegőben.
             </p>
-            <p>
+				<p>
                Az őrtorony órája már elütötte az éjfélt. Mihály, biztosság okából,
                   még megnézte nehéz ezüstóráját, melyet boldogult édesapjától kapott; aztán vastag
                   hüvelykújja egy intésével, közmegelégedésre beszüntett
                e a munkát, melyet a kimerült személyzet már amúgy is csak félálomban
                   végzett.
             </p>
-            <p>
+				<p>
                - Ideje, hogy eltegyük magunkat holnapra! - mondta a vén Mihály, egy
                   tiszteletreméltó ásítás kapcsán, melynek dallamát néhai édesapjától örökölte.
             </p>
-            <p>
+				<p>
                A segédek gyorsan eltűntek az udvar prémmel szegélyezett podgyászos
                   szekerei között, Selmeczy csizmái vakmerően nekivágtak az utca hószőnyegének
                   (feleséges ember volt és a külvárosban lakott), Mihály pedig, durva bőrújjasában
@@ -1256,41 +1236,41 @@
                   vékony fénysáv világította meg az elh
                agyott folyósó sötétségét.
             </p>
-            <p>
+				<p>
                - Mihály! - mondta egy suttogó hang, mely valami megijedt gyermekéhez
                   hasonlított.
             </p>
-            <p>
+				<p>
                A vén legény, esetlenségét meghazudtoló fürgeséggel, termett a félig
                   nyitott ajtó mellett.
             </p>
-            <p>
+				<p>
                - Valami baj van? Viktor talán hirtelen rosszul lett? -
                kérdezte lihegve, miközben a szivverése is elállt az
                   ijedtségtől.
             </p>
-            <p>
+				<p>
                - Nem, semmi baj sincs, de annyira félek, hogy a fogam is
                   összeverődik a réműlettől. Már két óra hosszat várom, hogy a boltból feljőjj s ha
                   ki mertem volna mozdulni innen, hát rég lementem v
                olna, hogy fölhívjalak magamhoz.
             </p>
-            <p>
+				<p>
                - És Viktor? Hát miért nem keltetted föl Viktort, szivecském? Azt
                   hiszed, haragudott volna, ha a szép, fiatal felesége fölkelti?
             </p>
-            <p>
+				<p>
                Micike nem felelt direkte a kérdésre, hanem hízelegve odatette kezét
                   a Mihály vörösbarna ujjasára.
             </p>
-            <p>
+				<p>
                - Akarsz bejönni egy kicsikét? Le tudod győzni az álmosságot és
                   mesélsz nekem valami szépet, hogy a félelmemet elűzd? A kolostorban mindig a vörös
                   Zsuzsa mesélt nekem, ha rosszat álmodtam és ébren hánykolódtam a sötétben. Tudsz
                   valami szép mesét, amivel a
                 makrancos gyermeket álomba ringatják?
             </p>
-            <p>
+				<p>
                Mihály kissé ostobán bámult maga elé, mert őszintén szólva, nem igen
                   értette, hogy miről van szó; de aztán, szó nélkül, belépett a kivilágított
                   ebédlőbe. A kályhában pompás tűz égett s a terített asztalon még ott hever
@@ -1301,18 +1281,18 @@
                ikáló óra fehér oszlopai fölött, vakítóan, szinte karácsonyesti
                   fénynyel csillogott meg az öreg legény szeme előtt.
             </p>
-            <p>
+				<p>
                - Mi történt, miért vagy egyedül ily késő éjjel? - kérdezte Mihály
                   elámulva, anélkül, hogy az ajtóból megmozdult volna.
             </p>
-            <p>
+				<p>
                A gyermek - fehér po
                ngyolájában nem látszott többnek tizenhat évesnél, - mosolyogva
                   széttárta a karjait s Mihálynak e pillanatban úgy rémlett, hogy maga a karácsonyi
                   angyal áll előtte, aki a havas háztetőkön keresztül szokott besuhanni az
                   elcsöndesült gyermekszobába.
             </p>
-            <p>
+				<p>
                - Oh, ör
                eg pajtás, szídj össze, mert rossz gyermek vagyok s csöpp híjja volt,
                   hogy az imént sírva nem fakadtam félelmemben. Nem gondolod; hogy minden felnőtt
@@ -1331,19 +1311,19 @@
                   Öreg Mihály, te lovagias férfi vagy, úgy-e s nem fogod elárulni az uracskámnak,
                   hogy ilyen éretlen és gyáva tacskót vett feleségül?
             </p>
-            <p>
+				<p>
                - Hát Viktor nem tudja, hogy ébren vagy?
             </p>
-            <p>
+				<p>
                - Oh, én kis liba, hát nem mondtam még, hogy Viktor már vacsora után
                   elment hazulról?
             </p>
-            <p>
+				<p>
                - Elment? Viktor elment és egyedül hagyott téged itthon? - kiáltott
                   föl Mihály oly megdöbbenéssel, mintha arról értesült volna, hogy az öcscse egy
                   hamispénzgyártó bandához tartozik.
             </p>
-            <p>
+				<p>
                - Oh, igen, szegényke kénytelen vol
                t egyedül hagyni engem, mert őt is beválasztották a batyúbál rendező
                   bizottságába s rossz néven vették volna tőle, ha mindjárt a legelső ülésről
@@ -1357,18 +1337,18 @@
                 pajtás: jellemtelen vagyok én azért, hogy a becsületszavamat
                   megszegtem? Az ilyen csacsi asszonynak egyáltalán van becsületszava?
             </p>
-            <p>
+				<p>
                Mihály előbb bólintott, aztán megrázta a hatalmas fejét, majd komor
                   pillantást vetett a muzsikáló óra számlapjára, melynek mut
                atója már a bogárlábú 1-est is túlhaladta.
             </p>
-            <p>
+				<p>
                - És vacsora óta mindig ébren vagy lelkecském? Hát nem okosabb lett
                   volna, ha szépen belebújsz a párnáid közé, ahelyett, hogy itt egyedül virrasztod
                   át a féléjszakát? Nem félsz tőle, hogy holnapra csúf, fekete kar
                ikák támadnak a szemed körül?
             </p>
-            <p>
+				<p>
                Micike elmosolyodott, mint egy iskolásleány, de a mosolygása most nem
                   jött a szivéből, mert a hercegnőcske bizony csak mondhatatlan fáradsággal tudta
                   nyitva tartani a szemeit. Soha, mióta megszületett, még nem volt ébren éjjeli egy
@@ -1393,35 +1373,35 @@
                z
                 évvel ezelőtt a piacon megégettek.
             </p>
-            <p>
+				<p>
                - Pajtás, - mondta most Micike elszontyolodva, - te úgy látom, hogy
                   rögtön elalszol, - a szemed legalább nem nagyobb egy gombostű fejénél. Ha igazán
                   oly álmos vagy, hát isten neki, feküdjél le, én most már csak kibírom v
                alahogy addig, amíg a jó istenke a szegény uramat hazahozza.
             </p>
-            <p>
+				<p>
                Mihály összecsapta a kezeit, a szeme pedig megcsillant, mintha bort
                   ivott volna.
             </p>
-            <p>
+				<p>
                - Álmos? Már minthogy én álmos vagyok? Esküszöm, hogy sohase voltam
                   még éberebb, mint ebben a pillanatban s ha egy szót szólsz, akár mindjárt
                   belekezdek valami kopogósba! Akarod, hogy eltáncoljam neked az oláh
                   medvetáncot?
             </p>
-            <p>
+				<p>
                Micike most még hálásabban mosolygott, mert nyilvánvaló volt előtte,
                   hogy az öreg Mihály csak az ő fölvidítása kedvéért mond ilyen szemenszedett
                   csacsiságokat. Pár pillanatig nem válaszolt a vén legénynek, de aztán megindúltan
                   így szólott:
             </p>
-            <p>
+				<p>
                - Te jó ember vagy, pajtás és én némelykor azt hiszem, hogy nem is
                   egy komoly üzletembernek, hanem valami jó öreg dadának születtél, akinek a
                   jelenlétében a legrosszabb álmunkat is elfelejtjük. Akarod, hogy egy csésze forró
                   teát készítsek neked?
             </p>
-            <p>
+				<p>
                Mihály mély meggyőződéssel jelentette ki, hogy a földkerekség összes
                   kellemességei közül e pillanatban egy csésze forró teára vágyakozott a legjobban,
                   mire Micike, a pongyolája ujjait feltűrve, serényen hozzáfogott a
@@ -1437,7 +1417,7 @@
                   majd csaknem követte a porcellánkö
                pönyeges dudás példáját.
             </p>
-            <p>
+				<p>
                Ekkor azonban mozgolódás hallatszott föl az emeleti szobába: egy
                   kulcs hangosan megfordult odalenn, a kapú závárában. Mihály fölkelt a
                   karosszékből, melyben néhai édesapja félszázadon át ülni szokott s egy gyors
@@ -1445,21 +1425,18 @@
                   legényodúja ajtaját, mintha félne, hogy találkozik valakivel, akit a szive szerint
                   eldöngetni szeretne.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Viktor Pesten jár.
             </head>
-            <p>
+				<p>
                Viktor, aki jó darabig csak mint csöndes szemlélő járt-kelt a “Kék
                   elefánt” b
                irodalmában, egy nap fontoskodó arccal állított be az üzleti irodába,
                   ahol bátyja éppen a vasúti szállítólevelek tételeit vizsgálgatta.
             </p>
-            <p>
+				<p>
                - Mihály, - mondta hanyagul, miután néhány üzleti könyv tetején egy
                   könnyed mozdulattal helyet foglalt, - az éjjel kissé
                 meghánytam-vetettem az egymáshoz való viszonyunkat s arra az
@@ -1470,14 +1447,14 @@
                irom a munkát, elhatároztam tehát, hogy ennek az állapotnak mielőbb
                   véget vetek.
             </p>
-            <p>
+				<p>
                A becsületes Mihály csodálkozva tette a füle mellé a
                   kőművesceruzáját.
             </p>
-            <p>
+				<p>
                - Azt akarod mondani, hogy ezután rendesen bejársz az üzletbe?
             </p>
-            <p>
+				<p>
                - Nem bátyám, ehhez nincs megfelelő idegrendszerem, - ehhez a te
                   vastag, hajókötélszerű idegeidre volna szükségem. De miért ne munkálkodhatnám azon
                   a téren, mely a kedvemnek és a hajlamaimnak megfelel? A jövő héttől kezdve én
@@ -1485,23 +1462,23 @@
                b
                 te minden idődet az üzletnek szentelheted.
             </p>
-            <p>
+				<p>
                Az öreg Mihály vízszínű kék szemei szinte elképedt bámulattal
                   szegeződtek elegáns öcscsére, aki térdére húzott nadrágjával, csillogó
                   lakkcipőjével egyáltalában nem tette a szakértelmes üzletember benyomását.
             </p>
-            <p>
+				<p>
                - Az
                 a szándékod, hogy te fogsz bevásárolni az üzlet részére? Hiszen
                   attól tartok, hogy az enyvet vagy a szilvalekvárt nem tudod megkülönböztetni a
                   kocsikenőcstől! Nem gondolod, hogy hamarosan csődbe jutnánk, ha a hebehurgya
                   ajánlatodat elfogadnám?
             </p>
-            <p>
+				<p>
                Viktor fölényesen mosolygott, - oly fölényesen, hogy a vén Mihály
                   szégyenkezve lesütötte a szemeit.
             </p>
-            <p>
+				<p>
                - Naiv bátyám, - hát te csakugyan azt hiszed, hogy valami szörnyű
                   lángészre van szükség a “Kék elefánt” vezetéséhez? Ha vízfejű lennék, akkor is
                   beletanultam volna a dolgokba huszonöt év alatt, - hiszen kisgyerek korom óta
@@ -1518,11 +1495,11 @@
                   egyetlen kereskedői kvalifikáció? Nem tudod elképzelni, hogy a kemény kalap vagy a
                   fényesre vasalt cilinder alatt is lehet egy kevés tisztességes kalmárész?
             </p>
-            <p>
+				<p>
                Mihály kivette füle mellől a vastag ceruzát s gondolkodva megvakarta
                   vele ruganyszerű hajfürtjeit.
             </p>
-            <p>
+				<p>
                - Édes öcsém, nem bánom én, hogy micsoda kalapokat viselsz, - de hogy
                   az üzlethez nem értesz, abban, fájdalom, bizonyos vagyok. A hamburgi szenátor csak
                   a tanácsülésre megy cilinderben és cs
@@ -1532,7 +1509,7 @@
                   hozzá boszorkányság, hogy
                valaki az üzleti fifikákat megtanulja.
             </p>
-            <p>
+				<p>
                Viktor kezet rázott a bátyjával - s két héten keresztül csakugyan úgy
                   viselkedett, mintha kizárólag csak a “Kék elefánt” érdekelné. A fiatal princ
                   leereszkedett a rosszszagú bolthoz: könyveket és számlákat tanulmányozo
@@ -1545,13 +1522,13 @@
                   Viktorra, este meghatva és elérzékenyülve sietett a lépcsőházban kimerűlt
                   uracskája elé.
             </p>
-            <p>
+				<p>
                - Megfáztál, nem innál egy csésze teát, mielőtt a vacsorát
                   betálaltatnám? Nem volna jó, ha a cipődet l
                evetnéd és papucsot húznál a lábadra? Oh drága szivecském, hogy
                   gyötröd magadat azért a haszontalan milliócska miatt!
             </p>
-            <p>
+				<p>
                Viktor engedte, hogy kényeztessék, s szenvedő arca elárulta, hogy
                   csakugyan szánalomraméltó mártirnak tartja magát. Mihály derüsen és kissé
                   fitymálva nézett rá a jól befütött kályha mellől; őt a favágás vagy a zsákhordás
@@ -1563,49 +1540,49 @@
                   legény fejbólintva szólott, miközben szalvétából szerkesztett, hatalmas
                   nyuszifülei szinte megrázkódtak az elismeréstől:
             </p>
-            <p>
+				<p>
                - Igen, tagadhatatlan, hogy sokat dolgozott, de az egészségének,
                   bizo
                nyos vagyok benne, nem fog megártani a munka. Akarsz velem fogadni
                   öcsém, hogy mához egy évre vasgyúró lesz belőled, ha így folytatod?
             </p>
-            <p>
+				<p>
                - Ha vasgyúró nem is, de valamire való kereskedő bizonyosan lesz
                   belőlem bátyám, - válaszolta Viktor, oly fenhéjázó hangon, mintha épp öt perccel
                   ezelőtt választották volna meg a brémai kereskedők elnökévé.
             </p>
-            <p>
+				<p>
                Két hét mulva a fiatal Takácsy kijelentette, hogy mindent tud, amire
                   szüksége van s miután dereka köré egy pénzzel telt övet csatolt, érzékenyen
                   elbúcsúzott Micikétől és
                Mihálytól, akik a hideg hajnali szürkületben együttesen kikísérték a
                   pesti vonathoz.
             </p>
-            <p>
+				<p>
                - Vén bátyám, aztán gondod legyen rá, hogy a sógorasszonyodat
                   mulattasd, - mondta a rókabundájába burkolt Viktor, aki szokatlanul frissnek és
                   jókedvűnek látszott. De Micike, aki nem volt tréfás hangulatban, sírásra görbült
                   ajakkal állt a vonat mellett s oly kétségbeesett pillantással nézett az urára,
                   mintha mindörökre válni készült volna tőle.
             </p>
-            <p>
+				<p>
                - Vigyázz, nehogy meghülj a hideg estéken! Meleg shawl nélkül ne
                   mozdulj ki a szállodából s tiz órakor okvetlen az ágyban légy! És írj, mindennap
                   írj, ha azt nem akarod, hogy mind a két szememet kisírjam utánad!
             </p>
-            <p>
+				<p>
                Viktor mindent megigért és még egyszer csókot dobott a felesége felé,
                   - s a vonat, mérsékelt gyorsasággal, kirobogott a zúzmarás fák közül. A hazafelé
                   való úton Micike oly komor hallgatásba burkolózott, hogy a becsületes Mihálynak a
                   szive is elfacsarodott bele; de aztán összeszedte magát és így szólott:
             </p>
-            <p>
+				<p>
                - Teringettét kis pajtás, hát ne vágj olyan szomorú arcot, mintha az
                   uradat örökre elveszítetted volna! Gondolj csak vissza a régi keresztes háborúra,
                   amikor a férjek tíz-tizenöt évig se tértek vissza az elhagyott feleségeik
                   mellé.
             </p>
-            <p>
+				<p>
                Micike, aki mindig jó tanuló volt s a történelemből állandóan egyest
                   kapott a jó nénikék zárdájában, szenvedő mosolylyal jelentette ki, hogy mint
                   Bouillon Gottfriedné határozottan pályát tévesztett volna, - aztán, egy szivettépő
@@ -1616,36 +1593,36 @@
                   pajtása ragyogó arccal fogadta s boldogan mutatott az elefántcsont kötésű
                   könyvecskére, mely még mindig nyitva feküdt az ablak párkányán.
             </p>
-            <p>
+				<p>
                - Tisztogatás közben imát mondtam az uracskámért s most már bizonyos
                   vagyok benne, hogy a jó istenke vigyázni fog rá. Akarsz te is egy rövid imát
                   elmondani érte, amig Zsuzsanna a levest behozza?
             </p>
-            <p>
+				<p>
                Mihály, akit nem a kolostorban neveltek, zavart és megdöbbent
                   pillantással nézett az elefántcsontkötésű imakönyv
                felé.
             </p>
-            <p>
+				<p>
                - Kis pajtás, be alapos tévedésben vagy, ha azt hiszed, hogy Viktor
                   tigrisekkel vagy oroszlánokkal fog viaskodni a pesti piacon. Legföljebb öreg és
                   csalafinta nagykereskedőkkel viaskodik, azok pedig aligha veszélyeztetik a testi
                   épségét. Azt hiszed, valami különös isteni kegyelem kell hozzá, hogy az ölelő
                   karjaidba visszatérjen?
             </p>
-            <p>
+				<p>
                Micike méltatlankodva csóválta meg a fejét s egy istenkáromlót
                   megillető tekintettel büntette meg a tréfálkozó vén legényt, aki szemforgató
                   gourmand módjára engedte át magát
                 a pompás tyúkleves élvezetének.
             </p>
-            <p>
+				<p>
                - Oh, gonosz Mihály, hát téged nem aggaszt az idegenben járó öcséd
                   sorsa? Meggondoltad, hány különböző veszedelem fenyegeti a bűnös nagyváros házai
                   között? Voltál te már valaha Pesten, hogy ily kicsinylőleg mersz nyilatkozn
                i róla?
             </p>
-            <p>
+				<p>
                Mihály bevallotta, hogy mindössze csak kétszer járt Pesten, - azt is
                   csupán azóta, hogy az édesapja meghalt, - de sohase fordult meg másutt, mint a
                   nagykereskedők raktáraiban és a csöndes budai szállodában, ahol az öreg Takácsy
@@ -1654,7 +1631,7 @@
                   szobaasszonyt, aki sohase kacérkodott vele. Hol van az a rémületes veszedelem,
                   melyről az aggódó kis pajtása álmodik?
             </p>
-            <p>
+				<p>
                Viktortól ha
                rmadnap levél jött, csak sebtíben írt, mert a bevásárlás nagyon
                   elfoglalta, de azért szakított magának annyi időt, hogy egyéb szórakozásairól is
@@ -1687,7 +1664,7 @@
                   volnál mindannyi közt a legislegs
                zebb.
             </p>
-            <p>
+				<p>
                - De elég, - fejezte be Viktor a levelét, - elég a magam
                   múlatságából, hiszen voltakép nem ezekért jöttem én ide, hanem azért, hogy a “Kék
                   elefánt” számára bevásároljak. E tekintetben egy kis baj van, Mihály bátyám:
@@ -1703,12 +1680,12 @@
                en, mert az ilyen redves fa, ha meggyullad, még a száraznál is
                   rosszabb.
             </p>
-            <p>
+				<p>
                - Te is el voltál a maszkabálon, mikor szentjánoskenyeret vásároltál?
                   - kérdezte félig pityeregve az ostoba Micike, mikor a hosszú levelet letette a
                   kezéből.
             </p>
-            <p>
+				<p>
                Mihály nem válaszolt, han
                em nagy igyekezettel vagdosta száz darabra a levesben főtt marhahust
                   s oly gyilkos pillantásokat vetett a levélre, mintha legalább is egy kedves rokona
@@ -1716,20 +1693,17 @@
                   csóválta meg nagy fejét, mel
                y egy mesebeli öreg hegyi óriáséhoz hasonlított.
             </p>
-            <p>
+				<p>
                - Kis pajtás, - mondta ingerkedve, - csak nem akarod talán elhitetni
                   vetem, hogy féltékeny vagy? Elhiheted nekem, hogy a párisi maszkabálokon se volt
                   még asszony, akivel téged egy okos ember elcserélne.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Mihálynak rossz sejtelmei vannak.
             </head>
-            <p>
+				<p>
                A fiatal cégfőnök csak hat nap mulva tért haza Pest városából és
                   este, mikor útiládáit kicsomagolta, örömünnep volt a “Kék elefánt” emeletén. A
                   ládákból édes és csodaszép holmik kerültek napvilágra, amelyek boldog
@@ -1753,24 +1727,24 @@
                a, titokban gyors számvetést próbált csinálni a rengeteg költségről,
                   amibe tékozló öcscse kirándulása kerülhetett.
             </p>
-            <p>
+				<p>
                - Talán Rothschildot raboltad ki öcsém? - szólt kedvtelenül és
                   korholó hangon a cigarettázó Viktorhoz, mikor végre a kis bolt mellett lévő
                   ir
                odában magukra maradtak.
             </p>
-            <p>
+				<p>
                Viktor azonban fitymálva intett nagyuriasan vékony újjaival, melyek
                   már szinte kénsárgák voltak a szüntelen dohányzástól.
             </p>
-            <p>
+				<p>
                - Rossz kereskedő vagy, öreg Mihály, ha még ez a csekélység is gondot
                   okoz neked. Mert ugyan miről van szó, együgyű bátyám? Az ajándékok árát egyszerűen
                   hozzácsapod a többi költséghez s épp úgy a vevőiddel fizetteted meg, akár az
                   útipénzt vagy a fűszeres ládák szállítását. Igy mindenestre sokkal jobban jösz ki,
                   mintha a segédeid fizetését fölemelnéd!
             </p>
-            <p>
+				<p>
                Mihály váll
                at vont és dörmögve baktatott ki a falusi boltosok szekereihez, -
                   este azonban magára vette a pesti kaftánt s török bégnek öltözve jelent meg a
@@ -1780,25 +1754,25 @@
                vert az ura lábainál, a kacagástól könyezve és fuldokolva rohant
                   ünnepiesen tipegő sógora karjaiba.
             </p>
-            <p>
+				<p>
                - Oh, vén pajtás, ha tudnád, hogy milyen drága vagy s hogy a komoly
                   arcodhoz milyen pompás és stilszerű ez a keleti köntös! Ilyen lehetett valaha az a
                   török csausz, akiről Jókai Móric tavaly regényt irt a Hon tárcájába. Akarsz velem
                   fogadni, hogy te valaha, a születésed előtt háromszáz évvel, gazdag és kegyetlen
                   muzulmán voltál Bagdadban?
             </p>
-            <p>
+				<p>
                Viktor helyeslőleg bólintott, Mihály azonban, akit halálos zavarba
                   hozott a sógornője kacagása, égő arccal válaszolt:
             </p>
-            <p>
+				<p>
                - Ha háromszáz évvel ezelőtt éltem, hát bizonyos, hogy akkor is
                   fűszerszámos voltam, mert családi följegyzéseink vannak róla, hogy a Takácsyak a
                   Fuggerek szolgálatában kezdték valamikor a közszereplést. Ezt a
                 cifra köntöst pedig csak azért vettem magamra, hogy téged, kis
                   pajtás, jó kedvre derítselek.
             </p>
-            <p>
+				<p>
                Micike boldogan tapsolt és sihederlányosan körültáncolta maszkának
                   öltözött sógorát, - Mihály pedig, a legöregebb csauszokat is megszégyenítő
                   komolysággal foglalt helyet a terített asztal mellett. És másnap, meg harmadnap,
@@ -1806,7 +1780,7 @@
                   ebédlő lámpája alatt, mintha kimondhatatlan boldogságot okozna neki, hogy a kis
                   pajtását jókedvre deríti...
             </p>
-            <p>
+				<p>
                A tél ekö
                zben tovabaktatott hermelines köpenyében és a tavasz meg a nyár
                   virágfűzéres feje mosolygott a napsugaras kisváros házaira; az erdő fái között
@@ -1836,50 +1810,50 @@
                   mozdulatlanul megvárta, míg ismét kinyítja a szemeit s ekkor megindult és
                   dédelgető hangon így szólott hozzá:
             </p>
-            <p>
+				<p>
                -
                Kis pajtás, legyen már eszed és feküdj le! Vagy ha már az éjszakát
                   átvirrasztod, hát ne kelj föl tíz óra előtt, mert az lesz a vége, hogy időnek
                   előtte megöregszel!
             </p>
-            <p>
+				<p>
                Micike megrázta szőke fejecskéjét és kék szeme csak úgy ragyogott a
                   komolyságtól és az ambi
                ciótól.
             </p>
-            <p>
+				<p>
                - Oh, öreg Mihály, szép dolgokra biztatsz egy kötelességtudó
                   háziasszonyt, akinek vállára egy nagy háztartás gondja nehezül! A megholt anyuskám
                   is hat órakor kelt föl mindennap, - s azt hiszem, ő a másvilágon is sírva fakadna,
                   ha az egyetlen lánya az egész hosszú délelőttöt átaludná.
             </p>
-            <p>
+				<p>
                Mihály megfontoltan jelentette ki, hogy a kötelesség tényleg
                   mindennél előbbre való a földi életben, de másnap, mikor az öcscsével egyedül
                   volt, egyszerre csak komoran hátraszegte vastag nyakát, mely máris elérte az
                   édesapja méreteit s becsületes halszemei oly ijesztő fényben égtek, hogy a Viktor
                   ideges kezében önkéntelenül megreszketett a cigaretta.
             </p>
-            <p>
+				<p>
                - Van lelkiismereted, hogy ezt a gyámoltalan gyereket egyedül hagyod?
                   Nem félsz, hogy a jó isten megbüntet érte? Ezt láttad a puritán édesapád házában?
                   Nem százszor különb a tiszta házad, mint a füstös butik, ahol az éjjeleidet
                   eltöltöd? Nincs szived a szegény kis teremtés iránt, aki a megholt édesanyád
                   helyét elfoglalta?
             </p>
-            <p>
+				<p>
                A becsületes Mihály úgy elérzékenyült a saját szavain, hogy majdnem
                   sírva fakadt megindulásában, de gyöngesége inkább felbátorította Viktort, semhogy
                   komolyan meghatotta volna.
             </p>
-            <p>
+				<p>
                - Bátyám, - mondta gúnyosan, - az üzlet dolgait tetszésed szerint
                   megtanácskozhatod velem, mert az üzletet közös tulajdonképen hagyt
                a kettőnkre a néhai édesapánk. De a feleségemet nem édesapánk hagyta
                   rám s a házaséletembe senki emberfiának nem vagyok hajlandó megengedni a
                   beleszólást.
             </p>
-            <p>
+				<p>
                - Nem engeded? Ugy beszélsz öcsém, mint egy elzüllött, rossz ember,
                   mintha sohase lett volna édesanyá
                d, aki kicsiny korodban ápolt és a nyakadat megmosta. Elfelejted,
@@ -1889,14 +1863,14 @@
                stól álmosan tesz-vesz napestig s akárhányszor már a leves fölött
                   leejti a fejecskéjét?
             </p>
-            <p>
+				<p>
                Viktor, aki a hosszú prédikáció alatt idegesen dobolt az újjaival,
                   most egy kicsinylő gesztussal faképnél hagyta a bátyját, Mihály pedig, nagyot
                   sóhajtva, beletemetkezett irodai főkönyvébe. És a dolgok tovább folytak medrükben,
                   mintha a sárga házban semmi olyasmi nem történt volna, ami a “Kék elefánt”
                   hagyományaival ellenkezik.
             </p>
-            <p>
+				<p>
                Nyár végén Viktor ismét felment Pestre, hogy az árúraktárt
                   felfrissítse s december közepén - bá
                r semmi fontosabb ok nem volt rá, - váratlanul megismételte utazását,
@@ -1941,11 +1915,11 @@
                   ide-oda a szőnyeg pálmáin, s egy drága, ezüstös hangocskából, mely gyermekkori
                   karácsonyesték melegségével simogatja végig az örömtelen vén legények szívét.
             </p>
-            <p>
+				<p>
                - Akarsz teát, öreg pajtás! - kérdezte néha az ezüstös hangocska,
                   mikor a Mihály becsületes halszemei ismét aggasztóan zsugorodni kezdtek.
             </p>
-            <p>
+				<p>
                Mihály akart, - oh, hogyne akart volna! Ha azt kérdezték volna,
                   akar-e mezitláb elzarándokolni a szent földre, alkalmasint erre is igen-t mondott
                   volna; hiszen lehet-e rossz va
@@ -1953,7 +1927,7 @@
                   megégette a szája padlását, de Mihály siket volt a hőfok iránt; mosolygott és
                   megbólintotta otromba fejét, mintha a legszebb muzsikát hallgatná.
             </p>
-            <p>
+				<p>
                Viktor ezúttal még tovább maradt Pesten, s csak ké
                t hét múlva tért vissza bevásárló útjáról; komoly és ideges volt,
                   senkit se lepett meg ajándékkal, s kedvetlenül birálgatta az ételeket, amikkel a
@@ -1966,15 +1940,12 @@
                 és ekkor úgy érezte, hogy valami nagy, ismeretlen veszedelem lebeg a
                   sárga ház fölött, melyben istenben boldogult öregei az életüket eltöltötték.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Levél a Bodzafa-utcába.
             </head>
-            <p>
+				<p>
                Csakugyan a rossz sejtelmek megvalósulását jelentette-e, vagy puszta
                   és jelentéktelen
                 léhaság volt-e csupán: Viktor most már sűrűbben eltávozott a “Kék
@@ -1986,21 +1957,21 @@
                   közt töltötte s olykor, minden előzmény nélkül, ásítva nyujtogatni kezdte a
                   karjait, mint aki hosszú és butító álomból ébred.
             </p>
-            <p>
+				<p>
                - A délutáni vonattal felszaladok a fővárosba, - mondta ilyen
                kor unottan a bátyjának, aki még egy hosszabb gyalogsétára is
                   nehezebben szánta el magát, mint Viktor a fárasztó pesti útra.
             </p>
-            <p>
+				<p>
                - Talán megint a kékgálic iránt akarsz érdeklődni? - kérdezte a
                   jámbor Mihály, aki eddig még hírből se ismerte az íróniát.
             </p>
-            <p>
+				<p>
                Viktor a
                zonban megrázta a fejét s az ajka elgörbült mintha valami keserű
                   italt ivott volna.
             </p>
-            <p>
+				<p>
                - Nem, tiszteletreméltó Mathuzsálem, nem a rézgálic miatt megyek,
                   hanem azért, mert megfulladnék ebben a levegőben. Ha néha el nem szökném innen,
                   azt hiszem, hamarosan öngyilkos lennék, - s ugyan mire mennél, te szegény, ha
@@ -2009,25 +1980,25 @@
                   fülledt völgyekből a havasok levegőjébe repül
                jön.
             </p>
-            <p>
+				<p>
                - Azt akarod mondani, hogy sas vagy, öcsém? - kérdezte az öreg
                   Mihály, valami csöndes és lenéző bámulattal, mely csöppet se látszott hízelgőnek a
                   fiatal sáfrány-hercegre.
             </p>
-            <p>
+				<p>
                Viktor idegesen vállat vont, Mihály pedig, miután hasztalan várt
                   választ a kérdésére, kissé szigorúbban folytatta:
             </p>
-            <p>
+				<p>
                - És a feleséged? Az ő nyugalma semmit se számit előtted? Azt hiszed,
                   őt is boldoggá teszed, ha a tagjaidat kéthetenként kinyújtóztatod?
             </p>
-            <p>
+				<p>
                Viktor arca most valami gonosz mosolygástól torzult el, míg
                   enerváltságtól remegő ujj
                aival tréfásan megfenyegette a prédikáló puritánt.
             </p>
-            <p>
+				<p>
                - A feleségem nem fog kétségbeesni, - hiszen az Erkölcs, a te
                   személyedben, kivont pallossal őrködik felette. Innen-onnan mulatságos világfivé
                   fogod kinőni magadat derék bátyám s bizonyos vagyok benne, hogy ha kell, hát épp
@@ -2037,7 +2008,7 @@
                átaláltál a fiatalságodra, melyet tizéves korodban
                   elveszítettél!
             </p>
-            <p>
+				<p>
                Mihály zavartan krákogott és az arca téglavörössé lett a köhögéstől,
                   - de artikulálatlan hangokon kívül nem válaszolt egyébbel az öcscse tréfájára.
                   Szerette volna szigorúan megkorholni a léha fickót, aki még ezt a drága, és finom
@@ -2063,11 +2034,11 @@
                   országból hozott ide a földre, megint csak urrá lett álnokság nélkül való,
                   becsületes, vén lelkében és most már szinte brutálisan mondta:
             </p>
-            <p>
+				<p>
                - Nem érdemled meg a boldogságodat és attól tartok, hogy rossz véged
                   lesz! Oh igen, bizonyos vagyok benne, hogy nem kerülöd el a büntetésedet!
             </p>
-            <p>
+				<p>
                Viktor csupán egy fitymáló kézmozdulattal válaszolt s pár óra múlva
                   lázasan rövid búcsúzás után, Pestre utazott. Micike most már nem kísérte ki a
                   vonathoz; a gyerme
@@ -2081,7 +2052,7 @@
                   szájjal mondta, miközben szöszke fejecskéjét elfagyott virág módjára oldalt
                   hajtotta:
             </p>
-            <p>
+				<p>
                - Mihály, most már bizonyos vagyok benne, hogy megcsal, hiszen miért
                   hagyna egyedül, ha nem egy másik asszony kedvéért? Már gyermekkoromban megéreztem,
                   ha valami veszély fenyegetett s most is bizonyos vagyok benne, hogy vége a
@@ -2089,13 +2060,13 @@
                 pedig akkor még csak selypítő kisgyerek voltam. Mondd, öreg pajtás:
                   hát mindenkit elvesznek tőlünk, aki valamikor szeretett bennünket?
             </p>
-            <p>
+				<p>
                Mihálynak, aki komor külseje és bozontos szemöldöke dacára egy egérke
                   szenvedését se tudta végignézni s aki (bárha forró nyár volt is) légymérget se
                   tett ki a boltba, mert a legyeket is sajnálta, e pillanatban az az érzése volt,
                   hogy a szivét egy durva ököl összeszorítja.
             </p>
-            <p>
+				<p>
                - Oh kis barátnőm, hát még a te józan fejecskéd is megromlott a
                   regényektől? Te is készpénznek veszed, hogy a férfiak szeretőket tartanak s
                   cocotte-ok társaságában töltik az éjszakát, míg a feleségük nyugtalanul
@@ -2109,12 +2080,12 @@
                   fogadni, hogy három nap mulva álmosan, bűnbánólag és üres zsebbel fog a kis
                   királynője lábaihoz borulni?
             </p>
-            <p>
+				<p>
                Micike megrázta szomorú fejecskéjét s forró keze odatapadt a
                   Mihályéhoz, aki úgy érezte, hogy egyszerre forróság és hidegség fut végig
                   rajta.
             </p>
-            <p>
+				<p>
                - Öreg Mihályom, te voltaképp egy vén gyermek vagy, aki még a kedves
                   nővéreknél is kevesebbet értesz a világi dolgokhoz. Ki hitette el veled, hogy csak
                   Rück úr énekel kuplékat a pesti dalcsarnokokban? Rossz és lelketlen asszonyok
@@ -2122,12 +2093,12 @@
                   elrabolják. Tedd a szívedre a kezedet, vén pajtás: te még sohase találkoztál rossz
                   nőkkel? Nem is hiszed, hogy Pest városában rossz nők vannak?
             </p>
-            <p>
+				<p>
                Mi
                hály hátraszegte a fejét s kövér kanonok-arca csakúgy sugárzott a
                   belső derűtől.
             </p>
-            <p>
+				<p>
                - Oh igen, hiszek a rossz nőkben, mint ahogy a haszontalan férfiakban
                   is hiszek. De a gazdag ember sohase fog szalonnát lopni a hentesboltban és az a
                   férfi, akit a sors tevele
@@ -2135,7 +2106,7 @@
                   asszonyára. Naiv vagy és butuska vagy, kis pajtás és ezért még azt is megbocsátom,
                   ha csacsiságokat beszélsz némelykor...
             </p>
-            <p>
+				<p>
                Micike úgy tett, mintha gondolkodnék, szeme a lámpára szegeződött,
                   mintha a szelid fehér lángot nézné, holott sok-sok mértföldnyire járt innen, a
                   hangos és erkölcstelen pesti éjszakában, mely a távollévő urát körülvette. És
@@ -2143,23 +2114,23 @@
                   akitől a legkedvesebb ba
                báját elvették.
             </p>
-            <p>
+				<p>
                - Mihály, - mondta szipogva és a drága kis orra szinte vörös és
                   csúnya lett, - Mihály, olvastad te valaha a Gaboriau regényeit?
             </p>
-            <p>
+				<p>
                - Miért kérded, lelkecském?
             </p>
-            <p>
+				<p>
                - Ezekben a regényekben van egy titkos rendőr, aki a legravaszabb
                   gonosztevőket is fölfedezi, aki a kulcslyukon is bebújik, ha szükség van rá s úgy
                   el tudja változtatni magát a különböző álszakállakkal, hogy még a saját édesanyja
                   se ismer rá. Mit gondolsz, vannak Pesten is ilyen titkos rendőrök?
             </p>
-            <p>
+				<p>
                - Bizonyosan vannak, szívem.
             </p>
-            <p>
+				<p>
                - Ha vannak - é
                s a Micike arca most egyszerre lángba borult és a hangja suttogóvá
                   lett, mintha maga is valami titkos összeesküvő-szövetségbe tartoznék, - ha vannak,
@@ -2167,24 +2138,24 @@
                   tud megszabadítani attól
                 az ezermázsás súlytól, ami a szívemre nehezedik.
             </p>
-            <p>
+				<p>
                - Azt akarod, hogy egy titkos rendőr kémkedjék Viktor után? Nem
                   gondolod, hogy az uradat csúnyául kompromittálod ezzel a lépéssel?
             </p>
-            <p>
+				<p>
                - Oh, Mihály, te nem olvastad a Gaboriau regényeit, te talán még
                   egyetlen r
                egényt se olvastál a Polgári Társaskör kölcsönkönyvtárából! Ha
                   olvastál volna, hát tudnád, hogy Lecocq úr titoktartó, mint a sír s inkább
                   százszor kerékbe töreti magát, semhogy idegenek előtt eláruljon valamit.
             </p>
-            <p>
+				<p>
                Mihály megértőleg bólintott, nyakát gondolkodva hátra szegte a kaftán
                   kék gallérjára, egy kis ideig fel meg alá járt az ebédlő szőnyegén, aztán ujra
                   visszaült az asztal mellé s nagyot hörpintett az aranyszegélyes
                   teáscsészéből.
             </p>
-            <p>
+				<p>
                - A dolog úgy áll szivecském, hogy én egyetlen titkos rendőrt se
                   ismerek, én csak nagybajúszú, utcai rendőröket láttam a kerepesi-út sarkán, meg a
                   hatvani-utcai rendőrkapítányság kapújában, akik katonásan szalutálnak, ha a Thaisz
@@ -2200,7 +2171,7 @@
                   izraelita ember, aki a Józsefvárosban lakik, valahol a Bodzafa-utca, végén. Akarod
                   lelkecském, hogy még ma este írjak neki?
             </p>
-            <p>
+				<p>
                - Igen, Mihály, írj neki azonnal, ha azt nem akarod, hogy
                   kétségbeesés
                emben elmérgezzem magamat. Már egyszer úgyis el akartam mérgezni
@@ -2208,7 +2179,7 @@
                   Zsuzsival, s Angela testvér büntetésből, egy nagy papir-nyelvet akasztott a
                   nyakamba.
             </p>
-            <p>
+				<p>
                A fájdalmas emlék annyira me
                ghatotta az érzékeny Micikét, hogy újra keserves sírásra fakadt, s
                   Mihály most ismét úgy érezte, hogy öreg szíve vonaglani kezd a részvéttől és a
@@ -2232,31 +2203,31 @@
                   tréfálkozó, félig meghatott jószívüségével ismételte tizszer-húszszor
                   egymásután:
             </p>
-            <p>
+				<p>
                - Nononono, hát ne sírj úgy, mintha az egész világ összedőlt volna!
                   Teringettét, ne bolondozz már kis pajtás,
                mert komolyan megharagszom!
             </p>
-            <p>
+				<p>
                Micike most átölelte a Mihály vastag nyakát s drága kis fejét
                   odahajtotta a kék kaftánra, mely nedvessé lett kiszivárgó könyeitől.
             </p>
-            <p>
+				<p>
                - Mihály, nagyon boldogtalan vagyok és legjobban szeretném, ha még ma
                   éjjel meghalhatnék! Ugy érz
                em, hogy egy jegesmarok összeszorítja a szívemet! Adj gyorsan valami
                   meleg kendőt, mert azt hiszem, hogy megfagyok ebben a hidegben!
             </p>
-            <p>
+				<p>
                Mihály most betakargatta és jószívű ostobaságokat súgott a fülébe; és
                   Micike, fuldokló szipogások után, lassankint megnyugo
                dott és elcsöndesedett és síró szeme lezáródott, mint a gyermeké,
                   akit dadája mesemondása elaltat. És Mihály ekkor halkan szólott:
             </p>
-            <p>
+				<p>
                - Feküdj le, szivecském!
             </p>
-            <p>
+				<p>
                Micike álmosan rámosolygott, s lábujjhegyen visszavonult a
                   hálószobájába, mig Mihály, nagy fejét lehorgasztva, óvatos medve-léptekkel ment
                   végig a sötét folyosón, hogy hideg agglegény-
@@ -2266,15 +2237,12 @@
                   francia asszonyok szokták
                felkeresni a titokzatos Lecocq urat.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A szemfüles Schuck úr levele.
             </head>
-            <p>
+				<p>
                Schuck úrnak kétszobás lakása és tiz egészséges gyereke volt a
                   Bodzafa-utcában, de ez a körülmény nem akadályozta meg abban, hogy viruló
                   életkedvvel törje magát naphosszat a dolgai után s este olyan jókedvvel feküdjék
@@ -2288,14 +2256,14 @@
                étkrajcáros preferánc-partiet elveszített volna az országúti
                   kávéházban.
             </p>
-            <p>
+				<p>
                - A pénz csak arra jó, hogy az embereket megbolondítsa, - mondta
                   jókedvűen Schuck úr, ha két forintnyi vagyonát, lefekvés előtt, a feleségének
                   átadta. És kulcsait, zsebkését, viharvert
                 noteszét a vánkosa alá rakva, ötven év óta mindennap a boldog
                   holnapról álmodott, mely végre majd minden reménységét valóra váltja.
             </p>
-            <p>
+				<p>
                Hogy Schuck úr mivel kereste meg a kenyeret, melylyel egy tucat éhes
                   szájat betömött naponkint? A jó isten tudja. Néha fűszeres-ügynök volt, néha
                   házakat közvetített, néha boltokat adott el vagy furfangos adósokat egyeztetett ki
@@ -2312,7 +2280,7 @@
                   tudhatja a halandó, hogy melyik az a hely a földön, ahol végre a szerencséjét
                   megtalálhatja.
             </p>
-            <p>
+				<p>
                Ez volt tehát az a d
                erék ember, akit az öreg Mihály a puhatolózásra kiszemelt; és Schuck
                   úr - mint ahogy várni is lehetett tőle, - csakhamar megfelelt a beléje helyezett
@@ -2333,13 +2301,13 @@
                   megfigyelje; egy hét mulva oly biztos az eredmény, mint amily biztos, hogy a nap
                   Cinkota felől indul útjára a pesti bérházak felé.
             </p>
-            <p>
+				<p>
                És csakugyan, hét nap se telt még el, amikor - Viktorral maj
                dnem egyidejűleg, - a Schuck úr részletes levele is szerencsésen
                   megérkezett a “Kék elefánt”-hoz. A tömeges családapa szó szerint a következőket
                   írta:
             </p>
-            <p>
+				<p>
                “Tisztelt és igen kedves barátomuram, tegnap, késő este, kaptam
                   jelentést a szóban forgó férfiútól és sietek továbbítani az adatokat, melyek
                   aligha lesznek alkalmasak rá, hogy barátomuram aggódó szívét megnyugtassák. A
@@ -2351,11 +2319,11 @@
                   tőlem ugyancsak nem volna illendő, hogy a mások családi ügyei felől véleményt
                   nyilvánítsak.
             </p>
-            <p>
+				<p>
                Tehát íme a b
                űnlajstrom, melyet a híres és százkezű Kovacsóczy kiderített:
             </p>
-            <p>
+				<p>
                1. Nevezett délfelé ébredt az előkelő “Angol királynő”-ben, sietve
                   megebédelt a “Zenélő órá”-ban, aztán átsietett a Sebestyén-téri “Török
                   császár”-ba, melynek udvari szobácskájában már öt-hat gyanús alak várakozott rá.
@@ -2372,7 +2340,7 @@
                   rövidlejáratú váltóval törlesztette. A pincér látta, amikor a báró és cinkostársai
                   később egy félreeső helyen osztoztak a nyereségen.
             </p>
-            <p>
+				<p>
                2. Vacsora előtt Viktor úr nagyot aludt, amire - mint az későbbiekből
                   kiderűl, - égető szüksége volt, mert gyönge szervezete a folytonos devernyát
                   különben aligha birta volna. Nyolckor azonban Johann, az “Angol királynő”
@@ -2423,7 +2391,7 @@
                   gyakran jár ide s németül beszél a művészekkel és a pincérekkel, mert a parlagi
                   magyar nyelvet itt igazi úriember nem igen kultiválja.
             </p>
-            <p>
+				<p>
                Viktor úr - mint tisztelt barátomuram most már alk
                almasint sejti, - itt tölti minden estéjét a “Kék macská”-ban,
                   francia pezsgőbort iszik a barátaival (akikkel szintén itt ismerkedik össze) s
@@ -2441,7 +2409,7 @@
                   piacon, mikor végre, némil
                eg tántorogva, a szállodájába megérkezik...
             </p>
-            <p>
+				<p>
                Kegyed előtt, tisztelt barátomuram, talán fölöslegesnek tetszik ez a
                   bibliai szóáradat, de én mégis szükségesnek tartom, hogy elmondjam, hiszen a
                   szemfüles Kovacsóczy vizsgálódásait csak így fogja megérteni. Nagyrabecsült
@@ -2457,11 +2425,11 @@
                em pusztul. Mindazonáltal jó lesz résen lenni; a tudósok följegyzései
                   szerint ugyanis vannak férfiak, akik késő aggságukig fiatalok maradnak.
             </p>
-            <p>
+				<p>
                Magamat tisztelt barátomuram kipróbált gráciájába ajánlom és maradok
                   csekély szolgája - Schuck Naphtali.”
             </p>
-            <p>
+				<p>
                Mihály a
                z irodában olvasta el a hosszú levelet, még pedig Viktor öcscse
                   jelenlétében; de bár a keze és ajka reszketett a fölindulástól, oly csodálatos
@@ -2472,14 +2440,14 @@
                   Este, amikor Mihály az ebédlő felé besurrant, Micike suttogva megkérdezte a sötét
                   folyosón:
             </p>
-            <p>
+				<p>
                - Még semmi hír, vén pajtás, Schuck urtól?
             </p>
-            <p>
+				<p>
                - Semmi, - mondta Mihály és vastag bajuszát legényesen megsodorta. -
                   Ezek a pesti ágensek még a kerti csigabigáknál is lassúbbak...
             </p>
-            <p>
+				<p>
                Ez estén nem sok időt töltöttek a muzsikáló óra birodalmában, mert
                   Viktor már az asztal fölött elbóbiskolt s a jólelkű Micike maga is élethűen
                   szimulálni kezdte az álmosságot, hogy fáradt uracskája mielőbb az ágyba
@@ -2488,40 +2456,37 @@
                ele fölött; aztán egy képzeletbeli személyhez intézve szavait, halkan
                   így szólott az éjszaka magányosságában:
             </p>
-            <p>
+				<p>
                - Öreg és vastagnyakú filiszter, aki keresztet vetettél egy festett
                   nőszemély láttára s aki tizenegy órakor csak akkor voltál ébren, amikor a gólya a
                   sárga házban látogatást tett, tudsz-e vajjon a drágalátos fiad kalandjai felől? És
                   ha tudsz, nyugodtan fekszel-e sírodban, ahova félszázados, nehéz munka után
                   megtértél?
             </p>
-            <p>
+				<p>
                Senkise szólt, odakünn egy teremtett lélek se járt az utcán, a
                   segédek és inasok mélyen horkoltak az udvari traktusban, - és a vén Mihály mégis
                   úgy képzelte, hogy egy öreges gordonkahang szól hozzá a mennyezetes boltozaton
                   keresztül. Ezt mondta:
             </p>
-            <p>
+				<p>
                - Te vagy a családfő és téged teszlek felelőssé minden könycseppért,
                   amit ez az édes szőkeség
                 elhullat...
             </p>
-            <p>
+				<p>
                Mihály lefeküdt s magára húzta a paplant s ekkor világosan hallotta,
                   hogy két nehéz csizma dobogó lépésekkel megy végig a keskeny falépcsőn, mely az
                   emeletről az udvarra vezetett. És a vén legény esküt tett volna rá, hogy a megholt
                   édesapja lé
                péseit hallotta...
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Micike rémeket lát.
             </head>
-            <p>
+				<p>
                A békés, házi istenek, akik ötven év óta láthatatlanul lebegtek a
                   “Kék elefánt” tűzhelye fölött, egy tavaszi napon, mintha búcsút mondtak volna a
                   vén háznak: zord és embergyűlölő hangulat költözött a kicsike szobákra és a
@@ -2553,12 +2518,12 @@
                   latban, ridegen elutasított minden kölcsönkérőt; mert csak a léha emberek
                   vetemednek afelé könnyelműségre, hogy idegen pénzzel segítsenek magukon.
             </p>
-            <p>
+				<p>
                - Mi történt veled, oh aggastyánok legvénebbje? - kérdezte olykor a
                   hófehér Micike, ha vacsora után, rendes szokás szerint, ismét egyedül maradtak a
                   néhai Szebenyi cserépkályhája mellett.
             </p>
-            <p>
+				<p>
                Mihály, sűrű köhögés közt jelentette ki, hogy az üzletmenet millió
                   panaszra ad okot; a pesti nagykereskedők szemérmetlenül emelik a fűszerszámok
                   árát, a falusi vevők nem váltják be kötelezettségeiket s néhány régi boltos, aki
@@ -2566,24 +2531,24 @@
                   fizetéseit. Te talán ugrándoznál örömödben lelkecském, ha örökél
                etedben csalókkal és uzsorásokkal volna dolgod?
             </p>
-            <p>
+				<p>
                Micike szelíden bólintott, de az őszinte gyerekszeme rögtön elárulta,
                   hogy nem hisz az álnok sógor szavaiban.
             </p>
-            <p>
+				<p>
                - Rossz Mihály, nem mondasz igazat s én azt hiszem, te vagy a
                   legnagyobb csaló! Megálmodtam, hogy
                 valami nagy szőrnyűséget titkolsz előttem, az álmaimban pedig
                   kicsike gyermekkorom óta mindig hittem. Mered mondani, hogy még nem kaptál választ
                   a pesti Lecocqtól?
             </p>
-            <p>
+				<p>
                Mihály oly vörös lett, mint a cékla az asztalon heverő
                   porcellánkagylóban, újabb és még he
                vesebb köhögési roham fogta el, de aztán magához tért és öregesen
                   elnevette magát, miközben zavartan babrált a kék kaftánja zsinórával.
             </p>
-            <p>
+				<p>
                - Kis pajtás, dobd a sutba az álmoskönyvedet, mert biztosítlak róla,
                   hogy tizenhárompróbás kontár írta. Hogy jut eszedbe
                 afelé csacsiság, hogy a híres Lecocq már végzett volna a
@@ -2595,14 +2560,14 @@
                   fogadni, hogy hetvenéves korára épp olyan szigorú emberré lesz, akár az
                   édesapánk?
             </p>
-            <p>
+				<p>
                Micike lehajtotta szöszke
                 lányfejét, reszkető kezecskéi elfogultan játszani kezdtek a kis
                   csemegevillával, de a szeme mélylyé és könyessé lett, mintha az élet, rettentő
                   szárnycsapásaival, egyszerre verdesni kezdené a rózsás arcát, mely édes és finom
                   volt, mint egy májusi hajnal.
             </p>
-            <p>
+				<p>
                - Oh, Mihály, lehet, hogy szigorú vénemberré lesz valaha, hogy
                   vagyont gyűjt és rheumásan fog valaha nyögdécselni a meleg kályha mellett, az is
                   lehet, hogy almát fog sütni egyszer az unokáinak, de hogy most gonoszul bánik
@@ -2621,7 +2586,7 @@
                 Oh, vén pajtás, meglátod, hogy sírni fogok, épp úgy sírni fogok,
                   mint bébé-koromban, mikor az édesapámat elvették tőlem...
             </p>
-            <p>
+				<p>
                Mihály, akinek gyermekmetszésű plébános-arca gyanusan vonaglani
                   kezdett, gúnyosan annak a nézetének adott kifejezést, hogy az éretlen kisdedeket
                   dadóba kellene küldeni, ahelyett, hogy könnyelműen férjhez adják őket, de a tréfa
@@ -2635,7 +2600,7 @@
                ó
                , jószívű édesanyja helyét.
             </p>
-            <p>
+				<p>
                - Mihály, - mondta a gyermek ijesztő határozottsággal, - attól
                   tartok, meg fogsz győződni róla, hogy nem vagyok pólyásbaba. Játékszer, engedelmes
                   kislány vagyok, ha jól bánnak velem, cica módján húzódom meg a felnőttek lábainál,
@@ -2646,10 +2611,10 @@
                g
                y megrontom az életét, ahogy ő az enyémet megrontotta.
             </p>
-            <p>
+				<p>
                - Elválnál tőle, vagy mérget kevernél az életébe?
             </p>
-            <p>
+				<p>
                - Nem tudom még, hogy mit tennék, de nem nyugodnám meg a sorsomban és
                   talán kísértetként járnék ebben az öreg házban, hogy a boldogságomat számon
                   kérj
@@ -2661,7 +2626,7 @@
                nosz és könnyelmű asszony is lehetne valamikor a kis
                   pajtásodból?
             </p>
-            <p>
+				<p>
                Mihály nem felelt, az idegen hang elfojtott benne minden tréfálkozó
                   kedvet s az édes tekintetű, mosolygó kis fehér jelenség egyszerre szenvedő és
                   fáradt asszonnyá lett a szemében, aki egy libbenéssel kilépett a gyermekszoba
@@ -2677,19 +2642,19 @@
                   gondolt volna. Oh, kicsike tündér, bóbiskolsz-e te is itt valaha fehér hajjal,
                   mint az áldott matróna, aki a becsületes ura mellett megöregedett?
             </p>
-            <p>
+				<p>
                Mihály azonban nem árulta el gondolatait, hanem
                furfangosan összehúzta kék kaftánját és álmosságot szimulálva, búcsút
                   vett a fehér gyermektől, aki még mindig mereven és szótlanul bámult az asztali
                   lámpa világába. És gügyögve szólt, mint az apa, aki félénk gyermekét
                   babusgatja:
             </p>
-            <p>
+				<p>
                - Feküdj le és álmodj vala
                mi szépet, hogy holnapra a rossz gondolataid kirepüljenek a
                   fejecskédből...
             </p>
-            <p>
+				<p>
                Mihály legénytanyája homályos és hideg volt, mert a kályhában a
                   koratavaszi estéken nem fütöttek többé. És Mihály még se fázott, bár itt minden
                   valami jeges hidegséget árasztott ki
@@ -2725,7 +2690,7 @@
                nokságától és örökké csak a boszútálló asszony szenvedélyességében
                   fogja maga előtt látni hófehér kis pajtásának alakját.
             </p>
-            <p>
+				<p>
                Mihály az éjjel nyugtalanul aludt és oly korán ébredt, hogy még a
                   háziszolga udvari rekeszét is zárva találta. Hosszú gyalogsétát tet
                t a sötét utcákon, hatkor maga nyította föl a boltot s a délelőtt
@@ -2752,15 +2717,12 @@
                   rejtélyes, idegen asszony, akinek pillantására hideg futott át a hátán s
                   ismeretlen szenzációk sejtelme lebegett a régi muzsikáló óra fölött.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                A madárka kirepül a fészekből.
             </head>
-            <p>
+				<p>
                Mihály, aho
                gy a lassan döcögő pesti vonat fülkéjében körülnézett, egy pillanatig
                   zavartan dörzsölte meg homlokának azt a részét, mely nehéz prémes sipkája alól
@@ -2781,43 +2743,43 @@
                   ezidőtájt még a gyermekek boldog álmát szokta aludni az emeletes sárga
                   házban...
             </p>
-            <p>
+				<p>
                Hogy kerültek a vén ház remeté
                i a nagyokat fujtató, kőszénfüstös, pesti vonatba?
             </p>
-            <p>
+				<p>
                Mihály hátravetette otromba fejét és még egyszer visszagondolt a
                   tegnapi éjszaka eseményeire: a kettesben elköltött vacsorára, a hallgatás hosszú
                   perceire, a bőre szabott vörös pongyolára, mely egy darabig izgatottan sűrgölődött
                   az ebédlő nippjei között, hogy aztán egyszerre csak királynői pózban álljon meg a
                   bóbiskoló vén legény előtt.
             </p>
-            <p>
+				<p>
                - Tudod-e, mi ujság, öreg Mihály, - kérdezte oly rejtelmes és
                   talányszerű arccal, mintha a legfontosabb államtitkokat f
                orgatná a fejében.
             </p>
-            <p>
+				<p>
                - Micsoda, szivecském?
             </p>
-            <p>
+				<p>
                - Az, vén pajtás, hogy a hajnali vonattal Pestre megyek az uram után.
                   Ne ellenkezz, mert már mindenem be van csomagolva és ha rendőrökkel vigyáztatnál
                   rám, még akkor is megszökném. Délre isten segítségével Pesten
                leszek és bizonyos lehetsz benne, hogy jobban ki fogok deríteni
                   mindent, mint a te szemfüles Schuck mestered...
             </p>
-            <p>
+				<p>
                - Angyalkám, azt hiszem, hogy megőrültél! - kiáltott föl a megdöbbent
                   Mihály, miközben zsebkendőjével a homlokán kiütött verejtéket letörölte.
             </p>
-            <p>
+				<p>
                M
                icike azonban szelíden megcsóválta szőke fejecskéjét és szemében
                   valami furcsa és ijesztő láng gyulladt ki, melyhez hasonlót az öreg Mihály még
                   sohase látott.
             </p>
-            <p>
+				<p>
                - Nem, nagy pólyásgyermek, nem őrültem meg, sőt inkább azt hiszem,
                   hogy csak most jött meg igazán az eszem. Mi értelme volt annak, hogy kékszalagos,
                   ártatlan babuska módjára éljem végig az életemet? Rég kinőttem a gyermekcipőkből,
@@ -2826,7 +2788,7 @@
                ni fogom, hogy mi van az urammal - és nincs az a hatalom a földön,
                   amely az eltökélt szándékomtól eltérítene...
             </p>
-            <p>
+				<p>
                Mihály most összeszedte, ami kis sütnivalója volt és igyekezett
                   okosan beszélni a fölizgatott gyermekkel; mi célja volna a pesti útnak, mikor
                   még
@@ -2842,7 +2804,7 @@
                 sárga házba és egész életedben síratni fogod, hogy a süldőlány
                   fejeddel ilyen ostobaságra elszántad magad...
             </p>
-            <p>
+				<p>
                Oh, jámbor Mihály, hol láttál volna te féltékeny és szerelmes
                   asszonyokat? Honnan ismerted volna a furcsa kis teremtések szivét, akik tegnap még
                   a
@@ -2858,7 +2820,7 @@
                t s egy éjszaka alatt boszúálló asszonyokká változtatja a kicsikéket,
                   akik az imént még kifestett arcú Pierretteket szorítottak a szívükre...
             </p>
-            <p>
+				<p>
                - Oh, földre szállott ártatlanság, miért fáradnál hiába, mikor semmit
                   se érsz vele? (mondta szomorú mosolygással Mi
                cike, mikor Mihály végre befejezte előadását.) Ha jégeső is esik, ha
@@ -2869,7 +2831,7 @@
                 és akasztófával fenyegettem, ha távollétem alatt hűségesen a
                   gondodat nem viseli.
             </p>
-            <p>
+				<p>
                Mit lehet tenni az ilyen határozott kijelentés ellen? Mihály
                   átballagott a szobájába és maga is becsomagolta tehénbőrös ládáját, mely sok év
                   óta porosan állott a szekrény tetején; és a nedves hajnali időben sóhajtva
@@ -2878,13 +2840,13 @@
                   Pestre kísérje; de a vén legény furfangosan csípt
                etett a szemével és így szólott:
             </p>
-            <p>
+				<p>
                - Már kis pajtás, abba senki se szólhat bele, hogy egy felnőtt férfi
                   hova utazzék! A vasút engem is elvisz, ha az útipénzt megfizetem, - nekem pedig
                   most úgy tetszik, hogy fölrándulok abba a Bábelbe. Ha kifogásod van ellene,
                 hát nem bánom, maradj itthon!
             </p>
-            <p>
+				<p>
                Igy szólt a vén Mihály és fejébe húzta az édesapja báránybőrsipkáját
                   és a vonat a vizes sötétségben kicammogott a hazai hegyek közül. Hangos hídak és
                   ijesztő szakadékok, magányos lámpák és hóval végig szitált emberek maradtak el
@@ -2898,31 +2860,31 @@
                   ékesítette. Oh, vajjon ki hallja most a csilingelő gavotte-ot, mely néhai
                   édesapját álomba ringatta valaha?...
             </p>
-            <p>
+				<p>
                D
                élben megérkeztek a budai pályaudvarba és Mihály, nehéz bundájában,
                   kiemelte sógornőjét a kupéból. E pillanatban egy öreg medvéhez hasonlított, mely
                   fehér szárnyú pillangót tart a mancsai között.
             </p>
-            <p>
+				<p>
                - Természetesen az “Angol királynő”-be szállunk, ahol az ura
                d lakik, - mondta a harminckétéves öreg ember, aki úgy szuszogott,
                   mintha kis utitársa a panorámabeli kövér hölgy lett volna.
             </p>
-            <p>
+				<p>
                Micike egy furcsa mozdulattal felelt, amelyet valószinüleg még a
                   kolostori játszóteremben tanult; hüvelykujját a gyürű- és mutatóujja közé dugta s
                   így bökdöste vele a verejtékező vén legény felé, akit láthatólag elkápráztatott
                   kissé a nagyváros levegője.
             </p>
-            <p>
+				<p>
                - Ezt szállunk az “Angol királynő”-be, ezt csacsi Mihály, - van jó
                   dolgom, hogy a titkos terveimet eláruljam előtte! Itt maradunk Budán, a “Fehér
                   farkas”-ban s csak este megyünk át, mikor a párisi Lecocq módjára kényelmesen
                   barangolhatunk a sötét utcákon. Oh, Mihály, valld be őszintén, hogy éhenhalnál, ha
                   véletlenül detektivnek születtél volna!
             </p>
-            <p>
+				<p>
                Mihály lehorgasztotta a fejét, ami körü
                lbelül fölért egy hasonló vallomással, aztán megtörten elballagott
                   útitársával a “Fehér farkas”-ba, ahol egy ingujjas legény két hideg szobát nyitott
@@ -2955,25 +2917,25 @@
                   hidegből, mely most a szomorú le
                lkükre nehezedett?
             </p>
-            <p>
+				<p>
                Micike délután visszavonult a “Fehér farkas” szobájába, Mihály pedig,
                   titokzatos ügyleteket emlegetve, nekiindult hócipőjében a városnak, miután
                   ünnepiesen kijelentette, hogy a sötétség beálltával visszatér a budai
                   szállodába.
             </p>
-            <p>
+				<p>
                - Nem fogsz
                 addig unatkozni, kis szivem? - kérdezte egy áhitatos kézcsók után,
                   melylyel a lépcsőházban a prémekbe burkolt asszonykától elbúcsúzott.
             </p>
-            <p>
+				<p>
                Micike rejtelmesen vállat vont: oh, egyéb dolog is lesz itt, semhogy
                   az unatkozásra idő kerülne! Sohase hallottál még, öreg Mihály a hadvezérekről,
                   akik órákig dolgoznak egy ötletes és meglepő haditerven? Azt hiszem, még rövid is
                   lesz a hosszú délután, hogy a haditervemet kedvem szerint kidolgozhassam
                   estéig...
             </p>
-            <p>
+				<p>
                A ravasz Mihály megértőleg bólintott, aztán alamuszi mosolylyal kelt
                   útra a szellős hidon át, mert a lelkében agyafurt plánumokat rejtegetett. A vén
                   Mihálynak meg volt a magához való esze; hogyne gondolt volna hát arra a furfangra,
@@ -2983,27 +2945,27 @@
                   szobájában s boldogan, de álomporral a szemében borul drága kis detektivje
                   nyakába, ha egy finom kezecske kopogása a pihenésében megzavarja.
             </p>
-            <p>
+				<p>
                A szállodában azonban a portás sajnálkozó arckifejezéssel
                   fogadta:
             </p>
-            <p>
+				<p>
                - Szebenyi úr már délben elment és alig is jön vissza este tiz óra
                   előtt. Sőt akkor se bizonyos, mert mostanában csak hajnal felé szokott hazatérni.
                   Ha a tekintetes úr netalán írásbeli üzenetet hagyna neki...
             </p>
-            <p>
+				<p>
                - Igen, igen, az lesz a legjobb, ha írok neki,
                - mondta megnyugodva a vén Mihály és nagy ákombákomjaival a következő
                   levelet hagyta hátra könnyelmű öcscse számára:
             </p>
-            <p>
+				<p>
                “Vigyázz, sehova se menj, mert Micike Pestre jött, hogy kémkedjék
                   utánad. Legjobb, ha tizkor lefekszel s a személyzetnek is meghagyod, hogy
                 ne fecsegjen fölösleges dolgot. A többit majd élő szóval mondja el -
                   vén és bánatos bátyád: Szebenyi Mihály.”
             </p>
-            <p>
+				<p>
                A Viktor vén és bánatos bátyja a levelet egy ezüsthuszas kíséretében
                   adta át a medvebundás portásnak, aztán - egyéb dolga se lévén, - elnézett a
                nagykereskedőkhöz a Lipótvárosba, hogy a fogyatékos fűszerszámok után
@@ -3026,7 +2988,7 @@
                   mintha drága és ostoba cicak
                ölykecskék lennének...
             </p>
-            <p>
+				<p>
                Mihály fütyürészve ment föl a “Fehér farkas” sörszagú lépcsőin és
                   halkan megkopogtatta a Micike ajtaját; a kopogtatásra azonban senki se felelt. Ez
                   a némaság azt a gyanút keltette benne, hogy sógornője elaludt a fáradságtól; de
@@ -3035,16 +2997,16 @@
                   ekkor a kilincsre tette a kezét, óvatosan belépett a szobába és elérzékenyülve így
                   szólott a sötétben:
             </p>
-            <p>
+				<p>
                - Lusta Micike, ébredj, mert este van!
             </p>
-            <p>
+				<p>
                Senki se felelt és Mihály meggyújtotta a gyertyát
                : a szobában nem volt élőlény, csak egy összegyürt vörös pongyola
                   hevert hanyagul a szék támláján. Az asztalon azonban óriási papírlap feküdt,
                   melyről Mihály félhangosan olvasta a következő üzenetet:
             </p>
-            <p>
+				<p>
                “Egyedül mentem el, vén pajtás, mert a haditervem szerin
                t nincs rád szükségem; nagyon is puhaszívű gyermek vagy ahhoz, hogy
                   ilyen agyafurt detektiv-munkát végezni tudnál. Ne félts engem, épen fogok
@@ -3055,7 +3017,7 @@
                   le nyugodtan, öreg pajtás, és miattam ne aggódj egy picurkát se; akármilyen későn
                   jönnék is, bezörgetek hozzád és mindent elmesélek.”
             </p>
-            <p>
+				<p>
                Ennyi volt, se több, se kevesebb - és a vén Mihály ú
                gy érezte, mintha hirtelen fejbevágták volna. Micike, hófehér
                   Micikéje, egyedül kóborol a nagyváros éjszakájában! Egy percig megtántorodott és a
@@ -3063,18 +3025,15 @@
                   köveit egy hirtelen földindulá
                s megrázta volna.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Ut a pesti éjszakába.
             </head>
-            <p>
+				<p>
                Micike elindult a pesti éjszakába.
             </p>
-            <p>
+				<p>
                Eső esett és köd ült a budai házakon; a szélben öreg rézkakasok
                   csikorogtak és a folyam felől hideg hószilánkok röpködtek az arcába, melyet sűrű
                   fátyol takart, mint a Sue Jenő párisi hősnőiét, akik lopva suhannak a titokzatos
@@ -3083,18 +3042,18 @@
                   lámpák közt tompán morajlottak a sötét víz ha
                bjai, melyek távoli országok felé siettek.
             </p>
-            <p>
+				<p>
                Micike összehúzta prémgallérját és tipegve indult neki az ismeretlen
                   éjszakának, mely a szerelmesét elragadta tőle.
             </p>
-            <p>
+				<p>
                Vékony lakktopánkája átázott a vizes járdán, haja felborzolódott az
                   esti szélben, a köd tüdejére f
                eküdt, mintha fojtogatni akarná, de Micike bátran és sietve haladt a
                   félelmetes árnyékok között, melyek az éjszaka feketeségéből integettek
                   feléje.
             </p>
-            <p>
+				<p>
                Kicsike korában nem mert kimenni a sötét udvarra és az ajka
                   elfehéredett félelmében, ha egy magányos szobába
                n egyedül volt; az éj csöndessége megdobogtatta a szivét, a kopasz
@@ -3103,10 +3062,10 @@
                   előre, mintha az álmok rejt
                elmes ösvényeit járná...
             </p>
-            <p>
+				<p>
                Micike útrakelt, hogy az urát feltalálja.
             </p>
-            <p>
+				<p>
                Tegnap még hátitáskás iskolásleány volt, aki az ujját szopogtatva ül
                   pirosléniás irkája fölött; tegnap még japáni lepke módjára hevert a puha szőnyegen
                   vagy kékpántlikás cicácskája volt a komoly felnőtteknek, aki hízelkedve duruzsol a
@@ -3117,11 +3076,11 @@
                sban, amelyről eddig csak a kölcsönkönyvtári regényeiben
                   olvasott.
             </p>
-            <p>
+				<p>
                A kékszemű, főkötős, francia bábú eleven és lángoló vérű asszonynyá
                   változott egy átvirrasztott éjszaka alatt.
             </p>
-            <p>
+				<p>
                A híd megdobogott cipőcskéje alatt és a sötét vízben szép titokzatos
                   lámpacsillag reszketett; egy kísértet - a vámszedő - kinyújtotta feléje hosszú
                   karját és ismét beleveszett az éjszaka kárpítjaiba. Valaki melléje szegődött és
@@ -3131,7 +3090,7 @@
                orsan és álmadozva sietett tova, mint a lunátikus, aki a holdvilágban
                   uszó háztetőkön jár.
             </p>
-            <p>
+				<p>
                Mikor a híd közepére ért, megszakadt az esti köd és csillogó, ezüstös
                   fátyolszövet lebegett a halkan morajló folyam fölött. A sötét vizet sárga
                   tűzpontocskák szegélyezték és zöld meg piros hajólámpások égtek a láncravert
@@ -3140,11 +3099,11 @@
                   gyermekkori képeskönyveiben olvasott v
                alaha.
             </p>
-            <p>
+				<p>
                Micike megállt a híd karfáján és belebámult a jéghideg vízbe, mely
                   hókirálynőhöz hasonló alakocskáját visszatükrözte.
             </p>
-            <p>
+				<p>
                Hogy került ide a fekete rémségek közé, melyek karjaikat mindenünnen
                   kinyújtják feléje? Mi történt vele, hogy ilyen egyedül és elhag
                yatva áll a titokzatos víz fölött, melynek zúgása még a vért is
@@ -3156,55 +3115,55 @@
                   az emeletes sárga ház lámpavilágát, mely Szebenyi néni fehér haját glóriába fonta
                   valamikor?
             </p>
-            <p>
+				<p>
                Micike kiha
                jolt a híd karfáján és tűnődve nézte a sötét vizet, mintha ott
                   keresne választ a kérdésére; és ekkor egyszerre gyáva és remegő sírásra tört ki,
                   mint a gyermek, akit a gonosz felnőttek egyedül hagytak.
             </p>
-            <p>
+				<p>
                Valaki - a mesék óriásának látszott és csillogó ezüstsüveget viselt a
                   fején - most hirtelen megszólította:
             </p>
-            <p>
+				<p>
                - Teringettét, kisasszonyka, csak nem gondol talán arra, hogy a vízbe
                   ugorjék?
             </p>
-            <p>
+				<p>
                Zord, köpönyeges férfiú állott előtte, akinek vastag bajuszán apró
                   hócsillagocskák fénylettek. Micike annyira megrémült, hogy
                 ijedtében még a szíve dobogása is megszünt egy pillanatig.
             </p>
-            <p>
+				<p>
                - Bántotta valaki, szegény kisasszonyka? - folytatta jószívűen a
                   köpönyeges férfiú. - Vagy idegen és talán eltévedt Pest városában? Akarja, hogy
                   kocsiért fütyöljek, mely a lakására hazaviszi?
             </p>
-            <p>
+				<p>
                - Nem, én nem akarok a lakásomra menni! - mondta Micike, aki végre
                   összeszedte magát annyira, hogy válaszolni tudjon.
             </p>
-            <p>
+				<p>
                Az ezüstsisakos férfi megtörölte a bajuszát és a hócsillagocskák
                   szétoszlottak a semmiségbe.
             </p>
-            <p>
+				<p>
                - Hát hova akar menni, ha nem haza? A magához ha
                sonló kisasszonykák nem szoktak az utcán járni késő este! Talán a
                   mamácskájával szólalkozott össze, hogy így egyedül kóborol a sötét
                   éjszakában?
             </p>
-            <p>
+				<p>
                Micike halvány arcocskáján, melynek színe csak alig tért el a prémje
                   fehérségétől, szelid és félénk mosolygás j
                elent meg.
             </p>
-            <p>
+				<p>
                - Kérem, én nem vagyok kisasszonyka, én férjes asszony vagyok s
                   félórával ezelőtt érkeztem meg a budai pályaházba. Éppen amiatt járok most itt,
                   hogy az uramat a szállodában felkeressem.
             </p>
-            <p>
+				<p>
                - Micsoda, maga ezzel a pofácskával férjes asszony? Tudja,
                 hogy bűntettet követ el, ha a rendőrséget félrevezeti? Húsz éve
                   posztolok itt a Lánchídon, de ilyen kislányképű férjes asszony még sohase került
@@ -3213,37 +3172,37 @@
                t
                ék, mikor a befőttes üvegeket megdézsmálta?
             </p>
-            <p>
+				<p>
                Micike megrázta prémes kucsmáját, mely alól kiszabadultak a nedves,
                   szőke hajfürtjei s kék szemeit oly megindító őszinteséggel szegezte a rendőrre,
                   hogy a komor férfiú egyszerre frontot változtatott.
             </p>
-            <p>
+				<p>
                - És melyik az a szálloda, ahol a kisasszonyka férje lakik?
             </p>
-            <p>
+				<p>
                - Az Angol királynő.
             </p>
-            <p>
+				<p>
                - Tudja, hogy merre van az Angol királynő?
             </p>
-            <p>
+				<p>
                - Nem tudom, mert most járok legelőször Pest városában.
             </p>
-            <p>
+				<p>
                - Akkor jöjjön velem, kisasszonyka a híd végéig, majd ott megmutatom,
                   hogy merre menjen. De hajtsa föl szívem a prémgallérját a nyakára, ha azt nem
                   akarja, hogy reggelre mandulagyuladással ébredjen!
             </p>
-            <p>
+				<p>
                A jószívű rendőr lovagiasan hozzászegődött a kis nőcskéhez, s mialatt
                   a szellős hídon végigkísérte, halkan ezt dörmögte a bajuszába:
             </p>
-            <p>
+				<p>
                - Be kellene csukatni azt az apát, aki az ilyen ártatlan
                   gyermekleányt férjhez adja!
             </p>
-            <p>
+				<p>
                A pesti oldalon a rendőr körülményesen megmagyarázta az Angol
                   királynő felé vezető útat és Micike most már ismét egyedül folytatta útját a
                   homályos folyam partján. Mikor a szálloda elé ért, egy kis zsebtükörből gondosan
@@ -3253,42 +3212,42 @@
                még London leghíresebb detektívje is bízvást elhitte volna neki, hogy
                   férjes asszony.
             </p>
-            <p>
+				<p>
                A csöngetésre egy mexikói szakállas, medvebőrbe öltözött aggastyán
                   lépett elő a kivilágított szálloda csarnokából s kíváncsi pillantásokkal mérte
                   végig a prémekbe burkolt
                 kis teremtést, aki pisze orrocskáját merészen az ég felé
                   szegezte.
             </p>
-            <p>
+				<p>
                - Kegyed a portás? - kérdezte Micike, aki e pillanatban bátrabbnak
                   érezte magát Szent György lovagnál is, aki tudvalevőleg egy sárkánnyal
                   viaskodott.
             </p>
-            <p>
+				<p>
                - Szolgálatjára. Keresni tetszik valakit?
             </p>
-            <p>
+				<p>
                Micike mosolyogva bólintott és szeme megcsillant a fátyolszöveten
                   keresztül, mely rózsás arcocskáját eltakarta.
             </p>
-            <p>
+				<p>
                - Szebenyi Viktor urat keresem, aki sürgönylevelet küldött értem,
                   hogy a legelső vonattal Pestre jöjjek. Ő valószínűleg azt hiszi, hogy csak holnap
                   délben jöhetek, de én szerencsésen megcsiptem a délutáni postavonatot. Én t. i. a
                   barátnője vagyok Szebenyi úrnak, de a szülőim zsarnoksága miatt hat hónap óta nem
                   láthattuk egymást.
             </p>
-            <p>
+				<p>
                A medvebőrű aggastyán zavartan megvakarta állának azt a részét,
                   m
                elyet tekintélyes mexikói szakálla szabadon hagyott.
             </p>
-            <p>
+				<p>
                - Igen, csakhogy Szebenyi úr nincs ám itthon. Akarja a kisasszony,
                   hogy szobát nyissak, amig hazatér?
             </p>
-            <p>
+				<p>
                - Oh, tudom, hogy nincs itthon, hiszen megírta nekem, hogy most
                   hajnalig mulat bánatában mindennap. C
                sak miattam mulat, mert ő is épp úgy szeret engem, ahogy én őt s
@@ -3304,16 +3263,16 @@
                lkül értem jöhetsz!” Oh, édes, jó portás bácsi, tudna előteremteni
                   egy kocsit, amely a drágámhoz elröpítene engem?
             </p>
-            <p>
+				<p>
                Oly megindítóan kulcsolta össze kezecskéit, hogy az öreg ember szíve
                   majdnem elfacsarodott fájdalmában.
             </p>
-            <p>
+				<p>
                - Igen, hogyne kerítenék, hiszen nem vagyok vadállat. De maga akar
                   elmenni, kisasszony, arra a csúnya helyre? Nem volna okosabb, ha egy háziszolgát
                   küldenék érte s magácska addig kipihenné magát a meleg szobában?
             </p>
-            <p>
+				<p>
                - Nem, portás bácsi, ő azt kívánja, hogy én menjek érte s dehogy is
                   volna türel
                mem hozzá, hogy egyedül várakozzam rá. Tessék szíves lenni és
@@ -3321,7 +3280,7 @@
                   volt hozzám. Ne féljen, én úgyse megyek be sehova, majd a kocsis megsúgja neki,
                   hogy ki várakozik rá odakünn...
             </p>
-            <p>
+				<p>
                Az
                öreg ember - mit tehetett egyebet? - fejcsóválva elősípolt egy
                   fiakkert, Micike helyet foglalt a batár belsejében s a kocsis, miután a portás
@@ -3340,11 +3299,11 @@
                a hallatszott ki az utcára, a kövér kocsis leugrott a bakról s
                   kalapját megbillentve nyitotta ki a batár üvegajtaját.
             </p>
-            <p>
+				<p>
                - Hogy hívják azt az urat? - kérdezte Micikétől, aki még mindig
                   remegve kuporodott össze a fiakker mélyében.
             </p>
-            <p>
+				<p>
                Micike azonban - a tarka nyakk
                endős férfiú őszinte ijedelmére - semmitse válaszolt, hanem egy
                   ugrással, mely a vért szagolt tigrisre vagy párdúcra emlékeztetett, hirtelen
@@ -3367,11 +3326,11 @@
                t a füsttengerbe, melynek alakjai lassankint kibontakoztak
                   előtte...
             </p>
-            <p>
+				<p>
                - Suchen’s wen? - kérdezte most egy kocsisarcú pincér, akit az ajtó
                   nyitása a különös vendégre figyelmessé tett.
             </p>
-            <p>
+				<p>
                Micike úgy érezte, hogy megtántorodik: e pillanatban meglátta az
                   urát...
                Viktor a színpad előtt ült, céklavörös férfiak és rövidszoknyás
@@ -3382,11 +3341,11 @@
                űs kezével megcsipkedte a céda leány arcát, mely szinte fénylett a
                   festéktől és a rozspor hamvától...
             </p>
-            <p>
+				<p>
                - Gné Freil’n kummen’sz eini, oder gen’sz auszi! - mondta most
                   jókedvűen a kocsisarcú pincér, aki még mindig ott állt az ajtó mellett.
             </p>
-            <p>
+				<p>
                Micike nem felelt,
                - amúgy se értett a beszédből egyetlen szót se - hanem szédülve
                   kitámolygott a levegőre s öntudatlanul belevetette magát a künn várakozó batárba.
@@ -3410,15 +3369,12 @@
                ikor a Fehér farkas előtt az aggódó, öreg Mihály a kocsiból
                   kiemelte.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Mihály dadává lesz.
             </head>
-            <p>
+				<p>
                Micikének különös álmai voltak; úgy rémlett neki, hogy tajtékzó,
                   fehérfodros hullámok tetején jár, könnyű, deszkákból összerótt lélekvesztőben,
                   melylyel dühösen labdáznak az Óceán hullámai. A jeges víz, mely beláthatatlan
@@ -3440,28 +3396,28 @@
                lmalevéllel legyezgetni kezdi forró homlokát. A beduinban, mikor
                   jobban megnézte, a hűséges, aggódóan figyelő Mihályra ismert.
             </p>
-            <p>
+				<p>
                Micike fölnyította a szemét: az oázis, pálmáival és forrásaival,
                   egyszerre eltünt előle, a datolyafák
                 elvesztek a távol ködében,
                 de a beduin, törökös kaftánjában, most is ott állt az ágya
                   előtt.
             </p>
-            <p>
+				<p>
                - Te vagy? - kérdezte Micike oly halkan, mintha száz meg száz
                   pólyásbaba aludna körülötte, akiknek álma a legelső hangos szótól elröppen.
             </p>
-            <p>
+				<p>
                A kaftán megmozdult és egy nagy tenyér, melynek hűv
                össégéhez hasonlót még sohase érzett, szelíden odasímult a Micike
                   homlokához.
             </p>
-            <p>
+				<p>
                - Oh, kis pajtás, - mondta most egy dörmögő medvehang, - hát mégis
                   csak visszajöttél a sötétség országából? Mondd, nagyon megharagudnál, ha most
                   hirtelenében eljárnám itt a kállai kettőst?
             </p>
-            <p>
+				<p>
                Micike mosolygott, mint pólyáskorában, mikor a nap a függönyös
                   ágyacskájára sütött, átlátszó kezével odaszorította homlokához a Mihály otromba
                   tenyerét, aztán óvatosan körülnézett a szobában, ahol mélységes lázálmából
@@ -3477,46 +3433,46 @@
                   kiszínesedett valami belső melegségtől, zavaros gyermekszeme pedig ragyogni
                   kezdett, mint az indiai népmesék gyémántja.
             </p>
-            <p>
+				<p>
                - Itthon vagyok? - kérdezte susogva, miközben a könyökére dőlve az
                   ismerős
                hálószobában körülnézett.
             </p>
-            <p>
+				<p>
                Mihály megbólintotta hatalmas fejét, míg apró szemei serényen
                   pislogatni kezdtek.
             </p>
-            <p>
+				<p>
                - Itthon, kis pajtás!
             </p>
-            <p>
+				<p>
                - Az emeletes sárga házban?
             </p>
-            <p>
+				<p>
                - Ott, kicsikém.
             </p>
-            <p>
+				<p>
                - A kék elefánt odakünn áll az ablak előtt?
             </p>
-            <p>
+				<p>
                - Igen, szivecském, az öreg elefánt vigyáz rád!
             </p>
-            <p>
+				<p>
                - És nem engedi ide azt a borzasztó fehér farkast?
             </p>
-            <p>
+				<p>
                - Nem, nem, ettől már nyugodtan alhatsz!
             </p>
-            <p>
+				<p>
                - És csak álmodtam mindazt a rémséget, ami abban a rettenetes
                   nagyvárosban történt velem?
             </p>
-            <p>
+				<p>
                - Csak álmodtad lelkem, mert bizonyosan elfelejtetted tegnap
                   elmondani az esti imádat. A kicsi gyermekeknek imádkozni kell az ágyacskájukban,
                   mert különben a rossz szellemek rájuk szabadulnak!
             </p>
-            <p>
+				<p>
                Micike tágranyílt szemmel nézett körül, mint valaha, egy álomszerű,
                   régi világban, mikor kurtaujjas ingecskéjében az ebédutáni álmából fölébredt s az
                   elsötétített szobában éjszakának nézte a világos délutánt, vagy amikor először
@@ -3527,13 +3483,13 @@
                   szája széle, a teste megremegett s dideregve szólalt meg, mintha lázas álmai ismét
                   urrá lettek volna rajta:
             </p>
-            <p>
+				<p>
                - Vén pajtás, miért nem engedted meg, hogy sohase ébredjek föl többé?
                   Hát nem jobb lett volna, hogy örökre ott feküdjem az anyácskám mellett? Mi
                   keresnivalója van egy csipkeruhás gyermeknek a téli fagyban? Oh öreg Mihály,
                   takarj be jobban, mert annyira fázom, hogy a fogam is didereg bele!
             </p>
-            <p>
+				<p>
                Mihály most gyöngéden betakargatta és fejetcsóválva odaült az ágya
                   elé; aztán elmondta neki az ostoba meséket, amikkel őt valamikor, a hideg téli
                   estéken, álomba lulajgatták. Monoton hangja úgy duruzsolt a csöndes szobában, mint
@@ -3546,17 +3502,17 @@
                   a langyos tejecskét szopogatni szokják. Oly különös volt ez a látvány, hogy Micike
                   egyszerre hangosan elnevette magát.
             </p>
-            <p>
+				<p>
                - Oh szivecském, mennyivel jobb szeretem ezt, mintha ok nélkül
                   pity
                eregsz! - mondta Mihály, aki most úgy érezte, hogy mázsás kő szakadt
                   le a szivéről.
             </p>
-            <p>
+				<p>
                Micike még folyvást kacagott és újjacskáját odaillesztette az ajka
                   szélére.
             </p>
-            <p>
+				<p>
                - Megmondjam, hogy mi vagy, öreg pajtás? Nem komoly kereskedő vagy
                   te, nem telhetetlen pénzeszsák, vagy, hanem egy vén, ráncos arcú dada, egy drága,
                   jószívű, hűséges dada, akinek meleg viklerben meg sötét gyapjúfőkötőben kellene
@@ -3569,7 +3525,7 @@
                   szeretlek, mint valaha az éde
                sanyácskámat szerettem!
             </p>
-            <p>
+				<p>
                Mihály oly önérzetesen düllesztette ki a mellét, mintha a dadai
                   méltóság körülbelül egyenlő értékű volna a titkos tanácsossággal, aztán
                   szakértelmesen megigazgatta a Micike fejealját (ide tedd angyalkám a fejedet erre
@@ -3577,13 +3533,13 @@
                ltött vánkosra!) hogy aztán egyszerre szigorú ráncokba szedje a
                   homlokát.
             </p>
-            <p>
+				<p>
                - Most megfogod enni azt a tyúklevecskét, amit az öreg Bábi főzött a
                   számodra! Három napig feléd se nézek, ha csak egy kanálnyit is meghagysz belőle!
                   Tudod, hogy már olyan vézna vagy
                 megint, mint egy tizennégy éves kisleány?
             </p>
-            <p>
+				<p>
                Micike szepegve jelentette ki, hogy egy csöpp nem sok, de annyit se
                   tudna lenyelni a torkán, hogy már attól is rosszul lesz, ha valaki az ételt
                   emlegeti előtte, de Mihály fitymálva legyintett a vörös kezével és minden további
@@ -3603,7 +3559,7 @@
                   nem akarja megenni a
                 tápláló huslevecskét.
             </p>
-            <p>
+				<p>
                - Oh, öreg Mihály, ilyen maskarát még a képeskönyvekben se láttam!
                   Oly édes vagy, hogy megtudnálak csókolni, de inkább a huslevest eszem meg, mert
                   ezt - bizonyosan tudom - jobb szereted a csóknál. Mit gondolsz, nem facsarodnék el
@@ -3611,48 +3567,48 @@
                ttében a kék elefánt kőarca, ha ebben a farsangi maskarában
                   meglátna?
             </p>
-            <p>
+				<p>
                Mihály odaült az ágy szélére és megetette a sógornőjét, még a tányért
                   is a féloldalára bólintotta, csakhogy egy cseppecske is meg ne maradjon. Micike
                   aztán beleásta szőke fejét a peh
                elytollal megtöltött caprice-vánkosba, a szeme bágyadtan lecsukódott,
                   de nem aludt el, hanem halkan és kényeskedve szólott:
             </p>
-            <p>
+				<p>
                - És most meséld el nekem, hogy mi történt azóta, hogy a pesti
                   fiakkerből kiemeltél. Nagyon beteg voltam? Féltél, hogy sohase fogok
                 felébredni többé?
             </p>
-            <p>
+				<p>
                - Nem, szivem, az asszonyoknál nem jelent többet az ájulás, mint az,
                   ha az ujjacskájukat elmetszik.
             </p>
-            <p>
+				<p>
                - És hogyan tudtál elhozni ilyen eszméletlen állapotban?
             </p>
-            <p>
+				<p>
                - A pesti doktor velünk jött egész a “Kék elefánt”-ig.
             </p>
-            <p>
+				<p>
                - És... és... az uram nem tudta, hogy ilyen rosszul voltam?
             </p>
-            <p>
+				<p>
                Mihály összeszorította az ajkát, - kacagtatóan furcsa volt így a
                   babos fejkendőjével, - de sem ő, sem Micike nem kacagott többé.
             </p>
-            <p>
+				<p>
                - Az urad azt se tudta, hogy Pesten jártál! Ha Bábi nem árulkodik,
                   sohase fogja megtudni! Nem gondolod, hogy okosabb lesz, ha s
                ohase fog tudni erről a kirándulásról?
             </p>
-            <p>
+				<p>
                Micike végighordozta tekintetét a szoba mennyezetén, a szőnyeg
                   virágain és a fekete subládon, aztán halkan szólt:
             </p>
-            <p>
+				<p>
                - Okosabb lesz, Mihály!
             </p>
-            <p>
+				<p>
                A szemét lehúnyta és ismét megrázkódott kissé, mintha láz gyötörné:
                   pillantása
                most áthatolt a szoba falán, végigsíklott a messze országútakon és a
@@ -3667,16 +3623,16 @@
                   pesti éjszakában és csak nagysokára, dideregve és vacogó foggal tudta megkérdezni
                   az öreg Mihálytól:
             </p>
-            <p>
+				<p>
                - És az uram... az uram még most se jött haza?
             </p>
-            <p>
+				<p>
                - Nem lelkecském, még nem, de estére bizonyosan itthon lesz. Most
                   azonban a fal felé fogsz fordulni és szépen alszol egy-két órácskát, - erre talán
                   még nagyobb szükséged van, mint a huslevesre. Várj, elsötétítem a szobát, nehogy a
                   kiváncsi nap a szemedbe süssön!
             </p>
-            <p>
+				<p>
                Mihály lebocsátotta a függönyt, sokáig ide-oda tipegett a sötét
                   szobában, rakosgatott, rendezgetett, a tüzet igazgatta, lábújjhegyen odasurrant a
                   Micike ágyához és óvatosan betakargatta - és az álnok Micike hangosan
@@ -3695,15 +3651,12 @@
                   alak, aki a Bábi babos fejkendőjét köt
                ötte az idomtalan koponyája fölé.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Micike csúfolódik az öregekkel.
             </head>
-            <p>
+				<p>
                Viktor csak harmadnap jött haza, de késedelméért nem érte
                   szemrehányás; Mihály megfontolt fejbólintással vette tudomásul, hogy a pesti
                   nagykereskedőket csak ritkán lehet megtalálni az irodáikban, mert ez a gőgös nép
@@ -3712,14 +3665,14 @@
                   intett, mikor a könnyelmű nagykereskedők szóba kerültek, majd
                barátságosan és megértőleg nézett Viktor szemébe s így szólott:
             </p>
-            <p>
+				<p>
                - Igen, mi falusiak meg se igen értjük, hogy ilyen léha és mulatós
                   emberek is élnek a földön. Képzelem, kis uram, mennyire megbotránkoztál, mikor
                   ezekkel a tizenhárompróbás korhelyekkel sze
                mben találtad magadat! Mondd csak, nem motoszkált a fejedben a
                   gondolat, hogy a kedved szerint leszidd őket?
             </p>
-            <p>
+				<p>
                Mihályt hirtelen köhögési roham fogta el, Viktor azonban
                   kijelentette, hogy elvileg nem avatkozik idegen emberek ügyeibe, mert végtére is
                   mindenki
@@ -3728,23 +3681,23 @@
                   sáfrányeladás helyett céda asszonyok társaságában töltik el a napjaikat és az
                   éjjeli pihenésük óráit.
             </p>
-            <p>
+				<p>
                - És
                nem igyekeztek rá, hogy téged is elcsábítsanak, kis uram? - kérdezte
                   olyan ártatlan arccal, hogy a becsületes Mihály majdnem elsűlyedt
                   meglepetésében.
             </p>
-            <p>
+				<p>
                Viktor azonban gőgös arccal jelentette ki, hogy őt Páris leghíresebb
                   korhelye se tudná eltéríteni attól, hogy idejében lefeküdjék, különösen a zajos
                   Babilonban, ahol lépten-nyomon ismeretlen veszedelmek leskelődnek az ártatlan
                   falusi emberekre.
             </p>
-            <p>
+				<p>
                - És tiz órakor már csakugyan az ágyban voltál? Igy görbülj meg, ha
                   csak egyszer is ébren voltál tiz óra után?
             </p>
-            <p>
+				<p>
                Vikto
                r fölényesen mosolygott: oh nem, arra is volt eset, hogy egyszer
                   majdnem éjfélig is ébren virrasztott az ágyában, mert a Klopstock Messiását
@@ -3756,7 +3709,7 @@
                   most is, amikor őszintén szólva csak a legnagyobb erőfeszítéssel tudja az álmos
                   szemét nyitva tartani.
             </p>
-            <p>
+				<p>
                - Oh
                , szegény barátom, hát miért nem mondod, hogy álmos vagy? Gyere, hadd
                   fektesselek le szépen az ágyacskádba, a puha párnáid már szívszakadva várakoznak
@@ -3765,7 +3718,7 @@
                zegény barátom, gyere gyorsan, mert mindjárt megreped a szivem, ha
                   még tovább is szenvedni látlak.
             </p>
-            <p>
+				<p>
                Micike gyöngéden lefektette az urát, betakargatta és forró teát
                   készített az éjjeli szekrényére, aztán az ajkára tett mutatóújjal tért vissza a
                   bóbiskoló Mihá
@@ -3775,35 +3728,35 @@
                   előtte a tiktakoló muzsikáló
                óra mellett.
             </p>
-            <p>
+				<p>
                Mihály utóbb letette kezéből az ujságot és egy megrémült iskolásfiú
                   ámúlásával tekintett a csöndesen dúdolgató fiatal asszonyra.
             </p>
-            <p>
+				<p>
                - Kis pajtás, ha nem tudnám, hogy a kolostorban nevelkedtél, hát
                   bizonyos volnék benne, hogy a szinpadról jöttél eb
                be az öreg házba. Tudod, hogy sohase láttam még nálad tökéletesebb
                   színművésznőt? Nem féltél, hogy hangosan elneveted magadat, mikor Viktor a
                   kicsapongó nagykereskedőkről beszélt?
             </p>
-            <p>
+				<p>
                Micike nem válaszolt, hanem pajkosan tovább dudolta a kupléját, a vén
                   Mihá
                ly pedig tűnődő pillantásokat vetett kövér hüvelykújjaira, melyeket
                   egy öreg szerzetes módjára egymásba kulcsolt.
             </p>
-            <p>
+				<p>
                - És csakugyan nem éreztél volna semmi fájdalmat, mikor az urad ilyen
                   álnok füllentésekkel vezetett tévútra? Vagy a mosolygásod csak fölszines
                   szinészkedés volt, mely alatt a meggyötört kis szived vonaglott? Nem inkább
                   keserves sírásba törtél volna ki, ahelyett, hogy a rossz urad párnáit
                   elsímítottad?
             </p>
-            <p>
+				<p>
                Micike most komolyan megrázta a fejét és hosszan tekintett a lámpa
                   világába, mely borzas bakfis-haját megaranyozta.
             </p>
-            <p>
+				<p>
                - Nem, öreg Mihály, - mondta utóbb elgondolkodva, - nem éreztem egy
                   picurka fájdalmat se, akármilyen különösnek találod, hogy ilyen szívtelenné
                   lettem. Három
@@ -3817,11 +3770,11 @@
                   engem, aki semmivel se jobb, mi
                nt azok a céda asszonyok, akik az uramat elvették?
             </p>
-            <p>
+				<p>
                Mihály szeméből úgy elröppent az álmosság, mintha hirtelen valami
                   ijesztő tűzilármát hallott volna.
             </p>
-            <p>
+				<p>
                - Oh, bolond kis pajtás, nem szívtelen szőrnyeteg vagy te, hanem naiv
                   iskolásleány, aki hirtelen haragjában sutba dobja a francia bábúját, de másnap
                   eddig csókolja és babusgatja, míg a tűlanglés kisasszonyka nagykegyesen megbocsát
@@ -3838,63 +3791,63 @@
                m
                ű játékaidról?
             </p>
-            <p>
+				<p>
                Micike ismét komolyan megbólintotta a fejét és így szólott:
             </p>
-            <p>
+				<p>
                - Az uramról inkább lemondok, öreg Mihály, mert az uram belsejében
                   szívnek kellene lenni, nem pedig kenderkócnak. De, fájdalom, hitvány kenderkóc van
                   benne és én most már mindörökre a sutba dobom.
             </p>
-            <p>
+				<p>
                Mihály összeráncolta a szemöldökét, - látszott rajta, hogy ujabb
                   válasz után kutat az elméjében, - de Micike nem engedett neki időt a
                   gondolkodásra, hanem így folytatta:
             </p>
-            <p>
+				<p>
                - Ne védd a lelketlen kócbábukat, hiszen te még az agyvelőd helyén is
                   szívet hordasz, öreg Mihály! Mered mondani, hogy becsületes embernek tartod az
                   öcsédet? Te is festett nőszemélyek közt mulatnál, ha a másféléves feleséged könyes
                   szemmel várakoznék rád egy nagyon régi, emeletes házban?
             </p>
-            <p>
+				<p>
                Mihály mormogásából nem igen lehetett kiérteni határozott véleményt,
                   de Micike most már olyan nagy tudóssá lett, hogy az artikulálatlan mormogást is
                   megértette.
             </p>
-            <p>
+				<p>
                - Oh, gyáva, öreg medve, te nem mered megmondani az igazat s inkább
                   bolondos táncot jársz, semhogy a kemény mancsaidat használnád!
                 Vén és álnok medve vagy, aki téli álmot alszol, vagy dudaszóra
                   illegeted a lábaidat, ahelyett, hogy a méztől becsípett mackót kikergetnéd a
                   barlangodból!
             </p>
-            <p>
+				<p>
                A vén és álnok medve oly kétségbeesett ügyefogyottsággal nézett maga
                   elé, hogy Micike most már hangosan elnevette magát.
             </p>
-            <p>
+				<p>
                - Tudod, hogy te voltaképen férjnek születtél, vén pajtás? - kérdezte
                   derűsen, kedveskedve, miközben tetőtől-talpig végignézte a kaftánjában
                   összekuporodó elefántot.
             </p>
-            <p>
+				<p>
                Mihály esetlenül sóhajtott s a homlokán kövér verejtékcsöppek
                   ütköztek ki.
             </p>
-            <p>
+				<p>
                - A medve nem arra született, hogy az aranyszárnyú pillangónak
                   kedveskedjék, - dadogta zihálva,
                 nehéz lélekzettel, mintha egy végtelen, hófelhőkben elvesző
                   hegyoromra kapaszkodnék.
             </p>
-            <p>
+				<p>
                Micike derűs kék szeme most melegen megvillant és sugaraival
                   hízelkedve körülsímogatta a Mihály csapzott haját, ijesztően szúrós szemöldökét és
                   fénylő duplatokáját, mely a vén legényt egy komoly és ünnepies nagypréposthoz
                   tette hasonlóvá.
             </p>
-            <p>
+				<p>
                - Oh, kedves barátom, éjjel van és egyedül vagyunk egy régi házban,
                   be mered-e hát va
                llani, hogy voltaképen hány éves vagy? Vajjon csakugyan igaz lenne,
@@ -3904,12 +3857,12 @@
                ár ezredes voltál és hogy a legfiatalabb unokád most ünnepelte az
                   aranylakodalmát? Igaz, hogy te vagy az országban a legöregebb ember?
             </p>
-            <p>
+				<p>
                Mihály dadogásából körülbelül annyit lehetett kiérteni, hogy
                   márciusban ünnepelné a harminckettedik születése napját, ha ugyan az eféle
                   jelentéktelen esemény az ünneplésre méltó volna.
             </p>
-            <p>
+				<p>
                - Harminckettő? Azt mered mondani, hogy mindössze harminckétéves
                   vagy? Menj, szégyeld magadat, öreg Mihály, hogy egy hiszékeny gyermeket ennyire
                   elbolondítasz! Százéves vagy, még talán ennél is öregebb aggastyán vagy, aki két
@@ -3923,12 +3876,12 @@
                gy olyan idő is volt valaha, amikor a szép kis nőket a
                   tejbedarácskánál is jobban szeretted?
             </p>
-            <p>
+				<p>
                Mihály arca körülbelül olyan kifejezést öltött, mint a jezsuita
                   atyáé, aki egy francia bohózatot végignéz, de Micikét mindez annyira se hatotta
                   meg, mintha egy manduláspuddingot elrontott volna.
             </p>
-            <p>
+				<p>
                - Oh, öreg dédapám, attól félek, hogy már nyolcvan évvel ezelőtt se
                   szeretted az asszonyokat, mert különben aligha maradtál volna ilyen megsavanyodott
                   agglegénynek! Csak a sáfrányt, a szentjánoskenyeret, a szegfűszeget, meg a falusi
@@ -3947,33 +3900,30 @@
                   akkor is terhedre volt, amikor - száz évvel ezelőtt - még tejfelesszájú suhanc
                   voltál, öreg Mihály!
             </p>
-            <p>
+				<p>
                A százéves em
                ber most végre kísérletet tett, hogy szóhoz jusson, de törekvése
                   szánalmas kudarccal járt, mert Micike fölkelt a helyéből, kolostorias pukkerlit
                   vágott előtte és így szólt:
             </p>
-            <p>
+				<p>
                - Ükapám, látom, hogy leragad a szemed, hát nem fosztalak meg tovább
                   a puha és meleg ágyacskádtól, mely türelmetlenül várakozik rád. Isten veled, aludj
                   jól és álmodj a pompás tejesdarácskáról, amit holnap egy tiszteletreméltó matróna
                   eléd tálal!
             </p>
-            <p>
+				<p>
                Szólt és egy lenge libbenéssel eltűnt a hálószoba függönye mögött és
                   a vén Mihály egyedül maradt az ebédlő asztalánál. A muzsikáló óra e percben
                   megszólalt és az aranyhárfás kis tündér, aki benne lakott, eljátszotta az ükapák
                   és az ükanyák gavotte-ját...
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Mihály késő éjjel az üzletbe rohan.
             </head>
-            <p>
+				<p>
                A csillámló fehérséget, mely a didergő kisvárost elborította, végre
                   mégis csak fölváltotta az új tavasz aranyzuhataga, az öreg házak levették prémes
                   bundáikat s a kék elefánt is ledobta a hermelinköpenyt, mely otromba kőtestét a
@@ -3993,7 +3943,7 @@
                   emeleti ablak mellett, a sötét és titokzatos hegyeket bámulva, melyek az
                   ismeretlen nagyvilágot elzárták előle.
             </p>
-            <p>
+				<p>
                Micike kissé megnyúlt és asszonyosabbá lett; szemében titkos álmok
                   visszfénye
                égett, bakfis-jókedve tűnődő melankóliába olvadt s halkan és puha
@@ -4009,24 +3959,24 @@
                   arcát, mint a csillaghímes királykisasszony, aki a földhözragadt zsellérek
                   viskójába tévedt.
             </p>
-            <p>
+				<p>
                - Mindegy, akármit is főzöl öreganyó, - az ebéd úgyse fontos a földi
                   életben! Legjobb volna, h
                a valami fínom szerecsikát kotyvasztanál össze! Nem gondolod, hogy
                   már pólyás korában szerecsikát kellene adni minden leánynak, aki a világra
                   tévedt?
             </p>
-            <p>
+				<p>
                Bábi megcsóválta a fejét, de a konyhába érve, így szólott
                   magában:
             </p>
-            <p>
+				<p>
                - Oh, lelkecském, nagyon jól tudom én,
                hogy mi a bajod! Az öreg tekintetes asszony se nyult az ételhez,
                   amikor félesztendős menyecske volt! Oh istenkém, de sírnivalóan furcsa lesz, ha ez
                   a gyereklány a kisbabáját becézgetni fogja!
             </p>
-            <p>
+				<p>
                Viktor bóbiskolva járt a tűz körül, ujja megsárgult a
                   cigaretta-sodrástól, keveset evett és a kávéházból késő éjszaka járt haza s
                   tegeződött a részeges urakkal, akik tanyáikról néha a városba berándultak. Mihály
@@ -4036,7 +3986,7 @@
                   se emelte föl, mikor Viktor ceruzával írt bonokat csempészett a pénztári fiók
                   bankjegyei közé.
             </p>
-            <p>
+				<p>
                - Kis uram, - mondta olykor Micike és szeme, a kedveskedő megszólítás
                   ellenére, egy királynő hüvösségével pihent meg a cigarettázó Viktor sovány arcán,
                   - kis uram, téged beteggé tesz a kisvárosi levegő! Nem gondolod, hogy a jókedvű
@@ -4046,20 +3996,20 @@
                   tiszteletreméltó, komor Mihály, - nem akadna valami üzleti megbizás, amit ez a
                   szegény haldokló Pest városában elvégezhetne helyetted?
             </p>
-            <p>
+				<p>
                Mihály hátraszegte otromba fejét és a szeme bágyadtan lecsukódott,
                   mintha gondolataival a “Kék elefánt” birodalmában kalandoznék.
             </p>
-            <p>
+				<p>
                - A rézgálic, úgy vélem, fogyófélben van, - mondta végre halkan és
                   szégyenlősen és lesütött szemmel, mintha egy tisztes kereskedőházra határozottan
                   árnyékot vetne az a tény, hogy a rézgálicot a raktáraiból kifogyni engedi.
             </p>
-            <p>
+				<p>
                A Micike kék szeme most jókedvűen
                 megcsillant:
             </p>
-            <p>
+				<p>
                - Oh, lelkiismeretes Viktor, volna szived hozzá, hogy a “Kék
                   elefánt”-ot tespedni hagynád a rézgálic után? Nem, kis uram, te tisztában vagy a
                   kötelességeiddel és kora hajnalban haladék nélkül Pestre utazol, hogy minden
@@ -4067,28 +4017,28 @@
                j, ami csak a ravasz nagykereskedők raktáraiban található. Akarod,
                   hogy becsomagoljam az útibőröndödet?
             </p>
-            <p>
+				<p>
                Viktor álmosan kinyújtozkodott és fáradt pillantása fölélénkült,
                   mintha bort ivott volna.
             </p>
-            <p>
+				<p>
                - Komoly dolog ez a rézgáliccal, öreg Mihály? - kérdezte kissé
                   gyanakodva.
             </p>
-            <p>
+				<p>
                - Komoly, öcsém!
             </p>
-            <p>
+				<p>
                - Akkor isten neki, nem bánom, ha elkészíted a podgyászomat. Nem
                   volna kedved hozzá, szivecském, hogy te is feljőjj velem néhány napra? Nem fogsz
                   unatkozni, ha megint egyedül hagylak az álomszúszék Mihálylyal?
             </p>
-            <p>
+				<p>
                - Nem, Viktor, é
                n sohase unatkozom! - mondta Micike és sietve kisurrant, hogy a
                   bőröndöt becsomagolja.
             </p>
-            <p>
+				<p>
                Viktor elutazott és Micike arcán nem látszott semmi fájdalom; de az
                   ágyból most már nem kelt fel többé hajnalban, hogy urát a vasúti állomáshoz
                   kikisérje. Délben titokza
@@ -4100,7 +4050,7 @@
                 szílajjul verte a billentyűket, hogy Mihály utóbb gyöngéden a
                   vállára tette vaskos kezét.
             </p>
-            <p>
+				<p>
                - Oh, kicsi pajtás, tudod, hogy nem tetszel nekem? Nem a selypítő,
                   ártatlan Micikém vagy te többé, hanem valami félelmes, idegen asszony vagy, akinek
                   mására eddig csak a rossz regényekben találtam. Nem a régi Micikém vagy te, nem az
@@ -4110,7 +4060,7 @@
                fejecskédet, hogy ne tudj a sok gonoszságról, ami körülötted
                   történik...
             </p>
-            <p>
+				<p>
                Micike abbahagyta a zongorázást és mosolygó szemében valami
                   csodálatos mélység tükröződött, valami fájdalmas és titkos könyeket sejtető
                   mélység, aminőt csak a boldogtalan asszonyok szemében lehet látni. Térdét most a
@@ -4119,19 +4069,19 @@
                   ragyogtak ki a szemei, hogy az öreg Mihálynak még a lélekzete is
                 megakadt ijedtében.
             </p>
-            <p>
+				<p>
                - És honnan tudod, nagy gyerek, hogy nem hasonlítok a rossz regényeid
                   hősnőihez? - kérdezte halkan és elgondolkodva és valami véghetetlen szomorúsággal,
                   mely ott leselkedett a gyermekes mosolygása mögött és kicsike ujjával tréfásan
                   orron koppintotta a vén Mihályt, mint egy csacsi és tapasztalatlan iskolásfiút,
                   aki nem ért az okos felnőttek dolgaihoz.
             </p>
-            <p>
+				<p>
                Mihály megrázta a fejét és a szíve dobogott és keze reszketett, mert
                   most valami kimondhatatlan vágy fogta el, hogy karjaiba ragadja és csókokkal
                   halmozza el a gyermeket, akit a sors már élete reggelén megtépázott.
             </p>
-            <p>
+				<p>
                - Nem kicsikém, nem regényhősnő vagy te, hanem egy szegény,
                   megkínzott gyermek vagy, aki megérdemelné, hogy a sarokba térdeltessék és hogy
                   hosszú, büntetőleckét irassanak vele, mert olyan álnok, hogy a fájdalmát a legjobb
@@ -4142,7 +4092,7 @@
                   magadat. Na, ne szipogj már, hanem sírj egy nagyot és fogadok veled, úgy elpárolog
                   a szomorúságod, hogy tíz perc múlva táncolni meg dalolni fogsz jókedvedben!
             </p>
-            <p>
+				<p>
                Micike ajka megvonaglott és a
                 szeme még jobban fénylett, mint az előbb és ujjával ismét
                   megkoppintotta a Mihály orrát; de akkor egyszerre nagyot lélekzett és szemét
@@ -4160,7 +4110,7 @@
                c
                sapásai elől elbújhatna.
             </p>
-            <p>
+				<p>
                - Nana... bolond kis pajtás... legyen hát eszed! - mondta az
                   ügyefogyott, öreg Mihály, miközben a verejték kiütött a homlokán és a torka
                   összeszorult és a szíve úgy kalimpált, hogy már-már a fuldoklás fojtogatta. Sírni
@@ -4193,21 +4143,21 @@
                   fuldokló özönével borította el, miközben az a különös érzése volt, hogy a világ
                   azonnal romokba omlik körülötte.
             </p>
-            <p>
+				<p>
                De Micike most kibontakozott a karjaiból, csodálkozva és könyes
                   szemmel nézett körül a muzsikáló óra birodalmában, a tükör ezüstlapja előtt
                   megigazgatta kibomlott hajfürtjeit és most már mosolyo
                gva és szeliden tekintett ismét a vén Mihályra, mintha az egész
                   jelenet csak fantasztikus álom lett volna.
             </p>
-            <p>
+				<p>
                - Oh, vén pajtás, ne mondd többé, hogy te okosabb vagy, mint az
                   éretlen kisgyerekek, akiket ostoba fővel férjhez adnak! Te is csak éretlen
                   kisgyerek
                vagy, hiába játszod a komoly üzletembert, akinek minden bölcseség a
                   kisujjában van!
             </p>
-            <p>
+				<p>
                Mihály bólintott, de nem volt képes rá, hogy értelmes szavakkal
                   válaszoljon. Mihály egyáltalában furcsán viselkedett: bő gallérját olyanformán
                   igazgatta meg, mintha a kemény vászon a nyakát szorítaná, többször föl meg alá
@@ -4220,26 +4170,23 @@
                   csodálkozása még fokozódott, mikor a vén Mihály egyszerre csak így szólott
                   hozzá:
             </p>
-            <p>
+				<p>
                - Oh, most jut eszembe
                szívecském, hogy odalenn várnak rám az üzletben! Nem haragszol rám
                   úgye, ha most már a sürgős dolgaim után fogok nézni?
             </p>
-            <p>
+				<p>
                Mihály kalap nélkül rohant le a falépcsőn, holott tizenegy óra is
                   elmúlt és az üzlet régóta sötét volt. Micike félig nyitott ajakkal tek
                intett utána, azután elmosolyodott és besurrant a hálószobába,
                   melynek ablakán át beérzett a piaci ákácok illata.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Séta az erdei házhoz.
             </head>
-            <p>
+				<p>
                A rézgálic körül bonyodalmak voltak a pesti piacon és Viktor, aki
                   csak rövid három napot szándékozott távol tölteni a
                Kék elefánt-tól, még a hét végén se mutatott hajlandóságot, hogy az
@@ -4283,20 +4230,20 @@
                   szeráfok kara bizonyára szerenádot fog adni neked, ha egyszer - a Takácsyak
                   hagyományos nyolcvan éve után - a testi szemeidet lehunyod valamikor!”
             </p>
-            <p>
+				<p>
                Mihály, aki a levelet oly kimeresztett sz
                emmel olvasta végig, mintha magától a sátántól származott volna, még
                   délelőtt postára tette a kétezer forintot, délben pedig jámbor szemforgatással
                   tett említést Micikének az ura leveléről.
             </p>
-            <p>
+				<p>
                - Viktor még nem talált rézgálicot, mert a bánáti kalmárok mind
                   e
                lharácsolták előle s nem lehetetlen, hogy talán Bécsbe is föl kell
                   hajóznia valamirevaló árú miatt. Hitted volna, hogy a jó istenke ennyire fölviszi
                   valamikor a demokrata rézgálic dolgát?
             </p>
-            <p>
+				<p>
                Micike komolyan bólintott, aztán kijelentette, hogy őt nem ejti
                   csod
                álatba a fordulat, mert kislány kora óta mindig nagy véleménye volt a
@@ -4309,7 +4256,7 @@
                   megfeledkezik, csakhogy a koplaló K
                ék elefántot ízletes rézgáliccal ellássa?
             </p>
-            <p>
+				<p>
                Viktor a hét végén se jött haza, levelet se irt és a kétezer forintot
                   se nyugtatta, de a Micike lelki harmóniáját az ura távolléte most nem viselte meg.
                   Micike a kacér özvegyasszony életét élte, akit mormogó hitvese
@@ -4319,7 +4266,7 @@
                   Mihály éppen rézkapcsos üzle
                ti könyveit zárta el egy óriási pénzszekrény mélyébe.
             </p>
-            <p>
+				<p>
                - Aggastyánok aggastyánja, tiszteletreméltó ükapám, megengedi
                   véletlenül a rheumád, hogy egy hosszú gyalogsétát tehess velem? Képesnek érzed a
                   vén lábaidat arra, hogy az erdei házig elgyalogolj velük, va
@@ -4327,12 +4274,12 @@
                   vágyódol? Ha igen, úgy csak mondd ki bátran, reszkető ükapám és azonnal jó kis
                   tüzecskét fogok rakni, amelynél a fájós térdkalácsodat fölmelegítheted.
             </p>
-            <p>
+				<p>
                Mihály megbólintotta a fejét - oly komolyan bólintotta meg, mintha
                   Micike csupa szemenszedett bölcseséget mondott volna - aztán egy erélyes
                   rándítással bezárta a pénzszekrény ajtaját.
             </p>
-            <p>
+				<p>
                - Ha öt percig vársz, akár a világ végéig is elkísérlek, kis pajtás,
                   mert az összezsugorodott tagjaimnak csakugya
                n jól esik, ha egyszer már a kedvem szerint kinyújtóztathatom őket.
@@ -4340,7 +4287,7 @@
                   koratavaszi estén mi sem könnyebb ám, mint hogy az ember egy kiadós náthát
                   szerezzen.
             </p>
-            <p>
+				<p>
                Mihály nevezetes volt arró
                l, hogy naphosszat akár ingujjban és hajadonfővel jár az üzlet körül,
                   de este még a szomszéd utcába se mozdul ki felöltő nélkül, még a legerősebb
@@ -4349,13 +4296,13 @@
                mber. De Micike - újabb szokása szerint - ismét az orrára koppintott
                   az óvatos, vén legénynek.
             </p>
-            <p>
+				<p>
                - A magad számára akár a bundát és a lábzsákot is lehozhatod, de
                   nekem ugyan ne hozz köpenyt, mert visszakergetlek vele. Nem szégyenled, hogy
                   magadhoz akarod öregíteni a dédunokádat, aki kerek kétszáz évvel fiatalabb
                   nálad?
             </p>
-            <p>
+				<p>
                Mihály lehozta a felöltőt - a köpenykét is lehozta, - és öregurasan,
                   tempós lépésekkel rótta Micike mellett a kisváros gyalogjáróját, mely már tele
                   volt a penzionátusokkal és a szellőző úrikisasszonyok seregével. A hangos esti
@@ -4376,7 +4323,7 @@
                a; mert Micike magaviselete mindenhez inkább hasonlított, mint egy
                   kolostori növendékéhez, a kinek kontya alatt istenfélő gondolatok rejtőznek.
             </p>
-            <p>
+				<p>
                - Oh, Mihály, ma se értem, hogy egy hideg fűszerüzletben töltöd
                   napjaidat, ahelyett, hogy a kolostor térdeplőjén imádkoznál! A jó isten is arra
                   alkotott, hogy egy rideg cellában morzsold a rózsafűzért s csak vasárnap vídulj
@@ -4384,25 +4331,25 @@
                   komolyabb vagy, mint az öreg pap, aki a zárdában meggyóntatott be
                nnünket?
             </p>
-            <p>
+				<p>
                Mihály bólintott és így szólott:
             </p>
-            <p>
+				<p>
                - Igen, gondoltam rá valaha, hogy szerzetes legyek, de szegény apám
                   hallani se akart róla, hogy az üzletet otthagyjam. A vén kőelefánt az oka, hogy
                   nem mondtam búcsút mindörökre a földi örömöknek.
             </p>
-            <p>
+				<p>
                - Öreg pajtás, ne
                m mondanád meg, hogy mik a te örömeid itt a földön? - kérdezte Micike
                   kiváncsian, miközben egy percig megállott sétájában, hogy tűnődő sógorán
                   végignézzen.
             </p>
-            <p>
+				<p>
                Mihály behúnyta a szemét, mintha élete ösvényét fürkészőleg
                   végigtekintené.
             </p>
-            <p>
+				<p>
                - A földi élettől nem szabad sokat várni, kicsikém, - mondta papos
                   komolysággal és mégis rajongó tekintettel, mintha egy aranyos szószéken állna és
                   ezer meg ezer ember figyelne egy nagy templomhajóban a szavaira. - Az élet csak
@@ -4421,16 +4368,16 @@
                   És nem vagy-e te is itt, kis pajtás, hogy egy magányos öreg ember életét
                   földerítsd?
             </p>
-            <p>
+				<p>
                Micike megbillentette asszonyos kalapját és a szeme hálásan és
                   szeretettel és csodálkozó meghatottsággal pihent meg a komoly Mihály
                   duplatokáján.
             </p>
-            <p>
+				<p>
                - Igen, - mondta halkan, - itt vagyok és itt is maradok számodra, te
                   drága, te magányos, öreg ember!
             </p>
-            <p>
+				<p>
                Most kiértek a házak közül a sz
                ántóföldekre, melyeknek szélén már zöldelő bokrok sötétlettek és
                   ujraéledt fák nyújtogatták ki boldogan karjaikat, mintha a tavaszi levegő őket is
@@ -4444,16 +4391,16 @@
                   látszottak, melyek egy idegen égitest messzeségéből villognak át a földi nyugalom
                   szigetére.
             </p>
-            <p>
+				<p>
                Az erdei háznál, mely voltakép egy schönbrunni mintára épített
                   majorság volt, - a kisvárosiak ide rándultak ki vasárnap délután, - Micike
                   megérintette Mihály vállát.
             </p>
-            <p>
+				<p>
                - Forduljunk vissza, mert Bábi megszid bennünket, mint a rossz
                   gyermekeket. Bábi tejfölös paprikás csirkével vár bennünket.
             </p>
-            <p>
+				<p>
                Szótlanul végigmentek az alvó szántóföldeken és az erdei ház
                   lassanként beleolvadt a leszálló éjszaka sötétségébe. A kisváros
                már elpihent, mire hazaértek, az utcákon alig járt ember, csak a
@@ -4469,46 +4416,43 @@
                ől kiváncsian kémlelődtek ki a pirosszűrös pásztorok, a kik Mihályt
                   valaha selypítő kisfiúnak látták.
             </p>
-            <p>
+				<p>
                Micike ledobta fejéről a kalapot, egy percre eltűnt a hálószoba
                   sötétjében és csakhamar bő pongyolában tért vissza, aminőt a mézeshetes asszonyok
                   szoktak viselni, hogy a haragos vén szakácsnőknek imponáljanak vele. Micike leült
                   az asztalfőre, fejét a könyökére támasztotta és elgondolkodva nézett egy
                   pillanatig a lámpa lángjába.
             </p>
-            <p>
+				<p>
                Mihály, aki már felöltötte törökös kaftánját, most kiváncsian
                   megkérdezte tőle:
             </p>
-            <p>
+				<p>
                - Vajjon min töprengsz oly összehúzott szemöldökkel, kis pajtás?
             </p>
-            <p>
+				<p>
                Micike sokáig nem válaszolt, de az arca égett és a szeme csillogott
                   és a tekintetéből valami különös boldogság sugárzott, mintha valami nagy és
                   váratlan öröm érte volna. És ekkor felemelte a
                 fejecskéjét és így szólott:
             </p>
-            <p>
+				<p>
                - Nem furcsa-e, öreg Mihály, hogy egy idegen embert, aki távol él
                   tőlem, az uramnak neveznek és hogy te, aki nekem szenteled az életedet, idegen
                   vagy hozzám? Hát nem inkább te vagy az uram, mint az a másik, akivel még sohase
                   v
                olt egy közös gondolatom?
             </p>
-            <p>
+				<p>
                Mihály felelni akart, de nem tudott, mert Bábi most behozta a
                   paprikás csirkét.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
+			</div>
+			<div type="chapter">
+				<head>
                Egy nagyprépost, aki sírva fakad.
             </head>
-            <p>
+				<p>
                Egy este - vagy tíz nappal a Viktor visszatérése után - a két barát
                   kissé hosszasabban ült az asztalnál, mint rende
                sen (Mihály szemei újabban, isten csodájára, még éjféltájt is nyitva
@@ -4519,7 +4463,7 @@
                   harciasan ugrott föl a helyéből, mintha odakünn egy orosz hadosztály állna az
                   emeletes sárga ház előtt.
             </p>
-            <p>
+				<p>
                - Kis csacsi - mondta nyugodtságot szimulálva, bár belsőleg maga se
                   volt sokkal nyugodtabb
                , mint az ostoba Micike - kis csacsi, csak nem gondolod talán, hogy a
@@ -4529,11 +4473,11 @@
                nemcsak a rendőröket verik föl, hanem a temetőben nyugvó holtakat is.
                   Nana, csak nem fogsz talán olyan gyerekséget elkövetni, hogy elájulsz?
             </p>
-            <p>
+				<p>
                Micike hátraszegte vértelen arcocskáját s az ajka remegett, mintha
                   csakugyan az ájulás környékezné.
             </p>
-            <p>
+				<p>
                - Oh, Mihály,
                 meglásd, hogy megölnek bennünket, - hiszen tiz rabló ellen még a te
                   híres medveerőd se sokat ér! Hallod, hogy már idebenn topognak a kapu alatt? Oh,
@@ -4542,14 +4486,14 @@
                z utcára! Hát nincs odakünn valaki, aki ezt a pokoli lármát
                   meghallaná?
             </p>
-            <p>
+				<p>
                Az üvegajtó most nagy robajjal fölnyilt s az ebédlő küszöbén egy
                   furcsa társaság jelent meg, mely mindenhez inkább hasonlított, mint rablóbandához:
                   tíz becsípett úriember volt, tíz jókedvű korhely, a monoklis Viktor vezetése
                   alatt, akinek szeme gyanusan csillogott, mintha valami istenien jó tréfának
                   találná, hogy éjnek éjszakáján a saját lakásába betörést rendez.
             </p>
-            <p>
+				<p>
                - Fenséges hercegasszony - mondta Viktor akadozva, de valami
                   lekötelező sze
                retetreméltósággal, - felséges hercegasszony, millió bocsánat, hogy
@@ -4563,7 +4507,7 @@
                Takácsy az éhségtől és a szomjúságtól hagyna elpusztulni tíz jóravaló
                   magyar embert?
             </p>
-            <p>
+				<p>
                A tíz jóravaló magyar ember - négy városi hivatalnok és hat részeges
                   környékbeli úr volt - harsogó éljenzésbe tört ki, de egy ösztönszerü sugallat,
                   mely az öreg Mihály pil
@@ -4571,7 +4515,7 @@
                   egyszerre elnémította őket s tétovázva és a becsípettek ravasz pillantásával
                   húzódtak közelebb a nyitott ajtóhoz.
             </p>
-            <p>
+				<p>
                - Urak, - mondta Mihály dörgő hangon és a szeme fénylett, mint a
                   mesebeli kárbunkulus kő - urak, nem méltó tisztességes emberekhez, hogy egy úri
                   házat korcsmának nézzenek. A részeg korhely, aki fiatal feleségét halálra rémíti,
@@ -4580,7 +4524,7 @@
                k nem érdemelnek kíméletet - és ezért csak annyit mondok, ki innen,
                   amíg a saját lábukon távozhatnak!
             </p>
-            <p>
+				<p>
                - Ohó, agg medveborjú, lassan a testtel! - kiáltott Viktor és
                   hadonászva közelebb lépett a vén Mihályhoz. - Ki hitette el veled, hogy neked is
                   szavad van a
@@ -4588,7 +4532,7 @@
                   ha fehér szakállad a ferdesarkú cipődig ér! Coki a sarokba, vén kutya, amikor
                   igazi urak is jelen vannak!
             </p>
-            <p>
+				<p>
                Mihály most fölemelte rettentő karját és a részeg ember megtorpanva
                   térdre omlott, mintha hirtelen szélütés érte volna. Monoklija leesett szeméről és
                   egész nagyságában végigvágódott a szőnyegen; és a Mihály vérbenforgó szemeiből
@@ -4596,39 +4540,39 @@
                   halotthalványan ült a helyén, mos
                t egyszerre sikoltva föl nem ugrik.
             </p>
-            <p>
+				<p>
                - Mihály, ne bántsd, mert megölöd! Ne bántsd, hiszen már amúgy sincs
                   élet benne! Elfelejted, hogy ő volt az anyádnak a legkedvesebb?
             </p>
-            <p>
+				<p>
                Mihály végigsimította homlokát óriási tenyerével, nagyot lélekzett és
                   most már csöndesen szólott:
             </p>
-            <p>
+				<p>
                - Nem bántom, kicsikém!
             </p>
-            <p>
+				<p>
                Ujját fölemelte és az ajtó felé mutatott s a részeg emberek, mintegy
                   hipnotizálva, hanyatthomlok kisurrantak az ajtón s nehéz lépéseik végigdöngtek a
                   falépcsőn, hogy aztán lassan elvesszenek az utca sötétjében. Viktor most fölemelte
                   a fejét s ámulva körülnézett a világos szobában; de mielőtt szóhoz juthatott
                   volna, Mihály komoran megállt előtte s halkan ezt mondta:
             </p>
-            <p>
+				<p>
                - Feküdj le!
             </p>
-            <p>
+				<p>
                Lehajolt és fölsegítette a szőnyegről, mint az ölbeli gyermeket, aki
                   játékközben megütötte magát
                . És most már valami nagyapás gyöngédséggel szólott:
             </p>
-            <p>
+				<p>
                - Támaszkodj rám, majd besegítlek az ágyadig! Vigyázz, mert mindjárt
                   agyontaposod az üvegszemedet! Igy, csak kapaszkodj meg a nyakamba, mint húsz évvel
                   ezelőtt, mikor a kanyaród után legelőször fölkelté
                l!
             </p>
-            <p>
+				<p>
                Mihály betámogatta öcscsét a hálószobába, levetkőztette és
                   lefektette, mint az álmos gyermeket s miután egy pillanatig mély szomorúsággal
                   hallgatta a kifáradt korhely horkolását, lassan visszatért az ebédlőbe, ahol
@@ -4637,41 +4581,41 @@
                   sártól, melyben az emberek földi élete lejátszódik. Mihály megérintette a vállát s
                   ekkor szeliden és szomorúan elmosolyodott.
             </p>
-            <p>
+				<p>
                - Alsz
                ik? - kérdezte halkan, inkább egy pillantással, mint élőszóval.
             </p>
-            <p>
+				<p>
                - Alszik - felelte Mihály. - Reggelig alszik és reggel nem fogja
                   tudni, hogy mi történt vele.
             </p>
-            <p>
+				<p>
                Micike most megfogta a vén legény kezét, gyermekszemei, melyek
                   csodálatos fénnyel ragyogtak ki sá
                padt arcából, szinte esdeklőleg belemélyedtek a sógora duplatokás
                   prépost-arcába s így szólott, valami koravén komolysággal:
             </p>
-            <p>
+				<p>
                - Végy el tőle, Mihály!
             </p>
-            <p>
+				<p>
                Ha a muzsikáló óra hirtelen a pesti mulató kupléját kezdte volna
                   játszani a régi gavotte helyett, aligha ijedt volna meg jobban a harminckétéves
                   öreg ember, mint most, hogy ezeket az érthetetlen szavakat meghallotta.
             </p>
-            <p>
+				<p>
                - Kitől vegyelek el, kislányom? - kérdezte reszketve és dobogó
                   szívvel és bizonytalan hangon, mely sehogyse hasonlított a megszokott, régi
                   hangjáh
                oz.
             </p>
-            <p>
+				<p>
                - Az uramtól, Mihály!
             </p>
-            <p>
+				<p>
                - Hát nem szereted az uradat?
             </p>
-            <p>
+				<p>
                - Nem, Mihály, nem szeretem, mert ez nem az uram, nem a kicsike,
                   udvarias és gavallér Viktorom, hanem egy idegen ember, aki annyira távol áll
                   tőlem, mintha mindeddig egy ismeretlen világrészben élt vo
@@ -4682,11 +4626,11 @@
                   meghalnék, ha ez az idegen még egyszer egy magányos szobában egyedül maradna
                   velem!
             </p>
-            <p>
+				<p>
                - És ha egy jó szellem megint visszaváltoztatná a régi
                   Viktorodat?
             </p>
-            <p>
+				<p>
                - Nem, öreg Mihály, az én régi Viktorom nem él többé. Érzem és
                   bizonyosan tudom, hogy nem él többé. Elnyelte a sötétség, mint Takácsy bácsit és
                   Lujza nénit, mint a régi vasárnap délutánokat, mint édes apád nagy ujságját a
@@ -4697,7 +4641,7 @@
                   hűséges, mint a régi téli alkonyatokon, amikor meséskönyveddel a kezedben a kis
                   zsámolyodon kuksoltál.
             </p>
-            <p>
+				<p>
                Mihály lehajtotta a fejét, mintha maga is ott járna valahol a
                   levendulaillatos, sültalmaszagú multakban, amikor az édesapja karosszéke még ott
                   állott a fehér kályha mellett, amikor szent édesanyja tipegve járt ide-oda a
@@ -4708,16 +4652,16 @@
                   kurtaszoknyás Viktort is mindörökr
                e elnyelte...
             </p>
-            <p>
+				<p>
                Micike újra megérintette a karját és halkan ismételte:
             </p>
-            <p>
+				<p>
                - Végy el tőle, Mihály!
             </p>
-            <p>
+				<p>
                A vén ember arca most megvonaglott, mintha sírni akarna.
             </p>
-            <p>
+				<p>
                - Kislányom - mondta szánalmas vergődéssel - drága kis lányom, mit
                   akarsz velem? Én egy ostoba és esetlen v
                én ember vagyok, aki arra születtem, hogy igavonó állat legyek és
@@ -4737,16 +4681,16 @@
                   elmenni többé, ha annyira gonosz volnék, hogy a te virágzó életedet a magaméhoz
                   csatolnám...
             </p>
-            <p>
+				<p>
                Micike megrázta a fejét, - a vér most már visszatért az arcába - és
                   csöndesen és szégyenkezve és valami titokzatosan bájos mosolygással így
                   szólott:
             </p>
-            <p>
+				<p>
                - Végy el, tőle, Mihály, mert te vagy az egyetlen ember a földön,
                   akit igazán szeretek...
             </p>
-            <p>
+				<p>
                És ekkor egy gyöngéd mozdulattal odaborult a Mihály széles vállára és
                   tiszta leányszeme napsugaras ragyogással nézett a vén ember arcába, mely e
                   pillanatban egy nagy,
@@ -4756,7 +4700,7 @@
                   és felnőtt üzletemb
                ernek mondta magát.
             </p>
-            <p>
+				<p>
                - Igen, Mihály, téged szeretlek egyedül, mert jó vagy és igaz vagy és
                   becsületes vagy és inkább százszor meghalnál, semhogy egy szegény kis teremtést
                   megszomorítanál. Egy csúf és komoly öregember vagy, egy reggeltől-estig robotoló,
@@ -4774,24 +4718,19 @@
                   lehetetlen volna az életem, mint levegő és víz nélkül. Ha szeretsz, öreg Mihály,
                   végy el tőle, mert a tied akarok lenni...
             </p>
-            <p>
+				<p>
                Mihály nem adott választ, de erős ajkai megrándultak és nagy teste
                   megrázkódott az indulattól és apró szemeit hirtelen elhomályosította a könyek
                   fátyola. Olyan volt, mint egy pityergő nagyprépost és a pajkos Micike oly
                   ellenállhatatlanul komikusnak találta a látványt, hogy egyszerre édesen elnevette
                   magát.
             </p>
-            <p>
-               
-            </p>
-         </div>
-         <div type="chapter">
-            <head>
-               
+			</div>
+			<div type="chapter">
+				<head>
                   (Az iró élményeiből.)
-               
             </head>
-            <p>
+				<p>
                Tavaly fölolvasni hívtak egy vidéki városkába s bár tél volt s csak
                   nem rég estem túl egy kellemetlen bronchitisen, szivesen elszántam magam a hosszú
                   útra, mert az isten háta mögött fekvő kis helység, melybe a vonat is csak súlyos
@@ -4817,36 +4756,28 @@
                 külön cikket irt az eseményről, annak a reményének adva kifejezést,
                   hogy Bakonyvárt nemsokára jogosan megilleti a “magyar Liverpoole” elnevezés.
             </p>
-            <p>
+				<p>
                A vasutnál a városka honoráciorai fogadtak, a polgármester, a
                   főjegyző, a gyógyszerész, a városi fizikus s röv
                id üdvözlés után kijelentették, hogy Takácsy Mihályhoz fognak
                   elszállásolni, a
-               
                   Kék elefánt
-               
                -ba.
             </p>
-            <p>
+				<p>
                - Ez egy szállodának a neve? - kérdeztem közömbösen, mert voltaképpen
                   egészen mindegynek találtam, vajjon a
-               
                   Kék elefánt
-               
                -ban, a
-               
                   Vörös ökör
-               
                -ben, vagy az
-               
                   Arany oroszlán
-               
                -ban fogom-e átkozni féléjszakán át az egereket és a poloskákat.
             </p>
-            <p>
+				<p>
                A polgármester azonban derűsen fölvilágosított.
             </p>
-            <p>
+				<p>
                - Nem, a Kék elefánt nem szálloda, hanem fűszer- és gyarmatárú üzlet,
                   melyet másfélszáz évvel ezelőtt alapított a mostani tulajdonos déda
                pja. Ez a legrégibb ház az egész városban s mivel az író urak
@@ -4854,15 +4785,15 @@
                   különbnek tartottuk. A Kék elefántban nemcsak a butorokat fogja érdekesnek találni
                   az író úr, hanem magát a házigazdát is, aki szintén megírni való tipus.
             </p>
-            <p>
+				<p>
                - Nem is szólva a háziasszonyról, akinél csinosabb menyecske a
                   fővárosban is aligha akad, - tette hozzá csettintve a városi fizikus.
             </p>
-            <p>
+				<p>
                - És a sógor, az talán kutya? - tette hozzá mosolyogva a
                   főnótárius.
             </p>
-            <p>
+				<p>
                Mindnyáj
                an derülten bólintottak, mint akiknek valami átkozottul pajkos
                   történet jut az eszükbe, de közben előállt a város fogata (egy tiszteletreméltó
@@ -4870,12 +4801,12 @@
                   járni) s a polgármester mellém
                 telepedve szólott:
             </p>
-            <p>
+				<p>
                - Nemcsak pompás, régi butorokat, érdekes házigazdát és csinos
                   menyecskét fog találni a Kék elefántban, hanem egy valóságos regénythémát is, ezt
                   pedig az urak többre becsülik akármilyen földi kincsnél...
             </p>
-            <p>
+				<p>
                A bevonuláskor csak futólag látt
                am a házaspárt, melyet, mint érdekes témát fölajánlottak számomra, de
                   őszintén szólva, nem költötték bennem azt az impressziót, hogy az ő révükön fogom
@@ -4893,7 +4824,7 @@
                   tejberizskása is megérde
                mli, hogy háromkötetes regényt írjunk róla.
             </p>
-            <p>
+				<p>
                A fölolvasás meglehetősen sikerült, kedvesen, bár némi óvatossággal
                   megtapsoltak (a vidék nem kényezteti el a pesti írókat), az estély után pedig
                   lakomára gyűltünk össze a Griff éttermében, ahol néhány szemrevaló asszony is
@@ -4914,7 +4845,7 @@
                 a gondolatban, hogy a frakkot egy irodalmi maecenástól kaptam
                   kölcsön.
             </p>
-            <p>
+				<p>
                A fekete kávénál a városi fizikus felesége rátért arra az érdekes
                   regénytémára, melyet a polgármester már a vasuti állomásnál megemlített: a kövér
                   Takácsy Mihályra és hófehér kis hitestársára, akiknek története még most is a
@@ -4922,15 +4853,15 @@
                   csak ne kacagjon, kérem, mert voltaképp az öreg Mihály is fiatal - ugyancsak
                   megszenvedtek ám ezért a boldogságért, hogy egymáséi lehessenek.
             </p>
-            <p>
+				<p>
                - Talán egy zsarnok apáról van szó? - kérdeztem udvariasan, mert a
                   történet voltaképp semmit se érdekelt.
             </p>
-            <p>
+				<p>
                A főorvosné megrázta a fejét, - a szép, telt vállai is megrázkódtak,
                   melyek kacérul kifehérlettek a dekolletált ruhájából.
             </p>
-            <p>
+				<p>
                - Óh, dehogy, nem volt zsarnok apa a látóhatáron, hiszen Micike már
                   öt éves korában árván maradt s voltaképp a két Takácsy fiú nevelte föl, akik
                   egyedüli rokonai voltak a földön. Viktor, az életrevalóbb, utóbb feleségül vette a
@@ -4962,7 +4893,7 @@
                   megtörve csukódnak le, mikor a barátságos lámpafény az új boldogság fölött
                   kigyullad esténkint?
             </p>
-            <p>
+				<p>
                Szép szomszédnőm nagy bensőséggel mondta el ezt a hosszú történetet,
                   - és a regénytéma, melyet az imént még annyira lefitymáltam, most már nem tünt föl
                   többé előttem oly szürkének és jelentéktelennek, mint a vasuti állomáson, ahol a
@@ -4976,39 +4907,37 @@
                fölemlítve, hogy a vonat hajnalban indul a főváros felé s néhány órai
                   pihenésre még a korhely íróknak is szükségük van. Az urak aztán csoportosan
                   hazakísértek a
-               
                   Kék elefánt
-               
                -ig s miután megígértették velem, hogy hamarosan visszatérek, azzal a
                   meggyőződéssel búcsúztak el tőlem, hogy egy éhes firkászt végre a kedvük szerint
                   jól tartottak.
             </p>
-            <p>
+				<p>
                Halkan, lábujjhegyen haladtam föl az ódon falépcsőkön, nehogy az alvó
                   háziakat fölébresszem,
                 de az emeletre érve, váratlan meglepetés ért: kövér házigazdám
                   zavartan és moso
                lyogva dugta ki duplatokás arcát az ebédlő ajtaján.
             </p>
-            <p>
+				<p>
                - Bocsánat, - mondta valami esetlen mentegetőzéssel, - de végtelenül
                   boldogok volnánk, ha egy csésze theára szerencséltetne bennünket. A feleségem
                   ébren maradt, csakhogy az író urat megvárja és én is nagy
                 szerencsének tartanám, ha szerény házamat megtisztelné.
             </p>
-            <p>
+				<p>
                - Nem lesz nagyon későn? - kérdeztem udvariaskodva, bár alapjában
                   véve, most már határozott örömöt éreztem, hogy a családi tűzhelyüket
                   megnézhetem.
             </p>
-            <p>
+				<p>
                - Óh, nekünk kisvárosiaknak a legkevesebb alvás is
                 elég, hiszen különben évszám annyit alszunk, mint a mormotérok. És a
                   feleségem végtelenül boldog volna, mert bár szenvedélyes olvasó, még sohase látott
                   eleven írót. Azt hiszem, hogy Nagyságod az első eleven író, aki ebbe a kisvárosba
                   a lábát betette...
             </p>
-            <p>
+				<p>
                Beléptem a szobába és mindjárt meg is álltam a küszöbön; a látvány,
                   mely elém tárult, egyszerre feltüzelte a fantáziámat, régi, elfeledett hangulatok
                   csaptak meg, mintha egy nagyon-nagyon messze világba tévedtem volna hirtelen,
@@ -5031,7 +4960,7 @@
                   a feje fáradtan megcsuklott, mikor üdvözlésemre kisérletet tett, hogy a helyéből
                   fölkeljen.
             </p>
-            <p>
+				<p>
                A prépostarcú kis öreg közelebb húzott egy asztalkát a fűtött
                   kandallóhoz, az asszony, aki mostan egy csodálatosan szép és szines virághoz
                   hasonlított, meggyujtotta a borszeszt a szamovár alatt s én, barátságos szivarszó
@@ -5045,42 +4974,42 @@
                ta, félig a bóbiskoló, régi urára figyelt, az egyik pauzánál
                   odasurrant a sógorához.
             </p>
-            <p>
+				<p>
                - Viktor, - mondta halkan és valami drága és szívbelopózó
                   kedvességgel, - Viktor, édesem, itt van a forralt borod!
             </p>
-            <p>
+				<p>
                A fiatal ember fölriadt álmából, mire kövér bátyja is gyöngéden
                   közelebb lépett hozzá.
             </p>
-            <p>
+				<p>
                - Igyál, öcsém, a jó, fűszeres bor föl fog melegíteni! Ez a
                   nyolcvankettesből való, amit a boldogult édesapánk még a püspök úrtól vett
                   valaha.
             </p>
-            <p>
+				<p>
                Viktor fölnyitotta a szemét, nehézkesen hörpintett a borból, aztán
                   megszólalt, mint a kényeskedő gyermek, aki tu
                dja, hogy a szerettei a közelében vannak.
             </p>
-            <p>
+				<p>
                - Fázom!
             </p>
-            <p>
+				<p>
                Az asszony most levette a kendőjét és a vállára borította.
             </p>
-            <p>
+				<p>
                - Szegény barátom, le kell feküdnöd, mert késő éjszaka van. A jó,
                   puha ágyacskába fogsz lefeküdni és ott iszod meg a nagyszerű forralt borodat!
             </p>
-            <p>
+				<p>
                Mi
                hály bólintott és halkan ismételte dörmögő medvehangján:
             </p>
-            <p>
+				<p>
                - Le fogsz feküdni, öcsém!
             </p>
-            <p>
+				<p>
                Mindketten bekísérték Viktort a hálószobájába, ahol már fölmelegített
                   párnái várakoztak rá, levetkőztették és meggyújtották az éjjeli mécsest, - aztán
                   halkan, lábujjhegyen tértek vissza az ebédlőbe, ahol elgondolkozva várakoztam
@@ -5097,7 +5026,7 @@
                   és nagymamák idejéből, a porladó, jámbor életű ősök idejéből, akik az emeletes,
                   sárga házat megépíttették valaha.
             </p>
-            <p>
+				<p>
                Búcsúztam és magam is nyugodni tértem a vendégszobában, ahol még
                   mindig b
                arátságos tűz égett. Csönd lett az öreg házban, öntudatom lassankint
@@ -5107,11 +5036,11 @@
                aranyhíd támad, egy káprázatos aranyhíd, melyen át észrevétlenül
                   átlibbenek az Álomország gyémántleveles fái közé.
             </p>
-            <p>
+				<p>
                -
                &amp;-
             </p>
-         </div>
-      </body>
-  </text>
+			</div>
+		</body>
+	</text>
 </TEI>
