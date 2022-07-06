@@ -20,17 +20,17 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 ## Level1 -- annotation of structural units and adding metadata to texts
 
-- `<authorGender/>` : sex of author
+- `<ns1:authorGender/>` : sex of author
 	- `M` : male
 	- `F` : female
-- `<size/>` : size of the novel
+- `<ns1:size/>` : size of the novel
 	- `short` : 10 000 -- 49 999 words
 	- `medium` : 50 0000 -- 99 999 words
 	- `long` : more than 100 000 words 
-- `<canonicity/>` : canonicity level of the novel 
+- `<ns1:canonicity/>` : canonicity level of the novel 
 	- `low` : 0 or 1 edition after 1979
 	- `high` : 2 or more edition after 1979
-- `<timeSlot/>` : time period of the first edition of the novel
+- `<ns1:timeSlot/>` : time period of the first edition of the novel
 	- `T0` : before 1840
 	- `T1` : 1840--1860
 	- `T2` : 1860--1880
