@@ -60,7 +60,8 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 - [Zsófia Fellegi](https://github.com/zsofiafellegi)
 - [Péter Horváth](https://github.com/horvathpeti99)
 - [Balázs Indig](https://github.com/dlazesz)
-- Botond Szemes
+- [Bence Vida](https://github.com/VidaBence)
+- [Botond Szemes](https://github.com/SzemesBotond)
 - [Eszter Szlávich](https://github.com/sz-eszter)
 
 # License
