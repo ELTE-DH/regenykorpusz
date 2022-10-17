@@ -1,0 +1,2072 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU00726" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Bácsmegyeinek gyötrelmei : ELTeC edition</title>
+				<author ref="viaf:9867747">Kazinczy Ferenc (1759-1831)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">20772</measure>
+				<measure unit="pages">45</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Bácsmegyeinek gyötrelmei</title>
+					<date>2000-11-15</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00700/00726"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Labádi Gergely</name>
+						<name>Szabolcsi József</name>
+						<name>Kiss András</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Bácsmegyeinek gyötrelmei</title>
+						<date>2000-11-15</date>
+						<ref target="http://mars.arts.u-szeged.hu/~labadig/nyba1814.htm"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Bácsmegyeinek gyötrelmei</title>
+						<author>Kazinczy Ferenc</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Franklin-Társulat</publisher>
+						<date>1878</date>
+						<ref target="http://mek.oszk.hu/00700/00726/00726.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Bácsmegyeinek gyötrelmei</title>
+					<author>Kazinczy Ferenc</author>
+					<date>1814</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T2"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>BÁCSMEGYEI SURÁNYI NINCSIHEZ</head>
+				<p>Soprony, jan. 18.</p>
+				<p>Mintha csak álmodnám, szép és jó Nincsi, hogy eljöttem tőled. Tőled lenni elválva -
+               nem fogom meg e gondolatot; pedig minden pillantatban, minden érütésben érzem
+               híjodat, érzem, hogy távol vagyok tőled. Lyánykák, lyánykák, mikké nem tesztek ti
+               mibennünket! ti szíveinkkel együtt vészitek el azt az erőt is, mely minket éltet; s
+               akkor osztán lehelletetek nekünk enyhülés, pillantástok nekünk táplálat. Ha
+               elgondolom, kedves Nincsi, mint vala az midőn estvénként együtt sétálánk a bástyán,
+               vagy alól a hídon - a hold reszketve csillámlott a lassan zuhogó Duna habjain, s egy
+               ablakban véletlenül megszóllamlott a guitarr, sírt, nyögdelt, panaszkodott; továbbad
+               vígabb hangzatokra fakadt, s utoljára örvendő csattogásokkal szaladt fel és ismét alá
+               a húrokon - ó Nincsi! mint hajtottam fel olyankor az örömpoharat, melyet nekem a
+               végezés nyujta, miként mentem melletted a legédesebb szendergésben, s te engem miként
+               ébresztél fel édes csókod által álmaimból, s angyaltekinteted mint ragadott el, hogy
+               rólad, magamról, s az egész világról magam körül elfeledkezém! - Ha ezt így elnézem,
+               jó Nincsi, s elképzelem, hogy ez az oly nyugtalanul várt idő majd megint itt leszen,
+               hogy én majd megint nálad leszek, majd megint boldog leszek - oh! akkor nem bírok
+               hevemmel, ki kell mennem a szabadba, s ott neki eresztem szivemet, hadd érezze a szép
+               téli nap kecseit, hogy az űr, melyet szívemben emlékezeted támaszta, elteljen. S
+               mikor osztán három négy órát a hidegen töltök, s az éj a szerelmes andalgót ott éri,
+               s haza jövök, s megállok ablakomnál, s elnézem mint megyen itt egy szerelmes pár, s
+               amott a második, a harmadik, a hold szép fényében, s az az érzés, hogy együtt vannak,
+               miként melengeti őket mint a tavasz melege, hogy nem gondolnak a hideg csípősségével
+               - ha e boldogokat látom, s elgondolom minden örömeiket, mind azt az ő szent hűségeket
+               egymás iránt - Nincsi! akkor egyszerre előttem terem angyalképed, s szent csókokra
+               szóllít karjaid közzé. Felszököm, néked eredek, meg akarlak ölelni, kiterjesztem
+               utánad karjaimat, - az árny elenyész, a reszkető karok elhullanak, s magamat szorítom
+               által. Olyankor nagy csepp esik ki a megcsalatkozott szemekből, s vigasztalhatlan
+               sírok. Nincsi! én nem most jövék el tőled először mióta egymást szeretjük, de ez
+               aggást szívem még soha nem érzette. - Ha ez előérzés volna! - Irtózatos gondolat!
+               Minden tetemem reszket belé. - - Abba kell hagynom; nem irhatok tovább; pedig szívem
+               oly igen tele van. - Élj boldogul, kedves leány! s szeress oly kimondhatlanul mint én
+               téged.</p>
+			</div>
+			<div type="chapter">
+				<head>NINCSIHEZ BÁCSMEGYEI</head>
+				<p>Soprony, jan. 21.</p>
+				<p>Nincsi, nekem te vagy minden gondolatom. Napról napra, óráról órára inkább érzem,
+               hogy nélküled nem élhetek. Reád emlékeztet minden kicsinység. Ha dolgaim mindentől
+               elvonszanak, ha a legnagyobb figyelemmel neki állok írásomnak, huss, papirosomon
+               képed! s midőn sétálni indulok, vezérem leszen s kalauzom, előttem megyen, mint a
+               világosság felhője ment a pusztában bujdosóknak. - Tegnap egy patak szélén
+               őgyelegtem, s veled töltött boldog napjaimra gondolkozám, s abban kerestem, abban
+               találtam vigasztalást, hogy majd ismét veled leszek, hogy majd ismét boldog leszek
+               karjaid között. - De hát ha Nincsidet másnak kellene látnod karjai között? e gondolat
+               szökött keresztűl fejemen. Hát ha a szerint kellene eltöltened nélküle napjaidat mint
+               ím ezeket töltöd most? Ha ezt ki fognám e állhatni? kérdém, s azon pillanatban egy
+               fiatal nyár ötlött a víz szélén szemeimbe. A patak megáradott vala, s az egyik hab a
+               másika után csapkodá a fiatalt. Ez elhajlék, s ha a víz kevés ideig elcsendesedett,
+               uj erőt látszott gyűjteni. Míg még törzsöködben velő vagyon, mondám; míg még erősen
+               állasz, nem tarthatsz a víz dühétől: de ha gyökereid közül el lészen kapva a föld, ha
+               éltető nedvedet a férgek kiszívják, s a patak úgy kezd ismét ingatni, óh, akkor oda
+               lészesz! - Az emberi sors képe mindenben és mindenhol, kedves leány! - Élj boldogul!
+               Írj hamar! Nyugtalan várom leveledet.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, jan. 24.</p>
+				<p>Megengedj kedves, hogy leveleim után sokáig hagylak várni, noha már nagy az ideje,
+               hogy itt vagyok; annyifelé kapkodtak, hogy lehetetlen vala reá érnem; ez a sok
+               látogatás, viszontlátogatás, ez a sok ebédre, ozsonára hívás, a sok vacsorák,
+               kocsizások, melylyel vendég urat régi ismerősei egymással vetekedve gyötrik,
+               kínozzák… - Osztán - szólljunk valót! a dolognak vagyon egy más titkos oka is, - a
+               szerencsétlen nem feledheti az elhagyott lyánykát, s a leglármásb mulatságnak
+               közepette is pityergőre áll szája.</p>
+				<p>Valóban barátom, szégyenlem, hogy egy rövid elválás így elbúsít, ily alkalmatlanná
+               tészen mindenre. De ha a Nincsimnek portréja szemembe ötöl, oda vagyok. Úgy teszek
+               mint a kis leány, kinek új ruháját elzárá az anyja, és a ki minden órát számlál az
+               óhajtott vasárnapig.</p>
+			</div>
+			<div type="chapter">
+				<head>NINCSIHEZ BÁCSMEGYEI</head>
+				<p>Soprony, jan. 27.</p>
+				<p>Bálból jövök, lelkemnek kedves barátnéja, melyet tegnap egy szánozás előze meg. Mely
+               napom vala, ha azt együtt tölthettem volna veled! De lehetek e én tenélküled boldog?
+               Lehet-e az lélek nélkül a test? Nézd mint olvaszt fel bennem a te emlékezeted minden
+               érzést, mint melegíti fel szívemet, mely egész nap zárva volt minden örömnek. -
+               Egyedül a bátyám tizenhárom esztendős leánykája tudott édes enyelgései s ártatlan
+               lelkének kilövellései által egyszer-kétszer felderíteni. Szívemet még most is zárva
+               tartja az a homályos aggás, melyet neked minden levelem panaszol, s nem örömest
+               engednék neki itt újabb kiömlést; és így csak egy rövid történetét az én kis Tónim
+               felől, mely téged a gyermeknek szép lelkével megismértessen, s azzal jó éjszakát,
+               imádott leány!</p>
+				<p>Tóni az én szánomban ült. A mint a faluba kiérénk, figyelmessé tevém, hogy nézze
+               mennyi nép tolakodik látásunkra, s szántam őtet, hogy a sok köszöngetés kifárasztja.
+               Mit tészen az, felelé szívének mindenkori nyájasságával; ki ne tűrne inkább bármely
+               alkalmatlanságot, mint hogy azt a gyanút vonja magára, hogy elhívén magát azon, hogy
+               ő a szán királynéja, szégyelli isméretségeket; a kevély lélek mindég romlott lélek.
+               - E szívből eredő felelet a maga melegségében, könyűket gyűjtött szemeimbe.
+               Emlékezzél azon nyomorultakra, kik születések, pénzek, titulusok, s óh hányszor nem!
+               azon gunya miatt, mely hátukon fityeg, nem akarnak ismerni némely érdemes emberre, ki
+               ezerszerte többet ér mint ők, minden gunyájokkal. - A nevetséges bohók!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, febr. 2.</p>
+				<p>Oh barátom! hogy az ember a maga érzéseit annyira megtagadhatja, s utána vetheti a
+               haszonnak a bevett balgatagságoknak! Emlékezel mint örvendénk tavalyi ittléttünk
+               alatt, midőn Halasit és Veszprémi Mariet egymást oly híven szeretni látánk? Nem
+               esküdt volna-e meg a város két harmada, hogy ők egyek lesznek? nem megkészültnek
+               nézte e a dolgot minden; s íme a szerencsétlen Marie ma consiliárius Nagyfalvi úrhoz
+               eskettetett! - Hogy az a teremtés, melynek a természet, kedvében-e vagy haragjában?
+               legtöbb érzést ada, ily érzéketlen tud lenni! Ime most világosodék ki, hogy az öregek
+               soha nem akarták, hogy gyermekek Halasiné legyen, azon minden tekintetet lenyomó ok
+               miatt, mert Halasinak nincs sokja. Hogy a fiatal pár szereti egymást, azt elnézték;
+               annak mondának, úgy is vége leend, ha Mariet máshoz adjuk. - Gyönyörű kor, melyben az
+               ily esetek mindennapiak! Rettenetes látni, hogy az emberek oly reményeket táplálnak,
+               melyeket nem tudnak, s gyakran nem is akarnak teljesíteni. Esztelenek! nincs-e
+               különben is elég ínsége az életnek, s ti még akarva szaporítjátok azoknak számokat?
+               Az ily eseteket össze kellene szedni tanúlságul, hogy a tapasztalatlan készülne el jó
+               korán, s kerülné az örvényeket, melyekben nyugalma, s gyakran egész életebeli
+               szerencséje hajótörést szenved. - De hagyd beszélnem a történetet.</p>
+				<p>Halasi kényére él Mariejának szerelmében, nem tart semmitől és senkitől; azonban
+               consiliárius Nagyfalvi, egy rettenetes formájú vén, de gazdag ember, belé szeret a
+               leányba, s azt szüléitől megkéri. Mit gondolsz? Egy oly valami a mit méltóságnak
+               tituláznak, ha merő törzsök is - ez a szerencse nagyobb vala, mint hogy egy óráig is
+               elmélkedni kellessék Veszpréminek és Veszpréminének. Hadd billenjen a ház! S íme a
+               gyermekek boldogságát értő s óhajtó szülék szerencsének tartják, hogy házok egy ily
+               tekintetű uraság által megtiszteltetett, s a leányt oda ígérik. Hogy egy dologhoz,
+               mely gyermekeket egészen boldoggá vagy egészen boldogtalanná teheti, magának neki is
+               van szóllója, az nekik eszekbe nem jutott, mert azt édes atyámuramtól s édes
+               anyámasszonytól megtanúlánk, hogy gyermeknek nem szabad akarni, hogy annak
+               engedelmeskednie illik. Előhívatják Mariet, s Veszprémi úr atyai egész hatalmát
+               éreztető tekintetével vezeti jövendő férje felé. Consiliárius úr maga sem mulasztja
+               el, vérrel befutott ábrázzal jelenteni, hogy huga asszonya szépsége, derék
+               magaviselése nem kerülheték el figyelmét, s ő kedves hugaasszonyát elvenni
+               szándékozik. A szegény gyermek, ki ezt meg sem álmodá, elijed, reszket minden teteme,
+               Halasinak emlékezete általszök fején, s a szerelem azt a vétket követteti el vele,
+               hogy ellenkezzék szüléivel. Sír, tördeli kezét, kéri, szánnák meg, ő csak Halasival
+               lehet szerencsés. Bolondságok! a hol a gyermek vak, ott a szüléknek illik szemeseknek
+               lenni. Consiliárius úr eléggé szemtelen és pogány, látni hogy a szerencsétlen gyermek
+               miatta kínoztatik; s Veszprémi él hatalmával, a midőn a fejes gyermek engedni
+               teljességgel nem akar, kitagadást, elkergetést harsog. Marie gyenge volt s megadta
+               magát. - Én mind ezekről semmit nem tudtam valamig Halasi megértvén, hogy itt vagyok,
+               bejöve hozzám s szerencsétlenségét elpanaszlá. Szóllani akartam Veszprémivel, kihez
+               bíztam, hogy más gondolatra fogom vehetni, csak az a csuda mondana le erőszakosan
+               szerzett jusáról, de már késő vala ajánlásom; öszvekelések harmad napra rendeltetett,
+               s Halasi megígérteté velem magának, hogy a lakodalomtól, melyre bizonyosan meg leszek
+               híva, magamat el nem vonom, mert azon ő neki is meg kell jelenni, s szüksége lészen
+               bátorításomra. E szerént tanúja valék egy lépésnek, mely két ember életét örök
+               nyomorúsággá tevé. Hideg borzadás futott végig rajtam, midőn Marie az eltaposott
+               szerelemnek minden kínjaival a pap elébe lépett; s midőn a pap az esketéshez hozzá
+               fogott, s e kérdés alatt: Szereted-e? az ajtó megnyílt, Halasi belépett, s Marie őtet
+               meglátta, elhalványult, s szíve a szerelemnek minden dühével riada a “szeretem”
+               kimondása ellen, s kegyetlen atyja, általellenben állván vele, értette hallgatását, s
+               elkeményedett tekintettel a szerencsétlen szót belőle kicsikarta s Marie azt a
+               kétségbeesésnek minden kínjai közt nyögte ki, - a szerént állottam ott mintha ég föld
+               rajtam feküdt volna. Oh barátom, mely hang vala az! még most is hallom. Irtózatos! a
+               megfojtott természetnek halotti hörgése volt. E hangja szerencsétlenségbe taszított
+               gyermekednek, embertelen atya, melyet csábulásodban most nem hallál, e hang, majd
+               midőn világosabban látó szemekkel tekintesz azon jövendőbe, mely téged elfogadni
+               készül, csengeni fog füleidben, s jaj akkor neked! Halasi meggyőzte fájdalmát, s
+               nagyságban álla ott, melyet annak érzése ád a szerencsétlennek, hogy nem érdemli
+               esetét. Kevéssel az esketés után eltünt, s egy barátja által menteté ki magát, hogy
+               viceispánjától siető parancsolatjai érkeztenek. Mariet kellett volna látnod, midőn
+               ezt hallotta. Szíve megsugá neki miért távozott légyen el Halasi, s minden mozdultán
+               látszott, mely szertelenül boldogtalan. - Miért ád néktek a törvény, miért maga a
+               vallás annyi hatalmat szülék, ha ti azzal oly kárhozatosan éltek vissza!
+               Gyermekeiteknek szívekbe ütni a kést véteknek tartjátok, de őket oly rabságba vetni,
+               melyből nincs szabadulás, látni, miként vesznek óráról órára, az előttetek véteknek
+               nem tetszik. Mi jót szülhet az emberi társaságban a víg kedv, a szabad lélek, az
+               egészséges testi és mennyi rosszat az ellenkezők! Magzatjaitok, kiket ti hidegen
+               taszítátok nyomorúságba, betegeskedve vonják egy napról más napra szánást érdemlő
+               élteket; kínjaikat minden óra öregbíti, s őket használhatlanabbakká teszi a köznek
+               szolgálatjára. - Hah! nem elég tövis van-e éltünk ösvényein? önmagunknak kell e a
+               magunk napjaikat pokolbeli szenvedésekkel öldösni?</p>
+			</div>
+			<div type="chapter">
+				<head>NINCSIHEZ BÁCSMEGYEI</head>
+				<p>Soprony, febr. 12.</p>
+				<p>Tegnapi rettenetes napomat rettenetes éj követte - Ismét egy áldozatot láttam az
+               oltár előtt. De arról szóval. - Nincsi! ha való találna lenni ez éji álmom! Ugy
+               látszott, hogy valamely ismeretlen kiterjesztett karral közelíte feléd, hogy téged
+               megcsókola, s hogy te édes mosolygással tekintettél neki szemeibe, s én egy szögben,
+               távol tőletek, hosszú fehér lepelbe öltözve állottam, s reszkettem. Az idegen
+               másodízben is megcsókola, s te neki kibeszélhetetlen bájjal simultál mellére. Ki
+               akarálak tépni karjaiból, feléd szaladtam, de ah! csak árny valék mely körülted
+               szélylyelfolyt, s nem vala erőm elrántani. Kiáltani akarék, s nem vala hangom. E
+               rettenetes csüggedésben lábaidhoz rogytam, s álmom eloszlott. - Nincsi! ha ez az álom
+               előérzés volna! - Ezer gondolatok tolakodnak lelkemre; nem tudom mit mondjak. Ah,
+               vedd elő képemet, s emlékezzél rólam, midőn azt nézelled, s mondd magadnak, hogy
+               nincs ember, aki téged oly híven, oly valón, oly forróan szerethessen, mint én.
+               Emlékezzél vissza együttélt boldog óráinkra, s érezd, hogy mi egymásért vagyunk
+               teremtve, érezd hogy ha boldog akarsz lenni, enyémnek kell lenned. Ne tépd el
+               csábulásodban a köteléket, mely lelkeinket összekapcsolva tartá még minekelőtte
+               testbe költöztenek. Ha te engem elhagynál, Nincsi, magányosan sóhajtoznám utánad,
+               elfonnyadnék, s ideje előtt lépnék sírba; mert nékem csak egy szívem van, s az tiéd;
+               csak egy életem, s az néked van szentelve. Én ama boldog este néked áldoztam
+               szívemnek minden érzéseit, minden indulatját, s meg nem szegem hitemet. - Te nékem
+               nem írsz. Nem tűrhetem tovább hallgatásodat. Kérlek, szóllj, mi lelt? mi
+               tartóztathat, hogy írj? Ha elhidegültél irántam, engedd tudnom. Ne hidd, hogy téged
+               azért vádolni foglak. Birtokod engem eddig oly felette boldoggá teve; szerelmed
+               felébreszté szunnyadó indulataimat, szivemet érzékenynyé tette mind az iránt a mi
+               szép, nagy és nemes. Neked köszönöm ezt, s neked fogom köszönni örökké, neked
+               köszönném, ha szívemben irántad nem égne is szerelem, forró, kibeszélhetetlen
+               szerelem. Korán kóstolám meg azon boldogságot, melyet ember kóstolhat; s íme mind
+               éltem azzal a mit az ég a maga legkedveltebb szülöttjeinek engedhet. Örömeimnek
+               mértéke teljes vala: hadd teljen meg tehát poharam keserüséggel is. Engem kevés napok
+               megérlelhetnek a halálra. - Halálra? Nincsi! halálra? Nem ez ragadja-e ki az embert a
+               társaság közül, mely nekem kedves, oly igen kedves volt, mert benne találtalak
+               tégedet? nem keskeny sírba veti-e a szívet, mely szerelemmel akarná általfogni az
+               egész világot? - Halál! - Nincsi, hagyd félbe szakasztanom e gondolatot! Alatta
+               meghűl az érzék, s minden enyész szemeim előtt.</p>
+				<p>Fogjad e levelet, Nincsi! Ezer könyűk mennek vele, e név nélkül való érzés. Olvasd
+               meg másodszor, s harmadszor, s tollhoz hamar!</p>
+			</div>
+			<div type="chapter">
+				<head>NINCSIHEZ BÁCSMEGYEI</head>
+				<p>Soprony, febr. 15.</p>
+				<p>Posta nap ismét s - ismét nincs levél! - Nincsi! Nincsi! szólj, kérlek; mi lelt? mi
+               lelhetett? - Oh, ha érzenéd mint gyötör e hasztalan várás! Nem kívánnék neked ily
+               kínt, ha megváltoztál volna, ha hitedet megszegted volna is. - Hitedet megszegted
+               volna? S lehet azt megszegni, kedves Nincsi? Lehet-e azt megszegni két oly szívnek,
+               mint a miénk? - S íme képed egész kedvességében jelene meg ismét előttem. - Ha azon
+               édes pillantatokra emlékezem, Nincsi, melyeket szép szemeid löveltenek reám, ha azon
+               édes hangot hallom, mely engem visszakiálta a kertbe, midőn harántsípomon
+               ömledeztetém phantasieimet, s mentem, mert a szerelem felolvadt érzéseivel nem bírtam
+               tovább, és még sem mertem neked megvallani, mely kibeszélhetetlenül szeretlek - ha
+               mind ez örömekre, boldogságokra emlékezem, az a gondolat, hogy elhagysz, mint
+               valamely rettentő hegy áll vala szemeim előtt, semmivé lohad el, s szent szerelmed
+               képzelte ismét felvidítja elszomorodott elmémet, s a világ előttem ujólag elysiummá
+               változik el. De az édes álom nem tart sokáig, s megint gyötör hitszegésed. Ma még
+               kettőkor nézettem a postát, ha vannak-e leveleim. Már a sobák kezében valának. El nem
+               tudék távozni az ablak mellől, valamíg megláttam, hogy jő. Két levél, Nincsi, utánuk
+               kapék, nézem az írást borítékjaikon, s egyike sem tiéd? Nincsi! Mi lelt? kérlek az ég
+               szerelméért! Beteg nem vagy; azt nékem megírta volna Endrédi. Oh írj! írj, mihelyt
+               ezt veended, s tudasd velem honnan eredhet e gyötrő, magyarázhatatlan némaság. Az én
+               leveleim kezedhez mentek; Endrédi maga adta meg őket. Nem olvastad talán? Ah, úgy nem
+               láttad cseppjeimet, melyek papirosomra csorogtanak! Ha olvastad volna, nem maradtak
+               volna válasz nélkül; vagy már nem volnál Nincsi. - Áldd meg a kötést, melyet a
+               szerelem előtt esküvénk! Emlékezel? mint búva a hold felhői mögé azon szent este, s
+               mint jöve elő ismét teljes fényében, s mint mosolyga reánk, midőn a bonthatatlan
+               hitet esküvénk. Emlékezzél rá azon szent esküvésre, s maradj enyém! légy ismét enyém!
+               örökre enyém! Ezer közt sincs egy, a ki kedvesét úgy szeresse, mint én szeretlek
+               téged; s épen ez nekem az az egy érdemem, mely miatt engem te szeretsz. Más több
+               fényt, több ragyogást, több bőséget fogna neked adhatni; de nem adhatna oly szívet,
+               mint ím ez itt, mely csak teérted ver, melynek csak egy akaratja van, a te akaratod!
+               Oh, nem repülhetek hozzád! Még nehány nap itt kell mulatnom, s úgy kell tennem, a mi
+               nehezebbé teszi késtemet, mintha örömest mulatnék. Midőn szívem bánatjában csaknem
+               meghasad, elmétlen csevegéseket kell oly társaságokban, melyeket gyűlölök,
+               hallgatnom. … Oh, ha repülnöm lehetne, hogy bánatomat kebeledben sírhatnám ki!
+               Csókold fel e cseppet, kedves leány! Drágább az, mintha annyi nagyságú gyémántot
+               vennél; mert ez a legforróbb szerelemnek, a leghűbb epedésnek cseppje.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, febr. 18.</p>
+				<p>Oly kínok, oly hánykódások közt folynak napjaim, kedves, melyeknek nincs mása.
+               Szívemben ezer indulat zúdul fel, de nem lelek szót, a mivel kiadjam. - Nincsi ötödik
+               levelemre nem felel, s most veszem Endrédinek tudósítását, hogy Nincsivel valaminek
+               kell esni, mert kerüli a velelételt, s házoknál holmi készületeket sejt. - Marosi,
+               mit teszen az? Én őtet másnak nem engedem. Ugy térek vissza Budára, mint az az
+               oroszlán, kinek elszedték kölykeit; s jaj annak, a ki, ha elébe adom jusaimat, tőle
+               félre nem áll!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, febr. 19.</p>
+				<p>Alig méne el tegnapi levelem, midőn egy barátom által egy csomó levelem érkezék.
+               Felbontám, s legelébb azt vevém elő, melyen Endrédimnek kezére ismertem. Halljad mit
+               ir: - Szentpéteri, az én közbenjárásom által az országbiró előtt, secretáriussá lett
+               a helytartó tanácsnál, megérkezett Budára, s megkérte Nincsit. Megkérte, s Surányi
+               kedvezve felelt, s kívánsz hallani még egy és-t? - s Nincsi hozzá ment. - Nem
+               illene-e ez románba? - Te nem nevetsz? Én nevetek. - Indúl a posta. Isten hozzád!</p>
+			</div>
+			<div type="chapter">
+				<head>ENDRÉDY BÁCSMEGYEIHEZ</head>
+				<p>Buda, febr. 25.</p>
+				<p>Legújabb hír gyanánt jelenthetem, hogy Szentpéteri megérkezett. Örvendve írnám ezt
+               neked, barátom, hahogy a toldalék, mely mellé lesz vetve, minden örömeimet s
+               örömeidet kétszeresen el nem mérgesítené. Barátom, légy férfi, s készülj egy váratlan
+               történet értéséhez - az Nincsit illeti. Tegnap érettem külde. Megjelentem. Egy csomó
+               írással jött ki hozzám. Én, úgymond, íme e leveleket az úr barátjától vettem.
+               Környülményeim úgy kívánják, hogy válasz nélkül adjam által az urnak. Jelentse neki
+               szíves tiszteletemet, s tegye bizonyossá hálás s állandó barátságom felől. Kővé
+               váltam előtte, s meg nem foghatám, mi ok által indíttatik. - A lépés, melyet tevék,
+               felele tetszetes zavarodással, ezt úgy kívánja. - Nem értettem. - S az úr nem tudná,
+               kérdé, hogy mátka vagyok? Mire való itt e tettetés? - Elhitte állításomat, hogy
+               semmit nem tudok, s jelentette, hogy Szentpéterivel jegyben vagyon. - Az Istenért!
+               mondám, mit követett el nagysád? s mit Szentpéteri, ki talán nem is tudja, hogy e
+               kincstől barátját, jóltevőjét fosztotta meg? Atyja belépett, s Nincsi eltünt,
+               minekelőtte kérdéseimre felelhetett volna. Jónak láttam tartalék nélkül szólani
+               Surányival, s kimondám neki, hogy cselekedetén eléggé álmélkodni nem tudok. Szándékod
+               előtte tudva volt, ismeri charakteredet, bízhatott hozzád, s leányát mégis
+               Szentpéterihez adá, holott az elsőség bármely oldalról tekintsük, a tiéd. Vállat
+               vonított, s azt felelé, hogy a leány destinatiója a házasság; az erkölcsöknek
+               megromlásában, midőn ifjaink nőtelen szeretnek maradni, az a tiszte minden gyermekeit
+               szerető s bölcs atyának, hogy leányát, mihelyt érette magát oly ifju jelenti, a kivel
+               neki boldog életet igérhet, kiadja; volt egy idő, melyben mind tulajdon érdemeidre
+               nézve mind atyád emlékezetéért óhajtotta és remélte is, hogy te lészesz veje, de te
+               magadat soha nem jelentetted, s ő a bizonyost a bizonytalanért el nem szalaszthatá;
+               Szentpéterinek személyes érdemein s ifjuságán kivül fényes születése s szép birtoka
+               vagyon, s szerencséjét futni elkezdette: te a magadét, Isten tudja, mely különösségek
+               miatt, elmulasztottad, s birtokodnak egy része onkelednek rendelésétől függ, mely
+               annak csudálatosságai miatt kétséget szenved; s több ehhez hasonló dolgokat. Forrott
+               vérem, látván, hogy egy köztiszteletü s különben valóban nagy ember ily kicsiny módra
+               gondolkozik, kimondám neki, hogy te ismered a dolgok becsét, s alkalmasan tudod, mit
+               ér az a titulus, melyben az üres főkkel együtt sokszor még a jók is oly sokat
+               keresnek; s ha kedved volt volna szolgálatot venni, kegyelmében lévén a nemzet
+               elsőjének, s nagyjaink által megkülönböztetvén oly könnyen boldogíthatád vala
+               magadat, a hogyan már egynél több barátodat boldogítottad; örökséged pedig kérdést
+               nem szenved. De ha te minden pénz és születési fény nélkül akarnál is valamely házhoz
+               csatlattatni, azok által a kik reád méltók, nagy örömmel fogadtatnál. Azt felelte,
+               hogy a dolgot úgy tekintem mint igen hív barát, s reám bízza, hogy már most tekintsem
+               mint eszes atya; s érdemének azon érzésével, mely oly sok embert megzavart, és a mely
+               másban dölyfnek fogna magyaráztathatni, elhallgatott. - A lépés, a mint látom,
+               visszavonhatatlanul meg vagyon téve, s illő, hogy a mélt. úr szavát állja, noha
+               kérdés, ha gyermeke a cserében nem veszt-e, mondám félig epével, félig megháborodva,
+               s eljöttem.</p>
+				<p>Mint viselé magát Nincsi, önként hajlott-e, vagy kényszerítetett? azt lehetetlen volt
+               kitanulnom. Előttem az legcsudálatosabb, hogy Szentpéteri a te szerelmed felől semmit
+               nem tudott, és mind ez ideig semmit nem is gyanít. Utálnám, ha tudná, mitől fosztotta
+               meg barátját, jóltevőjét. Hogyha későnek nem látnám, szólnék vele; de nem szeretném
+               azt hinni felőled, hogy neked ezáltal szolgálatot tehettem volna.</p>
+				<p>Hitesd el magaddal, hogy parancsaidban, melyekkel barátságos bizodalmad megtisztelni
+               akarand, híven eljárni fő tisztem s örömem lesz, és hogy esetedben nálamnál szívesebb
+               részt nincs senki a ki vehessen.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, márcz. 9.</p>
+				<p>Mégis itten vagyok, barátom, s tudják az egek mikor mehetek el. Már egy izben útnak
+               valék készülve, de nem eresztének. Azt nekik a jó angyalok sugallák. Ha első tüzemben
+               mehettem volna, most Szentpéterinek gyilkosa volnék. Egy esztelen lépést csakugyan
+               tettem, s pirulok magam előtt mikor eszembe jut. Pénzt kértem az onkelemtől -
+               hiszed-e, minek? - hogy rajta Nincsit megvehessem. - Álmodhatál-e ilyet felőlem? -
+               Tudom én, hogy nekem elég volt volna csak egy szót szólani Szentpéterinek, s ő
+               mátkájáról azonnal lemondott volna; szeretetből, barátságból, hálának érzéséből, és
+               miért ne tegyem ezek mellé? széplelkűségből is. De az én örömeim el vannak mérgesítve
+               örökre, s én nézzem e, hogy más szenvedje azt miattam, a mit én szenvedek most
+               Szentpéteri miatt? Bírja békével a mit a sors neki ada, s legyen oly boldog
+               Nincsimnek birtokában, mint én reméltem az lenni. De az onkelem! az onkelem!
+               Megvetéssel fog tekinteni reám szemtelenségemért, elmétlenségemért. Pedig a megvetés
+               nehezet nyom, mint a szegénység.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, márcz. 16.</p>
+				<p>Köszönöm barátságodat, hogy elmétlen lépésemet mentegeted, s miatta egyedül a magával
+               tehetetlen szerelem hevét vádlod. Bár mások is ugyanezt tennék; úgy sok szeretetlen
+               itéletek maradnának el, s a tettek a magok való színekben jelennének meg, holott
+               mostan kiki a maga szíve s érzése szerint itél, s tulajdon hidegsége szerint mérsékli
+               az idegen tántorodás grádicsait.</p>
+				<p>Az én széplelkü onkelem nékem többet külde mint kértem, s egy levelet teve ajándéka
+               mellé, egy levelet, barátom, a milyetént az atyám testvérétől, a milyetént az én
+               második atyámtól lehetett várnom. Olvassd tulajdon szavait: “Te nékem, kedves Nevőm,
+               oly kérést tevél, melyen talán minden fel fogott volna akadni, de nem én. Nekem az
+               fölötte kedves, mert meggyőzött a felől a mit mindenkor vártam, óhajtottam, hogy
+               szeretsz, s hogy bennem határtalan bizodalmad vagyon. Imhol a mit kértél, s túl azon
+               még annyi, egyéb szükségeidre. Az én kedves emlékezetű bátyám fia, kinek minden
+               cselekedetein nemesség tündöklött, nem élhet azzal nem szép czélra; s ez okból nem
+               kivánom tudni mire fordítatott.”</p>
+				<p>E levél engem annyira megaláza, s cselekedetemnek alacsonyságát velem annyira
+               érezteté, hogy tisztemnek érzém megvallani neki válaszomban, hogy mind kegyére, mind
+               jó ítéletére érdemetlen vagyok, mert kevésbe mult, hogy az ifjúság tüze azt velem
+               fölötte nemtelen módon nem vesztegetteté el. Kértem őtet, a legszívesbb esdekléssel
+               kértem, ne vonja meg tőlem szeretetét, mivel ugy is eléggé szerencsétlen vagyok.
+               Mostan ismét várom levelét, s kibeszélhetetlen a nyugtalanság, melyben élek.</p>
+				<p>Körültem szomorú minden. Ha elfonnyadott ábrázt látok, azt hiszem, hogy azt
+               szerencsétlen szerelem fonnyasztja, s magányomban gyakorta kesergem az emberek
+               inségeit. Puszta előttem a világ, mióta nincs nekem ő, a szeretett! Befutok minden
+               kertet, minden társaságot, hogy bajomat elszórhassam, de szívem bár mely nyilva volt
+               is, míg egyedül valék, ismét bezáródik, mihelyt emberre akadok. Hasztalan keresek itt
+               barátot, kinek keblében kínjaimat kiönthessem. Egy-két jó embert itt is találtam
+               ugyan, de ők nem ínyem szerint valók; sugorgó gonddal élnek egy napról más napra, s a
+               mi idegeiket meg nem rándítja, a mi őket meg nem rázza, azt nem érzik. Nincs érzékek
+               a szerencsétlen szerelem kínjai iránt. Ti, egyedűl ti vagytok, kedveseim, a kik nekem
+               mind azt, a mit elvesztettem, kipótolhatjátok, - az egész világot! Nincsit! - Írj
+               kérlek, ne hagyj sokáig várnom leveled után. Úgy vagyok mint a ki térdig érő
+               homokpusztán sippadoz, s szomjúzom a vigasztalást, mint az elalélt bujdosó a forrás
+               vizét. Írj minél elébb, barátom! Tudod mely bér várja azt, a ki epedő barátjának egy
+               ital vizet nyújt.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, márcz. 21.</p>
+				<p>Elnézem, mi lesz mind ebből. A mai postával vevém Szentpéterinek levelét. A szerelem
+               száll belőle. El vagyon részegülve édjeitől, s nékem, ó Marosi, az ő leveleiből kell
+               olvasnom, az én Nincsim mint pazarolja reá nyájasságait, s jobbja és szeretete által
+               mint teszen mást, és nem engemet boldoggá. - De még ez nem a legnagyobb; képzeld a mi
+               következik: Szentpéteri úgy akarja, hogy régi barátságunk szerént és azon jótét
+               tetézéséül, melyet iránta hivatalának elnyerésében is bizonyítottam, legyek; vőfélye.
+               - Hogy a román ugyancsak érdeklő légyen, el kellene fogadnom kérését. - Az én agyam
+               nem arra való, hogy megfontolja, mit illik és mit kell; te fontold meg tehát, s írd
+               meg mit tegyek; levele addig válasz nélkül fog hagyatni. - Boldogtalan ember! ime az
+               a csalfa, ki most igéző mosolygásai, édes kék szemei által téged elysiumba bájol,
+               épen az ezelőtt kevés hónapokkal nekem esküvék örökös bonthatatlan hűséget. Jaj
+               neked; ha a hitszegés büntetése, melyet ő érdemel, tereád is szálland! - Már fekvő
+               beteg voltam. Marosimon és Endrédimen kívül még vagyon egy barátom. Az segíthetne
+               rajtam, az könnyíthetne roskasztó terhemen - az orvosa, barátja, szabadítója a
+               szerencsétleneknek! Az engem mind azon kínjaimtól, melyek most gyötrenek és a melyek
+               utánam bujdosásom hátra való útján ólálkodni fognak, egyszerre megmenthetne. Oh jőne,
+               jőne bár a szabadító! Úgy nyújtanám felé karjaimat, mint még kevéssel ezelőtt Nincsi
+               után nyújtottam volt.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Soprony, márcz. 28.</p>
+				<p>Úgy kivánja az országbiró, hogy siessek vissza Budára. Holnap tehát itt hagyom
+               Sopronyt. De más útat veszek, hogy a régibben nem látott vidék elszórhasson. -
+               Marosim! mely rettenetessé nem tette nekem egyetlen percz ez utat! Egy hónappal
+               ezelőtt, mely kedves volt volna nekem Buda felé indulni! s íme most, hogy oda Nincsi.
+               - Oh, bár ne kellene soha többé látnom Budát! - Mit csinálok majd ha vele összejövök,
+               miként állom ki látását! Mert, kerüljem a hogyan akarom, végre össze kell jönünk, s
+               az az egy pillantat - - Hagyj véget vetnem!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april. 7.</p>
+				<p>Fogadd el köszönetemet baráti leveledért. Az neked melegen ömlött szívedből.
+               Tanácsodat követni fogom. Okaid, melyekkel engemet a Szentpéteri kérésének
+               teljesítésére buzdítasz, megegyeznek ön gondolkozásommal.</p>
+				<p>Harmad napja, hogy megérkezém. Az országbiró szokott kegyével fogada, s nagy
+               megelégedést bizonyíta reám bízott dolgainak végrehajtásával, s a kőszegi tábla egyé
+               székével, mely most kiürült, kínála meg. Kegyét azon hálás tisztelettel vettem,
+               melyet egy valóban nagy ember érdemel; de nem fogadtam el az ajánlást. Soha nem
+               kaptam a hivatalok csillogásán, most pedig szolgálni teljesen alkalmatlan vagyok. -
+               Egyéb időmet a látogatások fogták el, Kifáradva a görbedezésbe, alkonytájban kimentem
+               a szőlők alá, hogy az első tavaszi szép napnak estét kényemre tölthessem. Ismered a
+               kilátást: Budának egy része a Margitsziget szép lombú fáival, s az a messze terjedő
+               gyönyörű lapály a kékellő szent-endrei s nógrádi hegyektől addig, hol a ráczkevi
+               torony a vizek közül kinyúl, s Veszprém felé a hanyatló nap, krókusszínű királyi
+               palástjában.</p>
+				<p>Elrészegülve e minden leírást felülhaladó scéna nézésében, kisírt szemekkel sok ideig
+               hanyatt fekvém a gyönge füvön, midőn véletlenül közel hozzám valamely mozdulást
+               sejtettem meg. Fölrezzenve tekinték a mozdulat felé, s képzeld, oh képzeld, mit
+               láttam! - a Nincsi kisded agarát! Ezt látni, elgondolni, hogy maga sem lehet messze,
+               fölugrani és menni - egy vala. Szívem döbögve vert. Magam is szégyenlem, hogy ily
+               gyönge vagyok. Nincs ember, a kinek szemébe nézni ne merjek, s ime reszketve futok
+               egy lyány előtt. De ha bátortalanságom okát tekintem, érzem, hogy az nem félénkség;
+               bízvást léphetek én őneki elébe, hanem kímélés; ez pedig oly istenség, melynek minden
+               készen áldozik, ha érző szív ver mellyében. - Bár végét érhetném hamar! Nincsen rév
+               hol menedéket leljek; hosszú fáradságos út nyúl el előttem, s legdühödtebb kísérők
+               vevének körül, kik a legfenébb gyötrelmekkel fognak határig korbácsolni. </p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 11.</p>
+				<p>Az onkelem parancsolja, hogy hozzá menjek ki. Fölakadt e kifejezésemen: “úgy is elég
+               szerencsétlen vagyok,” s azt kívánja, hogy tudassam vele bajomat, s ő segíteni fog. -
+               Mely határtalanul szeret engem ez a tiszteletet érdemlő ember! mint érzi, mintha
+               egyenesen magát bántaná valami engem ér! - Mely derék portéka az emberi szív, ha az
+               idétlen egyengetések által el nem rontatott! De ha erőltetni akarod, úgy jársz vele
+               mint az érlelt gyümölcscsel. A természet nagy alkotója mind belé nyomta azt az
+               anyagba, melybe ülteted a fát, a mi a gyümölcs megérlelésére szükséges s termése
+               annál ízletesbb lesz, minél kevesebbé mesterkélsz körülte. Ám nézd a leányt, ki távol
+               a városi sokaságtól, magának hagyva nevekedik falun, egy bölcs és gondos anya szemei
+               előtt; mely ártatlanság, a mely szent fedtelenség s színetlen rény mosolyg neki
+               szemeiből, mely természeti kellem vagyon mozdulatain, minden cselekedetén. -
+               Szívünknek piperés formálása egy bizonyos és józan értelemben, gyakorta rontó féreggé
+               vál, mely a legkecsegtetőbb virulmányt is elemészti, mely magát a legteljesbb
+               gyümölcsbe is berágja.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 14.</p>
+				<p>Oh barátom! láttam, láttam őtet! Túl vagyok azon veszélyes pillantaton, melytől
+               annyit reszkettem. Sokba került, igen sokba! - hát még ennyit látni, ennyit várni! -
+               E képzeletben egész pokol fekszik.</p>
+				<p>Tegnap este ismét kimentem a szőlők alá. Melegen sütött a nap, s kedves tavaszi
+               szellők lengettek. A feléledő természet elfogta szívemet és érzékeimnek mindenikét.
+               Elveszve láttam magamat ezen megszámíthatatlan életben, s egy jobb világ reménye
+               jóltevőleg folyt elmérgesült sebeimbe. Hirtelen Nincsinek szavát hallám. Menni
+               akarék. Nem volt erőm. Őtet látni - e rövid boldogságtól meg nem foszthatám magamat.
+               Egy leveles bokor mellé feküdtem, noha tartanom lehetett, hogy megsejtend.
+               Szentpéterijének karjain jöve felém, mint mikor Flóra jő a holt vidéket
+               mosolygásaival Tempévé varázslani - szótlan mentek el mellettem. Végre Nincsi
+               lehajolt, tavaszi virágot szedett s a legbájosbb pillantással nyujtotta által boldog
+               kedvesének. - Oh! mit nem szenvedtem! mint tola, mint taszíta valami, hogy keljek
+               föl, hogy szökjem hozzá, hogy ragadjam ki Szentpéterinek karjaiból, s szorítsam e
+               döbögő szerelemmel eltölt szívre. Ah! erő nélkül rogytam el a hanton, s kértem Istent
+               - tudom, látta kínomat - kértem, ölne meg. A szellő, mely környüllebegé, az édes lég,
+               melyet beszítt és kilihegett, szívemig hata el, s a tüzet, mely ott ég, lobogó lánggá
+               gerjesztette. Nem láttam módot, melylyel elolthassam, melylyel magamon könnyíthessek,
+               nem semmit mást csak - csak - oh Isten! szánj meg; adj könnyűt, hogy kisírhassam, s
+               erőt, hogy terhem alatt le ne roskadjak.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 19.</p>
+				<p>Holnap látnom kell őtet! látni fogom őtet. Az idősb Surányi bálba híva magához,
+               melyet valamely idegenek kedvéért tart, s úgy kivánja, hogy jelenjek meg korábban. -
+               Meg fogok jelenni; ő tőle semmit meg nem tagadhatok. Míg engem Nincsi még szeretett,
+               míg még az az édes remény táplált, hogy ő enyém lészen, úgy néztem rokonait, mint
+               tulajdon véreimet, s kivált e tisztelt öreget szívesen szerettem. S viszont ez a jó
+               öreg is szeretett engemet, s óhajtotta, hogy Nincsi enyém legyen, örült volna, ha
+               Nincsi enyém lett volna. Félek, nem ok nélkül hivat korábban, és hogy szóllani fog
+               velem. El vagyok készülve, s elég erőm van azt tenni, a mit a becsület és - engedd
+               mondanom - érdemem érezése kivánnak. A ki kedvesét elvesztette, kit oly igazán, oly
+               szentül szeretett, az mindent hidegen fog tekinteni; s jobb életre kivánkozik, hol
+               szívének enyhületet s nyugtot leljen, minthogy azt - itt nem lelhette. - Csak te,
+               csak te volnál itt barátom! Valami körültem van, neveli keserűségemet. A te
+               kebeledben nagy részét kisírnám bánatomnak.</p>
+				<p>A hold búsan fénylik falamra, s alkonyodó világgal deríti szobámnak hátulját. Elől
+               asztalomon szomorúan ég magányos gyertyám, s szerelmében beteg hugom a szomszéd sötét
+               szobában kesereg fortepiánoja mellett utánad, a távol kedves után. - Oh barátom, mely
+               boldog vagy te, mely boldog lészesz te, ha az én jó Klárim minden értelmében a szónak
+               tiéd leend. Víg elméje s meg nem romlott szíve - szépségét el fogja hervasztani a kor
+               - elméje, mondom és szíve kifogyhatatlan forrásai lesznek a te gyönyörjeidnek. És oh,
+               mint szeret ő tégedet! szerelem tetőtől fogva talpig, s lángol érted. Látnád csak
+               mint várja nyugtalanul a levélhordót, mint veszi el tőle leveleimet, mint hozza
+               nekem, hogy minél elébb láthassa ha írtál-e neki; s ha osztán a te nevedben
+               megölelem, ha hallja, hogy a vett csókot te küldöd neki, mely természeti ártatlan
+               öröm terjed el képén, s szemeiben mint reszket a hála könyűje! Ha ezt látnád, térdre
+               rogynál, s áldanád a napot, mely őtet tenéked szülé!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 21.</p>
+				<p>Ma többet szenvedék mint képzelnem lehete; pedig megjövendölém, hogy sokat fogok! -
+               Surányi a maga tipegő, szíves módjával jőve felém, s igen esdeklő hanggal
+               megköszönte, hogy kérése iránt tekintettel voltam, ha sógora lenni nem akarok is.
+               Elakadtam megszóllításán. Az nem az én vétkem, felelék, s a fájdalom úgy elfogta
+               szavamat, hogy ennél többet nem mondhattam, s mélyen elsülyedtem mondásomnak
+               igazságába. Hogyan? kérdé tűzbe jövén, s Nincsi adott volna okot az elhűlésre?
+               Elijedtem dörgő szavaitól; mert ily hevületben őtet soha nem láttam. Nem! mondám,
+               szavaiban szökvén; annyiban mondám, hogy az nem vétkem, mivel még szolgálat nélkül
+               valék, s jobbommal Nincsit csak akkor akarám megkínálni, mikor characterben leendek.
+               Ha falun laknám, erre szükség nem volna: társaságban élvén, a legphilosophusabb fej
+               is kénytelen magát a rendhez s szokáshoz szabni. Hogy azonban míg én távol valék
+               Budától, Szentpéteri megelőzött, az merő történet; hogy pedig a Nincsi szüléi őtet
+               elfogadták, azért én őket nem vádolhatom; nem nevezetesen magát Nincsit, ki
+               Szentpéteriben egy szeretetre méltó férjet választott, s ki tudja, talán csak
+               vaktában vetette magát bölcs és őtet szerető szüléinek jobb megitélések alá. -
+               Értelek, széplelkű ember! mondá az öreg könnyűbe lábbadván, s elfordult. - Barátom,
+               ha elnézem, mint vala minden kész engem boldoggá tenni, ha elnézem mint örvendett
+               volna ez a jó öreg, ha Nincsi nekem jutott volna, s az ő szives részvéte mint lett
+               volna új forrásaivá örömeimnek, s a Nincsi onkele és az én onkelem mint örvendettek
+               volna ők, hogy egykori barátságok bennünk megkoronáztatik - ah! akkor kivánnám, hogy
+               halálos elbutulás fogna el, hogy elvesztvén eszméletemet, azon hóhérló emlékezetektől
+               is megszabadulhatnék, melyek engemet szünet nélkül kínoznak. - A társaság alkalmasan
+               együtt vala már, midőn a szála ajtajának két szárnyai egyszerre megnyilának, s Nincsi
+               mátkájának karjain egész fényében belépe. Ily szépen, ily pompával kél elő a
+               hajnalcsillagnak karjain a hegyek megől a nap. - Úgy tetszett, hogy minden az ő
+               tekintetétől, az ő megjelenésétől vett volna életet és melegülést. Tolongva
+               közelített felé a társaság; de kivált az édeskés kis urak tarták szükségesnek, hogy a
+               mindenféle illatok fulasztó atmoszpheráját vonják körülte; s ha veszteségem nem volt
+               volna ily nagy, e bohó emberkék csuszamlásaikon, nyakgörbítéseiken, fejek rázásaikon
+               s karok billengésein kaczagva tudtam volna nevetni. Én az én Endrédimmel egy ablakban
+               állék, s pislongó szemekkel messziről s csenddel nézém mi történt. Surányi, a ki
+               midőn társaság van házánál, mindenütt terem, nekünk jöve. Nincsinek szemei nyomban
+               követték onkelét, s ezen alkalommal szemébe tűntem. Eléggé kegyes vala, mihelyt
+               megsejtett, ott hagyni imádóinak csillogó seregét s nekem jöve. Képzelheted, hogy
+               útját megrövidítettem. Az úr fölötte barátságtalan, mondá zavarodott képpel és
+               hanggal, de kimagyarázhatatlanúl bájos mosolygással; mióta Budáról eltávozott, régi
+               barátjait egészen feledi, s ha a történet harmadik helyt nem hozná össze, egészen meg
+               volnának fosztva látásának örömeitől, - Barátom! mint vere szívem, midőn magamat
+               ismét ily közel látám hozzája, midőn ismét hallám szavának musikális zengését,
+               melynek ő oly kibeszélhetetlenül csapodár hajlongást tud adni. Azt hittem, hogy lábai
+               előtt dőlök el. Fölpillantottam, szemébe tekintettem, lestem, ha lelnék-e ottan s
+               szép arczának vonásai közt valamely szerelmet, valamely elejteni akart szíves
+               érzeményt irántam, - s ah! szerelmet, sok szerelmet leltem, de - más iránt! Szívem
+               elborzadt e kémlés alatt, s egyszerre holt hideg leve. Mióta Budára érkezém, ez vala
+               feleletem, szünet nélkül rosszul érzem magamat. Változásaim bússá, elsülyedté tesznek
+               s sápadt arczczal, bús képpel nem örömest járok boldogok között. A beteg látása
+               másokra általhat, s nem szeretném magamat azzal vádolhatni, hogy másoknak örömeiket a
+               magam kényemnek föláldozám. Míg hosszú mentegetőzésem véget ére, az öreg Surányi
+               csendesen állott, s hallgata; de a mint abba hagyám, hozzánk lépe, s így szóla
+               nieszéhez: Igen is lányom, azt hittem, hogy valaha örömem lesz e derék ifjúval látni
+               összekelni; az volt öreg napjaimnak minden óhajtása. Ő szeretett téged, s talán most
+               is szeret. Te neki reményt nyújtottál, s meg van csalva. Ez a bánás fenyítést
+               érdemelne; de azon nemesség miatt, melylyel ő maga költ mentségedre, megkíméllek;
+               elég büntetés neked, hogy övé nem lészesz. Bácsmegyei, ekkor megfogá jobbomat, ezt én
+               a hugom jelenlétében akarám mondani az úrnak; nekem nem tetszésem, és soha nem is
+               volt az, soha nem is lészen az, hogy ő máshoz menjen. A dolog nekem hírem s akaratom
+               nélkül készüle meg. Ő lássa mit csinál, de szüleinek meg van mondva, hogy küszöbömön
+               belépni ne merjenek. - Oh! ha láttad volna, mint állék e gyilkoló scén alatt! Alig
+               leltem lélegzetet. Nincsi nem vala kisebb szorongásban, s talán összerogyott volna,
+               ha Szentpéteri, ki most új érkezőkkel lépe be s őket az öregnek akará bemutatni,
+               közzénk nem jött volna. Azonban a muzsika megpendült, a tánczosok kiállának, s
+               Szentpéteri kért, hogy viseljem képét s a tánczot kezdjem az ő kedves Nincsijével. -
+               Hagyj itt megpihennem. Nincsi megértette tekintetemet, melyet reá, kezet adván a
+               táncz kezdete alatt, vetettem volt, s azon csábulásba dőle vissza, melyből még föl
+               nem eszmélt vala egészen. Vad kevélységgel nyultam keze után, s fölléptem vele a
+               tánczosok sorában. A megbántott, elárúlt, megútált szerelem lekapta szemeimről a
+               köteléket. Az angyal, kit ezelőtt kevés hetekkel még exaltált lélekkel imádék, most
+               való alakjában, mint csalfa, mint hiteszegett leány álla előttem: én pedig még soha
+               nem állék leány előtt kevélyebben mint most. Annak elgondolása, hogy az állhatatlant
+               mint szerettem, hogy neki mint áldoztam föl mindenemet, életemet, nyugalmamat,
+               legszebb kinézéseimet; annak érzése a mit érette régóta tűrök és szenvedek, följebb
+               emele nálánál és magamnál. Becsemnek érezése bátorrá tett; érzette felsőbbségemet, s
+               minden mozdultom, minden reá vetett tekintetem vádlója leve és bosszulóm. Nem tűrheté
+               sokáig, reszketve tánczolt, s végre elgyöngült inai megtagadtak tőle minden lépést.
+               Láttam elszégyenülését, zavarodását. Eleintén vad örömmel gyönyörködtem diadalomon -
+               de mit érhet az? Kevés időig ura lehetsz magadnak, de a természet minden indulatot
+               elaltat és megszelidít. Átteszi magát a töltésen, melyet gerjedezései ellen raktál, s
+               annál nagyobb erővel hányja habjait, s minden érzékeidet, minden gondolatodat
+               tartozhatatlanul hordja el árjain. Ki tudja? hát ha még szeret? Ezer meg ezer okok
+               indíthaták így bánni! Ezer meg ezer okok cselekedheték, hogy irántad hűségtelenné
+               legyen - e gyönge ellenvetés elégséges vala arra, hogy szívem az ezelőtt még kevéssel
+               kárhoztatott leánynak heves mentőjévé tegye magát. A hiteszegettnek képe
+               észrevétlenül az egykor szeretett és egykor még szerető leány képévé változott át, s
+               azon útálatos színek, melyekkel őtet a megbántott kevélység festé előttem úgy tűntek
+               el lelkem előtt, mint a szivárvány gyönge színei, midőn a horizonon ismét a maga
+               királyi fényében kél ki a nap. Elalvék a mécs, melylyel nekem az ész csak perczekig
+               világított vala. Karomra fűztem Nincsit, s a kanapéig vezettem el, hol csak hamar
+               ugyanazon csábulásba esém mellette, melyben ő volt. A harsogó muzsika, annyi víg
+               ábrázok szemlélése, az a szózatos néma pillantás, melylyel itt is, amott is a
+               szeretett leány boldog kedvesének szemei közzé tekintgetett, s azon boldog órák
+               emlékezete, melyeket én e szálában éltem, és a melyek most minden örömeikkel s minden
+               kínjaikkal, mint valamely gyilkos, reám rohantak, mind ez még inkább eltüzesítette
+               szívemnek már is elhevült érzékeny voltát. Épen közepében állék a szálának, s szemeim
+               nyugtalanul repdestek mindenfelé. Véletlenül egy általellent függő tükrön akadtanak
+               meg. Elrémültem. Tovább vivém tekintetemet, s minden tükörből az én képem, az
+               elhagyott képe! a megvetetté! elhervadott arczom s a csüggedés pillantásai
+               sugárlották vissza. Most pedig egyszerre, egészen egyszerre, annak emlékezete, hogy
+               kevés hetek előtt itt repültem el a karjaim közzé zárt Nincsivel, e tükrök előtt, s
+               hogy ezeket mind, úgy a mint itt sorban függenek, az egymást szerető két kedvesnek
+               képe villámsebességgel végig lebegte; vagy midőn a pihenés órájában egyik előtt
+               véletlenül megállánk, abban magunkat megpillantottuk, s én őtet csókoltam meg, s ő
+               engemet, s mint lökdösénk ujjaink hegyén a tükör képeinek csókjainkat, s boldogságom
+               kibeszélhetetlen édjeitől elrészegedve, mint dőltem el olykor Nincsimnek karjai
+               közzé, mint csókolám meg újra, ismét a tükörbe tekintvén, s Nincsi mint mosolyga reám
+               egy angyalnak mosolygásával, s mind gyönyörködénk mind ketten a képen, tanúján
+               szerelmünknek - oh Marosi! e boldogságok emlékezete, melyek most oly újan, oly
+               elevenen lebegtek lelkem előtt, egészen elragada, a hideg tompaságra sülyeszte el.
+               Tántorogva léptem egy kanapéig, mely a szála mélyében állott, s szemeimet köd lepte
+               el, hogy azokból a mik körültem történtek, semmit sem láthaték. Nincsi vette észre
+               miért, s felém jött, s helyt foga mellettem. Nem tudtam, hogy mellettem ül s kezemet
+               tartja, míg szájából nevem nem zengett. Az az édes lebegő hang, melylyel azt zengé,
+               magamhoz hozott. Egy angyal szavának gondoltam, ki talán jobb életre szóllít.
+               Fölvetettem szemeimet, s Nincsit mellettem, Nincsit karjaim közt láttam. - Nagysád
+               itt? s már régen itt? kérdém. Ki ád nagysádnak hatalmat engem így kínozni?
+               Föleszméltem s hallgattam. - Édes barátom, felele a neki tulajdon édes hanggal;
+               kímélje magát, ne rontsa el akarva magát, ne ismérje félre barátjait, kik mind azon
+               részt, szíves részt vesznek a mi az urat éri! Ha nagysádat a szerelem egészen vakká
+               nem tevé vala, mondám, egy könnyed visszapillantás azokra, a mik többé nincsenek,
+               megfejthetné, ha én vagyok-e a ki magamat rontom. Szemébe kell vala tekintenem, de
+               hol veheték erre erőt? s el akarám előtte rejteni könyűimet, melyek szememet
+               elfutották. A fájdalmat nyomban követte a csüggedés. Épen keringőt kezdettek.
+               Hirtelen letörlöttem könyűimet, kiszaladtam s úgy tánczoltam, mint az őrült. Jótét
+               gyanánt vala, hogy ez örvénytánczban föl és alá kerengheték. Már három tánczosnét
+               fárasztottam vala ki, s már a negyedikhez kaptam, midőn Nincsi karjaim közzé rohant.
+               Mit csinál? kérdé. Nem engedem tovább! Kedvezzen egészségének; az ily elhevülés
+               halált hozhat. - Halált hozhat? kiálték, nem is tudván mit mondok; halált? Oh, annál
+               jobb, annál kedvesebb! Nincs-e oda mindenem? - Nem akarám megadni magamat, kifejtőzém
+               karjaiból, s táncznak eredék ismét. Nem! monda, s erősebben tartóztata. Nem eresztem.
+               Megsiketülve hevem örvényében, másod izben próbáltam magamat kitépni karjai közzül.
+               Menjen tehát! monda neheztelésének hangjával, s eltola; de ha magával nem gondol,
+               gondoljon barátjaival, véreivel. - Ily jó! és ily hitetlen! Ez a négy szó vala
+               egyetemben a mit mondhaték. Könyűim elfojtották szavaimat. Kiszöktem, s egy kocsiba
+               vetém fel magamat.</p>
+				<p>Most itt ülök lakó szobámban. Körültem éjféli csend uralkodik. Kevés órával ezelőtt
+               egy világokkal ragyogó szálában valék, annyi szerencsésnek víg zsibongásai közt, hol
+               vigadott, örvendett minden körültem; s ime most egyedül elhagyva, mindentől elhagyva!
+               kis rejtekembe rekesztve, hol körültem minden néma, hideg, holt! - Képe a koporsóban
+               nyugvónak, ki nem sokkal ezelőtt barátjainak víg körében élt, együtt mulata velek,
+               most pedig kiszakasztva társaságokból, keskeny sírba zárattatik.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, máj. 5.</p>
+				<p>Valamikor tegnap tollhoz nyulék, hogy hozzád írjak, el kelle löknöm azt. Isten tudja,
+               mi érend még. A miben egykor gyönyörűségemet lelém, az most gyötrésemre vál.
+               Könnyebben viselnék mindent, édes barátom, csak te volnál, te lehetnél itt. Míg még
+               karjaid közzé vethetém magamat, ha belrészemet fájdalom és bánat dulá, be jól voltak
+               akkor dolgaim! Könyűidnek mindenike enyhítő olaj volt a vert sebnek. De ez a szegény
+               halandók sorsa, ha fellelik egymást, ha lelkeik, érzeményeik úgy összeforradnak, hogy
+               egy lélek, és egy akarat leve a kettőből, nekik jő a történet, s a legszentebb,
+               legédesebb lánczot kérlelhetetlenül eltépdeli, s íme útjok úgy hajol el, hogy össze
+               soha többé nem tér, hogy ők egymást soha többé föl nem lelik. Így menénk jó darabig
+               összeölelkezett karokkal mi is; viszontszeretet, barátság, természet és ártatlanság
+               voltanak vezéreink; s íme el vagyunk szakasztva, és talán örökre el! Megborzadok e
+               gondolatra; és még is - magányos estvéimben, midőn a mult idők emlékezete szívemet
+               összeszorítja s rettegő tekintettel éltemnek jövendő napjain tekintek végig - és még
+               is oly valón, oly bizonyosan áll lelkem előtt e gondolat: Nem látjuk meg soha, soha
+               nem öleljük meg többé egymást! - Oh! most ismét szakadnak könyűim, s szorongásaim
+               elmulának, magamat könnyebben érzem. Te tudod, mit nem szenvedek! Ezereket látok
+               munkásan botorkázó léptekkel szédelegni körülöttem, meg megállok az ezer és ezer
+               között, s körültekintek, ha láthatnék e egyet a ki nekem, úgy mint te, kezet
+               nyújtson, s elkísérjen a koporsóig, melytől már nem vagyok messze. - Nincsi, Nincsi!
+               ha nekem akkor, midőn téged először láttalak, midőn úgy tetszett, hogy föltaláltuk
+               egymást, te elpirultál, én pedig téged mindjárt kimondhatatlan szeretettel
+               szerettelek, s te azután azon este, azzal a tekintettel, nékem a szerelemnek első
+               tüzes szent csókját adád úgy, hogy minden érzékem eltompult, minden eszméletem oda
+               lett - ha nékem akkor Géniuszom megsugta volna, hogy te azon első szent csókoddal
+               soha el nem oltható tüzet gyulasztasz szívembe, mely életem virágát megemészti s
+               minden kivánságaimat örök szomjjá változtatja teutánad - borzadással fejtettem volna
+               ki magamat karjaid közül, mintha ezek a karok a halál hideg karjai voltak volna, s
+               szaladtam volna - - Most engemet az tesz nyomorúvá, a kit én a legboldogabbá
+               óhajtottam tenni!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, máj. 8.</p>
+				<p>El akarom szórni magamat, de sikeretlenek igyekezeteim. Valahová megyek, ott kínoz,
+               ott gyötör a történet Nincsinek jelenlétével, mint valamely bosszús démon. Ha bálba
+               megyek, ott van. Ha a játékszínben a leghomályosabb szögben vonom meg magamat, s az
+               aktok közhézagjaik alatt a muzsika elszenderít, megszokott tekintetem a nélkül, hogy
+               azt tudnám, felreppen a lózsiba s ott leli Nincsit, s úgy tetszik, mintha rám nézne s
+               nekem mosolygana. Ha így álmodozom, s az időt említem, mikor ottan együtt ülék
+               mellette, keze kezemben nyugodott, s tekintete - ah! az a tekintés! melylyel csak ő,
+               csak ő tudott tekinteni! - inkább bájola el, mint Reháknénak közönségesen csudált
+               actiója - mikor mindez elterjed szemeim előtt, oly eleven, oly csábító színekkel,
+               mintha most is úgy volna: - megyek, futok, s néma cseppek jegyzik a helyet, hol a
+               szerencsétlen álla.</p>
+				<p>Hasztalanok valának mentegetőzéseim; el kellett mennem Megyerihez, ki, miért-miért
+               nem ő tudja, alakbált adott. Szalainál reám köték magokat; mennem kellett. A jó
+               emberek! látják mit szenvedek, s nem sejtik meg mint nevelik enyhítések által
+               gyötrelmeimet. Az ángyom, ki spanyol donna-alakba öltözék s engemet tengeri-rabéba
+               rejtett el, és én, mi ketten együtt menénk. Úgy véltem, senki nem fog reám ismerni, s
+               minden reám ismert. Tedd a mit akarsz, a szerencsétlen szeretőt minden maszk alatt
+               kiismerik. A lankadó lélek minden mozdulatban festi magát. Szavának zengése, állása,
+               járása, minden felfedi belső kínjait. Kikötém vala az ángyomnál, hogy fel legyek
+               szabadítva minden táncztól; s alig lépék fel, s egész reggeligre ki valának rendelve
+               tánczosai; ekkor nyíltak meg szemeim, hogy a dolog kicsinált játék volt, s hogy neki
+               reám nem vala szüksége. Kényére eresztém, s kifejtőzve nyügéből leülék egy szögben,
+               hol magamat kesergésemnek nekiereszthetém háborítás nélkül. Minden kiholt víg érzés
+               felélede bennem, minden Nincsire emlékeztete. A tág szálában nem vala hely, hol vele
+               nem álltam, ültem, nem sétáltam, nem tánczoltam. Amott nyújtotta nekem szép kezét,
+               midőn csendes elragadtatásban hosszan ültem mellette; ott törte kétfelé édes
+               nyájassággal a piskótát, melyet tőlem vett, s maga tevé számba felét, hogy forró
+               könyűim pajkosan elkapott szép kezére cseppenének. Forrók, mondá ilyenkor, ezek a te
+               könnyűid; s én feléje hajlottam, s érzéseimnek teljét az ő szép karjain sírtam ki.
+               Itt felszökött mellőlem, mikor elmerülék, s reám veté kendőjét, hogy nem tudám mi
+               lel, s ezt kiáltván: Harag neked! karon ragadta a legelső tánczost, kit előkapa, hogy
+               el nem érhetém; s ha látá, hogy táncza végét várom, oly hosszan tánczola, hogy
+               kénytelen valék magam is tánczosnét kapni. S mikor sokára abba hagyánk, s ismét
+               összeülheténk, oh! miket s mennyit nem tudtunk akkor mindketten mondani egymásnak! -
+               Igy lesz ezer meg ezer aprólék a legvalóbb örömeknek forrásává a szerelem kelyhétől
+               boldogult részeg ifjunak. A hidegvérű öreg neveti az ő örömeit; pedig ezek az örömek
+               való örömek, s az életnek legtisztább, legédesebb örömei, s oly örömek, melyekre
+               pályánknak vége felé is derült kedvvel tekinthetünk. Nevezzétek őket gyermekieknek,
+               ízetleneknek, ti bölcsek, kik, a mit bennetek az eltelés és csömör, vagy a meghült
+               vér szül, ész sugallatának akarjátok tartatni; mutassatok egyet örömeitek közül, mely
+               ily tiszta forrásból fakad, a szívet ily jóvá, ily nemessé teszi, s mind azzal a mi
+               alacsony és rút, ily ellenkezésben légyen, s megadom magamat s szánni foglak. - A
+               boldogtalanok! mint szédelgenek akart csalódásaikban! - De ez igy tón, barátom! Mivel
+               az ily öröm nem jól fér össze az ősz haju philosophusok bölcseségével, mert a
+               természet minden kornak kiszabta a maga örömeit, tehát a grávis urak gőggel
+               pillantanak alá az ifjak boldog örömeikre. S bár tudakozd meg bölcs uraságokat s
+               asszonyságokat, élteknek melyik szakát vélik legszebbiknek, s azt fogják felelni,
+               hogy ifju esztendeiket; s menj beljebb detailba, kérdd, mi tette ezen korokat oly
+               széppé, s látni fogod, hogy épen e gyönyörűségek, melyeket most kaczagnak, gyaláznak,
+               kárhoztatnak, tilalmaznak. Egy tekintetem, mely véletlenül Nincsimnek portréjára
+               reppent - Nincsimnek-e?! - elzárja a szívet, mely oly hév ömledezésekre fakadott
+               irántad.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, máj. 11.</p>
+				<p>Nagy indiscretio bennem, magam is látom én azt, barátom, hogy én neked, boldog
+               szeretőnek panaszlom azon kínokat, melyek szegény szívemet marczangolják, Ha szíved
+               érzéketlen volna, kevesebb indiscretio volna panaszaimban. De midőn még a felkelő
+               hajnal mindég kedves nappalt, s a lehanyatló nap mindig csendes éjt igére nékem,
+               akkor, ha szívem szűk vala boldogságom teljének, te kedves, kiterjesztéd karjaidat, s
+               megengedéd, hogy áradozó szívemnek habjait kebledbe öntsem ki. Marosi! mondám olykor,
+               Marosi! nyitva lesznek-e nékem e karok, ha szerencsém elváltozik? s te azt szent
+               szívreszorulással esküvéd nekem; s íme most, midőn eltépett szerelmemnek öldöklő
+               gyötrelmeit többé nem hordhatom egyedül, megemlékezem fogadásodra, s szívem, midőn
+               magamat vádlom, megnyugtatást talál. Érzem én, hogy nem sokára panaszaim ki lesznek
+               sírva, ki lesznek panaszolva. Hagyd meg a viaskodó természetnek, mely enyhülést lel
+               fakadozásaiban, kevés időre még jussit!</p>
+				<p>Tovább a bál felől. - Az a szála ezer emlékezeteket ébreszt bennem; s oh! bár ne
+               kellene látnom soha többször! mindjárt a hogy beléptem, annyi egy és más rohana reám,
+               hogy csak nehezen tudtam vánszorogni a kanapéhoz. S mint rezzenék meg, midőn itt egy
+               asszonyi alak megálla előttem, s azon kérdéssel riaszta fel andalgásomból, hogy miért
+               nem tánczolok. Oda levék, midőn a legédesebb zengésű szózat azt mutatá, hogy a kérdő
+               Nincsi volt. Az a szultánöltözet vala rajta, melyet tőlem kapott, midőn először
+               együtt menénk alakos bálba, s én neki rózsalánczokba vert rabja, követém lépéseit.
+               Ekképen játszik a szerelem! ekképen igyekszém neki ezer apróságok által bizonyítgatni
+               szívem érzéseit, melyeket annál inkább nem fejezheték ki minél inkább nevekedtenek.
+               Elakadtam a feleleten, s végre egy fonák mentséggel akartam megszabadulni tőle.
+               Nincsi az erőszakig vitte tolakodását, s az útat ki nem hagyá mutatni magának. Ez még
+               inkább megzavart. S tudja-e nagysád, kivel szól? kérdém erőltetett s csaknem
+               elkeseredett hangon. Sklávommal! felele. Nincsi! mondám, nagysád kegyetlen! Mint az
+               úr igazságtalan és kemény, úgy mond, s a maga hasonlíthatatlan természetes voltában
+               hátravetette a hosszú szép fátyolt. - Ez kelle még! Ezt érzi a szerelmes ifjú, ki
+               lyánykáját csak a szép estéken láthatja, midőn a sok esős éjjelek után ismét egész
+               fényében látja a holdat a fellegtelen csillagos égen emelkedni. Ily név nélkül való
+               érzés rezge végig egy pillantatban lelkemen. - Oh, ha karjaim közzé szoríthattam
+               volna, ha megmondhattam volna neki, hogy hitszegését megbocsátom, ha e forró
+               szívreszorítással mondhatnám neki még egyszer, hogy őtet szívem végtelenül szereti;
+               vég nélkül fogja szeretni! És bizony, Marosi! bizony, ha kimondhatám vala a mit
+               szívem e pillantatban érzett, Nincsi engemet ismét szeretett volna,
+               elszakaszthatatlanul szeretett volna! - Egy egészen resignált vágyás az ő birtoka
+               után! egy csak pillantatig tartó utána kívánkozás! őutána! egyedül csak őutána!
+               szíves odaengedésével, megvetésével mindennek egyébnek, a világ minden csillogásának!
+               - oh, nem mondhatom ki mit érzettem. - Ha nagysád kegyetlen s kegyetlenségében
+               azonfelül még kevély nem volna, mondám a legmélyebb elkeseredés hangjával, úgy én
+               most nem volnék nyomoru, s nagysád nem fogná nevethetni inségemet. - Elhagyott minden
+               erő; ki kelle fujnom magamat, s így jónak láttam elfordúlni s hazajövék. Leszedtem
+               rablánczaimat, melyeket egykor gyönyörködve, kevélykedve hordottam volt, széttéptem
+               ízről-ízre s kiszórtam az ablakon. A szél felkapta őket, s egyenesen vitte a Dunának.
+               Hah! kiáltám, bár minden örömeidnek emlékezetét, bár önmagadat szórhatna el így a
+               szél, hogy ne maradna ittlétednek semmi nyoma, mint ím e rózsáknak nem maradt!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, máj. 13.</p>
+				<p>Bezzeg, ha a rabláncz széjjeltépdelése jóvá tehetné a dolgot! Úgy minden jó volna, s
+               én szabadon lélegzeném. De ah! a szerelem reám oly bilincseket vere, melyeket csak a
+               halál erős keze téphet széjjel. Nem látok magam előtt semmi menekedést, semmi
+               nyugtot. Egy mód van hátra - az, hogy távozzam. De most még nem távozhatom, még most
+               nem kell távoznom.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, máj. 27.</p>
+				<p>Mintegy tizennégy napra egy előttem egészen ismeretlen tájra megyek ki s próbát
+               teszek, ha a feléledt természetnek szemlélte szívembe nem cseppentheti-e nehány
+               cseppjeit a nyugalomnak; legalább nem szunnyaszthat-e szelídebb kesergésbe; mert e
+               hánykódásai, e szélvésze határt nem ismerő gyulongásaimnak, végtére is elrontanak s
+               óriási léptekkel rángatnak közelébbre a sírhoz. Talán, talán elaltatja kínjaimat,
+               talán ad egy-két napi pihenést; s akkor oly csendes, oly bátor lélekkel vezetem
+               Nincsit oltár elébe, hogy magad is csudálni fogod. Csengeri ezelőtt nehány nappal ide
+               érkezett, meghallotta románomat, felkeresett, s addig kért, addig unszolt, hogy
+               lehetetlen vala neki magamat meg nem adnom. Tornára mégyek vele; azaz, ő viszen
+               magával Tornára; mert nekem nincs akarásom. Olyanná levék, mint a gépely, melyet
+               minden felvonhat, a kinek tetszik, és a mely vaktában enged minden intézetnek.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 3.</p>
+				<p>A vidék itt gyönyörű; való honja a beteg szívnek s csüggedt szerelemnek. Iszonyú
+               szirtmasszák emelkednek az ég felé, s agg fejek minden perczben összeomlással
+               rettegtet. Mély és keskeny nyilások, melyek közt borzadozva teszi hangzó lépteit a
+               bús vándor, labyrinthi kerengésben csaponganak végig a rengetegek égig halmozott
+               derekaikon, s úgy néznek ki, mint kapui egy földalatti világnak. E repedéseknek
+               keskeny fenekeikben a nap déli teljes ragyogása meredek falaimnak csak fekete
+               homlokaikat vidítja; aljai közt setét éj lakozik. Csendes minden körültem, mint a
+               sír; csak messziről hallani a keskeny partok közé szorult patak zuhanását. Itt járok
+               szüntelen, s Petrarca a kisérőm. Panaszai mélyen hatnak rám. Kesergő sonettjeivel
+               kalandozom be a mezőt és az erdőket, s a legsivatagabb, legmeredekebb bérczeket; s ha
+               osztán kifáradva eldőlök egy köven, s a világ előttem elalkonyodik, s az összeszorult
+               szívből Nincsimnek neve kireppen, utánam jajdulnak a szirtok. - Ő nekem mindenem
+               vala! mindenem! határa minden kivánságaimnak, minden reményeimnek! S oly jó volt!
+               Mikor neki szemébe pillantottam, mikor ő reám mosolygott, reá mertem volna tenni
+               mindent, mindent, hogy az örökké így lesz, hogy ő örökké enyém marad, hogy ő senkit
+               sem fog rajtam kívül szerethetni. S íme most - -</p>
+				<p>Tegnap levelem érkezék a húgomtól. Az a gyermek el van telve szerelemmel. Irj neki, s
+               írj minél előbb. Egyedül a te leveleid fogják enyhíthetni bánatját, melybe miattam
+               sülyede.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 5.</p>
+				<p>Tudd te, kedves Sennuccióm! így kezdi Petrarca egyik szép sonettjét, miként bán velem
+               a szerelem, s mely éltet élek. Kivánságaim nem enyhülnek, s szívem még olvadoz a
+               megszokott lángban. - Igen is, Marosi te, én Sennuccióm és te, lelke Nincsinek! ki
+               engemet, mint Petrarcát a Lauráé, mindenhova üldöz - tinéktek panaszlom e véget nem
+               érő gyötrelmet, e meg nem számítható könyűket, melyek nem tudnak elfogyni, s új meg
+               új emlékezetek által fakasztatnak. - Azt írod, hogy meg van téve a kötés, mely
+               Nincsit másnak karjaiba vezetvén, kárhozatos vétekké teszen minden utánavágyást. S te
+               Marosi vagy-e, hogy nekem ezt írhatd? Tartóztass fel egy omló folyamot, ha
+               tartóztatni tudod.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 13.</p>
+				<p>Az ifjú Csengeri testvére Teréz, egy szeretetre méltó teremtés; lelke érzékeny és jó,
+               s művelve van. Tudja okát szenvedéseimnek, s részvéte gyakor sírásra olvasztja. Ez a
+               bére a legszebb érzésnek. De az ő könyűi részvevő érzésnek könyűi, s a fájdalom, mely
+               ezeket fakasztgatja, nem lehet nem édes oly léleknek, mint a Terézé. Bár! Az ő
+               társasága ír az én sebeimre. - Ha a hold a vacsoránál a gyertyák közt hozzám
+               lopóskodik, s szelíd nyájassága úgy vonz maga felé mint a barátság kiterjesztett
+               karjai, hogy sírjam ki fájdalmaimat - ha mikor így ellágyulok, s félre vonom magamat
+               egy szögbe, Teréz utánam jő, s összeöltött karral addig járunk szent fénye alatt a
+               kertnek tágas útjain, míg az éjjeli őr borzasztó ordításával reánk nem kiáltja, hogy
+               az éjfél már elütötte rezzentő óráját.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 16.</p>
+				<p>Gyönyörű időnk van, s tiszták, szépek az éjjelek. Ura vagyok magamnak, a szerént
+               élhetek a mint szivem kivánja; s ez néha oly homály nélkül való pillantatokat ad
+               nekem, hogy nyugodt elmével nézhetek ez életre, mig más részről elragadott szent
+               érzéseim a koporsókon túl jobb élettel biztatnak. De oh mely tündér az ily csendes
+               pillantat! enyész előttem, mint az árny, midőn tartóztatni akarom. - Ha mikor Terézt
+               felvezetem a kertből s ismét kiszököm a kapun, lemegyek a tóhoz, eloldom a csónakot,
+               s a szép tengerkén a kastély alatt föl és alá evezek, midőn ilyenkor körültem minden
+               hallgat, s lapátomnak loccsanásain kívül, mely egy csapással ezer ezüst szikrákat
+               vet, fülem semmit nem hall - midőn hosszas kerengésem után végre fáradtan visszatérek
+               öblömbe, s ott körülvéve a virággal elhalmozott bokroktól kikötök, s csónakomban
+               végig nyúlok, s elnézem, hogy a hold és csillagok mint futnak el fölöttem, s a lenge
+               tavaszi hév szellők, mint hozzák nekem mindenfelől a legkedvesebb illatokat - oh,
+               mint óhajtom olyankor, hogy végre már hullana le szemeimről a fátyol, mely
+               mindnyájunkat halandókat vakon tart, midőn rettegő kétségeink közt tévelygünk, s alig
+               merünk félve pillantani a távol jövendőbe!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 20.</p>
+				<p>Az én onkelem nekem nevezetes ajándékot külde ismét. Parancsolja, hogy siessek hozzá,
+               s én, kit a szerelem mint az árbocztalan hajót A szél, ide a tova ver, vágyok ugyan
+               látni őtet, de az ezer szélvész, ezer inség szünetlenül hány és lökdös. Útamat
+               csakugyan nem halasztom sokára, s mindjárt a lakodalom után kimegyek hozzá, s
+               társaságában fogom keresni nyugtomat, melyet közel Nincsihez soha föl nem lelhetek.
+               Ajándéka azonban nékem igen édes örömöket nyújt. Minap a helybeli szegények felől
+               szólván Terézzel, jelentém néki, hogy követni akarom példáját, s valamit én is
+               kiosztok közöttök. S ime most együtt járjuk az utczákat, s osztogatjuk a kisded
+               alamizsnát. - Azt látni, hogy Teréz mely szeretetre méltó leereszkedéssel bátorítja a
+               félénk és elszégyenült falusiakat, s mint ejti úgy dolgát, hogy a fölsegélteknek nem
+               marad idejek megköszönni a jótétet, hanem a helyett árvíz módra szakadnak szemeikből
+               a hála könyűi - ezt látni barátom, egyetlen öröm a maga nemében; és ha földi
+               bújdosásom alatt még támogathat, éleszthet valami, úgy az minden bizonnyal azon
+               pillantások, a melyekben a jó Teréz jobbján függve, embertársaimnak nyomorúságaikat
+               enyhíthetem.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jún. 27.</p>
+				<p>Ma egy rakáska levelem érkezék. A bátyámét ide zárom. Olyan az a milyent tőle várnom
+               lehete; megelőzi kívánságaimat tiszteletet érdemlő jóságával. - Együtt vevém vele a
+               tiédet is, melyben írod, hogy vármegyéd követnek választott. Felelj meg a benned
+               vetett reményeknek, s azon légy, hogy neved hallására még késő maradékaid is
+               kevélykedhessenek. Siketülj meg a sokaság elmétlen magaszalásai iránt; a ki az által
+               engedi magát elcsábítatni, nem kevésbbé méltó az útálatra, mint a ki nyelvét árúba
+               veti, s kövesd lelkiismereted szent szavát mindenben. Mi szép egy egész haza előtt
+               tisztának, tántoríthatatlannak találtatni, s egyenesség s igaz hűség által nyerni meg
+               az udvar kegyelmeit, s nem a sokaknak, hanem a jóknak becsűléseket, szereteteket!
+               Ennél dicsőbb út nem nyílhat előtted. Lépj szent elszánással pályád megfutására, s
+               légy szerencsés megfutásában. Így osztán térj meg borostyánnal Kláridnak karjai
+               közzé; és ha reményeinket meg nem hazudtolod a szerelem minden áldásait öntse ki
+               reád. Ha te is meghazudtolod, ha te is! - úgy - Reszketek gondolni a gondolatot.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 1.</p>
+				<p>Oda van dicsőséged hajnaltán támadott örömem is! Úgy fogy el, mint a leszálló napnak
+               utolsó sugarai, midőn a tornyos borúlatok rajtok erőt vettenek. Visszarogyván
+               bánatomba, fájdalmaim is visszatérnek. A szerelem, mely ezelőtt elkínzott s most
+               tágulást engede, nem sokára, ah, érzem azt! kettőztetve fog reám rohanni, s tartok,
+               igen, tartok tőle, hogy összeront.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 4.</p>
+				<p>Ez a szív telje, melylyel e vadonszép környet s e pillantatban az egész világot
+               átfogom, hóhérom énnekem. - Mikor e nagy mindenben, e végtelen mindenben, mely
+               előttem itt elnyult, széjjeltekintek, s szemem addig mered, míg végre elgyöngül,
+               reszketni kezd s elvakul, hogy végre megdöbbenek a Mindenható, a megfoghatatlan
+               előtt; - mikor ilyenkor karjaimat kiterjesztem egy valaki után, hogy azt a vég nélkül
+               való, kimondhatatlan, megmagyarázhatatlan érzést kisírhassam az ő keblében - s előmbe
+               lebben Nincsinek képe, s néki szaladok, s látom, hogy hasztalan vívok magammal- s
+               mikor osztán az a gondolat, hogy őtet elvesztettem, hogy őtet örökre elvesztettem,
+               minden remény nélkül, mint a mindent összetördelő villám, belém csap s eldőlök,
+               mintha minden erőmet, minden velőmet megemésztette volna - Isten! te látod mint
+               nyögök terhem elviselhetetlen súlya alatt, mint fetrengek a földön, mint a
+               széjjeltaposott féreg, s mint kiáltok föl hozzád, hogy szánj meg, s hagyj
+               vesznem.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 6.</p>
+				<p>Magamon kívül vagyok, midőn képzelem, mely nyugtalansággal számlál most Nincsi minden
+               órát, minden perczet, mely lakadalmát késleli. Összetépek, összerontok mindent ha mi
+               kezembe akad; s akkor osztán szégyellem elmétlenségemet s sírok. Mennék innen, de nem
+               eresztenek, s tartok tőle, hogy szem alá fogtak, s Terézt nem ritkán sírva lelem. Ez
+               részvétnek sírása. - Mit sír nagysád? mondám neki; tartsa továbbra könyűit. - Értenie
+               kellett mit mondottam, mert az az “ah, mely nyilalás, mely szívszorulat, s a fejem!
+               hideg kezem egészen áthevül tőle!” - Nincsi, Nincsi! S mind ez - Oh Marosi, mikor ér
+               véget inségem, mikor hasad meg kínjaiban ez a beteg szegény szív. </p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 8.</p>
+				<p>Az éj, mely környülfogott vala, elmult fölöttem, s együtt tűntek el vele, mind azon
+               káprázolatok, melyek kínzottanak. Úgy mondják, tegnap magamon kívül voltam. A jó
+               emberek! nem akarják állapotomat való nevén nevezni. Elkövettek valamit
+               használhatónak gondoltak; eret nyittatának rajtam, nem tudom hány ízben, s Teréz mind
+               addig mulatott fekvésem körül, míg az illendőség engedé. - Kedves leány! mondám neki;
+               az én nyomorúságom érdekli nagysádat? Amott, abban a jobb világban köszönöm meg
+               jóságát; emberi nyelv nem mondhatja ki a mit akarnék. - Könyűim öszveelegyedtek
+               csókommal, melyet reszkető ajakim szép kezére nyomtak. Teréz sírt. Félek, nehogy
+               érzékeny szíve, mely valamit fölfog, makacs tapadással fog fel, utoljára
+               szerencsétlenné tégye. De nincs-e elég éd minden kínjaim mellett azon gondolatban,
+               hogy nyomorúságom oly sokakat meghatott? hogy inségemet oly sokaknak
+               panaszolhatom?</p>
+				<p>Ne légy gondban miattam. Egészségem helyre állott, csak hogy még néha gyöngélkedem. A
+               hugommal változásom felől semmit ne tudass. Négy-öt nap mulva útnak indulok, oltár
+               elébe vezetni Nincsit, s akkor osztán Isten veled, kedves Buda! - s örökre!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 20.</p>
+				<p>Midőn minapi levelemet épen berekeszteném, két idegen jelenteté be nálunk magát, s az
+               öreg Csengeri által azon nyájassággal s örömmel fogadtatott, melyről ez a jó öreg
+               országszerte isméretes. Mind ketten nem csak kedvelői, hanem értői is a mesterégnek,
+               s ide őket leginkább az az oltártábla vonzá, melyet Csengeri bécsi prof. Maurer által
+               festetett. Szepesből jönnek, hol a Magyar-Tyrólt akarák, magok a boldog alföld
+               lakósai látni, s visszafelé Szomolnoknak és Jászónak vevék útjokat, hogy itt a
+               Krakker festéseivel gazdag templomot, amott a Fűger szent Katalinját csudálhassák; s
+               oly melegen, oly értelmességgel szóllanak arról, a mit láttak, hogy kedvem érkezék
+               mindjárt a hogy ők elmentek, megtenni ez útat; s ez az oka szokatlan hallgatásomnak.
+               - A mit Jászón és osztán Szomolnokon láték, hozzá járulván, hogy Csengeri a Museum
+               Pio-Clementinumot, a Herculánumi régiségek köteteit, a Piranési Rómáját, s a Raphael,
+               Hogarth s Dürer rezeit szobámban téteté le, - ki hitte volna, hogy ezeket s több
+               efféléket, s ezeken kívűl, még két három gazdag portefeuillt itt lehessen találni? -
+               fölébresztette egykori szenvedelmemet, s el van végezve nálam, hogyha egészségem
+               újabb bomlást nem szenved, a jövő tavaszszal Olaszországot ismét meglátom, s a
+               Belvedér eltávozott Isteneit fölkeresem a Louverben. - Mióta Nincsi e gyötrelmeket
+               támasztotta lelkemben, noha még azt az enyhületet, melyet nekem nehány nap óta e
+               mesterség műveinek csudálása nyújt, semmiben nem leltem. Oh, ha ez, mint egy itala a
+               Lethének, kínjaimnak emlékezetét annyira elolthatná, hogy mintegy újjá szülve
+               térhetnék meg onnan! Hogy azt szabad reményleni, te, ki a mesterség titkaiba föl vagy
+               avatva, szint úgy érted mint én.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Torna, jul. 21.</p>
+				<p>Oda vagyok, barátom! oda vagyok! Teréz - ah, képzelheted-e s nem dőlsz e el
+               ijedtedben? Teréz ég érettem! Ég, és ennek tudásában mennyei boldogság s a pokolnak
+               minden kínjai vannak elrejtve. Nem tölt-e meg egész mértéke kínjaimnak, hogy még
+               ennek is reám kelle jönni? egy tiszteletre méltó leány nyugalmát kellett-e földulnom?
+               egy tisztelt ősz atyán kellett-e, minden irántam mutatott kegyeiért s e szíves
+               vendéglésért, épen ott ejtenem sebet, a hol az őtet leghalálosabban érdekli? kedves
+               gyermekének szívébe kellett e halál és emésztő gyötrelem magvát hintenem? - És mind
+               ezt mivel? egy boldogtalan érzéssel, mely leginkább a legjobb szíveket hatja meg! - E
+               gondolat úgy hembereg érről érre, mint egy tűzpatak szívemben, s elégeti a remélt
+               nyugalomnak minden fakadó csemetéjét.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Miskolcz, jul. 24.</p>
+				<p>Ma nyugodtabb szívvel írhatok, s elbeszélem, miként vevék búcsút Teréztől. - Lévai
+               Kassáról kiküldé lovait, melyeken eddig jöhessek. Teréz valahova kifordult volt. Én
+               azalatt búcsút vevék az öreg Csengeritől, s épen a kertbe akarék lemenni, hogy míg
+               Teréz haza jő ott mulassak; s midőn a grádicsra léptem, meghallám, mint kérdi kiéi a
+               lovak, s mit akarna. Megértvén cselédemtől, hogy a bátyám Budára érkezett, s miatta
+               kell sietve indulnom, elholt. Megfogá kezemet, s minden szó nélkül vive szobájába. -
+               S az úr megyen? az úr elhágy? monda mély sóhajtással s elhalványodott képpel, melyen
+               a szánakozás, a legszívesebb barátság és az elszakadás gyötrelmei valának festve. -
+               Hogy talán szeret, ez a gondolat úgy lobbana föl lelkemben mint valamely láng az éj
+               homályában, s egyszerre el is tűnt. De ismét újra reám rohana, s mindig valóbbá,
+               bizonyosabbá, s egyszersmind mindig gyötrőbbé is vála; s midőn fortepianója mellé
+               vetette le magát, s phantasiejének szárnyain az érzés mélyeibe hatott, felszöktem a
+               székről; s elmerűlve jártam föl s alá a szobában. Az ő hajlandósága, az ő szerelme,
+               bár mely kicsinynek akarám is azt képzelni, igen nagyon megilletett, s láttam, mely
+               terhes leend az elválás. Teréz felkölt, s egy ablakba vonszott. A nap hanyatlani
+               kezde, s az eget a legszebb est borította el. Szótlan állánk ottan sokáig. -
+               Bácsmegyei! monda ekkor; ily szép leend-e életünknek is estéje? - Higyjük azt, jó
+               Teréz, mondám neki, ajakimhoz vivén kezét. - Higyjük! monda hirtelen és a legmélyebb
+               fájdalom kifejezésével, s ezt kérdé: hát az úr, édes barátom, hiszi-e, hogy bírni
+               fogja Nincsijének jobbját? Szívemet valamely előttem ismeretlen s meg nem
+               magyarázható vigasztalás ereje futotta el. Ha esténk ily tiszta nem lesz, ily szelíd
+               nem lesz; annál szebb lesz az estvét követő reggel; s egy lélegzése annak a másik
+               jobb életnek, annak az ott ragyogó napnak egy sugára, el fogják feledtetni ez inséget
+               itt. - Elhallgatott. Láttam mint tusakodék magával. - Jőjjön kedves barátom! mondá;
+               mindketten, el vagyunk keseredve; enyhítse bánatunkat im ez! s fortepianojára
+               mutatott. Gondolat nélkűl látszott egy ideig némely hangot ütni rajta; de most
+               egyszerre az epedésnek szívet olvasztó hangjaiba csapott, s el kezdé verni s dallani:
+               Homályos bánat dulja lelkemet. - Ily indulattal, ily hajlékony csapodár édes hanggal
+               még nem hallám énekelni. Az utolsó strophában kicsapott, a oly phantasiekben veszté
+               el magát, hogy fortepianoja énekével együtt látszott elhalni. Végét érvén a dalnak,
+               megfogá kezemet. Még nem tértem volt magamhoz andalgásomból, melybe indulatos éneke
+               szenderíte. Bácsmegyei! úgy mond; az úr itt hágy engem. Mikor látjuk meg ismét
+               egymást? s mit hagy nekem? Forró hálás tiszteletemet, barátságomat. - Az utolsó
+               szónak hallására elfordítá fejét, s egy könyűt törle ki szemeiből. - Nékem ugyan
+               nincs emlékeztetőre szükségem, ugy mond; de mégis, ne tagadjon tőlem meg egy kérést!
+               - küldje meg nékem képét! Elijedék, mert tudom mennyit ártanak az effélék. De ki
+               állhatott volna ellene azon tekintetnek, melylyel azt kívánta? Elővevém
+               zsebkönyvemet, s kikerestem azt a festést, melylyel összekelésteknek napján a te
+               Kláridat készültem megajándékozni. Ugy csókolja a jámbor zarándok az ereklyét, mint
+               Teréz most az én portrémat. De ezt én csak néked mondom, s nekem ezt csak neked kell
+               mondanom. - Azon pillantatban belépe a cseléd jelenteni, hogy minden kész. Teréz
+               egész erejét összeszedé. Menj! úgy mond; de jusson eszedbe, hogy Tornán egy leányt
+               hagyál, ki magányában kevély örömmel fog utánad siránkozni, - Teréz! mondám;
+               nagysád-e énutánam? - Hogyan, nemesszívű férfi? monda felbátorodott hanggal; s te
+               álmélkodhatol ezen? ennyi édeskeserü pillantás, ennyi szívetható scéna után nem
+               kell-e tenéked az én szívem előtt kedvessé lenned? sokkal kedvesebbé, mint valamit
+               valaha láttam, ismertem? - Elfásulva állék előtte, s érzéseimnek megfoghatatlan
+               zavarjában meglepe a Nincsi emlékezete, ki engem ily mérték és határ nélkül teve
+               szerencsétlenné, s Teréznek kék szemei, melyek mennyei pillantásokkal a Nincsi bájos
+               szemeire emlékeztetének, megnyiták szívemet, hogy sírhaték. Teréz elővevé kendőjét, s
+               felszárasztá ázott orczáimat. Kedven Bácsmegyei! monda: ennyi köny közül nincsen-e
+               egy énérettem sírva? - Mind, mind! tisztelt Teréz! felelék. Jó; úgy tehát szívemen
+               fogom hordani e nékem ezentúl oly igen kedves, ezt a te könyűid által megszentelt
+               gyolcsot; monda. - Szívem tele volt; láttam a veszélyt, melyben lebegtem, megszorítám
+               kezét, rányomtam forró csókomat, főm megszédült, átöleltem Terézt, s ajkaink egymáson
+               pattantak széjjel. Már hallánk jőni az öreget. Menj, monda; e csók engem örökre
+               összeszőtt veled. Az összetódult fájdalmak legindulatosabb zivatarjában rohantam
+               fellépő atyjának karjai közzé, s egy néma ölelés után, mely bizony mind kinyomá azon
+               hálát, melylyel ezen jó öreg iránt szívem örökre eltölt, lélegzet nélkül mentem a
+               kocsi felé. - Már messze valék a helységtől, midőn magamhoz tértem. Teréz a bástya
+               ablakán könyöklött, s kendőmmel ada jelt, hogy néz utánam. Én süvegemmel intettem
+               néki, midőn hirtelen ő, a kastély s az egész hely eltűnt szemeim elől, s a lovak
+               sebesen vivének le a dombon.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, jul. 29.</p>
+				<p>Nem írok neked semmit azon öröm felől, melylyel a bátyámat megölelém. Az öröm nékem
+               oly buborék, mely azon pillantatban enyész el, melyben támadott.</p>
+				<p>Tisztelem a bátyám kegyét irántam, de ő nem érzi, hogy szerfelett gondoskodván
+               fájdalmaimnak enyhítéseken ezen kevés idő alatt is sokat elgyötrött. El akar szórni,
+               s mindég hord magával egy házból más házba. Különben, úgymond, sem én nem békélhetek
+               meg a világgal, sem a világ nem velem. Önként vetem magamat vezérlésének alája: de
+               ah! azok a ti együttléteitek nem nyugtathatják meg annak szívét, a ki hidegen borzad
+               vissza, midőn az örök tolongásban embert keres s vázat lel. Estveli
+               gyülekezeteitekből hányjátok ki a hiuság ürét, az elsőségenkapást, a birtok és
+               születés büszkélkedését s több ezekhez hasonló nyavalyásságaitokat, melyek az arany
+               és gyémánt alól is kitetszenek. Ha ezt nem tészitek, úgy hasztalan minden igyekezet,
+               s annyira mentek, mintha egy vakonszülöttnek, ki előtt az emberi test alkotványa
+               felől hosszasan prédikáltatok, egy-két pillantatig megnyitnátok szemét, s sántáknak
+               és bénáknak csoportjokba vezetnétek. A kit álnokságtok szemessé teve, azt többé
+               édeskés szóval meg nem fogjátok csalhatni, s inkább hagyjátok magára, hogy a
+               természet szemléltében igya az élesztő poharat. Ha őtet ez nem vezeti vissza a
+               világba, ha ez nem nyitja meg szívét, óh, úgy az örökre zárva marad! úgy neki
+               használhatatlanok a ti csillogó együttléteztek csömört szül az néki s ásítozást.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, aug. 1.</p>
+				<p>Soha nem szenvedek többet, mint esténként. Ilyenkor elképzelem, mely kénynyel pihen
+               meg Szentpéteri egésznapi irkálásai után Nincsinek karjai között, s kedveskéjének
+               nyájasságai mennyivel édesebben jutalmazzák unalmas fáradságait elöljáróinak minden
+               megkülönböztetéseiknél. Akkor megyek, mintha űzőbe vettek volna a fúriák. De
+               akárhová megyek, mindenütt nyakamon vagyok magam magamnak, s mit nyertem a
+               szaladozással? - Ha tűz borítja el házadat s mindened hamuvá ég, ha földeidet ellepi
+               az iszap, ha jószágodat az ellenség elrabolja, még gazdag vagy, mert nyitva előtted a
+               világ s legalább nem vagy szív nélkül. De ha szíved oda van, ha annak vagy híjával,
+               öltözzél aranyba, ha nemzetek buknak is meg lábaid előtt, nincs semmid, szegény vagy;
+               szegényebb a koldusnál, ki mindennapi élelmét küszöbről-küszöbre keresi.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, aug. 3.</p>
+				<p>Egy visszás történet ma sokat hagya szenvednem. - A bátyám tegnap este kérdést tétete
+               nálam, ha nem lenne e ma kedvem kilovagolni vele; s én elfogadám hívását. Ő nem sokat
+               gondoskodott, melyik utczán ki lakik, én pedig merültebb voltam, mint hogy az olyas
+               eszembe juthasson; s e szerint míg magunkat körűltekinténk, a Nincsi ablaka alatt
+               valánk. Elijedtem rajta, kivált azt látván, hogy Nincsi ablakot nyita s alá
+               tekintett. Kétséges valék ha fölpillantsak-e; de kétségemet elintézte a szív;
+               fölpillantottam, s úgy hittem, hogy elsülyedek, látván hogy Nincsi visszakapá magát,
+               s észrevétlenül elfordula. - Oly rettentő lettem-e én, hogy tőlem neki vissza kell
+               vonulnia? - Jaj nekem ha azzá levék! de jaj, jaj neki is! neki, hogy lelkiismerete
+               vádolja; nekem, hogy őtet szenvedni látom s kebelén nem sírhatom ki bocsánatomat. -
+               Volt egy idő, mikor én kerestem őtet, s olykor ő is keresett engem. És ha csak egy
+               negyedig mulathattam körülte, oh, mi boldog voltam én! S ha sokáig együtt nem
+               leheténk, s végre a szerencse együvé hoza, mely föloldhatatlan beszédes némaságban
+               ülénk együtt! mely szent vala nekünk minden percze az életnek! S mikor végre mennem
+               kellett, de hevem még tartóztatott nála, fölkaptam valamijét, most egy virágot, majd
+               egy fonadékját s azt elébb ajakihoz, orczájához illentém, s megkönnyedni érzettem
+               szívemnek szorongását, hogy volt valami nálam, a mi őhozzá ért, a mi az ő lélegzete
+               által megszenteltetett. S íme most - mint változott el most minden! Ha ezelőtt nap
+               keltekor lovat nyergelteték, s átmentem Pestre, és Endrédit fölvertem, s az Orczi
+               kertjébe vevénk magunkat s olvasgattunk; s mikor osztán elütötte a nyolczat, s
+               tudtam, hogy Nincsi már felkölt, s látásom után vár ablakában - ah mint nyargalék
+               Végig Pesten! mint rengett alattam a híd! mint nem bírtam magammal, ha a hídon vagy a
+               vár dombján a szekerek megrekedtek s késnem kellett! S mikor végre a Nincsi utczájára
+               értem, s ő meghallá lovam dobogását, ablakot nyita, s reggeli kedves pongyolájában
+               lenéze, mint szökött akkor, miért ágaskodott alattam a paripa, hogy a szomszédok is
+               mind az ablakhoz futottak; s ha ilyenkor a tajtékos lóról neki egy jóreggelt
+               fölvethettem, s ő azt a legbájosbb mosolygással fogadta, oh! mint feledék akkor
+               mindent! mely nagy valék magam előtt! Gyakran sem a ló, sem az ura nem tudta mint
+               menjen tovább.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, aug. 5.</p>
+				<p>Borzadás fut végig minden tetememen valamikor óraütést hallok, mert minden negyed
+               közelebb vonz azon rettenetes pillantáshoz, melyben őtet örökre elvesztem, el kell
+               vesztenem. Így számlál minden perczentést a halálra ítélt; maga előtt látja az élet
+               végét, a hóhérpadot, a kirántott pallost; az élet szeretete reszket benne, s
+               ellenkezésben ön magával azt kivánja, hogy bár ütne hamar az óra, mely véget vet
+               kínjainak. Oh mint állom ki! Gyakorta az a gondolat száll meg, hogy hozzá futok,
+               lábaihoz vetem magamat, s kérni fogom, ne tégye meg a rettenetes lépést. Midőn hevem
+               így elragad, s a birtoka után vágyás minden ereimben annyira forr, hogy csaknem
+               megpattanok, majd ismét szívemet összeszorítja, hogy alig vehetek lélegzetet, s úgy
+               vagyok, mintha az Etna kénköves aknájába kellene fulnom - olykor engem is megszáll az
+               a kivánság, hogy bár itt volna már az irtózatos percz, hogy esném által kínjaimon! De
+               mikor ismét tágulást enged, mikor megkönnyedve érzem magamat, s elterjed szemem előtt
+               az oltár, s az eltünt szerelem boldog ideje úgy lobog előttem mint egy hosszan
+               elnyult kies táj - ah! olykor oda ismét előbbi hevületem, elcsüggedve dőlök el, hogy
+               egészen összerogyok, ha a leggyöngébb szellő ér is, ha egy lassú zördület illeti is
+               meg fülemet.</p>
+				<p>Oh Marosi! mely iszonyú est vala ez! A bátyám elhitette magával, hogy nekem most nem
+               tanácsos magamban maradnom, s egy bizonyos házhoz vive, hol két óráig nem hallék
+               egyebet a legüresbb csevegésnél Nincsinek szépsége, cultúrája, nyájassága, jósága,
+               gazdaasszonysága s a holnapi nap ragyogó pompája felől. S íme itt végre a csend régen
+               óhajtott órája; de ah, én abból nem merítettem semmi enyhületet! Hasztalan ragyog
+               fölöttem az ég szép boltozatja, elhintve csillagainak számtalan ezredeivel; hasztalan
+               csalogat a legédesbb szendergésbe a szökő kút habjainak ömledezése - - - Mi ez? -
+               Muzsikát hallok.</p>
+				<p>Ennek valék még híjával! - a muzsika Nincsinek ablaka alatt volt. Ő félig vetkezve
+               hallgatá fölülről mátkájának szerelemre olvadt oboáját. Elragadtatva közelítő
+               boldogságának előérzései által, nem érté sóhajtozásaimat, melyek egy panaszos
+               hárántsíp szólóját kísérték; nem hallá könyűimnek csöppenéseit, melyek az utcza
+               köveire hullottanak. - Te ismeretlen barát, azzal a kesergő furuglyával! Te is
+               szeretted-e őtet? Oh, úgy nekem testvérem vagy! Vagy talán Géniuszom sugdosá neked az
+               elhagyott, kesergő, szerencsétlen szerelem accentjeit, hogy a hitetlen lyány
+               szívében, elaltatott egykori érzéseinek életet adjanak ismét. - -</p>
+				<p>A fuvalló istrumentek szólót játszának, s végre az egész orcheszter egy harsogó
+               chórba csapott. Azt hittem összeroskadok. S midőn vége lett, s el kezdének oszlani, s
+               Nincsi jó éjszakát kiálta le Szentpéterinek, mely az éji csendben úgy hangzott mint
+               egy angyal lassú szózatja, lehetetlen vala megmozdulnom helyemből. Ő veszteg maradt
+               az ablakban, fölpillantott az égre. Posztózatomban vonulva kémtekinteteket vetettem
+               föl reá, s kilestem, melyiket nézi a csillagok közzül, s láttam, épen azt, a mely
+               esküvésünk szent estéjén jött vala föl; tündér dísze egykori boldogságaimnak! Úgy
+               tetszék mintha összeakadának vala tekinteteink; úgy tetszék mintha szép szemei
+               szerelemmel, egykori édes szerelemmel pillantottak volna az enyéimbe. Ezek még azok a
+               kik akkor voltanak: az övéi - - - Még egyszer pillanték az ablakra. Nincsi nem vala
+               már.</p>
+				<p>Mostan, Marosi, e kedves képzeléssel feküdt egyes ágyába: utolszor! - Holnap - mely
+               boldogságokat foglal neki magában e szó! De hát nekem Marosi? hát nekem? Mi lesz
+               belőlem? Nem, nem! enyém ő! egyedül enyém! És még is kénytelen leszek látni, hogy
+               karjaim közzül kiragadják! - S ki fogja ezt? Ki fogja ezt merni? - Mihez fogjak? Mit
+               kezdjek?</p>
+				<p>Virrad, s könnyebben érzem magamat. Mint emelkednek a felhők, mintha őket a
+               Mindenható ujjai vonnák föl. - Inkább inkább világosodik. Pacsirtám már nehány ízben
+               hallatá kedves szózatját; énekel, mert érzi, hogy a természetre világ száll és élet.
+               Hát galambjaim? Máskor a Nincsi ablaka körül lebdestek, mert érzették, hogy enyéimek
+               lévén, neki is övéik; s ő értette nyögdeléseiket, s buzaszemeket hintegete nekik. De
+               most - ah! ezután ne repüljetek ablakához! szárnyaitoknak csattogása fölrettenthetné
+               Szentpéterinek karjai közzül, s reám emlékeztethetné, eltaszított kedvesére. - -
+               Jóltevő reggel, hányan óhajták velem együtt a te följöveteledet! Ime itt vagy, s
+               nekem és sokaknak másoknak talán könnyebbedést hozol. - Már oly világos van, hogy
+               kiláthatom a helyet, hol őtet először láttam. - Mennyi ismeretlen érzés hánykódtatá
+               azóta szívemet! mennyi nem ismert, nem érzett érzést ismer ő, érez ő mostan!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, aug. 9. </p>
+				<p>Nincsi már asszony. - Tekints körül a teremtésben, és ha tudsz rettenetesbbet, mondd
+               ki, kérlek Istenért, hogy el ne csüggedjek egészen. Haszontalan a kérés! nem lelsz te
+               rettenetesbbet, mint a mi alatt lelkem roskadoz. Nem vesztettem-e el mindent? az élet
+               legfentebb boldogságait, kedvemet, nyugalmamat, egészségemet? nem vesztettem-e el
+               Nincsit?</p>
+				<p>Itt, Marosi, ez ernyőben, hol annyit ülék vele, hol te is annyit ülél velem, hol a
+               hold alkonyló fényében együtt síránk, midőn mellyemen a jövendőnek előérzései
+               reszkettenek végig, itt irok meg, és mostan, midőn már nyugodtabb vagyok, mindent
+               tegnapról.</p>
+				<p>Eltüzesült indulataimnak cseréik alatt mázgolt soraim fessék tenéked mintegy árnyban,
+               miket szenvedék. Még minden ereimben ég a tűz, velőm még minden csontomban össze
+               vagyon roncsolva. Ennyit küzdék őmiatta - s mi leve jutalmam? mi lészen jutalmam? -
+               Minden óhajtásom a halál.</p>
+				<p>Tegnap, midőn a legérzéketlenebb ájulgások között rogytam ágyamba, ez volt egyetlen
+               gondolatom, melyet még teheték: bár soha fel ne ébredjek többé! A halál ölelése nekem
+               szintoly kedves fogott volna lenni, mint egykor a Nincsié; én azt úgy fogadtam volna
+               jutalom gyanánt, mint az állhatatos, lángoló szerelmesnek az a tántorodásból
+               eszméletre térő leány keze; s ah ezen óhajtásom sem láthata teljesedést.
+               Szenvedéseimnek egész mértéke még meg nem tölt; ma midőn felköltem, s a jövendő
+               elsuhant szemeim előtt, mint egy vészthozó felleg, érzettem azt, s - Isten! te látád
+               könyűimet. Szívem minden derülő felhőcskének emelkedésével megkönnyebbüle. Mihelyt
+               annyira megvilágosodék, hogy gyertya nélkül látni lehetett, vevém kalapomat, s
+               megmásztam a Gellérthegyet, hogy a kelő nap pompáját láthassam. Eléggé korán juték
+               fel tetejére, s eltikkadva s csaknem lélektelenül nyultam el a harmatos hideg fűven.
+               Gyönyörű nagy látvány! mint nyúla el végig a széles harsogó folyamon a fátyolforma
+               köd, s mint borította el Pestet, hogy belőle csak a tornyok látszottanak ki. Némán
+               feküdt körültem minden, s élet nélkül tetszett lenni, egy lassu tavaszi szellőn
+               kívül, mely a szőlők felől nyögve suhogott: de minekutána a királyi napnak
+               felkelésével élet és szellem ömle ki mindenre, miként fogtak a madarak sok seregei a
+               szőlők között, s alattam a szirt repedéseiben a fecskék reggeli dalaikhoz, s új
+               színre költ minden a legutolsó fűszálig. A megujuló természet csudálása két óráig
+               tartott ottan a legboldogabb andalgásban, de végre ideje vala visszatérnem, mert
+               megígértem vala a bátyámnak, hogy nála töltöm a reggelt. - Fájt nékem látni, hogy ez
+               a jó ember mit szenved miattam, s érteni, hogy kimenésemet megtudván, gondokba
+               sülyede, nehogy erőszakos halállal vessek véget szenvedéseimnek. Nem, barátom! míg
+               csontjaimban lesz annyi erő, hogy a reámrakott teher alatt darabos útamon elébb
+               tovább vánszoroghatok, míg agyamban marad valami eszmélet, addig tőlem az effélét nem
+               retteghetitek. - Klárid már a bátyámnál vala midőn beléptem, s nem bírt elég erővel
+               rámpillantani, félvén, hogy nem fogja elfojthatni könyűit. A bátyám is úgy teve,
+               mintha meg nem sejtette volna szenvedéseimet s fogatni parancsolt, s kivitt magával
+               oly tájakra, hol sok esztendők óta nem valék; azt itélvén, és igen bölcsen, hogy első
+               ifjuságom boldog emlékezete, mely e vad helyekben lebeg, legtöbb erővel bírhat,
+               fájdalmaimat, ha csak perczekig is, szétoszlathatni.</p>
+				<p>Erőm annyira elfogyott vala, hogy mindjárt ebéd után kénytelen valék ágyba vetni
+               magamat; s oly ólomalvás lepe meg, hogy ha bátyám fel nem keltetett volna, elalvám
+               vala az esketést. Klári az ő Lolottjával méne, a Lolott szekerén, én pedig a bátyámén
+               a bátyámmal. Csaknem későbben jelenénk meg mint illett, s elijedék, midőn a Nincsi
+               utczájába érvén, oly sűrűn összetódult sokaságot lelénk a ház körül, melyen alig
+               lehete baj nélkül a házig érni. Kiszállván itt a szekérből, jusson eszedbe, mondá a
+               bátyám, hogy örökösem, egyetlen vigasztalásom, s öregségemnek gyámola vagy.
+               Megcsókolám kezeit, s szememből egy forró csepp hullott a megcsókolt kézre.</p>
+				<p>Szentpéteri a grádicson várt. Kiterjesztett karral jöve felém, s a legelevenebb
+               örvendés tüze, mely minden erében lángolva égett a arczát ellepé, áthatott reám.
+               Elborzadtam látására, de magamhoz térvén legottan, megölelém őtet tettetés nélkül,
+               szíves kívánásaival mind annak, a mit önmaga óhajtott, s az ő karjain értem a szála
+               ajtajáig, melynek szárnyai egyszerre rántattanak félre előttem, Marosi! oh miért nem
+               nyele el engem a föld azon látás alatt, mely itten vára! - Nincsi a szála közepén,
+               fehér öltözetben, violakék bodrokkal, s hosszú fekete haját virág és
+               gyöngykötelékekbe aggatva - s megette az esketés oltára, mely már várá áldozatját!
+               Szerencsém, hogy kevés pillantatokkal azelőtt hogy felléptem, mások érkeztek volt,
+               kik még beszédben valának vele. E szerint időm maradt magamat összeszedni, s
+               megszokott szemekkel nézem most őtet, az angyalszépségűt. Üdvözlésem egyszerű volt s
+               rövid, de meleg. Hála tenéked, nagy Isten, hogy azt hamisság és neheztelés nélkül
+               mondhattam; hogy feledhetém kínjaimat, melyekkel elgyötre, s szerencséjét való
+               részvéttel nézhetém. Szülei kik soromban valának, és a kiket tornai utam óta még nem
+               láték, nem tudták, miként közelítsenek felém. Látták képemen a bánatot és epedést,
+               melybe engemet az ő alacsonyságok sülyeszte, s a szerint, hogy a vétkes lelkiismeret
+               félénkséggé, hunyászkodássá, csapodársággá szokott változni, alkalmam vala látnom,
+               mint igyekeztek előttem elfedni azon szemrehányásokat, melyekkel őket a lelkiismeret
+               verdesé. Egy csoport vendég kiszabadíta kezeik közül. Unalmamban, sőt minek
+               titkoljam? elkeseredve az egész emberi nemzet ellen, egy barátommal a legbelsőbb
+               szobába mentem által, hol Nincsivel annyi boldog órákat töltögettem. A hely
+               elevenebbé festé előmbe itten élt boldogságaimnak képeit. Benne nem nézém többé a
+               Szentpéteri jegyesét, hanem azt a csapodár szerelmes leányt, a ki midőn a táncz után
+               itt megpihentem, homlokomról le-letörölgette az izzadás cseppjeit, karját
+               általvetette vállamon, megcsókolt; a kit én ilyenkor eltölt habzó szívemre szoktam
+               vala szorítani, s ölelései közben a világot minden boldogságaival, minden kincseivel
+               s ragyogásával semminek állítottam. Kérdém magamat, ha ez emlékezetek valóság
+               voltanak-e vagy álom; és minél hatalmasabban ragada meg a bizonyosság, hogy az álom
+               nem volt, annál mélyebben sülyedék el eltünt örömeimnek szemléletekben. - Azalatt
+               minden hivatalosak fel valának gyülekezve, s egyedül én valék, a ki nem találtatott,
+               én, kinek a menyasszonyt oltár elébe kellett vezetnem! Szentpéteri akada reám. Jer,
+               barátom, mondá oly indulatosan esdeklő hangon, hogy beléborzadás futa végig minden
+               tetemeimen; tégy a legboldogabb halandóvá a nap alatt! Elfojtám a kínt, s követtem a
+               boldogot. Belépvén a szálába, s látván, hogy nemtaláltatásom zsibongást okoza, meg
+               nem tudék mozdulni helyemből, míg Endrédi intve nem tekinte reám. Bátorrá lesz a
+               leggyávább is, midőn az erősebbet, a ki neki barátja, maga mellett szemléli. Érzettem
+               én, hogy Endrédi rajtam nem segíthet, de intése s jelenléte annyira megbátorított,
+               hogy elég eltökélésem s erőm vala nyugodt képpel s elmével lépni Nincsi felé,
+               megfogám karját, s oltár elébe állítám. Nekem vele általellent mutaták ki a helyet.
+               Szívem nagy érütésekkel vert. Endrédi a fortepiano-orgona mellé üle, s azt az éneket
+               játszá, melyet két énekes énekelt. A chorál előtt szabad ömlengést engede
+               phantasiejének; eleinte oly lassan, oly epedve, továbbá oly erővel, oly való
+               kinyomással, hogy észrevétlen lelkem is erőt kapott. Ennek, egyedül ennek köszönöm,
+               hogy az esketés czeremoniája alatt csendesnek tetszhető elmével állék közöttök.
+               Nincsi az ének utolsó stróphájáig mélyen el vala merülve, de ekkor egyszerre omlottak
+               könyei. Azt hinni, hogy ezek érettem folytak, nem valék eléggé hiu, de mégis nagyon
+               meg valék illetve, a kétszer-háromszor lankadni kezdettem, kivált, midőn a pap e
+               rettenetes szókat mondá: Amit Isten összekötött, azt ember el ne tépje. - Vége lévén
+               a czeremoniának, midőn mindenek az uj pár felé tolakodtanak, alkalmasan bírván
+               magammal, én is feléjök menék. Nincsi épen gyönyörű könyűit szárasztotta fel. Bár
+               ezek legyenek az utolsó könyűk, melyeket nagysádnak szemeiből fájdalmas érzés fog
+               kifacsarni! mondám. Hevült képzelésem csalt-e meg, vagy talán valóság volt a mit
+               láttam, nem tudom, s szorosan vizsgálni nem akarom: azt tudom, hogy e szép szemekről
+               egy tekintet repüle reám, mely lelkemnek minden csendét örökre elölte volna, ha azt
+               csak most veszthettem volna el. A vacsoránál Endrédi mellett fogtam helyet, jó távol
+               Nincsitől. Megszállott a szesz borral ölni el bánatomat, de Endrédi nem engedte, s
+               nem volt senki az asztalnál, a ki szenvedéseimet megsejthette volna. - Vacsora után
+               Szentpéteri kért, hogy a tánczot nyissam meg a menyasszonynyal, s teljesítettem
+               kérését. Elkeményedett szívvel, de tántorogva léptem Nincsihez, s kiállék vele az
+               első helyre. A menüet első lépései alatt már alig bírtam magamat; midőn pedig
+               elválánk, s Nincsi, elöntve minden kecscsel, melyeket a mai nap örömei még neveltek,
+               de titkolni óhajtott háborodással, előttem és mellettem el-elsuhinta, midőn szép
+               ujjairól a jegygyémánt rám lövelle, annyira összeháborodám, hogy egy taktot sem
+               tudtam tenni, sőt azt is feledém, ha jobbra kell-e mennem, vagy balra. A nézők közt
+               suttogások támadtanak, s Nincsi, a ki látá, hogy reszketek, siete véget érni.
+               Színleltem, hogy egészségem nem engedi, hogy tovább tánczoljak, s a végszobába vonám
+               magamat, honnan kiláthaték a tánczolók közé, s ott nekieresztém magamat az eltaposott
+               szerelem s megcsalt remény kifakadásainak. Endrédi látta mit szenvedek, s nem
+               távozott el mellőlem; s most annyira köszönöm alkalmatlan barátságát, a mennyire az
+               által magamat akkor bántva, ingerelve érzém.</p>
+				<p>Közel éjfélig e kínos állapotban valék, s Endrédi reá veve, hogy innánk puncsot, mely
+               nekem kedvet fogna adni és erőt. Az ital annyira feléleszté szellememet, hogy
+               egyszerre derült elmével lépheték a tánczolók közé, s most az önte másokba is
+               vígasságot, a ki kevéssel elébb a közörömet el látszott fojtani akarni. A muzsika
+               contredanszt szólaltata meg. Lelkemben egykori és hányszori boldogságaimnak
+               emlékezete támada fel. Helyet fogék a tánczolók közt. Nincsinek ábráza ragyogott az
+               örömtől, s oh mely könnyűséggel, milyetén kedves siklásokkal, repüle végig a
+               tánczolók sorain! Ki valék forgatva magamból, s az elöltnek gondolt szerelem ismét
+               magas lángokban ége keblemben. Ezen pillantatban engemet ére a tour, hogy Nincsivel
+               alulról felig jőjek, s midőn ott el kellett vala eresztenem ujjait, hogy ő jobbra, én
+               balra essünk, eltüzesedésemben oly erővel találám tartani, hogy el nem fordulhatott.
+               Egy parancsoló neheztelő tekintetet vete reám. - Bocsánatot! kiálték, s szemeim ázva
+               voltak. Midőn a tour ismét reánk jöve, oly tágan nyújtám neki kezemet, hogy bátran,
+               rettegés nélkül fogadhatá el, s szerencsére a contredansznak vége vala. Négy felé
+               széledni kezdének a vendégek, Szentpéteri intett, hogy álljon elő szekere. Reszketett
+               minden tetemem. Nincsi azon öltözetben, melylyel már indult a szekér felé, tére
+               hozzám bucsúzni. Ez oly véletlen történt, hogy sikoltva rogytam lábaihoz. Endrédi
+               beszélé mit csináltak velem, mert én nem emlékezem továbbra, s hogy Nincsi
+               betegeskedésimnek s az erőltetett tántznak tulajdonítá elgyengülésemet, s hogy egy
+               szobába vitete által, s maga is igyekezett életre hozni. Látván, hogy eszmélni
+               kezdek, jónak látta elveszni a tolongók között; és így csak Szentpéterinek és
+               Endrédinek köszöném a segédet. Endrédire támaszkodva lemenék a grádicson, s épen azon
+               pillantatban érék annak fordulójára, midőn Szentpéteri szekerébe emelte zsákmányát, s
+               vele repülve ment. Én is hazajövék. De mint jövék haza, mint fektetének le, arról nem
+               emlékezem. Vas alvás szálla reám, s adta volna, a ki teremtett, hogy az volt volna az
+               utolsó! Ott jobb élet van! ott bennünket boldogabb lak vár! Mint szélesedik szívem
+               ezen odavágyással! mint olvadnak minden kívánságaim, melyeknek kevéssel ezelőtt
+               Nincsi vala egyetlen tárgyok, most, midőn ő éntőlem örökre el vagyon véve, azon
+               szíves, azon nyugtalan kívánsággá, hogy halhassak meg! hogy kínjaimból te oldozz fel,
+               halál! te feloldó, megkönnyítő! - Oh Nincsi! Nincsi!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, aug. 12.</p>
+				<p>Vannak pillantatok, melyekben a leggondosabb vigyázat nélkül nem lehetsz ura
+               magadnak. Ha pedig a körülmények veszedelmes pontba ütődnek, hágj által bár csak egy
+               hajszálnyit, s oda vagy örökre. Ily pillantatot ada nékem próbául a gondviselés, s
+               megbukám. Elragadtatva a legtüzesebb indulattól, részeg hevemben elvesztém
+               bizodalmamat hozzá, s azt véltem, hogy én, a ki egy-két ízben magam is kisegélém
+               magamat, minden árnak ellent fogok állhatni. Ezen magamelhivésével, ezen erőmbe
+               vetett kevély bizakodással fogadám el a Nincsi szüléinek meghívásokat egy bálra.
+               Megjelentem, s ez az elmenetel gyilkosom leve. Azt az elcsendesűlt tüzet, azt a
+               szentelt gyönyör elcsendesült tüzét, mely most epedve s titkosan lángolt Nincsinek
+               szemeiben, azt a - minek nevezzem? - azt a leányok viseleteket, mely nekik annyi bájt
+               ad menyegzőjök napja után - nem tudtam azt kiállani; azt a kisugárzását a
+               leghevesebb, legboldogabb érzéseknek, mely neki minden kecseiből hatott által reám.
+               Le akarék roskadni az elviselhetetlen súly alatt. Nem bírván tovább magammal az
+               őrülésig tánczolok. Szentpéteriné már nem cselekvé a mit Nincsi cselekedni kevés
+               órával ezelőtt nem átallott; nem tartóztatá az esztelen ifjat; Endrédi nem vala
+               jelen, mások reá nem ügyeltek, s - lásd e szilke vért előttem - ez annak
+               következése.</p>
+				<p>Ágyban vagyok, erő nélkül; s ez okozza, hogy idegen kéz írja e levelet. A bátyám nem
+               lel vigasztalást, s ha látnád, mit szenved Klári!</p>
+				<p>Siess elvinni őtet! neki ártására lehet, hogy szüntelen körültem van. - Orvosaim nagy
+               tudománynyal s széles, hosszas, bő beszéddel mutogatják, hogy ez nem halálos, hogy
+               csak szavokat fogadjam, még ki fogok gyógyulhatni. Vigasztald tehát magadat, barátom,
+               ha ebben vígasztalásodat lelheted. Én - készen vagyok.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, sept. 7.</p>
+				<p>Magamhoz kezdek térni, de felette lassu lépésekkel, felette nehezen. Ennyit neked már
+               magam is írhatok. Ne kérdd mint vagyon szívem. Kérdd a kinek egy órában minden öröme,
+               reménye, kinézései füstté lettenek, mint van ő, s tudni fogod, mint vagyok.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, sept. 15.</p>
+				<p>Klári ritkán távozik el ágyam mellől. Ki akarja élni velem magát, azt mondja, mert
+               még történhetne, hogy egymást látni sok ideig nem fogjuk. - Tudakoztam mit vél,
+               meddig nem. Ha útad el talál mulni, felele, megeshetnék, hogy fél esztendeig sem;
+               mert Erdélynek széléről jönni Budára, nem könnyű, egészséged pedig neked nem engedi,
+               hogy te jőjj hozzánk. - Jobban tudom én mint ő, meddig nem; de megszomorítani
+               kegyetlenség volt volna. Midőn hosszasan ül mellettem, s szánva néz, miként
+               fogyasztott meg a betegség, s nem bír magával; s eldől mellettem, s testvérének
+               nyomorúságát vánkosaimon sirja ki, olyankor gyakran megkörnyékez a rettegés, hogy
+               lelkében végre felébred annak sejtése, hogy egymást csak túl a síron látjuk meg.
+               Ilyenkor fel akarom vidítgatni s felőled szólok vele, s azon boldogságokról, melyek
+               őreá a te karjaid közt várnak. De e kép festegetései által magamnak veszedelmes
+               mérget készítek, mert, ha elgondolom, hogy én is élhettem volna e boldogsággal, s
+               hogy te, ő, Nincsi és én, mely szép napokat élheténk vala a bátyámnál; ilyenkor
+               elmerülvén képzeleteim között, küzdenem kell, hogy Klárival ki ne találtassam, mi
+               forog lelkemben, s sírásaim az ő sírásait ne igazolják.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, okt. 5.</p>
+				<p>Halálnak érzései lepnek el bennünket, midőn azoktól maradunk el, a kikkel szoros
+               egyességben éltünk. Mióta a bátyám és a te Klárid elhagytak, oly puszta előttem a
+               ház, hogy magamat alig lelem benne; minden szögben érzem híjokat. Nem tűröm ki
+               sokáig; útnak indulok - egyszer végre csak illő. S azok az orvosok! - Oh! tudom én
+               mely keveset ér segédök, mily keveset árthat tilalmok.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, okt. 12.</p>
+				<p>Eddig Sághon vagy, s öleled mindkettejöket, s a szerelem legtisztább forrásából
+               örömet és boldogságokat iszol. Én pedig elzárva ülök azon helyt, mely annyi irtóztató
+               emlékezetekkel kínoz.</p>
+				<p>Még egyszernél többet nem voltam kinn. Kibeszélhetetlen rettegések közt kocsiztam ki,
+               s kevésbe mult, hogy korán próbámért meg nem lakoltam. - Ha Nincsi most látna! ha
+               látná mint viselem képemen az ő állhatatlansága következéseit! El fogna tőlem
+               borzadni. És mégis sokért nem akarnám, hogy miattam egy bús órája legyen. - Nincsi,
+               Nincsi? a te neved még mindig kimondhatatlan szerelemmel tölti el szívemet. -
+               Elengedek neked minden kínt, minden bántást e szerelem kedvéért, mert ez nekem így is
+               boldogságom. </p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, okt. 28.</p>
+				<p>Ezer áldás, ezer szerencse összekeléstekre! szent nekem ez a nap reátok nézve és
+               magamra. - Ma éjjel, midőn álmom az elmultak emlékezetébe szenderített, Nincsi, mint
+               egy angyal, megjelent előttem. Nekem nyújtá jobbját, s esküdt, hogy örökre enyém
+               lészen. S íme, te kedves, még kevés napot ide alant, hogy e földi virág
+               letörettessék, meghervadjon, elhaljon, s enyém, enyém lészesz te, az új szép virág, a
+               jobb hajlékokban! - Mely pillantat, ha majd menyei karjaival általfog, s édes
+               lehellete vérző minden sebeimet begyógyítja, s a megdicsőült, gyötrelmeimnek
+               feledésére, megmeríti a Lethéből poharát, s nekem nyújtja!</p>
+				<p>Klárim! szeresd férjedet; légy hív iránta mindenben; légy oly jó, mint mindig valál.
+               Oh ott, ama jobb életben, emlékezhetnünk az itt élt boldog óráinkra - mely kinézés
+               az! Te pedig, barátom, - de minek mondjam én azt neked? neked, kivel, midőn a Duna
+               szélén együtt sétálánk, s a víznek sebes mentében az élet sebes futását látánk
+               ábrázolva, oly gyakran mondogatánk egymásnak, mely fontos pillantása az emberi
+               életnek a halál, s miként eshetik, midőn a ködbe borult jövendő előttünk, a múlt
+               pedig hátunk megett elterjed, s mely bátorító gondolat, midőn látjuk, hogy
+               meghaladott útunkat semmi akarva tett rossz cselekedetnek, semmi megölt, megpiszkolt,
+               segéd nélkül hagyott ártatlanságnak mocska nem fertőzteti: az a hév, melylyel
+               olyankor szólánk, azok a könyűk, melyek olyankor elfutották szemeinket, nekünk azt a
+               biztatást nyújtják, hogy egykor csendesen sülyedünk a halál hideg karjai közé. Oh,
+               hogy az a tied még távol legyen, és hogy Kláriddal összefonva gyönyörűségek közt
+               mehess végig hosszú útadon!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, nov. 4.</p>
+				<p>Tegnap nálam vala a Nincsi bátyja. A szeretetre oly igen méltó öregnek könyűi, s
+               némely emlékezet, mely lelkemben az ő meglátására új leve, elrontották éjemet, s most
+               sokkal rosszabbul vagyok, mint jó idő óta valék - egy idegen éghajlat alá vitt
+               palánt, melynek a legszelídebb fuvalat is árt s hervadást okoz.</p>
+				<p>Plántálj csemetét, barátom, öntözzed, ápoljad, hogy nevekedjék, s virulmányra
+               fakadjon, mikor én kihalandok. Az immár nincsen messze. A mi közanyánk, a föld,
+               megnyitja kebelét, hogy engem abba béfogadjon. Véremet már ezer atóm szomjan várja,
+               hogy belőle új élet serkedezzen. Oh, ha azon virágokat, melyek sírom felett fognak
+               teremni, a szeretett leány szedegetné! Nincsinek mellyén ők elevenebb színnel,
+               édesebb illattal ragyognának. S ha csüggő fővel hervadnának az ő mellyén, s kisdede
+               parányi kezeivel játszanék velök, a hite szegett talán azt fogná mondani a
+               gyermeknek: Ártatlan! s te örülsz nekik? reszkess; annak vérével híztak, a ki engem
+               szeretett s miattam hala meg. - Oh barátom, ha látnád, mint gyötörnek engem halálig
+               ezek a képzelmények! - Orvosom egy hosszú irást hagya asztalomon, s biztatott, hogy
+               ha magamat rendeléseihez szabandom, nem sokára egészségem teljesen helyre fog állani.
+               Helyreállani? kérdém, s az ég felé pillantottam. Ment, s búcsúja alatt érzékeny könyű
+               reszkete szemében. Igy szalad előlem minden, valakinek mellyében emberi szív ver,
+               hogy szánakozásra olvadott tekinteteiben, hogy elfojtani akart könyűiben nyomorúságom
+               nagy voltát meg ne lássam. Ennekelőtte szerettek a gyermekek, most elborzadva futnak
+               látásom elől. - Ártatlan lelkek, s ti érzitek, hogy meg vagyok érlelve a halálnak?
+               Hah! mint hörbölöm fel e gondolatot mint életnek italát! s mint mosolygok neki,
+               mintha a megint hív Nincsi egy szép tavaszeste nyujtaná kezét jobbomnak! - Ma reggel,
+               egy álmatlanul töltött éj után, bágyadt álomba szendergettem, s arra ébredék fel,
+               midőn ablakom alatt egy fiatal leány koporsóját vivék temetőbe. Sokáig néztem a
+               sereget, mely azt kisérte. A zölddel bevont koporsón egy koszoru virított. Boldog,
+               boldog gyermek! kiáltám, s a hang lehallatszék, úgy, hogy némelyek felpillantottak s
+               tudni kívánták, honnan jött az. Korán fonnyada el a szép rózsa, s hiteszegett
+               kezeknek nem lehete azt szélylyelfoszlathatni! - Követni fogod őtet, kiálta belőlem
+               egy belszózat; s a gyengeség miatt, mely megujult hatalommal rohana reám, kénytelen
+               valék ágyba menni - s álmomban Nincsit látám, hogy magányába zárkózva siratá a
+               megholtat, kit ő öle meg.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, febr. 6.</p>
+				<p>Hosszas betegeskedéseim után annyira magamhoz tértem, hogy nem sokára teljesithetni
+               fogom a mit régen szándékozom - itt hagyom Budát. Nincsit - ah! nem Nincsit többé,
+               hanem Szentpéterinét! mindennap látni, s nemsokára mint anyát látni, nem - arra nincs
+               elég erőm. Engedjetek meg, ti, kiknek jusotok vagyon kívánhatni ittmaradásomat.</p>
+				<p>Házam nekem még soha nem vala kedvesebb mint most, midőn el akarom hagyni. Vegyétek
+               azt ajándékul tőlem, de oly kötés, alatt, hogy míg én élek, sem el nem adjátok, sem
+               belé idegent nem szállítattok. Nem nézhetném, hogy annyi boldogságaimnak, örömeimnek,
+               szenvedéseimnek helye érdemetlen lakók által profanáltatik. Leginkább azt a kisded
+               szobát szeretem most, melyben mint gyermek laktam vala. Ha benne mulatok, elevenebben
+               lep meg egykori gondatlan s boldog korom emlékezete. - Szenvedés és öröm, ők
+               összefonva járnak mindenütt. - A gyermeki kor, ha ő e valóban a legboldogabb szaka
+               életünknek? Ezt kérdem gyakorta, s látom, hogy az emberek e pontban is épen úgy
+               csalják magokat, mint mindenben egyébben. Ha legény korodban volnának gyermeki
+               gondjaid, igen is, úgy velök könnyen bánhatnál. De egészen másként vagyon a dolog: a
+               gyermeki gondokhoz, szükségekhez, gyermeki erő vagyon adva. - Minden kornak tulajdon
+               gondja és bánatja s tulajdon örömei vannak, s ha gyermek vagy, egy leomlott kártyavár
+               úgy elkedvetlenít, mint megcsalatkozott reményeid érettebb esztendeidben. - Ha a
+               gyermeki évnek van valamely elsősége, úgy azt nevezem annak, hogy ez kényére éli a
+               jelenvalót s nem aggódik a jövendőn.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, márcz. 8.</p>
+				<p>Egy fölötte kedvetlen szakmányon estem által. Azalatt míg betegen fekvém, sokan
+               méltóztattak gondban lenni egészségem iránt, noha velem semminemű szövetkezésben nem
+               állottak, s csaknem az alkalmatlanságig tudakoztatták mint vagyok. Tudni kell, hogy
+               az effélék mint mennek azoknál, a kik azt hiszik, hogy tőlök minden kegyelem;
+               elküldenek látatni, de midőn a cseléd a hírt meghozza, azt nekik, a mint mondják
+               magok, oda engedik; s így világos, hogy a mit részvétnek kivánnak nézettetni, nem
+               egyéb hiúságnál. A hideg városiság hasonló jutalmat érdemel, s hogy gorombának ne
+               tartathassam - a hálátlanság itt szóban nem foroghat - megtevém köszönő
+               látogatásaimat, de úgy ejtvén, hogy az ilyeneknél egy hátrahagyott czédula pótolja ki
+               személyemet. Characteremben fekszik, s akarom, hogy fekszik, az ilyetén bohókat épen
+               oly hidegen tekinteni s nevetni, mint a hogyan a jókat forrón szeretem; s képzelhetd
+               miként járék némely képzelt barátomnál föllépvén, midőn egy meleg kézszorítás akará
+               festeni szíves hálámat, az nekem egy lelketlen fagyos mosolygással s eszmélet nélkül
+               elmondott formulával felelt. Alig vártam, hogy sarkomon megfordulhassak, s a lárvák
+               közzül kiszabadulván, ismét emberek közzé léphessek.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, márcz. 14.</p>
+				<p>Engedek Endrédim unszolásának; általláttam, hogy Budáról nem távozhatom el úgy, hogy
+               Szentpéterinek még egyszer ne legyek látogatására, ki feleségestűl gyöngélkedésem
+               alatt sokszor volt nálam, de a mit Endrédi velem mindig nem is tudatott, félvén, hogy
+               az nekem árthat, és akik minden kigondolhatókban igyekeztek szenvedéseimet enyhíteni.
+               Ugyan ezt hallom Nincsinek szüléi felől is. Oh Marosi! hogyan fogom kiállani
+               látásokat? Reszketek.</p>
+				<p> Megjövék tőlök. Szentpéteri kiment volt, Nincsije pedig, a mint cselédjei mondják,
+               gyöngélkedik s ágyban van. Eljöttem tehát a nélkül, hogy egyikét vagy másikát láttam
+               volna.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, márcz. 15.</p>
+				<p>Szentpéteri nálam volt, s kért, nagyon kért, hogy vele együtt menjek hozzá; felesége
+               ugyan ágyban vagyon, de bízik, hogy azon föl nem akadok, s meg nem fosztom azon
+               örömtől, hogy még láthasson elindulásom előtt; ha az ágyból kikelhetne, úgy mond,
+               maga fogott volna hozzám jőni. Kereken megtagadám neki a kérést. Én Nincsit többé meg
+               nem látom; erőre vagyon szükségem, s ezt az ő meglátása össze fogott volna rontani.
+               Érzettem én, mely örömtől foszta meg makacsságom: ez vala azon egy pillantása hátra
+               való egész életemnek, melyben az illendőségnek megsértése nélkül fájdalmaimat mellyén
+               sírhattam volna; de kénytelen valék tenni a mit tettem. Akár szerelmet láttam volna
+               szemeiben, akár meghidegülést, szívemben új fulánk fogott volna lenni mind ez, mind
+               az.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 9.</p>
+				<p>Ne csinálj nekem abból vétket, hogy a Nincsi képét kicsinyben hagyám festeni,
+               minthogy az olajfestést útamra bajosan vihettem volna, s legyen gondod, hogy ez a kép
+               együtt szálljon sírba velem. Ne mondd, hogy ez a kép csak ingerli gyötrelmeimet.
+               Szólj ha a te Klárid meghalna, elvetnéd e képét, mivel egyike vagy másika a
+               bölcseknek azt mondaná, hogy az sebedbe mérget önt? S Nincsi nem megholt e nekem?</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Buda, april 25.</p>
+				<p>Tegnap az öreg Surányinál kelle vacsorálnom. - Nagy vigasztalás nekem látni, hogy
+               némely jók ily érzékenyül szánnak. - Az öreg gondosan eltávoztata mindent, a mi
+               bennünket Nincsire emlékeztethetett volna; de rettegtem a búcsút, s azt sokára
+               húztam. Kalapomhoz nyúlván, sírni kezdénk mindketten, s nehéz volna megmondanom,
+               melyikünk kezdette. Öcsém, monda mellyéhez szorítván, elfojtott zokogással, én tőled
+               nehezen maradok el, s még nehezebben fognék - ekkor levonta süvegét s ősz hajához
+               nyult - ha ez nem biztatna, hogy egymás nélkül nem leszünk sokáig. Ez a szíves, való
+               kifejezés s az a forró kézszorítás, melylyel ezt mondotta, elnémítottak. Karjai közzé
+               vetém magamat, s ott sírtam ki sűrű könyűimet, s szaladtam. - A ház kapujánál
+               valamely láthatlan erő kapa meg; még egyszer akarám venni tőle búcsúmat, s
+               visszatértem. De Marosi, egy látás, mely tiszteletet támasztott volna még az
+               angyalokban is, elakaszta; némán néztem sokáig, s a nélkül, hogy ő engem látott
+               volna, eljövék. A szoba közepén állott, levont süveggel, összefogott tenyérrel, égre
+               szegzett szemekkel, - éretem könyörgött s oh! mely gondolat ez, oh Marosi!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Dorog, május 4.</p>
+				<p>Az vala ám a keserves pillantás, midőn a szekér már készen várt, s én még egyszer
+               végig mentem a szobákon, s mindent oly pusztán, az ablakokat mind nyitva láttam, s
+               elgondolám, hogy őket most mindjárt be fogják tenni, s ki tudja, ki nyitja meg. Többé
+               benne nem lakol! nem többé soha! soha! Elborzadtam, s mentem. - Az a szép remény,
+               hogy e szobákban valaha boldog napokat fogok tölthetni Nincsimnek karjai közt; hogy
+               valaha, ha majd kifáradva hivatalomnak dolgaiban azon örömmel vetem magamat neki, a
+               szeretettnek karjai közzé, hogy nem éltem haszontalan, s amott egy ügyefogyottat
+               védettem, itt egy elakadott érdemet elősegéltem, egy gonoszt visszatoltam, - ah
+               Marosi! hová levének mind azok a ragyogó kilátások? - Oda minden! minden! és
+               örökre!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Pozsony, máj. 14.</p>
+				<p>Mikor az ő emlékezete kísér ágyamba, s elképzelem, mely boldog fogék lehetni, ha
+               enyém lehetett volna ő, ő, a kedves! s így egyik szendergés a másiknak tol karjai
+               közzé - s mikor így azt álmodozom, hogy egészséges vagyok, hogy ő nekem hitvesem, -
+               oh ilyenkor fölsikoltozom örömemben, hogy álmom elfut sikoltásomra. S midőn csak most
+               látom, hogy boldogságom álom vala, s boldogtalanságomnak érezése gyilkosan rohan az
+               ál boldogság helyébe reám - oh hallgass meg akkor, te, a ki e mély gyötrelmet látod!
+               hallgass meg! ölj meg!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Pozsony, máj. 16.</p>
+				<p>Jaj nekem, hogy az a boldogság, hogy az az öröm, melyet nekem ő csinált, úgy futa el
+               mint a sebes Duna vize, mely elfut és soha vissza nem tér! Csak egy, csak egy csöppet
+               a te enyhületéidből, Mindenható! csak egy kézszorítást tőle! - - De mire kell ez a
+               véget soha nem található kivánság? - S ha előjőne is, ha tőle megnyernéd is azt a
+               kézszorítást, melyet ennyire óhajtasz, ha ezt mondaná is: Látom, mely nyomorulttá
+               tevélek, s ezzel visszatérne Szentpéterijének karjai közzé. - Igen is; az enyhítő
+               balzsamcsepp volna, de tüzes aczélra. - Marosi! mely boldogtalan az ember ez
+               érzéssel, mely nélkül nem volna jobb mint a marha! - Vaktában tolongunk a lehető és a
+               való között, s ön magunkban hordjuk a veszélyes ellenséget, mely minden örömeinket
+               elöli!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Bécs, máj. 20.</p>
+				<p>Itt vagyok; s óráimat a Belvederben töltöm és a művészek dolgozóiban. - Az is
+               haszontalan! A boldog szerelem megnyitja a szívet mind annak érezésére a mi szép, a
+               mi a nagy; a szerencsétlen azt összehúzza. - Hová levének az idők mikoron engem a
+               Corregio szép Iója magamon kívül ragadott, úgy hogy szemem előtt eltűne a világ
+               minden boldogságaival és bolondságaival! a midőn a vatikáni Apoll, s a szép
+               Antinousz, a Medicsiszek Vénusza és mennyei kis Psyche a lepével, úgy elfogtak, hogy
+               másoknak kelle emlékeztetni, hogy már ideje mennem. - Öröm és bánat, kedv és
+               gyönyörködés, mind csak eseményeknek műve; s értsd a művész kifejezését! - egy
+               ölelésnek gyümölcse.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Bécs, máj. 28.</p>
+				<p>Tanácsod ingerlené fájdalmamat s elkeseríthetne ellened, ha nem látnám, hogy azt a
+               legszívesebb szánakozás, a leghűbb barátság sugallotta. Megengedj, hogy el nem
+               fogadhatom. Annak kívánása, hogy engemet szerencsésnek láthass, tégedet
+               igazságtalanná teve.</p>
+				<p>Teréz engem szeret, mondod: s én az ő birtokában boldog leendek. Úgy van, kedves
+               barátom! ő irántam érez, s én Nincsin kívül nem találtam senkit, a kit szerethetnék,
+               a ki hajlandóságomat inkább érdemlené. Characterben ő még felülhaladja Nincsit; de
+               épen e két tekintet elég ok arra, hogy birtoka után ne vágyjak. A ki annyi érdemmel
+               bír, mint Teréz, osztatlan szívet kívánhat. Mely hasonlatlan volna a mi egyességünk!
+               Ő nekem a maga teljes gazdag szívét, ifjúságot s a szépségnek minden kecseit hozná;
+               de hát én? nem semmit azon bizonytalan reménynél, hogy tiszteletem, szíves forró
+               tiszteletem, idővel talán szeretetté fogna válhatni. Elhallgatom a mit beteg
+               állapotom mondhatna; értsd meg, s vedd a mondottakhoz, hogy nekem alig van egy
+               csöndes pillantatom, idegeim a rettenetes szenvedések által meg vannak rontva, s
+               kedvetlenségem igen is gyakran föl nem derülhető komorsággá sülyedez. Oda van az
+               egykori szelídségem, s annak helyébe most hajthatatlan fejesség, makacsság lépett. S
+               ha mind ez nem volna is, előttem a képe mi voltam egykor, s most szerencsétlen
+               vagyok. Ha ezekre azt mondanád, hogy Teréz engemet ismer, hogy tudja milyen vagyok;
+               ezt kérdeném tőled: Ha látnád, hogy a gyermek késhez nyúl, elégnek tartanád e
+               megszóllítani? vagy elkapnád előle akármint fityogna? S elménk mikor hasonlít inkább
+               a gyermeki korhoz, mint midőn szeretünk?</p>
+				<p>Hagyd el tanácsaidat, kedves! Elmult az idő, melyben nekem szabad volt reménylenem,
+               hogy egy szeretetre méltó leány birtoka szerencséssé tehet engem és őtet az enyém.
+               Egy zivatar korán felhozá reám az őszt. Hagyj engem! Én már fonnyadok. A ki engem
+               élni s szenvedni hagya, meghallgatá kiáltásomat. Intésére előállott a halál, s
+               kijegyzett azoknak jegyekkel, kik közel vannak a megszabaduláshoz, s arczomról
+               letörlé az egészség és ifjúság színét.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Bécs, jun, 3.</p>
+				<p>Ez órában veszem a hírt, mely téged is elrettente, mint engemet, s ez órában indulok
+               Sághra. Oh, ha a szegény bátyámat már életben nem lelem, s azon édes örömtől is
+               megfosztatom, hogy neki az ő sok kegyét, részvétét, szeretetét, barátságát
+               meghálálhassam. - Jer te is, késedelem nélkűl.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Ipolyságh, jun. 8.</p>
+				<p>Most csak azt, hogy a bátyámat életben lelém. Nagyon el vagyon gyöngülve; s mind az
+               orvos mind én is attól rettegünk, hogy a szél, mely bal részét megsújtotta, egy újabb
+               csapást adhat neki, s eloltja életét.</p>
+				<p>Oly tikkadtan, oly elerőtlenedve érkezém ide ma reggel, hogy másnak karjára vala
+               szükségem, midőn neki elébe léptem. Kibeszélhetetlen az az elgyöngülés, melylyel én
+               néztem őtet, s ő viszont engemet. Lassadán meggyűltek könyűi, s mind a mit
+               mondhatott, e két jelentős szóból álla: Szegény öcsém! - Láttam, hogy ez az
+               ellágyulás neki ártalmas, s oly szín alatt, hogy álomra vala szükségem, engedelmet
+               kértem tőle ágyba mehetni.</p>
+				<p>Mihelyt a húgomat magára hagyhatod, kérlek, siess ezt a tiszteletünkre méltó öreget
+               jelenléted által megvigasztalni. Csókold őtet nevemben, őtet, s a kedves most
+               szülöttet!</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Ipolyságh, jun. 12. </p>
+				<p>Megtörtént a mitől rettegék: a bátyám nincs többé. Egy másodszori kemény csapás
+               egyszerre vete véget szép életének. Én ágya mellett voltam, s örvendek, hogy
+               szemeinek befogásával én tehetém körülte az utolsó szolgálatot. Egy néma csók, melyet
+               könyűk nélkül, de kővé vált szívvel nyomtam hideg kezére, volt szomorú tolmácsa
+               hálámnak, tiszteletemnek.</p>
+				<p>Holnapután fogjuk szent tetemeit általadni a földnek, a szerint, a hogy azt maga
+               kívánta: nem kriptába, hanem azon diófa alá, melyet első ifjúságában ültetett, minden
+               czifra emlék nélkül. - Az a közönséges szomorúság, mely itt mindent, cselédjeit s
+               alattvalóit elfoglalta, szükségtelenné teszen minden pompát, melylyel hiúságát az ál
+               szomorúság szokta leplezni.</p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Ipolyságh, jun. 29.</p>
+				<p>Endrédi azt tanácsolja, azt tanácsolja az orvos is, hogy menjek hozzátok. Szívem azt
+               inkább tanácsolja, náloknál. Mihelyt egészségem, mely a siettetett út és ezen halál
+               által oly sokat szenvedett, megengedendi, nálad leszek, s a ti karjaitokban fogok
+               éledni új életre. </p>
+			</div>
+			<div type="chapter">
+				<head>BÁCSMEGYEI MAROSIHOZ</head>
+				<p>Ipolyságh, sept. 27.</p>
+				<p>Nem sokára, te kedves, általesem szenvedéseimen, itt a hideg ősz; s ha a fáról leesni
+               látok egy levelet, úgy tetszik, mintha az életnek új erejét veszteném el - s
+               hiheted-e, hogy ez engem rettent? Kedves nekem, igen kedves e gondolat: Szélen állok!
+               - Midőn a tavasz megint itt leszen, s virágot s új életet önt a földre, csöndes álmot
+               fogok aludni a sírban. Akkor járulj te a boldoggá lettnek sírjához, s mondd magadnak,
+               hogy én a te bánatodnak s e név nélkül való érzéseknek ezt a pillantását érzettem, s
+               egy gyönge tavaszi szellő fújja el könycseppedet, hogy azt Klárid orczádon, midőn
+               hozzája visszatérsz, meg ne sejtse.</p>
+			</div>
+			<div type="chapter">
+				<head>ENDRÉDI MAROSIHOZ</head>
+				<p>Buda, októb. 8.</p>
+				<p>Hogy levelem nem egyenesen hozzád, hanem tiszttartódnak borítékja alatt megyen, már
+               gyanítathatja veled, hogy a hír, melyet hoz, nem lehet örvendetes. Vigyázz, hogy azt
+               hitvesed elkészülés nélkűl meg ne lássa; a hír bátyját illeti.</p>
+				<p>Hasztalanok voltak igyekezeteim elvonni őtet budai útjától, hol be nem hegedett
+               sebeit ezer emlékezeteknek kelle föltépni; oly makacsul ellene szegzé magát
+               tartóztatásaimnak, hogy legjobbnak láttam neki magamat megadnom. Minden lépés, mely
+               bennünket Budához közelebb juttatott, szemmel látható zavarodást szüle lelkében, s
+               Dorogon, hol szekerünknek megigazítása miatt nem meheténk mindjárt tovább, oly
+               szertelenül élessé leve, hogy reszketnem kelle egészségeért. Sokáig tartó
+               kedvtelenségéből a postamester gyermekeinek nyájaskodásaik föl kezdék vala már
+               vidítani, midőn kürtölést hallánk, s kevés pillantatok mulva - képzeld a történetet!
+               - Szentpéteri s felesége a szobába lépének. A megháborodás ezekben csaknem oly nagy
+               vala, mint a mi szegény barátunkban, de ezek csak első pillantattal voltak
+               megzavarva; a váratlan látásból eredő megszeppenést a legszívesebb, legforróbb
+               örvendés váltotta fel, s mind Szentpéteri, mind felesége nyájassággal, barátsággal
+               üdvezlék Bácsmegyeinket. Ez renge egész testében. Nincsi mind azt a mit a legbarátibb
+               indulat s egykori szerelmének emlékezete, férje, valamint a legszentebb hűség és a
+               hála érzései mondathatnak, azon hévvel ömledezteték, melyet természetessé tehete
+               annak érzése, hogy a Bácsmegyei inségének ők az okai. De ez a nyájasság, ezek a
+               gondok még ingerlették a szenvedő gyötrelmeit, s Bácsmegyei az elkeseredésnek
+               legmélyebb lépcsőjére sülyede. Nincsi próbát tett, ha fiának előmutatásával, kit
+               cselédje karján tartott, szerencsétlen barátját fölvidíthatná e, s nevén szóllítá a
+               gyermeket, kit a Bácsmegyei nevére s férjéére s onkeljéére Sándornak neveztetett, s
+               fölnyújtotta azt a mi barátunk csókjára. Ennek lelke nem birta súlyát, s kénytelenek
+               valánk őtet ágyba tenni. Szentpéteri éle az alkalommal, s magunkban hagya. Nincsi
+               veszteg maradt, a legszívesebb részvéttel igyekezett barátja szenvedéseit enyhíteni;
+               vigasztalta, hizelkedett gyöngeségeinek, s erőlködött titkolt reszketések alatt
+               elfojtani könyűit, melyek egyszerre rohanának elő, s csöndes szenvedései jajgatássá
+               váltak. Ez Bácsmegyeit magához hozta; felszökött ágyáról; régi erejét visszaadá a
+               fölriadt szerelem; s Nincsinek lábaihoz rogyott. Ajkaik véletlenül összeforradtak, s
+               Nincsi tartózhatlanul sírt. S te sírsz, örök barátnéja lelkemnek? kérdé Bácsmegyei,
+               fölemelkedvén s karjai közzé fogván a szép sírót. Nincsi, te sírsz? Oh sírj! sírj!
+               véremmel érdemeltem ez enyhítést. Ekkor újra megölelé őtet, s mindketten összerogytak
+               volna, ha nem siettem volna segédjekre. - Ez életben el vagy rabolva tőlem, mondá
+               most neki több eszmélettel, több erővel, nagyobb csenddel: de Nincsi, jön egy más
+               élet, egy más jobb élet, s te ott nekem vissza lészesz adva. - Kocsisunk jelt adott,
+               s én emlékeztetém Bácsmegyeit, hogy mennünk kell. Merően néze szemeimbe. Nincsi
+               zsebkendőjébe rejtette el ázott arczát. Szentpéteri bejött. - Utolszor ez életben!
+               monda Nincsihez, s együvé fogván őtet és férjét, megcsókolá mindkettőjöket, s
+               eljövénk.</p>
+				<p>Budáig eltiltott a beszédtől, s magába sülyedve ült a szekérben. Rettegtem életéért,
+               mely ezen rázkodtatás által sokat szenvede. Az orvos újabbi vérindulástól tart. -
+               Minden póstával fogod venni tudósításaimat.</p>
+			</div>
+			<div type="chapter">
+				<head>ENDRÉDI MAROSIHOZ</head>
+				<p>Buda, októb. 10.</p>
+				<p>Az éjjel aludt, de keveset s hánykódással. - Képedet és feleségedét általhozatá fekvő
+               szobájába. - Írd meg nekiek, monda, hogy szereteteket most meg nem köszönhetem; de
+               lesz idő, melyben fogom.</p>
+				<p>Dél után 2 órakor.</p>
+				<p>Rendbe hozatá mindenét, s resignálva van. Csöndesen várja a gyógyulást, vagy
+               kínjainak végét.</p>
+				<p>Októb. 11. 2 órakor reggel.</p>
+				<p>Rosszabbúl van. Nem szólhat. Szemei ázva vannak.</p>
+				<p>4 órakor.</p>
+				<p>Általesett rajta! - Írtóztató phantasieből tért magához. Érzette, hogy itt van vége,
+               de attól nem rettegett. - Minek harangoznak? kérdé, midőn én épen kifordultam. Egy
+               gondolatlan azt felelé, hogy valaki haldoklik. Én ezen pillantatban léptem be. Kezem
+               után nyult. Köszönöm hűségedet! monda. Üdvözöld Nincsit, s az én kedves jó hugomat s
+               férjét! s a halál alvása csöndesen vitte által az örökkévalóság hosszú éjébe.</p>
+			</div>
+			<div type="chapter">
+				<head>TOLDALÉK SZALIE JÜLIEHEZ</head>
+				<p>A bártfai feredőben.</p>
+				<p>Harmadik és negyedik leveleimből, kedves barátném, eléggé érthetéd, mely boldog
+               napokat élek itt, mely boldogokat nevezetesen a tiszteletre s szeretetre legméltóbb
+               asszony csudálásában. Rajzolatomnak, melyet felőle e két levelemben tevék, felette
+               szerencsétlennek kelle lenni, ha őtet az után alkalmasan nem ismered. De a mely
+               történetet neked e mostani levelem viszen, az úgy kívánja, hogy az egyetlennek, a
+               hasonlíthatatlannak, újabban s bővebben fessem képét, s még külsőjére is
+               kiterjeszkedjem, hogy őtet mint tükörben szemlélhesd - mert őrajta nincs semmi, a mi
+               az egészre szükségesképen ne tartozzék, nincs semmi, a mi az egésznek hatását ne
+               segélje. Osztán - mert ki kell mondanom, kedves leány, - te őbenne egy régi
+               ismerősödre találsz, s álmélkodni fogsz, ha majd való nevét hallandod, ki az, a kit
+               én ennyire csudálok, ennyire szeretek. Oh miért, de miért nem fogadhatád el az anyám
+               ajánlását, hogy velünk együtt jőjj el te is! mily nagy volt volna most örömed,
+               megtestesülve látván azt az ideált, melyet az asszonyi rény és érdem felől magunknak
+               mindketten csinálánk, és a melyet én itt, elveszve semmiségemnek mély érzésében,
+               religiói tisztelettel látok és hallok reggel óta mind addig, míg a társaság
+               szélylyeloszol s kiki nyugalomra tér.</p>
+				<p>Consiliárius Belényesi egyike a szeretetre legméltóbb férfiaknak. Nagyon meg kellene
+               csalnom magamat, ha közelébb nem volna a hatvanhoz, mint az ötvenhez; és mégis
+               mindent, a mit rajta látunk, őszülni s ritkulni alig kezdő haja, színes és
+               barázdátlan képe, ép egészsége, és kivált lelkének vidámsága s kelleme, valamint
+               könnyű mozgása s ízletes öltözete, tíz esztendővel ifjabbnak akarják tartatni.
+               Moralitása a legtisztább, elméje igen mívelt, s tónja olyan, hogy bizodalommal s
+               szeretettel tölt el túl a tiszteleten maga iránt mindent, a ki körébe lép. S az én
+               asszonyi ideálomnak ez a férfiideál leve férje! Soha Hymen két összeillőbb lelket még
+               együvé nem szőtt. - De feledni kezdem, hogy itt nem az úr, hanem az asszony képe az,
+               melyet elődbe tennem kell.</p>
+				<p>Ha Belényesi első pillantással imponál, s felsőbbségét még a gondatlanokkal is
+               érezteti, a consiliáriusnéban egynél több megtéved első látása alatt: de nincs oly
+               gondatlan, elmétlen, hogy egy második pillantással magához ne térjen, és hogy kit
+               lát, teljes mértékben ne érezze. Amaz a mint mondám, egy szép ábrázu, deli és lelkes
+               férfi: ez egy szerény asszony, a ki semmivel sem csinál lármát, és a kinek bájoló
+               hatalma kaczérságnak látszik; ha tudniillik a kaczérság többet nem talál tenni, mint
+               a mit coquetterienek mondunk. - Bocsásson meg az igazság, hogy őfelőle szóllván, e
+               gyalázatos nevezettel élni merészlettem; de az a báj, mely ezt a páratlan teremtést
+               elfutja, ámbár ő merő természet és valóság, s ámbár benne nem lelni semmit abból, a
+               mi façonnirozott, oly ellenállhatatlan erővel bír, hogy látója kisértetbe jő azt
+               mesterkélésnek venni. Szavainak már csak hangzása is, maga az a szózat, mely ajakiról
+               foly, olyan, hogy a hallót egészen megrázza, s belső részeig rezeg. Termete s
+               testessége középszerű, hajai szögek, szine halvány, s az egész physionomie lankadást
+               mutatna, ha rajta a legszebb két szem, kék mint az ég legtisztább azurja, életet nem
+               öntene el. Valamit egy jószületésü személyben találni óhajtunk, mind azt neki teljes
+               mértékben megadta a nevelés, s a természet a nevelésnek nagyon megkönnyítette
+               munkáját: de ő bölcsebb és jobb, minthogy ez ajándékokkal s szerzeményekkel
+               szükségtelen és helyén kivül élni akarjon; s nem affectálván semmit, minden
+               mesterségeiket a ravaszkodóknak végtelenül maga megett hagyja.</p>
+				<p>Te egyike vagy azoknak, édes barátném, a kik, engemet dicsérni szeretvén, felőlem azt
+               mondják, hogy nekem épen azon mértékben tulajdonom a jóknak tisztelete, a mások
+               érdemeiknek megismerése és az a heves vonszás irántuk, a mely mértékben sok társaink
+               a nevetségest szokták hajhászni, s azoknak felfedezésekben mulatságot lelnek; s ha
+               valaha, most érzem magam is, hogy e magasztalást, a leghízelkedőbbet, a mit
+               képzelhetek, valamennyire érdemlem. Mert mióta ezt a nagy, ezt a jó asszonyt látom,
+               bátortalanul forgok körülte, s minden szavát, minden intését lesegetem. Ugy hittem,
+               hogy titkomra senki nem eszmél, s a figyelmet, melyre általa magamat méltóztatva
+               látám, mennyei jóságának kezdettem tulajdonítani: de halld a scénát, melyet neked
+               sírva beszélek. - Tegnapelőtt reggel az anyám későbben kele ki ferdeje után ágyából
+               mint máskor szokott, s így a társaság már régen együtt vala, midőn mi is közéjök
+               lépénk. - Egy lengyel asszonyság Belényesiné felé intézte szavait, s figyelmessé
+               tevé, hogy az inséparable is jő. A társaság kegyesen itéle felőlem, s míg én,
+               mindezek felől semmit sem sejdítve, közzéjek érék, mindnyájan kérék a
+               consiliáriusnét, hogy a kis szerényt köszöntené leányának. Ez a mint az anyám és én
+               fellépénk, elmondá nekem mi történt, s a legkegyesebb kifejezésekkel, hogy ezt
+               másoknak súgallásokból ugyan, de tulajdon mozdulatából cselekszi, szívére szorított s
+               megengedé, hogy anyjának szólítsam. Érzéseim nem leltenek szót, s minden eszmélet
+               nélkül lerogytam lábaihoz, s itt fogadtam neki sírva gyermeki hív tiszteletet. A
+               jelenvalók látták, hogy mélyen meg vagyok illetve, és hogy örömemben renge minden
+               tetemem, s tapsolni kezdének, hogy magamhoz térhessek: de gróf Odolinszkyné
+               megújította a scénát. Egy ily jó gyermeknek, mondá franczia nyelven, nem elég, anyát
+               adnunk: nevezze atyjának a tiszteletre legméltóbb férfit is; s megfogván jobbomat,
+               hetven esztendős generál Vasvárihoz vezete. Jer, kedves leány, úgy mondá a grófné, s
+               emlékezzél róla, hogy e szerencsét nekem köszönheted. A tiszteletreméltó öreg azzal a
+               nyájassággal fogadta a grófné kérését, mely senkinek nem lehet inkább tulajdona, s
+               örülve fogadott, mintha az neki volt volna megtiszteltetése, gyermekének. Hagyj
+               megpihennem, s úgy osztán a történetet, melyet beszélni akarok.</p>
+				<p>Ma reggel consiliárius Belényesi, s az én, kedves anyám a consiliáriusné, és én -
+               mert a gyermekké fogadás aktja óta vagyok igazán az elválhatatlan - kiindúlánk a
+               széles alléen, s még távolról meglátánk a generált, hátradőlve egy gyepszéken, hogy
+               egy könyvben elmerülve olvas. Ha meg nem pillantott volna, örömest vevénk vala más
+               útat, de így többé őtet el nem mellőzheténk. Félre tette a könyvet, s szemüvegeit
+               elrakván, nyájasan üdvözle. - Gyermekké teve ez a könyv, úgy monda, s egy gyönyörrel
+               éltetett, mely előttem már sok esztendő óta ismeretlen - sírtam - s leányka! Jülie!
+               találd mi vala a könyv? - A te Bácsmegyeid! - A consiliárius tudakozá, ha a generál a
+               könyvet most olvassa-e először, vagy az talán azon olvasásai közé tartozik, melyet
+               bizonyos situátiók közt megszerete, s most nem magáért a könyvért, hanem az általa
+               megujított emlékezetek miatt olvas. Vasvári felelt, hogyha úgy volna, nem általlaná
+               megvallani; az öreg kornak alig maradtak más örömei, mint a visszaemlékezés, s ő az
+               emberi tiszta érzésekért nem pirúl: de a könyv előtte tegnapig ismeretlen volt; egy
+               fiatal ember tevé reá figyelmessé, kit gyönyörködve néze még a nap felkelte előtt
+               olvasni és belőle az olvasás közben jegyzéseket tenni; megkedvelte az ifjú
+               szorgalmát, látni akarta ki légyen, s szorgalma mely könyvet illet, szóba eredt vele,
+               elszomorodott látván, hogy lelkét román által gyengíti, s megintette, hogy idejével
+               bánjon eszesebben. De az ifju felelt, hogy a mint excerptái bizonyítják, ő a románban
+               nem a románt olvassa, noha aestheticai s psychologiai tekintetekből azt is pirulás
+               nélkül lehetne; s így, magam is kedvet kapék olvasására. - S generál úr messze
+               haladott olvasásában? kérdé Belényesiné. Szintén a gyászos katasztrófig, mélt.
+               asszony, felele Vasvári. - Én ismerem a könyvet, monda ez; szabad volna-e tudakoznom,
+               mit itél generál úr a Nincsi charaktere felől? - Az, feletti Vasvári, kiméletlenül s
+               terhelve van festve, de azon felakadni nem lehet; ha a leány és szülei hibásoknak nem
+               volnának hagyva, Bácsmegyeit nem fogná szánhatni az olvasó, s a román eltévesztette
+               volna a maga czélját. Az effélék költemények, s oly könnyedén kell vennünk, mint
+               költeményeket venni illik. Az olvasó nem gondol vele, való történetet olvas-e vagy
+               költeményt; néki elég, ha szíve az édes-keserű érzései közt kedvére gyötrettetik. -
+               Belényesiné hallgatott: de nékem homályos előérzéseim voltak, hogy a kezdést valami
+               komoly fogja felváltani, mely meg is lett. Belényesi kérdőleg és kérőleg tekintett
+               hitvesének szemeibe s az asszony elpirult. - Generál urnak, monda rövid gondolkozás
+               után Belényesi, nem lesz kedvetlen, ha kimondom, hogy az a Nincsi, a kit itten festve
+               lát, senki nem egyéb mint az én kedves Cecilem, és hogy én a hűségtelen, hálátlan
+               Szentpéteri vagyok, s ha generál úr időtöltést lelne történeteinknek
+               végighallgatásában, az én barátném és én örvendeni fognánk, ha egy tisztelt
+               barátunknak részvétét s mentségeit tapasztalhatnánk azon félreértéseknek jutalmául,
+               melyeket reánk a Bácsmegyei leveleinek kiadója vont. - Belényesiné igy kezdte
+               beszélni a történetet: </p>
+				<p>Gondosabb, bölcsebb szüléket képzelni nem lehet, mint azok voltak a kiket nekem ada
+               áldásul az ég, a gyermek soha inkább nem szerettetett, mint én. Belépvén azon
+               koromba, midőn már elmélkedhetém, egészen magamnak hagyva érzettem magamat, de úgy,
+               hogy szüléim szűntelen szemmel tartottak; s e látszatos szabadságban senki nem lehete
+               kevésbbé szabad s inkább fogoly mint én valék. Atyám és anyám, legszebb példái a
+               házassági egyességnek s barátságnak, jó eleve megismertetének azon pálya örömeivel s
+               veszélyivel, mely reám vár; s midőn mások vezető nélkül taszítatnak ki az ifjúság
+               örvényeire, nekem mindenkor a házasság tétetett ki tárgyképen, mely a mint az atyám
+               előttem is szerette emlegetni, a mi nemünknek egyetlen ösvénye. Szüléimnek nagy
+               gondja volt, hogy romlott ember, és nem kevésbbé, hogy romlott asszony, társaságomba
+               ne lépjenek, hogy a köz veszettség árja által el ne kapattassam: de a jókat önmagok
+               vezették felém, s ezekkel társalkodván, tökélletesen szabadon hagyva érném magamat.
+               Az atyám szoros barátja volt a Bácsmegyei atyjának, s ez a barátság, az által, hogy
+               mindketten consiliáriusok voltak a helytartó tanács mellett, s így őket a szív
+               érzésein felül a hivatal is egyesítette, még szorosbb lett. Szót adtak egymásnak,
+               hogy ha az az ifjú, kit a kiadó Bácsmegyeinek nevezett el, önmagától találna birtokom
+               után vágyni, s ha én iránta hajlandóságot mutatandok, párok legyünk. Én tizenkét
+               esztendős gyermek valék midőn ő, húsz esztendős korában, iskoláit elvégezte, s
+               Göttingába, onnan pedig Ángol-, Franczia- és Olaszországba küldetett. Az atyám és az
+               ő atyja, úgy szólván, egy házat csináltak; s én, még gyermek, az iskolából haza jött
+               s kevés hónapok mulva elutazott ifjat úgy néztem mint testvéremet, s úgy fogadtam,
+               midőn öt esztendő múlva útazásaiból haza jött. Igazságos valék iránta, megismertem
+               érdemeit, s tiszteltem benne azt a szép lelket, mely véle az őrűltek útjaikat
+               kerülteté, mely őtet a részegek nagy seregében józanon tartotta; de az a
+               hajthatatlanság, mely igen is gyakorta a kevélységig s keménységig ment, eltola tőle,
+               s őtet, a ki szeretetni kivánt, nekem félelmessé tevé. Mert hogy azok az épületes
+               scének, melyeket e levelek emlegetnek, azok a hűség esküvései, azok a magányos
+               sétálások, csak a kiadó czifrázmányai, arról senki nem kételkedik, ha engem félre
+               érteni akarna is, a ki szüléimet az ő bölcsen sanyarú nevelésekben ismerte. - Az én
+               barátom soha nem volt eléggé csendes, látni mint áll ő énnálam, s érezvén a maga
+               becsét, s nem is képzelvén, hogy másként fogadtathatnék mint fogadtatni akart,
+               barátságomat hajlandóság gyanánt vette; s innen eredtek panaszai, vádjai,
+               szerencsétlensége, melyet makacsul ön maga ingerlett, és a melyben szertelen lelke
+               még gyönyörűségeit találta.</p>
+				<p>Azonközben Bácsmegyeinek atyja meghalt, s a nádor-ispán, s az ország bírája s mások
+               nagyjaink közzül, s maga az atyám is, igyekeztek annak sok érdemeit a fiában
+               megjutalmazni. Nem mehettek vele semmire; a különös útakat szerető nem engede az
+               intésnek, s barátjai el kezdének hűlni iránta. Az atyám megsejté benne az erőt vevő
+               hypochondrie jeleit, reszkete, hogy férjül találom választani, s kitapogatván
+               hajlandóságaimat, intett, hogy társalkodásomban legyek szemes és magamat semmire ne
+               kötelezzem. E rettegések közt a férjem, Bácsmegyeinek iskolai barátja, Budára jött,
+               meglátott, megkedvelt s bizonyossá tévén magát hajlandóságom felől, bejelentést tett
+               szüleimnél, kik őtet két kézzel fogadták. Így én magam s szüléim az állhatatlanság,
+               hívtelenség, fortélyos bánás vétke alól alkalmasan mentek volnánk; mert bizony az
+               élet nem román és a román nem élet; egyedül férjem terheltethetnék hálátlansággal,
+               barátságtalansággal; mert, ha a kiadó azt világosan nem mondja is, ki nem érti, hogy
+               a férjem, vagy a maga románi nevével Szentpéteri, tudta, hogy a leányt a kit ő
+               veszen, bírni Bácsmegyei is óhajtotta? Az atyám valóbb characterű ember volt,
+               minthogy ezt az előtt a ki jobbomra vágyott, elhallgathatta volna, s én úgy valék
+               nevelve, hogy neki mindent elmondjak, készebb lévén vétkesnek ismertetni, mint
+               hamisnak. De Szentpéterinek e részben nem kelle világosítás; ő ismerte barátjának
+               különösségeit, s tudta, hogy az ily characterüekkel kimélések, utána járások által
+               boldogulni nem lehet, s méltónak látta, hogy birtokomért a veszedelmes lépést
+               megtegye, s annál inkább, mivel bizonyos volt az iránt, hogy sem én nem fogtam volna
+               az ő ismeretsége nélkül is soha arra hajtatni, hogy Bácsmegyeinek jobbját elfogadjam,
+               sem Bácsmegyei nem tudta volna magát soha arra juttatni, hogy jobbjával
+               megkínáljon.</p>
+				<p>Az öreg generál a consiliárusnénak utolsó szavai által a maga kedvelt ideáinak körébe
+               löketett, s a katonai élet magasztalásába kezde ömledezni, mely, a mint mondá, a
+               hypochondriásoknak legjobb gyógyító helyek. Soha nekem édes Jüliem, ez a kar
+               tiszteletesbb alakban még meg nem jelent, mint mióta ezt az urat ismerem. Minden
+               cselekedete, minden szava a rendhez szokott, rendben gyakorlott embert festi; s ha
+               haza megyek, elbeszélem a bátyámnak, hogy végre láttam egy valakit a kinek élete a
+               Kategorischer Imperativot bizonyítja. Nyaka körül függ a Tereziai kereszt pántlikája,
+               de vitézsége felől még világosabban szól az a gyönyörű vágás, mely bal orczáján végig
+               nyult. - Mi egy hét mulva itt hagyjuk e gyönyörű, s nékem ugyan feledhetetlen helyet,
+               s így nem sokára szóval pótolom ki sietve tett írásom hézagjait. Élj boldogul kedves
+               barátném, s várj, mint szoktál, kiterjesztett karokkal!</p>
+				<p>.oOo.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

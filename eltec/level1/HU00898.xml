@@ -1,0 +1,2585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU00898" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A beszélő köntös : ELTeC edition</title>
+				<author ref="viaf:46774986">Mikszáth Kálmán (1847-1910)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">23646</measure>
+				<measure unit="pages">62</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>A beszélő köntös</title>
+					<date>1999-01-11</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00800/00898"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Drótos László</name>
+						<name>Szabolcsi József</name>
+						<name>Kindlevarázs </name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>A beszélő köntös</title>
+						<date>1999-01-11</date>
+						<ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+					</bibl>
+					<bibl type="printSource">
+						<author>Mikszáth Kálmán</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Arcanum</publisher>
+						<date>1998</date>
+						<idno>ISBN 963 85923 5 4</idno>
+						<ref target="http://mek.oszk.hu/00800/00898/00898.pdf"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>A beszélő köntös</title>
+					<author>Mikszáth Kálmán</author>
+					<date>1889</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="high"/>
+				<ns1:timeSlot key="T3"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>ELSŐ FEJEZET GONOSZ PRAKTIKÁK. PAPOKNAK AZ Ő NAGY KAPÓSSÁGUK</head>
+				<p>Bolondok azok a városok, melyek arról panaszkodnak: »Sokat szenvedtünk; nálunk száz
+               vagy kétszáz évig lakott a török.«</p>
+				<p>Azok a helyek szenvedtek igazán, ahol se török nem lakott, se labanc, se kuruc, s a
+               magok emberségéből éldegéltek, mint például Kecskemét, mert ahol a hadviselő felekből
+               ott tartózkodék az egyik, ott csak egyik dominált, sarcolt, s a többiek oda se
+               mertek szagolni, de ahol az egyik sem lakott, oda mind a három eljárt epret
+               szedni.</p>
+				<p>Egy nap a budai pasának szottyant kedve egy kis élésre vagy pénzre: »Nosza fiam,
+               Dervis bég, írj a kecskeméti bírónak!«</p>
+				<p>S ment nyomban a levél, melynek ékes stílusából nem hiányzott a »Fejetekkel
+               jádzotok«.</p>
+				<p>De nem másként járt el a szolnoki Muszta bég, zsákmányolván Ceglédet, Kőröst,
+               Kecskemétet és a környékes falvakat. Minden áldott héten vetett ki rájok terheket,
+               írván: »Ez úri levelet szerrül-szerre minden városba, faluba lóháton hordozzátok,
+               különben ne cselekedjetek.«</p>
+				<p>Számot tartott a jómódú városokra vitézlő Koháry Imre uram őkegyelme is, ki a
+               császáriak részéről Szécsényből oszt vala rendeleteket, sőt a gácsi szolgabíró,
+               nemzetes Darvas János uram őkegyelme se volt rest, rájuk üzenni, ha a kurucoknak
+               kellett valami. S azoknak bizony mindég kellett.</p>
+				<p>Ehhez járultak a szerte csatangoló tatár hadak, a kalgai szultán emberei és a
+               különböző portyázó csapatok, melyek a saját szakállukra dolgoztak. Tessék ezekkel
+               valamennyiökkel barátságos lábon élni!</p>
+				<p>Kecskeméten már akkor is híres vásárok voltak. Ami a szemnek szép, a szájnak jó, azt
+               mind halomra hordták ide a török, német és magyar kereskedők a félországból, s mindig
+               szomorú vége lett a vásárnak, kivált a »kirakodónak«, mert midőn éppen javában
+               folynék, felhő kerekedett a homokos úton, jött a kuruc, vagy a török, vagy egy labanc
+               csapat, lecsapott, mint a villám, s megrakodva a legértékesebb holmival, köd előtte,
+               köd utána, kámforrá vált.</p>
+				<p>A keserű kortyokat pediglen nyelhette a nemes város, mert ha a török rabolta ki a
+               sátrakat, akkor a labancok jöttek nagy kontóval a városra: fizesse ki a kereskedők
+               kárát, vagy különben kő kövön nem marad belőle, ha a labanc rabolt, az is mindegy
+               volt a szegény kecskemétieknek, mert akkor a kurucok és törökök követeltek kárpótlást
+               az ő kereskedőik számára, s ez majd mindég ráment ezer aranyra.</p>
+				<p>Hiába sóhajtozott Szűcs János főbíró uram, kétségbeesve döfködvén botjával az
+               anyaföldet:</p>
+				<p>- Honnan vegyük, honnan? Hiszen nem a körmöci aranybánya ez itt alattunk, vitézlő
+               uraim, hisz ez csak homok, le egészen a pokolig.</p>
+				<p>Végre is lehetetlen volt tűrni, megtanácskozták a dolgot a nagyfejű emberek, s
+               felcihelődtek a nádorhoz, ki is Fekete Pál uram elbeszélése szerint nagyon
+               elkedvetlenedett, mikor előadták, hogy egy kérésök lenne:</p>
+				<p>- Csak valami nagyot ne kívánjatok, mert nem adom meg.</p>
+				<p>- Annyira nem kívánunk nagyot, kegyelmes uram, hogy még azt is sokalljuk, amink
+               van.</p>
+				<p>- Valde bene, valde bene - szólt közbe a palatinus mosolyogva.</p>
+				<p>- Azt kérjük kegyelmességedtől, vegye el a vásárainkat!</p>
+				<p>A nádor gondolkozott, köhécselt:</p>
+				<p>- Hm! Nem jó kormányzat, amici, olyasvalamit elvenni az emberektől, amiből az
+               elvevőnek semmi haszna.</p>
+				<p>De csak mégis megjött nemsokára a rendelet I. Leopoldtól, hogy a kecskeméti vásárok
+               ezentúl nem lesznek meg.</p>
+				<p>Dühösek lettek erre a törökök és a kurucok:</p>
+				<p>- Ezek a gaz cívisek a mellékjövedelmünktől fosztanak meg.</p>
+				<p>Hanem iszen voltak ötleteik nekik is, s húsvét előtt való fekete vasárnapon betört
+               csapatával Kecskemétre a híres kuruc hadnagy, Csuda István uram; egyenest a
+               Ferenci-szerzet zárdájára rohanván, ráparancsolt vitézeire:</p>
+				<p>- Semmihez se nyúljatok, gyerekek, csak a gvárdiánt kell lefogni és magunkkal vinni,
+               mert azt kiváltják.</p>
+				<p>A gvárdiánt, a kövér Brunó atyát megfogták, felültették egy öszvérre, mely a zárda
+               kertjének volt hű munkása, cipelgetvén a vizes-hordós talyigát, s hogy az átkozódó,
+               kapálózó szent férfiú le ne maradhasson a Buri hátáról (Burinak hítták az öszvért),
+               szíjakkal, istrángokkal kötözték oda.</p>
+				<p>Nem számítottak rosszul. Nagy riadalom lett Kecskeméten a keresztény hívek között.
+               Özvegy Fábián Pálné, a púpos Galgóczi Juliánna és az elfonnyadt Bulki Klára, Litkei
+               páter elnöklete alatt legott hozzáfogtak a váltságdíj gyűjtéséhez, házról-házra
+               járván a perselyekkel.</p>
+				<p>- Váltsuk ki a szegény Brunó atyát. Gyönyörű prédikációt tanult be a húsvéti szent
+               napra, azt nem szabad benne hagyni.</p>
+				<p>Száz arany gyűlt össze, azzal indultak el a kuruc tábort felkeresni az asszonyok
+               választottjai, Porosznoki Gábor szenátor, Babos János kurátor és Doma Gergely uram, a
+               kerékgyártó. Tarka kalandok és viszontagságok után végre feltalálták Csuda Istvánt,
+               aki mogorván förmedt rájok:</p>
+				<p>- Kendtek ugye a kecskemétiek? No, mit akarnak?</p>
+				<p>- Eljöttünk érte! - szólt az ájtatos Babos, égre emelvén apró, szürke szemeit.</p>
+				<p>- Kiért? az öszvérért, vagy a gvárdiánért? - tréfálkozék a csalafinta eszű Csuda
+               István.</p>
+				<p>- Mind a kettőért, ha meg bírunk egyezni - vélte Porosznoki uram.</p>
+				<p>- A pap keveset ér, hanem az öszvérnek hasznát vesszük. A tábori dobot cipeli.</p>
+				<p>Tetszett a kecskemétieknek a hadnagy kijelentése, mert ha nem sokat ér a pap, akkor
+               olcsón ideadják; helyeslőn bólingattak a fejeikkel.</p>
+				<p>- Hát mennyiben volnánk a főtisztelendőre nézve?</p>
+				<p>- Három aranyért elvihetik.</p>
+				<p>Három emberünk összenézett, nagy mosolyogva, mintha mondanák: »olcsó, bizisten
+               olcsó«. Porosznoki hirtelen hátrahajtotta ráncos gallérú kék köpönyegének egyik
+               szárnyát s benyúlt a nadrágzsebbe előkeresni a három aranyat.</p>
+				<p>- Ehol ni! Fogja, hadnagy uram.</p>
+				<p>De a kuruc hadnagy kordiálisan tolta el magától a szenátor tenyerét.</p>
+				<p>- A papot az öszvér hozta, most már a pap is vigye az öszvért. Ez az igazság. Az
+               öszvér nélkül nincs alku.</p>
+				<p>- Isten neki - felelte a szenátor jókedvűen. - Mit adjunk az öszvér
+               váltságdíjába?</p>
+				<p>- Annak a szabott ára - ropogtatta meg Csuda a szavakat - százkilencvenhét darab
+               arany.</p>
+				<p>A cívisekben meghűlt a vér, a tömzsi Babos meghökkenve pislantott a hadnagyra, nem
+               tréfál-e, de biz annak roppant komoly most a hosszúkás, napbarnított ábrázata (verje
+               meg a ragya), sokkal derengőbb volt annakelőtte; ám azért a kecskemétiek mégis
+               megadták a módját.</p>
+				<p>- Volna-e lelke a hadnagy úrnak annyi pénzt elvenni egy öszvérért; négy arabs lónak
+               az árát.</p>
+				<p>- Engedje vitézlő uram külön a tisztelendőt!</p>
+				<p>- Az öszvérért inkább eljövünk máskor - toldotta ki Babos.</p>
+				<p>Majd Doma Gergely uram vette át újból a diplomáciai érintkezést, hogy, azt mondja, az
+               öszvért nem használhatják többé a tiszteletreméltó atyák, mert az öszvér immár olyan
+               kompromittált egyéniség, aki tábori szolgálatokat végzett egy protestáns szellemű
+               hadcsapatban.</p>
+				<p>Legtöbb esze volt Porosznoki uramnak, mert ő rögtön átlátott a szitán, hogy a hadnagy
+               kétszáz aranyat akar a gvárdiánért, és az öszvér-dolog egyszerű kedélyeskedés,
+               minélfogva előkotorászta zsebéből a hagyományos harisnyát, megcsördítvén az
+               aranyakat.</p>
+				<p>- Száz darab hiánytalanul; se égen, se földön több. Vagy a pénzt visszük haza, vagy a
+               gvárdiánt. Kegyelmedtől függ, vitézlő uram.</p>
+				<p>- Nem lehet - rázta ez a fejét makacsul.</p>
+				<p>- Gondolja meg, kegyelmed - okvetlenkedék Babos -, hogy Krisztus Urunkat harminc
+               ezüst pénzért adták el. Hogyne volna hát elég Brunó atyáért száz arany?</p>
+				<p>- Ne bibliáskodjanak - ripakodott rájok a kuruc hadnagy -, mert igaz, hogy Krisztus
+               Urunkat harminc ezüst pénzért adták el, de hogy mennyiért váltotta volna meg a
+               kereszténység a haláltól, azt kegyelmetek nem tudják.</p>
+				<p>Ilyen kötekedések közt alkudtak meg végre száz aranyban, amelyeket egyenkint
+               nézegetett meg Csuda uram, nincsenek-e körülráspolyozva, megpengette, nem érzik-e
+               hangjukon egy kis erdélyi akcentus (ott akkoriban hamis
+               pénzverők tanyáztak). Mikor aztán minden tisztára volt hozva, kiszolgáltatta a
+               megcsappant tokájú Brunó atyát, kit nagy diadallal vitt most már a küldöttség
+               hazafelé.</p>
+				<p>De nem sokáig volt örömük, mert amint a szűkebb pátriához közeledtek, alig hogy
+               elhagyták Nagykőröst, melynek bogárhátú házai még látszottak az esti lila ködben,
+               jobbról elővillant Kecskemét karcsú tornya s egy közeledő porfelleg.</p>
+				<p>- Mi a kő lehet az? - tanakodtak embereink.</p>
+				<p>- Nyilván processzió jön elibünk.</p>
+				<p>- Lesz dikció is reverendissime, persze lesz. Nem ártana válaszra elkészülni.</p>
+				<p>Brunó atya szemeiben könnyek csillogtak.</p>
+				<p>- Szegény jó híveim szeretnek, rettenetesen szeretnek. Vajon ki tartja az
+               orációt?</p>
+				<p>- Alkalmasint a szépszavú Litkei páter. Persze, persze. Hiszen már látom is. Ő az ott
+               elöl. Kutya legyek, ha nem ő.</p>
+				<p>Nem kellett kutyává lennie Doma Gergely uramnak, mert csakugyan Litkei páter volt:
+               nagykarimájú kalapját, óriási termetét messziről föl lehetett ismerni, csak éppen a
+               kísérete nem volt processziós nép, hanem török katonák. - Az akasztófára való Ali
+               Mirze aga vezette őket.</p>
+				<p>- Jó estét, jó estét - kiáltá, amint ellovagolt utasaink mellett -, viszitek haza a
+               papot, jó emberek. Mi is a magunkét.</p>
+				<p>Nevetett az aga, Jézus nevét kiáltozá Litkei szerzetes; Brunó atya a kendőjével
+               integetett utána:</p>
+				<p>- Téged is kiváltunk, édes fiam.</p>
+				<p>S bizony első dolga volt hazaérve megindítani a gyűjtést. Özvegy Fábián Pálné, a
+               púpos Galgóczi Juliánna és az elfonnyadt Bulki Klára újra bejárták a könyörületes
+               embereket:</p>
+				<p>- Ne hagyjuk a gaz pogány kezén pusztulni a szegény szerzetest. Mit gondolna rólunk a
+               kereszténység?</p>
+				<p>Ahol ez nem nyitotta meg az erszényt, Fábián Pálné hozzátette:</p>
+				<p>- S mit szólna hozzá Nagykőrös?</p>
+				<p>De már erre minden kecskeméti lelkű ember kiszúrta a maga húszasát, s Litkei
+               szerzetes is hazakerült.</p>
+				<p>Hagyján, ha ezzel vége lett volna, de annyira divatba jött a papokkal való
+               kereskedés, hogy valahányszor egy kis apró költségre szorult meg valamelyik
+               csapatvezér, nyomban kiadta a rendeletet:</p>
+				<p>- Egy kecskeméti papra van szükségem! (Az már bizonyos summát jelentett a
+               pénzpiacon.)</p>
+				<p>Egy darabig csak kiváltogatták a jámbor cívisek, mígnem maga Szűcs János főbíró uram,
+               restellvén a város ilyetén kizsákmányolását, útját vágta azzal a vallástalan
+               kijelentéssel:</p>
+				<p>- Ha az isten engedi a maga szolgáit, miért ne engednénk mi? Végre is a saját
+               gazdájuk van első sorban hivatva.</p>
+				<p>Néhány szerzetes atya a nyakukon maradt, mire hirtelen leszállt a papok értéke a
+               zérusra, s más portéka után néztek a hódító urak. Azokon lehetetlen volt kifogni.</p>
+				<p>Péter-Pál napján betörtek a szolnoki törökök s a templomból kijövő asszonyokból
+               magukkal hurcolták a főbíró menyecske-feleségét, valamint Doma Gergelyné
+               asszonyomat.</p>
+				<p>Az egész város lázban volt. Ez már félig se tréfa, atyafiak! Mert a papokkal még csak
+               megjárta a manipuláció! Azokban nem történt semmi kár, míg odavoltak. De az
+               asszonyok, az egészen más! Teringette, az asszonyokkal nehezen megy az efféle!…</p>
+				<p>Szűcs János annyira elkeseredett, hogy rögtön letette a főbíró tisztét s eladván
+               egyik kőházát, Doma Gergellyel asszonyaik után indultak. Szűcs uram kétszáz aranyat
+               adott az oldalbordácskáért, Doma Gergely azonban csak huszonöt aranyat kínált, ha
+               az övét hazaeresztik, százat, ha ott tartják, de örökre - úgy, hogy ő más asszonyt
+               vehessen el. Zülfikar aga gondolkozott egy ideig, aztán szomorúan mondá:</p>
+				<p>- Csak vidd az asszonyi állatot, barátom!</p>
+				<p>Ezalatt páni félelem fogta el a kecskemétieket. A kurucok is betörtek és a dúsgazdag
+               Végh Tamás Vica nevű hajadon leányát ragadták el egy lakodalomból, mikor ifjabb Nagy
+               Mihállyal a lötyögtetőt járta; éppen javában forgatta, mártogatta a legény, s
+               cifrázott, aprózta, resze-riszált a leányzó, mikor felpattant az ajtó, s becsörtettek
+               a Csuda uram huszárai. Mi lesz ebből, uram teremtőm? Az ágyasházakból húzzák ki a
+               becses fehérnépeket maholnap! A kalgai szultán váltig üzengeté, hogy a legszebb tíz
+               asszonyra vásik a foga. A budai törökök is minden órán jöhetnek.</p>
+				<p>Bár még akkor nem zengett a kecskeméti lányokról az a játszi nóta: »aki legény, innen
+               hozzon menyecskét«, azért már akkor is gyönyörűek voltak. Ezt még a kőrösi legények
+               sem tagadták.</p>
+				<p>Csöppet se csoda hát az általános kétségbeesés. Olyan volt a helyzet, mint a fekete
+               posztóval bevont mesebeli városokban, hol a hétfejű sárkány rendre felfalja a
+               szűzeket. Melyikre kerül a sor, ki következik most? Ez a bizonytalanság egy
+               láthatatlan hurok volt, amelyet mindenki nyaka környékén érzett. Tízszer megrettent
+               naponként egy-egy kerekedő porfelhőtől, s ha éjjel zúgni kezdtek a Talfája-erdő
+               csenevész fái, abból is előrémlett a száguldó csapatok dübörgése: »Jaj, megint jönnek
+               a portyázók!« Estende apró kezeiket összetették a nők s ájtatosan fohászkodának a
+               város patrónusához, Szent Miklós püspökhöz; hátha az tehetne valamit, azzal a
+               kacskaringós bottal, melyet a város pecsétjén bamba képpel tart egy kecskefejbe
+               szúrva.</p>
+				<p>(Gyanakszom, hogy sub clausula benne volt ezekben az imádságokban: »ha pediglen mégis
+               az lenne az isten rendelése - add uram, hogy inkább a Csuda huszárjai jöjjenek, mint
+               a kutyafejű tatárok és a budai törökök«.)</p>
+			</div>
+			<div type="chapter">
+				<head>MÁSODIK FEJEZET ÚJ FEŐBÍRÓ. ÚJ KÖRNYÜLÁLLÁSOK</head>
+				<p>Az elkeseredés nőttön-nőtt. A város ügyei egyre rosszabbul néztek ki. A törvénykezés
+               szünetelt, mióta a vásárokat eltörülték, mert nem volt honnan bírákat fogni, pedig
+               Kecskeméten a fogott bíróság volt úzusban. A vásárra jött
+               idegenekből állították össze a törvényszéket.[1] Most
+               pedig, hogy Szűcs János a főbírói pálcát letette, nem akadt, aki utána nyúljon.
+               Hiszen nem evett nadragulyát senki! Négy-öt rendeletet kapni napjában, csupa
+               lehetetlen kívánságokkal, s azzal a nyájas postscriptummal: »mert különben karóba
+               húzatom kegyelmedet« (amilyen bolond világ van, meg is cselekszik).</p>
+				<p>Az emberek hangosan zúgolódtak.</p>
+				<p>- Vagy költözködjünk ki innét, vagy haljunk meg itt, de így nem élhetünk.</p>
+				<p>- Csinálni kell valamit.</p>
+				<p>- De mit? A törököt csak nem verhetjük ki az országból mi magunk, ha a császár se
+               bírja.</p>
+				<p>Amint ekképp tanácskoznának gondterhelten a szenátorok a városházán, egyszerre csak
+               bekiált a nyitott ablakon egy hang:</p>
+				<p>- Már én pedig azt mondom, hallja kegyelmetek, hogy nem elkergetni kell a törököt,
+               hanem idehozni Kecskemétre.</p>
+				<p>A szenátorok mind fölnéztek:</p>
+				<p>- Ki az a vakmerő? Ki beszél odakint?</p>
+				<p>- A Lestyák szabó fia!</p>
+				<p>- Hogy mer az a mi beszédünkbe belekotyogni - méltatlankodék Zaládi Márton (s intett
+               a hajdúnak): - Csukja be kend az ablakot.</p>
+				<p>Porosznoki Gábor fölugrott, mintha valami villamos erő lökte volna fel.</p>
+				<p>- Én pedig azt mondom, nem kell elkergetni a fiatalembert, hanem ide kell hozni, hogy
+               meghallgassuk.</p>
+				<p>A komoly városi atyák a fejeiket csóválták, de a legtekintélyesebb szenátornak nem
+               mertek ellentmondani, csak Ágoston Kristóf duzzogott:</p>
+				<p>- Az apja is bolond ember, a fiú is az. Egy diáktól kérjünk consiliumot? Persze van
+               neki, mert ő már kapott.</p>
+				<p>- Mit? - tudakolta a kíváncsi Kriston Ferenc.</p>
+				<p>- Consilium abeundit, hahaha. - Kicsapták Nagyváradról. Hadd adjon tanácsot, igenis.
+               Úgyse sok tekintélyünk van, hadd legyen még kevesebb.</p>
+				<p>Aztán elbeszélte, hogy az apja hőbölygős; egyik kereke hiányzik. Minap a derék Brunó
+               atya elküldte hozzá a kabátját, hogy vegye ki belőle a zsírpecsétet. Ki is vette, de
+               úgy, hogy a pecsétes helyeket kivágta ollóval. Szegény Brunó atyát jó hogy a guta nem
+               ütötte meg.</p>
+				<p>Pintyő Gyuri, a hajdú, lelkendezve hozta be ezalatt a Lestyák-gyereket.</p>
+				<p>Csinos, szikár kamasz volt, olyan sertehajjal, mint egy kartácsoló kefe.</p>
+				<p>- Fiam - szólt hozzá nyájasan Porosznoki -, az imént bekiáltottál valamit, ami az én
+               fülemet megütötte. Ne restelld bővebben kimagyarázni.</p>
+				<p>Lestyák Miska nem jött zavarba, világosan, értelmesen szőtte-fonta a szavait:</p>
+				<p>- Én bizony azt gondoltam, nemzetes urak, hogy aminő viszonyok közt a mi édes
+               szülővárosunk van, nem sokat érnek a holt fermánok, írásbeli biztosítékok, százszor
+               többet érne egy eleven bég, vagy legalább csausz, aki köztünk lakván, igen sok apró
+               kellemetlenséget elhárítana a fejünkről. Szabad város vagyunk, nemzetes urak, de
+               szabadságunk láncokból van kovácsolva. Keressünk magunknak egy zsarnokot, hogy
+               megélhessünk!</p>
+				<p>A tanácsnokok összenéztek, ámultan, megbabonázva. Ilyen szép meleg szavakat rég nem
+               hallottak, ilyen szép érces hang még nem csengett ebben a teremben. Reggel óta ülnek
+               itt tanácstalanul, s íme mintha váratlanul egy fáklya gyúlna ki a sötétben.</p>
+				<p>- Vivát! - kiáltá Puszta Máté. - Ez aztán okos beszéd.</p>
+				<p>- Igaza van! - mondá az ősz Pató György, ezüst menteláncát megrázva. - Tiszta
+               búzaszemet kapart ki a polyvából.</p>
+				<p>Porosznoki Gábor felkelt helyéről, odajárult Lestyák Miskához és megveregette a
+               vállait.</p>
+				<p>- Voksod van, fiú, ezentúl - szólt ünnepélyesen. - Üljön le kegyelmed, Lestyák Mihály
+               uram közibünk. (Éppen volt a zöld asztalnál egy üres szék: a Szűcs Jánosé.)</p>
+				<p>A lelkesedés tört ki erre. A magyar emberek szeretik a meglepő fordulatokat, s ez az
+               volt. A városatyák felugráltak, kezet szorítani a kamasszal. Még Ágoston Kristóf is
+               békülékenyen dörmögte Kriston Ferenchez hajolvást:</p>
+				<p>- Csak az a kecske apja ne volna!</p>
+				<p>- Ugyan hagyja el kegyelmed - válaszolt Kriston uram kesernyésen. - Hisz a város
+               címerében is kecske mekeg.</p>
+				<p>- Jó, jó, de az apja még bocskoros tótnak jött be Kecskemétre.</p>
+				<p>- Éppen nem látszik meg a gyereken.</p>
+				<p>Valóban mindenki olvashatta egy orvosi szakközlönyben nemrég, hogy ha egy fehér ember
+               sebét (orvosi nyelven: bőrfolytonossági hiányát) egy szerecsen bőrével toldják ki, a
+               kis fekete bőrdarab lassanként megfehéredik a fehér emberen, és viszont a fehér bőr
+               fekete lesz a szerecsen testén. Ez a processzus folyik századok óta a nagy magyar
+               városokban. Egy-egy idegen család teljesen beforr a magyar testbe, sőt még a színét
+               is fölveszi. Az öreg Lestyák szabó úgy néz ki fakó hajával, kerek fejével, mint egy
+               ostyépka, míg Miska már tojásdad kemény arcával, melyen az agyafúrtság látszik,
+               dióbarna szemeivel, vékony bajszával igazi kun, aki úgy venné ki magát e teremben, ha
+               becsületes ruhában lenne s nem ingujjban, mint a falon függő ős szenátorok
+               valamelyikének unokája.</p>
+				<p>Nagy lendülettel indult most meg a tanácskozás. Kimondták egy lélekkel, hogy
+               Kecskemét ez idő szerinti politikája oda megy ki: minden áron törököt szerezni.</p>
+				<p>Majd új tárgyra tért át az »elölülő« Porosznoki:</p>
+				<p>- Hátra van még a főbírói szék betöltése. Boldog időkben jutalma ez a polgári
+               virtusoknak. Az egész város részt vesz a választásban. De ma, midőn a főbírák egész
+               sora mártíromságot szenvedett, egyet karóba húzatott a budai szandzsák-basa, egy a
+               konstantinápolyi Jedikulában senyvedt el bús rabságban, egyet a kurucok szurkáltak
+               agyon pikáikkal, a negyediknek a hitvesét rabolták el, ma, mondom, hősies
+               önfeláldozás a főbírói pálca elvállalása, s egy polgártársunkat sincs jogunk
+               választás útján odadobni a szerencsétlenség torkába. Mert kire adnák ma szavazatukat
+               az egyesek! Arra-e, akit sokra becsülnek? Lehetséges-e, hogy nem a közbizalom, hanem
+               a közgyűlölet emelne a közügyek élére embereket? Én lehetségesnek tartom, nemzetes
+               urak. (Zajos tetszés.)</p>
+				<p>- Igaz! Úgy van!</p>
+				<p>- Ily circumstantiák közt, miután a főbírónak a szenátorokból kell lennie, az az egy
+               modus vivendi van, ha kegyelmetek közül önként vállalná valaki a főbírói tisztet…</p>
+				<p>Nyugtalanul indítá el tekintetét köröskörül. Templomi csönd honolt a teremben. A
+               szenátorok meg se moccantak.</p>
+				<p>- Senki? - kérdé elboruló homlokkal. - Akkor hát a legvégső eszközhöz kell nyúlnunk,
+               melyet akkor rendelnek ős szokásaink, ha valakinek végzetes kimenetelű feladatot kell
+               a szenátorok közül vállalnia. Hozza be Pintyő az ólomládát!</p>
+				<p>A hajdú egy kis ólomládikát hozott be a szomszéd benyílóból, melynek mind a négy
+               oldalán egy-egy halálfej volt, keresztbe tett kaszákkal, kiverve.</p>
+				<p>- Itt van a tizenkét kocka - szólt Porosznoki tompán, s kigurította őket az asztal
+               közepére, melynek zöld mezején pajkosan játszott, ugrált a beszűrődő őszi napsugár. -
+               Egy fekete, tizenegy fehér! Aki a feketét húzza, az a főbíró.</p>
+				<p>A kockákat újra a ládába rakta vissza.</p>
+				<p>- De csak tizenegy szenátor van jelen - szólt közbe Kriston uram reszketeg hangon -,
+               az egyik kocka fölösleges.</p>
+				<p>- Kivévén, ha Lestyák uram is húz.</p>
+				<p>- Ha voksa van, húznia is kell - vélte Zaládi uram -, a jogok köpenyege
+               kötelességekkel van megbélelve.</p>
+				<p>- Hadd húzzon! - dönték el egyértelemmel.</p>
+				<p>A Lestyák Miska szeme megcsillant, arca kigyulladott.</p>
+				<p>- Bárcsak a feketét húznám - gondolta magában.</p>
+				<p>Ezalatt a hajdúk révén kiszivárgott a künn ácsorgó tömegbe a Miska esete: hogy ültek
+               ott a szenátorok reggel óta megdermedt ésszel, hogy jött Miska az ablak alá, s üres
+               tereferéjük alatt mint dobta közéjük a bölcsesség szikráját, mire fogta magát
+               Porosznoki Gábor, behívatta az utcáról, és odaültette a zöldasztalhoz a város vénei
+               közé. Hallott már valaha valaki ilyen dolgot? De iszen Porosznoki Gábor mégis derék
+               ember, aki a bagoly csőrében is észreveszi a fényeset.</p>
+				<p>A nép élénken hullámzott az épület előtt. Néha egy-egy hang kivált a zsongásból:
+               Éljen Lestyák Miska! Lássuk Lestyákot! Hallani akarjuk!</p>
+				<p>Fábiánné asszonyom egy nagy csoportnak magyarázta élénk mozdulatokkal, mintha
+               köpülne:</p>
+				<p>- Megnyilatkozott az esze. Isten álmában adta tudtára, mit kelljen mondania, szegény
+               városunkat hogyan kell a gonosz pogánytól megmenteni. Hogy miért szemelte ki az isten
+               éppen őt, kérdezi kegyelmed, Létasiné asszonyom. Mert ő szent felsége mindig a
+               mesteremberek gyermekeivel dolgoztat. Krisztus urunk ácsmester fia volt, ez meg egy
+               szabómester fia. De ahol jön, ni!</p>
+				<p>A szomszéd házikóból szapora léptekkel csörtetett elő Lestyák Mátyás uram, dühösen
+               lógatva egyik kezében a rőföt, a másikban egy búzavirágszín mentét, melyen még ott
+               voltak a fércek.</p>
+				<p>- Hol az a kölyök, hadd ütöm agyon! - kiáltozott hevesen. - Ide jött, itt kell
+               lennie.</p>
+				<p>- Bent van a szenátusban.</p>
+				<p>- Kicsoda? A Miska? Hát hogy ment az oda? Előlem bújt el? Hanem iszen bevárom én,
+               amíg kijön. Majd adok én annak az imposztornak. Pozdorjává töröm a gézengúzt. Odaadom
+               neki a vasat ezelőtt egy órával, hogy melegítse meg, mert még ma haza kell vinnem ezt
+               a mentét a halasi polgármesternek, aki deputációba mégyen abban holnap Pest megyéhez
+                  Nógrád megyébe.
+               [2] Most aztán bekiáltok a konyhába: »Miska, hozd be már
+               azt a vasat!« Hát se vas, se Miska. Ne pukkadjon meg aztán az ember mérgében?</p>
+				<p>Pártját fogta Miskának Katona Bálint, a szűrszabó.</p>
+				<p>- Nem lehet ám már az ilyen felnőtt legényt szabóinasnak befogni, vasalómelegítéssel
+               kínozni.</p>
+				<p>- A saját portájáról ítélkezzék kend - vágott vissza nyersen a szabó. - Hát mit
+               tegyek vele, ha nem való másra a sehonnai? Előbb-utóbb is felakasztják. Persze,
+               mindig városi ügyek után hajkuráz. Majd adok én neked városi ügyeket! Kékre verem a
+               gazembert!</p>
+				<p>- Abból ugyan semmi sem lesz! - szólt bele újra Katona Bálint, a fiú mai nagy
+               érdemére gondolva.</p>
+				<p>- Itt süllyedjek el, ha föl nem képelem.</p>
+				<p>Katona Bálint már éppen magyarázni akarta puhább anyagban dolgozó pályatársának,
+               hogyan jutott be Miska a szenátusba, mikor nagy robajjal megnyílt a tanácsterem
+               ablaka, s nemzetes Porosznoki Gábor uram kihajolt:</p>
+				<p>- Tiszteletreméltó népei Kecskemét városának! - szólt a tömeghez stentori hangon,
+               mire síri csend állt be. - Jelentem kegyelmeteknek a tanács nevében, hogy e mai
+               naptól számítva egy évre a város főbírája törvényeink és szokásaink szerint,
+               nemzetes, tiszteletreméltó és vitézlő Lestyák Mihály uram lett.</p>
+				<p>A meglepetés fölszisszenése nyisszant végig a tömött csoportokon. Az első száj
+               hahotára nyílt talán: »hahaha«, »Lestyák Mihály, hehehe!« Az első hang tán még így
+               indult, de egy másik hanggal találkozott útközben, egy, meglehet szokásból,
+               elszabadult »éljen«-nel, minélfogva részint elakadt, megtompult, részint éljenné
+               hegyesedett ki. És utána a sok száz meg száz hang mind-mind éljennek csatlakozott a
+               kidomborodó, az uralmat magához ragadott első éljenhez, nagy széles és hömpölygő
+               kiáltássá dagadva a levegőben… Ám ha az első »éljen« szerényebb és az első »hahaha«
+               frissebb, akkor az éljen szakadt volna ketté, és most a fellegverő ordítás úgy
+               hangzanék, mint a mélységes pokol kacaja: hahaha, hihihi. A »pigra massa« minél
+               nagyobb, vaskosabb, annál könnyebb, mint egy lágy pehely, melyet az első fuvallat
+               visz, visz a magasba, hemperget, himbál jobbra-balra.</p>
+				<p>A harsogó éljenzésekre az utcák önteni kezdték a népeket. Mindenünnen kíváncsiak
+               rohantak elő. Némelyek csáklyákkal, vizes vödrökkel: »Hol a tűz?« vagy pedig efféle
+               kérdésekkel: »mi az? mi történt?«</p>
+				<p>A városház kapuja megnyílt, s a szenátorok kettesével jöttek, közbül Lestyák
+               Mihály.</p>
+				<p>- Jön! Jön! - Rémítő tolongás támadt. Mindenki hozzá akart férkőzni.</p>
+				<p>Kevélyen, méltóságteljesen lépdelt, mintha nem is a régi lenne. A fiatalság pírja
+               égett arcán, szemeit mosolyogva hordozta meg a tömeg közt, ahogy illik a szerencse
+               fiához. Két oldalt egy-egy hajdú aprózott mellette, magasra emelt pálcával, miként a
+               római konzulok liktorai. Ez volt a hatalom külső jelvénye Kecskeméten.</p>
+				<p>De rá is fért nemzetes bíró uramra - mert egy kicsit furcsán festett az ezüst gombos
+               dolmányú tekintélyes szenátorok közt egy huszonkét éves suhanc, vedlett mellényben,
+               ingujjban. Vagy hogy ezért volt ez érdekes látnivaló, amelyre ujjongásban tört ki a
+               nép.</p>
+				<p>Az öreg Lestyák hol elhalványodott, hol bíborvörös lett.</p>
+				<p>- Istenem, istenem, álmodom-e? - és megdörzsölte apró szürke szemeit, vagy hogy talán
+               az előszivárgó könnycseppeket törülte el. - Fogjon meg szomszéd!</p>
+				<p>Csakugyan összeesett volna, ha Katona Bálint fel nem tartja.</p>
+				<p>- No, most náspángolja már el kegyelmed a város főbíráját, ha olyan nagy
+               potentát!</p>
+				<p>Nem felelt semmit, kezeiből erőtlenül hullott ki a rőf, szemeit behunyta, de a
+               sötétben megérzé a főbíró közeledését, egyszerre hozzá ugrott, mint egy hörcsög és
+               ráteríté a vasalatlan új mentét, melyen még a fehér cérnák, meg a krétavonalak is
+               rajta voltak.</p>
+				<p>A tömeg ezt is élénk, zsibbasztó tetszésrivalgással fogadta, csak Katona Bálint
+               kurjantott fel tréfásan:</p>
+				<p>- Hollá, Mátyás bácsi! Miben megy most már a halasi polgármester Fülekre?</p>
+				<p>Az öreg szabó dölyfösen felelte:</p>
+				<p>- Menjen őkelme szűrben. Kis ember ő arra, hogy én varrjak neki mentéket.</p>
+				<p>S ezzel, mint egy öklelőző bika, utat vert magának a csoportosuláson, rohant egyenest
+               haza, a házikója előtti kis kertbe, hol egy nagy körtefa lógatta kívánatosan
+               rozsdapiros gyümölcseit; az alátámasztott hatalmas ágak kifelé csüngtek az útra.</p>
+				<p>Mint az evet, oly gyorsan mászott fel egész a koronáig, s eszeveszetten elkezdte
+               rázni a felső gallyakat. A fölséges zamatú körték, az ő féltett kincsei, sűrűn
+               potyogtak a tömeg közé, »cup, cup«. Gyerekek, asszonyok összeröffentek, és a
+               gyümölcsre vetették magukat, mint mikor koronázáskor aranyakat hány szét a
+               tárnokmester. Meglett férfiak is lehajoltak a guruló körték után.</p>
+				<p>- Egyetek, lakmározzatok! - rikácsolta az öreg, s rázta szilajan, egyre rázta a vén
+               fát, míg csak egyetlen körte volt rajta.</p>
+				<p>…Így tartotta meg a fia installációját.</p>
+			</div>
+			<div type="chapter">
+				<head>HARMADIK FEJEZET KÜLÖNÖS KÉSZÜLŐDÉSEK. ÁGOSTON KRISTÓF KÖVETSÉGE</head>
+				<p>A főbíró-választás első mámorát kialudták. Másnap, harmadnap kihűlt a közönség.
+               »Mégiscsak bolondság volt«, mondogatták. »Valóságos farsangi tréfa!«</p>
+				<p>- Nevetségessé teszik a várost! - hánytorgatták némelyek.</p>
+				<p>- A szenátorok fifikája, hogy a saját bőrüket téli pihenésre eltehessék.</p>
+				<p>Itt-ott kipattant a bosszúság, elszólta magát az irigység, rügyet eresztett egy-egy
+               elejtett megjegyzésben az elégedetlenség. De a külső hatalmasságok siettek elismerni
+               az új főbírót. Zülfikar aga nyájas levelet írt neki a »jól őrzött Szolnok várából«,
+               hogy egy nemes cselekedettel kezdhetné meg hivatalát, ha kiváltaná a nála lévő két
+               szerzetest. Csuda uram négy szekér kenyeret kért tőle elég barátságos hangon. Csak a
+               budai kajmakám megbízott embere Halil effendi, aki oda jött Kecskemétre adóügyeket
+               rendezni, orrolta meg a városházán, hogy egy szakálltalan ifjonccal eresztik össze
+               tanácskozni, mire a főbíró sarkon fordult, becsapta rá az ajtót, melyen egy pár perc
+               múlva Pintyő hajdú nyitott be, egy vén kecskebakot vezetve kötélen.</p>
+				<p>- Mit akarsz itt ezzel az oktalan állattal, te hitetlen kutya?</p>
+				<p>- A főbíró uram parancsából hoztam, hogy ezzel tanácskozzék az úr, mert ennek van
+               szakálla.</p>
+				<p>Tetszett Kecskeméten a »tromf«, s Miska javára billent a serpenyő.</p>
+				<p>- Ember lesz belőle! Nem hagy magával packázni. Jól megleckéztette az effendit. Még
+               ilyen főbíránk sem volt!</p>
+				<p>Nagy figyelemmel kísérték azontúl: mi lesz belőle. De jutott is minden napra egy kis
+               csemege a közvéleménynek.</p>
+				<p>Beszélték, hogy a főbíró magához hívatta a »finom kalapácsú« Balogh Jánost és a
+               Brassóból ide szakadt híres ötvöst, Walter Vencel uramat: készítsenek egy karikás
+               ostort, melynek színaranyból legyen a nyele, kirakva topázzal, smaragddal és más
+               színtjátszó drágakövekkel, valamint egy filigrán fokost, ugyancsak aranyból a nyelét,
+               ezüstből a baltáját. Éjnek a napot ne nézzék, hanem megfordítva. Egy vagyonba kerül a
+               két ékes szerszám.</p>
+				<p>(Hát van a városnak az effélékre pénze?)</p>
+				<p>A következő vasárnap a bíró és két szenátor bejárták a boltokat és mind megvették a
+               nemzeti színű pántlikát, aztán kihajtattak a város négy lován a Szikrára.</p>
+				<p>Szikra a Kecskemét Szaharája. Egy tenger, homokból. Azóta már megfogták a faültető
+               unokák, akkor még szabad volt a homok, s futott, vándorolt, hömpölygött a végtelenbe
+               megszakadozott hullámokban, tetszése szerint.</p>
+				<p>Köröskörül végtelen darabon sem víz, sem növény; a nap liliom-színekben szórja
+               verőfényét a milliárd apró homokszemekre, melyek mozognak, hömpölyögnek
+               szemkápráztató gyorsaságban, mintha ezer meg ezer láthatatlan seprő dolgozna
+               szüntelen, vagy hogy csak a napsugár mozog és ugrándoz rajtuk. Állatnak, élő
+               teremtésnek semmi nyoma. Ez a föld nem lehet szülője még egy picinyke ürgének sem.
+               Mert ez a föld csak átutazóban van. Itt nem lehet odahaza senki, ahol maga a föld
+               sincs odahaza. Egy ürge is szereti, ha lyukát elhagyja, hogy visszatalálhasson rá…
+               Ej, ki próbálna itt megjelölni ha csak egyetlen porhanyó dombot, amelyikre holnap
+               rátalál? A buckák odább sietnek, mint a nyugtalan utas. Föloszlanak, futnak és
+               alakulnak…</p>
+				<p>Mély halotti csönd van. Csak néha csattan egyet fent a légben a villás fecske, mely
+               nem átall erre röpülni. Messze, nagyon messze egy-egy vadkacsapár hápog. Ott valahol
+               nádas van. Majd bölömbika huhhant erős, durva hangján.</p>
+				<p>A nap ha kél, egy homokbuckából kapaszkodik fel, a lehajló égről lehunytakor megint
+               egy homokbuckába pottyan be. Egy fénylő vándorló homokbuckának látszik a nap is,
+               melynek arany porzója szétfrecseg a magasból a szürke-barnás, egyszínű világ
+               fölött.</p>
+				<p>Soká, soká kell menni, míg végre feltör az ajkon önkéntelenül az örömkiáltás: fű, fű!
+               Most már nem messze lehet a víz sem. Törpe füzek között kanyarog a regényes Tisza, a
+               mi édes vizű folyamunk. Balról kis viskó fehérlik, a pusztabíró lakása. Dús legelők
+               terülnek el mögötte, zúgó nádasokkal. Amott egy cserény, szemben vele megbarnult
+               szárnyék, ahová a gulyák, ménesek jutnak »fedetlen« hajlék alá.</p>
+				<p>A főbírót érdekelte a puszták élete; sorba nézegetett mindent. Aztán meghagyta a
+               gulyásoknak, csikósoknak, hogy mához négy hétre virradóra száz lombos szarvú fehér
+               ökör legyen a városháza előtt és ötven szilaj csikó, a legszebb hibátlan ötven a
+               ménesből, nemzeti pántlikával befont sörénnyel; nemzeti szalagok csüggjenek le az
+               ökrök szarváról is.</p>
+				<p>Ez az intézkedés sem maradt titokban, mihelyt hazaérkeztek a várostartó urak, s ha
+               lettek volna már akkor újságlapok Kecskeméten, entrefiletben ritkított betűkből hozta
+               volna a felelős szerkesztő. Így csak a boros kancsók mellett találgatták a
+               cívisek:</p>
+				<p>- Arany karikás, arany fokos, nemzeti pántlikás ökrök és csikók! Talán ide szegődik a
+               király fia a nemes városhoz számadó-bojtárnak.</p>
+				<p>De még nagyobb lett a csodálkozás másnap, mikor Pintyő Gyurka nagy dobszó mellett
+               kihirdette a főbb utcákon penecilus-hangján:</p>
+				<p>- Drum! Brum! Adatik tudtára azoknak, akiket illet!</p>
+				<p>Itt rendesen pauzát szokott tartani a dobverő Gyurka, s lehajtá céklaalakú fejét
+               féloldalt, mint egy bús lúd, de olyan ügyesen, hogy a szája a dolmány belső zsebében
+               levő lapos butykos csücséhez ért, s jót húzván belőle, átnedvesedett gégével,
+               mennydörögve folytatá a főbenjáró részt:</p>
+				<p>- Miszerint aki a török császár felesége akar lenni, vasárnapig a nemzetes főbíró
+               uramnál jelentkezzék.</p>
+				<p>Bezzeg lett erre izgés-mozgás, nevetgélés Kecskeméten.</p>
+				<p>- Megbolondult a főbíró, vagy mi?</p>
+				<p>- Éretlen gyerek! - dohogtak sokan.</p>
+				<p>A bennfentesek, akik tudták, mi a cél, kétkedő mosollyal rázták a fejöket: »Nem
+               lészen foganatja.«</p>
+				<p>A hívők ellenben csodálkozának és örültek a kitüntetés fölött: mert mégiscsak szép
+               az, hogy a török császár Kecskemétről házasodik. Jó ízlése van őfelségének. (No, most
+               beszélj már Nagykőrös!)</p>
+				<p>Leányok és férjhezmenő özvegy menyecskék szörnyűködve beszélték meg az érdekes
+               újságot. Csúfolódtak, évelődtek egymással csintalan beszédekkel öt napig a kutaknál,
+               a kender-tillónál, és ahol összejöttek.</p>
+				<p>A főbíróék terve, mint a csigabiga, egyre kijjebb nyújtogatta a szarvacskáit. Híre
+               jött, hogy a szultán, IV. Mahomet, Budára érkezik, azt is beszélték széltében, neki
+               viszik a száz ökröt és ötven csikót arany karikással, arany fokossal, és az ajánlkozó
+               fehér népekből neki választják ajándékul a szenátorok a négy legszebbet.</p>
+				<p>- Csak négyet? - vihogott fel pajkosan a lekvárfőzésnél a szép Inokai Pálné - szegény
+               török császár!</p>
+				<p>- Hátha még azt tudnád, Borcsa húgom - magyarázta Tóth Máté -, hogy otthon
+               háromszázhatvanhat felesége van még.</p>
+				<p>- Sok dolga lehet, lelkem bátyám - vág közbe a harmateszű, szöszke Ugi Györgyné -,
+               amíg reggelenként elpáholja őket.</p>
+				<p>- Bolond vagy, fiacskám; nem veri az a feleségeit, mint téged Ugi uram, nem is látja
+               őket: azért van háromszázhatvanhat, hogy minden napra jusson egy.</p>
+				<p>(S pajkosan csettentett őkelme a nyelvével.)</p>
+				<p>Éles asszonyi ész, az Ágoston Katáé, nyomban felfedezte a sok feleség közt a
+               legszerencsétlenebbet.</p>
+				<p>- Hát annak mi jut szegénynek, aki februárius huszonkilencedikén van sorban, olyan
+               esztendőben, mikor a februáriusnak huszonnyolc a napja?</p>
+				<p>Ezt bizony nem tudta megmondani Tóth Máté sem, dohogott valamit, hogy »másforma
+               kalendáriom van a töröknél«, de ez nem gátolta, hogy meg ne induljon a pityergésig
+               menő szánakozás a háromszázhatvanhatodik asszony felett (oh, szegény, boldogtalan
+               lélek). Majd a kíváncsiság kerekedett felül, kinek lesz vajon szeme ajánlkozni? Ámbár
+               nem volna bolondság, ha kitudódnék, melyik hát az a négy legszebb rózsa a kecskeméti
+               virágos kertben? Kiket választana a magisztrátus?</p>
+				<p>Titokban sok hiú szívet, tudom, csiklandozott ingerlő gondolat. De a szemérem azt
+               mondta: »csitt!«</p>
+				<p>Meg is nyúlt a főbíró ábrázata mihamar. Egész vasárnapig egyetlen halacska sem akadt
+               a horgon.</p>
+				<p>Azaz, hogy ott járt Fábiánné asszonyom, kifestett szemöldökkel, ropogós
+               szoknyában.</p>
+				<p>- Találja el, főbíró uram, miért jöttem? - szólt hamiskásan kacsintva.</p>
+				<p>- Talán adót jött fizetni?</p>
+				<p>- Ugyan menjen.</p>
+				<p>S csipkés szélű kendőjével kacéran suhintott Lestyák felé.</p>
+				<p>- Talán panaszkodni jött valakire?</p>
+				<p>- Nem!</p>
+				<p>- Talán a papoknak gyűjtöget? - folytatá a főbíró csípősen.</p>
+				<p>Fábiánné búsan szegte le fejét és elhalóan nyögte:</p>
+				<p>- Ha ki nem találja, hiába mondanám.</p>
+				<p>Volt a hangjában valami fájdalmas lemondás, valami szívet facsaró melankólia.</p>
+				<p>- Micsoda! Csak tán nem ajánlkozni jött?</p>
+				<p>- Özvegy vagyok - mondá szemérmetesen.</p>
+				<p>- Indoknak indok. Hm!</p>
+				<p>- A városért teszem - folytatá fülig pirulva.</p>
+				<p>- De hát mit szól ehhez Brunó atya és Litkei páter - morgott a főbíró félig
+               bosszúsan, félig nevetve -, akik kegyelmedet már majdnem szentté tették?</p>
+				<p>- Misét szolgáltatok a lelkemért. Lelkem az egyházé marad továbbra is, testemet
+               föláldozom a városomért.</p>
+				<p>- Szép, szép! Majd följegyzem a nevét.</p>
+				<p>Még egy pár pocsék kofa jelentkezett ezenkívül is. Nagy Panna a ceglédi utcáról,
+               özvegy Kemenesné, Bán Mária. Egy párt ki is kergetett a szobájából a főbíró. »Ejnye,
+               takarodsz innen, te deszka, ki az ördögnek kellenél te?«</p>
+				<p>Egy szeplős leánynak ezt mondta haragosan:</p>
+				<p>- Nincs neked otthon tükröd?</p>
+				<p>- Nincs, nemzetes főbíró uram.</p>
+				<p>- No hát eredj, fiam, keress valahol egy dézsa vizet, nézd meg magad benne, s gyere
+               vissza, ha van lelked.</p>
+				<p>Mind e részletek nagy derültséget keltettek a jól értesült körökben. Másnap, hétfőn,
+               tanácsülés lévén, magok a szenátorok sem sajnáltak megereszteni egy kis csípősséget a
+               sikertelen vállalkozás felett.</p>
+				<p>- Nos hát, van-e már a kalitban valaki?</p>
+				<p>- Egy se alkalmas - felelte Lestyák bosszúsan.</p>
+				<p>Porosznoki Gábor uram kedélyesen köhécselt.</p>
+				<p>- Elszámítottuk magunkat. Könnyebb volna a császárnak négy anyát találni Kecskeméten,
+               mint négy odaliszkot.</p>
+				<p>- Én megtalálom a négy odaliszkot is - szólt a főbíró határozottan.</p>
+				<p>Makacs és hajthatatlan volt abban, amit egyszer eszébe vett.</p>
+				<p>- Bokréta nélkül nem mehetünk.</p>
+				<p>S ezzel odatolta a szenátoroknak a budai szandzsák-pasa bizalmas levelét, aki
+               tudakozódására: milyen ajándék volna a fölséges szultánnak illendő, azt felelte
+               keleti homályossággal:</p>
+				<p>
+               »Vigyetek neki lovat, fegyvert, pecsenyét és virágot!«
+            </p>
+				<p>Meg kell lenni a virágnak, punktum.</p>
+				<p>Hiszen persze nem ajánlkozott eddig senki, mert nem volt még kitéve semmi csalétek. A
+               török szultán ugyan nem az!</p>
+				<p>Ki rajong a török szultánért? Ha még valami tiszai gazdag deli molnár lenne, csinos
+               testhez álló csukaszín dolmányban, hetyke rámás csizmákban, és ha hites feleséget
+               keresne. De a török szultán! Akiről csak annyit tud a mifelénk való fehérnép, hogy a
+               basák basája; s a basáról csak annyit tud: »török basa, nagy a hasa«.</p>
+				<p>Hiszen a veréb se lépne be a tőrbe, a fehér lószőrből sodrott karikákba, ha nem
+               volnának a szalma közt megszórva pirosló búzamaggal. Hiszen a kis egér se menne be a
+               csapdába, ha nem fehérlenék ott ingerlőn csalogatón a fehér hájdarabka.</p>
+				<p>Ki kell a csalétket tenni a kecskeméti leányoknak is.</p>
+				<p>S mi lehet az a csalétek? Hát én istenem, ugyan mi más, mint a - ruha. Gyöngyök, szalagok, csipkék. Ez is egy szentháromság, de a
+               pokol szentháromsága. A Belzebubtól kezdve minden ördög bennük suhog, csörög; kiáltja
+               az egyik: »gyere nézz meg«, biztatja a másik: »próbálj fel engem!«, susogja a
+               harmadik: »kárhozz el értem!«</p>
+				<p>Lestyák Mihály ahhoz értő asszonyokat küldött szét, kit Szegedre, kit Budára a török
+               kereskedőkhöz, vegyék össze a legszebb selyem-brokát szöveteket. Arany, ezüst
+               virágokkal átvert posztókat, finom blond-csipkéket, rubintos csercséket, vakító
+               násfákat drága fityegőkkel. De el ne felejtsék kegyelmetek asszonynéném a
+               kösöntyűket sem. Jól megválogassák, mindent szem nem látta, fül nem hallotta
+               pompában. Úgy legyen az eszük igazítva, mintha négy herceglány bálba készülődnék, s
+               nekik kellene a portéka.</p>
+				<p>Maga az öreg Lestyák sem pihent; szekérre ült a fia megbízásából, bejárni a
+               szomszédos nagyúri famíliákat; a Vayakat, Fáyakat és a Báriusokat, akiknek ő
+               dolgozott (mert messze földön híres, remeklő szabó volt), hogy kölcsön kérje tőlük
+               városi közcélra (hisz ők is mindnyájan birtokosok Kecskeméten) a ruhavarró
+               frájjaikat.</p>
+				<p>Mindenütt kegyesek voltak az úrasszonyok, »a város patronái«. Mátyás mester egy
+               szekér frajlával érkezhetett haza.</p>
+				<p>Mikor nagy ládákban a portéka megérkezett, minden bámulatra méltó volt, megindult
+               Lestyák Mátyás felügyelete alatt a lázas tevékenység éjjel-nappal.
+               Csattogtak-kopogtak az ollók, gyűszűk, csillogtak-villogtak a tűk, s apránkint alakot
+               kezdének ölteni a sok szögletes bársony- és selyemdarabkák. Ez itt egy kacabáj, az
+               ott egy rokolya. Ahol meg a pruszlik. (Oh, be felséges kis jószág!) Amabból a fehér
+               csipkéből ingváll formálódik; olyan lesz, mint a hab. Hát ez a tarajos bolondság ezer
+               apró aranykarikából összetűzve? Az a főkötő. Mert a négy virágból hajadon lesz kettő,
+               menyecske a másik kettő. Mondani sem kell tán, hogy mennyi leány és asszony van, az
+               mind ezekről a csodaruhákról beszélt nappal s álmodott éjjel.</p>
+				<p>Ilyen szép kerékvágásban lett volna már minden, ha tisztelendő Brunó gvárdián és
+               Litkei páter bele nem okvetetlenkednek.</p>
+				<p>Ezeknek sehogy sem tetszett a terv, hogy Kecskeméten török hatóság legyen, hacsak
+               egyetlen csausz is, és azt a város maga kérje.</p>
+				<p>- Aki Jehova embere, ne kacérkodjék Allahhal. Mert a csélcsap szolgát az egyik Úr
+               eltaszítja magától, és a másik Úr föl nem veszi magához. Legyetek résen, Kecskemét
+               istenfélő lakosai!</p>
+				<p>Fenekedtek, átkozódtak, lázító beszédeket tartottak az új főbíró ellen, ki a törökkel
+               trafikál, neki akarván odajátszani szent Miklós püspök városát, aki elviszi
+               szüzeinket, eladja lelki üdvösségünket.</p>
+				<p>Jó száraz tapló a magyar szív; minden szikra fogja. Mindig több-több ember bőszült
+               meg. A következő vasárnap nyugtalan csoportok verődtek össze a szent prédikáció után
+               a városháza előtt, fenyegető kézmozdulatokkal kiáltozva:</p>
+				<p>- Le a főbíróval! Le a szenátorokkal!</p>
+				<p>Kivált a katolikusok voltak erősen irritálva. A lutheránusok, kiknek magvető elei
+               több mint száz év előtt jöttek be ide Csehországból, és a Tolnáról ideszakadt
+               kálomisták, kik ez időben egy csomóban elkülönözve laktak a temetőutcában, még tán
+               szerették is egy kicsit a protestáns erdélyi fejedelmekkel pajtáskodó kontyosokat. A
+               protestánsok előtt csak olyan furcsának látszik a turbán, mint a tiara.</p>
+				<p>Porosznoki és Ágoston uraimék izgatottan rontottak be a főbíróhoz:</p>
+				<p>- Nagy baj van. A nép háborog alant. Nem hallja kegyelmed?</p>
+				<p>- De hallom - felelte közömbösen.</p>
+				<p>- Quid tunc? Letegyünk a tervünkről?</p>
+				<p>Miska gúnyosan nézett a szemök közé.</p>
+				<p>- Az a kérdés, rosszabb lett-e, mióta a gvárdián ellenzi?</p>
+				<p>- Nem lett rosszabb - szólt Porosznoki -, de az eshetőségekkel számolnunk kell. Két
+               hét alatt a két páter, kiknek nagy befolyása van a népre, kaszára, baltára kapatja a
+               népet ellenünk.</p>
+				<p>- Az a kérdés, mi intézzük-e Kecskemét sorsát, vagy az utca? Én azt gondolom, mi
+               intézzük. Úgy lesz hát elintézve, amint elhatároztuk.</p>
+				<p>Annyi eréllyel, olyan keményen mondta ki e szavakat a fiatal főbíró, hogy még a
+               vasjellemű Porosznokinak is imponált, csak Ágoston Kristóf szeretett volna
+               szurkálózni.</p>
+				<p>- A makacsság nem mindig eszélyesség, főbíró uram. A baj megvan; az ellen tenni kell
+               valamit, míg a nyakunkra nem nő.</p>
+				<p>- Hát iszen teszünk is. Kegyelmed egy félóra múlva lóra ül.</p>
+				<p>- Én?</p>
+				<p>- Titkos követségben megy, fontos ügyben.</p>
+				<p>- Hova?</p>
+				<p>- Üljenek le, nemzetes urak, de lakat a szájukra, mert aki elárulja, amit mondok,
+               bűnperbe vonatom.</p>
+				<p>- Úgy beszél, mint egy diktátor - morgott a beteges Zaládi.</p>
+				<p>Ezalatt ugyanis egyenkint beszállingóztak az elöljárók, kikelt arcokkal, halaványan:
+               némelyiknek a rémület rítt ki szemeiből.</p>
+				<p>- Halljuk! Halljuk!</p>
+				<p>- Ágoston uram a kuruc sereget keresi fel, nevezetesen Csuda Istvánt.</p>
+				<p>- Azt a tolvajt? No iszen, majd adok én annak, csak kerüljön a szemem elé.</p>
+				<p>- Nem igen fogja azt bántani, hanem inkább nyájas parolaszó mellett megalkuszik vele,
+               mennyiért volna hajlandó még egyszer elrabolni a gvárdiánt és Litkei pátert - de
+               mindjárt ám. Erre a két emberre nincs egy ideig szükségünk.</p>
+				<p>A városatyák komoly ábrázata mosolyra derült; nem volt már sápadt egyik sem.
+               Porosznoki uram vígan csapott tenyerével homlokára.</p>
+				<p>- No, ez sem jutott volna eszembe. Helyes, okos! Kegyelmed született diplomata.</p>
+				<p>- A kényszerűség jó tanító, jobb néha a tapasztalásnál. A papok ellen nincs
+               hatalmunk, sem el nem fogathatjuk őket, sem el nem tilthatjuk a szószéktől. Egyetlen
+               szer van csak: Csuda István.</p>
+				<p>- Mennyit ígérhetek? - kérdé jókedvvel a kifelé induló Ágoston.</p>
+				<p>- Olcsón megcsinálhatja, mert nincs most semmi dolga, azonfelül belevág a szakmájába.
+               Ígérje a felét annak, amit kér.</p>
+				<p>Egy félóra múlva már ott verte a port az Ágoston pej kancája a ceglédi úton, s
+               harmadnap este a jámbor szerzeteseket megkötözve vitték Csudáék éppen arra… Ily
+               foganatos volt az Ágoston Kristóf uram titkos követsége, melyet aztán holta napjáig
+               nem győzött emlegetni nagy előszeretettel, mindig csillogóbban, regényesebben,
+               aggastyán korában hetyke dicsekvéssel: »Hej, mikor én még plenipotenciás követ voltam
+               a Thököly uram őfelsége udvaránál!«</p>
+			</div>
+			<div type="chapter">
+				<head>NEGYEDIK FEJEZET NÉGY REZEDASZÁLLAL ELINDULNAK VALA</head>
+				<p>A papokat elvitték - a kecskeméti népforradalom elaludt, s közeledett a nevezetes
+               nap, mikor Budára indulnak az ajándékokkal - török császár elé.</p>
+				<p>A ruhák elkészültek, s az utolsó három napon kitették a városházán közszemlére. No,
+               volt ott búcsújárás!</p>
+				<p>Pintyő hajdú őrizte a nagy asztalt, melyen ki voltak ingerlőn terítve. Úgy állt ott a
+               vén Gyurka, mint egy kerub, a lángpallos helyett fölemelt mogyorófa pálcával.</p>
+				<p>Olyan szép volt az a sok »csiri-csári«, hogy még ő is elandalodott rajtok.</p>
+				<p>- Nagy segítség az ilyen rongy asszonyábrázatnak!</p>
+				<p>A csinosabb nőszemélyeket meg biztatta némelykor; ez is a tisztéhez tartozott.</p>
+				<p>- Ugyan próbálja fel galambom, ott a másik szobában.</p>
+				<p>És ki állott volna ellent? Volt-e szív, amelyik meg nem dobbant, tekintet, amelyik
+               ott nem veszett? Az ezeregyéj minden ragyogása semmi se.</p>
+				<p>Hány lányka topogott körül félénken, mint az őzike, elindítá szemeit szendén, de azok
+               csakhamar kitágultak és világolni kezdtek, mint két lobogó mécs, lassú remegés fogta
+               el tagjait, halántéka lüktetett, s ilyenkor rászólt a hajdú: »Próbáld fel,
+               húgocskám!« Biz az felpróbálta, még ha belehalt volna is.</p>
+				<p>És jaj, aki egyszer felpróbálta! Két frájj font a hajába pompás szalagokat, derekát
+               befűzték karcsúra, arra adták fel a gyönyörűséges ingvállt, a pruszlikot, a
+               meggyszínű selyemszoknyát, hímzett ezüst félholdakkal, hát még a piros karmazsin
+               csizmát a lábára, hát még a násfát, a szemvakító kincseket. »Uccu lelkem, most nézd
+               meg magad!«</p>
+				<p>Erre aztán elhozták elébe a tükröt, amire az fölsikoltott az örömtől; egy mesebeli
+               tündért látva benne.</p>
+				<p>S mikor nézné magát vágytól pihegve, ziháló mellel, a hiúságnak édes éhségével, eléje
+               áll ismét a kerub:</p>
+				<p>- No, de elég volt, vetkezz le már - vagy pedig ha tetszik, járj örökké ilyen
+               ruhában.</p>
+				<p>Ugyan melyiknek van ereje azt mondani: »Kacaglak benneteket«, kikapcsolni az igéző
+               mellénykét, leoldozni a bámulatos szoknyácskákat, lehúzni a hetyke karmazsin csizmát,
+               leszedegetni a tündöklő ékszereket és belebújni ismét régi, ütött-kopott
+               motyóiba?</p>
+				<p>Mind meg akarta próbálni - egyik sem vetette le szívesen.</p>
+				<p>Még élemedettebb nőszemélyeket is majd kilelt a hideg; szerettek volna mérkőzni - biz
+               isten olyanok, akiket Szegeden megégetnének.</p>
+				<p>Végre is be kellett hozni a tilalmat. Csak a szépek, árvák és szegények próbálhatták
+               fel a ruháikat. Olyanok, akik jöhetnek.
+            </p>
+				<p>Pintyő bácsi nagyra vitte: ő határozta meg ki a szép. - Párisnak csak egy aranyalmája
+               volt, neki egy kosárral! Keresték is a protekcióját igéző mosolyokkal, sonkával,
+               kaláccsal, s egy boroskancsó is került innen-onnan. Mert nagy hivatal volt az.
+               Úgyszólván csak később tudódott ki, mikor még tíz-húsz év múlva is rangot adott az
+               asszonyoknak, ha elmondhatták: »Nem a gólya költött engem; rajta volt az én testemen
+               is a Lestyákék ruhája«. Valóságos közmondás lett belőle.</p>
+				<p>Hát még akkor mindjárt melegében, képzelhetni, nem lehetett közömbös, kin volt, kin
+               nem volt a ruha; ki találtatott hivatalosan szépnek, s ki »alkalmatlannak«. Sok égő,
+               keserves könny omlott ezért.</p>
+				<p>Nem akarom vádolni hivatali visszaéléssel az öreget, sem hogy megvesztegettette magát
+               (nehéz volna azt most kétszáz év után bizonyítani), de tény, ami tény, sok
+               tapintatlanságot csinált. Ott van például a cigányleány esete.</p>
+				<p>Bejött a kis kormos, rongyokban, mezítláb, kócosan, meglegeltette nagy szemeit a
+               kincseken, és a szája nyitva maradt, és a nyitott szájából, mint fényes keleti
+               gyöngyök, fehérlettek ki a fogai. (Az a vén mamlasz észre sem vette.)</p>
+				<p>Egész gyermek volt még, nyúlánk bár, de erőteljes. Sokáig settenkedett, habozott, míg
+               végre megszólította a hajdút:</p>
+				<p>- Hát nekem szabad-e?</p>
+				<p>Gyuri bácsi nagyot fújt előbb, majd méltatlankodva mordult rá:</p>
+				<p>- Minek a béka lábára patkó? Eredj a pokolba!</p>
+				<p>Mintha mindenik szó egy felhő lett volna, s a leány arcára, homlokára ereszkednék,
+               olyan szomorú lett. Még ezt a vadon nőtt mókust is megbabonázta a pipere. Elfordult,
+               könnyezett, és a könnyeket a könyökével törölgette.</p>
+				<p>Szerencse - vagy tán nem szerencse - éppen bent volt a főbíró és megfigyelte bánatát.
+               Kezével megérintette a vállát. Ijedten rezzent fel.</p>
+				<p>- Válassz a ruhák közül, öltözz fel!</p>
+				<p>Habozva nézett fel rá.</p>
+				<p>- Az nem engedi! (Pintyőre mutatott a megrándított félvállával.)</p>
+				<p>- De ha én engedem, a város főbírája.</p>
+				<p>Ránézett a könnyein keresztül nevetve.</p>
+				<p>- Te parancsolnál itt? Igazán?</p>
+				<p>- Pintyő - szólt a főbíró mosolyogva -, vigye be a kis leány után a legszebb ruhát.
+               Lássuk, mit lehet belőle csinálni.</p>
+				<p>Meg is láthatták azt negyedóra múlva. Mikor kilépett az öltöző szobából kimosakodva,
+               felöltözve, a csodálkozás moraja hangzott.</p>
+				<p>Álom játéka-e vagy élőlény? Olyan volt, mint egy vakító szépségű királyleány. A
+               cseresznyeszín selyempruszlik tündér idomokat engedett sejtetni, a rokolya kecsesen
+               kígyózott le a bokáig. Ajka túltett pirosságával a rubintos násfáján, kondor fekete
+               varkocsa addig szalad rajta lefelé, míg csak valamit talált belőle.</p>
+				<p>- Kinek a lánya vagy? - kérdé a főbíró elragadtatva.</p>
+				<p>- Az öreg Bürüé, aki a »Nyalka halásznál« szokott muzsikálni. (A »Nyalka halász«
+               hírhedett csárda volt a tiszaparti tanyák között.)</p>
+				<p>- Mi a neved?</p>
+				<p>- Cinna.</p>
+				<p>- Velünk jössz Budára?</p>
+				<p>Vállat vont egykedvűen.</p>
+				<p>- Akkor tied marad a ruha.</p>
+				<p>- Megyek.</p>
+				<p>Így került elő a bokréta legszebb virágszála. A többi is könnyen. Csak ki kellett
+               válogatni hozzá a sokból a legillőbb hármat. A lenhajú Bari Máriát ibolya szemeivel,
+               ringó derekával, a délceg, magas Katona Magdolnát és a begyes, gömbölyű Pál Ágnest,
+               csattanós piros arcával, feslő mályvarózsát. - Nem csókolt soha különbeket a szultán,
+               s nem énekelt még ezeknél szebbeket Firduzi!</p>
+				<p>Indulhattak most már.</p>
+				<p>Vasárnap beállított a gulya, száz villás ökör, mindenik csinos vaskolomppal,
+               pántlikás szarvval, beállított a ménes, ötven nyúlánk csikó, mindenik kis ezüst
+               csengővel. Felültek kettesével két szekérre a leányok, azaz hogy menyecske belőlük
+               kettő; a leghamisabb két menyecske - mert csak annak adják ki
+               magukat.</p>
+				<p>Majd fölkászmálódtak molnár-kék ezüstcsattos köpenyeikben szenátor uraimék a fürhéces
+               kocsikra. Az elsőbe a főbíró, Kriston Ferenccel, a kocsis-ülésen befelé fordulva
+               Inokai József. Egyik a ménest viszi, másik a gulyát. Ágoston uram, aki a másik kocsin
+               ül, követi voltából hirtelen virágkertésznek vedlett alá - ilyen a politika!…
+               Porosznoki Gábor a fegyvert viszi gyönyörű selyemtokban. A hatodik városházbeli, a
+               kis púpos Imecs György, rosszul fest, de jól beszél törökül, tatárul; ennélfogva őt
+               viszik »kenő embernek«.</p>
+				<p>Az összegyűlt népek éljen riadása felhangzik; az itthon maradt asszonyok sietnek
+               lekapni fejükről kendőiket, hogy lobogtathassák; a kocsisok megindítják lovaikat, a
+               csikósok megcserdítik a karikást, s megindul a fényes menet, muzsikaszó mellett, mert
+               a száz ökör kolompja kong-bong, az ötven csikó csengője csilingel…</p>
+				<p>Az út egyhangú, le sem írjuk. Az alföldön minden egyforma. A helységek, a városok, a
+               határaik. A délibábos róna, melynek csak a mennybolt lehajlása vet véget, a tompa
+               szürke talaj, melyből lila tónusokat csal ki a bágyadt őszi napsugár, egy mindenütt.
+               Egyik határ úgy hasonlít a másik határhoz, mint egy rőf posztó a másikhoz, ha egy
+               végből vannak. Imitt-amott felbukkan egy-egy fanélküli magányos tanya, fehér
+               házikó, kútgém. A községek végén kipeckelt szárnyaikkal a szélmalmok - úgy tűnnek
+               fel az utasnak, mintha az előbbi faluból valók volnának.</p>
+				<p>Igazán mulatságos, hogy még a nagy alföldi városok is milyen egyformák valának.
+               Mindeniknek volt egy olyan dolga, amivel dicsekedett. Debrecen a kollegiumával,
+               Szeged a Mátyás-templommal, Kecskemét a Szent Miklós-toronnyal, melyen rajta volt jó
+               pajtásságban a kálvinista kakas, a lutheránus csillag és katolikus kereszt; mindenik
+               tudott felmutatni egy elhíresedett élelmicikket, Debrecen a kolbászt, Kecskemét az
+               almát, Szeged a paprikát. (Egyformán fejlődtek azóta is, mindenik megmutatván, mennyi
+               telik tőle ész dolgában: Debrecennek Csokonai Vitéz Mihálya támadt, Szegednek
+               Dugonics Andrása, Kecskemétnek Katona Józsefe.)</p>
+				<p>Hőseink tehát mentek-mendegéltek, míg végre ott találták magukat a nagy
+               hangyabolyban, Budavárban - hol legott dologhoz kellett látni, ahogy kinek-kinek ki
+               volt osztva.</p>
+				<p>Az első szerep a »kenő emberé«, aki csak annyiban különbözik a kenő asszonytól, hogy
+               nem zsírral kenegeti ki a csömört az emberekből, hanem aranyakkal. Őneki kellett
+               lótni-futni Ponciustól Pilátusig, ügyeskedni s »érvelni«, hogy az audiencia
+               meglegyen.</p>
+				<p>A padisah szerdán ereszté fényes ábrázata elé Kecskemétet.</p>
+			</div>
+			<div type="chapter">
+				<head>ÖTÖDIK FEJEZET A CSÁSZÁR ELŐTT. AZ ÉGI MÉRNÖK</head>
+				<p>Nagy díszben jelentek meg őkelmeik, panyókásan, kardosan. Lestyák Mihály uram csinos,
+               deli leventét mutatott.</p>
+				<p>Ő tartotta a szónoklatot, lefestvén Kecskemét szomorú állapotát oly híven, oly
+               szépen, hogy a négy mögötte álló szenátor könnyekre fakadt. (Imecs uramat már tegnap
+               küldték haza.) A beszéd sok ékes szóvirág után oda konkludált, hogy azon esedezéssel
+               borulnak le a leghatalmasabb trón urának lábaihoz, adna Kecskemétnek egy állandóan
+               ott lakó pasát, vagy csauszt vagy akármit, ha csak akkora lesz is, mint a kis ujjam,
+               hogy őket a portyázóktól megmentse. Már pusztán az a tény, hogy a fölséges szultánnak
+               egy emberét tudják ott, megmenti a város békéjét, egzisztenciáját.</p>
+				<p>Majd egy rétori fordulattal, lendületteljesen ecsetelé, milyen jó dolga lesz ott
+               annak a csausznak; kőházat építenek neki, megbecsülik, kiszolgálják, tenyerükből
+               édes mézzel etetik stb.</p>
+				<p>Most a budai pasa tolmácsa, Nazur bég, fordítá le az orációt a szultánnak, ki
+               szenvtelen arccal, nagy életuntsággal hallgatta ezeket. Egyébként igen jóképű,
+               rokonszenves alak volt, körülbelül negyvenéves. Nagy ritkán bólintott gyengén a
+               fejével.</p>
+				<p>Ibrahim pasa, a budai vezér ott állt összefont kezekkel a szultán mellett, s feszült
+               várakozás leskelődött vérbe borult kis szemeiben, mintha mondaná:</p>
+				<p>- A beszédet már hallottuk, lássuk most az érveket.</p>
+				<p>Rögtön következtek.</p>
+				<p>Porosznoki Gábor előlépett, felnyitván az almazöldszínű selyem tokot, melyet maga
+               előtt tartott, kivette abból a remekművű arany karikást és a fokost, aztán letette a
+               szultán előtt levő zsámolyra mind a kettőt.</p>
+				<p>- Lábadhoz tesszük ím, fölséges császár, Kecskemét fegyvereit.</p>
+				<p>A szultán lehajolt, fölvette a karikást és nézegette egy kicsinyég. Majd Ibrahim
+               pasával váltott halkan néhány szót.</p>
+				<p>Ezalatt éppen kiköszörülte a torkát, tiszteletteljes krákogással Inokai szenátor
+               uram, s ekképpen darált:</p>
+				<p>- Vitéz katonáidnak egy kis pecsenyét hoztunk, nagy szultánok legnagyobbika! Legyen
+               kegyes fölséged megtekinteni az ablaknál.</p>
+				<p>Nazur bég gépiesen tolmácsolta, és a szultán kedvetlenül kelt fel a szófáról, hogy az
+               ablakhoz lépjen, ahonnan láthatók voltak a pompás tinók és csikók, melyekhez Kriston
+               Ferenc uram rebegte el a prológot. Mindez nem sokat érdekelte kelet hatalmas urát,
+               bágyadtan ereszkedett vissza szófájára.</p>
+				<p>…De most megnyílt a teremajtó, s hűs áramlat látszott beosonni. Talán a négy szoknya
+               suhogása okozta. A kecskeméti leányok léptek be üdén, kedvesen.</p>
+				<p>A szultán élénken ugrott fel.</p>
+				<p>Ágoston Kristóf kiállt a középre, mint egy iskolás fiú, s olyan gesztusokkal, mintha
+               egy bokréta lenne a kezében, melyet a papának ad át, szégyenlősen szavalta:</p>
+				<p>- Egy kis virágot hoztunk, kérem alássan.</p>
+				<p>A szultán bizonyára nem értette meg a magyar szavakat, de most a tolmács közbenjötte
+               nélkül is mosolyogni méltóztatott. Majd vígan odakiáltott a budai vezérnek:</p>
+				<p>- Fátyolt reájok gyorsan, Ibrahim! (Ami annyit jelentett keleti nyelven: Ne
+               fertőztessétek őket egy percig sem buja pillantásaitokkal.)</p>
+				<p>Míg a pasa kirohant intézkedéseket tenni, a szultán lassú, vontatott szavakkal közölt
+               valamit a tolmáccsal.</p>
+				<p>- A szultán őfelsége, kinek Allah árnyékát oltalmazza, azt mondja nektek, hitetlenek,
+               hogy kívánságaitokat fontolóra veszi. Legyetek addig veszteg és várjatok odakünn.</p>
+				<p>A tolmács intett, s ezzel a küldöttség el volt bocsájtva.</p>
+				<p>De a szultán jó kedvét látva Ágoston uram, azt hitte, ideje valami örök emlékű dolgot
+               cselekedni; visszarángatta tehát gyöngéden, mente-szárnyaiknál fogva, a kifelé
+               iparkodó elöljárókat, s imígy szólt a tolmácshoz:</p>
+				<p>- Még egy alázatos kérésünket közvetítsd, hatalmas tolmács, uradnak jobb keze!</p>
+				<p>A nagyvezér, a jelenlevő pasák és ulemák megbotránkozva néztek a vakmerőre, s nem
+               kevésbé valának meglepetve a kecskeméti urak is, de a szultán, Kecskemét virágaira
+               gondolva, még mindig mosolygott, s ha a szultán mosolyog: a nap süt, a füvek nőnek, a
+               kövek hárfáznak, s minden rendben van.</p>
+				<p>- No, mit akartok még, telhetetlen rozsomákok! - fortyant föl magyarul Ibrahim pasa
+               helyettese, Hasszán, a tihaja bég. - Szaporán fecsegjetek, mert még sok küldöttség
+               vár odakünn.</p>
+				<p>- Éppen az - folytatá Ágoston Kristóf nekibátorodva -, láttuk odakünn a nagykőrösi
+               deputációt, és arra kérjük mély alázattal őfelségét, bármit kérnének is őkegyelmeik
+                  ne adja meg nekik.
+            </p>
+				<p>A tihaja bég nevetett, s maga magyarázta meg a hívők urának második kérelmüket, a
+               hívők ura is nevetett a furcsa kívánság fölött (ilyen még elő nem fordult a
+               praxisában), és azt kérdezte élénken:</p>
+				<p>- Mi legyen ennek az indoka?</p>
+				<p>Lestyák Mihály uram adta meg a feleletet:</p>
+				<p>- Nagykőrös és Kecskemét úgy van együtt, mint Mekka és Medina, mint a kutya és a
+               macska.</p>
+				<p>A szultán pompás hangulatba pezsdült, a tolmács hasonlóképpen egész homlokáig
+               vigyorgóra vált arccal adta át az uralkodó válaszát.</p>
+				<p>- Örvendezzetek! A kegyelmes padisah fontolóra veszi az első kérésteket, a másodikat
+               teljesíti.</p>
+				<p>Ezzel kihúzódtak a kecskemétiek az udvarra, »szerencsés jó reggelt» kívánva útközben
+               a bemenetre váró kőrösi szomszédoknak. Néhány perc múlva kiosont hozzájok a tihaja
+               bég (akinél tegnapelőtt járt a kenő ember), s megveregetvén a szenátorok vállait,
+               pártfogói arccal biztatta őket:</p>
+				<p>- Szerencsés kópék kegyelmetek! Egészen megnyerték, felvidították a szultánt. Semmi
+               kétség, minden meglesz.</p>
+				<p>Megelégedetten dörzsölte kezeit. Száz arany volt neki ígérve utólagosan, ha török hatóságot kapnak Kecskemétre.</p>
+				<p>Jó remények közt ácsorogtak künn, dicsérve a főbíró beszédét és az Ágoston
+               föllépését. Maga Ágoston uram teljesen el volt ragadtatva.</p>
+				<p>- Ugye, hogy érek én valamit? Van ám itt ész, atyafiak.</p>
+				<p>Vagy másfél óra múlva újra visszajött a tihaja. Dühösen kalimpált kezével, nagy húsos
+               képe vörös volt a méregtől, mint a paprika.</p>
+				<p>- No, disznók - kiáltá messziről -, agyonröfögtétek a szerencséteket!</p>
+				<p>A derék urak sóbálvánnyá dermedve néztek rá.</p>
+				<p>- Mi történt, az isten szerelmeért?</p>
+				<p>- Az történt, ti szamarak, hogy a nagykőrösi küldöttség terhesnek és
+               elviselhetetlennek találván maga számára ügyes-bajos dolgaikban és szolgálmányaik
+               teljesítésében úgy a budai, mint a szolnoki basaságok távolságát, a szomszédos
+               Kecskemétet kívánta egy felállítandó török hatóság székhelyének.</p>
+				<p>- Mi pedig… - dadogta Inokai József.</p>
+				<p>- Ti pedig megígértettétek a szultánnal, hogy a nagykőrösiek kívánságát, bármi legyen
+               az, nem teljesíti. Gebedjetek meg!</p>
+				<p>Ezzel hátat fordított nekik, miután előbb törökösen köpött egyet-kettőt elibük.</p>
+				<p>Azt a megrőkönyödést kellett volna látni, Lestyák a bajuszát rágta, a becsületes
+               Porosznoki káromkodott, Kristonnak az orra vére indult meg ijedtében, az öreg
+               Inokainak pedig a mécsese tört el, pityeregni kezdett, míg ellenben Ágoston uram,
+               iszkiri, szedte a sátorfáját, ment egyenesen a szekereikhez, melyek a Dunánál
+               álltak, lefeküdt az egyikbe, betakarózott a bundájával, mert olyan hideg rázta ki,
+               hogy egyenletesen felosztva, kitelt volna belőle száz borzongató nátha.</p>
+				<p>- Most már akár hazamehetnénk - törte meg a szomorú csöndet Kriston.</p>
+				<p>- Megvárjuk a szultán határozatát - vélte a főbíró.</p>
+				<p>Jó öreg uzsonna lehetett, mikor a szultán kajmakámja értük jött a tolmáccsal
+               egyetemben, felvezette őket egy terembe, és átadott nekik egy kaftánt, mondván a
+               tolmács szája által:</p>
+				<p>- Ezt küldi nektek a felséges padisah. Bizonyára jó hasznát veszitek!</p>
+				<p>A szenátorok búsan tekintettek a sötétzöld bársony ruhadarabra, mely aranyos
+               zsinórokkal és paszomántokkal volt kihányva, mindenféle szeszélyes figurákban, s
+               mintegy megdöbbenve kérdék egymástól: »Hát csak ennyi?«</p>
+				<p>Porosznoki uram szóbeli kifejezést is adott elégedetlenségének.</p>
+				<p>- Egyebet nem üzent őfelsége?</p>
+				<p>- Egyebet nem üzent - felelte a kajmakán nagy flegmával. - A szultán jó szívvel volt
+               irántatok, de amire szavát adta, azt be kellett váltania. Hiszen magatok
+               kívántátok.</p>
+				<p>- Nem lehetne-e még egyszer bejutni hozzá?</p>
+				<p>- Nem lehet.</p>
+				<p>- Mennydörgettét! Szépen vagyunk! Lesz öröm odahaza.</p>
+				<p>- Ha így van, így van - szólt a főbíró hideg arccal. - Fogja ked azt a kaftánt,
+               Kriston uram!</p>
+				<p>Kriston Ferenc uram nagy mérgesen és tiszteletlenül fölkapta a medvebőrrel bélelt
+               köntöst, úgyhogy annak az egyik csücske a földet söpörte, ahelyett, hogy csókjaival
+               érintené szegélyét, nagy dirrel-durral vonszolá a főbíróék után, s helybe érvén a
+               szekereikhez, behajította a saraglyába, mint egy lyukas pokrócot szokás.</p>
+				<p>Ágoston uramnak már hűlt helye volt; csak annyi felvilágosítást tudott róla adni az
+               egyik kocsis, hogy a szekéren elvitette magát Vácra, ahol egy leánya vagyon férjnél;
+               keveset beszélt, mert nagyon vacogott a foga, de annyit mégis mondott, hogy sohase
+               látja többé Kecskemétet.</p>
+				<p>Mire megetettek, megitattak és hazaindultak a mieink, leszállt az estszürkület, a
+               kémények füstje és összeszűrődött a köddel, a békák utálatosan brekegtek és
+               kuruttyoltak a pesti mocsarakban (a mostani Lánchíd téren), a müezzinek
+               kiállhatatlanul kiabáltak a budai mecsetekről, míg a pesti ócska várból kísértetiesen
+               huhogtak a baglyok. Csak messze-messze valami falucskában zúgott-kongott egy
+               siránkozó keresztény harang.</p>
+				<p>A köd vöröses fehér volt, mint a frissen fejt tej, félig átlátszó, melyből gúnyosan
+               vigyorgó törpék, viaskodó sárkányok, pikkelyes csodaszörnyek, lepedős kísértetek
+               foszladoztak ki. Az égbolton egyetlen sötétkék felhő igazkodott lomhán, szélesen…</p>
+				<p>Mire a pesti házakat elhagyták, kivergődtek a hatvani kapun túl levő sásos, rekettyés
+               ingoványból, hol majd befordult a Kristonék szekere egy kenderáztatóba (ott valahol
+               a Nemzeti Színház helyén), egyet mozdult a felhő, és hirtelen elnyelte a holdat, mint
+               mikor egy nagy ezüst tallér egy kék harisnyába pottyan.</p>
+				<p>Kissé sötétebb lett; ünnepélyes, méla csönd borult az alvó természetre. Csak a
+               szekerek hurutyoltak a kátyúkban, egy-egy kakaskukorékolás hangzott a pesti
+               tanyákról. A lovak kedvetlenül cammogtak, a kocsisok bóbiskoltak, a szenátorok komoly
+               gondokba mélyedve, szótlanul ültek egymás mellett, nagy ritkán cserélvén ki
+               eszméiket.</p>
+				<p>Pedig bízvást cserélhettek, mert mindnyájuk gondolata egyforma volt; ha az egyik azt
+               mondta: »Hogy adjuk át otthon a nagy semmit?«, a másik hümmögött, bámult az éjszakába
+               és azt válaszolta kis vártatva: »Inkább volnék most juhászkutya, mint kecskeméti
+               szenátor«, a harmadik felütötte lekonyult fejét és sóhajtva tette hozzá: »Száz
+               ökörért, ötven paripáért egy zöld köntös - jó vásár.«</p>
+				<p>Azzal újra elhallgattak, újra merőn bámultak a fehéres ködbe, melyből azok a
+               szeszélyes alakzatok rajzottak.</p>
+				<p>Hát egyszer csak az egyik ilyen ködoszlopból egyszerre kivált egy kísértet.
+               Szembetűnőbb, igazibb a többinél, az útra állt a lovak elé… s árnyéka mozgott az
+               úton.</p>
+				<p>Az elölmenőknek lovai meghőköltek. A kocsis felpislantott. Egy lágy női hang
+               megcsendült:</p>
+				<p>- Álljanak meg!</p>
+				<p>A katolikus Inokai keresztet vetett magára. »Minden jó lélek dicséri az urat!«</p>
+				<p>- Ki vagy? - kérdezé Kriston.</p>
+				<p>- Hát a Cinna vagyok, a cigányleány. Vegyenek fel hamar a kocsira.</p>
+				<p>Az imént csak Inokai ijedt meg, de most már holtra rémült Kriston és Porosznoki is.
+               Sőt a másik kocsin jövő főbíró sem restellt leugrani.</p>
+				<p>- Hogy kerülsz ide, te csóka?</p>
+				<p>- Elszöktem! - felelte Cinna kurtán.</p>
+				<p>- Éppen ez az, miért szöktél meg, te kis áspis?</p>
+				<p>- Mert eluntam magam.</p>
+				<p>- Huh kutya mája, kutya mája! - vakarta a fejét Kriston. - Tudod-e te azt, hogy
+               minket mindnyájunkat felakasztanak miattad? Takarodsz vissza mindjárt! Mit tegyünk?
+               Mit tegyünk?</p>
+				<p>- Vissza kell kísértetni - vélte Porosznoki is.</p>
+				<p>A hold fénylő tányérja most bukkant ki, s bevilágítá a szép leányt.</p>
+				<p>Csupa lucsok, csupa csatak volt a gyönyörű ruha rajta, a csizmák sárosak, a szoknya
+               átnedvesedett a sásokban, mocsarakban, amiken végiggázolt; bámulni lehetett gyönyörű
+               idomait, amikhez odatapadt.</p>
+				<p>- Nem akarok visszamenni - dünnyögte dacosan és fehér foga megvillant, mert vacogott
+               is egy kissé. Dideregve kapcsolta össze a pruszlikját.</p>
+				<p>- Vissza kell menned - mond a főbíró -, fejünkkel játszunk.</p>
+				<p>A leány összerázkódott, szép nagy szemeit ráemelte a főbíróra, de annyi bájjal, annyi
+               szemrehányással tele, olyan csodálatos tekintettel, hogy a főbíró felkiáltott:</p>
+				<p>- Gyere hát, ülj mellém a kocsira. Hazaviszlek.</p>
+				<p>- Főbíró uram! Főbíró uram! - inté Porosznoki mélabúsan. - Mit cselekszik?</p>
+				<p>- Az én felelősségemre!</p>
+				<p>- Juventus ventus - dörmögte Inokai.</p>
+				<p>Cinna szeme megint villant egyet; az ebhűség melege volt abban. Aztán felugrott a
+               bíró mellé egy könnyed, formás lódulattal, mint a vadmacska.</p>
+				<p>A kocsik újra megindultak.</p>
+				<p>- Te fázol - mondta Lestyák, lélegzetét hallgatva. Azzal kivette a saraglyából az
+               odagyömöszölt császári kaftánt; végigterítette a térdén.</p>
+				<p>Majd a homlokát tapogatta meg a tenyerével, forró volt egy kicsit, de milyen sima,
+               milyen édes tapintású. A főbíró vére bizseregni kezdett.</p>
+				<p>- Hej, csak egy boldog ember van - sóhajtozott eközben az első kocsin Inokai -,
+               Ágoston Kristóf uram, aki biztos helyre tette a fejét, Vácra.</p>
+				<p>- Hej, csak egy boldog ember van - sóhajtozott az utolsó kocsin a fiatal gulyás az
+               öreg csikós előtt (kik most gulya-ménes nélkül jönnek üresen) -, a mi főbíránk,
+               Lestyák uram, mert az a cigányleány piros ajkát kóstolgatja, szép karcsú derekát a
+               karjával méregeti.</p>
+				<p>- Mondd meg nekem, Cinna - kérdé a főbíró -, hogyan szöktél meg?</p>
+				<p>- Rávettem az öreg törököt, aki az ajtónál őrködött ránk a küszöbön guggolva, hogy
+               aludjon el, és elaludt.</p>
+				<p>- Hogy tudtál vele törökül beszélni?</p>
+				<p>- Lekapcsoltam nyakamról a násfát, és odaadtam neki.</p>
+				<p>- Hát a többiek?</p>
+				<p>- Azokat is biztattam, de nem akartak eljönni. Itthon napszámba kellett járniok, ott
+               pompás ebéd volt, pecsenye, háromféle ízletes gyümölcsök. Volt ott tán mamalyiga is.
+               A vacsorát már nem vártam meg.</p>
+				<p>- Hiszen odafelé te is jó kedvvel jöttél velünk.</p>
+				<p>- Örültem a ruháknak.</p>
+				<p>- És már eluntad?</p>
+				<p>- Megutáltam, visszakívánkozom a rongyaimba.</p>
+				<p>- Ej, ej - szólt a főbíró szomorúan -, sok bajt hozhatsz te még Kecskemét városára!
+               Keresni fognak, Cinna!</p>
+				<p>Félénken simult közelebb a főbíróhoz, s egész teste megreszketett, mint a
+               nyárfalevél.</p>
+				<p>- Ne félj, nem hagylak el, ha egyszer kimondtam. Amit én megmondok, az meg van
+               mondva.</p>
+				<p>A leány lehajlott a Lestyák kezéhez, megcsókolta és zokogott.</p>
+				<p>Idegesen, majdnem durván fogta meg fejét a fiatal férfi, hogy elhúzza a kezétől,
+               bosszús mormogással: »Nem vagyok én püspök.« De amint emelné, egyszerre összefolyt
+               előtte a világ, kavargott, forgott, a csillagok a szeme előtt ugráltak, a kocsi
+               felborulni látszott, az útszéli kórók, kákák őrült futásnak eredtek, s ő egész
+               önfeledten odaszorította útközben a szép fejecskét melléhez.</p>
+				<p>Hirtelen megrestellte… elereszté.</p>
+				<p>- No, no, no… mi az ördögöt csinálsz te Cinna? Ne okoskodj, ne csókold a kezemet,
+               mert mindjárt odakötöm ezt a nagy varkocsodat a lőcshöz, hogy a fejed meg ne
+               mozdíthasd errefelé. Hogy megzavarod az embert.</p>
+				<p>Megfogta a tömött, gazdag hajfonatát ingerkedve.</p>
+				<p>- No, odakössem?</p>
+				<p>- Amint akarja kegyelmed - szólt a leány szelíden, csendesen.</p>
+				<p>- Nem kötöm oda, ne félj. Valami másról gondolkozom.</p>
+				<p>És színlelt közömbösséggel átdobta a csiklándozó kígyót, a varkocsot, a leány túlsó
+               vállára; csattintott, mint az ostor, és körültekerőzött a szoborszerű nyakon, úgyhogy
+               a vége a leány innenső hóna alól megint visszakerült Lestyákhoz.</p>
+				<p>Hosszú-hosszú ideig hallgattak. Lestyák gyakran dörzsölgette kezével a homlokát.</p>
+				<p>- Arról gondolkozom - szólt végre susogva -, hogy ezt a varkocsodat le kell nyírni
+               tövéből.</p>
+				<p>Cinna csodálkozva emelte rá a szemeit; fénylettek azok a sötétben is.</p>
+				<p>- Hajolj közelebb, Cinna, hogy a kocsis meg ne hallja, amit mondok. Tedd ide a
+               füledet az arcomhoz. Még közelebb. Ne félj, nem csókollak meg.</p>
+				<p>- Hát bánom is én, csókoljon meg.</p>
+				<p>- A hajadat le kell nyírni.</p>
+				<p>- Hát bánom is én, nyírja le.</p>
+				<p>- Aztán le kell szállanod a kocsiról…</p>
+				<p>A leány nyugtalanul mozdult meg.</p>
+				<p>- Mert keresni fognak, és nekem nincs elég hatalmam, hogy megvédjelek. Velem különben
+               is ki tudja, mi történik. Rossz sorok állnak előttem. Le kell hát szállnod, az
+               bizonyos.</p>
+				<p>- De miért?</p>
+				<p>- Azért, mert a szultán vagy a budai basa hatalmasabb, mint a kecskeméti bíró; ha én
+               volnék a hatalmasabb náluknál, akkor te most itt maradnál mellettem, és egy hajad
+               szála se mozdulna.</p>
+				<p>- Nem értem kegyelmedet.</p>
+				<p>- Majd megértesz mindjárt. Van itt ebben a ládában egy öltözet férfiruha, jóféle
+               kamukából; most vettem magamnak Budán. Mikor a kocsiról leugrasz, átöltözöl valahol
+               (teszek a zsebedbe egy pár aranyat is) legénynek. Csinos fiú lesz belőled, mit
+               gondolsz? Az ördög se ismer rá az egykori Cinnára.</p>
+				<p>Cinna sóhajtott és pityergett:</p>
+				<p>- Szép lassan, napok múlva hazavergődöl Kecskemétre, lehetőleg más utakon, és
+               beállítasz az én apámhoz, mint vándorló szabólegény munkát keresni.</p>
+				<p>Cinna kitörülte könnyeit, és hangosan fölkacagott.</p>
+				<p>- Jó lesz, igazán jó lesz! Legalább kegyelmedet is láthatom mindennap.</p>
+				<p>- Fogd be a lepcsest! Ne nyihogj, mint a kis csikó. Komoly állapot ez. Ha az öreg
+               vonakodnék bevenni, megmutatod neki ezt a gyűrűt, jeléül annak, hogy én kívánom.</p>
+				<p>- De hiszed kegyelmed otthon lesz akkor, és szóval is megmondhatja.</p>
+				<p>- Mit tudom én azt, hol leszek akkor - felelte mogorván, és egy almandinokkal
+               díszített opálköves gyűrűt vont le ujjáról, átadva azt Cinnának.</p>
+				<p>Kevés vártatva hozzátette:</p>
+				<p>- De ha befogad anélkül, ne mutasd a gyűrűt, apám se sejtse, senkinek sem szabad
+               megtudni, kit fed a legényruha. Én úgy kívánom.</p>
+				<p>- Hát akkor úgy is lesz - szólt Cinna.</p>
+				<p>- És most lássunk munkához. Addig kell leszöknöd, míg nem világosodik.</p>
+				<p>A szeredásban volt egy nagy olló, mellyel a csikók sörényét rendezgették odamenet,
+               mikor kivette a főbíró, megreszketett a keze, hát még mikor a remek hajtekercset
+               fogta, hogy megsemmisítse.</p>
+				<p>- Nincs bátorságom - s lankadtan leereszté az ollót.</p>
+				<p>- Mit sajnál rajta? - duzzogott a leány, utánakapva a szerszámnak.</p>
+				<p>Csett-csatt! nyiszogott az éles vas; csett-csatt! és a hajerdő el volt vágva.</p>
+				<p>Mosolygott a leány koronátlan fejjel.</p>
+				<p>Aztán babrálva fonta ki a tekercsből a nehéz brokátszalagokat, míg Mihály a gúnyát
+               szedegette ki a ládából egy csomóba.</p>
+				<p>- Mikor átöltöztél, de jól ide vigyázz, elmégy a Tisza-parthoz, ahol a legközelebb
+               éred, és a levetett ruhákat odarakod a fövényre, fűzfabokor mellé, ahogy öngyilkos
+               leányok szokták, kik a ruháikat itt hagyják, csak a bánatukat viszik…</p>
+				<p>- Minden úgy lesz… minden.</p>
+				<p>- Hohó! Jaj, jaj! - hangzott e percben kétségbeesetten a Kristonék kocsijáról.</p>
+				<p>- Mi történt? - kiáltott át a főbíró.</p>
+				<p>- Bemásztunk valami ingoványba.</p>
+				<p>Az ugyan nem volt csoda egy csöppet sem. Még akkor a Ts. Ns. vármegyék szűzek voltak
+               az útcsinálástól. Az a panasz, hogy »sarat raknak a sár fölébe, nevezvén azt
+               országútnak«, még akkor meg nem fogantatott, mert egyáltalában nem raktak semmit. Az
+               volt a nézet, »az utat magok a szekerek csinálják; ahol keréknyom van, arra már
+               jártak emberek, s ha már jártak, mi is járhatunk«.</p>
+				<p>Egyszer csak megszűnt a keréknyom, s a kocsi bent ült egész a tengelyig a mocsárban,
+               mely a békanyáltól, rekettyétől selyemzöld rétnek látszott a holdvilágnál.</p>
+				<p>Bolond ez az alföld, melyet nyílt könyvnek nevez Petőfi. Nappal a délibábjával a
+               szárazföldet mutogatja víznek, éjjel a vizet mutogatja szárazföldnek. (Mikor higgyen
+               neki az ember?)</p>
+				<p>A kocsis káromkodott, verte a lovat, majdhogy elszakadtak a hámistrángok, de
+               voltaképpen nem tudta, merre tartson, hol a kivezető út. A második szekér más
+               irányban próbált szerencsét. Az is besüppedt.</p>
+				<p>- Mind itt veszünk! Ki tudja az utat?</p>
+				<p>Mindnyájan leugrottak a szekerekről és tanakodni kezdtek.</p>
+				<p>- Annyi bizonyos, hogy a »pokol tavaknál« vagyunk - szólt Porosznoki uram. - Kell
+               valahol gázlónak lenni; sokszor hallottam a fuvarosoktól, hogy a tavak közt jutnak át
+               a jó útra.</p>
+				<p>- De merre? Addig keresgéljük, hogy belepusztulunk.</p>
+				<p>- Fel kell költeni az öreg Marcit, az sokszor hajtott már gulyákat Pestre esős ősz
+               évadján is: hátha ösmeri az utat. Hé! kis csikós, ott a leghátulsó kocsiban, költsd
+               fel csak Márton bátyádat!</p>
+				<p>A nyalka Palinak se kellett több szó, jól megrázta az alvó öreget.</p>
+				<p>- No, mi a baj? Mit rángatsz, te kölyök?</p>
+				<p>- Tisztelet adassék kendnek, öreg szülém, de nem másért biz én, csak avégett, hogy
+               tudja-e kend az utat Kecskemétre?</p>
+				<p>- Gondolom - felelt a kevésszavú gulyás.</p>
+				<p>- Itt vagyunk a »pokol tavaknál«, az első két kocsi már szutyokban lubickol. Nézzen
+               körül kend, hogy merre kellene kijutni.</p>
+				<p>Marci felpislantott az égre, nézegette nagy figyelmesen a fönséges boltozatot
+               milliárd hunyorgató, szikrázó csillagjával.</p>
+				<p>- Hát nem száll le kend, hogy a helyet lássa?</p>
+				<p>- Mit lássak rajta? - förmedt fel mogorván. - Az egyik lósóska olyan, mint a másik
+               lósóska. Nem káptalan az én fejem, hogy kiismerjem magam a füvek között.</p>
+				<p>S megint figyelmesen méricskélt ott fenn szemeivel.</p>
+				<p>Egyszerre fölemelkedett a szekéren és átkiáltott a Kristonék kocsisához:</p>
+				<p>- Látod-e, édes fiam, a Göncöl szekerén innen azt a két kis csillagot, az egyik
+               nagyon bágyadt, világos fehér, a másik tüzesebb, de apróbb, éppen szembe vannak
+               egymással?</p>
+				<p>- Látom Marci bácsi.</p>
+				<p>- No, hát a két csillag közepe felé hajts, szógám! Arra vagyon az út.</p>
+				<p>Azzal újra lefeküdt jó lélekkel, mint aki minden dolgot rendbe hozott. Az urak
+               szintén föltápászkodtak a térdig érő vízből a kocsikra, de mire a főbíró visszament
+               az övéhez - Cinna már nem volt ott.</p>
+				<p>Eltűnt a beállott zavarban észrevétlenül, csak a nagy szétbontott varkocsa sötétlett
+               alul a kocsikasban.</p>
+				<p>Mihály sóhajtva markolta föl a gyönyörű hajkévét, aztán apró részekben kezdte
+               leszórogatni a mocsárba. A fekete szálak szép csöndben hulltak alá, a szellő egy
+               kicsit rézsunt vitte őket, mintha röpdösnének, a zöldes víz szelíden ringatta, s
+               körülfonta velök a vízi liliomokat, a sásokat, a pillangós pártájú
+               vadborsó-virágokat…</p>
+				<p>Mikor a Marci gulyás utasítása szerint csakugyan kigázoltak a biztos csapásra, már
+               akkor nem volt a főbíró kezében a hajból, csak egyetlen szál, melyet az egyik gyűrűje
+               körül csavargatott.</p>
+				<p>- Hó! hó! - kiáltozék harsányan. - Hová lett az én leányzóm? Melyik szekérre ült
+               át?</p>
+				<p>Mindenkitől megjött a felelet: Itt sincs! Itt sincs!</p>
+				<p>- Hála istennek - rebegték a szenátorok megkönnyebbülten. - Csakhogy elugrott a kis
+               fruska!</p>
+				<p>A viszontagságoknak vége volt. Most már baj nélkül értek tanya után falut, falu után
+               tanyát.</p>
+				<p>Csak néha-néha mosódott el az út, míg a reggeli szürkület meg nem világítá a
+               keréknyomokat, de sebaj, ott van Marci bácsi, aki, ha felköltötték, mindannyiszor
+               útba igazította őket.</p>
+				<p>- Hajtsatok most egyenesen annak a gyulladozó kis csillagnak, amelyik a fiastyúknál
+               oldalog.</p>
+				<p>Otthon volt ő az ég fényes planétái közt. A föld egyforma, kiismerhetetlen, a menny
+               ellenben változatlan, kitarkázott kékes mező.</p>
+				<p>Ott méricskélte ki az utat Pestről nemes Kecskemét városáig. Úgy eligazodott, olyan
+               világosan látta ő azt, hogy szinte porzott.</p>
+			</div>
+			<div type="chapter">
+				<head>HATODIK FEJEZET A MEGCSÚFOLT VÁROS</head>
+				<p>Pintyő felállította a megtöltött mozsarakat a piacon; néhol nagy transzparentek
+               készültek »Isten hozta!« »Vivát!« s több effélék. Az ékes szavú Fekete Pál éppen
+               orációt magolt a méhesében, mely így kezdődött: »Ki ne hallotta volna hírét a bölcs
+               tiszteletre méltó Senecának?« (Természetesen mindenki hallotta, mert Fekete Pál uram
+               mindig e tiszteletre méltó és bölcs férfiú mondásain élősködött.) Bürüék a
+               hegedűjüket gyantázták, szóval nagy készülődések történtek, még tán a harangokat is
+               meghúzták volna, ha a jobbik eszét elő nem veszi Porosznoki uram mindjárt Cegléd
+               alatt, s lóra nem ülteti Palit, a nyalka csikóst, vágtasson előre híradással, hogy
+               otthon semmi komédiát ne csináljanak, mert ok a vígságra nincsen.</p>
+				<p>Nagy lehangoltságot keltett a fullajtár, mogorván, morcosan nézték estefelé az
+               ablakokból és kerítések mögül az elöljárók bevonulását. Nem volt egy árva »éljen«
+               sem, csak a kutyák ugattak a szekerek után. Hanem iszen jobb is az így, minek a
+               csúfságot hizlalni, mikor úgyis elég nagy!</p>
+				<p>Még az este szárnyat eresztettek a budai események, hogy főzték le a kőrösiek
+               Kecskemétet, azaz, hogy Kecskemét önmagát, mint vetett nekik végre a szultán
+               csúfságra a sok drága ajándék, kincs viszonzásául egy kaftányt (ette volna meg).
+               Szégyen, gyalázat! De hogy volt szemük hazajönni azzal a kaftánnyal!</p>
+				<p>Másnap nagy tömegek gyűltek a városháza elé; a tekintélyesebb polgárok fölmentek a
+               terembe, meghallgatni az út eredményét, hivatalos szájakból. Minden nagy expedíció
+               után ez volt a patriarchális szokás. A közönségesebb nép, asszonyok, vásott suhancok
+               künn duhajkodtak, visítoztak, idétlen hangokon keresve melódiát egy versezetnek, mely
+               e pillanatban termett gazdátlanul a csőcselék száján:</p>
+				<p>
+               Boldog lehetsz most már Kecskemét, Megkaptad a császár
+                  ködmenyét.
+            </p>
+				<p>Egy pár arra menő nagykőrösi fuvaros még jobban emelte az ingerültséget. Jól közéjük
+               csapván a lovaiknak, azt kiáltozták a tömegnek csúfondárosan:</p>
+				<p>- Meleg-e a kaftány?</p>
+				<p>Biz az elég meleg volt az elöljáróknak odafönn.</p>
+				<p>Sötéten ültek a székeikben: némelyek, mint Inokai uram, ellágyulva, csak a főbíró
+               szép barna arcán fénylett még bátorság és dac.</p>
+				<p>Az út eseményeit Porosznoki ecsetelte szépen komponált beszédben, kezdvén az istennel
+               (aki olyan sűrűen látogatja Kecskemétet, hogy immár idevaló lakosnak lehetne
+               tekinteni). Az ő súlyos bal keze alatt fogamzott meg bennük a plánum, mely a várost
+               megmentette volna örök időre a sarcolásoktól. Ők jó hiszemmel cselekvének (isten a
+               látó benne), nem tehetnek arról, hogy a plánum dugába dőlt. Igaz, ami igaz, tömérdek
+               volt a költség, de azt gondolták, aki mer, az nyer.</p>
+				<p>Eleinte csöndesen hallgatták, és a csinos beszéd, úgylehet, megmenti vala a
+               magisztrátust, ha a részleteknél, midőn Porosznoki nagy pátosszal festé: »és
+               megjelentünk szerdán őfelsége a török császár előtt, ki fejedelmi ornátusban ült
+               ott«, közbe nem kiált Permete Gáspár:</p>
+				<p>- Volt-e pipa a szájában?</p>
+				<p>Nagy derültség hasadt ki az arcokon, s innen kezdve egyik mosdatlan közbeszólás a
+               másikat érte.</p>
+				<p>Gyorsan fogyott a tekintély. Csak az első szikra fogja meg a szalmát, legott pernye
+               aztán az egész.</p>
+				<p>- Elsinkófálták a tömérdek jószágot.</p>
+				<p>- Karbunkulus-ruhákat varrattak azoknak a perszónáknak! Hivatalos kerítők!…</p>
+				<p>- Drágaköves karikást, arany csákányt vittek. Pocsékolták a pénzt!</p>
+				<p>- Csúffá tettek! Éppen most jövök kívülről, azt kiabálják a nagykőrösiek a piacon:
+               »meleg-e a kaftány!« Ilyen szégyen a városunkon…</p>
+				<p>- Erre feleljenek kegyelmetek!</p>
+				<p>A szálas termetű Berkesi József felugrott, s kidagadt szemekkel, bömbölő hangon,
+               fenyegető öklökkel dörgé:</p>
+				<p>- Mondjanak le! Takarodjanak a zöld asztaltól!</p>
+				<p>Vészjóslón száz torokból süvített végig a termen a visszhang, mint a fákat szaggató
+               orkán.</p>
+				<p>- Mondjanak le!</p>
+				<p>A felizgatott polgárok egyre szűkebb gyűrűben tódultak a zöld asztal felé.</p>
+				<p>Lestyák Mihály kivágta maga alól a széket, lekapcsolta mellényéről, hol egy láncon
+               függött, a város pecsétjét, és odavágta láncostul a törvényasztalhoz, hogy az onnan a
+               terem túlsó szögletébe gurult nagy csörömpöléssel.</p>
+				<p>- Itt van. Nem kell!</p>
+				<p>S az ajtó felé sietett.</p>
+				<p>De útját állotta Putnoki Balázs.</p>
+				<p>- Nem úgy hékás! Itt maradsz. Én azzal vádollak isten és emberek előtt, hogy a város
+               ellenségeivel trafikáltál, hogy anyaszentegyházunk oszlopait te juttattad Csuda
+               kezére. A város foglya vagy!</p>
+				<p>- Kinek a rendeletéből? - kérdé büszkén és hidegen Lestyák.</p>
+				<p>Meghökkent Putnoki, mintha a nyelvét vágták volna ki, Lestyák pedig eltávozott,
+               becsapva maga után a teremajtót.</p>
+				<p>Sorba keltek fel most a többi elöljárók, meghajolva a közakarat előtt. Letették
+               hivatalukat.</p>
+				<p>A beállott káoszban utat lökdösött magának az elnöki székig Berkesi József uram.</p>
+				<p>- Én azt indítványozom, hogy míg érett megfontolás után új tisztikart választunk,
+               három tagból álló bizottság vigye a város ügyeit ideiglenesen. Egy katolikus, egy
+               kálvinista és egy lutheránus polgártársunk.</p>
+				<p>- Helyes! - rivalgott a sokaság.</p>
+				<p>Nyomban kikiáltották mind a hármat, Holéczi Sámuel, Putnoki Balázs és Berkesi József
+               uraimékat.</p>
+				<p>A triumvirátus addig is, míg a tömeg feloszlanék, a szomszéd benyílóba vonult
+               tanácskozni, s első határozata volt a Lestyák Mihály elfogatása.</p>
+				<p>Sírt-rítt az öreg Lestyák, amikor szíve büszkeségét, az ő Miskáját elhurcolták a
+               tömlöcbe. Először a vasalóhoz kapott, agyon akarta verni a hajdúkat, mikor azt
+               kicsavarták a kezéből, a bibliából szedett elő a helyzethez alkalmas mondatokat, s
+               mint valami mennyköveket vagdosta a Pintyő Gyuri meg a Muska Pista fejéhez.</p>
+				<p>- Nem kell a dolgot sokba venni, édesapám - mondá kissé bosszúsan az exfőbíró -, ez
+               se tart mindég.</p>
+				<p>- Megkeserülik még ők ezt! - kiáltá ökleit fölemelve, mint egy színpadi hős. - Jaj
+               neked Kecskemét, miképpen jaj volt Sodomának és Gomorának.</p>
+				<p>- Ránk mosolyoghat még a szerencse - vigasztalta Miska.</p>
+				<p>- Szerencse? - és az öreg megint elpityeredett, mint egy vén anyóka. - A szerencse is
+               istennő, olyan asszony, mint a többi asszony. Mindég új emberek után fut. Akivel már
+               egyszer szeretkezett és elhagyta, vissza nem tér ahhoz.</p>
+				<p>Majd kétségbeesetten, egy őrült mozdulatával kapta fel az ollót, s egy gyönyörű
+               tafota dolmányt, amit éppen most varrt meg, elkezdett dirib-darabra szabdalni,
+               rekedten hörögve:</p>
+				<p>- Romolj kutya, hasadj kutya! Hadd legyen vége a világnak.</p>
+				<p>A világnak ugyan nem lett vége, csak a dolmánynak, és szegény Miskát is bizony
+               elhurcolták a városház dohos börtönébe.</p>
+				<p>Utána iramodott, de a kapuajtónál megrogyott vén lába, és csak a küszöbről
+               kiabálhatta:</p>
+				<p>- Ne félj, édes fiam, kiveszlek én onnan, kijárom én a te szabadulásodat.</p>
+				<p>No bizony, nagy dolog is volt az akkoriban! Elment az ember a budai basához,
+               kieszközölni egy kis parancsot, hogy nyomban eresszék szabadon. Ha a budai basa szíve
+               meg nem lágyult, akkor elment az ember a szolnoki basához, annak a parancsa is
+               érvényes. Tegyük fel, hogy a szolnoki basa is rossz kedvében találtatnék, akkor a
+               kalgai szultánt tanácsos felkeresni, vagy átrándulni Fülekre az alispánhoz, sőt a
+               legrosszabb esetben a Csuda uram is elrendelheti a kibocsátást, ha ugyan nem a
+               legegyszerűbb nagyságos Koháry Imre uramhoz fordulni Szécsénybe. Ezek az érdemes úri
+               személyek mindnyájan parancsolnak Kecskeméten.</p>
+				<p>Éppen kapóra jött ajánlkozni valami vándorló legénycse, csinos, bizalmat keltő fickó,
+               most már bízvást nyakába veheti Lestyák uram a tarisznyát és a fentebbi névsort
+               (amelyiket előbb találja közülök), a fickó addig vigyáz a házra, átveszi a
+               megrendeléseket, és szóval tartja a türelmetlen kuncsaftokat… az Erzsike szolgáló
+               pedig főz neki és szemmel tartja, mi lakik benne. »Hanem aztán, öcsém, Lackó (ugye
+               Lacinak hívnak fiacskám?), ne csintalankodj a leánnyal, óva intlek, mert az nekem a
+               keresztlányom.«</p>
+				<p>Így ment az öreg, és sokáig oda volt; csak a java tél vetette haza.</p>
+				<p>Az idei Márton-lúd csontja erős zimankós telet jósolt, de az is volt. A hadakozó
+               felek sok nyomorúságot állottak ki. A Thököly uram vitézeiből száz darab fagyott el
+               karácsonyig. A tavalyi rossz esztendő miatt az élelem is szűkecskén volt, nemcsak
+               fáztak a katonák, hanem amellett éheztek, nem csoda, ha néhol kegyetlen volt a
+               fellépésük.</p>
+				<p>Azon az estén is, mikor a vén Lestyák hazakerült a budai pasa fermánjával, egy időben
+               vele jött a város alá a gonosz hírű kalgai szultán egy csapatja Olaj bég vezérlete
+               alatt, tömérdek rabszíjra fűzött nőkkel és férfiakkal, s lovas emberektől beküldte a
+               parancsot a triumvirátusnak:</p>
+				<p>»Hitetlen kutyák! Ha holnap délelőtt nem küldtök be nyolc szekér kenyeret, negyven
+               ökröt, húsz szekér fát és négyezerötszáz váltó forintokat, délután magam megyek be
+               értük a katonáimmal, és a kecskeméti bíró fejeiből levágok kettőt, mert elég a
+               bírónak egy fej. Jól megértsétek!«</p>
+				<p>Lett nagy ijedtség a városházán. A hajdúk lóhalálban futkostak házról házra, hogy
+               kenyeret süssenek a hatalmas Olaj bégnek, hogy a fát összeharácsolják, de legnehezebb
+               volt kiteremteni a pénzt, mert a város ládája üresen állt. Egy ilyen érvágást nemigen
+               bírnak most el.</p>
+				<p>Dúlt képpel találta őket Lestyák Mátyás, midőn sunyi alázatossággal besompolygott
+               (mert ilyen volt az öreg, mikor neki állott feljebb).</p>
+				<p>- No, mit akar? - kérdé Putnoki nyersen.</p>
+				<p>- Eljöttem azért a fiúért, nagy jó uram.</p>
+				<p>- Miféle fiúért?</p>
+				<p>- Hát a fiamért. Hazaviszem szegénykét.</p>
+				<p>- Már ha eresztjük tudniillik.</p>
+				<p>- Már persze, persze - szólt az öreg büszkén, és kiteríté Putnoki uram elé az Ibrahim
+               basa levelét. - Egyébiránt amint akarják kegyelmetek.</p>
+				<p>A basa levelét átfutván, megadta magát a triumvir, sőt még a tarkójához is odakapott
+               ijedten, mert a jó budai Ibrahim soha ki nem verte írónádjából a tintát anélkül, hogy
+               egy kis kedélyességet ne vegyítsen a komoly sorok közé. Most is volt néhány szó: »Úgy
+               látom, nagyon viszket a nyakatok.«</p>
+				<p>- Ez már más - szólt a triumvir megjuhászodva. - Engedelmeskedünk a parancsnak. Most
+               azonban késő este van már, a porkoláb sincs itt. Majd kieresztjük Mihály öcsénket
+               reggel.</p>
+				<p>A szabó hazament, de a pirkadó hajnal már ott találta a széképület kapujában. Pedig
+               cudar idő volt, nagy köd gomolygott, és a hó is pilinkélt csöndesen.</p>
+				<p>Elég korán jöttek be a város urai, főképpen Putnoki, kinek egy jó gondolata támadt az
+               éjjel; sietett, hogy kitálalhassa társainak.</p>
+				<p>- Nem jó dolog lesz az, ha Lestyák szabadlábra jut. Sok ésszel, sok furfanggal van a
+               koponyája megbélelve.</p>
+				<p>- Kemény koponya, az igaz, de a szandzsák basával mégsem húzhatunk ujjat.</p>
+				<p>- Nem gondolom én se. Szabadon eresztjük, de olyan helyre küldöm, ahonnan vissza nem
+               jő többet. Csak bízzák kegyelmetek rám!</p>
+				<p>Az utcák szokatlanul korán népesedtek. A lakosok részint batyukban, részint
+               talyigákon szállították féltett holmijukat a távol eső tanyákra. Olaj bég
+               fölbukkanása a láthatáron rémületbe öltözteté az arcokat. Mert a derék Olaj bég, szó,
+               ami szó, nem volt afféle szatócs, mint Csuda uram, vagy a piszlicár Dervis bég, kik
+               egy pap vagy szép leány elrablásával beérték. Az emberséges Olaj bég nagyban
+               dolgozott. Ritkán jött, de ha jött, egy egész utcát magával hajtott rabságba,
+               asszonyostul, gyerekestül, mindenféle pereputtyostul, a lovakkal, barmokkal
+               egyetemben, nem hagyva hátra mást, mint a sertéseket, amely tisztátalan állatok
+               ellenkezésben állanak a Szent Koránnal. Ilyen ember volt Olaj bég, ezt meg kell neki
+               adni.</p>
+				<p>Követeléseinek hírére egyenkint szállingózának a főemberek a tanácsházba: egy kis
+               pénzt hozott az egyik, kenyeret, fát jött felajánlani a másik, már korán reggel. A
+               rossz hír jó ébresztő.</p>
+				<p>Sokan sopánkodtak, csörögtek-morogtak, mikor Putnoki uram kiadta a rendeletet, hogy
+               Lestyák Mihályt vezessék elő a tömlöcből.</p>
+				<p>Egy kicsit haloványan jelent meg, de a fejét emelten hordozá.</p>
+				<p>- Lestyák Mihály! - szólt a triumvir ünnepélyesen - szabadon van eresztve!</p>
+				<p>Elégedetlen zúgás támadt a teremben.</p>
+				<p>- Nagy pátrónusa a budai vezér - jegyzé meg az előbbi gúnyosan.</p>
+				<p>Lestyák semmit sem felelt. Ideges mozdulatot tett, mintha távozni akarna.</p>
+				<p>- Nem oda, Buda. Várjon még! A budai basa nem a római pápa, ex-főbíró uram, zárakat
+               nyithat, csukhat, de bűnöket fel nem oldhat. Azokat le kell vezeklenie.</p>
+				<p>Idegbántó csönd lett; lélegzet-elfojtva várták a következőket.</p>
+				<p>- Határainkon áll a kegyetlen Olaj bég, odaát a Csalános taván túl. Nagy sarcot
+               vetett a városra, melyet ma délig kellene átküldeni, de lehetetlen. Hát tudja-e,
+               Lestyák Mihály, mire ítéljük most?</p>
+				<p>- Majd megmondja, kegyelmed, ha akarja.</p>
+				<p>Putnoki Balázs gonosz nevetéssel folytatá:</p>
+				<p>- Elhozta ked a híres köntöst, hát már most lássuk, mit tud vele csinálni. Felhúzza,
+               és a bég elé megy benne.</p>
+				<p>Miska szíve összeszorult. Ez váratlanul jött. Majdnem megingott a lábain. De hirtelen
+               erőt vett. Mintegy magának mondá: »Nem szabad megijedni, nem szabad, nem szabad…«</p>
+				<p>Szíve erősen dobogott, hangja csuklóvá, érctelenné vált; de a közömbösség festékje
+               rajta volt.</p>
+				<p>- És mit mondjak a bégnek?</p>
+				<p>- Mondja neki, hogy elégedjen meg a sarc felével, de azért is várjon egy-két napig,
+               míg összeszedjük. Vagy pedig, teringette, ajánlja fel a kaftányt, mely ötven lovat,
+               száz ökröt és mintegy négyezer aranyat képvisel. Meg lesz elégedve, he-he-he, és ami
+               még visszajár, azt hozza el kegyelmed a város pénztárába, ha-ha-ha.</p>
+				<p>- De hisz az engem menten karóba húzat, vagy rabszíjra fűz.</p>
+				<p>Putnoki vállat vont:</p>
+				<p>- Az már a ked baja.</p>
+				<p>- Úgy? - fakadt ki Lestyák keserűen. - Igazán erre ítélnek?</p>
+				<p>És révedező szemekkel nézett szét a triumvireken, a város fehér hajú aggastyánjain.
+               Azok mind a fejeikkel bólintgattak, hogy igazságos az ítélet. Elrettentő példát kell
+               mutatni a közvagyon könnyelmű fecsérlőinek.</p>
+				<p>- Vigyenek inkább vissza a börtönbe - szól önfeledten, de legott megrestellte.</p>
+				<p>- Pedig mitől fél úgy? - elméskedett csípősen a triumvir - hiszen a kaftány rajta
+               lesz!</p>
+				<p>Nagy hahota zuhogott fel erre, és piros vér szökött a Lestyák arcába.</p>
+				<p>- Nem szoktam félni - mond kevélyen. - Mikor induljak?</p>
+				<p>- Még délelőtt, mihelyt megteszem a rendeléseket. Nem akar addig kegyelmed
+               meggyónni?</p>
+				<p>- Nem.</p>
+				<p>Az öreg szabó kétségbeesetten kiabálta be a várost, milyen hallatlan injuria, fiát a
+               tatár had torkába küldeni. Meghallgatás s védelem nélküli halálítélet ez! »Ne
+               engedjetek, jó emberek, ilyen igazságtalanságot. Gondoljatok arra, hogy mennyire
+               szerettétek őt ezelőtt három hónappal. Csináljatok zendülést, fogjatok fejszét,
+               vasvillát, jertek, vezetlek benneteket, lesarlózni a »háromlevelű lóherét.« (Ez volt
+               a triumvirátus csúfneve.)«</p>
+				<p>Egy ököl se mozdult; hiszen gyökerük csak az élőfáknak van… Legfeljebb a rozmaringos,
+               muskátlis ablakokban komorodott el egy-egy pirosló barna vagy szőke leányarc, s
+               röppent el talán egy bús sóhaj a viráglevelek közt: »Szegény Lestyák Miska!«</p>
+				<p>Aztán csak tovább is ott maradtak lesben azok a szép arcok.</p>
+				<p>- Mikor jön? De szeretném látni abban a kaftányban. De sokáig nem jön.</p>
+				<p>Éppen nyergelték már lovát a városház udvarán. Könnyedén pattant fel reá, pedig egész
+               bokájáig alkalmatlankodott a zöld selyem köntös. Még fütyörészett is, mikor a
+               kengyelbe tette a bal lábát, hadd emlegessék sírva-ríva a nóták kétszáz esztendeig,
+               hogy miképpen indult utolsó útjára…</p>
+				<p>Két drabant is lóra ült, kivont karddal poroszkálva mellette két oldalt. A hátulsó
+               kapun mentek ki, a mellékutcákra kerülve, hogy az összeverődött kíváncsiak ne
+               rikoltozzanak, ne nevetgéljenek. Hiszen siratni való dolog ez!</p>
+				<p>A triumvirek az ablakból nézték, ameddig láthatták a gömörödő köd miatt. Putnoki uram
+               jókedvűen dörzsölte kezeit.</p>
+				<p>- No, ez se hallja többé a kecskeméti tülköt! (Mert hogy tülköléssel volt szokás
+               jelezni Szent Miklós tornyáról a delet.)</p>
+				<p>Majd élénken fordult az összegyűlt polgárokhoz:</p>
+				<p>- Most pedig siessünk szekerekre rakni a sarcot, hogy amint Olaj bég dühre gerjedve,
+               a város ellen indul, már útban találja a szállítmányt.</p>
+				<p>A drabantok csak a város végéig kísérték Lestyákot, ahogy a száműzötteket szokás. Úgy
+               volt utasításban. Mert egész odáig úgyse mehetnének, kár volna a drabantokért.</p>
+				<p>Meglehet, Lestyák se megy, meglehet, elkanyarodik valamerre, nagy a világ, és négy
+               széle van - de hát úgyis jó, meneküljön, ha akar, csak itt ne legyen láb alatt.</p>
+				<p>Ugyan rosszul ösmerték. Amint ott lépkedett egyedül azon a végtelen hólepedőn a
+               Csalános felé, gondolta magában:</p>
+				<p>»Elmegyek, el kell mennem. Ha nem megyek, örökre halott vagyok gyáva híremmel; ha
+               elmegyek, még vissza is jöhetek. Olaj bég okos ember; a holtaknak semmi hasznát se
+               veszi, az élő ember neki portéka. Rabszolgákkal kereskedik. Legfeljebb fogságra
+               hurcol. Mindenesetre elmegyek.«</p>
+				<p>A kaftány egyik lelógó szárnyával megcsapkodta a gebét, mitől felbuzdult egy kicsit a
+               szegény pára. Isten szépen fölvitte a dolgát, tegnap még a városi száraz malomban
+               keringett, ma már lovagot visz. (Elég jó az a tatárnak, gondolták a triumvirek.)</p>
+				<p>»Vesztőhelyre küldenek!« sziszegett magában az utas, s bosszútól forrt a vére.</p>
+				<p>Fölemelte az öklét. »Hej, csak haza kerülhetnék még!« Aztán egy kegyetlenet rúgott a
+               paripán, aki azt egész megadással tűrte a triumvirek helyett.</p>
+				<p>Csípősebb szél kezdett fújni. Ez a Csalános tavától mérgesedik. Sőt hallani lehet már
+               távoli zsongást-bongást; az a tatár tábor zsivaja. Menjünk, tátos, menjünk!</p>
+				<p>Szemben, egészen közel egy szárnyék barnállott. Nádból font,
+               hordozható fal, ahol a »jószág« szokott telelni, de mely inkább csak a szél ellen
+               oltalmazza. Amolyan elhagyott szárnyék volt, csak egy szöglet állt belőle. (A nád
+               szerencsére nem volt fölvéve a tatár értékek közé, mert különben az se állna
+               ott.)</p>
+				<p>Éppen mellette kellett ellovagolnia Lestyáknak. Látta lóhátról, hogy egy széles
+               fekete kalapú, köpönyeges férfi áll a szárnyékban; talán a szitáló hó elől vonult
+               oda.</p>
+				<p>Az ember kijjebb jött, és rászólt:</p>
+				<p>- Álljon meg egy szóra, Lestyák Mihály uram.</p>
+				<p>Lestyák oda se nézett, azt felelte nagy mogorván:</p>
+				<p>- Nem tud ked nekem olyan szót, amiért megálljak!</p>
+				<p>- Én vagyok, a Cinna.</p>
+				<p>Mégis volt hát egy olyan szó, ami megállította, amire leugrott a lováról.</p>
+				<p>- Szerencsétlen leány, hogy kerülsz te ide? Ejnye, de milyen csinos fiú vagy. (És
+               elmosolyodott bágyadtan, szomorúan.)</p>
+				<p>- Jó, hogy leszállt kegyelmed arról a lóról, mert úgyis én ülök fel rá. Jöjjön ide a
+               szárnyék alá de íziben, hadd húzzam magamra azt a kaftányt.</p>
+				<p>- Megbolondultál?</p>
+				<p>- Mindent meggondoltam, mihelyt hallottam otthon, hova küldik. Ha kegyelmed megy el,
+               vagy megölik, vagy rabságba viszik, igaz-e?</p>
+				<p>- Mondasz valamit, Cinna! De milyen csodálatos az, hogy itt vagy.</p>
+				<p>Zavartan nézegette, nem tudott vele betelni.</p>
+				<p>- Ha megölik, akkor senki se támasztja fel többé.</p>
+				<p>- No, már az meg éppen igaz.</p>
+				<p>- Ne tréfáljon most, szörnyű ember! Ha rabságra viszik, senki sem váltja ki, az
+               elöljárók is akadályoznák.</p>
+				<p>Mihály kedvetlenül harapdálta az ajkait.</p>
+				<p>- De ha én megyek el, kiadva magamat Lestyák Mihálynak, és ha meg akarnak öletni,
+               észreveszik, hogy nő vagyok, s a nőt nem bántják a tatárok, kiválthat kegyelmed; ha
+               pedig csak rabságra visznek, akkor meg éppen kiválthat Lestyák Mihály gyanánt. Ide
+               hát szaporán azzal a köntössel!</p>
+				<p>S amíg így beszélt hízelgő édes hangon, már le is húzta róla.</p>
+				<p>Mihály ellenkezett:</p>
+				<p>- Nem, nem! Hová gondolsz? - De Cinna érvelése hatott rá. - Ez így van, meglehet, így
+               van! - Megdörzsölte a homlokát. - Kiváltlak, hogyne váltanálak ki! Az mondod, úgyis
+               tartozol nekem egy élettel. Hallgass, nem úgy kell azt fölvenni. Ne okoskodj, leány.
+               Megállj még. Magam sem tudom, mit csináljunk.</p>
+				<p>De a leány nem állt meg; már rajta volt sugár termetén a kaftány, s a másik percben
+               ott termett a ló hátán, mint a könnyű pehely.</p>
+				<p>A harmadik percben elnyelte a köd, Lestyák utána futott dühösen.</p>
+				<p>- Megállj! - kiáltá, s messzire mennydörgött a hang. - Nem eresztlek! Parancsolom,
+               megállj!</p>
+				<p>Hanem iszen beszélhetett már annak. Egy percnyi gyöngeség, s a hiba el volt követve.
+               Egy percnyi gyöngeség nagy emberek bukásának a magva.</p>
+				<p>Ment a leány, s meg sem állt, csak a tatár tábornál.</p>
+				<p>- Vezessetek a vezér elé. Én Lestyák Mihály, a kecskeméti követ vagyok.</p>
+				<p>- Szállj le a lórul, jó ember, oda vezetlek - ajánlkozott egy zömök tatár jó magyar
+               kiejtéssel. - Ugyancsak rossz paripát adtak alád a kecskeméti bírák. De éppen itt jő
+               urunk, Olaj bég, Allah soká fényesítse szakállát.</p>
+				<p>Valóban a brontes termetű Olaj bég közeledett egy szép pej lovon; éppen szemlét
+               tartott volt a csapatai felett.</p>
+				<p>- A kecskeméti követ van itt, hatalmas bég! - jelenté az előbbi zömök fickó.</p>
+				<p>A bég végigtekintett figyelmesen a követen és a köntösén, aztán szelíden mondá:</p>
+				<p>- Fordulj meg kérlek, derék fiú, ha meg nem bántanálak vele.</p>
+				<p>Cinna megfordult.</p>
+				<p>Olaj bég most már hátulról vetett a kaftányra egy pillantást. Azzal leugrott fürgén
+               lováról, leborult Cinna előtt a földre, és megcsókolta a köntös szegélyét háromszor.
+               Cinna csak bámult rá nagy fekete szemeivel, azt hitte, álmodik.</p>
+				<p>- Allah nagy és Mahomed az ő prófétája. Mit parancsolsz, Kecskemét város követje?</p>
+				<p>Alázatosan és meggörnyedve állt előtte.</p>
+				<p>Cinna habozott egy kissé, majd szilárd hangon mondá:</p>
+				<p>- Hagyjátok el Kecskemét határát még ez órában!</p>
+				<p>Olaj bég égre emelé aluszékony birka szemeit, majd hátra fordult a sereghez,
+               harsányan kiáltva:</p>
+				<p>- Indulunk! Nyergeljetek!</p>
+			</div>
+			<div type="chapter">
+				<head>HETEDIK FEJEZET A DIKTÁTOR. KECSKEMÉT FÉNYKORA</head>
+				<p>Lestyák a szárnyéknál maradt, és azon töprengett, mihez fogjon, merre menjen. Nehéz
+               fejében szétfolytak a gondolatok, mint a megolvadt ólom, tagjait zsibbasztó
+               lankadtság fogta el, lelkét az önvád diribdarabra tépdelé: »Rosszul cselekedtem, önző
+               gyávaság volt.«</p>
+				<p>Kínos nyugtalanság tövisekkel szurkálta. Sötéten nézett maga elé. Merre viszen most
+               az én utam?…</p>
+				<p>Szétfoszlott kissé a köd, s megcsillant nem messze az óriási fénylő szem, a Csalános
+               tava. Mintha hunyorgatva hívogatná: »Gyere Lestyák Mihály, legokosabb lesz, ha ide
+               fekszel, ezüst takaróval takarózol, puha homokvánkoson álmodol!… Ez a legegyenesebb
+               út!«</p>
+				<p>Néhány lépést tett a tó felé, de egy pöszmétebokor volt útjában, a legmagasabb fa az
+               egész környéken; vékony gallyacskáit belepték a kicsi hópillangók: meg se látta,
+               fölbukott benne.</p>
+				<p>És amint odaütődék füle ebben a keserű pillanatban az »édesanya« testéhez, egyszerre
+               hallotta, érezte, hogy az messze innen megdobban, ezer lópatkónak tompa dübörgése
+               hallik, és nagy suhogás kél a levegőben.</p>
+				<p>Összerázkódott. »Jaj, jönnek a tatárok a város ellen!«</p>
+				<p>De pszt, a dobogás mintha távolodnék, egyre halkabb-halkabb, majd elenyész bágyadó
+               morajban. Csupán egyetlen ló közeledik erre. Kop, top! Igen, csak egy ló ez. Teremtő
+               istenem, a Cinna ül rajta.</p>
+				<p>Lestyák felszökött, le se törölte ruhájáról a mocskot, eleibe futott lázas
+               lihegéssel.</p>
+				<p>- Itt vagy? Nincsen bajod? Igazán itt vagy! Mi történt?</p>
+				<p>Cinna vidáman mosolygott. Mielőtt felelne, lányos pajkossággal hősiesre fújta fel
+               arcocskáját:</p>
+				<p>- Hát az történt, jelentem alássan, hogy elkergettem a tatár sereget. Takarodnak
+               immár lóhalálban.</p>
+				<p>- Ne beszélj!</p>
+				<p>Ami azt jelentette: »beszélj kérlek, beszélj!«</p>
+				<p>Beszélt is, de előbb megsimogatta nyájasan, szeretettel, tekintetének fényes
+               zománcával a behavazott zöld kaftányt.</p>
+				<p>- Megér ez a gúnyácska valamit, Lestyák Mihály uram.</p>
+				<p>- Hogy-hogy?</p>
+				<p>- Mihelyest meglátta rajtam Olaj bég, leszállt a lováról, megcsókolta a szegélyét
+               háromszor, és azt kérdezte nagy alázattal, mit parancsolok. Én azt parancsoltam, hogy
+               pusztuljanak el íziben. Szót fogadtak, elpusztultak.</p>
+				<p>Lestyák Mihálynak nyitva maradt a szája.</p>
+				<p>- Lehetséges-e? Olyan varázsereje volna?</p>
+				<p>- Így történt szórul-szóra. De nincs idő a sok beszédre, itt a kaftánya, vegye fel,
+               itt a lova, üljön rá. Én majd a másik úton sietek el.</p>
+				<p>- Teringette, hisz ez igazi csoda! - ujjongott Mihály, nem bírva kibontakozni az
+               ámulatból. - Hisz akkor ez a kaftány roppant kincs!</p>
+				<p>- Meghiszem azt. De siessen kérem, mert jönni találnak. Mintha látnék is fekete,
+               mozgó szekereket a város felől.</p>
+				<p>Mihály homloka elborult:</p>
+				<p>- Igaz, Cinna, ne szólj ám erről senkinek! Köszönöm, amit cselekedtél. Majd beszélek
+               veled későbben… ma még. Igen, beszélek veled, Cinna.</p>
+				<p>- Jó, jó - hagyta rá a fürge legényke, csakhamar eltűnve a »Szoknyás fa« dűlő
+               felé.</p>
+				<p>Lestyák a rendes úton ment. Csakugyan szemben találta a nagy szekérsort; hozták a
+               kenyeret, fát, a szikrai Marci az ökröket hajtotta nagy káromkodva. A szekerek előtt
+               szép hóka lovon az egyik triumvir, Holéczi Sámuel uram lovagolt, az oldalán függő
+               sárga bőrtáskában hozván a »nervus rerum«-ot. Az meg ott az egyik szekéren, a szép
+               ropogósra pirított cipók tetejében bizisten Fábiánné asszonyom; kíváncsiságból ült
+               fel »kutyafejű tatárt látni«, mellette pediglen az aranyos szájú Fekete Pál kuksol,
+               egy bolhabetűs írást habzsolva pislogó nyúlszemeivel.</p>
+				<p>- Ni, ni, Lestyák Mihály - hüledezének a kecskemétiek. - A másvilágról jön.</p>
+				<p>Holéczi Sámuel, aki nem volt haragosa Lestyáknak valami nagyon (mert a lutheránusok
+               mind összecsengnek), de meg kíváncsi is volt, még pedig nagyon, nyájasan
+               kérdezte:</p>
+				<p>- Ugye a lelke az, amice, nem maga?</p>
+				<p>- Magam vagyok az a lelkem nélkül - dünnyögte kesernyésen Mihály. (Ki tudja, mire
+               gondolt?) - Hát kegyelmetek hová mennek?</p>
+				<p>- Vendég van a határon - kedélyeskedék a triumvir -, viszünk neki szegénynek egy kis
+               kollációt. (A nemzetes úr nagyon jóhumorú ember volt.)</p>
+				<p>- Azt ugyan nehéz lesz utolérni.</p>
+				<p>- Ugyan?</p>
+				<p>- A harmadik határban jár azóta. Búcsú nélkül ment el a vendég.</p>
+				<p>- Csak tán nem! - selypített közbe Fábiánné.</p>
+				<p>- Kár - sopánkodott Fekete uram -, ritka szép beszédet mulasztott el a bég.</p>
+				<p>Lestyák elbeszélte a kaftány-dolgot, amitől egyszerre máj- és tüdőszínű lett a
+               Holéczi Sámuel uram ábrázata.</p>
+				<p>- Nagy eset - dünnyögte kelletlenül vakarva pisze orrát -, hm, ilyen tán a világ
+               eleje óta se történt.</p>
+				<p>De csak egy percig maradt zavarban, kitanult ravasz róka volt, gyorsan tudott
+               felugrani a helyzet magaslatára.</p>
+				<p>- Hej szekeresek, hej emberek, forduljatok, igazodjatok visszafelé. Nagy nap virradt
+               fel Kecskemétre!</p>
+				<p>Majd leperdült a lováról, és így szólt tiszteletteljes hangon:</p>
+				<p>- Üljön fel a lovamra, Lestyák Mihály uram. Nem hagyhatom azon a gebén
+               szégyenszemre.</p>
+				<p>- Jó ez nekem. Köszönöm. Ha három triumvir ültetett rá, egy le nem szállíthat
+               róla.</p>
+				<p>- Akkor hát kegyelmed üljön fel, Fekete uram, hírt adni a városba a történtekről.</p>
+				<p>Kapott az alkalmon a »város Cicerója«, kipótolni dúsan az elmaradt szereplést.</p>
+				<p>- Megyek, hogyne mennék! Öröm ülni egy ilyen szép állaton. De adjanak hozzá valami
+               ostort is, mert sarkantyúm nincsen.</p>
+				<p>Nem sok ostor kellett a tüzes »Sármány«-nak, úgy elnyargalt a nagy szónokkal, mint a
+               mesebeli csikók, akik izzó parazsat kapnak a tarisznyába abraknak.</p>
+				<p>Tajtékzott, füstölgött, maga Fekete uram is csurom víz volt, mikor a piacra beért,
+               hol az álldogáló és egyre gyűlő népnek nagy lelkendezve, szónoki szironnyal
+               kitulipánozva hirdeté az Úr különös kegyelmét, mellyel a várost elárasztá; hogy egy
+               lelketlen ruhadarab mintegy megszólalt, s elkergette a dúló ellenséget határainkról.
+               Csoda történt. Kecskemét érdemes polgárai, húzzátok meg a harangokat. A kapzsi Olaj
+               bég leborult a földre, és megcsókolta Lestyák Mihály uramon a köntöst, háromszor,
+               alázatosan, összegörnyedve kérdvén: »Mit parancsolsz, Kecskemét város követje?« Mire
+               Lestyák Mihály uram fölemelé fejét, s miként a bölcs és tiszteletre méltó Seneca (ki
+               ne hallotta volna hírét?) imigyen felelt: »Ne háborítsátok köreimet - azaz
+               takarodjatok innen!«</p>
+				<p>- Nem bizonyos ám, hogy azt Seneca mondta! - süvített közbe a református prédikátor,
+               nagytiszteletű Mokros Ézsaiás uram.</p>
+				<p>Fekete Pál nem engedte magát megzavarni:</p>
+				<p>- De az meg bizonyos, hogy jönnek vissza a kenyeres szekerek, az ökrök, a pénzes
+               tarisznya, a triumvir és Lestyák Mihály.</p>
+				<p>Nagy örömrivalgás viharzott fel. Mint a futó tűz terjedt a csoda híre,
+               utcáról-utcára, házról-házra hömpölygette az idegizgató álmélkodás. Az elbukott,
+               gyűlölt szenátorok újra kijöttek a napfényre; a nép közé. Porosznokit megéljenezték,
+               az öreg Inokainak kalapemelve nyitottak utat mindenütt. Kriston Ferenc uramat
+               ellenben élénk zsivajjal kívánták hallani. Nem is vonogatózott őkegyelme sokáig,
+               felállt egy káposztás hordóra a piacon, csupán ezeket mondván:</p>
+				<p>- Igazságot kérek tőletek annak a lángeszű ifjúnak, aki ezt a nagy napot kivívta.</p>
+				<p>- Igazságot! - visszhangzott ezer torokból.</p>
+				<p>Hullámzott a lakosság, mint egy folyton dagadó folyam. Zsibongás, élet lüktetett
+               mindenfelé - férfiak, asszonyok élénk gesztusokkal adták tovább az érkezőknek Fekete
+               Pál uram nyomán a »beszélő köntös« csodáját. Persze, hogy mindenik varrt még rá egy
+               kis hímet.</p>
+				<p>Hatalmas lendületet, szíveket rezegtető lelkesedést szíttak be az emberek az
+               éljenzéstől meghasadozott levegőből. Mindenki sürgött, mozgott, mindenki mást
+               kiabált, de mindenki egyet gondolt. Szép feslő bimbókat, csemete-lányokat öltöztettek
+               talpig fejérbe az asszonyok, érdemes polgárok rohantak a város istállójába, befogni a
+               híres négy fekete csődört. (Hamar, pántlikát a sörényeik közé.) Öreg emberek cipelték
+               a mozsarakat a piacra, útközben előkeresvén a »Három almánál« a tűzmestert (jöjjön,
+               kend, Hupka uram, ha istent ösmer. - »Csak még egy kortyot!« - rimánkodott Hupka).
+               Tiszteletes Molitorisz Péter uram, a lutheránus lelkész maga mászott fel a Szent
+               Miklós-toronyba, hogy alkalmas percben meglódítsa a harangokat. A házfedelek lyukain
+               kibújtak imitt-amott a zászlónyelekről azok a lelket csiklandozó, kígyózva röpkedő,
+               hármas színű szárnyak. Bizony fakók már egy kicsinyég; a nagyságos Bethlen idejéből
+               valók. Azóta nem is igen virágzottak a kecskeméti házfedelek.</p>
+				<p>A tizenegy bukott szenátor is mind magára rángatta egy félóra alatt sebtiben az
+               ezüstgombos mentét, felkötötte a csörömpölő kardot, s immár ott állanak félkaréjban a
+               tanácsház kapujánál. Sokkal nehezebb feladat jutott azonban Fekete Pál uramnak
+               (amiből nyilván kitetszik, hogy nem egyenlő feladatok zúdulnak a közélet férfiainak
+               vállaira), az egész kéziratot át kellett hirtelen idomítania; a »Hatalmas bég«
+               megszólítást kitörülvén, odaírni »Dicső hazafi!« Az »Eljöttünk hozzád« helyett
+               »Visszajöttél hozzánk« stb. - (Mindegy, nagyon szép lesz az mégis!)</p>
+				<p>Bár hevenyészve volt, minden pompásan ment, csak éppen a díszkocsi késett el, de a
+               tarackok idején dördültek meg, ünnepiesen zúgtak a harangok, s amint feltűnt Lestyák
+               alakja, tomboló rivalgás ömlött az utcákon, mint a lavina, amerre ment, egész a
+               városház kapujáig. Ott leszállt, meghallgatta a Fekete Pál uram orációját, egy
+               mosolygó pillantást vetett a fehér ruhás leánypalántákra, kezet fogott a volt
+               szenátorokkal (Porosznoki uramat megölelte) - akkor aztán őt is fölkapták, vitték,
+               vitték, és ahol végre letették, az az elnöki hely a tanácsterem zöld asztalánál.</p>
+				<p>Mihelyt kissé lecsillapult a zaj (mert tömve volt a nagyterem a város előkelőivel),
+               szót emelt a hófejű Puszta Máté, s gyönge, darázsdongású hangon emelvén ki a Lestyák
+               Mihály érdemeit, e felkiáltással végzé:</p>
+				<p>- Válasszuk meg Kecskemét örökös főbírájának!</p>
+				<p>Rengett a fal az éljenektől, percekig tartott, míg Permete Gáspár megértetheté magát,
+               dacára annak, hogy erősen ütögette a mellét, és hadonászva integetett, hogy nagyon
+               érdekeset akar mondani.</p>
+				<p>- Én, Permete Gáspár pedig, aki egy szólásommal buktattam meg ezt az elöljáróságot
+               ezelőtt tizenkét héttel, azt mondom, megtudván a megtudandókat, hogy neki még az
+               örökös főbíróság is kurta idő.</p>
+				<p>- A holta után csak nem prezideálhat - kottyant bele Zeke Gerzson uram.</p>
+				<p>- De igenis, mondjuk ki és iktassuk protokollumba, hogy valamiképpen az isten
+               kegyelméből dicsőségesen uralkodó Habsburg-famíliára száll firól-fira elsőszülöttek
+               líneáján a szentséges magyar korona, azonképpen szálljon a Lestyák uraim fiivadékaira
+               a főbírói pálca.</p>
+				<p>
+               Zeke Gerzson: Egy kis különbség van a kettő között!</p>
+				<p>
+               Permete Gáspár: (dühösen) Nincs!</p>
+				<p>
+               Zeke Gerzson: A korona aranyból van, a bírói pálca
+               somfából.</p>
+				<p>E kis összezördülést a Cegléd utcai Deák János szakítá félbe, általánosan elismert
+               bölcs ember.</p>
+				<p>- Zeke uramnak van igaza, mert a korona a gyenge főn is erősen fénylik, de a somfabot
+               a gyenge kézben gyengén üt. A somfabotot ennélfogva nem lehet odanyomni látatlanban
+               az utódok kezébe. De máskülönben sem illendő e nagy napot ilyen feleselésekkel
+               zavarni. Maradjunk a tiszteletre méltó komolyság mezsgyéjén, és sorba menjünk a
+               dolgokon, mert senki sem köszöni meg, ha olyan székkel kínáljuk, ahol még ül valaki.
+               Mindenekelőtt mondja ki tehát a gyűlés, hogy a triumvirátus, mely úgyis csak
+               ideiglenes volt, megszűnik.</p>
+				<p>- Maguktól szöktek meg! Egy sincs itt! - hangzott jobbról-balról.</p>
+				<p>- Ennekutána válasszák meg kegyelmetek újból a régi szenátorokat, és akkor iktassuk
+               aztán jegyzőkönyvbe a Lestyák Mihály holtiglani főbíróságát.</p>
+				<p>Mondani sem kell tán, hogy minden így történt. A főbíró, ki olyan méltóságteljesen
+               ült ott, mint egy dinaszta, hidegen biccentett köszönetet a fejével.</p>
+				<p>Arca halovány volt, de bezzeg vörös lett, mint a skarlátposztó, amint kiáltozni
+               kezdék:</p>
+				<p>- Halljuk a köntös-esetet! Halljuk tőle magától!</p>
+				<p>Kellemetlenül izgett-mozgott székén. Mintha a nyeldeklőjét szorítaná össze
+               láthatatlan vaskéz. Elmondani az Olaj béggel történt jelenetet, százaknak… Egy olyan
+               jelenetet, amit nem élt át, amit nem látott. Hazudni a város színe előtt. Oh, de nagy
+               hiba volt el nem mennie a táborba. Az ördög hozta útjába azt a leányt. S ha már el
+               nem ment, jobb lett volna bevallani. Most már lehetetlen, lehetetlen…</p>
+				<p>Mennél nagyobb volt a dicsősége, annál kínosabban marcangolta lelkét a tudat, hogy
+               ezt egyszerre szétfújhatja egy váratlan szellő. Hiszen a Midász nagy fülei is
+               kisültek. Úgy tűnt föl előtte e dicsőség, mintha lopná, nem tudott neki örülni, pedig
+               rászolgált, akármi történjék is, ő szerezte a kaftányt. És mégis, mégis a magas
+               támlájú főbírói karszék mögött ott lebegett, rezgett egy alkalmatlan árnyék.</p>
+				<p>- Halljuk! Halljuk! - hangzott egyre élénkebben, követelőbben.</p>
+				<p>Nem volt menekülés.</p>
+				<p>Zavartan húzta le a kaftányt magáról, és leteríté a zöld asztalra. Íme, Kecskemét
+               drága kincse!</p>
+				<p>Aztán akadozva beszélte el szegről-végről még egyszer a kaftány csodálatos
+                  szereplését.[3]
+            </p>
+				<p>Lázas örömkitörések tarkították előadását, mindenki ujjongott, csak egy összeesett
+               alak sírdogált csendesen a hátulsó padban.</p>
+				<p>A hatalmas főbíró, immár »Kecskemét diktátora«, fölkelt, odament a zokogó emberhez,
+               kézen fogta:</p>
+				<p>- És most menjünk, édesapám. Meg akarok otthon egy kicsit pihenni.</p>
+				<p>A kopjás kis kapuban már ott leselkedett az Erzsi leány, meg a Laci legény. A
+               forgácsfánk kisült, és a csipetkés tyúkpörkölt elérte a tökéletességet, a malac pedig
+               már ki is hűlt; éppen jó, hogy jönnek.</p>
+				<p>- De nem is mondtam, édes fiam, persze mikor beszélhettem volna veled, hogy legénnyel
+               dolgozom, azaz, hogy most már ketten nem dolgozunk.</p>
+				<p>A főbíró közömbös arcot vágott.</p>
+				<p>- Az a fiatal gyerek ott?</p>
+				<p>- Akkor kellett fogadnom, mikor interveniálni mentem Budára a basához. Mert én
+               tettelek téged főbíróvá, Misi, tudd meg azt. (Az öreg szeme büszke zöldes fényt
+               lövellt.) Az öreg Lestyák legény a talpán, hé… A lurkó, mondom, szükséges volt a
+               mesterséghez, ámbár nemigen veszem észre, hogy csak egy szalmát is keresztbe tett
+               azóta. Még nem volt időm kipróbálni, mit tud. Eddig én csináltam a politikát. Ne
+               nevess, Misi, mert megharagszom. Ezentúl majd te csinálod. Nagyszerű vér ez a
+               Lestyák-vér. De ni, itthon vagyunk már.</p>
+				<p>A szülői hajlék de édes olyankor, ha sokáig nem látja az ember. Kedélyesen pipázik a
+               kürtő, vígan integetnek a vén körtefa megőszült gallyai, künn az udvaron elébe ugrik
+               a Bodri, bent a szobában ráugrik a Cirmos, nevetnek a mázas korsók, ismerős
+               cseréptálak a falon, a bútorok mesélni kezdenek, ropog a tűz a nagy kályhában, s
+               lángsávot vet a barna ajtó aljára, mintha széles aranypánt lenne rajta.</p>
+				<p>Az öreg felsóhajt:</p>
+				<p>- Szegény édesanyád, ha feltámaszthatnám erre az egy napra.</p>
+				<p>Behozzák az ételt, annak a biztató párája nyájasan kóvályog a szülői asztal felett,
+               sürög-forog Erzsi meg a Laci legény; más tányért, élesebb kést. »Szaladj, fiam, a
+               pincébe, de itt legyen az egyik lábad!«</p>
+				<p>- Te meg ülj le, fiacskám, mert tudom, éhes vagy, lecsigázott az a rabkoszt. Ámbár
+               iszen én sem ettem azóta. Azelőtt a nagy búbánatom, most meg a nagy öröm miatt. Úgy
+               éltem én Budán, mint a Toldi Miklós lova. No, csakhogy kiszabadítottalak.</p>
+				<p>- Ibrahim basa derék ember - dohogta a főbíró szórakozottan (idegessé tette a
+               sajátszerű helyzet Cinnával szemben).</p>
+				<p>- Annyiban, édes fiam, hogy dereka van, mert különben kaján kutya az öreg. Eleinte
+               dühös volt rám, kevés híja, hogy én is nem kerültem hűvösre.</p>
+				<p>- Miért?</p>
+				<p>- A cigányleány miatt, ha emlékszel rá. De nem sós tán az a leves? Hozd be a
+               sósbödönt, te Lackó!</p>
+				<p>Laci úgy remegett, mint egy meglóbázott fűzfavessző.</p>
+				<p>- Mi bajod, hm! A fiamtól félsz tán, te bolond? Nem harap ám az azért, hogy nagy
+               úr.</p>
+				<p>- Köszönöm, nem kell a só. Hát a leány végett haragudott Ibrahim?</p>
+				<p>- Hogy, azt mondja, veletek szökött el, és ameddig vissza nem adjuk, vagy ki nem
+               vallom, hol van, engem is bebörtönöztet; hiába esküdöztem a feszületre, hogy a színét
+               se láttam azóta.</p>
+				<p>- Azt ugyan nem okosan tette - mormogott a főbíró. - Hát aztán?</p>
+				<p>- Szerencsére éppen azokban a napokban jött meg a hivatalos tudósítás, hogy a ruháit
+               megtalálták a Tisza partján, később pedig valahol lejjebb a holttestét fogták ki.</p>
+				<p>- Ah! - szólt közbe a főbíró vidáman. - Meghalt a leány?</p>
+				<p>- Ah! - szisszent föl a Laci legény, és leejtette a pecsenyés tálat, melyet az imént
+               emelt le a kályháról, hogy az asztalra adja.</p>
+				<p>A mester indulatosan mordult rá:</p>
+				<p>- Szurok a markodba, te mafla! Vedd fel, aztán kotródj a szemem elől! - De csakhamar
+               elmosolyodott: »Sok csoda esik ma, a holt malacok is elszaladnak.« (Mert a szép
+               ropogósra sült állat egészen az ágy alá gurult.)</p>
+				<p>Laci rákvörösen somfordált az ajtó felé.</p>
+				<p>- Megállj - inté magához a főbíró, s valamit súgott a fülébe. - Most már
+               kimehetsz.</p>
+				<p>- Kell valami? Inkább az Erzsinek szólnék. Ez ügyetlen - szólt a fiú után tekintve -,
+               nem hiszem, hogy sokat konyítson a szabósághoz. Mert nagyszerű mesterség az, fiam,
+               fölséges tudomány, az isten alkotásainak kikorrigálása; a rossz derekat kiigazítom, a
+               lejtős vállakba férfiasságot öntök. Valami az, fiacskám (s a vén szabó föllelkesedve
+               borzolta ritkás kender haját). Kár pedig a kamaszért, olyan szelíd, kedves arca van,
+               hogy bízvást lehetne belőle leány is.</p>
+				<p>- A mai napon semmi sem lehetetlen, édesapám.</p>
+				<p>- Már az igaz, de egyél abból a pecsenyéből, ne restelld, hogy a földre esett. Van
+               még egy kis forgácsfánk is. Nem szereted a fejét, mi?</p>
+				<p>- Eszem már, de ked még mindég nem beszélte el a budai út végét.</p>
+				<p>- Hát mondom, amint megjött a hivatalos tudósítás, jó kedvre szottyant Ibrahim uram,
+               képzelheted, nagyon szorította a szultán; legott küldte fel a haláleset bizonyítékait
+               a padisahhoz, engem pedig magához hívatván, megveregette a vállamat: »Látom - mondá
+               -, hogy igazjáratú emberek vagytok.« (És mi Lestyákok azok is voltunk és vagyunk.)
+               Íme, itt van a fiadat felszabadító parancsolat ingyen. De el ne mondd, kutya, hogy
+               ingyen kaptad, mert megrontasz vele. Így jutottam én a fermánhoz.</p>
+				<p>- Elhamarkodta egy kicsit.</p>
+				<p>- Kicsoda? Én?</p>
+				<p>- Nem. A basa.</p>
+				<p>- Nem értelek.</p>
+				<p>- Hát nézzen oda!</p>
+				<p>A nyitott ajtón kedvesen nevetve, kackiásan himbálózva, belebegett Cinna, a
+               cigányleány; csinos csipkés ingváll volt rajta, piros falú, fekete pettyes karton
+               viganó: az Erzsike ünneplő ruhája.</p>
+				<p>Az öreg Lestyák hátratántorodék.</p>
+				<p>- Erős várunk nekünk az isten! - kiáltá rémülten, és a halántékain hideg verejték
+               gyöngyözött. - A cigányleány! Hess, te kísértet!</p>
+				<p>- Nem kísértet az, édesapám, hanem ő maga.</p>
+				<p>- Vigyen el az ördög, ha hiszem.</p>
+				<p>Kopogás hallatszott az ajtón, mintha az ördög jönne a hívó szóra. Nem biz az. Puszta
+               Máté szenátor uram lépett be Fekete Pál és Permete Gáspár kíséretében.</p>
+				<p>- Isten hozta! Foglaljanak helyet minálunk. Mi járatban vannak kegyelmetek?</p>
+				<p>- Minket a gyűlés küld a nemzetes uram színe elé.</p>
+				<p>- Készséggel hallgatjuk meg kegyelmeteket - mondá a főbíró büszke pluráliszban.</p>
+				<p>Röviden elmondták, a gyűlés mit végzett az ő távozása után: Ágoston uramért követség
+               megy Vácra, ez az egyik (nagyon okosan van); a másik az, hogy a köntöst harminc álló
+               napig közszemlére állítják ki a városházán, megnézheti ingyen boldog, boldogtalan,
+               helybeli, idegen, csak éppen a nagykőrösi ember fizet tíz dénárt. (Ez is igen
+               helyes.)</p>
+				<p>- De a legfontosabb határozat - folytatá Puszta Máté -, hogy áthozattuk Szent Miklós
+               templomából az ereklyetartó láncos vasládát, abban lesz a kaftány elcsukva éjjelre,
+               azontúl nappal is. A kulcsot ím nemzetes uramnak küldi a gyűlés, hogy vigyázzon rá,
+               mint a két szeme világára, s olyan helyen tartsa, hova idegen kéz
+                  el nem juthat.
+            </p>
+				<p>Ezzel átadta a selyemzsinóron lógó kulcsot a főbírónak.</p>
+				<p>- Engedelmeskedem a közgyűlésnek.</p>
+				<p>Átvette, felállt, odalépett Cinnához, és a nyakába akasztotta.</p>
+				<p>- Rejtsd el a kebledre, Cinna.</p>
+				<p>Cinna fülig pirult, s fejéről egy önkéntelen mozdulattal csúsztatta lejjebb a piros
+               olajos kendőt a szemeire; persze, emiatt aztán előbukkant hátul a fiús csitri
+               haja.</p>
+				<p>Puszta Máté uram az ablak felé fordulva ingatta nagy fejét: »Ez hát az a hely, ahová
+               idegen kéz el nem juthat. Szép leánynak hófehér kebele.«</p>
+				<p>A szabó élénken kiáltott fel:</p>
+				<p>- Canis mater! A Laci legény. (A hajáról ösmert rá.)</p>
+				<p>A főbíró mosolygott:</p>
+				<p>- Így van ez, apám uram, ha egyszer a csodák elkezdődnek. Krónika lesz ebből is
+               valamikor: hogy lett a szabólegényből főbíróné.
+            </p>
+				<p>A leány arcán, homlokán a megdicsőülés glóriája ragyogott e szóra, de a Mihály
+               tekintetének delejes, lágy simogatását nem bírta tovább kiállani. Azt hitte, meghal a
+               boldogságtól, kezét szívére tapasztva rohant ki.</p>
+				<p>A szabó felugrott mérgesen, mint egy hörcsög.</p>
+				<p>- Micsoda ármányos játékot űztél velem? Ha nem volnál most Kecskemét város főbírája,
+               mondanék valamit. Ezer szerencséd Miska, ezer szerencséd. S mit jelentsenek furcsa
+               szavaid? Mit akarsz elkövetni?</p>
+				<p>- Elveszem feleségül.</p>
+				<p>- Te, Kecskemét örökös főbírája?</p>
+				<p>- Miért ne?</p>
+				<p>Az öreg búsan horgasztotta le fejét.</p>
+				<p>- A budai basa mind a kettőnket megölet, ha megtudja.</p>
+				<p>- A basa ellen is véd a köntös. Különben Cinnát nem keresik többé, ha egyszer
+               belenyugodtak, hogy a Tiszába veszett.</p>
+				<p>- Majd akad, aki besúgja. De szóljanak már kedtek is, az isten áldja meg, beszéljék
+               le, ne álljanak itt, mint három fadarab.</p>
+				<p>Erre az ösztökélésre Permete Gáspár csakugyan megszólalt, hogy a nemzetes főbíró uram
+               a város leggazdagabb leányaiból választhatna, minden ujjára tizenötöt, de hogy ez az
+               alacsony származás mégse konveniál az ő nagy rangjához.</p>
+				<p>- Beszéd ez csak - szólt Mihály nevetve. - Hátha Cinna az egyiptomi királyoktól
+               származik?</p>
+				<p>- Azt egy kicsit nehéz volna bebizonyítani főbíró uramnak.</p>
+				<p>- Éppen olyan nehéz, mint kegyelmednek az ellenkezőt, hogy nem az egyiptomi
+               királyoktól származik.</p>
+				<p>Permete is nevetett, Puszta Máté is; mert Puszta Máténak az volt a nézete: »Tudja a
+               főbíró, mit miért tesz. Nem kell abba beleszólni.«</p>
+				<p>Fekete Pál azonban a szellemi oldalát vette a dolognak:</p>
+				<p>- Egy főbíróné nem lehet akárki, írásban, olvasásban jártas, minden dolgokban
+               verzátus és okos perszónának kell lennie.</p>
+				<p>- Ej - felelte Lestyák Mihály bosszúsan -, azt mondja a tiszteletre méltó Seneca: az
+               asszonynak elég, ha annyit tud, hogy: ha rácsorog az eső, be kell menni az eresz
+               alá.</p>
+				<p>- Itt ugyan hiába beszélünk - vonogatta a vállait Permete uram, s csendes jó estét
+               kívánva, kihúzta a többieket a szobából.</p>
+				<p>Útközben a három úr három irányban szórta el a Cinna leány regényét. Mondták is
+               mindenütt ma este a tereferélő asszonyok:</p>
+				<p>- Valami varázslatot tett vele, valamit kevert az italába, másképp megfoghatatlan.
+               Olyan okos ember, mekkorát botlik, mégis szörnyűség!</p>
+				<p>De a szapuló asszonyoknál is jobban tetszett az »új esemény« Putnoki Balázsnak. Még
+               azon éjjel útra kelt a budai basához, beárulni, hogy a cigányleány él, elrejtve
+               tartotta Lestyák Mihály, és most feleségül akarja venni. De a budai basával egy
+               kicsit furcsán járt, amint később kisült. Meghallgatta, mondják, figyelmesen, és
+               összeráncolt homlokkal kérdé: »Tehát azt állítod, hogy él?« »Igenis, él.« Intett most
+               a basa a közel álló csausznak: »Vidd ki ezt az embert, üttess a talpára ötven
+               korbácsot, aztán hozd be megint.« Mikor visszahozták, felette nyájas volt Ibrahim:
+               »Nos, még mindég él a leányzó?« »Nem él, dehogy él, kegyelmes basa.« Ibrahim
+               megelégedetten dörzsölte a kezeit: »Tanuld meg, te emberséges ember, akiről én
+               egyszer azt referálom a fölséges szultánnak, hogy nem él, az hatlábnyi mélyen fekszik
+               a föld alatt.«</p>
+				<p>Így járt az áruló Putnoki; hanem az olyan ordas szerencse is ritkaság, mint a Lestyák
+               Mihályé. Verőfényes pompában sütött rá a nap. Hatalma nőttön-nőtt, tekintélye kifelé
+               is szilárdult. Kecskemét kezdett nagy szerepet játszani.</p>
+				<p>A köntös egy hadsereggel ért fel, mely féken tartá az ellenséget. Egy hadsereg,
+               amelynek nem kell mondur és muníció, amelynek nem árthat semmi, legfeljebb a
+               molyok.</p>
+				<p>Bezzeg nem féltek már a kecskemétiek az ellenségtől, sőt inkább nagy kedvteléssel
+               lesték-várták, hogy egy-egy portyázó török sereg beléjök kössön; nagy mulatság volt
+               az a népnek. A főbíró kivonult olyankor pompával a város csődörein; négy hajdú
+               lovagolt előtte, négy utána. A férfiak, nők, gyerekek, néha egész Kecskemét a sereg
+               elé jött élvezni a mámorító jelenetet, amint lehajlanak a török vezérek a
+               köntös-csókolásra, s amint meghajlanak a főbíró előtt: »Uram, mit parancsolsz?«</p>
+				<p>Legendák röpködtek az országban a beszélő köntösről, mindenféle zagyva toldalékkal,
+               hogy a köntös a veszély idején megszólal és tanácsot ad a bíráknak, ha a beteg
+               megérinti, meggyógyul, ha a hajadon vagy özvegy megcsókolja, férjhez megy. Az
+               okosabbak azt állították, hogy a köntös nem valami különös isten csodája; az az
+               egész, hogy a szultán póklábas aláírásával bele van szőve: »Engedelmeskedjetek e
+               kaftány viselőjének.« Maga Lestyák Mátyás uram, aki műértőleg nézegette meg a
+               világhírű ruhadarabot (mert külső országokban is híre van), nagyon kicsinylőleg
+               nyilatkozott:</p>
+				<p>- Nincs ezen semmi különös. Ilyet én is varrok, ha nekidűlök.</p>
+				<p>A kaftány csodaereje bűvös fényt vetett a Lestyák Mihály személyére is. Az ő
+               története, hatalma hasonlóan a legendák színpompázó ruháiba öltözött. Szép csendes
+               estéken őróla mesélgetnek a kunyhókban, száz mértföldre innen. Messze Szeged alatt,
+               míg a halászlegény sajkája lágy csobogással siklik, a szőke habokat hasogatva, ő maga
+               azon mereng: »Vajon mit csinálhat most a kecskeméti főbíró? Arany szalonnát uzsonnál,
+               karbunkulusz késsel…«</p>
+				<p>A beszélő köntös nemcsak azt mondta az ellenségnek: »Takarodjatok el innen
+               Kecskemétről«, hanem a jóbarátnak és a csengő-pengő körmöci aranyoknak meg azt
+               mondta: »Jertek ide Kecskemétre!« Gazdag emberek, nemes urak ide jöttek lakni
+               kincseikkel a »legbátorságosabb« városba, a szülők ide küldözték legszívesebben
+               fiaikat; akkor jelentek meg Kecskemét utcáin először azok a különféle buksi
+               diákfejek, melyek azóta sem fogytak el onnan; az iskola fölvirágzott, a lakosok mesés
+               gyorsasággal gazdagodának.</p>
+				<p>Persze, minden jónak van rossz oldala is. A köntös szülte a sok pénzt, a sok pénz
+               szülte a mindenféle pusztai betyárt és haramiát, akik be-betörtek Kecskemétre
+               rabolni. De minden rossznak van jó oldala is, a betyárok miatt kihirdették a
+               statáriumot, s mivelhogy a megye nem mozoghat szabadon, a vérbírósági jog
+               átruháztatott ideiglenesen a kecskeméti magisztrátusra.</p>
+				<p>Még egy hajszál, és királyi város lesz belőle!</p>
+			</div>
+			<div type="chapter">
+				<head>NYOLCADIK FEJEZET A MÁSIK KAFTÁNY</head>
+				<p>Úr volt már Lestyák Mihály élet és halál fölött, és hogy mint elnöknek még nagyobb
+               tekintélye legyen, a király megküldte neki a nemességet a »kecskeméti« előnévvel.
+               Kaftányos lovag áll a címerpajzson, ezüst mezőben, a kettéosztott pajzs másik felében
+               három aranypólyán egy ágaskodó róka. (Jól kikomponálta azt őfelsége.)</p>
+				<p>Még csak egy hiányzott a teljes boldogsághoz: az esküvő Cinnával.</p>
+				<p>S ennek sem állt útjában senki.</p>
+				<p>Az öreg Lestyák már rég kibékült az eszmével. A kis semmiházi jószág tudott neki
+               kedvében járni, mikor esténkint megsimogatta a tüskés állát, azt hitte, a
+               mennyországban van. De meg szépült is napról napra, kerekebb idomokat kapott, arca
+               olyan lett, mint a barack, aminek vérszíne átveri magát a héján. Nem volt a Kunságban
+               párja.</p>
+				<p>Kedvence, meghitt bizalmasa lett, »menyem«-nek, »lányom«-nak szólította, és sürgette
+               Miskát, hogy siessen - mert bizisten ő veszi el.</p>
+				<p>Miska, amikor valami akadály volt, szinte tombolt a heves türelmetlenségtől, ha nem
+               volt akadály, mindjárt félvállról vette; mindig volt valami szeszélye.</p>
+				<p>Az első határnap akkorra volt kitűzve, ha a szandzsák-basától fermánt eszközöl ki,
+               mert anélkül mégse lehetne. Ámbátor a madár megépíti fészkét, még ha tart is tőle,
+               hogy kegyetlen kezek összedúlják…</p>
+				<p>Megjött a fermán magától; ott volt a Putnoki talpán. Biztos, hogy a leányt sohase
+               háborgatja többé a basa.</p>
+				<p>- Most már esküdhettek, gyerekek! - biztatá őket az öreg.</p>
+				<p>- Várjunk még, míg a Cinna haja megnő - felelte Mihály. - Kurta hajon furcsán venné
+               ki magát a koszorú.</p>
+				<p>Egy év alatt megnőtt a haja, de milyenre! Egy este bizalmas édes suttogás közt
+               kibontotta (mert úriasan viselte most koszorúnak a feje körül), és a Mihály két kezét
+               megkötötte a két tömött varkoccsal, ahogy a rabokét szokás.</p>
+				<p>- Egy megkötözött főbíró! - enyelgett vele pajkosan.</p>
+				<p>Mihály elértette a célzást.</p>
+				<p>- Bizony itt volna az esküvő ideje, már alig várom, Cinna, de jól fölfogva a dolgot
+               nem árt, ha még tanulsz egy ideig, hogy főbíróné lehess, nekem pedig szereznem
+               kellene valamit előbb, hogy egy főbírónét eltarthassak.</p>
+				<p>Ugyanis a főbíró a nagytudományú Molitorisz uramat járatta tanítóul Cinnához, de alig
+               egy félév múlva azt mondta a tiszteletes úr:</p>
+				<p>- Amit én tudtam, azt már ő is tudja.</p>
+				<p>Mihály is összekuporgatott egy kis pénzt addig, de éppen akkor jött a nemesi levél. A
+               szerencse fia nagyobb lábon kezdett élni; a vidéki nemes urak cimboraságot kötöttek
+               vele, eljártak hozzá látogatóba, ő viszont Cinnát elhanyagolta. Egy nemesember nem
+               turbékolhat mindig, mert nevetségessé teszi magát. A nyomorult kutyabőr mintha
+               átalakította volna, mintha csakugyan megkékülne tőle a vére, még szeszélyesebb lett.
+               Beszélték szerteszét, hogy egy Beniczky-kisasszonyt akarnak vele elvétetni, s főispán
+               lenne belőle - Thököly Imrének valamelyik olyan megyéjében, mely a császár kezén van…
+               De ez mind csak pletyka! Maguk a kecskemétiek gyártják, mióta olyan naggyá lett a
+               főbírájuk, hogy Kecskemét már kicsinek látszik hozzá!</p>
+				<p>Oh, hogy fájt a Cinna szíve. Azon a kis falócán a kertben a nagy körtefa alatt, ahol
+               annyiszor suttogtak azelőtt együtt szép nyári estéken, ahol Cinna olyan boldog volt,
+               ritkán ült már Mihály (néha hetekig odajárt az úri kastélyokban), ha eljött is, ha
+               mondott is neki néhány meleg szót, a vége rendesen abban csucsorodott:</p>
+				<p>- Aztán ügyelj a szavadra, Cinna, édes kis galambom, ne beszélj arról a napról…
+               hiszen tudod melyikről; ne mondd soha, hogy te voltál ott… Olaj bég előtt - mert
+               akkor engem elveszítesz.</p>
+				<p>Mintha kést döfnének bele ilyenkor. Az a gyanúja nő, hogy Mihály fél tőle, de nem
+               szereti, csak azért láncolja magához a mátka-gyűrűvel, hogy a hallgatását
+               biztosítsa.</p>
+				<p>Napról-napra szomorúbb lett, a piros rózsák hulladoztak arcáról, a szemeiből kialudt
+               a bódító fény, szelíd borulat váltotta fel. Szép volt ő még így is.</p>
+				<p>Az öreg Lestyák megijedt, hogy beteg; kitalálta, miért beteg.</p>
+				<p>- Ne töprengj. Ne öld magad, kis rezedaszálam. Szeret az téged, ha mondom, meg is
+               esküdne veled mindjárt holnap, ha pénze volna. De ami van is, elkockázza a Fáyakkal,
+               Beniczkyekkel. Ösmerem én Misit, tele van hóborttal, de a szíve becsületes. Hiszen
+               persze hogy itt nálam is elélhetnétek, szegényesen, de tudod, milyen a bolond, ha
+               úrhatnámja van, még a szamócát se eszi meg, bár éhes, ha nem teheti ezüsttányérra.
+               Miska pedig éppen ebben a nyavalyában szenved most. Hagyjuk, míg jóllakik a címerbeli
+               rókájával. Vagy őt eszi meg a róka, vagy ő a rókát. Általában ezek a különféle
+               állatok a nemesi címerekben nagyon sokat esznek, Cinna fiam.</p>
+				<p>Cinna sóhajtott ilyenkor; nem volt az ő sebére balzsam a sok szép szó.</p>
+				<p>- Ne sóhajtozz, mosolyogj már egy kicsit, mint azelőtt; hiszen ha szólhatnék, tudnék
+               én mondani olyat, hogy táncra perdülnél.</p>
+				<p>Titokzatosan hunyorgatott, dünnyögve biztatta magát: »Pszt, Mátyás, ne járjon el a
+               szád, Mátyás!«</p>
+				<p>Mi lehetett az a titokzatos dolog, Cinna el nem bírta gondolni. Mindössze egy
+               körülmény volt feltűnő, néhány nap óta két idegen úri ember járogatott Lestyákhoz;
+               este későn jöttek, majdnem lopva, sokáig súgtak-búgtak a hátulsó szobában
+               bezárkózva, és az öreg sohasem említette, kik és mit akarnak, hanem elmélyedve,
+               begombolkozva járt-kelt az övéi közt.</p>
+				<p>Végre egy este, aznap, mikor végképp elmaradtak, vidáman vette ölébe a Cinna fejét,
+               és a nagy fekete hajában babrált. (Kedvenc mulatsága volt ez őkegyelmének.)</p>
+				<p>- Örülj, Cinnus, örülj! Megjött már a te napod is. Most már meglesz az a lakodalom,
+               aki lelke van; olyan kelengyét csináltatok neked, hogy a Fáy-kisasszonyokat kiveri
+               tőle az irigység szeplője. Nevess no, Cinna, mert annyi pénzed van, hogy a kis
+               gyerekeid, ha lesznek (nem kell ám azért pirulni, mit szégyenled az unokáimat!),
+               aranyakkal fognak gurigázni.</p>
+				<p>Az öreg egy csomó aranyat markolt ki a zsebéből, megvillogtatva Cinna előtt.</p>
+				<p>- Hol vette azt a rengeteg kincset? - hüledezék a leány.</p>
+				<p>- Mi ez még a többihez képest? Ide vigyázz, gyerekecském, mindent elmondok neked.
+               Érted teszem egyrészt, amit teszek, mert tudom, hogy Miska pénz nélkül el nem vehet.
+               Egyrészt mondtam, igenis, mert a magam hiúsága szintén belejátszik. Én egy alkotást
+               akarok hagyni magam után, hogy ezer év múlva is emlegessék a szabók: »Élt valamikor
+               egy Lestyák Mátyás nevű ember, az csinálta ezt a ruhadarabot.«</p>
+				<p>- Még csak nem is sejtem, miről van szó.</p>
+				<p>Az öreg suttogva folytatá:</p>
+				<p>- Két idegen ember jött hozzám e napokban, hiszen láthattad őket, egy kicsiny tömzsi
+               és egy Góliát. Egy város nevében jöttek, de hogy melyik nevében, előttem is
+               elhallgatták. Nem kérdeztem, egyre megy, akármelyik. Fölkerestek, mondom, és így
+               szóltak: »Mester! szabók szabója, minden szabók között a legnagyobb! Azért kerestünk
+               fel, hogy gazdaggá és halhatatlanná tegyünk.« - »Mit akartok?« - »Varrj nekünk egy a
+               Kecskemét városáéhoz hasonló kaftányt, de hogy azzal tökéletesen egyezzék, mint két
+               tojás vagy két búzaszem; képes vagy-e rá?« »Az én tűm mindent megvarr - feleltem -,
+               amit az én szemem meglát.«</p>
+				<p>Cinna fázékonyan bújt az öreg szabóhoz.</p>
+				<p>- És mibe állapodtak meg?</p>
+				<p>- Megalkudtunk. Sok huzavona után megalkudtunk, ötezer aranyat fizetnek, ötszázat
+               előre adtak. Mind a tied lesz, gyerekecském.</p>
+				<p>- De meg tudja-e úgy varrni?</p>
+				<p>- Én? (És a szemei kigyúltak.) Menj, te bohó. Hát minek tartasz engem? Egy remekmű
+               lesz, ha mondom.</p>
+				<p>- De nem lesz-e valami baj? - kérdé a leány félénken.</p>
+				<p>Az öreg nevetett.</p>
+				<p>- Mi baj lehetne? Hát annak a bizonyos városnak is lesz egy kaftánya, ez az egész.
+               Meg az, hogy a török, aki most talán kétszáz várost rabol, harácsol, kénytelen lesz
+               beérni százkilencvenkilenc várossal. Éhen azért nem hal.</p>
+				<p>- Igaz, igaz - szólt Cinna szórakozottan.</p>
+				<p>- Te majd ideadod a kulcsot, kis menyem, nem kell arról soha senkinek tudni e
+               világon, körülnézegetem, kitanulmányozom a kaftányt, megvarrom a párját gyorsan, mint
+               a karikacsapás, s olyan lakodalmat csapunk, mint a pinty; bizony szeretném már
+               táncban látni azokat a piskóta lábaidat.</p>
+				<p>Úgy megterveztek apróra mindent, milyen lesz a menyasszonyi ruha, milyen lesz a
+               koszorú, a cipellő, hogy adnak oda Mihálynak az ötezer aranyból négyezret: »Itt van,
+               ne mondd, hogy a feleséged semmit sem hozott.« Erre ő megkérdi: »Hol vettétek?« Erre
+               mi azt mondjuk: »A lyukas hídon találtuk.« Végre kigondolnak egy örökségi mesét, s
+               elkezdődik a soha meg nem szűnő boldogság.</p>
+				<p>Cinna víg lett, nevetett, még a kezecskéivel is tapsolt, annyira tetszett neki a
+               jövendő képe abban a szivárványos tükörben, amit Lestyák elébe tárt.</p>
+				<p>Másnap a vén szabó hozzáférkőzött Cinna kulcsa révén a városházbeli vasládához,
+               körülnézegette még egyszer a kaftányt, aztán elindult Szegedre, hol előkelő török
+               kereskedők voltak, megvásárolta a finom sötétzöld bársonykelmét, a skófiumot, a
+               sújtást, a paszomántot, a bélésre való medvebőrt. S mikor minden anyagot beszerzett,
+               a teremtő elmék lázas mohóságával hozzálátott a munkához.</p>
+				<p>Nem volt az tréfadolog. Minden este elhozta titokban köpönyege alatt a kaftányt,
+               hajnalban visszavitte. A főbíró szobájába szabad bejárata volt; föl se tűnt senkinek;
+               hátha a főbíró maga küldé valamiért?</p>
+				<p>Estétől hajnalig dolgozott hátulsó szobájába bezárkózva, egy művész ihletével és
+               szenvedélyével. Néha felköltötte Cinnát, és megmutatta az egyes darabokat, amint
+               fölvenni kezdték a fölséges minta formáit. Szeme lángolt, homloka izzó volt,
+               orrlyukai ziháltak, a hangja a gőgtől rezgett. »Nézd ezt az elejét, ez itt a
+               gallérja, ez az ujja!«</p>
+				<p>Hát még mikor tizenöt nap múlva elkészült a másolatkaftány, az utolsó öltésig, s
+               végigtekintvén művén, szíve megtelt édes érzésekkel: »Lehetséges-e tökéletesebb
+               alkotás ennél?«</p>
+				<p>Éppen éjjel volt. A kakasok kukorékoltak. A szabó kihajolt az ablakon. Éjfélre
+               rendelte oda embereit, kik a környéken lappangtak addig, míg ő a köntöst varrta.</p>
+				<p>A kakasoknak Bodri kezdett felelgetni a vakkantásaival, ami azt jelentette, hogy
+               idegen emberszagot érez.</p>
+				<p>Csakugyan jöttek. A szabó beeresztette őket.</p>
+				<p>- Nézzetek oda!</p>
+				<p>A csodálkozás fölkiáltása hangzott ajkaikról.</p>
+				<p>Két aranyos kaftány volt kiterítve az ágyon, olyan egyforma, mint két tojás, mint két
+               búzaszem.</p>
+				<p>- Mit szóltok ehhez? - kérdé a mester.</p>
+				<p>Az egyik azt mondta: »Csakugyan te vagy a szabók szabója, a legnagyobb szabó a
+               világon« - a másik nem szólt semmit, csak fogta a nagy tüszőjét, és egy garmada
+               aranyat öntött ki az asztal közepére.</p>
+				<p>- Éppen négyezerötszáz darab. Olvasd meg mester, ha nem hiszed!</p>
+				<p>- Olvassa meg a kutya! Nem a pénzért dolgoztam, hanem a dicsőségért.</p>
+				<p>- Melyiket vigyük? - kérdé a Góliát a két kaftányra mutatva. - Melyik a mienk?</p>
+				<p>Lestyák habozva állt meg a két ruhadarab mellett.</p>
+				<p>»A magam munkáját adjam oda? Ne lássam többé? Elviszik isten tudja merre, és nem
+               tudom meg soha a szereplését. Kínos bizonytalanság emészt fel, hogy mi lett vele. Nem
+               látom a törököt, aki leborul a szegélyét összecsókolni, és aki akkor előttem, az én
+               művészetem előtt borul le? Nem nem! A siker biztos. A munka tökéletes. Látni akarom,
+               fürödni akarok a dicsőségben.«</p>
+				<p>- Ej, hát mért nem mondja már, melyik az új? - türelmetlenkedett a Góliát.</p>
+				<p>- Miért kérdi kelmed éppen az újat?</p>
+				<p>- Mert tudom, hogy azt adja ide.</p>
+				<p>Lestyák sértődve pattant fel.</p>
+				<p>- Nem… nem - hebegte tompa, rekedt hangon -, azért is vigyétek el a régit… az igazit.
+               Az új… az új megmarad Kecskemétnek.</p>
+				<p>A Góliát sietve gyúrta a köpönyege alá.</p>
+				<p>Egyet csikordult a retesz. A két alak eltűnt az éjhomályban, örökre.</p>
+				<p>Az öreg lefeküdt, de üdítő álom nem jött szemeire. Gonosz víziók gyötörték. Az
+               aranyak, melyeket egy szakajtóba söprött, és az ágy alá dugott, elkezdtek vékony
+               póklábakon fölfelé mászni a falon. »Ne, te ne, másztok le, vissza mindjárt!« Az egyik
+               közülök a mellére ugrott, ott járt őrült táncot. »Ejnye, megállj, megfoglak!«
+               Kapkodott utána, de lehetetlen volt elcsípni, pedig a hideg lábai szúrták,
+               borzongatták, mint valami jéghegyű gombostűk, hogy megvacogott a foga tőlük. Majd
+               úgy rémlett előtte, hogy az ördöngös aranyat megfogja egy vigyorgó sátán, katlan izzó
+               tüzén hirtelen megolvasztja, a fülébe önti, és a forró folyadék ömlik, nyargal az
+               ereiben, feszíti a halántékait. S míg vére lázasan forr, a szobagerendák repedéseiből
+               rémes hangok kelnek: »Lestyák Mátyás, mit cselekedtél, jaj, mit cselekedtél!«</p>
+				<p>Felugrott, felöltözött, fejét a hűs ablaktáblához nyomva várta be a reggelt. Nagy
+               lelki nyugtalanságot érzett, de magának se merte bevallani. Ej, iszen minden rendben
+               van. Biztos a dolog, egészen biztos.</p>
+				<p>Elvitte a kaftányt a városházi vasládába, aztán a Cinna hálókamrájába nyitott be,
+               átadni a kulcsot, és a fülébe súgni gyöngéden:</p>
+				<p>- Minden jól van, szívecském; ott nyerít már az ágy alatt a négyezer sárga csikó. Van
+               már mit fogni a lakodalmas szekér elé.</p>
+				<p>De hiába erőltette a nyugodt hangot, feldúlt arca ellentmondott annak. Nem találta
+               sehol a helyét. Mint a szédült légy ődöngött ide-oda; míg végre hirtelen
+               elhatározással betoppant a fiához, ahol már ott találta Pintyő hajdút egy
+               levéllel.</p>
+				<p>A főbíró kitűnő színben volt, ragyogott az arca az életkedvtől. Éppen most végezte be
+               öltözését. Az is egészen más, mint azelőtt; nemes úrhoz illő; dolmány helyett
+               hasított ujjú atilla, a hasadékban meggyszín selyembetéttel.</p>
+				<p>- Jó reggelt, apám uram! Mi az újság?</p>
+				<p>- Meg akarlak kérni valamire.</p>
+				<p>- A kecskeméti főbírónak csak egy ember parancsol Kecskeméten.</p>
+				<p>- Már mint én…</p>
+				<p>- Eltalálta ked. Nos, mit parancsol?</p>
+				<p>- Csekélység, egy kis szeszély. Ha legközelebb ellenséges csapat lesz Kecskeméten, én
+               szeretnék elibük menni a kaftányban.</p>
+				<p>- Teringette, nem utolsó mulatság. És nekem is kapóra jő, mert ma úgyis mást kellett
+               volna küldenem.</p>
+				<p>- Van valami? - kérdé a szabó mohón.</p>
+				<p>- Kara Musztafa nagyvezér egyik csapatja fekszik a Talfája alatt, éjfél óta. Belgrád
+               alól mennek Kékkő alá, és élelmiszerekért üzentek be hajnalban. Éppen az ő levelüket
+               hozta most Pintyő. Persze nem adunk.</p>
+				<p>- Pompás! - rikkantott fel nekividulva. - Én megyek eleibük!</p>
+				<p>- Nagyon jól van. Pintyő, nyergeltessen apámnak egy hátaslovat!</p>
+				<p>- Melyiket? A Büszkét?</p>
+				<p>- Talán jobb lesz a Rárót, az jámborabb. Ma nem mehetnék magam, sok dolgom van,
+               törvényszéket tartunk. Képzelje, apám uram, ki a panaszos. Nem kisebb személy, mint a
+               kalgai tatár szultán. Egy falka birkáját hajtották el duhaj kecskeméti legények a
+               félegyházi határból, és a négy tatárt, aki őrizte, agyba-főbe verték. Egy meg is
+               holt.</p>
+				<p>- Felfordított világ!</p>
+				<p>- A legszebb benne - folytatá a főbíró széles gyönyörűséggel - a Kecskemét nimbusza,
+               hogy immár a kalgai szultán a mi törvényeink szerint kér orvoslást, ahelyett, hogy
+               elégtételt venne magának a saját szeszélyei szerint. Ezt se csinálta más, csak a
+               köntös. De hohó, várjon csak Pintyő, majd elfelejtettem. Mindenekelőtt menjen kend a
+               piacra, és fogjon négy bírónak való személyt, lehet köztük török is, ha akad.</p>
+				<p>A vásár első napja volt (mert mióta a kaftány megvan, Kecskemét is visszakérte I.
+               Lipóttól a vásárait), az öreg Pintyő bekukkantott a sátrak alá, utánaszaladt a jó
+               bekecsű embereknek, s ha valamely tekintélyes perszónát megcsípett Szegedről vagy
+               Halasról, szajkó módjára darálta el a formulárét:</p>
+				<p>- Nemes nemzetes és vitézlő Lestyák Mihály uram, Kecskemét város főbírájának nevében!
+               Adassék tisztelet kegyelmednek nagy jó uram, s ne legyék terhére átfáradni a mi
+               szerény székházunkba, ottan bölcsen és igazsággal, mint illendő, törvényt látni a mi
+               népeink felett. Az engedelmetlenség nem javaltatván!</p>
+				<p>Csakhamar megfogta a szegedi Börcsök Pált, nótáriusságot viselt embert, Szentesről a
+               nagyeszű Balogh Ferencet; ott találta a Laci-konyhán már a hatodik
+                  gombnál
+               [4] (de jó lesz ő még így is). Úgyszintén becitálta a
+               ceglédi mézeskalácsost, Korda Istvánt, és mivelhogy a főbíró uram törököt is mondott,
+               magával hozta a nagyszakállú Mollah Cselebit Budáról, aki asztrakán prémeket árult,
+               és a poklok mélyére kívánta az olyan várost, ahol kötéllel fogják a kádit.</p>
+				<p>Ekképpen végezvén a dolgát, bement a városház istállójába, megvakarta, kifésülte a
+               Rárót, megetette egy kis zabbal, aztán rácsatolván a nyerget, átüzent Lestyákékhoz,
+               hogy az öreg úr jöhet már.</p>
+				<p>Lestyák Mátyás uram virgonc léptekkel sietett a városházára, hol már össze volt
+               gyűlve a fogott bíróság, kikhez azonfelül két ítélő szenátort osztott be a főbíró,
+               Porosznoki Gábort és Ágoston Kristóf uraimékat, ő maga elnökölvén hetediknek.</p>
+				<p>Meglátva édesapját, elküldte Pintyőt a város pecsétjével Cinnához a kulcsért, aztán
+               kiemelvén a köntöst a vasládából sajátkezűleg, két ott álló szenátor rásegítette az
+               öregre. Ez volt a hivatalos ceremónia.</p>
+				<p>- Menjen kend isten hírével!</p>
+				<p>Künn hetykén rakta be lábait a kengyelbe, mellét kidüllesztvén, fejét hátravetette
+               daliásan, mint egy igazi levente.</p>
+				<p>Az idegen vásárosok kíváncsian futottak össze, látni a hatalmas főbíró apját, kinek
+               vézna tagjain a tavaszi szélben csillogva hullámzott a világhírű köntös.</p>
+				<p>A kecskeméti cívisek mosolyogva emelgették előtte a kalapjaikat: a gyerekek harsányan
+               kiáltozák:</p>
+				<p>- Vivát, vivát, Lestyák bácsi!</p>
+				<p>Némelyek irigykedve suttogták:</p>
+				<p>- Boldog apa, boldog ember!</p>
+				<p>Valóban boldog volt most. Tele tüdővel szítta be a balzsamos levegőt. A Ráró kevélyen
+               ficánkolt alatta. A házak előtti kis kertekből nyíló jázminok és liliomok nevettek
+               rá, a saját ablakukból Cinna integetett neki fehér kendővel.</p>
+				<p>Minden nyugtalansága elmúlt, se bágyadt nem volt, se izgatott. A katona csataelőtti
+               trémája megszűnik a csatában. S ő most ott volt, a tűzben volt, szinte hallani vélte
+               a levegő halk rezgésében láthatatlan trombiták vérpezsdítő harsogását: »Előre, fel a
+               diadalra!«</p>
+				<p>Míg az ő alakja eltűnt az út porában, a szenátorok és a főbíró ezalatt nyugodtan
+               ültek a fogott bírák közt, hallgatván a tényálladékot a kalgai szultán birkanyájainak
+               elhajtásáról, a tanúk és a vádlottak nagy feneket kerítő unalmas előadását. A sok
+               zagyva beszédbe nem ritkán vegyült egy-egy ásítás is a tekintélyes szájakból. Az
+               ugyan egy csöppet sem infesztálta őkegyelmeiket, hogy a város előtt zsaroló éhes
+               ellenség áll. Csigavér! Az ellenség most csak éppen olyan közönséges »folyó ügy«,
+               mintha egy megdühödt tojásáruló kofát kell a piacon ráncbaszedni. Ehhez egy ember
+               kell, meg egy mogyorófabot, amahhoz pedig szintén egy ember, meg egy köntös.</p>
+				<p>Csak a főbíró uram feszengett a széken kényelmetlenül, mióta a teremben megjelent a
+               kalgai szultán képviseletében Olaj bég, s körülhordozván héjatekintetét az érdemes
+               bírákon, megütődve kérdé, melyik legyen közülök a híres főbíró: Lestyák Mihály - mire
+               Ágoston Kristóf uram odamutatott könyökével az asztalfőre.</p>
+				<p>- Nem lehet az - mormogta Olaj bég élénk fejrázással.</p>
+				<p>- Pedig én vagyok Lestyák Mihály - bizonykodott a főbíró fojtott, érctelen
+               hangon.</p>
+				<p>A nagy termetű bég bosszúsan mordult fel.</p>
+				<p>- Vagy az én szemem káprázott harmadfél év előtt, mikor táboromban találkoztunk, vagy
+               a kelmed feje cserélődött ki azóta.</p>
+				<p>- Öregszik az ember, hiába.</p>
+				<p>- Egyébiránt levelet hoztam kegyelmednek.</p>
+				<p>A levelet a kalgai szultán írta, majdnem mézes náddal:</p>
+				<p>»Édes fiam, vitéz Lestyák Mihály! Büntesd meg, kérlek, e gonosz farkasokat, mert ha
+               elrettentő példát nem szolgáltatsz, hidd meg, embereid még a turbánomat is lelopják a
+               fejemről. Szeretném, ha egy kosár fejet küldenél (a tolvajokból kitelik kettővel is).
+               Régen nem gyönyörködtem már levágott kecskeméti fejekben.</p>
+				<p>Emberemet, Olaj béget, aki megadja nektek a szükséges felvilágosításokat, nagy
+               tisztességben lássátok,</p>
+				<p>maradok a te hatalmas urad</p>
+				<p> és barátod a krimiai vice-kán</p>
+				<p> (kalgai szultán).«</p>
+				<p>Lestyák zavartan, szórakozottan futotta át a levelet, aztán odatolta sorba a
+               bíráknak, hadd lássák, vigyék szét hírét, hogy a kecskeméti főbíróval milyen
+               szőrmentében beszélgetnek a potentátok.</p>
+				<p>Eközben fülig vörösödve vette észre az Olaj bég vizsga, fürkésző tekintetét, mely még
+               mindig rajta nyugszik.</p>
+				<p>Tűkön ült, kellemetlen érzések közt, ehhez járult az órákig tartó vallomásözön, a
+               terembeli gőz; a szédület környékezte már, s éppen átadni készült az elnökletet
+               Porosznokinak, körülbelől déltájban, midőn a rémület ordítása hangzott, hömpölygött
+               az utcákon, mindig közelebb-közelebb, megreszkettetve az ablaktáblákat.</p>
+				<p>A bírák megriadva rohantak az ablakhoz, és holtra sápadva tántorodtak vissza.</p>
+				<p>A Ráró nyargalt szilajan, megvadulva a városház felé, rajta ült odakötözve az öreg
+               Lestyák a kaftányban - de fő nélkül.</p>
+				<p>A csonka, kísérteties törzsből a vér csepegett. A paripa, a kaftány befecskendezve
+               piroslott messziről.</p>
+			</div>
+			<div type="chapter">
+				<head>KILENCEDIK FEJEZET AZ ÍTÉLET NAPJA</head>
+				<p>Porosznoki minden hajaszála az égnek meredt.</p>
+				<p>- Irtóztató!</p>
+				<p>A főbíró leborult az asztalra és zokogott.</p>
+				<p>- Megfoghatatlan! - jegyzé meg Olaj bég, midőn megmagyarázták neki, hogy az öreg
+               küldetésben volt a nagyvezér egy csapatjánál a kaftányban.</p>
+				<p>Ágoston uram a főbíró bánata körül ügyeskedett.</p>
+				<p>- Jöjjön, nemzetes uram. Oszlassuk szét a törvényszéket. A kötelesség határait is
+               túlhaladja a nagy fájdalom, mely érte.</p>
+				<p>Mihály összerázkódott, és kitörülte szemeiből a könnyeket.</p>
+				<p>- Erős vagyok. Egy tapodtat se megyek, míg bosszút nem állok apámért. Ezt nem a török
+               táborban cselekedték.</p>
+				<p>Legott megparancsolta, hogy a holttestet vigyék haza, mossák meg, s két lovas drabant
+               rohanjon a vérnyomok irányában, míg ráakad a fejre és a bűn nyitjára.</p>
+				<p>- A kaftányt húzzátok le a testről - pótolá a rendeletet Porosznoki - és hozzátok
+               fel.</p>
+				<p>Kis idő vártatvást sírva hozta Pintyő a véres öltönyt. Olaj bég és Mollah Cselebi
+               felugrottak, hogy a szegélyét megcsókolják, de közelérve hozzá, elfintorítá rút arcát
+               a bég:</p>
+				<p>- Allahra mondom, ez nem az igazi kaftány! Hiányzik róla a Sejk-el-iszlam jegye.</p>
+				<p>Mollah Cselebi összetette mellén kezeit, és kenetesen ismétlé:</p>
+				<p>- Ez nem a szent ruha!</p>
+				<p>A kecskeméti polgárok, akik ott ültek a hallgatóság közt, megdermedve néztek a
+               főbíróra.</p>
+				<p>- Árulás! - kiáltá Ágoston Kristóf.</p>
+				<p>Kriston Ferenc felugrott a tanúk padjáról, és a főbíró elé állt:</p>
+				<p>- Adjon számot! A kulcs kegyelmedre volt bízva!</p>
+				<p>- Semmit se tudok - szólt a főbíró ingerülten. (Olyan volt, mint a vas; keményebb, ha
+               verik.)</p>
+				<p>- Milyen csapás, milyen csapás szegény Kecskemétre! - tördelte kezeit Porosznoki.</p>
+				<p>Mint elhajított parittyakő, úgy zúgtak a hangok a levegőben: »Halál a bűnösre!«</p>
+				<p>- Úgy van! Én is ki fogom azt mondani.</p>
+				<p>Rakoncátlan közbeszólások röpködtek.</p>
+				<p>- Nem az elnöki székben van a helye, de a vádlottak padján.</p>
+				<p>- Csend! - kiálta a főbíró, indulatosan csörtetvén meg kardját, mely, mióta nemes
+               lett, keresztbe fektetve szokott előtte állni az asztalon. - Itt ülök az elnöki
+               székben, és itt maradok. Meglátom, ki mer pisszenni, ha Kecskemét város főbírája
+               csendet parancsol.</p>
+				<p>A temetőkön van olyan borzalmas némaság, mint itt beállt.</p>
+				<p>- Ki az a félkegyelmű, aki rám öltögeti a fullánkját? Ha tudtam volna, hogy a köntös
+               nem az igazi, nem küldtem volna benne tulajdon édesapámat. A dolog megfoghatatlan.
+               Istennek tetszett új megpróbáltatást mérni Kecskemét városára, de ne rendüljünk meg,
+               mert bármi történjék, a kormányzó kéz meg nem állhat. Azért is ugorjon fel Kriston
+               szenátor uram, de rögtön, és vigye ki Talfája alá a törököknek a kívánt sarcot, hogy
+               két bajból három ne legyen…</p>
+				<p>Kriston rögtön indult, de még mielőtt az ajtóhoz ért volna, kinyílt az nagy robajjal
+               és berohant Cinna. Fehér volt, mint a liliom, járása imbolygó, tétova… Szép szemeiből
+               ömlöttek a könnyek.</p>
+				<p>- Mit akarsz itt? - riadt rá a főbíró, szemöldíveit összevonva. - Menj haza
+               sírni!</p>
+				<p>- Itt az én helyem!</p>
+				<p>És térdre roskadt. Piros, alul csipkézett szoknyája, olyan, mint a mák virágharangja,
+               felcsúszott kissé, s látni lehetett az ingerlő formás bokákat.</p>
+				<p>Olaj bég vigyorogva rúgta ki maga alól a széket.</p>
+				<p>- Ez az, ez az! Lestyák Mihály uram, nézze csak meg. Ez a leány volt nálam a táborban
+               egyszer a kelmed képiben. Sohse lássam Mekkát, ha nem igaz.</p>
+				<p>Porosznoki és Ágoston uraimék mereven szegezték szemeiket a főbíróra, aki látható
+               zavarba jött, fülig vörösödött. Ez volt a gyenge oldala. Azontúl veszteni kezdé az
+               erélyét.</p>
+				<p>Cinna búsan rázta a fejét:</p>
+				<p>- Sohase láttalak, jó ember.</p>
+				<p>A főbíró hálásan nézett rá, mintha mondaná: »Még egyszer visszaadtál magamnak«, majd
+               a foga közt sziszegte: »Minden dől, omlik, minden el volt hibázva.«</p>
+				<p>- Mit akarsz, gyermekem? - kérdé most a szentesi Balogh Ferenc. - Mért nem kelsz
+               fel?</p>
+				<p>A leány melléből fuldokló, görcsös zokogás tört ki.</p>
+				<p>- Én vagyok mindennek az oka. Én vagyok a vétkes.</p>
+				<p>- Ugyan miben, te szelíd bábu? - cincogta a ceglédi mézeskalácsos.</p>
+				<p>- Én adtam oda a vasláda kulcsát Lestyák Mátyásnak, kihez idegen városból emberek
+               jövének, hogy varrjon nekik egy, a mienkhez hasonló kaftányt ötezer aranyért.</p>
+				<p>Haragos, vészjósló moraj követte e szavakat. A főbíró elfordítá sápadt arcát a fal
+               felé. Ilyen csapásra nem volt elkészülve.</p>
+				<p>- Hogy vetemedhettél erre? - fortyant fel Porosznoki. - Légy őszintén szánó-bánó; a
+               nyíltság enyhíti a bűnt.</p>
+				<p>Cinna szívére szorította kezét, hosszú selyempillái lezáródtak. Azt hitte, elsüllyed
+               szégyenletében, de csak mégis el kell azt mondani ebben a szomorú órában.</p>
+				<p>- Mert szeretek, szeretem Lestyák Mihályt, jobban, mint az életemet, jobban, mint a
+               városomat. Az öreg nekem szánt az aranyakból négyezret, hogy fia, kivel harmadfél éve
+               vagyok mátkaságban, nőül vegyen. Eddig is csak azért nem tette, mert mind a ketten
+               szegények vagyunk. Hittem a szavainak, átadtam neki a kulcsot.</p>
+				<p>Halovány arca kipirult, fehér liliomból rózsa lett még egyszer, de csak egy fél
+               percre.</p>
+				<p>- Milyen eset! milyen eset! - óbégatott Ágoston uram. - Bár csak maradtam volna
+               holtig Vácon.</p>
+				<p>- Nos, aztán? - sürgeté Porosznoki.</p>
+				<p>A főbíró görcsösen fogta a szék támláját, a világ forgott vele, szemei előtt mint
+               apró ördögök gúnyosan táncoltak azok a gömbölyű betűk, mik a nótárius tolla alatt
+               nagy szaporasággal kölykeztek a protokollum papírján. Ajkait vérig harapta: »Oh csak
+               még most, csak még most egy fél óráig ne mutassak gyengeséget.«</p>
+				<p>- Azután? - vette át a szót Cinna meggyötörve, elhaló hangon. - Igen, azután. Mi is
+               történt csak? (Kezével megdörzsölte márványsima homlokát.) Bejárt a városi vasládába,
+               éjszakára hazahozta a kaftányt mintának, és varrt egy másik hasonlót. Az elmúlt éjjel
+               vitték el a megrendelők.</p>
+				<p>- Minden világos - dünnyögte Porosznoki. - Büszke, hetvenkedő mester volt, azt hitte,
+               mutatni akarta, hogy mindegy. S ma azért húzta fel magára, hogy élvezze remekművének
+               hatását.</p>
+				<p>- És kik voltak a megrendelők? - kérdé a szegedi Börcsök. (Gondolta magában: »Nem-e a
+               mieink voltak?«)</p>
+				<p>- Nem tudom - felelte Cinna. - A megboldogult se tudta. Titokban ment az egész.
+               »Messzeeső város«, nekem azt mondotta.</p>
+				<p>- Arra a városra rá kell találnunk - vélte Ágoston uram szomorúan.</p>
+				<p>- Megtaláljuk - szólt csendes, tompa hangon a főbíró. (Ez volt az első szava a
+               vallomás alatt.)</p>
+				<p>- Az akkor lesz, ha lesz - felelt fel a hallgatók padjáról Permete uram kesernyésen
+               -, de most legyen kegyelmed, ha tud lenni, férfi az ítéletnél.</p>
+				<p>Mintha nyargaló friss vért eresztett volna az ereibe Permete uram. Őt, Lestyák
+               Mihályt biztatják arra, hogy férfi legyen.</p>
+				<p>Szeme villámló szikrát vetett.</p>
+				<p>- Az leszek - szólt zordonan, kihúzván a zsebéből egy pecsétes dekrétumot.</p>
+				<p>Felkelt, ünnepélyesen kezdé olvasni:</p>
+				<p>- Mi Első Leopold, isten kegyelméből ausztriai császár…</p>
+				<p>Hangja elfúlt, hörgővé lett, kezeit reszketegség fogta el; levegő után kapkodva
+               nyújtá át a dekrétumot Ágostonnak:</p>
+				<p>- Olvassa fel kegyelmed! - majd bágyadtan hozzátette: - Hiszen én is csak ember
+               vagyok.</p>
+				<p>De mintha csakhamar megröstellné, amit mondott, odaszólt Pintyőnek:</p>
+				<p>- Ki kell az ablakokat nyitni! Rosszul lettem… a fullasztó levegőtől.</p>
+				<p>Ágoston uram eközben felolvasta a király dekrétumát, mely tolvajlási és árulási
+               bűnökre Kecskemét területére a statáriumot hirdeti ki, Kecskemét hatóságát ruházván
+               fel a vérbírósági joggal.</p>
+				<p>- Következik a szavazás!</p>
+				<p>Porosznokié volt az első vótum:</p>
+				<p>- E hajadon elárulta a várost. Én pallos általi halálra ítélem.</p>
+				<p>Utána Börcsök uram szavazott:</p>
+				<p>- Pallos! - mondá röviden.</p>
+				<p>Mollah Cselebi így szólt:</p>
+				<p>- Szerelemből tette. Nem bűnös!</p>
+				<p>Balogh Ferenc uram következett:</p>
+				<p>- Nem tudta, hogy halálos veszedelem származik belőle a városra. Kövessen
+               eklézsiát!</p>
+				<p>Oly csend volt, hallani lehetett a szívek dobogását, egy ablakon beosont pillangónak
+               a vergődő röpködését. Két szavazat a halált kívánta, a másik kettő meghagyta az
+               életet.</p>
+				<p>A ceglédi mézeskalácsosra került a sor; sokáig gondolkozott, üstöke csapzott az
+               izzadságtól.</p>
+				<p>- Elég lesz egy kis börtön - nyögte ki nagy nehezen.</p>
+				<p>Szabadon lélegzettek fel, akiknek szívét a szánalom himbálta a leány mentségei felé,
+               akik nem akarták, hogy ezt a gyönyörű fehér nyakat a hóhérbárd ketté szelje.</p>
+				<p>Ágoston uram volt még hátra.</p>
+				<p>- Halál reá! - süvíté ridegen.</p>
+				<p>Megint egyformán álltak a szavazatok. Az elnöknek kell dönteni. Milyen borzasztó
+               jelenet.</p>
+				<p>A főbíró felállt, bámulatos lelkierővel szedhette össze magát; ruganyosan
+               egyenesedett ki deli termete, kezébe vette a kardja mellett heverő pálcát nyugodtan,
+               csöndesen és megcsavarta.</p>
+				<p>A pálca egyet reccsent: el volt törve.</p>
+				<p>- Halál! - ejté ki tisztán, hallhatón.</p>
+				<p>A leány rémülten tekintett rá, és egy velőthasító sikollyal összeesett.</p>
+				<p>A hallgatóság soraiból pisszegés hallatszott, éljenekkel vegyesen.</p>
+				<p>- Mégis nagy ember! - súgták egymásnak a kecskemétiek.</p>
+				<p>- Rossz ember! - morogta Mollah Cselebi.</p>
+				<p>Mindezzel nem törődött semmit, otthagyta a bírói asztalt - most már semmi se
+               kötelezi. Odahajolt kedveséhez, fölemelte, megcsókolta, és azt súgta a fülébe:</p>
+				<p>- Ne félj, megmentelek.</p>
+				<p>- Két szíve van - jegyzé meg halkan társainak Permete uram.</p>
+				<p>S a kétszívű ember biztos, férfias léptekkel hagyta el a termet, mintha semmi se
+               történt volna, hazament, bezárkózott azzal a megcsonkított holttesttel egy szobába,
+               és órákig beszélt hozzá.</p>
+				<p>- Minek tetted azt, minek tetted? Látod, milyen bajt hoztál magadra, reám és őreá.
+               Nem voltál rossz ember, jól tudom én… A virtus volt a te megölő betűd.
+               Felébresztették benned ezt a magyar vadállatot. Virtusból csináltad meg a kaftányt,
+               virtusból adtad oda. Belevitted ezt a szegény leányt, csak azt ne tetted volna: a
+               szíve volt a fogantyúja. Rátaláltál. Minden szétesett. Itt állok, összetörve… Nem
+               tudtam megbecsülni azt a kincset, azt a szegény leányt… Hitegettem, nagyravágyó álmok
+               vittek… Íme, hova vittek.</p>
+				<p>Mikor kibeszélte magát, átment a másik szobába, kikereste a nagy szakajtó
+               aranyat.</p>
+				<p>- Fogjad fiam, Erzsi; eredj a kis kertbe, és szórd ki a nép közé!</p>
+				<p>A siránkozó leány ámult-bámult, de csak mégis szótfogadott a város hatalmas
+               főbírájának, tele marokkal szórta a tündöklő aranyakat az út homokjába, a garádokba,
+               a bozótok közé.</p>
+				<p>A főbíró az ablakból nézte egy darabig, mint kapkodják, hogy marakodnak rajtuk az
+               arra menő népek.</p>
+				<p>De mire Erzsi visszament, már nem volt ott. Sehol se volt. Mikor ment el, merre ment
+               el, senki se látta. Élő ember nem beszélt vele többé Kecskeméten.</p>
+				<p>*</p>
+				<p>Negyednapra tűzték ki a Cinna lefejeztetését. Három napig volt a siralomházban.
+               Imádkozott a feszület előtt, melyen éjjel-nappal két viaszgyertya fénye rezgett.</p>
+				<p>Addig mindenre telt idő. Az ácsok megépítették a vérpadot, a városház zöld kapujával
+               szemben; Fekete Pál uram, mint bizalmi férfi, elhozta Fülekről a hóhért. (A
+               szenátoroknak más dolguk volt, szerte kerestették csáklyákkal a kecskeméti tavakban
+               az eltűnt főbírót.)</p>
+				<p>Végre a negyedik nap - amint eltülkölték a Szent Miklós-templom tornyán a kilenc órát
+               - nagy hullámzás támadt az összegyűlt néptömeg közt. Megkondult a lélekharang. Most
+               vezetik Cinnát a vesztőhelyre. Egyszerű fehér szoknya van rajta, melyet majdnem
+               egészen betakar a kibontott hosszú haja.</p>
+				<p>Hanem iszen mindjárt segít arról Szekeres Gazsi, a borbély, ki fürgén ugrott
+               ollójával az elítélthez, s lenyisszantotta hatósági rendeletre. Ne legyen útjában a
+               pallosnak!</p>
+				<p>Majd felállt egy székre Kriston Ferenc, és felolvasta a halálos szentenciát.</p>
+				<p>Most Brunó atya fogta kezén, hogy fölvezesse az emelvényre, hol a hóhér várta, egyik
+               kezében a széles pengéjű pallossal, másikban egy fehér kendővel. Azzal kötik be a
+               szemeit.</p>
+				<p>- Iszonyat nézni - szólt Nagy Pálné, és behunyta a szemeit.</p>
+				<p>- Milyen szép, s meg kell halnia - sopánkodék Zeke Gerzson.</p>
+				<p>- Egy pillanat! - magyarázta Fábiánné asszonyom - s egy férjhezmenővel kevesebb.</p>
+				<p>- Nehéz azokat megritkítani - vélte a rossznyelvű Szomor János.</p>
+				<p>- Sohasem láttam még ilyen szomorú nyakazást - fontoskodék Tóth István -, pedig sokat
+               láttam. Egy az, hogy egyetlen nedves szem sincs. Az öreg Bürü is odavan Szabadkán
+               muzsikálni, már egy hete. Más az, hogy az ember ebben az esetben sehonnan se
+               várhatja a kegyelmi kendő lobogását; harmadik az…</p>
+				<p>De már nem volt ideje elmondani, nagy porfelhő támadt a ceglédi utca felől, nyalka
+               kuruc huszárok kivont karddal, nagy csatalármával száguldtak a vesztőhely felé. Elöl
+               leeresztett sisakrostéllyal néhányan, nehéz, izmos termetű lovakon.</p>
+				<p>- Ellenség, ellenség! - sikoltozott a csőcselék, s kotródott, amerre látott.</p>
+				<p>Nagy zűrzavar támadt. Brunó atya leugrott az emelvényről, vacogó fogakkal rohant a
+               városházára:</p>
+				<p>- Ez Csuda lesz. Értem jön. Már engem visznek!</p>
+				<p>A szenátorok is szétfutottak. A hóhér elejté pallosát, és ő is futott.</p>
+				<p>Egy szempillanat műve volt, az egyik sisakos vitéz felvágtatott a vérpadra, s
+               könnyedén, mint a pelyhet, nyergébe emelte a remegő Cinnát.</p>
+				<p>Senki sem állta útját, senki sem kérdezte tőle, mit akar? Ő se kérdezte senkitől:
+               szabad-e?</p>
+				<p>A kis csapat úgy, amint jött, ismét elvágtatott egy mellékutcán.</p>
+				<p>Nagy lassan előbujkáltak a megriadt minden rendű és rangú lakosok.</p>
+				<p>A szenátorok örültek, hogy csak Cinnát vitték el, s egyebet semmit. Nem nagy kár
+               érte.</p>
+				<p>A hóhér savanyú arcot vágott. »Neki most már adjanak munkát, ha olyan messziről ide
+               fáradott.«</p>
+				<p>Sokan, akik kerítések és ölfarakások mögül nézték a jelenetet, mennyre-földre
+               esküvének, hogy a sisakrostélyos vitéz, aki a vérpadra ugratott, nem volt más, mint
+               Lestyák Mihály uram. Megösmerték a termetéről, mozdulatairól, a villogó dióbarna
+               szemeiről. Ne is keressék azt csendes tó vizében.</p>
+				<p>Deák Jánosné, aki szavahihető személy, a Cinna egyik mondását hallotta, amit az a
+               vitézhez intézett útközben.</p>
+				<p>- Várod-e még egyszer, míg a hajam megnő?</p>
+				<p>A vitéz tisztán, hallhatóan felelte:</p>
+				<p>- Nem, Cinna, nem várom.</p>
+				<p>. . . . . . . . . . . . . . . . . . . . . .</p>
+				<p>Így volt-e, nem-e, a jó isten tudja, de ettől a naptól nem keresték többé Lestyák
+               Mihályt a halottak között, hanem hazavárták az élők közül.</p>
+				<p>Ha eltűnt, oka volt rá, a kaftányt ment keresni kuruc csapatokkal, elvitte mátkáját -
+               mi van abban? - (okosan csinálta). Egyszer csak meglássátok, itthon toppan, vasderes
+               paripán, arany kantárosan, s rajta lesz a kaftány.</p>
+				<p>Majd egyszer, majd egyszer, ha valami nagy veszély fenyegeti Kecskemétet. Hazajön,
+               beül a főbírói székébe, és szétcsap, mint a villám, az ellenségeink között.</p>
+				<p>Vártak, soká vártak. Már azok is kihaltak, akik mint gyerekek futkároztak egykor a
+               kaftány után, de az unokák azért még mindig hazavárták.</p>
+			</div>
+			<div type="chapter">
+				<head>A SZERZŐ UTÓSZAVA</head>
+				<p>Azoknak az érdeklődőknek, kik e történetet oly feltűnő figyelemmel kísérték, s
+               levelekben figyelmeztettek az egyes fordulatoknál, hogy »no, most mindjárt elromlik«,
+               nem lesz fölösleges néhány szó, mintegy kiegészítésül, az elbeszéléshez is.</p>
+				<p>Nevezetesen sokan kifogásolták, hogy miért megy Olaj bég elé Lestyák Mihály helyett
+               Cinna? Mire való az? Mások türelemmel bevárták, míg a szabó oda nem adja a kaftányt,
+               mire aztán Kecskemét veszedelme szöget ütvén fejükbe, rám írtak bosszankodva: »Mit
+               csinál, az isten szerelmeért?« Tény az, hogy talán kissé túlságosan ragaszkodtam azon
+               pár sornyi krónikához, mely rendelkezésemre állt. Enélkül valóban kerekebb,
+               egyöntetűbb, hogy úgy mondjam, esztétikaibb lehetne a mese.</p>
+				<p>De bármennyire ragaszkodtam a krónikamaradványokhoz, mégse kívánom tekintetni az
+               elbeszélést például történelmi epizódnak Kecskemét múltjából, mert a mese benne a fő:
+               a történelmi események csak mint színek bukkannak föl mögötte. S e színeket
+               önkényesen hoztam össze a kaftány szereplésének idejére, száz év előttről, vagy száz
+               év utánról. Néhol a színeket hoztam a kaftányhoz, másutt a kaftányt vittem a
+               színekhez.</p>
+				<p>Csak mint a régi városi viszontagságos élet képe bír e történet beccsel, ha eleven és
+               találó.</p>
+				<p>De ezt már önök ítélik meg.</p>
+				<p>Hogy a kaftányról is megemlékezzünk, sokáig kutatta, kerestette Kecskemét város
+               mindenfelé - de hasztalan. Végre, mikor már majdnem elfeledkezett róla, váratlanul
+               előkerült.</p>
+				<p>.oOo.</p>
+				<p>
+               [1] A fogott bírák intézményét az érdekeltség kikerülése
+               végett szerették az elődök.</p>
+				<p>
+               [2] Pestmegye Füleken székelt.</p>
+				<p>
+               [3] A kaftány esete nem írói fantázia szüleménye. Káldi
+               György egyházi beszédében és Kecskemét város jegyzőkönyvében nyoma van. (Kubinyi
+               Ferenc, Magyarország és Erdély I. k. Kecskemét története, 86. l.) »Mohamed császár Magyarországba jövén, az kecskeméti bírák, nagy ajándékokkal
+                  elejben menvén, egy csauszt kértek vala, ki azon által menő vitézektől
+                  megoltalmazná őket, az Császár 300 aranyat adván nekik »és egy vont arany
+               köntöst«, meghagyá nekik, hogy haza menjenek, és ha valaki bántaná
+                  őket, az köntöst mutatnák meg neki; ez okáért miháján valami török sereget láttak,
+                  az bíró az köntöst rávevén, elejekbe ment, kit látván a törökök, lovaikról
+                  leugorván, az köntöst megcsókolták, és ha Bíró megengedte, ott háltak saját
+                  költségen, és ha pedig nem engedte, elébb állottak.« Nemcsak, hogy meg nem
+               toldottam tehát a puszta tényt, de még elhallgattam belőle a háromszáz aranyakat; hogyha esetleg be nem találtak róla bíró uraimék
+               számolni - én magam ne kompromittáljam a saját beszély-alakjaimat. M-th K-n.
+            </p>
+				<p>
+               [4] A kecskeméti ember minden messzelynél egy gombot old ki a
+               mellényén, hogy az összeszámításnál a korcsmáros rá ne szedje.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

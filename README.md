@@ -51,6 +51,10 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 - `@pos `: part of speech
 - `@msd` : morphosyntactic features ([Universal Dependencies](https://universaldependencies.org/))
 
+# eltec folder:
+
+The folder contains the level1 and level2 files with headers in the format of ELTeC. These files are not valid for TEI, we do not recommend to use these files. 
+
 # Contributors:
 
 - [Gábor Palkó](https://github.com/gaborpalko)

@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU16361" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Vagy idejében vagy soha</title>
+				<author ref="viaf:121430064">Boross Mihály (1815-1899)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Bajzát Tímea Borbála</name>
+					<name>Vétek Bence</name>
+					<name>Fellegi Zsófia</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">14135</measure>
+				<measure unit="pages">28</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Vagy idejében vagy soha</title>
+					<date>2016-12-20</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://www.mek.oszk.hu/16300/16361/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Mészáros Lajos</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Vagy idejében vagy soha</title>
+						<date>2016-12-20</date>
+						<ref target="https://books.google.hu/books?id=xDBpAAAAcAAJ Google Books PARTNER0057"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Vagy idejében vagy soha</title>
+						<author>Boross Mihály</author>
+						<pubPlace>Pest</pubPlace>
+						<publisher>gyurián J. Nyomda</publisher>
+						<date>1856</date>
+						<ref target="http://www.mek.oszk.hu/16300/16361/pdf/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+					<title>Vagy idejében vagy soha</title>
+					<author>Boross Mihály</author>
+					<date>1856</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T1"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-09-24"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head> ELŐSZÓ.</head>
+				<p>Midőn jelen kis füzet önállólag egy kötetbeni kiadatását nehány barátom előtt
+                    megemlitém, azoknak az volt ellenvetésük, hogy nagyon parányi füzetet fog
+                    képezni. Ez észrevételt akkor hallgatással mellőztem, azért hogy most
+                    felelhessek. Tudtam, hogy parányi füzetet fog adni kéziratom, s ez észrevétel
+                    után két füzetre is ki tudtam volna nyujtani e regény meséjét, de nem tettem,
+                    megmondom miért. Eddig igen kis körre, s parányi olvasó közönségre volt szorítva
+                    irodalmunk, s a megjelent szépirodalmi munkának, mint a zsömlyének, szokott ára
+                    1 fr. p. volt, ha mindjárt 140 vagy 200 lapból állott is. Az idők változtak,
+                    olvasó közönségünk szaporodott, még pedig azon osztályból, mely még most nem
+                    szivesen ad, de nem is adhat egy pengőt pár órai olvasmányért; kell tehát, hogy
+                    azon osztály számára is jelenjenek meg munkák, melyek parányiságuknál fogva
+                    olcsó árért adathassanak; és ez volt egyik főczélom jelen kis munka
+                    kiadatásánál, ez leend, midőn a tisztelt olvasó közönség pártolásában bízva,
+                    folytonosan ily apró, és olcsó füzetekkel fogok fellépni; másik az, hogy az
+                    olvasó közönség ujon- nan nyert részét - a népirodalom mellett - irodalmunk más
+                    ágával is megismertessem. Ugy hiszem most már nem fognak barátim ellenvetést
+                    tenni.</p>
+				<p>SZERZŐ.</p>
+			</div>
+			<div type="chapter">
+				<head>Darázsy Lőrincz úr.</head>
+				<p>Darázsy Lőrincz úr - kiről e krónika szól - lehet mintegy negyven-ötven éves.
+                    Azért mondok ily határozatlan mennyiséget, mert Lőrincz úr haja fehér, mint a
+                    kimosott kender, vagy a novemberi legelső hó; és bajusza fekete, mintha
+                    zivataros éjfél sötét színébe mártották volna; arcza piros mint a pünkösti
+                    rózsa, midőn bimbójából kifeslik, és fogai mégis nagy részint romlásnak
+                    indultak, pedig kevesebb czukrot evett meg egész életében, mint egy rövid életü
+                    kanári; hangja éles, és nyers mint a somfabot; és járása tipegő mint a hizlalt
+                    kacsáé. Lőrincz uron már gyermek korában meglátszott, hogy táblabiróságig sem
+                    viszi, mert mindig a szamarak padjában ült urfi létére, mi ugyan annak is
+                    tulajdonitható, hogy szülei szűk marokkal fizették tanítóit. Kortársai fülesnek
+                    csúfolták, nem azért mintha nagyon nehéz fejű lett volna; hanem mert valósággal
+                    oly nagy fülei voltak, hogy Isten ritka teremtményét áldotta meg oly tehetséges
+                    fülekkel. De azért átúszta ő az iskolai éveket, s húsz éves korában mint végzett
+                    ember tért vissza az ősi kastélyba.</p>
+				<p>Midőn serdülő legényke volt, a pajkos leányok űztek belőle bolondot, mindegyik
+                    szerelmet vallott neki, s az élet-iskolájában tapasztalatlan urfi oly zavarba
+                    jött, hogy azt sem tudta melyik után nyúljon ennyi kínálkozó alkalom közűl. Igy
+                    telt az idő hibezés-habozás, s kapkodás közt, s Darázsy Lőrincz folyvást ifju úr
+                    maradt, pedig már a harminczat taposta.</p>
+				<p>Minden tisztújításon kijelöltetett esküdtnek, de kocsisán kivül senki sem
+                    szavazott rá. Ilyenkor azután jaj volt nehány nap a szegény ebeknek, mert
+                    rendesen azokon fújta ki mérgét, s azok kapták azt, a mit gazdájok gondolatban a
+                    részrehajló kortes tömegnek szánt.</p>
+				<p>Harmincz éves korában észrevette Lőrincz úr, hogy az idő halad, s nem tud teins
+                    titulusra vergődni, míg meg nem párosodik: neki indúlt tehát a szent
+                    házasságnak; de mindig vagy fején feljül kereste az élet kertében számára nyíló
+                    virágot, s a lábai előtt nyilót nem látván meg, eltaposta; vagy nagyon gyönge
+                    életkorúaknál kopogtatott be, s igy örök mindig tele kosárral tért vissza
+                    szüzies lakába.</p>
+				<p>Baráti, azok tudniillik, kik asztalánál lebzseltek, eleget tanácsolták, hogy
+                    hagyjon fel balga szándékával: de ő élt s halt a kosárért, s így év év után
+                    lejárván, a negyven, vagy ötven év is úgy találta Lőrincz urat, hogy sem hű nő
+                    nem rázogatta ágya szalmáját, s készítette kedves reggelijét, sem a nemes
+                    Darázsy család kis örököse nem nyekergett az ágy előtt döczögő bölcsőben. Pedig
+                    olyan hírneves családnak, mint a Darázsy, mely olyan embert adott a hazának,
+                    mint Lőrincz úr, csupa veszteség lett volna kiveszni!</p>
+				<p>Azt suttogják jól értesültek, mert ezzel Lőrincz úr soha nem dicsekedett, hogy
+                    egy ízben jegyben járt volna a megye legszebb, s elég tehetős leányával: de
+                    mivel Isten ezt sem szánta neki, ezzel is csak a kosarak száma szaporodott. A
+                    dolog szájról-szájra így jutott értésemre.</p>
+				<p>Nem messze Lőrincz úr birtokától Dombhegyen lakott Füzéry Mózes úr, egy igen szép
+                    falusi jószág tulajdonosa, és négy eladó leány apja. A hol négy derék leány van,
+                    lehet válogatni; a szülék pedig nem igen szoktak válogatni, ha kivált a leányok
+                    kezdik a két XX-ot átlépni. Ide tért be Lőrincz úr, s szerencsésen oda
+                    igértetett a ház legidősebb, de legszebb leánya. Míg az eljegyzettek nap alatt
+                    voltak, Lőrincz úr menyasszonyi ajándokakkal terhelten tért egykor haza Pestről,
+                    s Dombhegyet - bár két mértföldet kellett kerülnie - útjába ejtette, hogy szíve
+                    imádottját láthassa, lerakhassa lábaihoz a kedves terhet, mint elolthatlan
+                    szerelme zálogát. Az udvarra érvén, Lőrincz úr méltó álmélkodására senki nem
+                    jött eleibe: de ő azért egész bátorsággal leszállván, egyenesen mátkája
+                    szobájába sietett, hogy azt a készületben lévő meglepetésre előkészítse, de a
+                    szobát nyitva, s üresen találta.</p>
+				<p>Lehet-e kíváncsibb valamit képzelni, mint szerelmes vőlegényt, kivált magánosán
+                    jegyese szobájában? Egyedül, tanú nélkül, megnézhetni az ágyat, melyen szép
+                    arájával aludni fogja a házasság boldogítá első álmát; felüthetni a kedves
+                    naplóját, melybe szerelmetes álmai jegyezvék, melybe híven lerakja örömeit, és
+                    vágyait; megtekinthetni az olvasott regényben, micsoda sorok vannak aláhúzva:
+                    szóval megismerkedhetni a lakkal, melyben a levegő epedő sóhajból gyült
+                    össze.</p>
+				<p>- Annál jobb - gondolá magában Lőrincz úr - úgy sem értem a szerelem túrbékoló
+                    nyelvét; lerakom asztalára, s mily költői lesz a meglepetés, ha jő, s itt talál
+                    mindent. - Ezt gondolá Darázsy Lőrincz, s az asztalhoz közelített, de azon egy
+                    félig bevégzett levél tünt szemébe.</p>
+				<p>- Ah! - sóhajta magában - a szívem cziczuskája bizonyosan nekem akarta
+                    elnyögdelni, hogy mily forrón epedve várja a pillanatot, melyben hymen rózsa
+                    láncza örökre hozzám füzendi. Lássuk mikép nyögdicsél a párját fészkébe váró kis
+                    gili. „Imádott kedvesem!” ezt olvasá legelőször is a levélből. - Jaj nekem
+                    Istenem! teremtőm! felszakad a keblem, mint a kifeszített chólyag, fogalmam sem
+                    volt ennyi szerelemről - sóhajta Lőrincz úr elragadtatással - imád mint Istenét,
+                    Istened is leszek kedvesem! de olyan ki örökké áld, és soha nem ver. -
+                    „Szerelmem egyetlene” olvasá tovább. - Igazad van kedvesem! még a talpamban is
+                    érted lüktet a vér.</p>
+				<p>- „Kedves Károlyom!” - No no - mondá Lőrincz úr visszadöbbenve mintha falba
+                    ütötte volna fejét - talán nem jól láttam, nem jól olvastam - és szemeinek
+                    esett, dörzsölte, mintha valami esett volna azokba.</p>
+				<p>„Kedves Károlyom!”</p>
+				<p>- Ugy segéljen Károly van ide írva, úgy segéljen Károly, ha százszor megnézem is.
+                    Szegény kis bohó, annyira személyembe van tapadva szíve, lelke, minden érzése,
+                    hogy nevemről is megfelejtkezett. Én Istenem! én erős Istenem! milyen a nő, ha
+                    fülig szerelmes az emberbe! Lőrincz vagyok kedvesem! Lőrincz, nemes Darázsy
+                    Lőrincz, a te kis Lőrinczkéd, ha nem hiszed. alatt ide csatolhatom
+                    ármálisom, és keresztelő levelem. De hiszen nem haragszom, ha Péternek mondasz
+                    is, csak imádott kedvesednek nevezz. </p>
+				<p>„Lever tudom a hir, hogy atyám rimánykodásom, s esdésem daczára is ”</p>
+				<p>- Szegény kis angyal! miért rimánykodhatott? talán... talán hogy az esküvő napját
+                    előbbre tegye? -</p>
+				<p>„Tőled elszakasztván ”</p>
+				<p>- Mit? mit? tőlem elszakasztani! borzasztó merény! lopás által is enyim leendesz
+                    kedvesem! -</p>
+				<p>„Egy útált emberhez kényszerítenek nőül...”</p>
+				<p>- Ez hitszegés, ezt nem türöm. Szegény leány! -</p>
+				<p>„Hallottad-e hírét Darázsy Lőrincznek, kit szívemből utálok....”</p>
+				<p>Lőrincz úr akkora szájat tátott, hogy akármely pénzevesztett kártyás reggeli
+                    legelső ásítása kifért volna rajta. Szemei kimeredtek, s könyüzni kezdtek,
+                    mintha soká napba nézett volna; szíve úgy ugrált mint a szárazra vetett hal. -
+                    De de... már jól látok ám... olvassuk tovább. - „Darázsy Lőrínczet utálom lelkem
+                    egész útálatával. Ő tudatlan, neveletlen, falusi bival, ki nem nekem született,
+                    nem nekem neveltetett, s nem nekem rendelték az egek ”</p>
+				<p>- Ejnye zsámfutter!... ő utál... én falusi bival... bival minden pereputyod
+                    töredezett oldal borda, itt hagylak... ha én falusi bival... te meg falusi liba
+                    vagy... és soha sem leszesz az én ludam... - mondá Lőrincz úr fogcsikorgatva, s
+                    tovább olvasá:</p>
+				<p>„Nyúgodjál meg a sors csapásán, s apám vasakaratán. Kezem leend csak az útált
+                    férjé, szivem szerelmem örökre a tied. Fogok én alkalmat találni, hogy
+                    összejöhessünk, s élhessünk szerel-münknek, mely örök...”</p>
+				<p>- De abból semmi sem lesz, már akkor csakugyan megérdemelném a falusi bival
+                    czímet, ha tudva más számára vinnék ágyast saját házamhoz. Maradjatok az urban,
+                    mint a sovári káposzta az útban. - Ezt mondván a felsült vőlegény, kezébe fogta
+                    még a nedves tollat, s reszketve ezt írta a félben szakadt levél alá: „corám me
+                    Darázsy Lőrincz mk.” s azzal bevágván az ajtót, minden ajándokát kocsiba vetve,
+                    nagy ordítással ordítá: „hajts!”</p>
+				<p>- Uram öcsém! fiam uram! - kiabálá utána a birka istállóból kilépő Füzéry Mózes,
+                    leendő ipa, de ő mit sem hallott, mit sem akart hallani, hanem egyre orditá
+                    „hajts! hajts!” mintha attól tartott volna, hogy utána viszik a menyasszonyt, s
+                    a jó két órai útat öt negyed alatt hagyták hátuk mögött párolgó lovai.</p>
+				<p>Füzéry Mózes uram házánál egy lélek sem tudta a vőlegény sebes elrohanásának okát
+                    meg-magyarázni: csupán az elhagyott, de nem bánatos menyasszony, ki vőlegénye
+                    távozása után szobájába térvén, az aláirást megpillantva, a helyett hogy ruháit
+                    megszaggatta, zsákba és hamuba öltözött volna; áldotta az isteni gondviselést,
+                    mely ily véletlen úton mentette meg rá erőszakolt vőlegényétől.</p>
+				<p>Darázsy Lőrincz úr pedig haza érvén, nagy „Isten úgy segélj”-el megfogadta, hogy
+                    örökre lemond minden házasodási szándokról, mert a nők hitszegő s csalárd
+                    faj.</p>
+				<p>Mind ez, melyet most elmondtam, történt 1827-ik évi december 30-án, és Darázsy
+                    Lőrinc híven ura maradt adott szavának 1847-ik évi december 30-ig.</p>
+			</div>
+			<div type="chapter">
+				<p>Házassági szerződés.</p>
+				<p>1847-iki december 30-ika estején pamuttal és g
+                    1847-iki december 30-ika estején pamuttal és gyapjúval gazdagon kitömött kéjruhában meleg kályha mellett üldögélve pipázgatott Lőrincz úr; és ásított, nyújtózott, mint kit a hideglelés kerülget; midőn gazdasszonya lépett be, s éji asztalára vizet és mosdó edényt helyheztetett.</p>
+				<p>- Hány óra Lizi? - kérdé Lőrincz úr egy takarosat ásítva.</p>
+				<p>Lizi - e volt a gazda asszony neve - a falon kopogó órára tekintvén - nyolcz
+                    tekintetes uram!</p>
+				<p>- felelé.</p>
+				<p>- Nyolcz! mennydörgős hordta! csak nyolcz! üsd agyon a lánczos lobogós óráját.
+                    Lizi megöl az unalom, - mondá Lőrincz úr, s kiégett pipáját karos székje
+                    oldalához támasztván, Lizit egy más pipa töltésére szólítván föl. - Hej Lizi!
+                    mind bolond ember az, a ki nagy esküvéssel fogad valamit, kivált ha később
+                    megbánja. Pedig mint a magyar példabeszéd mondja: késő bánat, ebgondolat -
+                    folytatá, mig Lizi a bagóval félig telt pipa kikapargatásával vesződött.</p>
+				<p>Lizi takaros kis vászon cseléd volt, lehetett 25-30 éves. Alacsony gömbölyű
+                    testalkat, haja fekete mint a korom; szemei égetők mintha kőszén parázsból
+                    volnának, és szája széle, mintha piros rózsa levéllel volna bélelve, örök
+                    mosolygó. Öltözete félig uras, félig parasztos, csak szakavatott biró itélhette
+                    volna meg melyik osztályhoz tartozik.</p>
+				<p>- Bizony bolond az - megszólalt Lizi, miután a fenakadt lélekzetű pipát kifújta.
+                    - Talán bizony tekintetes uram is fogadott valamit nagy esküvéssel, a mit oly
+                    nagyon megbánt? tevé hozzá kérdőleg, tekintetes ura előtt megállva, s kövér
+                    kezecskéit még kövérebb csípejére nyugosztalva.</p>
+				<p>- Fogadtam bizony Lizi! bár ne fogadtam volna. -</p>
+				<p>- Ugyan mi lehet az, ha szabad kérdenem? -</p>
+				<p>- Hát azt fogadtam Lizi! hogy soha nem házasodom meg, pedig látod Lizi! nagyon
+                    meg-bántam, mert látod... de meg magadról tudhatod, egy az, hogy ember csak
+                    ember, vér folyik ereiben, és nem víz; más meg az, hogy szörnyü rideg az ilyen
+                    nőtelen ember állapotja. Ásitás, nyújtózás, azután csak az sincs, ki kedves
+                    egésségemre kivánná, ha prüsszentek; de meg gondold el, kire néz ez a szép
+                    jószág? Milyen szép volna most, ha bolond nem lettem volna, s annak idejében
+                    takaros menyecskét hoztam volna a házhoz, két vagy három kis Darázsy henteregne
+                    itt a pamlagon, vagy csüngene nyakamon mint piros alma a fáján. Most pedig olyan
+                    az én életem mint az ákácfáé, mely csak virágzik, de gyümölcsöt nem terem. A
+                    kedves feleség lecsókolná szemeimről az álmot; unalmas óráimban volna kihez
+                    szólanom; ha sokat ettem, volna ki nyomogatná vállam közit: de igy... hej csak
+                    nagy bolond a ki meggondolatlanul fogad...</p>
+				<p>- Hi-hi-hi! - nevetett Lizi - azt szokták mondani: „ember tesz fogadást, eb a ki
+                    megállja” hát házasodjék meg tekintetes uram! - tevé hozzá, szemeit oly igézőleg
+                    nyugtatva Lőrincz úrra, hogy kőszívnek kellett volna lenni, mely azonnal fel nem
+                    olvad melegétől.</p>
+				<p>- Igazad van Lizi! de látod nagyon meglepett a dér, majd leányt sem kapok. -</p>
+				<p>- Az volna még furcsa dolog, ha ilyen ember mint tekintetes uram leányt nem
+                    kapna; kap bizony akár mindenik ujjára tizet. Az öregség nem nagy baj, azt
+                    szokták mondani paraszt példabeszédben: „vén fa árnyékában lehet jól
+                    megnyúgodni. ” -</p>
+				<p>- Komendálj hát valami jóra való személyt, a kit magadnak is szeretnél. Téged meg
+                    akarlak tartani holtomig, mert jó cseléd voltál, ha ugyan el nem kapnak. -</p>
+				<p>Alig ejté ki e szavakat Lőrincz úr, Lizi lesütötte szemeit, és hallgatott mint a
+                    nyelve metszett madár; s elébb oly mosolygós arcza lassankint őszi éjszakává
+                    változott.</p>
+				<p>- Jer közelebb no... jer no... hadd csípjem meg piros ajkadat... jer no... ne
+                    légy oly vad. -</p>
+				<p>Lizi daczosan rázta magát, majd mintha könyüt törölne ki szeméből, köténye sarkát
+                    arczához emelé; azután keservesen sohajtá: - Én Istenem szerelmes Jézusom! -</p>
+				<p>- Látod kis bohó! te mondád hogy nősüljek, s most mégis te sirsz. Hiszen
+                    megmondtam, hogy azért nálam maradhatsz - kérlelé Lőrincz úr a zokogó
+                    Lizikét.</p>
+				<p>- Ezért szolgáltam gyermek korom óta oly híven a tekintetes urat; ezért áldoztam
+                    föl életem tavaszát, hogy most elüz házától. -</p>
+				<p>- Hát nem megmondtam, hogy holtig nálam maradhatsz? -</p>
+				<p>- Azt is megmondom, hogy én senkinek sem leszek lába-kapczája, tudja meg a
+                    tekintetes úr! hanem fizessen ki, s még ma elhagyom házát. Én Istenem! szerelmes
+                    Jézusom! mintha loptam volna, éjnek éj-idején kell a házat elhagynom - tevé
+                    hozzá, és sírt oly keservesen, mintha kancsukázták volna, pedig
+                    czitromcsavaróval sem lehetett volna egy könycseppet csikarni szemeiből.</p>
+				<p>- Lizi! te, hallod! ne sirj, mert majd én is elpityeredem - mondá Lőrincz úr, és
+                    csakugyan közelebb állt a síráshoz, mint Lizike.</p>
+				<p>- Sírhat is a tekintetes úr, mert olyan hűséges gondviselője soha nem lesz, ha
+                    Nedizserből hoz is feleséget, mint én voltam. Tudja-e mikor hat álló hétig
+                    nyomta az ágyat, úgy hogy lepedőben forgatták, kezét-lábát nem tudta odébb
+                    tenni? Úgy-e! ki tette volna azt a tekintetes úrral, a mit én tettem? Éjjel s
+                    nappal ágya szélén ültem, mint a galambpár sírtam, zokogtam, még a... no de nem
+                    hányom fel... és most... én Istenem! szerelmes Jézusom! miért is születtem, vagy
+                    miért is kerültem e házhoz, legalább nem kellett volna ily hamar elhalnom... -
+                    és elkezdett újra oly keservesen sírni, mintha apját s anyját szeme láttára
+                    kerékben törték volna.</p>
+				<p>- Lizi te! - kiáltott Darázsy úr, s egyik lábával kilépett a melegitő zsákból. -
+                    Ej no csak most ne bántana a köszvény. Lizikém! miért akarsz meghalni? - kérdé
+                    szorongva.</p>
+				<p>- Én Istenem! szerelmes Jézusom! - zokogá felelet helyett, köténye alól kémlelve
+                    ura arcza változását.</p>
+				<p>- Mondd hát Lizikém! miért halsz meg? mondd, ne ölj meg. -</p>
+				<p>- Hát azért, mert ugy szeretem a tekintetes urat, mint a falat-kenyeret; s azt
+                    hittem én fogom be halálos szemeit... de már látom, hogy elüz... tudom én
+                    Istenem! hogy lelkére hasad meg a szívem. -</p>
+				<p>- Lelkemre! nem űzlek el, akár megesküdjem, ha máskép nem hiszed - tevé hozzá
+                    Darázsy ur.</p>
+				<p>- Igen de nem maradok ám a tekintetes urnál, ha asszonyt hoz a nyakamra, azt
+                    megmondom, hanem elmegyek, s az egész világnak toroktátva kikiabálom... - mondá
+                    Lizi hangosan, de nem folytathatá, mert Lőrincz úr mind két lábával kilépett a
+                    zsákból, s Lizi ajakát terjedelmes tenyerével bepecsételvén:</p>
+				<p>- Csitt! - monda - az ég szerelmiért mit akarsz? szólj! -</p>
+				<p>- Az ég szerelmiért tekintetes uram! menjen hamar a pokróczra, mert náthát,
+                    hurutot, arómát, főfájást, szaggatást, gyomorrágást kap, s azzal is az én bajom
+                    gyülne meg, mert a szívem ha-sadna meg, ha szenvedni látnám. Kedves tekintetes
+                    uram! menjen már hi-hi-hi! - veté hozzá Lizi, és megczirógatá Lőrincz úr állát,
+                    mely szúrós volt, mint a borosta, pedig az nap vakar- gatta meg obsitosból
+                    emergált udvari borbélya.</p>
+				<p>- Még is csak galamb természetű vagy te galambom Lizikém! tán epéd sincs, - mondá
+                    Lőrincz úr, s azzal ismét a kályhához sietett, hogy fogfájást, náthát, reumát, s
+                    Isten tudja miféle betegségeket ne kapjon. - No itt vagyok, mondd meg most miért
+                    akarsz meghalni? - kérdé.</p>
+				<p>- Mi türés, mi tagadás benne, én a tekintetes urat úgy szeretem mint a lelkemet,
+                    minden vagyonát úgy takargattam, mintha sajátmagamé lett volna, mert bizony azt
+                    hittem hogy... hogy... Azután ne gondolja ám a tekintetes úr, hogy én valami
+                    közönséges familiából való vagyok, velem ugyan sehol sem vall kudarczot, mert
+                    boldogult édes anyám iskolamester leánya volt, s olyan nevelést adott, hogy
+                    akármely hintós dámának sincs különb. Lássa tekintetes uram! ha... oh Istenem!
+                    de hát maig sem érti, hogy mi lakik a szívemben, s mi lebeg a nyelvem hegyén? -
+                    kérdé szem lesütve.</p>
+				<p>- Épen úgy nem, mint az a ki siket némának született, - válaszolá Lőrincz úr.</p>
+				<p>- Hát... hát... ha az egész világot bejárja is a tekintetes úr! még sem kap olyan
+                    feleséget,</p>
+				<p>mint... ejnye no... találja már ki</p>
+				<p>- Mint kicsoda? mondd ki Lizikém! -</p>
+				<p>- Hát... mint... mint... én - monda Lizi hangnyomattal, s Lőrincz úrhoz lépvén,
+                    ujja hegyével enyelegve legyinté meg annak arczát.</p>
+				<p>- Flanért! szaporán! juhu-hu-hu! iszonyú szaggatás! - kiáltott Lőrincz úr, kit
+                    köszvény- szaggatásai épen ezen perczben vettek ostrom alá. Lizike pedig ki az
+                    ostrom állapotot saját kényére fel tudta használni, neki állt a dörzsölésnek, s
+                    folytatta ezen mütételt, mig gazdag csöppekben nem hullott a veréjték mind az ő,
+                    mind Lőrincz úr homlokáról. - He-he-he! - nevetett végre Lőrincz ur - egészen
+                    más forgásba hoztad a véremet te kis kujon! Lizike! azt szokták mondani, fiatal
+                    test mellett az öreg is megifjul! pedig úgy van ám! -</p>
+				<p>- Ne csintalankodjék tekintetes uram! -</p>
+				<p>- He-he-he! régen nem voltam igy! huszonkét évesnek érzem magam. Nem hiszed,
+                    pedig úgy van ám!</p>
+				<p>- Ejnye ki hitte volna hogy íly csintalan a teins úr! mondá Lizi szemérmesen
+                    vonulva vissza a kályha árnyékába.</p>
+				<p>- Lizikém! hidd el oly igaz mint hogy Darázsy Lőrincz a nevem, sokszor éjfélig iskódtam ágyamban, törtem a fejem, hogy téged elveszlek, de a világ, s az emberek
+                    nyelve</p>
+				<p>- Ej ha még a tekintetes úr is hallgat az emberek tanácsára, s ítéletére! hiszen
+                    nem szorult a tekintetes úr senki máséra, inkább más kérjen a teins urtól. Ne
+                    nézze azt, hogy ki s mi? hanem milyen? Engem ismer a tekintetes úr
+                    testestől-lelkestől, legalább nem vesz zsákba macskát. Szép is vagyok, jó
+                    gazdaasszony is vagyok, hű is leszek a tekintetes úrhoz mint az árnyék, még a
+                    sírnál sem hagyom el. -</p>
+				<p>- Úgy segéljen Lizi! felnyitottad a szemem, a háztól sem kell kimozdulnom, mégis
+                    lesz menyasszony, - mondá Darázsy Lőrincz úr. - Kezet ide, mához két hétre
+                    mennyegző, ahhoz tiz hónapra keresztelő, s kis Darázsy lesz a háznál, legalább
+                    vagyonom sem száll idegen kézre. He-he-he! jól végzi az esztendő - és kaczagott
+                    teljes erejéből mintha ternót csinált volna, s magához vonván Lizikét homlokon
+                    csókolá, mit az vonakodás nélkül bárgyúan kiállott. - Báh! áh! áh! bonts ágyat
+                    Lizikém! ha hét óra is, de lefekszem, mert nagyon elgyöngültem az öröm miatt, -
+                    tevé hozzá kis szünet után.</p>
+				<p>Lizi engedelmeskedett, még pedig micsoda gondolatokkal, azt mondás nélkül is
+                    tudhatja olvasóm!</p>
+				<p>Darázsy Lőrincz úr mint kandidátus vőlegény azonnal elszunnyadt: Lizike pedig
+                    mint kiszemelt menyasszony, világos reggelig hánykódott magános nyoszolyáj ában,
+                    melynek unalmaira boldog jövendő mosolygott.</p>
+				<p>Másnap korán reggel zaj volt a folyosón. A szolgáló sirva vetette le a szalmás
+                    kosarat, a tehenes káromkodva dobta el a fejő pitlit. Lizike mind kettőt
+                    felképelte, pedig csupán azért, mert megpözsdült benne a tekintetes asszony vér,
+                    s mintegy begyakorolta magát jövendő szerepébe. Egész nap alig lehete mást
+                    hallani, mint csört, pört, még magának Lőrincz urnak is szűk lett az ősi
+                    rezidentzia, mert Lizike oly erélyesen ragadta meg a kormányrúdját, hogy a kalap
+                    alig maradt meg Lőrincz úr fején. Orrot kapott, hogy a pipa hamut a szoba
+                    közepére verte ki; pirongatást, hogy a kávés abroszt leöntötte; szidást, hogy
+                    saját kanalával nyúlt a mártásba. Este fele már követelte, hogy a két hetet két
+                    napra szállitsák; mert ő bizony nem várakozik: de ez egyben Lőrincz ur a maga
+                    eszén járt, maradt a két heti határidő.</p>
+			</div>
+			<div type="chapter">
+				<head>Óvás és tiltakozás.</head>
+				<p>1848-ik év legelső reggelén Darázsy Kálmán lépett Lőrincz úr hálószobájába.
+                    Kálmán mintegy huszonkét éves magas barna fiú, unokaöcscse Darázsy Lőrincz
+                    úrnak, bátyja kegyelméből tengődő naplopó urfi, kinek nappalai alvás s
+                    pipázással, éjjelei kártyázás, s dorbézolással telnek; naponként meg szokta
+                    látogatni nagy bátyját, nem azért hogy nála tiszteletét tegye, hanem hogy nem
+                    szaggatta-e valamelyik éjjel halálra a kiméletlen köszvény. Kálmán szép vagyont
+                    örökölt korán elhalt szüleitől, de mihelyt átvette gazdagságát, legelső gondja
+                    volt, minél elébb torkára hágni annak. A telet Pesten, a nyarat Füreden vagy
+                    Parádon szokta tölteni, s mindenütt oly szerepet játszott, hogy minden vagyona
+                    értéke évi jövedelemnek nem lett volna elég: nem csuda hát, ha három év után ugy
+                    látjuk őt mint csőd alatt görbedőt: de őt ez sem törte meg, vagy szoktatta
+                    takarékosságra, mert most is tiz krajczáros szivart hamvaszt, s be-betekint
+                    Pestre, hol már csak mint homályos égi test tünhet föl a korhely élet egén.
+                    Minden reménye nagy bátyja birtokában van vetve, s már adósságot is csinált
+                    öröködés esetére, s alig várja, hogy azt is elpazarolhassa, mert ő azon fajú
+                    emberek közé tartozik, kik nem szeretnek a készből élni.</p>
+				<p>Nyaka körül tekert vastag gyapjú kendőbe merülve lépett nagy bátyja hálószobájába
+                    1848 év első reggelén, oly korán, hogy Lőrincz urat még az ágyban találta.</p>
+				<p>- Adjon Isten ez új évben minden jót! - köszönté nagy b átyj át, ki kevélyen
+                    pöfékelt dagadó dunyhája alatt.</p>
+				<p>- Hát a kadenczia hová maradt ifjú ur? - kérdé a bácsi neheztelést szinlelve.</p>
+				<p>- Micsoda kadenczia? -</p>
+				<p>- Feleséget szépet, s jót - felelt Lőrincz úr, s szinte égtek szemei a feleség
+                    emlitésére.</p>
+				<p>- No az kellene még! - szólt rögtön Kálmán urfi, kit nagy bátyja házasodása
+                    minden jövendő terveiből egy lökéssel kipöczkölt volna. - De pazarlóan kezdi
+                    uram bátyám! az uj évet, világos reggel, és mégis égeti a drága gyertyát -
+                    figyelmezteté Lőrincz urat, kinek gyertyája akkora kalapot vetett, hogy két
+                    kézre fogva szerencsés jó reggelt lehetett volna vele köszönni.</p>
+				<p>- Úgy segéljen el is feledtem. Nem csuda öcsém! - mondá Lőrincz úr - nagyon
+                    elmerültem a gondolkozásba. Hej öcsém! nagy dolgokon töröm én a fejem! - tevé
+                    hozzá, némi büszkeséggel, hogy egyszer ő is töri a fejét.</p>
+				<p>- Szeretném hallani mi lehet, a mi uram bátyámnak oly nagy fejtörésbe kerül.
+                    Különös lehet, mert életemben most először hallom, hogy uram bátyám a fejét töri
+                    - ejté ki Kálmán némi gúnyhangúlattal.</p>
+				<p>- Ne gúnyolódjál urfi, mert ha kimondom, a vér is meghül benned. -</p>
+				<p>- Halljuk hát a vérhütő gondolatot. -</p>
+				<p>- Megházasodom. Oly igaz: mint hogy Darázsy Lőrincz tős gyökeres magyar nemes
+                    család, megházasodom érted? és szemeit merően Kálmánra szegezé.</p>
+				<p>Ha azt mondja Lőrincz úr „azonnal átadom minden birtokomat” nem lepi meg Kálmánt
+                    oly különösen mint e két szó „öcsém! megházasodom!”</p>
+				<p>- Ha-ha-ha! - kaczagott Kálmán, nehéz volna meghatározni színből; kinjában vagy
+                    egész erejéből-e. - Ki adott urambátyámnak bolonditó gombát? - tevé hozzá
+                    folyvást kaczagva.</p>
+				<p>- Mit? haszontalan agárkinzó! te mered azt mondani, hogy bolond gombát ettem? Te
+                    kit bizonyosan bolond gombán neveltek fel, ki naponként azt eszel, te mered azt
+                    mondani nekem nemes Darázsy Lőrincznek, kit soha meg nem aktióztak, soha meg nem
+                    czitáltak, soha nem exequáltak? -</p>
+				<p>- Uram bátyám és a házasság, köszvény és menyecske ! - és kaczagott még
+                    hangosabban.</p>
+				<p>- Megházasodom, dictum factum megházasodom! - hangoztatá Lőrincz úr, és mint
+                    kipöczkö- lődött gúzs-vessző felegyenesedett ágyában. - Juhu-hu-hu! te vagy az
+                    oka hogy nyilalás jött minden porczikámba. Még ma kitagadlak! -</p>
+				<p>Kálmánt Lőrincz bátyja eddig nem tapasztalt határozottsága kissé lejjebb
+                    hangolta; nevetése egyszerre elállt, mintha elvágták volna, s szelidebb hangon
+                    igy folytatá: - Elhiszem kedves bátyám!...</p>
+				<p>- Kedves vagyok úgy-e? nem vagyok kedves, azért sem vagyok; mert bolond gombát
+                    ettem</p>
+				<p>- Elhiszem kedves bátyám! - folytatá Kálmán zavarodottság nélkül - de gondolja
+                    meg, mit mond a világ, ha ősz...</p>
+				<p>- Akár mit mond a világ - közbevágott Lőrincz úr - nem szorultam senki tanácsára,
+                    van annyi eszem, hogy nem kérek mástól kölcsön; inkább én adhatok - ismétlé
+                    Lizike mondókáját, melylyel az ő szemeit felnyitotta.</p>
+				<p>- Tudja-e urambátyám! mit tesz szót adni, s azt meg nem tartani?...</p>
+				<p>- S te kérded tőlem, ki százszor megfogadtad, hogy nem kártyázsz, és százszor
+                    viradtál meg a kártya asztal mellett... mondá mindig nagyobb hévvel, pipáját is
+                    földre eresztve, hogy mind két kezével szabadon beszélhessen. „Ember tesz
+                    fogadást; eb a ki megállja” azt mondja Mátyásy poétánk - tevé hozzá mint nyomós
+                    okot.</p>
+				<p>- Az is igaz. De meggondolta-e uram bátyám elejét, utóját; jobb és bal oldalát?
+                    Ha fiatalt vesz, másnak házasodik; ha öreget vesz, mind kettőjöknek istáp, és
+                    ápoló kell. Mondjon le veszélyes, s haszontalan tervéről. -</p>
+				<p>- Tudom én urfi! miért akar ledisputálni a szent házasságról, mert félünk, hogy a
+                    szép Darázsy jószág azon esetben nem a korhely Kálmán urfira, hanem a kis
+                    Darázsy Lőrinczre szállana. Hej öcsém! van itt - mondá Lőrincz úr, homlokát
+                    megkopogtatva - átlátok én a szitán, s nem ettem bolond gombát - mint tetszett
+                    mondani - hogy sertésnek gyüjtsek makkot. Megházasodom. Dixi! - azzal mérgesen
+                    az asztalra ütvén öltözni kezdett.</p>
+				<p>Lőrincz úr eltalálta Kálmán bibéjét, tudta azt maga Kálmán is, de azért folytatá
+                    ostromát: - Ám házasodjék meg uram bátyám! hagyja apró Darázsyakra szép
+                    vagyonát, legyen házassága gazdag mint a darázs-fészek, de ne legyen csipős, s
+                    fájdalmas, mint a darázs-fúlánk, s figyel-meztetem a házasság jelszavára: „Vagy
+                    idejében, vagy soha!”</p>
+				<p>- Ne perorálj, nem szorultam figyelmeztetésedre - s azzal mosdani kezdett az
+                    ostromolt vőlegény, különösen fülét gyötörte, hogy ne hallja Kálmán
+                    tiltakozását.</p>
+				<p>- Hát csak azt mondja meg uram bátyám! kit vesz el? -</p>
+				<p>- Lizit! -</p>
+				<p>- Ejnye hogy a darázs csipje meg, de kiválasztotta kellős közepéből az egy garas
+                    árút! - mondá Kálmán, s azzal úgy megrohanta a gyomorbeli nevetés; hogy pamlagra
+                    vetette magát, hánykódott, mint ki nadragulyát evett, a midőn szünni kezdett
+                    hahotája: - Jó éjszakát nemes Darázsy család! - folytatá - vad fába oltva megy
+                    át a te virágod az utókorba. Mióta lett uram bátyám! oly nagy demokrata? vagy
+                    gondolt ki már neje számára valami szép előnevet? talán jó lenne Főzőkanalási és
+                    Gombóczosi de Gombócz Vastag Eliza? - gúnyolódott Kálmán, s azzal bevágván háta
+                    mögött az ajtót, magára hagyta bámészkodó nagy b átyj át .</p>
+				<p>- Átkozott rosz kölyke! így megkeseríteni új évemet; mely annyi édességet ígért -
+                    mormolá törölközés közben. - Hiszen sok igaz van szavaiban... de szavamat
+                    adtam... az adott szó pedig szent. -</p>
+				<p>Mig a szobában ezen családi forradalom dúlt, a konyhában sem volt síri
+                    csendesség, Lizi nagyban játszotta a házi női szerepet, a szolgálót újra
+                    pofozta, a tehenest szidta, a füjtő gyer-meket rugdosta.</p>
+				<p>Kálmán egyenesen haza tartott, s iszonyú boszút forralt bátyja ellen, s csak
+                    alkalomra várt, hogy magát kidühönghesse. - Hát egy alacsony szolgáló rombolná
+                    össze reményváramat? igy monologizált pamlagra dőlve. - Hát azért altattam magam
+                    vérmes álmakkal, hogy ily borzasztó legyen ébredésem? Nem... ezen házasságból
+                    semmi sem lesz; én mondom azt Darázsy Kálmán - s azzal felugorván nagy léptekkel
+                    járdalt szobájában.</p>
+			</div>
+			<div type="chapter">
+				<head>Visszahuzás és lemondás.</head>
+				<p>1848-ik évi Januárius 3-án számos jóakaró, barát, tisztelő, hizelgő, és
+                    tányérnyaló gyült össze Marczi-völgyön Markosy Dániel úrnál. Neve napja volt, az
+                    öreg úr ezt rendesen nagy pompával szokta megünnepelni, ha soha nem is, de ekkor
+                    szemet húnyt még a pazarságra is. Darázsy Lőrincz úrnak is meg kellett jelennie,
+                    mert Markosy Dániel úr sem mulaszt el csak egyetlen Lőrincz napot is. Kálmánt
+                    nolle velle magával kellett vinnie, mert lett volna mit hallgatnia a fiatal
+                    leánykáktól, és nyelni a házi nőtől, hogy olyan jó tánczostól megfosztotta a
+                    társaságot. Lőrincz úr vig volt, mint vőlegényhez illik, mi már megjelenésekor
+                    felötlő volt, mert máskor keresve sem talált volna az ember mogorva arczán egy
+                    hajszálnyi mosolyvonást. Midőn a két Darázsy megérkezett, már nagyban ment a
+                    múlatság, pörgött a csárdás, izzadt a fiatalság. Lőrincz úr nem győzte a leányok
+                    csókját viszonozni, hogy Kálmánt elhozta, s mire jobbra-balra tekintett inge is
+                    alig maradt rajta, úgy elkapkodták téli gúnyáját. Lőrincz úr végig legeltette
+                    szemeit ezen diszes virágkoszorún, s egy sohaj szakadt kebléből, mert hajh mégis
+                    csak szebb volna ezek közűl választani egy felesegítséget, de mi haszna, szavát
+                    adta.</p>
+				<p>Kilencz óra fele asztalhoz telepedett az egész társaság, s válogatott a rakásra
+                    halmozott jobbnál jobb magyar eledelekben. Beszéd tárgya az akkori országgyülés
+                    volt. Elmondá ki-ki a maga véleményét, nézetét; csupán Lőrincz úr hallgatott,
+                    mert ő különben sem sokat, most pedig épen nem törődött a politikával. Okosan
+                    tette, a ki nem ért hozzá; ne is avatkozzék bele.</p>
+				<p>Vacsora vége fele magyar szokás szerint elkezdődtek az áldomások, s mindenki
+                    igyekezett szónoki tehetségét fitogtatni. Darázsy Kálmán, ki eddig a fiatal
+                    lyánkák közt feszelgett, egy-szerre kiválik a nő seregből, mint darázs a virág
+                    kelyhéből, s poharat emelvén igyen köszönté az őt bámúló úri kompániát:</p>
+				<p>.,Uraim, és hölgyeim!”</p>
+				<p>- Halljuk! -</p>
+				<p>„Poharam emelem önök előtt egy titkos tényért, iszom egy lappangó vőlegény
+                    egésségeért....” Ha valaki e pillanatban Lőrincz urra pillant, azonnal
+                    észreveheti, hogy a lappangó vőlegény senki más, mint ő, mert még talán a
+                    mellénye is megveresedett, úgy égett az egész teste.</p>
+				<p>- Halljuk! ki a nevével - kiáltozák.</p>
+				<p>- Tekintetes Darázsy Lőrincz urat, az én kedves uram bátyámat, ki az ötvenedik
+                    évet keresz-telő levél nélkül is tudom, már régen átlépte, mint fiatal vőlegényt
+                    ezernyi ezer magzatokkal áldja meg, s éltesse örökké!</p>
+				<p>- Kálmán öcsém! ne bolondizálj, mert majd komolyan veszik ezek az urak - közbe
+                    szólt Darázsy Lőrincz úr.</p>
+				<p>- Nem szabad közbe vágni! - erősíték a többiek.</p>
+				<p>- Darázsy Lőrincz urat a házassági rózsaláncz nem sokára összefűzendi kedves
+                    menyasszo-nyával...</p>
+				<p>- Kálmán! megharagszom ha...</p>
+				<p>- ...Tekintetes Vastag Eliza kisasszonynyal...</p>
+				<p>- Éljen! éljen! - rivallák mindnyájan.</p>
+				<p>- Gratulálok Lőrincz barátom! - nyujtá kezét a házi úr.</p>
+				<p>- Szívemből örvendek, s sok szerencsét kivánok az uj frigyhez - mondá a házi
+                    asszony az asztalfőről.</p>
+				<p>- Látod öcsém! te ellenezted a házasságot, s a teins asszonyság helyesli - monda
+                    a vérszemet kapott Darázsy Lőrincz Kálmánnak. - Beszélhetsz most már, nem
+                    hallgatok kotyogásodra. -</p>
+				<p>- Uraim! és hölgyeim! - kezdé ujra Kálmán; hogy tökéletes diadalt arasson Lőrincz
+                    bátyján - nem a házasságot elleneztem én bátyámnak; hanem azon nőt, kit
+                    feleségül szándékozik venni. Tudják-e önök, ki azon Vastag Eliza kisasszony?
+                    -</p>
+				<p>- Ki az, ki az? - kérdék mindnyájan.</p>
+				<p>- Ha megmondom önök is fogják roszalni bátyám lépését. -</p>
+				<p>- Kálmán! Kálmán te! - hunyorgatott Lőrincz úr, de Kálmán boszút akart állani, s
+                    látatlanná tette bátyja szembeszédét.</p>
+				<p>- Az én kedves Lőrincz bátyám Vastag Lizit mostani gazda asszonyát akarja
+                    elvenni, mit mondanak önök ez ízletes választáshoz?</p>
+				<p>- Ha-ha-ha! he-he-he! hi-hi-hi! - kaczagott az egész társaság.</p>
+				<p>- Lőrincz pajtás! - szólott a házi úr, miután az átalános kaczaj lecsillapult -
+                    azt szokták mondani: vén embernek lábaszárába száll az esze, ha ez igaz,
+                    leginkább elmondható az aggle-gényekről, mert ezek többnyire gazdaasszonyukkal
+                    szoktak összepárosodni, mit én a legosto-bább tettnek tartok. Ne szaporitsd
+                    tehát ezek számát. Házasodjál nem bánom, végy szolgálót, azt sem ellenzem, csak
+                    saját szolgálódat ne. -</p>
+				<p>- Igen de fogadást tettem! - mentegetőzék a fülig pirult szemérmes vőlegény.</p>
+				<p>- Ember tesz fogadást, eb a ki megállja - idézte Kálmán Lőrincz úr szavait.</p>
+				<p>- Igazságod van Kálmán öcsém! de azért mégis megházasodom, mert nagyon jól tudom
+                    te miért ellenzed a szent házasságot - szólott Darázsy úr haragos szemet vetve
+                    Kálmánra.</p>
+				<p>Kálmánt titkos méreg futotta el, mert a mely pillanatban tökéletes diadalt
+                    reménylett, azon perczben tudta meg bukását. Bántotta a gondolat, hogy bátyja
+                    belátott fondorkodó lelkébe, s épen ez viszi a házasságra, ha eddig komoly
+                    szándoka nem volt is. Mintha leforrázták volna, elhallgatott, de csak azért,
+                    hogy annak idejében újra kitörjön; mint a kipihent Vezúv.</p>
+				<p>- Szomszéd urnak tudnék én ajánlani egy igen takaros nőt; kivel boldogabb lenne,
+                    mint gazda asszonyával - kezdé a házi nő, alig fojthatva el nevetését. - Az
+                    ajánlandó menyasszony árva leány, szép kis jószága van, munkás, becsületes
+                    szüléktől származott, s úgy hiszem nem is kapna kosarat, ha bezörgetne - tevé
+                    hozzá.</p>
+				<p>- Ha kedves szomszéd asszony ajánlja, el merem venni. De hát ki légyen ő? - kérdé
+                    Lőrincz úr kíváncsian.</p>
+				<p>- Oly sok fiatal leány van a háznál, magamra haragítanám őket, ha megtudnák,
+                    hogy</p>
+				<p>- Csak tessék nyilatkozni kedves néni! épen nem fogunk megneheztelni -
+                    felszólaltak a leányok hol egymásra, hol az őszbe csavarodott vőlegényre
+                    pislogatva.</p>
+				<p>- Szent Mártonon Béllay urnál van neje testvérének leánya, Lidi kisasszony. Azzal
+                    ugyan jól járna akármi Isten teremtése, mert a leány házias, dolgos, nem
+                    követelő, nem házaló, jó sütő, főző, finom varró, szóval mindazon tulajdonokkal
+                    ékeskedik, melyek egy jó feleségben meg- kívántatnak. Úgy van! gazda
+                    asszonyságáról én állok jót, erkölcséről Béllay úr jelleme kezeskedik, -
+                    nyilatkozott a házi asszonyság.</p>
+				<p>- A választás helyes! nem lehet ellene kifogás! - többen többfélekép
+                    nyilatkoztak, csupán Kálmán hallgatott, mert nehéz lett volna annak ízlésére
+                    választani.</p>
+				<p>- Én pedig násznagyod leszek! - szólott Markosy úr. - Ma egy tappot sem mégy,
+                    holnap látogatást teszünk, s ha megkedveled a leányt, azonnal meg is kérjük.
+                    -</p>
+				<p>- Lőrincz bácsi! házasodjék meg, de azután nagy lakodalmat tartson ám, s majd én
+                    leszek a nyoszolyó leány - felszólalt a házi kisasszony, egy tizennégy éves
+                    leányka szeliden mosolyogva.</p>
+				<p>- Kis hugocskám kivánságának lehetlen ellentállani; azért itt a kezem, holnap
+                    leány nézőbe, vagy ha tetszik leány kérőbe megyünk, - mondá Darázsy úr, s kezet
+                    nyújta Markosy úrnak.</p>
+				<p>Éjfélen túlhaladt az idő, midőn a vendégek egy része megindult, az ifjak
+                    kivilágos kiviradtig tánczoltak, némelyeket pedig a serkedő nap is a
+                    kártya-asztalnál nyomott.</p>
+				<p>Ki irná le Darázsy Kálmán boszúságát? hát Lőrincz úr nyugtalanságát? Egész éjjel
+                    nem hunyta be szemét, mert adott szavát kellett megszegnie a világ
+                    előitéletéért. Azonban hagyján adott szó, és világ itélete, de mit fog Lizi
+                    mondani az egészhez? Lizinek hatalmas fegyvere volt, mely sok esetben rosszabb a
+                    kardnál, mert kétélű. Nem fenyegetőzött-e már egy izben, hogy eltávozik a
+                    Darázsy háztól, de ki fogja kiáltozni az egész világnak, hogy „Mily</p>
+				<p>ostoba valék, hogy okot adtam ennek a leánynak a hozzám való ragaszkodásra!” igy
+                    tünődött magában. „De hát tehetek is róla, hogy úgy epednek értem a nők. Ez a
+                    következés, hogy most félnem kell saját cselédemtől, mert árthat szeplőtelen
+                    nevemnek. Nem fogja elmondani leendő nőmnek, mind azt, a mit az egész világnak
+                    ki akar kiáltozni? Ha ezt teszi kész a féltékenység, kész a családi
+                    boldogtalanság. Ej-ej csak már jobban meggondoltam volna az egészet, de most nem
+                    csak bánnom, hanem szégyenlenem is kell az egész dolgot.” Igy tünedeztek föl
+                    lelke előtt új meg új rémképek, melyek lassanként oda viszik, hogy tökéletesen
+                    lemond a házasságról, ha szerencséjére, vagy szerencsétlenségére meg nem
+                    virad.</p>
+			</div>
+			<div type="chapter">
+				<head>A leány-kérők.</head>
+				<p>Darázsy Lőrincz úr soha nem fordított annyi gondot öltözetére, mint azon nap. A
+                    tükör elől czukorral sem lehetett volna elcsalni, pedig az előtt hét számra nem
+                    nézte meg képét. Inge gallérát, bár nagyon gyürődött volt, kissé kihajtotta,
+                    mert úgy látta azt a fiataloktól is. Pantallont húzott, csizmáját
+                    kifényesítette, bajuszát kikente, s haját módosan a mutatkozó kopárságra
+                    simogatta, s különböző mozdulatokat tanult be a tükör előtt.</p>
+				<p>Tiz óra tájban készen állott a fogat, s két öregünk fülig bepólálva felmászott a
+                    szánra. Markosy úr lovai mintha érezték volna, hogy vőlegényt és násznagyot
+                    visznek, sebesen rohantak, úgy hogy az üvöltő csipős szél messze hátuk mögött
+                    maradt, s csak fütyülése hallatszott, mintha utánuk kiabált volna.</p>
+				<p>Kemény idő volt, a fák galyait megezüstözte a zúzmaráz: de azért veréjték
+                    folydogált Lőrincz úr hátán, bár kikent bajuszán, mint egy-egy plajbász olyan
+                    jégcsapok csüngöttek. Soká hallga-tott a két öreg fülre tapasztott prémes
+                    sipkájában, vastag nyakkendőjében, mig végre Markosy úr törte meg a csendet: -
+                    ne pöffentsünk rá? úgy is egy a fizetés, - és e szóra rágyújtottak, s füstöltek,
+                    mintha a telet akarták volna a vidékről elüzni.</p>
+				<p>- Messze van-e még Szent-Márton kocsis? - kérdé Lőrincz ur, ki nagy szemöldjeitől
+                    orráig sem látott.</p>
+				<p>- Úgy gondolom teins uram! hogy Béllay úr kastélyának füstje látszik amott, -
+                    válaszolt a kérdett.</p>
+				<p>- Hálá Istennek! - mondá Lőrincz ur, s egy nagy gomolyag-füstöt lökött el magától
+                    a fagyos levegőbe.</p>
+				<p>Miért hála Istennek? maig sem tudtuk magunknak megmagyarázni.</p>
+				<p>A kocsisnak igaza volt, mert nem került bele egy negyed, tisztán kivehető vala
+                    Béllay úr kastélya.</p>
+				<p>Szent-Márton két sorházból álló hosszú falu volt, melynek keleti végén feküdt
+                    Béllay úr laka kisded halom tetején, honnan szép kilátás nyilt az egész messze
+                    lapály vidékre. A kastélyhoz két sor ákácz közt vezetett föl a szépen murvázott,
+                    most márványnyá fagyott út.</p>
+				<p>- Pajtás, látod a paradicsomot: honnan a te Évád fog szármozni! - mondá Markosy
+                    úr, midőn a fehérre meszelt kastély a kert zúzos fái közül előcsillámlott.</p>
+				<p>- Hátha engemet is kiűznek belőle, mint Ádám atyust, - jegyzé meg Lőrincz ur jó
+                    ízün kaczagva.</p>
+				<p>- Mindegy az barátom! csak Évád is veled bujdossék, alkothatsz azután
+                    paradicsomot saját házadnál is, - vigasztalá útitársa.</p>
+				<p>Mig igy beszélgetett a két szerencse vadász, sebesen a kastély eleibe vágtatott a
+                    négy prüszkölő sárkány. A megriadt ebek bőszülten rohantak a lovak eleibe, és a
+                    gyeplős úgy talált egy komondort agyba legyinteni első fegyverével, hogy az
+                    azonnal pára nélkül terült el a hó felett, mire társai vonyitva futottak az
+                    istállók, s kazalok közé.</p>
+				<p>- Bakot lőttetek barátim! - mondá nevetve Béllay úr, kit a kutyaorditás, s
+                    száncsöngés azon perczben a csarnokra vont ki.</p>
+				<p>Markosy úr nevetett az ötletnek, de vőlegényünk, kit minden legkisebb jel
+                    gyanakodóvá tett, aggódva sugá társa fülébe „nem jelent ez valami roszat?”</p>
+				<p>- Ne búsulj pajtás! ha Isten neked szánta, tied lesz az, ha a világ fordul is ki
+                    sarkából, - vigasztalá násznagya a ludas vőlegényt.</p>
+				<p>Csaknem ölben szedték le őket a szánból, de adott is dolgot, mig kibontakoztak a
+                    sok pokrócz, tégla, bunda és vánkos közől. Igazi magyar szívességgel
+                    fogadtattak, nem azért mert eladó leány volt a háznál; hanem természeti magyar
+                    hajlamból, mert hiszen micsoda vakmerő ember mert volna azon gondolatra
+                    vergődni, hogy ezen két kordér-csipte vendégben násznagyot, és vőlegényt
+                    keressen?</p>
+				<p>Lassanként kibontakoztak téli gunyájokból. Először leoldozták a prémes téli
+                    sapkát, mely csaknem képükhöz tapadt; azután letolták a térdig nyúló botosakat;
+                    majd kitekerőztek gyapjú nyakkendőjükből; végre lekéredzett róluk a felső
+                    öltöny, s ekkor a vigan pattogó kandaló tüze mellé telepedtek.</p>
+				<p>Markosy úr egyike vala azon ritka magyar embereknek, kik nem szoktak valaminek
+                    nagy feneket keríteni; hanem kevés szóval egyenesen az elevenre tapintanak.
+                    Mihelyt a pipa szájukba melegedett, azonnal kirukkolt jöttük czéljával, mi
+                    Darázsy urat annyira meglepte, hogy újra elkezdett fázni, pedig már párszor
+                    távolabb tolta székét a meleg kandalótól.</p>
+				<p>- Komám! - megszólalt Markosy úr, - tudod-e miért jöttünk házadhoz oly
+                    lóhalálában, hogy kutyahalál is lett belőle? -</p>
+				<p>- Barátságos látogatási czélból, - lőn a válasz.</p>
+				<p>- Annál is több</p>
+				<p>- Talán csak nem</p>
+				<p>- Pedig úgy van - közbe szólt Markosy úr - Lőrincz barátunk házasodik</p>
+				<p>- Gratulálok! -</p>
+				<p>- ...Még pedig gyámleányodat, Lidi kisasszonyt kivánja jobbjával boldogítani. Nem
+                    kell aján-lanom vőlegényemet, mert hiszen magad is ismered. Annyit azonban
+                    szükségesnek látok megmondani, hogy biz ő már nem mai csirke, de azért érez
+                    magában elég erőt, és bátorságot a szent házasságra, - tevé hozzá enyelegve.</p>
+				<p>- Ezt ne nekem, hanem Lidi leányomnak mondjátok meg. A mi az egész dolgot illeti
+                    - nyilatkozott Béllay úr kis szünet után - a leányt nem magamnak neveltem, nem
+                    is akarok neki férjet választani: de engedjetek ha nem is erőltetem, mert ő fog
+                    vőlegényével élni, s ha talán rosszul ütne ki, engem okolna, vagy kárhoztatna.
+                    Kérdezzük meg a leányt, ő maga határozzon, s ha igent mond, én áldásom adom, s
+                    Ament mondok rá; annyival inkább, ha igaz az, mit mondál barátom! hogy Lőrincz
+                    pajtás elegendő erőt, és bátorságot érez magában, amit ugyan a hegytetőről
+                    itélve nem vagyok hajlandó hinni, mert ha hó fehérlik a hegyeken, nem szokott
+                    viola illatozni a völgyekben - toldá hozzá szinte mosolyogva.</p>
+				<p>Darázsy Lőrincz úr, mint a tizenhat éves leányka irult, pirult, az egyik kő le
+                    sem gördült kebléről, már a másik zuhant rá ónsulyával. Mit fog mondani a leány?
+                    ezt szerette volna mielébb tudni, és midőn Lidika előhivatván kérdőre vonatott,
+                    oly halvány lett, mint az olvasz-tott viasz.</p>
+				<p>Lidi kisasszony nehány értetlen szót dadogott, miből sem nemet, sem igent nem
+                    lehete ki-magyarázni; mert hiszen ki is kivánná egy tizennyolcz éves leánykától,
+                    hogy kezét minden szíre-szóra odavesse egy őszbe csavarodott kérőnek.</p>
+				<p>- Húgocskám! - szólt Markosy úr a fülig pirult leánynak - ne nézze, hogy a kérő
+                    nem egészen fiatal; nézze azt, hogy becsületes ember, ki hugocskámat megbecsüli,
+                    s boldogabb lesz vele, mint sok hebehurgya fiatal emberrel, ki csak addig szokta
+                    feleségét ölelgetni, csókolgatni, mig a mézeshetek tartanak, s azután ha
+                    eltellett, minden nő Csáky szalmája kapzsi szemei előtt. Hej hugocskám! nem
+                    olyan a mostani fiatal ember, mint az én időmben volt. Dinom-dánom, hejje-hujja
+                    kell ma már, sem dolgozni, sem tanulni nem szeret a mai fiatalság. Nincs benne
+                    szilárdság, nincs férfiasság, csak pipere, divat, fodros haj a mai fiatal ember
+                    czimere: azért azt tartom, ne szalajtsa el a kinálkozó jó alkalmat. -</p>
+				<p>Lidika mind erre nem felelt, hanem szem lesütve hallgatott, s csak néha-néha
+                    vetett egy meg-lopott pillantást Darázsy Lőrincz urra; ki mint karóhoz kötött
+                    statáriális rab állt ott félelem és remény közt, s hol fázott, hol akkora
+                    csöppöket izzadt mint egy sámsoni görög dinnye. Bár mennyire szerette volna
+                    Markosy ur szavait igazaknak találni, de a vőlegény homlokán borongó hószin
+                    fürtök meg-megfagylalák keble érzelmeit.</p>
+				<p>- Hiszen ma úgy sem mentek el, holnapig lesz gondolkozó ideje leányomnak - mondá
+                    Béllay úr, azután pedig leányához fordúla: - Menj leányom! láss a konyha után, s
+                    mutasd meg, hogy milyen gazda asszony vagy! - és Lidika kapván az alkalmon
+                    elsietett, de nem azért, hogy jó gazda asszonyságát bebizonyitsa, hanem hogy a
+                    parázsról, mely talpai alatt égett, menekül-hessen.</p>
+				<p>- Ha menyasszonyt kapunk, egy hétig itt dőzsölünk, egyszerre üljük el a kézfogót,
+                    lakodalmat, még talán a kárlátót is; de ha kosárral terhelnek meg, akkor még ma
+                    haza czipeljük. Úgy-e Lőrincz pajtás! - tréfált a jó kedvü Markosy.</p>
+				<p>Darázsy úr gondolni sem mert a kosárra, azért jobbnak látá hallgatással
+                    felelni.</p>
+				<p>Mig Lidi kisasszony a konyhán szivével számolt, és csaknem minden ételt elsózott;
+                    addig öregjeink, bocsánat hogy a vőlegényt is ezek közé számítom, a külső
+                    gazdaságot tekinték meg, mely most egészen érdektelen volt Darázsy Lőrincz úr
+                    előtt, holott másszor naphosszat el tudott csevegni a birkákról, azok különböző
+                    fajai, nyavalyájuk s orvosságukról; pedig ha valahol, Béllay úr jószágán
+                    lehetett volna a gazdaságról érdekkel beszélni, mert Béllay úr jó-szága a
+                    legrendezettebb volt az egész környéken. Rend volt az etetésben, tisztaság az
+                    istállóban; helye volt mindennek, szóval a mit látott Lőrincz úr, mind mintául
+                    szolgálhatott volna neki.</p>
+				<p>De ki veszi rosz néven egy szerelmes ifjunak, bocsánat! embert akartam mondani,
+                    egy szerel-mes embernek, ha minden magán kivül eső tárgyat mellőzve, magába
+                    vonul, s csak azon képpel mulatozik, mely szívében honol, mely életét egészíti
+                    ki? Olyan az agglegény keble mint a soká pihentetett föld, mely ha egykor
+                    mívelés alá jő, oly buján terem, hogy minden megdől benne; olyan az agglegény
+                    szív, mint a sámpányeres palaczk, mely nyugodtan áll, mig nem illetik, de ha
+                    dugaszát megmozgatják, a padlásig lövel tartalma; olyan az agglegény, mint a
+                    megromlott orgonasíp, mely folyvást dudál, míg levegő fér hozzá; olyan az
+                    agglegény kebel, mint az álló tó, meg sem mozdúl csöndes időben, de ha a vihar
+                    felzajgatja, szintugy hullámokat hány, mint a tenger.</p>
+				<p>Az ebéd vigan kelt el; senki nem talált kivetni valót; Lőrincz úr pedig
+                    kinyilatkoztatta, hogy életében most először evett ízletes ételt. Lehet-e ennél
+                    nagyobb dicséret a jó gazda asszonyra, és mégis Lidika oly nehezen tudta magát
+                    elhatározni. Nehezen mondom, mert Markosy úr által ebéd vége fele
+                    felszólítatván, másnap reggelre tette az eldöntő határidőt. Képzelni lehet a
+                    különben is égő parázson álló vőlegény nyugtalanságát. Vacsoránál szavát sem
+                    lehetett venni, mint a nyelve metszettnek; vacsora után pedig azonnal lefeküdt,
+                    hogy álomba temesse gondjait.</p>
+				<p>Mi haszna hogy lefeküdt? Furcsa gondolat a szerelem elől ágyba menekülni!
+                    Folytonosan Lidika sugár termete lebegett előtte a félhomályban; két égő tüzes
+                    szemet látott minden sarokban, és e szemek üdvöt mosolygának; majd susogó hárfa
+                    hangot hallott, mely szerelmi dalt énekelt; voltak perczek, midőn úgy érezte
+                    mintha rózsalevél ajak érintené az ő ajakát. No már ekkor egészen odáig lett.
+                    Reggelig szemét sem hunyta le.</p>
+			</div>
+			<div type="chapter">
+				<head>Az éji kalandor.</head>
+				<p>Mig a kétség hullámain hányatott ősz bajnokot egyik oldaláról másikra forgatta az
+                    álmatlanság: az alatt furcsa dolgok történtek a ház körül, melyeket későbbi
+                    tájékozás végett szükségesnek látok megemliteni.</p>
+				<p>Lidi kisasszony azon sorsdöntő nap estéjén, magánosan ült háló-szobájában,
+                    melynek egyetlen ablaka a kertre nyíllott. Lehetett mintegy tíz óra, az egész
+                    udvar cselédsége mély álomban szendergett: s ő mégis fejét egyik kezére
+                    nyugosztalva ébren virasztott. Oh igen erősnek kellett azon kéznek lenni, hogy
+                    oly nehéz gondokkal terhelt főt képes vala emelni! Néha-néha az ablakra vetette
+                    könytelt szemeit, mintha valakit kémlelne; majd ismét hosszu sohaj után, mintha
+                    várakozásában csalódott volna, két tenyerébe temeté arczát. Ki csudálna egy
+                    fiatal leánykát, ha iszonyú harczot vív, midőn a felett kell határoznia „igen”-t
+                    vagy „nem”-et mondjon-e egy ötven éves kérőnek? Hátha még megmondom, hogy
+                    szeretett, lelke egész hevével egy ifjú bálványon csüngött. Az ifju kit
+                    szeretett, árva, szegény, a mellett nevelő a háznál, lehetett e reménye, hogy
+                    azt valaha bírandja? E gondolat új vihart költött zajgatott lelkében. A szerelem
+                    nem ismer rangot, előítéletet, maga teremti magát, s él örökké, saját magából
+                    nyervén életet. Szegény volt a kedves, de szép és ifju, s viszont szerelemmel
+                    csüngött imádottján; mégis Lidi kisasszonynak határoznia kellett, megtartja-e
+                    szivét a szegény de szeretett ifjunak, vagy lemondva a bizonytalan jövőről; egy
+                    nem szeretett férj rideg karjai közé temeti minden földi üdvét?</p>
+				<p>Alig hallható nesz riasztá föl az andalgó leányt, s e nesz a kertre nyiló ablak
+                    felől jött. Fel-szökkent mint felriasztott vad, s tántorogva az ablakhoz
+                    sietett.</p>
+				<p>- Ki az? - kérdé remegve.</p>
+				<p>- Én vagyok - mondá alig hallhatólag egy hang kivülről.</p>
+				<p>- Te vagy Sándorom! - mondá a leány. - Jó hogy jöttél - tevé hozzá, s csöndesen
+                    felnyitván az ablakot, kinyújtá kis kezét, melyet az ablaknál álló ezer csókkal
+                    halmazott.</p>
+				<p>Az ablaknál álló, mint a hold tiszta fényénél ki lehete venni, magas barna alak,
+                    hosszú haj-fürtökkel, állát tömött fekete szakáll fedi, s orra alatt csinos
+                    barna bajusz nyúlik át, fejét fekete berbecs sapka takarja, mig testén sárga
+                    bunda folyik végig.</p>
+				<p>- Vártál kedvesem? - kérdé a sárga bundás.</p>
+				<p>- Oly epedve mint virág a harmatot, hajótörést szenvedett a biztos partot; s
+                    halálos beteg orvosát. Mondd mit cselekedjem? Adj tanácsot, mert fejem kábul,
+                    szívem megszakadni készül, mert megőrülök.... s azzal az ablak párkányára hajtá
+                    forró homlokát.</p>
+				<p>- Szólj mi bánt? -</p>
+				<p>- Leány-kérő van a háznál, s holnap reggelre határozott választ kell adnom, -
+                    felelé kis szünet után, míg könyben uszó szemeit esdőleg, s kérdőleg függeszté
+                    kedvesére.</p>
+				<p>- Leány-kérő? - dadogá az ifju, s visszatántorodott.</p>
+				<p>- Fájdalom igen! -</p>
+				<p>- S mit fogsz mondani? - kérdé az ifju fájdalmát lekűzdve.</p>
+				<p>- Szeretlek Sándor, Isten a tanúm hogy szeretlek, s épen azért oly nehéz a
+                    határozás. -</p>
+				<p>- Szeretsz?... ha-ha-ha! és mégis nehéz a határozás; hiszen akkor csak nem-et
+                    kell mondani, s kész a válasz.</p>
+				<p>- Igen de mit mond bátyám? ha megtudja, hogy téged szeretlek. Látod ő büszke
+                    nemes,</p>
+				<p>családjára nagyon sokat tart, s nem fogja engedni, hogy tied legyek. Árva vagyok
+                    én is, de ez hagyján, ha megtudja, hogy te vagy a botránykő, elüz a háztól, s
+                    szerelmünk</p>
+				<p>Az ifjut lábdobogás döbbenté meg, majd úgy tetszett mintha valaki közelitene
+                    felé. - Megláttak - mondá suttogó hangon.</p>
+				<p>- Vonulj félre! - sugá a leány alig szólhatva; s az ablakot csöndesen becsukván
+                    függönyét lebocsátá.</p>
+				<p>Sándor a közel kerités mellett vonta meg magát, de látván, hogy az elébbi alak
+                    folyvást felé tart; az általa ismert résen kiillant a kertből, s a füzesen
+                    keresztül haza fele sietett.</p>
+				<p>- Itt ácsorgott a kisasszony ablaka alatt - dörmögé egy durva hang.</p>
+				<p>- Talán csak káprázott a keed szeme - mondá egy másik - hiszen ki merne éj idején
+                    a kis-asszony ablakára menni.</p>
+				<p>- 'Szen nem vagyok sem vak, sem bolond, nézd itt a nyoma is, ihol is, erre ment
+                    mormolá</p>
+				<p>az előbbi durva hang. - Hej csak itt kapnám a ház körül, megdöngetném ugy, hogy
+                    lepedőben vinnék haza. Bizonyosan ő kelme lesz az, a ki a méhkasokra szokott.
+                    -</p>
+				<p>- De hát miért jött volna a kisasszony ablakára? -</p>
+				<p>- Azt nézte nem lesik-e. -</p>
+				<p>- Hamarébb azt gondolta, hogy a szolgálók ablaka, valami kocsis-féle ember. -</p>
+				<p>- Valami nemes legényke biz az öcsém, mert sárga bunda volt a nyakában. Nézd erre
+                    ment, nyomozzuk, ha kézre kerithetnénk a czinkust, megdícsérne a tens urunk, -
+                    hallatszott ujra az első hang, s a hóba nyomott jelek után elczammogott a két
+                    éji vendég.</p>
+				<p>Lidi mind ezt hallá belőlről, s mintha hideg rázta volna, egész testében
+                    didergett. Nem attól félt, hogy a két béres, mint igérte, megdöngeti a nevelőt;
+                    hanem attól tartott, miként meg- tudandja bátyja, hogy viszonyban áll a
+                    nevelővel, sőt éji látogatásokat fogad el attól. A zaj, s hóropogás mindig
+                    távolabb vonult, s a leány még soká neszezett, de sem nevelő, sem üldözők vissza
+                    nem tértek többé.</p>
+			</div>
+			<div type="chapter">
+				<head>Igen.</head>
+				<p>Darázsy Lőrincz úr volt az első felkelő. Nem nyughatott ágyában. Szerette volna
+                    az időt czérnára kötve felgombolyítani, hogy a világos viradtát annál hamarább
+                    torkon csíphesse; mert Béllay úr háza tegnap dél óta paradicsom és siralomház
+                    volt reá nézve.</p>
+				<p>Végre megmozdult az egész ház, s udvar, közelebb jött a gyilkos, vagy üdvözitő
+                    határozó percz.</p>
+				<p>Reggelinél ült az egész család, Lidike is reggeli pongyoláj ában, mi még jobban
+                    emelte falusi kellemeit. Markosy ur megint elkezdte a vasat ütni, s - igen -
+                    lett a kedves válasz. Darázsy urat majd padlásig pöczkölte a rugalmas díván,
+                    melyen ült, oly könnyüvé lett, a mint a kétség mázsás köve lezuhant
+                    kebléről.</p>
+				<p>Ifjabb éveinkben meggondolatlanul vetjük oda szivünket a legelső érzelemnek! s
+                    nevezzük azt szerelemnek, ha ezen érzelem egy másik által viszonoztatik. Pedig
+                    ezen viszony csak szeretközés, mely annyiszor felbomlik, és újra szövődik, a
+                    hányszor változik ezen érzelem tárgya. Csak első fellépés ez a szerelem
+                    világában. Próba szerep a párosélet szinpadán. Az ifju szív ezen első
+                    fellángolása ritkán szokott maga után izzó parazsat hagyni, csak szalmatüz az,
+                    mely magasan lángol fel, s hamar kihamvad. Kül szin vagy érdek, szépség, vagy
+                    tulajdon lobbantsák fel, a szerént változik, a mint azok változnak. Csak napra
+                    forgó, s nyári futó árny, mely állandóságot nem ismer.</p>
+				<p>Nem ilyen volt azon érzelem, melyet Lidi érzett a nevelő iránt, azonban ő
+                    ilyennek gondolta. Elzárva az emberi társaságtól, eltávolitva tőle minden
+                    mulatság, mi Béllay ur elve szerént megmételyezi az ifju kebelt: nem csuda ha a
+                    tizenkilencz éves szív titokban keresett magának élvet, melylyel táplálkozzék,
+                    mert a női szivnek oly szükséges a szerelem, mint virágnak a harmat; madárnak a
+                    lombos erdő; és halnak a viz. A sovárgó szerelmet más érzelem váltja fel; érzi a
+                    nő, hogy neki magasabb hivatása van, hogy reá nemes élv, de nemes kötelesség is
+                    vár, s ohajt szövetkezni: hogy közös élv közt a közös kötelességet is
+                    megoszthassa.</p>
+				<p>Az - igen - szó hallatára, mint mondám, Darázsy Lőrincz urral nyúlat, verebet
+                    lehetett volna fogatni, annyira neki ifjúdott. Lidika körül forgolódott,
+                    udvarolt, szépet is mondott, mit csak azért nem jegyzek fel, mert attól tartok,
+                    hogy sok finnyás olvasóné azt találná mondani: „biz az nem szép” mert persze
+                    Darázsy Lőrinc úrtól annyi költészetet kivánna, mint egy betanult szerepü
+                    udvarlótól, ki a széptevésből, mint mesterségből él, sőt emeletes házat is vesz!
+                    Darázsy Lőrincz úr, ha ennyit mondott: „eszem a kis szentjét!” már szépet
+                    mondott, mert ő ennél szebbet soha nem mondott; ha Lőrincz úr Lidika kövér
+                    kacsójára csókot czuppantott, ez nála udvarlás volt: mert eddig a helybeli
+                    lelkészt kivéve az egész falu neki csókolt kezet. Elhiheti tehát olvasóm, hogy
+                    Lőrincz urat egészen kivetkőztette a szerelem.</p>
+				<p>Midőn visszaszánkázott násznagyával Marczi-völgy fele, soha be nem állott a
+                    szája, folyvást csevegett, annyit beszélt a házas életről, mintha annak jármában
+                    őszült volna meg: úgy hogy Markosy úr kénytelen lett megszólitani: - Barátom, ha
+                    házas korodban is ennyit beszélsz, nőd legelőször is ezért fog rád
+                    megneheztelni, mert ő soha nem jöhet szóhoz. -</p>
+				<p>Midőn házához ért Darázsy Lőrincz úr, még csak akkor ment át szörnyü változáson.
+                    Szük volt eddig kongó házi köre, az egész világot szerette volna magához ölelni.
+                    Mindenkit megelőzött a köszöntésben, az iskolás gyermekekkel is szóba állt,
+                    krajczárokat osztott ki köztük, a lelkészt, s iskola-tanitót naponként
+                    asztalához hívta; sőt mindeniknek egy-egy hízott sertést ajándékozott; s
+                    cselédeinek naponkint egy-egy iccze jó bor járt ki.</p>
+				<p>Lizike azon hiszemben, hogy mind ez érte, s miatta történik, ugyancsak suhogtatta
+                    a kormány- pálczát; minden perczben tálalgatta a poflevest: ugy hogy az ő
+                    gorombaságát, és zsarnokságát csak urok kegyessége s bőkezüsége tette
+                    kiállhatóvá.</p>
+				<p>Feltünő volt ugyan előtte, hogy Lőrincz úr darab óta szót sem szólt a
+                    házasságról, s estenként is szokatlanul hideg, s tartózkodó volt; de azzal
+                    altatta el fel-feldagadó aggályát, hogy a két heti határidő még nem érkezett el,
+                    s Lőrincz úr nyelvét a közel boldogság érzete bilincselte le.</p>
+				<p>Dániel nap után pár hétre magához szólítá Lőrincz ur Lizikét, s megcsipdesvén
+                    kövér állát, tudtára adá, hogy holnapra mintegy harmincz vendégre készíttessen
+                    nagy és fényes lakomát; zsirt, vajat, baromfit, lisztet, czukorsüteményt ne
+                    kiméljen, mert a holnapi nap egyetlen az ő életében, lakodalom lesz a háznál.
+                    Nem kellett több a titkos menyasszonynak, kiküldetésében oly erélylyel járt el,
+                    minőt semmi futár, deputatus, s, hivatalnokról nem jegyzett föl eddig a történet
+                    muzsája. Irtó háborút izent az udvar szárnyas seregének, s a sok katlantámasztó
+                    alig győzte a vérontást; a lisztes hombárok megapadtak, a zsiros bödöny
+                    meglappadt, s csaknem pusztává, s üressé vált Lőrincz úr udvara, s éléstára.
+                    Naponként négy lovas legény is megfutotta a várost, mert Lizike meg volt
+                    zavarodva, s rendesen akkor jutott eszébe legtöbb hozatni való, midőn óra
+                    járásnyira járt az elszalasztott posta; ha aztán volt pör, ütlegelés, ki vette
+                    volna rosz néven?</p>
+				<p>De mily nagy lőn Lizike bámulata, midőn másnap reggel Darázsy Lőrincz urat, a
+                    vőlegényt, Kálmán urfival elszánkázni látá? még nagyobb, midőn a vőlegény késő
+                    estig sem érkezett haza, s az esküvő óráról órára késett; de még ennél is sokkal
+                    nagyobb, midőn egyszerre szánkócsöngést hallott, s látá az első, második,
+                    harmadik... de ki tudná ilyenkor örömében számlálni, hányadik szán befordúlását?
+                    de már még ennél is sokkal nagyobb lőn bámulata, akkora hogy annál nagyobbat
+                    képzelni sem lehet; midőn Darázsy Lőrinc úr leszállván szánjáról, karján egy
+                    csinos fiatal hölgyet vezete Lizihez ezen szavakkal: „Lizi! ez feleségem, leendő
+                    asszonyod” azután a karján tartott hölgyhöz fordult: „Kedvesem! ez Lizi eddigi
+                    gazda asszonyom, jó cseléd, gondod legyen rá.”</p>
+				<p>Lizi nem, szólt, olyan lett mint Lót felesége, álla leesett, mint a halotté,
+                    felfordult vele a világ, minden csepp vér meghült benne, most hőség ütötte ki,
+                    mint kit erős dohány kábitott meg, majd didergett, mint kit hideg vizből
+                    rántanak ki. Rettentő magasságból szédült alá, feje kóválygott, szíve
+                    elfogódott, s ha valódi müveltséggel biró hölgy, azonnal elájul. Nem szólt
+                    mondom, hanem szobájába sietett, hol szemei záporának szabad folyást engedvén
+                    sirt mint a sebes eső, míg átkai mint villámok czikáztak közbe-közbe; különösen
+                    átkozta azon pillanatot, melyben férfi szavának hitt. Szegény Lizi! szívemből
+                    sajnállak, mert neked nem sikerült, a mi annyinak sikerült, gazdád nyakába
+                    varrhatni magadat!</p>
+				<p>Gazdag vacsora után tánczba pördült az egész násznép, szökött, rugott mindenki,
+                    mint a ketreczből kiszabadult borju; csak három lényben nem tudott kedvet önteni
+                    a sarok alá húzott zene. És ezen három lény, a menyasszony, Kálmán, s egy barna
+                    ifju hosszu hajfürtökkel, kik mély fájdalommal ültek ott a zajongó kedv
+                    közepette, mint sziklára vetett hajótörést szen-vedettek a mormogó hullámok
+                    felett. Olvasóm tudja fájdalmuk okát, rajzolásával nem foglalom a helyet.</p>
+			</div>
+			<div type="chapter">
+				<head>A mézes hetek.</head>
+				<p>Elmult a lakodalom, s Darázsy Lőrincz úr házánál új élet kezdődött. Ő, ki eddig
+                    is, legfeljebb tisztújitáskor hagyta el házát, most naphosszat a szobában ült,
+                    takargatta, gyöngyölgette nejét, mint gondos kertész fiatal oltoványát. Vesztére
+                    hagyta gazdaságát, Lizike nem pörölt, nem veszekedett, a cselédek naphosszat
+                    ácsorogtak, mert boruk sem járt ki mint lakodalom előtt.</p>
+				<p>Az ifju teins asszonynak végre unalmasokká váltak öreg férje egyhangú
+                    turbékolásai. Lágy igéretek, puszta szó nem voltak képesek betölteni az ifjú
+                    szívet, mely vérmes reményektől dagadt, s szórakozást keresett, gyakran férje
+                    ellenére is kikocsizott, s óra számra távol volt a háztól. Felötlő volt Darázsy
+                    Lőrincz úr előtt, hogy neje távozás előtt, és megérkezés után nehány óráig oly
+                    derült, enyelgő, enni való; s mihelyt pár napot tölt az ő körében, dacos,
+                    panaszkodó, elégületlen, pedig hiszen naphosszat mellette van, s gyakran óra
+                    számra fogja s szorongatja kezét.</p>
+				<p>A féltékenység emberi gyarlóság, vagy szenvedély, nevezzük bárminek, de
+                    alkalmatlan vendég a házaséletben. Ifjú szivekbe is be szokta magát csempészni;
+                    vén embereknél pedig, ha új házasok, rendes szállást tart, a szív nyugalmával
+                    él, s a vihar legnagyobb éleménye. Jaj azon családnak, melybe ez befészkelte
+                    magát! szerelmet, s minden más nemesebb érzelmet kiűz a házassági paradicsomból,
+                    s kigyóként tekerőzik az üdvözület fájára. Kihal ott az életboldogság, a családi
+                    nyugalom csajkája a viszály háborgó hullámaira vettetik, hol veszélylyel küzdve
+                    addig hányatik, mig a kétség szirtjénél darabokra nem szakad. A féltékenység
+                    telhet- len, gyanakodó, elégületlen. A világ minden kincse, minden élve s
+                    gyönyöre nem képes kielé- giteni; a legártatlanabb lépést balra magyarázza; egy
+                    félre mosolygást szerelem vallás gyanánt vesz; egy komoly perczet másra
+                    gondolásra magyaráz, szóval mindenütt, s mindenben rémet lát.</p>
+				<p>Ilyen forma érzés fészkelte magát Darázsy keblébe is. Neje gyakori kirándúlása
+                    mélyen aggasztotta, mert az egész némi titok szinbe vala burkolva. Ha nejét
+                    kérdezte, hova megy, „kikocsizok” lőn a válasz; ha a kocsist kérdezte, hol
+                    voltak, „kikocsiztunk” lőn a felelet. Igaz, hogy nő és kocsis felelete
+                    összevágott, de ki hinné azt, hogy valakinek kedve teljék az óra számrai
+                    kikocsizásban; kivált minden harmad nap? Gyakran feltette magában, hogy komolyan
+                    kérdőre vonja nejét, de ismét szólni nem mert, nehogy megsértse alaptalan
+                    gyanakodással, s puszta ráfogással ő rontsa meg az eddigi házi-békét.</p>
+				<p>Igy telt el a nyár, s következtek az őszi lucskos napok, melyek a kirándulásokat
+                    kellemetle-nebbekké tették.</p>
+				<p>- Kedves manuskám! - így szólitá meg egy este a fiatal nő öreg férjét, csókot
+                    czuppantva annak derült, helyesebben szólva, kopasz homlokára - szeretlek, ezt
+                    ugy hiszem felesleges is mondanom, mert soha nem szolgáltattam okot ellenkező
+                    hitre, vagy csak gyanúra is, örömest is mulatok veled, mert enyim vagy, s én a
+                    tied: de megbocsátasz úgy-e kedvesem! ha kimondom, hogy valami bántja lelkemet,
+                    valami hiányt érzek boldogságomban, - tevé utána, s ujra megcsókolá a tisztes
+                    főt.</p>
+				<p>Darázsy Lőrincz urat inkább meghökkentette, mint felviditotta ezen hizelgő
+                    előbeszéd, félvén, hogy valami olyast fog neje kivánni, melynek teljesitése
+                    csupa lehetlen, mert hiszen ötvenen felül nem olyan könnyen fogadunk mindent: de
+                    azért megigérte, hogy a mennyire gyönge erejétől telik, igyekezni fog neje
+                    kivánságának eleget tenni.</p>
+				<p>- Látod manuskám! - folytatá a ravasz nő - én még fiatal vagyok, te sem vagy
+                    öreg, még</p>
+				<p>neked is teremhet az élet örömvirágokat; a mellett gazdagok vagyunk: magad
+                    gondold meg, nem vétkezünk-e ön magunk ellen, ha félre vonulva minden gyönyör
+                    elől, ezen remeteségbe temetjük legszebb korunkat? holott</p>
+				<p>- Mit kivánsz kedvesem! mondd.... - szólt közbe Darázsy úr, miután az előbeszéd
+                    második része meggyőzte, hogy neje nem akar tőle lehetlenséget kivánni.</p>
+				<p>- Elég gazdagok vagyunk, töltsük legalább a telet városon, ott több a kinálkozó
+                    öröm, s én egészen boldog leszek. Szólj, nem boldogítana-e téged a tudat, hogy
+                    nőd boldog? -</p>
+				<p>- Tökéletesen boldoggá tenne! -</p>
+				<p>- Mily áldott férj vagy te! Itt kocsikázással üzöm unalmam, ott helyembe jő a
+                    gyönyör, s</p>
+				<p>élvezet, soha nem foglak elhagyni. Úgy-e manuskám! városba fogunk menni. Igérd
+                    meg ah</p>
+				<p>de hiszen te nem szeretsz.... te semmit sem teszesz nőd kedveért Úgy-e
+                    kedvesem!</p>
+				<p>szeretsz? - és forró csókba füröszté férje arczát.</p>
+				<p>Darázsy úr úgy olvadott neje csókja alatt, mint czukor a forró kávéban. Mindent
+                    megigért, s még azon héten a városba hordozkodtak.</p>
+				<p>Az ifju nő elemében volt, de az öreg férjre ott sem mosolyogtak derültebb napok.
+                    Igaz ugyan, hogy neje naphosszat honn ült, de azért naphosszat nem fért hozzá,
+                    mert a sok udvarló, hizelgő; imádó, tányérnyaló úgy körülrajongták, mint raj a
+                    királynét. Estélyek adattak, fényes társaságok gyültek össze, de a férj csak
+                    kulcsár szerepet játszott, mert az ételek, s italokról neki kellett
+                    gondoskodnia. Boldognak mondá magát, ki egy szót válthatott a kaczér házi nővel;
+                    mégis estély után minden ifju tag annak kizáró szerelmével altatta magát, vagy
+                    dicsekedett.</p>
+				<p>Darázsyné boldogságából semmi nem hiányzott, egymást válták estély, szinház,
+                    tánczvigal- mak, férje mindezekben résztvett, de csak mint ötödik kerék, neki
+                    elég feladat volt a szemtelen álmossággal küzdeni.A hosszú hajú.</p>
+				<p>- Ki volt kedvesem! azon fiatal ember, kivel oly bizalmasan, oly nyájasan
+                    társalogtál? - kérdé Darázsy úr egy este, miután vendégei eloszlottak.</p>
+				<p>- Melyik a sok közül, mert én úgy hiszem mindegyik vendégem iránt nyájas valék,
+                    mint a társalgási illem hozta magával -</p>
+				<p>- Az a hosszú fürtű, kit ma láttam először estélyünkön. -</p>
+				<p>- S miért akarja azt férjem uram tudni? Vagy tán féltékenyek vagyunk édes öregem?
+                    Nem</p>
+				<p>kellett volna a nősülést oly későre halasztani, vagy ha már meglőttük a bakot,
+                    korosabbra sze-geztük volna nyilunkat. Azt gondolja édes manuskám! nem tudom
+                    micsoda viszony létezett ön és Lizi közt, s létezik még ma is? Én elnyögök
+                    mindent, türök, szenvedek; de ha én barátságos szemet vetek is valamelyik
+                    vendégemre, már kaczér, hűtelen, talán isten tudja.... talán</p>
+				<p>- No-no édes kincsem! csak ne légy olyan paprika természetü, hiszen csak szabad
+                    kérdenem vendégeim nevét. Én bizony sem egyért, sem másért nem kérdem, hanem oly
+                    ismerősnek tetszett. -</p>
+				<p>- Ön kiállhatatlan, gyanakodó, pedig Isten látja lelkem, nem adtam rá okot, s
+                    minden bűnöm csak az, hogy ifjú vagyok, és oly forrón tudok szeretni....
+                    zokogott a sértést szinlő menyecske.</p>
+				<p>Lőrincz urnak eszébe jutottak Kálmán szavai: „vagy idejében, vagy soha!” s
+                    elfojtva nehez-telését, jobbnak látá hallgatni.</p>
+				<p>- De úgy-e te is szeretsz? úgy-e nem haragszol rám? - mondá a nő kis szünet után,
+                    mely alatt veresre dörzsölte szemeit, s mint hajnalka a pudvás oszlopot,
+                    átkarolta férjét.</p>
+				<p>Darázsy úr ha csupa méreg is, ezen nyájas szavakra csupa mézzé változik. - Ki
+                    tudna rád haragudni te kis angyal! te megtestesült szivjóság? bocsáss meg, ha
+                    néha zsémbes vagyok, de látod ez koromhoz tartozik, - válaszolá, s megcsókolván
+                    nejét jó éjszakát kivántak egymásnak.</p>
+				<p>Mig a kibékült házaspár boldog álmot alszik; néhány felvilágositó adattal
+                    szolgálok olvasóm-nak.</p>
+				<p>Mihelyt Darázsy úr haza röpité nejét, a nevelő azonnal elhagyta Béllay úr házát,
+                    s Darázsy úr jószágától egy óra járásnyira egy erdő-kerülőnél vonta meg magát,
+                    kinek testvére kocsis volt Darázsy úrnál. Láttuk fentebb, hogy a szép fiatal nő
+                    gyakorta kikocsizott férje udvarából, a nélkül hogy megvallotta volna hová; most
+                    megsugom olvasómnak, hogy az erdő-kerülő házához, hol régi imádója karjai
+                    várták.</p>
+				<p>Őszre vált az idő, szerelmeseink belátták, hogy a téli viharok gyakran fogják
+                    összejövetelüket gátolni: azért azt határozák, hogy mind a két család, azaz:
+                    Darázsy úr családja, és Sándor városra költözzenek, hol könnyebben folytathatják
+                    titkos szerelmüket, s innen van, hogy a hosszú fürtű ifjat, kit először Lidika
+                    ablakánál pillantánk meg, most Darázsyné estélyén volt szerencsénk találni.</p>
+				<p>Harmad napra új darabot adtak, a Darázsy pár is megjelent a szinházban, hol az
+                    ifju hölgy egy mellette ülő barna ifjuval oly fesztelenül mulatott, mikint az
+                    egész közönség megbotránkozott benne, s az anyák szerették volna leányaik szemét
+                    bekötni, hogy leczkét ne vegyenek ezen kiereszkedő női magaviseletből. Darázsy
+                    úr mintha gerebenen ült volna, irult-pirult mint a fiatal leány, ha férjhez
+                    kérik, de nem mert szólani.</p>
+				<p>- Megint az a barna ifjú hosszú hajfürtökkel, - gondolá magában. - Mindenütt
+                    nyomomban, mint a kisértő szellem, s rágódik boldogságom fáján.</p>
+				<p>Midőn a szinházból haza értek, akaratja ellen kitört belőle ezen kérdés: - Ki
+                    volt azon ifju, kivel a szinházban oly botrányosan mulattál? -</p>
+				<p>- Melyik? - kérdé a nő daczosan.</p>
+				<p>- A hosszú hajfürtű! -</p>
+				<p>- Neked mindig azzal a hosszú hajfürtűvel van bajod. Lábamat sem tehetem ki, hogy
+                    ez a vén ember ne gyanakodjék. Oh Istenem! miért nem tudok meghalni? - és ismét
+                    zokogott keser-vesen. - Tehát botrányosan mulattam? önnek botrányára van az, ha
+                    én mulatok? - tevé utána férjéhez fordúlva.</p>
+				<p>- No-no édes kincsem! nem én botránkoztam meg benne, hanem mások. -</p>
+				<p>- Tehát Darázsy Lőrincznek nincs annyi itélő tehetsége, hogy meg tudná itélni mi
+                    a botrányos, és mi nem?</p>
+				<p>- Ej-ej! ha mondom, hogy én nem botránkoztam meg; de az az ifju oly ismerősnek
+                    tetszik, mintha láttam volna már életemben. -</p>
+				<p>- És nekem egészen ismeretlen. Nem is akarom tudni nevét, mert nincs czélom vele
+                    szorosabb viszonyt kötni. -</p>
+				<p>- És mégis oly bizalmasan társalogtatok. -</p>
+				<p>- Az volna szép, ha férjem uram csakugyan féltékeny volna. Jó, a koczka el van
+                    vetve, ez napságtól fogva én is féltékeny leszek. -</p>
+				<p>- Kedves angyalom! nem gyanakszom... csak...</p>
+				<p>- Nohát csitt! - mondá a nő; s nagyot toppantott kis lábával - mert én is tudom a
+                    mit tudok, csak hogy a házi békéért hallgattam eddig, - tevé hozzá győzelmi
+                    hangon.</p>
+				<p>Darázsy úr is elhallgatott a házi békéért.</p>
+				<p>- Úgy-e nem haragszol? látod én sem haragszom, - mondá a nő kis szünet után. -
+                    Csak az fáj</p>
+				<p>lelkemnek, hogy kétkedel szerelmemben, pedig nem ez nem mehet tovább igy,
+                    vissza</p>
+				<p>megyünk falusi magányunkba, látom te irigyled, hogy derült napjaim vannak. -</p>
+				<p>Lőrincz úr először nem szólt, azután hallgatott, de ez naptól fogva folyvást
+                    komor, és levert volt. Barna bajuszában több-több fehér szál tünt föl; hasa
+                    meglohadt; arcza megcsappant; szóval az életteljes öregből csaknem csontváz
+                    lett, kibe a lélek csak hálni jár: de azért folyvást hallgatott, nem tudni
+                    bizonyosan a házi békéért-e, vagy hogy neje ki ne tálalja azt a mit tud. Lőrincz
+                    úr nagyon megbánta az elpárosodást, mi abból is világos, hogy midőn Lizi
+                    konyhára valót hozott be, legelső szava is az volt hozzá: ,,Hej Lizi! de boldog
+                    vagy, hogy nincs párod.” -</p>
+				<p>- De hiszen nem úgy van az tens uram! - mondá Lizi. - Vett volna csak engem, majd
+                    máskép beszélne. -</p>
+				<p>- Ne hidd Lizi! „Vagy idejében, vagy soha” igaza volt Kálmán öcsémnek - nyögé
+                    Lőrincz úr fájdalmasan.</p>
+				<p>Talán ha a tél egy hónappal meghosszabbul, belehal a mi öregünk: de a természet
+                    is megszánta őt, s korábban kezdett kitavaszodni; s a tavaszi munka
+                    visszaszólitá Lőrincz urat falusi jószágára, hová neje is követte.</p>
+				<p>Azt gondolná olvasóm, hogy a városi kellemetlen zaj, s hányatás után, falusi
+                    csöndes ma-gányában biztos párnára hajthatta fejét? Oh nem! Az öröm eltávozott
+                    tőle, mint hütelen vándormadarak nyári hazájoktól; s még álmában is a barna
+                    fürtű fiatal ember lebegett szemei előtt, és hogy az családi boldogságának
+                    sirásója, arról tökéletesen meg volt győződve, mert falura tértük óta neje
+                    tökéletesen elhanyagolta őt.</p>
+				<p>A házas élet vagy pokol, vagy mennyország, itt nincs közép út. Szent bölcs
+                    Salamon! te boldognak mondád a férfiút, kinek Isten erényes nőt ajándékozott.
+                    Igazságot szólottál. De talán azért vettél te is három ezer feleséget, hogy a
+                    három ezer közt egyet találhass, kivel bol-dognak mondhasd magadat? Korodban még
+                    divat, pipere, fényüzés nem csavarták ki annyira a nők fejét, s azon időben,
+                    mikor te országoltál, könnyebb volt nagyszerü templomodat fel- épiteni, mint ma
+                    a házi békének csak egy kis kápolnát emelni. Hogy oly sok a boldogtalan, és oly
+                    kevés a boldog házasság, annak szinte korunk az oka, mely túlkövetelő. Férj a
+                    nejétől, nő a férjétől annyi tulajdonságot kiván, hogyha azon tulajdonokat meg
+                    lehetne szerezni, s birni, mindegyiknek egy külön egyéniség szükségeltetnék; s
+                    innen van aztán, hogy ha valamely boldog férj haját tépi, kétségbe akar esni,
+                    mert nejét elvesztendő, mert az a halállal küzd: tiz boldogtalan férj azzal
+                    vigasztalja „oh bár engem ért volna azon szerencsétlenség, mely téged sújt.”
+                    Életünkben három nevezetes nap van. Születésünk, házasságunk, s halálunk. Az
+                    első, s utolsóról semmit sem tudunk, s legkevésbé függ tőlünk azok megtörténte:
+                    de bezzeg tudunk a középsőről, s hogy az jól üssön ki, csak tőlünk függ. Az okos
+                    s ovatos férfi nem szépet, nem ifjat, nem gazdagot keres, ámbár ezek is dicső
+                    tulajdonok: hanem egyszerü, szelíd, szende vallásos nőt, ki házi boldogságot
+                    képes teremteni, és a mely házba ilyen pár szállt be, ott paradicsom a házasság.
+                    A pokolról nem szólhatok, legalább nem akarok szólni, mert nem ismerem; olvasóim
+                    közül a ki ismeri, elég annak a keserü pohár érzete; a ki nem ismeri, miért
+                    festenék ördögöt a falra.</p>
+				<p>Darázsy Lőrincz úr házassága égő pokol volt, nem azért mert Lidit, és nem Lizit
+                    vette nőül; hanem mert nem magához, nem korához való nőt vett. Benne sok
+                    tulajdon hiányzott, mi egy férjben mulhatatlanul megkivántatik, mely nélkül ha
+                    nem pokol is, de legalább nem menny-ország nőre nézve a házasság.</p>
+				<p>Egy este kaszásaitól totyogott haza fele Darázsy Lőrincz úr, s a kert alján a
+                    hosszú fürtü barna ifjúval találkozott, ki udvarából lihegve sietett ki az
+                    országúton várakozó kocsihoz.</p>
+				<p>- Meg vagyok-e babonázva, hogy ezen ember üldöz mindenütt - gondolá magában, s
+                    tőle kitelhető sebes léptekkel sietett neje szobájába: - Asszony! - kiáltá
+                    szokatlan nyers hangon - kertünk alatt azon fiatal emberrel találkoztam, ki
+                    estélyeden jelen volt, kivel oly botrányosan viselted magad a szinházban</p>
+				<p>- Igen! - mondá a nő nyájasan - talán látogatásunkra jő ide, ideje is volna, mert
+                    már négy hava, hogy elhagytuk a várost - veté utána enyelegve. - Szegény te de
+                    elfáradtál, hogy izzad gyönyörü homlokod, ülj le kedves! ide mellém, hadd
+                    törölgessem meg. Kedves manuskám! mennyit fárad... és törölgetni akará férje
+                    veréjtékes homlokát.</p>
+				<p>- Nem elég az hozzá, akarom tudni, mit keresett itt azon békebontó belzebub? -
+                    folytatá Darázsy úr, s ellöké homlokáról neje kezét.</p>
+				<p>- Nagyon különös vagy ma manuskám! azt gondoltam szokásod szerint tréfálsz, s ime
+                    szo-kásod ellen goromba vagy. Csak az kellene még, hogy veszekedjél, hogy
+                    gyermeked anyját üsd - mondá a nő komoly hidegen.</p>
+				<p>- Tehát senki nem volt itt? -</p>
+				<p>- Egy lélek sem! -</p>
+				<p>- Méhed gyümölcsére fogadod? -</p>
+				<p>- Igen! -</p>
+				<p>Darázsy úr tulságosan boldog volt, most először hallotta neje ajakáról, hogy ő
+                    anya. - Ki vagyok én, mi vagyok én? ha nem apa? - gondolá magában, és neje
+                    keblére borulván sírt örömében, s kérte nejét bocsásson meg alaptalan
+                    gyanakodásaért, s hogy lázas fejét kihütse, vette pipáját, s kiballagott a
+                    kertbe.</p>
+				<p>- Egy hosszú haju úr volt a tens asszonynál! - sugá Lizi, midőn Lőrincz úr
+                    menyecskeszemű parazsat keresett pipájára.</p>
+				<p>- Mégis jól láttam. Oh mily boldogtalan ember vagyok én! - sohajtá fejét
+                    csóválva.</p>
+				<p>- Lássa tens uram! ha engem vett volna el, most nem sohajtana. -</p>
+				<p>- Hej Lizi! más itt a bökkenő. Törődött ember vagyok már. Legigazabbat mondott
+                    Kálmán öcsém „vagy idejében, vagy soha” de ostoba fővel nem akartam hinni annak
+                    a rosz kölyöknek</p>
+				<p>- mormogá az öreg, s a kertbe ballagott, hol tűnődve fel s alá járdalt.</p>
+				<p>- Talán ez a Lizi csupa nőm iránti ellenszenvből, vagy hogy rajtam boszút álljon,
+                    hinti</p>
+				<p>köztünk a viszály, s egyenetlenség magvát? s nőm ártatlan, és én ok nélkül
+                    gyanakszom rá, - igy kezdé tünődését. - De hátha bűnös, s engem ámít tudva, hogy
+                    hiszékeny, s engedékeny vagyok. Mert az mégis furcsa, hogy az a nagy hajú ember
+                    mindenütt ott van mint a garabon- czás diák Nem nem fiatal szív nem lehet oly
+                    megromlott, ha mint férjét nem szeretne</p>
+				<p>is... de mint ősz embert nem tudna megcsalniDe azt a nagy hajút, azt a sörényest
+                    csak</p>
+				<p>láttam ma, nem tagadhatom magam előtt igen de nőm azt mondja nem volt nála, Lizi
+                    azt állitja ott volt.... mint férj kinek tartozom hinni?.... nőmnek. Nőm ifju,
+                    én aggott vagyok... a fiatal szívnek merőbb, s hevesebb vágyai vannak, mint hogy
+                    én ki tudnám elégiteni.... de hiszen anya és én és én mi volnék? apa, boldog apa
+                    vagyok Csak azt a hosszú hajút ne</p>
+				<p>láttam volna! Hej Kálmán! de igazat mondtál, mikor azt mondtad: „vagy idejében,
+                    vagy</p>
+				<p>soha.” Mi is a házasság, ha jól felvesszük? persze hogy én nem arra való
+                    vagyok... bolond</p>
+				<p>voltam, hogy huszonkét éves koromban nem tettem persze hogy akkor kellett volna
+                    tenni...</p>
+				<p>hijában no, öreg vagyok, nem tagadhatom, ezt nőm is érzi.... az idő eljár....
+                    magamról tudom, hogy fiatal koromban.... hej de régen volt az is.... bizony
+                    eljár az idő... de lám mégis apa vagyok! - így váltogatták egymást Lőrincz ur
+                    agyában a kedves és kedvetlen gondolatok, míg vacsorára nem hívatott.</p>
+			</div>
+			<div type="chapter">
+				<head>A zöldben.</head>
+				<p>Mint mennydörgés vad moraja harsogta át hazánkat ezen időtájban „jőnek a
+                    muszkák!” Sok mendemonda, s hamis hir előzte meg jöttüket, mintha azok ember evő
+                    hottentoták, vagy pusztító tatárok lettek volna, kik a nőket rabszijra fűzik, a
+                    kisdedeket megeszik, s a férfiakat lekaszabolják. Darázsy úr fülébe is ilyen
+                    alakban jutott e hír, nem csuda tehát, ha azonnal hideglelést kapott, már csak
+                    azért is, mert neje kevés nap előtt nyilatkoztatta, hogy szíve alatt reményt
+                    hord. Ki irná le az apai örömöt, melyet ekkor érzett? de ki rajzolná aggodalmát
+                    is, hogy nejét a leendő Darázsy örökössel fogják rabságra hurczolni? Ki-kiállt a
+                    kertje alatt emelkedett dombra, felmászott a széna-kazal tetejére, s
+                    eltekintgetett északra és délre, kelet és nyugot fele, lesve honnan jön a
+                    fergeteg, a porfelleg, melyet a közelgő ellenség lovainak vas lába ver föl a
+                    nyári melegben.</p>
+				<p>- Kedves kis anyjukom! - így szólítá meg egykor nejét, kit most gyanútlan, s
+                    lelkéből szeretett</p>
+				<p>- a szívem hasadna meg, ha ölelő karjaimból az ellenség kirabolna, most, midőn a
+                    Darázsy név örökösét hordod szíved alatt: nem volna-e tanácsos, ha elrejtőznél,
+                    míg vidékünkön átvonulnak? -</p>
+				<p>- Köszönöm kedves férjem! szíves gondoskodásodat, - felelé a nő - szívem is
+                    megrepedne,</p>
+				<p>ha téged szemem láttára lekonczolnának. Én bizony elrejtőzöm, de hát belőled mi
+                    lesz? Azt hallottam, minden fegyver foghatót magukkal hajtanak</p>
+				<p>- Engem ilyen öreget?...</p>
+				<p>- Ej ha, mintha bizony a kis Darázsy apja oly öreg volna, hogy a kardot meg nem
+                    tudná fogni. Hát te öreg vagy? A legjavabeli, arról csak én tanúskodhatom már
+                    miért is volnál öreg?... a szemeit kaparnám ki, a ki azt merné állitani rejtsd
+                    el magad kedvesem hajad az igaz őszbe csavarodott, de szíved.... szerelmed....
+                    rejtsd el magad kedvesem! ha szeretsz, csak nehány napra, míg bizonyos hírt
+                    hallunk, - erőlteté férjét.</p>
+				<p>Darázsy ur elhitte, hogy ő javabeli ember, kire nejének panasza sem lehet, s
+                    meghajolt annak kérése előtt, mert hiszen mikép is lehetne ellent állani oly
+                    szerető nő kérésének, ki érte, s miatta aggódik? midőn az csókjai
+                    legédesbikével, a féltés csókjával itatja?</p>
+				<p>- De hát hová rejtsem magam? - kérdé Lőrincz ur elhalaványodva, miután széltében
+                    s hosszá-ban elgondolta helyzete borzasztóságát, ha az ellenség hatalmába talál
+                    esni. Már hallotta a muszka tábor iszonyu zaját, melyhez képest a mennydörgés
+                    moraja, csak méh-dongás; érezte hátán a korbács csattanását; látta neje
+                    felkonczoltatását, de legjobban visszaborzadt a gyalog-lástól, s határozottan
+                    eltökélé, hogy elbúvik.</p>
+				<p>- Azt tartom kedvesem! legalkalmasabb hely lesz a bánomi szőlőnk, ott becsületes
+                    présházunk van, lesz komoditásod, de legfőbb előnye az, hogy távol esik minden
+                    katonajárástól, - tanácslá neje.</p>
+				<p>- Úgy-e kedvesem! te is oda jösz? -</p>
+				<p>- Mit gondolsz megint? egy helyre búvni? Ha együtt találnak, együtt visznek
+                    rabságra, ha pedig külön helyen leszünk, vagy egyikünk, vagy másikunk szabad
+                    marad, s megfizetheti a váltságdijt. Azután gondold meg jól, ha együtt fognának
+                    el, szemed láttára felkonczolnának, vagy gyalázattal illetne valamely katona,
+                    nem ezerszeres halál lenne-e az rád nézve? Nekem máshová kell búvnom, hogy ha te
+                    elhalsz is, megtarthassam a Darázsy név örökösét, - ezen ok győzött, s Darázsy
+                    úr elhatározta, hogy a bánomi présházba rejtőzik.</p>
+				<p>Egy kinosan, s álmotlanul átvirasztott éj után, már hajnalban úton látjuk az öreg
+                    Darázsyt a bánomi szőlők fele, hogy észrevétlenül rejtőzhessék el: de ugyan azon
+                    perczben egy lovas posta is indúlt ki udvarából épen ellenkező irányban,
+                    Darázsyné levelével. Azt gondolja talán olvasóm, hogy a muszka táborba? oh nem,
+                    a városba.</p>
+				<p>Az öreg ur bezárkózott présházába, az ablak táblákat bereteszelte, s többnyire,
+                    ha egy kis világosságot akart látni, a pinczébe ment le, s csak ott bátorkodott
+                    gyertyát gyújtani. Csak egy meghitt cseléd tudta az öreg úr búvó helyét, azon
+                    kocsis, ki asszonyát titkos kalandokra szokta hordozni, ki most is mint lovas
+                    posta sietett a városba. Ez hordott enni az öreg urnak, mint Jónásnak a hollók,
+                    de egyszersmind ez vitte urának a borzasztónál borzasztóbb híreket, minőket szem
+                    nem látott, fül nem hallott, és embernek szive még csak meg sem gondolt, s
+                    melyek minden falatját epévé változtatták. Nejéről semmi bizonyost nem hallott,
+                    s utóbb hinni kezdé, hogy áldozatul esett.</p>
+				<p>Így telt el pár hét kínos bizonytalanságban: de míg ő a pinczei sötétségben vért
+                    izzadt, és halá-los félelemmel küzdött, az alatt a hosszú hajú a szó teljes
+                    értelmében gazda-szerepet játszott a kényelmes kastélyban.</p>
+				<p>- Mennyivel boldogitóbb a te szerelmed! - mondá egykor a nő, a mint az ifjú
+                    karjain pihent, ki mint olvasóm gyanitja, nem más mint a nevelő, az első
+                    szerető.</p>
+				<p>- Ha a végzés megtiltá is, hogy oltár előtt enyimnek mondhassalak, s e
+                    paradicsomot sajátom-má tehessem; legalább előcsarnokából nem vagyok kizárva, -
+                    válaszolá az ifju, s szabadon magához ölelé az engedékeny nőt.</p>
+				<p>A szeretőknek csak azon egyetlen ohajtása volt, bár a muszkák soha ne távoznának
+                    e hon földéről; a remeteségben élő Darázsynak azon egyetlen ohajtása volt, bár
+                    soha ne léptek volna honunk földére. Mindeniknek igaza volt, mert mindenik
+                    érdeke azt kivánta.</p>
+				<p>Harmadik hete járta, de annyi századnak tetszett Darázsy ur előtt. Mintha beteg
+                    lett volna az idő, oly lassan haladt; de hagyján! csak szerető nejéről hallott
+                    volna valamit, ki a Darázsy név örökösét hordja hü szíve alatt!</p>
+				<p>- Inkább meghalok! - igy fakadt ki egykor az öreg áristáns - mint hogy egy órával
+                    tovább maradjak ezen penészes lyukban; hiszen itt meg is vakul, meg is bolondul
+                    az ember, - s lassú léptekkel felhaladt a lépcsőn, megállt a présház ajtajánál,
+                    s reszketve hallgatózott. Semmi nesz. Csöndesen felnyitja az ajtót, s azon
+                    perczben lábdobogás zaja üti meg fülét. - Végem van! - rebegé, az ajtót nem
+                    tudta becsukni, egy alak állt előtte, s ez Lizi vala.</p>
+				<p>- Csakhogy valahára nyomára jöttem teins uramnak! - mondá fáradtan lihegve.</p>
+				<p>- Lizikém! szólj, vagy ne... ne szólj. Úgy-e baj van, megölték rebegé minden
+                    tagjaiban</p>
+				<p>reszketve.</p>
+				<p>- Dehogy van tens uram! inkább nagyon is jó dolga van otthon a tens asszonynak -
+                    monda Lizi gúnyosan mosolyogva. - Semmiben sem lát szükséget - tevé utána.</p>
+				<p>- Miért nem adtad elébb tudtomra?</p>
+				<p>- Mert nem tudtam hol lappang a tens úr; hanem tegnap kilestem az ételhordó
+                    kocsist, mert a mi sok csak sok.</p>
+				<p>- Hát eltakarodtak a muszkák? -</p>
+				<p>- Színe világát sem láttuk. De van a teins úrnak egy nagyobb ellensége mint egész
+                    muszka-tábor. -</p>
+				<p>- S az? -</p>
+				<p>- A hosszú hajú; ki az nap óta, hogy teins uramat elszöktették, folyvást ott
+                    élődik, de az</p>
+				<p>hagyján! hanem ha az ember szólni akarna... de ne szólj nyelvem, nem fáj
+                    fejem</p>
+				<p>- Megyek, s megölöm mindkettőt - ordítá Darázsy ur görcsösen szorítva össze
+                    lüktető ujjait.</p>
+				<p>- Várjon a tens ur estét... de engem el ne áruljon, úgy is én vagyok híve az
+                    egész udvarban, a többi cseléd mind az ifju asszony zsoldjában áll. -</p>
+				<p>- Én Istenem! én Istenem! de bolond voltam, hogy vénségemre megházasodtam -
+                    sohajtott az öreg, s szemei könynyel teltek meg.</p>
+				<p>Dejszen ha engem vett volna el - mondá Lizi, s azzal távozott, mert már
+                    könyvnélkül tudta a feleletet, „vagy idejében, vagy soha.”</p>
+			</div>
+			<div type="chapter">
+				<head>A boldog apa.</head>
+				<p>Hát ha meglánczolták volna Darázsy Lőrincz urat, maradt volna-e estig? Nem ő,
+                    elrágta volna lánczait, mint Sámson szétszaggatta a Délila által rátekert
+                    guzsvesszőket. Mintha parázson állott volna, oly forró volt lábai alatt a pincze
+                    vizes homokja. Délután négy óra tájon haza fele indult, észrevétlen belopózott
+                    udvarába, onnan pedig neje szobájába, hol a mit látott, Ovid ezen szavai fejezik
+                    ki:</p>
+				<p>„Cur aliquid vidi, cur noxia lumina feci?”</p>
+				<p>A hosszu hajú mindenét hátra hagyva, mintha a muszkák kergették volna, rohant az
+                    udvarra, az udvarról a rétre, onnan Isten a megmondhatója hová? A nő pedig mint
+                    összezúzott gipsz szobor omlott szét férje lábai előtt, összekúcsolt kezekkel
+                    bocsánatért esdekelt, esküdött méhe gyümölcsére, hogy ez első botlása volt, s
+                    utolsó is leend.</p>
+				<p>Darázsy úr keble össze volt zúzva, s néma fájdalommal vonult szobájába,
+                    megtiltván hogy nejét bebocsássák.</p>
+				<p>Midőn legnagyobb zavar s felfordultságban volt az udvar, épen akkor érkezett meg
+                    Kálmán, ki nagy bátyja házassága óta Pesten arszlánkodott. Lizitől mindent
+                    megtudva, megszólitá bátyját, valjon nem mondott-e igazat, midőn azt tanácsolta:
+                    „vagy idejében, vagy soha?”</p>
+				<p>- Hallgass öcsém! mikor esküszöl sem mondasz igazabbat. Mindennapi imádságomba
+                    foglal-tam ezen szavakat, s ha meghalok, gyermekemnek csak ennyit hagyok
+                    végrendeletben: „vagy idejében, vagy soha!”</p>
+				<p>- Gyermekének? micsoda gyermekének? - kérdé Kálmán megütközve.</p>
+				<p>- Tehát nem is tudod? - mondá Darázsy úr neki derülve. - Nőm reményt hord szíve
+                    alatt. Az ám reményt! - tevé hozzá lelkendezve.</p>
+				<p>- Szegény bátyám! ön mégis vak. Hát azt hiszi, hogy e gyümölcsnek ön a kertésze?
+                    Azt hiszi, hogy azon fajtalan, s elvetemedett nő magzata Darázsy vér? Az egy
+                    korcs, fattyu gyermek, s űzze el a bitangot porontyával, mert....</p>
+				<p>- Csitt! - vágott közbe az öreg - azt ne mondd a gyermek enyim. Várjunk csak,
+                    majd meg</p>
+				<p>lássuk kire üt? -</p>
+				<p>Kálmán még azután is hosszasan vitatá, hogy a gyermek korcs, de az öreg urat erős
+                    hitéből ötven ló erejü gép sem lett volna képes kimozdítani, mert abban roppant
+                    büszkeséget helyezett, hogy ő apa. Sok is van abban, ha bizton elmondhatjuk
+                    „ennek én adtam életet!”</p>
+				<p>Ezen vita után egy hónapra éjfél tájban is ébren találjuk Darázsy Lőrincz urat
+                    pislogó lámpája mellett. A mellék szobából halk nyögés hallatszik, mely néha
+                    fájdalmas jajokban tör ki, melyekre az éber öreg mindannyiszor feljajdul.</p>
+				<p>- Megvan! hála Istennek fimagzat! - mondá egy éltes nő, ki azon szobából lépett
+                    ki, honnan a nyögés hallatszott.</p>
+				<p>- Fiú? - kérdé Darázsy ur örömtől csillogó szemekkel. - No édes bába ennél
+                    nagyobb örömöt nem hozhatott volna. Szabad már látnom? -</p>
+				<p>- Még nem, hanem annyit előre is mondhatok, hogy csupa apja. -</p>
+				<p>- Dehogy! - feszelgett helyén az öreg ur.</p>
+				<p>- Szép nagy uras orra. -</p>
+				<p>Darázsy úr megtapogatta saját orrát, s bár azt piszének találta is, mégis
+                    elhitte, hogy hasonlit az övéhez.</p>
+				<p>- Gyönyörü fekete szemei. -</p>
+				<p>Darázsy úr tükörbe nézett, s bár szemei kékek voltak, mégis hasonlóságot fedezett
+                    föl azokban fia fekete szemeihez.</p>
+				<p>- Módos hosszúkás képecskéje van.</p>
+				<p>Darázsy úr körül tapogatta arczát, s bár görögdinnye kerekségü volt, mégis sárga
+                    dinnyének érezte.</p>
+				<p>- Szóval csupa apja!</p>
+				<p>- Hála Istennek az én vagyok. No uram s én Istenem! nem vagyok olyan mint az
+                    ákácz-fa, mely csak virágzik, de gyümölcsöt nem terem! - mondá Darázsy ur nagy
+                    megelégedéssel, s nehány aranyat nyomott a bába kezébe.</p>
+				<p>- Hanem olyan vagy mint a megrészegitett kappan - mormolá a bába, a mint az
+                    ajándékot ujjai közt számlálgatá.</p>
+				<p>És elővevén Darázsy úr a bibliát, annak oldalára im e szavakat irá: „Lőrincz fiam
+                    született éjfél után”.... a fali órára tekintett, s az két negyed kettőt
+                    mutatott; a pontosság kedveért megnézte zsebóráját is, s azon három negyed volt
+                    háromra; tehát közép calculust vett: „Lőrincz fiam született éjfél után két óra,
+                    és egy negyed háromra közt, anno.... áldassék az ur neve, most és mind örökké.
+                    Amen.”</p>
+				<p>Talán nagy betükkel is jegyeztem, majd háromnak a neve sem fér ezen lapra - mondá
+                    magában, a mint kétszer s háromszor is elolvasá ama fontos conceptust.</p>
+			</div>
+			<div type="chapter">
+				<head>A száraz dajka.</head>
+				<p>Mintha vastag fátyolt vont volna valamely jótevő szellem látatlan keze a nő
+                    multjára; elfelejtett az öreg ur mindent. Szerette gyermekét, a kis Darázsy
+                    Lőrinczet az apai szeretet majomszerű vonzalmával, mert hát igazat szólva volt
+                    is némi hasonlóság kettőjük között. A fiu is kopasz volt, mint ő, szája
+                    keresztül feküdt orra alatt, és fogatlan volt, mint az övé; feje lágya puha
+                    volt, épen mint az övé; orránál fogva lehetett vinni, épen mint őt. Nejét
+                    őrizte, még a fuvó széltől is oltalmazta, megbocsátott neki mindent, s ha Kálmán
+                    ellenvetéseket tett, az irás szavaival torkolta le: „nagyobb öröm van égben egy
+                    bünös megtérésén, mint száz igazak üdvözülésén. Nőm megbotlott az igaz, de
+                    botlását százszorosan helyrehozta.”</p>
+				<p>Nő, ki a tiszta becsületesség ösvényéről letért, ki levetkőzte legszebb ruháját,
+                    az ártatlanságot: bár mennyire igyekezzék is megtérni, a javulás utja el van
+                    előtte zárva, mert a bün gyökere szíve mélyeig hatott le, s ha kitépni próbálná
+                    is, elébb megszakad a szív, mert a bün édességéből veszi táplálékát, mint méh a
+                    mézharmatból.</p>
+				<p>Darázsyné darabig gyönyörét lelte gyermeke ápolásában, s jól esett neki férje
+                    szerető gondos-kodása, s voltak perczei, melyekben fogadta, hogy gyermeke
+                    boldogitása leend élte feladata: de a megromlott szív visszavágyott a
+                    megszokott, s nélkülözhetlenné vált testi gyönyörök sárfertőjébe. Kereste az
+                    alkalmat, hogy vétkezhessék, de férje, különösen Kálmán argus szemei minden
+                    félre lépést meggátlának. A régi cselédek elüzettek a háztól, csupán Lizi maradt
+                    meg, ki leghívebb s éberebb spionja volt az öreg urnak. A hosszú hajunak
+                    lehetlen volt csak közelitni is a házhoz, hej pedig de nagy szüksége lett volna
+                    Darázsynénak nem szerelmére, de erszényére, mely eddig is legnagyobb
+                    varázserővel vonta egykori szeretőjéhez.</p>
+				<p>Az ilyen élet kinosabb volt a börtönnél, s egy reggel üresen találták a nő
+                    szobáját, s asztalán a következő krétával irt sorokat:</p>
+				<p>„Mi egymást nem boldogíthatjuk, mert nem egymásnak születtünk, s frigyünket nem
+                    szerelem olvasztá össze. Ne aggódjék ön jövőmön, mert a Béllay bátyámtól kapott
+                    tiz ezer forintról szóló takarék pénztári könyvecske kezeim közt van, ez
+                    sajátom, s ezzel boldogabb leszek, mintha ön a világ minden kincsét lábaimhoz
+                    rakja; mert az élet örömeit nem a kincs, rang, vagyon, hanem a szerelem teremti.
+                    Viselje gondját gyermekemnek, ki most öné. Ne tanitsa meg soha anyja nevére,
+                    mert érzem, hogy nem lehet reá büszke. Ez sorsom, nem tehetek róla, meg kell
+                    magamat adnom. Ha nem áld ön, legalább ne átkozzon. F. Lidi.”</p>
+				<p>- Hála Istennek! csakhogy elhagyta e házat! - kiáltott Kálmán nagyot szökve
+                    örömében.</p>
+				<p>- Hála Istennek csakhogy a gyermek enyim! kiáltá Lőrincz úr, és felölelvén
+                    összevissza csókolgatá.</p>
+				<p>- Bátyám! még most is vak. Nézze meg e gyermeket, kihez hasonlít? - kérdé
+                    Kálmán.</p>
+				<p>- Hozzám - felelé rögtön a kérdezett.</p>
+				<p>- Milyen orra van bátyámnak? -</p>
+				<p>- Biz az öcsém pisze. -</p>
+				<p>- Milyen orra van e gyermeknek? -</p>
+				<p>- Biz az öcsém horgas. -</p>
+				<p>- Mi a hasonlóság? -</p>
+				<p>- Semmi.</p>
+				<p>- Milyen szeme van e gyermeknek? -</p>
+				<p>- Biz ez öcsém fekete. -</p>
+				<p>- Milyen szeme van bátyámnak? -</p>
+				<p>- Biz ott öcsém kék. -</p>
+				<p>- Mi a hasonlóság? -</p>
+				<p>- Semmi.</p>
+				<p>- Milyen arcza van bátyámnak? -</p>
+				<p>- Biz ott öcsém kerek. -</p>
+				<p>- Milyen arcza van e gyermeknek? -</p>
+				<p>- Biz ez öcsém! hosszúkás. -</p>
+				<p>- Mi a hasonlóság? -</p>
+				<p>- Semmi.</p>
+				<p>- Mi hasonlóság van tehát bátyám és e gyermek közt? - végzé Kálmán a szoros
+                    benevolumot.</p>
+				<p>- Semmi! - felelt az öreg úr, szomorúan mellére csüngetve ősz fejét, látván hogy
+                    kiforditották hitéből, mint tolvajt a lopott bundából. - De már csak nem
+                    vethetjük ki őt, ki ártatlan - mondá könyüs szemekkel, s visszahelyezé
+                    bölcsőjébe.</p>
+				<p>- Lássa tens uram! ha engem vett volna nőül, most anyja is volna gyermekének, -
+                    mondá büszke elégtétellel a czélt ért gazda asszony.</p>
+				<p>- Ne beszélj nekem Lizi. Kálmán öcsémnek van csak igaza: „vagy idejében, vagy
+                    soha” - mondá Lőrincz úr, azzal szobájába ment, és sírt nagy keservesen; majd
+                    visszament a kisdedhez, megállt a bölcső felett, melyben a kisded öntudatlan
+                    mosolygott.</p>
+				<p>- Hát ha mégis apja vagyok, hiszen nem mosolyogna rám, ha idegen volnék - dadogá
+                    az öreg, és megcsókolá. - De ha nem gyermekem is, legalább gondját viselem mint
+                    árvának, s megáld érte az árvák atyja - azzal leült a bölcső mellé, s addig
+                    ringatá, míg maga is elszenderült.</p>
+				<p>VÉGE.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

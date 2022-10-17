@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="HU08323" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Zrínyi Miklós a költő</title>
-				<author ref="viaf:19720475">Jósika Miklós (1794-1865)</author>
+				<author>
+					<persName>
+						<surname>Jósika</surname>
+						<forename>Miklós</forename>
+					</persName>
+					<date from="1794" to="1865">1794-1865</date>
+					<idno type="VIAF">19720475</idno>
+				</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,7 +30,7 @@
 				<measure unit="vols">2</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -58,13 +66,15 @@
 			<langUsage>
 				<language ident="hu">Hungarian</language>
 			</langUsage>
-			<textDesc>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
 				<ns1:authorGender key="M"/>
 				<ns1:size key="medium"/>
 				<ns1:canonicity key="low"/>
 				<ns1:timeSlot key="T1"/>
-			</textDesc>
-		</profileDesc>
+			</ns1:eltec>
+		</xenoData>
 		<revisionDesc>
 			<change when="2021-08-02"/>
 		</revisionDesc>

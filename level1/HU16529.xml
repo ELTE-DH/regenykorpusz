@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="HU16529" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Csillagok a Tiszában</title>
-				<author ref="viaf:5289705"> Ábrahám Ernő(1882-1945)
-            </author>
+				<author>
+					<persName>
+						<surname>Ábrahám</surname>
+						<forename>Ernő(1882-1945)</forename>
+					</persName>
+					<date from="?" to="?">?</date>
+					<idno type="VIAF">5289705</idno>
+				</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -24,7 +31,7 @@
 				<measure unit="vols">1</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -68,13 +75,15 @@
 			<langUsage>
 				<language ident="hu">Hungarian</language>
 			</langUsage>
-			<textDesc>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
 				<ns1:authorGender key="M"/>
 				<ns1:size key="medium"/>
 				<ns1:canonicity key="low"/>
 				<ns1:timeSlot key="T4"/>
-			</textDesc>
-		</profileDesc>
+			</ns1:eltec>
+		</xenoData>
 		<revisionDesc>
 			<change when="2020-10-19"/>
 		</revisionDesc>

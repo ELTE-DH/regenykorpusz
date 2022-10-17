@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="HU04777" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>Kártyavár</title>
-				<author ref="viaf:49221125">Babits Mihály (1883-1941)</author>
+				<author>
+					<persName>
+						<surname>Babits</surname>
+						<forename>Mihály</forename>
+					</persName>
+					<date from="1883" to="1941">1883-1941</date>
+					<idno type="VIAF">49221125</idno>
+				</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,7 +30,7 @@
 				<measure unit="vols">1</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -59,13 +67,15 @@
 			<langUsage>
 				<language ident="hu">Hungarian</language>
 			</langUsage>
-			<textDesc>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
 				<ns1:authorGender key="M"/>
 				<ns1:size key="medium"/>
 				<ns1:canonicity key="high"/>
 				<ns1:timeSlot key="T5"/>
-			</textDesc>
-		</profileDesc>
+			</ns1:eltec>
+		</xenoData>
 		<revisionDesc>
 			<change when="2021-07-20"/>
 		</revisionDesc>

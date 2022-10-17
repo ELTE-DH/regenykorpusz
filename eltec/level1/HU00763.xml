@@ -1,0 +1,2341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU00763" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Az útitárs : ELTeC edition</title>
+				<author ref="viaf:22810">Krúdy Gyula (1878-1933)</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">15800</measure>
+				<measure unit="pages">32</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Az útitárs</title>
+					<date>1999-11-01</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/00700/00763"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Drótos László</name>
+						<name>Pétery Kristóf</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Az útitárs</title>
+						<date>1999-11-01</date>
+						<ref target="http://kindlevarazs.wordpress.com/kindle-teka/"/>
+					</bibl>
+					<bibl type="printSource">
+						<title>Az útitárs</title>
+						<author>&gt;Krúdy Gyula</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Szépirodalmi Kvk.</publisher>
+						<date>1959</date>
+						<ref target="http://mek.oszk.hu/00700/00763/00763.pdf"/>
+					</bibl>
+					<bibl type="firstEdition">
+						<title>Az útitárs</title>
+						<author>Krúdy Gyula</author>
+						<date>1919</date>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T4"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2020-07-21"/>
+			<change when="2020-07-21"/>
+			<change when="2020-11-14"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<p>
+            Akkoriban töltöttem be negyvenedik évemet, és néha-néha nagyon
+               szerencsétlen napjaim voltak; valamely katasztrófától rettegtem, amikor reggel
+               kinyitottam a szemem; az éj tele volt balsejtelmekkel; mindig azt hittem, hogy már
+               nem élek soká - kezdte elbeszélését útitársam, akiről nem tudtam sokkal többet, mint
+               amennyit útitársairól szokott tudni az ember, akikkel egy hosszú napot vagy egy
+               végtelennek látszó éjszakát a gőzhajón vagy a vasuton eltölt. (Már régen elment a
+               kedvem attól, hogy új emberekkel megismerkedjem, de útitársam szimpatikus, nyugodt,
+               szomorú szemű, deres hajú és főként igénytelen úriembernek látszott, akiről
+               feltételeztem, hogy nem aspirál egész éjszakai nyugodalmamra. Holdfényben utaztunk, a
+               fák megannyi szoknyás kísértetek, a világos mezőkön azok a láthatatlanná válott rókák
+               ügetnek, amelyek valamely rejtély folytán örökre eltűnnek a vadász szeme elől, egy
+               ezüst sóhajtásos tónál vadludak szálltak nagy messziségben, a vasuti töltés mellett
+               futó szürke országútról az volt gondolható, hogy rajta boldogtalan emberek
+               mendegélnek a fák lassú szívverés módjára ingó árnyékaiban, olykor kis fehér házak
+               tűntek fel, mint heverő kutyák, egy falevélnyi ablak mögött mécses égett, tán most
+               gyilkolnak meg valakit, vagy utolsókat hörög egy haldokló vén paraszt; utolért az
+               eső, mint a bánat, és az elsötétedett éjszakából könnyeket vert a részvétlen ablakra;
+               - vajon mit csinálnak azok, akiket szeretek? - gondoltam magamban fázósan, mintha
+               soha többé nem hallhatnám kedves szájak kedves, tetszetős beszédét, és csak az
+               útitárs szomorú szavai hangzanak fejem körül, mintha a halál a bibliát olvasná.)
+         	</p>
+				<p>
+            Nem akarom sokáig untatni életkörülményeimmel - folytatá útitársam. -
+               Haszontalan fecsegés volna az, mint az útitársak szokásos, álmos, érdektelen
+               előadása, amíg a vonatot várják egy állomás dohos várótermében, s a jelzőharang
+               konokul hallgat a háztetőn. Azt vettem észre, hogy az emberek többsége mindig vásárra
+               megy. A legnagyobb ritkaság a vőlegény. Az a lovagregénybeli bolond pedig, aki
+               tíz-tizenkét óra hosszat rázatja magát vasúton, kocsin, szánkán, hogy egy nő kezét
+               megcsókolhassa, hogy a suttogó hangját hallhassa, hogy a szoknyáját vagy a zubbonyát
+               megszagolhassa, hogy imádkozó hangon, visszafojtott szuflával szavakat mondhasson egy
+               kert végében egy lugasban vagy egy gyalogösvényen, ahová a nő titokban, az ágyból
+               szökött ki - az olyan bolond ritka, mint a fehér holló. Valamikor ilyen fehér holló
+               voltam én, úgy robbantam a szerelemtől, mint a dinamit a kőbányában, amelynek aztán
+               egy darabig húzódik sárga füstje a hegyoldalban, majd elvész nyomtalanul.
+         	</p>
+				<p>
+            Annak örültem, ha az út jó részét tengelyen, őszi esőzésben,
+               boldogtalanná ázott köpenyegben kellett megtenni, mint Petőfi idejében utaztak a
+               vőlegények. Zsidó korcsmákban megérintettem a háziáldást. Haramiavilágból itt
+               maradott csárdásokkal töltöttem az éjszakát. Tagbaszakadt szolgálóknak ígértem
+               házasságot, amíg szent szerelmemhez utaztam. Nem voltam ostoba. Kihasználtam az
+               utazás gyönyörűségeit, többnyire részeg voltam a bortól, tájképtől, hársfák vagy
+               állomások szagától, elmerengtem keresztutakon, és szívesen elhittem mindent
+               ismeretlen emberek arcáról, beszédéről, nők kíváncsiságáról, elfelejtkezett
+               szemekről. Gondolatban sok ezer nővel volt viszonyom a magyar kisvárosokban, ahol
+               egy-két napot töltöttem. Iskoláslányok szalagos cipőjén felejtettem a tekintetemet,
+               és a templomban olyan erősen néztem a menyasszony szemébe, amíg az elpirult.
+               Földbirtokos-asszonyoknak mondtam felejthetetlen hazugságokat, pedig tudtam, hogy
+               közeledik már az állomás, ahol végleg leszállnak, s örökre eltűnnek. Máskor egy
+               ismeretlen nő csaknem megvert Püspökladány és Debrecen között, pedig éppen egyik
+               menyasszonyomhoz utaztam.
+         	</p>
+				<p>
+            Végül is nőtlen, szomorú ember voltam, amikor rám köszöntött a dércsípte
+               időszak, a hervadó, hűvösödő nyár, a learatott mezők üres, messzire látó horizontja,
+               elnémult esti országutak csendessége. Ismétlem, katasztrófától féltem, reggelenkint
+               sokáig gunnyasztottam, mintha nem volna érdemes többé felöltözködni, elüldögéltem
+               vasuti sorompókon, üres tájképeket gondolattalanul bámulva, voltak kedvenc, elhagyott
+               padjaim a ligetben, hol a lehullt faleveleket érzelemtelenül nézegettem, rajtakaptam
+               magam tudatlan sóhajtásokon, éjjel, hirtelen, a kialudottság érzésével felébredtem,
+               holott alig félóra előtt feküdtem le, s nem jutott eszembe sem imádság, sem
+               költemény, sem kedves emlék az életemből. Baj volt. A harapós rosszkedv és
+               ingerlékenység, mint valami kezdődő betegség kerítette hatalmába a kedélyemet. Az
+               öngyilkosságot kezdtem szemügyre venni, és ha nem szégyelltem volna magam,
+               búcsújáróhelyre zarándokolok gyógyulást keresni, mert minden örömömet elveszítettem a
+               nőkben, az időjárásban s az étvágyban. Ekkor kerültem X-be, ahol hetvenhét esztendőt
+               töltöttem. Megnyugodtam, elcsendesedtem; ráeszméltem, hogy nem érdemes siettetni a
+               halál napját.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            (Útitársam ekkor megmondta X városka valódi nevét is. Engedje meg az
+               olvasó, hogy az elkövetkező elbeszélésből kihagyjuk a magyar város nevét. Több ilyen
+               város van a Felvidéken. Mindenféle régi királyok és urak messziről jövő emlékei
+               hangzanak a toronyláb összestimmelt harangjainak kongásában. A házak fala mellett
+               történelemmé válott emberek álldogáltak, de a nők oly egykedvűen szerették vagy nem
+               szerették őket, mint általában a nők nem sokat törődnek a történelemmel. Egyetlen nő
+               sem érezte még kedvese ölelgetésében azt a boldogító érzetet, hogy e karokról,
+               lábakról, szakállakról egykor, porráválásuk után a történetíró fecseg. Szakállak,
+               vértek, szívek elvonultak, a nők tovább kötötték harisnyájukat, korán bezárták a
+               kapukat, és senki sem jött vissza az álmos éjszakán a hídról, amelynek karfájáról
+               egykor önmagát nézegette a folyó tükrében. Elhangzottak a történelmi lépések, új
+               lépések közelegtek, tavasz lett, tél lett, betegségek, szerelmek jöttek-mentek, a nők
+               megértek, majd megöregedtek, a férfiak köhögtek, kiáltoztak, koporsóba feküdtek. Kis
+               városka volt ez a Felvidéken, öles falakkal, zárdaablakokkal, kályhákkal, amelyekből
+               az esti tűz farkasszemet nézett az alvókkal. A gyertyák ellobogtak, és füstjük
+               elszállott. Miért keresgéljék az emberek a vasárnapi mise térdeplői vagy a
+               tűzoltó-majális táncosnői között e történetnek hősnőit? X. Ez a városka neve...
+               Egyszer majd meghalnak a hősnők, és sírjuk gondozása az élők szórakozása lesz.)
+         	</p>
+				<p>
+            Az első nő, akivel X.-ben megismerkedtem, Hartvigné, született Gábriel
+               Szidónia volt. Azt ígértem neki, hogy két napig maradok a városkában, s ez gyors
+               engedékenységre bírta - folytatta szomorú útitársam.
+         	</p>
+				<p>
+            Nem tudom, hogy uraságod miként van ezzel a dologgal, én például némely
+               nőnek az arcberendezésén, az orrán, a fülén, az ajkán észreveszem az első
+               pillantásra, hogy számíthatok-e meghallgatásra? Bocsásson meg, ha kissé közönségesen
+               fejezem ki magam, másképpen nehezen tudnám megérhetővé tenni: hogy életemben
+               találkoztam nőkkel, akiket az első látásra úgy ítéltem meg, hogy engem várnak. Nekem
+               valók; - a vérmérsékletünk, a gondolkozásunk, az ábrándozásunk, a vágyakozásunk
+               egyforma. Keressük egymást, mint a szél és a gazdátlan kútágas; mint az egér és a
+               lyuk; mint a vándormadarak és pihenőhelyeik. Furcsa találkozások ezek az élet álorcás
+               menetében. Az ember egyszerre ráismer a nőre, bár azelőtt sohasem látta. A
+               kézfogásunk, a tekintetünk, a vérünk lüktetése, a vágyunk bogarászó, földásó munkája
+               összetalálkozik, mint az alagutban az ásók. Én kalandot kerestem az idegen városban,
+               mint egy unatkozó vigéc. Hartvigné is várt valami alkalomra, bár meg vagyok győződve,
+               hogy azelőtt sohasem jutott eszébe bárkinek megmutatni a fehér harisnyás lábát.
+         	</p>
+				<p>
+            De hadd mondom el komolyan és az utazók léhasága nélkül, hogy ki volt
+               Hartvigné.
+         	</p>
+				<p>
+            Hartvigné egy szent asszony volt.
+         	</p>
+				<p>
+            Lakást kerestem X.-ben, mert csak fiatalkoromban szerettem a vidéki
+               vendégfogadók életét, amely véleményem szerint hasonlíthat ama orosz postaállomások
+               miliőjéhez, amelyekről Turgenyevben vagy Tolsztojban olvashattunk. Amikor még
+               mulattatott az utasok lármás, életteljes csendriasztó megérkezése, a veres képű,
+               félszemű aranysapkás konduktor oly boldogan mosolygott a tompán döcögő omnibusz
+               hágcsóján, mintha vadászó hercegeket hozna az állomásról, pedig többnyire
+               kereskedelmi utazók bújtak ki az üveges ketrecből; az örökös ser- és pörköltszag,
+               amely a fogadó kapujában fogadta az embert, amely az udvar felé összekeveredett az
+               emésztőgödör szagával; sötét, gyanús lépcsők, amelyeken a fehér fejkendős,
+               mezítlábas, papucsos, elszánt arcú olcsó szappanillatú, megtermett szobaasszonyok
+               végigmérték az utazót, mint a bornyút; a nyikorgó ágyak, amelyekben tán tegnap
+               gyilkoltak meg valakit, a rosszul záródó ajtók, amelyek mögött mintha mindig
+               leskelődne valaki - talán az utazó mélabús magánya -, a megereszkedett ablakok,
+               amelyek megöl céltalanul lehet bámulni az üres kisvárosi délutánba; a porlepte
+               táncterem és környéke, ahol télidőben izzadt, bomlott kedvű és bomlott alsószoknyás
+               táncosnőket ölelgetnek savanyu bort lehelő gavallérok; a lépcsők, amelyeken falusi
+               úrnők éberlasztingcipős, fehér harisnyás, kövér térdét lehet látni; a holdas, boros
+               éjszakák e kísérteties szobákban, ahol a ruhafogas mellől a leeresztett alsószoknya
+               karikájából inges nők lépegetnek ki az unatkozó álmában; a setét ebédlő, ahol az
+               asztaltársasági jelvényeket úgy őrzik, mint fétiseket a krákogó, köpködő elbizakodott
+               öreg törzsvendégek, a légynyomos képek, a csorba, kékszegélyű tányérok,
+               szarvasagancsos evőeszközök, dohányfüstbe merült céltalan esték, nyerítő röhejek,
+               üres dalok és fárasztó beszélgetések, s az egyetlen öröm az omnibusz megérkezése a
+               léghuzamos kapualjba, mintha egyszer meg kellene érkezni valakinek e cifra bárkán...
+               Akkori hangulatomban egy jól irányzott pisztolylövés tette volna emlékezetessé
+               látogatásomat például az Arany Csillagnál, s önnek sohasem beszélné el senki e
+               történetet.
+         	</p>
+				<p>
+            Lakást kerestem, mint egy diák.
+         	</p>
+				<p>
+            Tejszagú kék abrosz mellett akartam reggelizni, mint gyermekkoromban a
+               szülei háznál; vasárnaponként váltják az asztalkendőt, és az arcok frissen mosdottak,
+               a hajak vizesen megfésültek, az ingek fehérlők, az arcok vidámak a családi asztal
+               körül. Itt más szaga van még a spiritusznak és a rumnak is. A pálinka, amit
+               éhgyomorra hajt fel az ember a családi asztalnál, nem ártalmas. A tojást frissen
+               tojta a tyúk, az irósvaj nevet, mint egy kövér lány a szőlőlevelek közül, a cipők a
+               lábakon fényesek, az ágyneműből friss reggeli szellővel száll el az éjek fülledt
+               gondolata, tegnap keményített szoknyában szalad táncos lábain a szobalány; még a
+               trágyahordó szekerek is másképpen párolognak a deres utcákon reggel, mint délután, a
+               nagybetegek hörgése elcsitul a szomszéd házakban, a piacok üde zöldsége, a kakasok
+               piros feje, a húsok rózsaszíne himbálódzik a vesszőkosarakban, a városi tornyot
+               szivaccsal megmosták hajnalban, a tarka mellényes cinke vidáman ugrándozik a
+               dércsípte eperfán, mint az újra kezdődő, múltját megbocsátott, elfelejtett
+               élet...
+         	</p>
+				<p>
+            A ház, ahová benyitottam, mindenképpen kedvemre valónak látszott.
+         	</p>
+				<p>
+            Nagy fehér tűzfala volt a háznak, amely a piac és egy hegynek kanyarodó
+               kis utca sarkán állott, mintha városkapitány lakott volna itt a múlt időkben, aki
+               magos ablakaiból arra ügyelt, hogy nincs-e zendülés a torony körül. A kémények igen
+               magosan voltak, s úgy nyúltak fel, mint a gunár nyaka. Kip-kop, mondták barátságosan
+               a kopott kőkockák, amikor lábamat a küszöbre tettem. A setét pinceajtó mögött sem
+               vettem észre gonosz kísértetet leskelődni a maga gödrével, az emeletre felkanyarodó
+               csigalépcsőre egy gömbölyű ablak fordította barátságos arcát. A fehér rámák között
+               ódon, salétromos fal mellett, régi időkből itt maradott mellvédek alatt meghúzódó
+               kertecske mutogatta szelíd bájait. Az ecetfa májusban bizonyára jóillatú, a lugas
+               gondriasztó, és az alacsony kőpadon felágaskodnak a fehérlábú szűzek, hogy
+               letekintsenek a városra, midőn regényekkel és versekkel teleszívták a fejüket. Milyen
+               gazembernek kellene lenni annak, aki ilyen helyen egy leány elcsábításán töri a
+               fejét!
+         	</p>
+				<p>
+            Fehér ajtó nézett velem szemközt. A rézkilincs ragyogott, és Salve volt
+               szőve a tiszta lábtörlőbe. Igen jólesett, hogy e modern tisztaság mellett is
+               oroszlánfejes húzós csengettyű nyomult ki a falból. Bizonyosan békés, boldog emberek
+               hajlékába nyitok be.
+         	</p>
+				<p>
+            A háziasszony nyitott ajtót. Az első szavaimra kissé bizonytalanul
+               felelt a félhomályos előszobában, aztán megröppent, mint egy fehér pille, és a
+               világos szobába vezetett az utca felé.
+         	</p>
+				<p>
+            - Foglaljon helyet nálunk, uram.
+         	</p>
+				<p>
+            Igen, így gondoltam, a vékony lábú székek télen is vászontakaróval
+               vannak behúzva, mintha valami igen nagy ünnepélyre várna évtizedek óta a bútorzat,
+               hogy valódi szövetjét megmutassa. A szőnyegek tarkák, barkák, amilyeneket otthon
+               szőttek késő őszidőben a régi háziasszonyok, midőn a gyertyaöntésen már túlestek. A
+               függőlámpás pillangós porcelánernyőjén rózsaszínű tüll van. A sarokban karácsonyfa
+               állott, mert januárius első napjait mutatta a kalendáriom, ha elfelejtettem volna
+               megjegyezni. A levegőben szobafüstölőnek és szárított almahéjnak az illata. A fehér
+               porcelánkályhában oly pirosan lobogtak a hasábfák lángjai, mint a lepkék.
+         	</p>
+				<p>
+            - Ez volna a kiadó szoba - folytatta az asszony, szemközt ült velem, de
+               háttal az ablaknak, hogy arcvonásai oly lassan bontakoztak ki előttem, mint egy
+               álombeli kép.
+         	</p>
+				<p>
+            Talán harmincesztendős volt, de lehetett negyven is. Abban a korszakban
+               volt mindenesetre, midőn a nők keresztcsontját már nem annyira a tánc, hanem a
+               házigond fárasztja. Az első pillantásra észrevettem, hogy feltűnő jó cipőket visel a
+               lábán. Mindnyájan tudjuk, akik valaha az életet próbálgattuk, hogy a vidéki nő,
+               bármilyen hiú, kevesebb gondot fordít a lába ápolására, mint a nagyvárosok szülöttei.
+               A rossz kövezetek, az őszi sarak, a méltatlan gyaloglások elpusztítják a legszebb
+               lábakat és lábbelieket. Ebben a városkában még bizonyára volt vasárnapi cipőjük a
+               nőknek, s otthon többnyire papucsban jártak-keltek, a rossz időben a régi vásott
+               cipőt vették elő, és az úgynevezett bergsteigerek, regatták s egyéb félcipők késő
+               vénségükig szolgálnak, amíg a láb csónakaivá válnak. Nem csodálom azokat a hiú
+               asszonyokat, akik késő vénségükig ügyelnek lábbelijük formájára, a párizsi szabásra,
+               vagy az angolos korrektségre, a francia sarokra, a szalagok frissességére, a
+               kifogástalan tisztaságra. Ámde bármilyen legyen a kisvárosi nő cipője, körülbelül
+               egyforma helyeken, tájakon, utcákon tapos benne. A ropogós regatták vagy a cugos
+               éberlasztingok az élet pallóin, lépcsőin, pincéin átbotorkálnak, egész addig az
+               utcáig, ahol hegynek kanyarodik vagy völgybe hajlik a gyalogjáró. A legszorgalmasabb
+               lábak sem látogathatják eleget a templom kockaköveit (amelyek alatt többnyire egy
+               sokat bűnözött és halálában bűnbánó polgár lesi a lépéseket), a gyóntatószék, a
+               kártyavetőnő és a helybeli bábaasszony tudják az asszonyok történetét, bármilyen
+               cipőben járnak. A lábak élete csaknem ugyanazon ösvényen múlik el. Végül mindegy,
+               hogy intéztek-e hozzájuk szép szavakat a férfiak, kalandos utazók vagy táborozó
+               katonatisztek vagy csak lustaságukat szidták a türelmetlen férjek. A szegény lábak
+               kiszolgálják a maguk éveit, aztán megtörnek gondban, hasogatásban, penitenciás
+               köszvényben.
+         	</p>
+				<p>
+            Ennek az asszonynak olyan cipője volt, mint egy hercegnőnek. Hol
+               varratta, hol szabatta ebben a városkában, ahol a nők bizonyára a karlsbádi boltból
+               szerzik be szükségletüket? Karcsú és nagyreményű láb volt a cipőkbe bujtatva. Ezek a
+               kecses francia sarkok tán rátaposnak a férfiakra, vagy talán csak azért vannak, hogy
+               otthonában mulattassák az asszonyt, mint a hímzés az ingen, vagy a fodor az
+               alsószoknyán.
+         	</p>
+				<p>
+            Ennek a lábnak (a Hartvigné lábának) olyan volt a hajlása, mint a
+               paradicsomi kígyóé. Eltérően a nők szokásos lábszárától, térdben nem ért össze a
+               csont és a hús, hogy azután váljon el a két barát, mint a szigony. A térdek belseje
+               körülbelül tíz centiméternyi volt egymástól, mint a fiatalembereké, akik nem régóta
+               tanulnak lovagolni. A térdek résén át bizonyosan szabadon jár a szél és a gondolat.
+               Egy égő húsvéti gyertya - aranybárányokkal díszítve - elfért volna a két térd
+               között.
+         	</p>
+				<p>
+            Honnan tudtam mindezt?
+         	</p>
+				<p>
+            Az egyik cipőszár felett felcsúszott a kék zsinórra szegélyezett
+               krémszínű szoknya, és amint szemközt ültem az asszonnyal, jól szemügyre vehettem
+               sötét harisnyáit. Vannak férfiak, akik különös izgatottságot éreznek akkor, midőn egy
+               mezítelen bokát látnak papucsban, mások a báli cipőkért és selyem strimpflikért
+               rajonganak, ismét mások a kőműves-állványokon dolgozó tót lányok mezítelen lábszárán
+               felejtik el a szemüket. Én most őszintén beszélek; én híve voltam mindenféle
+               lábvallásnak - még a megtermett falusi asszonyságok éberlaszting-szektájának is,
+               akkor voltam a legboldogabb, ha kedveseimtől, úriasszonyoktól a néhányszor viselt
+               cipőjüket kaptam ajándékba: - a Hartvignééhoz hasonló lábat még addig nem
+               láttam.
+         	</p>
+				<p>
+            Az a harisnyacsík volt az okozója, hogy néhány napra tervezett X.-beli
+               mulatásomat később hetvenhét esztendőre meghosszabbítottam.
+         	</p>
+				<p>
+            Bizonyára érdekelheti az asszony egyéb külseje is a lábán kívül.
+         	</p>
+				<p>
+            Nos, Hartvigné egyébként olyan volt, mint egy apáca, aki ringyó lábakkal
+               jött a világra.
+         	</p>
+				<p>
+            Vannak arcok, amelyeknek látása gyorsítja vagy lassítja a szív verését.
+               A Hartvigné arca megnyugtatott, mint egy gyónás.
+         	</p>
+				<p>
+            Középkori képeken láthatni ilyen szenvedélytelen, fehér kendővel
+               környékezett, szinte vértelen arcokat. Az ember az arc mellé képzeli a rokka nyelét,
+               az ékköves gyűrűkkel díszített kézbe az orsót és az asszony élete köré a len hosszú
+               szálát, mint a pókfonalat, amelyen át elszáll a messziségbe a belső tüzek füstje. A
+               kép hátterében ott szállnak a v betű alakú vándormadarak, mint az elmulasztott
+               esztendők.
+         	</p>
+				<p>
+            Ha volt is gond és bánat ez arcon, eltemetve feküdt az a nyugalom
+               vársáncai mögött. A szenvedélyeket elriasztotta a világoskék szem, mint mozdulatlan
+               madárijesztő a seregélyeket. A vörhenyes, igen finom szálú hajzat bodros volt, de
+               olyanforma bodrozatú, mintha az asszony nem akarna hivalkodni e felesleges díszével.
+               Az orra, homloka egyenes volt, mint egy férfié. Nyugodtság áramlott ebből az
+               asszonyból, mint egy német nevelőnőből, aki tudja, hogy egész életén át dolgozni
+               kell, nem szabad megszeretni a fekhelyét, mert holnap új tanyát kell keresnie.
+         	</p>
+				<p>
+            A fiús zubbonya, amely dupla gallérjával és kék nyakkendőjével
+               barackszínű nyakát környezte, ugyancsak egy szelíd, igénytelen lény ruházata
+               volt.
+         	</p>
+				<p>
+            Bocsásson meg, hogy ennyire untatom e sohasem látott nő külsejével,
+               uram. Világossá szeretném tenni ön előtt a nékem mai napig is érthetetlen
+               eseményeket. Ha ketten ülünk neki az ügy kibogozásának, talán hamarább megleljük a
+               csomót. Tapasztalt, tavasza múlt férfiak vagyunk, nincs mit restelkednünk egymás
+               előtt, midőn ismeretlen nőkről beszélgetünk. Biztosítom, hogy senki sem találhatja
+               fel ezt az asszonyt az elbeszélésem nyomán, mert itt-ott felismerhetetlenül elrejtem
+               drága alakját a kandi szemektől.
+         	</p>
+				<p>
+            Tehát az történt, hogy megállapodtunk a szoba árában, én kijelentettem,
+               hogy legalább egy fél esztendőre kötelezem magam, megmondtam nevemet,
+               foglalkozásomat, illetőleg sokszor szégyellt semmittevésemet, nem kérkedésből, de
+               bármely cél nélkül felajánlottam az asszonynak, hogy a lakbért előre kifizetem. Ő ezt
+               csendes főbólintással elfogadta.
+         	</p>
+				<p>
+            Ezután felálltunk, és a karácsonyfa díszeit kezdtük nézegetni, amelyeket
+               ő gyermekeinek állított, akik jelenleg az iskolában vannak. A selyempapirosba
+               göngyölt cukrocskák, amelyek pattanó hangot hallattak, midőn elszakították őket, ma
+               már úgy tűnnek fel előttem, mint valami gyermekkori emlék. Az aranyozott diók, a
+               péppel ragasztott színes papírláncok, a narancsok, fügék, apró viaszgyertyák,
+               mandulák és préselt szőlők, valamennyien kis bűvszerek voltak, amelyek az asszony
+               szépségét emelték, és a bennem halkan dobogó kívánságot fokozták. A karácsonyfa
+               illata körülvette a fehér zubbonyos nőt, mint az a mérhetetlen vágy, amely a
+               legromlottabb férfiakat is néha meglepi a tiszta, házias élet, a fehér lábú feleség,
+               a dunnameleg téli éjszakák és a göndör fürtű gyermekek iránt. Önkéntelenül ágtól ágig
+               mentünk, s mintha egyikünk sem törődött volna már a diókkal, amelyek a karácsonyfa
+               gallyain feltünedeztek. Merev volt a tekintetünk, de a színes cukorkák felrepülni
+               látszottak, mint játékos lepkék.
+         	</p>
+				<p>
+            Szinte nem ismertem meg a saját hangomat egy vágyteli percben, amint
+               megszólaltam, hogy a leheletemtől meglebbent az asszony füle mellett a vörhenyes haj.
+               - Majd elfelejtettem megkérdezni, hol fogok aludni?
+         	</p>
+				<p>
+            - Itt - felelt az asszony, és hosszú fehér, de gömbölyded ujjával a
+               medvebőrrel letakart kanapéra mutatott, amelynek közvetlen szomszédságában állott,
+               hogy a hosszú fekete szőrök megérintették krémszoknyáját, amely világítani látszott a
+               beözönlött téli napfényben.
+         	</p>
+				<p>
+            Ha a nyomban következő események egy piros farsangi bál közben, álorcás
+               vigalom alatt történnek, sohasem jut eszembe a csodálkozás. Nem vagyok regényhős, de
+               komisz ember sem, ezért mindig a sors különös kegyelmének tekintettem, ha egy-egy nő
+               engedelmes volt. Az én vakmerőségem az ő alázatosságukon épült, gyors elhatározásom,
+               olykor brutális megrohanásom az ő egyszerű jószívűségükön alapult. Sohasem birkóztam
+               harapó, karmoló, kétségbeesetten védekező parasztlányokkal, mint azok a férfiak, akik
+               ezen a réven különbnek tartják magukat. Sohasem ígértem komolyan házasságot vagy örök
+               hűséget hiszékeny, gyengéd nőknek. Szinte megvártam, hogy az alkalom letelepedjék
+               elém, mint egy delelő lepke, amelyet kalapommal leboríthatok.
+         	</p>
+				<p>
+            Ámde akkor fénylő téli délelőtt volt, a piacon hetivásár rikított, a
+               háztetők eresze fehérlett, mint az imakönyv margója, szekerek zörögtek a kiugró
+               köveken, mint a vásáros élet, bármely percben megszólalhatnak a magosan,
+               középkoriasan csilingelő harangok a vasszínű karcsú toronyban, amelyen kelevézes
+               rozsdás katona forgott a széllel; ilyen időben szoktak megjelenni a proklamációk,
+               amelyek nyugalomra intik a népet, ilyenkor hirdetik ki a halálos ítéleteket s az
+               eretnekek elégetését. Ez órában konyhaszaguk van az asszonyoknak, és a férfiak a
+               borbélynál vagy a serházban politizálnak.
+         	</p>
+				<p>
+            A kanapén ültünk egymás mellett, és észrevettem, hogy a nyakán még
+               nedves a haj a reggeli mosakodástól. A zubbonyából félreismerhetlen asszonyillat
+               lengett. A cipők nyugtalanul feszültek, mint vadludak szárnyai, mielőtt elhagynák a
+               tó vizét.
+         	</p>
+				<p>
+            - Nem, nem - ismételte, midőn szótlanul megcsókoltam a nyakát.
+         	</p>
+				<p>
+            Az ajtók nyitva voltak, a ház ismeretlen, de észrevettem, hogy valahol a
+               házban egy ablak nyitva van, amelyen most behallatszik a városi hajdu dobolása, aki
+               bizonyára igen méltóságteljes magatartással proklamálja a legközelebbi hetivásárt -
+               amely ablakon át esetleg menekülni lehet, ha ifjúkori szerencsém cserbenhagyna, amin
+               igen csodálkoznám.
+         	</p>
+				<p>
+            - Én úgyis elutazom innét holnap, s maga sohasem lát többé -
+               vigasztaltam.
+         	</p>
+				<p>
+            Nem tudom miért, de szavaim elhallgattatták mormoló ajkát, amelyen
+               a
+               nem
+            -ek oly sorozatosan követték egymást, mint az olvasó szemei. Csak
+               barackszínű fejét ingatta még, mintha az nem tudna leszokni erről a mozdulatról. A
+               szeme gyöngéd, alázatos, félénk lett, mintha gyermekei és jövendője sorsa e perctől
+               függött volna. Mintha már most elkészülne arra, hogy ami itt történik, azt sohasem
+               vallja be férjének, sem a gyóntató papnak. Pedig amulett volt a mellén, amint egy
+               percre észrevehettem. Lehúnyta a szemét, keresztet vetett, s összekulcsolta a két
+               kezét.
+         	</p>
+				<p>
+            Midőn ismét körülnéztem a szobában, minden a régi helyén állott. Csak a
+               karácsonyfa alatt görbült el egy gyermekkard, és egy papírcsákó behorpadt, aminek
+               pótlását nyomban elhatároztam. A falakra néztem. Néhány szakállas, szalonkabátos
+               hivatalnok külsejű öreg- és fiatalember fotográfiája egykedvűen tekintett alá.
+               Gyermekek vicsorogtak, amint a helybeli fényképész rájuk parancsolt. Egy gyászruhás
+               öreg asszonyság igen méltóságteljes volt, mintha megvetné az eseményeket. (Ő háttal
+               felém, egy ablaknál állott, mintha türelmetlenül várná távozásomat.)
+         	</p>
+				<p>
+            Nem is igen tudtam egy szót sem szólni, csak megfogtam hátulról vonakodó
+               kezét (amely most korántsem volt olyan finom, mint előbb tetszett), megcsókoltam a
+               kezét, és meghatottan ellépkedtem.
+         	</p>
+				<p>
+            Mire az utcára értem, ő már nem állott többé az ablaknál.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Ekkor kezdődött egy új fejezte életemnek, amelyet sohasem bántam meg,
+               amint általában sem bűnt, sem erényt, semmit se bántam meg, amit tettem. Némely
+               emberrel nehezen bírnak el a papok, nincs meggyónni valójuk a halálos ágyukon.
+         	</p>
+				<p>
+            De, hogy folytassam Hartvigné történetét: a vele való ismeretségem akkor
+               kezdődött, midőn más nőkkel vége felé jár a regény.
+         	</p>
+				<p>
+            Amikor elmentem tőle, inkább vágyakoztam utána, mint akkor, midőn
+               mellette voltam...
+         	</p>
+				<p>
+            Ah, uram, ismeretlen férfibarátom, ez a legrosszabb és legritkább
+               érzések közül való. Elmenni egy nőtől s azután csaknem eltikkadni a szomjúhozástól!
+               Inni egy kortyot egy forrásból, amely nyomtalanul eltűnik, és mindig a forrás vizére
+               áhítozni. Az ördögbe, negyvenesztendős voltam, mindenféle tapasztalataim voltak az
+               életben, kerültem rókalyukba és hálóba, bolonddá tettem nőket, és ácsorogtam kis
+               utcák kanyarulatainál petróleumlámpások alatt, amíg odalent a város villamosfényben
+               fürdött. Sablon férfi voltam, disznókereskedő vagy a régi divat szerint sántikáló
+               gigerli, nem nagy gondot okozott egy nő elcsábítása. Néhány napig tűnődtem, szótlan
+               voltam, magányos helyekre jártam vacsorázni, hosszasan nézegettem a vörös bor színét
+               a kristálypohárban, elgondolkozva mendegéltem hazafelé éjfélkor, ok nélkül a holdba
+               néztem, de sohasem, azaz nagyon ritkán tettem fel az életemet egy blattra.
+         	</p>
+				<p>
+            De Hartvigné után vágyakoztam még abból az időből, midőn gyermek voltam,
+               s az első örömhölggyel megismerkedtem - egy őszi délután, rossz illatú házban,
+               kövérek és soványok között választhatva, és én a hervadt, de megtermett Elvirát
+               szemelvén ki, akinek félhomályos szobájában csendőrbajuszú altisztek, keseképű
+               civilek tekingettek alá a fotográfiákról - s akihez még aznap este újra visszaszöktem
+               a második áldozásra, hogy tisztában legyek élettel és halállal. Ő volt a Hartvigné,
+               az első csók szende szemérme, szégyenkező szava, tudatlan ügyefogyottsága után vágyva
+               vágyott második csók a nyitott szemmel, a fül és a tapintás felkészültségével.
+               Ifjúság volt. A kakas és a bika tánca volt.
+         	</p>
+				<p>
+            Az Arany Csillagnál, ahol ebédemet elköltöttem, oly regényesen
+               üldögéltem, mint valami asszonyszöktető, aki mostanában még csak azért tartózkodik a
+               városban, hogy félig nyitott ablak mellett a nő profilját lesegesse. A nő varr vagy
+               harisnyát foltoz - mindig ezt csinálják -, a regény pedig halad megállás nélkül, mint
+               a füst. Nem emlékszem, hogy mit ebédeltem, pedig vidéki fogadók nevének említésére
+               eszembe jutnak a kolbászoknak, káposztáknak, rostélyosoknak az ízei, a bor és a ser
+               színe, az óramutató ketyegése. Egy foltos ruházatú nagybajuszú alacsony pincér
+               szolgált ki, aki emlékezetem szerint azzal dicsekedett, hogy korábban márkőr volt e
+               helybeli úrikaszinóban. Szimpatikus volt nekem ez a tömör bajuszú, fehér mellényes,
+               alázatoskodó legény, mert abban a városban lakott, ahol Hartvigné. Az ételek
+               ízlettek, a hó gyönyörűen fehérlett az ablakon át, kékes fény borongott a háztetők
+               felett, boldog emberek ropogtatták a havat a gyalogjárón, fiatalnak éreztem
+               magam.
+         	</p>
+				<p>
+            Ha imitt-amott felmerült valamely kétségem, hogy nem a város
+               legtisztességesebb hölgyével volt szerencsém megismerkedni, elég volt egy pillantást
+               vetni a piactéri házakra, amelyek úgy bezárkóztak, s oly mélyen hallgatnak, mint az
+               utazó nő a postakocsi sarkában.
+         	</p>
+				<p>
+            A legény minduntalan azt mondta: kisztihand. Megvallom, jólesett ez
+               nékem, akkori lelkiállapotomban.
+         	</p>
+				<p>
+            Délután újabb szenzáció várt rám.
+         	</p>
+				<p>
+            A piac sarkán, nem messzire a pipázgató töröktől és a könyvkereskedő
+               aranypiros kalendáriomaitól, megtaláltam a helybeli fényképész kirakatát. Az üveggel
+               födött ládán szórakozottan siklott el a szemem. Nagyon befűzött, kövér asszonyok,
+               vajképű menyasszonyok, kakastaréjos gavallérok és bámészkodó gyermekek csoportjában
+               megtaláltam Hartvigné képét.
+         	</p>
+				<p>
+            Egyszerű nyári ruhában ült egy széken, és az ölében tartott kis barna
+               legyezőre szegezte szórakozott, elmélázó tekintetét.
+         	</p>
+				<p>
+            Hosszan elálldogáltam a kirakat előtt.
+         	</p>
+				<p>
+            Mindenféle dolgok jutottak eszembe az asszony eddigi elhagyottságáról.
+               Bizonyosan telve volt a szíve illuziókkal, amelyek az évek folyamán elhervadtak.
+               Esténként a kályha tüzébe bámult, s egy-egy ábrándot dobott a lángok közé, mint egy
+               megunt fátyolt. Szomorú voltam - érte.
+         	</p>
+				<p>
+            Az estémet egy városalji kocsmában töltöttem, ahol hivatalnokok
+               életre-halálra kugliztak a petróleumlámpásokkal megvilágított pályán. Disznótor volt
+               itt, gyermekkori szagok úsztak a levegőben, a falon a tizenhárom vértanú, és a
+               vendégek derülten, csendesen üldögéltek. Senki sem tudta, mi történt a Hartvig-házban
+               ma délelőtt.
+         	</p>
+				<p>
+            A végén sajnáltam minden asszonyt, akit elhagytam.
+         	</p>
+				<p>
+            Amint nem láttam többé őket életem felett, mint a holdat, valamely
+               furcsa gyengeség vett rajtam erőt. Eszembe jutott sok hiábavaló erőlködésük, magányos
+               szenvedésük. Láttam őket mosni, varrni, összeráncolt szemöldökkel virrasztani, a
+               levont harisnyán aggodalmasan a lyukat nézegetni, kisgyermeket altatgatni, az
+               elhibázott lépés felett gondolkodni, a hold járását lesni és oly titokzatosan
+               cselekedni, mint éjjel a macskák. (Kár volna kihagyni az elbeszélésemből öreg bécsi
+               fiákeresemet, aki a feleségét állandóan “Katz”-nak nevezte.)
+         	</p>
+				<p>
+            Hartvigné iránt is mély sajnálatot éreztem. A jobbágyszeme, a
+               megindultsága, derekának boldog-boldogtalan leomlása, a polgárasszonyok fehér
+               fejkötőjének lehullása kontyáról, szégyenkezése és gondterheltnek látott háta,
+               amelyre utolsó pillantásom esett - elfelejtette velem, hogy a nők úgy törik fel a
+               férfiakat, mint a mogyorót, és csemcsegve fogyasztják reggeli kávéjukat, miután
+               kedvesük halálhírét az újságban elolvasták. Csak sajnáltam Hartvignét, hogy rossz
+               éjszakája van miattam, a holdba bámul, búcsút vesz gyermekeitől, talán megfordul a
+               fejében a másvilági üdvösségének a gondolata is, mindenesetre éjfélkor az ablakra
+               könyököl, és borús kedvvel, meggyalázott büszkeséggel, megváltó szavakra várva, lesi
+               a hegyi utcácska felől lépteimnek messziről felhangzó koppanását. A fehér kendőt
+               keblére teríti, hogy bele ne haraphasson a téli éj farkasfoga, a fülébe a
+               boldogtalanság és az elkeseredettség vattáját dugja, az ajkát leszorítja, hogy ki ne
+               törjön rajta a gyötrelmes zokogás. Egyedülinek s elhagyottnak érzi magát a földön.
+               Kivételes nőnek, akivel valamely rendkívüliség történt...
+         	</p>
+				<p>
+            Elsétáltam kétszer is az ablakai alatt. A szobák fehér függönyeik mögött
+               oly mélyen aludtak, mintha mindenki meghalt volna a házban, és az éjjeli óraütést
+               legfeljebb a házőrző eb olvassa a pitvarban. Ő fekszik egy ágyban, férje, gyermekei
+               társaságában, és egypár napig félszemmel alszik, hogy álmában el ne szólja
+               magát.
+         	</p>
+				<p>
+            Csöndesebb éj tán sohasem volt X-ben.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Már nemigen emlékszem, hogy mivel töltöttem másnap a délelőttöt -
+               egyáltalában eszembe jutott-e Hartvigné? - valószínűleg ismét az a szomorú, életúnt
+               utazó voltam, aki az Arany Csillag omnibuszán megérkezett. A felkeléseim igen
+               zordonak voltak ez idő tájt, délre harangoztak, amire meg tudtam bírkózni farkasszőrű
+               kedvemmel, hogy a mosdótálhoz lépjek. Amíg el tudtam hitetni magammal, hogy én már
+               sokkal többet éltem, mint a nyolcvanesztendős emberek, nincs jogom hosszú életre
+               számítani, bármikor meghalhatok, mert kiéltem mindent, amit lehetett. Rendesen a
+               széken szoktam üldögélni és a fehér függönyre bámulni, anélkül hogy eszembe jutott
+               volna a függönyt félrevonni, vajon mi történik a külvilágban?
+         	</p>
+				<p>
+            Délután a Szent János-templom körül sétálgattam. Vén szentek a
+               napvilágon maradtak itt, az öreg polgárokat a kövek alá dugták. Minden lépésnél egy
+               kétszáz esztendős halott jött szemközt. Nagyszakállú kővitézek álltak minden cél
+               nélkül a templom falában. A hollók magasan szálltak, havazás lesz.
+         	</p>
+				<p>
+            Éppen akkor volt vége a litániának, az öregasszonyok miséjének, amely
+               oly rövid, mint egy szippantás a hit burnót szelencéjéből. Énekeskönyv kezdőbetűivé
+               görbült öreg E még F betűk mendegéltek a sárga falak mellett: vén asszonyok, akiknek
+               már semmivel sem kedveskedhet az élet, csak egy jóízű imádsággal. A régi téli kendők
+               között hirtelen, mint egy déli jelenés, feltűnt Hartvigné, kerek kis fácántollas
+               bársonykalapka volt a fején, macskabőr bundácska oroszos sujtásokkal, a
+               karmantyujából öreg imádságos könyv kandikált ki, a fal mellett sietett, a szemét a
+               földre sütötte. Amikor tiszteletteljesen köszöntöttem, olyan megriadva nézett rám,
+               hogy sohase felejthetem el tekintetét. Mintha kancsalított volna a két szembogara,
+               mintha kotkodácsolt volna a hangja, mint egy megriasztott baromfié.
+         	</p>
+				<p>
+            - Ön itt van? S nem utazott el a városból?
+         	</p>
+				<p>
+            Mindenféle szíves és szívtelen szavak bugyborékoltak a számon; növekvő
+               félelme arra sarkantyúzott, hogy mindenféle kopott és átérzett mondásokkal meggyőzzem
+               őt arról, hogy csak a kedvéért maradtam még X-ben. Látni akartam ismét, mert nem
+               tudtam elfelejteni az első csók ízét. Ismét magaménak akarom őt... Olyan ijedelemmel
+               nézett körül a templomsétányon, mintha a pokol tornácába jutott volna:
+         	</p>
+				<p>
+            - Az istenért, megláthatnak itt együtt. Mit gondolnak az emberek?
+         	</p>
+				<p>
+            - Lakója vagyok - feleltem, hogy megnyugtassam.
+         	</p>
+				<p>
+            - Nem... Nem, ez nem lehet kifogás. Féltem a jó hírnevemet. Ön talán
+               azért jött, hogy visszakérje a pénzt, miután a szobát nem óhajtja elfoglalni? -
+               kérdezte most nagyon gyorsan.
+         	</p>
+				<p>
+            - A pénzt semmi esetre se fogadom el - feleltem igen komolyan, s nem
+               lettem volna emberismerő, ha észre nem veszem Hartvigné megnyugvását. - Ellenben
+               mégiscsak itt maradok a városban, s ha lehet, elfoglalom szobámat önnél.
+         	</p>
+				<p>
+            Ismét elborult az arca.
+         	</p>
+				<p>
+            - Az a szerencsétlenség úgysem fog többé megtörténni - mondta ő mély,
+               remegő, igaz hangon. Önnek nem lehet fogalma, hogy mennyit szenvedtem azóta. Vallásos
+               és nyugodt asszony voltam, aki minden örömét családja körében lelte.
+               Azóta
+             nem merem megcsókolni a gyermekeimet, s remegve gondolok a napra, midőn
+               férjem megérkezik. Az ördög bújt belém, s nem találom a lapot az imakönyvben. Nem
+               teszek szemrehányást önnek, csak azt cselekedte, amit a legtöbb férfi elkövetett
+               volna egy megtévedt, gonosztól megszállott nővel. De most már felocsúdtam. Elmúlt a
+               nehéz óra, amelyet Isten azért küldött rám, mert egyszer vétkeztem egy nő ellen, aki
+               ugyanígy járt, mint én. Megtaszított az ördög, a fülembe súgott: “próbáld meg te is”,
+               holott valamikor nagyon súlyos ítéletet mondtam szegény bűnbe esett húgomról.
+         	</p>
+				<p>
+            - Hol van a húga? - kérdeztem, hogy a fájdalmas szavakat megállítsam a
+               száján.
+         	</p>
+				<p>
+            - Itt lakik a városban. De csak ritkán találkozunk ama szomorú nap óta.
+               Nekem gyermekeim vannak, derék, tisztességes férfi nevét viselem, még ha szívem
+               szakadna sem tehetnék semmit szegény húgom érdekében.
+         	</p>
+				<p>
+            - Talán van a húgánál kiadó szoba? - kérdeztem minden cél nélkül, mint
+               ahogy az emberek néha beszélnek gondolkozás nélkül.
+         	</p>
+				<p>
+            S ekkor láttam Hartvignén a második meglepetést, amelyre sokat
+               tapasztalt férfi létemre sem voltam elkészülve. Hevesen, szinte a szavakba
+               kapaszkodva és korántsem meggondolva felelt:
+         	</p>
+				<p>
+            - Nem... majd csak lakjon nálam, amíg kedve a városhoz köti. Majd
+               kieszeljük, hogyan találkozhatna a húgommal, aki szebb és fiatalabb nálam. Szegény,
+               korán özvegységre jutott és gyermekkel nem áldotta meg a sorsa.
+         	</p>
+				<p>
+            - Holnap - szóltam.
+         	</p>
+				<p>
+            - Esetleg már holnap - felelt Hartvigné.
+         	</p>
+				<p>
+            Estére elfoglaltam szobámat a barátságos házban, de még nem pakoltam ki
+               a táskáimat. Lássuk, érdemes-e hosszabb ideig a városban maradni?
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Másnap a jószagú, fenyőfás és tiszta, fagyos reggelen Hartvigné
+               gyermekeivel ismerkedtem meg, mint valamely vasúti állomáson útitársam
+               hozzátartozóival. Fiúcskák és leányocskák voltak, illedelmesek, kacsafark-hajzatúak;
+               a fiúcskának lakkszárú csizmája volt, a leánykának vízálló bakancsa, piros
+               halászkendője, fecsketarka ruhácskája. Bizonyosan futva szoktak átkelni a hídon,
+               amelynek fagyott deszkái döngnek lépteik alatt. Vagy kétszer-háromszor
+               végigcsúszkálnak a folyó jegén, azon a helyen, amelyet a gyermekek maguknak e célból
+               kijelölnek. Piros fülükkel, mogyoró-orrocskájukkal, ártatlan szemükkel tapogva
+               sietnek az utcán az iskola felé, mintha mindennap megjárnák azt a csigalépcsőt, amely
+               az égből a földre vezet.
+         	</p>
+				<p>
+            Hartvigné fázósan szégyenkezve merített kanállal a tejet tartalmazó kék
+               lábasból, szórakozottan mellőzte a gyermekek kérését, akik sok föllel akarták
+               kávéjukat, ellenben bocsánatkérő, szinte alázatos pillantást vetett rám, midőn
+               megkérdezte, hogyan parancsolom a kávét? Sötét zubbonya nyakig be volt gombolva, és a
+               krémszínű szoknyát a kék szegéllyel többé sohasem láttam rajta. Valamiképpen úgy
+               viselkedett velem szemben, mint az adós hitelezőjével. Nesztelen léptekkel járt-kelt,
+               óvakodott a közelembe kerülni, később menyecskésen bekötötte a fejét, rongyos, régi
+               kesztyűt vont ujjaira, és a takarításhoz látott, hogy elfelejtse az életét. Azt már
+               korábban tudtam, hogy a nők a törlőruhába, a hajnali nagymosásba, a padlás
+               látogatásába és a dudvázás méla dalaiba a virágos vagy veteményes kertben olyan
+               titkokat temetnek el, amelyekről sohasem beszélnek. Az ősanyák is így csinálták. Ha
+               nyugtalan volt a szívük, ha féltek a magánytól, elmentek a baromfiudvarba, a
+               gyöngytyúk vagy a páva rikoltását hallgatni.
+         	</p>
+				<p>
+            Mégis a Hartvigné nyakán egy szív alakú medáliont vettem észre, amely
+               emlékezetem szerint, tegnap nem volt azon a helyen. Fekete csontból faragott,
+               egyszerű, bársonyszalagos medálion volt. Kérésemre nyomban felnyitotta. Egy nyírott
+               pofaszakállas, egyenes tekintetű, pedrő nélkül felsodort bajuszú, kettéválasztott
+               homlokú, csendőrtiszt arculatú férfiú nézett rám a medálionból. Hartvig úr volt,
+               bányatiszt a közeli kincstári bányákban, és csupán hetenkint ért rá családját
+               felkeresni. Előre elhatároztam magamban, hogy H. úrral kuglizni járok ama mulatságos
+               kocsmába, ahol a tegnapi estét töltöttem. - Védekezve és vigyázva osont tova az
+               asszony kérdő tekintetem elől. Olyan sötét volt a szeme, mint borult ég alatt a tó
+               tükre. Az orra körül a szőlőlevél-izomzatú rózsaszín foltocskák elhalványultak,
+               mintha bőjtöt tartana. Hajlékony, lemondó és titokszerű volt, mint egy bűnbánó nő.
+               Szerettem volna többször megmondani neki, hogy én feloldozom, de okosabbnak véltem a
+               hallgatást. Midőn a konyhán csendesen forrni kezdett a víz, az udvaron a napsugár
+               sárrá olvasztotta a friss reggeli fagyot, lemondó egykedvűséggel, felgyűrt nadrágban
+               elhagytam a házat, hogy szemlét tartsak a városkában. Úgy gondoltam, hogy midőn a
+               küszöböt átléptem, Hartvigné levetette magát egy székre, és szorongását csendesen
+               omló könnyekben felejtette.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Mégis bolondság volt el nem utazni a városkából, gondoltam magamban még
+               aznap, mikor oly gondtalanul sétáltam a piacon, a falusi menyecskék szoknyái között,
+               mint egy olyan ember, aki úgyis csak egy félóráig időzik itt, elutazik s felejt.
+         	</p>
+				<p>
+            Hartvigné húga délután jelent meg a háznál, s háziasszonyom csakhamar
+               magunkra hagyott.
+         	</p>
+				<p>
+            Ha jól emlékszem, Genovévának hívták.
+         	</p>
+				<p>
+            Tapasztalt férfiak között nem volna sok mondanivalóm a dologról. Sokkal
+               egyszerűbb volt az özvegyasszonyka, mint valaha hittem. Barna volt, mint a gond,
+               hiszékeny, mint az álom, jóindulatú, anyáskodó, tenyerével veregető, megtisztelt és
+               szenzáció nélküli. Beszélt a menyasszonyi ingéről, öt esztendő előtt meghalt
+               férjéről, a fekete nagy kakasáról, amelyet ezentúl Péternek (az én keresztnevemen)
+               fog szólítani, a kisvárosi unalomról. Engedékeny, szíves, türelmes, megadó volt, mint
+               egy jóasszony, aki nem tehet egyebet a jelen körülményei között. Bár nem volt a
+               legjobb formájú - a kezén nagyon meglátszott, hogy varróiskolát tart a városkában -,
+               túlságosan be volt fűzve, és igen sok parfőmöt locsolt a fehérneműjére, mindamellett
+               kedves volt fekete ruhájában, sűrű fátyolában, simára fésült hajával, házikenyér
+               fehérségű térdeivel, kopogó félcipőjében, savanykás leheletével, titkos
+               bajuszkájával, szófogadó két karjával, falusi szemérmetességével és önként levont
+               harisnyáival. Az elhalt férje arcképe függött a nyakában - egy pepitaruhás, zexeres,
+               kisbajuszú, heptikás férfiú, akit a világon a legjobban szeretett. Korhely volt. Néha
+               éjszaka papucsban szaladt borért a Három Rózsához, hogy férjének kedvében járjon. Ha
+               férje bort ivott, nagy örökségekről beszélt, amit oly jó volt hajnalig hallgatni.
+               Leginkább azon csodálkozott, hogy férje nem tért vissza a temetőből az első éjszakán
+               a jó meleg ágyba, ahol kitárt karokkal várta.
+         	</p>
+				<p>
+            Elment, mint egy ügyvédtől a kliens. Csupán annyi maradt meg
+               emlékezetemben a szavaiból, hogy igen rossz véleménye volt a helybeli asszonyokról.
+               Hartvignét tisztelte, mint egy szentté válott mártírt.
+         	</p>
+				<p>
+            Estefelé Hartvignéval találkoztam az előszobában. Most már mintha
+               nyugodtabban, eltökéltebben nézett volna a szemem közé. Halkan, elgondolkozva
+               fütyörészgetett magában, amint a ruhásszekrény előtt foglalatoskodott. Csöndes
+               mosollyal nyomta kezembe a kapukulcsot.
+         	</p>
+				<p>
+            - Bármikor hazajöhet, uram, mi mélyen, csendesen alszunk. Minket nem
+               zavar. Csak mulasson jól X.-ben.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Ünnepnap volt. A kalendáriomban hívogató piros betűkkel volt megjelölve
+               a nap, mintha ilyenkor mindenkinek több bort szabadna inni és bővebben enni a
+               fűszeres ételekből. A kalendáriomi ünnepeknek az asszonyok örülnek. Több a
+               tennivalójuk, a hajukból nagyobb karikát sodranak fésülködés után az ujjaikkal, amely
+               hajkarikával rendesen eldobják az éjjeli álmukat is, piros az ünnep, mint az arcuk,
+               és csodálatos módon kalácsillata lesz a legkisebb háznak. Az ablakok jobban
+               fénylenek, a ház megmosakodni látszik, mint egy cica.
+         	</p>
+				<p>
+            “Szent Jeromosra és a többi szentekre... kezdtem (mert már régebben
+               rájöttem, hogy Jeromostól aggódnak a nők, miután a legműveltebb is csak keveset tud
+               róla)... ma vízkereszt napján kijelentem, hogy hozzád hasonló nő nincsen ebben a
+               városban” - mondtam zsoldoskatona módjára reggelizés után, miután a gyermekek a
+               kismisére eltávoztak.
+         	</p>
+				<p>
+            Hartvigné szokás szerint megrendült, aztán nagyon szelíden, engedelmet
+               kérően függesztette rám a szemét, amelyben ismét előbújt a bánat, mint kis fekete
+               kutya a házikójából. S így szólt a szem:
+         	</p>
+				<p>
+            “Én jó teremtés vagyok, de azt ne kérje tőlem, amit gondol. Megesküdtem,
+               megfogadtam... Falun kacsák és libák, fa-Krisztusok és boldog kis kápolnák között
+               növekedtem fel. Nem tudom megszegni az eskümet, mert nem élhetek tovább. Hagyjon
+               engem így félig eltaposva. Majd múlnak az évek, s én lassan felejtek, meggyógyulok.
+               Nézzen körül a városban. Van itt elég, aki elmulattatja.”
+         	</p>
+				<p>
+            - Nem ismerek itt senkit - feleltem komoran.
+         	</p>
+				<p>
+            - Én majd segítek - szólt Hartvigné megható szolgálatkészséggel. -
+               Városunk szépeit most mind együtt láthatja a templomban az ünnepnapi misén. Jőjjön
+               utánam, s ha teheti, lépjen a hátam mögé a mise alatt.
+         	</p>
+				<p>
+            Beleegyeztem a tervbe, mert hisz úgysem tehettem volna egyebet.
+         	</p>
+				<p>
+            Emlékezetem szerint Szent Jánosnak volt a templom ajánlva azon régi
+               emberektől, akik a hitnek ezt a hajlékát oly komorrá, ijesztővé építették, mint
+               valami örökös fenyegetést a bűnöző emberek ellen. Mennyivel áhítatosabbak a szabadban
+               tartott istentiszteletek a templomiaknál! Búzaszentelő gyönyörű ünnepén valóban a
+               szív legmélyéről száll a bárányfelhős ég felé a föld népének fohászkodása. A mezei
+               virágok megannyi menyasszonyok, az akácfák vőlegények, forrásszaga van a
+               gyalogösvénynek, vidoran integetnek messzi tájak, mint a karinges pap karzati
+               hallgatói. Az ember szivesen megnyugszik abban, hogy van másvilág, ahol tavasz járja.
+               De a templomokban én mindig csak az utolsó órámra gondoltam. Gyermekkoromban buzgón
+               köszöntgettem a fekete arcú szenteknek, akik a túlvilágon iskolamestereim lehetnek.
+               Meggyőződésem szerint valaki irogatja az oltár mögött, hányszor vetek keresztet és
+               hajtok térdet. Féltem az oltárképektől, mint a halottak országától. Titkos remegéssel
+               dugtam a kezem a fekete szenteltvíz-tartóba, talán megfogja ollójával egy borzasztó
+               rák, mert a gyónásnál elhallgattam némely titkomat. Későbben is bizonyos
+               idegenkedéssel nézegettem a bús oltárokat, setétlő kórusokat, titokteljes kápolnákat,
+               félhomályos sekrestyéket, ahol a papok a másvilággal érintkeznek. Szellemek laknak a
+               misemondó-ruha ráncai között, és a sötét padsorok alatt az ördög guggol, aki elkapja
+               a lábát annak, aki nem imádkozik. Vajon mi lehet a nagy oltárkép mögött? Talán egy
+               nagy bolthajtásos terem, ahol a szentek, képek és szobrok összejönnek, és mise után
+               megbeszélik azt, amit tapasztaltak. Vallásos katolikus családból származtam, és még
+               egészen kisfiú voltam, amikor a papok neveltek, hajnalban hideg misemondásaikhoz
+               felköltöttek. Megvallom, féltem a templomtól, miután gyermekkorom óta annyi
+               meggyónatlan bűn terhelte a lelkiismeretemet. Csak volna valahol egy vak és süket és
+               nagyon öreg szerzetes; majd könnyítenék magamon. De így féltem elmondani furcsa
+               cselekedeteimet, amelyekről gyermekkorom óta meg voltam győződve, hogy
+               tilalmasak.
+         	</p>
+				<p>
+            Szent János temploma belül sem volt barátságosabb, mint külsőleg. A
+               szívet átdöfő villámhárítók, mogorva vaskeresztek, titokteljes toronyrovátkák,
+               amelyeken a holdkórosok szeretnének sétálni, a befalazott fülkék, ahol bizonyosan
+               élve eltemetett bűnösök gubbasztanak az örök reménytelenségben, a salétromos, nedves,
+               szinte könnyektől áztatott falak hiányzottak a templom belsejéből, de volt itt elég
+               látnivaló, ami megrázza a ritka templomjáró szívét. Mindjárt egy szoborcsoportozat
+               vonta magára figyelmemet. Márványanya lépkedett kisebb-nagyobb gyermekei társaságában
+               az örök megsemmisülést, a vigasztalhatatlan búcsút jelentő fülke felé. Tunikájában,
+               mezítelen lábain, karjában csecsemőjével, szoknyájába kapaszkodó gyermekeivel
+               visszavonhatatlanul lépkedett a bús nő az üreg felé. A szívverés megáll, ha
+               elgondoljuk, hogy mi lehet az üregben!
+               Anyák sorsa
+            : ez volt a szoborcsoport címe, és a bécsi udvari templom eredetije után
+               másolták. Mindenesetre távol helyezkedtem el a baljóslatú lyuktól.
+         	</p>
+				<p>
+            Hát a szent oltárképek tán megvigasztaltak? Sehol sem találtam egy
+               barátságos arcra, amely várt volna, amely megnyugtatott volna. Másvilágiasan hideg
+               szemű arcok nézegettek alá a falakról, századok óta elfásult Krisztusok, a földi élet
+               asszonypanaszaitól egykedvűvé válott Máriák, reménytelen, üres tekintetű szemek
+               vették el kedvemet végképpen a másvilágtól. E hűvös szentélyekben valóban nem lehet
+               egyébért fohászkodni, mint azért, hogy a hempergő, őszinte élet minél tovább tartson
+               odakünn, az ajtón kívül. A másvilág, amint itt ábrázoltatik, csak arról győzi meg a
+               látogatót, hogy a szentté válottak tovább is viselik fájdalmaikat, a mártírok
+               töviskoronájukat. Semmi sem változik, csak a sír lesz napról napra hidegebb s a kő
+               súlyosabb.
+         	</p>
+				<p>
+            Ijedten félreléptem egy kockakőről, amely felírása szerint, egy régi
+               polgár hamvait takarta. Mennyit kellett koccintgatni életében e régi polgárnak a
+               sekrestyésekkel, amíg itt helyet adtak neki!
+         	</p>
+				<p>
+            Most a kóruson megzendültek a hegedűk, a hárfák, dobok és női hangok.
+               Zenés mise volt Szent János templomában, amelyre nagyon büszkék az X.-beliek.
+         	</p>
+				<p>
+            A hegedűknek oly édesded hangjuk volt, mintha maga az öreg Úristen
+               hallgatná a zenészek játékát. A hárfák a bárányfelhőkön üldögélő, kövér lábszárú
+               angyalokat vélték elbájolni. S a nők, akikből egy kalapka vagy egy fogolyszárnyacska
+               látszott a kórus mellvédjei mögött, akkor sem énekelhettek volna csengőbb
+               lelkesedéssel, ha maga a kassai püspök szolgálja az oltárnál az Urat. Elandalodtam e
+               gyönyörű énekeken, mint a vén bűnös ártatlan gyermekkorán. Mily jó volna vétek
+               nélküli gyermeknek lenni s odafent harangozni a toronyban!
+         	</p>
+				<p>
+            De nézzük, nézzük azt, amiért oly sok esztendő után Isten hajlékába
+               vittek lépteim. Én a mai szent misén az oszlopok mögött leskelődő sánta ördög
+               szerepét játszom, mert a véletlen így osztotta ki... Mennyivel könnyebb volna munkám,
+               ha mezítelen homlokkal és arccal állhatnék fel a szószékre, hogy a paráználkodás
+               fertelmességéről beszéljek női hallgatóimnak! De most ördög vagyok. Vigyázni kell,
+               hogy fel ne ismerjen a harangozó, midőn bojtos, csengős papzsákjával a hívők feje
+               körül lebeg. Mily örömmel nyúl kezem a zsebbe, hogy némi aprópénzzel megváltsam itt
+               mulatozásomat!
+         	</p>
+				<p>
+            A templom már megtelt. A férfiak hátul álltak, aggodalmasan
+               összekulcsolt kézzel, mintha valamennyien igen nagy bajban lennének. Ezek a hímnemű
+               imádságok a mindennapi gondok szarufáin, ágas-bogas gerendázatain kúsznak fel a
+               magosba. Ha belenéznénk ez imádságok szénaboglyájába, aligha akadnánk itt rikító
+               pipacsra. De amott, feljebb a hajóban, ahol a nők foglalnak helyet a padsarokban,
+               mint a vetőkártyák, fiatal mellett öreg, őzfélénk menyecske szomszédságában tűzrevaló
+               boszorkány, gyermekleányokra őrködő banyák és az imádságokat is ellenőrző, kékruhás,
+               kövérre lottyant nénikék a fiatal nők rozmaringszagú szoknyái mellett: ott már
+               cifrábbak lehetnek ez imádságok. Nem vettem észre, hogy helyőrség volna a városkában;
+               több fiatal bányásznövendéket láttam, valamint tipikus kisvárosi gavallérokat testhez
+               álló kabátokban s magos gallérokban, igen vastag sétapálcával és borzas bajuszokkal -
+               hogy ha ők nem szerepelnek ezekben az imákban, akkor engem nevezzenek szamárnak.
+         	</p>
+				<p>
+            A női szemek mind le vannak sütve, mert utóvégre templomban vagyunk.
+               Nagy iskola a vallás, mindenki elcsendesül röpkeségével, nyugtalanságával,
+               gonoszságával, amint helyet foglalt a padsorban. A fényesre simított deszkákon, a
+               kopott lyukas térdeplőkön, az avas, barna könyöklőkön így helyezkednek a női testek
+               már évszázadok óta. A holtak kihűlt helyén vérmes fiatalok helyezik el derekukat.
+               Kihunyt tekintetek helyett új lámpások villannak meg a félhomályban. Jönnek-mennek
+               lábujjhegyen, egyik esztendőben úgy, mint a másikban. Egyik sem hoz olyan gondolatot
+               magával a templomba, amelynek ne lett volna már hasonmása. Szinte megreszketnek Szent
+               György lovának hatalmas, sárkányölő izmaitól, mert a múlt héten álmodtak egy hasonló
+               nagy lóval. Ne reszkessetek, már az anyátok is álmodott a Szent György lovával, mégis
+               szép öregasszony lett belőle. A kisvárosi varázsló, aki tükörbe néz, századok óta
+               hasonló álmokat lát a nők lelkében. Vajon miért is élünk, ha már nem tudunk újakat
+               álmodni?
+         	</p>
+				<p>
+            Egy kis szőkés-barnás fejnek póksárga szeme villant rám hosszú pillák
+               alól. Mintha fénylő porszemecskék táncoltak volna felém a szemsugárban. Aztán
+               bezáródott az ablak. Jelentéktelen mézeskalács-arcú, fitos orrú elbizakodott állú és
+               a fül mellett nagyravágyóan göndörített hajú leány vagy asszony volt a légyszem
+               tulajdonosa.
+         	</p>
+				<p>
+            Megböktem Hartvigné vállát, aki a hajó közepén az utolsó padsorban
+               foglalt helyet.
+         	</p>
+				<p>
+            Fel sem nézett imádságos könyvéből, csak alig észrevehetőleg
+               bólintott.
+         	</p>
+				<p>
+            Már elmenőben voltam, amikor egy kíváncsi, szinte ágaskodó, kígyóvonalú
+               szempár állított meg, amely hosszabb idő óta látszott figyelni, kémlelni, felettem
+               tanakodni. Frufrus, babás, fekete hajak környezték a kreolarcot; kékes bajuszka és
+               cukorkaszopogatásra való, duzzadt ajkak között egy hiányszó fog helye...
+               pamutkesztyűk az összekulcsolt kézen... de áradó, kandi, mindenre kíváncsi ifjúság:
+               ez maradt a leányról emlékezetemben.
+         	</p>
+				<p>
+            De már nem akartam Hartvignét zavarni mély és buzgó áhítatoskodásában.
+               Szegény, nem tehet arról, hogy ily gonosz emberrel ismerkedett meg. Mielőtt a pap
+               kivette volna az Oltári Szentséget, bűnös, megalázott gyötrelmes lélekkel elhagytam
+               az Úr hajlékát, ahol csak rosszban törtem a fejem.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Hartvignét dúdolgatva találtam az előszobában, miután Olga - a
+               mézeskalács-arcú leány - elment tőlem. Mind bátrabban nézett a szemembe.
+         	</p>
+				<p>
+            - A hét végén megjön az uram - mondta, s már alig aggodalmaskodott.
+         	</p>
+				<p>
+            - Igen - mondtam fanyar kedvvel -, nagyon fogok örülni Hartvig
+               úrnak.
+         	</p>
+				<p>
+            - Majd meglátja, uram, hogy milyen becsületes, derék jóravaló ember az
+               én férjem, akinek a kisujja többet ér...
+         	</p>
+				<p>
+            - Jól van - feleltem, s elmentem az alkonyati városba. (Rendesen azok az
+               asszonyok dicsérik a férjüket, akik vétkeztek.)
+         	</p>
+				<p>
+            Amíg a ködben csavarogtam, a házárnyakat nézegettem, piros ablakokról
+               szerettem volna kitalálni, hogy mi történik mögöttük - olykor egy-két
+               gondolatfoszlányt szenteltem Olgának, akit délután szobámban találtam. Mi is volt
+               rajta a feltűnő? Igen, olyan hevesen csókolt meg, mintha önmagát akarná bolondítani.
+               És azt mondta egyszer: “Bandi”. Vigyázott, hogy a fehérneműje ne gyűrődjék,
+               ugyanezért levetette azt, csendesen nevetgélt, s nem látszott félni, hogy az ajtó
+               egyszerre megnyílik, és beállít a szobába az egész magisztrátus, a polgármester
+               vastag ezüstlánccal a nyakában, a város gombos pálcájával a kezében; nagy,
+               bohóc-pápaszemmel a nótárius; komor, álomképekből való drabantok, vörös ruhás hóhér,
+               átkozódó asszonyszemélyek, csúf kis ugató ebek... akiktől mindig féltem, mióta a
+               városkában gonoszkodtam. Aztán megragadják Olgát mezítelenül, lebomlott, alig vállig
+               érő haját szétseprik, a piacra korbácsolják, ahol már áll a hasábfákból való máglya,
+               amelyen az erkölcstelen asszonyokat elégetik. Míg az én kezemet hátul erősen
+               összekötözik, és visznek, hogy kerékbe törjenek. - De Olga oly vidor volt, mint egy
+               csirke. Bizonyosan kinevetett volna, ha elmondom neki aggodalmaimat. Csak arra kért,
+               hogy köszöntsem őt az utcán, ha barátnőivel sétál, amit természetesen meg is
+               ígértem.
+         	</p>
+				<p>
+            Nem soká kellett várnom a találkozásra. Amint kifordultam a piacra,
+               viháncoló, kacagó leányokkal találkoztam a ködben.
+         	</p>
+				<p>
+            Igaz, hogy farsang már elkezdődött, a kocsmákban dudások lesték a
+               vendéget, az Arany Csillag sárga falán egy piros cédulát láttam, amely valami bált
+               hirdetett, de ezeknek a leányoknak olyan jókedvük volt, mintha egyenesen valamely
+               középkori farsangból jönnének, midőn egy napra szabad volt megbolondulni mindenkinek
+               a kulcsos városokban. Ilyenkor fogamzottak azok a gyermekek, akikből későbbi vásári
+               bolondok, tarka komédiások vagy piros arcú rablók váltak; a bor összefolyt a földön a
+               katonák és a polgárok vérével, és a szegény asszonyok nem tudták, hogy kilenc
+               holdtölte után szörnyű baziliszkuszt vagy ikret hoznak-e a világra?
+         	</p>
+				<p>
+            A ködben úgy suhantak el mellettem a leányok, mint a csengettyűk
+               hangjai.
+         	</p>
+				<p>
+            Hárman voltak, nyomban felismertem Olga szívarcát, szürke, nagymamás
+               kendőjét, de feltűnt a foghíjas, fekete lány kagylófényű arca is, amint fodros
+               gallérjába (
+            à
+             la Mikádó; a régi divat szerint) burkolózott, mint egy vándorcirkusz
+               lovarnője.
+         	</p>
+				<p>
+            Mély tisztelettel köszöntöttem Olgát, meghajoltam és turbékoltam, mint
+               egy féleszű lovag.
+         	</p>
+				<p>
+            - Kezét csókolom, drága úrnőm.
+         	</p>
+				<p>
+            Olgának nyilván megtetszett hódolatom, és elpirult a pisze orra.
+               Zavartan megállt, mint színpadon a kezdő színésznő; végül, hogy a barátnők előtt
+               tekintélyt szerezzen, meglepetten kérdezte:
+         	</p>
+				<p>
+            - Hol járt, mióta van a városban?...
+         	</p>
+				<p>
+            Úgy hangzott ez, mint a haragszomrád játék kérdései és feleletei.
+               Manapság is csodálkozom, hogy akkori céltalan kedvemben - amilyen üres lelkűek a
+               férfiak a szerelmi délutánok után - hogyan volt kedvem szóba állni ezzel a tudatlan
+               vidéki kisasszonnyal?
+         	</p>
+				<p>
+            - És barátnője? A fekete hölgy, hogy van?
+         	</p>
+				<p>
+            Olga nyomban kiáltozni kezdett a félhomályban, esti füstben eltávolodott
+               barátnők után.
+         	</p>
+				<p>
+            - Eszténa!
+         	</p>
+				<p>
+            Gyöngytyúk módjára rikoltott a leány, az én képzeletemben mégis fehér
+               falú spanyol házak suhantak el, mintegy panorámában... S az erkélyeken sötét szemű
+               nők várakoznak vállukon kis mantillákban. Valahol messze - tán Szevillában - élesen
+               kezdtek harangozni, sok apró harang szólalt meg egyszerre, mintha most gyújtanák meg
+               a gyertyákat Isten Báránya körül. A szűk, pinceszagú utcán még egyszer végighangzott,
+               mint egy fiatalkori hangulat: - Eszténa!
+         	</p>
+				<p>
+            A ködből végzetesen bontakozott ki a fehér-fekete arcocska, mint egy
+               látomány egy beteg katona lázálmaiban. Hosszan megpihentek rajtam a baljóslatú
+               szemek, mintha a lepkét néznék, amelynek szárnyacskáit világosan éreztem a
+               homlokomon. Mély, szenvedélyes, csalfa, mocsárvirág-élénkségű szemek voltak,
+               amelyektől mindig féltem, s amelyek után mindig futottam.
+         	</p>
+				<p>
+            - Itt van Eszténa - szólt Olga, megérintve a karomat, s én lassan
+               visszatértem a messzi városból, ahol füstölők, fénylő napsugarak, fátyolos, cigányos
+               képű nők kíséretében az ereklyét hordják körül a városban a papok, és mozsarak
+               durrognak a piacon.
+         	</p>
+				<p>
+            Kezet fogtam a lánnyal, aztán egész este hol mély szomorúsággal, hol
+               gólya módjára kelepelő jókedvvel sétálgattam a magános folyóparton. Csak jó darab idő
+               múlva vettem észre, hogy havazik, a köd felszállt, és a hóesésen át halott arcával a
+               hold bámult le a városkára. Ha tudtam volna, hogy egy vonat indul az állomásról,
+               gondolkozás nélkül elutaztam volna.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Ma már nem emlékezem, hogy mivel foglalkoztam másnap. Vannak az embernek
+               olyan céltalan napjai, midőn az útifelszerelését rendezgeti, vagy sárga újságokat
+               olvas, elbámészkodik egy esőcsatornán, vagy várja, mikor üt tizenkettőt a toronyóra.
+               A nők meguntak; mint régi szitákon lát át rajtuk az ember. Az élet egykedvű, inkább
+               szomorú. Többé már soha nem találkozunk kedves útitársakkal.
+         	</p>
+				<p>
+            Amikor délutáni csavargásomból hazatértem, Hartvigné szokatlan hideg
+               szemmel fogadott az előszobában, tetőtől talpig végignézett, és az izgalomtól remegő
+               hangon szólt:
+         	</p>
+				<p>
+            - Uram, kérnem kell önt... Azaz, hogy talán ön nem is tehet róla... De
+               hogyan magyarázzam meg önnek, hogy az én házam tisztességes, jó hírű ház... S az uram
+               becsülete sem engedi, hogy mindenféle kétes nőszemélyek léphessék át e küszöböt.
+         	</p>
+				<p>
+            Bosszúsan feleltem:
+         	</p>
+				<p>
+            - Eddig csak olyan nők voltak nálam, akiket asszonyom meghívott.
+         	</p>
+				<p>
+            - Akikről...
+         	</p>
+				<p>
+            Talán azt akarta mondani, hogy akikről jótáll. De nem fejezte be
+               szavait. Megtörölte az ajka szélét, mintha kifutni akarna onnan a szó. Inkább magának
+               mondta, mint nekem.
+         	</p>
+				<p>
+            - Olgának örökre kiadtam az útját. A szemtelen egy barátnőjével állított
+               be délután, elfoglalták a szobát, s ígérték, hogy majd megvárják az urat. A leány a
+               képes albumot mutogatta a barátnőjének, úgy viselkedett, mint valami háziasszony, le
+               akart vetkőzni. Kitettem a szűrüket.
+         	</p>
+				<p>
+            Hartvigné olyan durván beszélt, mint egy cseléd. Eddig nem is tudtam,
+               hogy ennyi közönségesség lakik ebben az asszonyban.
+         	</p>
+				<p>
+            - Fekete lánnyal jött Olga?
+         	</p>
+				<p>
+            - Valami cigánykacsával.
+         	</p>
+				<p>
+            Bementem a szobámba, és óra hosszáig néztem a plafonra. Felugrottam,
+               midőn besötétedett, a térdemre ütöttem, s nagyon sajnáltam, hogy elmulasztottam a
+               délutánt. Akkor még nem is sejtettem, hogy örökre elmulasztottam...
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Nem tudom, említettem, hogy negyvenesztendős koromban kímélni kezdtem
+               magam, különösen óvakodtam a lelki felindulásoktól, mert ezek mindig igen ártalmas
+               hatásúak voltak. Kedvemet szegték, búskomorrá tettek, félénkséget, bizalmatlanságot,
+               sőt gyávaságot öntöttek belém; még kerültem a rossz arcú embereket is, mert
+               igyekeztem zökkenés nélkül, meglehetős kellemetlenségek között élni! Rájöttem, hogy a
+               papok élnek legtovább, akik boroshordóikban hűsölnek, és összekulcsolt kézzel,
+               nyugodtan nézik a kalendáriomi napok múlását.
+         	</p>
+				<p>
+            El lehet gondolni egy ilyen meggondolt, nyugodt úriemberről, hogy
+               szerelmes legyen?
+         	</p>
+				<p>
+            Bolondság, mondanám, ha könyvben olvasnám. Legyintenék a kezemmel, ha
+               valaki elbeszélné. Pedig már akkor kezdődött a baj, amikor Eszténát a templomban
+               megpillantottam. Azon nem is csodálkoztam, hogy romlott barátnője rábeszélésére
+               eljött a lakásomra, amikor nem voltam otthon. A lányok kíváncsiak, nem mérik meg
+               előre tetteiket, mert járatlanok a dolgokban. És azon sem csodálkoztam, hogy Eszténa
+               sohasem lett az enyém.
+         	</p>
+				<p>
+            Az Arany Csillagnál megismerkedtem egy este a helybeli lapszerkesztővel,
+               bizonyos Szikrai úrral, aki varázslónak, bölcsnek, anarchistának, költőnek
+               mutatkozott be. A fiatal vidéki hírlapírók többnyire ellenségei a társadalmi rendnek,
+               mert társadalmi helyzetük nincs kellően rendezve. Beretválják az arcukat, mert
+               atyafiságot tartanak a vándorszínészekkel. Rendetlen életmódot folytatnak, mert
+               különbnek hiszik magukat a polgárnál. Elérhetetlenségekről álmodoznak. A
+               mellbetegség, vérbaj, lelki abnormitások a cimboráik. Amíg benő a fejük lágya, és
+               komolyan tanulni és dolgozni kezdenek. Többnyire kiváló emberek válnak belőlük, amint
+               megbékültek a társadalommal. Szikrai úr a legelején volt a dolgoknak, mert még avval
+               dicsekedett, hogy regényen dolgozik, amely a polgárság erkölcsi életét tárgyalja.
+               Majd ő bevilágít a hálószobákba, leleplezi a templomatyákat, megírja a szentkép-arcú,
+               házikenyér-illatú asszonyoknak a paráznaságát.
+         	</p>
+				<p>
+            - És a kisasszonyok, uram, már tizenkét éves korukban elszöknek a
+               Bujdosra, ahol a helybeli fiatalság a szerelmi ügyeit lebonyolítja. Ez az elhagyatott
+               liget sokat tudna mesélni gyermekkoráról a nőknek, akiknek napjainkban kezet
+               csókolunk. Élt itt egy öreg kéjenc, egy nyugalmazott bányatanácsos. Nos, őt kellett
+               volna meghallgatni, hogy az x.-i állapotokról kellő fogalma legyen az embernek.
+         	</p>
+				<p>
+            Ígérte, hogy készülő nagy művében felöleli az összes pikantériákat. És
+               már előre nevet magában a polgárok felháborodásán.
+         	</p>
+				<p>
+            - Természetesen, akkor már nem tartózkodom többé X.-ben. Úgysem tesz jót
+               nekem a helybeli víz.
+         	</p>
+				<p>
+            Szikrai úr aztán beavatott néhány szörnyű titokba, előttem teljesen
+               ismeretlen nők és férfiak szerelmi viszonylatába, régen megholt vénasszonyok egykori
+               kalandjaiba... A serház ablakán át megpillantottam Eszténa alakját, amint
+               mantilljában, piros orrával, siető kis lábaival átment a piacon a ropogós
+               délutánban.
+         	</p>
+				<p>
+            - Hát az kicsoda? - kérdeztem közömbösen.
+         	</p>
+				<p>
+            - Az egyetlen tisztességes lány a városban - felelt Szikrai úr gyanús
+               rajongással.
+         	</p>
+				<p>
+            Elgondolkozva néztünk Eszténa után, amint sötét ruhácskájában eltűnt
+               Nepomuki szobra mellett, ahol a fedett híd vitt át a folyócskán.
+         	</p>
+				<p>
+            Szikrai úr természetesen jó torkú és meglehetős étvágyú ifjú volt.
+               Pattanásos arca lassan gyulladt ki a bor hatása alatt, ilyenkor virzsinia szivarra
+               gyújtott, haját felborzolta, és monoklit tett fel, amelyen át a levegőbe bámult.
+               Tudta, hol van frissen csapolt ser, hol mérnek tiszta bort, merre kell keresni a
+               fokhagymás pirítóst, citromos kolbászt és töltött káposztát. Az Arany Csillagot, mint
+               mondá, csupán társadalmi összeköttetései miatt látogatta, szerkesztő létére nem
+               kerülhette el a városka egyetlen hoteljét, ahová legelsőnek érkeznek meg a pesti
+               hírek. Gondoltam, hogy ennek a kutyahűségű szemű, félbolond fiatalembernek még
+               hasznát vehetem és gyakran barátkoztam vele, bár észrevettem, hogy Szikrai úrnak
+               nagyon kis tekintélye van azokon a helyeken, amelyek részint az Arany Kalapácshoz,
+               részben a Zöld Fához voltak címezve.
+         	</p>
+				<p>
+            Így aztán apránként megtudtam, hogy Hartvigné egy jelentéktelen
+               polgárasszonyka, akit Szikrai úr még sohasem látott életében. Eszténa egy fukar
+               öregasszonynak a lánya, saját házukban laknak a folyón túl, Eszténa atyja
+               bányahivatalnok volt, élhetnének előkelőbben is, mert az öregasszonynak van
+               megtakarított pénze, de minden garast a fogához ver, sajnálja a vendégektől az
+               uzsonnát...
+         	</p>
+				<p>
+            - Majd elvezetem önt a Rienzihez, ha nincs kifogása. Itt minden úriember
+               a Rienzihez jár. Az egyetlen okos nő X.-ben - szólt egy napon Szikrai barátom és
+               alkonyattal egy gyanús kis házba vitt a folyó túlsó partjára, ahol kopott bútorzatú,
+               ódivatú szalonban egy kanárisárgára festett hajú, az időtől megviselt, öreg artistanő
+               külsejű hölgy cigarettázott. A hasonló idejét múlt hölgyek Pesten harisnyát, blúzt,
+               inget, kalaptűket árulnak éjszaka az artista-kávéházban. Rienzi itt előkelő dáma
+               volt.
+         	</p>
+				<p>
+            - Rokona a pesti Rienzinek? - kérdeztem, egy hölgyre emlékezvén, aki az
+               elmúlt években megadóan mosolygott a Kékmacska színpadán.
+         	</p>
+				<p>
+            - Ó, nem - felelt füstölögve a dáma. - Én régebben vagyok Rienzi, mint
+               őnagysága. Hallottam róla uraktól, akik házamban megfordultak - tette hozzá
+               odavetőleg, miután cipőmet, kesztyűmet s kalapomat jól szemügyre vette.
+         	</p>
+				<p>
+            - Pálfi úr teljesen idegen? - fordult Szikraihoz.
+         	</p>
+				<p>
+            - Még sohasem voltam X.-ben, s nagy szerencsének tartom, hogy
+               nagyságoddal megismerkedtem - feleltem ügyeskedve.
+         	</p>
+				<p>
+            Az öreg kakadu szabadkozott.
+         	</p>
+				<p>
+            - Ó, én nem vagyok egyéb, mint bizalmas jó barátnő.
+         	</p>
+				<p>
+            - Előre hálás vagyok barátságáért - feleltem. Egy pohár vizet kértem, és
+               a tálca szélére egy húszfrankos aranyat ejtettem, amelyet mindig magammal
+               hordtam.
+         	</p>
+				<p>
+            Ezután elbúcsúztunk a gyanús háztól, amelynek magasztalásából nem
+               fogyott ki a szerkesztő. Beszélt egy falusi kisasszonyról, aki hetekig rejtezett
+               Rienzi házában, amíg atyja érte jött, és meglehetős lármát csapott volna, ha az okos
+               Rienzi hallgatásra nem bírja... Ifjúkoromban korcsmák hátsó szobáiban, kávéházi
+               pénztárosnők kis kamarájában éreztem azt az édeskés pacsulit, amellyel Rienzi
+               szalonjának levegőjét fűszerezte. Gondoltam, hogy soha többé nem lépem át a rossz
+               szagú házikó küszöbét.
+         	</p>
+				<p>
+            Hartvig úr megérkezett.
+         	</p>
+				<p>
+            Hartvigné diadalmasan, szokatlan fölénnyel mutatta be férjét. Hidegen és
+               gúnyosan mustrált a szempillái alól, miközben a kistermetű, nagybajuszú, szelíd szemű
+               férfiúval élénken megbeszéltük Magyarország politikai helyzetét. H. úr a haját a füle
+               mellől fésülte kopasz fejtetőjére. A szőkés hajszálak egymáshoz simultak. De mi
+               történik, ha szél van?
+         	</p>
+				<p>
+            Azonban keserű volt a szám íze, és borongós a kedvem, amikor vége volt a
+               diskurzusnak. Szokatlan elégedetlenséget éreztem, mintha valami szégyenletes emlék
+               tolult volna fel bennem. Arcul ütöttek tán valahol setét korcsmai udvaron, vagy
+               szennyes edényből leöntöttek egy örömház ablaka alatt? Mit tettem? - Ezentúl alig
+               tartózkodtam a lakásomon. Szikrai úr azt hihette, hogy társasága nélkül nem élhetek.
+               Kijelentette, hogy a vesémbe, a májamba, a hasamba lát, mert éles szeme van.
+         	</p>
+				<p>
+            Vajon miért is nem utaztam el X.-ből?
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            A fedett hídon lestem Eszténát.
+         	</p>
+				<p>
+            Olyan türelmetlen voltam, mint egy vőlegény. Megnézegettem az órámat, s
+               nem gondoltam arra, hogy már hányszor figyeltem a mutató közömbös sétáját, midőn női
+               lábak kopogtak felém a messzeségből... De akkor még vígabb ember voltam. Örültem a
+               hidak alatt futó folyóknak. A girbegurba utcák rongyos fehérneműin fehérlő napnak. A
+               varrógép berregésének. Az ablakokban álló cserepesvirágoknak. A találka
+               titokszerűségének. Nem jutott eszembe, hogy minden láb megérkezik, amelyet a sors
+               erre az útjára küld. Csak néztem Nepomuki felé, ahol Eszténa kis alakjának fel kell
+               tűnni, a szent pedig olyan jóízűen álldogált hóbundájában, mint aki nagyon meg van
+               elégedve a világ sorjával.
+         	</p>
+				<p>
+            A hídon ablak volt, ahonnan a lékre lehetett látni. A lék is ablak, a
+               folyó ablaka, amelyen át a szakadatlanul menő víz, az örök mozdony kipillongat a
+               napvilágra, midőn a jég boltozata alatt, a setétségben utazik. A halak csodálkoznak a
+               torony árnyékán, amely téli délben a lékre vetődik. A hídon emberek és szekerek alatt
+               ropog a fagyos padló: másvilági alakok végzik másvilági munkájukat, míg ők a víz
+               setétségében tovább utaznak más városok, más lékek felé.
+         	</p>
+				<p>
+            A hídon már alig járt valaki, mert alkonyodott. A városka végképpen
+               elszomorodott, mintha megbánta volna eddigi vidámságait. A kimondhatatlanul bús
+               unalom köde füstölgött a háztetők felett. Az ablakokból itt-ott gyertyavilág
+               szüremlett ki, mintha jeladás volna, hogy még nem halt meg mindenki a városban. De
+               mit csinálhatnak itt az élők? Könyveket olvasnak, mindig ugyanazon meséket
+               mondogatják egymásnak, elrévülten, hátrafont karral üldögélnek, belebámulnak a
+               semmibe, vagy liliputi terveiket koholják holnapra, mint gyermekek apró játékházikóik
+               mellé felállítják a fenyőfácskákat...
+         	</p>
+				<p>
+            Mi lehet itt benn az elcsendesedett házakban, hogy az emberek nem futnak
+               ki sírva az utcákra, mintha akkor ébredtek volna tudtára annak, hogy nem érdemes
+               élni?... Mi lehet az, ami az életet tartja az emberekben, hogy a magányos, bús téli
+               estéket végigéljék, midőn az ablakokra ráfagy a hó, a sötétség a sírok setétje, az
+               ágy hasonlít a koporsóhoz és csak fekszik az ember álomtalanul, fogát csikorgatva,
+               mert egy téli álmát alvó légy pottyant a plafonról az orrára...? Mi lehet, ami kedvet
+               ád a holnap céltalan megvárásához? Mi lesz holnap, szentmise, esküvő vagy halál,
+               aminek a kedvéért érdemes végighánykódni a keserves hosszú téli éjszakát, amelyben
+               oly ritkán üt a toronyóra?
+         	</p>
+				<p>
+            A szomorúság úgy keringett körülöttem, mint a varjak az imént a torony
+               körül. Nem, nem vagyok már a régi hiszékeny ember, aki az ismeretlen házak belsejébe
+               karácsonyfákat, boldog embereket, kalács-szagú családokat, ábrándozó fiatal nőket,
+               komolyan pipázgató férfiakat szokott elképzelni. Hosszú a téli este s iszonyatos a
+               magány. Milyen boldogság volna egy kivilágított vasúti állomáson üldögélni vidám
+               vásárosok között, a kupé sarkában fél szemmel elaludni, s egy kőszénszagú csilingelő
+               nagy városban felébredni.
+         	</p>
+				<p>
+            Ezen az estén nem vártam meg Eszténát.
+         	</p>
+				<p>
+            De másnap újra a hídon próbálgattam a mozgó deszkákat, a gondolataimban
+               kicsattanó arcú, borissza fejedelmek közelegtek a téli estében, akik feleségül kérik
+               az első csinos leányt, akivel a város kapujánál találkoznak, kivilágíttatják a Szent
+               János-templomot, s éjfélre megesküsznek, hogy el ne mulasszák a nászéjszakát;
+               potrohos polgárőrök a sarokba támasztják lándzsáikat, és cifra köntöseikben kockát
+               vetnek a Baknál, lázsiásra vagy asszonyra, füstölthús- vagy serszagú a bajuszuk,
+               szőrrel bevont mellükön örömmel pihennek meg a szűzek. Vidám voltam, és a
+               rejtekajtókra gondoltam, amelyeket nők kinyitogattak estenden, ha vállalkozó lovag
+               vetődött a városba. Az öregasszonyokat nevetve égették meg, s a vasrácsok közül
+               kinyújtották a lányok a kezüket. Csak a szerelem és a bor mulattatja az embert.
+         	</p>
+				<p>
+            Eszténa nem késett, úgy repült be a híd sötétségébe, mint egy itt
+               felejtett fecske.
+         	</p>
+				<p>
+            - Tegnap megszidott szegény anyám, mert önt még éjszaka is vártam az
+               ablaknál - kezdte igen egyszerűen, mintha már tegnap elhatározta volna, hogy elmondja
+               az eseményeket. - Éjféltájban kitisztult az ég, feljött a hold, az ereszről lezuhant
+               a hó, s én azt hittem, hogy ön lépked alant az utcán. “Bolond vagy te, leány?”,
+               kiáltotta anyám, bármilyen óvatosan keltem az ágyból. Végül téli nagykendőjét
+               függesztette az ablakra, és a hold eltűnt, léptek többé nem hangzottak.
+         	</p>
+				<p>
+            Akkor már másodszor vártam meg Eszténát a hídnál (egy találkozót
+               elmulasztva), s nyugodtan mentem oldalán az ismert úton. Ez volt az óváros, amely
+               hajdanában minden csetepaténál leégett. De azért mégis sikerült a házaknak úgy
+               megvénülni, hogy temetőszagot leheljenek. Igen mulatságos volt egy lámpa, amely az
+               utca közepén libegett, de már nagyon régen nem gyújtották meg. Egyszer macskát láttam
+               amely meggörbesztett háttal állt a háztetőn, mintha egy régi boszorkány felejtette
+               volna itt. De embert, sem öreget, sem fiatalt nemigen lehetett a lépcsős kanálishangú
+               utcákon találni, a vénasszonyok a házak belsejében a tűzbe néznek, s arra gondolnak,
+               hogy mily ostobák voltak. Az ördög már rég elszokott az óvárosból, miután itt nem
+               akadt tennivalója, az emberek önként beálltak az Úr báránykái közé. Egy régi ház
+               majdnem fejünkre dőlt. Az ócskásbolt vasajtaján gyermekfej-nagyságú lakatok függtek,
+               mint elvarázsolt szellemek. A szatócsnál jóízűen világított a petróleumlámpás, a
+               mozgó életet jelentette a kopott pult és az örökké álldogáló cukorsüveg. Valahol
+               messze egy kapucsengettyű úgy sírt, mint egy gyermek... A bástyára sikamlós, fagyos
+               lépcső vezetett, mint egy különös helyre, ahová csak kiválasztottaknak szabad lépni.
+               Kőpad volt odafent, mintha az ifjúkor álmodozásaiból maradt volna itt.
+         	</p>
+				<p>
+            Mennyi mindent tudott Eszténa a babonákról, a jó és rossz szerencséről,
+               a betegségről s a halálról! Sokáig, sokáig elhallgattam őt, miközben újra szemügyre
+               vettem belülről világító arcát, fürge kis száját, igénytelen mosolyát, amely abból a
+               korszakból látszott engem meglátogatni, amikor még nem járták be a legyek a
+               zsebkendőt, amellyel szívem vérzését elfojtottam. Tündökölve, hívőn, szinte
+               félrecsapott szájjal mosolygott, midőn anyja babonáiról beszélt. Engem igen helyes
+               ismeretségének ítélt, mert szerdai napon találkoztunk először.
+         	</p>
+				<p>
+            Tizenöt esztendős volt; örült, hogy titkos ismerőse van a városban,
+               akiről senki sem tud. Kártyát vetett az anyja, és titkon nagyon boldog volt, midőn az
+               én személyem hirtelen megjelent a kártyasorban. “Előkelő, idegen úr!” - mondta az
+               öregasszony, s megnyálazta ujjait, hogy el ne tévessze a következő kártyákat.
+         	</p>
+				<p>
+            - Hát a temetőben járt már, uram? A temető a mi színházunk, társas
+               összejövetelünk, mulatságunk. Szép időben minden délután a temetőbe megyünk az
+               anyámmal, de télen sem múlik el hét, hogy fel ne keresnénk a sírokat, amelyekben
+               barátaink pihennek. Majd egyszer elmegyünk ketten a temetőbe, és ön, uram, mindig ide
+               kívánkozik. Nekünk már előre megvan a sírhelyünk, majd keresünk egyet önnek, amelynek
+               végleg kipusztult lakója. Mi nagyon szeretjük a halottakat. Ha valaki meghal a
+               városban, aki csak félig-meddig ismerősünk volt, a mama és én virrasztunk nála az
+               első éjszaka. Nehogy azt higgye, pénzért tesszük... Szegényhez, gazdaghoz egyformán
+               megyünk. A háznál, ahol halott van, az emberek megjavulnak, magukba szállnak,
+               türelmesek, mert a halott türelemre inti őket. Bennünket nagyon szeretnek, mert
+               virrasztunk, s az anyám olyan imádságokat tud, mint senki a városban.
+         	</p>
+				<p>
+            Máskor meg ezt mesélgette Eszténa a bástyafal tövében: - Az anyám
+               megtudott valamit, mert tegnap elhívatta Fitkonidesznét. Ha nem tudná uram:
+               Fitkonideszné hozott engem a világra, s miután még akkor törvénytelen születésű
+               voltam - apám csak később szánta rá magát a házasságra, ezért még ma is
+               visszavonultan élünk -, Fitkonideszné vállalta a keresztanyaságomat is. Tetőtől
+               talpig levetkeztettek, s megvizsgáltak. Anyám kijelentette, hogy ha vétenék a testi
+               tisztaság ellen, vele gyűlne meg a bajom, ami, uram, egyenlő lehet a halállal.
+               Elegendő, mondja az anyám, hogy ő volt botor, s nem várta be az egyház áldását,
+               amiért egész életében vezekelni fog. Leánya legyen okosabb, meggondoltabb... Szegény
+               anyám két esztendeig nem járhatott a templomba, amíg atyám az esküvőre elhatározta
+               magát. Ó, nagyon sokáig kell még jónak lennünk, hogy anyám ballépését elfelejtse a
+               világ. Könnyen megtörténhetett volna, hogy anyámat lefejezik a város piacán, ha ugyan
+               ismeri uram Margaréta történetét.
+         	</p>
+				<p>
+            Mondtam, hogy hallottam azt a szomorú történetet, de nem kell mindent
+               elhinni, amit a költők kitalálnak. Nagyon sok leánynak született már gyereke, aki
+               sohasem jutott a vesztőhelyre. Egyiket-másikat szentté avatták idővel, mert kiderült,
+               hogy sok nemes cselekedet, önfeláldozás és jóság: s ezen a réven csodatett mutatja
+               életük folyását.
+         	</p>
+				<p>
+            - Mondja, nem lehetséges, hogy az anyám szentté váljon egykor? Ő olyan
+               jó s nemes, hogy hozzá foghatóról a bibliában sem olvastam. A naptárnak minden
+               ünnepét, böjtjét, napját megtartjuk. Tudjuk, hogy milyen misét mondanak a Szent
+               János-templomban - az anyám együtt mondja az áldozárral a latin imádságokat. - A
+               vezeklés éveiben szolgáló volt egy szent kolostorban. Amikor hétesztendős lettem,
+               gyalog mentünk innen Máriapócsra. Nagy út volt, uram. Akkor veszítettem el ezt a
+               fogamat. Az anyám a Csodatévő lábaihoz tette a fogat, s azért imádkozott, hogy ne
+               legyek szép, békén hagyjanak a férfiak.
+         	</p>
+				<p>
+            Midőn egyszer hazafelé mentünk, Eszténa megmutogatta a házakat,
+               amelyekben gyermekkorában laktak. Mindig máshol, mert az anyja nem akart olyan fedél
+               alatt maradni, ahol valami bűnt követtek el, részeges volt a férfi, vagy káromkodtak,
+               pénteken húst ettek, a nők többet mosolyogtak férfiakra, mint illett volna, fiatal
+               házasok szeretkeztek. Amíg végre most a maguk házában laknak, amelyet egy
+               nyugalmazott kapitánytól vásároltak, miután a házat egy baráttal kifüstöltették.
+         	</p>
+				<p>
+            A legtovább a Halál házában laktak, mert a Halál sohasem szólt hangosan,
+               némán üldögélt az emeleten, s midőn lépéseit hallották eltávolodni a házból, akkor
+               mindig meghalt valaki a városban. A Halál egyébként egy bús öregember volt, aki
+               mellől nagy család halt ki heptikában. Ő valamikor gyertyaöntő volt, de mikor
+               felesége és gyermekei, más közeli rokonai sorban meghaltak, felhagyott az üzlettel,
+               mert úgysem vásárolt volna senki gyertyát a veszett hírű, szomorú embertől. A
+               vásárokról néha úgy jött haza, hogy egyetlen gyertyát sem adott el a vevőknek. Akit a
+               Halál megcsókolt, az mind meghalt, gyermek vagy asszony, rokon vagy jóbarát.
+               Szelinkai, a mézeskalácsos, midőn részeg fejjel megunta felesége paráználkodásait,
+               öngyilkos lett, egy útszéli csárdában csókolózott a gyertyaöntővel. Kijózanodva,
+               persze megbánta cselekedetét, búskomor lett, s amint erőt vett rajta a betegség, a
+               korcsmából mindig a Halál ablaka alá járt könyörögni, szitkozódni. Éjszakánként
+               Eszténa felriadt, s hallotta, hogy odalent Szelinkai rúgdalja a kaput. “Nem, nem
+               akarok egy céda asszonyért meghalni. Megbántam. Halál, segíts!” - ordította, sírta a
+               mézeskalácsos. S miután Szent Mihály napjáig nem halt meg a mézeskalácsos, hanem
+               napról napra üvöltözött a ház előtt, Eszténáék elköltöztek a csendes, bűntelen
+               házból, ahol jó darabig nyugodalmasan éldegéltek.
+         	</p>
+				<p>
+            - És ti nem féltetek a Haláltól? - kérdem Eszténát, midőn a búskomoly
+               házikó előtt elhaladtunk, amelyből egy boldogtalan öregember lépései hangzottak.
+         	</p>
+				<p>
+            Eszténa titokszerűen mosolygott:
+         	</p>
+				<p>
+            - Mi jól ismerjük a halált. Az anyám néha szokott beszélgetni vele
+               viharos éjszakákon, midőn betér hozzánk a zivatar elől, és a konyhában meleg bort
+               iszik. Ó, nem ám a gyertyaöntő a halál, amint az emberek hiszik. A halál más
+               valaki...
+         	</p>
+				<p>
+            - Te már láttad?
+         	</p>
+				<p>
+            - Egyszer... De nem szabad róla beszélnem, mert az anyám
+               megesketett.
+         	</p>
+				<p>
+            Ekkor fogadalmat tettem Eszténának, hogy nem árulom el titkát. Darab
+               ideig vonakodott, a földre sütötte a szemét, és nagyon küszködött magával. Végre
+               ravaszkodva megszólalt:
+         	</p>
+				<p>
+            - Én nem is tudom bizonyosan, hogy ő volt-e, csak úgy találomra
+               gondolom... Egy kis köpcös, utasforma ember, aki nagyon csendesen, lehajtott fejjel
+               ballag a házak fala mellett. Szurokszínű szeme tétován, szomorúan néz, a haja sima,
+               mint a kutya szőre, egy piros zsebkendővel letakart kalitkát visz a kezében. Abban
+               hordja el a lelkeket, mint a cinkéket!
+         	</p>
+				<p>
+            Megvallom, nagyon érdekeltek Eszténa gyermekes álmai, mert igen
+               mulatságosan tudta előadni csacskaságait. Néha úgy tűnt fel előttem, hogy ő maga
+               mulat azon, hogy engem mulattat; míg máskor úgy elkomorodott az arca, mint a
+               siralomházban.
+         	</p>
+				<p>
+            Majd ismét egy házhoz érkeztünk, amelyben Eszténa született. Semmiben
+               sem különbözött a ház a többi vén óvárosi házaktól, az ablakszárnyai úgy remegtek,
+               mint a csókák szárnyai, mielőtt elrepülnének; a sötét, mély kapualjban alattomos szél
+               volt, mert már akkor is - midőn Eszténa született - egy ablak ki volt törve az
+               emeleten. Régi kocsi, lyukas bőrülésekkel, nyikorgó lószerszám és egy kocsiscsákó
+               volt itt, amilyet hajdanában a postakocsisok viseltek. Káposztafejek voltak felrakva
+               a polcra, amelyek a félhomályban úgy tűntek fel, mint a hóhér gyűjteménye.
+               Faggyúgyertya bűze és zöldséges verem szaga váltakozott.
+         	</p>
+				<p>
+            Ebben a kapualjban töltöttünk boldog perceket.
+         	</p>
+				<p>
+            Eszténa felszökkent a régi kocsira. Ruháját kisimította az ülésen, s én
+               melléje telepedtem. Aztán képzeletbeli gyeplőt és ostort vett kezébe, s halkan
+               csettintett a láthatatlan lovaknak.
+         	</p>
+				<p>
+            - Tudja, hová megyünk? Nászútra - súgta.
+         	</p>
+				<p>
+            S én átöleltem, és sokszor megcsókoltam a leányka száját, amelynek olyan
+               íze volt, mint a francia pezsgőnek.
+         	</p>
+				<p>
+            Néhány nap múlva Eszténa egy kis koszorúba font titokzatos lila
+               szalaggal összefont hajfürtöt adott emlékbe, miután kértem erre. Szégyenkezett,
+               pirult s nem akarta meghallgatni, amikor ígértem, hogy szívem fölött viselem a
+               hajkoszorút.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Hartvig úr elutazott, az asszony bezárkózott szobájába, mintha attól
+               félt volna, hogy ostromolni fogom. Egy napon kérdően, hosszant függesztette rám a
+               szemét, midőn a kávéscsészét a szájához emelte:
+         	</p>
+				<p>
+            - Jól mulat X.-ben? - kérdezé.
+         	</p>
+				<p>
+            Szomorú napom volt, s nem törődtem az alattomossággal, amellyel
+               Hartvigné a kérdést feltette. Csak céltalan életemre gondoltam, amely egér módjára
+               bújt el most e kisvárosi lyukban. Vajon meddig élek még így, hogy a déli harangszó
+               megváltásként hangzik fejem fölött, mert már vége van a nap felének? A szomorú,
+               lovagló árnyak mikor maradoznak el fejem mellől? Miért nem vetek véget egy
+               pisztolylövéssel a céltalan napoknak? Miért nem megyek ki a káposztáshordóból a
+               villámfényes éjszakába?
+         	</p>
+				<p>
+            Az asszony rózsaszínű szemével nézett rám, mint egy rossz, álmatlan
+               éjszaka emléke.
+         	</p>
+				<p>
+            Úgy éreztem, hogy bűnös vagyok, vétkeztem Hartvigné ellen, s ezért
+               reggelizés után csaknem udvariatlanul távoztam. Úgy látszik, hogy a melankolikus
+               emberek közé tartozom, akik arra születtek, hogy haláluk napjáig ne örvendezzenek.
+               Így nagy szomorúság a világ. Ha néha fejünkre hull egy almafavirág - egy csók, egy
+               szerelem, egy kedves óra -, csodálkozunk, hogy nem kő esett a kalapunkra, hiszen
+               boldogok azok az emberek, akik teli szívűek, mindig éhesen ülnek le ebédelni,
+               hátrahajtják a fejüket, s kinyitják a torkukat az ital előtt, szeretkeznek, mint
+               kutyák, s a következő utcasarkon már elfelejtik, hogy mi történt velük tegnap.
+         	</p>
+				<p>
+            Régebbi években a Pannoniába jártam ebédelni, amikor Pesten laktam. Volt
+               itt egy kedvencem az ebédlő vendégek között, aki derűt, nyugalmat, életcélt, minden
+               titkoknak megfejtését sugározta magából. Sajnos, vidéki ember volt, aki legfeljebb
+               egy hónapban egyszer jött Pestre.
+         	</p>
+				<p>
+            Kapafogú, borzas bajszú, oldalszakállas, kopaszodó, teli, öntudatos,
+               vidéki ügyvédkülsejű férfiú volt az illető. Amint a levest kanalazta, és az utolsó
+               cseppet a felemelt tányérból a kanálba öntötte - már felvidultam. Amint a pecsenyét
+               sózta, paprikázta, a tányérját keverte, a száját megtömte, a kenyeret szelte, a
+               salátát aggodalmasan szemlélgette, a bort csettintve kortyolgatta, a fenyőfát dárda
+               módjára a foga közé döfte, a kis tésztaporciókat jobbról-balról megnézegette, mint a
+               kandúr az egeret, mielőtt végzett volna vele. Aztán levette asztalkendőjét, amelyet
+               gallérjába gyömöszölt volt, kétszer-háromszor megtörölgette a száját, alaposan
+               leverte a morzsát fehér mosómellényéről, rendet csinált az asztalon, megfelelő
+               távolságba tologatva magától a sótartót, a paprikás üveget, a mustárokat, az ecetet,
+               olajat, a borsot, a levesízelítő folyadékot, amelyeket mind felhasznált evés közben,
+               helyet csinált a két könyökének, kihúzta a virzsínia szivarból a szalmát, böfögve,
+               elandalodva nézte, amíg a pohár szélére helyezett szivar vége szelíden áthamvasodik a
+               szalma lángjától, a szőke füst félénken szivárgott a szivar végén, aztán felkönyökölt
+               az asztalra, a szivart a fogai közé vette, és nekilódította tekintetét a világnak.
+               Sorban és egyenkint szemügyre vette az ebédlő vendégeit, tetőtől talpig megnézegetett
+               mindenkit, zavartalan flegmával vette tudomásul, hogy ideges embereket megzavar
+               kutató, hosszadalmas nézegetésével, halkan eregette a füstöt, amíg körülötte bánatok,
+               szomorúságok, vesztett pörök, füstbe ment tervek, elhibázott életek, kínzó nyavalyák,
+               álomtalan reménytelenségek, szegény pénztárcák, öregségek, céltalan büszkeségek, a
+               mellények alatt kis róka módjára ásó szerelmi betegségek mentek, mendegéltek ebben a
+               vasúti pályaudvarhoz hasonlatos étteremben, ahol a vastraverzek alatt Győrből,
+               Debrecenből, Aradról érkeztek meg az emberek, aztán újra elmentek, szennyes edényt
+               hagyva maguk után... az én bálványom csak ült és emésztett olyan zavartalanul, mintha
+               az ő vonatjának indítására sohasem kerülne a sor. Ez az ember külsőleg boldog volt,
+               pedig csak egy jó étvágyú ember volt. S esztendőkig irigykedve gondoltam rá. Ilyen
+               szerettem volna lenni, nem pedig boldogtalan féleszű.
+         	</p>
+				<p>
+            Melankolikus napjaimon annyit sem érdekeltek a nők, mint az utcán
+               futkározó ebek.
+         	</p>
+				<p>
+            Szikrai szerkesztő urat kerestem fel, akit sikerült is feltalálnom a
+               Zöld Fánál, ahol a zöld cserépkályhánál melegedett, s azt magyarázta Svarcnak, hogy ő
+               egy hitelképes párti, akárkit feleségül vehetne a városban, lapját majd
+               részvénytársasági alapon rendezi. Szikrai annyira elmerült a tervezgetésbe, hogy
+               észre sem látszott venni megérkezésemet. Kiszámította, hogy hat-hét ezer forint lesz
+               az évi jövedelme; fizessenek a polgárok, ha érdekeiket védi a helyi sajtó.
+         	</p>
+				<p>
+            Majd hozzám fordul, s kötekedő hangon az arcomba kiáltotta:
+         	</p>
+				<p>
+            - A vidéki embereknek is van eszük, mégpedig több, mint a nagyvárosi
+               kalandoroknak. Nekünk egészséges világfelfogásunk, nyitott szemünk és becsületes
+               lelkünk van. Mi emelt fővel jelenhetünk meg bármely bíróság előtt, mert nem nyomja
+               lelkünket sötét bűn, nők boldogtalan könnye, törvénytelen gyermekek
+               macskanyávogása.
+         	</p>
+				<p>
+            Észrevettem, hogy Szikrai úr időközben ellenségem lett. Néhány korsóval
+               hozattam a poprádi serből, de a barátság már nem állott helyre közöttünk.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Eszténa megtartotta ígéretét, egy délután a bástyán át elvezetett az
+               óvárosi temetőbe.
+         	</p>
+				<p>
+            A falak mellett kővitézek állottak a sírokon, talán békés polgárok
+               síremlékei, akik csak úrnapi körmenetben viseltek páncélt és zörgő fegyvereket.
+               Családi sírboltok sorakoztak buzdító felírásokkal, évszámokkal, amelyek múlt
+               századbeli embereket jelentettek, akik hiába ügyeskedtek, ravaszkodtak, mindhiába
+               törték a fejüket, végül csak idekerültek a szerelmeikkel, amely hűbb volt Romeoénál,
+               a kenőasszonyaikkal, akiknek tenyeréből a jóétvágy s az élet áradt, a
+               kártyavető-asszonyokkal, akik a jövendővel úgy játszadoztak, mint a macska a
+               papírgolyóbissal, a felcserrel, aki madárfejjel ült, és hallgatott az életéért
+               kétségbeesetten evező beteg mellett; mind idejöttek a városból, hogy még egyszer
+               találkozzanak a föld alatt a csalók és megcsalottak. Voltak itt kripták, amelyekben
+               bizonyos Rotharideszek és Molitoriszok feküdtek, és a halott nőknek olyan szép
+               keresztnevük volt, hogy a látogató elképzelődött velük.
+         	</p>
+				<p>
+            A kripta, amelynek ajtaját ügyesen félretolta Eszténa, csaknem teljesen
+               üres volt. Lépcsők vezettek a száraz pincébe, és a két kőkoporsó, amely a fal mellett
+               állott, nem foglalt el annyi helyet, hogy egy kisebb lakodalmat ne lehetett volna
+               tartani. A kripta végében térdeplő volt, gyertyamaradék a vasfeszület lábánál, száraz
+               virág, amely csörgött, mint a gyermek-csontváz...
+         	</p>
+				<p>
+            Eszténa lekuporodott az egyik koporsóra. Az ujjaival betűzte a kőbe
+               vésett felírást.
+         	</p>
+				<p>
+            - Pálfi... Pálfi Pál... Mintha maga feküdne itt uram.
+         	</p>
+				<p>
+            Ráhagytam, mert tudtam, hogy olyan babonás, a legképtelenebb dolgokat is
+               elhiszi.
+         	</p>
+				<p>
+            Letelepedtem mellé. Egy darabig visszafojtott lélegzettel hallgattuk a
+               föld alatti csendet. De nem csodálkoztam volna, ha a falon kaparászni kezd a szomszéd
+               sírbeli halott, hisz alig egy lábnyi föld választott el bennünket.
+         	</p>
+				<p>
+            - Ez az a lábnyi homok, amit az utasforma, vándoriparos a tarisznyában
+               hord - suttogta Eszténa. Aztán piszegve csendre intett, mintha a föld alatti hangokra
+               figyelne.
+         	</p>
+				<p>
+            - Valaki jár a temetőn.
+         	</p>
+				<p>
+            Eszténa, aki eddig a legkisebb félelmet sem mutatta a holtak sápadt
+               országában, levélke módjára megremegett, midőn eleven lépteket hallott a feje felett.
+               A fagyos téli földön pontosan hangzottak a léptek, mintha valaki falábakon ment volna
+               végig a sírok között. De azért óvatos is volt a lépés, mint a leskelődőé, aki holtak
+               esetleges cselekedeteit akarja kifürkészni. A kripta bejárata előtt egy percre
+               megállott az árnyék a kéklő havon; ingott, mintha róka mozgatná lompos farkát; egy
+               lépés hallatszott a sír felé, aztán meg gondolkozott. Eszténa szíve hallhatólag dobog
+               - az ember balga -, a pisztolyomhoz nyúltam. Eszténa észrevette mozdulatomat.
+               Hirtelen térdre vetette magát, váratlanul összekulcsolta a két kezét, s némán,
+               könnybe úszó, könyörgő tekintetét reám szegezte, mintha valami nagy
+               szerencsétlenséget érzett volna ez a leány.
+         	</p>
+				<p>
+            Most gunyoros, hetyke fütyörészés hangzott felülről, aztán elkopogtak a
+               lépések. Hogy bántott engem akkor az a léha, semmibevevő fütyörészés, amikor életem
+               egyik legboldogabb óráját véltem eltölthetni Pálfi Pál koporsója mellett! Mintha
+               ismét belém gázolt volna a durva, utált, megvetett élet, amellyel úgy nem akartam
+               sohasem barátkozni, mint akár egy rossz szagú kupeccel a vonaton. Mit akarnak mindig
+               körülöttem az emberek, amikor én kerülöm őket, mint a bélpoklosokat! Csak úgy akarok
+               élni, mint egy kísértet, senkivel szót váltani, magányosan járni hazafelé.
+         	</p>
+				<p>
+            Magamhoz szorítottam Eszténát, de a leány gyengéden, határozottan
+               védekezett.
+         	</p>
+				<p>
+            - Ma nem - suttogta. - Ma még nem, uram, hiszen nem is gyóntam, és meg
+               sem áldoztam... ki tudja, hátha meghalok azután? Ne kívánja tőlem, hogy az Úr szent
+               teste nélkül tegyek ilyen lépést. Szerelmem! - lihegte, mintha egy szitakötő
+               szálladozott volna a szavaiban.
+         	</p>
+				<p>
+            Két kezével megfogta a kezem, ráhajtotta az arcát, megcsókolta,
+               megsimogatta, beszélt hozzá:
+         	</p>
+				<p>
+            - Már akkor tudtam, hogy eljössz, amikor még el se indultál, a kártya
+               megmutatta; - ön volt a vőlegény a fekete szárnyas kabátban, cilinderkalapban és
+               virágocskákkal a kezében, s ahányszor az anyám kártyát vetett - mindennap -, mindig
+               alám került; mikor hirtelen sok tányértörés, ibrikrepedés, ablakcsörömpölés volt a
+               házunkban, az anyám aggódva nézett körül az utcában, mintha valami idegent szimatolt
+               volna a ház körül; a védőszentem névnapján nem égett végig a gyertyám, a nagymosásnál
+               nem fehéredett az ingem, meredek háztetőkön sétáltam álmomban, az öntött ólom nagyon
+               furcsán mutatott karácsony éjjelén. Eszténa, szóltam magamban, ez évben elveszíted a
+               szűzességed. De nem bánom, nem sajnálom, életemet adnám oda, ha kérnéd, mert ennek
+               így kell lenni.
+         	</p>
+				<p>
+            - Miért? - kérdeztem a doromboló leányt.
+         	</p>
+				<p>
+            - Azért - felelt Eszténa, mintha egy nagy titkot súgna meg -, az anyám
+               úgyis azt akarja, hogy apáca legyek, mielőtt ő meghalna. - Mielőtt Krisztus
+               menyasszonya lennék, földi ember kedvese akarok lenni. Legyen miért imádkozni a
+               kolostorban. Ah, az anyám, mily gyönyörűen tudja elmondani a hajnali miséket! Az esti
+               Angelust, amidőn minden apácának olyan lesz az árnyéka, mint a keresztfa. Ő szegény,
+               csak szolgáló volt a zárdában: azt akarja, hogy a lánya magasabb helyre jusson az
+               üdvözülés trónlépcsőjén.
+         	</p>
+				<p>
+            - Gyermekem - szóltam részvéttel -, nem félsz a sárkánytól, amelynek
+               ezer karma van, s nem lehet előle menekülni? Nem rettegsz a skorpiótól, amely nyitott
+               szádon át, álmodban a kebledbe kúszik? A bűntudattól nem remegsz?
+         	</p>
+				<p>
+            - Még nem vagyok bűnös - felelt galambszelíden Eszténa -, holott
+               lehettem volna, mert barátnőim szereztek volna alkalmat. De amikor én elszöktem az
+               anyám szoknyája mellől a Bujdosligetre, megeredt az eső. Az éjféli miséken úgy fogtak
+               körül az öregasszonyok, mintha egyedül engem féltenének a városban az ördögtől. A
+               bástyán sohasem szólított meg senki: “Hová megy szép kisasszony, a mennyországba vagy
+               pokolba?” Nem tudom, milyen az, bűnösnek lenni. Apáca leszek, és hideg kövön
+               térdepelek halálom napjáig. Akarom tudni, hogy miért térdepelek. Legyen egy titkom,
+               amit senki sem tud rajtam kívül, s amit majd gyónok, midőn halálomat érzem közeledni
+               a zárda öreg plébánosának, akiről anyám annyi szent cselekedetet beszélt. Amikor majd
+               harangoznak alkonyattal a zárda kertje felett, magára gondolok innen, akiről nem
+               tudom, hogy merre lesz már. Ugye?
+         	</p>
+				<p>
+            Eszténa simogatta a kezem; olyan volt a tapintása, mint az ifjúság. Jó
+               volna mindig nyugodalmasan üldögélni - esetleg pirosló bor mellett -, csöndben, mint
+               a feketerigó és Eszténa simogatását állni. Ez a kéz játszott, mint a hárfáslány keze.
+               Szinte felemelkedett néha a levegőbe, mint a madár; és a legmagasabb húrokat
+               pattogtatta, ahol az öröm, a kacaj, az élet sípjai laknak. Aztán megunva az
+               egyformaságot, a szilaj pengést, a rikoltó örömöt, fáradtan hanyatlani látszott a kéz
+               az érzelmek skáláján. Már csak duruzsolt, amint egy macska törleszkedik a
+               gazdaasszonyához, amint a tűz beszélget, mielőtt elalszik. Eszténa összeráncolt
+               homlokkal gondolkozott valamin, a szemeit egy pontra függesztette, a keble csendesen
+               hullámzott, majd nagyot lélegzett, s egy szuszra elmondta:
+         	</p>
+				<p>
+            - Antal remete napján meggyónok a barátnál. Pénteken bőjtölök, s
+               vasárnap megáldozok. Szent Ágnes napján a magáé leszek.
+         	</p>
+				<p>
+            - Hétfőn?
+         	</p>
+				<p>
+            - Hétfőn, vecsernye utáni időben a szobájában leszek, ahol már egyszer
+               tudtán és beleegyezésén kívül voltam.
+         	</p>
+				<p>
+            Felmerült előttem Hartvigné fenyegető alattomos arca.
+         	</p>
+				<p>
+            - Nem - mondtam -, az rossz gondolat. Itt se alkalmas, mert meglesnek.
+               Van itt egy ház a folyó partján, ahol talán lehet. A Rienzi háza.
+         	</p>
+				<p>
+            - Rosszhírű ház. De nem bánom - felelt Eszténa elszántan, nyugodtan.
+               Gyorsan megcsókolt, mintha valamely sietős útja volna. Aztán felfutott a lépcsőn s
+               kisuhant a kriptából, mint egy egér.
+         	</p>
+				<p>
+            Később, mikor a temetőn végigballagtam, egy nagy sírkő megöl köhécselést
+               hallottam. Világosan megismertem a Szikrai szerkesztő úr hangját.
+         	</p>
+				<p>
+            Éjjel az utca felől megzörgették az ablakomat.
+         	</p>
+				<p>
+            Egy darab ideig mozdulatlanul maradtam ágyamban, gondoltam, tovább megy
+               a csendháborító. De azután újra kopogtak, mint a távirathordók szoktak.
+         	</p>
+				<p>
+            Odakünn setét volt a csillagtalan éjszaka. Jó darabig kellett bámulnom
+               az éjszakába, amíg lent a fal mellett észrevettem Szikrai urat. A kövezeten ült,
+               részeg volt és sírt.
+         	</p>
+				<p>
+            - Meg van veszve? Mit háborgat éjszaka?
+         	</p>
+				<p>
+            A szerkesztő fájdalmasan nyögött:
+         	</p>
+				<p>
+            - Azt akarom mondani, ha itt volna az a leány, én szívesen hazakísérném,
+               hogy még hajnal előtt jusson el az óvárosba.
+         	</p>
+				<p>
+            - Uram, ön bolond. Semmiféle lány nincs itt.
+         	</p>
+				<p>
+            - És ha mégis?... - hördült fel Szikrai és magatartása fenyegetővé vált.
+               - Nem mozdulok a kapu elől, ha reggelig kell várnom. Itt strázsálok, mint a
+               lelkiismeret.
+         	</p>
+				<p>
+            - Mint egy gazember lelkiismerete.
+         	</p>
+				<p>
+            Szikrai részeg módjára felzokogott:
+         	</p>
+				<p>
+            - Miért bánt engem, uram? Én vagyok a legszegényebb ember
+               Magyarországon. Ebben az országban mindenkinek terem valamije; kinek bora, kinek
+               gabonája, kinek írói sikere vagy mandátuma. Nekem csak pattanások teremnek az
+               arcomon.
+         	</p>
+				<p>
+            - Figyelmeztetem - szóltam szigorúan -, a kapukulcs nálam van. Ha nem
+               hágy aludni, kimegyek az utcára, és számon kérem magaviseletét.
+         	</p>
+				<p>
+            Szikrai úr ismét dühös lett, csikorgatta a fogát, és megrugdalta a
+               falat:
+         	</p>
+				<p>
+            - Én pedig figyelmeztetem - mondta hangomat utánozva -, hogy megtorlás
+               nélkül nem lehet nőket, hajadonokat elcsábítani ebben a városban. Ha a polgárság
+               tunya lelkiismerete alszik a kényelem fekhelyén, ébren van a sajtó, amelynek módjában
+               van büntetni és jutalmazni. Egy rossz írásomba kerül, hogy önt megkövezzék vagy
+               kiűzzék a városból, mint egy veszett ebet. Forr a tűzhelyen a bosszú olaja. Utazzon
+               el, uram, a hajnali vonattal, segítségére leszek. Fél négykor megy át a stáción a
+               pesti cúg - szólt Szikrai, és szalutált, mint egy hotelportás.
+         	</p>
+				<p>
+            Szikrai urat ezután feleletre sem méltattam. Pedig ma, évek elmúlásával,
+               belátom, hogy Szikrai úrnak minden tekintetben igaza volt.
+         	</p>
+				<p>
+            Hisz szerelmes volt, szegény.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Szent Ágnes vértanú napja ebben az esztendőben hétfőre esett. Addig
+               nemigen mozdultam ki lakásomból. Hol szokott szomorúságaimmal mulattam, hol pedig
+               könnyűvérű hangulatokba burkolóztam. “Más városok - más leányok”, idézgettem magamban
+               a német mondást. Vajon egyáltalában bűnt fogok-e elkövetni? A leány saját bevallása
+               szerint el van tökélve mindenre. Ha én nem érkezem X.-be, jött volna valamely
+               kereskedelmi utazó vagy egy katonatiszt... Bizonyos, hogy nem én vagyok a vétkes.
+               Hisz még alig ismertem Eszténát, midőn az ama mézeskalácsképű Olga társaságában
+               lakásomra szökött. Ennek meg kell történni, mert a sors akarja. Sajnálom Szikrai
+               urat, de nem engedhetem át helyemet. - Így gondolkoztam e téli napokban, midőn szokás
+               szerint a díványon feküdtem, s azt hittem, hogy a világ megállott körülöttem. A
+               hóesés megindult, és a házak oly ünnepélyesen felöltöztek, mintha ismét karácsonyt
+               várnának.
+         	</p>
+				<p>
+            A lépések nem koppantak többé az ablak alatt, az emberek bundáikban,
+               nagykendőikben lassan vonultak a hóesésben, mintha egy színházban statisztálnának.
+               Kissé bosszantott, hogy olyan gyorsan múlnak a várakozás napjai; szerettem volna, ha
+               nagyon hosszú mise előzi meg esküvőmet, mert ezalatt mindinkább meggyőződtem
+               ártatlanságomról. Szent Ágnes napjára már futóbolondnak neveztem magam, midőn
+               visszagondoltam tépelődéseimre. Igaz, hogy néha szükséges a díványon heverészni, hogy
+               az ember megpihenjen élményei és tapasztalatai közben. Át kell gondolni az
+               eseményeket, szemlét kell tartani a környezet felett, bele kell nézegetni az
+               emberekbe, akikkel útközben találkozunk, s mindezt a kanapén fekve lehet elintézni.
+               De néha fel kell kelni is, mert az életünk üressé válik. Miért volna érdemesebb
+               feltápászkodni, mint egy ártatlan leány csókjáért? Néha-néha eszembe jutott Eszténa,
+               mint egy szorgalmas, jó gyermek, aki valahol a városban nyugodt, derűs szívvel végzi
+               az előkészületeket a nagy napra, amely a legemlékezetesebb a nők életében; bizonyosan
+               egyetlenegyet sem mulaszt el az imádságok közül, s nem ejti el az olvasó szemét. Csak
+               készülj, leánykám, mosd meg lelked után áldozatkész testedet is. A szivacsnak,
+               melegvíznek, szappannak legyen dolga. S a hajadat fond koszorúba, mint a mártírok,
+               midőn a máglyára léptek. Majd jön időszak, midőn lecsendesült szívvel gondolsz vissza
+               e napokra. Ne legyen okod elpirulni, hogy lyukas volt a harisnyád, és nem a legjobb
+               inged vetted fel. Könnyű azoknak a leányoknak, akiket könnyező anyák öltöztetnek fel
+               az esküvőre, a kapcsok és gombocskák jól fognak, és a rákpiros szemérem elrejtőzik a
+               vásznak közé. Nem kell aggodalmaskodni azoknak a hajadonoknak, akiket kerítőnők mézes
+               szava és macskakarma öltöztet e napra. De mit csináljon egy leányka, aki, titkon,
+               egyedül szánta el magát az elhatározó lépésre s ideje van napokig gondolkozhatni
+               cselekedete felett? Eszténa bizonyosan nyitott szemmel fekszik az éjszakában, s
+               remeg, hogy anyja észreveszi álmatlanságát, a vetőkártya kibeszéli tervét, a
+               leskelődő szem követi lépteit...
+         	</p>
+				<p>
+            Olyan sűrűn havazott, hogy az utca túlsó oldala függöny mögé
+               rejtezkedett, midőn tiszteletemet tettem Rienzi asszonynál. Régi időkből tudom, hogy
+               e társadalom kívüli nők a tiszteletteljes bánásmódnak jobban örvendeznek, mint a
+               készpénznek. Kezet csókoltam tehát a kakadunak, és művészeti ügyekről kezdtem
+               csevegni. Valóban, Rienzi egykor a vidéki színészet tagja volt, és nekimelegedve
+               beszélt szerepeiről.
+         	</p>
+				<p>
+            - Minket a valóságos élet nem nagyon érdekel - mondta -, mi színészek
+               legyintünk, és továbbmegyünk olyan dolgok mellett, amelyek a polgárt
+               megbotránkoztatják. Mi egy másik világban élünk, nem a földön. A szerepek, a
+               jellemek, képzelt figurák alakjában. Én például évek óta Stuart Máriának hiszem
+               magam. Egy angol királynőt valóban nem érdekelhet, hogy mi történik a
+               szomszédszobában kisvárosi urak és cselédműveltségű nők között. Én Párizsból
+               öltözködöm, minden tavasszal megküldik címemre a Printemps nagy árjegyzékét.
+         	</p>
+				<p>
+            Ezután megmutatta a szobát Rienzi, ahol “ismerősömet” megvárhatom.
+         	</p>
+				<p>
+            A szobának az egyik ablaka a behavazott udvarra nyílott, míg a másik,
+               amelyre mindig rá volt borítva a fatábla, az utcára mutatott. Szűk, setét
+               csigalépcső, régi závárzatú, tolóvassal ellátott ajtó, öles falak, kívülről fűthető
+               cserépkályha voltak a szoba felszerelései, amelyeknél fogva Rienzi úrnő a földszinten
+               zavartalanul álmodozhatott régi királynő-szerepekről. Vastag gyapotból való függönyök
+               voltak az ablakon és színes papírbokrétákkal díszített függőlámpa. Szalonbútor
+               maradványok, mindegyik más és más korból. A rózsás, enyhe színezetű, gömbölyű hátú
+               dívány mellett rokokó székecske állott. Egy letakart varrógép is volt a kisvárosi
+               kéjencek e titkos szobájában. A falon egy mezítelen festmény, amely nyilván Rienzi
+               asszonyt ábrázolta. Köpnöm kellett volna ez utálatos helyen, de arra gondoltam, hogy
+               nyomban itt lesz Eszténa, és jó szagával, ártatlanságával megtisztítja a megfertőzött
+               levegőt.
+         	</p>
+				<p>
+            Nagyon megvetettem magam ebben a bolthajtásos félhomályos szobában,
+               amely valóban olyan volt, amint az olcsó regényekben a hasonló szobákat leírták. Amíg
+               zsebre dugott kézzel ültem a karosszékben - hogy a kezem ne érjen a bútorokhoz -,
+               elvonult előttem ennek a szobának a története, mint valamely szomorú életrajz,
+               amelyet gyermekkorunkban egy erkölcsnemesítő regényben olvastuk. Esztendők előtt
+               elhangzott parázna sikolyok, céda kacagások, fáradt mosolyok és férfidörmögések
+               hallatszottak a falakból, mint régi sírokból dudaszó és rikoltozás, ahová azokat
+               temették, akik részegen haltak meg. Szinte a levegőben volt még a szaga azoknak a
+               szennyes alsószoknyáknak, amelyeket itt kihívó mosollyal lebocsátottak a nők a
+               derekukról. A lábtyük, csizmák, vastag combokon feszülő harisnyák, kalapok mind itt
+               hagyták az emléküket. Borzadállyal tekintettem az ágyra, amely olyan volt e percben,
+               mint a cinterem asztala, ahová egymás után fektetik a hullákat.
+         	</p>
+				<p>
+            Az életnek minden ábrándossága elszállott belőlem, mint valami hervadt
+               virágból az illat.
+         	</p>
+				<p>
+            Ültem s várakoztam.
+         	</p>
+				<p>
+            Nem vigasztalt meg, hogy most olcsó kiscipők keresik errefelé az utat a
+               külváros havában. Minek mennek azok a lábak? Miért lobognak az új cipőszalagok? A
+               félelem, a szorongás, amely most az én szívemet is markolássza, mint azét, aki ide
+               igyekezik, egykor majd füst lesz, amely guggoló rézemberke alól jön ki papírgaland
+               alakjában. Milyen céltalan az egész délutánom, amelyet ennek az ügynek szentelek!
+               Kutyát idomíthatnék a folyóparton, vagy horgászhatnék a léknél, amint a gyermekektől
+               láttam. Benn ülhetnék egy bolthajtásos, piros kályhás, almaszagú korcsmai
+               extraszobában, ahol a háziáldás függ a falon, és az ágyak oly magosra vannak vetve,
+               mintha már a dunyhákat a jövő nemzedéknek is megtöltötték volna, amely ez ágyakból
+               születni fog.
+         	</p>
+				<p>
+            Ismétlem, uram, hogy minden kalandvágyam elhagyott, amikor ebben a
+               rettenetes szobában üldögéltem. Lehetséges, hogy húszesztendős koromban örvendeztem
+               volna a közelgő eseménynek, mint valamely ünnepnapi délutánnak, midőn a hegyekbe
+               kirándulunk, és rántott csirkét eszünk papirosról és földbe ásott bort iszunk.
+               Boldogság: egy polgárasszony fehér harisnyás lábszáraiban gyönyörködni... De
+               negyvenesztendős voltam, még nem oly cinikus, mint egy fegyenc, sem oly romlott, mint
+               egy éjszakai márkőr, de hülye sem, mint egy frakkos Dummer Auguszt. Miért vagyok én
+               ezen a helyen? Tisztaságban, csendben, úri visszavonultságban eltöltött életemnek az
+               legyen a befejezése, hogy egy vidéki örömházban agyonverjenek, mint egy lócsiszárt?
+               Ezért vetettem meg magamban az emberi hiúságokat, az ostoba beszélgetéseket, dobhangú
+               lelkeket, kakaskukorékolásokat és üres szemeket; - ezért nem hordtam tollat a fövegem
+               mellett, ezért viseltem szürke köpenyeget és hideg tekintetet - érző, szomorú szívet
+               és bús gondolatokat, amelyek szinte naponta a földhöz vertek: - ezért, hogy egy téli
+               délután kisvárosi kéjencek herbateaszagú tanyájáról nézzem a reménytelen havazást? Az
+               életuntság úgy fonogatott körül a pókhálójával, hogy már az sem érdekelt, hogy
+               megérkezik-e pontos időre Eszténa?
+         	</p>
+				<p>
+            Akkor éreztem, hogy már öreg ember vagyok.
+         	</p>
+				<p>
+            Egy egér futott végig a csigalépcsőn. Az ajtó felpattant, Eszténa állott
+               a küszöbön. A keze a szívére volt szorítva. Csuklott. Úgy kapaszkodott meg kinyújtott
+               kezemben, mint egy hajótörött.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            - Az egész világ ilyen - gondoltam magamban olyan megvetéssel, amint
+               csak egy férfi gondolkozhatik a nőkről. Amíg Eszténa helyet foglalt, eszembe jutottak
+               mindazok a nők, akiket különböző alkalmakkor, elmúlt években láttam. Egyiktől se
+               maradt egy víg, kedves emlékem - valami furcsa pacsuli szag vette őket körül, amelyet
+               először gyermekkoromban éreztem az örömházban. Nők! Milyen kevesen vannak ők a múltak
+               függönyei mögött, akiknek még kezet csókolnék, ha újra találkoznék velük! Hiába
+               nyújtogatnák hegyes nyelvüket, szennyes szájukat, légynyomos lelküket, gyanús
+               kezüket, mocsár pillantásukat. Nők! De jó volt elszakadni tőletek, vándorként
+               tovalépegetni a vár alatt és a kiszabadult madár boldogságával énekelni.
+         	</p>
+				<p>
+            - Hát mit akarsz, Eszténa? Elment az eszed, hogy be akarsz állni bukott
+               nőnek? Hiszen többé nem ülhetsz előre a templom hajójában csak ott hátul
+               lappanghatsz, ahol senki sem lát. Ráncok támadnak az arcodon, a lelked fehér inge
+               összegyűrődik, a tested megismeri azt a fájdalmat, amely ízelítője az egyszer
+               elkövetkező szülési fájdalmaknak. Menj vissza, Eszténa, ártatlanul, szentképeid és
+               babonáid közé; menj oda, ahol nagyra nyitott szemmel, forrástisztán nézegethetsz bele
+               az élet folyójába és a vetőkártyába; menj vissza a zümmögő dalocskákhoz, a hangulatos
+               estékhez, a régi házak játékos árnyékaihoz, az ágy alatt fadobozban alvó babáidhoz és
+               a havas háztetőkön üldögélő verebekhez. Mit akarsz, Eszténa? Nem hallod a szajhák
+               rikoltását a pokolban, ahol őrjöngve járják gonosz táncukat, midőn új lélek zuhan le
+               közébük, mint egy megszárnyalt fecske? Nem látod az álomtalan éjszakák gunnyasztó
+               manóit - szürke arcú, kenderhajú, tébolyodott szemű árnyait, akik a mai éjszakától
+               kezdve beköltöznek igénytelen házikótokba? Nem hallod az arc nélküli pajzsos embert,
+               a szorongó félelmet, amely megvasalt lábaival már nyomakodik felfelé a lépcsőn, és
+               fegyverzetét felakasztja a kamarában? Nem hallod, hogy vijjog odakünn egy kis harang,
+               amely születésed napján szólalt meg, és most félt, siránkozik, mert a halál árnyékába
+               készülsz lépni? Nem félted a szemed az örömlányok borzadalmas tekintetétől, amely
+               mindig úgy tapad az emberekre, mint a szánalom? Nem áll meg a szíved verése, hogy a
+               hídon kell járnod, s odalent kígyók sziszegve hívnak a hullámokba?
+         	</p>
+				<p>
+            Talán ezt, vagy ilyesmit kellett volna mondanom Eszténának, de nem jött
+               hang számra, csak néztem a lányka újszerű frizuráját, mint valami gonosz glóriát,
+               amely előre fejére rakódott. Úgy volt fésülve, mint valami színésznő.
+         	</p>
+				<p>
+            Elpirult. - A hajamat ma először Lulu úrral fésültettem, mert ő ért a
+               hölgyfodrászathoz - így szólt Eszténa, és bocsánatot kért a szemével.
+         	</p>
+				<p>
+            Levetette a mantilláját - mintha örökre megválna tőle - boldog
+               gyermekkorától.
+         	</p>
+				<p>
+            Lerakta a ruhácskáit, mintha egy mély vízben készülődne. A ruhácskák
+               elbújtak a sarokban, mint árvagyermekek, akik egymagukban búslakodnak egy hideg
+               házban. A rézszeggel kivert fűzős cipőcske szinte ijedt csodálkozással koppant le
+               lábáról, mint a fecskefiók a fészekből. A fehér harisnyák összegyűrődtek, mint
+               arcráncok, amelyeken a könnyek folydogálnak. Majd megállott a sarokban kikeményített
+               alsószoknyája, mint egy őrangyal, aki utoljára figyelmezteti fehérségével.
+         	</p>
+				<p>
+            Csupán fehér vászonból való vállfűzője és gyerekes, hosszú inge maradt
+               rajta.
+         	</p>
+				<p>
+            Eddig egyetlenegyszer sem vetette rám a szemét, amíg felszólítás nélkül
+               vetkőzött, mintha egy régen átgondolt tervét hajtana végre. De tovább nem tudta, hogy
+               mit cselekedjen. Megállt, mint egy szomorú vándor, aki eltévesztette az utat. Kezeit
+               összekulcsolva leeresztette, és fejét búsan féloldalra fordította. Nem tudta tovább a
+               leckét.
+         	</p>
+				<p>
+            Miután én nem szóltam - hisz szomorú voltam -, letelepedett lábamhoz, és
+               a földön guggolt hallgatva, engedelmesen, lélegzetvisszafojtva.
+         	</p>
+				<p>
+            Meddig ültünk így?
+         	</p>
+				<p>
+            Talán hét esztendő repült el felettünk, mint az elátkozottakon.
+         	</p>
+				<p>
+            Arra riadtam fel, hogy az udvar felőli ablak vészesen csörömpöl, mint a
+               pisztolylövés, és egy asszonysikoltás bugyborékol a közelben, mint a habzó vér a
+               szívseben.
+         	</p>
+				<p>
+            Egy felejthetetlen öregasszony állott az ablak párkányán, ahová nyilván
+               létra segítségével jutott. Ennél szomorúbb arcot sohasem láttam. Száz meg száz
+               esztendők anyafájdalma volt erre az arcra vésve. Sírkövek felírásai jutottak eszembe,
+               amelyekre a kétségbeesett árvák aranybetűkkel íratták fájdalmukat. Bús anyák arcai -
+               és benne néhány vonás az én anyám elfelejtett arcáról is. Ott állt az öregasszony
+               tarka ruhájában, madárijesztő módjára szétterjesztett karjaival, ég és föld között,
+               mintha kétségbeesés adott volna annyi erőt a fáradt, öreg tagokba, hogy ilyen
+               magosságra felemelkedhessen. Mintha az esőcsatornán kúszott volna fel, mintha
+               boszorkányok segítették volna papucsos lábait, és angyalok védelmeznék jobbról és
+               balról.
+         	</p>
+				<p>
+            Ki volt ez az öregasszony?
+         	</p>
+				<p>
+            Valóság vagy a képzelet szüleménye?
+         	</p>
+				<p>
+            Az ablaküveg a földön hevert villanó darabjaival. Az öregasszony ég és
+               föld között himbálódzott, mintha be akarna jutni a szobába.
+         	</p>
+				<p>
+            Felálltam, és dermedten néztem az égi drótszálakon mozgatott bábut.
+         	</p>
+				<p>
+            Ezalatt a hátam mögött is csattant az ablak. A hideg légáramlásra
+               megfordultam.
+         	</p>
+				<p>
+            Eszténa éppen keresztet vetett, s az ablakra ugrott. Ott állott egy szál
+               ingben, mezítelen lábbal, mint az álom, amely életem végéig nem hágy el. Tündöklő,
+               megbocsátó, szinte túlvilági mosoly volt az arcán, mint az üdvözültekén. Szerelmesen,
+               boldogan, felejthetetlenül nézett rám vissza.
+         	</p>
+				<p>
+            - Elmegyek, mert itt van az anyám - suttogta felém titokszerűen.
+         	</p>
+				<p>
+            Még egyszer bocsánatot kért a mosolyával, és az ablakpárkányról a
+               hóesésbe repült.
+         	</p>
+				<p>
+            Mire kihajoltam az ablakon, Eszténa már elérte a földet, amelyet
+               vastagon fedett be a hó. Térdre esett, felemelkedett, aztán libegő, hosszú ingében,
+               piros talpain futni kezdett, mint egy eltévedt angyal.
+         	</p>
+				<p>
+            - A folyó felé! - rikoltott valahol egy hang, amelyben Szikrai úrra
+               ismertem.
+         	</p>
+				<p>
+            A kanyargós ódon utcácska visszhangozta a kiáltást, mintha a hó alatt
+               elbűvölve álldogáló tűzfalak, tetők, esőcsatornák mind felriadtak volna és
+               kiáltanák:
+         	</p>
+				<p>
+            - A folyó felé!
+         	</p>
+				<p>
+            Arra menekül az angyal ebből a gonosz, alattomos városból. S utána
+               futottak a kémények a háztetőkről, az alvó komondorok s a tunya ajtók.
+         	</p>
+				<p>
+            Mire az utcára értem, már az egész város a folyó felé futott. Elrepült
+               mellettem Hartvigné francia cipőjében és krémszínű szoknyájában. Egy pillantásra sem
+               méltatott.
+         	</p>
+				<p>
+            Titokzatos lárma hangzott fel, a girbe-gurba utcákon hangok törtek fel,
+               mint göröngyök, békák ugrálnak, valahol talán doboltak is, nehéz drabantcsizmák
+               koppantak, alsószoknyás nők hevesen visítottak... Ilyen lehetett a hangulat a
+               városkában, midőn kétszáz esztendő előtt mártírszüzeket állítottak a máglyára.
+         	</p>
+				<p>
+            Mindenki megbolondulni látszott. A sajtszagú boltosok az utca közepére
+               álltak, mintha valami csodát várnának. Sohasem látott öreg asszonyok kihajoltak a
+               legfelső ablakokból, mintha utoljára akarnák látni ezt a világot. Titokzatos vén
+               emberkék futottak apró kutyáikkal a falak mellett, mintha ez ideig nem lett volna
+               szabad elhagyni házikóikat. Mintha valami varázslat múlott volna le a városról,
+               mindenki megmozdult a néma utcákon... Lompos slafrokban, kibomlott hajjal futott
+               Genovéva, mögötte a mézeskalács-arcú Olga és mindazok a nők, lányok, asszonyok,
+               akiket eddig látásból ismertem. De valamennyien lomposan, mintha mosogatás vagy
+               súrolás mellől futottak volna az utcára.
+         	</p>
+				<p>
+            Csak Rienzi állott piros, királynői köpenyegben a nyitott ablak mellett,
+               és megvetően nézte az utcájában támadt csődületet. Mondták, hogy mindig magánkívül
+               volt körmenetkor, mozsárdurrogós egyházi gyülekezetek napján. A nyitott ablaknál
+               várta a népet, amely érte jöjjön. Ünnepelni őt vagy megégetni.
+         	</p>
+				<p>
+            Egyik sem történt, mert a nép nem törődött Rienzi asszonnyal.
+         	</p>
+				<p>
+            Amíg hazáig értem, azt vettem észre, hogy a Szent János-torony hegyéről
+               eltűnt a kereszt. Kakas kukorékol odafent, mint akár azokban a századokban, amikor
+               vallásaikat változtatták az emberek és a templomok. Most is valami tompa moraj
+               hangzik a föld alól. Kénszaga van a levegőnek. Bohócok mennek valahol színes
+               csengőikkel, üvöltő éneklésükkel. Majd gyászmenet zenél valamerre, nagyhasú
+               trombitások fújják igen komolyan a halotti marsot. Végül a sarkon leszállott a pipás
+               török a trafik bádogtáblájáról, és alázatosan köszönt.
+         	</p>
+				<p>
+            Otthon nyomban ágyba feküdtem.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Éjféltájban ébredtem fel egy halotti mécses és Hartvigné
+               társaságában.
+         	</p>
+				<p>
+            Az asszony ezen az éjszakán nagyon gyengéd volt hozzám, talán odaadóbb,
+               mint legelőször. Tele volt simogató szerelemmel, anyáskodó ölelésekkel, boldog,
+               hosszadalmas csókokkal. “Szereted a lábom?” - kérdezte, és a lábát mutatta. “Tetszik
+               a barackszínű hajam?” - szólt s haját kibontotta. “A fehér nyakam; a vállam, a
+               karcsúságom?” Mintha megvigasztalni, megjutalmazni kívánt volna bizonyos
+               szenvedésekért ez a hallgatag asszony. Kedvemben járt, szemérmét úgy elfelejtette,
+               mint esküjét.
+         	</p>
+			</div>
+			<div type="chapter">
+				<p>
+            Hajnalban, amikor elutaztam, már csendes volt X. városka.
+         	</p>
+				<p>
+            A hótömegek alatt meglapultak a tegnap megelevenedett házikók, mintha a
+               bűvész visszaparancsolta volna őket régi helyükre.
+         	</p>
+				<p>
+            Az ablakok, amelyek alatt Hartvigné kíséretében elhaladtam, setétek,
+               üresek, halottak voltak. Sehol nem virrasztott senki X.-ben ezen az éjszakán. Az
+               utcákat belepte a hó, mint az országutat, amelyen évek óta nem járt ember. Mikor
+               visszanéztem a lábnyomainkra, úgy setétlettek azok mögöttünk, mintha két farkas ment
+               volna végig éjszaka a városon.
+         	</p>
+				<p>
+            Hartvigné boldogan cipelte a nehéz táskámat, mintha abban lettek volna a
+               kések, bárdok, gyilkos acélok, amelyeknek segélyével a hóhér kivégzett volt valakit a
+               városban. S a kivégzésnél Hartvigné segédkezett. Valamely nagyszerű csodálkozással
+               nézett reám, mint a legkiválóbb emberre.
+         	</p>
+				<p>
+            A vasuti állomás előtt elváltunk. Hozzám simult, átölelt, ahogy még
+               senki. Úgy kapkodott a szavak után, mint a csirke az árpaszemek után.
+         	</p>
+				<p>
+            - Először azért lettem a tied, mert szükségem volt a pénzedre. Ezt
+               nagyon megbántam, s nem tudtam volna élni a szégyentől. Előbb-utóbb belehaltam volna
+               a gyötrelembe. De az elmúlt éj mindent helyrehozott. Szerettelek, ahogy még senkit
+               sem szerettem. Megtörtem érted - csak érted - a hűségemet, az esküvésemet, minden
+               fogadalmamat. És most már boldog, csendes, megelégedett leszek életem végéig, mert
+               lemostam lelkemről a gyalázat foltját.
+         	</p>
+				<p>
+            Megcsókolt, és lassan visszament a városba, mint egy fantom az
+               éjszakában, akit többé sohasem fogok látni.
+         	</p>
+				<p>
+            Alvó utasok között dohány- és csizmaszagú vasúti kocsiban helyezkedtem
+               el. Valaki ellenségesen morgott a sarokban. Majd a téli éjszaka függönye megöl a
+               kalauzok befagyott torka kiáltotta az akkor még szokásos jelszavakat. A havas kerekek
+               csikorogni kezdtek. Valaki végigfutott a vonal mellett, és ugatott, mint egy
+               komondor:
+         	</p>
+				<p>
+            - Fogják meg Pálfi Pált. Miatta ugrott be a lékbe egy leány.
+         	</p>
+				<p>
+            A vonat lassan mozgott, a rikácsolás mind érthetetlenebbé vált. Eltűntek
+               az x.-i állomás piros és zöld szemei, s én azóta sohase voltam a városban.
+         	</p>
+				<p>
+               (Kisörs, 1918. Nyár.)
+         	</p>
+				<trailer>
+            .oOo.
+         	</trailer>
+			</div>
+		</body>
+	</text>
+</TEI>

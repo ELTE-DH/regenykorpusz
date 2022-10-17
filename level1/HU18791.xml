@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xml:id="HU18791" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
 				<title>A porczellán-comtessek</title>
-				<author ref="viaf:43657511">Hrabovszky M. Júlia (1858-1946)</author>
+				<author>
+					<persName>
+						<surname>Hrabovszky M.</surname>
+						<forename>Júlia</forename>
+					</persName>
+					<date from="1858" to="1946">1858-1946</date>
+					<idno type="VIAF">43657511</idno>
+				</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -23,7 +31,7 @@
 				<measure unit="vols">2</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -59,13 +67,15 @@
 			<langUsage>
 				<language ident="hu">Hungarian</language>
 			</langUsage>
-			<textDesc>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
 				<ns1:authorGender key="F"/>
 				<ns1:size key="medium"/>
 				<ns1:canonicity key="low"/>
 				<ns1:timeSlot key="T4"/>
-			</textDesc>
-		</profileDesc>
+			</ns1:eltec>
+		</xenoData>
 		<revisionDesc>
 			<change when="2021-10-19"/>
 		</revisionDesc>

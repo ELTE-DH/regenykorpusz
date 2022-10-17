@@ -1,0 +1,2364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU14261" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Lavina :  Regény  : ELTeC edition</title>
+				<author ref="viaf:2057726">Pekár Gyula (1867-1937)
+            </author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">23916</measure>
+				<measure unit="pages">141</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>Lavina :  Regény </title>
+					<date>2015-09-15</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+					<ref target="http://mek.oszk.hu/14200/14261"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+						<name>Vidiné Réfi Erzsébet</name>
+						<name>Erdélyi Zsolt</name>
+						<name>Mészáros Atilla</name>
+					</respStmt>
+					<bibl type="digitalSource">
+						<title>Lavina :  Regény </title>
+						<date>2015-09-15</date>
+					</bibl>
+					<bibl type="firstEdition">
+						<title>Lavina : regény</title>
+						<author>Pekár Gyula</author>
+						<pubPlace>Budapest</pubPlace>
+						<publisher>Singer-Wolfner</publisher>
+						<date>1895</date>
+						<ref target="http://mek.oszk.hu/14200/14261/pdf/"/>
+					</bibl>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+			<textDesc>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T3"/>
+			</textDesc>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2019-04-23"/>
+			<change when="2018-11-22"/>
+			<change when="2018-11-19"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter">
+				<head>I.</head>
+				<p>A faluba levezető ösvénynél aztán el kellett válniok.</p>
+				<p>Köröskörül szinte fullasztóan sürü volt a buja májusi zöld erdő. A kuszó növények s a
+               vadszőlő lenge hajtásai, mint szerelmes asszonyok tapadtak a nagyobb fák kifeketéllő
+               férfias derekához, s ha valami szellő átalzugott a sürü rengetegen, hát az egész
+               ölelkező erdő valami mondhatatlan kéjtől sóhajtott s a fiatal fák nőies dereka oly
+               édes kinosan roppant meg... Az egész zöld élet pedig a madarak száján sugdosódott
+               méla szerelemről. Fülemilék, rigók, ökörszemek bujtak el a fák lombhajába... Most
+               messziről, mintegy iszonyatosan csalódva, fájdalmasan sikoltott fel valami
+               madár.</p>
+				<p>Az asszony egy hatalmas tölgyfához támaszkodott, de a madár szavára összerezzent.
+               Aztán a többi, a fa derekát ölelő, szinte féltékeny folyondár közé bujva, zokogni
+               kezdett.</p>
+				<p>- Mit fog most rólam gondolni?...</p>
+				<p>De aztán elszégyelte magát, a miért ezt mondta. Hisz ép Ő mesélte pár héttel ezelőtt
+               finom évődő gunynyal, hogy az asszonyok ilyenkor mindig azt szokták mondani. Ah, s ő
+               ugy gyülölt minden banalitást! Meghalt volna szégyenében, ha ő is olyan lett volna,
+               mint ennek a gondolkozó arczu, okos szemü szép huszárfőhadnagynak a többi
+               szeretője... S mi szükségük volt nekik érzelmi pose-okra, mikor, istenem, azon a
+               három hónapon át annyit, oly czinikusan s oly analytikusan beszéltek a szerelemről?
+               Hogy sajnálták, mily hideg gunynyal taglalták a szerelmeseket, gyerekes bohóságaikat!
+               S addig gunyolódtak az érzelmek felett, mig végre most... csodálatosan zavarban
+               voltak egymás előtt. Mind a kettő nagyon modern temperamentum volt, nem hittek
+               semmiben, legkevésbbé pedig magukban. S most, mikor pár pillanatig nem tudtak egymás
+               szemébe nézni, hát tolvajmód azon tépelődtek, hogy csakugyan szerelmesek-e ők
+               egymásba?... De ez csak pillanatig tartott; az ember végre is ember - az asszony,
+               mikor azokat a banális szavakat mondta, mikor sirt, igazán asszony volt s a sok
+               töprengéstől fáradt lelkének némileg azért jól esett ez a régi, szinte elfeledett
+               naiv banalitás. Mintegy mély forrásból áramlott fel lelke mélyéről valami beteg hit:
+               szeretek, szeretek, szeretek... S a főhadnagy? Az ő szivén is kevés volt a himpor,
+               naturalista huszár-filozóf volt, a ki többnyire csak kisérletezett az asszonyokkal,
+               de a kit azért olykor felderitett a szerelem fényes reflexe... most, a mint a szép
+               asszony oda dőlt a herkulesi fa folyondáros kérgére, nyakának meleg fehérsége, mint
+               az előbbi csókok emléke elbóditotta gondolatait. Eléje térdelt s átkarolta lábait,
+               melyek érintésére megreszkettek. Dodó főhadnagy müvészi érzékü ember is volt s
+               szerelmét mindig eszthetikai gyönyörökkel fokozta. Most is valami
+               szobrász-szerelemmel gyönyörködött a hosszu, karcsu termetben, kissé keskeny
+               csipőkben és remek, finom lábakban. Ugy szerette a szép lábakat... A szép Melanie
+               felvetette aranyvörhenyes szőke fejét a kemény fakéregről: egymásra néztek,
+               elszántan, mint csatában az ellenfelek. Pillanatig küzdött bennük öntudatosságukkal
+               az a csodálatos, homályos nagy érzelem, mely majdnem olyan erős, mint a gyülölet s
+               végre mikor aztán egymás kutató pillantását mind a ketten kiállták: hevesen s oly
+               gyorsan, hogy ne legyen idő egy uj kétkedő gondolatra... átölelték egymást. Lelkükben
+               nem nagyon biztak, hát vérük hevéhez folyamodtak... Azok a csókok legalább igazán
+               forrók, égetők voltak s ölelésük közepette nyughatatlan, ideges sziveik tán
+               pillanatra egyet dobbantak...</p>
+				<p>Aztán felocsudtak, - mögöttük a távoli tisztáson, mint egy törött üvegdarab fénylett
+               a tó, melynek partján a buja fák, füzek lombja menyezetes ágyat vetett volt a
+               mohra... Onnan hallatszott a főhadnagy lovának a nyeritése. Az asszony
+               összerázkódott, - még egy csók s aztán magasra felszedve világos tavaszi ruháját,
+               mely alatt füzöld alsó szoknyája harmonikusan olvadt egybe a cserje s a gyep
+               szinével, - lefutott az erdőn át, ki a falu felé. A főhadnagy összefonta karjait és
+               soká nézett még utána. Aztán visszatérve lovához, őszinte sajnálattal mormogá:</p>
+				<p>- Szegény Sándor!</p>
+				<p>Vállat vont, mintha azt akarta volna mondani, hogy: mit tehetek róla!... Végre
+               azonban nyeregbe ült s ellenkező irányban vágott által az erdőn. Igen sürü volt a
+               cserjés s a gallyak összekarczolták keskeny, finom arczát. Mikor egy félóra mulva
+               kiért a szabadba, hatalmas galoppra ereszté „Oteró”-ját: teli tüdővel szivta magába a
+               frissen lengő tavaszi levegőt. Pajzán jó kedvvel ugratott át minden árkon, keritésen,
+               sövényen... igen jó lovas s különösen igen finom keze volt. Egyszerre egy dülő alatt
+               hirtelen két kabátos embert pillantott meg, pár horvát paraszttal. Majd elgázolta
+               őket: Moszkovszky Sándor volt az ispánjával. Dodó főhadnagy hirtelen szárba szedte
+               lovát s megállt. Kissé lihegett: kellemetlen volt e találkozás neki.</p>
+				<p>Moszkovszky Sándor egy harminczötéves, már kissé elhizott, erőteljes, magas férfi
+               volt. Valaha nagyon szép lehetett: vonásain s némely már ugyan elparasztosodott
+               mozdulatán még most is meglátszott a régi elegáns világfi. De háta már meggörbült,
+               kikerekedett, mint valami rosszul sült kenyér, tartása gondterhes lett, arcza pedig
+               kicserepesedett s orra kivörösödött a napon. Kóczos, gondozatlan szakáll szőrösitette
+               el a képét; mély beszélgetésbe látszott merülve lenni az ispánnal. Mikor Dodót
+               meglátta, becsületes arcza s őszinte szemei felderültek.</p>
+				<p>- Hogy vagy, édes Dodóm?</p>
+				<p>- Köszönöm, jól - mondá a főhadnagy egykedvüen, kissé hidegen.</p>
+				<p>Moszkovszky megveregette az „Oteró” nyakát s felsóhajtott.</p>
+				<p>- Hej, ti boldog urak! Nem kell egész nap a rögöt turnotok, mint a szegény
+               parasztnak, például nekem... Esztek, isztok, lovagoltok, kurizáltok? mi? Te is nagy
+               kópé lehetsz, Dodó, - hja, én is ilyen voltam, ne busulj, mikor még uhlánus főhadnagy
+               voltam... Fogadok, most is valami galáns kirándulásról térsz haza, mi!!</p>
+				<p>Moszkovszky jóizüen felkaczagott, ugy, hogy Dodó pillanatra egészen megzavarodott.
+               Szép kék szemeivel ravaszul hunyorgatott feléje.</p>
+				<p>- Hát persze, hogy onnan jövök... mormogá most már még nagyobbat kaczagva Dodó.</p>
+				<p>És mind a ketten hosszan, jóizüen nevettek. Utóbb az ispánra, sőt a parasztokra is
+               ráragadt a jókedv, még azok is teli torokkal röhögtek...</p>
+				<p>- Isten áldjon meg, czimborám; - mondá végre szinte könyezve Sándor, - mikor jösz el
+               hozzám?</p>
+				<p>- Majd a napokban, - mondá előzékenyen s udvariasan a főhadnagy.</p>
+				<p>- No, de igazán jer el, szórakoztasd kissé szegény feleségemet, ugy unatkozik otthon
+               egyedül...</p>
+				<p>A főhadnagy lova oldalába döfte a sarkantyuját: mérhetetlen dühbe jött egyszerre,
+               legjobban szerette volna még pofon is ütni ezt a vak embert De aztán vállat vont és
+               csak tovább vágtatott.</p>
+				<p>Az asszony pedig szaladt az erdőn át tovább. Mikor kiért a sürüségből, az üde szabad
+               levegő megnyugtatóan hütötte le izzó halántékát. Ott állt az erdő szélén s ép át
+               akart a szegélyező vizes árkon ugrani, mikor látta, hogy a falu felől pár
+               mesterlegény jön dalolva. Megijedt tőlük s visszabujt, mint valami macska az erdőbe.
+               Mikor odább álltak, ismét óvatosan előjött, átugrott az árkon s egy meglehetős vizes
+               réten átvágva, a hátsó kapun beosont a parkba. Valahogy egyre futni szeretett volna,
+               mintha omladozó gondolatai ragadták, sodorták volna magukkal. A réten, a mint sietve
+               lépkedett át rajta, egy nagyon kóczos kutya ügetett utána, ugatott rá vérben forgó
+               szemekkel. A szép Melanie annyira megijedt tőle, hogy kétségbeesésében megállt s
+               merően a szemébe nézett az állatnak. Borzalmasak voltak ennek a kóczos kutyának a
+               szemei, bosszuállók, kérlelhetlenek... Melanie előtt az egész epizód valami
+               allegorikus rémületben tünt fel, mintha a saját lelkiismerete üldözte volna, - s
+               érezte, hogy annak a kutyának bosszujában egészen joga lenne ahhoz, hogy őt
+               megharapja. Nem is védekezett: eszelősen állott meg előtte, mint valami biró előtt,
+               sőt tán a bünhődés kéjes kinja hatotta volna át, ha az az állat ott helyben
+               összemarczangolta volna. A kutya azonban nyilván megszégyenitve a nyugalomtól, pár
+               pillanatig még dühösen csaholt rá, de aztán szégyenkezve állott odább. Melanie
+               megkönnyebbülten sóhajtott fel, - lelkébe a fekete fellegek helyébe szerelmes
+               rózsaszin felhők gomolyodtak: kimondhatatlan kéjes fáradtság vett rajta erőt. Alig
+               volt még annyi ereje, hogy felszaladjon a kastélyba - lihegve támolygott be pompás
+               boudoirjába s végre félájultan rogyott kanapéja különböző szinü vánkosai közé.</p>
+				<p>És ott feküdt sokáig mozdulatlanul, mintegy ópiumos álomba temetkezve. Arcza sápadt
+               volt, nagyon sápadt, egész viaszszerü. Csak vánkosai közül felbukkanó karjai
+               vonaglottak olykor egyet, mintegy az ölelés emlékétől galvanizáltan... Végre lassan
+               visszatért az élet testébe, kinyitotta zsibbadt szemeit, végig jártatta a szoba
+               vörhenyes homályában elmosódó különböző bric-à-brac holmin. Csodálatos egy szoba is
+               volt ez: ülni alig lehetett volna benne, csupa kerevet lustálkodott a falak mellett:
+               csak a Louis XV. secretaire elébe volt egy könnyü rococo szék téve. S azok a
+               kerevetek! Ezerszinü vánkosokkal, vagy tizenkettővel, voltak körülrakva, ugy hogy az
+               embernek, ha közibéjük heveredett, alig látszott ki a feje belőlük... Az iróasztal
+               mellett kis könyvszekrény állott, telve Zola, Daudet, Gyp, Maupassant s Rudyard
+               Kipling regényeivel: a regények tetejében különféle szivartárczák hevertek nehéz
+               illatu orosz és egyiptomi czigarettákkal...</p>
+				<p>Melanie még mindig valami együgyü közönynyel jártatta végig a szobában a szemét:
+               egyszerre azonban az a kéjes zsibbadtság ismét égni kezdett ajkain: a vér arczába
+               szökött, - eszébe jutott minden deliriuma annak a délutánnak s mint a kit a villám
+               csapott meg, bukott le előre dus szőrü vörös szmirnájába.</p>
+				<p>Egy negyed óra mulva ismét magához tért, de a roham ismétlődött, persze már
+               gyöngébben s nem azzal a sorvasztóan izzó deliriummal. A harmadik rohamnál már
+               nyitott szemmel s teljes öntudattal birta ki a ráözönlő szerelmes emlékeket; végre
+               állapota valami csodálatos, balzsamos jóléti állapotba ment át, melyben nyelve
+               szélével frissitve fel tikkadt ajkait, szinte még boldogabban majszolta emlékeit...
+               Vére nem volt többé oly lávaszerüen forró: melegen, szeliden, mint a tej csörgedezett
+               ereiben. Aztán, mikor higgadtan kezdett gondolkozni, szinte meglepetve kérdezte
+               magától: igaz-e mindez, hogy történt? Lehetséges-e?...</p>
+				<p>Rágyujtott egy czigarettre s hosszan elgondolkozott. De nem tudott megmaradni
+               gondolatai fonalánál. Komolysága egy édes mosolyba olvadt fel: odaszaladt az
+               ablakhoz, kitárta s kéjesen szivta magába a hüs esti levegőt. Egyszerre valami
+               mérhetetlen boldogsági érzet özönlötte el lelkét, egy csókot dobott fel a
+               csillagoknak.</p>
+				<p>- Boldog vagyok, - mormogá félhangon s kiváncsi meglepetéssel hallgatta a saját
+               szavainak csengését. Szavai oly idegenszerüen hangzottak, mintha más valaki szólott
+               volna hozzá: ez megnyugtatta, mert kétkedő természeténél fogva a maga lelke és szive
+               ügyeiben másnak még sokkal inkább hitt, mint maga magának... Aztán ismét felnézett a
+               csillagokhoz: kettő közel volt egymáshoz, ugy nézett ki, mint két szem; mintha a Dodó
+               okos szép szemei lettek volna: valami őrjöngésszerü vágy fogta el, elszaladni,
+               elfutni a másik faluba, belepillantani szeretője szemeibe, hogy csakugyan
+               hasonlitanak-e ahhoz a két csillaghoz... S ugy a hogy volt, felugrott, kifutott a
+               verandára, onnan be a parkba, - aztán ki a holdvilágos pusztaságra. Köröskörül a
+               mocsaras rét felől melankholikusan brekegtek a békák. Melanie csak futott tovább:
+               ruháját, pompás bécsi pongyoláját tépte a szuró tövis, de ő mit sem érzett: ő, az a
+               meggondolt, higgadt dáma most egyszerre könnyelmü, nem, valósággal esztelen, bolond
+               lett. Eszébe se jutott, hogy egy Moszkovszky bárónénak még se illik este felé
+               csatangolni a mezőn, réten keresztül, s huszárok kvártélyára lopódzni... „Édesem,
+               édes szerelmesem...” azon vette magát észre, hogy ajkai e banális, de oly boldog
+               szavakat suttogják. S oly mérhetetlenül boldognak érezte magát hogy szerelmes volt:
+               mert unalmas, egyhangu élete közepette már két év óta csak az az egy gondolata volt,
+               hogy szerelmes, szerelmes, nagyon szerelmes legyen valakibe. Szerelmes akart lenni,
+               ugy mint Julia, vagy Laura... S csak futott, futott tovább, már odaért a szomszéd
+               falu határába. A századtrombitás ép tiszta, mély hangon kezdette el a seterét fujni.
+               Egyszerre az ingoványos fü közepette mintha leczövekelték volna, megállt. Az
+               istenért, mit akar tenni? S hirtelen egy régi emlék parfümje suhant át, mint valami
+               méla szellő a lelkén: volt ő már egyszer igy, volt ő egyszer ily őrülten szerelmes -
+               a férjébe... Akkor látta ily aranyos és szivárványszin szegélylyel a világot! a
+               férjében... Mintha mellbe lökték volna - torka összeszorult: most jutott először
+               eszébe a férje! De vajjon ez az elhizott falusi paraszt ugyanaz a daliás uhlánus
+               főhadnagy-e, a kibe hat évvel ezelőtt szerelmes volt? Nem, az meghalt, gondolá,
+               kihalt ebből a mai emberből: oh nem látom többé az én legszebb Moszkovszky
+               Sándoromat...</p>
+				<p>De azért csak megfordult s csendesen, mint egy vásott gyermek, haza ballagott. Mint a
+               macska lopódzott be a kastélyba: szent Isten, hátha a férje már otthon van! De nem
+               volt még otthon, bár a vacsora már rég az asztalon állott. Visszaült boudoirjába a
+               sötétbe s édesen, szerelmesen gondolta el magának szeretőjét. Aztán arra az emberre
+               gondolt, a kibe hat éve szerelmes volt s modern asszony létére töprengve analyzálta
+               érzelmeit. Mostani lélekállapota ugy hasonlitott a hat év előttihez: még a két ember
+               alakja is mintegy összefolyt... Eh, susogá végre, hisz e két ember egy. - Abba vagyok
+               most is szerelmes, a kibe akkor voltam, minden asszony csak egy eszmei emberbe
+               szerelmes... persze, az igaz, hogy ezt az egy embert esetleg aztán többen találjuk
+               fel...</p>
+				<p>A két szempár csillag már feljebb ment az égen: sugaraik mintegy a lelkébe csókoltak
+               bele: „édes szerelmesem”, susogá.</p>
+				<p>E pillanatban nagy robajjal nyilt ki az ajtó. Moszkovszky Sándor lépett be, porosan,
+               piszkosan, gyöngéd bocsánatkérésekkel az ajkán. Szerette a feleségét, mint a szeme
+               fényét, bár már nagyon elszokott tőle, mert rengeteg sok dolga mellett oly ritkán
+               láthatta. Összecsókolta a szép asszonyt.</p>
+				<p>- Melanie! mormogá csodálatos hangon.</p>
+				<p>Az asszony idegesen rázkódott össze.</p>
+				<p>- Az istenért, mi baj van?</p>
+				<p>Sándor felkaczagott.</p>
+				<p>- Baj? a bajaimat csak nem fogom a szép asszony feleségemnek elmondani... Képzeld
+               csak...</p>
+				<p>- Nos? kérdé Melanie türelmetlenül.</p>
+				<p>- Eladtam a buzámat...</p>
+				<p>Melanie kedvetlenül fordult az ablakhoz s nézegette tovább a szempár csillagot,
+               melyek lassan haladtak felfelé az égen.</p>
+				<p>A férj azonban csak tovább beszélt, csacsogott mindenféle csodálatosan unalmas
+               gazdasági dolgokról: legalább az asszony előtt borzasztó unalmasaknak tüntek fel e
+               perczben... Szökött volna a Sándor szavainak őrlő egyhangusága elől, már annyira
+               kihajolt az ablakon, hogy szinte kibukott a kertbe s mégis mindig hallotta; valami
+               leirhatatlan gyülölet fogta el a fáradt, jó ember irányában, a ki az imént pedig ép
+               azt mesélte, hogy a buza árából megveszi neki végre azt a rég kivánt szafir-gyürüt...
+               Idegessé tette a beszéd, - annyira, hogy utóbb már majd elsirta magát; de valami
+               csodálatos érzelmi saltomortale folytán, a mint ott maga mögött érezte azt a
+               hatalmas, erős embert, hát félt is tőle, rettegett tőle nagyon s némely pillanatban
+               ugyszólván a vesztett csaták észvesztő panikjával ugrott volna le a kertbe s szökött
+               volna el messzire... el el mindenkitől, még Dodótól is, ki ebből a rettenetes
+               világból, a hol az embert a gondolatai soh’se hagyják békében! Olykor lopva
+               megfordult s hátra pillantott, mintegy attól tartva, hogy valaki ráüt... És borzalom!
+               most e perczben valaki csakugyan hozzá ért.</p>
+				<p>Melanie rémülten sikoltott fel, oly hevesen fordult meg, hogy könyökével majd
+               kiütötte az ablakot.</p>
+				<p>- No, mi baj, - mormogá Moszkovszky Sándor édesen, szeliden, hisz csak meg akartalak
+               csókolni...</p>
+				<p>- Ah, ugy megijesztettél... - lihegé az asszony kimerülten. Forgott vele a világ:
+               leült egy székre és sirni kezdett. Valami meleget érzett a homlokán - ah igen,
+               bizonyosan a férje csókolta meg. De mikor felvetette szemét, Sándor már nem volt a
+               szobában. Megkönnyebbülten sóhajtott fel. De feje oly nehéz volt, oly borzasztóan
+               nehéz, - mintha csak valami kábitó méreg vett volna erőt rajta.</p>
+				<p>- Istenem, istenem, mit tettem, mi történt én velem ma?...</p>
+				<p>De a mint nyugtalan lelkében a hullámok egymást váltották fel, a következő
+               pillanatban az a kéjes zsibbadtság ismét égni kezdett az ajkain: az az érzése támadt,
+               mint mikor az ember nyári délutáni álmokban önfeledten bukik valami mélységbe...
+               Ismét a délután deliriuma vett rajta erőt s a csókok emléke ugy kimeritette, hogy
+               alig birt felkelni.</p>
+				<p>- Mi lesz velem? mormogá valami kétségbeesett mosolylyal. Utána közvetlenül
+               félhangosan susogá:</p>
+				<p>- Szeretőm van... Szeretőm van!...</p>
+				<p>Majd meg mintha messziről egy sokaság moraja sugta volna a fülébe:</p>
+				<p>- Moszkovszky Melanienak szeretője van!... De aztán ismét Dodó jutott az eszébe,
+               ábrándos, okos szemeivel s az előbbi szavakat kitörő, repeső örömmel suttogá: -
+               Szeretőm van, - szeretőm...</p>
+				<p>S mintegy, hogy maga magát megnyugtassa, szenvedélyesen tette hozzá:</p>
+				<p>- A kit őrülten szeretek s a ki engem őrülten szeret...</p>
+				<p>Felugrott, szembeszállott volna az egész világgal.</p>
+				<p>- Szeretőm van... susogá mosolyogva, eszelősen. Aztán benyitott a hálószobájukba:
+               férje már mélyen aludt a széles angol ágyban. Melanie megállt az ágy végében s
+               hosszasan elnézte azt a halott-mélyen alvó, fáradt embert; eleinte gunyosan,
+               bosszusan, aztán közönyösen, végül pedig már valami szánakozó jóakarattal. Szegény
+               ember; azt a vágást ott a homlokán párbajban kapta, mikor vőlegény korában érette
+               megverekedett... majd elnézte a kezeit: ah, azok olyanok voltak, akár egy béreséi...
+               Szeretőm van, susogá ismét s kiszaladt a kis erkélyre. Ott leült egy nagy nád
+               karosszékbe és elaludt. Mikor behunyta a szemeit, érezte, hogy az a két csillagszem,
+               melyek megfordultak volt időközben az égen, egyre szikrázóbban néz reá. S a mint a
+               szerelmes asszonyok álma lassan, egyenkint lefogta tagjait, ugy tetszett neki, mintha
+               az egész mennyország lépne le hozzá a fellegek közül két csillagszemével: a Dodó
+               karjai nyulnának lopva, mintegy ájulásban a dereka köré s szoritanák őt
+               ellenállhatatlanul magukhoz... Elhagyta magát, nem birt többé fáradtságával: nagyon
+               boldog volt, most nem gondolkozott, csak érzett, érezte a szerelem titokzatos
+               bübáját. S ajkai álmában önkénytelen szóra, csókra nyiltak...</p>
+				<p>- Szeretlek, szeretlek...</p>
+				<p>Csak hajnali négy órakor riadt fel álmából. Hirtelen befutott a hálóba s lefeküdt,
+               mert tudta, hogy Sándor már öt óra után kilovagol a tanyára. Hamar elaludt, de nagyon
+               rosszat álmodott. Azt álmodta, hogy még egész kis gyermekleány volt s boldogan élt
+               otthon s naivan képzelődött, hogy milyen is lehet az a szerelem, - egyszerre egy
+               alak lépett hozzá s megcsókolván őt, igy szólt: „Ettől a csóktól meghalsz...” Melanie
+               pillanatra ismét azt a kéjes zsibbadtságot érezte ajakán, de aztán ijedten pillantott
+               fel, mert a hallott szavak elrémitették... S felébredt, de félálomban egyre azon
+               tünődött, hogy ki lehetett az az alak: vajjon nem Dodó-e... Az ajtóra pillantott.
+               Akkor mehetett ki férje a gazdaságba.</p>
+			</div>
+			<div type="chapter">
+				<head>II.</head>
+				<p>Csak délfelé ébredt fel aztán. Kiugrott az ágyból: pillanatra azt se tudta, hol van,
+               még szobájára sem ismert rá. Aztán lelke legmélyéről, mint valami meleg forrás
+               bugygyant fel egy balzsamos érzelem, mely ajkaihoz érve, szájába adta az öntudatot, a
+               szót...</p>
+				<p>- Szeretőm van, - szeretőm van...</p>
+				<p>S egyszerre eszébe jutott minden. Elpirult, aztán elmosolyodott s végül hosszan
+               bámult maga elé a levegőbe. Majd aztán, hogy elterelje gondolatait, szép alt hangon
+               intonálta az Aggházy „Ninon”-ját, mely kedvencz dala volt:</p>
+				<p>- „Ninon, Ninon, que fais tu de la vie!...”</p>
+				<p>Később egy tükröt kapott fel s bele nézett. Azt akarta látni, hogy arcza mennyit
+               változott tegnap óta. Meg volt magával elégedve, azt találta, hogy szemei
+               megnagyobbodtak, teintje bársonyosabb s különben szintelen ajkai oly pirosak lettek,
+               mint a ketté harapott meggy... Aztán az álló tükör elé lépve, azt találta, hogy
+               termete hajlékonyabb, nyaka hajlása finomabb s járása melodikusabb lett... Soká nézte
+               magát s szinte alig ismert rá tükörbeli énjére.</p>
+				<p>Moszkovszky Melanie határozottan csinos asszony volt. Az ember szeme önkénytelen
+               gyönyörüséggel pihent meg harmonikus, magas termetén, rendkivül melodikus járása
+               pedig, még ha sokszor látta is az ember, mindig ujabban meglepte s valami sajátságos
+               kellemes borzongást okozott. Különösen szép volt kissé keskeny csípőjének a
+               hullámvonala s rendkivül elegánsak voltak a lábai. Az igaz, hogy nagy gondot is
+               forditott a czipőire. Hajának olyan vörhenyes, aranyos szine volt, mint az őszi
+               lehullott faleveleknek. Arczkifejezésére rendesen azt mondták, hogy közönyös és
+               unott, de volt valami merész csinosság a vonásaiban. Közönségesen szintelen ajkai
+               érzékiségükkel és nembánomságukkal határozottan gondolkodóba ejtettek: aczéloskék
+               szemei, melyeknek szine voltakép az időjárás szerint változott s hol kéknek, hol
+               zöldnek, hol szürkének tetszettek, rendkivül gondolkozók és intelligensek voltak, de
+               mintegy ellentmondtak a kecses kis arcz alsó részének, a szájnak, melynek
+               gödröcskéiben valami kénytelen elszunnyadt érzékiség aludt. Olyan arcz volt az,
+               melynél az ember pillanatra zavarba jött a kifejezés ellentétes motivumainál fogva,
+               hogy vajjon nagyon szép-e, vagy egyáltalában nem is csinos-e?... mindenesetre
+               rendkivül érdekesnek találta mindenki. S olyan exczentrikus volt: kétségbeejtette a
+               falusi asszonyokat olvasottságával, a falusi gavallérok előtt pedig óra hosszat
+               hallgatott s csak olykor kaczagott fel hangosan, szinte indokolatlanul... De a
+               nevetés különben jól állt neki: elől egyik fogába plomb helyett kis gyémánt darab
+               volt betéve, mely kaczaja közben vakitóan szikrázott. </p>
+				<p>Melanie felriadt: a szobaleány jött be.</p>
+				<p>- Kamocsay ur van itt; - mondá.</p>
+				<p>Moszkovszkyné bosszusan nézett az órára, tizenkét óra volt!</p>
+				<p>- Mondd meg, hogy mindjárt bemegyek. - Azzal sebtiben felöltözött. - No még csak ez
+               hiányzott most, - gondolá s felkaczagott, mert eszébe jutott, hogy az utóbbi időben
+               ez a falusi gentry-gigerli milyen lapos szemeket vetegetett rá. S szerelme boldog
+               tudatában kedve kerekedett ezt az uracsot kissé megkinozni. S a bosszuságból
+               egyszerre szörnyü jó kedve kerekedett. Felvette kék pongyoláját s nyaka táján nyitva
+               feledve két gombot, belépett a szalonba.</p>
+				<p>- Jó napot, Friczike, jó napot! mondá gunyos kedélyességgel.</p>
+				<p>Kamocsay Frigyes urat röviden „Kamásly Friczinek” hivták a környéken. Sőt egyszer a
+               nevenapjára valaki még vizitkártyát is nyomatott neki, melyre az volt irva, hogy:
+               „Kamásly Friczi, m. kir. vendég.” Erre aztán már megsértődött kissé Friczike s vagy
+               két hétig nem látogatott el sehova. Pedig tény, hogy ez az utóbbi kitétel nagyon
+               illett rá, mert bérbe adván kis birtokát, egész évben egyebet se csinált, mint egyik
+               kastélyból a másikba utazott vendégnek. Ritka egy alak volt: alacsony, kissé
+               potrohos, vöröses, pisze orral, tövismódra szuróan felpödört kis bajuszszal, savó
+               szemekkel s görbe, vékony lábakkal, melyeket télen-nyáron sárga lovagló kamáslik
+               öveztek. Fejébe mindig egy csapott fülü kis zöld kalap volt nyomva, melynek karimája
+               hátul egészen a nyakába lógott alá. Azonkivül többnyire sárga kabátban és tüzpiros
+               nyakkendőben járt. Mindenütt és minden időben: télen, nyáron, tavaszszal és őszszel
+               minden asszonynak udvarolt s rendesen sikertelenül. Pedig neki meg voltak a maga
+               különös theoriái az asszonyok felől: e theoriáknak azonban közös alapköve a
+               szemtelenség, vagy a mint ő nevezte, a „snajdigság” volt. Ha aztán a nők körüli
+               manöverei nem sikerültek, a mi tulságosan gyakran esett meg rajta, - akkor rendesen
+               borba temette a bánatát; - visszatért a férfiakhoz, kik is módnélkül vicczelődtek a
+               vörös orrán.</p>
+				<p>Az utóbbi időben nagyon megtetszett neki Moszkovszkyné. Melanie pedig idáig kétséges
+               hangulatai közepette szóba se állott vele. Most, hogy ily elevenen szólitotta meg a
+               szép asszony, Friczi egy sokat mondó pillantással emelte a báróné keskeny gyürüs
+               kezét tövis-hegyes bajuszához.</p>
+				<p>- Lássa csak, most keltem fel, - kaczagott Melanie, ugy-e lusta vagyok? mi?</p>
+				<p>Friczi a Melanie nyakán nyitva feledt két gombra irányozta tekintetét s előre dőlve,
+               kiforditott két karját térdeire támasztá.</p>
+				<p>- Pazarul néz ki, morgá röviden, zavaros, egyre megbicsakló hangon.</p>
+				<p>Melanie csak tovább nevetett. „Iszik egy kis bort?” kérdé. - Cognacot csak a tisztek
+               szoktak volt inni. „Mit eszik hozzá?”</p>
+				<p>- Köszönöm, - folytatá egyet pödörintve a bajuszán Kamásly Friczi, - már kosztoltam
+               odaát Lovagh Pistáéknál, de egy kis szeszt azért még beveszek. - S csak merőn nézett
+               továbbra is Melaniera. Meg akarta nyilván büvölni a szemeivel. Az asszonyt pedig
+               szörnyen kezdette mulattatni a dolog. Behozták az italt s a czigarettákat. Melanie is
+               rágyujtott egyre s hanyatt dőlve hintaszékében, hátra felejté a fejét s ugy eregette
+               a kékes füstkarikákat a plafond felé. Kamásly Friczi nyugtalanul izgett-mozgott a
+               székén s csöndesen iszogatott, közben pedig szenvedélyesen, de azért némi méltósággal
+               nézegetett a szoknya alól felbillenő fekete lábakra. Alapjában véve igen büszke ember
+               volt: tény, hogy meglehetősen jómódu ember lévén, a leányos házaknál itt-ott el is
+               kényeztették.</p>
+				<p>Melanie pedig csacsogott, csevegett egyre tovább, mintegy magának. Gondolatai a kékes
+               füsttel messze szálltak el... Kamásly Friczi is beszélt, az isten tudja, mi
+               mindenről, az asszony oda se figyelt - pedig Friczi hóditásait adta elő; hogy beléje
+               már hány asszony volt szerelmes, mert neki „talizmány-szive van”...</p>
+				<p>- Micsoda szive? kaczagott Melanie, kinek megütötte a furcsa szó a fülét.</p>
+				<p>- Talizmány-szivem van, - mondá bizonyos előkelő melankholiával Friczi s egy
+               közelebbi székre telepedve átal, - a mint ő szokta volt mondani, „csábállásba”
+               helyezkedett, vagyis kidülesztette a gyomrát s jobbkezének a középső ujját a
+               mellényébe dugta. „No Friczi” gondolá „szoritsd, most köll snajdignak lenni...”</p>
+				<p>Melanie kegyetlen kaczérsággal, kedvtelve nézte. Hidegen, szinte kihivóan mosolygott.
+               - Ah istenem, - gondolá, - be undokok is a férfiak, hah, milyen utálatos ez a vörös
+               orru, pisze ember... Ép jókor akar most szerelmet vallani!</p>
+				<p>- Báróné, - mormogá szerelmesen Friczi, kissé leeresztve a szája egyik szélét, - ugy
+               néz ki, mint egy angyal, - nem: hat angyal...</p>
+				<p>Melanie csak tovább mosolygott, gyönyörködött áldozatában, bár utóbb pillanatra meg
+               is sajnálta, mert a Friczi szemének egyre ostobábbá váló kifejezésében tényleg valami
+               őszinte érzelmet vélt felfedezni. De aztán eszébe jutott az ő Dodója, az a szép Dodó
+               s pillanatra behunyta a szemét, hogy ne kelljen ezt a csuf kis pisze embert látnia.
+               Hanem ép ez volt a baj: Friczi, mikor azt látta, hogy a báróné behunyja a szemét,
+               határozott győzelemnek vette a dolgot s melléje hajolva, átölelte. „No Friczi”,
+               gondolá magában „most szoritsd, most köll snajdignak lenni.” S Melanie egyszerre csak
+               azt vette észre, hogy valaki megöleli s mikor szemeit rémülten felvetette, hogy a
+               szemtelen tövisbajusz s piros orr ajkai körül kotorásznak...</p>
+				<p>Felugrott és elsápadva dühében, de azért mégis némileg védekezve, térdével ugy hátra
+               lökte a kis embert, hogy az, mint valami béka, hanyatt esett.</p>
+				<p>- Oh, maga nyomorult, szemtelen ember! Hát mi lelte? Talán részeg?</p>
+				<p>De a még mindig hanyatt fekvő nevetséges figura látása oly komikus volt, hogy
+               idegesen felkaczagott.</p>
+				<p>- Maga mert volna nekem udvarolni?! Egy ily csuf, kis, vörös, pisze orru ember? Na,
+               már akkor különbet választottam volna ki... Egész felbőszült arra a gondolatra, hogy
+               egy ily embernek csak eszébe is juthatott, hogy neki udvaroljon.</p>
+				<p>- Talán valami huszártisztet! mormogá rekedten és szemtelenül Friczi, ki még mindig a
+               földön ült.</p>
+				<p>- Hát akkor is inkább valami huszártisztet! mondá hevesen s könnyelmüen Melanie. Most
+               pedig - a csengetyühöz szaladt.</p>
+				<p>Kamásly Friczi rangjához illő méltóságos lassusággal kelt fel s mormogá: „Okos kölyök
+               vagy Friczi: akkor hát mégis valami huszár kurizált neki. Jó ezt tudni, mert megadom
+               én ezt a szégyent neki kamatostól”.</p>
+				<p>Az inas bejött.</p>
+				<p>Melanie már az ajtóra mutatott az ujjával, de Friczi elég tapintatosan a szavába
+               vágott.</p>
+				<p>- Kezeit csókolom, méltóságos asszonyom, ajánlom magamat. Csókoltatom Sándort.</p>
+				<p>Melanie elnézte ezt a csuf alakot s azokat a vékony, kamáslis görbe lábakat, melyeken
+               Friczi lassan kitipegett a szobából. S szinte rosszul lett utálatában. Ki - csak ki a
+               szabad levegőre! Leszaladt a veranda lépcsőjén a parkba s a teli napfényben megállt.
+               Kéjjel szivta magába a bogarak zümmögésével teli tavaszi levegőt. De aztán
+               elgondolkozott, vagyis inkább csak akart volna gondolkozni, de alig tudott. Maga is
+               elcsodálkozott, hogy gondolatai mily kuszáltak. Mint valami álomban tünődék el, hogy
+               hová lett tegnap óta az ő eszének a biztossága, melyre ő olyannyira büszke volt? - De
+               azért annyit értett, hogy bolondot csinált.</p>
+				<p>- Igen, bolondot csináltam, - mormogá, lehajtva a fejét a napfényben. Szőke hajának a
+               frizura alól felszabadult vörhenyes tincsei valami aranyporos aureolával vették körül
+               a homlokát. - Egy ellenséget s egy nagyon veszedelmes ellenséget szereztem
+               magamnak... Eh, különben, mit...</p>
+				<p>Ott állt a park végében egy elvadult kis tisztáson. Egyszerre a magas selymes fü
+               megsuhant a háta megett: megfordult: egy gyönyörü kis foxterrier tépte a pongyolája
+               szélét. - Comtesse! - sikoltá Melanie az ölébe kapva a vinnyogó kis kutyát. A Dodó
+               főhadnagy kutyája volt, - a nyakán levő érczpaizsra rá is volt irva, hogy „Comtesse”:
+               „Nicolaus Frh. v. Donhofen”. De a kutya kiugrott a kezei közül s mintegy csaholva
+               hivta a sövény felé és Melanie szaladt utána s elfeledett mindent, mindent... Oly
+               édes volt az, a szerelem után futni!</p>
+				<p>A sövény egy résén Dodó bujt be. Nem szóltak egy szót sem egymáshoz, nem töprengtek
+               többé, mint tegnap: szemeikben egész fantasztikus fenséggel égett az a perzselő
+               szenvedély. Dodó hevesen szoritá magához az asszonyt, Melanie pedig hozzátapadt,
+               behunyta a szemét s elhagyta magát, mint mikor egy kétségbeesett ember valami
+               sziklafokról a mélységbe szédül...</p>
+			</div>
+			<div type="chapter">
+				<head>III.</head>
+				<p>S aztán csodálatos élet következett el Moszkovszky Melaniera. A szerelem nyara volt
+               ez, a szenvedélynek az a perzselő, forró szaka, mikor az ember minden akadályozó
+               gondolatot, mint juliusi melegekben a ruhát, levet magáról... de mikor azért a
+               hevület közepette - tán ép annak folytán - olykor sejtelmes borzongás futja által a
+               tagjait. Melanie szerelmes akart lenni minden áron: s mentől inkább hanyatt-homlok
+               vetette magát bele ebbe a szenvedélybe, annál jobban örült neki s igyekezett magával
+               elhitetni, hogy ez lesz voltakép életének igazi nagy szerelme. Ha délutánonként
+               leheveredett boudoirja sokszinü selyemvánkosai közé s oly szivdobogás közepette, mely
+               szinte lélekzetétől fosztotta meg, várta az esti hat órát, mikor vele találkozni fog:
+               pár perczre olykor elgondolkozott a dolgok folyásán, higgadtan, tárgyilagosan, ugy,
+               a hogy régen szokott volt gondolkozni, mintha nem is a maga, hanem egy másik - valami
+               könnyelmü asszony sorsáról lett volna szó... Ilyenkor aztán, hogy eszébe jusson egy
+               más dolog, oly foku rémület vett erőt rajta, mintha egész belseje megfagyott volna:
+               nyitott szájjal lélekzeni, moczczanni se merve bámult maga elé perczekig. Majd, mikor
+               az agyát szorongató gondolatok merev görcse elmult, lassan életre tért s reszketve
+               nézett finom fehér kezeire, azokra a kezekre, melyekkel Dodót ölelte - végre pedig
+               nehéz, ideges zokogásba tört ki, mely azonban megkönnyebbitette, ugy hogy azután
+               szinte jókedvüen futott lopva, remegve a légyottra. Ilyen rémület-rohama különösen az
+               első hetekben volt sok, néha annyira félt, hogy órákig állott tükre előtt, ajkait
+               nézegetve, dörzsölgetve, attól tartván, hogy a Dodó csókjainak a nyoma meglátszik
+               rajtuk... Persze egy óra mulva aztán trillázva, hangosan kaczagott bohóságai felett.
+               S ha e változó siró-kaczagó kedvére olykor középhangulatai támadtak, ismét komolyan
+               magába mélyedt és oly nyugalommal, melyen maga is csodálkozott, konstatálta, hogy -
+               „meg fogok őrülni...”</p>
+				<p>Az eféle ötleteire a melankholikus gondolatok egész fekete folyama indult meg és
+               csobogott által fáradt lelkén, magával ragadva napról-napra ujból kinövő illuzióinak
+               gyönge szövedékét. Aztán napokig mintegy árviz árasztotta el lelkét a buskomorság: a
+               merre csak széllyel nézett ősziesen fakó gondolatai közepette, mindenütt romlást,
+               pusztulást látott... Nem süt ki már a nap hát sohasem? tépelődék ilyenkor. Persze,
+               hogy kisütött szeretője szemeinek a napja s ez oly hamar felszikkasztotta lelkében
+               azt a melankholikus árvizet.</p>
+				<p>Hat éve volt férjnél - nemsokára huszonnyolcz éves lesz: borzalommal gondolt arra,
+               hogy már ilyen öreg! Voltak napjai, mikor valami kínos örömmel gondolta el életét,
+               gyermekkorát, leányéveit s aztán egész házasságát. Két évig volt szerelmes a férjébe,
+               abba a daliás álomképbe, a ki már olykor gyermekálmain is átalsuhant. Aztán azonban
+               kellemetlen napok következtek el rájuk. Férje egy volt katonatiszttől határozottan
+               csodálatraméltó erélylyel látott végre ügyei rendezéséhez: kitünt, hogy ugyszólván
+               semmijök sincs, hogy csak ugy fognak zöld ágra vergődhetni, ha Moszkovszky Sándor
+               hozzálát valamihez. És az exuhlánus főhadnagy nem csekély erőfeszitéssel ugyan, de
+               kivetkőzött régi életmódjából, letett régi gavalléros szokásairól s meglehetős nagy
+               bérletet vevén ki, komolyan a gazdálkodáshoz látott. S egy év alatt az ember egészen
+               átalakult: „spiszburger” lett belőle, a mint Kamásly Friczi és Lovagh Pista
+               mondogatták, egy dolgos, munkás ember, a kire ismerősei alig ismertek rá... De ez nem
+               lett volna baj, az volt a baj, hogy felesége sem ismert rá, - nem ismert rá többé
+               arra a ragyogó álomképre, a kibe ő szerelmes volt. S Melanie a rendeződő vagyoni
+               viszonyok növekvő kényelme közepette napról-napra szomorubban látta, hogy mint
+               mosódnak el annak a daliás ideálnak az egyes - immár utolsó és végül legutolsó
+               körvonalai... Sándor elhizott, szakállt eresztett, nem hordott többé lakkczipőt, nem
+               csináltatta Bécsben a ruháit, kidobatta szekrényéből pipere-holmiját, közönséges
+               dohányt szitt, azt is pipából, - még a czigarettázást is elhagyta! Istenem, gondolá
+               olykor Melanie, forró napokon kerevetén heverve, olyan lesz, mint a többi, olyan,
+               mint ez a többi otromba paraszt ur! S naphosszat eltépelődött; barátnője nem volt, a
+               kivel közölhette volna gondolatait; a szomszéd uriasszonyok t. i. raffinált, előkelő
+               elegáncziája miatt gyülölték őt. Mert csodálatos, de a mily mértékben hagyta el férje
+               a nagyvilági élet külső formáit, ép oly mértékben ragaszkodott hozzájuk Melanie s
+               fejlesztette őket tovább egész a negédességig. S ha barátai kaczkiásan emlegették
+               Sándor előtt, hogy milyen fess, jukker asszony a felesége, hát ő csak büszke volt
+               rá... Melanie pedig mindinkább gondolatai mögé huzódott vissza; az volt neki csak a
+               baja, hogy nagy kényelemben élt, természettől igen eszes nő volt s unatkozott... Ez
+               az utolsó négy év keserü egy korszak volt reá nézve: ez alatt vesztette el férjét
+               szerelmes szemei elől s ez alatt sopánkodott érzelemszomjas lelkével a boldogság
+               után. Nem mintha nagy városba, Bécsbe vagy Párisba vágyódott volna, - minek? Hisz
+               mindene megvolt... Utóbb már annyira közönyös lett, hogy magányába zárkózva, még a
+               vendéget is unta. Nem udvaroltatott még magának senkivel, még tulságosan szomoru sem
+               volt, sőt azon a pár megyei bálon is, a melyre elmentek, inkább azzal töltötte az
+               idejét, hogy keserü gunynyal kritizálta a dámák ósdi ruháit. Büszke volt rá, hogy az
+               egész megyében ő tartja egyedül a „Moniteur de la Mode”-ot és a „Vie Parisienne”-t...
+               Utóbb már a fiatal emberek se mertek hozzá közeledni, ugy állt ott a báli sokaság
+               közepette, mint egy királyné, kivel a főispán s a felesége is csak bizonyos nagy
+               udvariassággal beszéltek. Voltaképen hát zsenirozta ottlétével az egész társaságot s
+               a kurjongatós háromórás csárdások csak akkor kezdődtek el, mikor Moszkovszkyék
+               hazamentek. Akkor végre elbőghette magát Dády Gabi: „Az én nótámat, a ki rézangyala
+               van - -” Moszkovszky Melaniet pedig, mikor hazaért, valami végtelen keserüség fogta
+               el. Leheveredett töprengő gondolataitól terhes boudoirjába és - már sirni sem
+               tudott... Pedig szerette volna még egyszer, ujból és ujból megsiratni, elgyászolni
+               meghalt szerelmét.</p>
+				<p>Egyszerre aztán egy huszárszázadot tettek a szomszéd faluba. Megismerkedett Dodó
+               főhadnagygyal, ezzel az okos szemü, csinos és melankholikus nagyvilági filozóffal, a
+               ki mindazokat a Daudetkat, Tolstojokat és Maupassantokat olvasta, a kiket ő, s a
+               kinek szemeiben e regények alakjai, a mint róluk beszélt, oly csodálatos méla
+               szenvedélyességgel elevenedtek meg. Azonkivül katona is volt s Melanie, bár önmaga
+               előtt szégyelte magát, mégis örömmel hallgatta, sarkantyuja hogy peng szmirnája
+               szőrén s gyönyörködve nézte, hogy boudoirjának vörhenyes fénye mily érdekes
+               ragyogással esik atillája aranyzsinorzatára... S tavaszi délutánokon hosszasan
+               elbeszélgettek a vörhenyes félhomályban. „Végre egy ember,” gondolá Melanie olykor
+               örömmel, „a ki megért engem...” Beszélgettek mindenféléről, szerelemről, érzelmekről
+               s mindig inkább csak melankholikusan, cynikusan, tárgyilagosan... Pedig tudjuk jól,
+               hogy semmi sem vezet hamarább szerelemre, mintha nagyon sokat beszélnek az
+               érzelmekről egy fiatal asszonynyal, melankholikusan, cynikusan, tárgyilagosan...</p>
+				<p>Ugyszólván mindennap találkoztak a sürü erdőben. A kis falu majdnem egészen néptelen
+               volt, mert a nyári munkával elfoglalt parasztok mind kint jártak a földeken s igy
+               senki sem vette észre a pagonyban való gyakori sétáit. Dodó már ott várt rá a tónál s
+               a sokat átélt nőhóditóknak avval a diskrét, ugyszólván pártfogoló gyöngédségével
+               ölelte át, mely olyannyira hat az asszonyokra, mivel mérsékelten, de azért folyton s
+               biztosan sarkantyuzza soha teljesen viszonozottaknak nem gondolt érzelmeiket.
+               Melaniet gyakran szinte boszantotta ez a látszólagos hidegség s olykor szeretőjére
+               pillantott türelmetlenül, szinte gyülölettel.</p>
+				<p>- Nem tudsz jobban magadhoz szoritani? Ah istenem... Ajkai lihegtek: szeretni akart,
+               őrülten, eszeveszetten, de hisz mikor a maga érzelmeivel sem volt egészen tisztában,
+               hogy láthatott volna akkor tisztán egy más ember lelkébe? Napról-napra csak annyit
+               érzett, hogy lelke egyre ujabb, csodálatosabb, olykor szinte ijesztő vidékek felé
+               halad. Gyakran azon vette magát észre, hogy kétkedik a maga szenvedélyében s ez
+               valami végtelen buskomorsággal töltötte el. Minek adta hát akkor oda magát? Minek az
+               istenért?... S órák hosszat eltünődött, hogy hogy is történhetett mindez? Gyakran
+               álmaiban régi, unalmas életét élte ujra s azért mikor felébredt, szivdobogva ugyan,
+               de mégis keserüen várta a légyott pillanatát. Hanem minden változó, szeszélyes
+               természete mellett, valami csodálatos szivóssággal ragaszkodott szerelméhez, melybe
+               valami kétségbeesett makacssággal akarta beleélni magát, ha már egyszer választott s
+               elbukott... Voltak oly kétséges perczei, mikor dühében elsirta magát.</p>
+				<p>A következő héten Sándornak vagy tiz napra Bécsbe kellett utaznia: férje távolléte
+               éppen kapóra jött az asszonynak. Már megfeledkezett minden elővigyázatról, nem
+               törődött többé semmivel, fitymálva nézte a parasztokat, a kik az erdő szélén lesték,
+               hogy találkozik a főhadnagygyal. Dodó olykor felháborodva korholta könnyelmüségeért.
+               De Melanie, a daczos gyermekek csökönyösségével, mindig csak azt felelte:</p>
+				<p>- Mit bánom én?!</p>
+				<p>Most, hogy férje nem volt otthon, napról-napra boudoirjában fogadta a főhadnagyot s
+               párszor megtette, hogy ha vendég jött, hát oly hangosan utasitotta a cselédet, hogy
+               mondja: „nincs itthon”, hogy az udvarra is kihallatszott a hangja, mig a főhadnagy
+               lovára bárki ráismerhetett az istállóban. Némelykor meg viszont a levélirási mánia
+               lepte meg: irt Dodónak levelet naponta hármat-négyet s ezeket aztán a harangozó
+               fiával küldte el a szomszéd faluba. Légyottot adott a szeretőjének, aztán nem ment
+               el, boszantotta mindenképen, hogy összeveszszenek s a főhadnagy kijőjjön a sodrából:
+               tulizgatott idegeinek egyre viharokra volt szüksége... Egyszer, mikor összevesztek s
+               Dodó egy napig nem adott életjelt magáról, annyira megfeledkezett magáról, hogy egy
+               tarka pongyolában, mely még a legsürübb uticserjék között is feltünt, átszaladt a
+               szomszéd faluba a főhadnagy lakására. Szerencsére senki se volt Dodónál. De az
+               udvaron tisztogató huszárok mindenesetre megláthatták. Dodó épp aludt: Melanie valami
+               reszkető kéjjel nyitott be a huszártiszti kvártélyra; tettének őrültségét ugy
+               élvezte, mint a hogy az ember a tiltott gyümölcsöt élvezheti. Kiváncsian nézett körül
+               a falakon, kardokon és lószerszámokon, huszár-pipere eszközökön, atillákon, melyekből
+               mind az az orfeumi félvilági illat áradt elő, mely annyira eszét veszi a tisztességes
+               asszonyoknak, ha egyszer elbuktak... Dodó rémülten pillantott fel:</p>
+				<p>- Az istenért, mi jutott az eszébe?!</p>
+				<p>És komolyan összeszidta az asszonyt, ki csak hallgatta, mig végre egyszerre aztán
+               zokogógörcsben rogyott össze.</p>
+				<p>De Melanie makacsságával, csökönyösségével s mindenekfelett erőltetett érzékiségével
+               mégis elért egyet: beleerőszakolta magát a szerelembe ugy, hogy pár hétig tényleg
+               valami öntudatlan mámorban élt. S tényleg boldog volt ezalatt. De a talajt teljesen
+               elvesztette lábai alól. Már egyedül sem mert maradni, s férjének egyre hosszabbodó
+               távolléte alatt éjszakára mindig behivta magához szobaleányát. Néha napokig nem
+               tudott aludni, ilyenkor aztán morfiummal segitett magán, de a nagy adagokban
+               alkalmazott szer majd az eszét bontotta meg. Hanem, mondom, e beteges, ideges
+               állapotok mind csak addig tartottak, mig gondolkozni, latolni, fontolni, emlékezni
+               birt: lassankint agya kifáradt a tépelődésben, analyzisben s elaludt érzékeinek
+               szerelmi mámorában... De egészben véve csodálatos szerelem volt ez: Melanie
+               boldogsághajhászó gondolatai közepette mindvégig csak magára gondolt, magára
+               figyelt, magát ellenőrizte, hogy vajjon elérte-e hát, vagy elfogja-e érni azt a
+               boldogsági állapotot, mely után annyit vágyódott...</p>
+				<p>A főhadnagy, kinek különben határozottan tetszett az asszony, bár szeszélyei olykor
+               untatták s elég bajt okoztak neki, - csodálkozva s néha szomoruan analyzálta a
+               „szegény asszonyt”, a ki minden áron szerelmes akart lenni beléje, nem is, - javitá
+               ki magát - valakibe, egyáltalán valakibe akart szerelmes lenni... „Mért választott ki
+               ép engemet?” gondolá olykor, „biz isten sajnálom kellemes, melankholikus
+               diskurzusainkat, ott a vörhenyes homályu boudoirjában - - oly jól elmulattunk... s
+               most mindennek vége van. Mert határozottan sokkal jobban lehet vele diskurálni, mint
+               szeretkezni... „A főhadnagy meglehetősen ridegen és szomoruan itélte meg a nőket.
+               „Hja”, mondá, „nem tehet róla, nem minden asszony született szeretőnek... S milyen
+               könnyelmü! Férjének pedig oly rokonszenves vagyok, alig tudok szabadulni tőle, -
+               olyan szives, előzékeny hozzám az utóbbi időben, - ha ez igy tart, biz’isten
+               lelkiismereti furdalásaim lesznek...”</p>
+				<p>Kihuzta a fiókjából Melanie egy arczképét és hosszan elnézte. „Csodálatosan érdekes
+               egy asszony”, mormogá, „egyike a legszebb alakoknak, mely valaha a kezem közt
+               megfordult. Csak kicsit sokat olvasott, sok a vérében a tinta, - olyan mérges
+               anilintinta... Az ilyen asszonyok aztán olyan tapasztalatlanul botorkálnak a
+               szenvedélyben, mint a részeg emberek a sötétben. Egyre csak boldog akar lenni, s ha
+               valaki e gondolatot agyában már annyira elkoptatta, mint ő, lehet-e igazán
+               öntudatlanul boldog? De a mellett sok ős-eredeti vonás van benne, csodálatos vadság,
+               kétségbeesett ragaszkodás rögeszméihez... no meg a haja szine, az határozottan
+               gyönyörü, kissé ugyan, a mint nekem bevallotta, elle a corrigé la
+                  fortune; vagyis angol szódás vizben mosogatta a fejét, s azért lett olyan
+               aranyvörös szine a hajának - de hát hisz ez mindegy, az embernek az asszonyokat ugy
+               kell venni, a milyenek, sose szabad őket alkatrészekre dekomponálni... Csak egyre
+               gyanakszom: én azt hiszem, hogy ez az asszony mindig csak egy embert szeretett: a
+               férjét s hogy bennem is most is azt a régi szép főhadnagyot szereti. Szegény
+               asszony, valószinüleg nincs tisztában azzal, hogy voltakép mért dőlt a karjaimba, -
+               szegény Melanie! nem tudja, hogy az elmék s az érzékek harmóniája még nem szerelem, -
+               hogy oda a lelkek harmoniája is szükséges...”</p>
+				<p>Egy czigarettára gyujtott s elmosolyodott. Czinikus paradoxokat mondó kedvében
+               volt.</p>
+				<p>- Titkolta, de megtudtam, hogy huszonnyolcz éves lesz... Szegény Melanie! Hogy lehet
+               az embernek huszonnyolcz éves korában fogni az első szeretőt! Minden asszony eleve
+               határozza el magában: akar-e szeretőt tartani vagy sem s ha akar, kezdje korán és
+               semmi esetre sem oly későn, mint Moszkovszky Melanie... Ez az asszony ép oly
+               ügyetlennek tünik fel előttem, mintha egy tizennyolcz éves fiu kezdené az első elemit
+               járni...</p>
+				<p>Kaczagott, de elszégyelte magát, a mért ily rossz nyelve van.</p>
+				<p>- Csodálatos, mormogá, pedig más körülmények közt, azt hiszem, nagy szerelem
+               támadhatott volna közöttünk. De hát nekem az a bajom, hogy tulsokat akartam szeretni
+               s most már félek szeretni, vagyis véglegesen odaadni egy
+               asszonynak a szivemet, - neki pedig az a baja, hogy tulságos hirtelen adta ide a
+               magáét... Melanie egyszerüen téved; még mindig a férjét, azt a régit szereti...
+               Engem? Engem nem is ismer, hisz a férjét látja bennem... De hát mit tegyek?
+               Megmondjam egy asszonynak, hogy ne szeressen? Eh, őrültség! Az ember tépje le a percz
+               virágait...</p>
+				<p>Féltizenkettő volt. Kiment az udvarra s habozni látszék. Moszkovszky Sándor az este
+               érkezett meg, - illeni fog, gondolá, ha ebéd előtt átlovagol hozzájuk s kezet szorit
+               a férjjel... Elmosolyodott, de aztán a szégyen s az undor hideg borzongatása
+               szaladt átal a testén. Alapjában megfigyelő természeténél fogva meglehetős hideg
+               ember volt, kevéssé szenvedélyes és igy a tisztességes érzéseknek sok olyan motivuma
+               maradt meg benne, a melyek máskülönben igen önérzetes embernél a szerelem kiméletlen
+               hevében rendesen el szoktak párologni. Szegény ember, mormogá, miközben intett a
+               legényének, hogy nyergelje fel „Oterót”. Kis foxterrierje, „Comtesse” látva a
+               készülődéseket, örülve, csaholva futott az istálló felé. Dodó felhuzta keztyüit s az
+               alatt felnézett az égre, mely fellegtelen volt.</p>
+				<p>- Mily csodálatos, gondolá, mint valami sima tenger vizébe buktatva belé pillantását
+               a kék azurba, odafent minden csupa harmonia s idelent a földön minden disharmonia...
+               Aztán elkaczagta magát költői hangulata felett. Eh, ha engem nem vett volna, vett
+               volna mást. Nevetséges dolog, hogy az ember egy asszony miatt szemrehányásokat tegyen
+               magának; ha én nem, hát más... akkor hát mégis inkább én! Nem?</p>
+				<p>Lóra ült s elvágtatott.</p>
+			</div>
+			<div type="chapter">
+				<head>IV.</head>
+				<p>S mialatt a mezőségen repült tova, mely a déli nap aranyhevében sült, perzselődött,
+               vidámabb gondolatai támadtak a hullámos vadászgalopp alatt. Eszébe jutott a tegnapi
+               este... még kevés ilyen édes estéje volt életében. Szerelmük oly magasra szállt
+               velük, hogy már magasabbra nem is szállhatott, ezután szükségképen vagy lejebb
+               kellett ereszkedniök idealizmusuk léghajójával vagy maradniok: de hisz a szerelemben
+               a maradás is hanyatlás... Melanie délután kapta meg férje sürgönyét, hogy érkezik.
+               Este tizig hát még együtt lehetnek. Annyit sirt délután, hogy Dodó alig győzte
+               vigasztalni. Miért sir? Melanie kimeresztette a szemét.</p>
+				<p>- Félek, mormogá összerázkódva.</p>
+				<p>- De mitől, angyalom? A férjedtől? Hisz, ha...</p>
+				<p>- Nem, ne, - ne, mormogá a szőke asszony, ne mondja kérem, hogy ha kell lelőné, mint
+               a - nem, ne mondjon semmit, hiszem én, hogy maga bátor ember, de lássa Sándor olyan
+               jó...</p>
+				<p>- Hát akkor mitől?</p>
+				<p>- Hát... az isten tudja, mindenkitől, magamtól... szóval félek, mint mikor az ember
+               messziről, mértföldekről égés-szagot érez s nem tudja, de gondolja, hogy hátha a maga
+               háza égett le...</p>
+				<p>Dodó csodálkozva nézett mélyen a szemébe, azokba a hajdan oly okos szemekbe,
+               melyeknek kifejezése most oly zavart és csupán ösztönt-kifejező volt. Ugy szeretett
+               volna belőlük valamit kiolvasni, - szeretett volna vitatkozni az asszonynyal, mint
+               régen, mikor még oly szubtilisan tudtak beszélgetni az érzelmekről... hiába! Most,
+               hogy pillanatra csak eszével nézte Melaniet, ugy érezte, mintha egy idegen nő ülne
+               mellette: a szerelemnek, az érzékeknek az a misztikus heve elperzselte közöttük az
+               intellektuális szálakat. Dodó kinek nőkkel szemben az volt az elve, hogy sohase
+               csodálkozzék semmin s vegye a dolgokat mindig ugy, a hogy alakulnak, csakhamar
+               belátta, hogy ezekbe az intellektuális szálakba ugyis hiába kapaszkodnék, - átölelte
+               hát az asszonyt és sugdosott a fülébe jelentéktelen, banális dolgokat, - de
+               gyöngéden, édesen. S Melanie boldog volt, - Dodó pedig konstatálta lelke mélyén, hogy
+               az asszony arra ugyszólván nem is figyel már, hogy mit mond, - érzelemszomjas
+               lelkének csak a hang iránt van már érzéke, hogy szerelmes-e vagy sem... De hát
+               nincs-e igaza? Ugyan mire is való az a gondolat, - hisz csak gyötrelmére van az
+               embernek...</p>
+				<p>Nyolcz óra felé lopva kisétáltak a rétre s a füzek fekete törzsei s a szundikálva
+               zizegő nád mellé bujva várták az esti tiz órát, mikor a férjnek érkeznie kellett.
+               Leheveredtek a buja mérges zöld gyepre s egymás szemébe néztek annyira boldogan, hogy
+               szinte szomoruan. Dodó elfeledte theoriáit, - kevés „iniziativája” volt az
+               érzelmekben, magától ritkán hevült fel, de az asszony szenvedélyének a látása őt is
+               felhevitette. A szerelem olykor olyan, mint a ragadós betegség, némely ember nem
+               kapja meg magától, csak mástól, attól a ki beléje szerelmes... S az est oly gyönyörü
+               volt, oly hangulatos, hogy Dodó, ki impresszionista és a hangulat embere volt, igazán
+               konstatálta magában, hogy boldog. A sötétlő ég, mintha ujonnan lett volna
+               tegethoffkékre kifestve, még a csillagok brilliántja is, mintha ujonnan lettek volna
+               kiköszörülve; - messziről melankholikusan brekegtek a békák s a levegőben, mint egy
+               zefir lebegett körülöttük a frissen kaszált széna illata... Alig beszéltek, Melanie a
+               főhadnagy vállára dőlt.</p>
+				<p>- Hallgasd csak, susogá a bolondos asszony, sziveink egyszerre dobognak... igazán
+               csodálatos, - egészen egyszerre...</p>
+				<p>Aztán megint hallgattak. Egyike volt ez azon ritka perczeknek, mikor két lélek oly
+               harmoniában tapad egymáshoz, hogy szinte egybeolvadnak, mikor két lénynek minden
+               gondolata ugy rimel, mint egy örök szép szerelmes vers sorai, - mikor a hangulatok
+               oly csodás szimfoniába olvadnak össze, hogy az ember szinte rettegve gondol arra az
+               okvetlen elkövetkezendő pillanatra, mikor az első hamis hang meg fogja zavarni a
+               büvös harmoniát. S az ettől való félelemben a boldogság oly édesen kinossá válik...
+               Lassan egy könycsepp gyült össze a Melanie szemében.</p>
+				<p>- Mi bajod, angyalom? mormogá Dodó.</p>
+				<p>- Én nem tudom, zokogá az asszony, de mi oly szomoruan ülünk itt, mintha bucsuznánk,
+               pedig csak a férjemet várjuk...</p>
+				<p>S egyszerre őrült jókedve támadt. Hentergett, ugrált a gyepen, majd meg kibontotta
+               gyönyörü arany-haját s mint valami hálóval, ugy fogta vele az esteli pillangókat.
+               Dodó álmélkodva nézte... Később még azt is megtette, hogy lehuzta lak abbé czipőit s
+               fekete harisnyáit s belegázolt a nem messze eső tóba... Mikor végre fáradtan
+               visszajött, megállt a szeretője előtt s pillanatra merően ránézett oly okosan, mint
+               régen. Még csak nem is tegezte.</p>
+				<p>- Tudja-e főhadnagy ur, hogy én most nem vagyok magamnál?</p>
+				<p>Dodó mosolygott.</p>
+				<p>- Nem tudom, mit csinálok... meg fogok őrülni...</p>
+				<p>E pillanatban tizet ütött az óra a falu tornyában. Mint a villám járta át e hang
+               Melaniet.</p>
+				<p>Hevesen, nagyon hevesen átölelték egymást s Melanie aztán visszafutott a parkba. A
+               messze országutról fehér porfelleg közül hallatszott elő a hazatérő férj kocsijának a
+               zörgése...</p>
+				<p>Dodó csak tovább vágtatott a földeken. A kastély előtt leugrott lováról s kissé
+               udvariaskodva lépett a szalonba. Senkise volt bent. Óvatosan nyitott be aztán a
+               Melanie boudoirjába. A szőke asszony ott feküdt a vörhenyes félhomályban. Ránézett
+               örökké változó szfinx-szemeivel, melyek most szinte zöldeknek tetszettek.</p>
+				<p>- Itthon van Sándor? kérdé susogva Dodó s melléje térdelt.</p>
+				<p>Az asszony ujjai valami daczos gyöngédséggel siklottak a főhadnagy hajába.</p>
+				<p>- Kilovagolt a földekre, mormogá, mindjárt itt lesz...</p>
+				<p>Egymásra néztek. A veszély közelségének érzete valami rejtelmes, szinte szenvedélyes
+               melegséggel hatotta át őket, - valahogy közelebb hozta a két töprengő lelket
+               egymáshoz. Dodó beszélt, halkan, hevesen, - maga is elcsodálkozott magán: majdnem a
+               szenvedély öntudatlan nyelvének a szavai buggyantak ajkaira. Melanie behunyta a
+               szemét s hanyatt dőlve kerevetére, ugy hallgatta. Ott feküdt: egy fáradt tropikus
+               virág, mely a nap hevétől az árnyékba dől...</p>
+				<p>- Beszéljen, beszéljen... mormogá.</p>
+				<p>Dodó elmosolyodott s aztán tovább beszélt. Közben olykor ösztönszerüleg hátra
+               pillantott, s a közeledő veszély mintha egyre szenvedélyesebb szavakat adott volna a
+               szájába... Melanie még mindig behunyt szemmel feküdt ott s csak olykor emelt egy
+               „lavender salts” brelok-üvegcsét az orrához.</p>
+				<p>- Beszéljen, - beszélj... ugy hasonlit a hangod a régi Sándoréhoz, mintha csak őt
+               hallanám, mikor vőlegény korában igy mellém térdelt...</p>
+				<p>Ugy a hogy volt, vakon kinyujtotta a kezét s kedvtelve mélyeszté ujjait a főhadnagy
+               hajába. Gyürüinek a kövei villogva szikráztak elő a vörhenyes félhomályban a sötét
+               fürtök közül. Aztán végig jártatta a kezét az arczán, a nyakán s végre az atilla
+               mellsujtásához ért... Szinte ijedten kapta vissza mintha megcsipték volna.</p>
+				<p>- Ilyen... ilyen, ép ilyen volt... jaj nem, ez a sujtás nem volt a mellén...</p>
+				<p>- Persze, mormogá Dodó, gondolkozó mosolylyal csókolgatva elfogott kezét, hisz az
+               uhlánusoknak nincs sujtásuk a ruhájukon!</p>
+				<p>Lassan nyiltak ki a Melanie szemei. Pillái közé mohón tolakodott be a vörhenyes fény,
+               melytől zöld szemei szinte megijedtek, elszédültek. Fölugrott s két karja közé kapva
+               a Dodó fejét, eszeveszetten ölelte és csókolta össze.</p>
+				<p>- Jaj, ugy-e milyen bolond vagyok, - te édes szép katonám...</p>
+				<p>Mint egy csodamód kinyilt, kábitó illatu, tropikus virág állott ott fantasztikus
+               pongyolájában, melynek szárnyai buja, lusta levelekként simultak le, fedték el a
+               virág meleg fehér testét; lábai oda gyökereztek bele abba a hosszuszőrü szmirnába,
+               mig leheletgyöngéd körvonalu nyakán ülő bimbója, feje tetején a szőke haj szinte
+               aranygőzben porzott a vörhenyes világitásban... Dodó átölelte keskeny csipői körül s
+               felnézett rá. E pillanatban igazán azt hitték, hogy szeretik egymást. S ki
+               tudja...</p>
+				<p>Siető, gyors lépteket hallottak. Dodónak alig volt annyi ideje, hogy egy gyakorlott
+               fordulattal valami távolabb eső kerevetre perdüljön.</p>
+				<p>- Sándor jön, mormogá az asszony.</p>
+				<p>Csakugyan Moszkovszky Sándor volt. Már kora reggel kiment volt a gazdaságba; három
+               hete nem volt otthon, igy hát jó sok dolga akadt. De roppantul örült, hogy megint
+               otthon lehetett s különben is a nagy temperamentumoknak a közönséges viszonyok közt
+               szokásos jóakaratu közönye volt meg benne s igy csak mérsékelten szidta össze
+               parasztjait s ispánját. Mindennek örült! régi pej charge-lovának, melyet olykor még
+               most is megijesztett azzal, hogy hirtelen „atakot” kiáltott a fülébe, a jó meleg
+               nyári napnak, a sárga mezőknek, zöld kaszálóknak, mindennek... a mint a dülő-utakon
+               tovalovagoltak az ispánnal, hébe-korba szeretettel simogatott meg még pár buzakalászt
+               is. Szelid, jóakaratu férfi volt, a kit általában szerettek az emberei, bár azért
+               féltek is tőle, mert hogyha felbőszült, hát rettenetes tudott lenni. Délfelé végre az
+               utolsó táblához értek. Az ispán megtörölte gyöngyöző veritékes homlokát.</p>
+				<p>- Dél van, méltóságos uram!</p>
+				<p>- Megyünk fiam, megyünk, mormogá Moszkovszky. S ép lóra akart ülni, mikor észrevette,
+               hogy henye, rövid galoppban egy lovas tart feléjük. Tarka ruházatáról azonnal
+               ráismert, hogy Kamásly Friczi. Még a lova is tarka volt, majdnem olyan gigerli, mint
+               a gazdája.</p>
+				<p>- Szervusz öreg czimbora! kiáltá borizü lelkesedéssel már messziről. Mikor jöttél
+               meg?!</p>
+				<p>- Tegnap este, mondá Sándor jókedvüen, kezét a nap heve ellen ellenzőül szeme elé
+               huzva.</p>
+				<p>- Ezer esztendeje nem láttalak, folytatá Friczi, méltóságosan adva át lovát az
+               ispánnak. Hol csavarogtál öreg ennyi ideig?</p>
+				<p>- Bécsben voltam a gazdasági kiállitáson, mormogá Sándor, önkénytelen elmosolyodva a
+               Friczi öltözetén, mely tarkaságában ugy kiritt a természet becsületes, egyszerü
+               szinei közül. Friczi azonban csak ravaszul sanditott elő szemébe nyomott zöld kalapja
+               karimája alól. Apró savó szemei mintha csak valami mély pinczelyukból pislantottak
+               volna fel a napvilágra. Vörös orra ugy ragyogott a napon, mint valami igen gondosan
+               kitisztogatott csengetyü-gomb.</p>
+				<p>- Ittatok-e sokat öreg, mi? csacsogott tovább Kamásly Friczi. Sokat szeszeltetek?
+               Remélem, csak asztal alá kefélted a német sógort, he? Hát szóval jó dolgod volt.
+               Minket meg itt hagytál magunkra a jó czimborákat, házat, feleséget...</p>
+				<p>Sándor szórakozottan nézett a tábla végére: eszébe jutott valami, mindjárt oda is
+               szólt az ispánnak:</p>
+				<p>- Hallja csak Buzás, lássa odaát...</p>
+				<p>Kamásly Friczi nem volt megelégedve ékesszólásával. A mult héten a park végében
+               meglepte a főhadnagyot a bárónéval. Most tehát boszut állhat magáért! Jaj, csak, hogy
+               adja be ezt a pilulát Moszkovszky Sándornak?! Nem tudott a mondókájába belekezdeni,
+               akár csak egy sündisznót próbált volna megfogni.</p>
+				<p>Nemsokára odább sétáltak hármasában az ispánnal, a ki hátul a lovat vezette.</p>
+				<p>- Nincs valami szesz nálad? kérdé Friczi végre, „kiszáradtam...”</p>
+				<p>- Mindjárt ott leszünk az öreg csősznél; mondá az ispán.</p>
+				<p>Betértek az öreg csőszhöz. Az öreg meg az ispán magukra hagyták a kis szobában az
+               urakat. Buzás kis bort tett eléjük az asztalra. Sándor is megszomjazott s különben is
+               fáradt lévén, szivesen ivott. De a délelőtti rengeteg hőség után hamar a fejébe
+               szállt az ital. Ledőlt a fal mellé a lóczára s olyan édes félálomban hallgatá a
+               Friczi fecsegését. Csak itt-ott akadt meg fülében egy pár szó. Pedig a tarka ember
+               egyre hevesebben beszélt. „Becsület” - „hüség” - „önzetlenség” - mind e szavakat csak
+               ugy elvétve hallotta meg Moszkovszky Sándor, mert egy ostoba légy egyre ott
+               küzködött, zümmögött az orra előtt a piszkos ablaküvegen. Lassankint Kamásly Friczi
+               is „megtelt”, a mint ő szokta mondani. De azért csak egyre hevesebben beszélt. Utóbb
+               már szinte el is feledte boszu-tervét, vagy legalább is ugy alakitotta át „szeszes”
+               agyában, hogy voltakép neki már csak kötelességből is meg kell mondani azt a
+               borzasztó ármányságokat jó barátjának, - neki, Kamocsay Frigyes urnak, meg kell
+               mentenie egy másik ur barátját az ilyen borzasztó szégyentől. Végre már annyira
+               beleélte magát önérzetébe, hogy majdnem gazságnak tünt fel előtte, hogy idáig is
+               hallgatott. Sajnálni kezdette Sándort, olyannyira, hogy szinte könyezett belé.</p>
+				<p>- Sándor pajtás, kezdé s felkelvén oda csoszogott a fekvő emberhez, Sándor pajtás!
+               Szeretsz engem?</p>
+				<p>- Szeretlek; - mormogá Sándor félálomban.</p>
+				<p>- De igazán?</p>
+				<p>- Igazán.</p>
+				<p>- Hát hiszed-e, hogy én jó czimborád vagyok neked?</p>
+				<p>- Hiszem, hiszem... „csak most ne”...</p>
+				<p>- Jó, jó, csillapitá Friczi, hát hiszed-e, hogy én a legönzetlenebb baráti indulatból
+               mondom neked azt, a mit most mondok?</p>
+				<p>- Mit? kérdé Sándor álmosan, kelletlenül.</p>
+				<p>- Megállj csak öreg kissé. Hát hiszed? Jól van... Szinte könyek gyültek a tarka ember
+               szemeibe. Igyunk előbb egyet, hogy meg légy győződve érzelmeim való igaz
+               voltáról...</p>
+				<p>Ittak. Sándor ismét a falhoz akart fordulni. Már nem tudta, hogy a légy zümmög-e vagy
+               Kamásly Friczi fecseg-e még mindig.</p>
+				<p>- Hát barátom, öreg czimborám, zokogá Friczi letérdelve a nedves földre a piszkos
+               lócza mellé s a Moszkovszky Sándor hátára dőlve, - hát jó, szivem vérzik, de
+               kimondom: a bárónő ő méltósága... nagyon sokat van, izé... szóval a feleséged megcsal
+               téged... annak a Donhofennek, annak a Dodó főhadnagynak a szeretője...</p>
+				<p>Álmos ember fejébe csoszogva érnek be a szavak és a gondolatok. Sándor még mindig a
+               légy zümmögését hallotta, egyszerre azonban mintha ez a légy darázszsá változott
+               volna s mintha az a pár szó ennek a darázsnak mindmegannyi fulánkszurása lett volna,
+               melyek mérgesen egyre jobban sajgó fájdalommal nyilallottak fel valahová a fejébe.
+               „Feleséged... megcsal... Dodónak a... szeretője...” s a mint a nehéz hangok zugó
+               dobhártyájáról labdákként dobogva pattantak vissza, echójuk mint valami orditás
+               visszhangzott egész testében. De ez csak egy pillanatig tartott, addig, mig,
+               eszmélete visszatért. „Szemtelen, bitang fráter,” gondolá, „ha már itt ül a nyakamon
+               s berug, legalább ne sértegesse a feleségemet!” Végigsimitotta sebhelyes homlokát s
+               gondolatban bocsánatot kért az ő szép Melaniejától, a mért pillanatra kétkedni mert
+               benne. Régebben, hónapokkal azelőtt, egy nagyobb társaságban sokat vitatkoztak a
+               megcsalt férjek felett, - hej ha most eszébe jutott volna Sándornak, a mit akkor Dodó
+               axiomául felállitott, hogy t. i. „egy igazán szerető férj sohase hiszi el a
+               feleségéről, hogy megcsalta...” De nem gondolt ő most másra, csak az a részeg ember
+               volt a fejében, a ki a feleségét megsértette. Mint egy lassan feltápászkodó lihegő
+               fenevad kelt fel benne a nyugodt emberek nagy haragja, borzasztó indulata. - Felállt,
+               kihuzta magát, szinte karcsubbá lett izmai feszületében.</p>
+				<p>- Mit mondtál? kérdé siket hangon, kelletlenül s kigombolta a kabátját, mert majd
+               megfult.</p>
+				<p>- Édes barátom, morgá Friczi, megölelve a haragvó embert, hiszed-e, hogy én vagyok a
+               legjobb barátod? Csak azt mondd, hogy hiszed-e?</p>
+				<p>Sándor félrelökte őt.</p>
+				<p>- Mit mondtál az elébb, kérdem?</p>
+				<p>- Hát csak azt, mondá szerényen Friczi, hisz nekem a szivem vérzik, hogy el kell
+               mondanom, de hát a barátság szent kötelékei füznek hozzád... hát csak azt, hogy a
+               báróné ő méltósága igen sokat... izé... van azzal az izé... no...
+               huszárfőhadnagygyal...</p>
+				<p>Moszkovszky Sándor mintha megnőtt volna: izmos keze mintegy pöröly csapott le a kis
+               pisze ember vállára.</p>
+				<p>Kamásli Friczi a becsipett emberek változó kedélyhangulatánál fogva mást gondolt.
+               Megharagudott.</p>
+				<p>- No mit szorongatsz?</p>
+				<p>- Beszélj! orditá Moszkovszky Sándor.</p>
+				<p>- Beszéljek? dörmögé mérgesen Friczi, hát hiába is üvöltesz mint egy vadállat,
+               mondottam, mondom is: a feleséged megcsal azzal a huszárral, szeretője Dodó
+               főhadnagynak...</p>
+				<p>Tán még akart egyebet is mondani, tán épp azt, hogy megleste, meglepte őket, - de
+               erre már nem ért rá. Sándor ugy nekilóditotta az ajtónak, hogy Friczi azzal együtt
+               esett ki a pokolian forró utihomokra.</p>
+				<p>- Ispán, - te öreg! orditá Moszkovszky, - ide nézzetek! S a feltápászkodó embert ugy
+               ütötte nyakon, hogy az visszaesett. „Láttátok?”</p>
+				<p>Az öreg csősz, ki filozóftermészetü ember volt s a kin Kamásly Friczi egy agarászat
+               alkalmával végighuzott az ostorával, szeliden igy szólt:</p>
+				<p>- Én nem láttam, méltóságos uram...</p>
+				<p>Még egy óriási pof csattant el a Friczi képén, az ispán rémülten hajolt le hozzá,
+               mert megeredt az orra vére. De Moszkovszky Sándor már ekkor nyeregben ült s egy
+               eszeveszett mars-marsban vágtatott toronyiránt haza a kastélyába.</p>
+				<p>S a mint öreg charge-lova szokatlan erővel érezve bordáiban a sarkantyukat, mintegy
+               hajdani atakot szimatolva, őrülten robogott végig a tájon, az eszeveszett vágtatás
+               heve s az események felkorbácsolta vérének lüktetése Sándorban is csodálatos, rég
+               elfeledett indulatokat rázott fel. A galopp fizikai mámora ragadta el; ismét
+               katonának érezte magát, annak a kaczkiás uhlánus főhadnagynak, a ki keresztül kasul
+               megyen mindenen, ép ugy, mint az elébb azon a nyomorult ficzkón keresztül ment, a ki
+               a feleségét megsértette. Kiegyenesedett nyergében, egész más szemekkel nézett végig a
+               földjein, pillanatra ismét csak „manöver-terrain”-nak látta őket s nem pedig a gondos
+               gazda jószágainak... Még egy drága dinnyeföldnek neki is vágtatott s szinte vad
+               örömmel nézte, mint katonakorában, lova hogy rugja fel a levegőbe a becses
+               kantaloupokat... Ostorával szilajon csapkodott jobbra, balra... Megifjodott: munkában
+               megöregedett lelkén a régi daliásság szele zugott által. - „Hollá, Exact!” s kastélya
+               előtt az utolsó földön még szilajan ugratta át sorban a kereszteket. Az öreg kertész
+               a park ajtajában tisztára azt hitte, hogy megbolondult a méltóságos ur.</p>
+				<p>Moszkovszky Sándor pedig, mikor szokása ellenére jobb lábát huszárosan átvetve a
+               nyeregkápán, leugrott az udvar kavicsára, oly jól érezte magát, mint mikor egy
+               fejfájós, apoplektikus emberen eret vágnak; ez a felindulás, ez a nagy idegmozgás már
+               rég kellett poshadó vérének. Most megkönnyebbülten, tisztultabb agygyal, fürgén
+               szaladt fel a lépcsőn. Meg akarta ölelni azt az ő drága feleségét, a kit ugy
+               elhanyagolt az utóbbi időben „ostoba földturó mániája” miatt... Na, de majd máskép
+               lesz ezután! S az alatt a pár pillanat alatt, mig felesége budoirjának az ajtajához
+               ért, egész terveket, légvárakat épitett: boldogan fognak falun élni, kényelemben,
+               felesége lovagolni fog, - nagy házat visznek, - hisz most már teheti! - Télen pedig
+               Pestre mennek farsangolni...</p>
+				<p>- Édes angyalom, Melanie... mormogá magában Moszkovszky Sándor ideges gyönyörrel s
+               szemeibe szinte könyek gyültek. Berohant a szobába.</p>
+				<p>Valahányszor szép feleségének ez elegáns szentélyébe belépett, mindig szinte
+               elérzékenyedett. Oly csöndes szégyennel érezte mindannyiszor, hogy ez a gyönyörü
+               asszony mennyivel felette áll neki. Napbarnitotta, eldurvult kezeit ilyenkor mindig
+               vadászjaquettejének a zsebeibe dugta: még leülni is alig mert, nehogy összetörjön
+               valami japán vagy párisi csecsebecsét. Sőt az inast se merte soha összeszidni a
+               felesége boudoirjában.</p>
+				<p>- Édes kicsikém... mormogá, kihuzva magát az ajtóban s pillanatra gyönyörködve
+               szemlélvén a kereveten ülő feleségét. Az asszony meglepetve, szinte ijedten nézett
+               rá, elcsodálkozott azon a szenvedélyes s mégis oly gyöngéd arczon s ruganyosságában
+               oly daliás alakon... Sándor a szoba félhomályában pillanatra észre se vette Dodót;
+               odaszaladt s szokása ellenére letérdelt Melanie elé. Asszonyokban kiszámithatatlan
+               gyorsasággal mennek végbe változások: Moszkovszkyné mintegy álomban töprengő
+               mosolylyal nézte azt a ragyogó szemü, nyilt arczu, szinte megifjodott embert, a ki
+               most azon a helyen térdelt előtte, a hol az elébb a főhadnagyot, az ő szeretőjét
+               látta. Régi dolgok, elröppent perczek jutottak az eszébe: szinte majd megfeledkezett
+               arról, hogy hü szeretőként lopva Dodóra pillantson: vajjon biztonságban van-e s
+               valamely mozdulata nem árulja-e el őket?... Végre hanyatt dőlt, összekulcsolta feje
+               megett a kezeit s pillanatig a plafondra nézve, mintha borzasztó erővel
+               összpontositotta volna valamire a figyelmét, hallgatott. Végre hangosan, csengően
+               felkaczagott:</p>
+				<p>- No mi lelt, öreg? Mi jutott eszedbe? Szerelmet akarsz vallani?</p>
+				<p>- Édes Melaniem, - mormogá Sándor szinte remegő hangon, s lelkében előbbi alacsony
+               gyanujának a szégyenfoltja ismét égni kezdett. Ah, ha tudnád, micsoda bolond esetem
+               volt az elébb...</p>
+				<p>Felesége ölébe hajtotta a fejét. Melanie szinte tetszelegve nézte, de aztán ismét
+               felkaczagott, Dodóra pillantott s térdével félre lökte a férje fejét.</p>
+				<p>- De édes Sándorom, csak nem fogsz itt - vendég előtt érzelegni?</p>
+				<p>- Vendég előtt?</p>
+				<p>- No persze, - hisz itt van Donhofen - ott nevet már mióta a hátad megett!</p>
+				<p>Sándor szégyenkezve ugrott fel s nézett hátra. Dodó felkelt s vigan nyujtá kezét.</p>
+				<p>- Szervusz édes öregem! kiáltá Moszkovszky egészen szilajan. Jobb karjával átölelte a
+               főhadnagyot s megveregette a vállát. - Annál jobb, hál’ Istennek, hogy itt vagy - -
+               igen, igen, - barátom, oly csúf, piszkos egy história, hogy szinte szégyenlem
+               elmondani...</p>
+				<p>Melanie felkelt, lustán támaszkodott oda a falhoz, óriás Makart-csokra mellé s
+               csodálkozva, álmatag mosolylyal nézte a két embert.</p>
+				<p>- Nos hát, kezdé Sándor egy czigarettre gyujtva...</p>
+				<p>- Nini, czigarettázol? Mióta? kaczagott élénken Melanie, várj öreg, ezek
+               jobbak...</p>
+				<p>- Nos hát, képzeld, édes barátom, oda kint a tatárdülőn kivel találkozom:
+               Kamocsayval, tudod, azzal a szamár Kamásly Friczivel...</p>
+				<p>Melanie idegesen hajlott előre, szája széle megrándult, mintha czipője szoritotta
+               volna.</p>
+				<p>És Sándor aztán elmesélte az egész dolgot, egyre szégyenlősebben, egyre
+               kelletlenebbül. Mikor azonban a Friczi baráti titkához ért, habozni látszék.</p>
+				<p>- Nos, kérdé Dodó élénken s biztos közönynyel: ő már átlátta az egész helyzetet.</p>
+				<p>- Hát képzeld, barátom, - folytatá Sándor szégyenkezve, mit mond ez a szemtelen
+               fráter! Az embernek igazán megáll az esze, hogy a világ mi minden aljas módon nem
+               akarja egy család békéjét feldulni! azt mondta, hogy... te - te az asszony szeretője
+               vagy!</p>
+				<p>Egyet fordult a sarkán s jóizüen felkaczagott.</p>
+				<p>- Én a szeretője - micsoda asszonynak? kérdé Dodó udvariasan mosolyogva.</p>
+				<p>- A feleségemnek a szeretője!! kiáltá Sándor és nevettében a pamlagra veté magát.</p>
+				<p>Dodó és Melanie egymásra néztek. De odakint a nap valami sötét felhő mögé bujhatott,
+               mert a szoba szinte egészen elsötétedett... Nem tudtak egymás arczából semmit se
+               kiolvasni. Pillanatig csend volt, aztán mind a ketten felkaczagtak, idegesen,
+               hidegen. A főhadnagy ismét az asszonyra nézett, de ez elforditotta a fejét: Dodó
+               egész rococo udvariassággal hajolt meg s mondá Sándor felé:</p>
+				<p>- Báróné, én nagy bóknak veszem ezt a gyanusitást...</p>
+				<p>- Na hát, mormogá Sándor elkomolyodva, óriási szemtelenség és én...</p>
+				<p>- Mit csináltál vele? kérdé Dodó, hanyag lustasággal belevetve magát egy
+               karosszékbe.</p>
+				<p>- Barátom, ugy vágtam kétszer pofon, hogy az ispán tán még most is állitgatja az orra
+               vérét -</p>
+				<p>Sándor mint egy gladiator emelkedett fel s szinte ütésre emelte hatalmas karját.
+               Melanie Dodóra pillantott. A főhadnagy még mindig jóizüen nevetett.</p>
+				<p>Aztán még sokat beszéltek a dologról s eleget nevettek rajta. Végre Dodó másról
+               kezdett beszélni.</p>
+				<p>- Apropos, egy nagyszerü lovat találtam számodra, egy North Star-Highflyert...</p>
+				<p>- Hohó barátom, vágott a szavába hevesen Sándor, ki időközben pár pohár cognacot is
+               kiivott - nem addig van az... Valamire akartalak kérni.</p>
+				<p>- Parancsolj...</p>
+				<p>- Tudod, már megint egész felforrt a vérem, hogy arra a nyomorultra gondoltam - -
+               hisz pofon vágtam kétszer, de utoljára is a feleségem becsületéről van szó, össze is
+               akarom vágni... Lészsz oly szives, ugy-e édes Dodó s valamelyik barátoddal, tán
+               Nyitrai kapitánynyal elmész s kihivod Kamocsayt. Tudod, én hivom ki, a ki
+               pofonvertem, ha-ha! Kardra megyünk, nehéz lovassági kardokkal, minden bandázs nélkül
+               a végkimerülésig...</p>
+				<p>Moszkovszky Sándorból egész gyerek lett: oda feküdt a felesége elé a földre s ugy
+               czirógatta a lábait. Dodó csodálkozva nézte.</p>
+				<p>- Mijét vágjam le - ugy-e az orrát? Vagy tán a fülét? motyogá Sándor egész
+               boldogan... És Melanie bohókás kedvteléssel nézte, hogy a férje hogy csókolgatja a
+               kezeit. Olyan tréfás hangon ment az egész dolog, hogy se Dodó, se az asszony egy
+               szóval se tartóztatták Sándort a párbajtól. De nem, sőt Melanie egész kaczér
+               kegyetlenséggel erősitgeté egyre:</p>
+				<p>- Az orrát is, a fülét is vágd le, édesem...</p>
+				<p>- Én hát akkor, kezdé végre Dodó, megigazitva elől atillája ránczait, mindjárt lóra
+               is ülök s egyenesen Nyitraihoz megyek... kezét csókolom, méltóságos asszonyom.</p>
+				<p>Pillanatra egymás szemébe néztek, halálos komolyan, mintha azt kérdezték volna
+               egymástól: mi lesz most...</p>
+				<p>- Előre is köszönöm a jóságodat, édes czimborám! kiálta Sándor kipirulva,
+               lelkesedetten s ujból megölelte Dodó főhadnagyot.</p>
+			</div>
+			<div type="chapter">
+				<head>V.</head>
+				<p>Sándor ott maradt fekve a bozontos szmirnán; két kezét a feje mögé nyujtva, felesége
+               lábait mintegy párnának nyaka alá tevé s ugy nézett fel rá valami nagyon boldogan.
+               Azonban nem sokkal rá, hogy Dodó kihuzta a lábát a szobából, az egészséges emberek
+               jóleső fáradtsága vett erőt rajta és mélyen elaludt. Melanie szinte reszketve
+               hallgatta ennek a megcsalt embernek a mély egyöntetü lélegzését s mikor az álom
+               folytán a Sándor kezei elernyedtek s fogásuk lábain gyengült, valósággal
+               megkönnyebbülten sóhajtott fel. Óvatosan huzta ki abbé-czipőit a napbarnitotta erős
+               nyak alól s aztán mintha valami veszedelemből menekült volna meg, egész panikkal
+               ugrott félre. A férj feje a mozdulat folytán félre billent s szinte egyet koppant a
+               földön... de Sándor azért nem ébredt fel. Melanie a boudoir tulsó sarkába szökött,
+               mint egy macska s az alacsony török kerevet mélyébe huzódott: egész testében
+               reszketett, mintha valami nyavalyatörős hideg rázta volna ki. A kiállott veszély
+               gondolata, mint valami pilulának a keserü utóize szállott fel benne. S oly szédülés
+               fogta el, hogy majd elájult. Vagy tiz perczig feküdt ott a török kerevet szegletében
+               csukott szemekkel, mintegy a rémület fagyától megdermedve. Ha Sándor egyet mozdult a
+               földön, szinte felsikoltott rettegésében: egyszerre az a fixa-ideája támadt, hogy ez
+               az ember megálmodja az igazat; felébred, felkel, egész rettenetes voltában oda jön
+               hozzá és megöli, agyonüti egy csapásra... néha száját már ki is nyitotta, kiáltott is
+               volna segélyért, mert főleg ezzel az alvó emberrel való egyedüllét volt az, ami
+               megrémitette - de torkába fagyott a kiáltás. Lassankint azonban megnyugodott, elmult
+               a panik rohama. Csendesen felkelt kerevetéről s a pálma levelei között kukucskált át
+               az alvó emberre. Aztán szemei gépiesen járták be a szoba csecsebecséit, mint valami
+               lassan mászó légy s végre az iróasztalon, a kis Louis XV. bureaun állapodtak meg.
+               Valami fehér feküdt a vörös itatópapiroson: egy levél - szent isten, a Dodó
+               levele... Sándor ép e pillanatban fordult egy nagyot. S az asszonyt valami csodálatos
+               vad érzés fogta el: ösztönszerüleg kapott egy tőrforma japáni papirvágó kés után,
+               mely ott hevert valamelyik asztalon egy revuen... Szive borzasztóan dobogott,
+               gondolkozni alig birt, csak annyit érzett, hogy most e pillanatban megtudta volna
+               ölni azt az embert. Aztán mint egy macska lopódzott az asztalhoz, lekapta onnan a
+               levelet s őrülten futott ki a szobából. Futott ki a házból, be a park mélyébe,
+               sürüjébe. Ott lerogyott a fübe s mikor eszébe jutott az, hogy az imént a tőrhöz
+               kapott, hát ugy elszégyelte magát, hogy kétségbeesésében zokogva kiáltott fel: „én
+               istenem, mért vagyok ily boldogtalan? Nem érdemeltem volna meg, hogy boldogabb
+               legyek?!” - Megtudta volna ölni azt az embert, a ki holnap megverekszik érte! S most,
+               hogy gondolatban ily bünt követett el férje ellen, valami reszkető gyávasággal
+               kezdette gyülölni őt: saját hálátlanságának a tehetetlensége nyilvánult ebben...</p>
+				<p>S a mint hanyatt feküdt a füben, elnézte a siető fellegeket, melyek ugy váltakoztak
+               az azurban, mint az ő gondolatai. Miután analyzáló lelkében a legközelebbi mult
+               rémületének képei ujból leőrlődtek, eszébe jutott a nap voltaképeni nagy eseménye:
+               férjére gondolt, a ki pofon ütötte Kamásly Friczit, a mért kétkedett az ő asszonyi
+               hüségében... keserüen kaczagott fel. Elgondolta magának az egész jelenetet, látta a
+               pisze embert gurulni a földön s az asszonyok nagy komikum-érzékénél fogva háborgó
+               hangulatai közepette még el is mosolyodott... de aztán férje jutott eszébe s lelke
+               legmélyéről valami csodálatos meleg áradt fel fejébe, mely szinte elkábitotta s
+               borzongató álmodozásokba ringatta.</p>
+				<p>Egyszerre aztán felhökkent. Dodóra gondolt, vagyis helyesebben a hozzá érzett
+               szerelmére, melyet most csodálatos módon fenyegetve látott. Összeszedte szegény szőke
+               fejét, összpontositani igyekezett gondolatait egy valamire, azokra a homályos
+               érzelem-gomolyokra, melyek lelke hátterében keltek fel, - s nem tudott gondolkozni!
+               Nem látott vagy nem mert tisztán látni magában. De mentől többet erőltette szegény
+               hűtelen asszonyi eszét, annál jobban bomlottak meg a gondolatai: lihegett, zokogott,
+               mintha kergették, halálra üzték volna. Immár csak ösztön élete maradt meg: bár nem
+               tudta megmagyarázni magának a dolgokat, egy mégis tisztán állt előtte: félt a
+               férjétől, féltette tőle Dodó iránti szerelmét... ah, de ez nem a férj boszujától való
+               félelem volt, valami egészen más - - S elkezdette Sándort gyülölni ugy, a mint az
+               ember csak egy olyan valakit gyülölhet, a kit szeret... Daczos könyek fakadtak a
+               szeméből. Gyülölte azt az embert, a ki megzavarja a boldogságát. Félt, mint a hogy az
+               ember házát félti az ellenségtől; lelkének minden ideálizmusával, boldogsági
+               csecsebecséivel már ebbe a Dodó iránti szerelembe költözött át, mint valami várba, s
+               most ugy érezte, hogy ezt a várat halomra pusztitja az ellenség...</p>
+				<p>Kivülről az országutról kocsizörgés hallatszott. Udvarukra fordult be a kerékrobogás.
+               Egy tisztásra futott, honnan az udvarra láthatott. Két ur állott az inas előtt.
+               Lovagh Pista és Dády Gabi: ah, gondolá, ezek Kamocsaytól jönnek a férjemet kihivni...
+               Valami leirhatlan vadság töltötte el a lelkét; el volt keseredve, hiszterikus
+               gyönyörrel kivánta magában: óh, bárcsak, - hátha megölnék holnap Sándort, legalább
+               vége volna ennek az ő borzasztó életének, mert ezt a gyötrődést már ugy se birhatja
+               soká! Haljon meg valaki - eh, ha már senki se, hát meghal ő... hogy egyszer már béke
+               legyen... Pillanatra arra gondolt, hátha megszöknének Dodóval; el messzire, valami
+               oly országba, mely olyan szép, mint az ő leánykori álmai, a hol minden csak érzelem,
+               örök szerelem s az emberek nem tudnak töprengeni, gondolkozni. Aztán lerogyott a
+               földre és tehetetlen keserüségében sirni kezdett.</p>
+				<p>Már késő délután lehetett, mikor felriadt. A nevét hallotta? igen, Sándor kiáltozott
+               a kastély felől: Melanie, Melanie, hol vagy? Felkelt s nyugodtan indult el a veranda
+               felé. Sándor elébe futott s hevesen, szerelmesen magához ölelte. Melanie elpirult,
+               olyan szégyenérzés vett erőt rajta, mintha Dodót, - szeretőjét csalta volna
+               meg...</p>
+				<p>- Itt voltak a Kamocsay segédei, mondá Sándor komolyan, gyöngéden, Donhofenhez
+               küldöttem őket. Annyit azonban mondtak, hogy holnap reggelre szeretnék a párbajt...
+               a legkomolyabban...</p>
+				<p>Sándor végtelen szeretettel nézett a feleségére. Csöndesen sétáltak fel a lépcsőn, be
+               a félhomályos szobákba. Kivülről a nyári esthajnal kéjes melege suhant be a nyitott
+               ablakon át. Mikor a hálószobán átmentek, Sándor hevesen, szenvedélyesen ölelte
+               magához a feleségét.</p>
+				<p>- Édes kis feleségem, ha holnap meghalnék...</p>
+				<p>Őszinte szemeiben az igazán bátor emberek daliás szerelme tükröződött vissza. Melanie
+               azonban, ki a fejét - tán a kimerültségtől - pillanatra a férje vállán felejté, -
+               egyszerre szilajul taszitotta el őt magától, mintegy rémülettel:</p>
+				<p>- Ne, ne, az istenért, ne bántson, ne nyuljon hozzám!</p>
+				<p>És eszelősen nézett körül, mintegy attól tartva, hogy Dodó, a szeretője, a kit szinte
+               megcsalni vélt... meglátja. Majd bolondosan tevé hozzá:</p>
+				<p>- Oly beteg vagyok, - istenem, nem tudom, mit beszélek.</p>
+				<p>Befutott a boudoirjába és bezárkózott. - Férje egy darabig feszegette a zárat, de
+               aztán szeliden igy szólt:</p>
+				<p>- No jó, jó, nem bántlak. Most befogatok s elmegyek Dombrády Stefihez, kinél a
+               párbajpisztolyaim vannak, ugy tizenegy óra felé visszajövök...</p>
+				<p>Melanie szive ugy dobogott, hogy majd megszakadt. Lelke fenekestől fel volt forgatva,
+               a nagy hajótörésben csak itt-ott uszkáltak már alaktalan gondolat-töredékek.
+               Összetörve rogyott szmirnájára és ugy zokogott.</p>
+				<p>Kopogtak. Az inas lépett be.</p>
+				<p>- Donhofen főhadnagy ur volt itt s ezt a levelet hagyta itt a méltóságos urnak.</p>
+				<p>Melanie feltörte a levelet, csak annyi volt benne, hogy: „Minden rendben van.
+               Kétszeri golyóváltás és kard, bandázs nélkül a végkimerülésig. Holnap reggel ötkor
+               érted jövünk Nyitrayval.”</p>
+				<p>- Itt van még a főhadnagy ur? kérdé Melanie idegesen.</p>
+				<p>- Nincs már itt, felelé az inas, a hogy átadta a levelet, mindjárt kifordult a kapun
+               s a földeken át hazafelé indult...</p>
+				<p>Melanie fölugrott, átszaladt a szalonon s lihegve futott fel a kastély ódon kis
+               tornyába, honnan az egész tájat be lehetett látni. Kinyitotta az esőverte, szennyes
+               kis ablakot s meredt szemekkel bámult ki a határra. A sárga tarlón egy magányos
+               fekete lovas vágtatott egyenletes rhytmikus ütemben. Egyszerre olyan vágy kapta meg
+               Dodó után szaladni, hogy majd leugrott a toronyból. Mintha Dodóval együtt a boldogság
+               száguldott volna tőle el-el messzire, örökre. Hát még ez a szerelem is elhagyja őt?
+               Nem, azért sem, - ez a szerelem az övé marad!</p>
+				<p>Leszaladt; egy szalmakalapot és köpenyt kapott elő valahonnan s lefutott a parkba.
+               Kiosont a kis kapun s nekivágott a nagy sárga tarlónak. Eh, mit bánja ő?! Különben is
+               este tizenegyig csak visszajön. De neki Dodót ha belehal is, látnia kell!</p>
+				<p>Látnia kell, ölelnie... hallania kell, mint mondja Dodó, hogy szereti, hallania kell,
+               hogy kérdi a szeretője, s ő mint felel az ő szép katonájának, hogy szereti, ezerszer
+               imádja... Sietett, a mint egy asszony csak sietni tud, mikor a szerelem üzi, s
+               szeretőjéhez fut. Nem is törődött már, hogy valaki meglátja-e? Szökött gondolatai és
+               az öntudatosság elől - a szerelem, az öntudatlanság felé... Mikor az ut egyes
+               ismerős bokrai mellett elhaladt, vagy a dülők alatt elsuhant, melyekhez mind emlékek
+               füzték, eszébe jutott egy-más: szerelmes ölelések, csókok, érzéki deliriumok - -
+               igen, igen, ezekbe az ölelésekbe, csókokba, deliriumokba hadd fojtsa kételyeit!</p>
+				<p>Futva ért a faluba. Már egész besötétedett. Szinte félájultan nyitott be Dodó
+               szobájába. Az udvar hátuljában akkor csutakolták a főhadnagy lovát: a huszár
+               csöndesen dalolgatott munkája közben. Dodó maga ott állt a félhomályban az ablak
+               mélyedésében; czigarettája kék füstje csöndesen gomolygott felfelé. Megfordult.</p>
+				<p>Az asszony lázasan borult a nyakába. Ledobta kalapját, pelerinejét, kigombolta nyakán
+               a ruháját, mely majd megfullasztotta, - az ölébe ült s hiszterikus kéjjel csókolta
+               össze a szeretőjét.</p>
+				<p>- Melanie, az istenért, - de hisz ez kész őrültség!...</p>
+				<p>- Mit bánom én, - ments meg, mentsd meg szerelmünket! Szeress őrülten, - mondd, hogy
+               őrülten szeretsz, - mondd, mert megőrülök...</p>
+				<p>Szőke haja kibomlott s mint az olvasztott arany, szelid hullámokban folyt a kanapé
+               párnájára. Lihegő ajkai mohón szakgatták le a csókokat a Dodó szájáról s facsarták ki
+               ajkaiból a szavakat, igéreteket, örök szerelmes esküket...</p>
+				<p>- Ah, nem tudsz te engem ugy szeretni, mint a hogy én akarlak!</p>
+				<p>Oly erővel szoritotta magához Dodót, hogy az szinte fuldokolni kezdett s gyöngéden
+               félretolta őt, Melanie felugrott. Kaczérul tépte le magáról a ruháját, akár egy
+               courtisane. Hiába: igaza volt Dodónak, - a kétségbeesésnek legjobb czinkostársa a
+               kéjvágy és a szerelem... s nincs az a courtisane, a ki oly eszeveszett tudna lenni,
+               mint az a tisztességes asszony, a ki attól félve, hogy már elkésett szeretni,
+               elbukott - s hatványozott szenvedélylyel akarja kipótolni az elmulasztott
+               perczeket...</p>
+				<p>- Nézd, susogá Melanie ledéren, plasztikus poséba vágva magát, mig hosszu aranyhaja,
+               mint valami fodrozott, hullámos sárga pelerine fedte be csupasz vállait, - nézd,
+               nálamnál ugy se kapsz szebb szeretőt... Letérdelt Dodó előtt. Szolgálód, cseléded
+               leszek... Szándékosan élte magát bele egyre mélyebben kétségbeesésébe, szándékosan
+               kompromittálta magát önmaga előtt, hogy ne lehessen e szerelemből többet visszatérése
+               egy másik szerelembe. Két keze közé vette a Dodó gondolkozó, keskeny arczát, melynek
+               szemei valami kimondhatatlan okos részvéttel kisérték hiszterikus vergődését, - s
+               beszélt neki lihegve, egyre mélyebbre hatolva a delirium ingoványába.</p>
+				<p>- Jer, megszökünk, de most rögtön...</p>
+				<p>- De édes angyalom, csillapodjál, hisz nem tudod, mit beszélsz.</p>
+				<p>- Nem, nem tudom, - csak annyit tudok, hogy férjemhez haza többé nem mehetek... Ne
+               kivánd, hogy visszamenjek... Te bánod meg.</p>
+				<p>Dodó most az egyszer nem értette meg. El volt telve a csodás szépségével ennek a
+               hiszterikus szép asszonynak. Eszébe jutott, mikor először látta ezt a „zokogó
+               bachánsnőt” (önkénytelen ez a jelző csuszott az ajkaira): Moszkovszky bárónőt, mikor
+               hozzáférhetetlen hidegséggel nyujtotta neki gyürüs, fehér kezét s nézett rá
+               közönyösen, mint valami tárgyra; most elefántcsontfehér meleg vállai, melyeknek oly
+               szőke reflexük volt, mintha aranyporral lettek volna kifényesitve, ott vonaglottak a
+               térdein... mégis csak furcsa egy gép az asszony: az ember sose találja meg a
+               regulátorát, mormogá Dodó s aztán gyöngéden csititgatta a szegény asszonyt.</p>
+				<p>Melanie felpillantott s annak a szégyene, hogy ő itt egy férfi előtt térdel s kéri;
+               bármire is - valami borzasztó szurással nyilallott a szivébe. Felkelt: mintegy
+               királynő egyenesedett ki s nézett végig büszkén a szeretőjén. De a büszkeségre nem
+               volt már elég életereje, kimerülten, aléltan rogyott a földre. A főhadnagy a fejét
+               csóválta s aztán órájára nézett. Tiz óra volt. Sietni kellett. Elkezdette költögetni
+               Melaniet, kedvesen, gyöngéden, a beczézgetésnek azzal a millió semmitmondó
+               fortélyaival, melyeket a nők annyira szeretnek, s melyet annyiszor vesznek
+               szerelemnek. Igérte neki suttogó, mámoritó hangon, hogy örökké fogják szeretni
+               egymást, hogy megszöknek, akár most is, de mégis inkább holnap, a párbaj után,
+               azonnal... Mint valami delejes simogatás ringatta ez a sok szó az asszonyt boldog
+               ábrándozásba. Melanie, mint egy rettegő szőke galamb, bujt a főhadnagy atillájának a
+               sujtása közé... Az ablakon át beszürődött a szerelmek örök tanujának és bizalmasának:
+               a holdnak a helyeslő, megnyugtató sápadt fénye. Melanie zöld parkjuk s kastélyuk felé
+               tekintett, melyek mély homálylyal simultak a völgyecskében s a Sándor gondolatára
+               még görcsösebben tapadt szeretőjéhez. Összeszoritotta vaczogó fogait; egész testében
+               reszketett.</p>
+				<p>- Ah, susogá bünösen, borzalommal, ha az a golyó holnap el tudná találni...</p>
+				<p>Dodó ránézett, de a Melanie arcza a holdfényben oly csodálatos kétségbeesett vadságot
+               árult el, hogy feszélyezve kelt fel s vette a sipkáját.</p>
+				<p>- Ugy-e, mormogá az asszony, vonagló testével hozzá tapadva, akkor szabadok volnánk,
+               örökre egymáséi...</p>
+				<p>Valami borzalmas kéjjel érezte, hogy egyre mélyebbre sülyed a kétségbeesésbe.</p>
+				<p>Dodó végre nagy nehezen rábirta, hogy még ma ne szökjenek meg, hanem csak holnap.</p>
+				<p>- Jó, holnap, - holnap... mormogá Melanie tikkadt ajakkal, ah, mert holnapnál tovább
+               ugy se birnám ki...</p>
+				<p>S a kétségbeesett emberek siető hebehurgyaságával beszélték meg a részleteket, -
+               helyesebben Melanie mondotta el tervét: holnap, a párbaj után, rögtön érte jön Dodó,
+               aztán...</p>
+				<p>S csak fecsegett tovább. Kilopództak a tarlóra. Dodó elkisérte. Néhol a gazosabb
+               helyeken a főhadnagy az ölébe kapta Melaniet s ugy vitte tovább a hold világában. Az
+               asszony nyakába tapadt s csak egyre mesélte neki mesés légvárait jövendő
+               boldogságukról. A parkaljában elbucsuztak. Melanie alig birt elválni
+               szeretőjétől.</p>
+				<p>- Tehát holnap - sikoltá.</p>
+				<p>- Holnap, mormogá Dodó, aggodalmasan mosolyogva. Szégyelte magát, hogy valami
+               olyasmit igért meg, a miről biztosan tudja, hogy ugy se lesz belőle semmi.</p>
+				<p>Mikor Melanie egyedül maradt, eszelősen simogatta homlokát sokáig... Aztán ruhájára
+               nézett, melyet az ölelések összegyürtek. Eszébe jutott minden mozzanata az estének s
+               mélyen elpirult, oly mélyen, hogy szinte kicsattant a vér az arczából. Lassan ment
+               fel a házba s bezárkózott boudoirjába. Ott a szoba közepén megállt s mélyen bámult
+               maga elé.</p>
+				<p>Egyszerre aztán oly utálatérzés, oly undor töltötte el, hogy egész rosszul lett bele.
+               Attól tartott, hogy hányási rohamok fogják elő s becsengette a szobaleányát. A
+               szobaleánynyal együtt kalapban, porköpönyegben Sándor is berohant a szobába. Egy
+               csókot nyomott sápadt, hideg homlokára s ölében vitte el az ágyba. Ott végtelen
+               gyöngéden, szeretetteljen simitotta le felesége gyürött ruháját, - azt a ruhát, mely
+               a szerető karjaiban gyürődött ugy össze.</p>
+				<p>- Hogy aggódik a szegény méltósága, zokogá a szobaleány, ki már sejtett valamit a
+               párbajról, mert látta, hogy az inas mily sietve tisztogatja a pisztolyokat.</p>
+				<p>- Édes kis feleségem, mormogá Sándor.</p>
+			</div>
+			<div type="chapter">
+				<head>VI.</head>
+				<p>- Halt! kiáltá Nyitray kapitány, olyan dörgő hangon, mintha egy brigádot
+               kommandirozott volna. Miután a pisztolypárbaj eredménytelen maradt, kardra tértek át
+               s ő vezette a kardpárbajt.</p>
+				<p>A reggeli világ üde friss fénynyel szürődött be a pajta deszkahasadékjain. Itt-ott a
+               fedélszék szalmája közt hangosan, a nagy csöndben szinte zavarólag csiripeltek a
+               verebek. A frissen kaszált szénaillatba pedig kellemetlenül vegyült bele a kinyitott
+               orvosi táskák karbolszaga.</p>
+				<p>Lovagh Pista és Dády Gabi, no meg a körorvos dr. Schein Mór hirtelen odaugrottak
+               Kamocsay Frigyeshez, a ki kiejtette a kardot a kezéből és jobb karját véres szeme elé
+               kapta. Egy darabig ingadozott, aztán hanyatt esett. Könyökéről és markából siető
+               cseppekben dült a vér. Balkarja pedig mintha azt az óriási szétválni készülő sebet
+               akarta volna összetartani, mely egész mellén és hasán át huzódott, még estében
+               magához szoritotta. Csunya egy duplaprim vágás volt.</p>
+				<p>- Sakerment! morgá az öreg ezredorvos, Berger, pár bordája el lesz vágva... Lass dich
+               anschauen Xandl! tevé hozzá aztán, Sándorhoz fordulva, ki leeresztett karddal ugyan,
+               de azért görcsösen állt még mindig engardeban. Megtapogatta a pár laposvágást a
+               Moszkovszky izmos vállain.</p>
+				<p>- Semmi, semmi! Hahó, de mégis: pár cseppet látok itt az állad alatt...</p>
+				<p>Felpeczkelte a Sándor fejét. Egy jelentéktelen fokvágás surolta az állát, - néhány
+               vércsepp tapasztotta össze a szakállát.</p>
+				<p>Az ezredorvos feltürte kabátja ujjait s vigan nézett Sándorra.</p>
+				<p>- Hát lieber Freund, az egész semmi, de a szakálladat azért mégis le kell
+               borotváltatni, mert különben lehetetlen volna a sebet kezelni... was?</p>
+				<p>- Hát jó! mondá Sándor, vigan huzva ki magát, legalább megfiatalitasz öreg... Rám
+               fér!</p>
+				<p>Nyitray kapitány, ki eddig a szalmán fekvő Kamocsayt nézte, kinek nagy homloksebét és
+               mellvágását akkor mosta ki ép az orvos, most csodálkozva pillantott
+               Moszkovszkyra.</p>
+				<p>- Ein Mordskerl! mormogá, Dodóhoz fordulva, ki némán, elgondolkozva nézte a dolgok
+               folyását.</p>
+				<p>- Ezredorvos ur! kiáltá végre türelmetlenül dr. Schein Mór, segitsen egy kicsit,
+               kérem, nem birom ezt a mészáros munkát egymagam...</p>
+				<p>Nyitray Dodóval együtt még egyszer gratulált Sándornak, aztán mind a ketten lóra
+               ültek s elvágtattak, hogy a mint mondták, a bárónénak megvigyék a szerencsés
+               hirt.</p>
+				<p>- Ein Mordskerl! ismételgeté a galopp alatt Nyitray kapitány, meglátszik rajta, hogy
+               lovas-főhadnagy volt valaha...</p>
+				<p>Nyitray kapitány, a mint mondani szokták, komoly katona volt; nem szép, nem fess, nem
+               jukker, de egy igazán bátor ember, a ki férfiakkal szemben mindig egyenes, nőkkel
+               szemben pedig mindig udvarias és szerény volt. Az igaz, hogy nem is igen volt
+               szerencséje az asszonyoknál, no de ő nem is fektetett erre sulyt. Katona volt,
+               nőtelen huszárkapitány testestől-lelkestől, a ki csak két dolgot szeretett a világon:
+               a lovat és a bátor embereket. Most, hogy Moszkovszky Sándort oly gyönyörüen látta
+               verekedni, egész lelkesedés ragadta el. Alig várta, hogy Moszkovszkyékhoz érjenek s
+               elmondhasson mindent a bárónénak.</p>
+				<p>- Jelentsd be fiam Nyitray huszárkapitányt a bárónénak, - mondá kimérten az inasnak.
+               Aztán a magaforma emberek szerénykedő ügyetlenségével csoszogott be a szalonba. Dodó
+               ideges kiváncsisággal pillantott be a válla felett. Hogy fogja Melanie fogadni őket?
+               Tán már uti ruhában, - ez az őrültség kitelik az ily hiszterikus asszonytól... hisz
+               tegnap este mily őrjöngve reménykedett, hogy a férjét fogja eltalálni a golyó. S Dodó
+               már előre félt a látogatás végétől: hogy fogja ő most ennek a szerelmes asszonynak
+               tudtára adni, hogy nem szökhetnek meg, legalább most nem!</p>
+				<p>Melanie felkelt egy pálma alól: oly sápadt volt, hogy a tisztek alig ismertek rá.
+               Pongyolában fogadta őket. Mintha tegnap óta megfogyott volna. Egy gyors
+               oldalpillantást vetett Dodóra s aztán könnyed mosolylyal fordult Nyitray kapitányhoz,
+               ki előbb megköszörülte a torkát, mert a férfi bátorságról lévén szó, nagy dikczióhoz
+               készült.</p>
+				<p>- Báróné, kezdé, látom nagy felindulását, hát mindenekelőtt megnyugtatom: férje ugy
+               szólván sértetlen maradt: ő vágta össze kegyetlenül az ellenfelét...</p>
+				<p>Melanie hanyatt dőlt hinta-székében s merőn maga elé nézve: olykor összeborzongva
+               hallgatta a kapitányt.</p>
+				<p>- Most aztán engedje meg báróné, hogy a legmélyebb bámulatomat fejezzem ki az ön
+               férje iránt. Sok bátor embert láttam, magam se vagyok gyáva, de oly gyönyörüen
+               verekedni, mint Sándor barátomat, még sose láttam senkit. Mindnyájan elcsodálkoztunk:
+               mi őt békés, kényelmes, jámbor embernek ismertük s most egyszerre gyönyörködve,
+               álmélkodva láttuk, hogy mint válik a szelid bárány oroszlánná.</p>
+				<p>Melanie csak továbbra is szalagjait nézte és csöndesen mosolygott.</p>
+				<p>- Oroszlánná, folytatá a kapitány lendületteljesen, - akkor, mikor a szent női
+               becsületről van szó...</p>
+				<p>S aztán tüzzel adta elő a párbaj részleteit, - a pisztolypárbaj lefolyását, a
+               kardmérkőzést, a sebesülést; Melanie csak egyre ringatta hintaszékét és csöndesen
+               mosolygott.</p>
+				<p>Végre felállott Nyitray kapitány.</p>
+				<p>- És most még egyszer gratulálok önnek, asszonyom, hogy ilyen daliás derék férje van.
+               Nekem ki kell rukkolnom a századdal s megyek, de a főhadnagyomat itt hagyom magam
+               helyett... Kezét csókolom. Szervusz, Donhofen; baráti kézszoritásomat Sándornak!</p>
+				<p>S ép oly ügyetlenkedő csoszogással, mint a hogy jött, kiment.</p>
+				<p>Dodó és Melanie magukra maradtak.</p>
+				<p>A főhadnagyot a kapitány beszéde alatt, a Sándor bátorságának a dicsőitése hallatára,
+               valami oly csodálatos szégyenérzet fogta el, hogy mikor Nyitray kiment a szobából, az
+               az életében hallatlan eset adta elő magát, hogy egy szót sem tudott szólni. Melaniera
+               pillantott. Az asszonyt két keze közé temette a fejét s merőn nézett maga elé.
+               Egyszerre elvörösödött, de ugy, hogy az ember szinte azt hihette, hogy rosszul van.
+               Aztán felkelt és siető, ideges lépésekkel rohant a szoba tulsó sarkába. Ott
+               megfordult, odatámaszkodott egy Empire-szekrény oszlopához s nagy megerőltetéssel
+               vetve fel a szemét, szeretőjére nézett. Melle görcsösen zihált.</p>
+				<p>Egymásra néztek sokáig s egyikőjük se tudott egy szót se szólni.</p>
+				<p>Melanie arczán, mint valami két ragyogó szemétől megvilágitott szinpadon vonaglottak
+               végig egy kinos agoniában lelke tusái. Hátrafont kezei egyre idegesebben tépték
+               ruháját, a kétség öldöklő kinja ott reszketett szája széleiben.</p>
+				<p>Könycsepp jelent meg a szemeiben... Az érzelmek másodperczenkint rengeteg hullámokkal
+               váltakoztak bennük; s a mint szemei perzselő indulattal tapadtak Dodóra, a
+               szerelemnek s a gyülöletnek oly megdöbbentő vegyületével néztek rá, hogy a főhadnagy
+               ismét csak egy szót se tudott szólni. Már-már szelidülni kezdett arcza, ajkai körül
+               valami kéjes mosoly kezdett vonaglani, már majdnem egy lépést tett szeretője felé,
+               már majdnem szóra nyitotta a száját, midőn egyszerre a magikus csendben kocsizörgés
+               hallatszott. Sándor jön! Sándor jön! susogák alig hallhatóan az ajkai. S mintha egy
+               veszendőben levő vár segélyére jövő mentő angyalt látott volna meg, halkan
+               felsikoltott s mint az üzött vad huzódott beljebb a sarokba s bujt el a perzsa
+               függöny mögé... Hallotta, hogy száll le Sándor a kocsiról, hallotta, hogy rohan fel a
+               lépcsőn, most által fut az előszobán, - most benyit a szalonba...</p>
+				<p>Csakugyan Moszkovszky Sándor lépett be, vigan, daliásan. Dodó alig ismert rá, -
+               szakálla le volt borotválva, egészen ugy nézett ki, mint azon az uhlánus-főhadnagyi
+               képén, mely ott lógott a falon. Alakja megnyult, mintha e két nap izgatottságában
+               lefogyott, karcsubbá lett volna...</p>
+				<p>Melanie most egymás mellett látta a két embert. Felsikoltott, egy utolsó kisértésben
+               habozott egy pillanatig s aztán, mint a ki álomból ébred fel, észvesztő kiáltással
+               suhant át a szobán s borult a férje nyakába. Eszelős voltában csodát látott: az ő hat
+               év előtti daliás vőlegénye tért vissza, hogy megmentse a boldogtalanságtól... A
+               Sándor vállaira téve kezeit, nézte ezt a mentő arczot, nézte s pillanatig azt hitte,
+               hogy az eszét veszti el.</p>
+				<p>Aztán egyszerre megfordult s mintegy a férje karjai közé menekülve, onnan a
+               biztonságból, a bevehetetlen várból sziszegte halkan, de oly halkan, hogy csak Dodó
+               hallhatta meg, a főhadnagy felé...</p>
+				<p>- El, - el, nyomorult, sohasem ismertelek...</p>
+				<p>Moszkovszky Sándor, ki idáig még nem ért rá, hogy a párbajsegédkezést megköszönje
+               Dodó főhadnagynak, igaz bensőséggel nyujtotta most neki a kezét:</p>
+				<p>- Köszönöm, édes czimborám, köszönöm...</p>
+			</div>
+			<div type="chapter">
+				<head>VII.</head>
+				<p>Ugy estefelé aztán ki-kijártak sétálni. Mikor a buja olasz nap heve megszelidült s az
+               örök-város felelt, mintha fellélegzett volna, enyhe szellő kezdett fujdogálni a
+               szabin hegyek felől, - ki-kihajtottak a Via-Appiára, a Villa Borghese-be, vagy a
+               Pinciora... Egy hete voltak már Rómában. Rómában augusztusban! De hát a Melanie
+               makacs kivánsága volt ez és Sándor, a ki a párbaj óta mintegy öntudatára ébredt az ő
+               szép szőke felesége értékének, készséggel engedett kérésének. Mikor egy kis schweiczi
+               havas-nézés után Olaszországba értek, naplementénél az első sötét cziprusokat és
+               narancsfákat meglátták a vasuti kocsi ablakából, az asszony, ki a zavartalan nyugodt
+               boldogság mosolyával tapadt férjéhez, susogva kérdé tőle:</p>
+				<p>- Még se tudod hát, mért akarok Olaszországba menni?</p>
+				<p>Sándor, kiben megvolt a nagy, egyszerü temperamentumok naivitása s egyenessége,
+               jóakaró csodálkozással nézett a feleségére. Ő ugy tekintett az asszonyokra mindig,
+               mint kedves gyermekekre, a kiknek szeszélyeit az isten rendeléséből a férfiaknak már
+               teljesiteni kell.</p>
+				<p>- Nem én, édes kicsikém...</p>
+				<p>- Hát tudod, mit akarok én, folytatá Melanie boldogan, elmegyünk mindazokra a
+               helyekre, a hol nászutunkon voltunk. Második nászutra megyünk, mi?...</p>
+				<p>Sándor összeölelte a feleségét. Nagyon boldognak érezte magát, tetszett neki ez a
+               furcsa gondolat. Mi minden is nem jut ezeknek az asszonyoknak az eszébe! Ilyen
+               gondolat: második nászutra menni! S a mint a vonat abban a bübájos lombardiai
+               alkonyban tovarepitette őket a szerelmes Olaszország szivébe, a jó Sándor hosszan
+               elábrándozott annak a hét év előtti nászutnak a gondolatára. Eszébe jutott neki
+               akkori régi va-banque élete, léha életfelfogása... Mennyit változott azóta! Mennyivel
+               jobban megérdemli az istentől, hogy ily szép, derék felesége van, most, mint akkor!
+               Most egy komoly férfi, a ki rendezett vagyoni viszonyok között él, higgadtan nézi az
+               életet s nemcsak a jelenre, hanem a jövőre is gondol. Mily boldogság lesz most
+               ugyanazokra a helyekre elmenni, a hol dőre, a léhaságtól mámoros észszel járt
+               azelőtt.</p>
+				<p>- De okos egy asszonyka is vagy te, édes kicsikém, mormogá Sándor, megcsókolva
+               Melaniet halántékán. Melanie kipirult, szinte könyek szöktek a szemébe, olyan boldog
+               volt, hogy Sándornak tetszett ez az ő gondolata. - Odakint a cziprusok a
+               narancsszinben tüzelő esti olasz égen egyre sötétebbekké lettek s a nyitott ablakon
+               át balzsamosan csiklandó szellő szállt a nyakára és a boldogságtól nedves
+               szemeibe...</p>
+				<p>- Édes Sándorom...</p>
+				<p>Moszkovszky Sándor elgondolkozott.</p>
+				<p>- Hét év, mormogá egészen belekomolyodva, milyen nagy idő! De ugy-e, tevé hozzá
+               mókázva, az igaz szerelem nem változik meg hét esztendő alatt sem?!</p>
+				<p>- Óh, nem, nem... sugá a fülébe Melanie sebesen; - nem, nem, sohasem...</p>
+				<p>Sándor elnézett a messze lombard sikra, mely mint egy jó Ceres fogadta őket buja, dús
+               ölébe s a férfias jellemek skrupulózus természeténél fogva, ismét szemrehányásokat
+               kezdett magának tenni, a mért az utóbbi időben ugy elhanyagolta feleségét. Lám, ez az
+               ő édes Melanieja csak a régi maradt; hogy szereti őt most is, pedig biz’ isten nem
+               csodálkozott volna rajta, hogy ha hét esztendő hosszu magányában hivalkodásra,
+               piperészkedésre, udvaroltatásra adta volna magát! De hát a munka, a munka! A ki
+               dolgozik, az nem ér rá élni... A szentimentális hangulat egészen ráragadt Melanieról.
+               Csöndesen üldögéltek egymás mellett, kezet kézben tartva. Ugyanaz az enyhe szerelmes
+               szellő csókolta össze mindkettőjük arczát. S a vonat csak repült velük tova.</p>
+				<p>A sarokban ülő magánosan utazó angol vén leány elaludt, hát szinte suttogva, de a
+               titokzatosságnak kétszeres boldog hevével beszéltek, emlékeztek a hét év előtti
+               utról. Milyen szép ut volt az! Hol is voltak mindenütt? Milanóban, Flórenczben,
+               Rómában, Sorrentoban, Capriban... Most is elmennek majd mindezekre a helyekre,
+               ugy-e? El, el, susogá összeborzongva Melanie.</p>
+				<p>- Fázol? kérdé Sándor szeretettel. S mosolyogva tevé hozzá halkan: oly titokzatosan
+               viseljük magunkat, mintha - megszöktünk volna... Felkaczagott.</p>
+				<p>Melanie is nevetett idegesen, eszelősen. Mint egy messze gonosz álomkép gyanánt
+               jutott eszébe, hisz ő nemrégiben azzal a másikkal akart megszökni. Eltakarta arczát,
+               ugy reszketett.</p>
+				<p>- Ejnye, már látom, fázol; mormogá Sándor, hüvösek ám Taliánországban az esték
+               nagyon, becsukom az ablakot...</p>
+				<p>- És, - és, üldözé Melaniet tovább a kérlelhetetlen fekete álomkép, akkor este a
+               férjed halálát te kivántad: bár csak eltalálná az a golyó. - Összerázkódott, oda bujt
+               a férje háta mögé s ugy zokogott. - Sándor csak szeliden simogatta. Megszokta már
+               mostanában, fel se tünt neki, hogy olykor efféle ideges sirások vettek erőt a
+               feleségén. Nagyon megrázta a szegény asszonyt az a párbaj előtti éjszaka, gondolá
+               részvéttel. S utóbb a párbajért is szemrehányást tett magának. Titokban kellett volna
+               tartani. Csak simogatta tovább a szőke asszonyt... S ez a simogatás lassankint
+               megnyugtatta Melaniet. Mennyiszer elmondta a table d’hôte-i ismerősöknek, hogy az ő
+               férjének csodakeze van, hypnotizálja a fájdalmát... Igen, mert csak ennek a jó
+               embernek a jó keze tudta tőle távoltartani azokat az olykor ki-kinövő álomképeket.
+               Sándorhoz menekült lelkiismerete furdalásai elől, s azért csak közvetlen közelében
+               érezte magát jól, biztonságban.</p>
+				<p>Lassankint végre egy mosoly merészkedett az arczára. Kinézett az ablakon, a homályba
+               boruló szerelmes déli világba.</p>
+				<p>- Igazán, Olaszországban csak szeretni lehet, mormogá boldog extázisban.</p>
+				<p>Ismét boldog terveik megbeszélésébe merültek. Ugy fognak utazni, mint a fiatal
+               házasok, szabad lesz nagyon szeretniök egymást, - a képcsarnokok sarkaiban, mikor
+               senki se látja őket, Melanienek szabad lesz megcsókolni a férjét... nem, még jobban
+               fogják szeretni egymást, mintha nem is házasok, hanem szeretők volnának, mondá a
+               végén merészen kaczagva Sándor.</p>
+				<p>- Mily boldogság, mikor az ember a saját feleségének a szeretője! kaczagott tovább
+               Sándor, tetszelegve magának, hogy nemcsak a feleségének, hanem neki is vannak ily
+               bizarr gondolatai.</p>
+				<p>Csakugyan mérhetetlen boldogan járták be Milanót, Florenczet s még boldogabban jöttek
+               át Rómába. Pedig bizony ugyancsak meleg volt az egész ut alatt. De hát mi az a meleg
+               fiatal házasoknak, kaczagott olykor Sándor, mikor nekik még melegebbük van! Mindenüvé
+               együtt mentek, templomokba, muzeumokba. - Melanie pillanatra se engedte el az oldala
+               mellől a férjét. Nem mintha féltékeny lett volna rá, hogy valami szép olasz donna
+               „elcsábitja tőle”, de mert félt egyedül maradni. Egyszer, mikor egy délután magára
+               maradt, mert Sándornak a konzulátushoz vagy hova kellett mennie, majd megőrült
+               félelmében. Mihelyt Sándor nem volt vele egy szobában, a közelmult gondolatainak a
+               vércse körmei egyszeribe lelkébe kaptak... Ha meg vele volt, közelléte, mint egy
+               talizmán védte meg őt minden ellen. Ilyenkor mosolygott ostoba bohóságain, mint a
+               gyermek nappal éjjeli rémes álmain. Ilyenkor, ha oldalán sétált, szinte higgadtan
+               gondolta el az eseményeket, melyek végtelen távolban levőknek s messze régen
+               történteknek tüntek föl előtte. Utoljára már egészen mesének tartotta életének azt az
+               utóbbi három hónapját s néha boldogan mormogá magában, „ah, az egész csak álom volt,
+               nem igaz belőle semmi sem...”</p>
+				<p>Az a párbajos reggel után borzalmas napjainak a visszahatásaképen valami szinte
+               megmagyarázhatlan eszelős nyugalom következett el reája, mely egész elzsibbasztotta
+               minden érzékeit. Mikor ott, azon a nyári reggelen, idegeinek az őrülésig való
+               feszültében a férje nyakába borult; mikor Dodó kiment a szobából, mikor végre magukra
+               maradtak, egyszerre oly véghetetlen ájulásszerü jóllét-érzés vett rajta erőt. Valami
+               neki is feltünő, szinte ijesztő zsibbadt jókedv járta át egész valóját.
+               Meg-megdörzsölte a szemeit, de hiába. Ugy érezte magát, mintha becsipett volna. S ez
+               a mámor egész lenyügözte őt: de Melanie nem is bánta, örült, hogy nem tudott
+               gondolkozni. Pár napig olyan félálomban járkált a szobákban. Okosabb perczeiben
+               azonban egyre csak azt sugta a férjének, hogy „utazzunk el, utazzunk el, nagyon
+               messzire”...</p>
+				<p>S mikor végre az idegtulfeszültség okozta mámorból lassankint kijózanodott, akkor
+               áldotta csak igazában az istent, hogy már nincsenek otthon. Innsbruckban olyan beteg
+               lett, hogy egy hétig kellett feküdnie. Szegény Sándor majd az eszét vesztette el,
+               mert a német doktorok egyre tifuszt emlegettek. S még hozzá Melanie deliriuma alatt
+               nem türte meg őt a szobában; ugyanis egyre attól félt, hogy majd félrebeszél s az
+               isten tudja, mi mindent el nem mond az ágya mellett ülő férjének... Borzasztó napok
+               voltak ezek: a szegény asszony esze folyton küzködött deliriumával, egyszer a
+               félrebeszéléstől való rettegésében ugy összeszoritotta fogait, hogy huszonnégy óráig
+               nem tudták etetni: folyton csak azt sziszegte: „nem, nem fogok...” Betegségében egyre
+               azt álmodta, hogy egy leirhatatlanul félelmes asszony üldözi őt a park megetti
+               tarlón; ő életre-halálra menekült előle, de a távolság azért mindinkább fogyott
+               közöttük. Végre, mikor már majdnem utolérte, hátrapillantott: akkor látta csak, hogy
+               ez a szörnynő ő maga. Borzalmas szavakat, azokat a szavakat, melyekkel a Sándor
+               halálát kivánta, mint mindmegannyi mázsás köveket vágta hozzá. Lassan a kövek egész
+               szikla-rom alá temették s most azt érezte, hogy meg fog halni... S ez a gondolat
+               csodálatos mély, boldog nyugalommal töltötte el. Minden megbékült körülötte, nem
+               bántotta többé semmi... Ilyenkor órák hosszat feküdt merev ájulásban.</p>
+				<p>Végre felgyógyult. A havasi levegő, egészséges járkálás, változó tájak, férje meleg
+               szeretete, mindezek lassan, némileg helyreállitották beteg lelke egyensulyát. S most,
+               hogy a reakczió e nagy rohamát kiállotta, Melanie maga is nagyon kezdett bizni
+               magában. Egyelőre még nem mert tárgyilagosan gondolni a dolgokra, örült, ha
+               fantazmagóriái békében hagyták. Csak annyit tudott, hogy lelke fenekestül fel van
+               forgatva, de ő remélte, hogy nemsokára be fog merni hatolni lelkiismeretének abba a
+               rejtett szobájába s rendet csinálhat gondolatai közt. Csak egy kis több lelki ereje
+               legyen! S napról-napra gyüjtötte magában az erőt arra a nagy napra, mikor majd végre
+               bátran előveszi gondolatait, megcsinálja lelke mérlegét s szabadon szembe mer
+               szállani bünének a borzalmas öntudatával. Most még nem mert volna farkasszemet nézni
+               lelkiismeretével. Ugy érezte, belehalt volna ebbe az idegrázkodásba. Nyugodtabb
+               perczeiben azonban zokogva tett fogadalmat magának, hogy egész életét bünhödése
+               lerovásának fogja szentelni.</p>
+				<p>Milanóban már sokkal nyugodtabb lett: a régi nászutazási emlékek, mintha
+               megtisztitották volna lelkiismeretét. Visszaélte magát a hét év előtti utba; voltak
+               napjai, mikor házasságának egész szaka, mintha kiesett volna az emlékéből, s ilyenkor
+               ugy érezte, hogy most kezdett el csak élni, szeretni... Lassankint, különösen
+               Rómában, megpróbálta a magányt is, de ez volt az, a mi a legnehezebben ment. Mikor
+               magára maradt, minden megváltozott körülötte, minden oly ellenséges arczulatot
+               öltött, még a butorok is szinte gunyos gyülölettel néztek rá. Kellett volna neki
+               valaki, a ki segitse, támogassa lelkét magába szállása nehéz utjában. De ki legyen
+               az? Nem volt senkije...</p>
+				<p>Végre egy gyönyörü estén felsétáltak Sándorral a Sant-Onofrio templomhoz. Meg akarták
+               nézni azt a gyönyörü Doria-Pamfili kertet, melyben hét évvel ezelőtt egyszer virágot
+               szedtek, de mivel Melanie elfáradt, hát megálltak a régi kolostornál. Bementek, hogy
+               megnézzék a Lionardo da Vinci Madonnáját, a Mezzofanti sirját s a Tasso szobáját, ki
+               élete végét e szerzetesek között töltötte. Legjobban még a Tasso szobája lepte meg
+               Melaniet: A szoba egyik fehér falára, mintha valósággal ott állana, igen ügyesen volt
+               oda festve a gondolkozó költő életnagyságu alakja. A belépő pillanatra igazán azt
+               hihette, hogy maga az eleven költő áll ott... Ép ki akartak fordulni a kapun, mikor
+               bus, mély orgonahang ütötte meg a fülüket. Melanie egyszeriben megállt. Oly gyönyörü
+               volt az olasz est s azok a mély, egyszerü orgonahangok mint valami láthatatlan
+               balzsamos tömjén-illat szálltak fel a magasba. Valami leirhatatlan érzés ragadta meg
+               a szegény asszonyt. Nem, ő nem volt vallásos soha, nem ugy nevelték s Voltaire és
+               Renan után bajos is lett volna neki most katekizmust tanulni, de ennek a zenének a
+               gyöngéd miszticzizmusa valami előtte egész uj hangulatba ejtette. Oh, azok az
+               orgonahangok ugy beszéltek, oly bensően szóltak hozzá, ő ugy érezte, egyedül hozzá
+               beszélnek...</p>
+				<p>- Jer vissza, sugá halkan Sándornak.</p>
+				<p>Nem volt vallásos, nem tudott még csak keresztet se vetni magára; otthon náluk mindig
+               csak vicczeltek a vallás felett s utálták a papokat...</p>
+				<p>Nem is azért ment ő be, hogy imádkozzék... Azzal a hanggal, azzal az orgona-hanggal
+               akart beszélni, felelni akart neki, a mért oly mélán megszólitotta lelkét. Hátha ez
+               az orgona-hang az ő bizalmasa tudna lenni?...</p>
+				<p>Sándor jókedvüen, mosolyogva ballagott utána.</p>
+				<p>- Mi minden szeszélyeik nincsenek ezeknek az asszonyoknak, gondolá megadóan.
+               Csodálkozva nézte a feleségét, a ki extázisában szinte mosolygó arczczal hallgatta a
+               régi Palestrina-féle egyházi éneket. Egy öreg szerzetes játszott oda fent, - tán
+               unalomból...</p>
+				<p>S mialatt aztán Sándor a gvárdiánnal azon tanakodott, hogy vajon az elfeketült öreg
+               padok csakugyan tölgyfából valók-e, a tömjénes mély hangok mint valami megbocsátó jó
+               kéz simogatták a Melanie fájó lelkét, melynek sebei azonban most már hegedni
+               kezdtek. A nagy próféták, patriarchák megelevenedtek a falakon s könyörületesen
+               néztek rá, a Lionardo Madonnája pedig szeliden, de valami örökbiró szerenitásával
+               tartotta rajta a szemeit, mintha azon haboznék, hogy megbocsásson-e ennek a bünös
+               asszonynak vagy sem... A zene a kétség, a lelki homály mély, sötét regisztereiből
+               most egyszerre magasra szállt fel, mintegy a mennyeknek világos boldog fellegeire.
+               Melanie lelke ujjongott: de a Madonna arcza még mindig kétkedni látszék, - most,
+               gondolá, káprázat volt-e vagy mi, de mintha az a festett arcz intett volna neki,
+               szeliden, megnyugtatón... Az orgonahangok mintegy mennyország glóriájában tomboltak
+               magas, tiszta, fényes zengzettel.</p>
+				<p>Melanie modern és mégis olyan misztikus lelkén, mint egy messziről jövő hatalmas
+               tömjénes szél suhant át pillanatra a hit: ösmeretlen érzelem volt ez neki, szinte
+               félelmes; a hogy körülnézett a templomban s ez a sok próféta és martyr, kik mind a
+               hitért szenvedtek, mint mindmegannyi szigoru biró nézett most rá s kérdé tőle: mit
+               csináltál te mindeddig, mig mi a vallásért szenvedtünk? És Melanie félni kezdett,
+               letérdelt a kőre, összekuporodott s imádkozni próbált, de nem tudott, hát csak
+               lihegve mormogá:</p>
+				<p>- Én istenem, hisz nagyot vétkeztem, bűnt követtem el, de hát most megtértem.
+               Szeretem férjemet, jobban szeretem mint valaha, hisz ép azáltal találtam ismét rá,
+               azáltal szeretem meg ujra, hogy - elbuktam... Megbocsáthatsz te nékem Istenem? Meg?
+               Ugy-e meg? Hisz e nagy szerelmem lemossa eltévelyedett lelkemnek azt a pillanatnyi
+               gyalázatát... Ugy-e, megtisztultam szerelmem által?...</p>
+				<p>A Madonnára nézett, könyeitől nem látott. Sándor hozzá szaladt s felemelte.</p>
+				<p>- No, kicsi feleségem, megint valami bolondság ütött beléd. Igy ni! - Talpra
+               állitotta.</p>
+				<p>- Most pedig menjünk kicsit a szabad levegőre. Nem nagyon szeretem ezt a papszagot.
+               Minden ember legyen becsületes és tisztességes s akkor megtalálja a maga
+               vallását.</p>
+				<p>Kimentek az utra s kezet kézben tartva, csöndesen indultak neki a szerpentines utnak.
+               Melanienak oly tele volt a lelke, hogy a mint hanyatt eresztve a fejét, a mély kék
+               olasz égbe nézett, melynek alján sziporkázva villogott már az esti csillag, az egész
+               mennyországot szerette volna átölelni, s szegény bünös, de immár megtisztult keblére
+               szoritani. Mert hisz nem a világ, nem férje, mindenekelőtt maga-maga előtt akarta ő
+               magát igazolni, lelkét megtisztitani. Ugy érezte, hogy ez életének a legszebb
+               percze, hogy ennél immár boldogabb ugy se lehet. Tán e pillanatban meg is halt volna:
+               oly könnyünek érezte magát - - „lelkem mint egy sóhaj szállna fel mindjárt a
+               mennyekbe s az a jó asszony, a ki meghallgatott a templomban, megvédene odafent...”
+               gondolá egész gyermekes szentimentalizmussal.</p>
+				<p>- Sándor, mormogá. Megálltak. A nyakába borult férjének.</p>
+				<p>- Sándor, tudod-e, hogy én téged nagyon szeretlek, - hogy még igy sohase
+               szerettelek?...</p>
+				<p>- Hát persze, hogy szeretjük egymást, édes kicsikém; mormogá Moszkovszky Sándor,
+               szeliden nézve rá, mint valami kis gyermekre, a kinek isten rendeléséből minden
+               szeszélyét jóvá kell hagyni!</p>
+				<p>- Nem értesz engem... folytatá Melanie: nagyon, nagyon szeretlek... Könyek gyültek a
+               szemébe.</p>
+				<p>- Dehogy nem értelek, hát természetes, hogy én is szeretlek; kaczagott Sándor.</p>
+				<p>Moszkovszky Sándor egyenes nagy vonásokban rajzolt természete nem igazodott el
+               felesége ideges, érzelemlabyrintjaiban. Nem volt neki, természetesen nem is lehetett
+               fogalma, azokról a csodálatos érzelemváltozásokról, melyek feleségében végbe mentek.
+               Sose okoskodott ő a szerelemben! Az egészséges nagy temperamentumok egyszerüségében,
+               szerelmében, szivével érzett ő csupán s nem ugy mint a felesége: az eszével... vagy
+               szeretett s akkor nem okoskodott többet a dolgon, vagy nem s akkor természetesen még
+               kevésbé... most mindaketten igazán szerették egymást s mégis e szerelem mily
+               különösen hatott vissza kettőjükre: Sándor, ki a szivével szeretett, mely sziv,
+               tudjuk, vak s csak érezni tud, egyszerüen nyugodtan volt boldog, szóval öntudatlanul,
+               Melanie pedig, ki mint teljesen modern teremtés, eszével szeretett s öntudatosságát
+               még leghevesebb szenvedélyében se vesztette el, szegény, mily rengeteg
+               érzelem-mathézis utján tudta végre szerelme egyenletét levezetni! Boldogsága tán
+               azért is volt nagyobb s intellektuálisabb, mint férjéé, mert csak egyedül ő tudta
+               maga azt a rengeteg érzelem-arithmetikát méltányolni, a mibe neki feladványának, t.
+               i. élete boldogságának, az igaz szerelem megtalálása problemájának megoldása
+               került.</p>
+				<p>Aztán elkezdtek hanczurázni, mint a gyerekek: kergetőztek, virágot szedtek az
+               esthomályban s végre fáradtan, boldogságukban kimerülve tértek haza. Mily boldog egy
+               estéje volt ez Melanienak! Mily leirhatatlan édes dolog az mégis: megfeledkezni
+               maga-magáról, élni, érezni, a nélkül, hogy az ész örökké ott legyen a háttérben s az
+               egyenes utról, melyen a hű sziv magától s vak létére mégis biztosan halad előre,
+               letéritse okoskodásaival s ujabb lehetőségek kinálásával... Oh! bár csak soká tartana
+               ez az áldott öntudatlanság! gondolá Melanie: mért nem tud az ember csupa sziv lenni,
+               csupa érzés, mért kell az észnek mindig beleavatkoznia az érzelmekbe?!</p>
+				<p>Hazatértek: kipirult arczczal, lihegve mint a vásott gyerekek. Az asztalon egy levél
+               feküdt. Melanie a boritékra pillantott: jaj, jaj, ismerte ő ezt az irást, oda, vége
+               volt egyszerre öntudatlan boldogságának: esze, az analysisban kiélesedett elméje,
+               mint egy nagy polyp tápászkodott fel szép aranyszőke haja alatt szegény fejében s
+               szivta ismét a vérét, életerejét... Dodótól volt az a levél, Sándor hangosan olvasta
+               fel: a birtok kezeléséről, az ispán jelentéséről, buzaeladásokról volt benne szó, a
+               végén pedig a főhadnagy öleltette Sándort s a kezeit csókoltatta a bárónénak. Dodó
+               ugyanis vállalkozott, hogy a Sándor távolléte alatt majd kissé utána néz a birtoknak
+               s apró értesitéseket ir Sándornak, ki roppant megörült a főhadnagy ajánlatának. Mi
+               volt ez Dodótól? Isten tudja, de mióta Melanieval szakitott, a főhadnagy, ki sokkal
+               inkább volt képes barátságra, mint szerelemre, igazán benső érzelemmel közeledett
+               Sándorhoz, kit rendkivül szeretett. Ezerféle szivességgel kötelezte le... Igaz, hogy
+               talán mást ugy se tehetett volna, mivel a házhoz tovább is járni kellvén, mindenkép a
+               férjére volt utalva. S az ut alatt sokat leveleztek egymással.</p>
+				<p>- Be derék fiu ez a Donhofen! mormogá Sándor, zsebretéve a levelet. Hol talál az
+               ember második ilyen hü barátot, mi, kicsikém?</p>
+				<p>- Igen, igen, persze, erősité Melanie, kin hidegen futott végig a borzongás.</p>
+				<p>Sándor idealista hangulatba esett. Magasra fujta a czigarettája füstjét s ugy
+               ábrándozott:</p>
+				<p>- Barátság - szerelem! Ez az élet két legszebb adománya. Boldog vagyok: van egy
+               feleségem s van egy jó barátom, a kiket nagyon szeretek...</p>
+				<p>Melanie idegesen, sértődve ugrott fel.</p>
+				<p>- Csak nem fogsz engem a szivedben a barátoddal egy rangra tenni! Tán jobban szereted
+               őt, mint engem? - Siket hangon s oly merészen beszélt, hogy - maga is csodálkozott
+               rajta.</p>
+				<p>Sándor édesen ölelte át a feleségét.</p>
+				<p>- Dehogy, dehogy édesem! Hanem hát mért nem szereted te Donhofent? Egy idő óta vettem
+               észre, hogy...</p>
+				<p>- Én? kaczagott Melanie idegesen, dehogy! dehogy! De hát csak nem akarnád, tevé hozzá
+               valami gyötrő, kinos vakmerőséggel, hogy nagyon szeressem,
+               mi?</p>
+				<p>- Miért ne? kérdé Sándor naivan, nem értve meg rögtön a felesége szavát. A ki az én
+               barátom s a kit én szeretek, azt a feleségem is szeretheti...</p>
+				<p>Melanie leugrott a férje térdeiről s trillázva, kaczagva sétált fel s alá a
+               szobában.</p>
+				<p>- De hát - folytatá szakadozottan, szórakozottan, mintegy virágbokrétájának az
+               összekötésével elfoglaltan, - de hát édes férjecském, mon amour - csak nem szeretnéd
+               - ugy kaczagott, hogy alig birt beszélni, ha a feleséged a barátodba szerelmes volna,
+               mi?</p>
+				<p>- Azt már nem! mormogá Sándor, jó izü bonhomiával verdesve pálczájával az
+               asztalt.</p>
+				<p>Melanie, kit gyötrő kinos vakmerősége tovább sodort, trillázva ült ismét a férje
+               ölébe.</p>
+				<p>- No és mit csinálnál, kérdé mint valami macska kaczérul bujva a férje nyaka mellé,
+               ha megtudnád, hogy a feleséged a barátoddal szerelmeskedik? Ugy fuldokolt, hogy alig
+               tudta a mondatát befejezni.</p>
+				<p>Sándor hallgatott. Az asszony, ki nem látta az arczát, homlokán érezte, hogy férje
+               halántékán mint dagadnak ki az erek. Pillanatra borzasztó viziója támadt: ez a
+               rettenetes ember megmozdul alatta s összetöri.</p>
+				<p>Végre felkaczagott Sándor.</p>
+				<p>- Hogy mit csinálnék? Eh, hát agyonlőnélek mind a kettőtöket, - vagy tán csak őt?! Az
+               Isten tudja mit csinálnék? Hogy lehet ilyen bolond kérdéseket fölvetni?!</p>
+				<p>- No, mondd hát! nyafogott, mint valami durczás gyermek, az asszony.</p>
+				<p>- Nem, nem, évődék a térdén hintálva a feleségét Sándor, azért se mondom meg...</p>
+				<p>A vége az lett, hogy még jó darabig kergetőztek s vigan hanczuráztak a szobában.</p>
+			</div>
+			<div type="chapter">
+				<head>VIII.</head>
+				<p>Hazaértek. Mikor Sándor az indóház udvarán meglátta az elibük küldött kocsi előtt a
+               két sárgát, hát majd megölelte őket. Ugy örült, hogy végre otthon lehet.</p>
+				<p>- Mindenütt jó, mormogá, a felesége mellé ülve, de azért csak legjobb otthon, ugy-e
+               kicsikém?</p>
+				<p>Melanie nem felelt: félt viszontlátni ezeket az ismerős halmokat, a nagy tarlót, a
+               sürü kis erdőt a falu felett, s végre azt a sötét, mély parkot a kastély mögött.
+               Összeszedte minden erejét, hogy megtisztult lelkétől távoltarthassa azoknak a
+               szégyenletes emlékeknek egész Niagaráját, melyek most szinte öldöklő sulylyal
+               zudultak rá. Folyton arra a Vinci-féle madonnára gondolt, annak a szelid, megbocsátó
+               szemeire, melyek megigérték, hogy védeni fogják őt. De mindenekfelett ösztönszerüleg
+               a férje mellé bujt, mintha azt akarta volna, hogy ez az erős karu ember védje még őt
+               a saját emlékei ellen.</p>
+				<p>- No, no, mormogá Sándor, örülsz, hogy hazajöttél édes kicsikém, mi? Ezután nem
+               foglak ám ugy elhanyagolni, mint eddig. Kevesebb dolgom lesz; mindig együtt
+               lehetünk...</p>
+				<p>Még egy utolsó kinon kellett Melanienak keresztülmennie. Támolyogva lépett be
+               boudoirjába, honnan minden unalma, minden bünös gondolata származott. A butorok, puha
+               kerevetek, iróasztala, mind szemrehányóan néztek rá, szinte leszakadva emlékeinek,
+               borzasztó titkainak a sulya alatt. Mint valami fullasztó levegőből, melyet már tovább
+               lehetetlen kibirni, futott ki Melanie a boudoirjából, el a férjéhez, ki
+               vadász-szobájában ép a puskáit és pisztolyait nézegette.</p>
+				<p>- Ez a régi Diana-Piperem berozsdásodott, mormogá Sándor, figyelmesen vizsgálgatva a
+               csövet.</p>
+				<p>- Az én szobámban is sok a rendetlenség, magyarázá sebesen Melanie, már látom, ki
+               kell hánynom azt a sok rosz molyette butort, töredezett csecsebecsét... ujonnan
+               rendezem be a boudoiromat magamnak. Mekkorát fogsz nézni, Sándor!...</p>
+				<p>- Jó, édes kicsikém, kell is: majd rendelek én neked egy szép garniturát Bécsben.</p>
+				<p>- Nem, nem a világért sem; kaczagott Melanie, hanem tudod mit vehetnél nekem?</p>
+				<p>- No mit?</p>
+				<p>- Hát egy varrógépet.</p>
+				<p>Sándor abbahagyta a rozsdás cső tisztogatását és csodálkozva nézett a feleségére. Már
+               ezek az asszonyok csakugyan kiszámithatatlanok, gondolá. De azért nagyon tetszett
+               neki a dolog.</p>
+				<p>- Jól van, jól, ezzel is elmulathatsz egy darabig, a mig meg nem unod, mormogá vigan
+               nevetve.</p>
+				<p>De Melanie lelke körül egyre magasabbra akarta emelni a sánczokat régi életének az
+               emlékei ellen.</p>
+				<p>- És tudod-e, mit fogok még csinálni? kezdé, miközben majdnem könnyek gyültek a
+               szemébe, azután mindig a konyhában leszek, én fogok még befőzni is...</p>
+				<p>Büszkén nézett Sándor.</p>
+				<p>- De édes kicsikém, mondá a férje, megölelve őt, nem a te finom ujjaidnak való ez.
+               Hisz nem bánom én, mulass el ezekkel a dolgokkal, a mig mulattatnak...</p>
+				<p>Uj életet kezdeni! Megkezdeni az igazi életet! gondolá Melanie másnap reggel egész
+               megkönnyebbülten. A gazdasszony, a cselédek mind elálmélkodtak, mikor a méltóságos
+               asszonyt egyszerre mindenbe belekezdett avatkozni s néha a legindokolatlanabbul
+               szigoru számadásra vonta őket. Folyton járt-kelt a házban, egész nap
+               foglalatoskodott, mintegy szökött a gondolatai elől. Boudoirjából kihányatott
+               mindent. Átalakitotta a szobát, kidobta a léha csecsebecsék nagy részét s
+               mindenekfelett a könyveit... azokat a könyveket, melyek megmérgezték az életét az
+               által, hogy egy csodás képzeleti világba csábitották s elterelték a való reális
+               életutról. Hisz, istenem, gyönyörüek voltak azok a szubtilis gondolatok, azok az
+               illatos parfümöktől illatozó fantasztikus birodalmak, de veszedelmesek is; egy
+               asszonyi elme, mely mindent szubjektivizál és ugyszólván sohasem tud egészen
+               tárgyilagos lenni, hogyne veszitené el ott egyensulyát és minden mértékét az
+               elhagyott földi dolgokra nézve?! Oh, Melanie most tisztán látta mindezt s a mint
+               idáig annyira szeretett, Baudelaire-je „Fleurs du Mal” kötetét félredobta,
+               önkénytelen ezekre a szavakra fakadt:</p>
+				<p>- Arra, hogy az ember itt e földön boldog legyen, ezt a rögös földet kell szeretni s
+               nem a képzeleti világot: itt kell élni s nem a bármilyen szubtilis, fantasztikus
+               gondolatvilágban...</p>
+				<p>Megtetszett neki, a mit mondott, hát felirta régi leánykori albumába.</p>
+				<p>Aztán tovább rakta félre egymásután a szemfényvesztő Poe Edgárt, Huysmans „A
+               Rebours”-ját, „Le bas”-ját, a bünös Villers de l’Isle-Adam-ot, ezeket mind Dodótól
+               kapta volt. Hisz voltakép tán ezekkel a könyvekkel kábitott el engemet, mormogá
+               töprengve. Az egész mult most ugy tünt fel előtte, mint egy nagy cselfogás; e
+               szubtilis, fantasztikus szálakból szőtt hálóban fogták meg őt... mintegy uj
+               reveláczió állott most előtte tisztán minden. De aztán mégis elgondolkozott, s azért
+               nem állhatta meg, hogy a számüzött könyvekre egy utolsó pillantást ne vessen...</p>
+				<p>- Istenem, az igaz, hogy kábitó, kéjes egy világ volt ezeknek a költőknek a világa!
+               halkan mormogá ezt, mintegy szégyenkezve maga előtt. - Eh, mindez ópium, ópium, s az
+               ópiumba beleőrül az ember...</p>
+				<p>Aztán félredobta a többit is: Zolát, Flaubert-t, még Daudet-t is, - kidobott minden
+               könyvet a szekrényéből. Egészen belefáradt a munkájába.</p>
+				<p>- Igaza volt Lovagh Pistánénak, mormogá elgondolkozva, mikor kinevetett engem, a mért
+               annyit olvasok. Azt mondta, s efölött össze is vesztem aztán vele, hogy egy
+               tisztességes asszonynak legjobb, ha semmit se olvas... Marlitton és a „Fővárosi
+               Lapokon” kivül...</p>
+				<p>Nem maradt már más könyv a polczon, csak Thomas à Kempis „Imitatió”-ja. Melanie
+               elmerengve vette a kezébe. Egyszerre azonban lódobogást hallott s figyelt. Pár
+               perczre rá az inas lépett be és Donhofen főhadnagyot jelenté be.</p>
+			</div>
+			<div type="chapter">
+				<head>IX.</head>
+				<p>Dodó főhadnagy azok után a bizonyos párbajos reggeli események után valósággal meg
+               volt lepődve kissé. Mikor Melaniet a férje karjaiban látta, szenvedélyes szavait
+               hallotta, egy darabig még tréfára gondolt vagy valami a férj fogadására rendezett
+               szinjátékra, kétkedett még akkor is, mikor lehaladt a lépcsőn az udvarra, hogy a
+               lovát nyergeltesse. Az udvaron azonban megállt. Átgondolta az esetet még egyszer
+               higgadtan, részletesen s be kellett vallania, hogy - esetleg mégis mindez való volt.
+               S a kiváncsi filozóf ébredt fel benne, ki a századvégi donjuánokban oly sajátságosan
+               olvad egybe a nőhóditóval. Első szava az volt:</p>
+				<p>- Mégis különös asszony!</p>
+				<p>És szégyelte magát. Ilyen esete még sose volt! Egy asszony, a ki a helyett, hogy vele
+               szöknék meg, a férje karjaiba borul! Hisz annyiból örült, hogy nem kellett
+               megszöktetnie az asszonyt, mert kellemetlen és mindenekfelett izléstelen, romantikus
+               dolognak tartotta a szöktetést még regényben is: de restelte, hogy „ellenfele” igy
+               egy sakkhuzásra mattot adott neki... „Ellenfele!” elmosolyodott a kitételen. Hát
+               igen! A régi fajta nőhóditónak, kinek csak az volt a baja, hogy tulsok szive volt,
+               barátja vala az asszony, - a mai donjuannak azonban, ki csupa ideg s analyzis,
+               ösztönszerüleg ellensége az asszony, a kit le kell győznie... mert különben maga
+               győzetik le.</p>
+				<p>Mikor a filozóf agyongondolta az esetet Dodóban, akkor a szerény érző ember
+               kerekedett felül benne. És elszomorodott. Galoppból trappba s aztán trappból lépésbe
+               fogta a lovát. Csodálatos temperamentumánál fogva az az ember volt ő, a ki a dolgokat
+               csak akkor tudta igazában megbecsülni, a mikor már elvesztette. Modern vonás volt
+               benne teljesen ez is: hisz a modern embert mindig csak az el nem ért vagy már el nem
+               érhető dolog érdekli: modern ember ekép többnyire a jövőben vagy a multban boldog, de
+               sohasem a jelenben, a meglevőben. És elfogta Dodót az a melankholia, mely a
+               bevégződött dolgok visszhangja, a multtá tevés, a megszünés szomorusága. Mintegy
+               parancsszóra szálltak utána fecskeröptükkel elmult szerelmének csábos képei,
+               melyekből immár most hiányzottak a jelen reális, kellemetlen szinei... de szerelmében
+               az elérhető közelség tónusai egy idealizált messze távlat fátyolképébe foszlottak,
+               melyet valami bus naplement fantasztikus fénye világitott meg. Lement a nap: lelkének
+               ez a tájéka besötétedett.</p>
+				<p>- Ah, hát szó sincs róla, szép szőke asszony volt, gondolá, mikor otthon leugrott
+               lováról s az őrmester jelentését fogadta.</p>
+				<p>Aztán az első két nap alatt még idegesen várt valamit. Levelet, üzenetet, csak egy
+               „adieut”, bármit, csak valami magyarázat legyen. Mint analytikus és logikus ember
+               tiszta képet szeretett volna szerezni magának arról, hogy mi mehetett annak a
+               különös asszonynak a fejében s a szivében végbe: Hisz persze, hogy meg voltak neki a
+               maga elméletei az esetről: ez az asszony alapjában véve mindig csak a férjét
+               szerette, most ismét rátalált... Eh, de ez volt az utolsó gondolata mindig, azért
+               engemet is szeretett. Lehetetlen, kellett! kellett, hogy szeressen engemet is...</p>
+				<p>Hanem hirt azért nem kapott Melanietól. Végre Dodó megállapodott abban, hogy az
+               asszony félt tőle s azért nem irt neki... S ebbe belenyugodott. Kiváncsi volt a
+               jövőre. Mielőtt Moszkovszkyék elutaztak volna, kétszer volt náluk, de az asszonyt
+               sohase láthatta. Mindig Sándort találta otthon, a ki kimentette a feleségét, hogy
+               rosszul van. Igy aztán Dodó hosszasan magára maradt a férjjel. És őszintén
+               megtetszett neki az ember, viszont örült annak, hogy most hát, hogy szakitott az
+               asszonynyal, minden becstelenség nélkül barátkozhatik Sándorral. Valami csodálatos
+               hálát érzett iránta, tartozást, melyet e becsületes ember iránt le kellett rónia...
+               Igy esett aztán, hogy Dodó elvállalta a birtok felügyeletét s levelezésbe
+               bocsátkozott Sándorral. Örült, hogy ha bármikép valami hasznot tehetett neki.</p>
+				<p>Gyakran valami sajátságos türelmetlenséggel várta a Sándor leveleit. Mintha csak
+               szerelmes levelet várnék!? mormogá magának szfinx mosolyával: tán azért érdeklődtem
+               csak Sándor iránt, mert Melaniehoz tartozik, tán csak a feleségét szeretném férjben?
+               S ekép valami homályos irritált érzés, mely a férjet illetőleg barátsággá szelidült,
+               igy rászedett volna engemet? Szégyelte magát Dodó ismét. De hát végre Moszkovszkyék
+               sokáig voltak oda nagyon és Dodó, a ki ugy tudta az érzelmeit dresszirozni, mint a
+               remonda-lovakat, végre is elhitette magával, hogy azért szereti Sándort, mert az
+               isten is barátjául teremtette. Az asszonyról hát lemondott. Belenyugodott abba a
+               hiuságának némileg hizelgő gondolatába, hogy ennek a szegény Melanienak, milyen rossz
+               lesz most haza jönni, hogy fog félni tőle, hogy fog küzdeni régi szerelme
+               gondolatára... Igy még belenyugodott megveretésébe, eléggé tisztességesnek tünt fel
+               előtte a visszavonulás. Előre sajnálta Melaniet: szegény asszony! Megkönnyitem neki a
+               dolgot, legjobb lesz, ha magam mindjárt oly könnyed, udvarias baráti hangot veszek
+               fel, mintha semmi se történt volna közöttünk. Ilyen esetekben a legokosabb dolog:
+               amputálni az emlékeket, szuggerálni magának a feledést. S az ember hihetetlen módon
+               tud felejteni, ha akar... Csak semmi szenvedélyes, szinpadi jeleneteket, gondolá
+               tovább Dodó, előre is félve a Melanie esetleges kiszámithatatlan lélekváltozásaitól.
+               Mert Dodóban igazán sok nemes érzés volt: szerette az asszonyt, most nagyon szereti a
+               férjét, mindinkább őszintén kivánta, hogy e két ember fellegtelenül boldog
+               legyen.</p>
+				<p>Mikor tehát meghallotta, hogy Moszkovszkyék megjöttek, mindjárt másnap lóra ült s
+               átügetett hozzájuk. Ugy gondolá, jobb lesz rá nézve is, de főleg a
+                  szegény asszonyra nézve, ha minél előbb tulesnek az első találkozás zavarán.
+               Igyekezni fogok megkönnyiteni a dolgot Melaniera nézve, mormogá magában, mikor
+               belépett.</p>
+				<p>Melanie, ki ép akkor hozta rendbe uj boudoirját s kidobván könyveit, csak a Kempis
+               „Imitátió”-ját, olvasgatta elmerülten, csodálatos, nyugodt mosolylyal mondotta az
+               inasnak, hogy vezesse a főhadnagyot a szalonba. De az isten tudja: vagy az inas
+               mondotta rosszul, vagy a főhadnagy értette rosszul, annyi bizonyos, hogy ép mikor
+               Melanie át akart menni a szalonba, nyilt a boudoir ajtaja s Dodó lépett be rajta.</p>
+				<p>Melanie még csak nem is reszketett. De hisz ő oly erős volt férje iránti szerelmében,
+               hogy az érzékei szinte elzsibbadtak a külső világ, minden iránt. Mintegy láthatatlan
+               pánczél vette őt körül erős érzelme, melynek biztonsága mögül nyugodtan, a
+               közönyösség szerénus mosolyával nézett mindent. Mit törődött ő a világgal? Hisz az a
+               Vruci-Madonna, az a Nagy-asszony megbocsátott neki! Akkor hát a mult nem is létezett
+               rá nézve, - álom volt, rossz álom minden, még az a sápadt szép főhadnagy is, a ki
+               most belépett az ajtón. Annyira beleélte magát ebbe a lélekállapotba, annyira
+               szuggerálta magának a feledést, hogy Dodó első pillanatra egészen idegennek tünt fel
+               előtte. A maga tisztességes asszonyi megzavarhatatlanságában még bizonyos jóakarattal
+               akarta az első pillanatban konstatálni, milyen csinos fiatal ember...</p>
+				<p>Dodó meghökkent. Mindenekelőtt a szoba megváltoztatott képe volt az, a mi meglepte:
+               egyszerü, komolyabb butorok, a falon a régi frivol Beers másolat helyén egy nagy
+               Sixtini-Madonna-fénykép, (ezt Melanie valahonnan a padlásról szedette elő), könyvek,
+               csecsebecsék, minden eféle eltünt... S Melanie? E megváltozott környezetben ő rajta
+               magán még inkább meglátszott a változás. A Sant-Onofrio templombeli est óta, szóval
+               mióta helyre állott lelkének az egyensulya, mióta megtisztultnak érezte magát
+               bünétől: a nyugalmas, kellemes élet mellett, kissé még meg is hizott, a mi nagyon jól
+               illett neki. Szemeiben valami megzavarhatatlan nyugalom volt, a régi ideges
+               pillantás helyét az az együgyü mélaság foglalta el, melyet a nagyon szerelmes
+               tisztességes asszonyok szemeiben láthatni.</p>
+				<p>- Jó napot édes Donhofen, mormogá Melanie szórakozott mosolylyal nyujtva kezét.
+               Látszott rajta, hogy gondolatai ezer mértföldre vannak...</p>
+				<p>Dodó elcsodálkozott. Soha még igy asszonyt kinézésre megváltozni nem látott. Két
+               asszony állott ott előtte: a régi Melanie, a ki őt elfeledte vagy nem akarta ismerni
+               s ez az uj csodálatos Madonnaszerüen nyugodt nő, a kit ő még nem ismert...</p>
+				<p>- Kezét csókolom, mormogá hozzálépve s merően a szemébe nézve. Nem, nem reagált a
+               pillantására! Nyugodtan nézett rá, a hozzáférhetetlenség szelid, jó akaratával. A
+               főhadnagy zavarba, utóbb pedig egyszerüen dühbe jött. Elhatározta, hogy a látogatás
+               végén megadja ő ennek az asszonynak. Voltakép pedig csak örülhetett volna: hisz ő
+               ugyis meg akarta a „szegény asszonynak” könnyiteni az első látogatás zavarát. Igen,
+               csakhogy most ép az dühösitette őt fel, hogy az asszony már megelőzte őt s
+               megfoghatatlanul megkönnyitette magának a dolgot; - közönyösebb volt még egy fokkal,
+               mint a milyen ő akart lenni, közönyös volt oly annyira, hogy egész kedves tudott
+               lenni... Nem kerülte a főhadnagy szeme pillantását, sőt inkább rá nézett őszintén,
+               egyszerüen, de oly idegenül, mintha azt akarta volna mondani: „milyen kár, hogy
+               jobban nem ismerem ezt a szeretetreméltó fiatal embert...”</p>
+				<p>S beszéltek mindenféléről: az utról, Rómáról, Nápolyról, Capriról... Többnyire
+               Melanie vitte a szót, dicsérte a képeket, antik szobrokat s főleg a Madonnákat.
+               Ezekről egész elragadtatással beszélt. Dodó folyton figyelte, esze mintegy ugráshoz
+               készülő jaguár állott résen, hogy abban a pillanatban, mikor régi szeretője elárulja
+               magát, kérlelhetetlenül rajta üssön... Hiába, nem árulta el magát egy pillanatra sem.
+               „Akkor hát még se játszik, mégis mindez való nála.” Elkedvetlenedett.</p>
+				<p>- Csakugyan sose volt Olaszországban? kérdé Melanie. Menjen el, nézze meg, ön azt
+               hiszem költői lelkületü ember, szereti a müvészeteket s nagyon jól fogja érezni magát
+               ott.</p>
+				<p>Látva, hogy elaludt a főhadnagy czigarettája, felkelt s egész közel lépve hozzá,
+               meggyujtott egy gyufát s figyelmesen tartotta arcza elé. Dodó majd elszédült ettől a
+               közelléttől, megdöbbent tőle. Ez a szép test, melynek minden porczikáját ismerte, ez
+               most itt áll merőben idegenül előtte. Idegen, teljesen idegen, nem ismeri őt többé.
+               Érezte ő éles megfigyelésével, hogy ez nem pose ennél az asszonynál, még csak nem is
+               kokettség, hanem valóság. Amputálva van az emléke agyából... Mialatt a gyufát ott
+               tartotta, egyszer pedig még rá is nézett Melanie a főhadnagyra, kedvesen,
+               előzékenyen.</p>
+				<p>- Ugy? no meggyulladt végre? Olyan rosszak ezek a Karavapoulo czigaretták.</p>
+				<p>- Báróné sose czigarettázik? kérdé Dodó ránézve.</p>
+				<p>- Nem, mondá mosolyogva Melanie.</p>
+				<p>- De én ugy emlékszem, már láttam czigarettát a szájában, folytatá Dodó hanyagul.</p>
+				<p>- Igazán, - lehet, de az nagyon régen lehetett. Tudja az embernek annyi minden bolond
+               szokása van. Nem is nézte meg a boudoiromat. Ugy-e szép?</p>
+				<p>- Szép, mormogá Dodó, de a másik szebb volt.</p>
+				<p>- Ugyan menjen, kaczagott Melanie; azzal a sok csecsebecsével, léha holmival?! Hisz
+               ugy nézett ki, mint valami szinésznő öltözője...</p>
+				<p>- S a könyvei hova lettek? kérdé Dodó, elszomorodva véve észre, hogy az ő általa
+               adott könyveket sehol se találja.</p>
+				<p>- A könyveim? Hát bizony a padlásra tétettem őket, mert annak a szekrénynek a helyére
+               egy varrógép jön...</p>
+				<p>Dodó már nem birta tovább. Ki akart törni. Hozzá akart lépni, hogy egyszerüen,
+               brutálisan átölelje, mikor egyszerre Sándor lépett a szobába.</p>
+				<p>Roppant megörült az ő kedves Dodó barátjának.</p>
+				<p>Egy darabig még elbeszélgettek, de a főhadnagy aztán fölkelt s elbucsuzott.</p>
+				<p>- Áldott jó gyerek ez a Donhofen, mormogá Sándor. Csak kicsit rosszul néz ki most, s
+               hallgatagabb, mint rendesen...</p>
+				<p>Melanie vállat vont s nem felelt.</p>
+			</div>
+			<div type="chapter">
+				<head>X.</head>
+				<p>Az este Melanie leborult a sixtini-madonna falon függő képe előtt. Szive, lelke telve
+               volt a hála tuláradó érzelmeitől. Kiállotta a nagy megpróbáltatást, viszont látta
+               büntársát, a szemébe tudott nézni megtisztult lelkével, tudta őt nem ismerni többé.
+               Most már hát, susogá, jogom van a boldogsághoz, megkezdhetem uj életemet... Felnézett
+               a félhomályban a sixtini Boldogasszony arczára:</p>
+				<p>- Vétkeztem, bünhődtem, - most boldog vagyok, megérdemlem... ugy-e boldog
+               maradhatok?</p>
+				<p>Aztán elgondolta uj élete küszöbén a multat. Vajon mindent elkövetett-e arra, hogy
+               megtisztuljon? Nem visz-e valami szennyet átal lelkén uj életébe? Egy homályos
+               érzés mint valami féreg rágódott messze, lelke legmélyén. Remegő arczczal nézett fel
+               ismét a Madonnára.</p>
+				<p>- Nem kell-e Sándornak elmondanom, hogy gondolatban sokáig hütelen voltam hozzá? -
+               Nem kell-e elmondanom, hogy... elbuktam?</p>
+				<p>Hosszan nézett a Boldogasszonyra, mintha feleletet várt volna tőle. Eszébe jutott az
+               a jelenet Rómában, mikor megkérdezte a férjét, hogy mit tenne, ha megtudná, hogy
+               mással, a legjobb barátjával szerelmeskedik, - eszébe jutott, a férje halántékán hogy
+               kidagadtak az erek... Félelem, borzasztó félelem fogta el, a fizikai kintól való
+               félelem. Majd elájult ott a szoba közepén. De azért a fixa idea, mint valami
+               szuggerált parancs megmaradt a lelkében. Mintegy borzasztó kinpróba állott előtte,
+               mielőtt teljesen boldog lehetne, az a gondolat, hogy ezt el kell mondania férjének és
+               Sándornak meg kell bocsátania neki.</p>
+				<p>Végre azonban mikor rajongó állapotából kissé magához tért, az asszonyi józan ész
+               kerekedett felül benne: Nem, még se mondhatja el... Behunyta a szemét: gyáva vagyok,
+               gyáva, félek... mormogá kétségbeesetten, mert érezte, hogy ez a gondolat örökre
+               utjában fog állani boldogságának.</p>
+			</div>
+			<div type="chapter">
+				<head>XI.</head>
+				<p>Dodó főhadnagy hazavágtatott. Fel volt indulva nagyon, ugy hogy egész testében
+               reszketett. Elvesztette a talajt a lábai alól, nem tudott itélni, nem tudott
+               gondolkozni. Leheveredett faragványos kerevetére s vagy egy órába került, mig
+               magához tért.</p>
+				<p>Kihuzta a fiókjából Melanie egy képét s hosszan elnézte, merően, mintha parancsolni
+               akart volna neki, uralkodni akart volna rajta. De nem tudott. A szerelemnek abban az
+               ideges harczában, melyet egymás ellen folytattak, legyőzte őt ez az asszony
+               tökéletesen. És szivébe beletört ennek a vesztett szerelemnek a nyila. Ki akarta
+               onnan huzni, de nem tudta... Felkelt, hosszan járkált fel s alá a szobában. Aztán
+               kinézett ablakán a nagy tarlón át a völgyben elmosódó parkra és kastélyra. Valami
+               mély vágyódás fogta el. Mi lehet ez? kérdé aztán analitikus eszével magától. Dacz?
+               Szégyen vagy tán igazán szerelem?... Ah, hiszen ha szerelem volna, igaz szerelem s
+               nem mulandó káprázat. Mint minden modern embernek, ugy Dodónak is szkeptikus lelke
+               mélyére, mint valami örökre eltett kincs oda volt elrejtve szégyenlős ideálizmusa,
+               mérhetetlen vágya az igazi s egyszerü boldogság után.</p>
+				<p>Jó, hát elfelejtette őt Melanie, de hogy ily gyorsan s ily nyomtanul felejtette el:
+               ez bántotta mélyen. Pedig bevallotta, hogy hisz mikor a kastélyba belépett, azzal a
+               tudattal, azzal a kivánsággal tette be a lábát, hogy bárcsak elfelejtette volna őt
+               Melanie... Mi volt ez hát akkor? Sértett hiuság? Vagy tán... mégis szerelem? Ama
+               hosszu távollét alatt e szerelem csak azért pihent volna benne, mivel azt hitte, hogy
+               alapjában véve ez a szeszélyes asszony, a ki most a férjét akarta szeretni, mégis
+               csak őt szerette, ha csak kevéssé is?</p>
+				<p>Lefeküdt, de nem tudott aludni. A vert csata végével keserüen bánkódott elvesztett
+               kincse után. Ez elveszett kincsek: a szerelem ezerszinü kápráztató képei mind most
+               mennyivel élénkebb szinekben tüntek fel előtte, ép mivel elvesztette őket. Végtére is
+               dühbe jött.</p>
+				<p>- No még csak ez kellett nekem, hogy szerelmes legyek! Eh, a régi história: fugax:
+               sequax - sequax: fugax... Ha én szaladok előled, te szaladsz utánam; ha te szaladsz
+               előlem, én szaladok utánad... És ha vajjon ujból meghóditanám, nem unnám-e meg ismét?
+               De vajjon meg tudnám-e ismét hóditani?... És ha nem tudom ismét lenyügözni ezt a
+               szeszélyes asszonyt, mit teszek akkor?... Akkor okvetlen azt fogom életem utolsó
+               perczéig hinni, hogy ez volt életemnek egyedüli igaz szerelme... Eh, az ilyen
+               gondolatokba megőrül az ember: tisztán akarok látni... Sándor jutott az eszébe, ez a
+               jó barát, a kit ugy szeretett még az olasz ut alatt. Most felkaczagott s utána egy
+               nagyot káromkodott.</p>
+				<p>- Barátja egy férjnek, a kinek a felesége a végén engem mégis vele csalt meg, ha-ha!
+               Igazán nevetséges...</p>
+				<p>S Dodó, ki csak egyet gyülölt a föld kerekségén, az ostobaságot, viszont csak egy
+               dologtól félt, a nevetségestől, most ugy érezte magát, mintha feleség és férj is
+               rászedték volna őt s nagyot nevetnének rajta. Nem aludt az éjszaka semmit.</p>
+				<p>Három napig feléje se ment Moszkovszkyéknak. Durczás lett, majdnem olyan, mint valami
+               gyerek. Hisz ha analitikus, filozofiai théziseiből kiesett s érezni kezdett, Dodó
+               rendesen olyanná is vált, mint valami gyerek... épen mivel ez az érző rész kevéssé
+               volt kifejlődve s még kevésbé volt gyakorolva nála. Gyakran mondogatta is farsang
+               végeken a fiuknak, ha kérdezték, hogy sokan voltak-e beléje szerelmesek, hogy „igen,
+               voltak, de nekem, részemről egész berozsdásodott a szivem...” Rajta is beigazodott az
+               az állitás, hogy biztosan hóditani csak az tud, a ki maga semmit se érez s igy teljes
+               lelki erejét a hóditási tervek kivitelére fordithatja... mihelyt kicsit megégette
+               magát, mindjárt elvesztette a fejét s nem volt többé ura terveinek.</p>
+				<p>Moszkovszky Sándor párszor kereste ez alatt a három nap alatt, de Dodó, ki se rukkolt
+               a századdal és letagadtatta magát.</p>
+				<p>Aztán még várt vagy három napig. De e napok alatt nagyon sokat szenvedett. Irt vagy
+               tiz levelet Melanienak, de mind széttépte. Végre egy napon aztán nem birta ki tovább,
+               lóra ült s átvágtatott Moszkovszkyékhoz. Már tizenegy óra felé járhatott az idő.
+               Biztosra vette, hogy Sándor ekkor még nincs otthon.</p>
+				<p>Moszkovszky Sándor, ki az előző napokon annyit kereste Dodót hiába, az nap délben
+               ismét elnézett a főhadnagyhoz. Különben is szerette volna látni, de mindenek felett
+               arra akarta kérni, hogy az őrnagynak, kit ő nem ismert, egy eladó lovát szerezze meg
+               számára. Aztán szeretett volna még másról is beszélni vele. Tőzsdei ügyletei
+               beütöttek, hátha felmennének Melanieval a fővárosba s ő a birtokot bérbe adná. Csak
+               akadna valami jóravaló zsidó, a ki elég nagy összeget igérne.</p>
+				<p>Emlitette volt a dolgot reggel Melanienak is.</p>
+				<p>- No és mit csinálnál akkor, édesem? kérdé Melanie.</p>
+				<p>- Hogy mit csinálnék? Hisz ez volt a bökkenő, Sándor nem tudott rá felelni. Már most
+               is, hogy kijött a régi kerékvágásból, unatkozott. Az erős, gondterhes munkához
+               szokott ember, ha egyszer kiszabadul a járom alól, nem tudja mit csináljon. Kicsit
+               rosszkedvü is volt az utóbbi napokban. S mivel a munkától elvont eszének csak kellett
+               valamivel foglalkoznia, hát a feleségével foglalatoskodott. Hivta látogatóba, most
+               ugyis lesz egy garden-party Dombrády Stefiéknél... De Melanie nemigen szeretett
+               hazulról elmenni. Sándor a fejét csóválta. Elnézte a feleségét.</p>
+				<p>- Nem vagy te már a régi jukker-asszony, édes kicsikém, - mormogá elszomorodva -
+               egészen elhanyagolod magad...</p>
+				<p>Mikor azonban könyet látott a felesége szemében, ki ép a takaritásnál
+               foglalatoskodott, megbánta, a mit mondott s gyöngéden megölelte Melaniet. Melanie
+               azonban búsan elgondolkodott:</p>
+				<p>- Istenem, milyen csodálatosak a férfiak: nem szeretik, ha az ember nagyon szereti
+               őket s csak nekik él...</p>
+				<p>- Itthon van a főhadnagy ur? kérdé Sándor a legénytől.</p>
+				<p>- Nincsen, méltóságos uram!</p>
+				<p>- Már megint ez a sztereotip válasz! Sándor, ki különben is rosszkedvü volt, egészen
+               felingerült.</p>
+				<p>- Miért tagadtatja le ez az ember magát mindig, - tán neheztel rám? - Valamit irok a
+               főhadnagy urnak, eressz be...</p>
+				<p>A legény odaugrott s kitárta Sándor előtt az ajtót. Csakugyan nem volt otthon Dodó.
+               De miután már azt mondta a legénynek, hogy irni fog, hát csakugyan a főhadnagy igen
+               huszáros iróasztalához lépett s papirost keresett. Ugy gondolá, felirja Dodónak, hogy
+               vegye meg neki az őrnagy lovát.</p>
+				<p>Az asztalon három gyűrött levél hevert, kettő ki volt huzva a boritékból s ugy
+               feküdt, hogy az ember szeme akaratlanul is az irásra esett. Melanienak három levele
+               volt a régi boldog időkből: Dodó az elmult éjszaka szedte elő s felejtette ideges
+               kétségbeesésében őket az asztalon. A legény pedig nem mervén hozzájuk nyulni, hát
+               csak ott hagyta őket.</p>
+				<p>Moszkovszky Sándor egyenes, becsületes és minden ravasz kiváncsiságtól ment lelkével
+               szégyenkezve fordult el, hogy csak egy pillanatra is belepillantott az irásba. De hát
+               nem tehetett róla. Gondolatai egyebütt jártak, az őrnagy lován, a melynek nevét
+               pillanatra elfelejtette... S a mint ugy találgatta magában, öntudatlanul azok a
+               szavak jöttek ajkaira, melyekről szórakozottságánál fogva tudomást se vett, de a
+               melyeket szemei ott láttak a levélben s tovább vittek fel agyába...</p>
+				<p>- Dodó, mon amour, Sándor ma nincs itthon...</p>
+				<p>- Mit beszélek én itt össze? mormogá megijedten. Ahá, az a levél...</p>
+				<p>De aztán egyszerre nagyon melege lett. Vére ugy a fejébe szállott, hogy pillanatra
+               minden elsötétült körülötte és semmit se látott a szobában. Ott állt az iróasztal
+               felett s szégyenkezve ugyan, de indulatának brutalitásától legyőzetve nézte az irás
+               betüit. Ugy hasonlitottak a felesége irásához. Sokáig állt ott, a nehéz lázas
+               izzadtság, mint valami nyavalya tört ki rajta... Mi volt azokban a levelekben?
+               Meglehetős rövidek voltak, félig francziául irva; ugy sebtében tele szerelmesebbnél
+               szerelmesebb kitörésekkel. Ez a „Sándor” szó csak egyszer fordult elő a három
+               levélben, ép annak az egy billet-nek az elején, melyet Sándor először megpillantott.
+               Egyebütt „ő” volt irva... eh, de különben Sándor nem tudott e leveleken eligazodni.
+               Utoljára már összefolyt a szeme előtt az irás... Őrülten kalapáltak a halántékában,
+               egész fejében. Mint egy taglózott bika emelkedett fel gémberedett derekával az
+               iróasztaltól s mosolyogni próbált. Hangja siketen csengett a fülében.</p>
+				<p>- Mégis csak szemtelenség tőlem, hogy a Dodó szerelmes leveleit olvasgatom itt...</p>
+				<p>De most mint valami nagy fizikai kin nyilallott testébe. Majd felorditott: az
+               aláirást! Az aláirást elfelejtette eszelős szórakozottságában megnézni... Ismét
+               odaugrott az iróasztalhoz.</p>
+				<p>Egyik levél se volt aláirva. Megkönnyebbülten sóhajtott fel. A mosdóhoz ment s
+               teletöltötte a tálat vizzel, beledugta égő fejét. Csak ugy dőlt az izzadtság
+               róla...</p>
+				<p>Nem irt a főhadnagynak semmit, keze ugy reszketett, oly bizonytalanul látott, hogy
+               nem tudott volna tollat fogni a kezébe. Kitámolygott az utczára, ki a friss levegőre.
+               Mosolyogni próbált, de a mosolya ugy csengett a fülében, mint valami őrültnek a
+               vihogása.</p>
+				<p>Nem tudta merre menjen. Ész nélkül csavargott a falu libagyepes, ronda utczáin.
+               Olykor mintegy villanyszikra futott át testén: felugrani, rohanni, ölni... de még
+               mindig szédült, alig volt annyi ereje, hogy járjon s különben is a következő perczben
+               megint mosolyogni próbált.</p>
+				<p>- Eh, de őrült vagyok?! Már hogy volna ez lehetséges? - No már csakugyan nagy barom
+               vagyok...</p>
+				<p>Lassan összeszedte magát, megrázta erős termetét, szeme kitisztult, a fülében se
+               kalapácsoltak többé. Csak gondolkozni nem tudott még...</p>
+				<p>E pillanatban ki jött vele szemben: hát Kamásly Friczi, zöld kalapjával és sárga
+               kamáslijaival, hetykén, kaczkiásan, mint mindig. Lábaszárát valami agarász-ostorral
+               verdeste. Fütyörészett.</p>
+				<p>Sándor nem látta őt a párbaj óta. Friczi későn vette észre volt ellenfelét, csaknem
+               akkor, mikor már majdnem egymásnak mentek. Mikor felismerte Sándort, pillanatra
+               mintha el akart volna mosolyodni, de aztán széles pisze képén valami sajnálkozó
+               diszkrét komolyság terjengett el. Hallgatagon köszöntek egymásnak s kiki tovább
+               haladt.</p>
+				<p>Sándor merően nézett Kamásly Friczire. Megkapta annak az arcznak a leirhatlan
+               kifejezése. Megértette... Most az egyszer jelenlegi idegtulfeszültségében psziholog
+               tudott lenni.</p>
+				<p>Mint a kit a villám ér, állott ott meg. Két karját nehéz csontos ökleivel szétfeszité
+               s ugy nézett fel a békés kék égre, mintha le akarta volna szakgatni a boltjait.
+               Szája, melynek szélei szinte habzottak, nyitva feledten rángatództak, dadogott
+               érthetetlen szavakat.</p>
+				<p>Aztán sarkon fordult s mezőn, réten, kerteken keresztül, mint az őrült futott haza.
+               Egy ág még le is kapta a kalapját. Elfelejtette felvenni.</p>
+				<p>A szobaleány elképedt, mikor meglátta a bárót. Azt hitte, hogy tisztára megőrült.</p>
+				<p>- Itthon van a feleségem? hebegé Sándor.</p>
+				<p>- Itthon, hebegé a szobaleány, Donhofen főhadnagy ur van nála...</p>
+				<p>Sándor a kín paroxysmusában halkan, vérfagyasztóan kaczagott fel, aztán félrelökte a
+               szobaleányt s előre rohant.</p>
+				<p>Hangos szavakat hallott a boudoir felől. Ösztönszerüleg megállt az ajtó előtt és
+               figyelt.</p>
+			</div>
+			<div type="chapter">
+				<head>XII.</head>
+				<p>Odabent Dodó ott állt az asszony előtt halálsápadtan, mert bár alapjában nem volt
+               meleg érzésü ember, alkalomadtán, főleg ha valami sarkalta, tudott őszintén
+               szenvedélyes és heves lenni. Irtózatos volt neki az a gondolat, hogy ez az asszony
+               nem ismeri őt többé... hogy kiveszett az emlékéből nyomtalanul, mint a tavalyi
+               hó.</p>
+				<p>- Melanie, az isten szerelmére, ismerjen rám, nézze, én vagyok az, a kit maga ugy
+               ölelt még nem is olyan régen...</p>
+				<p>Letérdelt előtte.</p>
+				<p>- Akkor este azt mondta, szökjünk meg, nos, itt vagyok: szökjék meg vélem most...</p>
+				<p>Nem birt már többé magával: felugrott, oda rohant az asszonyhoz s átölelte
+               eszeveszetten, szenvedélyesen, ugy a mint még tán sose ölelt senkit. Melanie kiáltani
+               akart, hogy „hagyjon el!” de sikolya a huszár atillájának a sujtásába fult.</p>
+				<p>Sándor, ki hasztalan fülelt, mert a beszéd ez utóbbi része elfuló halkan folyt, végre
+               nem tudva mire vélni a dolgot, felszakitotta az ajtót s mint egy tigris ugrott be a
+               boudoirba.</p>
+				<p>Ott látta a feleségét a főhadnagy karjaiban. Erős, egyszerü temperamentumoknál,
+               melyeknek az idegei rengeteg rázkódtatást kibirnak, óriási változások mennek végbe
+               pillanat alatt: az ily hatalmas természetek a kín emberfeletti leküzdésével képesek
+               gyorsan cselekedni, - képesek egyszerre letépni a hütelen nőnek ezer szállal
+               odatapadt képét lelkükről... Sándor előtt egy rövid pillanatban mint valami sülyedő
+               világrész enyészett el élete boldogsága.</p>
+				<p>Melanie, a mint meglátta a férjét, kiszakitotta magát a főhadnagy karjai közül s
+               rendithetlen szerelme tudatában férjéhez akart menekülni s a nyakába borulni.</p>
+				<p>Dodó tépett atillájában kővé meredve állott a szoba közepén. Szólni akart, de mintha
+               fuldokolnék, nem jött szó az ajkaira.</p>
+				<p>- Én elveszem ezt az asszonyt... szeretem... mondá kinos lassusággal, siket
+               hangon.</p>
+				<p>Sándor a ráboruló asszonyt szilajon lóditotta félre, ugy hogy a szoba tulsó sarkába
+               repült s aztán felemelt öklökkel, vérben forgó szemekkel rohant a főhadnagyra.</p>
+				<p>Dodó, ki időközben visszaszerezte hidegvérét, leereszté kezeit s férfias nyugalommal
+               várta a csapást. Hisz a férjnek joga volt hozzá. Sándor nem volt elkészülve erre.
+               Leereszté reszkető ökleit. Pillanatra borzasztóan nézett ez a két ember egymásra.</p>
+				<p>- Szolgálatjára állok, mormogá Dodó halkan, mozdulatlanul.</p>
+				<p>Sándor homlokához kapott. Aztán még egyszer a megsemmisitő megvetés egy pillantásával
+               mérte végig Dodót s az ajtóra mutatott.</p>
+				<p>- Itt az ember az asszonyt bünteti... dadogá eszelősen.</p>
+				<p>A főhadnagy meg se mozdult: a sarokban támolygó asszonyra pillantott. De a Sándor
+               csontos keze ismét az ajtóra mutatott. Szót kellett fogadni, hisz a férj rendelkezett
+               a felesége felett. Meghajtotta magát s aztán csöndes, vontatott léptekkel kiment.</p>
+				<p>Mikor magukra maradtak, mint egy ragadozó ugy közeledett áldozatához Sándor.</p>
+				<p>- Szeretője... szeretője ennek az embernek, az én legjobb barátomnak...</p>
+				<p>Melanie összeesve tántorodott vissza a rettenetes arcztól. Ah! végre hát rajta ütött
+               az a rém, a melyet álmában annyiszor látott.</p>
+				<p>- Sándor! - Sándor, az istenért! sikoltá Melanie, esküszöm neked, nem vagyok a
+               szeretője, - esküszöm neked, csak téged szeretlek, óh istenem, végtelenül szeretlek,
+               - Sándor az istenért, nézz rám, nézz a te szerető feleségedre...</p>
+				<p>Tovább akart még beszélni, de a Moszkovszky Sándor nehéz két keze, mint két
+               rettenetes pöröly csapódott a vállaira. Ujjai csöndesen kezdették szoritani a torkát.
+               Ah, gondolá Melanie, elméjének utolsó mécslobbanásánál itélve meg a helyzetet, - hát
+               meg akar fojtani...</p>
+				<p>Sándor irtózatosan kaczagott fel.</p>
+				<p>- Még tagadod, mikor itt a karjaiban talállak...</p>
+				<p>- Sándor, esküszöm...</p>
+				<p>- De a levelek, a leveleid, melyeket most láttam az iróasztalán, orditá rettenetesen
+               a férj.</p>
+				<p>- Sándor, - Sándor, dadogá Melanie csodálatos, egyre jobban elfulladó hangon, mert
+               férje vasujjai egyre jobban összeszoritották torka körül, mondom, - elmondom...</p>
+				<p>- A leveleid, szerelmes leveleid! orditá Sándor, falakat reszkettető hangon.</p>
+				<p>- Sándor... igen... én voltam a szeretője... eltévelyedtem... de... hisz ép azért
+               találtam most ismét rád... a szerelem megtisztitott... Isten... Isten is
+               megbocsátott... nekem... ott... a... az Onofrio kápolnában...</p>
+				<p>Sándor, kit a bizonyosság tudata, mint egy ujabb rettenetes szurás ért,
+               felorditott.</p>
+				<p>- Hát voltál, csakugyan a szeretője voltál?!</p>
+				<p>Nem birt többet parancsolni a kezeinek: nagy erővel zuditotta a fejét a falhoz, ugy,
+               hogy Melanie eszméletét vesztve bukott előre. E pillanatban rohantak be a
+               cselédek...</p>
+			</div>
+			<div type="chapter">
+				<head>XIII.</head>
+				<p>Melanie felébredt. Feje ugy zugott, hogy ép azt álmodta, hogy a római Szent-Péter
+               templomnak minden harangja szólt a fülében. Bent az egyház tömjénes gloriájában a
+               nagy asszony az oltár felett integetett neki álmában s halkan susogá a szentképek
+               csodálatos rejtelmes nyelvén: „megbocsátok... feloldalak...”</p>
+				<p>Ott hevert egy rögtönzött ágyon a boudoirban. Mellette egy öreg asszony térdelt, ki
+               borogatásokat rakott a homlokára. Ezt az öreg cselédet ő hozta volt még magával
+               hazulról.</p>
+				<p>Még zsongott a fejében a boldog öntudatlanság, de már homályosan érezte, hogy
+               mindjárt rá fog szakadni a rettenetes való és sikoltva bukott vissza fekhelyére.</p>
+				<p>Egy idő mulva ismét fel akart kelni, de szédült s a torka ugy fájt, hogy alig birt
+               nyelni. Ez következett hát rá, mindaz, a mit olyan rémesen álmodott meg! Mi marad még
+               most hátra? A lavina rémesen zörög le a szakadékos völgybe...</p>
+				<p>- Hol a férjem? susogá eszelősen.</p>
+				<p>Az öreg cseléd sirt mellette s csak nem felelt. Melanie tántorogva kelt fel és ugy
+               sántikált ki a szobából. A folyosón lerogyott a földre, ugy, hogy egy darabig
+               pihennie kellett. Aztán tovább mászott, formátlan gondolattöredéket mormolva ajkai
+               közt...</p>
+				<p>- Boldogasszony - Madonna, hát te megbocsátottál és ő nem bocsát meg? Halálra
+               itélt... S nékem mégis ő az istenem.</p>
+				<p>Nem, nem, hátha mégse!</p>
+				<p>Tovább kuszott az ebédtő ajtajáig. Nagy lépteket hallott onnan belülről. Sándor
+               sétált odabenn, szellőztetve keserüségét, irtózatos haragját. Immár kisirta
+               haragját, valami rendithetetlen fagyos komorságba merevedett.</p>
+				<p>Melanie kinyitotta az ajtót. Aléltan támaszkodott a félfához.</p>
+				<p>- Sándor, - mormogá.</p>
+				<p>Sándor megállt. Messze, örökmessze távolból látta ő már a feleségét. Leszámolt
+               vele.</p>
+				<p>- Sándor, - Isten megbocsátott nekem... Szeretlek, ugy szeretlek, mint soha senki se
+               szeretett. Elbuktam, mert elvesztettem képedet magam elől, de ép az által, hogy...
+               elbuktam, találtam rád ismét. Szeretlek, Sándor, érted, szeretlek s a szerelem
+               megtisztitott...</p>
+				<p>Sándor felnézett daczosan a plafondra.</p>
+				<p>- Isten megbocsáthatott, - suttogott siket hangon, - de én, az ura, a férje, nem
+               bocsátok meg soha...</p>
+				<p>- Sándor, Sándor! sikoltá Melanie, - tudod-e mit teszel?</p>
+				<p>- Tudom, - mondá komoran Moszkovszky Sándor - s azért ha holnap reggel még itt
+               találom a házban... felemelt ököllel közeledett a feleségéhez.</p>
+				<p>- Vigyék ki, - dörgé aztán, előcsengetve inasát.</p>
+				<p>Az inas felkapta az elájult asszonyt s visszavitte a boudoirba.</p>
+				<p>Melanie magához tért nemsokára. Felült eszelős sietséggel, mint a kinek sok dolga
+               van. Szakadozott gondolatai, mint fantomok jártak összevissza a fejében.</p>
+				<p>- Boldogasszony, - Madonna, hát megbocsátottál és ő - ő nem bocsátott meg? Halálra
+               itélt, ő az én bírám... Ha holnap, - holnap reggel...</p>
+				<p>Még tudott sirni, zokogni s ez oly jól esett neki. De nemsokára már kiszáradtak a
+               könyei. Mereven bámult maga elé. Kiszáradtak még a gondolatai is. Hová lett a sok
+               szubtilis pszichologia és analizis? Elméjének e lenge gondolatait mind agyonütötte az
+               a rettenetes pörölycsapás.</p>
+				<p>Dodó, csodálatosan, eszébe se jutott.</p>
+				<p>- Hát igen, - mormogá eszelősen - mi van más hátra? Egy gyors vizióban szárnyas
+               fantomokon robogtak el szemei előtt életének boldog és boldogtalan emlékei: egész
+               házassága, bukása, aztán boldog olasz második nászutazása... óh, be boldog is
+               volt!</p>
+				<p>Felrázta magát merengéséből, a kötelesség, a kötelesség, mormogá. Már kezdette
+               elveszteni gondolatai fonalát, az őrültség, mint valami szelid muzsika játszadozott
+               halántékai körül. Csak vére lüktetett s pedig oly hevesen és egész testében, hogy azt
+               hitte, a zaj odakintről hallatszik be, odakintről, hol vizet szivattyuznak, vagy
+               mi... vizet, vizet, motyogá, tán a vizipuskába, mert a ház ég... Mi ég? körülnézett a
+               szobában. Esteledni kezdett. Majd szakadozott képek termettek csodás élénk
+               szinezettel képzeletébe: Férjét látta vigan mosolyogva, a mint azt mondja: „hogy
+               vagy, édes Dodó...” majd az olasz templomban látta magát a Madonna előtt... s végül
+               egyszerre hirtelen egy frissen hantolt sirdombot látott, melynek uj fakeresztjére
+               tiszta, világos betükkel volt ráirva: báró Moszkovszky Sándorné, élt 28 évet...</p>
+				<p>Összerezzent. Eszelősen kelt fel. Értem, értem, mormogá. Iróasztalához futott.
+               Egyedül volt a szobában, mert az öreg cseléd kiment volt a borogatásokért. Kinyitotta
+               az ódon szekrény egy titkos fiókját, egy régi kis skatulyát vett ki onnan, melynek
+               sietve csavarta le a tetejét. Sok fehér por volt benne. Sietve öntötte a szájába.
+               Megvárta, mig lenyeli, aztán megállt.</p>
+				<p>- Arzenikum, - mormogá - megtörtént... meg van... Vajjon mennyi időm van még? Jaj,
+               siránkozék aztán, jaj, csak volna még kis időm...</p>
+				<p>Egyet mozdult, hogy lássa, hogy tud-e még járni. Óh nagyon jól tudott még járni!
+               Leszaladt a szobákon át a parkba, oda, a hol annyit vétkezett a férje ellen.</p>
+				<p>- Sándor, édes Sándorom, mormogá, - Madonna, - Nagyasszony, miért nem bocsátott meg
+               az uram nekem? Hisz szeretem...</p>
+				<p>Gyönyörü esthajnal pihent a tájon. A nyugati égen már megjelentek a piros fellegek,
+               melyeket egykor annyit elnézett. Most is fel akart nézni, de egyszerre valami
+               borzasztó, szinte sarkvidéki rettenetes hideg járta át a testét.</p>
+				<p>- Aha, gondolá, itt van már az a csunya rém... Valami bizarr ötlet folytán eszébe
+               jutott egy régi gyerekkori mesekönyve, melyben a halál rémes csontváznak volt
+               lerajzolva, mely kaszával a kezében üldözi az embereket... Hirtelen hátra nézett s
+               felsikoltott, mit láthatott? az isten tudja, de egyszerre elkezdett futni, futni
+               eszeveszetten, ki a rétre, melynek mocsara felől melankholikusan kezdtek brekegni a
+               békák. Ott lerogyott a földre. Borzasztó hányási rohamok vettek erőt rajta. Szép
+               aranyhaja kibomlott s hosszu fonatban hullott a háta közepére.</p>
+				<p>Kimerülten hanyatlott a kis halomra. Valami képtelen tintaszagot érzett a szájában.
+               Egyszerre mintha egy rettenetes kéz markolt volna a beleibe...</p>
+				<p>- Ahá, gondolá, megint itt van...</p>
+				<p>De most aztán elkezdett kiabálni, sikoltozni. Nem gondolkozott többé, homályosan
+               látta, csak már mintegy nagyon messziről a Vinci-Madonnát, a ki megbocsátott neki és
+               a Sándor komor arczát, a ki nem bocsátott meg neki. Aztán nem érzett többé semmi
+               mást, mint a halálnak irtózatos pokoli kinjait...</p>
+				<p>Köröskörül minden csendes volt a békés esthomályban. A mocsár felől csak továbbra is
+               melankholikusan brekegtek a békák, a falu tulsó végéről pedig halk csengéssel
+               hallatszott át a hazatérő gulya kolompolása.</p>
+			</div>
+			<div type="chapter">
+				<head>XIV.</head>
+				<p>Kamásly Friczi az este Lovagh Pistáéknál mulatott. Kicsit „beszeszelt” a vacsoránál,
+               ugy, hogy mikor végre lóra ült, meglehetős ingatag állapotban volt. Jó darab ut
+               állott előtte, meg sötét is volt, hát tanácsosabbnak tartotta eleinte lépésben menni.
+               Mikor azonban feljött a hold s jobban láthatott, elhatározta, hogy ott hagyja a
+               tüskös-bokros mezei utat s átvág a Moszkovszkyék kastély alatti tarlóján. Igy
+               hamarább haza ér.</p>
+				<p>Beugratta a szürkéjét galoppba s eszeveszetten részeg vágtatásban ment neki a siknak.
+               A park alatt azonban lova egyszerre ugy megállt, hogy Friczi, ki ép azt a nótát
+               dudolta, hogy „a hajamról csepeg a zsir...” szépen átalbukott a szürke nyakán s
+               békésen a földre ért. Mikor feltápászkodott, akkor látta csak, hogy mitől bokrosodott
+               meg a lova, valami vászon-cseléd feküdt, aludt a füben.</p>
+				<p>Friczi, ki egész világéletében Don Juan volt, némi titkos gyönyörrel közeledett a
+               parasztleányhoz. Micsoda kaland! majd elmeséli holnap Lovagh Pistának...</p>
+				<p>Mikor azonban a fekvő alak közelébe ért, hát hirtelen visszaugrott. Nem parasztleány,
+               hanem uri dáma volt az, világos nyári ruhában. Nem tudta, ki lehet... Végre a hold
+               kibujt a felhők mögött s ekkor megdöbbenve kapott boros fejéhez.</p>
+				<p>Borzasztó arcz volt az: sápadtabb a hold fényénél, iszonyatos halotti torzulatba
+               fagyva. Nyitott szederjes szája szélén feketés hab verődött össze. De még e
+               rettenetes lárván át is ráismert a részeg ember a szegény szép Moszkovszky
+               Melaniera.</p>
+				<p>Nézte, nézte egy darabig, mig végre lábujjhegyen félve lépve hozzá, megfogta csupasz
+               kezét. Halott volt az a szegény asszony egészen. Friczi elgondolkozott,
+               elszomorodott. Mi történhetett itt? Gondolta ő... mintha lelkiismeretfurdalást
+               érzett volna, a miért megmondta a dolgot Sándornak. Valami végtelen gyöngédséggel
+               simogatta meg az aranyszőke főt. Kicsit boszu is volt ez: életében ugy se tehette
+               soha...</p>
+				<p>- Ez a szerencsétlen asszony megmérgezte magát... mormogá.</p>
+				<p>Aztán egyet gondolva, hirtelen lóra kapott s beügetett a parkon át az udvarra.</p>
+				<p>Ott már nagy hajsza volt: cselédek, inas, kocsisok szaladgáltak össze-vissza. Friczi
+               nem szólt semmit, csak a bárót kérdezte.</p>
+				<p>- Oda fent van a vadászszobájában, susogá az inas, senkinek se szabad hozzá bemenni.
+               Jaj, jaj, nagy baj van...</p>
+				<p>Friczi felment s kopogtatott a nagy sarokbeli pántos ajtón.</p>
+				<p>- Ki az? mordult meg odabent egy komor hang.</p>
+				<p>- Nyisd ki Sándor, én vagyok, Kamocsay...</p>
+				<p>Az ajtó nyikorogva nyilt ki. Egy dult, sápadt arcz jelent meg benne.</p>
+				<p>- Bocsáss meg, barátom, hogy az életben még egyszer felkereslek s ismét boldogult feleséged ügyében, mormogá Friczi halkan; ott akadtam
+               rá a park alatt a... a szép testére...</p>
+				<p>Őszinte könyek voltak azok, melyek ekkor a Friczi szemében megjelentek.</p>
+				<p>Moszkovszky Sándor megrendült, mint mikor egy nagy fába villám üt. Pillanatig oda
+               dőlt az ajtófélfához s eltakarta a szemeit, de aztán egyenes jellemének
+               rendithetetlen következetességével szólalt meg:</p>
+				<p>- Rám nézve már dél óta halva van...</p>
+				<p>Kezét nyujtá Friczinek.</p>
+				<p>- Bocsáss meg nekem, barátom, - igazad volt, mikor figyelmeztettél, hogy... hogy...
+               Bárcsak megfogadtam volna a tanácsodat...</p>
+				<p>- Megmérgezte magát, mormogá Kamásly Friczi keserüen.</p>
+				<p>Rosszul esett neki a Sándor kézszoritása. Szégyelte magát. Istenem, istenem, gondolá,
+               minek is szóltam? Akkor talán mindannyian boldogok lettek volna, a maguk módja
+               szerint...</p>
+				<p>Egész uton egy szót se szóltak egymáshoz. Mikor végre kiértek a park sötét
+               lombmasszái közül, egy mély sóhaj tört elő a Moszkovszky Sándor széles melléből.
+               Lehorgasztott fővel s ingatag léptekkel ment hütlen felesége holtteste felé, a ki őt
+               annyira szerette. Ott a gyepen kis csoport állott: inas, kocsis s a siró szobaleány
+               mindannyian kalap nélkül. De mintha megilletődve huzódtak volna félre.</p>
+				<p>A füben fekvő fehér alak előtt, félkezével lovát tartva, mélyen elgondolkozva állott
+               Dodó főhadnagy. A már magasan járó hold szomoru pompával ragyogott végig atillája
+               sujtásain. Sápadt arcza olyan volt, mintha viaszból lett volna. Merőn nézett a fehér
+               halottra, eltorzult ajkainak még utolsó vonaglásaiban is mintha azt kiáltotta volna:
+               nem, nem szeretlek, férjemet szeretem, - miatta halok meg, mert ő nem szeret, - mert
+               nem bocsátott meg, mikor az isten is megbocsátott...</p>
+				<p>A főhadnagy lova nyugodtan legelészett a füben. A természet örök közönyével
+               harapdálta le a Moszkovszky Melanie gyönyörü kis lábai mellől a lenyomott hosszu
+               füszálakat.</p>
+				<p>Most Sándor is megállt a test tulsó oldalán. Lassan veté fel szemeit. Véletlenül Dodó
+               is felnézett s szemeik pillanatra találkoztak...</p>
+			</div>
+		</body>
+	</text>
+</TEI>
