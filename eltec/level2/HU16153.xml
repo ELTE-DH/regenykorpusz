@@ -5,7 +5,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Jön a hajnal</title>
-				<author ref="viaf:39125767"> Abonyi Árpád (1865-1918)            </author>
+				<author ref="viaf:39125767">Abonyi Árpád (1865-1918)</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,7 +22,7 @@
 				<measure unit="pages">169</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -66,7 +66,7 @@
 			<change when="2019-04-23"/>
 			<change when="2018-10-04"/>
 			<change when="2021-03-09"/>
-			<change when="2021-10-30">lemma, pos and msd annotation</change>
+			<change when="2023-06-01">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -13031,7 +13031,7 @@
 						<pc pos="PUNCT" xml:id="pc2354">-</pc>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w8294">Nem</w>
 						<w lemma="megy" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8295">megyek</w>
-						<pc pos="PUNCT" xml:id="pc2355">!</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc2355">!</pc>
 					</s>
 				</p>
 				<p xml:id="p327">
@@ -15912,7 +15912,7 @@
 					<s xml:id="s1027">
 						<w lemma="hisz" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w10112">Hiszek</w>
 						<w lemma="ön" msd="Case=Ine|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w10113">önben</w>
-						<pc pos="PUNCT" xml:id="pc2873">...</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc2873">...</pc>
 					</s>
 				</p>
 				<p xml:id="p399">
@@ -25124,7 +25124,7 @@
 					<s xml:id="s1612">
 						<pc pos="PUNCT" xml:id="pc4508">-</pc>
 						<w lemma="nem" msd="_" pos="INTJ" xml:id="w16020">Nem</w>
-						<pc pos="PUNCT" xml:id="pc4509">...</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc4509">...</pc>
 					</s>
 				</p>
 				<p xml:id="p647">
@@ -26261,7 +26261,7 @@
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w16714">az</w>
 						<w lemma="iménti" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w16715">iménti</w>
 						<w lemma="daczos" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w16716">daczos</w>
-						<pc join="right" pos="PUNCT" xml:id="pc4709">»</pc>
+						<pc pos="PUNCT" xml:id="pc4709">»</pc>
 						<w lemma="nem" msd="_" pos="INTJ" xml:id="w16717">Nem</w>
 						<pc pos="PUNCT" xml:id="pc4710">!</pc>
 						<pc join="left" pos="PUNCT" xml:id="pc4711">«</pc>
@@ -29723,7 +29723,7 @@
 					<s xml:id="s1945">
 						<pc pos="PUNCT" xml:id="pc5336">-</pc>
 						<w lemma="mi" msd="Case=All|Number=Plur|Person=1|PronType=Prs" pos="PRON" xml:id="w18816">Hozzánk</w>
-						<pc pos="PUNCT" xml:id="pc5337">?</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc5337">?</pc>
 					</s>
 				</p>
 				<p xml:id="p800">
@@ -40638,7 +40638,7 @@
 						<w lemma="úr" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w25508">urat</w>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w25509">én</w>
 						<w lemma="megbotoz" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w25510">megbotoztam</w>
-						<pc pos="PUNCT" xml:id="pc7354">!</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc7354">!</pc>
 					</s>
 				</p>
 				<p xml:id="p1123">
@@ -45727,7 +45727,7 @@
 				<p xml:id="p1259">
 					<s xml:id="s3046">
 						<w lemma="illésházi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w28761">Illésházi</w>
-						<pc pos="PUNCT" xml:id="pc8265">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc8265">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1260">
@@ -45884,7 +45884,7 @@
 						<w lemma="megjön" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w28855">Megjött</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w28856">a</w>
 						<w lemma="hajnal" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w28857">hajnal</w>
-						<pc pos="PUNCT" xml:id="pc8290">!</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc8290">!</pc>
 					</s>
 				</p>
 				<p xml:id="p1264">

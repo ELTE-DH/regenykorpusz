@@ -22,7 +22,7 @@
 				<measure unit="pages">168</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -65,7 +65,7 @@
 			<change when="2019-04-23"/>
 			<change when="2018-10-03"/>
 			<change when="2021-03-09"/>
-			<change when="2021-10-30">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -3571,7 +3571,7 @@
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2671">a</w>
 						<w lemma="szivtelen" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2672">szivtelen</w>
 						<w lemma="kacz" msd="Case=Cau|Number=Sing" pos="NOUN" xml:id="w2673">kaczért</w>
-						<pc pos="PUNCT" xml:id="pc527">...</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc527">...</pc>
 					</s>
 				</p>
 				<p xml:id="p46">
@@ -5732,7 +5732,7 @@
 				<p xml:id="p77">
 					<s xml:id="s208">
 						<w lemma="Sárváryné" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w4227">Sárváryné</w>
-						<pc pos="PUNCT" xml:id="pc866">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc866">.</pc>
 					</s>
 				</p>
 				<p xml:id="p78">
@@ -16513,7 +16513,7 @@
 						<pc pos="PUNCT" xml:id="pc2506">:</pc>
 						<w lemma="Ululu" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w11827">Ululu</w>
 						<w lemma="Laia" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w11828">Laia</w>
-						<pc pos="PUNCT" xml:id="pc2507">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc2507">.</pc>
 					</s>
 				</p>
 				<p xml:id="p278">
@@ -21981,7 +21981,7 @@
 				<p xml:id="p426">
 					<s xml:id="s1064">
 						<w lemma="vég" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w15570">Vége</w>
-						<pc pos="PUNCT" xml:id="pc3353">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc3353">.</pc>
 					</s>
 				</p>
 				<p xml:id="p427">
@@ -37464,7 +37464,7 @@
 				<p xml:id="p805">
 					<s xml:id="s1900">
 						<w lemma="Czilla" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w26146">Czilla</w>
-						<pc pos="PUNCT" xml:id="pc5824">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc5824">.</pc>
 					</s>
 				</p>
 				<p xml:id="p806">
@@ -44364,7 +44364,7 @@
 					<s xml:id="s2319">
 						<w lemma="Hódy" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w30585">Hódy</w>
 						<w lemma="Balázs" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w30586">Balázs</w>
-						<pc pos="PUNCT" xml:id="pc7055">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc7055">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1000">

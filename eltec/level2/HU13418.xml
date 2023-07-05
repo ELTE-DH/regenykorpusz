@@ -22,7 +22,7 @@
 				<measure unit="pages">157</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -69,7 +69,7 @@
 		<revisionDesc>
 			<change when="2019-04-18"/>
 			<change when="2021-03-08"/>
-			<change when="2021-10-30">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -5997,7 +5997,7 @@
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w4293">hogy</w>
 						<w lemma="él" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w4294">élni</w>
 						<w lemma="akar" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4295">akarok</w>
-						<pc join="left" pos="PUNCT" xml:id="pc900">.</pc>
+						<pc pos="PUNCT" xml:id="pc900">.</pc>
 					</s>
 					<s xml:id="s268">
 						<w lemma="akar" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4296">Akarok</w>
@@ -25067,7 +25067,7 @@
 						<w lemma="Titi" msd="Case=Dat|Number=Sing" pos="PROPN" xml:id="w17243">Titinek</w>
 						<w lemma="emlék" msd="Case=Ess|Number=Sing" pos="NOUN" xml:id="w17244">emlékül</w>
 						<w lemma="Dea" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w17245">Dea</w>
-						<pc pos="PUNCT" xml:id="pc3965">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc3965">.</pc>
 					</s>
 				</p>
 				<p xml:id="p550">
@@ -30621,7 +30621,7 @@
 				<p xml:id="p650">
 					<s xml:id="s1617">
 						<w lemma="Lili" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w21189">Lili</w>
-						<pc pos="PUNCT" xml:id="pc4804">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc4804">.</pc>
 					</s>
 				</p>
 				<p xml:id="p651">
@@ -35989,7 +35989,7 @@
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w24772">és</w>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w24773">azt</w>
 						<w lemma="kiált" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w24774">kiáltja</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5671">:</pc>
+						<pc pos="PUNCT" xml:id="pc5671">:</pc>
 						<w lemma="vendetta" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w24775">Vendetta</w>
 						<pc join="left" pos="PUNCT" xml:id="pc5672">!</pc>
 						<w lemma="vendetta" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w24776">vendetta</w>

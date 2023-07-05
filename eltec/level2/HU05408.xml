@@ -22,7 +22,7 @@
 				<measure unit="vols">1</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -70,7 +70,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2021-07-23"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -7405,7 +7405,7 @@
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w4096">Mikor</w>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w4097">azt</w>
 						<w lemma="mond" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4098">mondta</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1376">:</pc>
+						<pc pos="PUNCT" xml:id="pc1376">:</pc>
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w4099">Ha</w>
 						<w lemma="nincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4100">nincs</w>
 						<w lemma="kéz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w4101">keze</w>
@@ -12057,7 +12057,7 @@
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6648">A</w>
 						<w lemma="prímás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6649">prímás</w>
 						<w lemma="rákezd" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6650">rákezdte</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2306">:</pc>
+						<pc pos="PUNCT" xml:id="pc2306">:</pc>
 						<w lemma="szeret" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6651">Szeretlek</w>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w6652">én</w>
 						<w lemma="egyetlen" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w6653">egyetlen</w>
@@ -12169,12 +12169,12 @@
 						<w lemma="gordonka" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6718">gordonka</w>
 						<w lemma="szép" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w6719">szép</w>
 						<w lemma="bariton" msd="Case=Sup|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w6720">baritonján</w>
-						<pc join="left" pos="PUNCT" xml:id="pc2320">:</pc>
+						<pc pos="PUNCT" xml:id="pc2320">:</pc>
 						<w lemma="szeret" msd="Definite=2|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6721">Szeretlek</w>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w6722">én</w>
 						<w lemma="egyetlen" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w6723">egyetlen</w>
 						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" xml:id="w6724">egy</w>
-						<pc pos="PUNCT" xml:id="pc2321">...</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc2321">...</pc>
 					</s>
 				</p>
 				<p xml:id="p467">
@@ -12323,7 +12323,7 @@
 						<w lemma="tél" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6829">tél</w>
 						<w lemma="zord" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w6830">zord</w>
 						<w lemma="hó" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w6831">hava</w>
-						<pc pos="PUNCT" xml:id="pc2337">...</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc2337">...</pc>
 					</s>
 				</p>
 				<p xml:id="p469">

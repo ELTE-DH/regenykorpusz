@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="HU18482" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xml:id="HU18522" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -17,7 +16,7 @@
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
-						Palkó Gábor
+												Palkó Gábor						
 						<ref target="https://viaf.org/viaf/65989506"/>
 					</name>
 					<name>Fellegi Zsófia</name>
@@ -84,7 +83,7 @@
 		<revisionDesc>
 			<change when="2020-07-31"/>
 			<change when="2021-05-04"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -16482,7 +16481,7 @@
 					<s xml:id="s970">
 						<w lemma="néz" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w10418">Nézzen</w>
 						<w lemma="ide" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w10419">ide</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3174">,</pc>
+						<pc pos="PUNCT" xml:id="pc3174">,</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w10420">ez</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w10421">a</w>
 						<w lemma="mély" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w10422">mély</w>
@@ -29051,7 +29050,7 @@
 						<w lemma="s" msd="_" pos="CONJ" xml:id="w17863">S</w>
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w17864">ha</w>
 						<w lemma="igen" msd="_" pos="INTJ" xml:id="w17865">igen</w>
-						<pc join="left" pos="PUNCT" xml:id="pc5801">:</pc>
+						<pc pos="PUNCT" xml:id="pc5801">:</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w17866">mi</w>
 						<w lemma="cél" msd="Case=Ela|Number=Sing" pos="NOUN" xml:id="w17867">célból</w>
 						<pc join="left" pos="PUNCT" xml:id="pc5802">?</pc>

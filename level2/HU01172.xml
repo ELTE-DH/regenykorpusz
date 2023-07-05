@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="HU01172" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +16,7 @@
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
-						Palkó Gábor
+												Palkó Gábor						
 						<ref target="https://viaf.org/viaf/65989506"/>
 					</name>
 					<name>Fellegi Zsófia</name>
@@ -81,7 +80,7 @@
 		</xenoData>
 		<revisionDesc>
 			<change when="2021-07-15"/>
-			<change when="2021-10-30">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -588,7 +587,7 @@
 						<w lemma="kel" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w318">Kelt</w>
 						<pc join="left" pos="PUNCT" xml:id="pc85">...</pc>
 						<w lemma="stb." msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w319">stb.</w>
-						<pc pos="PUNCT" xml:id="pc86">&quot;</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc86">&quot;</pc>
 					</s>
 				</p>
 				<p xml:id="p16">
@@ -6670,7 +6669,7 @@
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3811">A</w>
 						<w lemma="néger" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3812">néger</w>
 						<w lemma="mond" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3813">mondja</w>
-						<pc join="left" pos="PUNCT" xml:id="pc1206">,</pc>
+						<pc pos="PUNCT" xml:id="pc1206">,</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w3814">de</w>
 						<w lemma="már" msd="_" pos="ADV" xml:id="w3815">már</w>
 						<w lemma="mutat" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w3816">mutatni</w>
@@ -33397,14 +33396,14 @@
 						<w lemma="elme" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18367">elme</w>
 						<pc pos="PUNCT" xml:id="pc6179">&quot;</pc>
 						<w lemma="...," msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18368">...,</w>
-						<pc join="right" pos="PUNCT" xml:id="pc6180">&quot;</pc>
+						<pc pos="PUNCT" xml:id="pc6180">&quot;</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w18369">A</w>
 						<w lemma="modern" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w18370">modern</w>
 						<w lemma="élet" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18371">élet</w>
 						<w lemma="pszichopatológia" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w18372">pszichopatológiája</w>
 						<pc pos="PUNCT" xml:id="pc6181">&quot;</pc>
 						<w lemma="...," msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18373">...,</w>
-						<pc join="right" pos="PUNCT" xml:id="pc6182">&quot;</pc>
+						<pc pos="PUNCT" xml:id="pc6182">&quot;</pc>
 						<w lemma="lélektani" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w18374">Lélektani</w>
 						<w lemma="kutatás" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w18375">kutatások</w>
 						<pc pos="PUNCT" xml:id="pc6183">&quot;</pc>
@@ -33412,7 +33411,7 @@
 						<pc join="right" pos="PUNCT" xml:id="pc6184">&quot;</pc>
 						<w lemma="átöröklés" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w18377">Átöröklés</w>
 						<pc pos="PUNCT" xml:id="pc6185">&quot;</pc>
-						<pc pos="PUNCT" xml:id="pc6186">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc6186">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1520">
@@ -34808,7 +34807,7 @@
 					<s xml:id="s2966">
 						<w lemma="ő" msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w19110">Őt</w>
 						<w lemma="félt" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w19111">féltette</w>
-						<pc pos="PUNCT" xml:id="pc6438">!</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc6438">!</pc>
 					</s>
 				</p>
 				<p xml:id="p1593">
@@ -35423,7 +35422,7 @@
 					<s xml:id="s3016">
 						<w lemma="nincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w19463">Nincs</w>
 						<w lemma="kegyelem" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w19464">kegyelem</w>
-						<pc pos="PUNCT" xml:id="pc6541">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc6541">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1621">

@@ -4,8 +4,8 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Egy régi udvarház utolsó gazdája : Regény : ELTeC edition</title>
-				<author ref="viaf:59092543">Gyulai Pál</author>
+				<title>Egy régi udvarház utolsó gazdája</title>
+				<author ref="viaf:59092543">Gyulai Pál (1826-1909)</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,11 +22,11 @@
 				<measure unit="pages">79</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
-					<title>Egy régi udvarház utolsó gazdája : Regény</title>
+					<title>Egy régi udvarház utolsó gazdája</title>
 					<date>1998-08-03</date>
 					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
 					<ref target="http://mek.oszk.hu/00600/00666"/>
@@ -68,7 +68,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2019-04-18"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -8492,7 +8492,7 @@
 						<w lemma="feledkezik" msd="Definite=Def|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6255">feledkezzék</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6256">a</w>
 						<w lemma="pénzküldés" msd="Case=Del|Number=Sing" pos="NOUN" xml:id="w6257">pénzküldésről</w>
-						<pc pos="PUNCT" xml:id="pc1419">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc1419">.</pc>
 					</s>
 				</p>
 				<p xml:id="p67">

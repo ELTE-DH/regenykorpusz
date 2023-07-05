@@ -5,7 +5,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>A vér</title>
-				<author ref="viaf:20466121"> Beniczkyné Bajza Lenke (1839-1905)             </author>
+				<author ref="viaf:20466121">Beniczkyné Bajza Lenke (1839-1905)</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,7 +22,7 @@
 				<measure unit="pages">160</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -71,7 +71,7 @@
 			<change when="2019-04-23"/>
 			<change when="2018-10-03"/>
 			<change when="2021-03-08"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -1676,7 +1676,7 @@
 						<w lemma="betükkel" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w1027">betükkel</w>
 						<w lemma="csillog" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w1028">csillogott</w>
 						<w lemma="név" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w1029">neve</w>
-						<pc join="left" pos="PUNCT" xml:id="pc284">:</pc>
+						<pc pos="PUNCT" xml:id="pc284">:</pc>
 						<w lemma="Capricios" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="PROPN" xml:id="w1030">Capriciosa</w>
 						<pc join="left" pos="PUNCT" xml:id="pc285">.</pc>
 					</s>
@@ -37598,7 +37598,7 @@
 				<p xml:id="p1116">
 					<s xml:id="s2270">
 						<w lemma="Livió" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w24164">Livió</w>
-						<pc pos="PUNCT" xml:id="pc6551">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc6551">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1117">

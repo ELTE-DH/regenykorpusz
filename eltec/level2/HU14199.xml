@@ -5,7 +5,7 @@
 		<fileDesc>
 			<titleStmt>
 				<title>Faust orvos</title>
-				<author ref="viaf:49267921"> Bródy Sándor (1863-1924)            </author>
+				<author ref="viaf:49267921">Bródy Sándor (1863-1924)</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
@@ -22,7 +22,7 @@
 				<measure unit="pages">168</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -70,7 +70,7 @@
 			<change when="2019-04-23"/>
 			<change when="2018-10-03"/>
 			<change when="2021-03-08"/>
-			<change when="2021-10-30">lemma, pos and msd annotation</change>
+			<change when="2023-06-01">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -23830,7 +23830,7 @@
 						<w lemma="neki" msd="_" pos="ADV" xml:id="w15709">neki</w>
 						<w lemma="mégis" msd="_" pos="ADV" xml:id="w15710">mégis</w>
 						<w lemma="hatalom" msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w15711">hatalmában</w>
-						<pc join="left" pos="PUNCT" xml:id="pc3941">,</pc>
+						<pc pos="PUNCT" xml:id="pc3941">,</pc>
 						<w lemma="erő" msd="Case=Ine|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w15712">erejében</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w15713">van</w>
 						<w lemma="összekapcsol" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w15714">összekapcsolni</w>
@@ -37639,7 +37639,7 @@
 						<w lemma="tud" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w24713">tudok</w>
 						<w lemma="hazudik" msd="VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w24714">hazudni</w>
 						<w lemma="tovább" msd="_" pos="ADV" xml:id="w24715">tovább.</w>
-						<pc pos="PUNCT" xml:id="pc6375">»</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc6375">»</pc>
 					</s>
 				</p>
 				<p xml:id="p960">

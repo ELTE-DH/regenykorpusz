@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xml:id="HU01027" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
 	<teiHeader>
 		<fileDesc>
@@ -17,7 +16,7 @@
 				<respStmt>
 					<resp>ELTeC conversion</resp>
 					<name>
-						Palkó Gábor
+												Palkó Gábor						
 						<ref target="https://viaf.org/viaf/65989506"/>
 					</name>
 					<name>Fellegi Zsófia</name>
@@ -79,7 +78,7 @@
 		</xenoData>
 		<revisionDesc>
 			<change when="2021-07-08"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-30">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -806,8 +805,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc127">.</pc>
 					</s>
 				</p>
-				<p xml:id="p19"/>
-				<p xml:id="p20">
+				<p xml:id="p19">
 					<s xml:id="s49">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w461">Mikor</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w462">a</w>
@@ -974,7 +972,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc148">.</pc>
 					</s>
 				</p>
-				<p xml:id="p21">
+				<p xml:id="p20">
 					<s xml:id="s59">
 						<w lemma="egyetlen" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w585">Egyetlen</w>
 						<w lemma="szórakozás" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w586">szórakozása</w>
@@ -1023,7 +1021,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc156">.</pc>
 					</s>
 				</p>
-				<p xml:id="p22">
+				<p xml:id="p21">
 					<s xml:id="s61">
 						<w lemma="ilyenkor" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w620">Ilyenkor</w>
 						<w lemma="lefekszik" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Cau" pos="VERB" xml:id="w621">lefektették</w>
@@ -1125,7 +1123,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc170">.</pc>
 					</s>
 				</p>
-				<p xml:id="p23">
+				<p xml:id="p22">
 					<s xml:id="s67">
 						<w lemma="miután" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w694">Miután</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w695">a</w>
@@ -1164,7 +1162,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc177">.</pc>
 					</s>
 				</p>
-				<p xml:id="p24">
+				<p xml:id="p23">
 					<s xml:id="s68">
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w722">Henry</w>
 						<w lemma="azonban" msd="_" pos="CONJ" xml:id="w723">azonban</w>
@@ -1437,7 +1435,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc216">&quot;</pc>
 					</s>
 				</p>
-				<p xml:id="p25">
+				<p xml:id="p24">
 					<s xml:id="s84">
 						<w lemma="ez" msd="Case=Sup|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w922">Ezen</w>
 						<w lemma="azután" msd="_" pos="ADV" xml:id="w923">azután</w>
@@ -1466,8 +1464,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc220">.</pc>
 					</s>
 				</p>
-				<p xml:id="p26"/>
-				<p xml:id="p27">
+				<p xml:id="p25">
 					<s xml:id="s85">
 						<w lemma="beismer" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w943">Beismerem</w>
 						<pc join="left" pos="PUNCT" xml:id="pc221">,</pc>
@@ -1662,7 +1659,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc251">.</pc>
 					</s>
 				</p>
-				<p xml:id="p28">
+				<p xml:id="p26">
 					<s xml:id="s98">
 						<pc pos="PUNCT" xml:id="pc252">-</pc>
 						<w lemma="gyerek" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w1079">Gyerekek</w>
@@ -1732,7 +1729,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc264">.</pc>
 					</s>
 				</p>
-				<p xml:id="p29">
+				<p xml:id="p27">
 					<s xml:id="s100">
 						<pc pos="PUNCT" xml:id="pc265">-</pc>
 						<w lemma="kevésbé" msd="_" pos="ADV" xml:id="w1130">Kevésbé</w>
@@ -1743,7 +1740,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc266">?</pc>
 					</s>
 				</p>
-				<p xml:id="p30">
+				<p xml:id="p28">
 					<s xml:id="s101">
 						<pc pos="PUNCT" xml:id="pc267">-</pc>
 						<w lemma="be" msd="_" pos="ADV" xml:id="w1135">Be</w>
@@ -1755,7 +1752,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc268">.</pc>
 					</s>
 				</p>
-				<p xml:id="p31">
+				<p xml:id="p29">
 					<s xml:id="s102">
 						<pc pos="PUNCT" xml:id="pc269">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w1141">Ez</w>
@@ -1786,7 +1783,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc275">.</pc>
 					</s>
 				</p>
-				<p xml:id="p32">
+				<p xml:id="p30">
 					<s xml:id="s103">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w1161">A</w>
 						<w lemma="kerti" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w1162">kerti</w>
@@ -1852,7 +1849,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc284">.</pc>
 					</s>
 				</p>
-				<p xml:id="p33">
+				<p xml:id="p31">
 					<s xml:id="s105">
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w1212">Farlane</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w1213">a</w>
@@ -1899,7 +1896,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc290">.</pc>
 					</s>
 				</p>
-				<p xml:id="p34">
+				<p xml:id="p32">
 					<s xml:id="s107">
 						<pc pos="PUNCT" xml:id="pc291">-</pc>
 						<w lemma="hogy" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w1247">Hogy</w>
@@ -1908,7 +1905,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc292">?</pc>
 					</s>
 				</p>
-				<p xml:id="p35">
+				<p xml:id="p33">
 					<s xml:id="s108">
 						<pc pos="PUNCT" xml:id="pc293">-</pc>
 						<w lemma="fene" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w1250">Fene</w>
@@ -1921,7 +1918,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc295">?</pc>
 					</s>
 				</p>
-				<p xml:id="p36">
+				<p xml:id="p34">
 					<s xml:id="s110">
 						<pc pos="PUNCT" xml:id="pc296">-</pc>
 						<w lemma="ugyanúgy" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w1254">Ugyanúgy</w>
@@ -1931,7 +1928,7 @@
 						<pc pos="PUNCT" xml:id="pc298">.</pc>
 					</s>
 				</p>
-				<p xml:id="p37">
+				<p xml:id="p35">
 					<s xml:id="s111">
 						<w lemma="Dickmann" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w1257">Dickmann</w>
 						<w lemma="elpanaszol" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w1258">elpanaszolta</w>
@@ -1989,7 +1986,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc306">.</pc>
 					</s>
 				</p>
-				<p xml:id="p38">
+				<p xml:id="p36">
 					<s xml:id="s114">
 						<pc pos="PUNCT" xml:id="pc307">-</pc>
 						<w lemma="most" msd="_" pos="ADV" xml:id="w1299">Most</w>
@@ -2002,7 +1999,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc310">.</pc>
 					</s>
 				</p>
-				<p xml:id="p39">
+				<p xml:id="p37">
 					<s xml:id="s115">
 						<pc pos="PUNCT" xml:id="pc311">-</pc>
 						<w lemma="semmiség" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w1304">Semmiség</w>
@@ -2024,7 +2021,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc314">.</pc>
 					</s>
 				</p>
-				<p xml:id="p40">
+				<p xml:id="p38">
 					<s xml:id="s118">
 						<pc pos="PUNCT" xml:id="pc315">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w1314">És</w>
@@ -2038,7 +2035,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc316">?</pc>
 					</s>
 				</p>
-				<p xml:id="p41">
+				<p xml:id="p39">
 					<s xml:id="s119">
 						<pc pos="PUNCT" xml:id="pc317">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w1322">A</w>
@@ -2080,7 +2077,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc324">?</pc>
 					</s>
 				</p>
-				<p xml:id="p42">
+				<p xml:id="p40">
 					<s xml:id="s124">
 						<pc pos="PUNCT" xml:id="pc325">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w1344">Ön</w>
@@ -2303,7 +2300,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc362">!</pc>
 					</s>
 				</p>
-				<p xml:id="p43">
+				<p xml:id="p41">
 					<s xml:id="s138">
 						<w lemma="ez" msd="Case=Ine|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w1499">Ebben</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w1500">a</w>
@@ -2327,7 +2324,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc364">.</pc>
 					</s>
 				</p>
-				<p xml:id="p44">
+				<p xml:id="p42">
 					<s xml:id="s139">
 						<pc pos="PUNCT" xml:id="pc365">-</pc>
 						<w lemma="csak" msd="_" pos="ADV" xml:id="w1517">Csak</w>
@@ -2347,7 +2344,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc369">.</pc>
 					</s>
 				</p>
-				<p xml:id="p45">
+				<p xml:id="p43">
 					<s xml:id="s141">
 						<pc pos="PUNCT" xml:id="pc370">-</pc>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w1526">Nem</w>
@@ -2363,7 +2360,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc372">!</pc>
 					</s>
 				</p>
-				<p xml:id="p46">
+				<p xml:id="p44">
 					<s xml:id="s142">
 						<pc pos="PUNCT" xml:id="pc373">-</pc>
 						<w lemma="marha" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w1535">Marha</w>
@@ -2375,7 +2372,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc376">.</pc>
 					</s>
 				</p>
-				<p xml:id="p47">
+				<p xml:id="p45">
 					<s xml:id="s143">
 						<pc pos="PUNCT" xml:id="pc377">-</pc>
 						<w lemma="egyszer" msd="_" pos="ADV" xml:id="w1539">Egyszer</w>
@@ -2394,7 +2391,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc381">.</pc>
 					</s>
 				</p>
-				<p xml:id="p48">
+				<p xml:id="p46">
 					<s xml:id="s144">
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w1549">Henry</w>
 						<w lemma="ott" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w1550">ott</w>
@@ -2417,7 +2414,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc384">:</pc>
 					</s>
 				</p>
-				<p xml:id="p49">
+				<p xml:id="p47">
 					<s xml:id="s146">
 						<pc pos="PUNCT" xml:id="pc385">-</pc>
 						<w lemma="ne" msd="PronType=Neg" pos="ADV" xml:id="w1563">Ne</w>
@@ -2435,7 +2432,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc387">.</pc>
 					</s>
 				</p>
-				<p xml:id="p50">
+				<p xml:id="p48">
 					<s xml:id="s148">
 						<pc pos="PUNCT" xml:id="pc388">-</pc>
 						<w lemma="ugyan" msd="_" pos="INTJ" xml:id="w1572">Ugyan</w>
@@ -2454,7 +2451,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc391">.</pc>
 					</s>
 				</p>
-				<p xml:id="p51">
+				<p xml:id="p49">
 					<s xml:id="s150">
 						<pc pos="PUNCT" xml:id="pc392">...</pc>
 					</s>
@@ -2875,8 +2872,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc455">...</pc>
 					</s>
 				</p>
-				<p xml:id="p52"/>
-				<p xml:id="p53">
+				<p xml:id="p50">
 					<s xml:id="s174">
 						<pc pos="PUNCT" xml:id="pc456">...</pc>
 					</s>
@@ -3076,7 +3072,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc482">.</pc>
 					</s>
 				</p>
-				<p xml:id="p54">
+				<p xml:id="p51">
 					<s xml:id="s186">
 						<pc pos="PUNCT" xml:id="pc483">-</pc>
 						<w lemma="na" msd="_" pos="INTJ" xml:id="w2035">Na</w>
@@ -3086,7 +3082,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc485">!</pc>
 					</s>
 				</p>
-				<p xml:id="p55">
+				<p xml:id="p52">
 					<s xml:id="s187">
 						<pc pos="PUNCT" xml:id="pc486">-</pc>
 						<w lemma="csakhogy" msd="_" pos="ADV" xml:id="w2038">Csakhogy</w>
@@ -3112,7 +3108,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc493">.</pc>
 					</s>
 				</p>
-				<p xml:id="p56">
+				<p xml:id="p53">
 					<s xml:id="s190">
 						<pc pos="PUNCT" xml:id="pc494">-</pc>
 						<w lemma="megöl" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2048">Megölöm</w>
@@ -3129,7 +3125,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc497">?!</pc>
 					</s>
 				</p>
-				<p xml:id="p57">
+				<p xml:id="p54">
 					<s xml:id="s193">
 						<pc pos="PUNCT" xml:id="pc498">-</pc>
 						<w lemma="szóval" msd="_" pos="CONJ" xml:id="w2053">Szóval</w>
@@ -3166,7 +3162,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc503">!</pc>
 					</s>
 				</p>
-				<p xml:id="p58">
+				<p xml:id="p55">
 					<s xml:id="s196">
 						<w lemma="Dickmann" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w2076">Dickmann</w>
 						<w lemma="mint" msd="_" pos="SCONJ" xml:id="w2077">mint</w>
@@ -3194,7 +3190,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc506">.</pc>
 					</s>
 				</p>
-				<p xml:id="p59">
+				<p xml:id="p56">
 					<s xml:id="s198">
 						<w lemma="Bob" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w2095">Bob</w>
 						<w lemma="csók" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w2096">csókot</w>
@@ -3203,8 +3199,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc507">.</pc>
 					</s>
 				</p>
-				<p xml:id="p60"/>
-				<p xml:id="p61">
+				<p xml:id="p57">
 					<s xml:id="s199">
 						<w lemma="Dickmann-né" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w2099">Dickmann-né</w>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w2100">és</w>
@@ -3236,7 +3231,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc511">.</pc>
 					</s>
 				</p>
-				<p xml:id="p62">
+				<p xml:id="p58">
 					<s xml:id="s202">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2119">A</w>
 						<w lemma="kabin" msd="Case=Ela|Number=Sing" pos="NOUN" xml:id="w2120">kabinból</w>
@@ -3361,7 +3356,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc527">.</pc>
 					</s>
 				</p>
-				<p xml:id="p63">
+				<p xml:id="p59">
 					<s xml:id="s208">
 						<pc pos="PUNCT" xml:id="pc528">-</pc>
 						<w lemma="hé" msd="_" pos="INTJ" xml:id="w2214">Hé</w>
@@ -3381,7 +3376,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc533">!</pc>
 					</s>
 				</p>
-				<p xml:id="p64">
+				<p xml:id="p60">
 					<s xml:id="s209">
 						<pc pos="PUNCT" xml:id="pc534">...</pc>
 					</s>
@@ -3482,12 +3477,11 @@
 						<pc join="left" pos="PUNCT" xml:id="pc546">.</pc>
 					</s>
 				</p>
-				<p xml:id="p65"/>
 			</div>
 			<div type="chapter" xml:id="div2">
 				<head>Második fejezet</head>
 				<head>Kiderül, hogy Henry találmánya még gyermekcipőben jár</head>
-				<p xml:id="p66">
+				<p xml:id="p61">
 					<s xml:id="s215">
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2298">Henry</w>
 						<w lemma="sokáig" msd="_" pos="ADV" xml:id="w2299">sokáig</w>
@@ -3558,7 +3552,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc557">.</pc>
 					</s>
 				</p>
-				<p xml:id="p67">
+				<p xml:id="p62">
 					<s xml:id="s219">
 						<w lemma="bizony" msd="_" pos="ADV" xml:id="w2348">Bizony</w>
 						<w lemma="másnap" msd="_" pos="ADV" xml:id="w2349">másnap</w>
@@ -3595,7 +3589,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc562">:</pc>
 					</s>
 				</p>
-				<p xml:id="p68">
+				<p xml:id="p63">
 					<s xml:id="s222">
 						<pc pos="PUNCT" xml:id="pc563">&quot;</pc>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w2372">Nem</w>
@@ -3629,13 +3623,13 @@
 						<pc join="left" pos="PUNCT" xml:id="pc568">.</pc>
 					</s>
 				</p>
-				<p xml:id="p69">
+				<p xml:id="p64">
 					<s xml:id="s226">
 						<w lemma="Farlane." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w2390">Farlane.</w>
 						<pc join="left" pos="PUNCT" xml:id="pc569">&quot;</pc>
 					</s>
 				</p>
-				<p xml:id="p70">
+				<p xml:id="p65">
 					<s xml:id="s227">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2391">A</w>
 						<w lemma="másnapi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2392">másnapi</w>
@@ -3710,7 +3704,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc580">.</pc>
 					</s>
 				</p>
-				<p xml:id="p71">
+				<p xml:id="p66">
 					<s xml:id="s231">
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2445">Az</w>
 						<w lemma="elhunyt" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2446">elhunyt</w>
@@ -3760,7 +3754,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc586">.</pc>
 					</s>
 				</p>
-				<p xml:id="p72">
+				<p xml:id="p67">
 					<s xml:id="s233">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2483">A</w>
 						<w lemma="megtört" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2484">megtört</w>
@@ -3909,7 +3903,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc602">.</pc>
 					</s>
 				</p>
-				<p xml:id="p73">
+				<p xml:id="p68">
 					<s xml:id="s241">
 						<pc pos="PUNCT" xml:id="pc603">-</pc>
 						<w lemma="vajon" msd="_" pos="ADV" xml:id="w2598">Vajon</w>
@@ -3927,7 +3921,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc606">.</pc>
 					</s>
 				</p>
-				<p xml:id="p74">
+				<p xml:id="p69">
 					<s xml:id="s242">
 						<pc pos="PUNCT" xml:id="pc607">-</pc>
 						<w lemma="szerint" msd="_" pos="ADP" xml:id="w2608">Szerintem</w>
@@ -3971,7 +3965,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc615">.</pc>
 					</s>
 				</p>
-				<p xml:id="p75">
+				<p xml:id="p70">
 					<s xml:id="s244">
 						<pc pos="PUNCT" xml:id="pc616">-</pc>
 						<w lemma="addig" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w2637">Addig</w>
@@ -4007,7 +4001,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc622">?</pc>
 					</s>
 				</p>
-				<p xml:id="p76">
+				<p xml:id="p71">
 					<s xml:id="s246">
 						<pc pos="PUNCT" xml:id="pc623">-</pc>
 						<w lemma="ki" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w2660">Ki</w>
@@ -4044,7 +4038,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc628">.</pc>
 					</s>
 				</p>
-				<p xml:id="p77">
+				<p xml:id="p72">
 					<s xml:id="s248">
 						<pc pos="PUNCT" xml:id="pc629">-</pc>
 						<w lemma="sir" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2685">Sir</w>
@@ -4081,7 +4075,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc634">.</pc>
 					</s>
 				</p>
-				<p xml:id="p78">
+				<p xml:id="p73">
 					<s xml:id="s250">
 						<pc pos="PUNCT" xml:id="pc635">-</pc>
 						<w lemma="foglal" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2710">Foglaljanak</w>
@@ -4108,7 +4102,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc641">.</pc>
 					</s>
 				</p>
-				<p xml:id="p79">
+				<p xml:id="p74">
 					<s xml:id="s251">
 						<pc pos="PUNCT" xml:id="pc642">-</pc>
 						<w lemma="helyes" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w2726">Helyes</w>
@@ -4147,7 +4141,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc649">.</pc>
 					</s>
 				</p>
-				<p xml:id="p80">
+				<p xml:id="p75">
 					<s xml:id="s253">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2751">A</w>
 						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w2752">három</w>
@@ -4158,7 +4152,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc650">.</pc>
 					</s>
 				</p>
-				<p xml:id="p81">
+				<p xml:id="p76">
 					<s xml:id="s254">
 						<pc pos="PUNCT" xml:id="pc651">-</pc>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w2757">Azt</w>
@@ -4170,7 +4164,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc654">.</pc>
 					</s>
 				</p>
-				<p xml:id="p82">
+				<p xml:id="p77">
 					<s xml:id="s255">
 						<pc pos="PUNCT" xml:id="pc655">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w2761">Én</w>
@@ -4193,7 +4187,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc659">.</pc>
 					</s>
 				</p>
-				<p xml:id="p83">
+				<p xml:id="p78">
 					<s xml:id="s256">
 						<pc pos="PUNCT" xml:id="pc660">-</pc>
 						<w lemma="úgy" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w2775">Úgy</w>
@@ -4221,7 +4215,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc665">.</pc>
 					</s>
 				</p>
-				<p xml:id="p84">
+				<p xml:id="p79">
 					<s xml:id="s258">
 						<pc pos="PUNCT" xml:id="pc666">-</pc>
 						<w lemma="na" msd="_" pos="INTJ" xml:id="w2791">Na</w>
@@ -4266,7 +4260,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc674">.</pc>
 					</s>
 				</p>
-				<p xml:id="p85">
+				<p xml:id="p80">
 					<s xml:id="s263">
 						<pc pos="PUNCT" xml:id="pc675">-</pc>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w2815">Nem</w>
@@ -4329,7 +4323,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc687">.</pc>
 					</s>
 				</p>
-				<p xml:id="p86">
+				<p xml:id="p81">
 					<s xml:id="s268">
 						<pc pos="PUNCT" xml:id="pc688">-</pc>
 						<w lemma="locsogás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w2853">Locsogás</w>
@@ -4377,7 +4371,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc698">!</pc>
 					</s>
 				</p>
-				<p xml:id="p87">
+				<p xml:id="p82">
 					<s xml:id="s273">
 						<pc pos="PUNCT" xml:id="pc699">-</pc>
 						<w lemma="hagy" msd="Definite=Def|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2878">Hagyjuk</w>
@@ -4401,7 +4395,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc702">!</pc>
 					</s>
 				</p>
-				<p xml:id="p88">
+				<p xml:id="p83">
 					<s xml:id="s275">
 						<pc pos="PUNCT" xml:id="pc703">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2892">Nézze</w>
@@ -4423,7 +4417,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc708">.</pc>
 					</s>
 				</p>
-				<p xml:id="p89">
+				<p xml:id="p84">
 					<s xml:id="s276">
 						<pc pos="PUNCT" xml:id="pc709">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w2904">Én</w>
@@ -4462,7 +4456,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc716">!</pc>
 					</s>
 				</p>
-				<p xml:id="p90">
+				<p xml:id="p85">
 					<s xml:id="s278">
 						<pc pos="PUNCT" xml:id="pc717">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w2929">Én</w>
@@ -4486,7 +4480,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc720">.</pc>
 					</s>
 				</p>
-				<p xml:id="p91">
+				<p xml:id="p86">
 					<s xml:id="s279">
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w2945">Ez</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w2946">a</w>
@@ -4504,7 +4498,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc723">.</pc>
 					</s>
 				</p>
-				<p xml:id="p92">
+				<p xml:id="p87">
 					<s xml:id="s280">
 						<pc pos="PUNCT" xml:id="pc724">-</pc>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w2956">Azt</w>
@@ -4527,7 +4521,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc727">.</pc>
 					</s>
 				</p>
-				<p xml:id="p93">
+				<p xml:id="p88">
 					<s xml:id="s281">
 						<pc pos="PUNCT" xml:id="pc728">-</pc>
 						<w lemma="igen" msd="_" pos="INTJ" xml:id="w2971">Igen</w>
@@ -4554,7 +4548,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc734">...</pc>
 					</s>
 				</p>
-				<p xml:id="p94">
+				<p xml:id="p89">
 					<s xml:id="s283">
 						<w lemma="abbahagy" msd="Definite=Def|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w2985">Abbahagyta</w>
 						<pc join="left" pos="PUNCT" xml:id="pc735">.</pc>
@@ -4592,7 +4586,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc739">.</pc>
 					</s>
 				</p>
-				<p xml:id="p95">
+				<p xml:id="p90">
 					<s xml:id="s286">
 						<pc pos="PUNCT" xml:id="pc740">-</pc>
 						<w lemma="jó" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3010">Jó</w>
@@ -4604,7 +4598,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc742">.</pc>
 					</s>
 				</p>
-				<p xml:id="p96">
+				<p xml:id="p91">
 					<s xml:id="s287">
 						<pc pos="PUNCT" xml:id="pc743">-</pc>
 						<w lemma="kitűnő" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3015">Kitűnő</w>
@@ -4632,7 +4626,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc747">.</pc>
 					</s>
 				</p>
-				<p xml:id="p97">
+				<p xml:id="p92">
 					<s xml:id="s289">
 						<pc pos="PUNCT" xml:id="pc748">-</pc>
 						<w lemma="nagyon" msd="_" pos="ADV" xml:id="w3032">Nagyon</w>
@@ -4647,7 +4641,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc750">!</pc>
 					</s>
 				</p>
-				<p xml:id="p98">
+				<p xml:id="p93">
 					<s xml:id="s291">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w3038">Mikor</w>
 						<w lemma="egyedül" msd="_" pos="ADV" xml:id="w3039">egyedül</w>
@@ -4660,8 +4654,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc752">.</pc>
 					</s>
 				</p>
-				<p xml:id="p99"/>
-				<p xml:id="p100">
+				<p xml:id="p94">
 					<s xml:id="s292">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3045">A</w>
 						<w lemma="végrendelet" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w3046">végrendelet</w>
@@ -4725,7 +4718,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc759">.</pc>
 					</s>
 				</p>
-				<p xml:id="p101">
+				<p xml:id="p95">
 					<s xml:id="s295">
 						<pc pos="PUNCT" xml:id="pc760">-</pc>
 						<pc join="right" pos="PUNCT" xml:id="pc761">&quot;</pc>
@@ -4857,7 +4850,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc789">&quot;</pc>
 					</s>
 				</p>
-				<p xml:id="p102">
+				<p xml:id="p96">
 					<s xml:id="s304">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3176">A</w>
 						<w lemma="terem" msd="Case=Ine|Number=Sing" pos="NOUN" xml:id="w3177">teremben</w>
@@ -4867,7 +4860,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc790">.</pc>
 					</s>
 				</p>
-				<p xml:id="p103">
+				<p xml:id="p97">
 					<s xml:id="s305">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3181">A</w>
 						<w lemma="végrendelet" msd="Case=Ine|Number=Sing" pos="NOUN" xml:id="w3182">végrendeletben</w>
@@ -4906,7 +4899,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc795">.</pc>
 					</s>
 				</p>
-				<p xml:id="p104">
+				<p xml:id="p98">
 					<s xml:id="s308">
 						<w lemma="Kröger" msd="Case=Acc|Number=Sing" pos="PROPN" xml:id="w3207">Krögert</w>
 						<w lemma="meglep" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3208">meglepett</w>
@@ -4924,7 +4917,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc797">.</pc>
 					</s>
 				</p>
-				<p xml:id="p105">
+				<p xml:id="p99">
 					<s xml:id="s310">
 						<pc pos="PUNCT" xml:id="pc798">-</pc>
 						<w lemma="gratulál" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3217">Gratulálok</w>
@@ -4943,7 +4936,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc802">.</pc>
 					</s>
 				</p>
-				<p xml:id="p106">
+				<p xml:id="p100">
 					<s xml:id="s312">
 						<pc pos="PUNCT" xml:id="pc803">-</pc>
 						<w lemma="szó" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w3225">Szó</w>
@@ -4967,7 +4960,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc807">.</pc>
 					</s>
 				</p>
-				<p xml:id="p107">
+				<p xml:id="p101">
 					<s xml:id="s314">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3238">A</w>
 						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w3239">három</w>
@@ -4991,7 +4984,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc810">.</pc>
 					</s>
 				</p>
-				<p xml:id="p108">
+				<p xml:id="p102">
 					<s xml:id="s317">
 						<pc pos="PUNCT" xml:id="pc811">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w3251">Ez</w>
@@ -5007,7 +5000,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc813">.</pc>
 					</s>
 				</p>
-				<p xml:id="p109">
+				<p xml:id="p103">
 					<s xml:id="s318">
 						<pc pos="PUNCT" xml:id="pc814">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w3260">És</w>
@@ -5038,7 +5031,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc820">.</pc>
 					</s>
 				</p>
-				<p xml:id="p110">
+				<p xml:id="p104">
 					<s xml:id="s319">
 						<pc pos="PUNCT" xml:id="pc821">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3280">A</w>
@@ -5072,8 +5065,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc828">.</pc>
 					</s>
 				</p>
-				<p xml:id="p111"/>
-				<p xml:id="p112">
+				<p xml:id="p105">
 					<s xml:id="s320">
 						<w lemma="Kröger" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3302">Kröger</w>
 						<w lemma="másnap" msd="_" pos="ADV" xml:id="w3303">másnap</w>
@@ -5094,7 +5086,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc830">.</pc>
 					</s>
 				</p>
-				<p xml:id="p113">
+				<p xml:id="p106">
 					<s xml:id="s321">
 						<pc pos="PUNCT" xml:id="pc831">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w3317">Én</w>
@@ -5108,7 +5100,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc833">...</pc>
 					</s>
 				</p>
-				<p xml:id="p114">
+				<p xml:id="p107">
 					<s xml:id="s322">
 						<pc pos="PUNCT" xml:id="pc834">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3324">Nézze</w>
@@ -5126,7 +5118,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc838">.</pc>
 					</s>
 				</p>
-				<p xml:id="p115">
+				<p xml:id="p108">
 					<s xml:id="s323">
 						<pc pos="PUNCT" xml:id="pc839">-</pc>
 						<w lemma="ugyan" msd="_" pos="ADV" xml:id="w3333">Ugyan</w>
@@ -5136,7 +5128,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc840">?</pc>
 					</s>
 				</p>
-				<p xml:id="p116">
+				<p xml:id="p109">
 					<s xml:id="s324">
 						<pc pos="PUNCT" xml:id="pc841">-</pc>
 						<w lemma="hátha" msd="_" pos="ADV" xml:id="w3337">Hátha</w>
@@ -5171,7 +5163,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc846">.</pc>
 					</s>
 				</p>
-				<p xml:id="p117">
+				<p xml:id="p110">
 					<s xml:id="s327">
 						<pc pos="PUNCT" xml:id="pc847">-</pc>
 						<w lemma="dehogynem" msd="_" pos="ADV" xml:id="w3358">Dehogynem</w>
@@ -5205,7 +5197,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc852">.</pc>
 					</s>
 				</p>
-				<p xml:id="p118">
+				<p xml:id="p111">
 					<s xml:id="s330">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3378">A</w>
 						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w3379">három</w>
@@ -5238,7 +5230,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc856">.</pc>
 					</s>
 				</p>
-				<p xml:id="p119">
+				<p xml:id="p112">
 					<s xml:id="s333">
 						<pc pos="PUNCT" xml:id="pc857">-</pc>
 						<w lemma="sajnos" msd="_" pos="ADV" xml:id="w3399">Sajnos</w>
@@ -5256,7 +5248,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc861">.</pc>
 					</s>
 				</p>
-				<p xml:id="p120">
+				<p xml:id="p113">
 					<s xml:id="s334">
 						<pc pos="PUNCT" xml:id="pc862">-</pc>
 						<w lemma="nem" msd="_" pos="INTJ" xml:id="w3408">Nem</w>
@@ -5289,7 +5281,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc869">.</pc>
 					</s>
 				</p>
-				<p xml:id="p121">
+				<p xml:id="p114">
 					<s xml:id="s337">
 						<pc pos="PUNCT" xml:id="pc870">-</pc>
 						<w lemma="mi" msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w3425">Mit</w>
@@ -5303,7 +5295,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc873">.</pc>
 					</s>
 				</p>
-				<p xml:id="p122">
+				<p xml:id="p115">
 					<s xml:id="s338">
 						<pc pos="PUNCT" xml:id="pc874">-</pc>
 						<w lemma="hall" msd="Definite=Def|Mood=Pot|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3431">Hallhatta</w>
@@ -5384,7 +5376,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc890">.</pc>
 					</s>
 				</p>
-				<p xml:id="p123">
+				<p xml:id="p116">
 					<s xml:id="s344">
 						<pc pos="PUNCT" xml:id="pc891">-</pc>
 						<w lemma="köszön" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3481">Köszönöm</w>
@@ -5402,7 +5394,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc896">.</pc>
 					</s>
 				</p>
-				<p xml:id="p124">
+				<p xml:id="p117">
 					<s xml:id="s345">
 						<pc pos="PUNCT" xml:id="pc897">-</pc>
 						<w lemma="hol" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w3489">Hol</w>
@@ -5444,19 +5436,19 @@
 						<pc join="left" pos="PUNCT" xml:id="pc902">:</pc>
 					</s>
 				</p>
-				<p xml:id="p125">
+				<p xml:id="p118">
 					<s xml:id="s348">
 						<w lemma="Johann" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3517">JOHANN</w>
 						<w lemma="FARLANET" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3518">FARLANET</w>
 					</s>
 				</p>
-				<p xml:id="p126">
+				<p xml:id="p119">
 					<s xml:id="s349">
 						<w lemma="meggyilkol" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3519">MEGGYILKOLTÁK</w>
 						<pc join="left" pos="PUNCT" xml:id="pc903">!</pc>
 					</s>
 				</p>
-				<p xml:id="p127">
+				<p xml:id="p120">
 					<s xml:id="s350">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w3520">A</w>
 						<w lemma="tudósítás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w3521">tudósítás</w>
@@ -5505,7 +5497,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc910">.</pc>
 					</s>
 				</p>
-				<p xml:id="p128">
+				<p xml:id="p121">
 					<s xml:id="s351">
 						<pc pos="PUNCT" xml:id="pc911">-</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w3558">De</w>
@@ -5553,7 +5545,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc917">.</pc>
 					</s>
 				</p>
-				<p xml:id="p129">
+				<p xml:id="p122">
 					<s xml:id="s354">
 						<pc pos="PUNCT" xml:id="pc918">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w3591">Ez</w>
@@ -5604,7 +5596,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc928">.</pc>
 					</s>
 				</p>
-				<p xml:id="p130">
+				<p xml:id="p123">
 					<s xml:id="s358">
 						<pc pos="PUNCT" xml:id="pc929">-</pc>
 						<w lemma="mindenesetre" msd="_" pos="ADV" xml:id="w3621">Mindenesetre</w>
@@ -5632,7 +5624,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc934">!</pc>
 					</s>
 				</p>
-				<p xml:id="p131">
+				<p xml:id="p124">
 					<s xml:id="s360">
 						<w lemma="izgatott" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3637">Izgatottan</w>
 						<w lemma="elsiet" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w3638">elsietett</w>
@@ -5649,7 +5641,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc937">.</pc>
 					</s>
 				</p>
-				<p xml:id="p132">
+				<p xml:id="p125">
 					<s xml:id="s362">
 						<w lemma="mond" msd="Number=Plur|Person=1|Tense=Pres|VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w3645">Mondanunk</w>
 						<w lemma="sem" msd="PronType=Neg" pos="ADV" xml:id="w3646">sem</w>
@@ -5714,7 +5706,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc947">.</pc>
 					</s>
 				</p>
-				<p xml:id="p133">
+				<p xml:id="p126">
 					<s xml:id="s367">
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w3688">Ha</w>
 						<w lemma="megírt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3689">megírt</w>
@@ -5737,7 +5729,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc951">.</pc>
 					</s>
 				</p>
-				<p xml:id="p134">
+				<p xml:id="p127">
 					<s xml:id="s369">
 						<pc pos="PUNCT" xml:id="pc952">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w3701">Mi</w>
@@ -5763,7 +5755,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc957">?</pc>
 					</s>
 				</p>
-				<p xml:id="p135">
+				<p xml:id="p128">
 					<s xml:id="s370">
 						<pc pos="PUNCT" xml:id="pc958">-</pc>
 						<w lemma="világos" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3717">Világos</w>
@@ -5889,7 +5881,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc976">.</pc>
 					</s>
 				</p>
-				<p xml:id="p136">
+				<p xml:id="p129">
 					<s xml:id="s378">
 						<pc pos="PUNCT" xml:id="pc977">-</pc>
 						<w lemma="Dehát" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3806">Dehát</w>
@@ -5906,7 +5898,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc981">?</pc>
 					</s>
 				</p>
-				<p xml:id="p137">
+				<p xml:id="p130">
 					<s xml:id="s379">
 						<pc pos="PUNCT" xml:id="pc982">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w3814">Mi</w>
@@ -5957,7 +5949,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc990">.</pc>
 					</s>
 				</p>
-				<p xml:id="p138">
+				<p xml:id="p131">
 					<s xml:id="s383">
 						<pc pos="PUNCT" xml:id="pc991">-</pc>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w3846">Ezt</w>
@@ -5969,7 +5961,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc992">...</pc>
 					</s>
 				</p>
-				<p xml:id="p139">
+				<p xml:id="p132">
 					<s xml:id="s384">
 						<pc pos="PUNCT" xml:id="pc993">-</pc>
 						<w lemma="hülye" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3852">Hülye</w>
@@ -6004,7 +5996,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1000">.</pc>
 					</s>
 				</p>
-				<p xml:id="p140">
+				<p xml:id="p133">
 					<s xml:id="s386">
 						<w lemma="meggondolatlanság" msd="Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3" pos="NOUN" xml:id="w3873">Meggondolatlanságuk</w>
 						<w lemma="tragikus" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w3874">tragikus</w>
@@ -6049,7 +6041,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1005">.</pc>
 					</s>
 				</p>
-				<p xml:id="p141">
+				<p xml:id="p134">
 					<s xml:id="s388">
 						<pc pos="PUNCT" xml:id="pc1006">-</pc>
 						<w lemma="hátha" msd="_" pos="ADV" xml:id="w3907">Hátha</w>
@@ -6087,7 +6079,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1012">.</pc>
 					</s>
 				</p>
-				<p xml:id="p142">
+				<p xml:id="p135">
 					<s xml:id="s391">
 						<pc pos="PUNCT" xml:id="pc1013">-</pc>
 						<w lemma="csak" msd="_" pos="ADV" xml:id="w3930">Csak</w>
@@ -6136,7 +6128,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1023">.</pc>
 					</s>
 				</p>
-				<p xml:id="p143">
+				<p xml:id="p136">
 					<s xml:id="s395">
 						<pc pos="PUNCT" xml:id="pc1024">-</pc>
 						<w lemma="Dehát" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w3958">Dehát</w>
@@ -6149,7 +6141,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1027">.</pc>
 					</s>
 				</p>
-				<p xml:id="p144">
+				<p xml:id="p137">
 					<s xml:id="s396">
 						<pc pos="PUNCT" xml:id="pc1028">-</pc>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w3963">Azt</w>
@@ -6195,12 +6187,11 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1037">.</pc>
 					</s>
 				</p>
-				<p xml:id="p145"/>
 			</div>
 			<div type="chapter" xml:id="div3">
 				<head>Harmadik fejezet</head>
 				<head>Két bűnös fegyház helyett a kényszermunkát választja</head>
-				<p xml:id="p146">
+				<p xml:id="p138">
 					<s xml:id="s398">
 						<pc pos="PUNCT" xml:id="pc1038">-</pc>
 						<w lemma="most" msd="_" pos="ADV" xml:id="w3993">Most</w>
@@ -6215,7 +6206,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1041">.</pc>
 					</s>
 				</p>
-				<p xml:id="p147">
+				<p xml:id="p139">
 					<s xml:id="s399">
 						<pc pos="PUNCT" xml:id="pc1042">-</pc>
 						<w lemma="félóra" msd="Case=Sup|Number=Sing" pos="NOUN" xml:id="w4000">Félórán</w>
@@ -6229,7 +6220,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1043">.</pc>
 					</s>
 				</p>
-				<p xml:id="p148">
+				<p xml:id="p140">
 					<s xml:id="s400">
 						<pc pos="PUNCT" xml:id="pc1044">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w4008">És</w>
@@ -6244,7 +6235,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1049">.</pc>
 					</s>
 				</p>
-				<p xml:id="p149">
+				<p xml:id="p141">
 					<s xml:id="s401">
 						<pc pos="PUNCT" xml:id="pc1050">-</pc>
 						<w lemma="egyelőre" msd="_" pos="ADV" xml:id="w4013">Egyelőre</w>
@@ -6268,7 +6259,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1054">...</pc>
 					</s>
 				</p>
-				<p xml:id="p150">
+				<p xml:id="p142">
 					<s xml:id="s403">
 						<pc pos="PUNCT" xml:id="pc1055">-</pc>
 						<w lemma="talán" msd="_" pos="ADV" xml:id="w4026">Talán</w>
@@ -6283,7 +6274,7 @@
 						<pc pos="PUNCT" xml:id="pc1059">.</pc>
 					</s>
 				</p>
-				<p xml:id="p151">
+				<p xml:id="p143">
 					<s xml:id="s404">
 						<pc pos="PUNCT" xml:id="pc1060">-</pc>
 						<w lemma="olyasmi" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4032">Olyasmi</w>
@@ -6312,7 +6303,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1065">.</pc>
 					</s>
 				</p>
-				<p xml:id="p152">
+				<p xml:id="p144">
 					<s xml:id="s407">
 						<pc pos="PUNCT" xml:id="pc1066">-</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w4047">De</w>
@@ -6327,13 +6318,13 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1069">.</pc>
 					</s>
 				</p>
-				<p xml:id="p153">
+				<p xml:id="p145">
 					<s xml:id="s408">
 						<w lemma="gondolkozik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4054">Gondolkoztak</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1070">.</pc>
 					</s>
 				</p>
-				<p xml:id="p154">
+				<p xml:id="p146">
 					<s xml:id="s409">
 						<pc pos="PUNCT" xml:id="pc1071">-</pc>
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4055">Nelson</w>
@@ -6359,7 +6350,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1076">?</pc>
 					</s>
 				</p>
-				<p xml:id="p155">
+				<p xml:id="p147">
 					<s xml:id="s410">
 						<pc pos="PUNCT" xml:id="pc1077">-</pc>
 						<w lemma="nagyon" msd="_" pos="ADV" xml:id="w4071">Nagyon</w>
@@ -6374,7 +6365,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1080">.</pc>
 					</s>
 				</p>
-				<p xml:id="p156">
+				<p xml:id="p148">
 					<s xml:id="s411">
 						<pc pos="PUNCT" xml:id="pc1081">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w4078">És</w>
@@ -6390,7 +6381,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1084">.</pc>
 					</s>
 				</p>
-				<p xml:id="p157">
+				<p xml:id="p149">
 					<s xml:id="s412">
 						<pc pos="PUNCT" xml:id="pc1085">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w4086">Én</w>
@@ -6430,7 +6421,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1092">?</pc>
 					</s>
 				</p>
-				<p xml:id="p158">
+				<p xml:id="p150">
 					<s xml:id="s415">
 						<pc pos="PUNCT" xml:id="pc1093">-</pc>
 						<w lemma="mond" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4110">Mondom</w>
@@ -6448,7 +6439,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1096">!</pc>
 					</s>
 				</p>
-				<p xml:id="p159">
+				<p xml:id="p151">
 					<s xml:id="s417">
 						<pc pos="PUNCT" xml:id="pc1097">...</pc>
 					</s>
@@ -6464,7 +6455,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1099">.</pc>
 					</s>
 				</p>
-				<p xml:id="p160">
+				<p xml:id="p152">
 					<s xml:id="s419">
 						<w lemma="tíz" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w4125">Tíz</w>
 						<w lemma="perc" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4126">perc</w>
@@ -6502,7 +6493,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1104">.</pc>
 					</s>
 				</p>
-				<p xml:id="p161">
+				<p xml:id="p153">
 					<s xml:id="s421">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4152">A</w>
 						<w lemma="gyilkos" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w4153">gyilkost</w>
@@ -6511,8 +6502,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1105">.</pc>
 					</s>
 				</p>
-				<p xml:id="p162"/>
-				<p xml:id="p163">
+				<p xml:id="p154">
 					<s xml:id="s422">
 						<pc pos="PUNCT" xml:id="pc1106">...</pc>
 					</s>
@@ -6533,7 +6523,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1109">.</pc>
 					</s>
 				</p>
-				<p xml:id="p164">
+				<p xml:id="p155">
 					<s xml:id="s425">
 						<pc pos="PUNCT" xml:id="pc1110">-</pc>
 						<w lemma="honnan" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w4165">Honnan</w>
@@ -6561,7 +6551,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1116">?</pc>
 					</s>
 				</p>
-				<p xml:id="p165">
+				<p xml:id="p156">
 					<s xml:id="s427">
 						<pc pos="PUNCT" xml:id="pc1117">-</pc>
 						<w lemma="hisz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4180">Higgye</w>
@@ -6577,7 +6567,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1120">.</pc>
 					</s>
 				</p>
-				<p xml:id="p166">
+				<p xml:id="p157">
 					<s xml:id="s428">
 						<pc pos="PUNCT" xml:id="pc1121">-</pc>
 						<w lemma="hisz" msd="Number=Sing|Person=3|Tense=Pres|VerbForm=Inf|Voice=Act" pos="VERB" xml:id="w4188">Hinnie</w>
@@ -6589,7 +6579,7 @@
 						<pc pos="PUNCT" xml:id="pc1123">..</pc>
 					</s>
 				</p>
-				<p xml:id="p167">
+				<p xml:id="p158">
 					<s xml:id="s429">
 						<pc pos="PUNCT" xml:id="pc1124">-</pc>
 						<w lemma="hm" msd="_" pos="INTJ" xml:id="w4193">Hm</w>
@@ -6625,7 +6615,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1130">.</pc>
 					</s>
 				</p>
-				<p xml:id="p168">
+				<p xml:id="p159">
 					<s xml:id="s433">
 						<pc pos="PUNCT" xml:id="pc1131">-</pc>
 						<w lemma="Igaz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="PROPN" xml:id="w4212">Igaza</w>
@@ -6636,7 +6626,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1133">.</pc>
 					</s>
 				</p>
-				<p xml:id="p169">
+				<p xml:id="p160">
 					<s xml:id="s434">
 						<pc pos="PUNCT" xml:id="pc1134">-</pc>
 						<w lemma="vár" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4216">Várjon</w>
@@ -6655,7 +6645,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1138">?</pc>
 					</s>
 				</p>
-				<p xml:id="p170">
+				<p xml:id="p161">
 					<s xml:id="s436">
 						<pc pos="PUNCT" xml:id="pc1139">-</pc>
 						<w lemma="valahová" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w4224">Valahová</w>
@@ -6673,7 +6663,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1142">.</pc>
 					</s>
 				</p>
-				<p xml:id="p171">
+				<p xml:id="p162">
 					<s xml:id="s439">
 						<pc pos="PUNCT" xml:id="pc1143">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4230">Nézze</w>
@@ -6715,7 +6705,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1149">.</pc>
 					</s>
 				</p>
-				<p xml:id="p172">
+				<p xml:id="p163">
 					<s xml:id="s443">
 						<pc pos="PUNCT" xml:id="pc1150">-</pc>
 						<w lemma="tessék" msd="_" pos="INTJ" xml:id="w4255">Tessék</w>
@@ -6731,7 +6721,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1154">.</pc>
 					</s>
 				</p>
-				<p xml:id="p173">
+				<p xml:id="p164">
 					<s xml:id="s444">
 						<pc pos="PUNCT" xml:id="pc1155">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w4262">Én</w>
@@ -6825,7 +6815,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1171">.</pc>
 					</s>
 				</p>
-				<p xml:id="p174">
+				<p xml:id="p165">
 					<s xml:id="s449">
 						<pc pos="PUNCT" xml:id="pc1172">-</pc>
 						<w lemma="elfogad" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4327">Elfogadom</w>
@@ -6851,7 +6841,7 @@
 						<pc pos="PUNCT" xml:id="pc1178">.</pc>
 					</s>
 				</p>
-				<p xml:id="p175">
+				<p xml:id="p166">
 					<s xml:id="s451">
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4340">Nelson</w>
 						<w lemma="tapsol" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4341">tapsolt</w>
@@ -6867,7 +6857,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1180">.</pc>
 					</s>
 				</p>
-				<p xml:id="p176">
+				<p xml:id="p167">
 					<s xml:id="s453">
 						<pc pos="PUNCT" xml:id="pc1181">-</pc>
 						<w lemma="Huni" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w4348">Huni</w>
@@ -6889,7 +6879,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1184">!</pc>
 					</s>
 				</p>
-				<p xml:id="p177">
+				<p xml:id="p168">
 					<s xml:id="s456">
 						<pc pos="PUNCT" xml:id="pc1185">...</pc>
 					</s>
@@ -6915,12 +6905,11 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1188">.</pc>
 					</s>
 				</p>
-				<p xml:id="p178"/>
 			</div>
 			<div type="chapter" xml:id="div4">
 				<head>Negyedik fejezet</head>
 				<head>Mr. Nelson feltalálja a drótnélküli bűnhődést</head>
-				<p xml:id="p179">
+				<p xml:id="p169">
 					<s xml:id="s458">
 						<w lemma="ahogy" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w4374">Ahogy</w>
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4375">Henry</w>
@@ -6982,7 +6971,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1195">.</pc>
 					</s>
 				</p>
-				<p xml:id="p180">
+				<p xml:id="p170">
 					<s xml:id="s460">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w4423">Mikor</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4424">a</w>
@@ -7081,7 +7070,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1206">.</pc>
 					</s>
 				</p>
-				<p xml:id="p181">
+				<p xml:id="p171">
 					<s xml:id="s467">
 						<w lemma="néhány" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w4495">Néhány</w>
 						<w lemma="rövid" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4496">rövid</w>
@@ -7103,7 +7092,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1209">.</pc>
 					</s>
 				</p>
-				<p xml:id="p182">
+				<p xml:id="p172">
 					<s xml:id="s468">
 						<pc pos="PUNCT" xml:id="pc1210">-</pc>
 						<w lemma="mi" msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w4510">Mit</w>
@@ -7119,7 +7108,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1214">,</pc>
 					</s>
 				</p>
-				<p xml:id="p183">
+				<p xml:id="p173">
 					<s xml:id="s469">
 						<pc pos="PUNCT" xml:id="pc1215">-</pc>
 						<w lemma="ő" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w4517">Ő</w>
@@ -7149,7 +7138,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1219">.</pc>
 					</s>
 				</p>
-				<p xml:id="p184">
+				<p xml:id="p174">
 					<s xml:id="s472">
 						<w lemma="egy" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w4534">Egy</w>
 						<w lemma="óra" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w4535">óra</w>
@@ -7227,8 +7216,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1230">.</pc>
 					</s>
 				</p>
-				<p xml:id="p185"/>
-				<p xml:id="p186">
+				<p xml:id="p175">
 					<s xml:id="s478">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4587">A</w>
 						<w lemma="ceyloni" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4588">ceyloni</w>
@@ -7354,7 +7342,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1246">.</pc>
 					</s>
 				</p>
-				<p xml:id="p187">
+				<p xml:id="p176">
 					<s xml:id="s486">
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w4679">Ezt</w>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4680">az</w>
@@ -7491,7 +7479,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1272">.</pc>
 					</s>
 				</p>
-				<p xml:id="p188">
+				<p xml:id="p177">
 					<s xml:id="s496">
 						<pc pos="PUNCT" xml:id="pc1273">-</pc>
 						<w lemma="bemutat" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4768">Bemutatom</w>
@@ -7514,7 +7502,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1278">?</pc>
 					</s>
 				</p>
-				<p xml:id="p189">
+				<p xml:id="p178">
 					<s xml:id="s498">
 						<pc pos="PUNCT" xml:id="pc1279">-</pc>
 						<w lemma="igen" msd="_" pos="INTJ" xml:id="w4779">Igen</w>
@@ -7531,7 +7519,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1282">.</pc>
 					</s>
 				</p>
-				<p xml:id="p190">
+				<p xml:id="p179">
 					<s xml:id="s499">
 						<pc pos="PUNCT" xml:id="pc1283">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4788">A</w>
@@ -7550,7 +7538,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1286">.</pc>
 					</s>
 				</p>
-				<p xml:id="p191">
+				<p xml:id="p180">
 					<s xml:id="s500">
 						<pc pos="PUNCT" xml:id="pc1287">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4799">A</w>
@@ -7570,7 +7558,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1291">.</pc>
 					</s>
 				</p>
-				<p xml:id="p192">
+				<p xml:id="p181">
 					<s xml:id="s502">
 						<pc pos="PUNCT" xml:id="pc1292">-</pc>
 						<w lemma="nem" msd="_" pos="INTJ" xml:id="w4808">Nem</w>
@@ -7596,7 +7584,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1296">.</pc>
 					</s>
 				</p>
-				<p xml:id="p193">
+				<p xml:id="p182">
 					<s xml:id="s504">
 						<pc pos="PUNCT" xml:id="pc1297">-</pc>
 						<w lemma="hát" msd="_" pos="ADV" xml:id="w4823">Hát</w>
@@ -7621,7 +7609,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1302">?</pc>
 					</s>
 				</p>
-				<p xml:id="p194">
+				<p xml:id="p183">
 					<s xml:id="s506">
 						<pc pos="PUNCT" xml:id="pc1303">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w4836">Ez</w>
@@ -7669,7 +7657,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1313">.</pc>
 					</s>
 				</p>
-				<p xml:id="p195">
+				<p xml:id="p184">
 					<s xml:id="s511">
 						<pc pos="PUNCT" xml:id="pc1314">-</pc>
 						<w lemma="komoly" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w4861">Komolyan</w>
@@ -7732,7 +7720,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1327">...</pc>
 					</s>
 				</p>
-				<p xml:id="p196">
+				<p xml:id="p185">
 					<s xml:id="s517">
 						<w lemma="morog" msd="VerbForm=Trans" pos="ADV" xml:id="w4896">Morogva</w>
 						<w lemma="megy" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4897">mentek</w>
@@ -7747,7 +7735,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1329">!</pc>
 					</s>
 				</p>
-				<p xml:id="p197">
+				<p xml:id="p186">
 					<s xml:id="s519">
 						<w lemma="miután" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w4903">Miután</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w4904">a</w>
@@ -7780,7 +7768,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1333">.</pc>
 					</s>
 				</p>
-				<p xml:id="p198">
+				<p xml:id="p187">
 					<s xml:id="s521">
 						<pc pos="PUNCT" xml:id="pc1334">-</pc>
 						<w lemma="köszön" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4926">Köszönöm</w>
@@ -7797,7 +7785,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1337">.</pc>
 					</s>
 				</p>
-				<p xml:id="p199">
+				<p xml:id="p188">
 					<s xml:id="s522">
 						<pc pos="PUNCT" xml:id="pc1338">-</pc>
 						<w lemma="nincs" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4935">Nincs</w>
@@ -7883,7 +7871,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1352">.</pc>
 					</s>
 				</p>
-				<p xml:id="p200">
+				<p xml:id="p189">
 					<s xml:id="s530">
 						<pc pos="PUNCT" xml:id="pc1353">-</pc>
 						<w lemma="kér" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w4988">Kérem</w>
@@ -7902,7 +7890,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1356">...</pc>
 					</s>
 				</p>
-				<p xml:id="p201">
+				<p xml:id="p190">
 					<s xml:id="s533">
 						<pc pos="PUNCT" xml:id="pc1357">-</pc>
 						<w lemma="ez" msd="Case=Sub|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w4995">Erre</w>
@@ -7998,7 +7986,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1370">.</pc>
 					</s>
 				</p>
-				<p xml:id="p202">
+				<p xml:id="p191">
 					<s xml:id="s542">
 						<pc pos="PUNCT" xml:id="pc1371">...</pc>
 					</s>
@@ -8022,7 +8010,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1374">.</pc>
 					</s>
 				</p>
-				<p xml:id="p203">
+				<p xml:id="p192">
 					<s xml:id="s545">
 						<pc pos="PUNCT" xml:id="pc1375">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w5069">Mi</w>
@@ -8038,7 +8026,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1378">.</pc>
 					</s>
 				</p>
-				<p xml:id="p204">
+				<p xml:id="p193">
 					<s xml:id="s546">
 						<pc pos="PUNCT" xml:id="pc1379">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w5077">És</w>
@@ -8052,7 +8040,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1382">.</pc>
 					</s>
 				</p>
-				<p xml:id="p205">
+				<p xml:id="p194">
 					<s xml:id="s547">
 						<w lemma="fél" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w5083">Fél</w>
 						<w lemma="kar" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="NOUN" xml:id="w5084">karjával</w>
@@ -8072,7 +8060,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1383">.</pc>
 					</s>
 				</p>
-				<p xml:id="p206">
+				<p xml:id="p195">
 					<s xml:id="s548">
 						<pc pos="PUNCT" xml:id="pc1384">-</pc>
 						<w lemma="akármi" msd="Case=Nom|Number=Sing|Person=3|PronType=Ind" pos="PRON" xml:id="w5098">Akármi</w>
@@ -8101,7 +8089,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1391">.</pc>
 					</s>
 				</p>
-				<p xml:id="p207">
+				<p xml:id="p196">
 					<s xml:id="s552">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5109">A</w>
 						<w lemma="vad" msd="Case=Sup|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5110">vadon</w>
@@ -8162,7 +8150,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1399">.</pc>
 					</s>
 				</p>
-				<p xml:id="p208">
+				<p xml:id="p197">
 					<s xml:id="s555">
 						<w lemma="Jojo" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5154">Jojo</w>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w5155">nem</w>
@@ -8206,7 +8194,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1408">.</pc>
 					</s>
 				</p>
-				<p xml:id="p209">
+				<p xml:id="p198">
 					<s xml:id="s557">
 						<w lemma="Bob" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5183">Bob</w>
 						<w lemma="sosem" msd="_" pos="ADV" xml:id="w5184">sosem</w>
@@ -8256,8 +8244,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1417">.</pc>
 					</s>
 				</p>
-				<p xml:id="p210"/>
-				<p xml:id="p211">
+				<p xml:id="p199">
 					<s xml:id="s561">
 						<pc pos="PUNCT" xml:id="pc1418">-</pc>
 						<w lemma="Tab" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5214">Tabe</w>
@@ -8267,7 +8254,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1420">.</pc>
 					</s>
 				</p>
-				<p xml:id="p212">
+				<p xml:id="p200">
 					<s xml:id="s562">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w5217">Mikor</w>
 						<w lemma="Jojo" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5218">Jojo</w>
@@ -8345,7 +8332,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1434">.</pc>
 					</s>
 				</p>
-				<p xml:id="p213">
+				<p xml:id="p201">
 					<s xml:id="s568">
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w5267">És</w>
 						<w lemma="Bob" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5268">Bob</w>
@@ -8387,7 +8374,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1442">.</pc>
 					</s>
 				</p>
-				<p xml:id="p214">
+				<p xml:id="p202">
 					<s xml:id="s571">
 						<w lemma="hol" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w5293">Hol</w>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5294">volt</w>
@@ -8513,7 +8500,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1460">.</pc>
 					</s>
 				</p>
-				<p xml:id="p215">
+				<p xml:id="p203">
 					<s xml:id="s580">
 						<w lemma="ahogy" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w5381">Ahogy</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5382">a</w>
@@ -8575,7 +8562,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1470">.</pc>
 					</s>
 				</p>
-				<p xml:id="p216">
+				<p xml:id="p204">
 					<s xml:id="s584">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5423">A</w>
 						<w lemma="négy" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w5424">négy</w>
@@ -8598,7 +8585,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1473">.</pc>
 					</s>
 				</p>
-				<p xml:id="p217">
+				<p xml:id="p205">
 					<s xml:id="s585">
 						<pc pos="PUNCT" xml:id="pc1474">-</pc>
 						<w lemma="megy" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5439">Menjen</w>
@@ -8649,7 +8636,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1484">.</pc>
 					</s>
 				</p>
-				<p xml:id="p218">
+				<p xml:id="p206">
 					<s xml:id="s589">
 						<w lemma="Jojo" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w5469">Jojo</w>
 						<w lemma="nagyon" msd="_" pos="ADV" xml:id="w5470">nagyon</w>
@@ -8690,7 +8677,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1490">.</pc>
 					</s>
 				</p>
-				<p xml:id="p219">
+				<p xml:id="p207">
 					<s xml:id="s592">
 						<pc pos="PUNCT" xml:id="pc1491">...</pc>
 					</s>
@@ -8722,7 +8709,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1498">.</pc>
 					</s>
 				</p>
-				<p xml:id="p220">
+				<p xml:id="p208">
 					<s xml:id="s595">
 						<pc pos="PUNCT" xml:id="pc1499">-</pc>
 						<w lemma="minden" msd="Case=Acc|Number=Sing|Person=3|PronType=Tot" pos="PRON" xml:id="w5512">Mindent</w>
@@ -8746,7 +8733,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1505">?</pc>
 					</s>
 				</p>
-				<p xml:id="p221">
+				<p xml:id="p209">
 					<s xml:id="s598">
 						<pc pos="PUNCT" xml:id="pc1506">-</pc>
 						<w lemma="hiszen" msd="_" pos="CONJ" xml:id="w5521">Hiszen</w>
@@ -8770,7 +8757,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1511">?</pc>
 					</s>
 				</p>
-				<p xml:id="p222">
+				<p xml:id="p210">
 					<s xml:id="s600">
 						<pc pos="PUNCT" xml:id="pc1512">-</pc>
 						<w lemma="minden" msd="Case=Acc|Number=Sing|Person=3|PronType=Tot" pos="PRON" xml:id="w5533">Mindent</w>
@@ -8799,7 +8786,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1517">.</pc>
 					</s>
 				</p>
-				<p xml:id="p223">
+				<p xml:id="p211">
 					<s xml:id="s603">
 						<pc pos="PUNCT" xml:id="pc1518">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w5548">És</w>
@@ -8816,7 +8803,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1521">.</pc>
 					</s>
 				</p>
-				<p xml:id="p224">
+				<p xml:id="p212">
 					<s xml:id="s604">
 						<pc pos="PUNCT" xml:id="pc1522">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5557">A</w>
@@ -8845,7 +8832,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1528">.</pc>
 					</s>
 				</p>
-				<p xml:id="p225">
+				<p xml:id="p213">
 					<s xml:id="s607">
 						<pc pos="PUNCT" xml:id="pc1529">-</pc>
 						<w lemma="hát" msd="_" pos="ADV" xml:id="w5571">Hát</w>
@@ -8855,7 +8842,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1530">?</pc>
 					</s>
 				</p>
-				<p xml:id="p226">
+				<p xml:id="p214">
 					<s xml:id="s608">
 						<pc pos="PUNCT" xml:id="pc1531">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5575">A</w>
@@ -8876,7 +8863,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1533">.</pc>
 					</s>
 				</p>
-				<p xml:id="p227">
+				<p xml:id="p215">
 					<s xml:id="s609">
 						<w lemma="sokáig" msd="_" pos="ADV" xml:id="w5589">Sokáig</w>
 						<w lemma="hallgat" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5590">hallgattak</w>
@@ -8915,7 +8902,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1541">.</pc>
 					</s>
 				</p>
-				<p xml:id="p228">
+				<p xml:id="p216">
 					<s xml:id="s614">
 						<pc pos="PUNCT" xml:id="pc1542">-</pc>
 						<w lemma="milyen" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w5608">Milyen</w>
@@ -8929,12 +8916,11 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1544">...</pc>
 					</s>
 				</p>
-				<p xml:id="p229"/>
 			</div>
 			<div type="chapter" xml:id="div5">
 				<head>Ötödik fejezet</head>
 				<head>Harc a halál ellen</head>
-				<p xml:id="p230">
+				<p xml:id="p217">
 					<s xml:id="s615">
 						<w lemma="múlt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5615">Múlt</w>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5616">az</w>
@@ -8951,7 +8937,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1547">...</pc>
 					</s>
 				</p>
-				<p xml:id="p231">
+				<p xml:id="p218">
 					<s xml:id="s617">
 						<w lemma="együtt" msd="_" pos="ADV" xml:id="w5623">Együtt</w>
 						<w lemma="szokik" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w5624">szoktak</w>
@@ -9005,7 +8991,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1556">.</pc>
 					</s>
 				</p>
-				<p xml:id="p232">
+				<p xml:id="p219">
 					<s xml:id="s621">
 						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" xml:id="w5658">Egy</w>
 						<w lemma="nap" msd="Case=Sup|Number=Sing" pos="NOUN" xml:id="w5659">napon</w>
@@ -9045,7 +9031,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1562">.</pc>
 					</s>
 				</p>
-				<p xml:id="p233">
+				<p xml:id="p220">
 					<s xml:id="s624">
 						<pc pos="PUNCT" xml:id="pc1563">-</pc>
 						<w lemma="tíz" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w5684">Tíz</w>
@@ -9122,7 +9108,7 @@
 						<pc pos="PUNCT" xml:id="pc1576">...</pc>
 					</s>
 				</p>
-				<p xml:id="p234">
+				<p xml:id="p221">
 					<s xml:id="s630">
 						<pc pos="PUNCT" xml:id="pc1577">-</pc>
 						<w lemma="tiszta" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5733">Tisztán</w>
@@ -9136,7 +9122,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1579">.</pc>
 					</s>
 				</p>
-				<p xml:id="p235">
+				<p xml:id="p222">
 					<s xml:id="s631">
 						<pc pos="PUNCT" xml:id="pc1580">-</pc>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w5740">Nem</w>
@@ -9192,7 +9178,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1589">.</pc>
 					</s>
 				</p>
-				<p xml:id="p236">
+				<p xml:id="p223">
 					<s xml:id="s634">
 						<pc pos="PUNCT" xml:id="pc1590">-</pc>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w5778">Ezt</w>
@@ -9281,7 +9267,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1603">?</pc>
 					</s>
 				</p>
-				<p xml:id="p237">
+				<p xml:id="p224">
 					<s xml:id="s641">
 						<pc pos="PUNCT" xml:id="pc1604">-</pc>
 						<w lemma="sajnos" msd="_" pos="ADV" xml:id="w5837">Sajnos</w>
@@ -9316,7 +9302,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1609">...</pc>
 					</s>
 				</p>
-				<p xml:id="p238">
+				<p xml:id="p225">
 					<s xml:id="s643">
 						<pc pos="PUNCT" xml:id="pc1610">...</pc>
 					</s>
@@ -9376,7 +9362,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1616">.</pc>
 					</s>
 				</p>
-				<p xml:id="p239">
+				<p xml:id="p226">
 					<s xml:id="s647">
 						<pc pos="PUNCT" xml:id="pc1617">-</pc>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w5903">Ezt</w>
@@ -9406,7 +9392,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1624">!</pc>
 					</s>
 				</p>
-				<p xml:id="p240">
+				<p xml:id="p227">
 					<s xml:id="s650">
 						<pc pos="PUNCT" xml:id="pc1625">-</pc>
 						<w lemma="állandó" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w5917">Állandóan</w>
@@ -9429,7 +9415,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1628">.</pc>
 					</s>
 				</p>
-				<p xml:id="p241">
+				<p xml:id="p228">
 					<s xml:id="s652">
 						<pc pos="PUNCT" xml:id="pc1629">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w5930">A</w>
@@ -9439,7 +9425,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1630">...</pc>
 					</s>
 				</p>
-				<p xml:id="p242">
+				<p xml:id="p229">
 					<s xml:id="s653">
 						<pc pos="PUNCT" xml:id="pc1631">-</pc>
 						<w lemma="ugyan" msd="_" pos="INTJ" xml:id="w5934">Ugyan</w>
@@ -9505,7 +9491,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1642">!</pc>
 					</s>
 				</p>
-				<p xml:id="p243">
+				<p xml:id="p230">
 					<s xml:id="s658">
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w5976">Nelson</w>
 						<w lemma="csodálkozik" msd="VerbForm=Trans" pos="ADV" xml:id="w5977">csodálkozva</w>
@@ -9616,8 +9602,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1657">.</pc>
 					</s>
 				</p>
-				<p xml:id="p244"/>
-				<p xml:id="p245">
+				<p xml:id="p231">
 					<s xml:id="s662">
 						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" xml:id="w6062">Egy</w>
 						<w lemma="este" msd="_" pos="ADV" xml:id="w6063">este</w>
@@ -9636,7 +9621,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1660">:</pc>
 					</s>
 				</p>
-				<p xml:id="p246">
+				<p xml:id="p232">
 					<s xml:id="s663">
 						<pc pos="PUNCT" xml:id="pc1661">-</pc>
 						<w lemma="holnap" msd="Case=Abl|Number=Sing" pos="NOUN" xml:id="w6074">Holnaptól</w>
@@ -9680,7 +9665,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1667">.</pc>
 					</s>
 				</p>
-				<p xml:id="p247">
+				<p xml:id="p233">
 					<s xml:id="s666">
 						<pc pos="PUNCT" xml:id="pc1668">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w6103">Ez</w>
@@ -9693,7 +9678,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1670">.</pc>
 					</s>
 				</p>
-				<p xml:id="p248">
+				<p xml:id="p234">
 					<s xml:id="s667">
 						<pc pos="PUNCT" xml:id="pc1671">-</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w6109">De</w>
@@ -9717,7 +9702,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1674">.</pc>
 					</s>
 				</p>
-				<p xml:id="p249">
+				<p xml:id="p235">
 					<s xml:id="s669">
 						<pc pos="PUNCT" xml:id="pc1675">-</pc>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6123">Van</w>
@@ -9763,7 +9748,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1683">.</pc>
 					</s>
 				</p>
-				<p xml:id="p250">
+				<p xml:id="p236">
 					<s xml:id="s672">
 						<pc pos="PUNCT" xml:id="pc1684">-</pc>
 						<w lemma="csak" msd="_" pos="ADV" xml:id="w6152">Csak</w>
@@ -9774,7 +9759,7 @@
 						<pc pos="PUNCT" xml:id="pc1685">...</pc>
 					</s>
 				</p>
-				<p xml:id="p251">
+				<p xml:id="p237">
 					<s xml:id="s673">
 						<pc pos="PUNCT" xml:id="pc1686">-</pc>
 						<w lemma="minden" msd="Case=Acc|Number=Sing|Person=3|PronType=Tot" pos="PRON" xml:id="w6157">Mindent</w>
@@ -9805,7 +9790,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1690">.</pc>
 					</s>
 				</p>
-				<p xml:id="p252">
+				<p xml:id="p238">
 					<s xml:id="s676">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6175">A</w>
 						<w lemma="hőség" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6176">hőség</w>
@@ -9883,7 +9868,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1701">.</pc>
 					</s>
 				</p>
-				<p xml:id="p253">
+				<p xml:id="p239">
 					<s xml:id="s678">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6236">A</w>
 						<w lemma="forróság" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6237">forróság</w>
@@ -9969,7 +9954,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1715">...</pc>
 					</s>
 				</p>
-				<p xml:id="p254">
+				<p xml:id="p240">
 					<s xml:id="s684">
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w6294">Ha</w>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w6295">nem</w>
@@ -10010,7 +9995,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1722">...</pc>
 					</s>
 				</p>
-				<p xml:id="p255">
+				<p xml:id="p241">
 					<s xml:id="s687">
 						<w lemma="Bob" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w6320">Bob</w>
 						<w lemma="lassanként" msd="_" pos="ADV" xml:id="w6321">lassanként</w>
@@ -10019,7 +10004,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1723">.</pc>
 					</s>
 				</p>
-				<p xml:id="p256">
+				<p xml:id="p242">
 					<s xml:id="s688">
 						<w lemma="azután" msd="_" pos="ADV" xml:id="w6324">Azután</w>
 						<w lemma="már" msd="_" pos="ADV" xml:id="w6325">már</w>
@@ -10235,7 +10220,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1752">.</pc>
 					</s>
 				</p>
-				<p xml:id="p257">
+				<p xml:id="p243">
 					<s xml:id="s698">
 						<pc pos="PUNCT" xml:id="pc1753">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w6489">Mi</w>
@@ -10246,7 +10231,7 @@
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6492">Nelson</w>
 					</s>
 				</p>
-				<p xml:id="p258">
+				<p xml:id="p244">
 					<s xml:id="s699">
 						<pc pos="PUNCT" xml:id="pc1756">-</pc>
 						<w lemma="mindez" msd="PronType=Art" pos="ADV" xml:id="w6493">Mindennek</w>
@@ -10265,13 +10250,13 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1761">.</pc>
 					</s>
 				</p>
-				<p xml:id="p259">
+				<p xml:id="p245">
 					<s xml:id="s701">
 						<w lemma="hallgat" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6500">Hallgattak</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1762">.</pc>
 					</s>
 				</p>
-				<p xml:id="p260">
+				<p xml:id="p246">
 					<s xml:id="s702">
 						<pc pos="PUNCT" xml:id="pc1763">-</pc>
 						<w lemma="mi" msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w6501">Mit</w>
@@ -10323,7 +10308,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1770">.</pc>
 					</s>
 				</p>
-				<p xml:id="p261">
+				<p xml:id="p247">
 					<s xml:id="s705">
 						<pc pos="PUNCT" xml:id="pc1771">-</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w6537">De</w>
@@ -10350,7 +10335,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1774">...</pc>
 					</s>
 				</p>
-				<p xml:id="p262">
+				<p xml:id="p248">
 					<s xml:id="s708">
 						<w lemma="Jojo" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w6552">Jojo</w>
 						<w lemma="ragaszkodik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6553">ragaszkodott</w>
@@ -10375,7 +10360,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1778">.</pc>
 					</s>
 				</p>
-				<p xml:id="p263">
+				<p xml:id="p249">
 					<s xml:id="s710">
 						<pc pos="PUNCT" xml:id="pc1779">-</pc>
 						<w lemma="ugyan" msd="_" pos="INTJ" xml:id="w6567">Ugyan</w>
@@ -10421,7 +10406,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1787">!</pc>
 					</s>
 				</p>
-				<p xml:id="p264">
+				<p xml:id="p250">
 					<s xml:id="s714">
 						<pc pos="PUNCT" xml:id="pc1788">-</pc>
 						<w lemma="mi" msd="Case=Acc|Number=Sing|Number[psor]=Plur|Person=3|Person[psor]=1|PronType=Prs" pos="PRON" xml:id="w6594">Minket</w>
@@ -10456,7 +10441,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1793">!</pc>
 					</s>
 				</p>
-				<p xml:id="p265">
+				<p xml:id="p251">
 					<s xml:id="s715">
 						<pc pos="PUNCT" xml:id="pc1794">...</pc>
 					</s>
@@ -10483,7 +10468,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1797">.</pc>
 					</s>
 				</p>
-				<p xml:id="p266">
+				<p xml:id="p252">
 					<s xml:id="s719">
 						<pc pos="PUNCT" xml:id="pc1798">-</pc>
 						<w lemma="holnap" msd="_" pos="ADV" xml:id="w6632">Holnap</w>
@@ -10516,7 +10501,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1803">?</pc>
 					</s>
 				</p>
-				<p xml:id="p267">
+				<p xml:id="p253">
 					<s xml:id="s721">
 						<pc pos="PUNCT" xml:id="pc1804">-</pc>
 						<w lemma="nagyon" msd="_" pos="ADV" xml:id="w6653">Nagyon</w>
@@ -10550,7 +10535,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1811">.</pc>
 					</s>
 				</p>
-				<p xml:id="p268">
+				<p xml:id="p254">
 					<s xml:id="s724">
 						<pc pos="PUNCT" xml:id="pc1812">-</pc>
 						<w lemma="kér" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6671">Kérem</w>
@@ -10574,7 +10559,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1816">?</pc>
 					</s>
 				</p>
-				<p xml:id="p269">
+				<p xml:id="p255">
 					<s xml:id="s727">
 						<pc pos="PUNCT" xml:id="pc1817">-</pc>
 						<w lemma="köszön" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w6682">Köszönöm</w>
@@ -10587,8 +10572,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1819">.</pc>
 					</s>
 				</p>
-				<p xml:id="p270"/>
-				<p xml:id="p271">
+				<p xml:id="p256">
 					<s xml:id="s729">
 						<w lemma="másnap" msd="_" pos="ADV" xml:id="w6686">Másnap</w>
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6687">Nelson</w>
@@ -10703,7 +10687,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1835">...</pc>
 					</s>
 				</p>
-				<p xml:id="p272">
+				<p xml:id="p257">
 					<s xml:id="s738">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w6765">Mikor</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6766">a</w>
@@ -10777,7 +10761,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1845">.</pc>
 					</s>
 				</p>
-				<p xml:id="p273">
+				<p xml:id="p258">
 					<s xml:id="s742">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w6819">A</w>
 						<w lemma="bennszülött" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w6820">bennszülöttek</w>
@@ -10908,7 +10892,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1863">...</pc>
 					</s>
 				</p>
-				<p xml:id="p274">
+				<p xml:id="p259">
 					<s xml:id="s748">
 						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w6918">Három</w>
 						<w lemma="nap" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w6919">nap</w>
@@ -10978,7 +10962,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1871">.</pc>
 					</s>
 				</p>
-				<p xml:id="p275">
+				<p xml:id="p260">
 					<s xml:id="s753">
 						<pc pos="PUNCT" xml:id="pc1872">-</pc>
 						<w lemma="Mr." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w6968">Mr.</w>
@@ -11021,7 +11005,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1880">!</pc>
 					</s>
 				</p>
-				<p xml:id="p276">
+				<p xml:id="p261">
 					<s xml:id="s756">
 						<pc pos="PUNCT" xml:id="pc1881">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w6994">Mi</w>
@@ -11049,7 +11033,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1886">.</pc>
 					</s>
 				</p>
-				<p xml:id="p277">
+				<p xml:id="p262">
 					<s xml:id="s758">
 						<pc pos="PUNCT" xml:id="pc1887">-</pc>
 						<w lemma="igen" msd="_" pos="INTJ" xml:id="w7010">Igen</w>
@@ -11112,7 +11096,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1899">.</pc>
 					</s>
 				</p>
-				<p xml:id="p278">
+				<p xml:id="p263">
 					<s xml:id="s763">
 						<pc pos="PUNCT" xml:id="pc1900">-</pc>
 						<w lemma="miss" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7048">Miss</w>
@@ -11148,7 +11132,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1908">?</pc>
 					</s>
 				</p>
-				<p xml:id="p279">
+				<p xml:id="p264">
 					<s xml:id="s765">
 						<pc pos="PUNCT" xml:id="pc1909">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w7069">És</w>
@@ -11176,7 +11160,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1911">.</pc>
 					</s>
 				</p>
-				<p xml:id="p280">
+				<p xml:id="p265">
 					<s xml:id="s767">
 						<pc pos="PUNCT" xml:id="pc1912">-</pc>
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w7088">Ha</w>
@@ -11192,7 +11176,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1915">.</pc>
 					</s>
 				</p>
-				<p xml:id="p281">
+				<p xml:id="p266">
 					<s xml:id="s768">
 						<pc pos="PUNCT" xml:id="pc1916">-</pc>
 						<w lemma="meg" msd="_" pos="PART" xml:id="w7096">Meg</w>
@@ -11205,7 +11189,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1918">.</pc>
 					</s>
 				</p>
-				<p xml:id="p282">
+				<p xml:id="p267">
 					<s xml:id="s769">
 						<pc pos="PUNCT" xml:id="pc1919">-</pc>
 						<w lemma="kér" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7102">Kérem</w>
@@ -11254,7 +11238,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1928">?</pc>
 					</s>
 				</p>
-				<p xml:id="p283">
+				<p xml:id="p268">
 					<s xml:id="s773">
 						<pc pos="PUNCT" xml:id="pc1929">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w7131">Ön</w>
@@ -11298,7 +11282,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1934">.</pc>
 					</s>
 				</p>
-				<p xml:id="p284">
+				<p xml:id="p269">
 					<s xml:id="s775">
 						<w lemma="Collins" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w7163">Collins</w>
 						<pc join="left" pos="PUNCT" xml:id="pc1935">,</pc>
@@ -11317,7 +11301,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1937">.</pc>
 					</s>
 				</p>
-				<p xml:id="p285">
+				<p xml:id="p270">
 					<s xml:id="s776">
 						<pc pos="PUNCT" xml:id="pc1938">-</pc>
 						<w lemma="három" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w7175">Három</w>
@@ -11354,7 +11338,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1943">!</pc>
 					</s>
 				</p>
-				<p xml:id="p286">
+				<p xml:id="p271">
 					<s xml:id="s779">
 						<pc pos="PUNCT" xml:id="pc1944">-</pc>
 						<w lemma="felesleges" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7198">Felesleges</w>
@@ -11402,7 +11386,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1949">.</pc>
 					</s>
 				</p>
-				<p xml:id="p287">
+				<p xml:id="p272">
 					<s xml:id="s782">
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7232">Az</w>
 						<w lemma="angol" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7233">angol</w>
@@ -11415,7 +11399,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1950">.</pc>
 					</s>
 				</p>
-				<p xml:id="p288">
+				<p xml:id="p273">
 					<s xml:id="s783">
 						<pc pos="PUNCT" xml:id="pc1951">-</pc>
 						<w lemma="Behold" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w7240">Behold</w>
@@ -11463,7 +11447,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1960">...</pc>
 					</s>
 				</p>
-				<p xml:id="p289">
+				<p xml:id="p274">
 					<s xml:id="s789">
 						<w lemma="mikor" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w7264">Mikor</w>
 						<w lemma="újra" msd="_" pos="ADV" xml:id="w7265">újra</w>
@@ -11476,7 +11460,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1962">:</pc>
 					</s>
 				</p>
-				<p xml:id="p290">
+				<p xml:id="p275">
 					<s xml:id="s790">
 						<pc pos="PUNCT" xml:id="pc1963">-</pc>
 						<w lemma="Dehát" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w7271">Dehát</w>
@@ -11502,7 +11486,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1967">?</pc>
 					</s>
 				</p>
-				<p xml:id="p291">
+				<p xml:id="p276">
 					<s xml:id="s792">
 						<pc pos="PUNCT" xml:id="pc1968">-</pc>
 						<w lemma="öröm" msd="Case=Ins|Number=Sing" pos="NOUN" xml:id="w7286">Örömmel</w>
@@ -11514,7 +11498,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1970">!</pc>
 					</s>
 				</p>
-				<p xml:id="p292">
+				<p xml:id="p277">
 					<s xml:id="s793">
 						<pc pos="PUNCT" xml:id="pc1971">-</pc>
 						<w lemma="hát" msd="_" pos="ADV" xml:id="w7291">Hát</w>
@@ -11558,8 +11542,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1978">!</pc>
 					</s>
 				</p>
-				<p xml:id="p293"/>
-				<p xml:id="p294">
+				<p xml:id="p278">
 					<s xml:id="s796">
 						<w lemma="egy" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w7319">Egy</w>
 						<w lemma="hét" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7320">hét</w>
@@ -11622,7 +11605,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc1989">...</pc>
 					</s>
 				</p>
-				<p xml:id="p295">
+				<p xml:id="p279">
 					<s xml:id="s799">
 						<pc pos="PUNCT" xml:id="pc1990">-</pc>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7363">Az</w>
@@ -11713,7 +11696,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2005">.</pc>
 					</s>
 				</p>
-				<p xml:id="p296">
+				<p xml:id="p280">
 					<s xml:id="s808">
 						<pc pos="PUNCT" xml:id="pc2006">-</pc>
 						<w lemma="Mr." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w7418">Mr.</w>
@@ -11729,7 +11712,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2010">?</pc>
 					</s>
 				</p>
-				<p xml:id="p297">
+				<p xml:id="p281">
 					<s xml:id="s809">
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7425">Nelson</w>
 						<w lemma="néhány" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w7426">néhány</w>
@@ -11747,7 +11730,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2013">.</pc>
 					</s>
 				</p>
-				<p xml:id="p298">
+				<p xml:id="p282">
 					<s xml:id="s811">
 						<pc pos="PUNCT" xml:id="pc2014">-</pc>
 						<w lemma="ugye" msd="_" pos="ADV" xml:id="w7434">Ugye</w>
@@ -11764,7 +11747,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2017">!</pc>
 					</s>
 				</p>
-				<p xml:id="p299">
+				<p xml:id="p283">
 					<s xml:id="s812">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7443">A</w>
 						<w lemma="férfi" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7444">férfi</w>
@@ -11778,7 +11761,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2019">.</pc>
 					</s>
 				</p>
-				<p xml:id="p300">
+				<p xml:id="p284">
 					<s xml:id="s813">
 						<pc pos="PUNCT" xml:id="pc2020">-</pc>
 						<w lemma="mond" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7451">Mondja</w>
@@ -11793,14 +11776,14 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2023">?</pc>
 					</s>
 				</p>
-				<p xml:id="p301">
+				<p xml:id="p285">
 					<s xml:id="s815">
 						<w lemma="nelson" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7456">Nelson</w>
 						<w lemma="hallgat" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7457">hallgatott</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2024">.</pc>
 					</s>
 				</p>
-				<p xml:id="p302">
+				<p xml:id="p286">
 					<s xml:id="s816">
 						<pc pos="PUNCT" xml:id="pc2025">-</pc>
 						<w lemma="nyugodt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7458">Nyugodt</w>
@@ -11831,7 +11814,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2032">!</pc>
 					</s>
 				</p>
-				<p xml:id="p303">
+				<p xml:id="p287">
 					<s xml:id="s818">
 						<pc pos="PUNCT" xml:id="pc2033">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w7475">Én</w>
@@ -11849,7 +11832,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2037">...</pc>
 					</s>
 				</p>
-				<p xml:id="p304">
+				<p xml:id="p288">
 					<s xml:id="s819">
 						<pc pos="PUNCT" xml:id="pc2038">-</pc>
 						<w lemma="mond" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7484">Mondja</w>
@@ -11866,7 +11849,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2041">?!</pc>
 					</s>
 				</p>
-				<p xml:id="p305">
+				<p xml:id="p289">
 					<s xml:id="s821">
 						<pc pos="PUNCT" xml:id="pc2042">-</pc>
 						<w lemma="halál" msd="Case=Sub|Number=Sing" pos="NOUN" xml:id="w7491">Halálra</w>
@@ -11874,7 +11857,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2043">!</pc>
 					</s>
 				</p>
-				<p xml:id="p306">
+				<p xml:id="p290">
 					<s xml:id="s822">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7493">A</w>
 						<w lemma="dermedt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7494">dermedt</w>
@@ -11915,7 +11898,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2049">.</pc>
 					</s>
 				</p>
-				<p xml:id="p307">
+				<p xml:id="p291">
 					<s xml:id="s825">
 						<pc pos="PUNCT" xml:id="pc2050">-</pc>
 						<w lemma="azonnal" msd="_" pos="ADV" xml:id="w7520">Azonnal</w>
@@ -11935,7 +11918,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2055">...</pc>
 					</s>
 				</p>
-				<p xml:id="p308">
+				<p xml:id="p292">
 					<s xml:id="s827">
 						<pc pos="PUNCT" xml:id="pc2056">-</pc>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w7528">Ezt</w>
@@ -11963,7 +11946,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2061">.</pc>
 					</s>
 				</p>
-				<p xml:id="p309">
+				<p xml:id="p293">
 					<s xml:id="s829">
 						<pc pos="PUNCT" xml:id="pc2062">-</pc>
 						<w lemma="Dehát" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w7544">Dehát</w>
@@ -11977,7 +11960,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2064">!</pc>
 					</s>
 				</p>
-				<p xml:id="p310">
+				<p xml:id="p294">
 					<s xml:id="s831">
 						<pc pos="PUNCT" xml:id="pc2065">-</pc>
 						<w lemma="ez" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w7549">Ezt</w>
@@ -11987,7 +11970,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2066">.</pc>
 					</s>
 				</p>
-				<p xml:id="p311">
+				<p xml:id="p295">
 					<s xml:id="s832">
 						<w lemma="egyhangú" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7553">Egyhangú</w>
 						<w lemma="kopácsolás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7554">kopácsolás</w>
@@ -12005,7 +11988,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2068">.</pc>
 					</s>
 				</p>
-				<p xml:id="p312">
+				<p xml:id="p296">
 					<s xml:id="s834">
 						<pc pos="PUNCT" xml:id="pc2069">-</pc>
 						<w lemma="megy" msd="Definite=Ind|Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7563">Menjünk</w>
@@ -12027,8 +12010,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2074">...</pc>
 					</s>
 				</p>
-				<p xml:id="p313"/>
-				<p xml:id="p314">
+				<p xml:id="p297">
 					<s xml:id="s836">
 						<pc pos="PUNCT" xml:id="pc2075">-</pc>
 						<w lemma="ha" msd="_" pos="SCONJ" xml:id="w7573">Ha</w>
@@ -12049,7 +12031,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2078">.</pc>
 					</s>
 				</p>
-				<p xml:id="p315">
+				<p xml:id="p298">
 					<s xml:id="s837">
 						<pc pos="PUNCT" xml:id="pc2079">-</pc>
 						<w lemma="csakugyan" msd="_" pos="ADV" xml:id="w7586">Csakugyan</w>
@@ -12083,7 +12065,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2088">.</pc>
 					</s>
 				</p>
-				<p xml:id="p316">
+				<p xml:id="p299">
 					<s xml:id="s839">
 						<pc pos="PUNCT" xml:id="pc2089">-</pc>
 						<w lemma="ez" msd="Case=Nom|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w7604">Ez</w>
@@ -12104,7 +12086,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2091">.</pc>
 					</s>
 				</p>
-				<p xml:id="p317">
+				<p xml:id="p300">
 					<s xml:id="s841">
 						<pc pos="PUNCT" xml:id="pc2092">-</pc>
 						<w lemma="Igaz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3" pos="PROPN" xml:id="w7616">Igaza</w>
@@ -12132,7 +12114,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2095">.</pc>
 					</s>
 				</p>
-				<p xml:id="p318">
+				<p xml:id="p301">
 					<s xml:id="s843">
 						<pc pos="PUNCT" xml:id="pc2096">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w7634">Ön</w>
@@ -12148,7 +12130,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2098">?</pc>
 					</s>
 				</p>
-				<p xml:id="p319">
+				<p xml:id="p302">
 					<s xml:id="s845">
 						<pc pos="PUNCT" xml:id="pc2099">-</pc>
 						<w lemma="egyetlenegy" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w7641">Egyetlenegy</w>
@@ -12157,7 +12139,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2100">.</pc>
 					</s>
 				</p>
-				<p xml:id="p320">
+				<p xml:id="p303">
 					<s xml:id="s846">
 						<pc pos="PUNCT" xml:id="pc2101">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w7644">Mi</w>
@@ -12167,7 +12149,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2102">?</pc>
 					</s>
 				</p>
-				<p xml:id="p321">
+				<p xml:id="p304">
 					<s xml:id="s847">
 						<pc pos="PUNCT" xml:id="pc2103">-</pc>
 						<w lemma="hogy" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w7648">Hogy</w>
@@ -12179,7 +12161,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2104">.</pc>
 					</s>
 				</p>
-				<p xml:id="p322">
+				<p xml:id="p305">
 					<s xml:id="s848">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7654">A</w>
 						<w lemma="fegyházigazgató" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7655">fegyházigazgató</w>
@@ -12208,7 +12190,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2108">.</pc>
 					</s>
 				</p>
-				<p xml:id="p323">
+				<p xml:id="p306">
 					<s xml:id="s849">
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7675">Henry</w>
 						<w lemma="kissé" msd="_" pos="ADV" xml:id="w7676">kissé</w>
@@ -12328,7 +12310,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2125">.</pc>
 					</s>
 				</p>
-				<p xml:id="p324">
+				<p xml:id="p307">
 					<s xml:id="s855">
 						<pc pos="PUNCT" xml:id="pc2126">...</pc>
 					</s>
@@ -12396,7 +12378,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2139">.</pc>
 					</s>
 				</p>
-				<p xml:id="p325">
+				<p xml:id="p308">
 					<s xml:id="s860">
 						<pc pos="PUNCT" xml:id="pc2140">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7806">A</w>
@@ -12441,7 +12423,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2146">.</pc>
 					</s>
 				</p>
-				<p xml:id="p326">
+				<p xml:id="p309">
 					<s xml:id="s863">
 						<w lemma="szöges" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w7836">Szöges</w>
 						<w lemma="bakancs" msd="Case=Nom|Number=Plur" pos="NOUN" xml:id="w7837">bakancsok</w>
@@ -12466,7 +12448,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2149">.</pc>
 					</s>
 				</p>
-				<p xml:id="p327">
+				<p xml:id="p310">
 					<s xml:id="s865">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7852">A</w>
 						<w lemma="kivégzés" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7853">kivégzés</w>
@@ -12509,7 +12491,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2153">.</pc>
 					</s>
 				</p>
-				<p xml:id="p328">
+				<p xml:id="p311">
 					<s xml:id="s868">
 						<pc pos="PUNCT" xml:id="pc2154">-</pc>
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7883">Henry</w>
@@ -12540,7 +12522,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2160">...</pc>
 					</s>
 				</p>
-				<p xml:id="p329">
+				<p xml:id="p312">
 					<s xml:id="s872">
 						<pc pos="PUNCT" xml:id="pc2161">-</pc>
 						<w lemma="áll" msd="Definite=Ind|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7897">Állj</w>
@@ -12554,7 +12536,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2164">.</pc>
 					</s>
 				</p>
-				<p xml:id="p330">
+				<p xml:id="p313">
 					<s xml:id="s873">
 						<pc pos="PUNCT" xml:id="pc2165">-</pc>
 						<w lemma="mi" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w7903">Mi</w>
@@ -12562,7 +12544,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2166">?</pc>
 					</s>
 				</p>
-				<p xml:id="p331">
+				<p xml:id="p314">
 					<s xml:id="s874">
 						<w lemma="henry" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w7905">Henryt</w>
 						<w lemma="elenged" msd="Definite=Def|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w7906">elengedték</w>
@@ -12572,7 +12554,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2167">.</pc>
 					</s>
 				</p>
-				<p xml:id="p332">
+				<p xml:id="p315">
 					<s xml:id="s875">
 						<w lemma="egy" msd="Definite=Ind|PronType=Art" pos="DET" xml:id="w7910">Egy</w>
 						<w lemma="úr" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7911">úr</w>
@@ -12604,7 +12586,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2171">.</pc>
 					</s>
 				</p>
-				<p xml:id="p333">
+				<p xml:id="p316">
 					<s xml:id="s876">
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7934">Az</w>
 						<w lemma="illető" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7935">illető</w>
@@ -12614,8 +12596,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2172">!</pc>
 					</s>
 				</p>
-				<p xml:id="p334"/>
-				<p xml:id="p335">
+				<p xml:id="p317">
 					<s xml:id="s877">
 						<w lemma="felső" msd="Case=Nom|Degree=Cmp|Number=Sing" pos="ADJ" xml:id="w7939">Felsőbb</w>
 						<w lemma="jóváhagyás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w7940">jóváhagyás</w>
@@ -12671,7 +12652,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2179">.</pc>
 					</s>
 				</p>
-				<p xml:id="p336">
+				<p xml:id="p318">
 					<s xml:id="s879">
 						<pc pos="PUNCT" xml:id="pc2180">-</pc>
 						<w lemma="maga" msd="Case=Nom|Number=Sing|Person=3|Reflex=Yes" pos="PRON" xml:id="w7982">Maga</w>
@@ -12689,7 +12670,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2184">.</pc>
 					</s>
 				</p>
-				<p xml:id="p337">
+				<p xml:id="p319">
 					<s xml:id="s881">
 						<pc pos="PUNCT" xml:id="pc2185">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7989">A</w>
@@ -12710,7 +12691,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2190">.</pc>
 					</s>
 				</p>
-				<p xml:id="p338">
+				<p xml:id="p320">
 					<s xml:id="s883">
 						<pc pos="PUNCT" xml:id="pc2191">-</pc>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w7998">Az</w>
@@ -12720,7 +12701,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2192">!</pc>
 					</s>
 				</p>
-				<p xml:id="p339">
+				<p xml:id="p321">
 					<s xml:id="s884">
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w8002">És</w>
 						<w lemma="henry" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w8003">Henry</w>
@@ -12757,7 +12738,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2200">&quot;</pc>
 					</s>
 				</p>
-				<p xml:id="p340">
+				<p xml:id="p322">
 					<s xml:id="s887">
 						<w lemma="civil" msd="Case=Nom|Degree=Pos|Number=Plur" pos="ADJ" xml:id="w8023">Civilek</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2201">,</pc>
@@ -12781,7 +12762,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2205">:</pc>
 					</s>
 				</p>
-				<p xml:id="p341">
+				<p xml:id="p323">
 					<s xml:id="s888">
 						<pc pos="PUNCT" xml:id="pc2206">-</pc>
 						<w lemma="azért" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w8038">Azért</w>
@@ -12797,7 +12778,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2208">?</pc>
 					</s>
 				</p>
-				<p xml:id="p342">
+				<p xml:id="p324">
 					<s xml:id="s890">
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w8045">Az</w>
 						<w lemma="elítélt" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w8046">elítéltet</w>
@@ -12867,7 +12848,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2216">:</pc>
 					</s>
 				</p>
-				<p xml:id="p343">
+				<p xml:id="p325">
 					<s xml:id="s896">
 						<pc pos="PUNCT" xml:id="pc2217">-</pc>
 						<w lemma="gondnok" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w8093">Gondnok</w>
@@ -12896,12 +12877,11 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2222">.</pc>
 					</s>
 				</p>
-				<p xml:id="p344"/>
 			</div>
 			<div type="chapter" xml:id="div6">
 				<head>Hatodik fejezet</head>
 				<head>A történet végébe bekapcsolódik Manfréd</head>
-				<p xml:id="p345">
+				<p xml:id="p326">
 					<s xml:id="s898">
 						<w lemma="mielőtt" msd="Case=Nom|Number=Sing|Person=3|PronType=Rel" pos="PRON" xml:id="w8110">Mielőtt</w>
 						<w lemma="henry" msd="Case=Acc|Number=Sing" pos="NOUN" xml:id="w8111">Henryt</w>
@@ -12914,7 +12894,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2224">.</pc>
 					</s>
 				</p>
-				<p xml:id="p346">
+				<p xml:id="p327">
 					<s xml:id="s899">
 						<pc pos="PUNCT" xml:id="pc2225">-</pc>
 						<w lemma="Dehát" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w8117">Dehát</w>
@@ -12938,7 +12918,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2229">.</pc>
 					</s>
 				</p>
-				<p xml:id="p347">
+				<p xml:id="p328">
 					<s xml:id="s900">
 						<pc pos="PUNCT" xml:id="pc2230">-</pc>
 						<w lemma="Dickmann" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w8132">Dickmann</w>
@@ -12946,7 +12926,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2231">.</pc>
 					</s>
 				</p>
-				<p xml:id="p348">
+				<p xml:id="p329">
 					<s xml:id="s901">
 						<pc pos="PUNCT" xml:id="pc2232">-</pc>
 						<w lemma="szóval" msd="_" pos="CONJ" xml:id="w8134">Szóval</w>
@@ -12977,7 +12957,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2236">...</pc>
 					</s>
 				</p>
-				<p xml:id="p349">
+				<p xml:id="p330">
 					<s xml:id="s903">
 						<pc pos="PUNCT" xml:id="pc2237">-</pc>
 						<w lemma="ne" msd="PronType=Neg" pos="ADV" xml:id="w8154">Ne</w>
@@ -13051,7 +13031,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2249">.</pc>
 					</s>
 				</p>
-				<p xml:id="p350">
+				<p xml:id="p331">
 					<s xml:id="s909">
 						<pc pos="PUNCT" xml:id="pc2250">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w8201">És</w>
@@ -13069,7 +13049,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2252">...</pc>
 					</s>
 				</p>
-				<p xml:id="p351">
+				<p xml:id="p332">
 					<s xml:id="s911">
 						<pc pos="PUNCT" xml:id="pc2253">-</pc>
 						<w lemma="hogy" msd="_" pos="SCONJ" xml:id="w8210">Hogy</w>
@@ -13164,7 +13144,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2263">.</pc>
 					</s>
 				</p>
-				<p xml:id="p352">
+				<p xml:id="p333">
 					<s xml:id="s917">
 						<pc pos="PUNCT" xml:id="pc2264">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w8280">Ön</w>
@@ -13193,7 +13173,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2267">.</pc>
 					</s>
 				</p>
-				<p xml:id="p353">
+				<p xml:id="p334">
 					<s xml:id="s919">
 						<pc pos="PUNCT" xml:id="pc2268">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w8299">A</w>
@@ -13240,7 +13220,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2275">.</pc>
 					</s>
 				</p>
-				<p xml:id="p354">
+				<p xml:id="p335">
 					<s xml:id="s922">
 						<pc pos="PUNCT" xml:id="pc2276">-</pc>
 						<w lemma="de" msd="_" pos="CONJ" xml:id="w8330">De</w>
@@ -13284,7 +13264,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2284">.</pc>
 					</s>
 				</p>
-				<p xml:id="p355">
+				<p xml:id="p336">
 					<s xml:id="s924">
 						<pc pos="PUNCT" xml:id="pc2285">-</pc>
 						<w lemma="nem" msd="_" pos="INTJ" xml:id="w8359">Nem</w>
@@ -13346,7 +13326,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2294">.</pc>
 					</s>
 				</p>
-				<p xml:id="p356">
+				<p xml:id="p337">
 					<s xml:id="s928">
 						<pc pos="PUNCT" xml:id="pc2295">-</pc>
 						<w lemma="úgy" msd="_" pos="INTJ" xml:id="w8401">Úgy</w>
@@ -13366,7 +13346,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2297">.</pc>
 					</s>
 				</p>
-				<p xml:id="p357">
+				<p xml:id="p338">
 					<s xml:id="s930">
 						<pc pos="PUNCT" xml:id="pc2298">-</pc>
 						<w lemma="mi" msd="Case=Acc|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w8412">Mit</w>
@@ -13400,8 +13380,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2304">.</pc>
 					</s>
 				</p>
-				<p xml:id="p358"/>
-				<p xml:id="p359">
+				<p xml:id="p339">
 					<s xml:id="s932">
 						<pc pos="PUNCT" xml:id="pc2305">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8433">Nézd</w>
@@ -13427,7 +13406,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2309">.</pc>
 					</s>
 				</p>
-				<p xml:id="p360">
+				<p xml:id="p340">
 					<s xml:id="s934">
 						<w lemma="együtt" msd="_" pos="ADV" xml:id="w8448">Együtt</w>
 						<w lemma="ül" msd="Definite=Ind|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8449">ültek</w>
@@ -13443,7 +13422,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2311">.</pc>
 					</s>
 				</p>
-				<p xml:id="p361">
+				<p xml:id="p341">
 					<s xml:id="s936">
 						<pc pos="PUNCT" xml:id="pc2312">-</pc>
 						<w lemma="először" msd="_" pos="ADV" xml:id="w8456">Először</w>
@@ -13503,7 +13482,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2322">.</pc>
 					</s>
 				</p>
-				<p xml:id="p362">
+				<p xml:id="p342">
 					<s xml:id="s940">
 						<pc pos="PUNCT" xml:id="pc2323">-</pc>
 						<w lemma="nagyon" msd="_" pos="ADV" xml:id="w8495">Nagyon</w>
@@ -13512,7 +13491,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2324">?</pc>
 					</s>
 				</p>
-				<p xml:id="p363">
+				<p xml:id="p343">
 					<s xml:id="s941">
 						<pc pos="PUNCT" xml:id="pc2325">-</pc>
 						<w lemma="ostobaság" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w8498">Ostobaság</w>
@@ -14086,7 +14065,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2411">.</pc>
 					</s>
 				</p>
-				<p xml:id="p364">
+				<p xml:id="p344">
 					<s xml:id="s987">
 						<pc pos="PUNCT" xml:id="pc2412">-</pc>
 						<w lemma="szó" msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w8891">Szavamra</w>
@@ -14110,7 +14089,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2417">.</pc>
 					</s>
 				</p>
-				<p xml:id="p365">
+				<p xml:id="p345">
 					<s xml:id="s988">
 						<pc pos="PUNCT" xml:id="pc2418">-</pc>
 						<w lemma="szóval" msd="_" pos="CONJ" xml:id="w8905">Szóval</w>
@@ -14123,7 +14102,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2420">.</pc>
 					</s>
 				</p>
-				<p xml:id="p366">
+				<p xml:id="p346">
 					<s xml:id="s989">
 						<pc pos="PUNCT" xml:id="pc2421">-</pc>
 						<w lemma="hova" msd="Case=Nom|Number=Sing|Person=3|PronType=Int" pos="PRON" xml:id="w8911">Hova</w>
@@ -14139,7 +14118,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2424">.</pc>
 					</s>
 				</p>
-				<p xml:id="p367">
+				<p xml:id="p347">
 					<s xml:id="s990">
 						<pc pos="PUNCT" xml:id="pc2425">-</pc>
 						<w lemma="eleinte" msd="_" pos="ADV" xml:id="w8919">Eleinte</w>
@@ -14180,7 +14159,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2431">.</pc>
 					</s>
 				</p>
-				<p xml:id="p368">
+				<p xml:id="p348">
 					<s xml:id="s992">
 						<pc pos="PUNCT" xml:id="pc2432">-</pc>
 						<w lemma="szóval" msd="_" pos="CONJ" xml:id="w8947">Szóval</w>
@@ -14219,7 +14198,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2437">.</pc>
 					</s>
 				</p>
-				<p xml:id="p369">
+				<p xml:id="p349">
 					<s xml:id="s996">
 						<pc pos="PUNCT" xml:id="pc2438">-</pc>
 						<w lemma="hall" msd="Definite=Def|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w8970">Hallod</w>
@@ -14252,7 +14231,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2445">.</pc>
 					</s>
 				</p>
-				<p xml:id="p370">
+				<p xml:id="p350">
 					<s xml:id="s999">
 						<pc pos="PUNCT" xml:id="pc2446">-</pc>
 						<w lemma="hát" msd="_" pos="ADV" xml:id="w8987">Hát</w>
@@ -14275,7 +14254,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2450">.</pc>
 					</s>
 				</p>
-				<p xml:id="p371">
+				<p xml:id="p351">
 					<s xml:id="s1001">
 						<pc pos="PUNCT" xml:id="pc2451">-</pc>
 						<w lemma="tessék" msd="_" pos="INTJ" xml:id="w8999">Tessék</w>
@@ -14300,7 +14279,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2456">?</pc>
 					</s>
 				</p>
-				<p xml:id="p372">
+				<p xml:id="p352">
 					<s xml:id="s1005">
 						<pc pos="PUNCT" xml:id="pc2457">-</pc>
 						<w lemma="izé" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9008">Izé</w>
@@ -14336,7 +14315,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2462">!</pc>
 					</s>
 				</p>
-				<p xml:id="p373">
+				<p xml:id="p353">
 					<s xml:id="s1011">
 						<w lemma="csrrr" msd="_" pos="INTJ" xml:id="w9024">Csrrr</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2463">...</pc>
@@ -14353,8 +14332,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2464">.</pc>
 					</s>
 				</p>
-				<p xml:id="p374"/>
-				<p xml:id="p375">
+				<p xml:id="p354">
 					<s xml:id="s1013">
 						<w lemma="ez" msd="Case=Ine|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w9033">Ebben</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9034">a</w>
@@ -14390,7 +14368,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2468">.</pc>
 					</s>
 				</p>
-				<p xml:id="p376">
+				<p xml:id="p355">
 					<s xml:id="s1016">
 						<pc pos="PUNCT" xml:id="pc2469">-</pc>
 						<w lemma="Kröger" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9057">Kröger</w>
@@ -14409,7 +14387,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2472">?!</pc>
 					</s>
 				</p>
-				<p xml:id="p377">
+				<p xml:id="p356">
 					<s xml:id="s1019">
 						<pc pos="PUNCT" xml:id="pc2473">-</pc>
 						<w lemma="úr" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w9064">Uram</w>
@@ -14457,7 +14435,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2482">...</pc>
 					</s>
 				</p>
-				<p xml:id="p378">
+				<p xml:id="p357">
 					<s xml:id="s1022">
 						<pc pos="PUNCT" xml:id="pc2483">-</pc>
 						<w lemma="valóban" msd="_" pos="ADV" xml:id="w9094">Valóban</w>
@@ -14484,7 +14462,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2488">:</pc>
 					</s>
 				</p>
-				<p xml:id="p379">
+				<p xml:id="p358">
 					<s xml:id="s1023">
 						<pc pos="PUNCT" xml:id="pc2489">-</pc>
 						<w lemma="letartóztat" msd="Definite=Def|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9111">Letartóztatjuk</w>
@@ -14492,7 +14470,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2490">.</pc>
 					</s>
 				</p>
-				<p xml:id="p380">
+				<p xml:id="p359">
 					<s xml:id="s1024">
 						<pc pos="PUNCT" xml:id="pc2491">-</pc>
 						<w lemma="szerencsétlen" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9113">Szerencsétlen</w>
@@ -14561,7 +14539,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2507">...</pc>
 					</s>
 				</p>
-				<p xml:id="p381">
+				<p xml:id="p360">
 					<s xml:id="s1029">
 						<pc pos="PUNCT" xml:id="pc2508">-</pc>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w9153">És</w>
@@ -14587,7 +14565,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2513">.</pc>
 					</s>
 				</p>
-				<p xml:id="p382">
+				<p xml:id="p361">
 					<s xml:id="s1030">
 						<pc pos="PUNCT" xml:id="pc2514">-</pc>
 						<w lemma="meg" msd="_" pos="PART" xml:id="w9169">Meg</w>
@@ -14669,7 +14647,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2526">.</pc>
 					</s>
 				</p>
-				<p xml:id="p383">
+				<p xml:id="p362">
 					<s xml:id="s1034">
 						<pc pos="PUNCT" xml:id="pc2527">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9228">Nézze</w>
@@ -14681,7 +14659,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2530">...</pc>
 					</s>
 				</p>
-				<p xml:id="p384">
+				<p xml:id="p363">
 					<s xml:id="s1035">
 						<pc pos="PUNCT" xml:id="pc2531">-</pc>
 						<w lemma="Mr." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9232">Mr.</w>
@@ -14718,7 +14696,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2536">.</pc>
 					</s>
 				</p>
-				<p xml:id="p385">
+				<p xml:id="p364">
 					<s xml:id="s1037">
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9257">Farlane</w>
 						<w lemma="halálsápadt" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9258">halálsápadt</w>
@@ -14737,8 +14715,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2539">.</pc>
 					</s>
 				</p>
-				<p xml:id="p386"/>
-				<p xml:id="p387">
+				<p xml:id="p365">
 					<s xml:id="s1038">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9269">A</w>
 						<w lemma="kormányzó" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9270">kormányzó</w>
@@ -14861,7 +14838,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2560">.</pc>
 					</s>
 				</p>
-				<p xml:id="p388">
+				<p xml:id="p366">
 					<s xml:id="s1046">
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9353">Farlane</w>
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w9354">és</w>
@@ -14887,7 +14864,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2563">.</pc>
 					</s>
 				</p>
-				<p xml:id="p389">
+				<p xml:id="p367">
 					<s xml:id="s1047">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9372">A</w>
 						<w lemma="menet" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9373">menet</w>
@@ -14906,7 +14883,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2565">.</pc>
 					</s>
 				</p>
-				<p xml:id="p390">
+				<p xml:id="p368">
 					<s xml:id="s1049">
 						<pc pos="PUNCT" xml:id="pc2566">...</pc>
 					</s>
@@ -14937,7 +14914,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2569">.</pc>
 					</s>
 				</p>
-				<p xml:id="p391">
+				<p xml:id="p369">
 					<s xml:id="s1052">
 						<pc pos="PUNCT" xml:id="pc2570">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Plur|Person=3|PronType=Prs" pos="PRON" xml:id="w9402">Önök</w>
@@ -14978,7 +14955,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2576">.</pc>
 					</s>
 				</p>
-				<p xml:id="p392">
+				<p xml:id="p370">
 					<s xml:id="s1056">
 						<pc pos="PUNCT" xml:id="pc2577">-</pc>
 						<w lemma="mond" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9426">Mondd</w>
@@ -14996,7 +14973,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2580">?</pc>
 					</s>
 				</p>
-				<p xml:id="p393">
+				<p xml:id="p371">
 					<s xml:id="s1057">
 						<pc pos="PUNCT" xml:id="pc2581">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9436">A</w>
@@ -15050,7 +15027,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2590">.</pc>
 					</s>
 				</p>
-				<p xml:id="p394">
+				<p xml:id="p372">
 					<s xml:id="s1061">
 						<pc pos="PUNCT" xml:id="pc2591">-</pc>
 						<w lemma="Leiden" msd="Case=Ine|Number=Sing" pos="PROPN" xml:id="w9470">Leidenben</w>
@@ -15083,7 +15060,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2596">.</pc>
 					</s>
 				</p>
-				<p xml:id="p395">
+				<p xml:id="p373">
 					<s xml:id="s1063">
 						<pc pos="PUNCT" xml:id="pc2597">-</pc>
 						<w lemma="csakugyan" msd="_" pos="ADV" xml:id="w9491">Csakugyan</w>
@@ -15103,7 +15080,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2602">...</pc>
 					</s>
 				</p>
-				<p xml:id="p396">
+				<p xml:id="p374">
 					<s xml:id="s1065">
 						<pc pos="PUNCT" xml:id="pc2603">-</pc>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9499">Az</w>
@@ -15133,7 +15110,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2608">.</pc>
 					</s>
 				</p>
-				<p xml:id="p397">
+				<p xml:id="p375">
 					<s xml:id="s1067">
 						<w lemma="ezután" msd="_" pos="ADV" xml:id="w9517">Ezután</w>
 						<w lemma="valamennyi" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w9518">valamennyien</w>
@@ -15155,7 +15132,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2612">.</pc>
 					</s>
 				</p>
-				<p xml:id="p398">
+				<p xml:id="p376">
 					<s xml:id="s1069">
 						<w lemma="lódobogás" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9529">Lódobogás</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2613">!</pc>
@@ -15200,7 +15177,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2618">.</pc>
 					</s>
 				</p>
-				<p xml:id="p399">
+				<p xml:id="p377">
 					<s xml:id="s1074">
 						<pc pos="PUNCT" xml:id="pc2619">-</pc>
 						<w lemma="Mr." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9556">Mr.</w>
@@ -15245,7 +15222,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2628">.</pc>
 					</s>
 				</p>
-				<p xml:id="p400">
+				<p xml:id="p378">
 					<s xml:id="s1078">
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9581">Farlane</w>
 						<w lemma="felemelkedik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9582">felemelkedett</w>
@@ -15264,7 +15241,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2631">.</pc>
 					</s>
 				</p>
-				<p xml:id="p401">
+				<p xml:id="p379">
 					<s xml:id="s1080">
 						<pc pos="PUNCT" xml:id="pc2632">-</pc>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9591">A</w>
@@ -15309,7 +15286,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2639">!</pc>
 					</s>
 				</p>
-				<p xml:id="p402">
+				<p xml:id="p380">
 					<s xml:id="s1083">
 						<pc pos="PUNCT" xml:id="pc2640">-</pc>
 						<w lemma="köszön" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9620">Köszönöm</w>
@@ -15337,7 +15314,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2644">!</pc>
 					</s>
 				</p>
-				<p xml:id="p403">
+				<p xml:id="p381">
 					<s xml:id="s1085">
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w9637">És</w>
 						<w lemma="úgy" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w9638">úgy</w>
@@ -15352,8 +15329,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2646">.</pc>
 					</s>
 				</p>
-				<p xml:id="p404"/>
-				<p xml:id="p405">
+				<p xml:id="p382">
 					<s xml:id="s1086">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9646">A</w>
 						<w lemma="bizottság" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9647">bizottság</w>
@@ -15364,7 +15340,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2647">:</pc>
 					</s>
 				</p>
-				<p xml:id="p406">
+				<p xml:id="p383">
 					<s xml:id="s1087">
 						<pc pos="PUNCT" xml:id="pc2648">-</pc>
 						<w lemma="ön" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w9652">Ön</w>
@@ -15379,7 +15355,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2651">.</pc>
 					</s>
 				</p>
-				<p xml:id="p407">
+				<p xml:id="p384">
 					<s xml:id="s1088">
 						<pc pos="PUNCT" xml:id="pc2652">-</pc>
 						<w lemma="én" msd="Case=Nom|Number=Sing|Person=1|PronType=Prs" pos="PRON" xml:id="w9659">Én</w>
@@ -15389,7 +15365,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2654">.</pc>
 					</s>
 				</p>
-				<p xml:id="p408">
+				<p xml:id="p385">
 					<s xml:id="s1089">
 						<pc pos="PUNCT" xml:id="pc2655">-</pc>
 						<w lemma="van" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9662">Van</w>
@@ -15399,7 +15375,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2656">?</pc>
 					</s>
 				</p>
-				<p xml:id="p409">
+				<p xml:id="p386">
 					<s xml:id="s1090">
 						<pc pos="PUNCT" xml:id="pc2657">-</pc>
 						<w lemma="természetes" msd="Case=Ess|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9666">Természetesen</w>
@@ -15417,7 +15393,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2659">.</pc>
 					</s>
 				</p>
-				<p xml:id="p410">
+				<p xml:id="p387">
 					<s xml:id="s1092">
 						<pc pos="PUNCT" xml:id="pc2660">-</pc>
 						<w lemma="ön" msd="Case=Ade|Number=Plur|Person=3|PronType=Prs" pos="PRON" xml:id="w9675">Önöknél</w>
@@ -15438,7 +15414,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2664">...</pc>
 					</s>
 				</p>
-				<p xml:id="p411">
+				<p xml:id="p388">
 					<s xml:id="s1094">
 						<pc pos="PUNCT" xml:id="pc2665">-</pc>
 						<w lemma="esz" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w9685">Eszem</w>
@@ -15492,7 +15468,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2673">.</pc>
 					</s>
 				</p>
-				<p xml:id="p412">
+				<p xml:id="p389">
 					<s xml:id="s1098">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9720">A</w>
 						<w lemma="tiszta" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9721">tiszta</w>
@@ -15579,7 +15555,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2687">.</pc>
 					</s>
 				</p>
-				<p xml:id="p413">
+				<p xml:id="p390">
 					<s xml:id="s1105">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9777">A</w>
 						<w lemma="bizottság" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9778">bizottság</w>
@@ -15645,7 +15621,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2695">.</pc>
 					</s>
 				</p>
-				<p xml:id="p414">
+				<p xml:id="p391">
 					<s xml:id="s1110">
 						<pc pos="PUNCT" xml:id="pc2696">-</pc>
 						<w lemma="Helena" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9823">Helena</w>
@@ -15670,7 +15646,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2700">.</pc>
 					</s>
 				</p>
-				<p xml:id="p415">
+				<p xml:id="p392">
 					<s xml:id="s1111">
 						<w lemma="Jojo" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9839">Jojo</w>
 						<w lemma="nem" msd="PronType=Neg" pos="ADV" xml:id="w9840">nem</w>
@@ -15689,7 +15665,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2702">...</pc>
 					</s>
 				</p>
-				<p xml:id="p416">
+				<p xml:id="p393">
 					<s xml:id="s1113">
 						<w lemma="esteledik" msd="Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9850">Esteledett</w>
 						<pc join="left" pos="PUNCT" xml:id="pc2703">.</pc>
@@ -15704,7 +15680,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2704">.</pc>
 					</s>
 				</p>
-				<p xml:id="p417">
+				<p xml:id="p394">
 					<s xml:id="s1115">
 						<w lemma="két" msd="Case=Nom|Number=Sing|NumType=Card" pos="NUM" xml:id="w9857">Két</w>
 						<w lemma="ember" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w9858">ember</w>
@@ -15728,7 +15704,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2707">.</pc>
 					</s>
 				</p>
-				<p xml:id="p418">
+				<p xml:id="p395">
 					<s xml:id="s1118">
 						<w lemma="azután" msd="_" pos="ADV" xml:id="w9870">Azután</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9871">a</w>
@@ -15740,7 +15716,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2708">...</pc>
 					</s>
 				</p>
-				<p xml:id="p419">
+				<p xml:id="p396">
 					<s xml:id="s1119">
 						<pc pos="PUNCT" xml:id="pc2709">-</pc>
 						<w lemma="néz" msd="Definite=Def|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act" pos="VERB" xml:id="w9877">Nézd</w>
@@ -15763,7 +15739,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2715">!</pc>
 					</s>
 				</p>
-				<p xml:id="p420">
+				<p xml:id="p397">
 					<s xml:id="s1122">
 						<w lemma="sajnos" msd="_" pos="ADV" xml:id="w9885">Sajnos</w>
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w9886">a</w>
@@ -15851,7 +15827,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2734">.</pc>
 					</s>
 				</p>
-				<p xml:id="p421">
+				<p xml:id="p398">
 					<s xml:id="s1125">
 						<pc pos="PUNCT" xml:id="pc2735">-</pc>
 						<w lemma="Mr." msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9946">Mr.</w>
@@ -15872,7 +15848,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2739">.</pc>
 					</s>
 				</p>
-				<p xml:id="p422">
+				<p xml:id="p399">
 					<s xml:id="s1126">
 						<pc pos="PUNCT" xml:id="pc2740">-</pc>
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w9958">Farlane</w>
@@ -15890,7 +15866,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2744">.</pc>
 					</s>
 				</p>
-				<p xml:id="p423">
+				<p xml:id="p400">
 					<s xml:id="s1128">
 						<pc pos="PUNCT" xml:id="pc2745">-</pc>
 						<w lemma="az" msd="Case=Acc|Number=Sing|Person=3|PronType=Dem" pos="PRON" xml:id="w9965">Azt</w>
@@ -15909,7 +15885,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2749">.</pc>
 					</s>
 				</p>
-				<p xml:id="p424">
+				<p xml:id="p401">
 					<s xml:id="s1129">
 						<pc pos="PUNCT" xml:id="pc2750">-</pc>
 						<w lemma="hülye" msd="Case=Nom|Degree=Pos|Number=Sing" pos="ADJ" xml:id="w9975">Hülye</w>
@@ -15967,8 +15943,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2761">.</pc>
 					</s>
 				</p>
-				<p xml:id="p425"/>
-				<p xml:id="p426">
+				<p xml:id="p402">
 					<s xml:id="s1132">
 						<w lemma="Farlane" msd="Case=Nom|Number=Sing" pos="PROPN" xml:id="w10013">Farlane</w>
 						<w lemma="új" msd="Case=Nom|Degree=Sup|Number=Sing" pos="ADJ" xml:id="w10014">legújabb</w>
@@ -16045,7 +16020,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2769">.</pc>
 					</s>
 				</p>
-				<p xml:id="p427">
+				<p xml:id="p403">
 					<s xml:id="s1137">
 						<w lemma="pedig" msd="_" pos="CONJ" xml:id="w10070">Pedig</w>
 						<w lemma="az" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w10071">az</w>
@@ -16058,7 +16033,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2770">.</pc>
 					</s>
 				</p>
-				<p xml:id="p428">
+				<p xml:id="p404">
 					<s xml:id="s1138">
 						<pc pos="PUNCT" xml:id="pc2771">-</pc>
 						<w lemma="család" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="NOUN" xml:id="w10078">Családod</w>
@@ -16083,7 +16058,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2774">.</pc>
 					</s>
 				</p>
-				<p xml:id="p429">
+				<p xml:id="p405">
 					<s xml:id="s1141">
 						<pc pos="PUNCT" xml:id="pc2775">-</pc>
 						<w lemma="öreg" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1" pos="NOUN" xml:id="w10091">Öregem</w>
@@ -16101,7 +16076,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2777">.</pc>
 					</s>
 				</p>
-				<p xml:id="p430">
+				<p xml:id="p406">
 					<s xml:id="s1142">
 						<pc pos="PUNCT" xml:id="pc2778">...</pc>
 					</s>
@@ -16169,7 +16144,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc2786">.</pc>
 					</s>
 				</p>
-				<p xml:id="p431">
+				<p xml:id="p407">
 					<s xml:id="s1146">
 						<w lemma="és" msd="_" pos="CONJ" xml:id="w10151">És</w>
 						<w lemma="így" msd="Case=Nom|Number=Sing|Person=3|PronType=Prs" pos="PRON" xml:id="w10152">így</w>

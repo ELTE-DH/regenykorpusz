@@ -22,7 +22,7 @@
 				<measure unit="pages">175</measure>
 			</extent>
 			<publicationStmt>
-				<p>Published as part of ELTeC</p>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl type="digitalSource">
@@ -43,7 +43,7 @@
 						<ref target="http://mek.oszk.hu/13400/13462"/>
 					</bibl>
 					<bibl type="firstEdition">
-						 / ;Budapest : , ;(Egyetemes regénytár. XII. ; 15.)                     
+												 / ;Budapest : , ;(Egyetemes regénytár. XII. ; 15.)						
 						<title>Két világ közt : regény</title>
 						<author>Kövér Ilma</author>
 						<pubPlace>Budapest</pubPlace>
@@ -70,7 +70,7 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2019-04-18"/>
-			<change when="2021-10-29">lemma, pos and msd annotation</change>
+			<change when="2023-05-31">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
@@ -103,7 +103,7 @@
 					<s xml:id="s3">
 						<w lemma="a" msd="Definite=Def|PronType=Art" pos="DET" xml:id="w14">A</w>
 						<w lemma="szerző" msd="Case=Nom|Number=Sing" pos="NOUN" xml:id="w15">SZERZŐ</w>
-						<pc pos="PUNCT" xml:id="pc3">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc3">.</pc>
 					</s>
 				</p>
 			</div>
@@ -31088,7 +31088,7 @@
 				<p xml:id="p1146">
 					<s xml:id="s1785">
 						<w lemma="Anna" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="PROPN" xml:id="w20085">Annád</w>
-						<pc pos="PUNCT" xml:id="pc5021">&quot;</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc5021">&quot;</pc>
 					</s>
 				</p>
 				<p xml:id="p1147">
@@ -36979,7 +36979,7 @@
 						<pc join="left" pos="PUNCT" xml:id="pc5915">:</pc>
 						<w lemma="Nóra" msd="Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2" pos="PROPN" xml:id="w23905">Nórád</w>
 						<pc pos="PUNCT" xml:id="pc5916">&quot;</pc>
-						<pc pos="PUNCT" xml:id="pc5917">.</pc>
+						<pc join="left" pos="PUNCT" xml:id="pc5917">.</pc>
 					</s>
 				</p>
 				<p xml:id="p1372">
