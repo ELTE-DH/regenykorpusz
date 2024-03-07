@@ -68,8 +68,6 @@ The folder contains the level1 and level2 files with headers in the format of EL
 - [Botond Szemes](https://github.com/SzemesBotond)
 - [Eszter Szlávich](https://github.com/sz-eszter)
 
-# License
 
-The content of the repository is licensed under the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.  
 All texts of the corpus are in the public domain.
 
