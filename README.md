@@ -69,5 +69,9 @@ The folder contains the level1 and level2 files with headers in the format of EL
 - [Eszter Szlávich](https://github.com/sz-eszter)
 
 
+# License
+
+The content of the repository is licensed under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
+
 All texts of the corpus are in the public domain.
 
