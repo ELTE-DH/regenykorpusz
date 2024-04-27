@@ -1,0 +1,1429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU11437_2" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Aki holta után áll bosszút</title>
+            <author>
+               <persName>
+                  <surname>Jókai</surname>
+                  <forename>Mór</forename>
+               </persName>
+               <date from="1825" to="1904">1825-1904</date>
+               <idno type="VIAF">59084200</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">13794</measure>
+            <measure unit="pages">29</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>
+                  Aki holta után áll bosszút
+               </title>
+               <date>2013-03-20</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/11400/11437/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Fecz Ágnes</name>
+                  <name>Kiss András</name>
+                  <name>Csige Mónika</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>A Magláy-család: Két elbeszélés </title>
+               <author>Jókai Mór</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Révai</publisher>
+               <date>1887</date>
+               <ref target="https://mek.oszk.hu/11400/11437/"/>
+               <idno>ISBN 978 615 5292 60 6</idno>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A Magláy-család: Két elbeszélés </title>
+               <author>Jókai Mór</author>
+               <date>1887</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc n="eltec-0">
+        <p/>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="hu">Hungarian</language>
+        </langUsage>
+     </profileDesc>
+     <xenoData>
+        <ns1:eltec>
+           <ns1:authorGender key="M"/>
+           <ns1:size key="short"/>
+           <ns1:canonicity key="low"/>
+           <ns1:timeSlot key="T3"/>
+        </ns1:eltec>
+     </xenoData>
+     <revisionDesc>
+        <change when="2024-04-27"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="chapter">
+            <head>I. Hogyan támadt ez az elbeszélés?(Olyan előljáró-beszéd forma.)</head>
+            <p>Nagyon régi keletű ennek az eredete.</p>
+            <p>A ki nem restelli az elolvasását, kénytelen lesz velem visszafáradni azokba az
+               időkbe, a mikor még uriszékek voltak. Így hitták azokat a törvényszékeket, a mikben
+               egy nagybirtokot képező uradalom a maga jobbágyai fölött törvényt látott, s
+               ügyes-bajos dolgaikban igazságot osztott: az árvákat megosztoztatta, a
+               veremfeltörőket megcsapatta; szülőikkel gorombáskodó fiúkat egész három esztendeig
+               tartó fogságra elitélt. Tessék elhinni, hogy nagyon okos világ volt az (már t. i. az
+               én időmben).</p>
+            <p>Mint patvarista, sokszor jártam a princzipálisommal ez úriszékekre: ott lehetett
+               praxist szerezni. A jegyzőkönyvek letisztázása is a patvarista nemes hivatását
+               képezte. A pulyka, liba feltráncsirozás hivatala már akkor lemaradt az uzusból. Egy
+               emberöltő idővel elébb azonban még a fafürészelés és éjjel a lámpás hordás a hintó
+               előtt is nagyban gyarapította a patvarista joggyakorlatait.</p>
+            <p>Az úriszéki ebédet rendesen a tiszttartó adta, természetesen az uradalom költségére,
+               s a patvarista is hivatalos volt az asztalhoz. „Sohse keresd, édes öcsém, hogy hova
+               ülj? a hová te leülsz, ott van az utolsó hely.”</p>
+            <p>Volt szerencsém gyakran az ilyen utolsó helyen ülni.</p>
+            <p>Találkoztam ugyan, életkorra nézve hozzám hasonló asztaltársakkal is; de azoknak mind
+               előbbkelő titulusuk volt az enyimnél. Azért pertu voltunk. A Simi már jurátus volt
+               (tabulae regiae nótárius), annak már kardja is volt: nekem még a sétapálcza viselés
+               is illetéktelen túlbecsülése lett volna társadalmi állásomnak. A Misi pedig uradalmi
+               cancellista volt, tehát biztos fizetésben levő hivatalnok. Azután volt még egy
+               megátalkodottan a fiatalsághoz tartozni akaró jó pajtásunk, a ki veterinariát végzett
+               s annál fogva „lódoktor”-nak hitták, a keresztneve különben Szepi volt: ezzel a
+               hárommal együtt tettünk ki - egy franczia négyest: mikor tudniillik a Bántódi
+               úriszéken összetalálkoztunk: a hol este az uradalmi tisztség női sarjadékával
+               rögtönzött tánczestély fejezte be az ünnepélyes törvénylátást.</p>
+            <p>Az úriszéken prezidensül (igen is: és nem alelölülőül! - inkább visszatérek a diák
+               műszóért, de fuvolázni nem tanulok meg), tehát prezidensül fungált Darvady Márton
+               jogigazgató úr: nagyszerű anecdota-mondó, eleven krónika, kitünő paskevicsjátszó;
+               pesti két emeletes házi ur, - és üres óráiban tabuláris fiskális. Ennek a jurátusa
+               volt Simi barátom, a ki viszont egyéb jó tulajdonságain kivül kitünő tánczos volt:
+               különösen a lengyelt tánczolta nagy tüzzel s a hölgyeknek fáinul tudott udvarolni.
+               Ellenben a Misi a tarokkjátékban volt jeles; a miért rendesen expropriálták a
+               tánczkolonnból, s kicserélték a kopasz ispánnal, a ki csak rontja a játszótársaságot;
+               ultimót mond pagát nélkül. Végül a Szepi, a lódoktor, csodaszerü énekes volt; a ki
+               olyan magas hangon tudott áriázni, mint egy „falsche Catalani”. Ha az ember behunyta
+               a szemét, azt gondolta, valami primadonnát hallgat. - Én mind a három dologhoz
+               értettem - egy kicsit: tánczolni is, kártyázni is, meg énekelni is: de mondom, hogy
+               nagyon középszerüen, azért nem is nagy volt utánam a kérdezősködés. Ha valahova
+               negyedik kellett: quadrillban, tarokkban, vagy quartettben, akkor engem is bevettek.
+               A széptevéshez is épen csak olyan kevés talentumom volt: azt képzeltem, hogy ha egy
+               szép hölgynek valami bókot mondok, megharagszik érte. Azt is megvallom, hogy
+               szerelmes voltam valami nagyon kicsiny leányba, a ki még akkor nevelőbe járt, s attól
+               féltem, hogy az megtudja, ha másnak udvarlok s majd szomorú lesz érte. És így,
+               leszámitva azt, hogy a jegyzőkönyvet nekem kellett letisztáznom, meglehetősen
+               fölösleges figurát képeztem a bántódi úriszékeknél.</p>
+            <p>Hanem azért még is szerettem oda járni.</p>
+            <p>Volt ott egy nagyszerü régi kastély. Annak a második emeletén, a kertre nyiló
+               sarokszobában volt az én patvaristai szállásom.</p>
+            <p>Derék nagy szoba volt: négy ágygyal ellátva. Azok közül az egyik az én számomra, a
+               másik Simi pajtására felvetve: a többi kettőn csak szalmazsákok voltak.</p>
+            <p>De én abban a szobában rendesen csak magam háltam; mert a Simi pajtás, mikor vége
+               volt a tánczmulatságnak, rendesen átment a kopasz ispánhoz, s ott azután a Misivel,
+               meg a Szepivel ittak, pipáztak, daloltak és ferbliztek reggelig. (Én még akkor nem
+               ittam bort, dohányozni most sem tudok, ferblihez pedig pénz kell, s nekem soha sem
+               volt több pénzem egy huszasomnál: krajczáros tarokkhoz elég; de ferbliben egy
+               visszavágásra feneket ér.)</p>
+            <p>Tehát egyes egyedül voltam abban a hatvannégy szobás kastélyban. Már a
+               princzipálisaink a tiszttartó kényelmes lakásán voltak elszállásolva, a mit a
+               kastélytól egy nagy park választott el: magában a kastélyban senki sem lakott. Az
+               egyetlen felügyelő sáfárnak a kerti házban volt a lakása, annak a béresnéje
+               készitette el számomra távollétemben a mosdó vizet, felvetette az ágyamat; ha tél
+               volt, befütött; én soha sem láttam a személyét; csak a sáros talpának a folyosón
+               hagyott nyomáról képzelem, hogy asszonyféle lehetett. - Mikor késő este a tiszttartói
+               lakból hazatértem a kert ropogós kavics-útján, saját lépteim visszhangjára neszelve;
+               nem várt rám senki: én sem alkalmatlankodtam senkinek. Ismertem a nyitját a kis
+               kertre nyíló oldalajtónak, a mi kulccsal soha sem volt bezárva; a folyosó
+               bejáratánál megtaláltam a gyertyatartót, meg a gyufát és a hálószobám kulcsát egy
+               szekrényre letéve, s aztán magam magamnak világitva ballaghattam fel a szük
+               csigalépcsőn a második emeletbe.</p>
+            <p>Nem jutott eszembe, hogy féljek. Ugyan mitől is? Arra még nem volt eset, hogy
+               patvaristát megöltek volna a pénzéért. Van esze a rablónak, hogy nem vesztegeti
+               magamforma prédára az idejét és a fáradságát. A mi pedig a kisérteteket illeti; no
+               azok szépen megjárják, ha velem van bajuk, mert én a mint leteszem a fejemet, egyben
+               elalszom; huhukolhatnak én miattam!</p>
+            <p>És aztán egyáltalán a félelem nem az én feladatom. Terringettét is! Tizenkilencz éves
+               korában az ember olyan óriásnak képzeli magát, hogy mikor felhős idő van, kénytelen
+               lehúzni a fejét, hogy be ne üsse vele az eget! - Oroszlán jöjjön ide! Megeszem!</p>
+            <p>Sőt ellenkezőleg, nagy gyönyörüségemre szolgált, hogy egyes egyedül tanyázhatok egy
+               ilyen rengeteg palotában. A hátulsó csigalépcsőről ugyan nem volt az első emeleti
+               lakosztályokba bejárás; hanem a második emelet valamennyi szobája, folyosója mind
+               nyitva állt előttem. Végig járhattam rajtuk, tanulmányozhattam a falakra felakasztott
+               ócska rézmetszvényeket, a mik mind Mária Terézia korából valók voltak;
+               insurrectionalis jeleneteket ábrázolók. A folyosókon rámákban álltak sorban
+               felakasztva a sokféle családi czimerek: utolsó tisztességtételek maradványai. Azokból
+               tudtam meg, hogy a kastély birtokos urát Palárdynak híják: vagy legalább annak hítták
+               valaha.</p>
+            <p>Mert a gazdatisztek soha sem említették a földes uruk nevét: csak úgy nevezték, hogy
+               „a gróf”.</p>
+            <p>Aztán meg egy nagy alap okom volt keresni ezt a magányos kastélyt s nem félni a
+               kisértetektől; hiszen magam is kisérteteket csináltam: regényt irtam - titokban. Itt
+               készültek a legborongósabb részletei a „Hétköznapok”-nak. Ugy tudom, hogy a bánódi
+               kastély maga is le van benne irva apróra: egész valóságában. Már három vármegyében
+               ismertek akkor: Veszprémben, a hol az első novellám megjelent a „Tavasz”-ban,
+               Komáromban, a hol nyilt titok volt, hogy a Pesti Divatlapban az - ó-ó aláirású
+               leveleket én irom: és abban a vármegyében, a hol a bántódi uradalom volt. - Ott már
+               tudták, ha eltüntem a társaságból, hogy miben töröm a fejemet? A tiszttartó nevetett,
+               a kisasszonyok azt mondták rám, hogy „szegény fiu”; csak a jó öreg princzipálisom
+               mondta azt, hogy „lesz belőle valami, de prókátor bajosan.”</p>
+            <p>Az ilyen iróhirben álló fiatal ember kellemetlen útitárs. Minden ember azzal a
+               tartózkodással közelít felé, hogy „bizony még bele talál irni a regényébe!” - Egyszer
+               megpróbáltam az ispán kopasz fejét rávenni, hogy nyissa fel előttem az első emeleti
+               lakosztály termeit; de észrevette szándékomat s nem állt rá: „Még le találnád irni a
+               regényedbe: a grófom megtudná s rögtön elcsapna az ispánságból.”</p>
+            <p>Furcsa kastély lehetett az és furcsa gróf.</p>
+            <p>De én azért mégis leirtam a furcsa kastélyt, a hozzátartozó furcsa grófokkal együtt.
+               Még akkor eleven grófot nem láttam.</p>
+            <p>Az utolsó uriszék összeesett a szürettel, a mikor az én patvaristaságomnak az
+               esztendeje is a végére járt. Pestről megint lejött a tabuláris fiskális a hivatalos
+               functiókra. A Simi ezuttal egy tudománynyal gazdagabban érkezett meg. Akkor került
+               fel a „polka”, ő már tudta; de még a provinczián nem ismerték: valószinü volt pedig,
+               hogy a legközelebbi farsangon az lesz a bálok favoritja, mint tavaly a mazur volt:
+               azelőtt pedig a „radovacska”. Nagylelkü volt megigérni, hogy az úriszék alatt az
+               egész fiatalságnak betanítja az uj divat tánczot. Kapós is lett érte!</p>
+            <p>A parasztok ügyes-bajos dolgai ugy felhalmozódtak az őszi évadra, hogy az úriszék
+               ebéd után is tartott üléseket; s ennélfogva a protocollum is nagy halomra felgyült:
+               annak a letisztázásában ugyan Simi barátomnak is segíteni kellett volna; csakhogy
+               annak olyan infámis rossz irása volt, hogy maga sem tudta elolvasni: azért az egész
+               az én nyakamra maradt.</p>
+            <p>Előre látva a feladat nagyságát, már a vacsora alatt meginstáltam a tiszttartóné
+               asszonyságot, hogy az én számomra egy egész font faggyúgyertyát kegyeskedjék
+               felküldeni a szobámba, mert sokáig fenn kell maradnom. - Erre aztán a tiszttartó
+               elmondott egy tréfásan kisérteties adomát a saját gyakorlati életéből: hogy rémitette
+               őt egy éjjel halálra egy font faggyúgyertya: a mi az ablak csavarjára volt
+               felakasztva: ő arról egyet, olló nem lévén, a másik égő gyertyával koppantott le: az
+               elégett kanócz azonban tovább izzott s egyenkint perzselte el a felaggatott gyertyák
+               bélvégeit, a mik aztán időközönkint nagy koppanásokkal hullottak le a padlóra, az ő
+               halálos rémületére. Nevetni való volt az nagyon!</p>
+            <p>- Csak te, fráter, furcsábbul ne járj abban a kastélyban; mondá a jurium director,
+               baljóslatu arczczal. Ott igazi kisértet jár.</p>
+            <p>- Igazi kisértet? - kaptam én rajta nagy mohón.</p>
+            <p>- Még pedig szép asszony alakjában.</p>
+            <p>- Ugyan spectabilis! - inté óva a tiszttartó.</p>
+            <p>A kisasszonyok erre a szóra felugrottak az asztaltól s kiszaladtak a szobából: azt
+               hitték, valami olyan csintalan adoma kerül az asztalra, a miből nem kell a kis
+               leányoknak kapni.</p>
+            <p>Pedig hát nem azért protestált a tiszttartó.</p>
+            <p>A fiskális úr azonban már benne volt a krónikázásban s nem hagyta magát
+               visszatartóztatni.</p>
+            <p>- Nevezetes története van ennek a kastélynak: ha irott krónikák nem bizonyítanák, az
+               ember alig hinné el. A ki ezt a kastélyt épittette ezelőtt kétszáz egynehány
+               esztendővel, a Zrinyi, Nádasdy, Frangepán összeesküvésből hirhedett Palárdy Máté
+               volt; ki a felségárulási per bevégezte után donatióba kapta ezt az összeesküdött
+               főurak egyikének uradalmát; öreg legény volt már akkor: sok csatája volt férfiakkal,
+               de asszonyokkal is: s ekkor jutott eszébe, hogy megházasodjék. Elvett egy szép
+               tizennyolcz esztendős báró kisasszonyt a Pfalzból: a nejét hitták Eglantine von
+               Lilienhorstnak. Palárdy Máté, eddig szerzett tapasztalatai után, nem bizott az
+               asszonyi hüségben: nem mert Bécsben maradni a feleségével; hanem lejött vele ide a
+               falusi jószágára. Ezt a kastélyt ugy építteté, hogy az első emeleti lakosztálynak
+               semmi összeköttetése ne legyen a ház többi részével: annak külön lépcsője volt,
+               elzárt tornáczczal, sarkon forduló fülkékkel, mik rejtett bejáratokat fedeztek el,
+               akustikai kürtökkel, a miken keresztül hallgatózni lehetett távoleső szobákból; a
+               platfondba alkalmazott leskelődő lyukakkal és egymásnak megfelelő tükrökkel, a mik
+               minden mozdulatot elárultak.</p>
+            <p>A tiszttartó nagyot sóhajtott: „Ez mind bele fog jönni ennek a crucifixus poétának a
+               regényébe!” A jogigazgató ellenben folytatá kedélyesen a megkezdett regét.</p>
+            <p>- Ez még mind nem volt elég a szerelemféltő férjnek. A neje mellett semmi
+               férficselédet nem türt meg. Férfi libériába bujtatott leányok voltak az inasai; még a
+               kocsis is a sequioris sexus tagja volt. Sétáiban, kocsikázás közben a férj kisérte
+               mindenüvé, s mikor ez vadászni ment, a feleségét bezárta a belső szobájába. Az ebédet
+               úgy tolta fel egy emelőgép a konyhából az étkező asztallal együtt a szobába.</p>
+            <p>Nem állhattam meg, hogy közbe ne szóljak.</p>
+            <p>- De hisz akkor ugyanazzal a sülyesztővel akár egy élő embert is fel lehetett
+               szállítani a földszintről az emeleti szobába.</p>
+            <p>A fiskális úr nagyot nézett a szemem közé.</p>
+            <p>- Ecce ni! Hiszen neked akár ne is mondjam tovább: kitalálod magadtól is.</p>
+            <p>- Bizony jól teszi spectabilis, ha nem historizálja tovább, - véleményezé a
+               tiszttartó. - Nem nyilvánosságra való ez.</p>
+            <p>De a fiskális ur már fel volt ingerelve ellenem az előre szaladásomért.</p>
+            <p>- No hát mondjad te, fráter, hogyan volt tovább? ha olyan könnyen kitalálsz
+               mindent.</p>
+            <p>Minden arcz vigyorogva fordult felém, ugy érzi ezt az ember, mintha parázson
+               pirítanák.</p>
+            <p>No hát segits! édes múzsám? Rigorozáljunk. A hölgyek is visszatértek az asztalhoz a
+               mesélésre.</p>
+            <p>- Hát én úgy gondolom, hogy egy szép napon valami irigy árulkodó, vagy elutasított
+               udvarló bevádolta a szép úrhölgyet a dölyfös főúr előtt, a ki aztán az első indulat
+               hevében hűtlennek vélt neje ellenében alkalmazásba vette szent László törvényét s
+               megölte őt kihallgatatlanul.</p>
+            <p>A jurium director nagy felleget fújt a pipájából.</p>
+            <p>- Pedzi! mondá röviden. De hát mért akarja maga, fráter, hogy a szép úrnő ne legyen
+               valósággal hűtelen; hanem csak látszatból? - Kérdé examináló minával.</p>
+            <p>- Azért, felelém, mert a költői igazságtételben logicának kell lenni. Ha a megölt
+               delnő valóban bűnös volt, akkor semmi keresete többé ezen a világon: nyugodjék
+               békével! Az én felfogásom szerint a nőnek ártatlannak kellett lenni, s e felől a
+               férjnek később bizonyos tudomást kelle szerezni. Ebből a lélektani helyzetből erednek
+               azután a viziók, a miket a zavart idegrendszer a valósággal összetéveszt: a
+               hallucinatio látványokat és hangokat idéz fel, a miket csak egy ember lát és hall:
+               míg beleőrül s azok utoljára is megölik. - Igy képzelem én a végét a Palárdy gróf
+               tragoediájának.</p>
+            <p>A jurium director megcsóválta a fejét.</p>
+            <p>- Közel tapogatózott a fantasiájával a fráter a valósághoz. De hát hogyan csinálná
+               azt ki maga, hogy a Palárdy gróf kétségtelennek higyje a felesége hütlenségét, s még
+               is meggyőződjék a tévedéséről; de akkor, mikor már késő? mikor már nem hozhatja
+               életre az asszonyát?</p>
+            <p>Körülvakartam a hajamat (volt ám még akkor elég):</p>
+            <p>- Olyan rögtönözve ezt a feladványt nem tudom megoldani, hanem majd egyet aluszom
+               ezzel a gondolattal, s majd megálmodom az alatt.</p>
+            <p>- No, no! Csak segitségére ne találjon önnek jönni a szép ős Palárdyné az éjjel,
+               elmondani a maga történetét. Mert feljár ám az ebbe a kastélyba most is, s aki előtt
+               megjelenik, az hat hétre a látvány után meghal.</p>
+            <p>A hölgyek összeborzadtak: én pedig tüntettem a nevetéssel.</p>
+            <p>- Akkor én nem igen várok a légyottjára; mert én nyolczvannégy esztendős akarok
+               lenni, mint az öregapám volt.</p>
+            <p>- Nem kell nevetni a dolgon, édes öcsém, szólt a jurium director, pipáját kiverve; -
+               még eddig, a hány ura volt ennek a kastélynak, mindenik előtt megjelent a szép
+               kisértet halála előtt hat héttel, és pedig több izben: akár aludt, akár ébren maradt:
+               s ha vendég foglalta el a ház ura helyét: az is meglátta - s rossz vége lett.</p>
+            <p>- Ugyan ne ijesztgesse agyon, spectabilis, ezt a fiatal embert; szólt közbe a
+               tiszttartó: a ki restellte a földesuri család titkainak egy irkafirkász jelenlétében
+               való profanálását. - Még valami talál vele történni az éjjel.</p>
+            <p>Erre aztán az én derék jó princzipálisom állt elő a jó tanácsával.</p>
+            <p>- Tudja mit? fráter. Vigye fel magával a kastélyba a protokollumokat és fogjon hozzá
+               a letisztázásukhoz. Soha még kisértet protokollum tisztázást félbe nem szakitott.</p>
+            <p>Magam is azon voltam, hogy minélelébb a magányos szobámba feljussak. Siettem búcsút
+               venni a társaságtól, a hónom alá nyalábolva az actákat.</p>
+            <p>Hanem hiszen szép protokollum lesz az, a mit én az éjjel lemásolok!</p>
+            <p>A fejem tele volt már a bosszuálló hölggyel, ki századok multán is vissza-visszatér,
+               ártatlanul bemocskolt nevéről halott köntösével letörülgetni a foltot: s viszi
+               magával a tulvilágra, irgalmat nem ismerő kézzel, az áldozatokat, kiket ott kap.
+               Engem nem fog ő bántani: mert én az ő lovagja leszek, védelmére kelek, a költői
+               „Minne-törvény” szerint.</p>
+            <p>Borongós volt az idő, csillagtalan az ég, hideg novemberi szél söpörte végig a
+               kavicsos tekervény utakon a száraz falevelet; mintha egész szellemcsapat jönne
+               utánam zizeregve: a levéltelen jegenyék sudarain olyan síró hangot adott a szél,
+               mint egy másvilágról jövő orgonaszó. Én magányos sétámban a sötét geszt sürüjében
+               bátran daloltam a legujabb népdalt: „Zajjal tajtékzik a Maros.” - A tisztáson
+               cziczázva suhantak át minden féle fehér és fekete alakok: azok a sáfár házi nyulai
+               voltak, a feketéknek még a szemei is pislogtak, mint a parázs. De engem még a házi
+               nyulak sem voltak képesek megrémíteni. Szerencsésen eljutottam a kastély hátulsó
+               lépcsőjéhez vezető kis ajtóig. - Az épen tárva volt. - Ez nem tetszett. De még
+               kevésbé tetszett az, hogy a szegletszekrénykén, a hol rendesen az én gyertyatartóm és
+               gyufás katulyám szokott elkészitve lenni, nem találtam se az egyiket, se a
+               másikat.</p>
+            <p>- A ki áldója van a részeg sáfárjának! dörmögém. Most aztán botorkálhatok fel a
+               lépcsőn a koromsötétben.</p>
+            <p>Húh! Egy denevér repült el a fülem mellett.</p>
+            <p>Elkezdtem a lépcsőn fölfelé lépegetni.</p>
+            <p>Hátha mégis van benne valami?</p>
+            <p>Egyszer csak ugy tetszik, mintha a saját lépteim hangján kivül még valami más
+               csoszogásféle is zavarná a falak csendjét. Nono!</p>
+            <p>Egyre közeledik: felülről jön lefelé.</p>
+            <p>Olyan sötét van, hogy csak hallom, de nem látom a kisértő alakot.</p>
+            <p>Azon is segitve lesz. Egyszerre egy kék csillag gyullad ki a sötétben; mint valami
+               sirbolti fény; s én látom alászállani a magasból, kit? a fehér asszonyt!</p>
+            <p>De magam is összeszedem a bátorságomat:</p>
+            <p>- Megállj! ki vagy? rivallék rá vitézül, s két kézre kaptam az egész protokollumot,
+               azzal az elhatározott szándékkal, hogy ugy vágom hozzá valamennyi aktát a
+               kisértethez, hogy rögtön odaragad a falba.</p>
+            <p>- Jézus Mária! Szent Anna! hördült fel a szembejövő alak, s egyuttal a kék világ
+               sárgára lobbant fel (addig csak a kén égett a gyufa végén) igazi világitásba helyezve
+               a hordozóját. Hát nem volt az se fehér, se asszony, hanem a vén sáfár, a ki a
+               tiszttartóné rendeletéből egy font kecskefaggyu gyertyát vitt fel a szobámba, ő
+               hordta el magával a gyertyámat és gyufámat, nem remélve, hogy ilyen korán haza
+               jövök.</p>
+            <p>- Ugy megijesztett az ifju ur, hogy egy krajczár sem maradt a zsebemben, rebegé az
+               ember fogvaczogva.</p>
+            <p>Adtam neki egy két krajczárost, hogy nyavalyát ne kapjon az ijedségtől. Azt gondolta
+               a fogásáról, hogy huszas s megköszönte.</p>
+            <p>Az egy szál gyufa az alatt elaludt; a többit elvettem tőle s most aztán én haladtam
+               odább gyufavilágitás mellett.</p>
+            <p>A mint abba a tágas nagy szegletszobába megérkeztem, kellemesen lepett meg a jó
+               langyos idő; a nagy ódon zöld kályha, a keramikai trofeumokkal az ormózatán, jó előre
+               be volt fűtve. Gondoskodtak róla, hogy a patvaristának a keze el ne gémberedjék,
+               mikor jegyzőkönyvet tisztáz.</p>
+            <p>Az egy szál gyertya, a mit meggyujtottam, csak homályosabbá segitett tenni a
+               szobát.</p>
+            <p>Tehát lássunk a lélekidézéshez.</p>
+            <p>Ezek a falak zárják be talán most is nyugodni nem tudó lelkedet, ártatlanul megölt
+               „fehér asszony?”</p>
+            <p>„Fehér asszony” legyen a czime? Nem! Hisz ez a czim már ugy el van viselve, hogy nem
+               is lehet többé igazán fehér. Tehát „fekete asszony?” Az sem. Hisz ez a döghalál
+               jelképe a költészet országában: azután ebből is van már elég. Tehát micsoda? kék,
+               sárga, rózsaszinü asszony? Egy sem illik ide. Megtaláltam! „czifra asszony” lesz a
+               neve. Ez a magyar népmythosz szerint tulvilági tündért jelent. Azonkivül pedig majd
+               kifejtem én azt a novellámban, hogy miért szolgált az a hölgy a „czifra” elnevezésre.
+               Valami bizarr, valami rendkivüli alak lesz belőle: a ki czifrálkodik azért, mert a
+               férjének akar tetszeni: senki másnak.</p>
+            <p>A kezdet gyorsan ment. Leirtam én a bűbájos Eglantinét oly pazarlásával a hölgyi
+               bájaknak, hogy mikor elolvastam, már nem az asszonytól, hanem a férjtől kezdtem
+               félni, hogy egyszer csak odaüt a buzogányával az asztalomra, s a fülembe ordit: „Hol
+               láttad te mindezeket? kákompille!”</p>
+            <p>A férj jellemzésére annál több sötét szint használtam el. No az meg lehet elégedve az
+               arczképével. Megérdemlik ezek a házi zsarnokok, hogy az ember ne kimélje őket.</p>
+            <p>És a nő mégis szereti őt és hűséges hozzá.</p>
+            <p>„Egy angyal, a ki hüséges az ördögéhez!”</p>
+            <p>(Ez olyan szép frázis, hogy a tiszttartóné Stammbuchjába is beválnék.)</p>
+            <p>De most hogyan bogozzuk a cselszövényt? Ha becsületes realisticus iskolát követnék,
+               hagynám a szép asszonyt szép fiatal legénynyel összeviszonyulni. A tényleges adatok
+               nyomán felhozhatnám hozzá az emelősülyesztővel a kedvesét a hogy az étkező asztalát
+               felküldik hozzá s ezt maga a férj kileshetné a Judáslyukakon és Dyonisius füleken
+               keresztül; de hát az idealista romantikusok szerint még olyan asszonyok is vannak a
+               világon: a kik hüségesek; de nagyon unalmasak, sőt olyan poéták is, a kik az ilyen
+               unalmas asszonyokról még unalmasabb regényeket irnak; s engemet azzal vert meg
+               Apolló, hogy az utóbbiak közé tartozzam.</p>
+            <p>Tehát hogyan furfangoljuk ki, hogy ő tiszta ártatlan maradjon; de a látszat mégis oly
+               csalhatlan tanubizonyság erejével birjon, miszerint a férj embergyilkos haragja
+               egészen indokoltnak láttassék a talány megoldása előtt?</p>
+            <p>Éjfélig elbajlódtam vele: válogatva az eszközökben. Beszélő papagáj, mely titkokat
+               kifecseg? Nem való ide. - Virágvázába elrejtett törpe, a ki észrevétlenül
+               hallgatózik? - Ez sem alkalmatos. A tizenkétóra elkongására megérkezett a
+               sugallatom. Rendkivüli és regényes!</p>
+            <p>A hölgy bezárva a szobájába. Esteli világitás. Hárfázik: majd sakktalányok
+               megoldásával tölti az idejét. A kor divatja szerint horoscoppal vallatja a zárt ajku
+               jövendőt. A himzésbe már belefáradt. Majd alvásidejére figyelmezteti az óra; leveti
+               czifra köntöseit... (kinálkozó volna az alkalom a női bájak speciális leirására; - de
+               eszembe jut, hogy ha az a bizonyos kis leány olvasni fogja, milyen szemrehányó
+               bámulással tekint majd rám! hát csak irjuk azt: „a függönyök összehuzódtak
+               mögötte.”) Sehol sem látható többé!</p>
+            <p>A bántódi kastély elcsendesült. Csak a nagy álló fali óra ketyeg, folyvást ismételve
+               „addig-meddig” egyhangú idő felosztását: a „halálóra” bogár kopog a deszkák közt,
+               tizenegyet ütve, a szélvitorla nyikorog odafenn a háztető tornyacsain. Minden
+               alszik...</p>
+            <p>Minden alszik: csak a szerelemféltés van ébren! Ez a nyitott szemekkel álmodó
+               rém.</p>
+            <p>Palárdy gróf éjjel ellopózik a vadásztanyáról, erdőkön keresztül haza oson, meglesni,
+               mi történik a kastélyban, a mig őt távol tudják.</p>
+            <p>Titkos ajtó, rejtett csigalépcső odavezeti az áruló szögletig, a melyből egy fali óra
+               átlátszó czimlapján keresztül felesége szobájába látni.</p>
+            <p>Az utolsó gyertyavilág is kialudt már a kastélyban, csak az éjjeli mécs ég.</p>
+            <p>Nem hisz a csendességnek. Vár és leskelődik.</p>
+            <p>Azt már megsugta neki valaki: tán a gonosz cseléd, vagy saját rossz szive, hogy a
+               sülyesztővel, mely az étkes asztalt felhordja, egy férfi alakot is fel lehet ide
+               csempészni.</p>
+            <p>És nem vár hiába. A mint az egész kastély elcsendesült, megmozdul az ágyfüggöny, s
+               kilép fehér háló köntösben a szép hölgy.</p>
+            <p>Félénken, óvatosan szélyeltekint. Majd gyertyákat gyujt: két négy águ karos tartóban
+               nyolcz szál gyertyát.</p>
+            <p>Mi lesz itt ma?</p>
+            <p>Hogy ennyi fény kell hozzá!</p>
+            <p>Azután a hárfájához ül s három accordot ád rajta: kezdetét egy ájtatos
+               zsolozsmának.</p>
+            <p>Ájtatos zsolozsma! A pokol, a bűn orgiáihoz bevezetés!</p>
+            <p>A sülyesztő gép halk nyikorgása hallik: az érczcsigák sirnak; a padló koczkája
+               félremozdul, s a négyszögü nyiláson kezd csendesen fölemelkedni egy férfi alak.</p>
+            <p>Az arczát nem láthatni onnan a les rejtekből, mert háttal van fordulva felé, s félig
+               letakarva lepellel. Ugyanaz a lepel redőkben omlik alá az egész ülő alakon, s azt
+               betakarja.</p>
+            <p>Ki ez?</p>
+            <p>A leskelődő szive nagyokat dobban, a mint a szép hölgy ez alakhoz lép, s térdét
+               meghajtva előtte, megcsókolja a szivét.</p>
+            <p>A szivét!</p>
+            <p>És milyen szerelmes tekintettel!</p>
+            <p>Igy csak azt csókolják, a kit imádnak.</p>
+            <p>Az álló óra megszólal: azt mondja „Kakukk.”</p>
+            <p>Elmondja tizenkétszer egymás után. Éjfél az idő.</p>
+            <p>A nő arcza mosolyra vonul. Fejét ingatja negéddel.</p>
+            <p>Ej, ej, te csufondáros óra!</p>
+            <p>Azért se lásson semmit az ércz kakukk madár, a ki az óra ütésre kiugrik az odujából s
+               a szárnyait összeveri!</p>
+            <p>Hirtelen odahuzza a spanyolfalat, s rejtek buvókát csinál belőle ő maga és a férfi
+               alak körül.</p>
+            <p>A leskelődő nem láthat többé semmit. Ez is elég.</p>
+            <p>Könnyen beléphetne a szobába: csak a fali órát kellene eltaszitania. De az ő haragja
+               hideg.</p>
+            <p>A kiontott asszony-vér nem mossa tisztára a férj nevét; hanem bemocskolja... Mást
+               gondolt ki a számára.</p>
+            <p>Ott marad, míg másodszor is megszólal a hárfa: a hymnusz véghangjait adva.
+               Hymnuszét!</p>
+            <p>Az emelő gép csigái sirnak, nyikorog a kötél: a spanyolfalat összecsukják, a férfi
+               alak eltünt, az asszony egyedül van, a gyertyákat egymásután kioltja; aztán letérdel,
+               imádkozik s ágyába siet.</p>
+            <p>Az óra egyszer mondja: „Kakukk.”</p>
+            <p>- Majd holnap eljösz te megint! - suttogja a férj s távoztában kifőzi a nehéz tervet.
+               Most visszatér, lopva, a vadásztanyához.</p>
+            <p>Másnap késő este, mikor már a cselédség aludni ment, ismét hazatért a kastélyába,
+               rejtekajtón, rejteklépcsőn át: titkos ajtón keresztül betoppant az asszony
+               hálószobájába.</p>
+            <p>A nő már ágyban fekszik; de ébren van.</p>
+            <p>Mikor a férj belép, először ijedten felsikolt; de a mint megismeri megérkezett urát,
+               rémsége örömre válik.</p>
+            <p>- De megijedtél tőlem, kedvesem!</p>
+            <p>- Nem tőled, hanem a véletlen megjelenéstől.</p>
+            <p>- Aludtál talán? S valami jót álmodtál?</p>
+            <p>- Nem aludtam, nem álmodtam: rólad gondolkoztam.</p>
+            <p>- Akkor hát örülsz, hogy megérkeztem?</p>
+            <p>- Mindig örülök, ha látlak.</p>
+            <p>- Tehát szeretsz nagyon.</p>
+            <p>- Tudod te azt.</p>
+            <p>- Nem mondják azt, hanem teszik. Hát megölelnél-e, ha kérnélek? Kebledhez
+               szoritanál-e, úgy, a hogy én téged?</p>
+            <p>A nő széttárta karjait ölelkezésre: ajkait nyujtá csókolásra, s arra a férj oly
+               erővel szorítá őt magához, ajkait ajkaira nyomva, hogy ezzel az ölelkezéssel megölte
+               az asszonyt.</p>
+            <p>(Sokkal szebben volt ez abban az én novellámban leirva, ez a gyilkosság szerelmi
+               öleléssel, hanem hát a vén czigány minden nap egy nótát felejt.)</p>
+            <p>Az asszony tehát meg volt ölve a legideálisabb halál nemével.</p>
+            <p>Hanem már most a hullát el is kell rejteni valahová.</p>
+            <p>Palárdy vállára emelte a holt asszonyt s a rejtek-lépcsőn át levitte abba a
+               félgömbölyü csarnokba, a hol a cserépben tenyésző virágok szoktak állni; két ilyen
+               virágedényt félretolt a helyéből; az alattuk levő márványkoczkákból hármat
+               fölfeszített, azoknak a helyébe gödröt ásott: az onnan kikerült földet a
+               virágcserepekre szétosztotta: azután belefektette a halottját a sirba, rátakarta a
+               többi földet, visszahelyezte a márvány-koczkákat s rájuk tolta ismét a
+               virágvázákat.</p>
+            <p>De ez még mindig csak fél munka volt.</p>
+            <p>Még csak az asszony volt megölve. Hátra volt még a büntárs.</p>
+            <p>Ismét visszatért a hálószobába: elővette a neje hárfáját, s azt a három accordot, a
+               mit tegnap hallott, elpengette a hurjain. E jeladásra azonnal csikorogni kezdtek az
+               emelőgép csigái: a padlatkoczka félrecsuszott s a sülyesztőből kezdett kiemelkedni a
+               tegnap látott férfialak; leterítve fejtől talpig fehér lepellel.</p>
+            <p>Palárdy a spanyolfal mögött leskelődött, mig a gép megállt s a férfialak egészen
+               előtte termett.</p>
+            <p>Akkor odarohant hozzá, jobbjában kivont karddal, s baljával letépte róla a takaró
+               leplet. Látni akarta az arczát s aztán kétfelé hasítani az egész alakot egy
+               csapással.</p>
+            <p>Azonban a felemelt kard kiesett a kezéből, mintha villám ütött volna bele. Az a
+               férfialak volt - a mi urunk Jézus Krisztus, viaszkból kiformálva.</p>
+            <p>Palárdy reszketve tántorodott vissza. Nem büntárs, hanem birája jelent meg
+               előtte.</p>
+            <p>Nem birta hirtelen felfogni eszével, hogy mi történik vele?</p>
+            <p>Csak lassankint vezette vissza az emlékezete eltévedt elméjét a látott valósághoz.
+               Eszébe jutott, hogy a feleségét otthon, Németországban, apáczák nevelték. Azok
+               tanították meg viaszkép gyömködésre; látta is a szülői háznál több szüz Mária képét,
+               miket leánykorában készített. A szobor lábainál ott hevertek a gyömködő pálczikák, a
+               viaszfestékek; csak az utolsó zománcz hiányzott még a szent szobron. A nő ezt a férje
+               születésnapjára készítette; meglepetés akart lenni; azért volt a titkolózás. Ezt
+               megtudhatta Palárdy attól a gépésztől, a kire a sülyesztő titka volt bizva, ez értett
+               egyet az asszonynyal.</p>
+            <p>A Krisztus-szobor azon hires és mindenütt ismeretes minta szerint készült, melyen az
+               isteni alaknak a szive kivül látszik a mellen, sugároktól körülfogva. Ezt csókolta
+               meg az asszony, mikor a férje rálesett. Ennek a szivnek szánt ő egy tőrdöfést.</p>
+            <p>Most azután ez a viaszkép szurta az ő szivét keresztül.</p>
+            <p>Szerette volna most már tiz körmével felvájni a sirból az ártatlanul megölt hitvest:
+               szerette volna elhitetni magával, hogy csak álom volt az egész; bejárta az egész
+               kastélyt, egyik termet a másik után; sehol sem volt maradása. Utoljára visszatért
+               ismét a neje hálószobájába. Félrehuzta az ágyfüggönyöket. Ott feküdt az asszony. Fel
+               is riadt a lépteire, miként nem rég.</p>
+            <p>- Te itt vagy?</p>
+            <p>Az asszony ajkára tette az ujját, s egy vércsepp maradt utána az ujja hegyén.</p>
+            <p>- Ártatlan voltam. Gyónás nélkül, halotti szentségek nélkül küldtél a túl világra.
+               Jöjj utánam: légy tanum, hogy igaz lélek vagyok.</p>
+            <p>Palárdy félőrülten rohant ki e rémteljes szobából, futott a saját ágyasházába s
+               levetette magát a kerevetére. De alig huzta magára a medvebőr takaróját, midőn egy
+               kéz levonta azt róla s ott látta ismét maga mellett ülni azt a halovány alakot, azzal
+               a véres ajkkal s hallotta a hivogató szavát.</p>
+            <p>Mindenütt rátalált az. Ha a zsöllyeszékbe dült le álomra, odaült a szék karjára,
+               onnan költé fel a szavával; hasztalan taszította el magától, elesett, megint fölkelt.
+               Hasztalan védte magát ellene kardjával: vághatta négyfelé: ujra egyesült, megint
+               odaült az ölébe. Most már az szorította őt a kebléhez olyan erőszakos öleléssel;
+               most már az csókolta az ő ajkait olyan fojtogató csókkal, hogy fulladozott bele.
+               Rettegés volt ránézve az álom. Csak mikor megvirradt, tünt el a rém előle.</p>
+            <p>- Nem temettelek volna el elég jól?</p>
+            <p>Leszállt a virágtelelő csarnokba s hüledezve látta, hogy két virágcserép jobbra-balra
+               feldült s egy márványkoczka kiemelkedett a helyéből.</p>
+            <p>„Sok volt rajta a föld!” Kiásott belőle, a mennyi elég, hogy a kőalap helyére álljon.
+               El volt a halott temetve megint jól.</p>
+            <p>A következő éjszakán daczolni akart a rémmel. Megérkezett a vidám vadásztársaság;
+               borozó asztalhoz ültek, muzsikust hozattak, czimbalom, török sip kisérte a danát:
+               „Elindula szent Péter Rómába. Botját veté vállára haragjába!” Egyszer csak azt hallja
+               Palárdy, hogy a vad tivornya közepett valaki ezt énekli a fülébe: „Gemitus mortis,
+               dolores inferni Circumdederunt me!” Oda néz. Megint ott ül a nő a széke karján.</p>
+            <p>- No, ha idejöttél, hát igyál velünk! - kinálja a billikommal.</p>
+            <p>A rém megizleli a bort; és egy vércsepp ott marad az ajkáról a serleg szélén.</p>
+            <p>És azontul Palárdyt hiába erőltetik a czimborái, hogy áldomásozzék velük: inkább a
+               fejére hagyta öntetni a bort, mint hogy szájához értesse a serleget.</p>
+            <p>- Ezt! Ezt vigyétek el innen előbb!</p>
+            <p>És senki sem tudja kitalálni, hogy ki az az „ez”.</p>
+            <p>Majd őrjöngések veszik elő. Egész éjjel beszél a semmivel. Küzködik a puszta léggel.
+               Kergeti magától a saját árnyékát. Repülő szúnyogot üldöz buzogánynyal. Ágy alá buvik.
+               Félholtra iszsza magát. Utoljára barátokat hivat, azokkal énekeltet szent
+               zsolozsmákat maga körül, mig maga szőrcsuhában imádkozik a Jézus-szobor előtt
+               térdepelve. Az sem ád neki irgalmat. Réme ott is közéje áll s utját szegi a mennyei
+               malaszthoz.</p>
+            <p>A negyvenkettedik napon ott találják Palárdyt holtan elterülve nejének nyoszolyája
+               előtt.</p>
+            <p>Az én gyertyáim azonban már csonkig leégtek, a papirtakaró lobogott a tartókban.
+               Tovább nem is lehetett volna már folytatni. Magam is siettem az ágyba kerülni: az is
+               olyan hideg volt már, mintha egy kisértetet ugrattam volna ki belőle. Azonban nem
+               kellett ringatás; aludni mindig jól tudtam: az álom a jobbik fele az életnek. Csak az
+               igazán a miénk, a mit elaluszunk. A kastély rémasszonya olyan kegyes volt, hogy nem
+               háborgatott, a nap fényesen sütött be a redőnyök között, mire fölébredtem.</p>
+            <p>A sok kegyetlen protokollum ott hevert mind az asztalon letisztázatlan s az urasági
+               hajdu már ott dörömbölt az ajtómon, hogy viszi authentizálásra: aztán siessek kávézni
+               már az uraságok mind ott ülnek.</p>
+            <p>No iszen szép kis dicsériáda várt rám a tiszttartói lakban, mikor kirukkoltam vele,
+               hogy én bizony egy betüt sem másoltam le a tegnapi jegyzőkönyvekből, hanem a helyett
+               megírtam a kastély „czifra asszonyának” a novelláját.</p>
+            <p>„Oh, maga poéta!” Ez volt az abszoluczió. Ebben a szóban megvan az általános
+               bűnbocsánat. Elfelejti az ember a leglényegesebb rábizottat? Oh, maga poéta! Ott
+               mondja ki az igazat, a hol nem kérdezték? Oh, maga poéta! Bakot lő a kártyában? Oh,
+               maga poéta! Ez az egy mindent indokol s egyúttal konstatálja az emberi társaságban
+               való inferioritásunkat.</p>
+            <p>A fiatal pajtások csinálták ehhez a legsavanyúbb képet, a kiknek már most velem
+               együtt meg kellett osztozni a jegyzőkönyveken, hogy hamarább elkészüljön a
+               letisztázás.</p>
+            <p>„Egy föltétel alatt megbocsátunk a poétának!” - mondá ki az itéletet a jurium
+               director; - „ha este felolvassa előttünk a novelláját. Hadd lássuk, hogy poétázta ki
+               a dolgot?”</p>
+            <p>Nekem pedig semmi sem nagyobb gyönyörűség, mint felolvasást tartani. Készséggel
+               fogadtam.</p>
+            <p>Össze is gyült a legszebb társaság erre az én előadásomra. Ebben a tekintetben nem
+               voltam már új legény. Pápán, Kecskeméten nagy közönség előtt produkáltam magamat,
+               kitünő sikerrel (hirlapi nyelven mondva).</p>
+            <p>Meg is volt a kivánt hatás. A kisasszonyok a szemeiket törülgették, a fiatal barátaim
+               a nyelvükkel csettentgettek, a tiszttartó egy-egy „szapperment”-et szalasztott el
+               közbe-közbe, s a jurium director szájában kialudt a pipa. Mikor véget ért a novella:
+               azt mondták, hogy de kár, hogy nincs tovább. - „Nem volt már több gyertyám!”</p>
+            <p>- Furcsa, furcsa, nagyon furcsa! - mondá fejét csóválva a jurium director. - Hallotta
+               azt maga valakitől? - („Nem én soha!”) Csaknem ugy esett, a hogy leirta.</p>
+            <p>- De még azt is kitalálni, hogy van a kastélyban egy gödör, a hol egy márványkoczka
+               ki szokott néha emelkedni magától! - szörnyűködék a tiszttartó.</p>
+            <p>- Hát aztán nem néztek utána, hogy mi van alatta? - kérdezém én nagy mohón.</p>
+            <p>- De igen. Csiperkegomba-telep volt alatta, az képes fölemelni a nehéz
+               márványkövet.</p>
+            <p>Ezen nagyot nevettek: a mi rontotta a hatást.</p>
+            <p>A tiszttartóné azonban sietett azt helyrehozni; felmagasztalt azért, hogy nem
+               követtem a szokott szellemidéző irók chablonját, a kik a hazatérő lelket obligát
+               fehér köntösben hozzák elő, hanem a kisértő lelket minden éjjel más-más pompás
+               öltözetben hoztam elő: válogatott garderobjában, hiven a cziméhez: „a czifra
+               asszony”.</p>
+            <p>A kisasszonyoknak azonban legjobban tetszett a halál neme, a mivel a hősnőmet
+               megöltem.</p>
+            <p>- Hanem aztán fráter, valahogy ki ne adja ezt a bolondságot valami ujságba; mert a
+               Palárdy grófok megölik érte: nem szeretik, ha ez a története az ősapjuknak
+               publicitásra kerül. - Ezt a tanácsot a tiszttartó adta nekem.</p>
+            <p>- Én is a mondó vagyok: folytatá a princzipálisom, - de azon okból, hogy ha bele
+               talál kóstolni az iróságba, soha sem lesz önből fiskális.</p>
+            <p>Én azonban hypocrita válaszszal tértem ki:</p>
+            <p>- Hát ugyan ki is adná ki az én novellámat? Nincs én nekem semmi ismeretségem
+               Pesten.</p>
+            <p>Hanem a mint összepakoltam a firkámat, s odább álltam vele, egyike a pajtásoknak
+               utánam osont s elkisért a kastélyig; utközben addig kért, hogy adjam neki oda a
+               novellámat: hadd irja ő azt le magának, bizony soha sem fogja mutatni senkinek, a mig
+               hajlandó lettem ráállni; s oda adtam neki, örökitse hát meg - legalább tintában.
+               Másnap reggel vissza is adta készen. Olyan gyönyörü calligraphiája volt, mint a
+               metszés. Én meg aztán azt kértem el tőle s az eredeti kéziratomat hagytam nála.</p>
+            <p>Mert nem voltam egészen igazmondó, a mikor azt állitottam, hogy nincs én nekem semmi
+               ismeretségem a pesti irodalmi magas régiókban. - Volt: - egy jó pajtásom a diák
+               életből; az ott volt egy szépirodalmi lapnál segédszerkesztő, javitnok; jól emlékezem
+               a nevére; Petőfi Sándornak hitták.</p>
+            <p>Az még nagyobb bolond volt, mint én: az már egy pályát ott hagyott az iróságért.</p>
+            <p>Volt akkor már három szépirodalmi lap Pesten és Budán, hanem ezek közül az egyikkel
+               ellenséges lábon álltunk. (Már én is.)</p>
+            <p>Ez volt a Honderű. Szerkesztője Petrichevich Horváth Lázár.</p>
+            <p>Ez valami külföldieskedő, előkelő modort igyekezett meghonosítani az irodalomban,
+               (szalonképessé tenni); ezért a másik két lapban: az Életképekben és a Pesti
+               Divatlapban ütöttük, a hol értük. Én egy rossz szójátékot is csináltam a lapja
+               czimére: „Honte de rue”, s ezt a Pesti Divatlap kiadta.</p>
+            <p>A mint a bántódi úriszékről hazakerültem, otthon várt egy levél Petőfitől, mely igy
+               kezdé;</p>
+            <p>„Áldás és háboru!</p>
+            <p>„No Marczi pajtás most már vigan vagyunk! Horváth Lázi azt irta rólunk
+               valamennyiünkről a Honderűben, hogy „ein Lumpengesindel von Gemeinheiten.” Ezért
+               Imre (Vahot) kihivta: megverekedtek: nagy bolond lyukat lőttek a levegőbe. Hanem már
+               most Imre arra kér, hogy több komáromi levelet ne irj neki, hanem inkább küldj valami
+               humoreszket, a min röhöghet a publikum. Egyébiránt van nálam valami epizód, a mit
+               Kecskeméten irtál, azt legközelebb beszurom, - stb.”</p>
+            <p>Magam is kiváncsi voltam rá, hogy mi lehet az?</p>
+            <p>Szavának állt a barátom. A legközelebbi száma a Pesti Divatlapnak meghozta tőlem a
+               legelső czikket: „A kártya” volt a czime. Nem tudom én már, hogy mi volt benne; csak
+               azt tudom, hogy a „makkfilkó” benne a hős. - Olyan diákgyermekmunka lehetett biz az:
+               hézagtöltő.</p>
+            <p>De megkaptam én azért az elismerést.</p>
+            <p>Kapok nyomba egy frankirozatlan (olvasd: bérmentetlen) levelet a postán, csunya fakó
+               tintával irva. A tinta még hagyján, de a tartalom! - A velem együtt élt kortársak
+               előtt csak a nevet kellett kimondanom: „Simon István” s már tudták, hogy mi volt a
+               levélben. Ez a Simon Pista volt a világ minden eddig ismert goromba emberei között az
+               Attila, Isten ostora. Olyan dorongokkal, szeges buzogányokkal, gombos korbácsokkal
+               soha kritikus nem dolgozott, mint ő. A ki Simon Pistát nem kóstolta, az nem is tudja,
+               hogy milyen az ize az igazi csapról eresztett kritikának. Megirta az a véleményét
+               mindenkinek, a ki csak feltünt valahol a hazai irodalom, müvészet és politika terén;
+               remekmüveit zsebében hordta minden kitünő hazafi; mert szidatni rendesen nem kellemes
+               dolog; de ugy szidatni, a hogy Simon Pista értett hozzá, pokoli élvezet! Nálam ezen
+               kezdte a levelét:</p>
+            <p>„No gratulálok a bécsi vörös toronynak az uj kandidátusához, a kit benned megnyert.”
+               (Az a bécsi vörös torony a bolondok intézete.) Ez buzditó hatással volt reám nézve.
+               Ha a drámámmal az akadémiai pályadijt megnyertem volna, nem lelkesitett volna ugy
+               fel, mint a Simon Pista kritikája. Mindig az kellett nekem, hogy szidjanak.</p>
+            <p>Első dolgom volt, a mint Pestre felkerültem juratériára, Petőfit felkeresni a
+               Pillwaxban: a „Közvélemény” asztalánál.</p>
+            <p>- Irtál-e valamit azóta? - förmedt rám, - vagy csak ferde száju portrékat mázoltál
+               mindig?</p>
+            <p>Szótlanul nyujtottam át neki a letisztázott novellámat. Szótlanul dugta el ő azt a
+               Csokonai mentéje zsebébe. Azzal fizetett, szivarra gyujtott s odább ment. (A
+               „Közvélemény” asztala „aufschreibent” nem türt.)</p>
+            <p>Másnap reggelizésnél már ott találtam Petőfit a Pillwaxban: reggelizve. Végre
+               meginterpelláltam.</p>
+            <p>- Hát mit szólsz hozzá? Jó lesz „Imrének” a novellám?</p>
+            <p>Erre változatlan márvány-arczczal mondá:</p>
+            <p>- Ezt nem kapja Imre. Ezt viszem „Frankenburgnak”.</p>
+            <p>„Ezt viszem Frankenburgnak!”</p>
+            <p>Ez a superlativusa az elismerésnek.</p>
+            <p>Ez épen olyan, mintha a mai világban egy fiatal ember folyamodik tiszteletbeli
+               helyettes fogalmazói állásra s azt az elintézést kapja, hogy kineveztetett valóságos
+               miniszteri titkárnak.</p>
+            <p>Nem Imrének; de Frankenburgnak!</p>
+            <p>Tudniillik, hogy az Imre egy tiszteletpéldánynyal szokta honorálni a kezdő irók
+               zsengéit; ellenben, a mit Frankenburg kiád a lapjában, azért harmincz erős forint
+               honorárium jár ívenkint: s ez nagy különbség a qualifikáczióban. - Ez a „főrendiház
+               diurnummal”.</p>
+            <p>Este találkoztam vele a szinházban. A nemzeti szinháznál akkor az a jó szokás
+               uralkodott, hogy minden fiatal írónak ingyen bejárása volt az álló helyre.
+               Képzelhetni azt a zsivajt! A tudósoknak ellenben adtak egy saját páholyt. Képzelhetni
+               azt a lármát!</p>
+            <p>- Nos, hát mit mondott Frankenburg? - kérdém tőle.</p>
+            <p>- Tánczolt örömében, mikor elolvasta.</p>
+            <p>- Hát kiadja?</p>
+            <p>- A legközelebbi számban.</p>
+            <p>- De hátha megbánja?</p>
+            <p>- Akkor én keresztre feszítem.</p>
+            <p>Még soha darabnak így nem tapsoltam, mint ezen az estén. Az igaz, hogy a
+               leghatásosabb darabot is adták: Szigligeti „Szökött katoná”-ját. Először láttam.
+               Egészen magával ragadt. Kivált azok a gyönyörü népdalok, Füredy rokonszenves előadása
+               mellett.</p>
+            <p>Hanem a hátam mögött Petőfi mindig veszekedett valakivel. Ugy zavarták az
+               élvezetemet.</p>
+            <p>- Ugyan kivel pöröltél annyit a szinházban? - kérdém, mikor vége volt az
+               előadásnak.</p>
+            <p>- Ejh, hagyj békét! Az az ostoba Pivoda.</p>
+            <p>- Ki az a Pivoda?</p>
+            <p>- Egy németbe ojtott rácz, a ki a német szinház direktora számára fordítja a „Szökött
+               katonát”. Ott is elő akarják adni. De a szerencsétlen a népdalokat már nem tudja
+               németre átcsavarni, s egyre engem ösztökélt, hogy fordítsam le neki én barátságból:
+               „Három alma, meg egy fél. Kérettelek, nem jöttél!” Én! Magyar népdalt! Németre!</p>
+            <p>Igaz, hogy rettenetes gondolat is volt.</p>
+            <p>Szinház után elmentünk vacsorálnia Sperlbe (ott volt a vácziutczán egy kurta korcsma)
+               oda járt Petőfi rendesen. Télen szerette a csigát, nem a tésztát, hanem a valóságos
+               csigabigát; (Helix hortensis), eczettel, tormával a mitől én írtóztam, és hozzá
+               karlóczai ürmöst ivott (egy pisztolyt esténkint = 2 deci). Én még akkor nem ismertem
+               a bornak az ízét. Orlay Soma a festő és Várady Tóni is velünk voltak.</p>
+            <p>„Navita de ventis.” A hajós a szelekről beszél. Visszatértünk az én „Czifra
+               asszonyomra”. Vajjon csakugyan kiadja-e Frankenburg? Ha az nem, majd kiadja Vahot
+               Imre. - De hát ha ennek sem fog kelleni.</p>
+            <p>- De már arra fogadok, hogy ki lesz adva a novellád! - hatalmaskodék Petőfi. Orlay és
+               Várady hallgattak.</p>
+            <p>- Én azt sejtem, hogy nem lesz belőle semmi.</p>
+            <p>- No hát fogadjunk.</p>
+            <p>- Egy millióba.</p>
+            <p>- Az sok lesz.</p>
+            <p>- No hát még többe. Ha te veszted a fogadást, megeszel egy tányér csigát s megiszol
+               egy itcze ürmöst.</p>
+            <p>- Ez nekem annyi, mint a halál.</p>
+            <p>- No hát tégy ellenébe te, a mi ezzel fölér.</p>
+            <p>- Tehát, ha te veszted a fogadást, akkor te lefordítod németre a „Három alma, meg egy
+               félt.”</p>
+            <p>- Hiszen te gyilkos, uzsorás vagy! Ez nekem kettős halál.</p>
+            <p>Felcsaptunk a fogadásra.</p>
+            <p>Rám nézve az a jó volt benne, hogy én akár megnyerem, akár elvesztem a fogadást,
+               mindenképen nyertes maradok.</p>
+            <p>Másnap délben a Pillwaxban találkoztunk egy fekete kávénál.</p>
+            <p>Egy derék franczia nyelvmester, monsieur Rayée is oda szokott közénk ülni; egész
+               Budapesten nagy tiszteletben részesülő alak. Akkor még szép fiatal ember volt.</p>
+            <p>Petőfi bemutatott bennünket egymásnak, s rólam így szólt:</p>
+            <p>- Ime, az igazi franczia író a magyarok között!</p>
+            <p>Ez volt ő nála a non plus ultrája a magasztalásnak.</p>
+            <p>Monsieur Rayée megigérte, hogy a mint a „Czifra asszony”-om megjelenik, azonnal le
+               fogja forditani francziára a Journal des Demoiselles számára.</p>
+            <p>Kezdtem kétségbeesni a szerencsém fölött.</p>
+            <p>No de van róla gondoskodva, hogy a fák ne nőjjenek az égbe.</p>
+            <p>Még hátra volt egy nagy faktor az írók pályafutásában.</p>
+            <p>Hátra volt a censor „typis admittitur”-ja.</p>
+            <p>Hátha kitörli a censor az egész novellát?</p>
+            <p>De hisz az tiszta lehetetlenség. Hiszen nincsen abban se politika, se vallás, se
+               közerkölcs ellen semmi.</p>
+            <p>És mégis megtörtént.</p>
+            <p>Egy reggel a szokottnál is mogorvább arczczal ront be a szállásomra Petőfi, sarkig
+               kivágva az ajtót, s elkerítve a Miatyánkját annak a censornak: „Itt van ni! Kitörülte
+               a lapból az egész novelládat.”</p>
+            <p>- Már most mit csináljunk?</p>
+            <p>Petőfi erre ezt tanácsolá:</p>
+            <p>- Eredj oda a czenzorhoz s beszélj a fülével.</p>
+            <p>- Hogy hivják azt a czenzort?</p>
+            <p>- Resetának hiják. Csodálom, mert különben olyan derék, becsületes ember: nekem
+               mindent elnéz: - hogy ha valamennyi czenzor mind forró kénköves fürdőt kap is a
+               pokolban, ennek az egynek hideg douchet adnak felülről az enyhitésére. Nem tudom, mi
+               lelte ez uttal?</p>
+            <p>A jó öreg Reseta csakugyan megörökitésre méltó derék ember volt. Megkövesült
+               bureaukratasága daczára még is derék, szabadelvü és hazafias érzelmü férfi. Ha
+               természetemben volna a poétázás, a petrificált fához hasonlitanám, mely fa létére
+               szikrát tud adni, mint a tűzkő. És mindenek felett nagy oltalmazója volt a fiatal
+               iróknak. Mindnyáját tegezte. Nálam különös joggal tehette azt, mert még se bajuszom,
+               se szakállam nem volt.</p>
+            <p>Mikor beléptem hozzá s elmondtam neki, hogy ki vagyok és mi járatban vagyok, letette
+               az egyik szemüvegét, feltette a másikat; az egyikkel betüt, a másikkal emberképet
+               szokott nézni.</p>
+            <p>- Hiszen te nagyon fiatal ember vagy; - mondá, szemrehányással rokon hangon.</p>
+            <p>- Azt nem tagadhatom.</p>
+            <p>- Aztán kálvinista is vagy.</p>
+            <p>- Azt hiszem és vallom.</p>
+            <p>- És végül szabadelvü is vagy?</p>
+            <p>- Azzal meg dicsekedem.</p>
+            <p>- No hát, édes ifju szabadelvü, kálvinista barátom, hogy tudtál te egy ilyen
+               kisértetes história leirására tollat venni a kezedbe? Hát azért adta neked az Isten a
+               talentumot, hogy babonát terjeszsz vele? Nemde, nem az-e a ti feladatotok, fiatal
+               költőké, hogy a világosságot sugározzátok az egész népre? S te a helyett a
+               sötétséget akarod sűriteni? Hisz a kik a te rémes históriádat elolvassák, mind
+               lunatikussá lesznek tőle! Hát álmoskönyvet, csiziót akarsz te a közönségnek
+               szerkeszteni? Pokolbeli viziókkal traktálod te a hivő népet?</p>
+            <p>Mint a kovácspöröly, ugy hullott a fejemre a czenzor minden szava.</p>
+            <p>Megpróbáltam magamat gyöngén mentegetni, felhozva, hogy hisz ez csak költészet.</p>
+            <p>- Annál rosszabb. Mert a költészet varázsa alatt behizelegteti a balhitet a
+               szivekbe.</p>
+            <p>Még egy paizst emeltem föl a védelmemre.</p>
+            <p>- Hiszen hasonló munkákat Dumas Sándor egész kötet számra irt: a „Mille et une
+               fantomes” czim alatt.</p>
+            <p>No ezért aztán tökéletesen porrá tört Reseta bátyánk.</p>
+            <p>Fölugrott a székéről s az asztalán heverő irásokra ütött a tenyerével: azt hittem,
+               hogy mindjárt megesz.</p>
+            <p>- Micsoda? Hát te Dumasra hivatkozol? Hát nem tudod, hogy azt a jezsuiták fizették
+               meg azért, hogy az „Ezeregy kisértet” könyvét megirja? Hát ez a te mintaképed? Hát te
+               is Loyola Ignácz zsoldjába szegődtél?</p>
+            <p>Én a sárga földig voltam legázolva; ha nem szégyenlettem volna, sirva fakadtam
+               volna.</p>
+            <p>Minden további szó nélkül kértem vissza a kéziratomat, s dugtam a karbonári köpenyem
+               alá.</p>
+            <p>Ekkor aztán a derék öreg ur megszánt; (mert áldott jó szivü ember volt). Utánam jött,
+               megállitott az ajtóban, megfogva a köpönyegem vitézkötését.</p>
+            <p>- Ne vedd ezt a leczkét nehéz szivvel; édes öcsém. Nem árt az neked. Fordits te hátat
+               ennek a nyavalygós, tulvilágban járó ábrándoknak. Hagyd te ezt a franczia
+               romantikusoknak. Keresd te másutt az eredetiséget. Irj azokról, a mik valósággal itt
+               vannak körülöttünk: a magyar élet eleven alakjairól, a kikben van hus, vér, igazi
+               érzés, tréfa és komolyság! Maradj te a földön; ne járj te se égbe, se pokolba;
+               meglásd, hogy jobban oda találsz, a hova törekszel.</p>
+            <p>Ezzel bocsátott el: soha sem felejtem el a szavait.</p>
+            <p>Még soha nagyobb fiaskót nem csináltam, (pedig elismerem azoknak szép számát), mint
+               az én „Czifra asszonyommal.” Hanem aztán megvolt bennem az a démoni valami, hogy a mi
+               nagyon fájt, az egyuttal nagyon felizgatott.</p>
+            <p>A legelső leczkének a hatása alatt neki ültem s addig ki sem jöttem az odumból, a mig
+               meg nem irtam a „Sonkolyi Gergely”-t.</p>
+            <p>Ezt azután kiadta Frankenburg igazán, pompásan is dijazta. Petőfi sokat nevetett
+               rajta (pedig hej, de ritka madár volt nála a kaczaj) s Reseta bátyánk megdicsért
+               érte, mikor az utczán összetalálkozott velem. A nyájas olvasó ezt találja az összes
+               munkám elején, mint Numero 1-et.</p>
+            <p>Csak azután, mikor az uj megszületett, fogtam hozzá a korábbi szülött
+               eltemetéséhez.</p>
+            <p>Valóságos temetés volt biz az. Az első szülött takaritása. Előttem volt a nyitott
+               kemencze szája s abba egyenkint hajigáltam bele a meggyujtott lapokat. „Ti a
+               sötétséget akarjátok terjeszteni? No, hát támaszszatok világosságot! Égjetek el!” És
+               azután elnéztem, hogy zsugorodnak az elégett lapok egymás fölött, vándorló szikrák,
+               mint tüzférgek, hogy tekeregnek bennök még sokáig; mintha az elüzött démon keresné
+               még a maga eszméit.</p>
+            <p>Utóljára kivettem az elégett iráshalmazból egy reszkető lapot; a tenyeremre tettem, a
+               fekete lapon még csillámlott a betük sora a tinta érczfényétől. Megpróbáltam, hogy el
+               lehetne-e azt még olvasni? El lehetett. Volt benne valami gondolat, a mit nagyon
+               megsajnáltam. Talán egy köny is esett a hamvadt lapra. Ráfujtam: elrepült.</p>
+            <p>S ezzel be volt fejezve a gyászszertartás.</p>
+            <p>Az én szellemi első szülöttem porrá és hamuvá lett szépen.</p>
+            <p>Porrá és hamuvá lett azóta sok más is.</p>
+            <p>A két lapszerkesztő, a ki az első munkáim kinyomatta; a czenzor, a ki kitörülte; a jó
+               barátok, a kik mulattak rajta, a kritikus, a ki leszidott érte: mind por és hamu
+               már.</p>
+            <p>A kedélyes táblabiró, a ki az eszmét adta hozzá, a tiszttartó, a ki félt a
+               közzétételétől, a grófok, a kik megharagudhattak volna érte: mind por és hamu
+               már.</p>
+            <p>Maga az az emlegetett kis leány, első álmom, a kire gondoltam, mikor az első munkám
+               irtam: mit fog rá mondani? Régen por és hamu.</p>
+            <p>És az a lelkemhez nőtt jó barát: a szabadság leghivebb dalnoka: az óriás
+               valamennyiünk között: az is por és hamu.</p>
+            <p>És utána és körüle egész nemzedékei az isteni szikrától átvilágitott dicső sziveknek:
+               irók, tudósok, költők, aeszthetikusok - por és hamu.</p>
+            <p>Valóban, ha a sok fényes por, a mivel ez a föld-teke már be van burkolva, elkezd
+               tündökölni, ugy ez a mi kis plánétánk a csillagos ég-ürben önfényétől ragyog.</p>
+            
+            <p>Hanem a sok közül, a mi porrá, hamuvá lett, egy mégis feltámadt: a kire legkevesebb
+               szükség volt: s ez az én novellám.</p>
+            <p>S itt kezdődik már most a valóságos igazi elbeszélés, a mit a czim igér; mert amit
+               eddig elfecsegtem, az mind csak előljáró beszéd volt.</p>
+            <p>Hogy el ne felejtsem: - ebből a gyászos történetből a szomoru nyereségem az volt,
+               hogy a fogadást megnyertem; és igy Petőfi kénytelen volt a vesztett fél kötelességét
+               teljesiteni: leforditani a magyar népdalt németre. Meg is felelt gavallér módra a
+               tartozásának.</p>
+            <p>A műbirálók és irodalomtörténetirók iránti kedveskedésből ide iktatom az eredetit a
+               forditással együtt.</p>
+            <p>„Három alma, meg egy fél!</p>
+            <p> Kérettelek: nem jöttél:</p>
+            <p> Ha nem jöttél, ott vesztél:</p>
+            <p> Lányok anyjává lettél.</p>
+            <p> Hej, huj! Nem bánom!</p>
+            <p> Nekem is van virágom:</p>
+            <p> Hej, huj! Leszakasztom a nyáron.”</p>
+            <p>Drei Aepfel und a halber.</p>
+            <p> Liess dich rufen: kamst nicht her;</p>
+            <p> Bist nicht kommen: bliebst dahaam:</p>
+            <p> Bist geworden so Fra-maam.</p>
+            <p> Hej huj! meinetwegn!</p>
+            <p> Hab ich auch a Bluml gsegn:</p>
+            <p> Hej huj! Sommers thu ichs pflücken pflegn.</p>
+            <p>De olyan szép volt ez a német vers, hogy még Kertbeny is irigy volt rá.</p>
+            <p>Hajh, boldog Isten, de sokszor eldaloltuk ezt a német verset magyar nótára, a mikor
+               nagyon el voltunk busulva, aztán hirtelen jó kedvet akartunk magunknak csinálni:
+               sötét, csunya, zivataros idők jártán: magányos oduinkba internálva: a mikor az volt
+               a közös jelszó, hogy „czudar a világ” - hanem azért „hej-huj! meinetwegn! hab ich
+               auch a Bluml gsegn, hej-huj, Sommers thu ichs pflücken pflegn”, hát akkor muszáj volt
+               egyszerre szivszakadva kaczagni minden embernek.</p>
+            <p>Mondok valamit! Azt hiszem, hogy azon a mezőn, a hol az eltünt költőt keressük a zöld
+               pázsit alatt, mikor tavaszszal a kikiricsek kidugják a fejeiket a fű közül,
+               valamennyinek be van zárva még a kelyhe, ha olyankor valami ismerős hang rákezdené:
+               „héj huj! meinetwegn!” hát akkor egyszerre egy három lépésnyi területen valamennyi
+               kikirics mind nevetésre nyitná fel a kelyhét. - Arról megtudnók, hogy ott játszsza a
+               bujósdit „ő.”</p>
+            <p>Hajh-hajh!</p>
+            <p>De régen volt ez már.</p>
+            <p>Tavaly, az országos kiállitás alkalmával, a hiuság ördöge rávett, hogy kiállitsam az
+               összes munkáimat. Megtelt velük egy egész könyvtár.</p>
+            <p>Ha a születésem napján megmutatták volna azt a sok tiszta papirost, a mit nekem majd
+               mind tele kell irnom, bizony azt mondtam volna rá, hogy: „Visszaszületek!”</p>
+            <p>Igy azonban, miután már megvan, hát csak megnyugszom benne. Maga az idő szerinti
+               osztályozása az eredetinek, a nyelvek szerinti a forditottaknak két napi munkát
+               adott magamnak: de aztán mikor megvolt, én is azt mondtam, a mit a székely atyafi
+               mondott, mikor elkészitette a portája előtt a szép nagy tanórkaput; czifra
+               bálványforma zábéval, zászlókopja bunkós végü léczekkel; kiugró galambbúggal, arra
+               kifaragta a saját maga cseálta kegyes mondókát, ékes kezdőbetükkel, végre be is
+               festette, kék, zöld, piros és sárga festékkel; nem kimélve tőle a tulipánt,
+               gránátalmát és szekfüvet; akkor aztán megállt a müve előtt nagy elégedetten: „Sok ez
+               egy embertől!”</p>
+            <p>Hát a mint ott állok, az átelleni orgonának vetve a hátamat, megbök valaki könyökkel
+               oldalba. („Köszönöm.”)</p>
+            <p>- Ugyebár, ön a szerző?</p>
+            <p>- Én biz az: Isten bocsássa meg!</p>
+            <p>- Ráismertem arrul a rézszobrárul ott a szekrény tetején.</p>
+            <p>- Az nagyon hasonlit hozzám.</p>
+            <p>- Jobban, mint ez a kis portrait itt az üveg alatt.</p>
+            <p>(Negyvenkét év előtt festettem azt magam tükörből.)</p>
+            <p>- Pedig én akkor is ismertem ám önt igen jól. Jókat mulattunk együtt hajdanában.</p>
+            <p>Csak akkor kezdtem figyelmesen szemügyre venni diskuráló társamat. Alacsony, tömzsi
+               alak volt; ránczos képe olyan szinü, mint a kordovány, hanem egészséges pirossággal
+               lazurozva: apró fekete tatárszemei azzal a hamis hunyorgatással csakugyan
+               emlékeztettek rá, hogy szurkáltak felém valaha. Tudom is én, hol? Csavargó életem
+               folytán ezer irókollegával, kétezer képviselővel, négyezer honvéddel, nyolczezer
+               tisztelt választó polgártárssal lettem per tu pajtás: nem vagyok én Gyula császár
+               (talán Julius Caesar? corrector,) hogy egy egész hadsereget a fejemben tartsak.
+               Aztán negyven nem tudom hány esztendő mulva.</p>
+            <p>A tisztelt barátom izzadt a nagy sokaságban, annálfogva a kezében tartotta a
+               kalapját; a feje egészen kopasz volt; egész orographiát lehetett rajta tanulmányozni,
+               csak a homloka elején volt egy tincs megátalkodott haja, azonkivül egyik fülétől a
+               másikig egy keskeny sövény, mintha hátrafelé kötötte volna fel a pofaszakállát, a mit
+               elől leborotvált. Valószinüleg ez is másként volt hajdanában.</p>
+            <p>- Hát bizony sokat össze tetszett irogatni azóta! - mondá az én barátom, olyan
+               hangon, hogy dicséretnek is vehettem, meg szemrehányásnak is. Hanem hát még sem
+               teljes a gyüjteménye.</p>
+            <p>- Nem gondolnám.</p>
+            <p>- De én bizonyosan tudom. Hiányzik belőle valami. No találja ki, hogy mi? Még azt sem
+               találja ki? Segitsek egy kicsit? Hát a legelső munkája? Bizony talán már a nevére
+               sem emlékezik? Hát a „czifra asszony.”</p>
+            <p>Erről a szóról aztán egyszerre a fejembe villámlott a neve az én régi
+               ismerősömnek.</p>
+            <p>- Hisz ön az én Szepi barátom, a kivel hajdan Bántódon...</p>
+            <p>- Igen, igen! - kapott a szavamba nevetve; - a tiszttartóéknál. Szegény, az is
+               meghalt; a fia patikárius lett: mégis meghalt.</p>
+            <p>- Ön pedig akkor doktor volt; a ki - pegazusokat gyógyitott.</p>
+            <p>(Nem akartam azt mondani, hogy lódoktor.)</p>
+            <p>- Az voltam; de felhagytam vele. Egy kis örökséget csináltam. Jószágot béreltem ki:
+               volt egy kis szerencsém; most magam ura vagyok: szereztem egy kis birtokot, adósság
+               nélkül.</p>
+            <p>- No ennek örülök: bár én is azt tettem volna. Hát a falsche Catalanit énekli-e
+               még?</p>
+            <p>- Van eszemben. Hiszen olyan a hangom, mint a repedt fazéké.</p>
+            <p>- Hát ha ráér, látogasson meg. Nagyon fogok rajta örülni, ha a régi boldog
+               gyerekkorunkról előhozakodhatunk. Terringettét! De szép fiuk voltunk akkor mind a
+               ketten, mikor vis-à-vis tánczoltuk a franczia négyest.</p>
+            <p>- Különben is be akartam önhöz rontani. Nem jöttem üres kézzel. Hoztam valamit az ön
+               számára, a minek ön nagyon meg fog örülni. Nem találja ki?</p>
+            <p>El nem tudtam gondolni, mit hozhatott nekem, a mit én olyan nagyon szeretek? faluról?
+               talán barabolyt, vagy csíkot; ezeket Pesten nem lehet kapni: pedig én nagyon
+               szeretem.</p>
+            <p>- Hahaha! - nevetett, mikor bevallottam az élhetetlenségemet. - Hát azt, a mi önnek
+               hiányzik az összes művei közül: a „czifra asszony-t!” Nem emlékszik már rá hogy én
+               tisztáztam le, s az eredetit magamnál tartottam?</p>
+            <p>Boldog Isten! Ez az ember negyven év óta tartogatja bebalzsamozva azt a halottat, a
+               kit én magam elégettem.</p>
+            <p>Csakugyan kiváncsi voltam rá: megköszöntem a barátságát s megmondtam neki az órát, a
+               melyen életveszedelem nélkül be lehet hozzám jönni: (a ki más időben jön, annak
+               hátrakötöm a sarkát) s azután nem beszélhettünk egymással többet; mert rákezdtek
+               orgonázni, hogy az embernek még a foga is vaczogott bele. A nagy orgona volt a
+               tőszomszédom.</p>
+            <p>Másnap a bizonyos órában ott volt nálam az én régi jó barátom.</p>
+            <p>Elhozta azt a bizonyos kéziratot. Szép bőrtok volt a számára készitve: nagyon
+               megbecsülte a tulajdonos. Láttam az orczáján, milyen nagy áldozatot cselekszik, a
+               mikor ezt nekem visszaadja. Feltettem magamban, hogy nem fogadom el az ajándékát.
+               Hanem azért még is kiváncsi voltam meglátni az „első szülöttemet” halottaiból
+               feltámadva.</p>
+            <p>Akkor még jó becsületes meritett papirra irtunk; a mi nem fakul meg olyan hamar, nem
+               törik, nem mállik: még a tinta sem veresedett meg rajta. Olyan volt, mintha tegnap
+               irtam volna.</p>
+            <p>Ugyanazok a selyembogártojásforma betük, a milyeneket most irok, azok a sürü, egyenes
+               sorok. Hanem a tartalom egészen idegen rám nézve. Ugy olvashatom, mint valami idegen
+               munkát. De a míg olvasom, lassankint visszatér minden körülmény az emlékezetembe.
+               Látom a szobát, a miben tanyáztam, az ócska képeket a falakon; s eszembe jut, hogy
+               ennél a szónál az éji őr hány órát kiáltott.</p>
+            <p>- Vissza fogom én ezt önnek adni, kedves barátom; látom, hogy becsben tartja. Rám
+               nézve ez a munkám meg van halva. Elégettem.</p>
+            <p>- De pedig nem azért hoztam én ezt önnek, hogy ezt is elégesse, hanem hogy irja meg a
+               folytatását.</p>
+            <p>- A folytatását? kérdém elbámulva.</p>
+            <p>- Azt bizony. Mert a mi eddig itt van, az csak fantázia; de a mi ezután következik,
+               az igaz történet; és az tulmegy a legvakmerőbb költői képzelődésen is. Azért jöttem
+               ide, hogy azt önnek elmondjam. Ráér meghallgatni.</p>
+            <p>- Oh kérem! Soha sincs nekem semmi dolgom.</p>
+            <p>- Szabad rágyujtanom?</p>
+            <p>- Szabad. Csak arra kérem, hogy mikor nem szíja ön azt a patkányfarkat, ne tegye ide
+               mellém, mert mikor a holt szivarnak ugy magában vékonyan szálldogál föl a lelke,
+               attul jobban félek mint a kisértettől.</p>
+            <p>Az én barátom kényelembe helyezé magát és hozzá kezdett.</p>
+            <p>- A bántódi kastély már azóta a negyedik kézen járja. Igazán mondom, soha sem láttam
+               még vándorló kastélyt; ez az. Nincsen maradása: mehetnékje van. Ugy változtatja a
+               gazdáit, mint a kikapó asszony a szeretőit. Azt még talán tudja ön; hogy a legutolsó
+               Palárdy gróffal mi történt? Nem tudja? Hisz az is tragikus dolog. Mikor az öreg gróf
+               meghalt, a fiatalra egészen tehermentes szép birtok szállt. Volt ugyan magának szép
+               csomó adóssága; de azokat még az apja életében (mint kiskoru) revocálta. (Zárjel
+               között mondom: ön, mint honatya, keresztül vihetné az országgyülésen, hogy a
+               kiskoruság harminczöt esztendőre megnyujtassék: az ország egyszerre ranzsirozva
+               lenne.)</p>
+            <p>A fiatal gróf, a mint az örökségét átvette, azon kezdte, hogy megházasodjék. Valami
+               németországi princzeszt talált magához méltónak. A menyegző előtt lejött Bántódra a
+               kastélyát lakályossá tenni; oda akarta hozni az ifju menyasszonyát a mézes hetekre. A
+               nászutazás Olaszországba épen abban az esztendőben nem volt ajánlatos. Tetszik
+               tudni: „1848”. Többet nem mondok. „Kennst du das Land, wo die Granaten blühen?” De
+               nem a granátalmák, hanem az égő granátok. Azoknak épen akkor volt a szüretje. Itt
+               Magyarországon meg minden in dulci jubilo volt. A pesti revoluczió! Tetszett benne
+               résztvenni. Paraplui alatt. - Kérem! Nagyon jól tette, hogy megkimélte az életét. Az
+               a másik bolond is - pardon - akarom mondani, az az egyik bolond is jobban tette
+               volna, ha megtartja magát az utókornak, s irja nekünk ma is a szép verseket, mintsem
+               hogy ott áll a pesti dinnyepiaczon rézlábon, rézköpönyegben, s integet rézujjakkal a
+               vásárosoknak: hogy itt kapni a jó cserhajut! - De hogy egyik szavamat a másikba ne
+               öltsem, visszatérek a bántódi kastélyhoz, a melyet az ifju gróf pompásan berendezett.
+               Bécsből hozatott uj butorokkal, rangjához illő kényelmet otthonositva meg az ősi
+               lakban. A sok ócska retyemutyát felhordták a padlásra. Külön lakosztálya volt a
+               princzesznek, külön a grófnak: az utóbbi igen egyszerü, de mégis izléses butorzattal;
+               a felesége hálószobájában selyemmennyezetes nyoszolya; a magáéban jegesmedve bőrrel
+               bevont kerevet. - De soha abban a selyemkárpitos ágyban a grófné nem hált; a gróf is
+               csak egy éjszakát töltött a jegesmedve bőrön. Másnap korán hajnalban, senkinek
+               annyit sem mondott, hogy „köszöntetem a plébánust”, kocsira ült: ott hagyott
+               kastélyt, jószágot, szép menyasszonyt: csak nagy tudakozódás után jöttek rá a jószág-
+               és jogigazgatói, hogy beállt néma barátnak valami trappista kolostorba.</p>
+            <p>Könnyű volt kitalálni az okát. Ő is áldozatul esett a családi rémhagyománynak. Neki
+               is megjelent a czifra asszony. Ezzel az egész lényéből ki lett forgatva! Azt hitte,
+               hogy e lélekjelenés után hat hétre meg kell halnia. Ezt az időt sietett felhasználni
+               bünbánással, testsanyargatással és éjjeli imákkal. A legkegyesebb carthausi lett
+               belőle. A hat hét azonban elmult, meg is szaporodott s a grófon csak nem fogott az
+               ősi átok: szépen életben maradt. - Azonban a családi hagyomány szerint a „czifra
+               asszony” boszuállásának vannak stádiumai. Ha a megjelenése napjától hat hétre nem hal
+               meg a választottja, ugy várhat a halálára hat hónap mulva. Prolongál neki. S ha még
+               akkor sem váltja be a fenyegetését: akkor következik a hat esztendő. De ez az utolsó
+               terminus. Ez aztán olyan, mint ha a financzdirekczió mondja, hogy „fizess!” - A gróf
+               megunta a kolostorban várni be a hat hónapot, levetette a barátruhát, visszament az
+               ezredéhez, a hol eddig szolgált (kürazér volt) s aztán verekedett odalenn az
+               olaszokkal, később ellenünk is, elég alkalma lett volna meghalni, de biz a hat hónap
+               is elmult, s a fatalis terminust átugrotta megint. Se kard, se golyó nem fogott
+               rajta. Most már aztán igazán türelmetlen kezdett lenni. A hat esztendei időt nehéz
+               végig várni helyben ülve. Elkezdett futni a világba. Elment Grönlandba
+               jegesmedvéket vadászni, bekóborolta Afrikát mind a három oldalán, felmászott a
+               Himalayára; körülkerülte a földet: az emberi nemzet mindenféle szinü asszonyait
+               tanulmányozta anthropologice: (ugy hiszem: koponyaméreteket vett fel róluk) - haza a
+               tiszttartóinak csak annyit irt, hogy hová küldjenek utána pénzt; de sokat! hogy
+               honnan vegyék? az az ő dolguk. Végre aztán emberevők közé jutott a hatodik év vége
+               felé, s azok megették.</p>
+            <p>- Ah! kiálték fel: hihetetlennek találva a befejezést.</p>
+            <p>- Meg azok! Megették csizmástul. - Ugy szokták azok a kannibálok - ott Homburgban.
+               Még akkor virágzott ez az anthropophagusok nemzete. Több embert megettek ezek, mint a
+               Fidzsi szigeti karaibok. - Ez is halál. - Csunya halál. Mikor egy hajdani
+               milliomosnak holnapra nincs mit ennie. - Én ott voltam a temetésén, - Mikor a
+               jószágot elárverezték. - Mert az ám a legszomorubb temetés, mikor a halott fölött a
+               dobszó prédikál. - Pontban azon a napon történt meg, a melyen hat év előtt a gróf ott
+               hált a kastélyban. Azóta ő meg van halva. Kisért ugyan itt-amott, de fél is tőle
+               minden ismerőse, mint a vámpyrtól. Mert az az igazi vámpyr, az a félelmes kisértet a
+               kit ha meglát az ember, keresztet vet - nem magára - hanem a bugyillárisára: „Jaj,
+               itt jön az a kósza lélek, a ki engem megfog, s addig el nem ereszt, a mig tiz
+               forinttól száz forintig meg nem szivattyuzott.”</p>
+            <p>- No, ez még eddig nem igen borzasztó történet.</p>
+            <p>- Majd az lesz mindjárt; csak elébb hadd gyujtok másik szivarra.</p>
+            <p>Égett már, s adta a füstöt. (T. i. a „patkányfark.”)</p>
+            <p>- No hát, a ki megvette a hivatalos kótyavetyén a szép Palárdy birtokot: egy fiatal,
+               derék magyar földbirtokos volt; a kinek a bevezető jellemzésére elég annyit mondanom,
+               hogy „akkvizitor” volt. Kérem! Magyar - fiatal - gavallér - földbirtokos - és
+               vagyonszerző! Unikum! Az ősi birtoka odafenn volt a Kárpátok között, a hol mindig fúj
+               a szél. Fiatal nejének nem tett jót a havasok levegője, azért vásárolta meg ezt a mi
+               sikságunkon fekvő birtokot, a hol az ember magától a levegőtől meghizik.</p>
+            <p>Szép daliás férfi volt maga is; a felesége is egészen hozzá illett. Ő maga
+               barna-piros Attila ivadék, a neje szőke, lengyel hölgy. Volt egy kis hat esztendős
+               fiuk, a kit imádtak. Hajnalig mindig az apjánál aludt a fiú, akkor az apa felkelt az
+               istállókat sorba járni, a béreseket felköltögetni, arra meg az anyjához ment a kis
+               fiú tovább aludni. Igy volt náluk felosztva a szeretet.</p>
+            <p>Megjegyzem, hogy a birtokba vétel után az új földesúr nem ment ám a kastélyba lakni;
+               hanem a tiszttartói lakban telepedett le. És ezt nem azért tette ám, mintha félt
+               volna valamiféle kisértettől; hanem abból az igen helyes indokból, hogy egy olyan
+               nagy kastélyban lakáshoz roppant nagy léhütő szolgaszemélyzet kell: ő pedig
+               takarékoskodni akart. Az ott talált tiszttartót elcsapta (nem azt ám, a kivel mi
+               mulattunk, az már akkor meghalt; egy morvát hozott a gróf a helyébe) s maga állt be
+               tiszttartónak. Lett is ott rend mindjárt! Nem arattak vetés előtt.</p>
+            <p>A nevét is megmondom az új földesúrnak: de ezt ne tessék használni, az urak nem
+               szeretik, ha az igazi neveiket megörökiti az ember valami regényben. Nevezzük csak
+               „Lomniczy”-nak.</p>
+            <p>Hát egy pár esztendeig igen jól ment itt minden. A környékbeli uraságok ide jártak
+               gazdaságot tanulni. S azt mingyárt az első belépésnél megkezdhették. Mert hogy a
+               tiszttartói lakásban bizony szűken lehetett elférni a vendégseregnek: három négy úr
+               is kénytelen volt egy szobában hálni, s ha nagyobb társaság volt, két szobában
+               kellett teriteni s volt elég fejtörése a házi-asszonynak, a mig osztályozni tudta a
+               vendégeket, melyiket ültesse a főasztalhoz, melyiket a mellék szobába. (Mert tetszik
+               tudni, vannak némelyek, a kik az utóbbiért megneheztelnek, ellenben vagyunk többen, a
+               kik épen ott érezzük magunkat nagy biztosságban.)</p>
+            <p>Lomniczy nem volt kártyás; sőt - nagyot mondok - még csak azt sem engedte meg, hogy
+               az ő házába kártyát vigyenek be. A kinek tetszett, nyáron kuglizhatott nála, télen
+               meg biliárdozhatott. Hanem - persze a tiszttartólak nem volt arra a czélra épitve,
+               hogy az valaha kávéház legyen. A biliárdszoba olyan rövid volt, hogy mind a kétfelől
+               ki kellett nyitni az ajtót, ha az ember egy becsületes kvártot akart csinálni a
+               piratnidli partiban, s aztán megesett, hogy a kiugratott golyó átszaladt a harmadik
+               szobába, a hol a hölgyek kávéztak s alig tudták előkeresni a krinolinok közül.</p>
+            <p>Ad vocem „krinolin”. Akkor volt ez a csudálatos divat, hogy a hölgyek a léghajó
+               kormányozhatóságát megvalósitották. Nem szaporitanám ezzel a szót; ha ez is a
+               motivumok közé nem tartoznék, melyek a história kifejlődéséhez tartoznak. Ha már az
+               urak nem fértek el a dákóval, hát a hölgyek még kevésbé fértek el a krinolinokkal.
+               Pedig tánczolni is szottyant kedvük néhanapján; de a zongorának is kevés volt a hely,
+               nemhogy a tánczolóknak lett volna.</p>
+            <p>Az úri kastélyban ugyan lett volna elég hely: csakhogy ott egész télen át nem volt
+               fűtve semmi kályha: a hidegben nem esett jól a mulatság; ha pedig befűtöttek
+               hirtelen, olyan fejfájasztó gőz támadt, hogy azt még a rinóczerosz sem állta ki.</p>
+            <p>Az ismerősök köre pedig egyre szaporodott, a tiszttartói lak csakugyan nem állta ki
+               tovább az ostromot.</p>
+            <p>Egyszer, a mint Lomniczy a felső magyarországi birtoka megtekintése végett hosszabb
+               időre eltávozott (úgy tudom, hogy nagyszerü sajtgazdaságot és pisztráng tenyésztést
+               rendezett be), a neje minden előleges tanácskozás és beleegyezés nélkül, a bizonyos
+               indemnity reményében, átköltöztette a háztartást az úri kastélyba. Nyár volt: szép
+               meleg idő: azokban a hűs magas teremnagyságú szobákban gyönyörüség volt a lakás.
+               Hiszen tetszik rá emlékezni, azok a pompás platánfák, hogy integetnek be az
+               ablakokon, a nagy kúszó rózsák meg keresztül bujnak a salugáderek nyilásain s
+               bemásznak a szobába a virággirlándjaikkal. Aztán az erkélyről milyen fölséges
+               kilátás esik! Arra a halastóra ott a sík pázsit közepén, a mibe azok a rengeteg nagy
+               gyászfűzek lógatják bele az ágaikat! - Én nem vagyok poéta ember; de magam is óra
+               számra el tudtam ott ácsorogni, bámészkodva: mikor más dolgom is lett volna.</p>
+            <p>Az ismerősök, ugy féltréfából, mondák ugyan az asszonyságnak, hogy nem fél-e a
+               „czifra asszony”-tól. (Igy hitta már minden ember a kastély kisértetét, a mióta azon
+               novellájában ez a név lett ráruházva.) De ő nevetve mondá: „Nem féltem én az én
+               uramat semmiféle czifra asszonytól. Magam sem vagyok az; még csak krinolint sem
+               hordok; - másféle czifra asszony volt az, aki miatt az előbbeni földesuraságot
+               utolérte a maga veszedelme.”</p>
+            <p>A hazatérő Lomniczy egészen meg volt lepetve, mikor a háza népét már az új kastélyban
+               elhelyezkedve találta.</p>
+            <p>Eleinte egy kicsit dörgött-morgott (a családfői jogainak megóvása tekintetéből), a
+               dolgozó, pipázó, tekéző szobáival elégedetlen volt; azon patvarkodott, hogy semmijét
+               sem találja: a volt lakásán tudta már, hogy mije hol áll? Most pedig mindenért inas,
+               kulcsár, szobaleány után kell kiabálni, hogy hová dugták el ezt? hova pratálták el
+               ezt amazt? És a mi legnagyobb okot adott a zsémbelésre: az elhagyott kisszerű lakban
+               szorosan egymás mellett voltak a háló szobáik, az övé, meg a feleségéé; itt pedig
+               egész teremsor, folyosó rejtekajtó választja el őket egymástól; már most a kis
+               Bélácska, hogy fog vándorolhatni egyik szülőnek az ágyából a másikba?</p>
+            <p>A nagy zsémbelésnek utoljára azzal szakitá végét az asszonyság, hogy tréfásan odaveté
+               az urának:</p>
+            <p>- Tán bizony attól félsz, hogy téged is meglátogat a szobádban a „czifra
+               asszony”?</p>
+            <p>Ez a tréfás csiklandás elevenre talált. Lomniczy nem szerette, ha a rovására nevetett
+               valaki: igen komoly, mindenkinek becsületadó, de mástul is becsületkövetelő ember
+               volt.</p>
+            <p>- No engem ugyan nem ijeszt meg semmi czifra asszony. Monda büszkén. Ha tetszik
+               látogasson meg. Szivesen látom.</p>
+            <p>- Inkább ha félsz, itt leszek én is melletted! kötődék vele az asszonyság.</p>
+            <p>- Köszönöm a grácziát; - de mikor nekem egy ilyen érdekes hölgygyel készül légyottom,
+               akkor a feleségem asszony csak maradjon a saját szobájában s ne rontsa el a
+               mulatságomat.</p>
+            <p>S ezen a tréfán évődtek aztán egész este, a vacsora alatt is, s mikor eljött az
+               ideje: a férj ment a maga lakosztályába, a nő is a magáéba. A Bélácska szokás szerint
+               az apjával akart aludni menni; de az azt mondta neki; „Csak maradj te ezentúl az
+               anyádnál: reggel nem találnál oda hozzá.”</p>
+            <p>Éjszakán alig hogy elcsendesült a ház, roppant nagy dörömbözésre ébredt fel minden
+               ember. A zaj Lomniczy ur szobájából jött: ugy tetszett, mintha a házi ur egész banda
+               zsiványnyal dulakodnék. Asszony, szobalyány, paplannal a nyakában, instruktor
+               stiléttel, inas puskával, szakács palacsintasütővel rohantak a megtámadottnak vélt
+               segitségére s mikor benyitnak hozzá, ott találják az ágyaszélén ülve egyedül az urat.
+               A szobában szétszórva hevert csizma, famacska, gyertyatartó, a miket az ajtóhoz
+               hajigált. - Egészen ki volt kelve képéből.</p>
+            <p>- Az Istenért! mi történt? kérdé a felesége.</p>
+            <p>Lomniczy pedig nagyon restellte a dolgot, hogy annyi ember összeröffent, s még ő neki
+               állt feljebb. Zsémbelni kezdett, hogy az inas nem hozott neki éjszakára friss ivó
+               vizet, s minthogy ebben az uj háló szobában nem talált rá a csengetyüzsinórra, azért
+               hajigálta a csizmáit az ajtóhoz; most menjen mindenki az ágyába s neki hagyjanak
+               nyugtot.</p>
+            <p>Azonban a hangjának a reszketése elárulta, hogy valami másnak kellett itt történni: -
+               annyival inkább, minthogy az ivó viz is ott állt az éji szekrényen, a csengetyüzsinór
+               is ott csüggött az ágya fejénél.</p>
+            <p>Ő azonban szigoruan megtiltotta, hogy erről a mai dörömbözésről valakinek emlitést
+               tegyenek.</p>
+            <p>Hanem ettől a naptól fogva mintha kicserélték volna. Magába zárt, buskomor lett: alig
+               lehetett szavát venni. A mit soha sem szokott, ebéd után feküdt le alunni. Az inasa,
+               a ki a földszinten épen az ura háló szobája alatt szokott alunni, azt beszélte, hogy
+               az ur mindég éjfél után felkel, csizmát huz s nagy dobogó lépésekkel jár fel s alá a
+               szobában; s néha a szavát is hallani, mintha kérdezne valakitől valamit: mintha
+               kiparancsolna a szobájából valakit. Egy reggel pedig, mikor még az ur aludt, a
+               szobájába benyitó inas a vadászkést az ajtóba furva találta: mintha valakinek utána
+               hajitották volna. S az ur rendkivül haragos volt, a miért azt az inas észre
+               vette.</p>
+            <p>Hanem akkor aztán komolyan kérdőre fogta a felesége s egész szivszerinti nyájassággal
+               kivallatta a férjét, hogy mi történt vele?</p>
+            <p>- A „czifra asszony.”</p>
+            <p>- Megjelent előtted?</p>
+            <p>- Minden éjjel. Mindig ugyanegy órában. Pedig én nem vagyok se képzelődő, se
+               holdkóros. Semmi bünömet sem tudom, a miért valakinek a halottja boszut álljon
+               rajtam. Bántja a büszkeségemet, hogy a babona, a mi parasztnak való, engem is
+               megnyergeljen. De ott áll előttem minden éjjel s nem tudom elkergetni. Ébren vagyok;
+               megmosom az arczomat, s mikor meg akarom törülni, nem veszem észre, hogy az ő halotti
+               köntöse akadt a kezembe, abba törülközöm.</p>
+            <p>Az asszony megijedt. Azt hitte, hogy ez kedélykórság. De eltitkolta a rémületét. Még
+               derült kedéllyel mondá:</p>
+            <p>- Óh, ez ellen én igen egyszerü házi szert tudok. Meghivunk a környékből egynehány jó
+               barátot, s a hogy más tisztességes ember szokott tenni: egész éjjel eltarokkoztok ott
+               abban a te megbabonázott szobádban.</p>
+            <p>Ez a házi orvosság csakugyan jó prophylacticus szer a kisértetek ellen. Ugyan a
+               tarokkozók is szoktak babonákat hinni: vannak, a kik félnek a „rossz bibicz”-től, a
+               „szurokmadár”-tól (Pechvogel), a kik a harmadik ultimo után helyet huznak, de a
+               „dámá”-tól nem félnek: azt letenni jó: Sőt ismerek olyan tarokk celebritást, a ki
+               négy dámával a kezében kimondta a „szólót.” Nem! a czifra-asszonytól a tarokkozók nem
+               félnek.</p>
+            <p>Tehát az történt, hogy a soha nem kártyázó Lomniczy egyszerre csak elkezdett
+               szenvedélyes tarokkistának felcsapni: még pedig az „ugrándozó” fajtából, négy
+               tarokkal, nyolcz szinnel megjátszta a „kettőst”; kilencz tarokkal az ultimot, kétféle
+               vulpessel bevágott a solóba, s rekontrázott ötödik vételre. Tetszik tudni ugy-e bár,
+               hogy ezek micsoda dolgok?</p>
+            <p>(- Hogy ne tudnám? hiszen abból élek.)</p>
+            <p>- Vesztett is eleget, ugy hogy kezdték „kész pénz bácsi”-nak csufolni; de hát azzal
+               nem törődött. Kész nyereségnek vette, hogy agyonverhetett egy éjszakát a másik után.
+               Mindig volt tiz-tizenegy összekötött kettős a táblán (tetszik érteni?), ugy hogy
+               reggelig nem lehetett abba hagyni.</p>
+            <p>Ez hát igy ment valami egy hétig.</p>
+            <p>Egyszer megint hozzá ültek a játékasztalhoz, jól megvacsorálva elébb: csak még a thea
+               volt hátra, a mit egész éjjel fogyasztottak. Lomniczy megint beugrott: kérte a
+               talont. Az osztó egymás után felvágott neki négy dámát.</p>
+            <p>- Ejnye, bizony ha még egy ötödik dáma volna, azt is nekem adnád! - mondá rá
+               tréfálkozva.</p>
+            <p>Erre a szóra belép az inas, egy tálczával a kezében, azon hoz nyolcz findzsát, a
+               szamovárt, czukortartót, tejszines ibriket, rhumos palaczkot. De ugyanabban a
+               pillanatban az átelleni ajtó is megnyilik, s erre olyan légvonat támad, hogy minden
+               gyertyának a lángja lefelé csapódik s a kártyák szétrepülnek az asztalról. Az inas
+               elorditja magát: „Jézus, Mária, szent József!” S kiejti a kezéből a tálczát, minden
+               porczellánostul: Lomniczy pedig elmeredve bámul maga elé, az átelleni ajtónyilás
+               sötétjébe. - Megkapta az „ötödik dámát.”</p>
+            <p>Mind felugráltak az asztal mellől; Lomniczy aléltan hanyatlott hátra a karszékébe:
+               magán kivül volt; le kellett őt fektetni. Éjjel futtattak a városba orvosért.</p>
+            <p>A jelenvoltak valamennyien mind esküdtek rá, hogy ez valóság volt: az egyik látott
+               belőle valamit, a másik a hangját hallotta, a harmadik valami megnevezhetlen sirbolti
+               dohot érzett; de leghivebb tanu volt az inas, a ki semmit sem szólt, csak a foga
+               vaczogott össze, ha kérdezték, mit látott. Hiszen ok nélkül csak nem dobta el a
+               kezéből azt a sok drága theás edényt.</p>
+            <p>Ez már több a tréfánál!</p>
+            <p>A minek annyi ember tanuja volt: annak nagy hamar hire futott. Egész szenzatiót
+               keltett az a vidéken. A ki nem akarta hinni, azt megverték.</p>
+            <p>Mikor már a közönség kidisputálta magát e rémjelenet lehetősége fölött, fogja magát
+               két fiatal katonatiszt (főhadnagy mind a kettő): „No, majd megfogjuk mi azt a czifra
+               asszonyt”!</p>
+            <p>Még olyan „czifra asszony” nem volt a világon, a ki egy főhadnagy szobájába
+               büntetlenül be mert volna lépni.</p>
+            <p>Szabadságot kértek a várparancsnoktól (K.... várában volt a garnizonjuk) egy pár
+               napra. S kihajtattak a nem messze levő Lomniczy kastélyig.</p>
+            <p>Egyenesen elmondták odajövetelük czélját: komoly dolgot csináltak belőle. Ebben a
+               kisértet históriában valami szemfényvesztésnek kell lenni. Az ujabbkori büvészet
+               olyan tökéletességre vitte már e tudományt, hogy valóságos boszorkányságot űz vele.
+               Spiritisták, lélekidézők mind, vagy szándékos ámitók, vagy professionatus komédiások:
+               hátha van valakinek valami czélja azzal, hogy e kastély urait elrémitse? - ők ketten
+               majd rájönnek e kisértetjelenés titkára: csak engedjék őket egész erélylyel hozzá
+               látni.</p>
+            <p>Lomniczy nem akart beleegyezni; de a neje rávette, hogy engedje a két katona vendégét
+               abban a kisértetjárat szobájában hálni.</p>
+            <p>Vacsora után a két főhadnagy eltávozott: Lomniczy ezuttal a neje szobájába vonult
+               alvásra.</p>
+            <p>(Nem állhattam meg, hogy ennél a szónál félbe ne szakitsam az elbeszélő hazafit: „De
+               ugyan mért nem tette ezt hamarább is?”)</p>
+            <p>- Miért ám? Hiszen én is azt kérdeném nyomban. Nem tudok rá más okot gondolni, mint
+               hogy nem akarta, hogy a kisértet még oda is utána menjen, s még a nejét és a kis fiát
+               is megrémitse. - Pedig az oda csakugyan nem ment utána. - Nem üldözött az mást, csak
+               azt, a ki ama szobát foglalta el, melyben őt ártatlanul meggyilkolták. Éjfél után egy
+               pisztolylövés csattanása verte fel az alvó kastélyt. - Mindenki oda futott a háló
+               szobába, a hol a két katonatiszt hált. - Az egyik a pamlagon feküdt, a másik az
+               ágyon. - A pamlagon fekvő tiszt mély álmából ébredt fel a pisztolydurranásra, s a
+               golyó által összezuzott fali tükör cserepeinek a hullására. - Az ágyban fekvő
+               főhadnagynak még kezében volt a kilőtt pisztoly: s még többször is lőni akart vele:
+               felhuzta, meg elcsettentette: szemei mereven bámultak a semmibe.</p>
+            <p>Meg volt őrülve.</p>
+            <p>(- Uram, ön rettenetes dolgokat beszél itten!)</p>
+            <p>- Nem én. Csak a mi megtörtént. Annyira megháborodott, hogy meg kellett kötözni. Ugy
+               szállitották a várba vissza. Ott hagymázba esett. Gyógyitotta azt mindenféle doktor:
+               még Bécsből is hoztak le kettőt. De még csak a betegségének a diagnozisát sem tudták
+               megállapitani. Nem hallotta azoknak a kórtüneteknek soha senki hirét. Hatodnapra
+               meghalt. A nélkül, hogy egy árva szóval is elmondta volna, hogy mit látott azon az
+               éjszakán.</p>
+            <p>(- Kérem: - van még ebbül a történetbül több is hátra?)</p>
+            <p>- Még két szivarom van, a mit kiszivok, azzal vége lesz. Ezt még meg kell önnek
+               hallgatni.</p>
+            <p>Az én hajdani czimborám folytatá rendíthetlen nyugalommal a rémmesét.</p>
+            <p>- Csodálom, hogy nem ismeri ön azt a történetet: hiszen le volt irva a Győri
+               Közlönyben, a hol még a főhadnagyok is névszerint fel voltak sorolva. Az, a ki ily
+               gyászos véget ért, egyetlen fiivadéka volt egy előkelő stájer családnak. Ez eset után
+               még a legskeptikusabb filozófus emberek is azt tanácsolták Lomniczynak, hogy hagyja
+               oda azt az elátkozott kastélyt, legalább egy időre: menjen fürdőre, vagy induljon
+               utazni Skócziába.</p>
+            <p>- De Lomniczy makacs természetű ember volt: vagy talán vonta valami fátum. Azt
+               mondják, hogy vannak lunátikus emberek, a kiket a holdvilág felcsal a ház tetejére
+               éjszaka, mezitláb sétálni. Ezek sem tehetnek róla. Ámbár minden logika ellen van,
+               hogy egy ember, a ki nem cserépfedelező, a háztetőkön sétáljon: még is ösztönözve
+               érzik magukat ez indokolhatlan eljárásra. Ilyenforma lehetett Lomniczynak az a
+               végzetes vágyakodása, csak azért is megtartani hálószobájául a megölt asszony
+               termét. Nem akart félni. Aztán mitől? Egy semmitől! Egy agyrémtől! Hiszen gyermek az,
+               a ki meg hagyja magát ijeszteni azzal a szóval, hogy „jön a mumus”!</p>
+            <p>Pedig hát ezuttal épen a gyermekszív volt az, a mi nem ijedt meg.</p>
+            <p>Emlitém, hogy Lomniczynak volt egy kis fia, a ki azelőtt, mig a tiszttartói lakban
+               tanyáztak, az apja mellett szokott aludni.</p>
+            <p>A czifra asszony kisértetregéjét már minden cseléd beszélte: a kis fiu is meghallotta
+               azt, s akkor aztán addig nyügösködött az apja, anyja nyakán, hogy engedjék meg neki,
+               hadd háljon ő a papával; majd ő olyan szépen fog imádkozni, hogy a kisértet nem jön
+               oda: hiszen benne van az imádságban: „Ne vigy minket a kisértetbe!” mig engedtek az
+               okos gyermeki beszédnek, s Lomniczy magához vette éjszakára a kis fiát az
+               ágyába.</p>
+            <p>És attól fogva nem háborgatta őt a czifra asszony.</p>
+            <p>Ugy ébredt fel, azon az oldalán fekve, reggel, a melyiken este elaludt. A kis gyermek
+               karja a feje körül füződött, fejecskéje a vállán feküdt; kölcsönadta az apjának az
+               álmát.</p>
+            <p>Hát nem szép költői gondolat ez, barátom uram! A kisértet egy nő. Mindenkit üldöz,
+               ijesztget, öldököl erős férfiakat; hanem a mikor egy kis gyermeket lát maga előtt,
+               akkor megenyhül a haragja. Ha fölkel, odajön éjféli órában, rátakargatja a kis alvóra
+               a lecsuszott paplant, megcsókolja és odább lebben.</p>
+            <p>Ezt ön igy irná meg ugy-e, ha valami románczot csinálna belőle? A női gyöngédség még
+               a kisértet szivét is uralja.</p>
+            <p>Hanem hát ez csak poézis, a mit a valóság meghazudtol.</p>
+            <p>... Ejnye, de imfámis rosszul ég ez a szivar: pedig kiállitási speczialitás!
+               Megengedi ön, hogy egy másikra gyujtsak?</p>
+            <p>No hát - a hogy mondom: a valóság meghazudtolja a poézist. A kisértetnek nincs
+               irgalmat érző szive: nincs nála gyöngédség, kegyelem, kiengesztelődés. Negyvenedik
+               napjára az első megjelenésnek reggel halva találták Lomniczyt az ágyában. Vérömlés
+               ölte meg, mint Attila apánkat.</p>
+            <p>(- S ön ezt nevezi valóságnak, a mely a poézist meghazudtolja?)</p>
+            <p>- Igy történt: ezen módon. Ezt én bizonyára nem most találtam ki az ön
+               szórakoztatására, sem pedig a rosszul égő szivarom miatt elkeseredésből. Halva
+               találták a derék, erőteljes férfit az ágyában. Hiszen nagy hire volt annak!
+               Ólomkoporsóba vitték a hulláját haza az őseihez sárosi sírboltjába: ott aluszsza örök
+               nyugalmát. Az özvegye egy napig sem maradt tovább a kastélyban, rögtön összepakolt,
+               a kis fiával együtt felköltözött Bécsbe; a jószágát áruba bocsátotta s mihelyt vevő
+               akadt rá: azt sem kérdte, kicsoda-micsoda? aláirta a szerződést: a többit az
+               ügyvédjére bizta. A kastély egészen ingyenben maradt az új birtokosnak.</p>
+            <p>- Az új birtokos - valljuk meg igazán - egy bécsi bankár volt. Éktelen gazdag Dárius
+               ember. A ki csak úgy komázik szerencse istenasszonynyal. Ezeres bankóval gyújt
+               szivarra. Azt mondják, hogy Bécsben az volt a legnagyobb gyönyörüsége, hogy a
+               pénzestárczáját a külső kabátzsebébe dugva, belevegyült a kohlmarkti sokaságba s
+               aztán nagyon mulattatta, ha a tárczáját kicsenték a zsebéből. Hires volt a börze
+               manövereiről. Egyszer haussera, másszor baissera dolgozott. Először meggründölt egy
+               nagy vállalatot, aztán lánszirozta, tovább passzirozta, végre konterminozta s igy
+               nyerte a milliókat. Tudott is velök élni! Nagy Lebemann volt. Az opera komikban ő
+               tartotta az egyik proscenium-páholyt, a melyikből fölfelé kell nézni a szinpadra. A
+               leghiresebb bolondságokat ő rendezte. Hagyjuk neki azt a nevet, hogy „Lebemann
+               Alfréd”.</p>
+            <p>Én bizony megvallom igazán, hogy nehéz szivvel látom, mikor egy-egy ősi magyar család
+               jószága a másik után gazdát vált. Tudom ugyan, hogy abból az idegenből is jó hazafi
+               lesz időjártával; de csak még is nehezen esik hozzászoknom, hogy a mit őseink
+               lóháton, karddal és kopjával a kezükben meghóditottak, azt a földet az idegen egy
+               paruplival a kezében ragadja el tőlünk. Azonban utólag még is jól esett, hogy igy
+               esett: a bécsi bankár ezt a birtokot is csak spekuláczióra vette: rögtön
+               parczellázta, harminczévi törlesztésre elárusitotta: én is ugy jutottam belőle egy
+               kétszáz holdas taghoz; de én hála Istennek, az első esztendőben kifizettem az egész
+               árát; akkor nagy termés volt: tizenkét forintos buzaár, nem tartozom senkinek. Hát
+               nekem, meg több apró gazdáknak egész javunkra vált az a birtokcsere. Lebemann bankár
+               nem tartott meg a birtokból magának egyebet, mint a kastélyt meg a hatszázholdas
+               parkot és vadaskertet. Az nem kellett senkinek. Hét forint luxus adó a parktól
+               holdankint; no köszönöm szépen. Ő azonban megengedhette magának ezt a költekezést;
+               mert ezen az üzleten is nyert száz perczentet netto.</p>
+            <p>Ő is tudta azt jól, hogy ehhez a kastélyhoz micsoda kisértetes hagyomány van füzve:
+               épen ez csiklandozta az inyét szörnyüképen.</p>
+            <p>Itt, a kisértetek elhirhedett tanyáján tartani egy nevezetes dáridót. Ennek van
+               valami pikáns zamatja. Egy olyan lakomát, a melyen száz arany egy kúvert; van minden:
+               csemegék, a melyeket esznek, és csemegék, a melyek maguk is esznek. Tizenegy bonviván
+               gavallér jött le vele Bécsből: mind válogatott sportszmenek és börzebárók. És
+               tizenkét elegáns hölgyecske a balletkarból a szimmetria végett.</p>
+            <p>Hej, ha ön olyan szépen tudna ilyesmit leirni, mint azok a franczia regényirók, a
+               kiket mi olyan kedvtelve olvasunk ott falun (mikor a feleségünk nem látja), - ez
+               volna az igazi tárgy.</p>
+            <p>Egy orgia a kisértet tanyáján!</p>
+            <p>Ezekkel tessék megküzdeni madám „czifra asszony!” Ezzel a féktelen vihánczoló
+               csoporttal, mikor a kiivott poharaikat a falhoz verik s ugy hivják a kisértő
+               szellemet: „Ide hozzánk! szép asszony a tulvilágról! Itt van egy üres szék, itt egy
+               tele pohár a te számodra is! Igyál, mulass, kaczagj velünk! Tanulj élni! Éljen a
+               kisértet!”</p>
+            <p>Az óra tizenkettőt üt. Az ajtó megnyilik. A lármás had elnémul, de a következő
+               perczben még nagyobb vihongásban tör ki; hisz az éjféli kisértő nem suhanva közelgő
+               rémszellem, hanem a bizalmas komornyik, ki az urának ezüst tálczán hoz egy
+               táviratot.</p>
+            <p>Távirat! Éjfélben? - Azt bizony K... városból hozta egy lovas staféta. Nagyon sürgős
+               lehet. Bécsből érkezett, gyors továbbitás utasitása mellett.</p>
+            <p>Alfréd ur engedelmet kért a vidám társaságtól, hogy egy perczre a szobájába vonuljon
+               a kapott táviratot elolvasni.</p>
+            <p>- No, csak el ne kapjon a czifra asszony odabenn! - kiáltanak utána a dőzsölők
+               gunyolódva.</p>
+            <p>Tizenegy pár ott maradt a tivornya teremben, a tizenkettedik fele, a magányosan
+               hagyott bacchansnő, nem tehetett okosabbat mint hogy a többiek mulattatására
+               felugrott az asztal közepére s szilaj merészséggel lejtette a pohártánczot, a mivel a
+               dobzódókat még frenetikusabb őrjöngésbe hozta.</p>
+            <p>Egyszer aztán a mámoros zsivajt egy csattanó dörgés szakitá félbe.</p>
+            <p>A pisztolylövés a bankár hálószobájából jött.</p>
+            <p>Mi volt ez?</p>
+            <p>A hölgyek egyszerre ijedten huzódtak egy csoportba, nagy kendőikkel takargatva
+               ludbőrző tagjaikat: a férfiak szájában is elakadt a dal.</p>
+            <p>- Ejh, mit? - kiálta közülök a legbátrabb. - Alfréd most meg akart bennünket
+               tréfálni.</p>
+            <p>Azzal odarohantak kaczagva a háló szobájába.</p>
+            <p>Ott aztán abbahagyták a kaczagást.</p>
+            <p>Lebemann Alfréd ott feküdt az ágy előtti medvebőrön elnyúlva, keresztül lőtt fővel.
+               Jobb kezében a revolver, baljában a távirat.</p>
+            <p>Felvették a táviratot s a következőket olvasták belőle.</p>
+            <p>„Seeschiffart maga után rántott minden vállalatot. Általános panik! Krach! Holnap
+               másfél millió differenczia fizetendő. Pénztáros kasszával elszökött.”</p>
+            <p>De ezzel ugyan a többi tizenegy uraság is meg volt lőve.</p>
+            <p>Ezzel a szóval az ő papirváraikat is szétfujta a szél.</p>
+            <p>Egyszerre kiment a mámor valamennyinek a szeméből. Nem kellett már nekik szép leány
+               csókja; se esszbukéval kevert pezsgő; orczátlan dal, csábitó táncz: futott valamennyi
+               ki a kastélyból, felverni a kocsist álmából: fogatni, vágtatni a legközelebbi vasuti
+               állomáshoz. A dévaj hölgyek is siettek felkapkodni, ki mit talált az útiköntöséből,
+               hogy itt ne felejtsék őket: a Sachertól hozott pinczérek sebtén takaritották össze az
+               ezüstnemüt és porczellánt: reggelre üres volt a kastély. Csak az agyonlőtt uraság
+               maradt ott a czifra asszony szobájában, egyedül, végig nyúlva a padlón, a mig este
+               felé előkerült a szolgabiró, meg a törvényszéki jegyző, hogy felvegyék az esetről a
+               protokollumot.</p>
+            <p>No hát ki tudta seperni a kastélyból a „czifra asszony” az egész bacchanált,
+               úgy-e?</p>
+            <p>Ez pedig olyan igaz történet, mint a milyenről csak valaha szolgabiró protokollumot
+               vett föl s rányomta a pecsétjét.</p>
+            <p>Nem hiába mondja Göthe (vagy nem Göthe mondja?), egy szóval egy okos német, hogy:
+               „Sok dolog van még a világon, a miről a bölcsek nem is álmodának”.</p>
+            <p>,... De már csakugyan nem szívom tovább ezt a szivart, mert úgy büzölg, mint a tőzeg;
+               pedig „Cuba flór” volna.</p>
+            <p>A többit, a mi a kastélylyal történt azóta, három szóval elmondhatom.</p>
+            <p>A krach, tetszik tudni, teljes mértékben beütött. Nekem, hála Istennek, nem volt
+               egyéb papirosom, mint egy pár magyar duna-gőzhajózási, egy pár bajai kiházasitási,
+               egy nehány tisza-tüzkárbiztositási, öt darab balaton-boglári gőzkompozási részvényem.
+               Azokkal a kerti filagoriám belsejét igen szépen kitapetiroztam: a couponjaikat pedig
+               czigarettnek használom; hanem azok a szegény Lebemannok bizony mind Sterbemannok
+               lettek, a kik ott a „czifra asszony”-t inzultálták.</p>
+            <p>A kastély és a park kótyavetyére került. Potom áron vette meg egy spekuláns. Valami
+               spiritusfábrikáns.</p>
+            <p>Ez aztán prakticze fogott hozzá a kisértet kiküszöböléséhez. Az egész kastélyt
+               átalakitá szeszgyárrá. A nagy parkot pedig kivágatta: eladta ölfának; a telket
+               köles, burgonya és tengeriföldnek használja, abból főz spirituszt.</p>
+            <p>És igy jelenleg a szellem ellen küzd a szesz: az egyik spiritus ellen a másik
+               spiritus.</p>
+            <p>De meglássa ön: (kivánom, hogy rossz próféta legyek) az a felingerelt kisértet még
+               ennek a spiritusznak is ki fogja törni a nyakát. </p>
+            <p>Eddig tartott az én régi barátom elbeszélése.</p>
+            <p>Én elvégre is csak azt ismétlem, hogy daczára annak, miszerint ez mind való történet:
+               az egésznek az összefüggését lehetetlennek tartom; hanem hogy a szeszgyárosoknak a
+               rémmese utolsó szakaszával nem ütöttem-e szeget a fejükbe? azt nem tudom: azok aligha
+               el nem hiszik a „czifra asszony” boszuját a mostani keserves antispiritista viszonyok
+               között....</p>
+         </div>
+      </body>
+  </text>
+</TEI>
