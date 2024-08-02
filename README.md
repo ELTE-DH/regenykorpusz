@@ -2,12 +2,17 @@
 
 The ELTE Novel Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 400 Hungarian novels. Besides the texts, the corpus contains the annotation of structural units and the grammatical features of words in TEI XML format. The novels of the corpus are from the 19th century and from the first half of the 20th century.
 
-## Numeric properties:
+## Numeric properties (level2):
 
+The numbers below present the numeric properties of the level2 novels. The novels of level1 are currently being expanded. 
 - number of novels: 400
 - number of authors: 119
 - number of tokens: 26.8 million
 - number of words: 21.4 million
+
+## Metadata of the novels:
+
+The level1\_metadata.tsv file contains the main metadata for level1 novels and the level2\_metadata.tsv file contains the main metadata for level2 novels. WARNING: Since level1 novels are currently being expanded, it is possible that the level1\_metadata.tsv file is not up to date, that is, some novels added newly are not included in the TSV file.
 
 ## TEI Levels
 
