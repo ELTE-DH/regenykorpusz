@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf8"?>
-<?xmlmodel href="http://www.teic.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xmlmodel href="http://www.teic.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="HU09002" xml:lang="hu" xmlns="http://www.teic.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU09002" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
   <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -11,7 +11,7 @@
                   <surname>Dugonics</surname>
                   <forename>András</forename>
                </persName>
-               <date from="1740" to="1818">17401818</date>
+               <date from="1740" to="1818">1740-1818</date>
                <idno type="VIAF">15639984</idno>
             </author>
             <respStmt>
@@ -35,7 +35,7 @@
          <sourceDesc>
             <bibl type="digitalSource">
                <title>Cserei, egy honvári herceg</title>
-               <date>20100308</date>
+               <date>2010-03-08</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
                <ref target="https://mek.oszk.hu/09000/09002/"/>
                <respStmt>
@@ -1850,7 +1850,7 @@
                         küldi, kiis ne más lögyön; hanem egyedűl az, kia’rúsaszínt
                         leghatalmasabban szereti.</p>
                <milestone n="2" unit="startSubChapter"/>
-                     <head>§. II. Örömváltozás.</head>
+                     <p rend="head">§. II. Örömváltozás.</p>
                      <p>Nem löhet azt Csereiről mondani: hogy (a’ Kisaszszonnak ajándékjait, és
                         hozzávaló több hajlandóságait vévén) érzéketlen lött vólna irántok. Igenis
                         szerette Őrkénnek ajándékjait; de ezeknél magát inkább kedvellötte, és
@@ -1970,7 +1970,7 @@
                         ebben igen gondatlan. Taksonnak inassai azt mondották Őrkénnek: vígyázna
                         életére: mert édös attya gyanús, ezen kívűl keményis.</p>
                <milestone n="7" unit="startSubChapter"/>
-                     <head>§. VII. Hírtelen Ítélet.</head>
+                     <p rend="head">§. VII. Hírtelen Ítélet.</p>
                      <p>Ily habok között lévén a’ Budai Udvar, senki se tudott mihez tartani.
                         Taksonnak eszébe nem foroghatott más: mint az atyai hatalomnak mögsértésse
                         (mivel leánya ellenére dolgozott), és ennek mögboszszúlássa.
@@ -2758,7 +2758,7 @@
                         reménységét az Özvegybe tötte. Előadta a’ Jó akarónak elkárhoztatássát,
                         maga szavainak foganatlanságát, és a’ harmad napi tüzes bűntetést.</p>
                <milestone n="3" unit="startSubChapter"/>
-                     <head>§. III. Oltalmazás.</head>
+                     <p rend="head">§. III. Oltalmazás.</p>
                      <p>Ezt az istentelenséget hallván az Özvegy, szörnyűképpen eliszonyodott.
                         Sajnállotta Jótévőjének iszonyatos halálát. De tudta egyetemben a’
                         Csillagosoknak azon kegyetlenségjöketis, melyekkel élnek, ha valakire
@@ -3253,7 +3253,7 @@
             </div>
          </div>
          <div type="group">
-            <p rend="head">HARMADIK SZAKASZ.</p>
+            <head>HARMADIK SZAKASZ.</head>
                   <head>A’ Történetnek alkonyodtta.</head>
                      <p>I. Cserei Zegeden.</p>
                      <p> II. Őrkény történetei.</p>
