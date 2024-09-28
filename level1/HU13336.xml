@@ -1,0 +1,2174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU13336" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>A "pénzes molnár" románca</title>
+				<author>
+					<persName>
+						<surname>Abonyi</surname>
+						<forename>Lajos</forename>
+					</persName>
+				   <date from="1833" to="1898">1833-1898</date>
+				   <idno type="VIAF">68652301</idno>
+				</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">21034</measure>
+				<measure unit="pages">48</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+					<title>A "pénzes molnár" románca</title>
+				   <date>2014-10-03</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+				   <ref target="https://mek.oszk.hu/13300/13336/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+					   <name>Szabó Andrea</name>
+					   <name>Fucskó Anna</name>
+					   <name>Baloghné Bárdos Katalin</name>
+					   <name>Borcsiczky Krisztina</name>
+					</respStmt>
+					<bibl type="printSource">
+					   <title>A "pénzes molnár" románca</title>
+						<author>Abonyi Lajos</author>
+						<pubPlace>Budapest</pubPlace>
+					   <publisher>Singer-Wolfner</publisher>
+						<date>1889</date>
+					   <ref target="https://mek.oszk.hu/13300/13336/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+				   <title>A "pénzes molnár" románca</title>
+				   <author>Abonyi Lajos</author>
+					<date>1889</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T3"/>
+			</ns1:eltec>
+		</xenoData>
+		<revisionDesc>
+			<change when="2024-09-28"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+         <div type="chapter">
+            <head>I.</head>
+            <p>Barcshidán nagy lakodalom volt. Falun ez még mindig nagy esemény, nemcsak azért,
+               mivel a jó, szelid erkölcsök, a jámbor egyszerüség, a hit bizalmának hatása alatt
+               ezen, az egész életre befolyásos pillanatokat valóban a boldogság első napjának
+               tekintik, hanem azért is nagy esemény, mert az egész falu ünnepi szint ölt; a szerény
+               nádfödéltől kisugárzó örömet mindenki magáévá teszi; hogy János Katit elvette, az
+               által mindenki érdekelteti magát. Vége-hossza nincs a vigasságnak, Kuku klarinétja
+               beharsogja a falut az alvégtől a felvégig, a fölszalagozott, fölbokrétázott
+               legények, kezükben a kalácskoszorúzta palaczkkal, szilajon szökdösve rugják a port,
+               az iszapos vizhez hasonló uj vinkót a világért sem ócsárolják, sőt tőle kerekedett
+               széles jókedvükben kettős fojtásokkal durrogatnak a rozsdás pisztolyokból; valamennyi
+               komaasszony, szomszédasszony egész szenvedélylyel lát a sütkérezéshez, erre az egy
+               napra mindenik menyecskévé teszi magát, elhatározottan mulatni, boldog lenni készül.
+               Valóban boldog is mindenki, egész addig a vihogó gyermek-csőcselékig, s addig a
+               növendék leányseregig is, kik a lakodalmas ház keritésén kivül az utczán a
+               gazduramnak kapujáig, ablakáig tolonganak, kiknek pedig nem jut egyéb a mulatságból,
+               mint hogy hallgathatják a muzsikát, bámulhatják a czifra tánczosokat, s irigyelhetik
+               azokat a jóféle füszerszámos ételeket, melyeknek illata muzsikaszó mellett
+               illeg-billeg hozzájuk a levegőben. Bizonyára ha az ember a maga mulatságával nem
+               lenne elfoglalva, még ráérne megsajnálni őket, mint törik magukat tátott szájjal,
+               meredő szemekkel, csak hogy a látásból is jusson ki valami. No, de Katlan Balázs uram
+               is, bármilyen nagy gazda is, még sem csőditheti be az egész falut a fia lakodalmára;
+               meg a mellett bármilyen rossz, mégis csak régi, s mivel régi, tehát igaz példabeszéd,
+               hogy: «a hivatlan vendégnek ajtó mögött a helye;» elég szép az is, hogy ilyen nagy
+               «möge» van az ajtajának.</p>
+            <p>De voltaképpen miért volt hát nagy lakodalom a Katlan Balázs Jánosának lakodalma?...
+               Miért? Hát azért, mert az mégis csak sokkal különb volt, mint más afféle
+               parasztlakodalom; mert a kőkéményü ház előtt tiz öl hosszú ponyvasátor volt vonva,
+               melybe csak annyi lélek beleférhetett, mint a templomba; ezen sátort a harangozó - ki
+               ezt a művészetet az úrnapi diszitéseknél tanúlmányozta - galyakkal, virágokkal
+               czifrázta föl, hogy méltó legyen a behivott diszes úri vendégek elfogadására; mert
+               Katlan Balázs uramhoz nem csak a plébános úr, a kántor, a jegyző urak voltak
+               hivatalosak, hanem mind a tizennégy úri familia: hogy ne lett volna hát nagy
+               lakodalom a Katlan Balázs Jánosának a lakodalma, mikor az a tizennégy úri familia nem
+               csak meg volt híva, nem csak megjelent a legapróbb úrficskáig, hanem mulatott széles
+               jókedvvel. Az «uram bátyám»-ok öblös tajtjaikból kedvükre füstöltek, és nevetgéltek
+               az alkalmi csintalan adomákon; a taréjos-főkötős tekintetes asszonyoknak alkalmuk
+               nyilt egy-egy új puczczot bámulni és bámultatni, rostára venni a vidéket,
+               meg-megakadván szálain egy-egy történetecske, melyet igy társaságban még sokkal
+               érdekesebb meghányni-vetni; a kisasszonykák tánczért esengve, hevülve ragyogtak,
+               talpacskáik viszketett és szivecskéik dobogtak, mert nem egynek köztük még a mai nap
+               is alkalmat nyujtott a sziv ifjának karjain a tánczban, tánczon kivül összeolvadó
+               sohajtásokban egészen tikkadttá olvadni; a sziv ifjai pedig - a mamák gyönyörüségére
+               - magukat egészen az udvarlásnak szentelték; példaszó szerint: «a ház tetején levő
+               zsindely» iránt érzett tekintetből, csak lopva mertek tekintgetni a parázsszemü
+               parasztmenyecskék s jól termett parasztleányok egészséges szépségeire. A kis urfiak
+               pedig agyonra ették és agyonra ugrálták magukat.</p>
+            <p>Ámde Katlan uramnak a legnagyobb büszkesége az volt, hogy fia lakodalmán a grófné is
+               megjelent, a legszebb, legmagasabb rangu uri hölgy a vidéken.</p>
+            <p>Katlan Balázs uram ezt ugy fejezte ki: megalázta magát szegény házához: pedig nem ugy
+               volt, annak legkisebb tekintetén, mozdulatán nem volt semmi oly szinezet, mely ezt
+               láttatni, éreztetni czélozott volna, s miután egészen jól érezte e körben magát, azt
+               sem lehete róla mondani, hogy a látvágy kiváncsisága hozta e helyre, mert az
+               időtöltés kellemetességét nem csak környezőivel éreztette finom, nyájas
+               beszédességében, hanem éreztette magával is, a mennyiben tiszta szivéből
+               gyönyörködött mindenen, a mit látott; és valóban mulatott.</p>
+            <p>Mint egy üvegházi szép és ritka virágpéldány vált ki a szép, de mindennapi virágok
+               tarkaságából; nem a kamélia büszkesége, hanem a tubarózsa gyöngéd finom föltünése
+               volt az, a mivel kivált, nem a rang, nem a fény elegancziájában, hanem szépségének az
+               egyszerü, utánozhatlan csín által övezett bájában sugárzott azon fölény, melylyel
+               kimagaslott.</p>
+            <p>A szépség és az egyszerü csín volt az, mely annak a hattyunyaknak ékszer nélkül, a
+               szőkefürtös angyalfőnek diadém nélkül fönséget adott, s az egyszerü tarlatán ruhával
+               a kora huszonegy évnek megadta az uralkodás hatalmát. E büvhatalom a szemek
+               tekintetéé, az ajkak mosolyáé, melyeken a sziv és ész kifejezései tündöklenek.</p>
+            <p>És hogy el tudott mindenkivel beszélni! Gereczey Boldizsár urral egész gazdászati
+               vitát folytatott a repczetermelésről; mig tanácsa egy részét szivesen fogadta, addig
+               nem egyben meg is czáfolta az öreg Liciniust; Karmayné tekintetes asszonynyal a
+               magyaros étkek szakácskodásába merülve is, rést tudott találni az anyai szivhez, a
+               kis Rózát megdicsérni s tüzetesen részletezni, mily szinek és mily öltözési modor
+               emeli legjobban a kedves, serdülő leányka szépségeit.</p>
+            <p>Milyen figyelmes, mily udvarias volt mindenkihez! A kis Róza fürtein mig jószivvel
+               odalebbent a virágot megigazitani, időt vett arra is, hogy Jusztinkát egy fodra
+               elszakadására figyelmeztesse, vagy éppen Bellát intse, hogy fölhevülésében az
+               ajkaihoz emelt pohár vizet távolitsa el; s a mint megdorgálta Batkay Laczit a vizes
+               udvariasságért, ugyanakkor egyszersmind, ha már táncosnőjétől megfosztá, késznek
+               ajánlkozott vele a tánczot folytatni, és ismét azután csak oly jókedvvel ment el
+               tovább tánczolni a fővőfélylyel: Karton Marczival.</p>
+            <p>Még nem is szürkült a lakodalmi est, még a nap jó magasan fönn volt az égen, már az
+               eddig is megnyert rokonszenv állandóvá lett számára mindenki szivében. A tekintetes
+               asszonyok, a szeretetreméltó teremtésről sugdosva, vallották be maguknak, hogy a
+               társaságban talán ez az egyedüli, a kin nem találni, de keresni sem fognak rostálni
+               valót.</p>
+            <p>Sőt a rokonszenv mellett a részvét is mindig-mindig nagyobb tért kezdett nyerni
+               sziveikben. Többen elsugdosták egymásnak. Milyen nagy igaztalanság a sorstól, hogy
+               ily remek, áldott teremtés ilyen ifjan özvegyen maradt, de csakhamar ezen részvétből
+               is az emberi természet önzésében nyugodtak meg: a vidék csak ezen körülmény által
+               nyerhetett ilyen angyalt.</p>
+            <p>Egy ilyen egyszerü, sőt nem is egyszerü, hanem némely részben közönséges társaságban
+               egy főrangu hölgy, különösen olyan élénk, eszes, és arczán annyi vonzó
+               szeretetreméltóságot ragyogtató lény, mint éppen a mi kis grófnőnk volt, - mert
+               termetére nézve semmiesetre sem volt nagy, - sajátos helyzetet foglalt el. Ha a
+               szivélyesség mindkét részről legyőzi is a rang korlátait, a lelki müveltségnek, a
+               föltünően finomabb társaséleti modornak még marad az a hatása, mely folyvást tart
+               fönn annyi feszt, a mennyit éppen az érezzen viszásnak, ki ezen hatás teremtő
+               ereje.</p>
+            <p>S ha ez a főrangú művelt valaki éppen - mint a mi grófnőnk - vidor, az életnek teljes
+               mértékben örvendeni ohajtó hölgyecske, ki rózsaszinben nézi a világot, repes az
+               élményekért, bohóságokon gyönyörködik: akkor mindenesetre inkább elenged abból a
+               nagy tisztességből, tiszteletből, melylyel megközelitik, mindenesetre inkább
+               vonzódást, bizalmat, barátságot, szeretetet ohajt, azt jelesen s legfőképp, a mire
+               minden fiatal sziv a zene hangjainál, mulatságtól derült arczok közepette megindul,
+               azt, hogy mulasson.</p>
+            <p>Midőn ide jött, nem csak éppen Katlan Balázs uram iránt akart az udvarias figyelemnek
+               eleget tenni, nem csak egy kellemes látványban kivánt gyönyörködni; fiatal nő volt, s
+               mint a többi, égő ohajtása volt: szenvedélyének gyönyöreibe merülni, lelkét, szivét
+               ringatni a czigány zenéjén, s legfőképp pedig: midőn vére, mely a nagyvilág
+               szertartásos hidegségének közepette sem tudott meghülni, pezsgő hullámzásban forrt,
+               édelgett azon a vágyon, hogy kedvére kitánczolja magát.</p>
+            <p>A mit mosolygó ajkain, ragyogó szemein, kipirult arczán mások észre sem vehettek, azt
+               a picziny boszuságot maga előtt nem birta elrejteni; nem volt az éppen valami nagy
+               lelki mozzanat, csak akkora boszankodásnak lehet azt nevezni, melytől az orrocskák
+               viszketni szoktak, de mégis, mivel esetleg a hibája nélkül éreztetett fesz ebben
+               nyilatkozott, mégis háboritotta örömét.</p>
+            <p>Azok a falusi gavallérok nem tánczoltak olyan kedvvel, olyan szabad mozgással, olyan
+               kaczkiás elevenséggel vele, mint a többi nőkkel: csupa illemből lábaik óntalpuak
+               voltak minden czifrázás, aprózás, bokázás nélkül; az ugynevezett harangozóst járták,
+               mint valami német gyalogtisztek; csupa illemből kezeik merevek, kötöttek voltak, nem
+               forgatták meg tüzzel, szenvedélylyel, hanem nevetséges tartózkodásuk kifolyásaként
+               mint egy bábut, ujjhegyen fogva, ugráltatták, és csupa illemből igyekeztek minél
+               hamarább helyre vezetni. Persze, nekik a legkomolyabb és önmagukkal teljes
+               megelégedett meggyőződésük volt, hogy egy főrangu hölgygyel csakis igy lehet
+               tánczolni.</p>
+            <p>Bizony pedig neki nem igen volt kedve ilyen módon tánczolgatni, még kevésbbé igy
+               leülögetni; ha nem röstelte volna a dolgot, szivesen kiállott volna egyedül is oda a
+               sikra, hogy fogalmat adjon a bámulóknak, miképp nem csak férfinak lehet egy magyar
+               magántánczot eljárni, hanem a magyar táncz arra is alkalmas, hogy egy nő kecsteljes,
+               csábitó, kihivó s mindamellett méltóságos tánczot mutasson be, olyan tánczot, mely
+               nem csak a szivet, hanem az észt is képes megbóditani. Persze, olyan alakkal is kell
+               birni hozzá, olyan szemekkel és olyan mosolylyal, mint a grófnőé volt.</p>
+            <p>Mig ez ötleten - melyet az is idézett elő, hogy az udvar keritésén kivül a hivatlan
+               leányok is igy cselekedtek - mosolygott, vigasztalta magát azzal, hogy nem éppen ő
+               egyedül a legmellőzöttebb teremtés a társaság közelében, odakivül a tánczért halálig
+               esengő parasztleányok magukat méltán még boldogtalanabbaknak érezhetik.</p>
+            <p>Különösen egyen akadt meg a szeme. Az nem volt oly czifrán felöltözve, mint a többi,
+               sőt inkább szánalmas szegényesen, csak a tisztaság, a csín enyhité a szomoritó
+               hatást; szép, sürü haja viselt szalagba volt fonva, ruhácskái, kendői, különösen
+               apróvirágos rózsaszin szoknyája szinehagyottak voltak, mégis föltünőbb volt
+               valamennyinél. Meglepően szép volt. Nagy, okos szemeiben, melyekkel a mulatók felé
+               tapadt, olyan mély kifejezés ült állandóan, hogy a bámulatnál, érzésnél és
+               szerelemnél többet kellett azokban keresni.</p>
+            <p>A grófnő rokonszenvesen nézte őt a távolból, és csodálatosan fájdulni érzé szivét, a
+               mint nézi; sajnálta, pedig először látta, és nem tudott róla semmit.</p>
+            <p>De vajjon nem elég-e az érzékeny sziveknek: kérkedő czifrálkodás közepette mulatni
+               rendeltetett fiatal alakon, bánatos arczban és szinehagyott ruhákban a szomoru,
+               legnagyobb szegénységet fölfedezni, és egyszersmind sejteni annak mély
+               átérzését?</p>
+            <p>Valóban nagyon szegénynek kelle lennie, még a czifra parasztleányok közül sem
+               beszélgetett vele senki; talán boldogtalannak is, mert ő sem keresett szemeivel
+               senkit.</p>
+            <p>Talán rá sem nézett e leányra senki, csak ő. Talán nem is tudták, észre sem vették,
+               hogy ott van, hogy olyan szépség van ottan, melyet bármely kör büszkén vallhatna
+               magáénak. Ki látná meg a legszegényebb leányt?...</p>
+            <p>Hja, nekünk még a parasztunk is arisztokrata!</p>
+            <p>A grófnő boszankodva jártatá körül szemeit az ifjuságon. De hát hogyan nem lehet
+               ilyen remek, szép teremtést észrevenni? Hah! Ha fiatal ember lenne, parasztlegény
+               vagy urfi, az mindegy, azóta beperditette volna tánczolni.</p>
+            <p>Hasztalan példálózott, hasztalan czélozgatott, mind parasztlegény, mind urfi a füle
+               mellett eresztette el a szót.</p>
+            <p>Ki tánczolna - bármily szép legyen is - olyan leánynyal, kinek még csak becsületes
+               ruhája sincsen? Holott talán éppen ez nála a legnagyobb becsület.</p>
+            <p>Az őt tánczra fölhivó Gereczey Eleket éppen figyelmeztetni akará e föltünő leány
+               tánczra-behivására, de egy véletlen, és a milyen véletlen, éppen olyan sajátságos
+               körülmény, abban a pillanatban elzavarta szándékát, valamint szokatlanul és
+               váratlanul a kezdődő tánczot is megakasztá. A czigányok a tánczzenéből egy üdvözlő
+               tusba csaptak át, s abból rögtön egy furcsa betyáros nótába; de nem csak átcsaptak,
+               hanem odahagyták a sátort, és fölemelt hangszerekkel, derült, arczczal, egész dühös
+               elszántsággal hegedülve, klarinétozva, nem mentek, hanem ugy szólván oda sem
+               hederitve a faképnél hagyott társaságnak, tisztelgő fontossággal vonultak a kapu
+               felé: de nemcsak a czigányok, hanem tódult az egész parasztleány- és menyecske-sereg
+               is.</p>
+            <p>A csengés-bongás, melyet a czigányok már messziről megneszeltek, a bandával egyszerre
+               ért a kapuhoz. Habba zavart négy remek, tüzes ló állt meg ott egy könnyü, magyar
+               lőcsös kocsival, főtől talpig piros- és sárgaszíjjas sallanggal, kivált az elsők a
+               kivarrott szíjjakon olyan csengetyüket lóbáztak, hogy valamely hányt-vetett pusztai
+               községben harangnak is beillettek volna.</p>
+            <p>A betyáros gavallér, magát ülésében kissé hátraszegve, állitá meg a sárkányokat.</p>
+            <p>- Ah! ez egy falusi Adónisz, egy parlagi don Juan! - tevé a grófné magában az
+               észrevételt.</p>
+            <p>Csodálkozására azonban, a mint finom ügyességével a maga tájékozása végett
+               szétnézett, a mamák arczán semmi meglepett örvendést nem vett észre, sőt a lányoknál,
+               kiváncsiság helyett, erősen kifejezett közönyösséget talált, a férfiaknál, ifjaknál
+               pedig annyit sem, azaz többet természetes kiadásban, azt, a mit a leányok betanultan
+               mutattak.</p>
+            <p>A grófné nem volt eddig kiváncsi reá, most az lett.</p>
+            <p>Ki ez? Milyen uri ember ez, kit az uri társaságból senki sem siet üdvözölni, kit e
+               társaság nem nyilatkozik magához tartozónak vallani, kinek csak nevét emlitik, s
+               azután nem szólnak róla többé semmit, pedig neve szerint a vidék régibb, tehetős
+               birtokosaihoz tartozik?</p>
+            <p>Füzér Dini!... És egyebet semmit sem szólnak róla.</p>
+            <p>És ez a név a czigányokat, a parasztságot lázas mozgásba hozza.</p>
+            <p>Füzér Dini pedig, a mint odadobja a gyeplőszárat hátul ülő gavalléros, gyolcsinges
+               kocsisának, a mint leszáll, leszökken kocsijáról, nem siet befelé, hanem ott
+               mindjárt leszálló helyében árvalányhajas turi süvegéhez vágja kezét, bokázáshoz fog s
+               bokázás mellett ott a banda előtt kedves betyáros nótáját dalolja, melyet a czigányok
+               üdvözlésére rántottak rá.</p>
+            <p>- Valóban sajátságos ember! - mondá magában mosolyogva a grófné, és szerette volna
+               látni azt a betyáros bokázást ott a czigányok előtt.</p>
+            <p>Milyen könnyü, kényelmes helyzetük van azoknak a parasztnőknek, azok odafutottak
+               mind...</p>
+            <p>Csalhatatlanul érdekeltetik magukat általa.</p>
+            <p>E gondolatnál a grófnőnek gyorsan önkénytelenül valami villant meg eszében, már egy
+               regényes szerelmi titkot kutatott: a falkeritéshez pillantott.</p>
+            <p>Csalódott az elébbi gondolatában, a parasztnők nem mind futottak, nem mind tolongtak
+               oda; a barna, sötét nagyszemü leány, szinehagyott rózsaszin szoknyájában, meg sem
+               mozdult, most is ott pihenteté fejét könyöklő karjának tenyerén, arczán e megjelenés
+               semmi uj tünetet nem idézett elé, sem örömet, sem bámészkodást; még csak fejét sem
+               forditá arra.</p>
+            <p>- Ime, egy ritka leány, - észlelé magában, - kiben sem szépségének büszke átérzése,
+               sem a legkisebb kaczérság nincsen.</p>
+            <p>Most éppen már ezért is megszerette azt a leányt.</p>
+            <p>De bármennyire szeretett volna is annak rokonszenves vonásain elgyönyörködni, az a
+               bohóság, mely a kapunál folyt, mégis csak visszacsalta tekintetét; kiváncsisága nem
+               birt nyugodni, vágyott találni valakit, a ki azt kielégitse.</p>
+            <p>Mosolygott magán, hogy benne több van az asszonyi gyöngeségből, mint ama szegény
+               leányban.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>II.</head>
+            <p>A grófné szerencséjére éppen oda vetődött mellé Gereczey urambátyám, egy kedves,
+               derék öreg ur, megfogta azt.</p>
+            <p>- Azt méltóztatik tőlem a grófné kérdezni, - felelt neki Gereczey bácsi, - hogy
+               miféle ember ez a Füzér Dini? Az egy olyan fiatal uri ember, ki nem szereti az uri
+               társaságokat, s éppen azért azok sem igen szeretik; pedig különben, mint afféle
+               ezerholdas birtokos, ki elég észszel, elég müveltséggel bir, közöttünk szivesen
+               látott lett volna. Én nem haragszom a szegény bolondra, de nem helyeslem tetteit.
+               Rendetlenség- és könnyelmüségben foly élete. Ő csak a paraszt-társaságokat szereti,
+               nem is társalkodás, hanem valóságos barátkozás, czimboraság az, a mit velük üz. Bor,
+               táncz, zene között folytatott tivornya az ő eleme, melynek nem csak saját házánál
+               áldozik, de még a csárdákba is megalázza magát s ott versenyt iszik, versenyt dalol
+               korhely betyárokkal, s boldog, ha egy-egy könnyelmü csárdásnővel virradtig rakja a
+               tánczot. «Negéd, mondja a grófné, önmagával eltelt eredetiség,» nem negéd, nem az
+               eredetiség hóbortja ez, több, mert az egész életrendszert vezeti. «Szerencsétlen
+               szenvedély, a gyönyörök félszeg fölfogása» mondja a grófné, több, több, én legalább
+               többnek tartom, mert ő nem csak boldogsággal, hanem - a mint látszik - a komoly
+               meggyőződés határozottságával viszi ez életet. Tehát érdeknek kell hozzá kötve lenni,
+               és az érdek... ez érdek gyanus én előttem... Különben mindez közöttünk csak
+               bizalmasan mondatott.</p>
+            <p>A grófné igenlőleg szoritá meg Gereczey bácsi kezét; szavainak hatása alatt már más
+               irányt kezde venni érdekeltsége, midőn a különös ifju, a banda előtt bokázva, éppen e
+               pillanatban ért a sátor nyitott végéhez.</p>
+            <p>Megjelenése bátor és könnyed volt, nyájasság özönlött róla, s az imént hallottakkal
+               ellentétes illemes, természetes udvariasság, melylyel fövegét leemelve, egy
+               meghajtásban élénk, sugárzó, nyilt tekintetét körülvetve, az összes társaságot
+               üdvözölte, meglepte a grófnét. Ez az ember kellemesebb, mint hire; mozdulatai,
+               tekintete, melyeket uriasság mellett még finomság is szinezett, majdnem
+               magyarázhatlanokká, hihetetlenekké tették azon szégyenitő fogalmakat, melyeket a
+               grófné Gereczey titkos sejtéseiből meritett.</p>
+            <p>Ő a fő, a vállak, a termet büszke fönhordását inkább férfias délczegségnek, mint
+               betyáros negédnek volt hajlandó tekinteni; s ha ez utóbbi lett volna is, az oly finom
+               kiadásban volt eléállitva, hogy nem volt a nézőnek kellemetlen.</p>
+            <p>Meglehet, a grófné részrehajló volt, mert a fiatal ember igen szép, eredeti magyar
+               alak volt, és értelmes, nyilt tekintete csupa vonzó kifejezésekből volt összeállitva,
+               kedélymelegségből az ajkak pajzán mosolyában, szerelmes tűzből az ábrándos szemekben,
+               gyors, éles ész kinyomatából a derült homlokban.</p>
+            <p>A grófné egy közönséges betyárt várt, vagy legfölebb is egy nóbel betyárt, s jelenik
+               meg helyette egy nyalka, karcsú, értelmes arczkifejezésü ifjú, kinek előtte minden
+               betyársága csak a pitykés dolmányban, a bőrös nadrágban, árvalányhajas kalapban
+               állanak, melyek nemcsak jól illenek neki, de még délczegebb, kellemesebb jelenséggé
+               teszik. A sejtelmek többi részét megingatja a rokonszenv, melyet tánczos-dalos
+               bohósága ébreszt.</p>
+            <p>A grófné nem irtózott, nem rémült meg tőle, mosolygott rajta, gyönyörködött
+               benne.</p>
+            <p>Sőt, tudja isten, bár azt igen vontatva vallották volna be, de a többiek is
+               gyönyörködtek egy kicsit; talán gondolták is: «Csak a paraszt-társaságot hagyná abba
+               ezen ember, melyből nem tud kibontakozni, melytől nem tudja megszabaditani semmi
+               hatalom!</p>
+            <p>Most is mindjárt a paraszt-szépségek után lát, azok közül perdit ki egy kaczkiás
+               menyecskét, mintsem inkább az uri hölgyek között keresne tánczosnőt magának».</p>
+            <p>A grófné közölte is ez észrevételt a bizalmas Gereczey urambátyámmal, ki még folyvást
+               mellette őrizte titkát.</p>
+            <p>- Hja, de mikor azok nem igen szivesen tánczolnak vele.</p>
+            <p>- No, ez különös!</p>
+            <p>- Különös?... És éppen ez a különös szó meg Gereczey urambátyám előtt lett különös, s
+               illett, nem illett, meg nem állhatta, hogy meg ne kérdezze a grófnétól, a mit
+               gondolt.</p>
+            <p>Azt gondolta: vajjon a társaság is nem hibás-e ez emberrel szemben, s nem élesiti-e
+               folyvást azon kést, melyet ez maga ellen forditott?</p>
+            <p>A jó urnak pedig alkalom nyilt, igazi falusi arisztokrataként, magukat a grófnéval
+               egy szinvonalba helyezni.</p>
+            <p>- Tessék csak gondolkozni! Hát a grófné elmenne-e vele tánczolni?</p>
+            <p>Gondolta, hogy most megakasztotta.</p>
+            <p>A grófné azonban mosolyogva felelte:</p>
+            <p>- Miért ne? - és csodálkozva néze urambátyám szemei közé.</p>
+            <p>Ámde urambátyám csodálkozott még jobban, csodálkozott szörnyen nagyon, s még vállat
+               is vont hozzá.</p>
+            <p>- Miért ne? - ismétlé a grófné, hogy a csodálkozásnak magyarázatot adjon, utána
+               tévén: - Ez az ember rendkivül remekül tánczol.</p>
+            <p>És ezt egyszersmind igen természetes magyarázatnak tartotta, s még Gereczey bácsi is
+               helybenhagyta.</p>
+            <p>- Igaza van méltóságodnak, rendkivül szépen tánczol. Különben mindig azt
+               csinálja.</p>
+            <p>S tudja isten, a grófné iránti illemből-e, vagy a magyar vér buzdult benne: ő is
+               gyönyörködött.</p>
+            <p>- No, lássa!... És bizonyosan azon parasztok között, kikkel itt már tánczoltunk,
+               bizonyára több bünösebb, mint e fiatal ember, nem egy tolvaj gézengúz akadt, mégis
+               csak jártuk velük, pedig bizony hatalmasan rossz tánczos is volt nagyobb része, nem
+               oly ügyes, remek tánczos, mint e fiatal ember, kiről azt mondá ön, hogy tévesztett
+               uton jár. - Hát nem a társadalom hibásabb-e, mely az elvesztettet visszanyerni nem
+               igyekszik?</p>
+            <p>Gereczey urambátyám e szavakat piros, szép csókolni való ajkakról hallva, olyan
+               magasztos bölcseségnek érezte, hogy arra felelni sem birt hirtelenében; elosont
+               onnan, de jó szive iránti tekintetből valljuk be, a mint ki is tünik, jó föltétellel
+               ballagott el.</p>
+            <p>A grófné mosolygott magán, midőn arra gondolt, hogy ime, megint pártfogóvá teszi
+               magát, s most éppen egy fiatal ember pártfogójává, kivel szemben azon - részéről
+               indokolhatlan - sajátságos gondolata támad, hogy visszavezesse az uri társaságba. Az
+               igaz, ez nem vezetés, hanem valóságos hóditás lenne; de éppen az kellenék is
+               hozzá.</p>
+            <p>Majd egyszer megneheztelnek reá, hogy igy beleavatkozik mindenki ügyébe.</p>
+            <p>Füzér Dini bámulva tekinte vissza. Ezt is régen érte meg: Gereczey urambátyám gyöngéd
+               bizalmassággal ütött a vállára táncza közben.</p>
+            <p>- Mi baja, bátyám? - kérdezé bohó negédességgel, meg sem állva csak egy másodperczre
+               sem.</p>
+            <p>Az integetett ujjával, szemeivel, folyvást utána somfordált, sugdosva: «Mondok
+               valamit!» s üzte Dinit egyik szögletből a másikba, oly lelkiismeretesen, mintha vele
+               tánczolt volna vagy pedig mintha megbizva lett volna.</p>
+            <p>- Mondok valamit!</p>
+            <p>Dini végre hallá szavait, játszian felé hajolva, odahegyezé füleit.</p>
+            <p>Urambátyám egész ünnepi fontossággal adá elé a dolgot.</p>
+            <p>- A grófné szeretne veled tánczolni.</p>
+            <p>Dini hüvelykujjával rámutatott a termetes eladóra, ki előtte mórikálta magát:</p>
+            <p>- Elébb hadd végezzek ezzel, ni!</p>
+            <p>Mikor azután letette, odaállt urambátyám elé, s összeütve sarkantyuját, elég hegyesen
+               kérdezé:</p>
+            <p>- Ime, most már itt vagyok, miben lehetek szolgálatára?</p>
+            <p>- Vidd el a grófnét tánczolni!</p>
+            <p>- Jó, jó, de hát elébb mutassa meg nekem, melyik itt az a grófné? - mondá Dini egész
+               komolyan, urambátyám nagy szörnyüködésére.</p>
+            <p>Szerencsétlen, ez még azt kérdezi, melyik itt az a grófné! Hát nem ragyog-e ki az
+               ékes hajnalcsillag a közül a sok pislogó, bogárszemü apró csillag közül? Lehet ennél
+               bolondabbat kérdezni? Hát még ennek az embernek fel sem tünt az a gyönyörü alak?
+               Vagy vak ez az ember?</p>
+            <p>Urambátyám nem csekély boszankodással csóválta meg fejét, s majdnem ingerülten
+               mutatott oda a feje intésével.</p>
+            <p>- Az ott, ni!</p>
+            <p>- Abban, a kékpántlikás linflangban?</p>
+            <p>- Abban, te szerencsétlen!</p>
+            <p>Dini méltatta a grófnét arra, hogy egy pár másodperczig szemügyre vette: azután
+               elégülten forditá fejét urambátyám felé s mindjárt közlé is vele birálatát, még pedig
+               kissé megváltozott hangon.</p>
+            <p>- Szép asszony!... Hitemre, nagyon szép asszony!</p>
+            <p>Majd némi érdekeltetést mutatva, tevé kis szünet után elébbi szavaihoz:</p>
+            <p>- Hát azután miféle grófné ez? Hogy hivják?</p>
+            <p>Urambátyám ismét csak megcsóválta a fejét. Hát ez az ember semmit sem tud már az uri
+               rendről, mintha nem is ezen a vidéken lakoznék; vagy csak azt tudja, hogy ki volt a
+               Panka apja? Elég boszusan magyarázgatta neki:</p>
+            <p>- Ez a mi grófnénk, érted?! az ifju gróf özvegye, érted?! a ki az öreg gróftól
+               özvegyi tartásra kapta az ide való birtokot, különben születésére nézve is grófnő,
+               Párdányi Hajnalka grófnő.</p>
+            <p>- Hajnalka? - kérdé Dini, s elnevette magát.</p>
+            <p>- Mit nevetsz?!</p>
+            <p>- Azt, hogy olyan különös neve van. Lássa, urambátyám, - felelt Dini egy kis
+               gunyorossággal, - az ostorhegyesemet is «Hajnal»-nak hivják.</p>
+            <p>- Bolond vagy! Én igen jól, helyesen forditottnak találom e nevet az Aurora
+               névből.</p>
+            <p>- Aurora! - szólt ismét Dini, most már hosszu képpel. - Szegény jó apámnak a
+               könyvtárában voltak ilyen nevü apró, zöld könyvek, melyeket oly szivesen olvastatott
+               velem. - S folytatá némi ábrándozással: - Szép versek, történetkék voltak azokban.
+               Egyre különösen oly boldogan emlékezem, várjon csak!</p>
+            <p>Midőn Dini arcza a visszaemlékezés fényében kezde mosolygani, Gereczey bácsi akkor
+               rántá vissza a földre.</p>
+            <p>- Hagyd azokat, Dini, régen voltak azok!</p>
+            <p>- Igazsága van, bátyám, régen voltak! - felelt Dini sóhajtva. - Régen is láttam már
+               ezeket a kis zöld könyveket, azt sem tudom, megvannak-e még valahol, s a mi azt
+               illeti, minek is volnának nekem a könyvek?... De igaz, mit is akart urambátyám?</p>
+            <p>- Arra kértelek, tánczolj a grófnéval. Jer velem, hadd mutassalak be neki!</p>
+            <p>- Hát ez a komédia minek?! Hát én nem tudom önmagamat bemutatni?</p>
+            <p>S ezzel egy szót, egy pillantást sem várt többet, büszke magatartással, fölemelt
+               fővel indult a grófné felé, ki éppen mintha valami érdekes tárgyról lett volna szó,
+               élénk szóváltásba bocsátkozott a mamák által odahivott egy pár fiatal emberrel.</p>
+            <p>- Csak legalább eszébe jutna, hogy a kalapját le kell vennie! - aggódék magában
+               urambátyám, ki a dolgot most már saját lelkiismeretes ügyévé tette.</p>
+            <p>Olyan váratlanul történt az egész, annyira nem volt rá elkészülve a grófné, hogy meg
+               lett lepve, s meglepetésében meg is döbbent egy parányit. Füzér Dini tánczra hivta
+               föl. Árvalányhajas fövegével kezében, illemes, ügyes meghajtással, könnyedén, zavar
+               nélkül tudta magát bemutatni; a körülállóknak csodálkozásra sem jutott idejük,
+               mikorra eszméltek, már karra füzve, a sátor közepére vitte.</p>
+            <p>A grófné szerette volna magát tükörben látni, ha nem pirult-e el e nem sejtett
+               meglepetéstől, melyet nagy mértékben fokozott az is, hogy a hozzá intézett szavak
+               lágysággal, szép, csengő hangon s elég választékosan voltak elmondva.</p>
+            <p>- Engedje méltóságod, hogy bemutassam magamat! Én Füzér Dénes vagyok, méltóságodnak
+               itt a faluban közbirtokostársa, ki most legnagyobb szerencsémnek fogom tartani, ha
+               méltóságoddal egy pár fordulót tánczolhatok. Parancsoljon velem!</p>
+            <p>Hiszen ezen szavakban még csak legkisebb szine sem volt a nyerseségnek.</p>
+            <p>Most a grófné kezdett csodálkozni a közvéleményen.</p>
+            <p>És ez volt, a mi legjobban meglepte őt, ez volt oka annak, hogy föltette magában
+               ezen, vele, előtte tánczoló ifjun tartva szemeit, őt nem csak szemeivel, hanem a
+               lélek vizsgálódásával is szemlélni; s e vizsgálatban kétkedő kérdést intéze magához:
+               «Vajjon nem csupán csak külsejét ismerik-e ezen embernek azok, kik elitélik?»</p>
+            <p>Valóban sajnálatraméltó dolog, ha ugy lenne, a mint ők hiszik.</p>
+            <p>És sajnálta, szánta azt, a ki előtte tánczolt.</p>
+            <p>Az pedig mitsem tudva sem erről, sem másról a világon, még lelkét is odadobva a táncz
+               szenvedélye áradatának, gyönyörrel, boldogsággal, méltóságosan fönhordott fővel,
+               játékosan lejtő s bokázó könnyü lábain rakta előtte a különvált toborzót; egész arcza
+               mosolygott, de azokban a mosolyokban akár kérkedést, akár elbizottságot hiában
+               keresett volna valaki.</p>
+            <p>Az a különös negédesség, mely tánczát jellemezte, nem másnak, csak az igazi csárdás,
+               betyáros táncznak volt szinezése. Tánczolt, és tánczolt szenvedélyből, nem volt
+               egyébre gondja.</p>
+            <p>Vagy csak éppen egy grófnővel szemben teszi azt, hogy nem csak mozgásaiban, de még
+               tekintetében is mellőz minden oly legkisebb pillantást, mely egy müvelt nőt
+               sértene?</p>
+            <p>Ezalatt a táncztér a többi tánczosoktól egészen megtisztult, szintugy tisztelettől,
+               mint a jó tánczosok szemlélhetésének gyönyörétől indittatva, egy kör alakult, mely a
+               remek tánczospárt övezve, közepén lejteni engedte.</p>
+            <p>A két fiatal ember pedig, kiket a grófné imént bizonynyal valamely nehéz feladatra
+               hivott fel, még mindig versengettek egymással.</p>
+            <p>- Igazán különös a grófnétől ilyesmit kivánni, ezt teljességgel csak uri szeszélynek
+               lehet nevezni, melynek mi még sem vagyunk kötelesek rabszolgái lenni! Mi jogon tekint
+               ő minket azoknak, hogy még csak helyesnek sem nevezhető kivánságait mint parancsokat
+               tekintsük? Hogy lehet ilyen esetlenséget csak kigondolni is, hogy mi azt a
+               koldusleányt hivjuk be az utczáról tánczolni? Hisz ezen még maga Katlan Balázs uram
+               is, a mint hallotta, megbotránkozott; még a vőfélyek is mind, mind elosontak onnan,
+               nehogy nekik váljék kötelességükké e kellemetlen tisztesség.</p>
+            <p>Valóban igazuk volt az ifjaknak, a vőfélynek, Karton Marczinak saját ajkairól
+               hallották, a mint a násznagyot kérdé:</p>
+            <p>- Ugy-e, hogy nem lehet, ezen nagy világért sem lehet behozni tánczolni azt a
+               leányt?</p>
+            <p>A törvényt tevő biró és egyszersmind e fontos napon násznagy uram, Tasla János is azt
+               felelte neki reá:</p>
+            <p>- Hogy lehetne az? Sőt méltó jusson mondva: hogyan és mi módon lehetne, mikor az
+               éppenségesen nem lehet? és nagyon ostoba volt az, a ki kigondolta!</p>
+            <p>Szerencséjére a grófné tánczolt, s azért nem hallotta ezeket az udvariasságokat.</p>
+            <p>Tánczolt, és pedig folyvást nagyobb tűzzel, szenvedélylyel: tánczosának remeklése
+               kellemes ösztönt adott neki: érezte, hogy ezzel az emberrel lejtve, a táncz egy bohó
+               tündérálom csalfa játékává válik át, melybe egészen belehóbortul a lélek, s
+               testestől-szivestől egy ábrándos világba ringatja magát. Oda jutott, hogy ő is csak
+               tánczolt, és nem eszmélt semmi másra e világon.</p>
+            <p>A primás-czigány volt hármójuk között a legokosabb, az hagyta abba, a mint egy szilaj
+               forgásban éppen közelébe értek. Nekiczifrázta szilajon, azután egy rántással
+               kettévágta a tündérjátékot...</p>
+            <p>A grófné karja Dini karján maradt pihenve; az egy lépést hátrált, hogy lesikoljék
+               onnan; a grófné egy futó tekintettel megköszönte azt... ő ottfeledte volna.</p>
+            <p>Dini meghajtá magát.</p>
+            <p>- Köszönöm méltóságod szivességét! Hitemre mondom, soha ilyen jó tánczosnővel nem
+               tánczoltam életemben! S kérhetne a grófné bármit tőlem e pillanatban, nem
+               történhetnék az az eset, hogy meg ne tenném azon örömért, melyet nekem okozott.</p>
+            <p>Hogy Dini nem udvariasságokat, csupán őszinte örömét kivánta elmondani, meglátszott
+               azon a természetes meginduláson, melylyel e szavakat elmondta.</p>
+            <p>A grófné nem is mérlegelte e szavak értékét, azoknak utósói annyira megragadták
+               figyelmét, hogy gyorsan felelt, mohón kapott rajtuk.</p>
+            <p>- És én mindjárt rögtön kérek valamit.</p>
+            <p>- Parancsoljon!</p>
+            <p>- Látja ön amott a keritésnél azt a barna parasztleányt, a kinek arcza e szürkületben
+               még búsabbnak tünik fel, mint különben?</p>
+            <p>Dini arcza egy pillanatra elsötétült.</p>
+            <p>- Ismerem! - felelt, és hangja némi reszketéstől lett áthatva.</p>
+            <p>- Annál jobb! - felelt a grófné élénken. - Legalább én is ismerni fogom ön által, s
+               meg birom fejteni az előzményeket, a visszatetszést, melyet szavaim előidéztek, midőn
+               az ifjakat fölszólitám, hogy tánczolni hivják be.</p>
+            <p>Dini gúnyosan felelt:</p>
+            <p>- Ne csodálkozzék azon a grófné, hogy szavai visszatetszettek. Az azért van, mert azt
+               a leányt Koldus Angyelnak nevezik.</p>
+            <p>- Koldus Angyelnak? - kérdé a grófné megindult hangon. - És miért nevezik Koldus
+               Angyelnak?</p>
+            <p>- Azért, mert koldus leánya, mert az anyja egy szegény, vak koldusasszony. A nép e
+               nevet adta nekik, s megszokta még akkor, midőn a leány őt picziny korában
+               vezetgette.</p>
+            <p>A grófné mély részvéttel nézdelt a leány felé.</p>
+            <p>- Szegény! Tehát sorsa teszi ilyen bánatossá. Mindig ilyen?</p>
+            <p>Dini tompán, sötéten felelt, mintha ő is átérzette volna azt a nagy bánatot.</p>
+            <p>- Mindig!</p>
+            <p>- No lássa, eszmémnek annál inkább örülök. Egy jó napot kell neki szerezni. Ezért
+               szeretném, ha azt a leányt megtánczoltatná valaki.</p>
+            <p>Dini megdöbbent, megütközött; de azért rögtön összeszedte magát, s udvarias
+               előzékenységgel nyilatkozott:</p>
+            <p>- Parancsára megkisérlem, ha bejönne tánczolni.</p>
+            <p>Ezzel Dini ment egyenesen a leány felé, s csak oly gavalléros üdvözléssel állott meg
+               előtte, mint bármely uri hölgy előtt.</p>
+            <p>A grófné gyönyörködve, elégülten nézett utána. A mit ezek az urficskák, ezek a hires
+               parasztlegények, az ő kérésére meg nem tettek, azt ettől az embertől, kit ők
+               betyárnak mondanak, még kérni sem kellett, az már a czélzásnak is engedett.</p>
+            <p>Nézte, hogyan fog boldogulni.</p>
+            <p>A leány szégyenkedett, de mosolygott. Szemeit majd lesüté, majd fölemelte. Szeretett
+               volna jönni, nem is. Habozott. Kérette magát. Az ifju ember ujra sürgette.
+               Szabadkozott.</p>
+            <p>- Angyel! Megigérem, hogy elő sem hozom neked egy szóval sem, a miket valaha
+               beszéltem. Ne félj, nem szeretlek már ugy sem! - beszélt hozzá Dini keserü sohajjal.
+               - Inkább megigérem, hogy az egész táncz alatt egyetlen szót sem fogok szólani.</p>
+            <p>A leány fölemelte rá nagy, értelmes szemeit, teljesen hitelt adni látszott azoknak, a
+               miket hallott, végre engedett. Dini kézenfogva vezette a sátorba a leánykát, ki
+               szemlesütve, talán szegényes ruháin szégyenkedve jött mellette; ő pedig derült,
+               fönhordott homlokkal jött, arcza még jobban ragyogott, mint előbb.</p>
+            <p>A grófné tapsolt örömében.</p>
+            <p>Mivel a grófnének olyan igen tetszett ez a dolog, igen természetesen, rögtön tetszeni
+               kelle a többieknek is; a ki urnak akarja tartani magát, nem szabad annak mellette
+               elmaradni. Meg kell mutatni, hogy a tréfát meg lehet érteni. Hiszen nem egyéb, mint
+               komédia az egész.</p>
+            <p>De Kuku is, ha huzott valaha szép nótát életében, nem huzott soha ennél szebbet, mint
+               a milyent most rántott rá: szép volt az, szilaj volt az, de epedő keserüségével még a
+               kőnek a szivéből is fájdalmas lelkesülést facsart volna. Hja! a czigányok látnak
+               igazán azoknak a szivébe, a kiknek huzzák; a nótákban tanulmányozzák és ismerik az
+               érzelemvilágot.</p>
+            <p>Mintha csak a boldogtalan szerelem vigadott volna.</p>
+            <p>Mintha csak dalolta volna is a zene azt az édeset, azt a keserüt:</p>
+            <p>«Mikor nekem muzsikálnak, fáj a szivem fenékig,</p>
+            <p> Mert nem tudom felejteni azt az egyet, a régit.»</p>
+            <p>Dini nem birta megállani, sohajtva sugdosá oda:</p>
+            <p>- Ah! Angyel, be régen tánczoltunk együtt!</p>
+            <p>A leány szelid szemrehányást vetett reá bánatos szemeivel.</p>
+            <p>Most Füzér Dini elereszté Angyel kezét, fövegéhez csapott, bokázáshoz illeszté
+               lábait, a táncz megindult volna, midőn hirtelen, véletlenül-váratlanul a sátor belső
+               feléből egy harmadik egyén közéjük toppant, mintha csak az égből cseppent volna
+               oda.</p>
+            <p>Döbbentő megjelenés volt az, pedig nem volt egyéb, csak egy kaczkiás kis molnár,
+               hamvaskék ruhájában. Az ember arcza a bortól és haragtól volt kigyulva, szikrázó
+               szemeket vetett a leányra, ki meg reszketett előtte, mint a nyárfa levele.</p>
+            <p>- Ki hivott ide?! - rivalgott reá dühösen. - Nem átallasz ide bejönni hivatlanul? Nem
+               szokás-e bevárni a leánynak, hogy legénye vezesse be?</p>
+            <p>Angyel remegett és szeméhez emelte keszkenőjét.</p>
+            <p>Dini hirtelen szembe állt a mérges emberrel és haraggal lobbantá szemére:</p>
+            <p>- És ha az a legény szégyenli a leányt bevezetni?</p>
+            <p>A molnárlegény nem is érdemesité a feleletre; mintha értetné, hogy vele semmi dolga,
+               elfordult tőle s haragjának egész zápora a leány felé zúgott, s egy kevély, megvető
+               szóval vélte megsemmisiteni:</p>
+            <p>- Hordd el innen magadat!</p>
+            <p>Szegény Angyel szeretett volna ott e pillanatban elsülyedni; mig szégyentől égő
+               arczát kötényével födé el, keblét majd szétveté a fájdalom; sirt, zokogott, alig
+               birta találni az utat, melyen meneküljön az emberek és megszégyenitése elől.</p>
+            <p>- No, hiszen szép spektákulum! - mondák sokan magukban. Pedig ezzel nem volt vége,
+               sőt a spektákulumnak folyamata sem szakadt meg.</p>
+            <p>Dini odalépett a molnárlegény elé és nem kiáltott, hanem ugy szólván az önkivületes
+               düh lázasságával orditott reá:</p>
+            <p>- Te... te fogsz elkotródni mindjárt innen!</p>
+            <p>Az ember elsápadt, de nem mozdult.</p>
+            <p>Mindenki ugy vélte e pillanatban, hogy Dini össze fogja morzsolni, széttépni
+               darabokra. Nem! Két kezének egy mozditása elég volt arra, hogy az az ember eltünjék
+               onnan s kedve ne legyen visszajönni többé. Megragadta vállainál, s erős karjaival
+               fölemelve a földről, mint egy labdát, kidobta a sátor elé.</p>
+            <p>- Ember! miért nem emlékezel arra, a mit én neked megigértem?</p>
+            <p>Dinit ez eset után nem lehetett többé a sátorban látni. A ház egy sutjába ült be, ott
+               muzsikáltatott magának két czigánynyal, és ivott, ivott keservesen.</p>
+            <p>Egy szerelmi vetély- és féltékenységi jelenet folyt le itt a grófné szemei előtt,
+               melyet akként értelmezett magának, hogy az uj szerető állott a régivel szemben, s nem
+               éppen nyugodt, szelid modorban. - Bizony haragudhatnak ezek egy kissé egymásra! No,
+               de illetlen és szemtelenül sértő is volt azon ember föllépése, ő is haragra lobbant a
+               miatt.</p>
+            <p>Gereczey urambátyám pedig kötelességének érezte, hogy a történtekért ő kérjen a
+               grófnétól bocsánatot. A grófnénak ugyan már nem volt többé olyan jó kedve, de az öreg
+               ur ez ötletén mégis elmosolyodott s azután ki is magyarázá az öreg urnak, hogy
+               sajátlag ő a hibás, mert közvetve éppen ő idézte elé e sajnos eseményt, mely előtte
+               egyébiránt korántsem esik megrovás alá, sőt helyesli azt, a mit Dini azzal a
+               szemtelen emberrel cselekedett, a szegény leány oly érzékeny megsértéseért; a nők
+               kötelessége pártját fogni az udvarias embernek, a nagy világban párbajok szoktak
+               származni ilyen esetekben, de itt, a hol helye nem lehet, igen nehéz meghatározni,
+               hogy másként miként járhatott volna el. Csak azt nem helyesli, hogy Dini most már
+               iszik, a helyett, hogy itt a tánczot folytatná.</p>
+            <p>Gereczey urambátyám vállat vont.</p>
+            <p>- Szegény grófnő! Fiatal, tapasztalatlan, jó szivével a nagy világból jöve, itt a
+               természet ölében az emberekben csak csupa természetességet és tiszta erkölcsöket vél
+               találni.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>III.</head>
+            <p>Midőn porig alázva elvánszorgott, nem záporként omló könyei, hanem azon óriási
+               szégyenérzet, mely arczát piritá, fejét szédité, lábait roskadoztatá és szivét
+               könyörtelenül facsarta, homályositotta el előtte a világot.</p>
+            <p>Mi történt vele? Száz és száz szem volt függesztve reá, száz és száz szem előtt érzé
+               kiégni szemeit, lábai alatt sülyedni a földet. Mintha arczul ütötték volna
+               nyilvánosan az egész világ előtt és becstelennek nevezték volna. Zúgó füleiben a
+               gúnykaczaj csengése tébolyitólag vegyült a visitó zenéhez. Reszketett. Majdnem
+               összeomlott.</p>
+            <p>Oh! ha még csak ez történt volna vele!</p>
+            <p>Ezek, mint futó kisértetek, elröpülnek, de a szemekről, az ajkakról, melyek a
+               boldogság mosolyával szoktak rá ragyogni, nem tünik el azon undok kifejezés, melyet
+               látott. Látott egy haragban gyúló arczot, villámot szóró szemeket, határtalan
+               gyülöletet, megvetést, mely őt megsemmisitette; hallott ocsmány, titkos szavakat,
+               melyek őt megbélyegezték, mint egy közönséges rossz leányt. És ezt a lélekben belől
+               nem a gúnyos arczok kétértelmü mosolya, nem a zene visitása hullámozza körül, hanem
+               egy merev, mély, megdöbbentő csönd, kétségbeejtő, tébolyitó elmélkedés arról, hogy
+               valóban mi történt itten. Miért, mi okon történt mindez?</p>
+            <p>Majdnem fölsivalkodott hasgató fájdalmától, rémülve törlé verejtékes homlokát s
+               ijedve nézett a nagy csöndbe, mely kérdéseire nem tudott megfelelni.</p>
+            <p>Olyan sötét, olyan rideg, olyan puszta volt az éj. Fölpillantott és döbbenve,
+               rázkódva hunyta be ujra szemeit. Szegény Koldus Angyel, sohasem látott még ilyen
+               félelmes, sötét éjt.</p>
+            <p>Pedig az nem volt olyan nagyon sötét, még nem is éj volt, csak késő este: borus volt
+               csak az, de nem sötét, nem is volt rideg, néma; az enyhe őszi lég távoli zenét
+               hordozott hozzá szárnyain, s a faluszélen levő nyárfák levelei suttogtak fölötte. A
+               szerelmes szivekbe még ez mind ábrándokat csal, csupán az elhagyottság találhatja meg
+               benne azt a roppant ürességet, melyet semmi sem képes betölteni.</p>
+            <p>Koldus Angyel a legsilányabb féregnél nyomorultabbnak érezte magát. Még a szilaj vad
+               is átlépi a férget, mely utjába kerül. Csak a koldus leánya, a szegény, rongyos
+               koldusasszony leánya a legszerencsétlenebb, legboldogtalanabb féreg a világon, kit
+               könyörtelenül tipor még az is, a ki szereti; kinek nem szabad boldognak lenni, nem
+               szabad örülni; kinek folyvást emlékeznie kell arra, hogy koldus; kinek nemcsak
+               testben, hanem lélekben is koldusnak kell maradnia a sirig.</p>
+            <p>Hát ki az, a ki az ártatlanság, jó szivek, föláldozás és szegénység igazságáról
+               törvényt irt a földnek? Ki az, a ki a szalmaszálat dobja a kerékvágás vizébe, hogy a
+               fuladó hangyácska belekapaszkodjék végvonaglásaiban? Van-e annak gondja a rongyra,
+               melytől az emberek megvetőleg fordulnak el?</p>
+            <p>Vagy-e, te nagy valaki ezen a világon?</p>
+            <p>Letérdelt. Összekulcsolva emelé kezeit az ég felé. Rimánkodva néze föl és szét az
+               égben, földön a végtelenség felé, és kereste az istent.</p>
+            <p>Ugy érzé, mintha saját énjében egy más valaki, nem ő, a kesergő, a kétségbeesett
+               leány, a vergődő féreg, hanem egy emelkedő, okoskodó lélek magyarázni kezdené neki,
+               hogy mi történt vele.</p>
+            <p>Ezen lélek az emlékezés ösvényén meghordozá őt, láttatá vele, mint mosolygott reá,
+               mint esküdött neki örök szerelmet, mint füzte át ölelő karjával karcsu derekát: mig
+               csábos nézése megigézte s átjárta szive vérét, elszenderité, elaléltatá, addig lelke
+               a forró csókok alatt - boldogságban, üdvben az egekbe emelkedett.</p>
+            <p>A maga érzéséből következtetett és kérdezé: «Lehetnek-e ezen forró vallomások
+               hazugságok? Megczáfolhatja-e mindezeket egy pillanat?»</p>
+            <p>Többé nem a megvetés pillanatára gondolt, hanem sokkal fontosabbra: nem arra, hogy
+               megszégyenitette, hanem arra, hogy azon ember kerülte őt.</p>
+            <p>Vajjon hazudott ez az ember? Átkos hazugság volt-e minden szava? Ömlengése undok
+               csábitás, és nem szerelem? Ha szeretné hiven, nem hivta volna-e be tánczolni, mint a
+               hogy a többi legény mind elvitte a szeretőjét a lakodalomba? Avagy nem akarja, hogy a
+               világ tudja, mikép ő a szeretője? S miért nem akarja? Szégyenli?... Valósággal
+               szégyenlené? És miért? mert koldus leánya.</p>
+            <p>Az okoskodó lélek megtalálta, mi történt; minden meg volt fejtve előtte, a régi
+               titkolózások, óvatosságok, elővigyázatra intés, minden meg volt fejtve. Szégyenli a
+               koldusleányt, szégyenli szerelmét nyiltan bevallani a világ előtt.</p>
+            <p>És a másikra nem is gondolt, a ki ezt a fátyolt lerántotta szemei előtt s megmutatta
+               neki az embert, a gyarlót, a rosszat, a csábitót, az istentelent.</p>
+            <p>Nem gondolt arra, mint a hogy a kártyás nem gondol a rokonszenves nézőre, a ki óva
+               elővigyázatra inti a hamis játékos ellenében, hanem a veszteségre s daczra, hogy a
+               szerencsét megforditsa. Nem gondolt arra, mint szivében nem, ugy lelkében sem
+               létezett neki más, csak a min indult: szerencsétlenségének eszmemenete. A kit szeret
+               lelke rajongásával, szive forróságával, az szégyenli őt, szégyenli benne a
+               koldusleányt. Mit akar tehát?</p>
+            <p>Örökké titokban tartani szerelmét. Tehát nem akarja, nem fogja feleségül venni.</p>
+            <p>Tenyerét emelte fejéhez e széditő gondolatnál.</p>
+            <p>- Ki ő akkor? Mi ő akkor?</p>
+            <p>Szivéhez kapott és majdnem fölsikoltott.</p>
+            <p>A lélek, a mely vitte, haragra lázadt és szenvedélylyel bőszen kiáltott reá:</p>
+            <p>- Utáld meg! Vesd meg!</p>
+            <p>Nem akarta hallani, lázasan tiltakozott, kinlódva, küzdve lökdösé el magától e
+               tanácsot, mint egy rémet, melytől - azt hiszi - eszét vesziti, és ismét az istenhez
+               kiáltott.</p>
+            <p>Pedig az ott volt, az sugdosá neki a mindenségbe áradó leheletével:</p>
+            <p>- Emeld föl fődet! A ki elesett, én fölemelem, a kit lábbal tipornak, fölmagasztalom.
+               Légy bátor, légy büszke, légy erős! Küzdd le szerencsétlenségedet!</p>
+            <p>A leány zokogva kulcsolá össze kezeit.</p>
+            <p>- Tudom, érzem, édes istenem, hogy meg kellene vetnem, utálnom; tudom, képes lennék
+               gyülölni, de tudom azt is, hogy akkor megrepedne szivem, meghalnék. Olyan
+               szerencsétlen vagyok!</p>
+            <p>Fájdalommal nyögdelé:</p>
+            <p>- Én istenem, mint szerettem ez embert! Szerettem, mint életem boldogságát. Meghalok
+               e boldogság nélkül.</p>
+            <p>Hirtelen egy ábrándos vigasz melege futotta át szivét, s annak borzalmára nem is
+               eszmélt.</p>
+            <p>- Talán jobb is lenne meghalnom, talán boldogabb lennék...</p>
+            <p>És besülyedt a hálózó sötétségbe. Az vitte, csalta.</p>
+            <p>Gondolkozott, ha lehet gondolkozni ily sötétségről, ha ezen sötétség szélén nem
+               szünik meg az ész, a gondolat s mint egy örvénybe, nem csupán az őrület széditi az
+               áldozatokat.</p>
+            <p>Gondolkozott, de arról, a mit ez a sötétség hagy maga után, ha őt elnyeli.</p>
+            <p>Az isten ismét ott volt.</p>
+            <p>Mintha hangot hallott volna, valami siró, esdeklő hangot. Megrettent.</p>
+            <p>- Angyel! Miért nem szólsz, Angyel?</p>
+            <p>Megdöbbenve tért magához, fölemelé fejét, megtörlé nedves homlokát, eszmélve néze
+               szét, a sötétség helyett ujra a világot látta, habár szomoritó látvány volt is az, a
+               mit látott, mégis elérzékenyedésében enyhülést adott e pillanatokban. Nem is tudta,
+               hogy ide ért; nem is tudta, hogyan ért ide; nem is tudta, hogy az egyetlen lénynek a
+               közelében van, a ki könyeit szokta törleni, ki a jószivü emberek által könyörből
+               engedett födél alatt, düledező, ajtótlan kamra zugában szalma-vaczkon nyomorog.
+               Odafutott, odaborult és megcsókolta lázasan, forrón annak aszott kezét.</p>
+            <p>A vak koldusasszony megsimitá a bánatban odahajlott főt, és siró hangján ujra szólt
+               hozzá:</p>
+            <p>- Mi bajod, Angyel? Az imént sivalkodtál.</p>
+            <p>- Álmodtad! Éppen most jövök haza! - felelt Angyel elszorult kebellel.</p>
+            <p>- Oh! Angyel, hiszen sirtál, zokogtál!</p>
+            <p>- Nem sirunk-e mi gyakran, mindig?</p>
+            <p>- Igazad van! De én mégis megrettentem rajtad. Te most nem sorsunkon sirtál. Oh!
+               akkor egészen másként sirsz. Teneked mélyebb, nagyobb bánatod volt.</p>
+            <p>- Tehát a vakok is látnak!</p>
+            <p>És ha az a szegény vak éppen a szülő édes anya, hogy ne látna a szivével?</p>
+            <p>- Vigasztalódjál, szegény, jó anyám, légy nyugodt, pihenj, aludjál, leányodnak semmi
+               baja nincsen, hiszen itt vagy te, boldogsággá tenni neki az életet!</p>
+            <p>Angyel ugy érzé, hogy szemei ujra telefutnak könyel, könyei ismét záporként hullanak,
+               de most nem a kétségbeesés könyei, hanem az elérzékenyülésé; lágymeleg könyek nem
+               tépik, nem szakgatják, hanem könyitik a szivet.</p>
+            <p>Letérdelt a kamra előtt és forró, buzgó imára nyitá ajkait.</p>
+            <p>- Édes istenem, édes jó teremtő istenem, hivtalak, kerestelek, te ott voltál velem.
+               Légy velem, ne hagyj el ezután sem! Erősitsd, bátoritsd szivemet! Ne törjék meg sem a
+               fájdalom, sem a gyalázat alatt. Álljak ki mindent, hütlenséget, eltaszitást attól, a
+               kiért üdvösségemet áldoztam; melyeket meg fogok érni, hadd viseljem békén a
+               megvetést, gunyt, utálatot az emberektől. Ne csüggedjek, távolitsd el a gondolatot,
+               hogy magamat elveszitsem, engedd eszemben lenni mindig, nem feledni soha, hogy van
+               miért élnem a földön, s kötelességem élni!</p>
+            <p>Az imádkozó körül egy bűvkör van vonva, melybe a sátán nem mer belépni.</p>
+            <p>A kevély molnárlegény is, kinek a kidobatás után azóta vére higgadt, vagy a ki talán
+               még mindig igen élénken emlékezett a szép Angyelnak nem ugyan szerető hü szivére,
+               hanem csókolni való piros ajkaira, midőn összeszedte magát, kifőzte, kitervelte
+               magában, hogy saját érdekében meg fogja engesztelni a megbántott galambot. - Egyet
+               gondolt.</p>
+            <p>Az ördög mindig gondol valamit, s mindig akkor jelenik meg, midőn hatalma inogni
+               kezd.</p>
+            <p>A teljes holdvilág kibujt a felhők mögül, és mint egy térdelő szentet, fénynyel
+               ragyogta körül az imádkozó leányt.</p>
+            <p>Az ima bűvköre hatott, az áhitat látása hatalmas és erős; az ördög megállt.</p>
+            <p>Megállt és pár lépésről némán, magábafojtott lélekzettel bámulá; bámulá tartósan,
+               hosszasan, és megérdemelte volna, hogy abban a pillanatban a haragvó ég villáma
+               sujtsa le; az a gazember nem az áhitatszülte megilletődéssel szemlélte őt, hanem
+               gyönyörködött megcsuszott ingvállain, hókarjain és gömbölyded, fehér vállain.</p>
+            <p>És ittas gyönyörrel rebegé felé:</p>
+            <p>- Angyel, én megbocsátok neked!</p>
+            <p>Angyel megdöbbent. Az éjben kisértetek járnak, imádkozott tovább:</p>
+            <p>- De szabadits meg a gonosztól.</p>
+            <p>A kisértő epedve, nyájaskodva suttogá:</p>
+            <p>- Angyel, nem haragszom!</p>
+            <p>Angyel reszketett egész testében, és imádkozott lázasan rettegve; nem akart
+               elszakadni, elválni a buzgó imától, és ugy huzta-vonta őt az imádságból egy
+               láthatlan erő; szive erősen vert, fejében zavart gondolatok tódultak az ima helyébe s
+               szoritották azt ki onnan. Nem tudott, nem birt imádkozni s érezé, hogy ha fölpillant,
+               elvesziti azt is, a mit eddig nyert az istentől.</p>
+            <p>Az elébb tudta, most már érezte, ki van ott közelében. Már hatott, az ördög megtörte
+               a bűvkört, melyet az ima vont.</p>
+            <p>Miután imádkozni nem tudott többé, futni, menekülni akart a szegény egyetlen biztos
+               menedékéhez, az anyai kebelhez.</p>
+            <p>Késő volt. Karcsu derekát egy kar övezte át, kezét a másik vaskéz fogta meg, forró és
+               erős, keblénél lázas szivet érzett dobogni és csengő hang lehelete verdesett
+               arczához.</p>
+            <p>Majdnem megsemmisült gyötrődésében, keserü, kinzó volt ez az ölelés neki.</p>
+            <p>- Tehát semmi, semmi erő sincs sem földön, sem égben, a mely megvédelmezzen tőle? -
+               sirt, esdett a csüggedő leány. - Nincs semmi erő, mely eltávolitsa tőlem e gúnyos
+               megaláztatást?</p>
+            <p>Fölpillantott, s e fölpillantás, melytől félt, e fölpillantás adta vissza nem
+               testének, hanem lelkének erejét.</p>
+            <p>Irtózat, gyötrelem, undor, megvetés, fenyités lehetett e fölpillantásban. A
+               féketépett lélek fenségét találta meg e pillantásban, a női büszkeség haraggal
+               emelkedett s villámként szállt alá.</p>
+            <p>Parancsolt e tekintet.</p>
+            <p>Minden karnál erősebben lökte el onnan azt az embert.</p>
+            <p>Azt mondta az a tekintet:</p>
+            <p>- Nyomorult! még te akarsz nekem megbocsátani, te gonosztevő, a gyilkosnál bünösebb
+               gonosztevő?!</p>
+            <p>A gazember megrettent, de nem lelkiismerete fenyegetésétől; nem a megbántott női
+               büszkeség lángját látta azon a szép arczon, még mindig a csábos ördög sugdosott
+               neki, a szép zsákmányt kezeiből siklani látta, s hogy ne hagyja, azt sugdosta
+               neki:</p>
+            <p>- Angyel, ne neheztelj reám, bocsáss meg nekem!</p>
+            <p>Angyel keserüen hányá szemére:</p>
+            <p>- Mit tettél velem?</p>
+            <p>Az ember alázatosan közelgett, epedve a szerelem mély olvadásával, csábitásával
+               emelte hozzá szemeit, lágy, engesztelő hangon szólott, nem szólott, hanem
+               esdekelt:</p>
+            <p>- Angyel! Elismerem, hogy megbántottalak, irtózatosan megsértettelek, de esküszöm,
+               jóvá fogom hibámat tenni. Ha meg nem bocsátasz, nem látsz többé soha, de más sem ezen
+               a világon! Látod, a bortól voltam fölhevülve; és azután éppen azzal készültél
+               tánczolni, a kit gyülölök szivemből, lelkemből. Bocsáss meg, Angyel! Ha megbocsátasz,
+               meglátod, egész életünkre boldogok leszünk.</p>
+            <p>Angyel keserüen nevetett, azután szigoru feddéssel nézett az emberre.</p>
+            <p>- Hogy érted ezt? Hiszen te szégyelsz engemet a világ előtt!</p>
+            <p>Az ember elszörnyedést mutatott.</p>
+            <p>- Én?! - kérdé mély illetődéssel és csodálkozással, ugy hogy e hangon megingott a
+               lány kétkedése. - Én?! Hogy gondolhatod, hogy mondhatod ezt, Angyel? Ki mondta ezt
+               neked? Én tégedet szégyelni, én, a ki mindenekfölött legjobban szeretlek a világon, a
+               ki meghalnék nélküled, s kétségbe esném bocsánatod nélkül?!</p>
+            <p>A leány hallgatta őt, nem birt távozni onnan; a miket most hallott, jól estek
+               szivének; vigasztalás, elégtétel, a boldogság reménye volt azokban, miket hallott, a
+               sziv fájdalmai lassan-lassacskán gyógyultak az irtól, csöndesedtek, és már csak saját
+               magától, saját gyöngeségétől vált függővé.</p>
+            <p>- Ugy van! Nem értesz-e még? - folytatá a sátán, a leány kezét ujra birtokába keritve
+               s csábosan hizelegve. - El foglak venni feleségül.</p>
+            <p>A leány arczát egyszerre derü futotta be; egy varázsilletésü szó lett elmondva, mely
+               minden borut az arczról, minden bánatot a szivből tovaüzött. Nem remegett többé, a
+               megindulás szelid érzelmekbe ringatta, önkénytelenül közelebb-közelebb simult, mig
+               végre a vigasztalódás könyeivel és örömével odaborult az ifju kebelére, az ismét
+               megtalált boldogságra. Meg volt neki bocsátva.</p>
+            <p>Az háladatos volt ezért, igéreteiben bőkezü, csókjaiban pazar.</p>
+            <p>A leány boldog volt ujra. A szerelemnek egyetlen percze feledtetni, megbocsátani
+               képes napok boldogtalanságát.</p>
+            <p>- Tehát elveszesz, feleséged leszek, jó sorsa lesz szegény anyámnak is? Nem rettegsz,
+               nem szégyenlesz a világtól? - mondogatá boldog ábránddal, érzékenyen és hálás
+               megindulással.</p>
+            <p>- A világtól?! Hát mit nekem a világ? Nem te vagy-e az én világom egyedül?</p>
+            <p>- De hát mondd csak azt nekem, - folytatá azután a leány, de némi habozással, -
+               mikor?</p>
+            <p>- Nem soká.</p>
+            <p>- Ugy-e, csak hamar, minél előbb! - szólt, s lesüté szemeit.</p>
+            <p>A legény ingerkedve, tréfásan kérdezé tőle:</p>
+            <p>- És te sürgeted, nem én?</p>
+            <p>A leány nem felelt, arczát élénk pir futotta be s égő szemeit elrejté az ifju
+               kebelére; de azért boldog, boldog volt nagyon.</p>
+            <p>Az pedig megdöbbent e váratlanon. Gyors változás állott be nála.</p>
+            <p>Karja lesiklott a leány derekáról, mintha megzsibbadt volna. Mintha boldogságát egy
+               futó gondolat zavarta volna meg, a leány elpirulásával titkos összefüggésben gyorsan
+               elsápadt és folyvást sápadt maradt, folyvást döbbent maradt; szive nem lángolt forrón
+               többé, és terhére volt, nehéz volt neki az a szegény féreg, a mint bizalmasan
+               odahuzódott védszárnyai alá kebeléhez. Borsódzott, fázott tőle.</p>
+            <p>És gondolkozott tompán, érzéketlenül, sötéten.</p>
+            <p>- Ha el nem veszem is, a világ mégis meg fog tudni mindent, s a gyalázat mégis rajtam
+               marad.</p>
+            <p>- Te nem beszélsz? Gondolkozol? Miről gondolkozol?</p>
+            <p>Csak mintegy félig magánál felelt a legény:</p>
+            <p>- Megmondom holnap.</p>
+            <p>- Mit mondasz meg holnap?</p>
+            <p>Vontatva, lassan, szorongva felelt az ismét:</p>
+            <p>- Hogy mikor fog lenni esküvőnk!</p>
+            <p>Majd azután gyorsan, mintha most már kész lett volna, számolt volna gondolataival,
+               sietve tevé utána:</p>
+            <p>- Holnap éjféltájban jőjj el a zugóhoz, ott mindent elhatározunk.</p>
+            <p>Ezzel még egyszer megölelte a leányt, még egyszer megcsókolta, elsietett... gyorsan,
+               gyorsan, mintha üzték volna; a leány pedig édesen, boldogan nézett utána, mig csak
+               látta a kis ösvényen, mely a réten keresztül a vizi malom töltéséhez vezetett.</p>
+            <p>- Angyel, Angyel! - szólt ismét a vak koldusasszony. - Te beszélgettél valakivel.
+               Kivel beszéltél?</p>
+            <p>A leány oda ült a vak koldusasszony fejéhez, s áthatott hangon rebegé:</p>
+            <p>- Most már elmondok mindent, édes anyám!</p>
+            <p>A molnárlegény pedig ment sietve a kis ösvényen, gyorsabban, mint a holdvilág odafönn
+               a felhők között; azonban azon a ponton, hol a kis ösvény a malom töltésére fut föl,
+               hirtelen leszögeződtek lábai, mintha valaki megállitotta volna.</p>
+            <p>Nem volt ott senki, csupán saját gondolata állitotta meg. Valami jutott eszébe.</p>
+            <p>Ezelőtt rövid idővel, nincs annak talán még fél éve sem, szintén éjjel volt, mint
+               most, szintén sütött a holdvilág, mint most, éppen ezen a ponton a vállára nehezedett
+               egy erőteljes kéz, ugyanaz a kéz, mely ma éjjel, s haragos, elszánt, elkeseredett
+               hang dörgé fülébe:</p>
+            <p>- Hallod-e, ember?! Én csak egy leányt szerettem életemben, én ur vagyok, az
+               parasztleány volt, de abban az egyben mindent megtaláltam, a mit lelkem, szivem
+               magának teremteni tudott, szépséget, észt, jó szivet tisztán, zsengén, rontatlanul, a
+               természetesség virágporával, ugy, a mint az jön a teremtő és a természet szent
+               kezéből. Szerettem ezt a leányt; akkor, mikor az még csak piczinyke kis rongyos
+               leányka volt, kiválasztottam magamnak, s mivel utáltam a nagy világ romlottságát,
+               megfogadtam, hogy életem boldogságát fogom belőle teremteni. Nem ugy lett. A leány
+               miattad nem fogadta el szerelmemet, mert tégedet szeretett meg. Én kitértem utadból,
+               jegyezd fel ezt jól magadnak!... Ha e leányt boldoggá teended, nem fogok rád soha még
+               rossz szemmel nézni sem; de ha ezen leány boldogtalan leend, kerülj engemet!
+               Tanácslom neked, sorsod ne hozzon utamba. Hallod-e, ember, jegyezd föl ezt
+               magadnak!</p>
+            <p>Ez jutott most eszébe.</p>
+            <p>- Eh! mindegy! - azt mondta most rá magában.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>IV.</head>
+            <p>Minden vizi malmot, kivált ugy holdvilágos estéken, bizonyos bűbájos ábránd,
+               titokszerüség vesz körül. Nem csodálkozom azon, emberi hang nem hallatszik, az
+               élettelen tárgyak suttognak, beszélnek, lármáznak itt. Emlékszem, mikor gyermek
+               voltam, a szürkületekben órák hosszáig el tudtam állni, bámészkodni, mélázni a vizi
+               malomnál. A falu felső vége felől mintegy negyedórányira, hova a hinceli puszta
+               szögellik, Dalmánd és Keszi felé a Barcsán egy vén vizimalom feküdt; az épitésével
+               egyidőben ültetett fák mutatták, hogy régi, nagyon régi időkről beszélhetett; odvas,
+               vastag füzek környezék, s szomorun csüngő galyaikkal lehajoltak tetejére;
+               keritéstelen udvarát kis erdő szegélyezte terebély nyárfákból, a zúgó felé pedig
+               magas, suttogó jegenyék sora vezetett, az egyik oldalon a csöndes folyamból egy
+               hosszu félkörös gát - tetején rekettyeszegélyezett gyaloguttal - nagy, sima tavat
+               fogott fel, melynek hátterében magas nádasok emelkednek az erek zsombikjai fölött,
+               tükrén pedig vastaglevelü, narciss-alaku sárga, és tulipán-alaku hófehér virágok
+               libegtek, a malom kerekei a vizet csapkodva, tompa egyhangusággal zakatoltak, a zúgó
+               zuhogott, a békák ümmögtek a nádasok tövénél, a lélek önkénytelenül ábrándokba esik,
+               és az elmélyedő ábrándok szellemeket, elsuhanó tündéreket keresnek, mintha
+               ilyeneknek mindenesetre kellene lakniok minden ilyen vizimalom közelében; a csöndes,
+               szomoru merengés a lelket, szivet akaratlanul azon kesergő nótákkal foglalkoztatja,
+               melyeket a vizi malmokról dalolnak. Hogy van az, hogy minden vizi malomról van fönn
+               egy szomoru, kesergő nóta, mintha mindenik vizi malommal egy-egy szomoru történet
+               lenne egybekötve?</p>
+            <p>Különösen pedig ez a nóta nagyon szomoru:</p>
+            <p>,Szivem molnár, itt a kalács, csak egyél, </p>
+            <p> Melegében a csókomból is vegyél!’ </p>
+            <p> «Nem kell nekem sem kalácsod, sem magad, </p>
+            <p> Itt a zúgó, jó mély a viz az alatt.»</p>
+            <p>A ki a dallamát is ismeri, elismerheti, hogy ennél nincs szomorubb románcz a nép
+               ajkain.</p>
+            <p>Valóban mint gyermek a mennyire szerettem ezen tó ábrándos környékét, éppen ugy nem
+               szerettem az alsó oldalt, az alsót, mely a zúgón alól esett, mely már mindjárt a
+               zsilipnél kezdődött; nem csak féltem tőle, de irtóztam, borzalmasnak találtam; a
+               zúgónál keskeny padló vitt a szük vályu mederbe szoritott és sebesen rohanó ölnyi
+               mély ár fölött, az ár erősen vágta, csapdosta az óriás kerekeket, azután szilaj
+               zugással bukott alá több ölnyi magasból, és azon tul mint korlátból szabadult,
+               nekiszilajodott folyam vágtatott tovább habosan, sebesen.</p>
+            <p>Akkor és mindig azelőtt és azután is hires malom volt az, jó lisztet őrölt, nem nagy
+               vámot szedett, és kellemes tanyája volt az őrlős parasztoknak, ott ültek azok sokszor
+               egész késő éjig, vén, magas füzek tövénél; mig a lovak saraglyához, oldalhoz kötve
+               álmoskodtak az eléjük gyürt és megunt takarmány fölött, azalatt magasan lobogó tűz
+               mellett, mely a fákat fényével egész hegyökig bejárta s a pompás látományt messze
+               elragyogtatá, pipára gyujtva, el-elbeszélgettek régi mult időkről, vagy pedig
+               el-elnevetgéltek egy-egy alkalmi bohó mesén, mely mindig a vizi malmok s molnárok
+               rovására élczeskedett: mint vitt az egyszeri szegény ember hat ökrön hat zsák buzát a
+               malomba, mint akadt el a homokban, mint fogta ki a hat ökröt s mint tette fel őket a
+               szekérre s helyettük befogta a hat zsák buzát; hogy érkezett meg szerencsésen, hogy
+               kereste a molnárt, ki a szomszédban beszélgetett, hogy szurta le a négyellő
+               ostornyelet a szekér mellé s mily szerencsésen megőrölt akkorra, mikor az az
+               ostornyél nem csak kilevelezett, hanem magas, sudar fává nőtt; és azután mily sok
+               furcsaság történt e fával s a korpából font madzaggal, melylyel kidöntötte, hogy
+               ostorához juthasson; vagy a másik mesén: a papucsos és rosszködmönü Mihály molnárról,
+               ki malmától megszökött s ki után malma nagy lassan sirva nyikorogta: «Mi... hály...
+               ne... hagyj... itt!» Ezen s még más hóbortos furcsaságokon egész a könyekig röhögték
+               magukat.</p>
+            <p>De ezen malomra nem vonatkozhattak ily bohó mesék, vize mindig bőven volt, molnárja
+               sem olyan rongyos, toprongyos molnár volt, mint a mesebeli szegény Mihály molnár,
+               hanem gavallér kaczkiás fiatal ember, ki hegyes orru kordován csizmában járt, s
+               világoskék dolmányán valóságos ezüst gombokkal kevélykedett; kinek mindig volt bora,
+               pálinkája a látogató bátyámuramék számára, kész pillantása, kacsintása a fürge
+               menyecskék és lisztlángot óhajtó hajadonok részére, sőt még csókja is, ha éppen ugy
+               hozta az idő magával.</p>
+            <p>- A vám mindenből kijár, a mi a malomba jön! - szokta mondani incselkedve a csintalan
+               molnár, s nem lehet mondani, hogy a nagyobb rész neheztelt meg; a molnár csinos
+               ficzkó volt, s a mellett gazdag; valami Stlovocsik, vagy Stlabucsik-féle tót neve
+               helyett éppen ezért az atyjára ragadt «Pénzes molnár» nevezet a fiuban már
+               magyar-családi nevévé változott.</p>
+            <p>Jó dolga is volt, nem volt semmi baja, lehetett kevély, rátartó, lehetett vidám,
+               pajkos; nem volt csoda, ha úgy lépegetett, hogy a lábát is alig tette a földre, s
+               akár a garadra öntötte a búzát, akár a lisztet szedte, vagy a tengely ékét verte be,
+               vagy a zúgót eresztette meg, mindig fütyölt, mint a madár, melynek szintén nincsen
+               egyéb gondja a világon, mint ágról-ágra szállni.</p>
+            <p>A mai napon azonban nem hogy fütty, még mosoly sem jött ajkaira; de nem is lehetett
+               ezen csodálkozni; ha eszébe jutott volna ennek okán törni a fejét, a legostobább
+               bátyó is rájött volna, hogy a tegnapi lakodalomban vele történtek után nem is
+               lehetett neki jó kedve. S mivel a molnárnak nem volt jó kedve, s mivel értésükre is
+               adta, hogy ez este a köveket szándékozik vágni, az őrlés megszüntetésének
+               kijelentésével tisztességes módon el lettek küldve, tehát még a rendes törzsmesélők
+               is a napszálltakor elszállongottak. A malom környéke megnéptelenedett.</p>
+            <p>A molnár maga is igy óhajtotta a dolgot.</p>
+            <p>Mikor a legutolsó asszony is - hátán egy véka lisztecskéjével - a töltés reketyéi
+               közé lépett, a kerekek oly lassan csusztak, hogy nem hallotta többé zakatolásukat,
+               csak a véső pattogását hallotta. A molnár vágta a követ.</p>
+            <p>A nap utópírja halványodva beoszolt a végtelenbe, a leszálló szürkület lassan-lassan
+               elvevé a fák, a tárgyak szineit, feketébe öltöztetve lombjaikat, csak sötét
+               körrajzaikat hagyta meg; a holdnak még távoli útja volt a fölkelésig; a nap nyugta és
+               a teli hold kelése közt titkos homály állott be, mely csöndre hiv mindent. Semmi más
+               zaj nem hallatszott a malom körül, mint a véső időközös pattogása, mely műtéthez a
+               követ a kerekek csak lomhán, nehézkesen fordulva forgaták.</p>
+            <p>Most csakhamar megszünt ez is. A molnár lejött a kőpadról, letette a kalapácsot s
+               vésőt; a nagy fejszét vette kezébe, kilépett a malomból s azután odajött a zúgó
+               padlójához. Elővigyázva, mintha titkos munkát akarna véghezvinni, lehúzta magát,
+               szétnézett mindenfelé a töltés kanyarúlatán, a tavon, a kerekek felé, a távol téves
+               sötétség felé, s midőn meggyőződött hogy a közelben csakugyan senki nincsen, gyorsan
+               fölvette ismét fejszéjét s aláfeszité a zúgó padlójának, óvatosan, minél kisebb zajt
+               igyekezve okozni; a fejsze fokát fabunkójával veregetve, fölfeszité, azután
+               fölemelé, fölebb-fölebb a padlót, elébb az egyik végén, azután a másikon, azután
+               lázas sietéssel kiverte végeiből a két-két óriási szöget, a megszabaditott padlót
+               gondosan ismét visszahelyezé előbbi helyére, a szögeket magához vette, bevitte a
+               malomba s pontos megjegyzéssel föltette a kőpadra.</p>
+            <p>Ekkor egy nagy lélekzetvétellel könnyitett magán, megtörlé verejtékes homlokát; a
+               munkának fele be volt végezve.</p>
+            <p>Most már jöhet a leány!</p>
+            <p>A mécset a kezébe vette és ismét fölvitte a kőpadra; de nem dolgozott többé, nem
+               birta többé a követ vágni; ha kezébe vette a vésőt, kalapácsot, keze reszketeg lett,
+               szive szorúlva dobogott, és nem tudta leküzdeni, hogy ne borzadjon.</p>
+            <p>- Hiszen én nem ölöm meg. Hiszen hozzá sem nyúlok! - vigasztalá magát.</p>
+            <p>Mindegy! Mégis borzadt.</p>
+            <p>Arczát bántá a mécs világa, megforditá, hadd világitson ki a kőpad ablakán.</p>
+            <p>- Legalább látja az utat a leány. Látja, merre jöjjön.</p>
+            <p>Látta is; a mint a rét gyalogútjáról a töltésre fölért, már látta messziről. Örült,
+               mert azt jelentette neki, hogy ott várnak reá. Más fény nem volt a vidéken, ez volt
+               az egyedüli; távolról hivó, csalogató kis csillag, közelebb-közelebb biztató fény,
+               mely bátoritá s intett neki, hogy ne féljen; hogy is félt volna? a szerelem
+               boldogsága vitte és egészen a közelben tündéri látomány tárult fel előtte, a mint a
+               fény a kőpad hátuljának ablakán kisütött sugáritól a kerékről csorgó vizcsöppek, a
+               bennük megtört fénynyel, gyöngyesőként hulltak alá.</p>
+            <p>Szép, gyönyörü volt ez, mert a legparányibb különösség is tündéri látomány, ha a
+               forrón dobogó kebelt szerető karok ölelései várják. Mily kár, hogy a molnár e
+               pillanatban megszünteti e szép látományt. Elvitte onnan a mécset, azután fölebb
+               vette a malomkereket, hogy a rohanó viz ne forgassa többé, s csak alatta suhanjon
+               el.</p>
+            <p>- Jobb lesz igy. Bizonyosabb igy.</p>
+            <p>A leány a padló végén megállt egy pillanatra, talán hogy lesse, fürkészsze a
+               homályban is a mosolyt, mely reá a túlparton vár, azután könyeden, biztosan rálépett,
+               átszökelt s gyermekies örömmel nevetve veté magát keblére a sötét alaknak, ki
+               csókjában susogta hozzá:</p>
+            <p>- Csak hogy itt vagy már!</p>
+            <p>És az képes volt elfogadni a csókot, képes volt visszaadni és azt mondani neki, azt
+               susogni neki hogy: «Szeretlek, boldog vagyok, midőn igy keblemre borulsz! Boldogul
+               fogunk élni».</p>
+            <p>Képes volt neki elbeszélni, kiszinezni, részletezni azt a boldogságot, melyben itt, e
+               szerelemre hivó ábrándos magányban mennyi és mennyi éveket fognak együtt élni,
+               gyermekeket fognak fölnevelni, kiknek szentelve leszen életük; s áldani fogják az
+               istent azért a boldogságért, melylyel életüket mennyországgá tette, és együtt fognak
+               megőszülni a szeretetben... ezt mind, mind elbeszélte, holott tudta, s csak ő tudta,
+               hogy annak a leánynak nem évei, csak órái vannak fönn életéből, most meleg, forró az
+               ajaka, s még ez éjjel hideg fog lenni, örökre hideg... tudta, hogy meg fog halni,
+               meghal azon tőrben, melyet számára éppen azon kezek vetnek, melyek most olyan
+               szerelmesen ölelgetik.</p>
+            <p>A leány a tűzhelynél kis széken ült mellette, fejét annak dobogó szivére helyezé,
+               epedő boldogsággal nézett annak szemeibe, hallgatta édes olvadással szavait, melyek
+               nem nyugalmát, hanem üdvét adták vissza.</p>
+            <p>A gonosz elkábitotta fejét, képes volt csábitón mosolyogni, szerelmesen ittas
+               gyönyörrel nézni szemeibe, lángoló határzattal beszélni neki, elhitetni vele, hogy
+               pár hét mulva az oltár előtt fognak állni, holott tudta, hogy nem fognak többé
+               találkozni az életben. Meghatározta a napot, az órát, mely őket örökre egybeköti,
+               mely a nyilvánosság előtt szenteli meg titkos szerelmüket, holott tudta, hogy az
+               titok marad örökre, mint titok marad minden, mely azzal összekötve van. A leány
+               elviszi azokat magával a sírba. Tudta, érezte, hogy igy is kell annak lenni... hadd
+               vigye...</p>
+            <p>És mégis marasztgatta forró kebelén.</p>
+            <p>- Ne menj még, maradj velem! A hold csak imént jött fel még. Az éjfél ha itt van is,
+               de a hajnal még jó messze van.</p>
+            <p>A leány maradt; hogy ne maradt volna, hiszen örökre is ott tudott volna maradni, és
+               ismét ujra marasztotta és ismét maradt.</p>
+            <p>Azután egyszer elérkezni vélte az időt, melyben az éjnek titkos nyomása az álom
+               sulyával mindenre ránehezül, még a fák, bokrok sem látnak többé, alusznak, nehéz,
+               mély álomban, a hold egy delejezett dermenet fölött uralkodik, és maga is szökik,
+               buvik e döbbentő mozdulatlanság elől, elrejtőzik sűrü, sötét felhők mögé... ekkor
+               nem marasztotta többé.</p>
+            <p>A mig a leány ott boldog, szelid mosolylyal talán még tétovázva állott, kiosont egy
+               pillanatra, sebesen a zúgóhoz iramlott, gyors izgatottsággal megereszté, azután
+               fektéből fölemelte az átvezető padlót, lapjáról élire állitotta szorosan a fölvonók
+               gerendáihoz. Ez mind megtörtént pár pillanat alatt.</p>
+            <p>Semmi átjárás többé, csak a viz zúgott, rohant sebesen. Az ut el volt készitve a
+               sirhoz.</p>
+            <p>Halvány volt és reszketett, midőn visszatért.</p>
+            <p>- Most már mehetsz! - suttogá a lányhoz lázasan.</p>
+            <p>És elkisérte egészen addig; s a leány még mindig pirosnak, mindig mosolygónak vélte
+               őt a homályban, s a bucsucsókban is hitte, hogy forró szerelme az, a mitől
+               reszket.</p>
+            <p>Ha arczát mélyen vizsgálta volna, s ha látta volna szivét, megborzadt volna tőle. Az
+               ember ébredt föl egy pillanatra és harczolt, küzdött a sátánnal, de csak egy
+               pillanatra. A sátán azt susogta: «Hagyd, azt, a mi történik, ilyen sötét éjjel nem
+               látja senki sem! Örök titok marad».</p>
+            <p>Egy szó, csak egyetlen óva intő szó a kebléről fejlő leányhoz, és még nem késő semmi,
+               még meg van mentve. Nem mondta ki azt a szót. Még azt sem mondta neki: «Isten legyen
+               veled!»</p>
+            <p>E pillanatban éppen ott állottak meg a zúgó átjárása végénél. Még ott is
+               bucsuztak.</p>
+            <p>A leány még egy csókot illesztett kedvese ajakára, azzal kirántotta magát karjaiból,
+               gyorsan megfordult, a padló felé szökelt, s mintha valaki meg is lökte volna, hullani
+               érzé magát; rémülve sikoltott föl, nem találtak padlót lábai, hideg vizbe hullt; a
+               mihez kapott, arról egy kéz gyorsan lefejté ujjait s eltaszitá onnan; egy sodró ár
+               fogta meg, ragadta, vitte sebesen; kétségbeesve, sikoltva kapdosott, kezei nem
+               találtak semmit, a mit ismét megragadjon... ismét egy velőtrázó sikojt hallatott. És
+               nem futott menteni senki, senki nem kapott utána, pedig csak kezének nyujtása is elég
+               lett volna.</p>
+            <p>Amaz irtózva futott el onnan Megborzadt ettől a velőtrázó utóbbi sikoltástól s attól
+               a kétségbeesett arcztól, melyet imént látott, midőn ujjait lefejtette.</p>
+            <p>És még egy sikoltás, és még egy sikoltás, és mindig sikoltás.</p>
+            <p>Az a nyomorult folyvást hallotta azt a sikoltást, pedig talán nem is volt több. Csak
+               ugy vergődött, mint amaz a halálban, és az ő halántékairól is csorgott a viz alá, és
+               félt mozdulni a zugból, a hova vonta magát, a honnan rettegve figyelt.</p>
+            <p>Régen csönd volt már, és még sem volt bátorsága előjönni. Lázas, kinzott agya pedig
+               unszolta, hajtotta, hogy még van hátra valami, még tennie kell valamit. Kinlódva
+               feszité gondolatait, és nem jutott eszébe, nem birt arra emlékezni, hogy mi az.</p>
+            <p>Egyszerre őrületes rettenet szállta meg.</p>
+            <p>Eszébe jutott, a min kinlódva gyötrődött: a gyilkosság nyoma.</p>
+            <p>A zúgó padlója föl van szedve... hát ha járt ott azóta valaki...</p>
+            <p>E rettenetes gondolat korbácsolva verte ki őt a szabadba, hajszálai az égnek meredtek
+               föl.</p>
+            <p>A zúgó padlója még ugy volt, a mint hagyta.</p>
+            <p>Ha azt igy lepte volna valaki!</p>
+            <p>Lélekvesztve rohant oda s görcsös rántással helyére fektette, azután izgatottan vette
+               a fejszét, hogy leszögezze.</p>
+            <p>Homloka csupa láng volt, és mégis fázott.</p>
+            <p>Elfeledte, hova tette a szögeket... Jaj, ha meg nem találja őket!</p>
+            <p>Kereste itt, kereste ott. Nem voltak sehol. Majdnem megőrült.</p>
+            <p>Emlékezetének irtózatos feszitésével végre a kőpadhoz futott. Most már tisztán
+               emlékezett, tisztán, világosan tudta, hogy oda tette őket, a lépcsőtől egy arasznyira
+               fejjel kifelé... bizonyosra ment.</p>
+            <p>A szögek nem voltak ott.</p>
+            <p>Kétségbeesetten orditott föl. Ebben meg kell őrülni. Lerogyott a kőpad lépcsőjére és
+               tenyereivel nyomta, csikarta izzó homlokát. Parancsolta, kényszerité, hogy
+               emlékezzék, de az nem tudott mást semmit.</p>
+            <p>Az elkésés rettegése nem hagyá csak perczekig nyugodni, már a hajnal hasad, már jönni
+               fognak. Ujra rohant, még izgatottabban, még lázasabban rohant a zúgó padlójához.</p>
+            <p>Majdnem fölkaczagott örömében. A feslő virradat egy kissé látni engedett. A szögek
+               ott voltak a padló végénél gondosan, figyelmesen egymás mellé helyezve; mohón
+               fölkapott kettőt, helyeikre verte, azzal futott vissza az innenső végéhez, fölkapott
+               egy szöget, és gyorsan helyére ütötte; nyult a másik után, és nem talált többet. A
+               negyedik szög nem volt ott.</p>
+            <p>Ismét megrémült, és megrémült még irtózatosabban, még félelmesebben, mint elébb
+               bármikor.</p>
+            <p>- Hol lehet a negyedik szög?</p>
+            <p>Kapdosva kereste, kereste mindenütt, ott közel, az uton a malomig, a malomban benn és
+               vissza a zúgóig... A negyedik szög nem volt sehol. A negyedik szöget nem birta sehol
+               megtalálni.</p>
+            <p>Valami jutott eszébe, a mitől nagyon megdöbbent:</p>
+            <p>- Vajjon itt voltak-e már akkor ezek a szögek?</p>
+            <p>Emlékezni akart, mikor hozhatta ki őket: akkor-e, midőn a lány utját elkésziteni
+               jött, vagy pedig csak az elébb, midőn lázasan kirohant a padlót visszaszögezni.
+               Kinzotta magát, de nem jöhetett reá; hogy jutnának az embernek olyan dolgok eszébe,
+               melyeket önkivületes állapotban cselekszik?</p>
+            <p>Megmaradt tehát elébbi gondolata, és borzadt...</p>
+            <p>- Nem vitte-e el magával azt a szöget, vagy nem akadt-e esésében ruhájába?</p>
+            <p>Megfogta a zúgót is, a meder pár percz alatt viz nélkül maradt, lenézett a
+               fenékdeszkákra... a szög nem volt ott sem. Megkaparta, megkotorta a legkisebb füvet,
+               a legkisebb homokot... a szöget nem találta.</p>
+            <p>Midőn a malom legkisebb zugát is fölhányta és nem találta, majdnem tébolyodva kérdezé
+               kimerülésében:</p>
+            <p>- De hát hova lehetett, hova tünhetett? - s gondolkozott olyanon, a min sajátlag nem
+               is lehet gondolkozni.</p>
+            <p>Most hirtelen távoli dübörgés üté meg füleit. Figyelt. Kivette: távoli lódobogás volt
+               a sík gyepen, száguldó ló dobogása a hincseli puszta felől, s a földrengés futó
+               morajának gyorsaságával közeledett s érkezett meg. A molnár gyorsan behúzta magát a
+               malomkerekek közé.</p>
+            <p>Egy pillanat alatt, mint villám, egy lovas termett a zúgó padlójánál; csak ugy pőre
+               öltözetben, szőrén ült a megszilajitott nemes állaton, meg sem állt a padló végén, mi
+               volt az neki?... Mintha csak éji szellem lett volna a futó betyár, egy suhanással
+               áttermett a keskeny padlón az innenső partra, s eltünt, mintha egy lebbenő fecske
+               szárnya vitte volna el.</p>
+            <p>Lélekzete elhalt, mozdulni sem mert onnan.</p>
+            <p>Most ismét lódobogást hallott. Rettegve figyelt. Fölebb az országut nagy hidjánál két
+               lovas jelent meg. Amaz az üldözött volt, ezek az üldözők. Pandurok voltak. Vére
+               elhalt, alig birá elhitetni magával, hogy még nem érte jönnek.</p>
+            <p>Ezek is a hidról letérve, a malom felé csavarodtak, lovaikat megállitották a
+               malom-ajtóban, szét- és benéztek a nyitott ajtón, azzal tovább siettek. A molnár a
+               világért el nem árulta volna magát s csak akkor nyugodott meg, csak akkor jött elő
+               rejtekéből, midőn azokat a falu felé vágtatni hallotta.</p>
+            <p>Ha nézett s láthatott volna utánok, látta volna, hogy nem csak nyomát nem érik a
+               betyárnak, hanem nyomát veszitik, s a falu szélén már meglassitják paripáikat.</p>
+            <p>Most ismét a szög jött vissza eszébe, ismét csak a szög, mindig csak a szög. Az nem
+               hagyá nyugodni. Kereste... ujra kereste... s majd megbolondult bele, hogy nem
+               találja.</p>
+            <p>Csak midőn érkező kocsik közelgő zörejét vélte hallani, eszmélt arra, hogy
+               körülnézzen, ha az éjjeli borzadálynak nem maradt-e valami nyoma?</p>
+            <p>A zúgóból a gyilkos hullámok már régen tovairamlottak, a viz ott tisztán,
+               mocsoktalanul sietett, a malomkerekeken a legkisebb foszlány nem maradt a leány
+               ruháiból, legkisebb nyoma, legkisebb jelensége nem maradt a rémes eseménynek, mely
+               itt az éjjel történt.</p>
+            <p>A szép, csendesen pirkadó hajnal, az érkező emberek vidor, mosolygó közeledése
+               megnyugtathatta volna. Sem az ég, sem a föld nem tud semmit. Különben mit is
+               tudna?...</p>
+            <p>De a negyedik szög mégis csak nem tudott, nem birt kimenni fejéből. Néha félt is
+               föltekinteni, azt hitte: mindenki látja azt, hogy hol van, csak ő nem látja.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>V.</head>
+            <p>A grófné a parasztlakodalom után való éjjel csak nagynehezen, csak hosszas, tünékeny
+               ábrándozások után, melyek félig az álom badar képeibe játszanak át, birta lehunyni
+               szemeit; mindig egy alak lebegett előtte, daliás, eredeti alak, karcsu termetével,
+               okos, nyilt, bátor tekintetével, délczeg magatartásával, szép tánczával, kedélyes
+               könnyüségével, melyek mind oly csodásan összesülnek, hogy a természet eredeti fiát
+               tetszővé, még többé: regényes eszménynyé emeljék.</p>
+            <p>Nem tagadhatta el magától, hogy az eredetiség különös, szokatlan benyomással volt rá.
+               Nem ment ki eszéből, midőn felébredt és még mindig vele foglalkozott, s midőn a
+               melegségtől eláradt kebelben egy forrón szeretni képes szivet föltételezett,
+               érdekeltette magát általa, érdekeltette magát sorsa, annak körülményei s mindazok
+               által, a melyeket róla beszéltek. Mosolygott rajta, mindez tetszett neki; ez ifju
+               embert sajátos nimbusza vette körül a parasztköltészetnek, mely nem csak kalandos,
+               hanem mesés világ bálványozásába emelte: nóták voltak róla készitve, daloltak róla,
+               szép alakjáról, szép tánczáról, lovairól, kalandjairól, gavallérságáról; a mi csinos,
+               a mi szép, a mi nemes, a mi csábitó, a mi gavalléros, tréfás, hamis, ábrándos,
+               meglepő és megragadó lehet egy népdalban, az egyikben-másikban mind el volt mondva
+               róla; a csillagok voltak rárakva.</p>
+            <p>A népköltészet ez eredeti tárgya nem hazudtolta meg hirét előtte; meglepte, s
+               meglepetése folyton növő érdekeltséggé erősödött; folyvást azon tánczczal
+               foglalkozott, melyben vele lejtett, folyvást fülében csengtek a természetességnek
+               őszinte és nem csinált bókjai, előtte ragyogtak a szemek, melyekben nem a
+               szalon-udvarlók bántó követelései, de a sziv melegségének szelid és mégis hatásos
+               fénye csillogott, s mig sajnálta, hogy mulatságának az a kellemetlen esemény véget
+               vetett, nem birt szabadulni a vágytól, a gondolattól, melylyel ismét közelébe
+               ohajtotta s vágyott még jobban megismerni.</p>
+            <p>Nehéz lesz-e ez? Sok akadálylyal lesz-e ez egybekötve? Pedig ő gyorsan, rohamosan
+               kivánta.</p>
+            <p>Egy eszméje villant, s majdnem tapsolt örömében.</p>
+            <p>- Miért ne? - mondá mosolyogva magához. - Nem voltam-e már mindenhol a faluban, és
+               nem illemes-e a kölcsönt egy csapással visszaadni, s csak magam tudom, hogy szándékom
+               mögött az önzés lakik. Nem vagyok-e már elég népszerü, szeretett, hogy ilyesmit
+               bizton tehessek, s a mi azt illeti, falun nem mindig, nem minden pillanatban örömest
+               engednek-e az emberek a mulatságoknak?</p>
+            <p>Elhatározta, hogy ma, még ezen nap, kastélyában egy mulatságot fog rögtönözni,
+               melyben a helybeli birtokosoknak a szives fogadtatás megköszönését fejezvén ki; s az
+               illem adóját leróván, a társadalmi összeköttetés lánczait erősiteni s egyszersmind
+               magát kárpótolni fogja a menyegzőben elvesztettekért.</p>
+            <p>- De vajjon el fog-e ő jönni? - gondolkozott elmélyedve.</p>
+            <p>Ime, azon vette észre magát, hogy ismét róla gondolkozott.</p>
+            <p>A mint végigjár képzetében a meghivandó helybeli birtokosok házain, ismét és ismét
+               csak az ő házához ér. Csak ez egyetlen urilak a községben, hol nem tett beköszöntő
+               látogatást, és mégis ez az, a melylyel legtöbbet foglalkozik, ismét, csak ismét odaér
+               képzetében, oda, a hol nem volt soha, de melyet azért mégis jól ismer kivül és
+               belől.</p>
+            <p>És éppen azért mélyen elszomorodik.</p>
+            <p>Ez a lak lenn, a viz mellett hosszan elnyuló falunak alsó végén, Szatyond felé
+               fekszik, éppen ugy a vizre hajló kerttel, mint az övé. Az alföldi kuriákon vannak még
+               itt-ott a mult időkből fönmaradt ilyen patriarchális fészkek. Hosszu, zsindelyszegte
+               nádfödeles épület, elől végig faoszlopos és deszkás folyosóval, melyen agarak
+               ásitoznak, sütkéreznek a napon. A ház eleje - a bevezető utat kivéve - be van nőve
+               gyeppel; s a mi benőve nincs, az omladozott és résekkel teljes tégla-keritéssel
+               övezett pár holdnyi alsó udvar, összerohadt szalmával, trágyával van boritva,
+               melyeknek halmaza hosszu évek alatt néhol az istáló födelének magasságaig
+               emelkedett. Az egész udvaron egyetlen fa, a ház belső végén a köcsögtartó, melynek
+               hézagosan megmaradt öt foga közül kettőn egy-egy csorba edény szomorkodik, s az
+               istálóból keserves vonatkozást bőg hozzá az egyetlen tehén. A háztól az istálóig
+               elhatolni több kell a bátorságnál: elszántság; szinte szánalomérzet futja át a
+               keblet, a mint a roskadozó tető alá alacsony ajtón kell belépni; de belépve, ámulat
+               cseréli föl a szánalom helyét: négy kereszt-jászlon nagy lombáros ökrök torkig
+               turkálnak, sőt nemcsak turkálnak, hanem aljadzóként is gázolnak a pazar bőségü
+               takarmányban. Önkénytelen kérdezi a szemlélő, ha vajjon ezen állatok a helyett, hogy
+               itt kényelmesen kérőzve heverik az időt, nem tudnának-e okosabb foglalkozást találni,
+               ha egyebet nem, az óriási szemét kihordását? Azután a mint a másik ajtón belép, még
+               jobban elámul a szemlélő, szebbnél-szebb lovakat lát, melyekből három, négy, öt
+               négyes fogat is kitelnék, s még hátas-paripának is maradna. Gondolkozóba esik, vajjon
+               maga a szenvedély igazolja-e ezeknek fölösleges nagy számát, s nem sokkal czélszerübb
+               lenne-e még egyszer annyi jármost tartani, s egyszersmind azokat a pipázva beszélgető
+               cselédeket folytonos dologra szoktatni?</p>
+            <p>A grófnő elszomorodva forditja el onnan arczát, mély levertséggel a házhoz jön vissza
+               képzetében, nem kell félnie, az agarak nem haragjukban, örömükben verik majd le a
+               lábáról, s nyájaskodásaikkal tépik a ruhát. Lehangolva keresi a kertet a ház mögött.
+               Itt hajdan gyönyörü szép gyümölcsös állott s azon tul szép park, mely a Barcsára
+               nyult le. A gyümölcsösből hajdan még messze vidékekre is hordtak ojtógalyakat, most
+               ki van pusztulva. A mint egy fa szárad, a tüzre kerül, a kidőlt helyét ujjal nem
+               pótolja senki, az az egy pár körtefa, mely meztelen ágaival, csenevész leveleivel a
+               térdig érő gazból nagy csontvázként emelkedik föl, gyászos látomány; az utak
+               eltüntek, csak egy-egy ribiszke- vagy piszkebokor jelzi, hol voltak valaha. Az az
+               egyetlen gyalogut, mely rendetlen kanyargással beljebb fut, csak a szolgáló vizre
+               járó útja, s az elpusztult gyümölcsösből beljebb vive, többé nem diszkertbe vezet,
+               hanem egy tömkelegbe, melybe oldalt hatolni sehol nem lehet, mely nem kert többé,
+               hanem egy alját fölvert vadon, melynek szövevényes gazai alatt csuszó-mászók laknak,
+               s még az itt buján termő gyöngyvirágot is fél a kéz leszakitani.</p>
+            <p>A grófné mély szánalommal fölsohajtott:</p>
+            <p>- Pusztulás és árva elhagyottság mindenhol, minden nyomon! És ennek az embernek, ki e
+               pusztulást nem látja, ezer hold földje van. Hogy nem látja? Nem látja, mert nem a
+               szemén, hanem a szivén van azon burok, mely a lelki vakságot, a közönyösséget
+               teremti.</p>
+            <p>Nem tört pálczát fölötte. Hiszen ismert mindent belől is, nem csak kivül. Ily szomoru
+               látmányok nem csak a szánalmat, de a kiváncsiságot is fölidézik és kerestetik,
+               fürkésztetik az életben az indokolást.</p>
+            <p>A grófnő tudta, hogy valaha a boldogtalanság lakott itt, és utána a boldogtalanságnál
+               is nagyobb szerencsétlenség lakik, a legnagyobb átok a földön, egy elhibázott
+               élet.</p>
+            <p>Az elhibázott életnek pedig nincs sem rendes iránya, sem czélja, sem reménye.</p>
+            <p>Az értesüléseket nem kellett keresve-keresni, mindenki tudta és mindenki beszélte
+               azokat.</p>
+            <p>A szerencsétlenségek lánczolata volt ahhoz a háztájhoz kötve, a pusztulás még az édes
+               atya: Füzér Elek életében vette kezdetét.</p>
+            <p>Egy szerető kedves nőt birt, egy vidor, mosolygó gyermeket; élt jólétben zavartalan
+               boldogságot, képzetében alkotott magának boldog jövőt, és egyetlen pillanat
+               összezuzott, lerombolt mindent. A sors egy hullában eltemette mindenét. Oh! igaz az,
+               borzalmasan és nagyszerüen igaz, hogy az élet boldogságát, fényét a szeretet mindent
+               összeölelő pontja, az érzelmek, gondosságok hü őrangyala tartja együtt egy picziny,
+               gyönge kézben. S ha a lélek, mely mindennek, a mi könyezett fényt, örömet adott,
+               megszünik, elalszik, tovaröpül! a vigasztalhatlanság előtt veszve van minden. Füzér
+               Elek is nem nyert többé vigasztalást, s még hozzá fájdalmának vigasztaló enyhitése
+               helyett éppen neje rokonai részéről támadtatott meg kiméletlen, igaztalan pörökkel,
+               melyek azután megingaták bizalmát az egész világ iránt. Prózai dolgok ezek, de nagyon
+               érzékenyek. Egy féreg nőtt szivében, nem ment társaságokba többé, a mint mondják:
+               mosolyogni sem látták ezután. Huszonhét éves korában ősz lett, homloka redős, feje
+               meghajlott, és a világ mindig-mindig sötétebb lett előtte. A féreg kidöntötte a fát
+               fiatalon.</p>
+            <p>A grófné, a kit nem is ismert, megkönyezte a szegény Füzér Eleket.</p>
+            <p>Mindenki jól tudta ezt, de az kevésnek jutott eszébe, vagy tán jobban mondva:
+               senkinek sem, hogy ezen körülmények azon ártatlan árvácskára is befolyással vannak; a
+               hit, a szeretet, mely keblében az élet felé ébredez, azon szomoru befolyásból veszi
+               szinét, melynek légkörét fogékony gyermekkorában beszivta. S milyen szivvilága lesz
+               a gyermeknek, mily érzelmek fognak fölötte uralkodni! Érzékenység, melynek szomoru
+               ábrándosság a szülő anyja, kétkedő habozás a vele egyenlő emberekkel szemben, a sziv,
+               melynek szüksége van szeretetre, önkénytelenül azon irányba vonzódik, mely oldalról
+               az édes atyát ért multnak rémei nem ijesztik, s minden szórakozását, vágyát azon
+               körben keresi. Ezen segitett nevelése is, mert ugyszólván maga nevelte magát.</p>
+            <p>Hozzá kell ezekhez adni, hogy árva volt, s az árva sorsát - lelkileg és anyagilag
+               értve - az egész világ ismeri. Vagyonáról elég lenne elmondani, hogy gyám kezelte. És
+               ki az a gyám? Egy megkötött kezü ember, ki szegény, jámbor ott is árt, a hol
+               hasznosan akar működni, ki saját felelősségére nem mer tenni semmit, ki retteg,
+               riadozik a sok szükséges költségeknek ugy a gyámhatóság, mint a világ előtt
+               igazolásától, kinek helyzetszerüleg rendesen el kell késni mindennel, mert mint az
+               osztrák hadsereg hadjáratait mértföld-messzeségről s rendesen eső után szabják,
+               rendelik tetteit, kierőszakolt takarékosságában tőkét gyüjthet ugyan, de azalatt a
+               birtok, mely e tőkét adta, a javitások, befektetések halasztgatása, késedelme miatt
+               haladt a megindult pusztulásban, a beltelek, a ház, az elhagyott kertek rohantak a
+               teljes pusztulás felé.</p>
+            <p>Elég-e már?</p>
+            <p>Nem elég! Még a gyámi kezelés eredményeihez az is szükséges, hogy egy éretlen ifjút
+               nagykorúsitsanak. A gyám örvend, hogy megszabadul, a rokonok boldogok, hogy
+               befolyásukat visszanyerik, örömest sietnek bizonyitványaikkal, beleegyezéseikkel a
+               nagykorúsitás eszközléséhez, és azután vetekednek, ki hajtja, ki űzi hizelgő, hálózó
+               tanácsával minél jobban az örvény felé? Az első, hibás lépéssel a világba hajitott
+               ifjú függetlenségében azon örül, azon kap: minél több bolondokat tehet; hajlamai
+               akadálytalanúl viszik kegyelt iránya felé, lovagol, paripázik, mulat, tivornyáz: azon
+               föltétellel, hogy lekötelezzék az emberek, kik jövőjét szivükön hordani mondják,
+               ellátják pénzzel, és azután mikor hiszik, hogy már befolyásuk megerősitve van,
+               fölteszik, hogy megházasitsák.</p>
+            <p>Szegény Dini! Hiszen még ekkor is csak labda volt a sors s mások kezében, s nemsokára
+               oda jutott, hogy a maga csalodását érezze az emberek iránt; oda, hogy nemsokára
+               kitépje ismét a fogamzani kezdő bizalmat s megundorodjék tőlük.</p>
+            <p>Szive nem ébredt még szerelemre, csak tudta, látta s gondolta, hogy mindenkinek
+               felesége van. - Ilyen állapotban legkönnyebb a fiatal embert megházasitani. Az első
+               rokon-lánykát, kit a legélelmesebb nagybácsi számitásból rádisputált, eljegyezte, s
+               csak a véletlen hozta ugy magával, hogy meggyőződött arról, miszerint a leányka kezét
+               nyujtja ugyan neki, nőül megy ugyan hozzá, de mást szeret s esze ágában sincs e
+               szerelmet fölmondani. Eszmélt. Visszatérni készülő bizalma zavarba jött, azután
+               gyorsan önérzetre ébredt, otthagyta a leányt, megutálta, megvetette azon embereket,
+               kik között még az ártatlanok szivében is hazugság és számitás lakik, s egy szomorú,
+               keserves meggyőződésnek adott szivében helyet: azok legrosszabbak hozzá, a kik vér
+               szerint legközelebb állanak, s annál gonoszabbak az emberek, minél több világi
+               müveltséggel birnak; a jóságot, az igazságot, az egyenességet csak a természethez
+               közel kell keresni.</p>
+            <p>A grófnő igazolta őt maga előtt: a mi a világ előtt szenvedély, botlás, bün és
+               szégyen volt, előtte nem volt az. A föntebb elősoroltakra azt mondá magában:</p>
+            <p>- Ezek mind elegek ahhoz, hogy bennük egy elhibázott élet gyökereit keressem, az
+               elhibázott életét, mely szórakozást nyujthat ugyan, de boldogságot soha.</p>
+            <p>Ezzel elküldé a mai estélyre szóló meghivóit.</p>
+            <p>Megirta Diniét is, és akarta, szerette hinni, hogy eljön; hiszen ő nem tartozik azon
+               emberek közé, a kik bántották valaha. Ez lesz az első lépés a visszatérés felé.</p>
+            <p>Egy kis rögtönzött estély akar ez lenni, a mint nevezé, mely mégis azután sokszor
+               jobban szokott kiütni, mint a nagy előkészülettel kiszámitottak. Egy jó kis esti
+               mulatság, mely kezdődik sétával a kertben, a virágok között, és végződik vacsorával a
+               termekben.</p>
+            <p>Igy van ez tervelve, és azután egyszerre mindenki jól érzi magát, mindenkinek pompás
+               jó kedve kerekedik, és a mulatság igazabban csak vacsora után veszi kezdetét és
+               eltart hajnalig, addig, mig a hajnal mosolyog be az ablakon.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>VI.</head>
+            <p>A grófnőnél nagy társaság gyült egybe, a meghivottak kivétel nélkül megjelentek, és
+               megjelentek pedig kész örömmel; és miért kész örömmel? számitottak-e arra, hogy jól
+               fognak mulatni? - Támogassuk-e előérzetüket tapasztalásunkkal, elmondjuk-e, hogy a
+               grófné már minden teinsasszonynál ozsonnázott a faluban, hogy minden ozsonnát
+               izletesnek talált, hogy távozása alkalmával megcsókolta a háziasszonyokat és a
+               leányokat? Elmondjuk-e, hogy távozása után a háznál mindenhol jó kedély maradt, s igy
+               ha nem hozzátartozónak, de mindenesetre szivéhez tartozónak vallotta mindenki?
+               Hiszen ezeknél már nem mondhatunk többet. Senki sem maradhatott el.</p>
+            <p>Szivesen, örömmel, bizalommal jött mindenki; tudta, hogy otthon fogja magát
+               találni.</p>
+            <p>A grófhölgy bánásmódja, melyben mintegy lelkével érinté az embereket,
+               ellenállhatatlan volt.</p>
+            <p>Dini is eljött. Hogyan maradt volna el? A bűvös-bájos érintés őt is érte. Soha sem
+               látott ilyen asszonyt; olyan különösen kedves, nyájas volt az, mintha nem is
+               ismerőse, hanem egyenesen éppen rokona lett volna; s igazán oly remekül tánczolt,
+               hogy csak azért is soká rá tudott volna emlékezni; minden szavában, bánásmódjában
+               olyan különös megfogó modora volt, mely egyszerre barátjává tett mindenkit, kivel
+               csak találkozott; első találkozásra soha, de soha senki sem mutatott hozzá annyi
+               nyilt, őszinte szivélyességet.</p>
+            <p>- Igazán nem egy büszke urnő, hanem egy szép, jó kis teremtés! - igy szerette nevezni
+               magában.</p>
+            <p>És a jó kis teremtés most is azon szivesen fogadta, kezét nyujtotta neki, mint valami
+               régi, bizalmas ismerősnek. Ez Dinit saját szemei előtt is fölemelte; jól esett neki,
+               s a mai napot szép nappá igérte számára.</p>
+            <p>Azután bevezeté őt a női szalonba. Dininek - vagy akarta, vagy nem, - engednie
+               kellett. Oly kellemmel, bájjal tette ezt, észre sem vétette, hogy parancsol, hogy
+               zsarnok, s mindenhol az ő akaratának kell megtörténni. Egyébiránt nem találhatta
+               helyzetét kellemetlennek, mert - miért, miért nem - a grófné maga is ezen teremben
+               időzött legtöbbet, ügyességgel birt, vendégei közül kit sem hagyni zavarban, be tudta
+               őt is vonni a társalgásba, megkezdve a népdalokon, a népköltészeten, átmenve a
+               lovakra, a pusztára, a pásztorélet szépségeire. Dini azon vette észre, vagy inkább
+               nem vette észre, hogy a társalgásban nem csak élénk részt vesz, hanem tiszta
+               természetességgel és kedélymelegséggel füszerezett előadása figyelmes hallgatókra
+               talál. Talán a grófné volt egyike a legfigyelmesebbeknek; sokszor megpihenteté a
+               beszélőn szemeit.</p>
+            <p>Midőn igy szemlélte őt, el-elgondolá:</p>
+            <p>- Valóban igazi uri alak. Valóban kár ily szép külsejü, ily szép, természetes eszü
+               ifjuért, hogy oly vakon rohant az elparlagosodás felé! Valóban kár volt magát a
+               müvelt társaságból kiküszöbölnie, maga ellen elkövetett bűn volt sülyednie, mert
+               társadalmilag sülyedés már az, ha az ember nem müveltségéhez való emberekkel
+               barátkozik s nem müvelt állásához mért élményekkel foglalkozik.</p>
+            <p>Szánta és sajnálta magában, ha ezekre s arra gondolt, hogy ezen elhibázott élettel a
+               szegény ifju már hirnevét is koczkára tette.</p>
+            <p>Szerencsétlen ifju!</p>
+            <p>A szerencsétlenségek véghetlen nagy átérzésének kell itt a külsők mögött lakni, azon
+               beteges érzékenységnek, mely semmiről sem bizonyos, csak a boldogtalanságról. Tudni,
+               érezni, hogy nem birunk semmit és senkit szeretni a földön, és tudni, érezni, hogy
+               nem szerettetünk senki által. Éles fulánk ez a szivbe, mely folyvást szur és vérez.
+               Az ábrándosságnak e ferdesége uralkodik fölötte, melynek eredményét a nagy világ
+               blazirtságnak nevezi, falun pedig elkeseredésnek tartatik, de olyan elkeseredésnek,
+               mely szánalmat nem ébreszt.</p>
+            <p>Mi is lehet az olyan élet más, mint tarka, bizarr játék a kétségbeeséssel? Avagy a
+               müveletlen emberek czimborasága, tivornyák s ledér nőkkel szőtt viszonyok lehetnek-e
+               más, mint az elfásult, lemondó élet szórakozásának kinövései?</p>
+            <p>Kaczag közöttük, de nem boldogságból, csupán hóbortból.</p>
+            <p>Szerencsétlen ifju!</p>
+            <p>És nem szabadulhat ez örvényből? De igen, csak azt a fulánkot kellene szivéből
+               kihuzni, melytől öntudatosan érezni s gondolkozni nem bir.</p>
+            <p>Tehát ki kell huzni onnan!</p>
+            <p>S azután a grófné még többet foglalkozott vele, föltette magában, hogy még nyájasabb,
+               még szivélyesebb fog hozzá lenni, még kellemesebbé teendi neki a napot.</p>
+            <p>A szaloni társalgás után a séta következett a kertben.</p>
+            <p>A grófné megvezetgette vendégeit mindenfelé a szeszélyesen kanyargó utakon, a kis
+               hidacskákon, a picziny tóparton, a remetelaknál, a barlangocskánál, a gerlék
+               kalitjánál, a hattyuknál, az üvegháznál, mindenütt mindent megmutogatott, élénk
+               kedvességgel magyarázott mindent, dicsekedett ritkább virágaival, egy pár
+               különösségeivel: a fürtös dáhliával, melynek, mint a noisette-rózsa, olyan apró
+               virágai a hortenzia tölcséreiként egy száron, egy csokorban vannak nőve, a soraui
+               fehér rózsával, melyen vércsöppekként piros pontok ülnek. És elvezette őket a kertben
+               a legszebb pontra, a hársak alá; lenn a kert alján a Barcsa-partra; a kastély felől
+               magas fák, bokrok rejtik el e menhelyet a szem elől, csak midőn a kanyarodó uton oda
+               téved a sétáló, egyszerre, egy varázspillantásban tárul föl az elragadó látvány szeme
+               előtt: hat szép terebély hársfa összehajló lombozata sátort képez, oldalt köröskörül
+               állványokon és különféle hegyi kövekkel födött mesterséges halmon fölrakott virágok
+               szegélyzik körül a gyönyörü rejteket. Csak a Barcsára van nyitva a kilátás, mely ott
+               simul el sárgaliliomos, sürü sásos partjaival alig husz lépésnyire. Tul a vizen pedig
+               a lemenő naptól beragyogva és a folyamra árnyát vetve, elterül a nagy szattyondi
+               erdő, gazzal fölvert bozótos aljával, sürü és sötét, s mig levelei susognak az esti
+               szélben, a vadgerliczék méltán bugnak lombjai közül.</p>
+            <p>Dini kellemesnek, üditőnek érezte ezt a sétát, s mikor éppen ide értek, azt lehet
+               mondani: közel volt ahhoz, hogy e pillanatokat boldogságnak érezze.</p>
+            <p>A grófné itt hat parányi lépcsőt mutatott meg, ott libegő kis tarka csónakára
+               czélozva, s vidoran elcsevegve, mint szokott csónakázni, bohókásan nevezte e helyet
+               kikötőjének.</p>
+            <p>A grófnénak nem kelle igyekeznie, hogy őt folyvást magához közel tartsa. Dini
+               folyvást ott volt, gyönyörködve hallgatta legkisebb szavát.</p>
+            <p>Azután ismét tovább mentek, sétáltak vissza a kastély felé; Dini egy bűvös
+               tündérvilágban vezettetett, s a vezetőt követte engedelmességgel.</p>
+            <p>Ismét benn voltak a termekben, a grófné folytatta szivességeit, Dinire nézve
+               valóságos varázslattal. Leült a zongorához. És hogy játszott, mily gyönyörü hangok
+               olvadtak föl ujjai könnyed suhanásai alól!... De nem csak hogy játszott, hanem miket
+               játszott, milyen dallamokat, azokat az édesbus magyar népdalokat, melyek oly ritkán
+               hallhatók a zongorán ügyesen és érzéssel előadva, melyekben nem csak ez az édes szent
+               föld tárul föl szemünk előtt, hanem sziveinket életünk emlékeivel, élményeivel,
+               boldogságával, ábrándjaival összekötött édesbus honfiui érzés önti el. Ez a népdal
+               titka, sajátsága, rejtélye, bája, hasonlithatlan eredetisége, egyedülisége minden
+               dallamok között a földön. Az áthatott kebelben a nemzeti érzést hevülni, olvadó
+               könyek között érzetni, kik vagyunk, elvonattatni a nagy világ, mindenség idegen
+               távolából ez egyedüli földre, mely a mienk, és érezve a honfiui lángolást, látva a
+               népet, nem tudni, nem érezni magunkban mást magasztosabbat, mint hogy mi is azok
+               vagyunk: népdalaink ringatásának köszönhetjük.</p>
+            <p>Az, a ki zongorázott, az is érezte, a ki hallgatta, az is érezte.</p>
+            <p>S most a grófné remek játéka mellé dalolni kezdé a népdalt, melyet játszott. Szép
+               hangja volt, érezte, a mit dalolt s mellé nem egészen volt mükedvelőnő, iskolája is
+               volt; arcza be volt ragyogva az érzelem által... kedves volt, igéző volt.</p>
+            <p>Dini a mint ott állott közelében, előbb alig mert ránézni, utóbb pedig, midőn már
+               mert, oly véghetlen busan, bánatosan nézte, hogy a grófné nem birta tovább folytatni
+               játékát, abbahagyta.</p>
+            <p>Mindenki sietett bókját elmondani.</p>
+            <p>Dini is elmondta a magáét.</p>
+            <p>- Nincs a világon parasztleány, a ki olyan szépen, olyan érzéssel tudjon népdalt
+               eldalolni!</p>
+            <p>A többiek talán mosolyogtak e különös elismerésen, de a grófné ugy vélte, hogy ennél
+               nagyobb dicséret nem érhette, s mig ezen némi kis hiuság és egyszersmind kedvező
+               siker-nyujtotta boldogságon egy-egy perczre édelgett, leginkább azon benyomásra
+               gondolt, mely bánatos kifejezést csalt az ifju ember vonásaira. Nem távozott onnan,
+               mig meg nem kérdezé:</p>
+            <p>- Ilyen hatással vannak önre a népdalok? Ön oly bánatos lett egyszerre, és azután
+               mélyen elgondolkozott.</p>
+            <p>- Nem tagadom! Mélyen elgondolkoztam, alig eszméltem föl, hol vagyok.</p>
+            <p>A grófné jókedvüen nevetett.</p>
+            <p>- És szabad tudnom, miről gondolkozott ön el ennyire?</p>
+            <p>Az ifju habozott, szabadkozott, a grófné sürgeté.</p>
+            <p>- Arra gondoltam, - válaszolt ezután az ifju némi ábrándossággal, - midőn a grófné
+               azt a szép dalt oly kedves boldogsággal dalolta... de ne nehezteljen meg érte... arra
+               gondoltam, mily remek, milyen gyönyörü parasztleány lett volna... ha annak született
+               volna.</p>
+            <p>- S kár, ugy-e, hogy nem annak születtem?</p>
+            <p>Jókedvüen elkaczagta magát; de hirtelen ujra szavakra is nyitá ajkait, s mig intőleg
+               megfenyegeté rózsás ujjaival, kedvesen feddé:</p>
+            <p>- Ez nem volt helyesen gondolva! S lássa, hogy tétovázott, ha bevallja-e, nem-e; ez
+               már mutatja, miképp érezte is azt. Ki kell önnek bontakoznia e tömkelegből.</p>
+            <p>Szerencsére, hogy a grófné e szavainál jókedvü elevenséggel eltünt előle, mert
+               felelni sem tudott volna neki. «Megneheztelt-e? Megfeledkezéseimre akart-e
+               emlékeztetni?» Azon szavak, melyekkel imént meglepetett, megmagyarázhatlanok voltak
+               számára, érezte hatásukat, és még sem tudta, és mégis hasztalan akarta őket
+               értelmezni. A ráharsanó zene azután egészen összezavarta őket fejében.</p>
+            <p>Egyszerre ismét a grófné mosolygó alakja jelent meg előtte. Tehát aligha neheztelt. S
+               a mellett a grófnő még vidoran is szólt hozzá:</p>
+            <p>- Tudja-e, hogy most helyre fogjuk azt hozni, ki fogjuk pótolni, a mit tegnap
+               elmulasztottunk?</p>
+            <p>Mi volt volna ez más, mint a tánczra bátoritás, mint fölhivás?</p>
+            <p>Soha olyan könnyeden, olyan boldogan nem hivott még tánczra Dini valakit, mint a
+               grófnét e pillanatban. Soha sem tánczolt olyan szenvedélylyel, olyan elragadtatással,
+               olyan délczegen életében, mint most. Arczán az ragyogott, hogy az egész világ övé, s
+               azt érezte: bár soha vége ne lenne ennek a táncznak!</p>
+            <p>Pedig ennél a csárdásnál még hosszabbak, s azután még hosszabbak is következtek.</p>
+            <p>Észre sem is vették azt, hogy mások sokkal hamarább kifáradnak, észre sem is vették,
+               hogy mindig soká, és majd mindig egyedül és mindig együtt tánczolnak. Különben ebben
+               nincs is semmi rendkivüli: jó tánczos és tánczosnő örömest tánczolnak egymással.</p>
+            <p>Dini jól érezte magát, igen jól mulatott, csak az a picziny bárányfelhőcske, a
+               grófnénak a zongoránál ejtett szavai vetettek egy parányi kis árnyat néha a fény
+               közé.</p>
+            <p>Most rajta volt a sor, egy pihenő közben kérdést intézni.</p>
+            <p>A grófhölgy némi rettenéssel s a táncztól lihegőn rebegé hozzá:</p>
+            <p>- Istenem, csak nem bántottam meg önt vele?</p>
+            <p>- Éppen nem! - sietett az megnyugtatni.</p>
+            <p>- Ugy is legyen, mert én azokat, miket mondtam, a legjobb szándékkal mondtam el.</p>
+            <p>Dini hálás tekintetet vetett a grófnőre.</p>
+            <p>- Lássa, méltóságod, méltóságodban láttam életemben az első jóakarót, kin lelkem
+               meggyőződésével láttam meg, hogy őszinteséggel járul felém. Ez, a mi előbb
+               meglepett már s az imént ugy hatott reám, hogy mélyen elgondolkoztam. Éppen ezért
+               voltam bátor szavainak bő és - győződjék meg - rám nézve csak kellemes magyarázatát
+               kérni. Én tanulni akarok.</p>
+            <p>E szóra, e mélyjelentőségü szóra a grófné ülőhelyében egészen felé fordult. A
+               kellemes téritő komolyságot, határozottságot öltött bájos és hóditó vonásaira, s a
+               mellett nyájas és lágy hangon szólott hozzá:</p>
+            <p>- Nézze, vizsgálja és birálja meg magát! Midőn érezni fogja ön, hogy lelke,
+               müveltsége, állása szerint ki ön, el fogja ön bizonynyal ismerni, hogy elhibázott
+               életet él. A társadalmi élet fogalmait összezavarta ön az emberi egyenlőség
+               eszméivel. Ugy van! Az, a mit nem kell elfeledni, hogy a társadalmi összetartozás
+               egyenlő lélekemelkedést, egyenlő szivnemességet, egy szinvonalu müveltséget követel.
+               A születési rang csak ezek birtokánál nem jön tekintetbe, különben fölénye van, mert
+               ezek nélkül nem kereshetünk összetartozást. Más életet kell önnek felvenni; az, a
+               mint eddig élt ön, a müvelt társaságtól magát számüzve, élményeket alant keresve, nem
+               önhöz való. Önérzetre kell önnek ébredni, ez annak értelme, a mit mondtam.</p>
+            <p>S a grófné arcza lángra volt gyulva, midőn ezeket bevégezé. De lángra volt gyulva
+               Dini arcza is. Kemény, hatásos leczke volt ez.</p>
+            <p>- Tudtam, hogy megneheztel! - szólt a grófné némi bánkódással.</p>
+            <p>- Mentsen isten! - rebegé az elszorulva. - Sőt megcsókolnám méltóságod kezét értte,
+               ha megengedné.</p>
+            <p>Az kedélyesen nyujtá oda neki.</p>
+            <p>- No hát, csókolja meg!</p>
+            <p>Dini mély megindulással csókolta meg az odanyujtott kezet, nem kérdezé magától: «Mi
+               köze hozzám ennyire ezen asszonynak, miért érdekelteti sorsom által magát ennyire,
+               miért ártja magát, miért avatkozik ügyeimbe?» Csak azzal foglalkozott, azon
+               meggyőződést vitte magával: «Egy áldott, jó teremtés ez!»</p>
+            <p>Amaz pedig az ablakon bepirosló hajnal láttára, bucsuzó vendégeitől válva is oda tért
+               gondolatával: «Hiszem, meggyőződésem, hogy ő a váluton van, hogy szavaim
+               hatottak».</p>
+            <p>Valóban Dini, midőn hazatért, még soha nem érzett különös visszahatást
+               tapasztalt.</p>
+            <p>Ugy elszorult a szive, ugy megesett azon a szánalmas nyomoruságon, melyet mindenfelé
+               háza táján látott.</p>
+            <p>- Vak volt-e eddig, hogy nem látta ezt? - kérdezé. - Szegény atyám, szegény jó öreg
+               atyám, - sohajtott magában elérzékenyedve, - mennyi gondotok, mennyi fáradalmatok
+               van itt eltemetve! Hova jutott itt minden! Hova hagytam jutni mindent, holott van
+               módom s lenne erőm, hogy minden mosolygó lehetne.</p>
+            <p>Hát van-e annak czélja rá nézve, hogy mosolyogjon a ház, viruljon a kert?</p>
+            <p>Tudja isten! Van-e czélja vagy nincs, mégis barátságosabb lenne ugy.</p>
+            <p>Mélyen elgondolkozott. Megcsóválta fejét.</p>
+            <p>- Nem, nem, csakugyan nem éltem eddig helyesen! Ha véletlenül az a leány szeretett
+               volna s elvettem volna, vajjon leendettem-e boldog általa? nem veszitettem volna-e el
+               ifjuságával minden alapját a boldogságnak? Ugy van! A szépség helyett nem maradt
+               volna lélekfenség kárpótlásul. Nem, nem gondolkoztam eddig helyesen!</p>
+            <p>És még mélyebben elgondolkozott.</p>
+            <p>- Istenem! Most tudom csak, mi egy magasztos női fenség. Mily nagy sziv, mily nemes
+               lélek sugárzik lényéről!</p>
+            <p>Azután fejcsóválva megfeddé magát.</p>
+            <p>- Patvarba, Dini! Bolond voltál eddig, hanem a mint látom, most igazabban az vagy.
+               Hiszen ha ilyenekre gondolsz, még boldogtalanabb fogsz lenni, mint azelőtt.</p>
+            <p>Tudja isten!</p>
+            <p>Tudja isten, a mulatság után a grófnénak sem jött kedve aludni, csak hogy ő nála az
+               álmatlanság vidorságban, könnyüségben nyilatkozott.</p>
+            <p>A hajnal szép volt, lement sétálni a kertbe.</p>
+            <p>A harmat frisseségében ifjunak, virulónak tetszett neki minden. Nyájas mosolyt vetett
+               reá a virág, s ő még nyájasabbal viszonozta; vidoran tekinte minden bokorra és
+               játszian gondolt kis tarka csónakjára.</p>
+            <p>Le a Barcsa felé, a hársak felé vette utját. Oda ért, a hol az ut egyszerre a hársak
+               sátra alá, a Barcsához kanyarul. Felsikoltott. Egyszerre feledett mindent, csónakot,
+               kertet, virágot. A szélső nagy hárshoz kelle támaszkodnia. Egy megrenditő, borzalmas
+               látvány tárult szemei elé.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>VII.</head>
+            <p>Ezen reggelen, mely a mély titokba merült éji rémtettet követte, s melyről - a mint
+               látszott - Barcshidán még csak sejtelemmel sem birtak - különben már szörnyedve
+               beszélték volna a faluban minden háznál - egy bár igen csekély, csak a jótékony sziv
+               különczségéről bizonyitó, de mind a mellett feltünő esemény ragadta magára a
+               figyelmet. Az emberek bár nem rosszalták, de mégis mosolyogtak rajta. A grófné kis
+               hintaja - mert volt neki egy földre hajló picziny, parányi hintócskája, apró lovakkal
+               - Sutics Mihály uram kamrájához jött a vak koldusasszonyért és elvitte magával.
+               Éppen ideje is volt már annak, mert az öreg koldusasszony annyira sirt, jajveszékelt
+               leánya hosszas kimaradása miatt, hogy jajszavaival fölverte az egész háztájat, az
+               egész háznépet majdnem kétségbeejtette; pedig gondolván, hogy talán éhezik, tejecskét
+               is adtak neki, melybe kenyeret morzsoltak; hozzá sem nyult; csititották,
+               vigasztalgatták, nem ért semmit; haját tépte és mellén szakgatta ruháit.</p>
+            <p>Hát ha még mindent tudott volna a boldogtalan, ha tudta volna, mi volt az a
+               megrenditő, a mit a grófné a kertben, a hársak alatt a Barcsa mellett látott! Sutics
+               Mihály uram két közben állott: a részvét és e szivet-lelket tépő, házát fenekestől
+               felforgató alkalmatlanság között, melytől menye, leányai borzadoztak, a gyermekek
+               pedig részint sutba bujtak, részint a háztájat is fölmondották. Azért is kisebb
+               gondja is nagyobb volt, mint hogy az öreg asszony elvitelének indokairól
+               tudakozódjék; nem csak az eget, hanem a grófnét is áldotta, hogy megszabaditotta.</p>
+            <p>Egyébiránt a bámész mosolygók is egy vállvonással megnyugodtak; rövid ittléte óta is
+               hozzá voltak szokva; annyi különösséget, annyi különczséget tapasztaltak attól a
+               fiatal grófi asszonytól, hogy éppen az lett csodálatosabb, hogy egyszersmind maga is
+               el nem jött értte. Tőle ez nagyon rendes tett lett volna, mert különös asszony volt,
+               szóba állt mindenkivel, minden dologba beleártotta magát, minden körülményt
+               részletekig kifirtatott, kiismerte az egész falut, kinek ki volt apja, anyja,
+               felesége, gyermekei: hogy foly dolga, mint gazdagodott meg, vagy mint szegényült el;
+               házasulandó fia van, vagy eladó leánya; beteg valaki, mi betegsége van, érdekelte s
+               mindent a tűhegytől fokáig tudni szeretett. Mindenkitől, kivel a véletlen összehozta,
+               talált megtudni valót, ur vagy paraszt sorsa egyaránt érdekelte, ugy, hogy a pár hó
+               óta az egész falu családügyeit, viszonyait jobban ismerte, mint bárki, a ki ott
+               született. De őt is hamar megismerte mindenki, nem csak kis hintaját, apró lovait,
+               melyeket maga szokott hajtani, parányi lovait, kis tarka csónakát a Barcsa vizén,
+               csodálatos és soha nem látott szép virágait, a Barcsára nyuló parkjában bohó
+               kosárhintait, a czifra kalitkákat a ritka madarakkal, a büvös-bájos muzsikát, melyen
+               ujjaival billegtetve, még a Kuku bandájánál is szebben elveri a magyar nótákat
+               akárkinek, nem csak elveri, hanem behivja a kertben gyomláló parasztleányokat, s a
+               mit dalolni hallott tőlük, megtanulja azon a muzsikán; ismerték nem csak vidor magyar
+               tánczát, nyájas beszédét, hanem már ismerték másként is. A faluban nem volt
+               menyasszony, kinek menyegzőjére, ha egyéb ajándékot nem is, de legalább nászkoszorut
+               ne adott volna; nem volt beteg, kinek az orvosságot nyakára nem küldte, megüzenvén
+               nem csak azt, hogy bizonyosan meg fog gyógyulni tőle, hanem azt is, hogy maga is meg
+               fogja látogatni.</p>
+            <p>Egyszóval: a grófné egy jó kis teremtés volt. Nem csak szép, hanem a mint Dini
+               eltalálta róla: egy jószivü, áldott teremtés. Szép neve igazán megillette;
+               mindenhova, a hova lépett, az öröm hajnala közelitett; kezdték észrevenni, kicsoda; a
+               tiszteletnél nagyobb jelentőségü érzéssel kezdtek vonzódni hozzá: szeretni,
+               bálványozni kezdték; nem röhögték többé, ha ostorral kezében, fején különös alaku
+               kalappal a falun végighajtani látták, sőt a gyermekeknek sem volt többé szabad -
+               komédiát kiáltozva - kis hintaja és apró lovai után szaladni.</p>
+            <p>A tiszta, romlatlan sziv hatása okvetlenül győz mindenütt; hát ha még az egy szép nő
+               finom bánásmódjával van egybekötve, midőn csak a picziny ujjak érintésében is a
+               szivesség, a lélek, a részvét nyoma van: az ellenállhatlan.</p>
+            <p>Hogyne szerették volna meg?</p>
+            <p>Ugy volt az mindig és most is, legtöbbnyire a mások érdekében emelte föl áldásthozó
+               kezeit. Ez eseményben is, mely által most egészen megrázkódtatva, de annak
+               előzményeit, esélyeit okoskodón fontolgatva, következtetve foglalkozott, több sulya
+               volt a mások érdekének, mint saját kiváncsiságának. A borzalmas esemény szövevényeibe
+               élesen beható lelkével gyorsan föl tudta találni a jók érdekének megóvását; tudott
+               gondolni arra, hogy mig egyrészről a bünnek sötét burkából kibontása a föladat, mig
+               kibontja, bevilágitja és miként világitja be, egyszersmind tudott arra is gondolni,
+               hogy a megrázkódtató véletlen csak pillanatra se gyakoroljon veszélyes hatást arra,
+               a ki annak előidézésében - meggyőződése szerint - teljesen ártatlan. Mig a bünre
+               gondolt és éles, gyors esze járt, röpült, kereste annak nyomait, gondolt Dinire
+               is.</p>
+            <p>Mégis csak szerette valaha azt a leányt, s ha nem maradt légyen is meg egyéb e
+               szerelemből bántó keserüségnél, nem elég maga ez ahhoz, hogy belőle némi fájdalmas
+               önszemrehányás származzék? De ennek sem szabad állandó helyet engedni.</p>
+            <p>Ha azt, a mit ő tud, meg fogja tudni ő is, nem lesz-e az a fulánk még kinzóbb, még
+               élesebb, s a szemrehányás érzésében nem törik-e bele a szivbe, s mint lélekismeret,
+               nem marad-e örökre ottan?</p>
+            <p>Nem magát fogja-e okozni a bekövetkezett szerencsétlenségért? Szomoritó lenne, ha igy
+               kezdene meggyőződést szerezni az elhibázott élet káros következményeiről.</p>
+            <p>S miért ne történhetnék igy? Az éles szóváltás a lakodalomban, a leány elkeseredése,
+               amaz ember bőszült fellépése, undok haragja, mind nem lehetnek-e oly alapok,
+               melyekből Dini öngyilkossági szándékot következtethessen? S nem hitethetné-e el
+               magával, hogy ő volt fő-előmozditója e kétségbeesett cselekménynek? Nem szabad ezt
+               hinnie!</p>
+            <p>Egy parányit megborzadt, ha arra gondolt, hogy ez esetben az első koczkát ő vetette
+               volna el, midőn arra a végzetteljes tánczra unszolá.</p>
+            <p>De nem lehetett ez igy, de nem is volt igy. A büntény elárulva, kitárva volt szemei
+               előtt, csak a nyomokat kelle kisérnie, lesni figyelemmel, tartani a bünöst, ki midőn
+               avatatlan szemeknek csak közönyös, mindennapi dolgokat cselekszik, a titkot látó
+               előtt nem csak arczában, meghasonlásában, hanem minden lépteiben elárulja magát.</p>
+            <p>S a bünös már e pillanat után szemmel lett tartva.</p>
+            <p>Büszkén, diadalmasan s egyszersmind boldogan emelé föl fejét arra a gondolatra, hogy
+               nem csak magának nem tehet szemrehányást, hanem azt a másikat is még többtől: a
+               lelkiismeret-mardosástól mentheti meg. Ő tudta, hogy a végzetteljes esemény nélkülök
+               is bekövetkezett volna, s tudnia kell ezt a másiknak is, tudtára kell adnia. Meg kell
+               ezt tennie, beszélnie kell vele, mielőtt mástól tudná meg a mult éj borzalmas
+               történetét.</p>
+            <p>Leült és levelet irt neki. Más alkalommal ezen, csak mint egy pajkosságon mosolygott
+               volna, most egész hévvel, lázas odaadással irta azt, a mit irt, a nélkül, hogy e
+               cselekmény külső jelentőségére csak gondolna is.</p>
+            <p>Füzér Dini csodálkozott a furcsa kis levélen; illatos levélke volt, pehelykönnyü s
+               igy kivülről érthetőbb volt, mint belől; fejét megcsóválta, tartalma teljesen
+               érthetlenné tette. Mindazonáltal olyan kellemetes tárgyacskaként érzé kezében, hogy
+               egy huszast adott a lovásznak, a ki hozta, azután keveselte, visszahivta s megint egy
+               huszast adott neki, és ismét belefogott olvasásába s megint csak nem értette.</p>
+            <p>A kis levél igy szólt:</p>
+            <p>«Ön még nehezen tudja, mi történt. Azt fogja gondolni, bünösek vagyunk, én is, ön is.
+               A szegény Angyel áldozat volt, de nem saját áldozata, s nem is a mienk. Különben is
+               az ember, kit reggel óta szemmel tartatok, maga kezdi elárulni magát, a gyanutól fél
+               s még sem gondol arra, hogy gyanusabbá válik már az által, hogy itt helyben nem
+               mervén tenni, hiányzó szögét Szatyondon rendelte meg. Pár óra mulva, napszálltakor,
+               fáradjon ön a vizi malomhoz, ott leszek én is, Gereczey ur is; erős, jellemes
+               férfiakra van szükségem, ott mindent meg fogunk tudni, lehet, még többet is, mint
+               most én tudok.»</p>
+            <p>- Jó is lesz - szólt Dini magában - mert hitemre, nem tudok, nem értek semmit e
+               levélből.</p>
+            <p>Végre eltért attól a gondolattól, hogy a levél egész tartalmát akarja megfejteni,
+               melyen érdeklődve akadt meg, egy sorra feszité egész figyelmét, fontolgatta, keble
+               szorulni kezdett... Angyellal kellett valami szerencsétlenségnek történni; s minél
+               jobban gondolkozott azon, hogy mi történhetett, annál inkább nyugtalan lett, s a
+               nélkül, hogy tudná, mi történt, sajnálkozva fölkiáltott:</p>
+            <p>- Szegény szerencsétlen leány!</p>
+            <p>A mély szánalom sohaja volt ez, nem a fájdalom lázas kiáltása, egy bánatos, csüggedt
+               emlékezés.</p>
+            <p>Elgondolkozott és tudja isten, gondolataiban ábrándokba tévedt, mert ott járt a
+               malomnál, a zúgónál s képzelgésében a szép ifju grófnő arczát látta mosolyogni maga
+               előtt. Keserü gúnynyal mosolyodott el gyarlóságán. De azért mindig csak
+               gondolkozott, és mindig oda gondolkozott, és sokkal előbb, jóval előbb a kitűzött
+               időnél, elindult a vizi malom felé, s lassan, mélyen elmerülve kelle neki egész odáig
+               haladni, mert legkésőbb ért oda. A többiek már ott voltak.</p>
+            <p>A molnár volt az első, ki jöttét észrevette. Megirtózott, megrettent tőle, mintha a
+               büntető angyal jelent volna meg neki, a lángpallossal kezében. A mint a
+               malomház-ajtóban állott s az ajtófélhez támaszkodva, szorongva leste volna a
+               szokatlan vendégeket, megmeredt ott álló helyében; bármint szeretett volna, nem birt
+               távozni onnan: látni akart, a félelem, a rettegés tartotta ott meg. A nélkül is
+               keserves napja volt, a hiányzó szöget - bármint leste-várta az alkalmat - nem üthette
+               helyre.</p>
+            <p>Dini azonban nem is tekintett reá, szemeit egy rá nézve sokkal érdekesebb látvány
+               vonzotta maga felé.</p>
+            <p>A grófné és Gereczey ur éppen e pillanatban akartak a zúgó padlóján átlépni. A jó
+               öreg ur kezét fogá az urhölgynek, s ő a kit terjedelmes testével félt, biztatá azt,
+               kinek esze ágában sem volt félni:</p>
+            <p>- Ne féljen a grófné, csak jöjjön bátran, hiszen nézzen, ezen padló jól le van
+               szögezve.</p>
+            <p>- Éppen azt akarom önöknek megmutatni, - szólt az, picziny lábaival a padlón topogva,
+               - azt akarom megmutatni, hogy nincs jól leszögezve, hogy egy szögje hiányzik.</p>
+            <p>Oda mutatott. Valóban egy szög hiányzott onnan.</p>
+            <p>A molnár vére fagyott ereiben; üdvösségét adta volna értte, ha tudná, hogy mit
+               beszélnek.</p>
+            <p>A kis grófné pedig okos higgadtsággal ujra kisérőihez fordult:</p>
+            <p>- Meg akartam győződni arról, hogy valóban ugy történt-e, a mint képzeltem. Én azt
+               hiszem, ezen padló, ezelőtt alig egy nappal, föl volt feszitve, s ugy van, ujra, és
+               pedig elhányva hirtelen leszögezve. Ezt nem csak ezen egy szög hiánya bizonyitja, de
+               több meggyőződést is szerezhetnők magunknak azzal is, ha ujra felfeszitenők,
+               megbirálván, hogy ujabb földturás van-e végei alatt?</p>
+            <p>A grófné odahivott cselédei fejszékkel s emelő ruddal közeledtek. A molnár égre
+               meredő hajjal látta mindezt, s azt is, mint tolakodik oda egy pár bámész paraszt is,
+               s mint feszitik föl a padlót. Nem tudta nézni, alig birta kiállni, hogy rémültében
+               rájuk ne kiáltson.</p>
+            <p>Egyszerre a grófnő kiáltott föl élénken, s mielőtt valaki megelőzhette volna, a
+               földről egy nagy szöget ragadott föl, mely a hol állottak, a padló külső vége alatt
+               hosszában hevert elrejtve, leszoritva.</p>
+            <p>- Ime itt a hiányzó szög! - emelte föl diadalmasan. - Nos, ugy-e, igazam volt? e
+               padló föl volt szedve, s a ki ismét visszahelyezte, az e negyedik szöget siettében a
+               padló vége alá leszögezte.</p>
+            <p>Valami elfojtott «jaj»-t véltek hallani, mely inkább hörgéshez, mint sikojhoz
+               hasonlitott; de nem törődtek azzal, mindannyian inkább a kis grófné felé forditák
+               figyelmüket.</p>
+            <p>A grófné borzalmas történetet beszélt egy szegény koldusleányról, kinek nem volt
+               egyebe szépségénél és becsületénél, s kit elcsábitottak, és azután csábitója, midőn
+               hazug szerelemmel magához csalta, akként ölte el: fölszedte előtte a zúgó padlóját,
+               hogy a mint utra indulna, biztos utja helyett a sodró hullámokba essék.</p>
+            <p>A történet még uj volt mindenki előtt. Angyel gyászos esetét még eddig nem is
+               sejtették. Elborzadtak.</p>
+            <p>A grófnő minden hallgatói közül csak Dinin pihenteté leginkább részvevő, szelid
+               tekintetét; talán több is volt az, mint részvét, talán keresett ott valamit.</p>
+            <p>Dini arczán azonban nem lázas kétségbeesést, csak szomoru csüggedést láthatott.
+               Megértett mindent, annak egész lelke világát, s a mi a legfőbb pedig: megtudta, hogy
+               abból a régi ábrándos érzelemből nem a szerelem emlékezése, a mi megmaradt, hanem egy
+               magával meghasonlott sziv keserüsége.</p>
+            <p>De ki tudja, mi lakik ott a szívben, lenn mélyen? nincs-e ott még a beszurt tövisnél
+               az a csüggő cseppenő vércsepp, mely elszakad és méregtengerrel önti el az egész
+               valót? nem ily csöndes keserűség előzte-e meg másszor is a kitört vihart?</p>
+            <p>Ha nem fogja látni azt az embert, nem fog e villámmá, lánggá, pallossá, gyilkossá
+               válni mégis abban a pillanatban?</p>
+            <p>Ez az az ember ott volt; megsemmisülve, összetörve, mint egy halálra itélt állott
+               ott, a honnan átkosan mozdulni sem tudott. Látta őt Dini; tudta, hogy ott van,
+               megkereste szemeivel és a villám czikázott meg szemeiben, arcza lángra gyult, izmai
+               megfeszültek. Az alvó tengerből egy szörny ütötte ki fejét.</p>
+            <p>A grófné megkisérlé: van e hatalma ezen ember fölött? Vállára tevé kezét s
+               engesztelékeny hangon szólott hozzá:</p>
+            <p>- Gondolja meg, hogy önnél egy hatalmasabb büntető kéz van odafönn!</p>
+            <p>Dini megállott; bár magához térve, de mégis az indulattól reszkető hangon szólt a
+               grófnéhez:</p>
+            <p>- Igen, asszonyom, de én megfogadtam...</p>
+            <p>A grófné szeretetreméltó nyájassággal felelt, miközben kezét megfogá:</p>
+            <p>- De én is megfogadtam, hogy önt visszaadom magának!</p>
+            <p>Dini bámulva meredt reá. Hát ettől a nőtől mindig olyanokat fog hallani, minőket neki
+               még senki sem mondott?...</p>
+            <p>Tudja isten, vérét sajátságosan megfordulni érzé ereiben. Zordonan, de nyugodt
+               léptekkel haladt a többiekkel a malom felé, s megvető undorral odaveté a szöget annak
+               az embernek a lábaihoz.</p>
+            <p>- Akaszd föl rá magadat!</p>
+            <p>Mindenki irtózva sietett el onnan.</p>
+            <p>A bitang gazember sötéten nézett a földre. Ha látta volna igy valaki, megképzett és
+               elfordult volna tőle, mert mintha csak látta volna, hogy lényében nincsen egyedül;
+               földult arcza, ajkain révedező őrületes mosolya elárulák azt, a ki vele van, a
+               szörnyet, a sátánt, az undokot, félelmest, elborzasztót, a ki hajtja, űzi,
+               korbácsolja odabelül nyomorult testében, a reszkető, kapkodó lelket: «Haszontalan, ne
+               hagyd magadat!»</p>
+            <p>A lélek kinlódott, vergődött, gondolkozni akart, esdekelt.</p>
+            <p>- Én, felakasztani magamat? nem, nem, - nyögött rémesen, - nem! - és irtózva
+               megrázkódott.</p>
+            <p>Az ördög megörült, vigyorgott, s hogy játékának tárgyát tovább is prédául tarthatja,
+               megczirógatta a lelket.</p>
+            <p>A nyomorult fölkaczagott, s a miről maga sem tudta, hogy akadt kezébe, eldobta a
+               kötelet s elrugta lábai elől a szöget, letörlé a verejtéket homlokáról.</p>
+            <p>- Mintha nem szedhette volna föl másvalaki azt a padlót, s nem én! - kiáltott föl,
+               bontakozva kinos harczából.</p>
+            <p>Azután ujra fölkaczagott, s fölkaczagott most öntudatosan, gunyosan; és öklét
+               összeszoritva, fenyegetett a falu felé:</p>
+            <p>- Ah! büszke, hatalmas uri asszony, s kevély gavallér, magatokat pártfogókként
+               toljátok föl, hivatlanul dolgokba avatkoztok, melyek titeket nem illetnek, vesztemre
+               törtök, meg fogom zavarni örömötöket! A verembe, melyet nekem ástatok, az egyiketek
+               fog belehullani s ez egy csapással összezuzom mindkettőtök örvendő boldogságát!</p>
+            <p>Fölemelte fejét, kiegyenesedett, bátran bement a faluba, és legelőször is az Izsák
+               boltjában gyászfátyolt vett kalapjára.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>VIII.</head>
+            <p>A negyedik faluban: Barcsakeszin, a szolgabirónál a barcsahidi pénzes molnár
+               jelentette magát, a szolgabiró urral, négyszem közt óhajtott beszélni, azonban e
+               titkot odakinn elbeszélte a hajdunak is. Borzalmas dolog volt az: megölték a
+               szeretőjét, és neki teljes, bizonyos alapu gyanuja volt a gyilkosra.</p>
+            <p>A szolgabiró az élte boldogságától megfosztott becsületes fiatal embert megsajnálta,
+               s egyszersmind a ritka és rémitő eseten elborzadva, rögtön befogatott.</p>
+            <p>Akkoriban ha a szolgabiró a faluba jött, az is esemény volt; a régi jó időben, a régi
+               jó falukban a mindennapi élettől elütő minden legkisebb változás érdekkel birt, hogy
+               ne lett volna hát esemény, ha a legnagyobb ur, a szolgabiró jött? négylovas nyitott
+               hintóban jött, huszár ült a bakon, tarsolyosan, forgósan, s hogy a világ ura volt,
+               tudjuk a czigányról szóló adomából, a ki a király jöttére is fitymálva kiáltott föl:
+               «Mit az nekem? Nem a szolgabiró!» A szolgabiró levett kalapok sora közt hajtatott
+               végig a falun, s mig a faluban időzött, a birák uramék szájába nem ment vissza a
+               pipaszár, a félsz és kegyeletteljes respectus fogott el minden halandót.</p>
+            <p>És igen természetesen, a szolgabiró soha nem jött ok nélkül, és soha nem jött hiába.
+               Azt, hogy ok nélkül nem jött, ő maga, s hogy hiába nem jött, azt az a félelmes
+               tarsolyos egyéniség jelentette, a ki kifent bajuszával a bakon még a lányokra és a
+               menyecskékre sem mosolyodott el.</p>
+            <p>Most ez alkalommal pedig a szolgabiró a borzalmas eset miatt jött, melyről széltire
+               beszéltek már a negyedik faluban is, és a hány ember, annyiféleképpen, ugy, hogy ha a
+               terjengő hirek után akarta volna az ember az ügyet megitélni, bátran beleszédülhetett
+               volna. Sőt nem csak beszéltek, hanem harmadnap már nóta is volt róla. Ki igy, ki
+               amugy beszélte, de abban az általános meggyőződés találkozott, hogy nem öngyilkosság,
+               hanem valóságos gyilkosság áldozata lett a szegény leány. Hogy ki a gyilkos, ebben
+               már eltérő értesülések csináltak egy-egy kis kört maguknak. Az egyik hir magát a lány
+               szeretőjét, a másik hir ismét egy másik egyént kevert a szövevénybe, mely oldalról
+               még csak ugy suttogva mertek szólani, mivelhogy az a bizonyos egy uri ember
+               volna...</p>
+            <p>A szolgabiró, a mint ő vélte - szerencsére! - jól volt értesülve, hiteles szemtanuja
+               volt, kinek állitásait fényes és erkölcsi körülmények erős hatalmas bizonyitékkal
+               támogatták. A gyanuba vett egyénnek ellene szólt társadalmi megrovást érdemlő
+               rendetlen s rangjához nem illő előélete, a szerelmi vetély, melylyel izgágaként két
+               egymást szerető sziv közé tolakodott, fenyegetései, régen gyanus, kalandos éji
+               kóborlásai, különösen pedig éppen ezen éjjelen menekvő száguldása a biztonság őrei
+               elől, mely menekvésében nem csak a molnár, hanem mások által is, nevezetesen a
+               barcsahidi malomra dülő hincseli puszta kerülője s Barcsahidán, a falu végén, a
+               Pestre siető berencseki fuvarosok által láttatott; a kerülő látta, midőn a hincseli
+               csárdától a malom felé vágtatott, a molnár a malom zúgójánál, a fuvarosok pedig a
+               malomtól a faluig terülő sik mezőben; teljesen csalhatatlan, bizonyos, hogy a
+               hajnalon a zúgó padlóján ő osont át, ezt a biztonság őrei is erősitik, állitván, hogy
+               szinte sejtve a padlófölszedést, azért kerültek fel a féluti hidra, s igy senki más
+               föl nem szedhette, lehet azon okból, hogy az üldözést elvágja, de lehetségesen csupa
+               boszuból is, számitva a bekövetkezendő rémitő eseményre, föltett szándéka lévén a
+               meglepett leányt elölni. Akár egyik, akár másik esetben, de mindenesetre gyilkos
+               volt. De különben a molnár is igy véli, mivel egész éjjel más senkit sem vett észre a
+               malom közelében, csak a gyanus lovast, és még este a padló nem volt helyéről
+               elmozditva s a leány azon jövén át, sem az, sem ő meg sem álmodhatták, hogy ily
+               irtóztató szerencsétlenség történhetik s ekkép történhessék: ő maga is csak akkor
+               eszmélt s gondolt irtózva e dologra, midőn másnap többen, sokan jöttek a malom
+               környékét körülnézni, akkor villant meg minden az eszében, a mit a szolgabiró urnak
+               elbeszélt; akkor világosodott föl előtte minden, a Katlanék lakodalmában száz tanu
+               által látott megtámadtatása, a lány után vetett régi leskelődések, incselgések,
+               melyeket Sutusék bizonyithatnak... minden, minden, és végre a titkos éji száguldás a
+               malomhoz, teljes világot vetnek a szövevény homályára.</p>
+            <p>- Végtére lépre került ez a semmiházi, haszontalan betyár, - fontolgatá magában a
+               szolgabiró, - ez a gyalázatos, ki mocsokja volt az egész megyebeli nemességnek, ki
+               ellen eddig ugy sem tudtak semmi határozottan megbélyegzőt kikutatni, bebizonyitani;
+               pedig alig hihető, hogy oly társaságban, melyben életét folytatta, tisztán maradjon.
+               Nevét ugyis emlegették már valamely ló- vagy ökörsikkasztással összeköttetésben; a
+               személyazonosság bizonyitása ugyan hiányzott s törvényes vizsgálatot puszta hirek nem
+               vonhattak maguk után, azonban régi gyanu, régi rossz hir soha sincs alap nélkül.
+               Régen gyanuban van már megrovott pásztorokkal üzött czimboraságaiért, szerelmes
+               kalandjaiért. Hogy tisztán mulatságvágy, táncz, zene, nóták, szerelmes kalandok
+               fűzzék a nép legalsó osztályához, az teljesen hihetetlen. A szolgabiró ur nem hitte
+               az ábrándosságokat.</p>
+            <p>És már majd magát a szegény, becsületes molnárt kezdette a közvélemény vádolni; már
+               dalolták a nótában:</p>
+            <p>«Barcsa vizén csalfán őröl a malom, </p>
+            <p> Csalogatnak, ne menj oda, angyalom; </p>
+            <p> Oda járnak őrölni a leányok, </p>
+            <p> Pénzes molnár csókban szedi a vámot.»</p>
+            <p>Mintha valami költő lakott volna ott közelében s az esemény borzalmától megkapva, a
+               szerencsétlen áldozatot meg akarta volna énekelni, már kész volt a románcz elejétől
+               a végeig:</p>
+            <p>«Vizimalom, apadjon el a vized, </p>
+            <p> Gyilkos molnár, száradjon el a kezed!»</p>
+            <p>Ismét - szerencsére! - amint ő szokta mondani, szolgabiró ur nem sokat adott az egész
+               világ poézisére; ha az ember a poézis után akarna indulni, ugy nem a csalhatatlan
+               nyomozó igazságnak, hanem az emberek gyarló rokon- vagy ellenszenvének kellene
+               engednie.</p>
+            <p>Azért is, midőn magában Barcshidán a falu házánál megállott s ott is ilyen poétikus
+               hangulatokat, meggyőződéseket tapasztalt, az illetők véleményét nem tulajdonitván
+               egyébnek, mint a molnár iránt érzett ellenszenv s a gavalléros uri kalandor iránt
+               nyilatkozott rokonszenv kifolyásának, gondolván, hogy az mégis csak absurdum, hogy
+               valaki szép, fiatal szeretőjét megölje, s hogy mint igazságos biró magát minden
+               befolyás alól elvonja, nem azért éppen, hogy a grófné fiatal, özvegy asszony volt,
+               örömest elfogadta a grófné meghivását, föltévén, hogy szerencsére - ismét és mindig
+               szerencsére! - oly semleges területen és körben fog állani, mely sem egyik, sem másik
+               részről érdekelve nem lévén, minden befolyástól mentten marad.</p>
+            <p>Azonban itt is csak elhült, midőn a grófné is, még a villás reggelinél kijelelenté,
+               hogy ez ügyben ő is fog fölvilágositásokkal szolgálni.</p>
+            <p>Udvariasan megköszönte, de szörnyen nagy megterheltetésével járt ez az
+               udvariasság.</p>
+            <p>A grófné ezután ugy kezdte a fölvilágositást: legelőször is leült a zongorához s ő is
+               azt a nótát kezdte rá, s még hozzá dalolta, mondván, hogy a komoly foglalkozások
+               előtt egy kissé mulattatni óhajtja a szolgabiró urat; különben ha figyelemre
+               méltatja, az ügy földeritésére, ez is bő magyarázattal szolgál:</p>
+            <p>«Eredj rózsám, vidd el e kis lisztlángot, </p>
+            <p> Be megennék egy kis puha kalácsot; </p>
+            <p> Éjféltájban itt várlak a zúgónál, </p>
+            <p> Én istenem! jaj, bár csak már itt volnál!»</p>
+            <p>«Szivem molnár, itt a kalács, csak egyél, </p>
+            <p> Melegében a csókomból is vegyél!» </p>
+            <p> «Nem kell nekem sem kalácsod, sem magad, </p>
+            <p> Itt a zúgó, jó mély a viz az alatt.»</p>
+            <p>«Ne bánts engem, félek én a haláltól, </p>
+            <p> Mi lesz akkor az én szegény anyámból.» </p>
+            <p> Zúg a malom, nem hallik a lány szava, </p>
+            <p> Nem látják a gyilkos dolgot éjszaka.</p>
+            <p>A szolgabiró türt s csupa illemből nem árulta el, hogy feszengése több a
+               türelmetlenségnél, s pár percznyi előkészület kellett neki, hogy képes legyen a
+               grófnét figyelmeztetni, miszerint kegyeskedjék őt a komoly foglalkozások
+               megkezdésének átengedni.</p>
+            <p>A grófné nyájas mosolylyal állott meg előtte.</p>
+            <p>- Fölösleges! Minden komoly vizsgálat mellőzhető, én magam elő fogom adni, elbeszélni
+               az egész eseményt.</p>
+            <p>A szolgabiró némi visszatetszést koczkáztatott. A grófné csak folytatá udvarias,
+               bájos hálózással:</p>
+            <p>- A tekintetes ur eljárását akarom megkönnyiteni; senki sem tudja, senki sem ismeri
+               ez eseményt minden részleteiben ugy, mint én, nem szükséges egyéb, csak ezen esemény
+               által érdekelteket magunk köré gyüjteni.</p>
+            <p>A szolgabiró ur kiigazitá: «Fölrendelni!» Ezt a szót mégis csak meg kell tartani.</p>
+            <p>A mint látszott, a kis okos grófné a szolgabiró engedelme nélkül is e rejtélyes
+               esemény szövevényeinek kibontásához megtevé az előkészületeket, mintha nem is
+               parancsszavára, hanem tündéri varázsintésére mozognának a szereplő egyéniségek; a
+               kedves öreg Gereczey bácsi, Füzér Dini, a zúgó padlójának fölbontásánál jelen volt
+               parasztok, a hincseli pusztakerülő, a berencseki fuvarosok egymásután megjelentek a
+               nagyteremben, sőt a pénzes molnár is besompolygott.</p>
+            <p>E pillanatban a grófné tette magát vizsgálóbiróvá.</p>
+            <p>Szerencsére, hogy a grófné szép és kellemes urhölgy volt, különben a szolgabiró ur
+               nehezen bocsátotta volna meg e regényesnek szinezett, de mindamellett komoly
+               beavatkozást.</p>
+            <p>A grófné helyet foglalt, gyöngéden intett kezével, azután lágy, finom hangján,
+               kellemes modorával, melyeket meghatottság rezgett át, a szolgabiró urnak igért
+               felvilágositást az érdekes esemény előadásával kezdette meg, mely annyira meglepő,
+               érdekébresztő és érzékeny volt, hogy legjobban nem a valóhoz, hanem a fonókák rémes
+               meséihez hasonlitott.</p>
+            <p>De a grófné igen kellemes mesélő volt, hangjának bája minden szavát hóditó igazsággá
+               tette; csakhamar a szolgabiró sem feszengett többé ülőhelyében, mint mindenki odaadta
+               magát a beszélő ajkak hatalmának, s valóban egy tündért néztek, fogadtak el benne, ki
+               e jelen perczekben a sorsot intézni van hivatva.</p>
+            <p>- A leány - folytatá a grófné az előzmények és a lakodalmi jelenet elbeszélése után -
+               kedvesétől elbucsuzott a zúgó végénél, megölelte, megcsókolta kedvesét utoljára, a
+               nélkül, hogy csak sejthette volna, miszerint nem kedvesét, hanem gyilkosát öleli
+               benne; kifejtőzött karjaiból, hogy sietve visszatérő utjára keljen, megfordult...
+               lépett... nem csak lépett, de ugyanabban a pillanatban, midőn kibontakozott
+               karjaiból, egy lökést is érzett, a karok, melyek ölelték, egyuttal el is lökték őt a
+               kebelről, melyen pihent; a másik pillanat már a rémület pillanata volt; nem találtak
+               padlót lábai, egy sodró árba zuhant, rémülve felsikoltott, esésében kétségbeesetten
+               ragadta meg az első tárgyat, mely ujjai elé akadt, görcsösen megfogta, a zúgó
+               deszkapárkánya volt az; az életvágy rémületével lelkendezett a menekvés lehetősége
+               felé; a gyilkos ott állott még, lehajolt gyorsan, erőszakkal lefejté, letépte fogódzó
+               ujjait, visszataszitá a hullámokba, és elrohant onnan. Mint villám a sötét éjt, e
+               pillanat irtózata láttatá meg vele a veszélyt teljes valóságában; e pillanat, mely a
+               gyilkos torzult arczát láttatá, melyben mentő kéz helyett az eltaszító gyilkos kezet
+               érzette, megrémült lelke gyorsan ösztönszerüleg meglátta, felfogta a véletlen
+               helyett a borzadályos bünt, érezte, hogy gyilkosság áldozata lett, velőtrázó sikojt
+               hallatott. Nem volt több menedéke, az ár átölelte, megkapta és sodró karjaival
+               ragadta; futó, összefolyó káprázatokként tüntek el előtte a nagy fák, a malom, a
+               hold, csillagok a sötét felhőkkel, minden, minden, az egész világ; sikoltani akart
+               még egyszer, nem birt, csak a léghez kapdosott: már ott kereste a mentő kezet, a
+               gondviselő, megtartó isteni kezet, mely a hangyának a szalmaszálat dobja, hiszen
+               annak mindenhol ott kell lenni. Ez még eszébe jutott, erről még tudott gyorsan fogyó
+               eszméletében, az imából még megmaradt a mindenség urának neve, a nagy, a hatalmas, az
+               egész világot lényével betöltő eszme, szellem, név... isten... isten!...</p>
+            <p>Bármilyen érzékeny volt a grófné elbeszélése, bármennyire igyekezett azt
+               érdekfeszitővé tenni, a törvény embere előtt csakugyan nem lett az egyéb, mint
+               romantika; szánalmasan mosolygott s odasugdosá a grófnénak:</p>
+            <p>- Ez mind szép poézisnek, regénynek, egy skribler irkálna is valamit belőle, de a
+               törvény előtt mindezek semmi nyomatékkal nem birnak. Szerencsére én más oldalról
+               látom az egészet, mely oldalról komoly és alapos gyanuk vannak, s ezek többet érnek,
+               mert tanuk is léteznek hozzá.</p>
+            <p>A grófné ő reá még szánalmasabban mosolygott, s készült ujra felvenni a beszéd
+               fonalát.</p>
+            <p>A többiek mind érdekkel csüggtek ajkain, sőt Gereczey és Dini vak odaadással, mint
+               egy csalhatatlan tündérhez, teljes meggyőződéssel tapadtak; hogy a rémeseményt honnan
+               tudhatja ily körülményesen s oly részletesen, mint csak egy szemtanu, nem is
+               keresték, nem is kutatták. De hát miként láthatta mindezt?</p>
+            <p>Ez utóbbit a pontos és jól értesült előadáson rémülő verejtékező molnár gondolta.</p>
+            <p>Vagy pedig nem egyéb az egész, mint a találó képzelődés élénk szinezése, nem egyéb,
+               mint képzeletszülte képek ügyes előadása.</p>
+            <p>A grófnő folytatta:</p>
+            <p>- Most egyszerre a szerencsétlen leány azt érzé, hogy valamibe ütődik; odakapott,
+               mintha valami magához szoritaná; a sodró hullámok oly erővel nyomják egy tárgyhoz,
+               mely sem neki, sem a hullámoknak engedni, utjokból kitérni nem akar;
+               végerőfeszitésével mindkét karjával gyorsan átöleli ezt, feje, lelke, szive félig
+               elalélva van, de mégis érzi, hogy él még. A mig keblét a hideg viz csapdossa, mégis
+               átérzi, hogy belől egy gyönge, meleg áramlat fut rajta keresztül, lassan-lassan föl
+               birja nyitni szempilláit, eszmél egy kissé. A malomkerék deszkái azok, a melyben
+               fogódzik s melyhez nem ragadva, nem sodorva most már, hanem hatalmas erejökkel
+               fölemelve, mentve szoritják a torlódott hullámok. A meleget, mely szivében
+               meg-megömlik, apránkint megérti: az öröm az, a menekvés lehetőségének öröme.</p>
+            <p>A hallgatók mindegyikének arcza derülni kezdett, csak egynek arcza vált mindinkább
+               sötétté, dulttá; a grófné annál élénkebben folytatta:</p>
+            <p>- Már érzett annyi tudatot, erőt, hogy ajkait segélykiáltásra nyissa föl és
+               egyszersmind örömsikoltásra, és nem kiált, még sem kiált, egy rémet képzel a sötét
+               homályban, mely hosszu karjaival odanyulik s a mentő kereket ölelő karjait letépni,
+               lefeszegetni igyekszik; borzad, fél, és nem mer kiáltani; egy titkos sugalat beszél
+               hozzá, egy részvevő, óvó sugalat: legyen csendesen, még nem a gyilkosnak, neki kell
+               félni, neki kell rettegni, hogy el ne árulja magát.</p>
+            <p>A grófné a közbehallatszó kinos nyögésre sem hagyta félbe meséjét, pedig
+               megborzongtak mindnyájan, ő is.</p>
+            <p>- A gyilkos ott van; ha meglátja őt, csak egyet kell eresztenie a megkötött keréken,
+               s ujra veszve van. Gondolkozik. Azután gyönge karjait izmokká fesziti, fölkuszik a
+               pihenő kerék belső oldalán, minden tagjaiban érzi a lég hüvös érintését, kiemelkedett
+               a vizből, egy fekmentesen elnyuló vastag gerendára talál, megpihenteti kimerülni
+               kezdő erejét, megpihen a gerendán, és a veszélyes ponton, a magasban, a lezuhanó
+               hullámok fölött könnyülve, boldogan pihen. Ezután végigkúszik a gerendán és ismét a
+               másik gerendán, odaér a malom falához, csak egy fal választja el gyilkosától, csak a
+               kőpad ablakán kell annak véletlenül kitekinteni, hogy lássa: kezein csüggve, mint
+               ereszkedik le a leány a szögleten, mint éri el lábaival a földet, a biztos földet, s
+               annyi rémület után mint menekszik.</p>
+            <p>- Igy tehát él az a leány?! - kiáltott föl a szolgabiró, meglepetését tovább nem
+               birva visszatartani.</p>
+            <p>- Igen, természetesen - felelt a grófné mosolyogva - különben hogyan tudtam volna én
+               mindezeket elbeszélni? De milyen élet ez!</p>
+            <p>- És éppen ez az ember - dörgött a szolgabiró fölugorva s haragra gerjedve - éppen ez
+               az ember, ki nekem oly megindulással hazudozott, ki oly alapos, pontos gyanukat
+               meritett fel, hogy szinte hitelt adtam neki. Szerencsére azonban!... Rögtön el kell
+               fogni, vasraverni a gazembert! Megengedjen a grófné, hogy igy kiáltozom, de a
+               boszuság teljesen kihoz sodromból.</p>
+            <p>Most már ő lett a legérdekeltebb hallgató s majdnem kérte a grófnét, hogy folytassa
+               meséjét.</p>
+            <p>- A sötét éjben - folytatta a grófné - a leány a folyam mentén rejtőzve vánszorgott
+               egy szép, kellemes helyig a kertemben, hol először vett időt és bátorságot magának,
+               hogy buzgó hálaimára nyissa ajkait; itt merült ki, itt alélt el s elhagyá
+               meggyötrött ereje; itt találtam hajnali sétámban betegen, összerogyva, megtörve,
+               leeresztett s vizcsapzott fürtökkel és ruhákkal. Most ott fekszik a kertészlakban a
+               kimerülés és megrázkódás-okozta rohamos lázában; a jó kertészné és vak anya van
+               mellette, kit elhozattam, hogy bátorságot adjak neki az élethez. Föltett szándékom
+               volt az egészet titokban tartani, cselédeimet is titoktartásra utasitottam, mihelyt
+               ágyából kelhet, el szándékozván őt felföldi birtokocskámra édes jó anyámhoz küldeni;
+               tünjék el, tartsa holtnak őt mindenki, higyje holtnak őt a gyilkos; a büntetést,
+               melyet kellő mértékben a törvény nem adna neki, a lelkiismeret-mardosás adja meg.</p>
+            <p>- De megadja annak a szigoru büntetést a törvény is! - felelt a szolgabiró
+               határozottan.</p>
+            <p>A grófné szánalmasan mosolygott.</p>
+            <p>- És mi büntetést szabna ön ily bünért, mely annak a szegény teremtésnek, a nélkül,
+               hogy megölte volna, mégis egész életét tönkre zuzta? E leány élete igy vagy ugy, de
+               örökre veszve van, ha lázából épül is, szerelmét veszitve, boldog nem lesz többé
+               soha; ki tudja, lelkén a megrázkódás nem hagy-e szomoru nyomot, vagy a rendkivüli
+               eseménynek az idegrendszerre, a testre tett befolyásai s a külső hatások nem fognak-e
+               egy gyógyithatlan betegséget teremteni? Ugy-e, ha élve maradt is, mégis megölte ezen
+               ember? Nos, szóljon, mi büntetést szabna ön gyilkosára?</p>
+            <p>- Én? halált! - felelt a szolgabiró gondolkozás nélkül - a törvény pedig...</p>
+            <p>- Halált! - szóltak Gereczey és Dini indulatosan.</p>
+            <p>A grófné még szánalmasabban mosolygott, mint imént.</p>
+            <p>- Lássák! És ez nincs számára a törvénykönyvben. Halált érdemelne, és nem kapna
+               halált. A törvénynek bünéhez mérve csekély fenyitése még irgalom, kegyelem lesz
+               számára, még azt fogja hinni, hogy vétkeért megbünhödött, és hinni fogja, hogy a
+               kitöltött börtönévekkel számolt a világgal, üdvösségével, istenével, és még jogot
+               tartand nem csak nyugalomhoz, hanem még boldogságot is követelend az életből. Az
+               általam számitott büntetés sokkal nagyobb leendett. Hitte volna örökké, hogy meghalt;
+               a jól megőrzött titok az örök lelkiismeret-mardosás férgét teremtette, hagyta volna
+               szivében, lelkében. Látta volna folyvást, ébren, álmában a leányt holtan, hidegen,
+               csapzott hajjal, a mint valahol ott alól messze, idegen falu határán a hullát a
+               folyam iszapos partjára vetette, a mint tőle rémülve futnak el az ártatlan
+               libapásztor gyermekek. Hadd látta volna mindig e rémképet, ez ért volna föl a
+               halálbüntetéssel!</p>
+            <p>A szolgabiró daczosan megfelelt:</p>
+            <p>- Hiszen három év a gyarmati tömlöczben, az is fölér a halállal!</p>
+            <p>S ekkor a pandurokhoz fordult mérgesen:</p>
+            <p>- De hát még sem vittétek el előlem azt a gazembert?</p>
+            <p>Az egyik pandur némi habozással felelt:</p>
+            <p>- Azt mondja, mindjárt jön, csak keres valamit.</p>
+            <p>Csak most forditák még mindnyájan teljes figyelmüket az átkozottra. Az átkozott, ki
+               kinpadon állt ez elbeszélés alatt, szédült s majd nyögött, most vérig, verejtékig, az
+               agyvelőig megkinzott, torzult arczczal halványodva állott ott, mig egész testében
+               reszketett, tévelygő szemei kétségbeesve keresgéltek a földön.</p>
+            <p>- De hát mit keres?</p>
+            <p>- Azt mondja, egy szöget keres.</p>
+            <p>- Tetteti magát! - szólt a szolgabiró haragos undorral. - Vigyétek el!</p>
+            <p>Azon ember azonban nem tettette magát, legalább a jelenvoltak közül a szolgabirón
+               kivül mindenki irtózva érezte, hogy nem tetteti.</p>
+            <p>- Bocsásson meg ön, uram, nekem - szólt a szolgabiró, Dinihez lépve, a mint a
+               gyilkost elvitték - bocsásson meg nekem, hogy csak egy pillanatra is föltettem
+               önről!</p>
+            <p>Dini csodálkozva nézett reá.</p>
+            <p>- Uram, ezen gazember két bünnel vádolta be önt előttem. Állitván, hogy amaz éjjel
+               egy bünös kaland elkövetése után a zúgóhoz lóháton érkezve, a zúgó padlóját ön szedte
+               volna föl, s üldözői utjának elvágásával egyszersmind kapott az alkalmon, hogy ama
+               szegény leányt a zúgó vizébe temetheti.</p>
+            <p>Dini csak most eszmélt. A szégyen és méltatlankodó boszankodás lángja gyujtá el
+               arczát.</p>
+            <p>- De hogy szülemhetett az a gondolat, hogy ezen lovas én lehettem? Hiszen én egész
+               éjjel... itt ezen a helyen éppen...</p>
+            <p>- Hagyja! - csititá a szolgabiró. - Ne is tartsa méltónak e vádat, hogy magát
+               igazolja. Ezen szegény emberek jöhettek arra a gondolatra, kivált a hincseli
+               pusztakerülő, mert a hincseli féluti csárdából nyargalt azon lovas, hol ön igen
+               gyakran szokta volt magát muzsikáltatni.</p>
+            <p>S azután pajkosan fülébe sugá:</p>
+            <p>- Hej, veszedelmesek azok a szép csárdásnők! Még ilyen szegény fuvarosokat is
+               szivesen megerősitenek téves hitükben, csak hogy az igazi gavallérjukat
+               eltitkolják.</p>
+            <p>Dini még mindig boszankodva mentegetőzött. Soha sem röstelt még igy semmit
+               életében.</p>
+            <p>- De uram, hogy és miként lehet velem szemben ily vádaknak helyet adni? Lólopást és
+               gyilkosságot tenni fel rólam?!</p>
+            <p>A grófné békitőleg lépett közbe.</p>
+            <p>- Nyugodjék meg! Hatalmamban volt mind a két vádat egy csapással megczáfolni,
+               megczáfolni azon egy bizonyossággal, hogy azon éjjelt ön diszes társaságban itt
+               nálam töltötte. Hanem vegye tanulságul ezt és szerezzen magának arról meggyőződést,
+               hogy az állásával össze nem illő viszonyok, társaságok az embert nem csak
+               kellemetlen, viszás helyzetekbe bonyolitják, nem csak meghasonlásba hozzák kedélyét,
+               érzelmeit, hanem okot, alapot még magának az ártatlan becsületnek megtámadására is
+               nyujthatnak. Nézzen ez ur szemébe, nem volt-e ő is már majdnem meggyőződve? Semmi!
+               Legalább nekem is kijutott az öröm, hogy megczáfolhattam.</p>
+            <p>Dini szivére tette kezét, és véghetetlen hálás érzelemmel telt pillantást vetett a
+               grófnéra.</p>
+            <p>És e pillanatban érezte a legnagyobb bánatot, a legnagyobb fájdalmat életében, teljes
+               tudatát élete elhibázásának. Mily alant van ő, s mily magasan fölötte e hölgy, ki elé
+               térdeire rogyni szeretne, buzgón, forrón csókolni még ruhája szegélyét is, nem csak
+               ezért, a mit most tett értte; nem csak azért, hogy fölébreszté, kiemelé őt a sülyedés
+               sarából; nem csak azért, hogy a fátyolt letépte szemeiről, hanem azért is, mert egy
+               biztató sugárra mutatott, a jövőbe világitó sugárra, hogy a földön mennyország
+               mindenkinek létezhetik.</p>
+            <p>- A társaságot magánál inkább fölebb, mint alantabb kell mind a léleknek, mind a
+               szivnek keresni.</p>
+            <p>Mit is sejtethettek volna mást, ezen édes és nyájas mosolylyal kisért szavak?</p>
+            <p>- Ne hálálkodjék ön, ne köszönje oly kifogyhatatlan örömmel beavatkozásomat, melyet
+               ön nagyszerünek és nemesnek állit, holott éppen azért nem nagyszerü és nemes az, mert
+               abba egy kis önzés vegyül.</p>
+            <p>Régen nem volt már ott más senki, csak ő, csak ő nem birt megválni onnan; nem attól a
+               küszöbtől nem birt válni, mely a két termet elválasztotta, hanem attól a kéztől,
+               melyet ajkaihoz emelt, melyre egy könycseppje is hullt, melyet nem tudott
+               elereszteni, s melyet nála is feledtek.</p>
+            <p>Oh! hatalmas szerelem!</p>
+            <p>Hallgattak és néztek egymásra, és szivük dobogott, dobogott erősen és édesen.</p>
+            <p>És eltünik, elvész az egész világ minden aggályaival, korlátaival, előitéleteivel,
+               gondjaival egy kézfogásban, egy mosolyban és abban a mennyei fényben, mely két édes
+               nézés összesugárzásából származik. Egy nagy, óriási rózsa fejlik, nyilik a lélek
+               káprázataiból, mely mindent beborit leveleivel, s illatával az egész világot
+               betölti. A legnagyobb boldogság a földön.</p>
+            <p>- És igazolná-e, hogy nem álmodom, - suttogá Dini boldogan - meghazudtolná-e, hogy
+               életemben nem most vagyok a legboldogtalanabb?</p>
+            <p>A grófné bájos mosolylyal felelt:</p>
+            <p>- Azt hiszem, már látta ön, hogy a ki szeret, sokat tesz azért, a kit szeret, s nem
+               ismer lehetetlenséget.</p>
+            <p>- És fölcserélné - folytatá epedve - e paradicsomot ama rideg tanyával?</p>
+            <p>- Akkor nem lesz az olyan! - felelt a grófné boldog önhittséggel.</p>
+           
+            <p>Hát a szegény koldusleány?</p>
+            <p>A kinek mindene, a mi volt, boldogsága, reménye, öröme elveszett: bizony koldus marad
+               az a sirig.</p>
+           
+           
+         </div>
+      </body>
+	</text>
+</TEI>
