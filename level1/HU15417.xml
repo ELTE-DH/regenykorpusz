@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU15417" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			   <title>A szélhámos</title>
+				<author>
+					<persName>
+						<surname>Forró</surname>
+						<forename>Pál</forename>
+					</persName>
+				   <date from="1884" to="1942">1884-1942</date>
+				   <idno type="VIAF">107985695</idno>
+				</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">10335</measure>
+				<measure unit="pages">30</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+				   <title>A szörnyű felfedezés</title>
+				   <date>2016-05-02</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+				   <ref target="https://mek.oszk.hu/15400/15417/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+					   <name>Vidiné Réfi Erzsébet</name>
+					   <name>Drótos László</name>
+					   <name>Mészáros Atilla</name>
+					</respStmt>
+					<bibl type="printSource">
+					   <title>A szörnyű felfedezés</title>
+						<author>Forró Pál</author>
+						<pubPlace>Budapest</pubPlace>
+					   <publisher>Világv. Reg. Kiadóvál</publisher>
+					   <date>1935</date>
+					   <ref target="https://mek.oszk.hu/15300/15314/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+				   <title>A szörnyű felfedezés</title>
+				   <author>Forró Pál</author>
+					<date>1934</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T5"/>
+			</ns1:eltec>
+		</xenoData>
+		<revisionDesc>
+			<change when="2024-11-16"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+        
+         <div type="chapter">
+            <head>
+             I.
+            </head>
+            <p>Adrienne szinte megdermedt rémületében és zavarában. Nem is értette, hogyan
+               történhetett ez, hogyan merészelhette Tamás ezt a vakmerőséget?</p>
+            <p>Felugrott, a kis teázóasztalon összekoccantak a poharak és egy ezüstkanál a szőnyegre
+               hullott. A szemét elfutotta a könny. A lelke mélyéig fel volt dúlva.</p>
+            <p>- Megőrült? - kiáltotta magánkívül. - Hogy merte ezt? Hogy merészelt megcsókolni?</p>
+            <p>A férfi - elegáns, markáns arcú atléta - még ott állt a karosszék mögött, melynek
+               támláján áthajolva a merényletet elkövette.</p>
+            <p>- Bocsásson meg Adrienne - mondotta és hangja tikkadt volt -, csakugyan elvesztettem
+               az eszemet. De hiszen tudja, mennyire szeretem... Hónapok óta szinte naponta együtt
+               vagyunk...</p>
+            <p>- A tenniszpartnerem...</p>
+            <p>- Igen, a sport-partnere vagyok, télen együtt síeltünk, most pedig vitorlázik,
+               tenniszezik, bridgel és táncol velem... De végre is minek nézett? Lelketlen gépnek?
+               Fabábnak? Hiszen tudta, éreznie kellett, hogy szeretem, nem titkoltam...</p>
+            <p>Adrienne kínzott mozdulatot tett.</p>
+            <p>- Sajnálom Tamás, hogy ennyire elragadtatta magát. Miért kényszerít arra, hogy újra
+               erről beszéljünk? Én tisztességes asszony vagyok. Nem csalom meg az uramat.</p>
+            <p>- Váljon el tőle és legyen a feleségem!</p>
+            <p>Az asszony sóhajtott.</p>
+            <p>- Ez lehetetlen, Tamás. Andor a legjobb, legönfeláldozóbb férfi a földön. Minden
+               gondolata én vagyok...</p>
+            <p>- Hiszen alig vannak együtt!</p>
+            <p>Adriennet szíven találta ez a megjegyzés. Ez volt házaséletének legfájdalmasabb
+               pontja. Tamásnak igaza volt. A férje mindig el volt foglalva. Az örökös
+               tanácskozások, üzleti utak valósággal elnyelték. Adriennenek rengeteg szabad ideje
+               volt és ilyenkor nagyon elhagyottnak, szerencsétlennek érezte magát. A sportban
+               igyekezett szórakozást találni és persze a bridgeben. A jómódú, unatkozó asszonyok
+               sivár életét élte. A lelke mélyén azonban valami másra, jobbra és értékesebbre
+               vágyott. És főleg szerelemre. Harminckét éves volt, a társaság ünnepelt szépsége,
+               asszonytársai már régen féltékeny dühvel nézték, hogy minden férfi neki udvarol.
+               Apró, megbízhatatlan pletykák keringtek körülötte, legalább fél tucat emberrel
+               gyanusították meg, de egyiknek sem volt komoly alapja. Most azután fellélegzett a
+               társaság. A tél óta végre tisztázottnak vették a kérdést. Egyhangúlag megállapodlak
+               abban, hogy Adriennek Tordai Tamás a barátja. Együtt sportolnak, táncolnak és
+               bridgelnek. Ez a három ténykedés teljesen kimeríti egy asszony életét. Aki ugyanazt a
+               partnert kapcsolja be mind a három szórakozásába, nem kétséges, hogy annak a számára
+               tartogatja a csókjait is.</p>
+            <p>Valóságban azonban Adrienne minden boldogtalansága ellenére tisztességes asszony
+               volt, aki szerette és becsülte urát. Viszont az is igaz, hogy mióta Tamás az életébe
+               toppant - a Semmeringen ismerkedtek meg, ahol télen három hétig üdült -, ez a nagy
+               egyensúly egy kissé megbillent. Tamás tetszett Adriennek. Ezt az asszony hiába
+               próbálta volna letagadni. És hálás is volt neki. Ama rendkívüli férfiak közé
+               tartozott, akik egyre ritkábbak lesznek. Mindig van idejük és mindig van pénzük.
+               Földbirtoka és vállalata volt, de a birtokát bérbe adta, a vállalatát tökéletesen
+               megbízható és kitünő igazgató vezette, úgy, hogy semmi akadálya nem volt annak, hogy
+               az életét kedve szerint élje. Adrienne gyakran tett szemrehányást az urának, hogy
+               miért nem szabadítja ő is fel magát a munka rabszolgasága alól? És példának idézte
+               Tamást. Zalai ilyenkor vállat vont és enyhe gúnnyal jegyezte meg, hogy egy hites
+               könyvszakértő, aki átnézte Tamás vállalatainak főkönyveit, bizonyára kiderítené, hogy
+               milyen óriási összegeket lopnak el a könnyelműen élő főnöktől. Egyébként - mondotta -
+               az én üzleteim olyan természetűek, hogy azokat csak személyesen lehet
+               lebonyolítani! Ha másképpen élnénk, koldusbotra jutnánk!</p>
+            <p>Igen, Andor, a férj, kissé száraz, fantáziátlan ember volt, még arra sem volt
+               kapható, hogy legalább évenkint egyszer-kétszer elutazzon valahová a feleségével. Az
+               ellen azonban semmi kifogása nem volt, hogy Adrienne tetszése szerint utazzon, vagy
+               szórakozzon. Nem volt féltékeny. Vakon bízott az asszonyban. Ez őszintén szólva, nem
+               tetszett Adriennek. Kételkedni kezdett benne, hogy csakugyan szereti-e az ura? A
+               szerelmes férfi féltékeny. Az ő férje pedig éppen ellenkezőleg, meleg barátságot
+               kötött Tamással, közös üzleti ügyeik voltak, gyakran mentek együtt a klubba és
+               ugyanazokban a társaságokban bukkantak fel.</p>
+            <p>És most Tamás ott állt szemtől-szemben az asszonnyal, mindkettőjük arca piros volt és
+               a szemük égett a benső izgalomtól.</p>
+            <p>- Mint egy rablólovag, olyannak látom most! - mondotta Adrienne. - Szégyelje
+               magát.</p>
+            <p>- Milyen különös asszony maga - válaszolta Tamás. - Gyáva. Nem mer változtatni az
+               életén. A megszokás rabja, mint egy hetven esztendős akadémikus. Miért hazudik? Nem
+               szereti Andort. Nem szeretheti. Maga más temperamentum, más az egész beidegzése. Én
+               illek magához. De hiszen ehhez kétség sem férhet. Láthatja, hogy mennyire megértjük
+               egymást mindenben. Miért nem lesz hát az enyém? Sajnálja Andort? Ugyan, megmarad
+               számára az üzlet! Az pompás búfelejtető. Jobban izgatja mint maga.</p>
+            <p>- Ez nem igaz!</p>
+            <p>- És a mult héten... nem emlékszik már?... amikor találkozója volt vele Gerbeaudnál
+               és nem ment el? Maga már ájuldozott az izgalomtól és kiderült, hogy a férje közben
+               egy üzletféllel tárgyalt és még csak eszébe sem jutott, hogy telefonáljon.
+               Tökéletesen elfelejtette magát. Nyugodtan elválhat. Andor nem fogja zavartatni magát
+               tartósan... Néki sürgős és halaszthatatlan szerződéseket kell állandóan kötnie!</p>
+            <p>Adrienne szemét könny futotta el.</p>
+            <p>- Milyen gonosz, kegyetlen tud maga lenni!</p>
+            <p>- Egyik sem vagyok. Csak szerelmes. És azt akarom, hogy a feleségem legyen...</p>
+            <p>- Kérem... könyörgöm Tamás, ne beszéljünk erről. Talán majd egyszer... mit tudom
+               én...</p>
+            <p>- Hát mire vár? Mit remél? Csodákat? Értse meg: én illek magához, én vagyok a férfi,
+               aki magának rendeltetett és maga az asszony, akit imádok.</p>
+            <p>Adrienne szédült. Fel volt zaklatva. Valósággal könyörgött:</p>
+            <p>- Kérem... menjen most... hagyjon magamra... Majd holnap délelőtt a tennisznél
+               találkozunk...</p>
+            <p>Tordai értett a nőkhöz. Tudta, hogy ez már a kellő lélektani pillanat jövetelét jelző
+               vihar előszele.</p>
+            <p>Meghajolt és kezet csókolt.</p>
+            <p>- A viszontlátásra!...</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+               II.
+            </head>
+            <p>Adrienne nem tudott megnyugodni. A szive hevesen vert. Furcsa átalakulások forrongtak
+               benne, zavaros gondolatok cikkáztak, keringtek és egy sereg nyugtalanságot küldtek a
+               szivébe. Sok mindent kezdett másképpen látni...</p>
+            <p>Érezte Tamás szavainak igazságát. És mint egy mentőkötélbe, görcsösen kapaszkodott a
+               gondolatba: mégsem hagyhatja el Andort, aki tisztességes, hű, csak érte
+               dolgozik.</p>
+            <p>De mintha ezuttal nem tudott volna olyan határozott, éles bizonyossággal kialakulni
+               ez a hite, mint máskor. Valami bizarr, furcsa, szinte nevetséges nyugtalanság bontott
+               benne szárnyat és úgy ugrált, incselkedett, mint egy apró ördög. Az utóbbi
+               időben...</p>
+            <p>Igen, az utóbbi időben Andor feltünően érdeklődött Adrienne egyik barátnője iránt.
+               Kétségtelen: Lontai Anni nagyon tetszik neki. Már többször nyilatkozott róla
+               elragadtatással. Adriennet meglepte, hogy férje egyáltalában észreveszi még, hogy egy
+               asszonynak szőke, fekete vagy vörös haja van és hogy kitünően öltözködik. De
+               egyébként nem tulajdonított ennek a lelkesedésnek semmiféle különösebb fontosságot.
+               De most világosan látta, hogy ez a rajongás mégsem lehet egészen ártatlan. Milyen
+               érdekes! Eddig még nem is gondolt erre... hogy Andor hónapok óta kizárólag azokat a
+               társaságbeli meghívásokat fogadta el, melyek egyuttal Annival való találkozását is
+               jelentették. Ő, a mindig elfoglalt ember, ilyenkor - csodálatos módon - mindig szabad
+               volt!</p>
+            <p>Adriennet meglepte ez a felfedezés. Most már arra is emlékezett, hogy mikor utoljára
+               együtt voltak Lontaiéknál, a férje milyen feltünő érdeklődéssel vette szemügyre a
+               lakás legapróbb részleteit is. Mennyire lelkesedett a képekért, bútorokért. Úgy
+               rajongott, akár egy műgyüjtő. Dicsérte Anni izlését, hogy milyen szép kerettel veszi
+               körül magát... Persze, ez a lelkesedés tulajdonképpen nem a műtárgyaknak szólt, hanem
+               a szép asszonynak.</p>
+            <p>Adrienne megdöbbent. Egy kissé restelte magát. Hátha mindez nem igaz? Szándékosan
+               keres vádpontokat a férje ellen, hogy a tulajdon bűnét leplezze.</p>
+            <p>A telefon szólt.</p>
+            <p>Adrienne majdnem leejtette a kagylót meglepetésében. Mégis csak van telepátia! Anni
+               kereste. Alig lehetett a hangjára ismerni. Remegett, dadogott, csak nehezen tudta
+               megmondani, hogy mit akar.</p>
+            <p>- Gyere azonnal hozzám!</p>
+            <p>- Miért?</p>
+            <p>- Ne kérdezd! Ülj autóba és gyere azonnal!</p>
+            <p>Egy kicsit még belesírt a telefonba, azután a készülék kattogott, letették. Adrienne
+               halálsápadt volt. Mi történhetett? Egészen bizonyos, hogy a férjéről lesz szó. Andor
+               talán tolakodó módon lépett fel, szerelmet próbált zsarolni, erőszakoskodott,
+               fenyegetődzött és a barátnője az ő védelmét kéri!</p>
+            <p>Egész testében remegett. Alig tudott felöltözködni. Az ajkát sem rúzsolta ki, rosszul
+               tette fel a kalapját, rémesen nézett ki.</p>
+            <p>- Majd az autóban rendbehozom magamat! - gondolta.</p>
+            <p>A taxiban eszébe jutott, hogy Anni három napig nem is volt Pesten. Férjével együtt
+               Bécsben volt. Csak ma érkezhettek meg.</p>
+            <p>Az elegáns Stefánia-uti villa előtt már egy másik autó is állott. Az összes ablakok
+               ki voltak világítva. A szobákban fel és alá rohanó emberek. A lépcsőházban egyenruhás
+               rendőr...</p>
+            <p>- Jóságos Isten! - kiáltotta Adrienne - mi történt?</p>
+            <p>Meg sem tudott mozdulni, a lélekzete elállt. Elkészült a legrosszabbra. A férje
+               öngyilkos lett. Vagy Anni megölte...</p>
+            <p>- Kit tetszik keresni? - kérdezte a rendőr.</p>
+            <p>- Telefonáltak értem, a ház úrnője hivatott - dadogta Adrienne.</p>
+            <p>- Ah, igen, tessék csak felmenni, a felügyelő úr már várja a méltóságos asszonyt! -
+               mondotta a rendőr.</p>
+            <p>A lépcsőn Réthy orvosprofesszor jött Adriennel szemben. A tanár komornak, idegesnek
+               látszott.</p>
+            <p>- Professzor úr, mi történt?! - kiáltotta Adrienne.</p>
+            <p>- Oh, maga az méltóságos asszony? Csak nyugalom, ne veszítsék el mind a fejüket.
+               Rémes, hogyan néz ki maga is...</p>
+            <p>- Kérem... most nem azt akarom, hogy vigasztaljon, az igazat akarom tudni...</p>
+            <p>- Már mondtam, semmi különösebb baj. Egy kis idegroham... Néhány napon belül majd
+               kiheveri...</p>
+            <p>- Kicsoda? Mit?</p>
+            <p>- Anniról beszélek! Szegény asszonyt rettentően felizgatta a dolog... Talán jobb
+               volna, ha nem is menne be hozzá...</p>
+            <p>- De hiszen telefonált értem...</p>
+            <p>- Oh persze... a rendőrfelügyelő kérte, hogy hívják ide a méltóságos asszonyt...
+               Jöjjön, majd bevezetem a szobába...</p>
+            <p>Az emeleti szalón felé mentek. Valahonnan kétségbeesett zokogás hallatszott. Adrienne
+               felismerte Anni hangját. A professzor fejét csóválta.</p>
+            <p>- Újabb roham! - mormogta.</p>
+            <p>Kinyitotta az ajtót. A szobában minden lámpa égett. A csillár, a fali karosgyertyák.
+               Még a kék hatásvilágítás is be volt kapcsolva. A hatalmas goblinhátú karosszékben ült
+               Anni. A szerencsétlen nőre alig lehetett ráismerni. Homlokára hideg borogatást
+               rakott a szobalány, előtte kis asztalon orvosságos üveg állt és a levegőben átható
+               éterszag lebegett. Bizonyára a professzor dörzsölte meg vele Anni karját, mielőtt
+               beadta a csillapító injekciót. A márványlapú, aranylábú rokokó szalónasztal előtt
+               civilruhás fiatal férfi ült, a háttérben két másik férfi buzgólkodott különböző
+               tárgyak lefényképezésével.</p>
+            <p>Mikor Anni megpillantotta barátnőjét, újra felcsuklott hangos zokogással. Kitárta
+               karját és úgy kiáltotta.</p>
+            <p>- Mit szólsz drágám, micsoda szerencsétlenség?</p>
+            <p>Adrienne, noha még fogalma sem volt, hogy miről van szó, szintén sírva fakadt. Idegei
+               nem bírták a szörnyű feszültséget. A két barátnő zokogva ölelte át egymást.</p>
+            <p>A rendőrfelügyelő lépett közbe.</p>
+            <p>- Zalai méltóságos asszonyhoz van szerencsém?</p>
+            <p>- Igen... én vagyok!</p>
+            <p>- Kérem méltóságos asszonyom, már másfél órája vagyunk itt és nem tudunk előbbre
+               menni. Legalább ön ne veszítse el hidegvérét és legyen segítségünkre...</p>
+            <p>- Kérem... én még azt sem tudom, hogy miről van szó?</p>
+            <p>- Sajnos, nagyon szomorú dolog. Mialatt Lontaiék Bécsben jártak, ismeretlen tettesek
+               a lakásba hatoltak és elrabolták őnagysága ékszereit...</p>
+            <p>Anni hangosan felüvöltött. Szivettépő volt a kétségbeesése.</p>
+            <p>- A szoliter gyűrűm... a diadémom... a brilliáns brossom! - kiáltotta.</p>
+            <p>A detektívfelügyelő kissé ingerült mozdulatot tett.</p>
+            <p>- Őnagysága képtelen összefüggő válaszokat adni, nékünk pedig sietnünk kell a
+               tényállás tisztázásával, mert minden óra megnehezíti az eredményes nyomozást. Ugy
+               látszik, hogy a tettesek vagy a tettes csak az éjszaka járt itt. Sok ideje nem
+               lehetett az ékszerek értékesítésére. Körtelefont kell leadni az ékszerek pontos
+               leírásáról a zálogházaknak... A nagyságos asszony azt állítja, hogy ön minden
+               ékszerdarabját ismeri, mindenre emlékszik, mert a legrégibb barátnője és az
+               asszonyok rendszerint megjegyzik, hogy milyen ékszert visel a barátnőjük... Lontainé,
+               sajnos, képtelen leírni az eltünt ékszerdarabokat, mert minden szónál új sírógörcsök
+               fogják el...</p>
+            <p>Adriennebe lassan visszatért az élet. Hála az Égnek, mégsem a férjéről van szó!
+               Betörés. Az ilyesmit egészen könnyen el lehet viselni, ha mással történik...</p>
+            <p>- De szivecském - mondotta - miért nem a férjedet hivod segítségül?</p>
+            <p>- Lontai úr még Bécsben van! Csak két nap mulva jön - szólt közbe a rendőrfelügyelő.
+               - A betörő egyébként feltétlenül ismerős volt a helyi viszonyokkal. Minden
+               valószínűség szerint valamelyik elbocsájtott cseléd szeretője lehetett, aki a lánytól
+               tudhatta meg, hogy a nagyságos asszony hol tartja az ékszereit. Erre vall, hogy
+               habozás nélkül csakis azt a szekrényt feszítette fel, amelyben az acélkazetta
+               feküdt... Nem tudná, kérem, méltóságos asszony felsorolni a nevezetesebb
+               darabokat?</p>
+            <p>- Hogyne, kérem - válaszolta Adrienne és már egészen felélénkült. - Volt egy kétsoros
+               gyöngyfüzér brilliáns csattal. Körülbelül kétszázhúsz gyöngy volt benne, a fele
+               kissé hibás...</p>
+            <p>- Nem igaz! - kiáltotta közbe hevesen Annim akit ez a megjegyzés egyszerre
+               felpuskaporozott. - Ugy látszik, még sem egészen kifogástalanok a szemeid, édesem.
+               Mindössze tíz gyöngy volt egészen jelentéktelenül csorba. Elrabolták továbbá a
+               huszonkét brilliánsból álló diadémomat, értéke negyvenezer pengő...</p>
+            <p>És most már símán, folyékonyan diktálta a jegyzőkönyvet...</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+               III.
+            </head>
+            <p>Adrienne kilenc óra felé került ismét haza, Egész testében érezte még az átélt
+               izgalom fáradságát. Szeretett volna gyorsan megvacsorázni és lefeküdni.
+               Csodálkozott, hogy a férje még nincsen otthon. Andor pontos ember volt, ritkán
+               szokott késni.</p>
+            <p>Telefon.</p>
+            <p>Tamás jelentkezett.</p>
+            <p>- Nem tudtam holnapig várni. Mégegyszer hallani akartam a hangját. Meg akartam
+               mondani, hogy nagyon szeretem!</p>
+            <p>Ez a telefon a legrosszabbkor jött. Adrienne egyáltalában nem volt lírai érzésekre
+               hangolva. Vannak pillanatok, mikor éppen a legkedvesebb, legsimogatóbb szavak
+               bosszantják fel legjobban az embert...</p>
+            <p>- Bocsásson meg - válaszolta Adrienne ingerülten -, maga határozottan kezd ízléstelen
+               lenni kedves barátom! Ha így viselkedik, meggondolom, hogy holnap, sőt hogy
+               egyáltalában találkozunk-e még?</p>
+            <p>- Miért haragszik rám? Valaki bántotta? Rajtam torolja meg a mások bűnét? Ne ejtsen
+               kétségbe! Engedje meg, hogy vacsora után felmenjek magukhoz egy bridgepartira...
+               Muszáj még látnom...</p>
+            <p>- Nem. Ma szó sem lehet! Nagyon ideges vagyok...</p>
+            <p>- Milyen kegyetlen tud lenni! Hát jó... kénytelen vagyok belenyugodni! Jó
+               éjszakát!</p>
+            <p>Letette a kagylót. A telefon abban a pillanatban újra csengetett.</p>
+            <p>A férje jelentkezett.</p>
+            <p>- Te vagy az, szívem? Kivel beszéltél olyan sokáig? Ah, Tamással? Mit akart?</p>
+            <p>- Azt kérdezte, nem jöhetne-e fel bridgelni vacsora után?</p>
+            <p>- Sajnos, erről szó sem lehet. Nem mehetek haza. Együtt vacsorázom néhány külföldi
+               ügyfelemmel. Vacsora után valószínűleg el kell kísérnem őket valamelyik mulatóba.
+               Hiszen tudod, hogyan van ez! A fehér asztal és egy-egy kis pezsgő mellett könnyebben
+               kötjük meg az üzleteket, mint az íróasztalnál. Ugy-e, nem haragszol kis szívem, hogy
+               későn megyek haza?...</p>
+            <p>Adriennenek kissé fanyar lett a szájíze. Éppen ma sehogysem esett jól a
+               rákényszerített magány. Milyen gúnyosan mosolyogna Tamás, ha véletlenül hallotta
+               volna ezt a telefonbeszélgetést.</p>
+            <p>Adrienne nagyon szerencsétlennek és elhagyottnak érezte magát. A barátnőire gondolt,
+               hogy azok mennyire mások, mint ő. Például Lontai Anni!... Valamikor táncosnő volt.
+               Nem is regényei voltak, hanem apró megfizetett futó kalandjai. Azután
+               összetalálkozott az ötvenedik évét járó Lontaival. A naiv, de élni vágyó üzletember
+               szenvedélyesen beleszeretett a szép, vékony, pompás lábú, remekül kozmetikázott,
+               lokáleleganciával öltözködő lányba. Anninak volt néhány tapasztalt, idősebb
+               barátnője, akik kioktatták, hogy legyen óvatos és ne szalassza el a szerencséjét. És
+               Anni megfogadta a jó tanácsot. Lontaival szemben remekül megjátszotta a
+               megközelíthetetlen liliomszálat, aki pompás pajtás, minden tréfára, mulatságra
+               kapható, flörtöl, pezsgőzik, csókolódzik, de mindig egyedül megy haza. És minthogy
+               Anni igen jól tudta, hogyan kell élesztgetni a férfivágyakat, lassankint egészen
+               magába bolondította Lontait. A szerelmes, szenvedélyétől teljesen elvakult férfi
+               végül is feleségül vette Annit. És ekkor derült ki - amit a színpadon sohasem árult
+               el -, hogy Anni valóban remek színésznő. Tökéletesen alakította az előkelő
+               uriasszonyt. A társaságokban ő volt a leghalkabb, legbájosabb, sőt a legtartózkodóbb
+               is. A pletyka nem tudott hozzáférkőzni és Lontai meg volt győződve, hogy a ragyogó
+               szépségű asszony halálosan szereti őt. Adrienne sohasem lelkesedett túlságosan
+               Anniért. Irigyelte sikereiért, nem hitt az őszinteségében. De azért tartotta a
+               barátságot. Lontai és a férje szoros üzleti összeköttetésben állottak és a
+               társaságbeli feleségek többnyire férjeik üzleti érdekei szerint választják meg
+               barátnőiket.</p>
+            <p>- Biztosan megcsalja a férjét - gondolta Adrienne. - És a férje mégis mennyire
+               becézi, imádja. Engem pedig, aki hű és tisztességes vagyok, elhanyagol az uram... Meg
+               is fogom mondani neki: únom ezeket az éjszakai üzleti tárgyalásokat!...</p>
+            <p>Bosszúsan és unatkozva járt végig a szobákon, a szobalánynak azt mondta, hogy nem
+               éhes, nem vacsorázik. A szobalány erre megjegyezte, hogy: a méltóságos asszony
+               bizonyára megint fogyasztó kúrát tart!</p>
+            <p>Adriennenek nem volt kedve lefeküdni. Cseppet sem volt álmos. Elhatározta, hogy
+               olvasni fog. Ekkor jutott eszébe, hogy nincsen könyve. A napokban vett néhány német
+               és francia regényt, de azokat már kiolvasta. Nem is emlékezett, hogy mi volt bennük?
+               Azok közé tartozott, akik számára a könyv csak addig jelent izgalmat és
+               érdekességet, ameddig kezükben tartják. De azután - ha letették - abban a pillanatban
+               kihull emlékezetükből minden és egyetlen káosszá szövődik össze valamennyi könyvvel,
+               melyen végig rágták magukat De éppen az ilyen emberek olvasnak rengeteget. Úgy
+               szedik, mint a brómot, vagy a morfiumot, idegcsillapítónak. Csak a pillanatnyi
+               kábulatot keresik...</p>
+            <p>Ez a felfedezés még jobban idegesítette. Mindenáron olvasni akart. Eszébe jutott,
+               hogy a férje íróasztalán látott néhány nap előtt könyveket. Andor nem igen olvasott.
+               De előfordult, hogy ügynökök ráerőszakoltak olcsó könyveket és ezeket haza hozta, az
+               íróasztalára dobta és azok ott is hevertek felvágatlanul, míg valaki - sohasem
+               lehetett megállapítani, hogy kicsoda - el nem hordta őket.</p>
+            <p>Andor dolgozószobája sötét volt. Adrienne nem szerette ezt a szobát. Bútorai még
+               férje legénykorából származtak. Fekete faragott, súlyos tölgyfaszekrény, éppen ilyen
+               stílusban készült íróasztal, klubfotellek, egy széles kerevet perzsa-szőnyeggel
+               borítva, dohányzókészletek rézből, bronzból és üvegből, a falon néhány modern mester
+               műve, a sarokban páncélszekrény. Andor a valóságban sohasem dolgozott itt, hiszen a
+               városban külön irodát tartott...</p>
+            <p>Adrienne felgyujtotta a villanyt, a szeme végigszaladt az íróasztalon, felületesen
+               végig turkálta az asztalra szórt régi ujságokat. De könyvet nem talált. Mérges lett.
+               Ma minden ellene szövetkezett. De makacsul, csak azért is tovább szimatolt könyvek
+               után. A könyvszekrény felé fordult, melynek kötetei már régen nem érdekelték. Amire
+               kíváncsi volt, azokat még házassága első heteiben elolvasta. A különböző szakmunkák
+               pedig semmi érdekessel nem bíztattak. De hátha közéjük sodródott néhány új könyv?</p>
+            <p>A könyvszekrény zárva volt. Érthetetlen. Mindig a zárban szokott lenni a kulcsa és
+               most hiányzik! Hol lehet? Miért lett Andor egyszerre ilyen rendes? A dolog tisztára
+               úgy festett, mintha még ezzel is őt akarták volna bosszantani. Indulatosan nézett
+               szét, mintha csodát remélne, hogy valahonnan mégis csak érkezik segítség. De mert
+               semmisem történt, olyan haragosan fordult az ajtó felé, hogy fellökte az előtte álló
+               széket, melynek karfáján Andor házikabátja lógott. Valami csörrent. Adrienne
+               felemelte a kabátot és megrázta. A zsebéből kihullottak a kulcsok. Egy karikán három
+               kulcs. A könyvszekrényé, az íróasztalé és a páncélszekrényé.</p>
+            <p>Furcsa. Adriennenek még sohasem volt a kezében férje páncélszekrényének a kulcsa. Nem
+               mintha Andor megtagadta volna, de ő sohasem kérte. Adrienne a lelke mélyén irtózott
+               mindentől, aminek hivatalos színe és szaga volt. Akták, váltók, főkönyvek,
+               szerződések... brr!... Az élet örömeinek sárga és alattomos ellenségei. De most
+               egyszerre kíváncsi lett. Délután óta sok minden történt a lelkében. Valahogyan
+               másképpen kezdte látni a férjét. Titokzatosabbnak, érthetetlenebbnek. Szeretett volna
+               közelebb férkőzni hozzá. Mit őrizhet például a páncélszekrényben? Adrienne még
+               sohasem gondolkozott azon, hogy valójában mennyi pénze is lehet az urának? Beérte
+               azzal, hogy mindig, mindenre bőven telt. De gyakran hallotta, hogy más asszonyok
+               milyen pontosan tudják, hogy hány részvényük van, micsoda értékeket őriz otthon az
+               uruk és hogy halál esetére miféle végrendelkezési intézkedéseket tettek. Vajjon van-e
+               Andornak is végrendelete? Egyáltalában, micsoda titkok lehetnek a páncélszekrényben?
+               Talán szerelmes levelek? Bankjegykötegek?...</p>
+            <p>Adrienne maga is csodálkozott, hogy milyen heves kíváncsiság fogta el. Bezárta a
+               szobaajtót és a kulcsot megfordította a zárban. A szíve vadul dobogott. Tisztára az
+               az érzése volt, hogy most betör, tilos dolgot cselekszik. De hiszen a felesége vagyok
+               - bíztatta magát - jogom van mindenről tudni, ami a férjemre vonatkozik!</p>
+            <p>A keze remegett, amikor a kulcsot a zárba próbálta illeszteni. Nem is ment mindjárt.
+               Nem tudta, hogyan kell bánni a furcsa, fogazott szerszámmal. De végre mégis csak
+               kifordult a vastag acélajtó.</p>
+            <p>Iratok, skatulyák, apró csomagok hevertek egymásra szórt rendetlenségben. Adrienne
+               kinyitott egy vörös, bőrutánzatú dobozt. Apró arany- és ezüsttárgyak zsúfolódtak
+               benne. Amulettek, gombok, érmek, talizmánok, amilyeneket az évek során születésnapi
+               ajándékul és kalandok, szerelmek emlékéül szokott kapni az ember. Aranypókok,
+               korálból faragott apró malacok, zománcolt manzsettagombok, szívek, melyekbe dátum van
+               vésve, négylevelű lóherék...</p>
+            <p>Adrienne kissé gúnyos mosollyal tolta el a dobozt. Nem szerette az ilyen nyárspolgári
+               érzelmeskedést. Egy másik után nyult, amely spárgával volt gondosan átkötve.
+               Kíváncsian bogozta ki és felpattantotta a fedelét.</p>
+            <p>Elképedve és szédülő aggyal bámult a fekete bársonypárnára, melynek árkában egy
+               gyöngynyakék feküdt. Nagyon szép, kétsoros gyöngygyémántcsattal... Adrienne nem
+               értette a dolgot. Néki sohasem szólt Andor a gyöngyökről. Vagy csak most vette?
+               Meglepetésnek szánta? De hiszen nem régen volt a születésnapja és a házassági
+               évfordulójuk csak ősszel lesz. Ilyen nagyértékű ajándékot nem igen szoktak titokban
+               tartani a férjek...</p>
+            <p>Most már lázas izgalommal kutatott tovább. Újabb ékszeres doboz akadt a kezébe. Ezt
+               is felnyitotta. Remekbe készült, brilliánsokkal kirakott diadém...</p>
+            <p>Adrienne hátán a hideg futott végig. Nem, ez nem lehet tévedés. Már az előbb, amikor
+               a gyöngyfüzért nézte, átsuhant rajta valami homályos gyanú, amelynek nem mert nevet
+               adni. De most már nem áltathatta magát tovább. Anni ékszerei feküdtek előtte. Az
+               elrabolt gyöngyök, brilliánsok... Évek óta ismerte őket. És ha még kétségei maradtak
+               volna, azokat is megsemmisítették a gyűrűk, brossok, melyek szép sorjában ott
+               feküdtek a különböző csomagokban. Adrienne mindegyikre emlékezett.</p>
+            <p>Percekig attól félt, hogy megőrül. Volt pillanat, mikor az ablakhoz lépett és a
+               mélységbe akarta vetni magát. A borzalmas felfedezés valósággal az eszét vette.
+               Hihetetlen, minden képzeletet felülmuló irtózat! A férje betörő! A becsületes,
+               szorgalmas kereskedő, a mintaférj, a megbízhatóság mintaképe kettős életet él.
+               Éjszaka betörő társaság tagja. Tehát ezért érdeklődött olyan behatóan Lontaiék
+               lakása iránt? És ezért nem jön haza ma éjszaka sem. Új kalandra indul.</p>
+            <p>Adrienne legjobban szeretett volna meghalni, megsemmisülni, nem gondolkozni. A fogai
+               összekoccantak, a hideg rázta. Nem tudta, hogy mit tegyen?</p>
+            <p>Hirtelen felugrott. Verejték verte ki a homlokát. Szent Isten, ha valaki bekopog és
+               nem nyithat ajtót...? Még azt hiszik, hogy ő is bűntársa volt a férjének!</p>
+            <p>Iszonyodva dobálta vissza az átkozott kincseket a szekrénybe. Azután becsukta a
+               páncélszekrényt és a kulcsokat visszatette a kabát zsebébe...</p>
+            <p>Kitámolygott a szobából. A hálószobájába menekült. De már késő volt! Amit látott, azt
+               nem lehetett meg nem történtté varázsolni. És e pillanatban néma bűntársa lett
+               férjének. Hiszen az lenne a kötelessége, hogy azonnal fogja az ékszereket és
+               visszavigye Anninak. De mit mondjon neki? Hogyan jutott hozzá? Nem, ez képtelenség!
+               Bármennyire szörnyű a kiábrándulás, amely érte, ezt nem teheti. Nem jelentheti fel a
+               férjét. Nem kiálthatja a világba, hogy tolvaj, betörő!</p>
+            <p>De az is bizonyos, hogy nem élhet vele tovább. Hiszen irtózattal kell rá néznie.
+               Struccpolitikát sem folytathat, nem komédiázhatja, hogy semmiről nem tud. Minden
+               szava, mozdulata elárulná az utálatot és a borzalmat. És ha tudná is... őrület lenne
+               tovább együtt élni Andorral. Ki tudja, melyik pillanatban leplezik le? És akkor az ő
+               neve is belekerül egy társadalmi botrány középpontjába, A rendőrségen faggatni
+               fogják. Jobb idejekorán menekülni tőle... Egy percig sem marad. Még ma éjszaka
+               visszaköltözik a szüleihez. Majd kitalál valami mesét. Hogy összevesztek... másba
+               szerelmes... Andornak nem szól arról, hogy mindent tud... Oh, ez a förtelem nem lehet
+               közöttük beszéd tárgya. De majd megérteti vele, hogy nem lehet, nem szabad többé
+               közelednie... Közöttük mindennek és örökre vége!</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+            IV.
+            </head>
+            <p>Senkisem tudta megértem, hogy mi történt Zalainéval? A halálra rémült szülők
+               konziliumra hívták a legkiválóbb idegorvosokat, akik azonban csak annyit tudtak
+               megállapítani, hogy a méltóságos asszonyt valami súlyos idegrázkódás érte, amelyet
+               azonban egyelőre a beteg makacssága miatt nem lehet gyógyítani. Nem hajlandó az
+               orvosok egyetlen kérdésére sem válaszolni, már pedig az ilyen lelki bajok egyetlen
+               gyógyítása abban áll, hogy orvos és beteg őszintén és bizalmasan beszélget a „kényes”
+               ügyről, amely a nagy idegösszeomlást okozta. Legfeljebb annyi állapítható meg, hogy a
+               kulissza mögött lejátszódott események szoros összefüggésben állhatnak a férjjel.
+               Erre vall, hogy a beteg a legenergikusabban tiltakozik a férjével való találkozás
+               ellen, idegrohamokat kap, ha csak a nevét is említik...</p>
+            <p>Rácz László báró, Adrienne édesatyja természetesen négyszem között felelősségre vonta
+               vejét, de legnagyobb elképedésére Zalai kétségbeesetten esküdözött, hogy fogalma
+               sincsen, mi történt feleségével? A cselédségre hivatkozott, hogy még csak hangos
+               szóváltás sem esett közöttük, el sem tudja képzelni, mi borította fel az asszony
+               lelki egyensúlyát? Délben a legjobb barátságban, csókkal búcsúztak el, este, mikor
+               telefonon beszélt Adriennel, semmi különöset nem vett észre és mikor éjféltájban
+               hazajött, már nem találta otthon feleségét. Egy szó magyarázat nélkül hagyta el, még
+               csak védekezni sem tud, hiszen nem is sejti, hogy mivel vádolják?</p>
+            <p>Néhány nappal utóbb Zárai levelet kapott feleségétől:</p>
+            <p>Ha a becsületérzésnek még egy szikrája él magában, úgy arra kérem, hogy szüntessen be
+               minden közeledési kísérletet. Irtózom magától. Kíméljen meg minden bővebb
+               magyarázattól. Vannak dolgok, melyekről a hozzám hasonló emberek még csak nem is
+               beszélhetnek. A mai napon megbíztam ügyvédemet, hogy indítsa meg Ön ellen a
+               válópert. Valami közömbös, érdektelen okot említettünk a keresetben. Remélem és
+               elvárom, hogy nem fog védekezni. Ennyit mindenesetre megérdemlek mindazért a jóért,
+               mellyel a multban érdemetlenül elhalmoztam.</p>
+            <p>báró Rácz Adrienne.</p>
+            <p>A leánynevét írta alá, hogy ezzel is kifejezze megvetését és azt, hogy mennyire nem
+               tart Záraival semmiféle közösséget.</p>
+            <p>Zárai rettentő dühbe gurult. Tombolt. A földhöz vagdosta a keze ügyébe kerülő
+               vázákat, felrugta a székeket. Lényének minden brutalitása felviharzott. Felkapta a
+               telefonkagylót és letárcsázta Rácz báróék számát. A báró jelentkezett.</p>
+            <p>- Mondja meg a lányának - üvöltötte Zárai -, hogy most már torkig vagyok ezzel a
+               farsangi mókával. Hát mi vagyok én? Hülye? Báb? Fajankó? Majd megmutatom, hogy vélem
+               nem lehet így bánni...</p>
+            <p>E pillanatban azonban új meglepetés robbant rá. Nem a báró válaszolt, hanem Adrienne.
+               Nyilván az atyja mellett állt és a másik kagylón hallgatta a beszélgetést.</p>
+            <p>- Elég volt ebből a hangból! Eddig meg akartam kímélni, de ha kell, tudok én
+               másképpen is beszélni magával. Holnap elutazom. Lesz néhány hete gondolkozni az
+               eseményeken. Remélem, mire hazajövök, már belátja, hogy semmire sem mehet üres
+               komédiával. Nagyon sajnálnám, ha ellenkező esetben oda kellene önt juttatnom, ahová
+               már régen való... a börtönbe!</p>
+            <p>A telefon kattogott. A hallgatót letették. Zárai sápadtan roskadt egy karosszékbe. Ez
+               valóban borzalmas meglepetés volt. Erre nem számított.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+           V.
+            </head>
+            <p>Egyetlen ember volt, aki abban a hitben élt, hogy tudja Adrienne családi
+               tragédiájának titkát és ez Tordai Tamás volt. Tamás értett a nőkhöz és okoskodása
+               nagyon egyszerű volt: Adrienne szereti őt, de tisztességes asszony, aki nem csalja
+               meg az urát. Viszont elérkezett ama kritikus lelki válsághoz, amikor nem tartható
+               fenn a hazugságra épült házasság. Az Adriennehez hasonló nők nem tudnak színlelni,
+               megalkudni. Adrienne őt szereti, a csók, amellyel néhány nap előtt megrohamozta,
+               felszabadította elfojtott érzéseit és még aznap este elhagyta az urát. Mindegy, hogy
+               ezt mivel indokolta meg. Elég, ha ő tudja az igazságot...</p>
+            <p>Most csak az volt a fontos, hogy óvatosan és tapintatosan törjön célja felé. Nem
+               szabad mohónak látszania. Ezt az aranyhalacskát kár lenne elszalasztani. Adrienne a
+               város leggazdagabb partijának számít. Készpénzvagyona legalább félmillió pengő és két
+               palota a város szívében...</p>
+            <p>Nem is tett kísérletet arra, hogy Adriennel meglátogassa. De mindennap felküldött
+               néhány válogatottan szép virágot. Orchideát, krizantémot és rózsát. Két hét mulva
+               megtudta, hogy Adrienne elutazott. A család titkolta, hogy hová ment? Tordai
+               megvesztegette Rácz báróék soffőrjét, aki a szobalánytól megtudta, hogy a fiatal
+               méltóságos asszony Nizzába utazott. Hallotta, mikor erről beszéltek. És Nizzából is
+               jött a szerencsés megérkezést jelentő sürgöny... </p>
+            <p>Tordai még aznap autójára szállt és százkilóméteres sebességgel robogott Nizza felé.
+               Inasának csak annyit mondott, hogy néhányhetes kirándulásra indul és majd kellő
+               időben értesíti, hogy mikor jön haza.</p>
+            <p>Egy órával Tordai elutazása után fiatal, feltűnően elegáns asszony csengetett be a
+               legénylakásba. Az inas ismerősként üdvözölte a hölgyet és közölte vele, hogy Tordai
+               elutazott. A nő elsápadt és sírni kezdett. Az inas, aki már sok előkelő garszon úrnál
+               szolgált, megszokta az ilyen jeleneteket. Szakítás! Istenem! A legényember élete
+               ezzel van kikövezve. Diszkréten állt a háttérben, várta, hogy majd csak vége szakad
+               az oktalan sírásnak. De nem egészen így történt. A csendes sírás lassankint féktelen
+               dühkitörésbe robbant. A fiatal hölgy valósággal őrjöngött.</p>
+            <p>- Gazember! Nyomorult csábító! - sikoltozta magánkívül. - Beszéljen, mindent tudni
+               akarok, kivel szökött meg?</p>
+            <p>Az inas zavartan hebegett. Erre a nagy dühkitörésre nem volt elkészülve. A hölgyek
+               általában diszkrétebben szokták tudomásul venni, hogy faképnél hagyták őket. Ez a nő
+               azonban, úgy látszik, nem volt túlságosan érzékeny és szemérmes.</p>
+            <p>- Bocsánat asszonyom... fogalmam sincsen semmiről. A nagyságos úr egyedül utazott és
+               nem mondta meg azt sem, hogy hová?</p>
+            <p>- Hazudsz! - kiáltotta hisztérikusan a nő - ide hallgass gazember! Száz pengőt adok,
+               ha megmondod hová ment...</p>
+            <p>- Nem tudom!...</p>
+            <p>- Kétszázat kapsz!</p>
+            <p>- Esküszöm asszonyom, nem tudom!</p>
+            <p>- Te, én kikaparom a szemed, ha nem beszélsz! Mit komédiázol? Tudod jól, hogy miről
+               van szó. Kivel csalt meg a gazdád? Ki járt ide?</p>
+            <p>- Senki...</p>
+            <p>- Aljas csirkefogó! Azt akarod elhitetni, hogy csak úgy kedvtelésből szökött meg
+               búcsú nélkül? Rendben van... hát ne beszélj, fulladj meg... de majd megtudom én azt
+               nélküled is! Pfuj!</p>
+            <p>És széles mozdulattal lesodort a földre egy drága japán vázát, azután az öklével úgy
+               belevágott egy olajfestménybe, hogy a vászon kiszakadt...</p>
+            <p>Az inas ijedten kapott az őrjöngő keze után.</p>
+            <p>- De asszonyom! - dadogta elképedve.</p>
+            <p>- Mi közöd hozzá? - rikácsolta a felbőszült asszony, - hiszen tőlem kapta, az én
+               ajándékaim!</p>
+            <p>És szinte kéjes gyönyörűséggel zúzta, vagdosta a kristálypoharakat, vázákat,
+               selyempárnákat.</p>
+            <p>Amikor végre kivonult, a szoba bombázott csatatérhez hasonlított.</p>
+            <p>Őnagysága pedig egyenesen egy magánnyomozó irodába hajtatott.</p>
+            <p>- Ma elutazott a Bp. 123456. számu Minerva autón Tordai Tamás földbirtokos. Nyomozzák
+               ki a legsürgősebben, hogy milyen határokat lépett át és merre ment az autó? Két napon
+               belül választ kérek. A nyomozás nem lehet nehéz, hiszen a határokon átmenő autókat
+               lajstromozzák!</p>
+            <p>A detektív meghajolt:</p>
+            <p>- Meglesz asszonyom!</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+             VI.
+            </head>
+            <p>Mit csinál az asszony, akinek lelkében egy világ dőlt össze, Nizzában, a világ nagy
+               mulatóhelyén? Nem annak való hely ez, aki gyászt, csalódást hord a szívében!</p>
+            <p>De hát Adrienne éppen azért jött ide, mert dacos lázadással csak azért is mulatni
+               akart. Belátta, hogy a legnagyobb ostobaság lenne átengedni magát a fájdalomnak.
+               Kiért szomorkodjon? Andorért? Egy hitvány, kétszínű gonosz ember miatt? Ezért tegye
+               tönkre az életét? Nem, mindazt, ami történt, el kell felejtenie. Letörli, mint
+               spongyával a teleírt táblát. Védtelen és gyanútlan áldozata volt egy méltatlan
+               embernek. De azért csak nem fog örökös gyászt hordani? Joga van az élethez. Szép,
+               gazdag, fiatal. Majd itt a tengerparton, az örökös napsütésben, vidám emberek között
+               megtanul újra mosolyogni. Kiheveri a nagy rázkódtatást és előlről kezdi az életet. A
+               szerelmet is. Meg fogja találni a különb, hozzá méltó férfit, aki elfeledteti véle
+               első házasságának rémregényét.</p>
+            <p>Elegánsabban öltözködött, mint valaha. A legmondénebb helyekre járt vacsorázni és
+               csakhamar felfigyelt rá Nizza előkelő társasága. Egyre többeket izgatott a kérdés,
+               hogy ki az a feltünően szép hölgy, aki mindenütt látható, de mindig csak egyedül jár
+               és olyan tartózkodó, diszkrét modora van, hogy minden ismerkedési kísérlet már előre
+               reménytelennek látszott.</p>
+            <p>Adrienne érezte, hogy az általános érdeklődés homlokterébe került, élvezte a kíváncsi
+               és tolakodó pillantásokat, melyek új életkedvet delejeztek feléje. De még túlságosan
+               friss volt a seb, még nem tudta rászánni magát, hogy belekapcsolódjon a zajos, léha
+               mulatozásokba. Egy kicsit még halogatta az ismerkedéseket, új ürügyeket keresett
+               önmaga előtt, hogy majd akadnak még érdekesebb emberek, akikhez érdemes lesz
+               csatlakozni, valójában azonban, a lelke legtitkosabb mélyén, még nem tudott
+               leszámolni a multtal, valami még mindig odakötötte Pesthez, az emlékeihez, az első
+               illúzióhoz...</p>
+            <p>Egy napon a tengerparton sétált és a naptól bágyadtan leült egy padra. Nézte a szinte
+               valószínűtlenül kék tengert és a fehér vitorlákat, melyek mint a boldogság apró
+               pillangói, keringtek, szökdécseltek a hullámok felett. Zengett, égett, ragyogott
+               minden, fehér porcellánnadrágokban, ingujjban álltak a vitorlások árbocrudjai
+               mellett a napbarnított férfiak, a nők pizsamanadrágokban, lobogó hajjal, kitárt
+               karral szívták a friss levegőt és élvezték a rohanás gyönyörűségét. Mindenki fiatal
+               volt és egészséges, a szerelemnek friss rózsaillata volt, a parton óriási autók
+               várták a boldog naplopókat. És egyszerre az egyik pálmafa mögül fent a parton is
+               kilebbent két fehér porcellánnadrágszár, fölötte a sötétkék tenniszkabát és kerek
+               kéksapka...</p>
+            <p>Adrienne fel sem pillantott, tekintete szórakozottan siklott el a strandcipők elegáns
+               fehérségén... itt minden férfi egyforma, fehér cipő és nadrág, sötétkék kabát,
+               jólborotvált barna arc és mindehhez kiegészítőül az autó, amely ott áll valahol a
+               közelben. A fehér nadrág most cserkészni jár, kalandot keres... Adrienne ideges lett,
+               az az érzése volt, hogy az ismeretlen vele akar megismerkedni. Önkéntelenül
+               felpillantott és meglepetten kiáltott fel:</p>
+            <p>- Tamás!</p>
+            <p>A férfi mosolyogva hajolt meg:</p>
+            <p>Adrienne még nem tért magához meglepetéséből.</p>
+            <p>- De hát hogyan került ide?</p>
+            <p>- Nem véletlenül. Maga után lopóztam. Napok óta figyelem már titokban...</p>
+            <p>- Kémkedett?</p>
+            <p>- Szenvedtem. Ezerszer akartam már megszólítani és nem mertem. Tudtam, hogy mindent
+               kockára tehetek. És ezt nem volt szabad. Túlságosan szeretem és azt akartam, hogy ez
+               a találkozásunk ne hozzon fájdalmat... Milyen boldog vagyok Adrienne, hogy újra
+               láthatom.. Mennyire hiányzott nekem! Sohasem hittem, hogy nő ilyen sokat jelenthet
+               életemben!</p>
+            <p>Az asszony dermedt lelkére úgy hullottak a forró szavak, mint a tavaszi zápor,
+               melynek nyomán új élet zsendül.</p>
+            <p>Igen, most jókor jött, ez volt a pillanat, mikor lelke megérett az új szerelemre,
+               mikor minden idegszálával kereste az új férfit, akihez életét csatolhatja.</p>
+            <p>Meghatottan nyujtotta kezét:</p>
+            <p>- Köszönöm Tamás, hogy ilyen jó hozzám!</p>
+            <p>A férfi megcsókolta a felényujtott kezet és az asszony mellé ült.</p>
+            <p>- Én nem kérdezem, hogy mi történt - mondotta halkan -, nem kutatom, hogy miért
+               utazott el olyan hirtelen és búcsú nélkül Pestről...</p>
+            <p>- Ezt nem is szabad sohasem kérdeznie, Tamás. Erre én már magamnak sem akarok
+               válaszolni....</p>
+            <p>- Engem csak az érdekel: elfogadja-e a barátságomat? Maga mellett akarok maradni. Azt
+               akarom, hogy egészen meggyógyuljon. Jól ismerem a Rivierát. Autón jöttem. Majd együtt
+               járjuk be a legszebb helyeket. Nem leszek a terhére. Amikor a magányt kívánja, el
+               fogok tűnni. A szeszélyeihez, hangulataihoz alkalmazkodom. Nékem csak az a fontos,
+               hogy a maga közelében lehessek. Rettenetes volt ez a két hét maga nélkül... De egyet
+               tudnia kell... Hogy én állandóan, a nappal és éjszaka minden órájában várom a választ
+               arra a kérdésre: akar-e a feleségem lenni?</p>
+            <p>- Majd eljön ennek az ideje is Tamás, amikor válaszolni fogok. Ma még nem vagyok
+               szabad. Hiszen tudja, a válóperemet csak most fogom megindítani... És éppen ezért
+               bizonyos óvatosságra kell kérnem Tamás. Nem szabad, hogy gyakran lássanak együtt
+               bennünket. Még azt pletykálnák, hogy együtt szöktünk meg, a szeretője vagyok és ezért
+               hagytam el a férjemet. Szeretném, ha nem is lakna itt, hanem átköltözne Monte
+               Carlóba. Hiszen a kocsiján percek alatt idejöhet. Majd közösen kirándulunk, ez nem
+               feltünő...</p>
+            <p>- Minden úgy lesz, ahogy maga akarja. Még ma átmegyek Monte Carlóba. Az Esplanadeban
+               fogok lakni. Ott várom a telefonját.</p>
+            <p>- Nagyon helyes! Lehet, hogy nem is hívom ide, hanem én is átmegyek Monte Carlóba és
+               majd onnan indulunk. Tudja, itt már túlsokan figyelnek!</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+            VII.
+            </head>
+            <p>Úgylátszik, hogy ez a nap a meglepetések sorozatát tartogatta Adrienne számára.</p>
+            <p>Kellemes és egészen felfrissült hangulatban tért vissza a szállodába. Hetek óta
+               először érzett egy kis örömet és egy névtelen remény bontogatta lelkében óvatosan a
+               bimbóit, törékeny, mint egy tavaszi virágszál. Meghatotta Tamás kitartó ragaszkodása.
+               Adrienne jól ismerte a társaságbeli férfiakat, jól tudta, hogy a romantikának divatja
+               múlt, legtöbbje cinikus, fölényes és nem szerelmet, hanem csak kalandot keres. Szinte
+               valószínűtlennek látszott, hogy még akadt olyan kivétel, mint Tamás, aki még ennyire
+               tudott rajongani. Pedig Tamás tipusa volt az elkényeztetett férfiaknak, a szép hím
+               volt, akire önkéntelenül felfigyeltek a nők és aki bizonyára rengeteg szerelmi
+               sikert könyvelhetett már el. Adrienne önérzete megduzzadt, ha arra gondolt, hogy ez a
+               nagyszerű férfipéldány éppen benne találja meg a nő ideálját.</p>
+            <p>E pillanatban szinte hálát érzett Tamással szemben és már nem lehetett kétsége a
+               jövőt illetőleg: ez a férfi a végzete! Hozzá fogja csatolni életét!</p>
+            <p>Nincsen kellemesebb érzés, mint mikor a bizonytalanság gyötrelmeit egyszerre
+               felváltja a megoldás és révbe érkezés. Most már volt célja, tudta, hogy milyen
+               irányba ível az élete és megtelt boldog várakozással.</p>
+            <p>A luxus szálloda halljában, mint a nappal s éjszaka minden órájában, most is
+               százhangú hangszereléssel zsibongott a nemzetközi élet. Túlfűtött emberek élénk
+               mozgása, taglejtése, kacagása, morajlása, egyre változó színek, programmok
+               megbeszélése, találkozások, érkezések, utazások, autóköpenyek, rohanó boyok és
+               pincérek... kábító egyveleg, amely lehet operett, francia vígjáték, vagy hiúság
+               vásárának tragikomédiája, aszerint, hogy milyen szemszögből figyeljük a dolgokat.
+               Mennyi dráma, bűnös szenvedély, csalás és aljasság húzódik meg a látszólagos
+               gondatlanság mögött és milyen gyakran csattan el a revolver hajnal felé, a józanodás
+               keserves perceiben a lebocsájtott függönyök mögött.</p>
+            <p>És ebben a szinte afrikai színességben és barbárul bizarr forgatagban egyszerre két
+               kar fonódott Adrienne nyaka köré és szenvedélyes csókok cuppantak orcájára.</p>
+            <p>- Drágám... nohát ez a meglepetés!... Hát ez felér egy kis főnyereménnyel! </p>
+            <p>Lontai Anni volt. A fiatal asszony, úgylátszik, már kiheverte az ékszerei
+               elrablásával kapcsolatban szenvedett idegrázkódtatást. Friss volt, csupa élénkség és
+               hála tökéletes kozmetikai művészetének, arca üde, piros.</p>
+            <p>Adrienne nem örült túlságosan. Ellenkezőleg, éppen most volt legkevésbé szüksége egy
+               harmadikra, még hozzá olyan valakire, aki pesti társaságából csöppent ide. Ismerte
+               Annit, tudta, hogy hozzá fog tapadni, nem lehet lerázni, minden lépését figyelni
+               fogja. Ez a gondolat valósággal szerencsétlenné tette Adriennet. De hát úrinő volt,
+               dáma, akinek első kötelessége, hogy minden helyzetben tudjon mosolyogni és kedves
+               szavakat mondani.</p>
+            <p>- Annikám! - kiáltotta színlelt örömmel - mikor érkeztél? Hogy vagy?</p>
+            <p>- Ah, tudod az a dolog nagyon az idegeimre ment! A férjem azt mondta, utazzam
+               valahová szórakozni. Hát ide jöttem. Az este érkeztem. Mondd, mi ujság van itt?
+               Találtál már valamirevaló fiúkat? Te mióta lógsz itt? Miért nem írtál? Tudod, hogy
+               komisz vagy?... Na, de nem bántalak! A fő, hogy megtaláltalak. Kivel vagy itt?!</p>
+            <p>- Megőrültél? Senkivel!</p>
+            <p>- Akkor nem én őrültem meg, hanem te. Hogyan lehet egyedül mászkálni Nizzában? No,
+               majd kezelés alá veszlek. Biztosítlak két napon belül lesz megfelelő
+               társaságunk...</p>
+            <p>- Ne haragudj, de egyáltalában nem vágyom emberek után.</p>
+            <p>Anni összecsapta kezét.</p>
+            <p>- Embergyülölő lettél? Mert valami bajod van a férjeddel? Hallom, hogy váltok. Nem
+               akarok indiszkrét lenni, szívem, de végre egész Pest erről beszél. Nézd, én nem
+               vagyok tapintatlan, nem kérdezem, hogy mi történt köztetek, csak egyet mondok:
+               egyetlen férfi sem érdemli meg, hogy az ember hű legyen hozzá. A legnagyobb őrült,
+               aki komolyan szerelmes egy férfiba. Mind csirkefogók. Egyiket sem szabad komolyan
+               venni...</p>
+            <p>Adrienne legyintett:</p>
+            <p>- Szavak!... Nem lehet ezt ilyen hidegen fölényesen elintézni.</p>
+            <p>Anni szeme megvillant, az arca mintha hirtelen megváltozott volna.</p>
+            <p>- Igazad van. Te vagy a legokosabb valamennyiünk között. Mi csak beszélünk, a szánk
+               jár, adjuk a blazirtat, a valóságban pedig, ha megtaláljuk azt a férfit, aki a
+               zsánerünk, szerelmesebbek és butábbak leszünk, mint egy kis varrólány. Mondd, de
+               egészen őszintén, nem voltál még szerelmes? Nem a férjedbe, az nem számít... valaki
+               másba! Nem volt regényed?</p>
+            <p>- Nem!</p>
+            <p>- Látod, most hazudsz. Én ezt nem hiszem! Mert nem vagy őszinte hozzám? Nézd, mi most
+               így egymásba akadtunk, két fiatal, elegáns, nagyvilági nő a világ közepén,
+               Nizzában... Mért hazudjunk egymásnak? Ide csak akkor jön a nő, ha megszöktetik,
+               szerelemre, kalandra vágyik.</p>
+            <p>- Egyik sem illik rám!...</p>
+            <p>- Nem bízol bennem Adrienne. Léhának tartasz. Mert nem ismersz igazán. Nem tudod,
+               hogy én egészen más vagyok, mint akinek látszom... Akarod, hogy én kezdjem a gyónást?
+               Hát én sem jöttem ide véletlenül... Lehet, hogy néhány napon belül egészen furcsa
+               dolgok fognak történni velem, amelyek hallatára tágra fog nyílni a szemed. Akkor majd
+               megváltozik a véleményed.</p>
+            <p>Adrienne megdöbbent. Mintha egy egészen más nő beszélt volna hozzá, mint az imént.
+               Meghökkenve nézett Annira, akinek hangjából fojtott szenvedély és fenyegetés
+               parázslott.</p>
+            <p>- Nem értlek Anni! Mit jelent ez?</p>
+            <p>- Nem is érthetsz... Azt mondtad, sohasem volt regényed, nem voltál szerelmes. Akkori
+               hiába magyaráznék neked... Mit tudod te, hogy abban a világban, ahonnan én jöttem,
+               micsoda pokoli lángok lobognak. És hogy micsoda szenvedésekkel kell megfizetnünk ezt
+               a lobogást! De hagyjuk ezt... ez az én magánügyem és majd el is intézem valahogyan.
+               Csak éppen meg akartam neked egy kicsit mutatkozni. Nem is tudom, hogy miért tettem?
+               Talán bosszantott, hogy bizonyos lenézést éreztem ki a hangodból. Most talán már más
+               szemmel nézel rám és elhiszed, hogy meg tudom érteni komoly problémáidat is. Majd
+               lassankint megismersz. Van időnk. Remélem, itt maradsz még néhány hétig? Beszéljünk
+               másról. Láttál már ismerősöket?</p>
+            <p>- Nem... senkit!</p>
+            <p>Adrienne megint hazudott. De ez a hazugság, hogy Tamást letagadta, valami kellemes
+               melegséggel töltötte el. Érezte, hogy szorosabbra fűzte közte és a férfi közötti
+               kapcsolatot. A titok a szerelem egyik legizgalmasabb fűtőszere.</p>
+            <p>- Furcsa! - válaszolta Adrienne és a hangja kissé kiábrándultan hangzott. - Hiszen a
+               pesti társaság fele állandóan a Rivierán tartózkodik!</p>
+            <p>- Kerültem az embereket. Többnyire egyedül sétáltam a tengerparton és este nem jártam
+               a kaszinóba.</p>
+            <p>- Hja úgy? Az persze más! No majd ezentúl másképpen lesz! Már ma este benézünk a
+               játékterembe. Ha igaz a boldogtalan szerelemről szóló babona, akkor nekünk
+               rengeteget kell nyernünk a kártyán. Mindenesetre megpróbáljuk.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+             VIII.
+            </head>
+            <p>- Menjünk Grasseba! - indítványozta Tamás, mikor másnap délelőtt Adrienne pontosan
+               megjelent a montecarlói kaszinó parkjában.</p>
+            <p>Adriennek nem volt kifogása. Neki igazán mindegy volt, hogy hol fogja eltölteni a
+               napot. Egy kicsit gonoszul mosolygott befelé, hogy mekkorát fog nézni Anni, ha
+               délelőtt keresni fogja a szállodában és a portás átadja a levelét, amelyben
+               mentegetődzik, hogy váratlanul ismerősöket talált, akik szinte erőszakkal rávették,
+               hogy tartson velük... egy napos kirándulásról van szó, estére feltétlenül visszatér,
+               a viszontlátásra!</p>
+            <p>Anni meglepetésszerű megjelenése Nizzában megzavarta Adrienne programját. Semmiesetre
+               sem akarta Tamásnak bemutatni. Az ilyen barátnői bekapcsolások sohasem vezethetnek
+               jóra, Adriennek nem volt érdeke, hogy Tamással való beszélgetése más vágányokra
+               lendüljön, ami pedig elkerülhetetlenné vált volna, ha Anni is jelen van. A szerelem
+               két ember legszemélyesebb ügye. Sok baj származott már abból, ha idő előtt pattant
+               ki, hogy ki milyen érzésekkel viselkedik valaki iránt!</p>
+            <p>De ez a mai szökése csak ideiglenes megoldást jelentett, melyet nem lehetett naponta
+               megismételni. Adrienne komolyan foglalkozott azzal a gondolattal, hogy titokban
+               elköltözik Nizzából s a Riviera egyik másik pontján száll meg. Mindenképpen le kell
+               ráznia Annit, aki a lehető legrosszabb időben bukkant fel.</p>
+            <p>Tamás elragadó volt. Gyengéd tapintattal egy szóval sem érintette szerelmüket.</p>
+            <p>Már tisztában volt Adriennel. Tudta, hogy ama nők közé tartozik, akik általában
+               irtóznak a bókokat mondó, ostromló szándékkal fellépő férfiaktól. Ebből a fajtából
+               ugyanis éppen eléghez van szerencséjük. Hiszen minden férfi, akivel a társaságban
+               összeakadnak, az első kedvező pillanatban udvarolni kezd. Olyan ez, mintha valakit
+               arra kényszerítenének, hogy mindig csak édességeket egyen. Halálos csömört kapna. Az
+               ilyen nők lelkük mélyén arról a másfajta férfiről álmodoznak, aki többet hozna
+               nékik, mint az érzékiséget. Megbecsülést, önzetlen barátságot, aki foglalkozik
+               velük, a lelki problémájukkal, szóval, akiről azt érzik, hogy számára nem csak a nemi
+               lényt, hanem az embert is jelentik. De ilyen férfi nagyon kevés van és a legtöbb nő
+               azért únja az egész férfinemet, ezért mondja kínzottan és unottan a meglepett
+               gavallérnak éppen akkor, mikor az illető a legellenállhatatlanabbnak véli magát:
+               maga is csak olyan, mint a többi!</p>
+            <p>Adrienne hálás volt, amiért Tamás ennyire megkönnyítette a helyzetét. Ez a barátság
+               komoly értéket jelentett mostani helyzetében.</p>
+            <p>Olyan jó volt gondtalanul elnyújtódzni az autó párnázott, széles karosszékében. A
+               rivierai autóút a világ legtündéribb helyei közé tartozik. Napsugárban fehérlő
+               sziklába vágott széles úton siklik az autó az azurkék tenger felett, a mélyből
+               pálmaerdők mosolyognak fel, a vizen yachtok siklanak és szüntelenül kacag, zeng a
+               szerenád a bárkák felől, melyek lomha kényelemmel horgonyoznak a villák kertjei
+               alatt. Valahonnan virágillat jön, szinte tűrhetetlenül erős, ájult illat, amelytől az
+               ember szíve fájdul meg. Narancserdők ringatják nedvdús, mézédes gyümölcsüket, széles
+               pálmalevelek felett óriási lepkék röpködnek...</p>
+            <p>És Grasse! Mint egy fantasztikus keleti szőnyeg a Riviera legszebb pontján. A virágok
+               városa. A francia parfőm boszorkányüstje. Vérvörös, kék, fehér, sárga virágok orgiázó
+               végtelensége, örök virágzás az egész esztendőben, mint egy tropikus csoda.</p>
+            <p>És ahogy megállt az autó egy kanyarulatnál, Adrienne szinte felsikoltott a
+               gyönyörűségtől. A misztikus illatok amint megrohanták, ahogyan megtelt velük a
+               levegő, mintha millió asszony szerelme muzsikált volna.</p>
+            <p>Tamás azt indítványozta, hogy nézzék meg a híresebb illatszergyárakat.</p>
+            <p>- Látja - mondotta mosolyogva - ezek az igazi költők, ezek az illatgyárosok. Ők
+               tudják legfinomabban és leglégiesebben kifejezni a szerelem sokféle hangulatát.
+               Ahány illat, annyi dala a szerelemnek és annyi árulója az emberi vágynak. Semmisem
+               jellemzi annyira a nő egyéniségét és fantáziáját, mint az illat, melyet magának
+               választott. Vannak dúsgazdag nők, akik vagyont fizetnek egy-egy illatért, melyet a
+               gyár csak az ő számukra készít. Babonásan bíznak a varázsban, melyet parfőmjök áraszt
+               és féltékenyen őrzik annak a titkát. Vajjon melyik üveget választaná most
+               Adrienne?</p>
+            <p>Hatalmas piramisokban álltak előttük az üvegek, mint óriási drágakövek a rubin,
+               smaragd, topáz, zafir színeiben és a nevük buja és tikkadt volt, mint a rózsaszirmok
+               hullása nyáréjszakán. Csókvarázs. Első szerelem. Égő száj...</p>
+            <p>Ott állt a nő a szerelem nagy fegyvertárában. Keze egy mélyfekete üveg felé
+               lendült.</p>
+            <p>Indiai éjszaka! - állt az üvegen, amely komor és titokzatos volt, mint egy mágus
+               palackja.</p>
+            <p>- Ennek a titkát fakírok őrzik - mondotta a gyár vegyésze - mi Indiából hozattuk a
+               keverőjét. Egy rongyos bennszülött, valami Benares melletti dzsungelben virágok
+               gyüjtésével foglalkozott. Siva parfőmjének nevezik és illata állítólag megrészegíti
+               a leghidegebb férfit is... A legdrágább készítményünk. A legkisebb palack ötezer
+               frank.</p>
+            <p>Tamás intett, hogy rendben van, az üveget be lehet csomagolni. Adrienne riadtan
+               tiltakozni akart. De már nem lehetett. Tamás kifizette.</p>
+            <p>- Micsoda esztelen tékozlás! - korholta később, mikor kint ültek egy szálloda
+               terraszán.</p>
+            <p>- Vannak percek, mikor az ember nem törődhetik a holnappal! - válaszolta Tamás. -
+               Nékem a mai nap annyi gyönyörűséget jelent, annyi örömet hozott, mint még soha életem
+               egyetlen napja sem! Talán mindig ezt a nagyszerű hangulatot vártam, amikor ilyen
+               tökéletes szépségben és harmoniában kapom mindazt, ami forróvá teszi a szívünket és
+               megmámorosítja lelkünket. Ma mindent oda adnék... oh, nem csak azt a pár ezer
+               frankot, hanem az életemet is! Vélem ma csoda történt. Én ma tanultam szeretni.
+               Látja, egy szót sem beszéltünk erről, de ebben a némaságban csupa muzsika volt... Ha
+               majd a feleségem lesz, akkor egyszerre fogom magának adni a szavaimban, csókjaimban,
+               az egész nagy felgyulladásomban azt a mámoros szépséget, amely most egész lényemet
+               betölti. Szeretem Adrienne, most ki kellett mondanom, mert talán soha zengőbben,
+               forróbban és teljesebben ezt nem érezhetem...</p>
+            <p>Megragadta Adrienne kezét és érezte, hogy az remeg. A másik pillanatban megcsókolta
+               az izgalomtól halvány, meglepett asszonyt.</p>
+            <p>Amikor kibontakoztak, Adrienne szeme tele volt könnyel. A férfi ragyogott a
+               boldogságtól.</p>
+            <p>- Kedves... drága barátom! - rebegte alig hallhatóan Adrienne. - Milyen jó, hogy ez
+               így történt, hogy mellettem van és szerethetem!</p>
+            <p>A házasságukról kezdtek beszélni. Adrienne abban reménykedett, hogy legfeljebb három
+               hónap múlva a bíróság kimondja a válást. Azután a vagyoni dolgokra tért rá, beszélt a
+               hozományáról, amely még érintetlenül megvan, a két házáról...</p>
+            <p>Tamás kérte, hogy ezt hagyják, ez őt egyáltalában nem érdekli.</p>
+            <p>Később megbeszélték, hogy másnap mindketten ide költöznek, Grasseba.</p>
+            <p>Montecarlóig együtt mentek az autón. Ott Adrienne szigorú kívánságára elbúcsúztak.
+               Adrienne bérautón ment vissza Nizzába.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+             IX.
+            </head>
+            <p>Tamás fütyürészve, vídáman sietett a szállodája felé. A nagy tét meg volt nyerve.
+               Adrienne a felesége lesz. De abban a pillanatban, mikor szobájába nyitott, a mosoly
+               arcára fagyott. A lámpa égett és a karosszékben egy fiatal nő ült, aki talán szép
+               lehetett, de mikor Tamást megpillantotta, arca valósággal eltorzult a dühtől,
+               kárörömtől, gúnytól és bosszúvágytól.</p>
+            <p>A férfi visszahökkent. Nem volt éppen gyáva, de ez a találkozás túlságosan váratlanul
+               érte.</p>
+            <p> A nő gúnyosan kacagott.</p>
+            <p>- Csak lépj be... erre persze nem számítottál, hogy kinyomozlak és utánad jövök...
+               Ezt merészelted? Megszöktél? Azok után, ami kettőnk között történt? Azt hitted, hogy
+               velem is úgy bánhatsz, mint a többi szerencsétlennel, aki utadba akadt? Hát nem,
+               barátom, ezuttal tévedtél. Most leszámolunk...</p>
+            <p>- Ne kiabálj! - kérlelte a férfi és riadtan körülnézett.</p>
+            <p>- Oh, lesz ebből még nagyobb botrány is. Nem tudom, miket hazudtál itt a szállodában,
+               a kaszinóban, a társaságokban arról, hogy ki vagy és azt sem tudom, hogy e
+               pillanatban ki az a nő, akit éppen szédítesz, de kár fáradnod. Mert én keresztülhúzom
+               a számításaidat.</p>
+            <p>- Őrült vagy! Mit akarsz tőlem?</p>
+            <p>- Mért szöktél meg? Hogy merted ezt tenni?</p>
+            <p>- Ostobaság. Egy-két hétre jöttem csak ide. És ez is miattad történt.</p>
+            <p>- Miattam?</p>
+            <p>- Igen. Pénzt akartam szerezni. A kaszinóban játszom.</p>
+            <p>- És miért nem szóltál?</p>
+            <p>- Ismerlek. Lebeszéltél volna.</p>
+            <p>Az asszony nevetett.</p>
+            <p>- Oh, mily gyöngéd és engedelmes lettél egyszerre! Te, a világ legsötétebb,
+               leggonoszabb embere... Mit törődtél te valaha is azzal, hogy szenvedek-e vagy nem?
+               Hidegvérüen gázoltál át rajtam. Tönkretettél, mindenemből kifosztottál, ez az
+               igazság. És most megszöktél, mert már semmitsem remélhettél tőlem...</p>
+            <p>- Hallgass!</p>
+            <p>- Nem hallgatok! Eddig a hatalmadban tartottál. Mit tudom én, miféle ördögi erővel
+               tetted ezt. Féltem tőled. De nekem már minden mindegy... Éveken át tűrtem minden
+               aljasságodat, mert csak az volt fontos, hogy láttalak, csókolhattalak, mellettem
+               voltál. De az, amit most tettél... ennek a förtelme mindent túlszárnyal! Hidegen,
+               cinikusan megszöktél...</p>
+            <p>- Legyen eszed, Anni! Beszéljünk nyugodtan, hidegvérűen...</p>
+            <p>- Erről nem lehet hidegvérűen beszélni. És ne erőlködj. Nem fogsz megszédíteni...</p>
+            <p>- De hát végre is mit akarsz?</p>
+            <p>- Kárpótlást! Elégtételt mindazért, amit velem szemben elkövettél.</p>
+            <p>- Erről is beszélhetünk. De csak, ha nem őrjöngsz. Nos, belátom, csakugyan adósod
+               vagyok...</p>
+            <p>- Bravó! Ezt hát mégis kegyes vagy belátni!</p>
+            <p>- Igen, jó voltál hozzám Anni, ezt nem is felejtem el!</p>
+            <p>Az asszonyban ismét felviharzott az indulat.</p>
+            <p>- Micsoda bárgyú szavak ezek? Hála? Felejtés? A mi kettőnk számláját nem lehet így
+               elintézni! Hát hol lennél te, ha én nem állok melletted? Ki fizetett helyetted
+               Párisban, mikor az első gaztetted elkövetted és tízezer frankot sikkasztottál?
+               Emlékszel? Én akkor az Ambassadeur táncosnője voltam. Zálogba csaptam ékszereimet és
+               megmentettelek. És azóta hányszor segítettem rajtad...</p>
+            <p>- Mindent feljegyeztem...</p>
+            <p>- Valóban? Ennyire pontos, rendes ember vagy? És azt is feljegyezted, amit nem önként
+               adtam neked, hanem amit kizsaroltál tőlem? Igen... ezt tetted, átkozott legyen a
+               perc, amelyben találkoztunk!... Amikor férjhez mentem s megtudtad, hogy dúsgazdag
+               férjem van, egyszerre ismét megjelentél. És megfenyegettél, hogy mindent elárulsz az
+               uramnak, a multunkat, mindazt, ami kettőnk között történt, ha nem segítlek ki
+               bizonyos összegekkel... Ezeket a pénzeket is feljegyezted?</p>
+            <p>- Az utolsó fillérig mindent visszakapsz... Nem értem dühöngésedet, Anni. Hiszen te
+               voltál az, aki ezerszer kértél, hogy tünjek el életedből...</p>
+            <p>- Igen, de nem így! Engem tönkretettél. Idegroncs vagyok. Megszoktam az évek során,
+               hogy úgy rendelkezel velem, mint egy tehetetlen, kényre-kedvre kiszolgáltatott
+               rabszolgával... De végre is... valami önérzet mégis csak van bennem. Nem dobhatsz
+               el... nem vethetsz meg annyira, hogy még búcsúra sem tartottál érdemesnek... </p>
+            <p>Tamás idegesen cigarettázott, várta, hogy elcsittuljon kissé a magánkívül tomboló nő
+               nagy viharzása. Tudta, hogy a legnagyobb ügyességre van szüksége és minden áron le
+               kell szerelnie Annit. Ha Adrienne a legkisebbet is megsejti abból, ami most itt
+               történik, örökre elveszíti.</p>
+            <p>- Sajnálom, Anni, hogy ennyire félreértesz - mondotta nyugodtságot színlelve. -
+               Ismétlem, eszemben sem volt megszökni, hiszen fel sem adtam pesti lakásomat. Játszani
+               jöttem Montecarlóba. Ismersz, tudod, hogy enélkül nem élhetek. Nekem pénz kell...
+               Nagyon sok pénz. Nem csak azért, mert csakugyan el akarok veled számolni. Nekem
+               messzebbmenő terveim vannak. Szeretnélek feleségül venni, Anni...</p>
+            <p>- Te? Engem?...</p>
+            <p>- Igen. Nagyon jól tudod, hogy szeretlek, hogy a mi életünk ezer szállal van
+               egymáshoz fűzve...</p>
+            <p>- Oh nem... Erről ne beszélj! Gyűlöllek!</p>
+            <p>- Nem igaz, Anni! Szeretsz! Nem sértett önérzetből, vagy a pénzed miatt jöttél
+               utánam, hanem azért, mert szeretsz...</p>
+            <p>Az asszony felzokogott.</p>
+            <p>- Oh, én nyomorult... szerencsétlen teremtés!...</p>
+            <p>Tamás szeliden simogatta Anni haját. Tudta, hogy most már nyert játszmája van. A
+               sírás felolvasztja a düh acélját és meglágyítja a szívet.</p>
+            <p>- Legyen eszed, kicsikém. Belátom, rossz voltam hozzád, de ezentúl minden másképpen
+               lesz. Bíznod kell bennem. Hallgass rám, mindent őszintén megmondok. Megismerkedtem
+               egy nagyon gazdag amerikai gyárossal, akinek megtetszettem és aki, úgy látszik, rám
+               akarja bízni európai üzleteinek vezetését. Ez óriási jövedelmet jelent... Egész
+               életemre kint lennék minden anyagi bajból és jóvátehetném a multat... Az amerikai,
+               úgy látszik, arra spekulál, hogy feleségül veszem unokahugát, aki szintén itt van
+               Monte Carlóban. Nékem persze eszemben sincsen őnagyságát elvenni. De hát hadd legyen
+               ebben a hitben, az a fő, hogy megkapjam a szerződést... Néked azonban semmiesetre sem
+               szabad mutatkoznod. Végy itt szobát az Esplanadeban és majd módját ejtem, hogy minél
+               többet lássalak. Csak néhány napi türelmet kérek, kedvesem és egy életre váltjuk meg
+               vele boldogságunkat!</p>
+            <p>Anni nem tudott válaszolni. Keservesen sírt, a könnyei patakokban folytak végig az
+               arcán.</p>
+           
+         </div>
+         <div type="chapter">
+            <head>
+               X.
+            </head>
+            <p>Mikor Adrienne nizzai szállodájába érkezett, sokkal jobban fel volt zaklatva, semhogy
+               lefekvésre gondolt volna. Még benne égett az elmult nap nagyszerű izgalma, a rózsás
+               optimizmus, amely megtöltötte, egyre új édes képeket varázsolt eléje. Jól esett a
+               jövőre gondolni, új célt, szerelmet látott délibábosan keringeni a távolban,
+               valahogyan megpihent az elmult hetek nagy háborgása után.</p>
+            <p>Leült a terraszon, a jazz érzelgős francia keringőt játszott és apró piros lámpák
+               keretezték a diszkrét lugasokat, melyekben estélyi ruhás hölgyek és urak ürítgették a
+               pezsgős poharakat.</p>
+            <p>A boy udvariasan megállt előtte.</p>
+            <p>- Madame, - mondotta, - úgyebár magyar? Nem parancsolja a magyar lapokat? Azokat is
+               tartjuk!</p>
+            <p>Idegenben nincs szívesebben látott vendég a magyar lapnál. Adrienne örömmel fogadta
+               az ajánlatot.</p>
+            <p>Kíváncsian futotta át a színházi híreket. Az ujságban mindig ezeket nézte meg
+               legelőször, Tudomást vett a legújabb premierekről, az apró kis pletykákról, az ujság
+               egyéb hírei már sokkal kevésbé érdekelték. Még csak a képeket futotta át és a
+               kéthasábos kövér címeket olvasta el.</p>
+            <p>Egyszerre azonban megrezzent. Ideges kíváncsisággal és rémülettel tapadt a szeme egy
+               feltünően szedett címre:</p>
+            <p>Váratlan fordulat a Lontai-féle ékszerrablás ügyében.</p>
+            <p>A rendőri sajtóiroda jelenti: A néhány hét előtt nagy feltünést keltett Lontai-féle
+               ékszerrablás ügyében a rendőrség egészen új, meglepő nyomokat talált, melyek, ugy
+               látszik, hogy végre a valódi tetteshez vezetnek. A rendőrség egyelőre a legnagyobb
+               titokban folytatja a nyomozást, annyi azonban mégis kiszivárgott, hogy a betörés
+               központjában a fővárosi társaságnak egy általánosan ismert, előkelő tagja áll, akiről
+               senkisem sejtette volna, hogy ilyen súlyos bűntettet követhet el. A gyanusított
+               kétségbeesetten tagad, de minden körülmény ellene vall.</p>
+            <p>Adrienne fehér lett, mint a fal. Minden lelki erejére szükség volt, hogy el ne
+               ájuljon. Amitől rettegett, bekövetkezett. Férjét letartóztatták. Nem kétséges, hogy a
+               nevét is hamarosan kiszolgáltatják a nyilvánosságnak és akkor az ő jó hire is
+               elveszett. Kerülni fogják, gyanakodva néznek rá: a betörő felesége. Hasztalan
+               hangoztatja ártatlanságát, az emberek rosszhiszeműek, gúnyosan fogják vállukat
+               vonogatni...</p>
+            <p>És mit fog ehhez Tamás szólni? Vajjon ezek után is feleségül veszi?</p>
+            <p>Adrienne határtalanul kétségbe volt esve. Már szinte látta, hogyan fog Tamás valami
+               udvarias mentséget dadogni, szépen felépíti a visszavonulás útját, legjobb esetben
+               azt mondja: ... várjuk meg, amíg a botrány hullámai elsímulnak, aztán majd
+               meglátjuk!... Talán, ha már az emberek napirendre tértek a dolog felett, szépen,
+               titokban egybekelhetünk...</p>
+            <p>Igen, ezt fogja mondani, azután tovább áll, sohasem fog hozzá visszatérni.</p>
+            <p>Adrienne alig tudta visszafojtani könnyeit. Nagyon szerencsétlennek érezte magát.
+               Bármennyire is igyekezett magát ámítani, még egyáltalában nem heverte ki a szörnyű
+               csalódást és tehetetlenül, lelke mélyéig megrendülve állt a nagy rejtéllyel szemben,
+               hogy a férfi, akivel tíz esztendeig élt, ennyire félrevezethette igazi lénye
+               felől...</p>
+            <p>Adrienne nem mert ezen gondolkozni. Félt, hogy egyszerre feltámad benne a kétség:
+               hátha Tamás is éppen olyan alakoskodó, kétszínű, mint Andor volt? Nem, erre nem
+               szabad gondolni, elhesegeti a kétségeit. Hiszen, ha ez lehetséges volna, nem lehetne
+               tovább élni, megrendülne a hite az egész világban...</p>
+            <p>Megint az ujságra nézett. A két nap előtti kelettel volt ellátva. Azóta Andort már
+               bizonyára letartóztatták! A börtönben ül, mialatt ő itt új szerelem aranyszálait
+               bogozza. A boldogtalan ember, senkisem áll mellette élete utolsó súlyos
+               perceiben!</p>
+            <p>Csak semmi érzékenység! - kapta fel dacosan fejét Adrienne. - Hová vezet ez? Mindenki
+               maga építi végzetét. Nem áldozhatja fel részvétből, álmartiromságból egész
+               fiatalságát, társadalmi rangját, boldogulását? Andor súlyosan vétkezett, nemcsak
+               betörő volt, de hidegvérűen önkéntelen bűntársává tette a feleségét is. Ha a
+               rendőrség véletlenül kinyomozza, hogy az elrabolt ékszereket ő is látta férje
+               páncélszekrényében, hogy tudott a betörésről, akkor még neki is kínos
+               kellemetlenségei támadhatnak! Ah, így is egészen bizonyosan meg fogják idézni a
+               rendőrségre, faggatni fogják férje életéről, a lapok hasábos tudósításokat fognak
+               közölni, az ismerősök szenteskedő arccal fogják részvétüket nyilvánítani!</p>
+            <p>Micsoda undok komédia! Milyen jó lenne elmenekülni a világ másik végére! Igen, ezt
+               fogja tenni. Megszökik. Elutazik Olaszország valamelyik kis elhagyott pontjára. Tamás
+               bizonyára örömmel fogja követni. Nem kell sokat magyarázkodnia. Két-három hónapig
+               távol maradnak... Addigra elsímulnak a szenzáció hullámai!</p>
+            <p>Hirtelen vérhullám öntötte el arcát.</p>
+            <p>A terrasz feljárója felől Tamás közelgett. Autóköpenyben volt, idegesen nézett körül.
+               Az arca boldog mosolyra húzódott, mikor Adriennet megpillantotta.</p>
+            <p>- Milyen nagyszerű, hogy még itt van és nem feküdt le... Ne haragudjon, hogy most
+               ilyen késő éjszaka maga után jöttem. Képtelen voltam elaludni. Még látni akartam...
+               Itt kívántam lenni a közelében...</p>
+            <p>- Micsoda elővigyázatlanság! - korholta Adrienne és arra gondolt, hogy milyen botrány
+               keletkezhetne ebből, ha Anni véletlenül szintén ide jönne a terraszra. Most jutott
+               eszébe, hogy nem is kérdezte meg a portástól, itthon van-e a barátnője? Talán
+               valamelyik barban mulat, vagy a kaszinóban és minden pillanatban felbukkanhat.</p>
+            <p>- Mit bánom én, hogy mi történik! - kiáltotta szenvedélyesen Tamás. - Senkinek a
+               véleménye nem érdekelhet. Szeretem, a feleségem lesz és elvesztettnek tekintem életem
+               minden percét, melyet nem maga mellett töltök...</p>
+            <p>De bármennyire őszintéknek hangzottak is ezek a szavak, Tamás e pillanatban egészen
+               másra gondolt, mint a szerelemre. A legnagyobb titokban szökött meg Monte Carlóból,
+               ahol már égett a talaj a lába alatt. Megvárta, amíg Anni visszavonult a szobájába és
+               lélekzetvisszafojtva leste, mikor sötétül el az ablaka? Körülbelül két órát
+               tölthetett ideges és feszült várakozásban, közben bőröndjébe dobálta ruháit és
+               levitette autójába.</p>
+            <p>Most végre Nizzában volt. Anni szerencsére semmitsem vett észre. Viszont kétségtelen,
+               hogy ha reggel felébred, első dolga lesz, hogy felhívja a házitelefonon és ha
+               kiderül, hogy az éjszaka megszökött, Anni feltétlenül üldözni fogja.</p>
+            <p>- Arra gondoltam, - mondotta Adriennek, - hogy a kora reggeli órákban hagyjuk el
+               Nizzát. Hiszen tudja, hogy már tíz óra felé milyen égetően süt a nap. Csak a hajnali
+               órák kellemesek. Legszínesebben már most útnak indulnék...</p>
+            <p>Adrienne nevetett.</p>
+            <p>- Nem, ez mégis csak különös lenne, hogy mi ketten most, az éjszakai órákban közös
+               autótúrára menjünk...</p>
+            <p>- Jó. Akkor hát reggel fél ötkor. Addig átszivarozom az éjszakát. Vagy felnézek a
+               kaszinóba. Szó sem lehet alvásról... Persze a legboldogabb akkor lennék, ha még
+               beszélgethetnék magával...</p>
+            <p>- Itt teljesen lehetetlen!... És természetesen a szobámba sem jöhet fel. Ellenben
+               bemehetünk az olvasóterembe. Ott most egy lélek sincsen. Megiszunk egy pohár jeges
+               oranzsádot és eldiskurálunk. Az igazat megvallva, nekem sincsen kedvem
+               lefeküdni...</p>
+            <p>Az olvasóterem széles nyitott ablakai a tengerre néztek. Nizza ezeregyéjszakai
+               ragyogása minden szépségét eléjük káprázta. Apró színes lámpák égtek a hajók és
+               yachtok oldalain, mint a drágakövek vagy szentjános bogarak és a csillagok szinte
+               muzsikáltak fent a szférákban.</p>
+            <p>Adrienne csak az egyik asztali lámpát gyujtotta meg. Olyan jó volt ez a nagy csönd,
+               amelyben időnkint felszikrázott a cigaretták parazsa. Csak keveset beszéltek, hiszen
+               annyi szépséget dalolt a tenger, annyi édes illatot küldtek az esti harmattól
+               felfrissült virágok. Hagyták, hadd töltődjön meg a lelkük, mint villannyal az
+               akkumulátor. Hetekig, hónapokig fog sugározni belőlük az elragadtatás, szerelem és
+               költészet, melyet most szívükbe fogadtak...</p>
+            <p>Azután hirtelen, brutálisan és kegyetlenül felgyulladt az éles mennyezetvilágítás. Az
+               ajtó hevesen vágódott fel és a küszöbön ott állt Anni. A boldogtalan nő olyan volt,
+               mintha megőrült volna. Őrjöngő düh lángolt a tekintetéből. Adrienne és Tamás
+               egyszerre ugrottak fel, elképedve és megdermedve a rémülettől.</p>
+            <p>- Hát itt vagy! - rikácsolta Anni. - Megint meg akartál szökni! Oh, számítottam erre.
+               Ismerlek már, micsoda ember vagy. De hogy éppen ide jöttél... hogy Adrienne van a
+               játékban, erre csakugyan nem gondoltam...</p>
+            <p>- Kérlek... - próbált közbeszólni Adrienne, de Anni hisztériás dühvel szakította
+               félbe.</p>
+            <p>- Ne beszélj! - kiáltotta. - Nem érdekelnek a hazugságaid. Hát ez kellett neked? Ez
+               az ember? Őt titkoltad előttem? Hahaha! Légy büszke rá! A világ legaljasabb
+               makrójára! No lám, ki gondolta volna? A szent, büszke nő! A tisztesség mintaképe...
+               Oh, micsoda aljasság...</p>
+            <p>- Hallgass! - kiáltotta az indulattól remegve Tamás. - Kérem, Adrienne, ne hallgasson
+               rá. Ez a nő őrült...</p>
+            <p>- Igen, az vagyok, őrült, de te tettél azzá, te hitvány... De most végzünk...</p>
+            <p>Féktelen indulattal feltépte kis aranytáskáját és egy apró revolvert rántott ki.</p>
+            <p>- Segítség! - sikoltotta Adrienne.</p>
+            <p>Tamás felkapott egy párnát és Anni felé vágta. A párna egy vázát talált, amely
+               csörömpölve hullt a földre. Ugyanakkor eldördült a lövés.</p>
+            <p>Az ajtó kivágódott, három férfi rohant be, mögöttük kíváncsi, ijedt arcok jelentek
+               meg a küszöbön.</p>
+            <p>- Fel a kezekkel! - harsogták és az egyik megragadta a magánkívül sikoltozó Anni
+               karját.</p>
+            <p>Adrienne úgy érezte, hogy a vér kiszökik ereiből. A nyelve elzsibbadt az iszonyattól.
+               Mintha agyrém játszadozott volna vele. Előtte, alig két lépésnyire a férje állt.
+               Visszahökkent, mintha kísértetet látott volna.</p>
+            <p>- Adrienne! - kiáltotta Zárai.</p>
+            <p>Adrienne villámsujtottan állt. Nem tudta megérteni, hogy mi történt.</p>
+            <p>De nem is lehetett gondolkozni. Az események villámgyorsan peregtek.</p>
+            <p>Az egyik ismeretlen férfi Tamás elé lépett.</p>
+            <p>- Igazolja magát! Ön Tordai Tamás?</p>
+            <p>- Igen... az vagyok, mit akarnak tőlem az urak?</p>
+            <p>- Hogy mit akarnak? - kiáltotta élesen Zárai Andor, - oh, semmi különöset! Csak éppen
+               annyit, hogy az úr miatt engem akartak börtönbe hurcolni... Nálam találták meg a
+               Lontai-féle elrabolt ékszereket. Minden áron rám akarták fogni, hogy én vagyok a
+               betörő. Hát én most megmutatom, hogy ki a bűnös. Ne bámuljon, kedves Tordai. Most
+               vége a hazugságoknak és a komédiának. Ez a két úr detektív. Az egyik Budapestről jött
+               velem, a másik a francia rendőrség tagja... Nos, beszéljen... meri-e tagadni, hogy a
+               Lontai-féle ékszereket maga adta át nekem, azokra harmincezer pengő kölcsönt vett fel
+               és azt állította, hogy az ékszerek, melyeket fedezetül nyujtott át nekem, a
+               magáé?</p>
+            <p>Tordai halvány volt, még az ajka is elfehéredett. A szép szál ember pillanatok alatt
+               összetört, megöregedett...</p>
+            <p>- Igen, - mondotta rekedten, - csakugyan én adtam át az ékszereket!</p>
+            <p>Őrült, hátborzongató nevetés hallatszott.</p>
+            <p>Anni nevetett. Szörnyű, idegtépő, irtózatos kacaj volt ez.</p>
+            <p>- Hát erre kellett a pénz! Az én pénzem, hogy egy másik asszonnyal szökjön meg...</p>
+            <p>- Tagadom, nem törtem be! - kiáltotta vadul Tordai. - Lontainé maga adta nekem az
+               ékszereket kölcsön...</p>
+            <p>- De hiszen őnagysága feljelentést tett, hogy betörtek nála!</p>
+            <p>- Igazolni kellett férje előtt, hogy hová tüntek el az ékszerek! Nem mondhatta, hogy
+               nekem kölcsönözte!</p>
+            <p>- Kizsarolta! Azt mondta, hogy feleségül vesz! - rikácsolta Anni. - Vigyék börtönbe!
+               Nyomorult... Zsaroló... briganti!</p>
+            <p>Elvesztette eszméletét és a padlóra zuhant.</p>
+            <p>Az egyik detektív Tordaihoz lépett és vállára tette kezét.</p>
+            <p>- A törvény nevében letartóztatom!</p>
+            <p>Adrienne tágranyilt szemmel, dermedten nézte az előtte lejátszódó rémségeket.</p>
+            <p>Csak lassan kezdett megvilágosodni előtte a szörnyű tragédia, a végzetes és
+               jóvátehetetlen igazságtalanság, melyet férjével szemben elkövetett.</p>
+            <p>- Valamit tenni kellene! - gondolta zsibbadó aggyal, - térdre hullani, bocsánatot
+               kérni!</p>
+            <p>De képtelen volt megmozdulni. Halálosan szégyelte magát, irtózott magától.</p>
+            <p>- Szörnyeteg vagyok! - borzadt meg önmagától.</p>
+            <p>Zárai izgatottan közeledett feléje.</p>
+            <p>- Bocsáss meg szívem... ezek a rémségek egészen megzavartak... De hogyan kerültél
+               ide... közéjük? Hogyan hagyhattál el? Miért nem válaszoltál leveleimre?... Miféle
+               titkok suhantak közénk? Nézz a szemembe, Adrienne! Ugy-e te is azt hitted, hogy
+               én...</p>
+            <p>Nem fejezte be a mondatot. Látta, hogyan hanyatlik le felesége feje, milyen
+               megsemmisülten áll előtte. Zárai elszörnyedt.</p>
+            <p>- Te tudtál erről? Tudtad, hogy az ékszerek nálam vannak?</p>
+            <p>- Igen! Egy este... otthon felejtetted a kasszakulcsokat és én kíváncsiságból
+               kinyitottam a pénzszekrényt. És akkor megtaláltam Anni ékszereit... A látszat
+               annyira ellened szólt... Elvesztettem a józanságomat. Megőrültem. Nem mertem
+               senkinek sem szólni a szörnyű felfedezésről. Meg akartam halni... Menekültem az
+               emberek elől. Megszöktem Pestről... Én most a legszívesebben meghalnék. Irtózom
+               magamtól. Nem merek bocsánatot sem kérni tőled. Rettentően vétkeztem ellened.</p>
+            <p>Zárai megindultan nézte a kétségbeesett asszonyt.</p>
+            <p>- Fel a fejjel, Adrienne! - mondotta meghatottan. - Nehéz volt a megpróbáltatás,
+               melyen mindketten keresztül mentünk, de talán azért kellett annyit szenvednünk, hogy
+               ujra megtaláljuk egymást.</p>
+            <p>Adrienne szeme tele volt könnyel.</p>
+            <p>- Meg tudnál bocsájtani?... A legjobb, legalázatosabb feleség leszek. Egész életemet
+               arra szánom, hogy levezekeljem, amit ellened vétettem!</p>
+            <p>Zárai gyengéden karjába szorította Adriennet.</p>
+            <p>- Nem a vezeklésedet akarom, hanem a szerelmedet! A mi feltámadásunkat a sötétségből,
+               melyben eddig éltünk!</p>
+            <p>Lassan felesége fölé hajolt és mélyen meghatva csókolta meg a lázas, didergő
+               asszonyt.</p>
+          
+            <p>Hetek multak...</p>
+            <p>Lontainé egy idegszanatórium szomorú lakója lett. A rettentő éjszaka rázkódtatását
+               nem tudta kiheverni többé soha.</p>
+            <p>Tordait, akiről nyilvánvaló lett, hogy Lontainét zsarolással és fenyegetésekkel
+               kényszerítette ékszerei átadására, kétesztendei börtönre ítélték.</p>
+            <p>Zárai feleségével hosszabb külföldi útra indult. Három hónapig bolyongtak
+               szerelmesen: és kettesben mint két újra egymásra talált boldog ember, akik többé nem
+               csalódhatnak egymásban sohasem.</p>
+            <p> VÉGE.</p>
+           
+         </div>
+      </body>
+	</text>
+</TEI>
