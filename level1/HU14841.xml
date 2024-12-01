@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU14841" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			   <title>Nizzai kaland</title>
+				<author>
+					<persName>
+						<surname>Forró</surname>
+						<forename>Pál</forename>
+					</persName>
+				   <date from="1884" to="1942">1884-1942</date>
+				   <idno type="VIAF">107985695</idno>
+				</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">10626</measure>
+				<measure unit="pages">24</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+				   <title>Nizzai kaland</title>
+				   <date>2015-12-23</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+				   <ref target="https://mek.oszk.hu/14800/14841/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+					   <name>Vidiné Réfi Erzsébet</name>
+					   <name>Drótos László</name>
+					   <name>Mészáros Atilla</name>
+					</respStmt>
+					<bibl type="printSource">
+					   <title>Nizzai kaland</title>
+						<author>Forró Pál</author>
+						<pubPlace>Budapest</pubPlace>
+					   <publisher>Világv. Reg. Kiadóváll.</publisher>
+					   <date>1932</date>
+					   <ref target="https://mek.oszk.hu/14800/14841/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+				   <title>Nizzai kaland</title>
+				   <author>Forró Pál</author>
+					<date>1932</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T5"/>
+			</ns1:eltec>
+		</xenoData>
+		<revisionDesc>
+			<change when="2024-11-30"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+		   <div type="chapter">
+         <p>- Szavamra mondom, hogy ez a mister Goold nem normális! - dörmögte Jean, a
+            Plantage-szálloda szobapincéreinek főnöke. Jean ur valamikor többszörös háztulajdonos
+            volt Párizsban és minden télen Nizzába jött a karneválra és ugy mellesleg egy kis
+            hazárdjátékra. A karneválozás mindig kitünően sikerült, a roulette ellenben sokkal
+            kevésbé és valahányszor Jean ur Nizzából hazajött, mindig egy házzal kevesebbje lett
+            Párizsban. Mikor az utolsó háza is eluszott, Jean nem esett kétségbe, nem szegzett
+            revolvert homlokának, nem próbálta megzsarolni a bankot, hanem beállitott a
+            Plantage-szálloda tulajdonosához, aki mély meghajlással kérdezte, hogy mivel
+            szolgálhat.</p>
+         <p>- Kedves Mathieux ur, - kezdte Jean, - mondja csak, körülbelül hány esztendeje járok én
+            már magához?</p>
+         <p>- Körülbelül tiz éve, ha jól emlékszem...</p>
+         <p>- Stimmel! És mit gondol, mennyit költhettem el a szállójában? Remélem, nem veszi
+            tulzásnak, ha azt mondom, hogy háromszázezer frankot?</p>
+         <p>- Monsieur Roux mindig legkedvesebb és leggavallérabb vendégeim közé tartozott.</p>
+         <p>- Hát mit szólna, Mathieux ur, ha azt mondanám, hogy én ezentul egyáltalában el sem
+            költözöm innen?</p>
+         <p>- Boldog volnék... a legnagyobb megtiszteltetésnek venném!</p>
+         <p>- Akkor is, ha nem mint vendég, hanem mint szállodai alkalmazott maradnék önnél?</p>
+         <p>- Monsieur Roux tréfál...</p>
+         <p>- Nem én! Az éjszaka ugyanis jogerősen elvesztettem utolsó frankomat is. Arra gondoltam,
+            hogy ennek ellenére sem hagyom el ezt a szállodát, melynek kosztját nagyon megkedveltem
+            és amelynek szokásait, házi rendjét, vendégeit éppen olyan jól ismerem, mint akár ön.
+            Azt hiszem, ideális szobapincér lenne belőlem. A modorom kifogástalan és magamról tudom,
+            hogy milyen igényei vannak a pénzes, elkényeztetett vendégeknek, hogyan kell bánni
+            velük...</p>
+         <p>E beszélgetés után egy órával Jean szerződtetve volt a Plantage-szállodában.</p>
+        
+         <p>Azóta ujabb tiz esztendő mult el és Jean ugy találta, hogy ezek az évek sokkal
+            nyugodtabbak és derüsebbek voltak, mint az előbbiek. Jeannak már igen komoly tőkéje volt
+            a bankban, a Plantagéban főleg gazdag amerikaiak szálltak meg, akik nem fukarkodtak a
+            borravalókkal. Sőt nyiltan suttogtak arról, hogy a mindig elegáns, megnyerő külsejü,
+            elmésen csevegő Jeanba már igen sok hölgy lett szerelmes, de Jean sohasem bocsátkozott
+            gáláns kalandokba. Mintha teljesen kicserélték volna. Ő, aki azelőtt vagyont költött a
+            nőkre és büszke volt arra, hogy néki voltak a legszebb barátnői és aki könnyelmüen, a
+            mellényzsebéből rakta az ezreseket a roulettre, most a legjózanabb nyárspolgár lett, aki
+            nem törődött a nőkkel, élére rakta a garast és eszébe sem jutott akár csak egyszer is
+            belépni a játéktermekbe.</p>
+         <p>Mégegyszer a jelzőtáblára nézett és kétségtelenül megállapitotta, hogy a 12-es számu
+            szoba csengetett. Tehát csakugyan megint a fiatal mister Goold akar valamit
+            kérdezni.</p>
+         <p>Mikor Jean mister Goold szobájába lépett, a fiatalember remek trikóban irógépe előtt ült
+            és irt. Ha más ember trikót huz magára, a strandra siet, vagy vitorlására száll és a
+            levegőt meg a tengert élvezi. James Goold azonban körmondatokon és jelzőkön törte a
+            fejét, sorokat radirozott ki kéziratából és csak néha vetett egy-egy szórakozott
+            pillantást az ablaka alatt hullámzó szines emberáradatra.</p>
+         <p>Jean meghajolt és azt kérdezte:</p>
+         <p>- Parancsol, mister Goold?</p>
+         <p>Goold James láthatólag zavarban volt.</p>
+         <p>- Monsieur Jean, - mondotta, miközben ujjaival idegesen dobolt az irógépasztalkán, -
+            bevallom, nagyon szégyellem, hogy ismét szobámba kérettem.</p>
+         <p>- Valóban, uraságod ma már negyedszer csengetett be. Minden alkalommal mentegetődzött és
+            azt mondta, hogy már nincsen semmire sem szüksége. Ha talán most is ezt óhajtja
+            közölni...</p>
+         <p>- Nem. És kérem, ne tartson sem különcnek, sem bolondnak. Én eddig is nagyon jól tudtam,
+            hogy mit akarok. Csak éppen... izé... nagyon kényes dologban szeretnék felvilágositást
+            kérni és nehezen határoztam rá magamat, hogy magához forduljak... Amint tudja, ugyebár,
+            regényiró vagyok! Illetve most dolgozom élelem első nagyszabásu müvén...</p>
+         <p>- És ezért tetszett Európába jönni?</p>
+         <p>- Igen. Kizárólag ezért. Atyám Adam Goold, a hasonlónevü cég főnöke ugyanis egy percig
+            sem türné, hogy a szeme láttára, a tulajdon házában regényeket irjak. Szerinte egyetlen
+            dologgal szabad csak foglalkozni: a posztóval. Engem azonban a posztó nem érdekel. Én
+            már gyermekkoromban verseket irtam. És most, huszéves koromban elhatároztam, hogy
+            megirom első, nagy regényemet. Kérdést intéztem a chikágói lélekvizsgáló egyetem
+            irodalmi osztályához, hogy a világ melyik pontja a legalkalmasabb a regényirásra és azt
+            a választ kaptam, hogy az európai Riviera. A világ legnépszerübb irói mind ide jönnek
+            hangulatokért. Wells, Shaw, Dekobra és még számosan villákat vásároltak itt. Azt
+            gondoltam, ez lesz nekem is a legjobb start!</p>
+         <p>- Nagyon helyesen méltóztatott tenni. És ha szabad érdeklődnöm, halad kérem a
+            regény?</p>
+         <p>- Nem. És tudja, miért álltam meg? Mert nem tudok másra gondolni, csak arra a bájos,
+            elegáns hölgyre, aki a huszonhetesben lakik. Minden erőmet megfeszitem, hogy a
+            regénytémámra gondoljak, amely egy chikágói konzervgyárban játszódik és közben folyton
+            elkalandoznak a gondolataim. Minden pillanatban az ablakhoz szaladok és azt lesem, nem
+            jött-e le a huszonhetes a parkba? Mister Jean, mondja meg nekem, ki ez a nő?</p>
+         <p>- Német bárónő. Özvegy Edelsheim Hanna, Poroszországban birtokai és házai vannak...</p>
+         <p>Mister Goold kétségbeesett mozdulatot tett.</p>
+         <p>- Hát ez borzasztó, kérem. Én azért jöttem Nizzába, hogy regényt irjak, hogy a hősöm és
+            hősnőm utját kapcsoljam össze különböző bonyodalmak után, de nem azért, hogy magam
+            legyek szerelmes...</p>
+         <p>- Sajnálom, mister Goold, a bárónő amugy is, - ha szabad magam igy kifejeznem, -
+            foglalt!</p>
+         <p>Ha a fiatal Goold a régi irógárdához tartozott volna, kiesett volna kezéből a toll e
+            megsemmisitő hir hallatára. De mint modern iró, nem ejthette a földre az irógépet,
+            hanem csak izgatottan ugrott fel:</p>
+         <p>- A bárónő menyasszony?</p>
+         <p>- Még nem. Sőt e pillanatban még csak én tudom, hogy érdeklődik egy nagyon rokonszenves
+            gentleman iránt.</p>
+         <p>- Monsieur Jean, ne kinozzon. Mondjon meg mindent őszintén. Ki az a férfi?</p>
+         <p>- Szobaszám husz. Második emelet, luxuslakosztály.</p>
+         <p>- A neve?</p>
+         <p>- Gróf Hartwieg János. Osztrák mágnás. Két nap előtt érkezett. Cadillac autó. A bárónő
+            ma reggel megkérdezte tőlem, hogy ki ez az ur? És ha egy fiatal, bájos, dusgazdag özvegy
+            a szálloda szobafőnökétől információt kér egy uriemberrel kapcsolatban, akkor a
+            megnyugtató értesités folytatása már csak a személyes ismerkedés lehet! Ah! Mit mondtam?
+            Méltóztassék odanézni!</p>
+         <p>És Jean széles mozdulattal a szálloda parkjába mutatott, ahol e pillanatban fehér
+            tenniszruhában a bárónő tünt fel és mellette tenniszverővel a kezében, jókedvüen és
+            élénk beszélgetésbe merülve, elegáns, karcsu, magas termetü, kisportolt testü férfi
+            haladt.</p>
+         <p>- Sajnálom, mister Goold, - jegyezte meg szelid vállvonogatással Jean, - de ugy látszik,
+            ön megkésett!</p>
+         <p>- Micsoda szerencsétlenség! - kiáltotta kétségbeesetten Goold.</p>
+         <p>- Ha nem venné rossz néven, mister Goold, lenne egy szerény ajánlatom. Talán tessék
+            ezzel az esettel kezdeni a regényt!</p>
+         <p>De Gooldnak, ugy látszik, egyszerre elment a kedve a regényirástól. Felugrott és lázasan
+            öltözködni kezdett.</p>
+         <p>- Mister Jean, - mondotta kétségbeesetten, - még csak azt az egyet mondja meg, mit
+            gondol, lehet még a dolgon segiteni?</p>
+         <p>- A regényekben a legnagyobb meglepetésekre lehetünk elkészülve. És ha az első
+            fejezetben látszólag le is csuszott mister Goold, lehet, hogy a következőkben annál
+            nagyobb sikere lesz!</p>
+        
+         <p>A tenniszmérkőzés látványosságszámba ment. Az ilyen nagyvilági helyen ugyan megszokott
+            dolog, hogy mindenki jól játszik, de olyan remek és éles ütéseket, amilyenekkel a bárónő
+            és a gróf kergették a labdát, még itt is csak legfeljebb a versenyeken lehetett látni.
+            Hja, könnyü azoknak, kik nyakig usznak a pénzben és egész fiatalságukat csak a sportnak
+            szentelhetik.</p>
+         <p>Az események egyébként, ugy látszik, robbanó gyorsasággal fejlődtek. Tennisz után
+            vitorlás kirándulásra indultak és kiderült, hogy Hartwieg gróf a vitorla kezelésben is
+            mester. A bárónő több izben boldogan gratulált önmagának, hogy milyen jó orra volt,
+            milyen nagyszerüen szimatolta ki, hogy ki az a férfi, akivel legérdemesebb lesz
+            megismerkedni. Pedig ugyancsak elég kisértésnek volt kitéve. De a bárónő okos asszony
+            volt. Elhatározta, hogy nem aprózza el magát. Ezuttal semmi kedve nem volt apró
+            kalandokba bocsátkozni. Hanna bárónőnek már igen bő tapasztalatai voltak ezen a téren.
+            Ismerte jól a férfiakat. Először lobognak, eget-földet igérnek, azután jön a lassu, de
+            óvatos visszavonulás. Hanna bárónőt egyébként Kurt Lizinek hivták, görlje volt az egyik
+            berlini operettszinháznak, de amikor külföldre utazott, akkor elvből bárónői rangra
+            emelte magát. A barátjától - Pettersohn Max nagykereskedőtől - elég csinos összeget
+            kapott a nizzai utra, persze korántsem annyit, mint amennyi fényüző életéhez kellett
+            volna és a bárónő ez idő szerint már egy teljes heti szállodai számlával tartozott. A
+            dolog kezdett igen kinos lenni és Hanna tisztában volt azzal, hogy amennyiben nem tud
+            pénzt szerezni, ugy ennek nagyon sulyos következményei lehetnek. Pettersohn urnak nem
+            sürgönyözhetett, mert a derék, gömbölyü emberke a világ legpedánsabb embere volt, aki
+            egy fillérrel sem áldozott többet valamire, mint amennyit előre kiszámitott. Ékszereit
+            nem csaphatta zálogba, mert azok hamisak voltak. Egyetlen megoldása volt tehát: egy uj,
+            előkelő, gáláns ismeretség!</p>
+         <p>Legyünk őszinték: Lizinek már lett volna erre módja, de ezuttal egészen sajátságos
+            rögeszméje támadt. Elhatározta, hogy egész életét uj, biztos alapra fekteti.
+            Huszonhatéves. Mire vár? Mit remélhet? Pettersohn nős, sohasem veheti el feleségül. Egy
+            napon gutaütést kap az öregedő ur és azután keressen uj ismeretséget, amelyik
+            előbb-utóbb szintén csak szakitással végződik.</p>
+         <p>Nem, ennek semmi értelme sincsen. Most van szépsége teljében. Férjhez fog menni. Igen,
+            csak egészen komoly, gazdag és olyan ur barátságát fogadja el, aki nősülni akar.</p>
+         <p>Hartwieg grófról a legjobb információkat kapta. Nőtlen, harminchatéves, gyára és birtoka
+            van Ausztriában. Egyébként csak rá kellett nézni, hogy az ember megállapitsa, miszerint
+            született nagyur és gavallér. Az olyan tapasztalt és jószemü lány, mint Lizi, meg tudja
+            ezt már abból a mozdulatból itélni, ahogyan az autóba száll, a táncából, a
+            járásából.</p>
+         <p>Ennélfogva a strandon a nagy gumilabdát egyenesen a gróf fejéhez vágta, aki azt
+            mosolyogva visszadobta. Mind a ketten nevettek és két perc mulva megismerkedtek. A gróf
+            bevallotta, hogy megérkezése pillanata óta várta ezt a boldog percet. És csakugyan olyan
+            tüzzel és lelkesedéssel kezdett Lizinek udvarolni, hogy Lizi megrémült.</p>
+         <p>- Kedves gróf ur, - mondotta a vitorlás árbocához dőlve, - figyelmeztetnem kell, hogy ön
+            sulyos tévedésben van!</p>
+         <p>- Hogy érti ezt? - kérdezte megdöbbenve Hartwieg gróf.</p>
+         <p>- Ön olyan gyors tempóban udvarol nekem, amely ellen tiltakoznom kell. Félek, hogy
+            félreismeri a helyzetet!</p>
+         <p>- De kedves bárónő, kétségbe vagyok esve...</p>
+         <p>Lizi nevetett.</p>
+         <p>- No, azért a másik végletbe sem kell esnie! Tudja, mi nők, nagyon sokat értünk meg az
+            udvarlás hangjából és tempójából. Mert másképpen lép fel a férfi, aki csak kalandot akar
+            és másképpen, akinek komolyabb szándékai vannak. Az ön attakja kedves gróf ur... a
+            kalandot kereső Don Juané! És előre fel kell önt világositanom: erre nem vagyok kapható!
+            Talán ostobaság, hogy ezt ilyen őszintén megmondtam. De nem szeretném, ha mindjárt
+            kezdetben hamis vágányra terelődne barátságunk, amelyet egyébként igen kellemesnek
+            találok!</p>
+         <p>Hartwieg gróf arca felragyogott.</p>
+         <p>- Boldog vagyok bárónő, hogy ezt megmondta. Ha megenged egy kis bizalmas vallomást, ugy
+            elárulom: nekem is sokkal kellemesebb az a másik, komolyabb hang!</p>
+         <p>És Hartwieg János gróf valóban őszintén beszélt. Az a gondolat, hogy esetleg feleségül
+            veheti Edelsheim Hanna bárónőt, elragadtatással töltötte el. A gróf ur anyagi viszonyai
+            ugyanis pillanatnyilag nagyon ziláltak voltak. Minek tagadjuk: a csőd küszöbén állt.
+            Hitelezői raktak össze néhány frankot, hogy Nizzába küldjék egyenesen azzal a
+            paranccsal, hogy ott sürgősen gazdag házasságot kössön. Azt mondták, hogy még ennek az
+            utazásnak az eredményét megvárják. De ha Nizzából is szegényesen tér vissza, ugy szó sem
+            lehet további haladékról és a már régen esedékes árveréseket irgalmatlanul megtartják.
+            Érthető tehát, hogy a dusgazdag özveggyel való találkozása szinte álomszerü megoldásnak
+            tünt fel. Akkora szerencsét nem is remélt, hogy a nő, akinek segitségével megoldja
+            zavaros anyagi helyzetét, nem csak gazdag, hanem még szép, elmés, minden tekintetben
+            tökéletes lény is.</p>
+         <p>A legkitünőbb hangulatban szálltak ki a vitorlásból és megállapodtak, hogy este a
+            szálloda halljában találkoznak, ahonnan együtt mennek a kaszinóba.</p>
+        
+         <p>Mikor Lizi halványlila estélyi ruhájában megjelent a szálló előcsarnokában, még a
+            portásnak is tátva maradt a szája. Pedig Mr. Louis már elmult ötvenéves, harminc
+            esztendeje szolgált a Riviera különböző szállodáiban és igy már minden eleganciával és
+            szépséggel szemben edzve volt. De Lizi világos szőkesége, sima, habfehér bőre ugy
+            ragyogott, világitott, olyan királynői szépségben emelkedett ki a pasztellkék
+            selymekből, hogy annak nem lehetett ellentállni.</p>
+         <p>Lizi érezte, hogy szép, hogy sokkal szebbnek látszik, mint amilyen valójában és
+            elégedett pillantást vetett a szemközti tükörbe. De ugyanakkor ijedten rezzent meg. Egy
+            ismeretlen elegáns fiatalembert pillantott meg, aki közvetlenül a háta mögött állt és
+            ugy látszott, hogy éppen meg akarja szólitani.</p>
+         <p>- Asszonyom, - mondotta kényszeredett hangon, melyet olyan rekedtté tett az izgalom,
+            hogy alig lehetett érteni, - engedje meg, hogy bemutatkozzam. Nevem Goold... James
+            Goold...</p>
+         <p>Lizi méltatlankodva mérte végig.</p>
+         <p>- De uram... mit gondol... hogy merészel...</p>
+         <p>Goold olyan mozdulatot tett, mint aki el akarja vágni a megindult szavak áradatát.</p>
+         <p>- Mindent tudok, kérem, - mondotta gyorsan. - Ön özvegy, bárónő és éppen bele akar
+            szeretni egy osztrák grófba. Nagyon kérem önt... hallgasson rám... ne tegye ezt!</p>
+         <p>- Megőrült?</p>
+         <p>- Kérem, én nagyon jól tudom, hogy nincs időm magyarázkodni. Az ilyen érzelmi
+            kirobbanásoknak igen bonyolult okai vannak és azok ismertetése lehetetlen, mert a gróf
+            minden pillanatban megérkezhet...</p>
+         <p>- Kérem, távozzék azonnal!</p>
+         <p>- Lehetetlen! Szerelmes vagyok önbe. Ezt sürgősen tudatnom kellett, mielőtt végleg a
+            gróf mellett döntene. Atyám Chikágó leggazdagabb posztógyárosa, én pedig az egyetlen fia
+            vagyok. Regényiró... Most akartam megirni első könyvemet, de irásközben kinéztem az
+            ablakon, megláttam önt és attól kezdve nem érdekelt a regény. Csak ön... Kérem bárónő,
+            töltse velem a mai estét!</p>
+         <p>Lizi nevetett.</p>
+         <p>- Nem mondom... talán holnap... vagy máskor! De ma... teljesen ki van zárva!</p>
+         <p>Jamesnek már nem volt ideje további ostromra, mert a hall hátterében feltünt gróf
+            Hartwieg. Olyan elegáns volt, a monokli olyan imponálóan ült a szemén, annyi előkelőség
+            áradt minden mozdulatából és annyira hóditóan férfias volt, hogy Lizi abban a
+            pillanatban már egészen megfeledkezett James Gooldról, aki sirós arccal, kétségbeesetten
+            nézte, hogyan karol a gróf Lizibe és viszi a szálló előtt álló autóhoz.</p>
+         <p>- Ki volt ez a fiatalember? - kérdezte később a gróf.</p>
+         <p>- Valami Goold Chikágóból. Képzelje, szerelmet vallott nekem. De olyan kedves és naiv
+            volt, hogy nem is tudtam komolyan felháborodni...</p>
+         <p>A gróf felfigyelt.</p>
+         <p>- Micsoda Goold? Nem tud róla közelebbit?</p>
+         <p>- Csak nem akarja provokálni? Igazán semmi értelme nem lenne a botránynak.</p>
+         <p>- Nem... de szeretném tudni, kicsoda?</p>
+         <p>- Azt mondja, hogy az apja a leggazdagabb posztógyáros Chikágóban.</p>
+         <p>- Ugy? Érdekes! Egészen rokonszenves fiunak látszott!</p>
+         <p>Lizi kicsit meglepődött. Nem kerülte el figyelmét, hogy a gróf szemében valami élénk
+            érdeklődés csillant meg. És az is furcsa volt, hogy cseppet sem háborodott fel Goold
+            tolakodó fellépésén. Ámbár az is igaz, aki ilyen arisztokratikus magaslatokon trónol,
+            mint Hartwieg, az nem igen vesz tudomást olyan jelentéktelen gyerekemberről, mint James
+            Goold.</p>
+         <p>A kaszinó hangversenytermében Piccaver énekelt és Alpár Gitta. Utána a játékterembe
+            mentek, ahol Hartwieg hanyag mozdulattal néhány aranyat dobot az asztalra. Valamit
+            nyert, meg sem számolta, egyszerüen a zsebébe süllyesztette. Azután a bárba mentek, ahol
+            nagyon sok coctailt és pezsgőt ittak és feltünést keltettek tökéletes táncukkal.</p>
+         <p>Lizi elragadó volt. Csak ugy parázslott belőle a fiatalság és szenvedély.</p>
+         <p>Gépfegyverszerü gyorsasággal sorakoztatta fel azokat a finom, apró trükköket, melyeknek
+            a férfiakra való hatását alaposan ismerte. Egyszerre igyekezett a férfi érzékeire és
+            képzelő erejére hatni. Bágyadt, szinte alélt mozdulattal dőlt hátra, lábait keresztbe
+            rakta, hogy azoknak finom vonala tökéletes szépségben érvényesült, a poharat valami
+            játékos, ingerkedő mozdulattal emelte ajkához és ahogyan belekóstolt a habzó nedübe, az
+            inkább csókhoz hasonlitott, mint iváshoz.</p>
+         <p>A gróf boldog volt. Érezte, hogy ez az a pillanat, amikor a siker teljes reményével
+            indulhat rohamra.</p>
+         <p>- Hanna, Hannácska! - sugta lágyan - sohasem értettem, hogy miért éppen a Rivierán
+            szedik azokat a virágokat, melyekből a világ legtökéletesebb parfömjeit gyártják. De ma
+            éjszaka mind ez megvilágosodott előttem. Sehol nem éreztem még ennyire a virágok lelkét,
+            a belőlük áradó mámort és a szerelmet, amelynek minden varázsa most magát öleli
+            körül...</p>
+         <p>- Ah! Ki tudja, hány nőnek mondta már mindezt! - sóhajtotta Lizi, mint ahogyan az ő
+            helyében a világ minden nője ezt mondotta volna.</p>
+         <p>- Hát hogyan győzzem meg arról, hogy komolyan, kimondhatatlanul tetszik nekem. Hogy
+            szeretem és meg vagyok őrülve! Könyörgöm, higyjen nekem. Ha tudna csodákban hinni, mint
+            ahogyan én tudok, ha természetesnek találná azt, hogy magasabb végzet irányitja az
+            emberek utját és hogy nem véletlen az, hogy mi ketten itt, ebben a csodálatos éjszakában
+            találkozunk! Az események néha expresszvonat sebességével rohannak. És én ugy érzem,
+            elérkeztem a nagy állomáshoz. A célhoz, ahonnan nem akarok tovább menni. Nézzen rám,
+            Hanna, adja ide a kezét és válaszoljon: akar a feleségem lenni?</p>
+         <p>A gróf e pillanatban valóban a tökéletes szerelmes képét nyujtotta. Don Juan és Casanova
+            együttesen sem tudtak volna több érzést, lendületet és férfiui erőt mutatni, ami nem
+            csoda, mert Hartwieg valóban érezte is azt, amit mondott. Komolyan beleszeretett a
+            bárónőbe. És homályosan valami gunyos diadalérzés is vegyült szerelmébe. Hogyan fognak
+            bámulni a hitelezői, akik azt hiszik, hogy valami csunya, vén, elhizott amerikai
+            dollárkirálynőt fog hazavinni és ehelyett egy tündérkirálynő fog kiszállni az
+            autóból.</p>
+         <p>De ekkor valami egészen váratlan, megdöbbentő dolog történt.</p>
+         <p>A bárónő sirva fakadt.</p>
+         <p>Olyan heves, szivettépő, felcsukló sirással zokogott, hogy a gróf egészen
+            megzavarodott.</p>
+         <p>- De drága... kérem, vegyen erőt magán! Mi történt? Megbántottam?</p>
+         <p>De a bárónő nem is tudott válaszolni. Még szerencse, hogy ez a jelenet a kaszinó
+            parkjának egyik elhagyott részében történt, különben bizonyára kinos feltünést keltettek
+            volna. A gróf könyörögve akarta megragadni a bárónő kezét, de az kétségbeesett
+            mozdulattal kiszabaditotta magát és egyenesen a park mellvértjének rohant, amely a
+            tenger felett nyult ki és ugy látszott, mintha belé akarná vetni magát.</p>
+         <p>A gróf ijedten ugrott eléje.</p>
+         <p>- Az Isten szerelmére! Mit jelent ez?</p>
+         <p>A szegény bárónőt, ugy látszik, végleg elhagyta ereje. A nagy felindulástól szinte
+            eszméletlenül rogyott a gróf karjaiba és a könnyei végigfolytak a szmoking fehér
+            ingplasztrónján.</p>
+         <p>- Hagyjon el bocsásson el... ne törődjön velem! - fuldokolta keserves könnyek
+            között.</p>
+         <p>- De hát miért? Mit tettem? - kérdezte a gróf, aki már egészen hülyének érezte
+            magát.</p>
+         <p>- Nem haragszom! Én magamat gyülölöm! Oh... az rettenetes, amit én csináltam. Soha...
+            soha nem tudom megbocsátani magamnak!</p>
+         <p>- Könyörgöm, csillapodjon... mondja el szépen, összefüggően, hogy miről van szó?</p>
+         <p>- Istenem, hogyan fogom én ezt tulélni? - tördelte kezeit a bárónő. - Meg fog vetni,
+            gyülölni fog... és én ezt nem élem tul!</p>
+         <p>- De Hanna... édes kis szerelmem. Térjen magához. Hiszen látja, hogy imádom. Mit jelent
+            ez? Mi történt?</p>
+         <p>- Borzasztó... jóvátehetetlen dolog történt. Oh, nem is tudom, hogyan mondjam el. Én...
+            én hazudtam magának!</p>
+         <p>- Hazudott? Nem szeret engem!</p>
+         <p>- De szeretem. És éppen ez a baj. Hogy szeretem. Ezért hazudtam. Napokon keresztül
+            láttam... most már bevallhatom, titokban mindig maga után lestem. Minden lépéséről
+            tudtam. Tetszett nekem. És álmodozni kezdtem... Arra gondoltam, hogy mi ketten milyen
+            szépen tudnánk kettesben élni. Én még sohasem voltam szerelmes, talán azért rázott meg
+            ennyire ez a felfedezés. Hogy szeretek... Oh, maga nem sejtheti, hogy mit jelentett
+            számomra ez az érzés. Ugy reszkettem, féltem, hogy csalódás érhet, hogy elveszthetem azt
+            a férfit, akit mindenáron meg akartam hóditani. A legtökéletesebbet, a legkiválóbbat,
+            akivel életemben találkoztam. Már nem is akartam mindent, csak éppen néhány boldog
+            napot, valamit, amire egész életemben emlékezhessek. De tudtam, hogy ez is lehetetlen.
+            Hiszen én csak egy egyszerü, szegény kis szinésznő vagyok...</p>
+         <p>- Tessék? - képedt el a gróf és érezte, hogyan szökik ki a vér arcából.</p>
+         <p>- Igen... hazudtam magának. Az egyenrangu szerelem szépségét és édességét akartam
+            élvezni, ezért mondtam, hogy bárónő vagyok. És maga megkérte a kezemet. Én ezt nem élem
+            tul... Én ma éjszaka meghalok!</p>
+         <p>És megint sirt, miközben égő arcocskáját a gróf arcához nyomta és az ajka remegve,
+            lázasan, dideregve tapadt a gróf szájához és elperzselte, megsemisitette az összes
+            ellenérveket. A gróf a lelke mélyén nagyon szégyelte magát, hiszen ő is hazudott és ez a
+            bübájos teremtés valóban megérdemelte, hogy szeressék.</p>
+         <p>Elnevette magát.</p>
+         <p>- Szerelmem, - mondotta, - kár gyötörni magadat. Tudod mit? Akkor hát én is elárulom,
+            hogy hazudtam.</p>
+         <p>- Nem vagy gróf? - hökkent meg Lizi és nyomban beszüntette a zokogást.</p>
+         <p>- De igen, gróf vagyok, sőt a birtokaim is megvannak még, csak éppen annyi az adósságom,
+            hogy a hitelezőim bármely pillanatban elvehetik utolsó párnámat is. Most már bevallom,
+            azért jöttem ide, hogy sürgősen feleségül vegyek egy milliomos kisasszonyt.</p>
+         <p>- Oh te, csirkefogó! - nevetett hahotázva Lizi.</p>
+         <p>És jókedvüen összecsókolództak, mint akik teljesen egymáshoz illő cimborák. De hamarosan
+            kijózanodtak és belátták, hogy valami okosat kell kitalálniok.</p>
+         <p>- Tudod, - mondta a gróf, - az a baj, hogy egészen komolyan belédszerettem!</p>
+         <p>- Fájdalom, én is imádlak! - válaszolta Lizi.</p>
+         <p>- Még utóbb csakugyan feleségül veszlek! - vakarta a fejebubját Hartwieg. - Hiszen csak
+            ne volnának ezek az átkozott pénzgondok. Okvetlenül pénzt kell szereznünk!</p>
+         <p>- De hogyan? - kérdezte Lizi.</p>
+         <p>Hartwieg néhány szippantást tett, mint aki nagyon gondolkozik, azután csendesen
+            megkérdezte:</p>
+         <p>- Mit gondolsz, csakugyan olyan nagyon gazdag ez a Goold?</p>
+         <p>Lizi meghökkenve nézett a grófra.</p>
+         <p>- Csak nem gondolod, csak nem arra célzol, hogy talán én kérjek tőle pénzt?</p>
+         <p>- A világért sem. Neked csak egy dolgod lesz. Légy hozzá nagyon kedves. Természetesen
+            csak a megengedett határokon belül. Az ifjut sürgősen barátságunkba fogadjuk. Ha sikerül
+            a tervem, akkor mégis csak mint férj és feleség fogunk innen elutazni!</p>
+        
+         <p>James Goold uszott a boldogságban. Mindennap eszébe jutott néhány nagyszerü mondat,
+            amely a szerelem szépségére vonatkozott és ezeket gyorsan noteszébe jegyezte. Ugy
+            érezte, hogy regénye most már valóban tökéletes lesz. Olyasfélére gondolt, hogy ő egy uj
+            Kolombusz Kristóf. Az első Kolombusz Európából indult el és felfedezte Amerikát. Ő pedig
+            Amerikából jött Európába és felfedezte a szerelmet.</p>
+         <p>De hát, ami igaz, az igaz és nem is lehetne letagadni. Hanna bárónő a világ
+            legelragadóbb teremtése volt. James még sohasem találkozott kellemesebb és vidámabb
+            pajtással. És ugy látszik, hogy a gróf megneszelhetett valamit. Észrevette, hogy Hanna
+            talán egy gondolattal kedvesebb Gooldhoz, mint hozzá és mintha levonta volna ennek
+            konzekvenciáját. Tapintatosan a háttérbe vonult, nem zavarta Goold és Hanna
+            együttlétét. Rendesen olyankor támadt dolga, amikor Goold nagyobb kirándulást
+            inditványozott és igy csak az ifju amerikai és a bárónő mentek kettesben autózni, vagy
+            vitorlázni. Átmentek Cannesba, egy egész napot töltöttek Monte Carloban és Grasseban és
+            a dolgok odáig fejlődtek, hogy James már egészen komolyan gondolkozott azon, hogy a
+            bárónőt megcsókolja. De Hannában minden pajkossága és csapongó jókedve mellett is volt
+            valami méltóságteljes tartózkodás. Goold elhatározta, hogy óvatos és tapintatos
+            lesz.</p>
+         <p>Semmit sem akart kockáztatni.</p>
+         <p>Délutánonkint rendszerint a gróffal kártyázott. James nem szeretett kártyázni, de
+            érezte, hogy valami hálával tartozik a grófnak, aki vele szemben annyi gyengéd
+            megértéssel viselkedett. Egyébként hamarosan kitünt, hogy a gróf egyáltalában nem
+            tartozik a veszedelmes nőhóditók táborába. Ellenkezőleg. A legkomolyabb üzletember,
+            akinek kizárólag nagy alapitásokon, birtokberuházásokon jár az esze. Hosszu előadásokat
+            tartott az ifju Gooldnak birtokairól, a mintagazdaságról és végül egészen bizalmasan
+            elárulta jövendő terveit: meg akarja feltünés nélkül vásárolni a birtokával határos
+            hatalmas területeket, melyeken titokban próbafurásokat végeztetett és kiderült, hogy
+            azokon gazdag petróleumforrások és ércerek vannak. A vásárláshoz szükséges hatalmas
+            tőkéhez azonban társat keres. És néhány nap mulva beszélgetés közben bizalmasan
+            megkérdezte Jamestől, hogy nem volna-e kedve vele társulni? Bevallotta, hogy
+            ismerkedésük rövid ideje alatt is nagyon megkedvelte és szivesen venné társul a fényes
+            üzlethez.</p>
+         <p>Goold olyanfélét mondott, hogy ő nem ért üzletekhez és hogy őt csak az irodalom érdekli.
+            De ettől kezdve a bárónő viselkedésében feltünő változás állt be. Mintha valahogyan
+            megszimatolta volna, hogy James és a gróf miről beszélgetnek, állandó célzásokat tett
+            arra, hogy nem szereti a foglalkozásnélküli fiatalembereket és hogy Jamesnek is illene
+            valami komoly vállalkozásba kezdeni. James udvarlását feltünően hüvösen fogadta és
+            szemmel látható volt, hogy megint a grófhoz közeledik. Egymásután mondta le a kettesben
+            tervezett kirándulásokat és ugyanakkor a gróffal sétálgatott. James majdnem meghalt a
+            féltékenységtől. Belátta, hogy erélyes és döntő lépésre kell magát elhatároznia. És még
+            aznap délután megkérdezte a gróftól, hogy vajjon egy ilyen nagyszabásu
+            telekspekulációnál és petróleumtröszt alapitásánál feltétlenül szükséges-e az ő
+            személyes közremüködése?</p>
+         <p>A gróf sietve jelentette ki, hogy erről szó sincsen. Ha ugy akarja, sohasem kell a
+            vállalat felé néznie. Hiszen minden munkát ő fog vállalni. Neki már megvannak a régi,
+            bevált emberei, csupa elsőrendü szakember. Gooldnak semmi más dolga nem lesz, csak a
+            jövedelmet kell negyedévenkint felvennie. Nyugodtan irhatja közben a regényeit...</p>
+         <p>És néhány órával később Goold ragyogó arccal jelentette be a bárónőnek, hogy van már
+            foglalkozása. Betársul a gróf nagy birtokvásárlási akciójába. És megkérdezte, hogy mi a
+            bárónőnek erről a véleménye?</p>
+         <p>A bárónő el volt ragadtatva. Kijelentette, hogy, a grófot a legkomolyabb és legszolidabb
+            üzletembernek tartja, akinél James pénze a lehető legjobban lesz elhelyezve.</p>
+         <p>És tuláradó lelkesedésében megcsókolta Gooldot.</p>
+         <p>- Hálából, amiért a kedvemért rendes ember lett! - mondotta pirulva.</p>
+         <p>Goold szinte táncolva ment haza ezen az emlékezetes délután. Rózsaszinünek látta az
+            egész világot, mert persze nem hallotta, amint Hartwieg gróf elragadtatva gratulált a
+            bárónőnek:</p>
+         <p>- Te vagy a világ legzseniálisabb asszonya! Most még csak egy kis kitartás és uszni
+            fogunk a pénzben!</p>
+         <p>Lizi bólintott.</p>
+         <p>- Bizony ideje lesz már! Képzeld, a szobafőnök ma már egészen rideg célzásokat tett
+            arra, hogy nem várhat tovább a számla kifizetésére!</p>
+         <p>A gróf a homlokát ráncolgatta.</p>
+         <p>- Azt hiszem, - mondotta - holnap megkötöm a szerződést Goolddal és egyidejüleg nagyobb
+            előleget kérek tőle!</p>
+         <p>- Remek! - válaszolta Lizi. - Mindenesetre igyekeznünk kell Goold urat minél kitünőbb
+            hangulatban tartani.</p>
+         <p>- Vele fogjuk az estét tölteni! - inditványozta a gróf.</p>
+         <p>Ebben meg is állapodtak. És este már együtt vonultak a kaszinóba.</p>
+         <p>Gooldnak olyan jó kedve volt, hogy madarat lehetett volna vele fogatni. Vidáman
+            csevegett mindenről és végül bejelentette, hogy neki is lenne valami nagy kérése.</p>
+         <p>- Halljuk! - mondotta Lizi.</p>
+         <p>- Én már teljesitettem a bárónő kivánságát és kedvéért belementem egy komoly üzleti
+            vállalkozásba. Most azonban nekem van egy nagy kivánságom. Arra kérem, hogy vegyen részt
+            a szombaton tartandó szépségversenyen!</p>
+         <p>- Miért kivánja ezt? - nevetett Lizi.</p>
+         <p>- Bevallom őszintén... a papa kedvéért! A papa mindig azt mondta, hogy én olyan
+            fantaszta vagyok, hogy bizonyára arról álmodozom, hogy egy királynőt fogok feleségül
+            venni. Most meg akarom tréfálni az öreget. Tudomására akarom hozni, hogy végre csakugyan
+            megtaláltam azt a bizonyos királynőt. Egy szépségkirálynőt! És minek tagadjam? Férfi
+            vagyok és hiu. Dicsekedni akarok azzal, hogy ha még nem is irtam meg a legtökéletesebb
+            regényhősnőt, de mindenesetre már megtaláltam és a magam számára foglaltam le!</p>
+         <p>- De ha nem leszek nyertes? - kérdezte Lizi.</p>
+         <p>- Ki van zárva! - kiáltotta felháborodva James. - Micsoda gondolat! Hát látott ön már
+            szebbet és különbet egész Nizzában vagy az összes környező fürdőhelyeken magánál?</p>
+         <p>- Félek, hogy nagyon elfogult kedves Goold!</p>
+         <p>- Nem, ez az igazság! Egyébként bizza rám. Maga csak igérje meg, hogy résztvesz a
+            versenyben!</p>
+         <p>- Megigérem!</p>
+         <p>- Hurráh! - kiáltotta Goold és temperamentumos mozdulattal a földhöz vágta pezsgős
+            poharát.</p>
+         <p>Ettől a pillanattól kezdve Goolddal nem lehetett birni. Nem fért a bőrében. Később,
+            mikor bementek a játékterembe, Goold már egészen részeg volt a boldogságtól és olyan
+            őrültségeket követett el, hogy az egész terem már őt figyelte. Meg volt győződve, hogy
+            neki ma okvetlenül nyernie kell. És következetesen mindig a tizenhármas számot rakta meg
+            a rouletten, igen nagy összeggel. Persze a szám egyszer sem jött ki. Rengeteget
+            veszitett. Csak mikor már utolsó frankja is eluszott, akkor kapott észbe.</p>
+         <p>- Te jó Isten! - kiáltotta - hiszen én tévedtem! Ugy emlékeztem, hogy a közmondás azt
+            tartja, hogy aki szerencsés a szerelemben, az a kártyában is nyer. Pedig éppen forditva
+            van! És ez kétszázharmincezer frankomba került! Na, nem baj. Majd sürgönyzök haza uj
+            pénzért. De most egy cent nélkül maradtam. Kedves Hartwieg gróf, ugy-e, lesz szives
+            huszezer frankot kölcsönözni? Hiszen a közel jövőben ugyis társak leszünk!</p>
+         <p>A gróf elsápadt. Azután zöld lett, majd megint piros. Legszivesebben megfojtotta volna
+            Gooldot. Ilyen átkozott pechre valóban nem számitott. Neki kellett legsürgősebben pénz
+            és most még tőle kérnek kölcsön! De a kérelem elől nem lehetett kitérni, hiszen egész
+            jövőjét a Goolddal való barátságra épitette.</p>
+         <p>Mosolyt tettetve nyult tárcájába:</p>
+         <p>- Sajnos, én is kifogytam kissé a pénzből, a napokban kapok csak ujabb pénzt hazulról.
+            De ötezer frankkal szivesen szolgálok!</p>
+         <p>Goold nevetve vette át a pénzt.</p>
+         <p>- No, ilyen kevés pénzem sem volt még életemben. Nem baj. Megpróbálok néhány napig
+            szegény ember lenni. Szerencsémre a szállodában ismernek. Ott akár egy esztendeig is
+            meglehetek hitelben!</p>
+         <p>- De hogyan lehetett ilyen könnyelmü? - mondotta szemrehányóan Lizi.</p>
+         <p>Goold vállat vont.</p>
+         <p>- Ugyan kérem! Ez a kétszázezer frank igazán nem számit. Hiszen a gróf ur által ajánlott
+            üzleten fél év alatt megkeresem a dupláját!</p>
+         <p>És zavartalan jókedvvel bucsuzott el azzal, hogy másnap majd együtt hajóznak Juan les
+            Pinsbe.</p>
+         <p>- Természetesen a vendége leszek! - mondotta vidáman Hartwiegnak. - Ameddig a pénzem nem
+            jön meg Amerikából, addig most már magának kell rólam gondoskodnia!</p>
+         <p>Szerencsére az autó tovább robogott és igy már nem hallotta azt a cifra káromkodást,
+            melyet Hartwieg e nyájas kijelentés hallatára eldörmögött. Lizi is el volt szörnyedve és
+            nem is tiltakozott, mikor a gróf azt mondta:</p>
+         <p>- Te, én esküszöm, kitekerem ennek az átkozott fickónak a nyakát!</p>
+        
+         <p>A szépségverseny izgalmai minden várakozást felül multak. A februári karnevál
+            jelentősége egyszerüen eltörpült a májusi szépségkirálynő választása mellett. Már két
+            nap óta zsufolva érkeztek a vonatok Nizzába. A leghiresebb filmrendezők és gavallérok
+            valamennyien jelen akartak lenni a legszebb nők felvonulásánál. A fényképészek rajvonala
+            legalább félkilométer hosszuságra nyult.</p>
+         <p>A jelentkezőknek fürdőtrikóban kellett felvonulniok a zsüri előtt. A zsüri elnöke a
+            párizsi Matin szerkesztője és egy világhirü szobrászmüvész volt. De helyet foglalt
+            soraiban a nizzai nagyvilági társaság több hölgytagja, néhány ismert milliomos, egy
+            angol szinész és a francia közoktatásügyi minisztérium egyik államtitkárja.</p>
+         <p>A tribünök tömve voltak. A verseny délután ötkor kezdődött, de már fél ötkor nem
+            lehetett mozdulni a felvonuló autótábortól. Az angol sétányon megakadt a forgalom, a
+            hangulat viharosan izgatott és lármás volt. Zenekarok játszottak, rendezők rohantak és
+            orditoztak, mindenféle zászlókat lobogtattak, parancsszavak röpködtek és ugy látszott,
+            ebből a káoszból sohasem fog rend születni.</p>
+         <p>Közben a résztvevők hatalmas csoportja egy elkeritett helyen vetköződött. Amerika,
+            London és Párizs legszebb trikói vonultak fel. Raffináltabb selyemkölteményeket még nem
+            szült a divattervezők képzelő ereje. A hátak természetesen teljesen mezitelenek voltak,
+            a vállak is teljesen szabadok. Csak egy vékony kis selyemszalag tartott valami
+            lehelletnyi virágszirmokhoz vagy lepkeszárnyhoz hasonló melltartót. A trikó
+            összterjedelme nem volt több két tenyérnyinél, de azért rengeteg ideig tartott, amig
+            ehhez a csöppnyi ruhadarabhoz a hölgyek elkészültek toilletjeikkel. Az ember nem is
+            hinné, hogy a mezitelen testet milyen sokáig kell előkésziteni, hogy a nyilvános
+            megjelenésre alkalmas legyen. A hölgyek először tetőtől talpig bekenték magukat finom
+            krémekkel, melyek puhává és bársonyossá varázsolták bőrüket, erre fehéritőt raktak,
+            amitől viszont olyanok lettek, mintha márványból faragták volna őket. Végtelen gonddal
+            és izléssel választották meg a trikóhoz hangolt magassarku cipőt, amely megnyujtotta
+            alakjukat és elegánssá tette járásukat. A legraffináltabb módon tervezték meg
+            frizurájukat. Antoine mester, a fodrászok királya személyesen jött el Párizsból és külön
+            modelleket alkotott a szépségversenyre. Egy ilyen eredeti modellért ötezer frankot kért.
+            Természetesen a legnagyobb gonddal készült az arc kozmetikája is. A legtöbben barnás
+            tónusra hangolták arcbőrüket, ami nagyon pikánsan hatott és a tropusok forróvérü
+            asszonyait és leányait juttatta a nézők eszébe.</p>
+         <p>Goold James Hartwieg gróf mellett ült az egyik páholyban. Valamennyi résztvevő közül ő
+            izgult legjobban. Már előző napon bemutatkozott a zsüri elnökének, érdeklődött, hogy
+            milyen szempontok alapján választják ki a győzteseket, hatalmas virágcsokrokat rendelt
+            előre Lizi számára, ami valósággal felbőszitette a grófot, akinek mindezt fizetnie és
+            előlegeznie kellett, mert James ur pénze még mindig nem érkezett meg.</p>
+         <p>- Kérlek, Lizi - mondotta Hartwieg a méregtől remegve -, mondd meg Gooldnak, hogy te
+            semmiféle figyelmességre nem tartasz igényt. Ez a gazfickó egészen tönkretett engem.
+            Állandóan pezsgőztet és a legdrágább ételkülönlegességeket rendeli az én számlámra.</p>
+         <p>- A helyzet nagyon kényes! - válaszolta Lizi. - Mert ha én most leszoktatom arról, hogy
+            költekezzen, akkor később is fukar lesz, mikor a saját pénzét fogja szórni!</p>
+         <p>- Rémes! - mormogta Hartwieg, aki már csakugyan utolsó frankjait költötte. - Ha két
+            napon belül nem jön meg az amerikai pénz, én sem tudom már fizetni a szállodai számlát!
+            Hiszen tudod, az autómat is elzálogositottam már. Gooldnak persze azt mondtam, hogy
+            javitani adtam.</p>
+         <p>De abban a pillanatban, mikor a szépségverseny kezdetét jelző harsonák megszólaltak,
+            Hartwiegnak is megdobbant a szive. Hiszen változatlanul szerelmes volt Lizibe és szivből
+            kivánta, hogy ő legyen a győztes.</p>
+         <p>A dolog remekül kezdődött.</p>
+         <p>A közönség minden résztvevőt megtapsolt - hiszen csak az előzetes selejtező
+            mérkőzésekből győztesként kikerült hölgyek vehettek részt a versenyen -, de amikor Lizi
+            vonult el a zsüri előtt, a taps egyenesen viharzóvá lett. Lizinek egészen groteszk
+            ötlete támadt. Ezüst trikóba öltözött, amelynek szerencsés szine még érdekesebbé,
+            titokzatosabbá, fehérebbé tette bőrét és fokozta fius testének karcsuságát.</p>
+         <p>- Nyerni fog! Ő a legszebb! - kiáltotta lelkesülten James.</p>
+         <p>Csakugyan, minden jel erre vallott.</p>
+         <p>Lizi játszi könnyedséggel került a döntőbe. Az utolsó mérkőzésnél már csak hárman
+            voltak. Egy svéd lány, aki feltünően hasonlitott Gréta Garbóhoz, egy pikáns, fekete
+            francia szépség és Lizi.</p>
+         <p>A közönség tombolt, meg volt őrülve. Pártok születtek pillanatok alatt és mindegyik a
+            maga jelöltjének a nevét orditozta.</p>
+         <p>A zsüri nehéz helyzetben volt. Sokáig tanácskozott, mig végre meghozta itéletét.</p>
+         <p>- Az első dijat Olga Tönsberg kisasszonynak itéljük oda, a második dij nyertese
+            Edelsheim Hanna bárónő.</p>
+         <p>Goold elsápadt. Mintha a mennyekből zuhant volna a földre.</p>
+         <p>- Nem a bárónő nyerte az első dijat! - motyogta egészen megzavarodva.</p>
+         <p>- Disznóság! - kiáltotta Hartwieg. - Meg kell támadni a zsüri itéletét.</p>
+         <p>De már ezen nem lehetett változtatni. A tömeg, amely mindig aláveti magát az erősebb
+            akaratnak, már megbékült az eredménnyel és torkaszakadtából éljenezte a svéd szépséget.
+            Persze a másik két nyertesnek is kijutott az ünneplésből, sokan jegyezték meg, hogy Lizi
+            sokkal szebb, mint a svéd lány, de hát az itélettel már nem lehetett vitatkozni.</p>
+         <p>A fényképészek teljes gőzzel dolgoztak, legalább hetvenhét féle felvételt készitettek a
+            győztesekről.</p>
+         <p>Végre berobogott Lizi a páholyba. Gyönyörü fürdőköpeny volt trikója fölé boritva.</p>
+         <p>- Gratulálok! - kiáltotta Hartwieg.</p>
+         <p>De Goold olyan volt, mintha leforrázták volna. Hebegett, dadogott, látszott rajta, hogy
+            valami nagy változáson ment keresztül.</p>
+         <p>- Mi történt magával? - kérdezte Lizi megrökönyödve.</p>
+         <p>- Kérem... ez borzasztó... ez hihetetlen! - dadogta Goold.</p>
+         <p>- Micsoda?</p>
+         <p>- Hogy magának csak a második dijat itélték oda.</p>
+         <p>- Ugyan! Nincs ennek semmi jelentősége. Ettől én még egy hajszállal sem lettem csunyább.
+            Olga svéd lány, filmszinésznő. Rettenetesen dolgoztak az érdekében. Hallom,
+            dollárezreket költött az impresszáriója, hogy megdolgozza a közhangulatot. Hiszen már
+            napok óta olvashatta a lapokban megjelenő kommünikéket. A zsüri megsajnálta. Azt
+            gondolták, a svédnél életkérdés az első dij, nálam legfeljebb hiuság... Hát neki adták.
+            De hiszen hallotta, hogy mit mondott az elnök: nagyon nehezen tudtunk dönteni, mert az
+            igazság az, hogy az első és második dij győztese egyformán szép...</p>
+         <p>De Goold mintha nem is hallotta volna Lizi szavait. Szinte sértően szórakozott volt.
+            Látszott rajta, hogy a gondolatai egészen máshol járnak. Valami kifogást rebegett és
+            azután eltünt. Még az előre vásárolt virágokat is elfelejtette átadni Lizinek.</p>
+         <p>- Ez megőrült! - mondotta Lizi.</p>
+         <p>- Tyüh, a kutyafáját! - káromkodta el magát Hartwieg. - Szépen vagyunk! Ez a fickó
+            kiábrándult belőled! Vége az üzletnek...</p>
+         <p>Sajnos, Hartwieg balsejtelme valónak bizonyult. A verseny után néhány órával Gooldot
+            Olga Tönsberg kisasszony társaságában pillantották meg a kaszinó parkjában.</p>
+         <p>- Ezt nem türhetjük! - kiáltotta felháborodva Hartwieg.</p>
+         <p>- De hát mit tegyünk? Látod, éretlen, hiu fickó, akinek nincsen sem önálló itélete, sem
+            izlése.</p>
+         <p>- Itt csak egy dolog segithet! - mondotta sötéten a gróf. - Miss Tönsberget el kell
+            tüntetni!</p>
+         <p>- Hogy érted ezt? - kérdezte riadtan Lizi.</p>
+         <p>- Még magam sem tudom. De nem lehet kesztyüs kézzel a dologhoz nyulni. Ez élet-halál
+            harc! És ebben a harcban okvetlenül nekünk kell győznünk!</p>
+        
+         <p>Másnap reggel James Goold frissen vasalt porcellánnadrágban, strandcipőben, sötétkék,
+            aranygombos kabátban ült a Plantage parkjában és türelmetlenül pillantgatott órájára,
+            amiből nyilvánvaló, hogy várt valakit. Igen rózsás hangulatban volt és elégedetten
+            fütyürészett.</p>
+         <p>- Jó reggelt, mister Goold! - köszöntötte hirtelen Jean ur. - Szabad érdeklődnöm, hogyan
+            halad a regény?</p>
+         <p>- Remekül, monsieur Jean! Képzelje, megvan a bonyodalom. A hős szakit az ideáljával és
+            egy uj nő karjaiba veti magát! Azt hiszem, nagyon érdekes és izgalmas lesz.</p>
+         <p>- És ezt a második nőt már feleségül veszi? Vagy kiábrándul belőle és visszatér az
+            elsőhöz?</p>
+         <p>- Szó sincs róla!</p>
+         <p>- És miért szakitott az elsővel?</p>
+         <p>James ravaszul hunyoritott.</p>
+         <p>- Hát tudja, ez éppen a szenzáció, az irodalmi ujitás, amellyel, remélem óriási
+            feltünést fogok kelteni. Ön bizonyára sokat olvas, Jean ur?</p>
+         <p>- Hogyne, kérem! Valamikor kétezer kötetes könyvtáram volt!</p>
+         <p>- Akkor tudja, hogy a regényeknek különböző fajtái vannak. Vannak kalandor regények,
+            lélektani regények, történeti regények. Az enyém: a szépség regénye. Munkám hőse ugyanis
+            maga a szépség. A férfi halálosan szeret egy nőt, mert azt hiszi, hogy az a legszebb a
+            világon. Azután kiderül, hogy tévedett. Megtalálja a még szebbet. A férfi végzete, hogy
+            rajongója, beteges szolgája és mániákusa a szépnek. Amikor megpillantja a még
+            tökéletesebb nőt, egy pillanatig sem habozik. Ugy követi, mint lepke a fényt, vagy a
+            holdkóros a holdat. Nem tétovázik, nem magyaráz, egyszerüen hozzá szegődik, mert nem
+            cselekedhet másképen. Mit szól hozzá?</p>
+         <p>- Remek!</p>
+         <p>- És uj, kedves barátom! Azt hiszem, világsikerem lesz!</p>
+         <p>A szálloda hallja felől Hartwieg gróf közeledett.</p>
+         <p>- Jó reggelt, kedves grófom! - üdvözölte kedvesen James. - Remélem, nem a pénzét jött
+            behajtani? Igazán nagyon restellem a dolgot. De azt hiszem, holnapra feltétlenül
+            megjönnek a dollárjaim.</p>
+         <p>- Ah, kérem, nem olyan sürgős! - intett hanyagul Hartwieg, noha valójában sirni
+            szeretett volna mérgében. - Egészen másról van szó. Megengedi, hogy helyet foglaljak
+            asztalánál?</p>
+         <p>James kissé zavart mozdulatot tett.</p>
+         <p>- Izé... bocsánat természetesen nagyon szivesen látom bármikor, de én most egy hölgyet
+            várok.</p>
+         <p>A gróf bólintott.</p>
+         <p>- Tudom és éppen ezért... Ugyanis én is szeretnék Tönsberg kisasszonnyal beszélni.</p>
+         <p>- De bocsánatot kérek...</p>
+         <p>- Kedves Goold ur, nékünk sürgősen tisztáznunk kell valamit...</p>
+         <p>- Ha szabad kérnem, nagyon röviden! Hiszen értheti...</p>
+         <p>- Mindent megértek. A dolog lényege, hogy néhány hét előtt, mikor én egy hölgynek
+            udvaroltam, ön váratlanul kettőnk közé lépett és ezt a hölgyet, akit én rendkivül
+            szerettem, elhóditotta tőlem. Engem igen kinosan érintett a dolog, de mint gentleman,
+            aki tisztelem az emberek egyéni szabadságát, ugy éreztem, hogy minden szerelmi harc
+            erőmérkőzés és ha ön bizonyult erősebbnek, ugy nekem kötelességem a nőt átengedni...</p>
+         <p>- Ez valóban uri és nobilis volt...</p>
+         <p>- Köszönöm! De ugy érzem, semmiféle elismerésre nem tarthatok igényt, hiszen az én
+            helyemben minden más uriember igy viselkedett volna. Természetesen ön is!</p>
+         <p>- Hogyne! Magától értetődik!</p>
+         <p>- Hát éppen erről van szó, kérem. Nékem ugyanis végtelenül tetszik Tönsberg kisasszony,
+            éppen ugy, mint önnek. Mi tehát meginditjuk a közös ostromot és amelyikünk erősebbnek
+            fog bizonyulni, az lesz a győztes!</p>
+         <p>James orra szemlátomást megnyult és igen kinosan feszengett.</p>
+         <p>- Kedves gróf ur - dadogta -, bármennyire logikus, amit mond, be kell látnia, hogy
+            mégsem maradhat itt. Mi egy kettesben való kirándulást beszéltünk meg és teljesen
+            lehetetlen, hogy ön ehhez csatlakozzon!</p>
+         <p>- A szerelem háboruja nem ismer lehetetlenséget! - mondotta a gróf.</p>
+         <p>A vitát egyébként nem lehetett folytatni, mert ebben a pillanatban jelent meg Tönsberg
+            kisasszony. Elbüvölő volt. A győzelem mámora még szebbé varázsolta. Kissé meglepetten
+            nézett Hartwiegre, akinek jelenléte meglepte.</p>
+         <p>A gróf ellenben a született nőhóditó elragadó kedvességével üdvözölte és
+            bemutatkozott.</p>
+         <p>- James régi barátja vagyok, aki már két hét előtt nekem igérte a mai napját. Remek
+            időnk van... azt hiszem, pompás lenne kisuhanni a tengerre... A legpompásabb yachtot
+            béreltem ki. El vagyok ragadtatva, hogy önt is vendégül láthatom...</p>
+         <p>Tönsberg kisasszony értett a férfiakhoz. Első pillanatra megérezte, hogy a grófot nem
+            szabad könnyelmüen elejteni. Egyáltalában a nő helyzete akkor a legbiztosabb és a
+            legtöbb eredményt akkor érheti el, ha egyszerre két férfi küzd érte. Akkor mindegyik
+            féltékeny a másikra, a nő értéke erősen növekszik a szemükben, amit igen okosan és jól
+            lehet kiaknázni...</p>
+         <p>A kirándulás valóban tökéletes volt. Tönsberg kisasszony olyan tulzottan jókedvü volt,
+            mintha egy kis pezsgőmámora lett volna. A gróf szórta az elmésségeket,
+            ellenállhatatlanul szeretetreméltó volt. Goold ellenben egészen elnémult. Fuldoklott a
+            dühtől és féltékenységtől. Legszivesebben a tengerbe dobta volna Hartwieget. A keze
+            görcsösen ökölbe szorult. Felháboritotta, hogy Tönsberg kisasszony szemmelláthatóan a
+            grófhoz pártolt. Néha ugyan megkérdezte Gooldtól, hogy miért olyan rosszkedvü, miért
+            hallgat, de az ilyen kérdések inkább csipkelődzésnek hatnak, mint kedveskedésnek.</p>
+         <p>A tenger egyébként nagyon népes volt. Rengeteg vitorlás suhant el mellettük,
+            motoroscsónakok hasitották a hullámokat, némelyikről gramofon hangzott, az elegáns
+            yachtok fedélzetén táncoltak is.</p>
+         <p>A yacht vitorláit egyébként Goold kezelte. Ez jó ürügy volt arra, hogy ne kelljen
+            beszélnie és hogy elrejtse dühös hangulatát. De hát persze nem nagyon járt az esze a
+            vitorlákon, mert mindig csak azt figyelte, hogy a gróf milyen szemtelen bizalmassággal
+            flörtöl Olgával és hogy Olga milyen szivesen hallgatja. Annyira lefoglalta ez a látvány,
+            hogy észre sem vette a velük szemközt jövő másik vitorlást és a következő pillanatban
+            hatalmasat zökkent a yacht; ha Hartwieg az utolsó pillanatban nem kapja el Olga karját,
+            menthetetlenül a tengerbe zuhant volna. A másik vitorlásról is éles sikoltások, rémült
+            kiáltás hallatszott.</p>
+         <p>- Szent Isten!- kiáltotta Olga - te vagy az Elly?</p>
+         <p>A kérdést egy hölgyhöz intézte, akit éppen akkor halászott ki két ur a tengerből. A
+            fiatal lány prüsszögött, köhögött, de azért igyekezett mosolygós arcot vágni, ami nem
+            egészen sikerült, mert látszott rajta, hogy a baleset nagyon felbosszantotta.</p>
+         <p>- Őszintén szólva, Olgám, ügyesebb vitorla-mestert is választhattál volna! Egyébként
+            gratulálok, hallom, megnyerted a szépségversenyt. Én, sajnos, csak ma reggel
+            érkezhettem... nem vehettem részt...</p>
+         <p>- Nem baj Ellykém, hiszen igy is tudják, hogy te sokkal szebb vagy, mint én. Remélem, ma
+            délután találkozunk?</p>
+         <p>- Természetesen... nagyon szivesen... De csak hat órakor! Előbb ugyanis találkoznom kell
+            Graig direktorral... Tudod, a szerződésem...</p>
+         <p>- Ne fáradj fiam. Graig két nap előtt már engem szerződtetett...</p>
+         <p>- Igazán? No ennek nagyon örülök! Ugyis csak azt akartam vele közölni, hogy sokkal jobb
+            ajánlatot kaptam és inkább Billancourtba szerződöm... Tudod, Hollywood már nem a régi.
+            Csupa blöff, a gázsikat naponta leszállitják és két hét után, akármilyen szerződésed
+            van, könyörtelenül kitesznek, ha a legkisebb kifogásuk van, vagy valaki ügyesen intrikál
+            ellened. Nagyon óvlak, vigyázz...</p>
+         <p>- Köszönöm szivem. Hiszen tudom, hogy sziveden viseled a sorsomat. Tehát viszontlátásra
+            délután hatkor a Plantageban... Pá szivecském!...</p>
+         <p>A két vitorlás ismét eltávolodott egymástól.</p>
+         <p>Olga ugy nevetett, hogy két pompás fogsora megcsillogott a piros száj vonalában.</p>
+         <p>- Óh, nem is tudják, hogy milyen mulatságos volt ez a találkozás! - mondotta
+            elégedetten. - Elly, meg én, évek óta futunk egymás mellett, ahogyan már azt a mi
+            világunkba mondani szokták. És Elly mindig lemarad egy arasszal. Fogalmuk sem lehet,
+            hogy milyen mérges rám. Biztosan hetek óta készült a szépségversenyre és valami ostoba
+            véletlen akadályozhatta meg, hogy nem jelent meg idejében. Talán egy autódefektus, vagy
+            más ehhez hasonló dolog. És persze nem igaz, hogy Billancourtba szerződött... Minden
+            vágya az volt, hogy Graighez kerüljön. Szegény, majdnem visszaszédült a tengerbe, mikor
+            megmondtam, hogy már megelőztem. Mindenesetre nagyon kedves leszek hozzá délután. Azt
+            hiszem, valami kellemes meglepetést is készitek számára...</p>
+         <p>És később, mikor James nem figyelt rájuk, halkan mondotta a grófnak:</p>
+         <p>- Amint látom, Goold ur rosszkedvü és haragszik rám... Majd délután kárpótolni fogom az
+            elrontott délelőttért. Azt hiszem, nagyon fog neki tetszeni Elly, aki nagyon kedves tud
+            lenni. És azt hiszem, hogy ezzel a bemutatással Ellyvel szemben is jóvá tettem valamit
+            abból a sok bosszuságból, melyet neki okoztam.</p>
+         <p>Ez a bizalmas közlés nagyon vegyes hatással volt Hartwiegre. Egyrészt örült, mert hiszen
+            nyilvánvaló lett, hogy Olga őt választotta és Gooldot lecsusztatta. Viszont ő arra
+            számitott, hogy Olga elpártolása esetén James visszatér Lizihez. Egy uj, harmadik nő
+            felbukkanása ismét felborulással fenyegetett mindent.</p>
+         <p>Egyelőre mégis azt vélte legfontosabbnak, hogy James kiábrándult Olgából. Már nem is
+            nézett feléje, mogorván pipázott az árboc mellett és egyáltalában nem vett részt
+            beszélgetésükben. Hartwieg végül is azt inditványozta, hogy szálljanak ki. Látta, hogy
+            James egyáltalában nem is figyel a hajó irányára és félő volt, hogy a tengerbe
+            fordulnak vagy ismét összeütköznek.</p>
+         <p>Mikor a vitorlás kikötött, James azonnal el akart bucsuzni. De Olga most hirtelen
+            taktikát változtatott. Egyszerre nagyon kedves lett Jameshez és olyan sokat sejtetően
+            mosolygott rá, mintha egyszerre jóvá akarná tenni azt, hogy a délelőtt folyamán
+            elhanyagolta.</p>
+         <p>James, mint minden naiv, tapasztalatlan fiatalember, könnyen megbékült. Egy kicsit még
+            morgott, zsörtölődött, de hamarosan egészen felderült és olyan büszkén lépkedett Olga
+            mellett, akár egy páva. Látszott, mennyire élvezi azt, hogy az emberek utánuk fordulnak
+            és megbámulják Olgát. Örült, hogy az a ragyogó nő mégis csak hozzá tartozik.</p>
+         <p>Hartwieg, aki sokkal tapasztaltabb volt, persze tudta, hogy honnan fuj a szél. Tisztában
+            volt azzal, hogy most is ő tetszik Olgának és ez a kis komédia csak arra való, hogy
+            James feltétlenül jelenjen meg a délutáni találkozón, amelyen majd Elly is jelen
+            lesz.</p>
+         <p>A szállodában kellemes hir várta Gooldot. Megérkezett a pénz átutalásáról szóló
+            értesités. Sietett Hartwieg szobájába telefonálni, akivel közölte a jó hirt.</p>
+         <p>- Hallatlan, milyen különös véletlen! - mondotta a gróf. - Képzelje, én is éppen most
+            kaptam sürgönyt hazulról, melyben közlik, hogy a petroleumtelepek lefoglalására azonnal
+            ki kell fizetnem négyszázötvenezer Schillinget, különben másokkal kezdenek
+            tárgyalásokat. Már fel is hivtam telefonon a jószágigazgatómat, aki azonban azt
+            válaszolta, hogy szeptember előtt képtelen ekkora összeget előteremteni, mert forgótőkém
+            tulnyomó részét a mezőgazdasági üzemekbe helyeztük.</p>
+         <p>- Kedves gróf ur - válaszolta kissé zavartan James - még nem tudom magamat végleg
+            elhatározni... Éppen az imént beszéltem bizalmasan Tönsberg kisasszonnyal, akivel
+            tudja, hogy komoly szándékom van és ő azt mondta, hogy szivesebben élne Amerikában, mint
+            Európában és igy nem tudom, hogy szabad-e itt ekkora érdekeltséget vállalnom!
+            Mindenesetre még tárgyalni fogok erről menyasszonyommal...</p>
+         <p>- Ön megkérte Tönsberg kisasszony kezét? - kérdezte ijedten Hartwieg, aki alig tudta
+            leplezni izgatottságát.</p>
+         <p>- Még nem, de eléggé világos célzásokat tettem rá. Azt hiszem, ma délután teljesen
+            tisztázódik a helyzet.</p>
+         <p>Hartwieg szivéről kő esett le. Már megrémült, hogy megkésett. Mindenesetre elhatározta,
+            hogy óvatosabb lesz és most már teljes gőzzel fog támadni ő is.</p>
+        
+         <p>Később, mikor a rendőrségen kihallgatták a Caffée des Palmes-kávéház pincéreit és
+            vendégeit, akik délután hat órakor ott ültek a terraszon és látták James Gooldot,
+            Hartwieg grófot és a társaságukban volt két hölgyet: Tönsberg Olga és Elly Bunting
+            filmszinésznőket, nem lehetett többé kétséges, hogy ennél az asztalnál csakugyan igen
+            kinos és heves jelenetek játszódtak le.</p>
+         <p>Eleinte minden simán és jókedvüen indult. A két férfi együtt érkezett, látszólag a
+            legjobb egyetértésben. Néhány perc mulva megérkeztek a hölgyek is. Először Tönsberg
+            kisasszony, majd nyomban utána Elly Bunting, aki a bemutatkozás után James Goold mellett
+            foglalt helyet. A párok szemben ültek egymással és a gróf feltünően hevesen és kedvesen
+            udvarolt Tönsberg Olgának, mig James Goold szemlátomást egyre idegesebb lett.</p>
+         <p>Ami ezután történt, azt a szem- és fültanuk meglehetősen zavarosan és némileg
+            ellentmondóan adták elő.</p>
+         <p>Annyi bizonyos, hogy Goold egyszerre csak felugrott és haragtól remegő hangon kezdett
+            kiabálni:</p>
+         <p>- Elég volt! Nem türöm ezt a gyalázatos komédiát! Hogy mernek a szemem láttára
+            flörtölni!</p>
+         <p>A társaság tagjai ijedten próbálták csillapitani és Tönsberg Olga elég hangosan azt
+            jegyezte meg, hogy James Gooldnak semmi oka nem lehet a panaszra, hiszen igen kellemes,
+            szép és elegáns hölgy társaságában van.</p>
+         <p>Ez azonban csak olaj volt a tüzre.</p>
+         <p>Goold az asztalt verdesve azt kiáltotta, hogy ő nem gyermek, néki semmi köze sincsen a
+            mellette ülő hölgyhöz és őt nem lehet egyszerüen valakinek átadni.</p>
+         <p>Erre Elly Bunting kisasszony felugrott és a dühtől eltorzulva egy poharat vágott James
+            Gooldhoz és szikrázó szemmel sziszegte Tönsberg kisasszony felé:</p>
+         <p>- Nyomorult! Hogy merészeltél ilyen kinos helyzetbe hozni!</p>
+         <p>Tönsberg Olga válaszolni akart valamit, de nem volt ideje, mert Goold hozzá ugrott,
+            olyan erősen szoritotta meg a csuklóját, hogy a szinésznő felsikoltott fájdalmában.</p>
+         <p>- Jegyezze meg - harsogta Goold -, hogy ezért számolni fogunk! Engem nem lehet
+            büntetlenül nevetségessé tenni! És önnel is végeztem, gróf ur! - kiáltotta Hartwieg gróf
+            felé.</p>
+         <p>A gróf csillapitani próbálta a feleket. Tönsberg kisasszony sirógörcsöt kapott és a
+            kávéház főpincére udvariasan felkérte a társaságot, hogy ne okozzanak botrányt, mert már
+            a járókelők is megálltak és elképpedve nézték a példátlan skandalumot.</p>
+         <p>Erre James Goold elrohant, szalmakalapját a széken felejtve. Elly Bunting hisztériásan
+            sikoltozott, minden áron Tönsberg kisasszony hajába akart kapaszkodni, amit csak
+            Hartwieg gróf közbelépése tudott megakadályozni. Alig lehetett egy zárt autóba tuszkolni
+            és még onnan is szidalmazó szavakat kiáltott Tönsberg Olga felé, aki halálsápadtan
+            karolt a grófba.</p>
+         <p>Végül ők is kisiettek a kávéházból és egy autótaxiba ülve, elhajtattak. A rendőrség
+            kinyomozta a taxi soffőrjét, aki elmondta, hogy a gróf Tönsberg kisasszonyt a
+            Negresco-szállodáig vitte, ott elbucsuztak és a roppantul ideges, feltünően sápadt
+            szinésznő egyenesen szobájába sietett, a gróf pedig ugyanazzal a taxival a
+            Plantage-szállodába vitette magát.</p>
+         <p>A Negresco-szálloda portása előadta, hogy körülbelül fél órával később a kapu előtt egy
+            feldult ur jelent meg, akiben többen felismerték a délutáni botrány egyik hősét, James
+            Gooldot. Magából kikelve sétált fel és alá a szálloda előtt, olyan volt, mint aki
+            nincsen egészen beszámitható állapotban. Később eltünt. Néhányan ugy látták, hogy a
+            szálloda hallja felé tartott, mások szerint a szálloda parkjába ment.</p>
+         <p>Nyolc óra felé egy boy érkezett, aki gyönyörü virágokat hozott és egy doboz
+            csokoládébonbont. A küldemény mellett Graig filmigazgató névjegye feküdt. A csomagot a
+            szobapincér adta át Tönsberg Olgának, aki pizsamában ült a szobában és sirt. De a
+            küldeménynek láthatóan megörült és nagy borravalót küldött a boynak.</p>
+         <p>Azután magára zárta az ajtót és azt mondta, hogy senkit sem fogad.</p>
+         <p>Reggel tiz órakor a szobalány kopogott és figyelmeztetni akarta, hogy a fürdő készen
+            várja. Miután többszöri kopogtatásra választ nem kapott, a házitelefonon próbálta
+            felébreszteni, de a telefon csengetésére sem válaszolt senki. Erre a portás, a
+            szálloda-igazgató és a szobapincér együttes jelenlétében felnyitották az ajtót és a
+            padlón véresen, összezuzott homlokkal, eltorzult arccal, kék ajakkal, holtan találták a
+            szinésznőt.</p>
+         <p>Az előhivott orvos megállapitotta, hogy a holttesten több zuzott seb is van. Semmi
+            kétség sem férhetett ahhoz, hogy a szinésznőt megölték.</p>
+         <p>A gyilkosság példátlan szenzációt keltett. Hiszen Tönsberg Olga, mióta a szépségversenyt
+            megnyerte, az érdeklődés homlokterében állt, mindenki ismerte, fényképét a világ összes
+            képes lapjai közölték.</p>
+         <p>De az elképedés és meglepetés akkor érte el csucspontját, mikor a lapok rendkivüli külön
+            kiadása azt közölte, hogy James Gooldot, a dollármilliomos Goold Ádám fiát Tönsberg Olga
+            meggyilkolásának gyanuja miatt letartóztatták. A fiatalember kétségbeesetten próbálta
+            tagadni tettét, de minden jel ellene vall.</p>
+         <p>A boncolás megállapitotta, hogy a szinésznő halálát nem a testén látható sérülések
+            okozták, hanem arzénmérgezésnek esett áldozatul. Asztalán felbontva hevert a csokoládés
+            bonbonokkal telt skatulya. A megejtett vegyivizsgálat kideritette, hogy a doboz
+            tetején lévő valamennyi cukorka meg volt mérgezve. Az egyes adagok hatása feltétlenül
+            halálos volt. Nyilvánvaló volt, hogy a szerencsétlen szinésznő, aki gyanutlanul
+            fogyasztott el egy-két szem bonbont, iszonyu görcsök közepette ugrott fel ágyáról,
+            valószinüleg a telefonhoz akart rohanni, vagy vizet akart inni és közben összeroskadt.
+            Zuhanása közben szenvedte a zuzott sebeket.</p>
+         <p>Természetesen nyomban beidézték Graig igazgatót, aki azonban alibit igazolt. Egész
+            napját Monte Carlóban töltötte, fogalma sincsen arról, hogy ki küldhette nevében és az ő
+            névjegyével a végzetes cukrokat a szinésznőnek.</p>
+         <p>Mindezek után a rendőrség letartóztatásba vette Goold Jamest, mert a gyilkosság
+            délutánján történt összeveszés és a szálloda körüli feltünő, ideges ólálkodása, a
+            szinésznő megfenyegetése szinte kétséget kizáróvá tették, hogy a tettet ő követte el.
+            Kiderült, hogy Graig névjegyét a meggyilkolt Tönsberg Olgától kapta, aki azért adta át
+            neki, hogy helyesen irja le a filmigazgató nevét, ha tudósitást küld szerződtetéséről
+            valamelyik lapba. Mert arra is voltak tanuk, hogy Goold ezt az igéretet tette Tönsberg
+            kisasszonynak.</p>
+         <p>A szörnyü gyilkosság Hartwieg grófot villámcsapásként sujtotta le.</p>
+         <p>- Mindennek vége! - mondta egészen letörve Lizinek. - Goold nem csak magát tette tönkre,
+            hanem engem is. Benne volt az utolsó reményem, bizonyosra vettem, hogy előbb-utóbb
+            megkapom tőle a pénzt! A hitelezőim már türelmetlenek, megfenyegettek, hogy beszüntetik
+            a zsebpénzemet...</p>
+         <p>Lizi is a kezét tördelte.</p>
+         <p>- Borzasztó! - zokogta. - Már annyira beleéltem magamat abba a gondolatba, hogy uj
+            életet kezdek, a feleséged leszek és nem kell visszamennem Berlinbe... De hát hogyan
+            lehetséges ez? Meg tudod érteni? Ez a Goold olyan kedves, naiv szelid fiunak látszott.
+            Lehetséges, hogy huszonnégy óra alatt ilyen őrjöngő szerelemre gyulladjon?</p>
+         <p>Hartwieg vállát vonogatta.</p>
+         <p>- Hiszen éppen ez az, amit én sem értek. Viszont ne felejtsd el: nem szerelemről, hanem
+            bosszuról van szó. Az elkényeztetett milliomos fiu hiuságát sértették meg halálosan.
+            Tönsberg Olga valóban csunyán megtréfálta. James rajongó, hiszékeny, gyermeklelkü ifju.
+            Mindent komolyan vesz. Pillanatok alatt beleélte magát abba a gondolatba, hogy ő a
+            nizzai szépségkirálynő kiválasztott lovagja és hogy most az irigység központjába
+            került, mindenki arról beszél, hogy a legszebb nő őt tüntette ki szerelmével. Goold erre
+            a hóditásra éppen olyan büszke volt, mint mondjuk az uszóbajnok arra, ha világrekordot
+            javit. Téged is azért szeretett meg, mert Tönsberg Olga felbukkanásáig rólad mondták,
+            hogy a legszebb vagy. Gooldnak nincsen önálló véleménye, néki csak egy a fontos, hogy:
+            irigyeljék! Az ilyen rögeszmés emberek, ha ezen a legérzékenyebb ponton szenvednek
+            vereséget, minden őrültségre képesek! Mondhatom, James csakugyan teljesen ki volt
+            forgatva magából. Ha a pincérek nem lépnek közbe, talán már a kávéház terraszán
+            verekedésre, sőt gyilkosságra került volna a sor!</p>
+         <p>Kopogtatás hallatszott. Két detektiv lépett a szobába.</p>
+         <p>- Edelsheim Hanna bárónőt keressük! - mondották.</p>
+         <p>- Én vagyok! - mondotta Lizi és kissé elsápadt.</p>
+         <p>A detektivek, akik olyan elegánsak és előkelők voltak, mintha valamelyik angol
+            divatlapból vágták volna ki őket, udvariasan meghajoltak, bemutatkoztak és igazolták
+            magukat.</p>
+         <p>- Bocsánatot kérünk, - mondotta az idősebbnek látszó, - néhány kérdést kellene
+            méltóságodhoz intéznünk!</p>
+         <p>- Parancsoljanak!</p>
+         <p>- Igaz-e az, hogy ön az utóbbi hetekben minden nap együtt volt a letartóztatásban lévő
+            James Goolddal?</p>
+         <p>- Igaz. James Goold udvarolt nekem...</p>
+         <p>- És ön szivesen fogadta közeledését?</p>
+         <p>- Engedelmet, de mi közük van ehhez önöknek?</p>
+         <p>- Nagyon sajnálom, ha tapintatlanoknak kell lennünk, de bizonyos kérdések tisztázása
+            feltétlenül szükséges. Igaz-e az, hogy James Goold önnek házassági ajánlatot tett?</p>
+         <p>- Nem kérte meg határozottan a kezemet, de félreérthetetlen célzásokat tett arra, hogy
+            feleségül akar venni!</p>
+         <p>- Önt természetesen végtelenül kinosan érinthette ezek után James Goold váratlan
+            szakitása... A szállodai személyzet tanuvallomása szerint méltóságod teljesen feldultan
+            jött haza a szépségversenyről, a szobájából kihallatszott a sirása...</p>
+         <p>Lizi elsápadt.</p>
+         <p>- Ezek olyan kérdések, melyekhez senkinek, semmi köze nincsen!</p>
+         <p>- Sajnos, bárónő, a saját érdekében vagyunk kénytelenek az ügy minden kis mozzanatát
+            megvizsgálni. A történtek után ugyanis nyilvánvaló, hogy önnek minden oka megvolt arra,
+            hogy a megölt Tönsberg kisasszonyt vetélytársnőjének tekintse és gyülölje...</p>
+         <p>Lizi felugrott.</p>
+         <p>- Csak nem hiszik, csak nem gondolják, - kiáltotta magánkivül, - hogy én voltam? Ez
+            őrület! Képtelenség!</p>
+         <p>A detektiv rideg és érzéketlen maradt.</p>
+         <p>- Egyelőre természetesen csak arról van szó, hogy a bárónőt kihallgassuk. Mindenek előtt
+            személyi adatait kell felvennünk. Legyen szives igazolni magát. Szabad az utlevelét
+            kérnünk?</p>
+         <p>A boldogtalan nő egész testében remegett. Hartwieg, aki eddig szinte megdermedve ült,
+            végre erőt vett magán és Lizi segitségére akart sietni.</p>
+         <p>- Kérem, uraim, - mondotta, - igazolom magamat. Hartwieg János gróf, osztrák
+            földbirtokos vagyok. Minden tekintetben kezességet vállalok ezért a hölgyért...</p>
+         <p>A detektiv meghajolt.</p>
+         <p>- Gróf ur korrekt gavallér, de mi rendőrség vagyunk és semmi érzékünk nincsen az ilyen
+            lovagias gesztusok iránt. Szabad kérnem bárónő az utlevelét.</p>
+         <p>Átvette az utlevelet, egy pillantást vetett az első oldalára és meglepett, gunyos mosoly
+            huzódott az arcára:</p>
+         <p>- Ah! Ön Kurt Lizi szinésznő? És nem Edelsheim Hanna bárónő? Ez fölötte érdekes!</p>
+         <p>- De hiszen mindennapos dolog, hogy a fürdőhelyen tartózkodó hölgyek álnéven jelentik be
+            magukat! - kiáltotta kétségbeesetten Lizi.</p>
+         <p>- Tudjuk! Ennek nincs is komolyabb büntetőjogi következménye. De mindenesetre kérnünk
+            kell, hogy kövessen a rendőrségre.</p>
+         <p>- Letartóztatnak? - sikoltotta Lizi.</p>
+         <p>- Még nem tudhatjuk. Egyelőre mindenesetre szembesitenünk kell Goold Jamessel. Az ilyen
+            szembesitések során néha igen érdekes és izgalmas dolgok derülnek ki!</p>
+         <p>Lizi megingott, ugy látszott, mintha el akarna ájulni. De a detektivek nem voltak
+            érzelmesek. Erélyesen karon ragadták és már vitték is kifelé a teljesen összetört,
+            zokogó nőt.</p>
+        
+         <p>Hartwieg néhány percig azt hitte, hogy megőrül. Ez a jelenet valóban az idegeire ment.
+            Villámgyorsan cikkáztak gondolatai és egyre világosabbá lett előtte, hogy ez a szörnyü
+            tragédia előbb-utóbb most már őt is elnyeli. A példátlan büntény tetteseinek nevével
+            kapcsolatban állandóan emlegetik őt is, a lapok minden tudósitásában élénken kiszinezve
+            emlitik az ismert osztrák mágnást is, akiről ugy látszik, hogy mind a két nőnek, ugy a
+            gyilkosság áldozatául esett Tönsberg Olgának, mint pedig a büntett elkövetésével
+            gyanusitott Kurt Lizinek a barátja volt...</p>
+         <p>Hartwieg már látta, hogy mi fog következni? Előbb-utóbb kiderül, hogy Lizi nem is
+            Gooldot, hanem őt szerette. És ebben az esetben szerepe még gyanusabb lesz. Mert akkor
+            egészen kétségtelenné válik a rendőrség előtt, hogy féltékenységből ölte meg Olgát,
+            akinek társaságában töltötte a délelőttöt a tengeren és délután a kávéházban.</p>
+         <p>És ebben az esetben csak egyet tehet!</p>
+         <p>Fel kell mennie a rendőrségre és meg kell mondania az igazat. Le kell lepleznie önmagát,
+            meg kell mondania, hogy egy pillanatig sem szerette Tönsberg kisasszonyt, hogy Lizivel
+            együtt beszélte meg ezt a kis flörtkomédiát, melynek csak az volt a célja, hogy Jamest
+            visszacsalogassák Lizihez. Oda kell állnia a rendőrség elé és jegyzőkönyvbe kell
+            mondania, hogy milyen furfangos csalással akarták beugratni James Gooldot!</p>
+         <p>Rettenetes!</p>
+         <p>Hartwieg homlokán hideg verejték ütközött ki. Igen, nincs más hátra, ez az egyetlen mód,
+            hogy Lizit megmentse a gyilkosság vádjától. De ha megtette ezt a vallomást, utána
+            természetesen nem marad más hátra, mint hogy azonnal főbelövi magát!</p>
+         <p>Egészen elgyötörve, kétségbeesetten ült és gondolkozott. Valami rendet akart teremteni
+            abban a káoszban, amely megrohanta.</p>
+         <p>De semmisem jutott az eszébe.</p>
+         <p>Kábultan, teljesen tanácstalanul hagyta el a szállodát. Találomra bolyongott az utcákon,
+            céltalanul és reménytelenül. Arra gondolt, hogy ügyvédhez fordul, de nem ismert senkit
+            és nem is tudta, hogy tulajdonképpen miről beszéljen az ügyvéddel? Pénze sem volt, már
+            pedig az ilyen luxushelyeken élő ügyvédek, akik véletlenül olyan bünügybe cseppennek
+            bele, melynek hősei amerikai milliomosok és európai arisztokraták, bizonyára hatalmas
+            honoráriumot követelnek.</p>
+         <p>Már egészen kimerült, a lábai alig birták a sok gyaloglást, de nem tudott leülni,
+            hajszolta magát, közel volt a megőrüléshez.</p>
+         <p>Hartwieg nem birta tovább a céltalan rohanást. Teljesen kimerülten ült le egy kis
+            cukrászda terraszára...</p>
+         <p>Valamit ki kellene találni! - zakatolt agyában a kétségbeesett akarás. Meg kell oldani
+            az átkozott titkot! Meg volt győződve, hogy sem James Goold, sem Lizi nem lehetnek a
+            tettesek, De hát akkor kicsoda?</p>
+         <p>Hirtelen felugrott.</p>
+         <p>Hogy erre eddig nem gondolt! Világos: Tönsberg Olga öngyilkos lett! Önként vette be a
+            halált okozó mérget.</p>
+         <p>Ennek a feltevésnek ellent látszik mondani, hogy az arzénnel mérgezett cukrokat nem ő
+            vette, hanem küldték neki. De hát döntő bizonyiték ez? Ezernyi példát lehetne
+            felsorolni, hogy az öngyilkosságot először gyilkosságnak vélték. Ki tudja, hogy milyen
+            sötét titkok lehettek Tönsberg Olga életében? Látszólag igen vidám, elégedett leány
+            volt, de hátha mindez csak komédia volt? Lehet, hogy a sirba akarta vinni a titkát.
+            Ezért találta ki ezt a raffinált öngyilkossági módot is. Ezért preparálta a méreggel az
+            idegen által küldött cukrot. Ugy akarta feltüntetni halálát, mintha véletlen
+            szerencsétlenség, vagy gyilkosság okozta volna. Vannak büszke, gőgös lelkek, akik
+            sohasem vallják meg, hogy csatát vesztettek...</p>
+         <p>Hartwieget ez a felfedezés egészen felvillanyozta. Érezte, hogy ezuttal jó nyomra
+            tévedt. A fáradtságát mintha egyszerre eltörülték volna. Felhajtotta a megrendelt
+            whiskit és már rohant is. Ezuttal biztos, határozott célja volt. Az Excelsior-szállodába
+            vitette magát az autón. Szerencséje volt. A portástól azt a felvilágositást kapta,
+            hogy Elly Bunting a szobájában van.</p>
+         <p>Néhány perccel utóbb már ott állt a szép táncosnővel szemben. Elly nagy változáson ment
+            keresztül az utolsó két nap alatt. Látszott rajta, hogy a borzalmas eset rendkivül
+            megviselte.</p>
+         <p>- Ne nézzen, rám, - mondotta Hartwiegnek, - ah, ez a rémes gyilkosság egészen tönkre
+            tett. Nem tudok magamhoz térni, folyton sirógörcseim vannak. Szegény, drága jó
+            barátnőm... Tiz éve jártuk együtt a világot. Igaz, neki sokkal nagyobb szerencséje volt,
+            mint nekem, de azért rendkivül szerettem. Csipkedtük egymást, de alapjában véve
+            elválaszthatatlan barátnők voltunk.</p>
+         <p>Megtörülte könnyeit és heves mozdulattal fordult a grófhoz.</p>
+         <p>- Már fel akartam önt keresni. Az isten szerelméért mondja meg nekem, ki ez a Goold? Ez
+            a szörnyeteg, akit szegény Olga meggyilkolásával vádolnak? És az a bécsi szinésznő? Mit
+            tud róluk? Mióta ismeri őket? Mi köze van hozzájuk?</p>
+         <p>- Én is csak rövid ideje kerültem a társaságukba. Itt Nizzában ismerkedtünk meg. De
+            amennyire megismerhettem őket, kizártnak tartom, hogy ők követhették el a
+            gyilkosságot.</p>
+         <p>Ellynek kipirult az arca a szenvedélytől.</p>
+         <p>- Hát én nem tartom kizártnak. Hiszen az ön tisztelt Gooldja vélem szemben is ugy
+            viselkedett, mint egy neveletlen fickó. Uriember nem csap olyan példátlan botrányt,
+            mint amilyent ő rögtönzött a kávéházban... Oh, ettől az embertől minden kitelik!</p>
+         <p>- Kivéve mégis a gyilkosságot! Én sokkal valószinübbnek tartom, hogy Tönsberg Olga
+            öngyilkos lett!</p>
+         <p>- Ah? Igazán? Lehetségesnek tartja?</p>
+         <p>- Igen. És éppen ezért jöttem magához. Maga jól ismerte Tönsberg kisasszonyt, bizonyára
+            elárulta magának apró titkait is. Nagyon kérem, próbálja emlékébe idézni azokat a
+            beszélgetéseket, melyeket az utóbbi időkben folytattak. Talán ott megtaláljuk a nyomra
+            vezető pontot. Sohasem panaszkodott ön előtt csalódásról? Nem volt titkos szerelme? Vagy
+            talán betegsége, szenvedélye? Bármennyire is haragszik ön Goold Jamesre, kötelessége
+            segitségére lenni, ha ez módjában van. És a szerencsétlen Kurt Lizit sem hagyhatjuk
+            ártatlanul a börtönben sinylődni.</p>
+         <p>Elly bámulva nézett a grófra.</p>
+         <p>- Ön csakugyan okos ember. És most, hogy mondja, sok minden világosodik meg előttem.
+            Szegény Olga, valóban nagyon szeszélyes, kiszámithatatlan lélek volt, aki teljesen rabja
+            volt idegeinek. Két év előtt, mikor Párizsban voltunk szerződésben, egyszer már
+            öngyilkos akart lenni egy orvos miatt, akibe beleszeretett. Akkor egy ideig morfinista
+            volt, erőszakkal kellett elvenni tőle a mérget.</p>
+         <p>- De most nyoma sem volt nála a csalódott szerelemnek. És boldog volt, mert Graig
+            szerződtette!</p>
+         <p>- Igen... ez egészen homályos dolog! Oh! Megvan... megvan...</p>
+         <p>Az izgalom egészen megváltoztatta Elly arcát. A szeme csak ugy csillogott a benső
+            tüztől.</p>
+         <p>- Beszéljen kérem! - sürgette Hartwieg.</p>
+         <p>- Az elmult év tavaszán... éppen ma egy éve Barcelonában voltunk szerződésben. A
+            varietében, ahol felléptünk, egy hindu büvész is produkálta magát. Ez az ember
+            csodálatos hipnotikus mutatványokat mutatott be. Érdekes, de félelmetes ember volt.
+            Rettegtünk a pillantásától. A hindu állandóan üldözte szerelmével Olgát, aki azonban
+            irtózott tőle. Egy napon, mikor Olga megint visszautasitotta és kérte, hogy szüntesse be
+            üldözését, a fakir szörnyü haragra támadt, rámeresztette szemét és azt kiáltotta:</p>
+         <p>- Ha nem leszel az enyém, ugy mához egy évre, pontosan ezen a napon meg kell halnod!</p>
+         <p>Olgára rettenetes hatással volt ez a jelenet. Elájult. És mikor magához tért, azonnal
+            csomagolt. Otthagyta szerződését és elutazott Barcelónából. De azóta állandóan gyötörte
+            ez az emlék. Gyakran panaszkodott a hinduról, aki megjelent álmaiban és fenyegette.
+            Idegorvoshoz is járt... de nem tudták ebből a rögeszméből kigyógyitani!</p>
+         <p>Hartwieg izgatottan ugrott fel.</p>
+         <p>- Azonnal autóba ülünk! Ezt nyomban tudatnunk kell a rendőrséggel! Kérem, öltözzön fel
+            gyorsan... én addig itt várok ebben a szobában!</p>
+         <p>Elly átsietett az öltözőszobába. Körülbelül tiz perc mulva tért ujra vissza.</p>
+         <p>- Mehetünk! - mondotta.</p>
+         <p>Hartwieg sápadt volt és szórakozott. Minden idege remegett, csupa türelmetlenség, égő
+            izgalom volt, mint aki alig várja, hogy végre felderitse a rendőrség előtt az
+            igazságot.</p>
+         <p>Mikor igazolták magukat és megmondták, hogy milyen ügyben jöttek, azonnal fogadta őket a
+            bünügyi osztály főnöke.</p>
+         <p>- Uram, - kiáltotta a gróf - azért jöttünk, hogy megnevezzük az igazi bünöst és kérjük
+            az ártatlanok szabadon bocsátását!</p>
+         <p>A rendőrfőnök elképedve nézett rájuk.</p>
+         <p>- Kérem... parancsoljanak... azonnal jegyzőkönyvbe vétetem vallomásukat...</p>
+         <p>- Én figyelmeztettem az előbb Hartwieg gróf urat, hogy Tönsberg Olga, aki jó barátnőm
+            volt, minden valószinüség szerint öngyilkosságot követett el, még pedig hipnotikus
+            parancsra. A tettes egy Ibn Nadir nevü indus fakir, aki az elmult esztendőben
+            Barcelonában produkálta magát...</p>
+         <p>- Nem, kérem, ez tévedés! - mondotta most erélyes hangon Hartwieg. - A tettes itt áll ön
+            előtt, rendőrfőnök ur és a neve Elly Bunting!</p>
+         <p>- Őrült! Hogy meri ezt mondani! - sikoltotta Elly.</p>
+         <p>De Hartwieg gróf most a kabátja zsebébe nyult és egy kis majolika dobozt huzott ki
+            onnan.</p>
+         <p>- Ismeri ezt a dobozt, kisasszony? Az ön szobájában találtam. Már amikor beléptem oda,
+            feltünt nekem egy kis török faragásu szekrényke. Ismerem jól az ilyen szekrényeket.
+            Szenvedélyes gyüjtője voltam ugyanis valamikor a rejtélyes butordaraboknak, melyeknek
+            rejtett, titkos fiókjai és zárai vannak. Kivülről ártatlan ékszertartók vagy nippek,
+            valójában azonban ilyenekben tartották a középkor hires méregkeverői üvegcséiket. Mikor
+            ön a másik szobába ment, hogy átöltözzön, egy pillanat alatt kinyitottam a szekrényt,
+            hiszen ismertem a titkos rugót, melyet lapos tenyérrel kell köralakban forgatni, hogy
+            megnyiljon. És abban megtaláltam ezt a kis majolika dobozt. Cukorkák vannak benne.
+            Különös véletlen folytán ugyanattól a cégtől, amelytől az Olgának küldött cukrok is
+            származtak. És mellettük ez a kis ecset. Bizonyos vagyok benne, hogy a kémiai vizsgálat
+            ezen az ecseten fel fogja fedezni az arzénnyomokat! Meri még tagadni, hogy ön a tettes?
+            Ön gyülölte minden csepp vérével a szerencsésebb vetélytársnőt!... Bevallja?</p>
+         <p>De Elly Bunting már nem tudott válaszolni. Ájultan feküdt a rendőrtisztviselő
+            karjában...</p>
+        
+         <p>Két héttel utóbb a Washington luxusgőzhajó első osztályán három boldog ember utazott
+            Amerika felé. Ők álltak a hajó érdeklődésének központjában, mindenki csak őket nézte és
+            minden arc, amely feléjük fordult, mosolygott, mintha mindenki külön akarta volna őket
+            jóakaratáról biztositani.</p>
+         <p>James Goold büszke volt. Érezte, hogy olyan szenzációs regénytémát kapott a sorstól,
+            mellyel - ha megirja - karriert fog csinálni. Hiába, megmondta neki Jean ur, hogy az
+            első fejezetnél még sohasem lehet tudni, hogy milyen érdekes és izgalmas bonyodalmak
+            következnek a többiben.</p>
+         <p>Lám, Hartwieg gróf sem sejtette, hogy mégis csak feleségül veheti Lizit és üzlettársa
+            lesz James Gooldnak. Igaz, hogy nem Európában, hanem Amerikában... Hartwieg mosolygott,
+            mikor arra gondolt, milyen tuláradó barátsággal ölelte meg őt az ifju Goold a börtönből
+            való kiszabadulása után. Azonnal felajánlotta, hogy társul a petróleumtelepek
+            megvételéhez. De Hartwieg sajnálkozva közölte, hogy a vételt lekésték... Igen,
+            Hartwiegnek elég volt az izgalomból. Tulságosan közeli érintkezésbe jutott az elmult
+            napok folyamán a rendőrséggel és ez alaposan elvette a kedvét minden további
+            szélhámoskodástól.</p>
+         <p>James azonban nem tágitott. Megmagyarázta Hartwiegnek, hogy néki ugyis okvetlenül
+            szüksége van az üzletben valakire, aki őt helyettesiti, mert egyelőre hosszu ideig
+            csak a regényének irásával lesz elfoglalva. És ő senkiben sem bizik, csak abban, akinek
+            becsülete visszaszerzését és szabadságát köszönheti!</p>
+         <p>És igy történt, hogy most hármasban utaztak a nyilt tengeren, derült ég alatt,
+            felszabadult, vidám lélekkel és nagyon elégedetten...</p>
+         <p> VÉGE.</p>
+		   </div>
+      </body>
+	</text>
+</TEI>
