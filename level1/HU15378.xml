@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU15378" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+			   <title>Trópusi történet</title>
+				<author>
+					<persName>
+						<surname>Forró</surname>
+						<forename>Pál</forename>
+					</persName>
+				   <date from="1884" to="1942">1884-1942</date>
+				   <idno type="VIAF">107985695</idno>
+				</author>
+				<respStmt>
+					<resp>ELTeC conversion</resp>
+					<name>
+						Palkó Gábor
+						<ref target="https://viaf.org/viaf/65989506"/>
+					</name>
+					<name>Fellegi Zsófia</name>
+					<name>Vétek Bence</name>
+					<name>Bajzát Tímea Borbála</name>
+				</respStmt>
+			</titleStmt>
+			<extent>
+				<measure unit="words">10530</measure>
+				<measure unit="pages">30</measure>
+				<measure unit="vols">1</measure>
+			</extent>
+			<publicationStmt>
+				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digitalSource">
+				   <title>Trópusi történet</title>
+				   <date>2016-04-27</date>
+					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+				   <ref target="https://mek.oszk.hu/15300/15378/"/>
+					<respStmt>
+						<resp>Original Electronic Edition</resp>
+					   <name>Vidiné Réfi Erzsébet</name>
+					   <name>Mészáros Atilla</name>
+					   <name>Drótos László</name>
+					</respStmt>
+					<bibl type="printSource">
+					   <title>Trópusi történet</title>
+						<author>Forró Pál</author>
+						<pubPlace>Budapest</pubPlace>
+					   <publisher>Világv. Reg. Kiadóváll.</publisher>
+					   <date>1934</date>
+					   <ref target="https://mek.oszk.hu/15300/15378/"/>
+					</bibl>
+				</bibl>
+				<bibl type="firstEdition">
+				   <title>Trópusi történet</title>
+				   <author>Forró Pál</author>
+					<date>1934</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc n="eltec-0">
+			<p/>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="hu">Hungarian</language>
+			</langUsage>
+		</profileDesc>
+		<xenoData>
+			<ns1:eltec>
+				<ns1:authorGender key="M"/>
+				<ns1:size key="short"/>
+				<ns1:canonicity key="low"/>
+				<ns1:timeSlot key="T5"/>
+			</ns1:eltec>
+		</xenoData>
+		<revisionDesc>
+			<change when="2024-12-07"/>
+		</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+         
+         <div type="chapter">
+            <head>I.</head>
+            <p>A feketékkel napok óta nem lehetett bírni. Max, a felügyelő hasztalan vágott végig a
+               hátukon bambuszbotjával szörnyű káromkodások között, a máskor engedelmes, jámbor
+               négerek ügyet sem vetettek rá. Tisztára meg voltak zavarodva. Minden pillanatban
+               összedugták a fejüket, sugdolództak, a kapott parancsokat rosszul és szórakozottan
+               hajtották végre. Mikor André Salmon, az útépítést vezető mérnök estefelé megérkezett
+               kis Ford-autóján, azonnal megállapította, hogy a munka jóformán semmit sem haladt.
+               Nem volt meglepetve és még csak nem is mérgelődött. Afrikában nem sietős a munka. A
+               négerekben még töretlenül él az évezredes bölcsesség, hogy az ember lehetőleg minél
+               kevesebbet dolgozzon. Ha a nyakukra küldött fehérek nagyon erőszakolják a dolgot,
+               nagy kedvetlenül nekilátnak a földhordásnak, de ezt csak szükséges rossznak tekintik,
+               amitől irtózik a testük-lelkük.</p>
+            <p>Mindazonáltal André a tekintély kedvéért maga elé citálta Togót, a néger munkavezetőt
+               és rinóceros korbácsát rázva ordítozott:</p>
+            <p>- Micsoda disznóság ez? Miért nem dolgoztatok, bitangok?</p>
+            <p>Togó egész testében remegve dadogta:</p>
+            <p>- Ne haragudj, nagyúr. Két nap mulva nagy négerünnep lesz... A Nagy Szellem ilyenkor
+               azt akarja, hogy már rá gondoljunk...</p>
+            <p>- Micsoda ünnepetek lesz?</p>
+            <p>- Felavatjuk a lányokat!</p>
+            <p>Togó szeme huncutul és kevélyen villant. Széles, fekete arcára boldog mosoly
+               húzódott.</p>
+            <p>- Kevés a nő! - mondotta magyarázkodva - és asszony nélkül olyan a szegény néger,
+               mint az elrúgott kutya.</p>
+            <p>André tudta, hogy mit jelent ez. A néger férfi csak addig dolgozik, ameddig feleséget
+               nem kap. Attól kezdve minden munkát az asszonyra hárít. A férfi legfeljebb csak
+               vadászni jár, azt is csak virtuskodó kedvtelésből. De hát kevés az asszony és drága.
+               Van olyan, amelyikért ötszáz frankot is elkérnek. Sőt ennél is nagyobb összeget.
+               Honnan vegyen ilyen szédítő summákat a szegény fekete, akinek a napi bére legfeljebb
+               három-négy frank? De még, ha csoda folytán együtt is van a pénz - mert, hála a Nagy
+               Szellemnek, néha sikerül tehenet, kecskét lopni - nagy kérdés, hogy talál-e a férfi
+               megfelelő asszonyt?</p>
+            <p>Ezért nagy dolog az asszonyavatás. Amikor afelserdült leánygyermekeket felveszik a
+               közösségbe és felkínálják őket feleségnek.</p>
+            <p>Togó elárulta, hogy ez különösen szerencsés esztendő, mert huszonnégy leányt fognak
+               avatni. És van közöttük egy...</p>
+            <p>Togó nagyon elégedetten vigyorgott és önérzetesen csörgette a nadrágszárába dugott
+               frankokat. E pillanatban különösen büszke volt arra, hogy munkavezető és mint ilyen,
+               nadrágot és kalapot hordhat. Előre érezte, mennyire fogja ez szédíteni jövendőbeli
+               asszonyát.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>II.</head>
+            <p>Este az urak együtt ültek a kaszinóban, Hat fehér, folyton verejtékező, agyonkínzott
+               ember, akiknek idegeit a hónapok óta szakadatlanul rájuk zuhogó hőség már szinte
+               robbanó kazánná változtatta. Időnkint valamennyin kitört a trópusi őrület, amikor
+               dühöngtek, késeikkel és revolvereikkel hadonásztak, összetörtek mindent, ami kezük
+               ügyébe esett. A négerek ilyenkor rémülten bújtak el, tudták, hogy halálos veszedelem
+               a dühroham alatt fehér emberrel találkozni. A fehérek nem tudták, mit csináljanak
+               rengeteg felesleges energiájukkal, amelyet a tunya munkátlanság, a túlságosan bő
+               táplálkozás és a lankasztó hőség óriásira duzzasztott. Semmihez sem volt kedvük.
+               Hónapokig nem írtak egyetlen levelet sem. A levegőbe bámultak és mozdulatlanul
+               hevertek nyugszékeiken, mint a fövenyen elnyúló krokodilok vagy vízilovak. Még
+               egymáshoz sem szóltak. Mit is beszéltek volna? Túlságosan ismerték egymást, már régen
+               elmondtak mindent. A kezük néha bágyadt mozdulatra emelkedett és a néger boy tudta,
+               hogy ilyenkor a fehér úr inni akar. Elképesztően sokat ittak. A folytonos izzadástól
+               szomjasan, szinte szüntelenül ürítgették a sört, a különböző pálinkákat és pezsgőt,
+               amelyekért fantasztikus összegeket fizettek. A trópuson dolgozó mérnökök óriási
+               fizetést kapnak. És mégis, a legtöbbje alig tud félre tenni valamit, mert pénzét
+               alkoholra költi.</p>
+            <p>És néha megszólaltak, nőkről beszélgettek. Mint egy deliriumos látomány bontakozott
+               ki előttük a párizsi éjszaka, a Moulin rouge, a Folies Bergere, az Ambassadeur revüi.
+               A vágy és a távolság megnagyította és kiszínezte a valóságot, csodákat beszéltek
+               fehér asszonyokról, akiket csókoltak valaha. Valamennyien nőtlenek voltak, a
+               részvénytársaság, amely az utakat építette, nem küldött nős embereket a gyarmatokra.
+               Nem európai asszonyoknak való a gyilkos klima és azok a fülledt titkok, amelyekkel
+               tele van Afrika rejtelmes éjszakája.</p>
+            <p>A telehold lassan szállt fel a fák fölé és az őserdő felől már órák óta állandóan
+               szólt a tam-tam. Egyhangúan, hol gyorsabb, hol lassúbb ritmussal, azzal a kitartó,
+               vérlázító, megőrjítő végtelenséggel, amely végül is önkívületbe ejti azt, aki
+               hallgatja.</p>
+            <p>- Fekete dögök! - káromkodott Paul, a száztíz kilós Herkules. - Szét kellene
+               korbácsolni őket. Hé, Ali! - kiáltott az egyik boyra - mit csinálnak azok a részeg
+               disznók? Miért verik már órák óta a tam-tamot?</p>
+            <p>A boy arca valósággal átszellemült.</p>
+            <p>- Ma van az asszonyavatás, uram!</p>
+            <p>- Ah, persze! - kiáltotta André - hiszen már Togó is beszélt erről. Ezért nem
+               dolgoztak a gazemberek már napok óta!</p>
+            <p>Maurice, a belga fiú felállt.</p>
+            <p>- Ohó, ez egészen érdekes lehet. Gyertek, nézzük meg!</p>
+            <p>Az urak kitünőnek találták az ötletet. Indultak kifelé a kaszinóból. A néger boy
+               rémülten állt eléjük.</p>
+            <p>- Azt nem lehet, nem szabad! - kiáltotta és a fekete bőre alatt is hamuszürke lett
+               ijedtében.</p>
+            <p>- Miért nem? - kérdezte Maurice.</p>
+            <p>- Mert ha fehér ember megnézi az avatást, akkor a fekete nők, akiket felavatnak, mind
+               meddőek lesznek!</p>
+            <p>A férfiak nevettek.</p>
+            <p>- Nem baj, Ali, ha kevesen lesztek, majd hozatunk Afrika másik részéből
+               munkásokat.</p>
+            <p>A boy jajveszékelve rohant el.</p>
+            <p>Maurice dühöngött.</p>
+            <p>- Ez a gazember még elrontja a mulatságunkat. Felzavarja a csürhét...</p>
+            <p>Csakugyan, alig mentek néhány száz métert, Kanu, a varázslómester jött velük szemben.
+               Kanu félelmesen ki volt festve, fekete bőrén fehér és piros sárkányvonalak
+               ékeskedtek, a fején másfél méter magas tollbokréta lengett, vállát párducbőr fedte és
+               a kezében füstölgő edényt tartott, amelynek émelyítő, penetráns szaga nem sok
+               bizalmat gerjesztett annak tartalma iránt.</p>
+            <p>A varázsló a földre vetette magát a fehér urak előtt és üvöltözve könyörgött, hogy
+               forduljanak vissza, ne hozzanak veszedelmet a törzsre.</p>
+            <p>André már tudta, hogyan kell Kanu nyelvén beszélni.</p>
+            <p>- Ne ordítozz, Kanu - mondotta szigorúan. - Te olyan nagy és hatalmas varázsló vagy,
+               hogy egyszerűen megkéred a nagy Szellemet, bocsássa meg a mi jelenlétünket... Itt van
+               húsz frank, ebből végy áldozati tyúkot...</p>
+            <p>A vén gazember elégedetten vigyorgott és biztosította a fehér urakat, hogy majd ő
+               mindent elintéz. Csakugyan dühös fej- és kézrázással magyarázta meg a fáklyafény
+               mellett gyülekező négereknek, hogy a fehér urakat nem lehetett ugyan visszatartani,
+               de ez nem baj, mert ő a Nagy Szellemmel már elintézte az ügyet. A felavatandó lányok
+               nemcsak hogy nem lesznek meddők, hanem ellenkezőleg, születendő gyermekeik a fehérek
+               eszét és erejét fogják örökölni!</p>
+            <p>A mérnökök a négerektől távolabb egy termitadomb tetején foglaltak helyet, ahonnan
+               kényelmesen láthatták a ceremóniát.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>III.</head>
+            <p>A tam-tamok még szilajabbul szóltak és a körben ülők közül egyre több néger férfi
+               perdült a kör közepébe, ahol szörnyű rángatódzó táncba kezdtek, miközben Kanu
+               szorgalmasan füstölte őket. Ugyanakkor éneklő asszonyok óriási kancsókban sört
+               hordtak körül, amelyekből rengeteget ittak. A háttérből egyszerre rémületes, óriási
+               alakok tántorogtak előre. Falábakon járó, ijesztő álarcot hordó, démonokat ábrázoló
+               varázslók csoportja volt ez, akik mögött énekelve, ritmikus táncléptekkel jöttek a
+               felavatandó lányok. Éktelen üvöltés fogadta őket. A megkergült négerek külön
+               ugrálták körül mindegyiket és Kanu megfüstölte, varázskenőccsel kente be testüket és
+               mindegyiknek amulettet akasztott a nyakába...</p>
+            <p>André, akinek kitünő szeme volt, rámutatott az egyik lányra:</p>
+            <p>- Azt nézzétek, milyen pompás teremtés. Szavamra, dísze lehetne egy egzotikus
+               revünek. Különb, mint Josephine Baker. Akár egy ébenfa-szobor...</p>
+            <p>Paul megvetéssel vonta vállát:</p>
+            <p>- Néger... Elég volt belőlük.</p>
+            <p>De André nem is hallotta ezt a választ. Togót, a néger munkafelügyelőt figyelte, aki
+               táncolva közeledett a fekete Vénuszhoz és mikor eléje ért, különböző
+               varázsmozdulatokat végzett, majd a lány zavart mosollyal, banánnal kínálta meg. Mind
+               a ketten sugároztak a boldogságtól.</p>
+            <p>- No lám - mormogta André - ez hát a lány, akire célzott.</p>
+            <p>És hangosan, parancsoló hangon kiáltotta:</p>
+            <p>- Togó, ide gyere!</p>
+            <p>A néger bambán a sörtől és a tánc kábulatától együgyűen meredt Andréra.</p>
+            <p>- Hozd ide a lányt! - parancsolta a mérnök.</p>
+            <p>Togó arca eltorzult a rémülettől és kétségbeeséstől. De Afrikában nem lehet
+               ellentmondani a fehér embernek. Reszketve intette magához az ámuló lányt.</p>
+            <p>- Hogy hívnak? - kérdezte André.</p>
+            <p>- Diga!</p>
+            <p>- Jól van, Diga! - bólintott a mérnök. - Menj a lakásomra. Te leszel mától kezdve a
+               tukatim!</p>
+            <p>Nagy dolog ez. Néger nőt nem érhet nagyobb tisztesség, minthogy a fehér ember
+               házvezetőnője legyen.</p>
+            <p>Togó valamit hebegett. Nem lehetett a szavát érteni. A boldogtalan úgy didergett,
+               hogy a foga vacogását lehetett hallani. Diga mozdulatlanul állt. Néger illem szerint
+               a nőknek tartózkodniok kell minden érzelmi nyilvánítástól. A férfiak majd döntenek
+               sorsa felett.</p>
+            <p>A mérnök néhány bankjegyet nyujtott át Togónak.</p>
+            <p>- Nesze, végy magadnak más feleséget!</p>
+            <p>A pénz a földre hullott. A görcsösen ökölbe szorult ujjak nem tudták megragadni. De a
+               mérnök nem törődött ezzel.</p>
+            <p>- Gyere! - mondotta kurtán Digának és elindultak a lakása felé.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>IV.</head>
+            <p>Diga két nap mulva szép fehér burnuszban jelent meg a piacon. A nyakában üveglánc
+               lógott. Már messziről látszott rajta, hogy tukatim lett. Mert ilyen elegánsan csak a
+               fehér urak gazdasszonyai járnak. A nagy szerencse azért nem tette elbizakodottá.
+               Barátságosan köszöntötte ismerőseit és noha bőven volt pénz a kosarában, makacsul és
+               elszántan alkudozott a csirkék és gyümölcsök ára felett. A legszebb tyúkokat és a
+               legízesebb gyümölcsöket rakta kosarába, mert tudta, hogy a fehér urak milyen kényesek
+               a gyomrukra és magának is vásárolt néhány nyalánkságot. Kedvenc csemegéje volt a
+               kókuszolajban kisütött, vastag pálmahernyó, amelyhez apró, irgalmatlanul csípős
+               paprikát nyelt.</p>
+            <p>André nagyon meg volt elégedve Digával, aki kutyahűséggel és megható figyelmességgel
+               szolgálta ki. Új szőnyeget szőtt pálmarostokból, szinte vallásos tisztelettel
+               gondozta ruháit, kiirtotta a lakásban az ujjnyi nagyságú pókokat, a kövérre hízott
+               patkányokat és a félméteres gyíkokat, melyek bogarakra vadásztak a falakon. Udu, Diga
+               atyja időnkint megvárta Andrét a háza kapuja előtt és alázatos hajlongások közepette
+               érdeklődött, hogyan van megelégedve leányával a nagyúr? Nincs-e panasza, kifogása,
+               mert akkor ő menten agyonvágja a haszontalant! A vén betyár tudta, hogy ilyenkor
+               mindig kap egy-két jó falatot, egy korsó sört, sőt talán néhány frankot is.</p>
+            <p>A néger illem tiltja, hogy a nő szerelmi érzéseiről beszéljen, Diga nem is
+               dicsekedett senkinek szerencséjével, nem mesélte el, hogy mennyire boldog, még
+               Andrénak sem mert áradozó, kedves szavakat mondani. Minden tettével, mosolyával,
+               elragadtatott mozdulataival, szeme csillogásával elárulta szerelmét, de mindez néma
+               muzsika maradt. A fehér férfiak jól ismerik a néger nők e furcsa szokását, amely arra
+               kényszeríti őket, hogy szeméremből és a férfi iránti alázatból a szerelem perceiben
+               megnémuljanak. Olyan mélyen gyökerezik ez a szokás bennük, hogy ez ellen reménytelen
+               minden küzdelem. A szeretkezés náluk az istentisztelet egyik formája, melynek merev
+               és változhatatlan formái vannak és azoknak megszegését kegyetlenül megtorolják a
+               különböző démonok. A szerelmes asszony talán nem is törődne a maga elkárhozásával,
+               de a férfit félti, akire szintén baj származna.</p>
+            <p>Ah, valóban nem volt nagy eset az egész, a kaszinóban sem ejtettek róla szót,
+               mindössze annyi történt, hogy Togó nem jelentkezett többé a munkán. Visszaküldte a
+               felügyelői nadrágot és a széles szalmakalapot, megint mezítelenül ült a kunyhója
+               előtt és folyton ivott. André vállat vont, mikor közölték vele, hogy Togó nem
+               hajlandó többé dolgozni. Egy kicsit sajnálta, mert értelmesebb volt mint a többi
+               munkás, de Afrikában semmiből sem csinál az ember nagy dolgot. Legfeljebb lassabban
+               halad a munka, vagy még szerződtetnek néhány száz négert. Igazán nem fontos. Kinek
+               sürgős ez az út? A négerek, szegények, igazán nem vágyakoznak utána. Megvoltak ők
+               évezredekig utak nélkül is. Az pedig tiszta haszon, ha a fehér emberek nem
+               jönnek-mennek még nagyobb tömegekben. Elég bajt okoznak így is.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>V.</head>
+            <p>Este a kaszinóban még a szokottnál is ingerültebb hangulatban ültek a férfiak. A
+               levegőben vihar lógott, a majmok rikácsolva riadtak fel a mennydörgésre és
+               rémületükben a kaszinó terraszára ugráltak a közeli fákról. Az erdő felől néha
+               elnyúlt ordítás hangzott. Máskor ilyen esetben feltétlenül megjegyezte volna
+               valamelyikük: </p>
+            <p>- Illene egy kis oroszlánvadászatra mennünk!</p>
+            <p>De most nem gondoltak vadászatra. Az urak mérgesek voltak, mert levél érkezett
+               Brüsszelből, amelyben a társaság értesítette őket, hogy útnak indította Robert Doré
+               urat, aki majd felülvizsgálja az eddig végzett munkálatokat.</p>
+            <p>- Az ördög vigye el! - dühöngött Paul - most majd megint magyarázkodhatunk néhány
+               hétig, kitalálhatunk apró hazugságokat, kiköphetjük a tüdőnket, amíg végre
+               megértetjük Doré úrral, hogy Afrika nem Európa és hogy itt más mértékkel kell mérni a
+               teljesítményeket, mint odahaza.</p>
+            <p>André legyintett.</p>
+            <p>- Majd én elintézem Doré urat. Ne féljetek, gondoskodom róla, hogy elfogja a trópusi
+               láz. Egy kis elefántvadászat, négerünnepélyek... megrendezzük neki a gyarmatügyi
+               kiállítás összes szenzációit. Két héten belül kikészítjük. Ámbár valószínű, hogy mire
+               ideérkezik, már olyan maláriás lesz, hogy kisebb gondja is nagyobb lesz a munka
+               ellenőrzésénél. Boldog lesz, ha Leroux doktor egy kis életet fecskendez belé
+               injekciós tűivel!</p>
+            <p>Az eső megeredt. Patakokban ömlött a víz. Az erdő idegtépően ropogott, zúgott,
+               jajgatott. Az éjszaka megtelt rémülettel. Elveszett ember, akit a szabadban ér az
+               ilyen vad trópusi zivatar. Az elképzelhetetlenül sűrű zápor szinte lehetetlenné teszi
+               a lélegzést, mintha folyó fenekére került volna az ember. Orrán, fülén, száján csorog
+               be a víz.</p>
+            <p>Pierre Vaucamp, egy huszonnyolc éves fiatal legény félig aléltan nyúlt el a
+               nyugszéken és azt mondta:</p>
+            <p>- Legjobb lenne megdögleni!</p>
+            <p>Valamennyinek elernyedt az idegzete. Mintha megereszkedett, foszlott kötelek lógtak
+               volna bennük inak és izmok helyett. És a távolból szüntelenül hangzott a menedéket
+               kereső állatok bőgése, ordítása, makogása, rikácsolása.</p>
+            <p>- Még csak ez hiányzott - mondta keserűen Paul - ez az átkozott vihar. Hiszen amit
+               nagy keservesen elkészítettünk, holnapra az is sártenger lesz. Bár a nyakát törné
+               Doré úr valahol az úton. Igazán nincsen rá semmi szükségünk!</p>
+            <p>- Senki sem kell, senki! - kiáltotta váratlanul vad dühvel Pierre. A többiek rá sem
+               néztek. Tudták, hogy sokat ivott és most ez a vihar! Egy kis afrikai idegjáték. Az
+               előbbi nagy elernyedést hirtelen dühroham váltotta fel.</p>
+            <p>Egy félóra mulva a zivatar minden átmenet nélkül elállt.</p>
+            <p>Amikor André később hazament, Digát a szoba sarkában imádkozva találta. Egy csontból
+               faragott kis bálvány előtt hajlongott, miközben éneklő hangon hívta segítségül a jó
+               szellemeket.</p>
+            <p>- Mit csinálsz? - kérdezte meglepetten André.</p>
+            <p>A lány boldog meglepetéssel rezzent fel.</p>
+            <p>- Oh uram, - kiáltotta - az előbb annyi gonosz szellem dühöngött odakint és én
+               féltem, hogy uramnak baja történhetik...</p>
+            <p>Ez volt az egyetlen szerelmi vallomás, melyei Diga meg mert kockáztatni. André
+               egyáltalában nem volt meghatva. Természetesnek tartotta, hogy ő fehér férfi, akit
+               imádni kell egy néger lánynak.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VI.</head>
+            <p>Robert Dóré csakugyan megérkezett. Negyven év körüli, piros képű, pápaszemes, kissé
+               hízásnak indult férfi volt. Még néhány száz kilométernyire lehetett a teleptől,
+               amikor a négerek már pontosan értesülve voltak a nagy eseményről. A primitív emberek
+               erdei telegramja nagyszerűen működött. A dobokon, fatörzsökön kikopogott
+               sürgönyjeleket pontosan továbbadták és a négerek már azt is tudták, amiről a
+               fehéreknek még sejtelmük sem volt. Hogy Robert Doré nem egyedül jön, hanem egy fehér
+               hölgy is van a kiséretében. A hír igaznak bizonyult. Robert Doré nem régen nősült. A
+               vállalat egy fiatal tisztviselőnőjét vette feleségül, a húsz esztendős Louise
+               Vaucourtot. Doré halálosan szerelmes volt feleségébe, aki lényegesen kevesebb hévvel
+               viszonozta ura érzéseit. Louise már menyasszony volt, mikor Doré megkérte a kezét.
+               Egy sportbajnok volt a vőlegénye, de a házasság megkötése anyagi okokból egyre
+               kitolódott. Amikor Doré bevallotta szerelmét, Louise nem habozhatott. Tisztában volt
+               azzal, hogy új kérője oldalán olyan jólétben lesz része, amilyenről mint a
+               sportbajnok felesége nem is álmodhat. Nőül ment hát Doréhoz hidegen, felismerve a
+               rideg és józan számítások eredményének kényszerítő erejét.</p>
+            <p>A házasság nem volt boldog. A férfi érezte, hogy felesége nem szereti és ez teljesen
+               feldúlta lelki nyugalmát. Rettentően féltékeny volt. Mindenkire gyanakodott. Az okos,
+               józan asszony hiába kerülte a hűtlenségnek még a látszatát is. Doréban állandóan
+               izzott, viharzott a kétségbeesés. Különösen a sportbajnokot gyűlölte, mert meg volt
+               győződve, hogy Louise még mindig változatlan szerelemmel imádja. A bajnok,
+               magánéletében egy olajfinomitó gyár kis hivatalnoka volt. Doré nem nyugodott, amíg
+               összeköttetéseivel ki nem járta, hogy a gyár a fiatalembert egyik vidéki fiókjába
+               helyezte. Louise látszólagos közönnyel vette tudomásul a hírt, de lelke mélyén
+               megvetette férje alattomos eljárását, amely mélyen sértette önérzetét.</p>
+            <p>Amikor a vállalat Dorét megbízta, hogy látogassa meg az afrikai építkezéseket, Doré
+               nyomban elhatározta, hogy magával viszi feleségét is. Hiszen még akkor sem bízott
+               benne, amikor egész nap ott lógott az oldala mellett. Még a bevásárlásaira is
+               elkisérte. Dehogy is tudta volna magára hagyni három-négy hónapra Párisban!</p>
+            <p>A dolog különben egészen könnyen ment. Louise boldog volt, hogy bepillanthat a
+               gyarmatok egzotikus világába. Ah, Párist már úgyis halálosan únta. Mióta férjhez
+               ment, szinte óramű-pontossággal volt beosztva az élete. Még a mulatságaiknak ízét is
+               elvette Doré kibírhatatlan féltékenysége. Idegennel nem volt szabad táncolnia és ha a
+               társaságban egy férfi kissé melegebben kezdett foglalkozni vele, Doré mint a keselyü
+               csapott le és valamilyen ürügy alatt már vitte haza.</p>
+            <p>Louise képzeletét határtalanul izgatta Afrika. Az ismerősök ijesztgetni próbálták.
+               Rémes színekkel ecsetelték a moszkitók gyilkos támadását, a kibírhatatlan hőséget, a
+               négerek undorító piszkosságát, a lakásokba lopódzó kígyók halálos marását, az
+               éjszakát gyötrelmessé tevő milliárdnyi rovar förtelmességét, a gyermekfejnagyságú
+               röpülő kutyák, és vámpirok undok üvöltését. Louise mindenre azt mondta: látni
+               akarom!</p>
+            <p>A hajóút első fele meglehetősen kellemes volt. De mikor az Egyenlítő felé közeledtek,
+               a trópikus hőség már kezdte megmutatni erejét. Louise nehezen lélegzett, szívdobogása
+               volt, fárasztotta a mozgás és órákhosszat feküdt mozdulatlanul. A férje előtt mindezt
+               titkolni igyekezett, csak a hajó orvosának panaszkodott, aki azonban megvígasztalta:
+               átmeneti állapot! Hamarosan meg fogja szokni!</p>
+            <p>A hajó hűtőkészülékei ontották a sok jeges italt, fagylaltot, a villamos
+               szellőztetőgépek pompásan működtek...</p>
+            <p>De azután jött a partraszállás. Kétnapi utazás a keskenyvágányú szellős vonaton
+               pálma-, kenyérfa- és kaucsukerdőkben. A vonat mellett gazellák szaladgálnak és az
+               állomásokon majmok lopkodják a kosarakban álló banánokat. A vasútnak étkező kocsija
+               van és a néger pincérek fehér vászonruhában szolgálnak fel. Mindez nagyon kedves és
+               érdekes. De egyszerre csak elfogynak a vasúti sínek. Nincs tovább.</p>
+            <p>Az utolsó állomáson karaván várja őket. Öszvérek, négerek vállára fektetett
+               hordszékek, szétszedhető sátrak, fegyverek. Huszonnégy ember, és a vezető. Az első
+               néhány óra nagyon mulatságos. Azután mocsár következik. Rengeteg szúnyog. Le kell
+               bocsátani a kalapok szúnyoghálóját. A hőség elviselhetetlen. Nincs többé jégbehűtött
+               víz...</p>
+            <p>Éjjelre egy erdőbe értek. Fáklyák fénye mellett haladtak tovább. Az éjszakát ki kell
+               használni, majd inkább nappal pihennek.</p>
+            <p>Louise ereiben tűzfolyó keringett. Állandóan kábult volt. Nem tudott gondolkozni, a
+               homlokán verejték ütött ki. A levegő túlságosan fűszeres volt, óriási, harsányszínű
+               virágok mintha opiumot leheltek volna. Erőtlenül pihegett a hordszéken, amely lassan
+               himbálódzott a négerek vállán.</p>
+            <p>Louise megijedt. Érezte, hogyan változik át egész énje. Forró nyugtalanság gyötörte,
+               melynek még nem tudta sem okát, sem nevét. A férjét nézte, aki látszólag frissen és
+               ruganyosan haladt a négerek mellett. Néha megállt, célba vett egy madarat és
+               eldurrantotta fegyverét. Doré már többízben járt Afrikában. Az ő idegrendszerét nem
+               támadta meg a gyilkos klíma. Louise megfigyelte, milyen ravaszul és elégedetten
+               pillant rá időnkint. Mintha örülne annak, hogy ő most tehetetlenül, a hőségtől
+               eltikkadtan, szinte félholtan fekszik. Louiset felháborította ez a sátáni öröm. Gyanu
+               ébredezett benne, hogy Robert tervszerűen készítette elő afrikai útjukat. A gyáva és
+               féltékeny ember előre élvezte a gondolatot, hogy itt végre csakugyan ő lesz az
+               erősebb. Tudta, tudnia kellett, hogy milyen rombolást végez a trópikus klíma azoknak
+               a szervezetében, akik még nem edződtek hozzá. Hónapokig tart, amíg az idegek
+               lassankint megszokják az állandó meleget, az erdők párolgását, a rovarok
+               kellemetlenkedéseit.</p>
+            <p>Louise egyszerre kiábrándult afrikai illuzióiból és szörnyű rémület fogta el. Majdnem
+               felsikoltott kétségbeesésében. Teljes világossággal eszmélt arra, hogy tökéletesen
+               ki van szolgáltatva Robertnek. Ez a gondolat vérig sértette önérzetét. Hiszen a
+               legszerelmesebb asszony is csak addig tud szívvel-lélekkel odaadó lenni, ameddig ezt
+               szabad akaratból teszi. Mert a kényszer érzése gyűlöletté változtatja a
+               legszenvedélyesebb szerelmet is. Ha a szerelmest megfosztják attól az illuziójától,
+               hogy szabad akaratából cselekszik, gyűlölködő ellenséggé változik.</p>
+            <p>Louise eddig sem szerette férjét, de korrekt és izléses volt mindig, mert levonta
+               annak következményét, hogy a maga elhatározásából lett Robert felesége. Eddig
+               egyenlő, szabad felek voltak. De most minden megváltozott. Kiszolgáltatott
+               rabszolganő lett. Kényszer és ravaszság tartja Robert hatalmában. A férj bosszút állt
+               azokért a sérelmekért, melyeket féltékenységében elszenvedni vélt. Legalább is így
+               érezte Louise.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VII.</head>
+            <p>Nemcsak a négerek bámulták meg határtalan kíváncsisággal Louiset, hanem a mérnökök
+               is. Mintha még ők sem láttak volna fehér asszonyt. Álmos közönyük egyszerre megszünt,
+               valósággal felvillanyozódtak. Bozontos szakállukat sietve leborotválták, gyűrött,
+               piszkos vászonruháikat kimosatták, vasaltatták, a telep megzavart hangyabolyhoz
+               hasonlított. Mindenki tele volt nyugtalansággal, izgalommal, a nő varázsa egyszerre
+               hatalmába ejtette őket és szinte megható naívsággal rendelték magukat alá a
+               váratlanul közéjük toppant nő uralmának. Doréról szinte tudomást sem vettek, a férfi
+               személye valósággal eltörpült az asszony mellett. Csak most, amikor ismét beszívták
+               egy nagyvilági nő parfőmjét és a Páris eleganciája bájolta el szemüket, ébredtek
+               annak tudatára, hogy mennyire elvadultak az esztendők során. Esetleneknek,
+               ostobáknak érezték magukat és lámpalázasan ejtettek ki minden szót, mert féltek, hogy
+               durván és bárdolatlanul hangzik az, amit mondanak.</p>
+            <p>A kaszinót kicsinosították, mert Doré többször magával hozta a feleségét. Nagy gondot
+               fordítottak az ízléses terítésre, keveset ittak, mert féltek, hogy lerészegednek. De
+               a látszólagos fegyelmezettség borzalmas indulatokat takart. A hat férfi halálosan
+               szerelmes volt Louiseba. Erről soha egyikük sem beszélt, de enélkül is tisztában
+               voltak mindennel. Az évek során alaposan megismerték egymást, mindegyik tudta a
+               másikról, hogyan szokott öltözködni, milyen mocskos cinizmussal gondolkozik a nőkről,
+               szerelemről, mennyi sört vagy pezsgőt szokott esténkint inni. És most kölcsönös
+               undorral és lenéző mosollyal állapította meg mindegyik, hogy a „másik” milyen
+               dendisen öltözködik, hogy milyen komikusan hiú, milyen verejtékes erőlködéssel próbál
+               az asszonynak tetszeni. Még sohasem látták ennyire tisztán egymás gyengéit és a
+               bennük rejlő ellenszenves tulajdonságokat. A hosszú együttélés megszokottsága alatt
+               kifejlődött barátságok kölcsönös megvetéssé változtak. Az urak egyszerre nagyon
+               komolyan vették a hivatali rangjukat, szolgálati hangon kezdtek egymással diskurálni,
+               ami eddig teljesen ismeretlen volt. Boldogok voltak, ha hibát fedezhettek fel a másik
+               munkájában, éles rendreutasítások, fegyelmi eljárással való fenyegetések voltak
+               napirenden.</p>
+            <p>Doré úgy élvezte mindezt, mint ahogyan Lucifer gyönyörködhetik az elkárhozott lelkek
+               örök marakodásában. Határtalan hím büszkeség duzzasztotta keblét, hogy a többi férfi
+               szenved és irigyli tőle az asszonyt. Valósággal könyörgött Louisenak, hogy minél
+               pompásabb ruhákban jelenjen meg, úgy mutogatta az asszonyt, mint a maharadzsák
+               legendás gyémántjaikat.</p>
+            <p>Louise boldogtalan volt. Megvetette férje alantas hiúságát és irtózott szultáni
+               pöffeszkedésétől. De bántotta és zavarba hozta a férfiak éhes tekintete is.
+               Túlzottan kedves és udvarias volt mindegyikhez, vigyázott arra, hogy egyiket se
+               tüntesse ki a másik rovására.</p>
+            <p>Legjobban a kora hajnali órákat szerette, amikor a férfiak kilovagoltak a munkához és
+               magára maradt. Ilyenkor lovaglónadrágot és magasszárú cipőt húzott, tropikus,
+               parafával bélelt sisakot tett a fejére, a vállára puskát akasztott és cserkészni
+               ment néhány néger szolga kíséretében. Nevetnie kellett, olyan valószínűtlen volt
+               mindez. Mintha Hollywoodba hívták volna valamilyen egzotikus film főszerepének
+               eljátszására. Többször elment a folyó partjára, ahol ezrével hevertek az óriási
+               krokodilok. Olyan élettelenül nyujtództak a napon, hogy messziről kivágott
+               fatörzsekhez hasonlítottak. Néhány szörnyeteg koponyájába golyót röpített és nagy
+               diadallal faagákra kötözve vitték haza az elejtett óriáshüllőt. A négerek, akik
+               kedvében akartak járni, apró majmokkal ajándékozták meg, amelyekkel csakugyan
+               pompásan szórakozott.</p>
+            <p>Csak délutánok és esték ne lettek volna! Azok a szörnyű, agyat forraló, lélegzetet
+               elállító forró délutánok, amikor bénultan hevert a kereveten és éterrel permetezte a
+               nyakát és a homlokát. Ilyenkor mintha kicserélődött volna a lénye. Képzelete furcsa,
+               fantasztikus alakokkal népesült be, ijesztő hangokat hallott az erdő felől, vigyorgó
+               néger bálványok elevenedtek meg előtte, érzéki tévedések riasztották. Mintha ő is
+               néger nő lett volna és a tam-tam őrjítő hangjaira táncolt volna...</p>
+            <p>Mikor kinyitotta a szemét, villogó, furcsa tekintet meredt rá. Felsikoltott
+               ijedtében. Pillanatokig tartott, amig felismerte a vele szemben álló férfit. André
+               volt.</p>
+            <p>- Madame - mondta udvarias meghajlással a férfi. - Ön nem nagyon óvatos. Afrikában
+               nem tanácsos nyitott ajtó mellett aludni. Még szerencse, hogy a négere értem rohant
+               és figyelmeztetett, hogy veszély fenyegeti.</p>
+            <p>Egy fekete-zöldes, idomtalan tömegbe rúgott. Hatalmas, agyonvert óriáskígyó volt.</p>
+            <p>Louise elsápadt.</p>
+            <p>- Nem értem - mondotta. - A néger itt őrködött a küszöbön.</p>
+            <p>- Igen, de a fickó csak későn pillantotta meg a kígyót, amikor már felkúszott a
+               lépcsőkön. És nem mert utána menni, mert a parancsa úgy szólt, hogy semmi szín alatt
+               nem lépheti át a szoba küszöbét. A szegény együgyű fekete azt hitte, hogy a halálok
+               halálával hal meg, ha megszegi a tilalmat. Ön Tabu a szemében. Hatalmas, mint egy
+               isten. Valószínüleg meg volt győződve, hogy a kígyó sem árthat a fehér asszonynak.
+               Engem inkább csak azért hívott, hogy tanuja legyek, amikor a kígyót a fehér asszony
+               egy mozdulatával, talán csak lélegzetével, vagy egy pillantásával megsemmisíti!</p>
+            <p>Az asszony csak most vette észre, hogy majdnem egészen mezítelen. Mindössze egy
+               könnyű, szinte áttetsző fehér selyemkendő volt ráborítva, amely lecsúszott válláról,
+               mikor az imént riadtan felugrott.</p>
+            <p>Zavartan igyekezett jobban beburkolódzni. De érezte, hogy a férfi pillantása hogyan
+               fúrja át a leplet és szinte perzseli a bőrét.</p>
+            <p>- Köszönöm uram, hogy megmentett! - mondotta és ösztönszerűen hátralépett.</p>
+            <p>Lehúzta a kerevet barna virágos takaróját és azt csavarta maga köré.</p>
+            <p>- André Salmon vagyok, ha madame elfelejtette volna a nevemet - mondotta a mérnök. -
+               Szeretném, ha megjegyezné a nevemet, ha legalább ennyivel különböztetne meg a többi
+               kollégámtól!</p>
+            <p>Louise nevetett. Valóban, túlságosan szórakozott volt, képtelen volt közömbös emberek
+               neveit megjegyezni. A mérnökök bosszúsan állapították meg, hogy állandóan
+               összetéveszti őket. Világos jele annak, hogy egyáltalában nem érdeklik
+               őnagyságát.</p>
+            <p>- Meg fogom jegyezni, monsieur Salmon! - válaszolta. És kedvesen mosolygott.</p>
+            <p>A férfi szíve vadul vert.</p>
+            <p>- Miért jött közénk? Önnek nem lett volna szabad ide jönnie! - kiáltotta váratlanul
+               és oly hevesen, hogy az asszony megrezzent.</p>
+            <p>- Miért mondja ezt? - kérdezte riadtan.</p>
+            <p>- Mit tudja ön azt, hogy mit jelent nekünk az asszony! Fehér nő, ebben a rengetegben.
+               Itt élünk a legbujább, legmámorosabb világban, ahol őrjöngve buggyan a földből a
+               termékenység, ahol minden lustán nyujtózkodik, nedvektől duzzad... Asszonytalanul
+               élünk! Alkoholba fojtjuk a viziókat, amelyek megrohannak. A néger nők, ezek a néma,
+               alázatos bábok csak feldühítik az embert, Mi fehérek harcolni szeretünk a
+               szerelmünkért. A mi szerelmünk csupa titokzatos szépség, váratlan izgalom,
+               féltékenység, egyenlő rangú ellenfelek küzdelme. Itt fantáziátlan, örömtelen
+               fiziológiai művelet. Nincs harc, nincs ellenállás, nincs kacagás. A néger nő inkább
+               meghal, semhogy csók közben nevetéssel sértse meg a fehér férfit. De mégis éltünk,
+               amig ön nem jött ide. Beletörtük magunkat a változhatatlanba. Páris, a nők, már
+               elvesztették valószerűségüket. Beszéltünk róluk, mint akár Oceániáról, az elsüllyedt
+               világról, vagy a mesék aranymezőiről. De most itt van, elhozta a megfogható
+               valóságot, úgy zúzta szét a mi ezer nyomorúsággal magunkra erőltetett nyugalmunkat,
+               mint egy vaspöröly.</p>
+            <p>A hangja elfulladt, nehezen lélegzett.</p>
+            <p>- Szeretem magát! - mondotta tikkadtan. - Én már elfelejtettem a szavakat, melyeket
+               ilyenkor mondani szoktak. Vadember lettem, öt éve élek a rengetegben. Nem tudok
+               bókolni, olyan esetlen vagyok, mint egy bivaly. De az érzéseim. Ha megértené ezt a
+               mindent elsöprő forró vágyat és imádatot, amely kizeng belőlem, mint az orkán,
+               őszintén, mint a madárdal és barnán, mint ez a kövér föld körülöttünk.</p>
+            <p>- Csillapodjon! - mondotta az asszony és megdidergett, ahogyan a szavak súrolták.
+               -Őrültségeket beszél! A férjem...</p>
+            <p>Gyülölet villant André szemében.</p>
+            <p>- A férje - sziszegte és arca mintha nyúlós, zöldszínű méregtől foszforeszkált volna
+               - úgy jár köztünk, mint egy törzsfőnök, mint egy bálvány, amely csodálatos orhideára
+               vigyáz. Afrika legszebb virágára és legértékesebb kincsére. De a kincsek sorsa, hogy
+               ellopják őket...</p>
+            <p>- Téboly! - mondotta Louise. - Itt minden annyira túlfűtött és rémületes. Mintha
+               csupa őrjöngő között járna az ember.</p>
+            <p>Az erdő felől lassú ritmusban hallatszottak a fa-dobok. Mint végtelen bús sóhajtozás,
+               konok és idegekbe markoló figyelmeztetés, hogy félelmetes titkok lesnek ránk
+               szüntelenül.</p>
+            <p>- Ezek a négerek is, - mondotta André - mióta maga itt van, elvesztették a
+               józanságukat. A varázslóik éjjel-nappal dolgoznak, démonokat füstölnek, veszély
+               érzése borzong az idegeikben. Maga árasztja mind ezt a nyugtalanságot!</p>
+            <p>A távolból kiáltozás hangzott, káromkodás és parancsszavak.</p>
+            <p>- Most menjen! - sürgette az asszony. - Nem maradhat itt egy percig sem.</p>
+            <p>- Egy biztató szava sincsen? - könyörgött André és csak állt élőhalottként.</p>
+            <p>- Menjen! - mondotta erélyesen Louise, erélyesen, mint ahogyan a hipnotizőr utasítja
+               a médiumát.</p>
+            <p>A mérnök kitámolygott a szobából.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VIII.</head>
+            <p>Diga vakító, elefántcsont fogai kivillantak húsos ajkai közül. Ilyenkor szép volt,
+               mikor mosolygott. A lépése könnyű és kecses volt, a haját illatos olajokkal
+               lágyította és simán oldalra fésülte. Nagy munka volt az apró, göndör hullámokat
+               eltüntetni. Diga napok óta készült erre. Látta, hogy Louise is így hordja a haját és
+               utánozni próbálta. Most izgatottan várta a hatást, a fehér férfi isten elismerő
+               szavát.</p>
+            <p>De André egy pillantást sem vetett rá. Ledobta kabátját, azután az asztalra csapott,
+               mintha láthatatlan ellenség koponyáját akarná szétzúzni és hevesen felindulva járt
+               fel és alá, miközben érthetetlen szavakat mormogott.</p>
+            <p>Diga a sarokba húzódva, tágra nyilt szemmel, rémülten nézte, hogy mit csinál? De
+               mikor látta, hogy André egyáltalában nem hagyja abba azértelmetlen sétát, kiosont a
+               szobából és a kerek fatálcára rakott gyümölcsökkel, meg sörrel tért vissza.
+               Kedveskedő mozdulattal tette az asztalra.</p>
+            <p>André felrezzent, mintha csak most vette volna észre Digát. Egy pillanatig szinte
+               meghökkenve állott.</p>
+            <p>- Ah, persze, hiszen te itt vagy! - mormogta. - Vidd a gyümölcsöt, nincsen semmire
+               sem szükségem.</p>
+            <p>Diga megszeppenve engedelmeskedett.</p>
+            <p>Kiment a szobából és a küszöb elé ült. Úgy gubbasztott, mint egy beteg kis madár. A
+               nyitott ajtóból csak néha mert André felé pillantani. André eleinte ügyet sem vetett
+               rá, de a mozdulatlan, lehorgasztott fejü lány, aki olyan volt, mint az eleven
+               szemrehányás, lassankint felbosszantotta.</p>
+            <p>- Na mit ülsz itt, mi a bajod? - kiáltott rá ingerülten.</p>
+            <p>- Uram haragszik rám! - mondotta Diga kétségbeesetten. - Én nem tudni harag okát.
+               Mindent megtenni, hogy velem megelégedni... kértem Nagy Szellemet, hogy uram
+               szeressen engem...</p>
+            <p>Olyan megható volt gyerekes együgyűségében, ahogyan könnyektől fátyolozódott a szeme
+               és elcsuklott a hangja, hogy André megsajnálta.</p>
+            <p>- Nézd Diga, - mondotta - nem haragszom rád, te csakugyan jó lány vagy, de nem
+               maradhatsz nálam tovább.</p>
+            <p>Diga fekete arca hamuszürke lett, ami a négereknél a legnagyobb rémület jele.</p>
+            <p>- Uram elkerget? - kiáltotta magánkívül. - Akkor Digát mindenki kicsúfolni, apám
+               agyonverni engem...</p>
+            <p>- Nem lesz semmi bajod. Gondoskodom rólad...</p>
+            <p>- Én uramnál maradni! - kiáltotta a boldogtalan.</p>
+            <p>Csak aki a néger lelket ismeri, tudja, hogy mekkora halálos elszántság kellett ahhoz,
+               hogy a szegény lány ellent merjen mondani Andrénak.</p>
+            <p>A mérnök azonban fejét rázta.</p>
+            <p>- Ez nem lehet Diga...</p>
+            <p>- Mást lányt akarni uram? Diga szebb, jobb, engedelmesebb... Tudni varrni és ruhákat
+               rendben tartani...</p>
+            <p>- Nem veszek lányt. Boyt fogok tartani. Téged pedig férjhez adlak Togóhoz.</p>
+            <p>- Én jobban szeretni uramat!</p>
+            <p>Mint egy végső reménykedés sikoltott ki belőle ez a vallomás. André azonban unta a
+               dolgot és erélyesen rászólt:</p>
+            <p>- Elég volt Diga. Azt fogod tenni, amit parancsolok.</p>
+            <p>Hátat fordított a lánynak és elsietett. Egyenesen Togó kunyhójához nyargalt. Mielőbb
+               véget akart vetni a dolognak. Éppen eléggé ideges volt. Még csak az hiányzott, hogy
+               ez a fekete lány is nyugtalanítsa.</p>
+            <p>Togó kunyhója előtt ült és bétel leveleket harapdált. Alig lehetett ráismerni.
+               Lefogyott, csupa csont, meg bőr volt, a szeme élettelenül bámult a világba.
+               Kunyhójából rettentő bűz áramlott ki, világos jeléül annak, hogy senki sem takarítja.
+               A kunyhó környéke is csupa mocsok volt, két apró, fekete disznó éhesen röfögött, nem
+               messze tőlük egy döglött kutya feküdt égnek nyújtott lábakkal. Valószínűleg az
+               éhségtől fordult fel. Hangyák és rovarok milliói lepték el, sok helyütt már egészen
+               lerágták a húst és csak a csontok fehérlettek. Orrfacsaró bűz terjengett, André
+               majdnem rosszul lett.</p>
+            <p>- Ide gyere! - kiáltott Togóra.</p>
+            <p>Az élő hulla engedelmeskedett.</p>
+            <p>- Ide hallgass, - mondotta André. - Neked adom Digát, feleségül veheted! Már ma
+               elviheted. Holnap pedig jelentkezz a munkánál. Visszakapod a nadrágot és a
+               kalapot.</p>
+            <p>Ezektől a szavaktól Togó egyszerre eleven lett. Nagyot ugrott örömében, fekete bőre
+               szinte kifényesedett. Hálálkodó és áldó szavak tömegét zuhogtatta Andréra.</p>
+            <p>De a mérnök erre már nem volt kiváncsi. Rosszkedvűen oldalba kapta lovát és
+               elnyargalt. Legszívesebben kilovagolt volna a világból.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>IX.</head>
+            <p>A harmadik hét végén Doré értekezletre hívta az urakat. Tudomásukra hozta, hogy a
+               tapasztaltaktól nincsen túlságosan elragadtatva, a munkateljesítmény lassú és
+               meglehetősen silány. Mindazonáltal újabb telepeket kell felméretezni, mert a párisi
+               központ további vasútvonalakat tervez. Az urak tehát készülődjenek fel, rendeljék be
+               a szükséges számú munkásokat és a kellő műszerekkel megrakodva, holnap hajnalban
+               elindulnak. A térképezési munkálatok előreláthatólag három-négy napig fognak tartani
+               és azokban valamennyi mérnöknek részt kell venni, hogy a későbbi szaktanácskozáson
+               kellő tájékozottsággal tudjanak az egyes kérdésekhez hozzászólni. Az előmunkálatok
+               tartama alatt a telepen csupán André Salmon marad, aki a folyamatban lévő
+               útépítkezést vezeti és a négerekre felügyel...</p>
+            <p>Doré angyali kedvében volt. Soha életében nem érezte jobban magát, mint az elmult
+               néhány hét alatt. Gyáva, gátlásokkal telített lénye valósággal kivirágzott. Végre
+               megtalálta a világnak azt a pontját, amelyen korlátlan úr volt. Valamennyi mérnök
+               alárendeltje volt, a négerek reszkettek tőle és Louise kényre-kedvre ki volt néki
+               szolgáltatva. Határtalanul élvezte hatalmát, valami kellemes bódulatban járt
+               állandóan.</p>
+            <p>A tanácskozás után fütyörészve ment a számára fenntartott villába, amely a telep
+               legdíszesebb épülete volt. Széleslevelű, legyezőpálmák alá épített, ízléses faház,
+               amelynek még terrasza is volt.</p>
+            <p>Louise szenvedő arccal ült a nyugszéken, látszólag teljesen apatikusan.</p>
+            <p>Ettől a látványtól egyszerre keserű lett Doré szájíze.</p>
+            <p>- Kérlek, - mondotta ingerülten - igazán nem értelek. Mindig itt talállak, mint egy
+               martirt, nyögve és unatkozva... Tulajdonképpen mi bajod van? Az egész világ
+               körülötted forog, mindenki kedvedet lesi és te naphosszat haldokolsz és úgy nézel,
+               mintha valamennyien gyilkosok lennénk!</p>
+            <p>- Utazzunk vissza Párisba, Robert! - mondotta az asszony.</p>
+            <p>Doré gúnyosan mosolygott.</p>
+            <p>- Szóval nem jól érzed magad velem kettesben. Páris kell neked, a flörtök, a
+               szmokingos majmok, a barátnőid, akik elmondják, hogyan csalják meg a férjeiket! Hát
+               kérlek, örömhírem van a számodra. Megkíméllek néhány napig annyira kellemetlen
+               társaságomtól. Földmérő munkára megyek az urakkal. Magad leszel. Pihenhetsz,
+               ábrándozhatsz, terveket készíthetsz arról, hogyan és kivel fogsz megcsalni
+               Párisban...</p>
+            <p>- Ostoba vagy és ízléstelen!</p>
+            <p>- Nem tetszem neked? Nem vagyok udvarias? Szemedbe mondom az igazat? Hát ki ennek az
+               oka? Még tíz perce sincsen, boldog és elégedett voltam. Azután hazajövök és látom,
+               hogy valósággal süvít belőled a gyűlölet, minden mozdulatod érezteti, hogy terhedre
+               vagyok. Azt hittem, hogy talán itt, az őserdőben eszedre térsz, hogy távol az undok
+               civilizációtól jobb és megértőbb leszel. Te azonban itt is csak párisi életedet
+               folytatod. Azt hiszed, nem vettem észre, hogyan kacérkodsz a mérnökökkel? Hogyan
+               ugratod, bolondítod őket? Úgy rángatod őket, mint a pojácákat...</p>
+            <p>- Hallgass, kiáltotta kétségbeesetten Louise. - Nem érzed, mennyire komisz és
+               megalázó minden szavad? Hát miért nem válsz el? Mi értelme van ennek az életnek?
+               Váljunk el, Robert!</p>
+            <p>- Úgy? Tehát ez jár a fejedben. Válni akarsz. Nyiltan bevallod, hogy gyűlölsz, nem
+               kellek neked. Ez legalább világos, őszinte beszéd... De hát miért akarsz elhagyni? Ki
+               az, aki jobban, szenvedélyesebben szerethetne? Aki többet nyújtana néked, mint
+               én?</p>
+            <p>Elérzékenyült és majdnem sírva fakadt.</p>
+            <p>- Miért nem szeretsz Louise? Hiszen én mindennél jobban imádlak! Mit tegyek, hogy
+               szeress? Hát nem látod, hogy az ingerültségem, a gorombaságom csak kétségbeesés? Ha
+               tudnám, hogy megbízhatom benned, hogy szeretsz... az ujjad körül csavarhatnál!</p>
+            <p>És hirtelen újabb dühroham fogta el.</p>
+            <p>- Arra ne is gondolj, hogy elválunk! Óh nem! Azt hiszed, hülye vagyok? Ugródeszkának
+               kellenék? A feleségem lettél, mert így bekerültél alegjobb társaságba, ünnepelt dáma
+               lettél, akinek most már nincsen rám szüksége, mert már bizonyára kiszemelted az
+               utódomat. Hát jól jegyezd meg: én megölöm azt az embert, aki csak egy ujjal is hozzád
+               merészel nyúlni! Értetted? Ez nem üres beszéd, elhiheted!</p>
+            <p>Az asszony megvető pillantással mérte végig.</p>
+            <p>- Őrült! - mondotta azzal a hangsullyal, amely végtelen perspektivákat nyit meg,
+               amely mögött tragikus regények gomolyognak és a szó csak olyan, mint egy villanás a
+               kitörni készülő kráter felett.</p>
+            <p>A terrasz feljárója felől zseblámpa fénye villant meg, mint egy ragadozó szeme. André
+               érkezett. Ahogyan feljött a terraszra és meglátta az asszonyt kínzott
+               elnyujtódzásában a nyugszéken, megrezzent és alig tudta átnyujtani a kezében tartott
+               papírtekercset Dorénak.</p>
+            <p>- A vázrajzok! - dadogta. - Ott méltóztatott felejteni.</p>
+            <p>És csak nézte elbűvölten az asszonyt, akit soha csodálatosabbnak nem látott. Most itt
+               fekszik a trópusi éjszakában, egyedül és tikkadtan a vágytól és gyűlölettől. Doré
+               észrevette micsoda elképedéssel és remegve áll a fiatalember és rávigyorgott az
+               asszonyra:</p>
+            <p>- Szép asszony, mi? - kérdezte gonoszul és alattomosan, mert tudta, hogy a kérdése
+               sebez. A mérnök aléltsága, ahogyan állt mozdulatlanul és gyötrődve, felkorbácsolta
+               Doré szunnyadó bestialitását, már ismét a kérkedő, diadalmas hím volt, aki dicsekedni
+               akart szerencséjével. Az asszony mellé térdelt és átfonta a derekát, magához húzta és
+               megcsókolta.</p>
+            <p>Louise felugrott és haragosan lökte el magától.</p>
+            <p>- Izléstelen és bárdolatlan vagy! - kiáltotta magánkívül.</p>
+            <p>Majdnem sírva fakadt. A tekintete bocsánatot kért Andrétól, aki égő szemmel nézett rá
+               vissza. Ez több volt, mint szerelmi vallomás. Szinte a nászuk muzsikált a nagy
+               elérzékenyülésből és az imádatból, ahogyan tekintete odatapadt azasszony forró
+               ajkához.</p>
+            <p>- No, mi az? Mire vár, kérem? Mit kíván még? - kiáltott rá váratlan durvasággal Doré,
+               aki szinte tajtékozott dühében, hogy nem sikerült a színjáték, amelyet Andrénak
+               rendezni akart.</p>
+            <p>André meghajolt.</p>
+            <p>- Jó éjszakát! - mondotta.</p>
+            <p>Lassan kifelé ment. De csak néhány lépést. Zseblámpáját eloltotta és nekitámaszkodott
+               egy kókuszfának. Még mindig Doré házát nézte, azt a karcsú, tragikus árnyékot, amely
+               rárajzolódott a szoba függönyére. André keze végigsiklott az övén, megtapogatta a
+               revolverét. Nehezen lélegzett. Egy percig attól félt, hogy kitör rajta a trópikus
+               őrület. Gyilkolni fog. Doré sohasem állt közelebb a halálhoz, mint e pillanatban.
+               André agyát vérhullám öntötte el. Százféleképpen képzelte el a pillanat ezredrésze
+               alatt, hogyan öli meg Andrét és akkor övé lesz Louise!</p>
+            <p>Egy lépést tett a ház felé.</p>
+            <p>Akkor valami reccsenést hallott a háta mögött.</p>
+            <p>Megfordult és Digát pillantotta meg.</p>
+            <p>- Mit keresel itt? - kérdezte ingerülten. - Hogy mersz leskelődni utánam?</p>
+            <p>- Nem leskelődni! - dadogta a boldogtalan asszony. Egy kőkorsót szorongatott a bal
+               kezében. - Kókuszdió tej... fehér asszonynak viszem... ő kérte inni!</p>
+            <p>André végigsimított homlokán. Ez a találkozás kissé kijózanította. Megfordult és
+               felcsattantotta zseblámpáját.</p>
+            <p>Mikor néhány lépés mulva ösztönszerűleg hátra nézett, látta, hogy Diga a földre
+               lapulva keresgél azon a helyen, ahol az imént állt. André bosszúsan nevetett.
+               Ismerte a néger szokásokat, tudta, hogy ez mit jelent. Diga buzgón kutat valami
+               apróság után, amit ő esetleg a földre ejtett. Egy papírszeletet, cigarettavéget,
+               eldobott gyujtót vagy akármit. A varázslatban rettentő fontos szerepe van az így
+               felszedett tárgyaknak...</p>
+            <p>A kunyhójában felöltözve vetette magát az ágyára. Az agya lázasan lüktetett.
+               Megátkozta a pillanatot, mikor először lépett Afrika földjére.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>X.</head>
+            <p>André a töltés tetején álló sátor ponyvája alól nézte a nyüzsgő négereket. Fejükre
+               rakott kosarakban hordták a földet és a kavicsot. A talyigák száz számra felfordulva
+               hevertek a domb alatt. A négert, akibe évszázadok hagyománya idegezte be, hogy a
+               terhet a fején hordja, sehogysem lehet rákényszeríteni, hogy talicskázza a homokot.
+               Ha ordítanak vele és erőszakkal szorítják rá, egy ideig szánalmasan csetlik-botlik
+               vele, verejték ül a homlokára, percek alatt halálosan kimerül és ha a felügyelő csak
+               egy pillanatig félre néz, már megint a kosár van a fején. Ebben a teherhordásban
+               viszont annál kitartóbbak. Főleg a nők, mert a néger erkölcs szerint az ilyen durva,
+               nehéz munka asszonynak való. A távolban Togó állt és időnkint hangosakat kiáltott a
+               tekintély végett. Nem lehetett ráismerni. Mióta Diga a felesége lett, mintha új
+               életre támadt volna tetszhalottságából. Olyan élénk és mozgékony volt, mint a
+               majom.</p>
+            <p>Hirtelen egy rohanó néger vonta magára figyelmét. Van a négereknek egy különös
+               futása, amikor a legkülönösebb mozdulatokat végzik rohanás közben. Valósággal
+               vészjeleket adnak, rémhíreket közölnek anélkül, hogy egy hangot is hallatnának. A
+               munkások is észrevették a rohanó fickót és kiváncsian abbahagyták a munkát. Nekik
+               különben a legkisebb esemény is elegendő volt arra, hogy szünetet tartsanak. Izgatott
+               morgás támadt, André felállt és várta, hogy mi lesz?</p>
+            <p>A néger legény magából kikelve, remegve állt meg André előtt.</p>
+            <p>- Gyere fehér úr, nézni magad is... erdőben lenni oroszlán!...</p>
+            <p>Erre már valóban felvillanyozódott André.</p>
+            <p>- Láttad? - kérdezte izgatottan.</p>
+            <p>- Elvitte Hitu tehenét.</p>
+            <p>A négerek pillanat alatt tudomásul vették az eseményt. A munka megállt az egész
+               vonalon. Kijelentették, hogy valamennyien résztvesznek az oroszlán hajtásában.
+               Nyomban jönnek, csak éppen haza sietnek, befestik magukat, mert oroszlánvadászatra
+               csak befestve indulhat a néger vadász, különben szerencsétlenség éri. Ezenkivül
+               gyorsan el kell lejteni néhány vallásos, erőt adó táncot, továbbá rendbe kell hozni
+               a lándsákat és az ijjakat...</p>
+            <p>André kijelentette, hogy minderre semmi szüksége sincsen. Hat embert visz magával, a
+               többi addig folytassa a munkát.</p>
+            <p>A négerek elszörnyedtek. Hogy oroszlánvadászat idején útépítéssel foglalkozzanak,
+               holott ezaz egész törzs ünnepe? Valóban, a Nagy Szellem nagyon meggyalázta a szegény
+               feketéket azzal, hogy nyakukra hozta a fehéreket.</p>
+            <p>André nem törődött a négerek megrőkönyödésével. Kiválasztotta a hat legügyesebb és
+               legizmosabb legényt és azokkal hazasietett. Nyakába akasztotta vadászfegyverét,
+               övébe revolvert és tőrt dugott. Közben a négerek is sietve felfegyverkeztek.</p>
+            <p>Az erdő felé igyekezve, elmentek Togó kunyhója mellett is, amely a telep szélén állt.
+               André odapillantott és meglepetten állapította meg, hogy micsoda nagy változáson ment
+               át Togó rezidenciája. Nyoma sem volt a trágyahegyeknek, a szemetet elhordták, tiszta,
+               takaros volt a kunyhó környéke. Diga a kunyhó előtt állt és ismeretlen magvakat tört
+               egy kőmozsárban. Ugyanabban a kartonruhácskában forgolódott, amelyet Andrénál
+               hordott. Mikor Andrét meglátta, kiejtette kezéből a törőt, az arcán határtalan
+               elragadtatás látszott. Olyan gyerekes és őszinte volt az öröme, hogy André elnevette
+               magát.</p>
+            <p>- Jónapot, Diga! - köszöntötte. - Hogy vagy, menyecske?</p>
+            <p>Diga nem tudott válaszolni. Valami nyögésszerű hangot hallatott, alázatosan
+               meghajolt, csupa hódolat és várakozás volt, vak engedelmességre készen állt,
+               boldogan, hogy Andrét szolgálhatja.</p>
+            <p>De André már be is fejezte a társalgást.</p>
+            <p>- Oroszlánvadászatra megyek! - mondottat és búcsút intett.</p>
+            <p>- Oh! - kiáltotta Diga és összecsapta a kezét. Tisztelete és imádata az egekig nőtt.
+               Meg volt győződve, hogy André puszta akaratával is megsemmisítheti az oroszlánt. Egy
+               csöppet sem féltette a fenevadtól. Vakon hitt André földöntúli erejében.</p>
+            <p>A telep körül jó nagy darab területen fel volt égetve az embermagasságú fü, kényelmes
+               volt az előrehaladás. De azután hirtelen, minden átmenet nélkül kezdődött a dzsungel.
+               Nem az őserdő a veszedelmes, hanem a füves, bozótos terület, ahol elmerül az ember,
+               mint egy tengerben, nem lehet tájékozódni és még kevésbé lehet sejteni, hogy honnan
+               ugrik elő valamelyik lesben álló fenevad. A négernek azonban külön ösztönei vannak, a
+               dzsungel mélyén is tud tájékozódni és a fülei éppen olyan élesek, akár az állatoké.
+               Felfigyel a legkisebb zörejre és begyakorolt szeme meglát minden nyomot.</p>
+            <p>Félóráig tartott a lassú előrenyomulás, amikor André észrevette, hogy a négerek egyre
+               nyugtalanabbul figyelik a bozótokat.</p>
+            <p>Egyszerre megálltak és tanácskozni kezdtek.</p>
+            <p>- Mi történt? Mi ütött belétek? - kérdezte André.</p>
+            <p>- Uram, itt ember járt! - mondta a vezető. - Fehér ember!</p>
+            <p>André megszokta, hogy a négerek pompás megfigyelők, de ez a megállapítás mégis
+               meglepte.</p>
+            <p>- Honnan tudod, hogy fehér volt? - kérdezte megdöbbenve.</p>
+            <p>- A fekete ember mezítláb járni, a fehér csizmában. Mezítláb nem lehet a füvet így
+               letaposni.</p>
+            <p>Mégegyszer lehajolt, nézett, szaglászott, azután megállapította:</p>
+            <p>- Egyedül volt!</p>
+            <p>André nem értette a dolgot.</p>
+            <p>- Ki járhatott itt? A fehérek valamennyien Doréval vannak terepszemlén.</p>
+            <p>Rajtuk kívül más fehér ember az egész környéken nincsen.</p>
+            <p>- Bizonyára régi nyom! - mondotta félvállról, mert nem akarta meglepetését elárulni.
+               Az ilyesmi rontja a tekintélyt.</p>
+            <p>A néger a fejét rázta.</p>
+            <p>- Most itt lenni... A törés egészen friss!</p>
+            <p>André vállat vont.</p>
+            <p>- Ha itt van, majd megtaláljuk! Lóduljatok már. Nem emberre vadászunk, hanem
+               oroszlánra!</p>
+            <p>De közben egyre törte a fejét, hogy ki járhatott erre?</p>
+            <p>És hirtelen halotthalovány lett. Egyszerre megvilágosodott előtte a rejtély.</p>
+            <p>Ha csakugyan fehér ember járt itt, úgy az nem lehetett más, mint Louise... Hogy ez
+               nem jutott mindjárt az eszébe! Ettől a különös, rejtélyes és elszánt asszonytól
+               minden kitelik.</p>
+            <p>- Őrület! - gondolta magában. - Hiszen ez kész öngyilkosság! Vezető nélkül a
+               dzsungelben! Soha többé innen nem kerül ki!</p>
+            <p>Most már nem az oroszlánt kereste, hanem az asszonyt.</p>
+            <p>A négerek veszettül üvöltöztek, hogy így figyelmeztessék az eltévedtet a helyes
+               irányra.</p>
+            <p>André agya közben lázasan dolgozott.</p>
+            <p>Nem igen értette a dolgot. A dzsungelbe nem téved az ember véletlenül. Mi történt
+               Doré asszonnyal? Vadászni ment? Arra kiséretet vitt volna magával. Micsoda tüzek,
+               ismeretlen lázadás hajthatta ilyen végzetes útra?</p>
+            <p>A kis csapat három részre oszlott és úgy kerestek különböző irányban. Félóra mulva
+               olyan vijjogást hallottak jobbfelől, amilyent a dögkeselyűk hallatnak, mikor
+               zsákmányukra csapnak.</p>
+            <p>Az André társaságában maradt két néger izgatottan nógatta a mérnököt:</p>
+            <p>- Erre gyere uram, megvan a fehér ember nyoma!</p>
+            <p>Csakugyan a többi néger adott jelt társainak.</p>
+            <p>Puskalövés hallatszott és utána rémült ordítás. André meggyorsította lépteit.</p>
+            <p>- Halló! - kiáltotta teli tüdővel. - Ne lövöldözzön! Itt emberek járnak!</p>
+            <p>Egy törpe tamariszkbokor mögött megpillantotta az asszonyt, aki meglepetten állt
+               kezében a füstölgő fegyverrel. Mellette egy kutya ugatott bőszen.</p>
+            <p>- Rám lesett? - kérdezte megdöbbenve, mikor Andrét megpillantotta.</p>
+            <p>- Oroszlánvadászatra jöttem - mosolygott André. - Nem tehetek róla, ha véletlenül
+               párducra akadtam. De hogy merészelt idejönni?</p>
+            <p>Louise dacosan vállat vont.</p>
+            <p>- Eh, nem olyan nagy dolog! Amint látja, elhoztam a kutyámat! Az biztosan megtalálta
+               volna a visszavezető utat.</p>
+            <p>- És ha véletlenül összeakadt volna az oroszlánnal?</p>
+            <p>- Megverekedtünk volna. A fegyverem kitünő. Legújabb tipusú angol gyártmány, robbanó
+               golyóra töltöttem. Imádom a komoly, élet-halál harcot!</p>
+            <p>A férfi fülében úgy hangzott ez, mint egy kihívás.</p>
+            <p>A négerek már szétoszlottak, tovább keresték az oroszlánnyomot. Ketten álltak a kis
+               tisztáson.</p>
+            <p>- Mintha az egész világ elől el akartak volna rejteni bennünket, hogy ne legyünk,
+               csak mi ketten! - mondta az izgalomtól rekedten. - Bizarr találka az őserdőben.
+               Mennyi szépség van ebben! Ebben az isteni véletlenben... Sehol nem állhat két ember
+               annyira közel egymáshoz, mint itt, a földi paradicsomban. Mintha bennem forrósulna
+               mind az őserő, amely körülöttünk zeng és orgiázik. Ezt éreznie kell! Hiába
+               védekezik... hiába akar fölényes lenni, jól tudja, hogy ez az őszinteség pillanata,
+               az a csodálatos perc, amikor olyan tökéletes, ősi szépségben kínálja fel egy férfi
+               szerelmét, ahogyan azt még soha, senki nem vihette maga elé. Nem is vagyok más, mint
+               ez a felzengő érzés és ebben a nagy felszárnyalásban, mintha már nem is élnék, csak
+               egyetlen nagyszerű akarás feszül bennem... Szeretem Louise... és akarom... a
+               csókját... a szerelmét!...</p>
+            <p>Ezek már nem szavak voltak, hanem gigantikus emelők és motorok, melyek egyszerre
+               felviharozták az asszonyba eltemetett multját, elárult szerelmét a sportbajnok
+               iránt, azután három év minden megaláztatását és meddőn parázsló vágyát. Mint egy nagy
+               sírás tört ki minden sejtjéből a kétségbeesés összeomló és reménytelen élete felett.
+               Dacosan feszült benne a lázadás és úgy szédült a feléje áradó forró szavakba, mint az
+               élet desperádói az alkoholba. Nem volt szerelmes, de a kétségbeesés néha jobban
+               felkorbácsolja érzékeinket, mint a legnagyobb szenvedély. Feledni akart, menekülni
+               és bosszút állni. Ellenállás nélkül tűrte, hogy a férfi karja lassan átfogja és
+               ajkára zúdítsa vad, diadalmas csókjait.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XI.</head>
+            <p>Estére a négerek már tudták, hogy az oroszlánvadászat nem sikerült. Ez pedig nagy
+               baj, mert a ragadozók visszatérnek arra a helyre, ahol már sikeresen zsákmányoltak. A
+               rettegő feketék éjszakára hatalmas máglyákat gyújtottak házaik előtt, a vörös fényben
+               izzó telep pokolhoz hasonlított, amelynek lángjai mellett szurokba mártott ördögök
+               sürgölődnek.</p>
+            <p>A férfiak Kanu vezérlete alatt veszedelmet űző táncokat lejtettek és szünet nélkül
+               énekeltek. Ettől a bestiális ordítozástól még egy elefántcsorda is elmenekült
+               volna.</p>
+            <p>Az asszonyoknak ilyenkor a kunyhóban a helyük. Amikor a férfiak harci festéket kennek
+               a testükre és erejük teljes gőgjében hősökké vélnek válni, lenézik és távol tartják
+               az asszonyt.</p>
+            <p>Diga azonban nem aludt. Ő is démonokkal küzdött, de különös módon nem azokkal,
+               akiknek kegyét e pillanatban a törzs férfiai keresték és akiknek hatáskörébe a
+               fenevadak megfékezése és távoltartása tartozott. Digát egyáltalában nem is érdekelték
+               a férfiak, nem törődött az oroszlánokkal és közömbösen hagyta volna az is, ha a nagy
+               sárga macska éppen az ő tehenüket ragadja el...</p>
+            <p>Délután látott valamit, ami lelke mélyéig felzaklatta és azóta nem tudott másra
+               gondolni.</p>
+            <p>Estefelé történt, amikor kókuszdiót akart szedni, hogy elment Robert Doré háza előtt.
+               Látta a szép fehér asszonyt, akin óriási vörös mákvirágokkal ékesített fehér
+               selyempongyola volt. Diga még sohasem látott ilyen gyönyörűt. Elbűvölve nézte és
+               gyermeki naivságában varázserőt tulajdonított a csodálatos ruhadarabnak. Egy pálmafa
+               mögül bámulta és egyszerre a szíve hevesen kezdett verni. Andrét pillantotta meg, aki
+               lassan, óvatosan közeledett a villa felé. Diga még sohasem látta a mérnököt ilyen
+               furcsán járni. Minden lépésnél körülnézett, mint aki attól fél, hogy valaki meglátja.
+               Olyan halkan lépkedett, hogy még a kavicsok sem roppantak meg a lába alatt. De a
+               fehér asszony mégis meghallotta. Megrezzent, az arca kipirult és a férfi elé
+               sietett.</p>
+            <p>Már egészen sötét volt. Afrikában nincsen alkonyat, egyszerre zuhan le az éjszaka. De
+               a hold és a csillagok világítottak és a néger szeme úgy lát, akár a macskáé.</p>
+            <p>Diga látta, hogyan osonnak a szobába, a lebocsájtott függöny mögött halvány
+               világosság gyulladt és két egymásba fonódó árnyék rajzolódott ki sejtelmesen.</p>
+            <p>Diga szíve majdnem meghasadt. Ordítani szeretett volna fájdalmában... Most már tudta,
+               miért űzte őt el a fehér ember. Ez a másik nő babonázta meg. Azzal a gyönyörű, vörös,
+               virágos pongyolával...</p>
+            <p>Diga becsületes lélek volt, de most vakmerő terv kezdett bontakozni benne. Ellopja a
+               varázserejű pongyolát.</p>
+            <p>Ez a gondolat valósággal elvette az eszét. Tervek kergetődztek az agyában. És mialatt
+               virrasztva ült az éjszakában, mindig csak erre gondolt: hogyan szerezhetné meg a
+               pongyolát?</p>
+            <p>Azok most még bizonyára együtt vannak. Most nem lehet. De holnap, ha majd a fehér
+               asszony szokása szerint sétálni megy...</p>
+            <p>Diga tudta, hogy amire készül, halálos veszedelmet rejteget. Nemcsak a lopás
+               gondolata rémítgette, hanem iszonyúan félt a pongyolától is. A fehérek mágikus
+               hatalma kiszámíthatatlan. Lehet, hogy a vörösvirágos pongyola megöli azt a vakmerő
+               fekete nőt, aki magára merészeli venni. Nagyon vergődött és szenvedett szegény kis
+               Diga. Tizennégy éves gyermek lelke rémülettel és kétségbeeséssel telt meg. Szeretett
+               volna megint jó lenni, visszafordulni a veszélyes útról, amelyre lépett, de mintha
+               idegen Diga támadt volna fel benne, akit ő nem is ismert és akinek szenvedélye
+               erősebb volt minden akaratánál. Elmerült, fulladozott a szörnyű kétségek közepette,
+               már nem is tudott gondolkodni, csak úgy zavarosan lüktetett izzó agyában a gondolat,
+               hogy mindenáron vissza kell szereznie André szerelmét, mert enélkül nem élhet.</p>
+            <p>Másnap hajnalban felkereste Kanut, a varázslómestert.</p>
+            <p>A férfiak már kint jártak a munkánál, észrevétlenül osonhatott a majdnem két méter
+               magas, tüdővészes, sovány boszorkánymesterhez, aki az éjszakai szertartásoktól
+               kimerülten, lázasan feküdt a kunyhója elé terített gyékényen. Kanu megszokta már az
+               ilyen asszonyi látogatásokat. Előbb-utóbb mindegyik felkeresi, hogy tegyen csodát. A
+               legtöbbnek persze a szerelemmel van baja, de van, aki beteg gyermekét akarja
+               meggyógyíttatni. Sokan mérget kérnek tőle, mert el akarják pusztítani
+               vetélytársnőjüket vagy a megunt férfit. Mások varázsszert keresnek, amellyel
+               viszontszerelmet kelthetnek. Kanu mindenféle szerből bőven tartogatott raktáron.
+               Kunyhójában a legkülönösebb amulettek és orvosságok hevertek. Disznófogak,
+               majomszőrök, oroszlán trágyája, krokodil pikkelye, vipera mérge. Aszalt koponyák,
+               őrjöngésbe ejtő belladona-főzetek, porrá őrölt sáfrány, szitált elefántcsontpor,
+               szárított hiúz- és párducszívek.</p>
+            <p>Kanu alig pillantott fel és leereszkedően kérdezte:</p>
+            <p>- Na, mit hoztál?</p>
+            <p>Kanu okos ember volt. Sohasem azt kérdezte először látogatójától, hogy mi a baja,
+               hanem hogy mit hozott?</p>
+            <p>Diga két kalácsot és egy tyúkot tett eléje.</p>
+            <p>Kanu felemelkedett.</p>
+            <p>- No, beszélj!</p>
+            <p>Diga reszketve állt. Az ajka mozgott, de hang nem jött ki a torkán.</p>
+            <p>A varázsló fürkésző szemmel nézte.</p>
+            <p>- Szerelem? - kérdezte a professzor csalhatatlanságával.</p>
+            <p>Diga még mindig nem tudott megszólalni. Csak remegett, mint a gazella a fekete párduc
+               hipnotizáló tekintete előtt.</p>
+            <p>Kanu unott mozdulattal bement a kunyhóba és egy kagylóban rosszszagú, undok kenőcsöt
+               hozott ki.</p>
+            <p>- Ezzel kend be a testét! - mondotta.</p>
+            <p>De az asszony nem nyult a varázsszer után.</p>
+            <p>Kanu meg volt sértve.</p>
+            <p>- Nem hallod? - kiáltott rá. - Vidd el! Feltétlenül használni fog.</p>
+            <p>- A fehér urat szeretem! - rebbent ki Diga ajkán a vallomás, reménytelenül és
+               elkínzottan, mint aki tudja, hogy elkárhozott.</p>
+            <p>A varázsló csuklani kezdett ijedtében. Úgy eldobta a kenőcsöt, mintha mérges pók lett
+               volna. Még csak az kellene, hogy a fehér ember megtudja, hogy ő küldte a szárított
+               elefántganéjból gyúrt kenőcsöt. Talán halálra korbácsolnák.</p>
+            <p>- Átkozott boszorkány! - kiáltott tajtékzó dühvel Digára. - Bajba akarsz sodorni?
+               Tudod, hogy az én kenőcseim csak feketéknek valók. A fehér embernek más a teste,
+               azoknak az orvosságát nem ismerem!</p>
+            <p>Diga szeme elborult, mint a haldoklóé. Hiszen ez volt az ő nagy tragédiája is. Hogy
+               nem ismerte a fehér ember titkát, szokásait.</p>
+            <p>- Nem orvosságért jöttem! - nyögte alig hallhatóan.</p>
+            <p>- Hát mit akarsz?</p>
+            <p>Diga megszeppenve, magába roskadva állt. Csakugyan, mit is akar Kanutól? Nem is
+               tudja, hogy mit kérjen. Csak eljött, mert szüksége volt egy hatalmasabb, okosabb
+               emberre. Valami csodát remélt. Hogy Kanu felvértezi a fehér szellemek rontó hatásával
+               szemben. Hogy kenőccsel, olajjal, füstöléssel és imával elvarázsolja a testét, hogy
+               ne tegyen benne kárt a piros virágos pongyola, amikor magára húzza. De hát hogyan
+               beszéljen erről Kanunak? Árulja el, hogy el akarja lopni a pongyolát? Nem...
+               lehetetlen... ezt meg sem értené. Sem Kanu... sem az asszonytársai nem értenék meg.
+               Ilyesmi még sohasem történt, hogy egy fekete nő felvegye a harcot fehér asszonnyal...
+               Kinevetnék, talán agyon is vernék, kitaszítanák a törzsből, a krokodilusok közé
+               dobnák. Átkozott, gonosz teremtés lett belőle, aki veszedelmet hoz a népére...</p>
+            <p>Elfordult Kanutól és ment visszafelé. A varázsló megfenyegette:</p>
+            <p>- Hej, vigyázz magadra! Én hallgatok, de a szemed, szavad elárul a férjednek! Vedd
+               ezt a port, keverd az ételébe. Ettől vak lesz és süket. Nem veszi észre, hogy mit
+               tervezel ellene...</p>
+            <p>De az asszony nem fordult vissza. Most már világosan látta, hogy senkire sem
+               számíthat. Olyan árva és magányos, mint a folyóra hullott virágszirom.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XII.</head>
+            <p>Korán reggel indult el Louise hazulról. Fehér vászon vadászruhája volt rajta,
+               amelyben már Diga sokszor látta, ugyanazt a sisakot rakta a fejére és mégis... alig
+               lehetett ráismerni. Máskor únott, fáradt mozdulatai megélénkültek, csupa ruganyosság,
+               jókedv, ujjongó életöröm áradt belőle. Diga az ól mögül leste a földre kuporodva,
+               mint egy nagy fekete macska. Louise egyedül volt, még a kutyáját sem vitte magával.
+               Fütyörészve haladt a kenyérfák között az erdő felé. Ott libegett már a fasor végén,
+               mint egy fehér lepke. De nem ment tovább. Állt, mintha várna valakit.</p>
+            <p>A távolból kiabálás, kopácsolás hallatszott. Ott a négerek építik az utat. Néha
+               feltünik egy-egy nagyobb mozgó fekete pont. Öszvérek hordják a homokot. A fehér
+               mérnök most ott van és Togónak parancsolgat: ássatok!... ide kavicsot tölteni... oda
+               homokot rakni! És Togó rohan, a nyelve is kilóg a buzgalomtól.</p>
+            <p>Diga naponta járt az építésnél. Mikor ételt vitt az urának. Ilyenkor mindig hosszan
+               nézte Andrét egy fa mögül. Csodálta szépségét, imádta férfiasságát. Már sokszor
+               mondta Togónak, hogy ő is beáll a munkásnők közé homokot hordani. Azt remélte, hogy
+               akkor egész nap láthatja a mérnököt. De Togó nem engedte. Azt válaszolta, hogy ő
+               munkafelügyelő és nem tűrheti, hogy a felesége mint egyszerű munkás rontsa a
+               tekintélyét. De Diga tudta, hogy másról van szó. A férje nem akarja, hogy Andréval
+               találkozzon. Fél, hogy visszaveszi tőle...</p>
+            <p>Digának könnyes lett a szeme. Hej, ha Togó tudná, milyen messze vannak ők már
+               egymástól!</p>
+            <p>Lódobogás csattant az úton. André vágtatott a fasorban. Amikor Louisehoz ért,
+               leugrott a lováról, megölelte az asszonyt. A lovat egy pálma törzséhez kötötte és
+               azután egymásba karolva indultak az erdő felé.</p>
+            <p>Diga majdnem eszét vesztette. Tudta, hogy amit André és a fehér asszony cselekszenek,
+               szörnyűség. A fehéreknek bizonyára még a vétkük is félelmetesebb, bosszújuk,
+               bűnhődésük rémületesebb, mint a feketéké. És ő megtudta a borzalmas titkot. A telep
+               valamennyi lakója közül csak ő tudja, hogy mi történik itt. A fehérek sem sejtenek
+               semmit.</p>
+            <p>Diga körülnézett. André és az asszony eltünt. Sem a közelben, sem a távolban élő
+               lélek. Louise, úgylátszik, szándékosan küldte el a cselédséget mindenféle
+               megbizással. Afrikában nem szükséges őrizni a fehér emberek házát. Oda amugy sem meri
+               senki sem betenni a lábát. Csak olyan őrült gondolhat erre, akinek a szerelem elvette
+               az eszét.</p>
+            <p>Diga megcsókolta a nyakába akasztott fétist, egy disznófogat és most már habozás
+               nélkül egyetlen ugrással a szobába vetette magát.</p>
+            <p>Velőtrázó ordítással tántorodott vissza.</p>
+            <p>Ugyanabban a pillanatban, mikor lába a padozatot érte, vad mordulással egy barna
+               fenevad vetette rá magát. Louise kutyája volt Minden más élőlényt nyomban levert
+               volna ez a támadás a lábáról. Diga néger volt, maga is félig állat, aki körmével,
+               fogaival száll szembe támadójával. Teljes erejével belerúgott a kutyába és a
+               pillanatnyi szünetet páratlan lélekjelenléttel használta ki. Villámgyors mozdulattal
+               kapott fel egy széket és fejbevágta az újra támadó kutyát. Elkeseredett, izgalmas
+               harc támadt kettőjük között. Az ütésektől felbőszült állat egyre hevesebben
+               rohamozott. Néha már majdnem sikerült elkapnia Diga lábszárát, de a lány ördögi
+               ügyességgel tért ki előle. Így hátrált lassan a szoba balsarkába álló széles kerevet
+               felé. Jobb kezével a védekező csapásokat osztogatta, balja pedig hirtelen kinyúlt és
+               felragadta a vörös virágos pongyolát. Felsikoltott örömében. Ugyanakkor a szék egyik
+               lendületes csapása a kutya lábát érte. Az eb felvonított és szükölve, vinyogva
+               hátrált. Ezt a pillanatot felhasználta Diga és kiugrott az ablakon. Azután
+               lélekzetvesztetten rohant haza. Már előre kigondolta, hogy hová rejti el a lopott
+               pongyolát. Szépen összehajtogatta és bedugta egy öreg fa odvába, amelyet előzőleg
+               puha, száraz füvel bélelt ki.</p>
+            <p>Azután minden úgy történt, mint más közönséges napokon. Diga kivitte Togónak az
+               ebédet. A feketék nagyon jókedvűek voltak. Kuncogtak és majdnem szétvetette őket a
+               jókedv. Kiderült, hogy igen ravasz dolgot követtek el. Elmondták, hogy mielőtt André
+               faképnél hagyta volna őket, levette fekete napvédő pápaszemét és egy faágra
+               akasztotta.</p>
+            <p>- Ide figyeljetek! - mondta a négereknek. <hi rend="italic">-</hi> Én most elmegyek,
+               de a szememet itt hagyom és az nézni fog benneteket! Mindent tudni fogok, ami itt
+               történik! Hát éppen azért éppen úgy dolgozzatok, mintha egészen itt maradnék! - A
+               négerek eleinte dolgoztak is, de aztán az egyiknek remek ötlete támadt. Egy öreg
+               szardiniás dobozt talált a mérnökök sátra közelében és azt javasolta, hogy azt
+               akasszák a mérnök pápaszeme elé. Akkor az üvegszem nem láthatja, hogy ők mit
+               csinálnak!</p>
+            <p>Az ötlet általános tetszésre talált. Togó sem ellenkezett. Lelke mélyén még mindig
+               gyűlölte Andrét, aki az avatáson elvitte előle Digát. Örült, hogy becsaphatja. A
+               szardiniás dobozt tehát óvatosan a pápaszem elé akasztották és vidáman elnyújtóztak a
+               fák árnyékában, mint ahogyan azt a fehéreknél bölcsebb feketék évmilliók óta
+               cselekszik.</p>
+            <p>Amikor néhány óra mulva Diga visszament a telepre, kivette a fa odvából a vörös
+               virágos pongyolát és az erdőbe menekült vele. Ahhoz a magányos tóhoz rohant, amelyben
+               fürödni szoktak. Ott magára húzta a gyönyörű ruhát. Remegett a keze és verejték lepte
+               ki a homlokát, mialatt ezt cselekedte. Szörnyen félt és el volt rá készülve, hogy
+               vele most valami rettenetes fog történni. De mikor már rajta volt a pongyola, melynek
+               selyme mint valami lágy simogatás ölelte körül mezitelen testét és a tó vizéből egy
+               kábítóan felékesített gyönyörű Diga csodálkozott rá vissza, felsikoltott
+               boldogságában és édesen, visítozva kacagott elragadtatásában. Úgy ugrált, mint egy
+               kis párduckölyök. Meg volt győződve, hogy e pillanatban ő a legszebb az egész világon
+               és nincs férfiszív, amely ellen tudna neki állni!</p>
+            <p>Most már vidám volt, mámoros a biztos diadal várakozásában.</p>
+            <p>Visszalopakodott Doré házához és ott lesben állt. Tudta, hogy nem kell sokáig
+               várakoznia. És a négereknek más matériából készült az idegük, mint a fehér emberé.
+               Napokig tudnak közömbösen, az elfáradás vagy türelmetlenség legkisebb jele nélkül
+               várakozni. A néger postás például hatnapi járóföldről elhoz a dzsungel mélyén fekvő
+               munkatelepre a fehér mérnöknek egy levelet. Amérnök nincs ott. Elment vadászatra,
+               vagy térképet rajzol a környéken és talán csak két-három hét mulva tér vissza. A
+               postás leül a cimzett háza elé és vár. Éhen nem hal, mert a többi néger feltétlenül
+               megosztja vele ennivalóját. És addig ül és alszik a ház előtt, míg a címzett végre
+               csakugyan megérkezik. Akkor átadja a levelet és megkérdezi, hogy van-e válasz? Ha
+               igen, visszaül a helyére és megint vár. Neki mindegy, ha félesztendő mulva készül is
+               el a válasz, megvárja. És csak akkor indul megint visszafelé.</p>
+            <p>Diga is türelmesen várakozott. Gyorsan mult az idő, hiszen olyan szépeket lehetett
+               álmodozni. Százféleképpen rajzolta maga elé, hogyan fog bámulni André és milyen
+               édesen fogja ismét karjába szorítani. Elvette a fehér asszony bűvös ruháját, most már
+               ő tartja szerelmi hatalmában a férfit...</p>
+            <p>És Togó?</p>
+            <p>Diga lelkét kissé elfelhőzte ez a gondolat. Hiszen Togó jó ember, sajnálja, de hát
+               ezen már nem lehet segíteni.</p>
+            <p>Nem félt semmitől. Vakon bízott André isteni hatalmában. Ha André visszafogadja, nem
+               történhetik semmi baja.</p>
+            <p>Lépéseket hallott. Louise jött vissza. Egyedül volt.</p>
+            <p>Diga számított erre. Óvatos a fehér asszony. Nem akarja, hogy együtt lássák Andréval.
+               De majd jön az egészen bizonyosan.</p>
+            <p>Most már remegett a szíve, tudta, hogy közeledik a nagy pillanat.</p>
+            <p>Minden idege megfeszült a nagy várakozásban.</p>
+            <p>Félóra mulhatott el.</p>
+            <p>Togó már bizonyára otthon van - villant át agyán - és keresi őt. Talán teleorditozza
+               a telepet, fellármázza a négereket és a keresésére indulnak. Ez a gondolat végtelenül
+               felizgatta Digát. Erre még nem is gondolt.</p>
+            <p>Csak már jönne André és esne tul mindenen. Ha a fehér férfi magához öleli, többé már
+               nem történhetik semmi baja...</p>
+            <p>A fák között mintha járt volna valaki. Diga oda sem nézett. Kiélesült füle megismerte
+               a mérnök lépéseit. Ezer ember lépésének üteme közül is felismerte volna ezt az egyet.
+               Vérhullám öntötte el az agyát. És akkor egyetlen forró lendüléssel a mérnök elé
+               lépett, aki ijedten dobbant vissza. Az első pillanatban meg sem értette, hogy mi
+               történt? Louise pongyolája és ez a fekete arc? Azután mikor látta a lány szerelmes,
+               alázatos mozdulatát, ahogyan várakozásteljesen rámosolygott, bosszusan
+               felkacagott.</p>
+            <p>- Megőrültél? - kiáltott durván a lányra. - Ki adta neked ezt a ruhát? Loptad?</p>
+            <p>Diga torkát a sirás fojtogatta. Arca hamuszürke volt, pillanatok alatt valósággal
+               összeomlott.</p>
+            <p>- Uram... - dadogta - én... csak azt akartam, hogy szeress!</p>
+            <p>- Takarodj, menj vissza Togóhoz és ne lássalak többé! - kiáltotta dühösen André. -
+               Még csak az kell, hogy Louise észrevegyen valamit ebből a nevetséges jelenetből.</p>
+            <p>Indulatos mozdulattal faképnél hagyta Digát és a házba sietett.</p>
+            <p>A boldogtalan fekete nő úgy maradt dermedten, mozdulatlanul a helyén. Eszébe sem
+               jutott hazamenni. Neki ott már nincsen semmi keresni valója. Sem otthon, sem
+               másutt.</p>
+            <p>A térdei megcsuklottak és a földre roskadt. Úgy feküdt élettelenül, belémerevülve
+               kimondhatatlan fájdalmába. Nem akart érezni, gondolkozni, emberarcot látni, hangokat
+               hallani. Csak belezuhanni valami örökké tartó, nyugodt, nagy feketeségbe.</p>
+            <p>De egyszerre mégis hirtelen talpra szökött.</p>
+            <p>A távolból, egészen elmosódottan hangok hallatszottak. Diga félig eszméletlenül is
+               megismerte: a fehér urak jöttek vissza! És villámgyorsan peregtek benne a
+               gondolatok... Velük jött Doré is... mindgyárt itt lesz és megöli Andrét!</p>
+            <p>A sötétben megcsillantak a lámpák. Már jönnek is.</p>
+            <p>Diga nem habozott. Félrerántotta az ablakot borító fatáblát, elrántotta a függönyöket
+               és a szobába ugrott.</p>
+            <p>Rémült asszonyi kiáltás és egy férfi ordítása hangzott. Diga látta az asszony fehér
+               testét, amint ijedten nyúlt ruha után. André szikrázó haraggal, magánkívül rontott a
+               lánynak, durván karon ragadta és dühösen rázta:</p>
+            <p>- Hogy merted? Azt akarod, hogy megkorbácsoljalak?</p>
+            <p>- Uram - kiáltotta eszelős rémülettel Diga - fehér urak jönnek, itt vannak...</p>
+            <p>És kifelé integetett az ablakon.</p>
+            <p>Azok egyszerre megértettek mindent. És Diga látta, hogyan omlik össze a fehér isten,
+               miként zöldül el az arca, hogyan válik reszketős, nyöszörgő kis állattá a fehér
+               asszony.</p>
+            <p>Már nem lehet elmenekülni. Azok minden pillanatban ide érhetnek. És ha meglátják a
+               ház körül, amint éppen el akar surranni, mit mondjon, hogyan került ide? Mit keresett
+               itt?</p>
+            <p>André tehetetlenül állt, szemében rémülettel. Keze a revolvertáska felé nyúlt.</p>
+            <p>Diga azonban nem vesztette el lélekjelenlétét. Az ősember esze és ösztöne a veszély
+               pillanataiban működik a legtökéletesebben. Megragadta André kezét:</p>
+            <p>- Gyere - mondotta - én tudni, hogyan megmenteni téged!</p>
+            <p>És már hurcolta kifelé a férfit, aki akarat nélkül engedelmeskedett.</p>
+            <p>Csak éppen kiléphettek a házból és annyi időjük volt, hogy egy bokor mögé
+               rejtőzhettek. Már meg is érkezett Robert Doré egy sereg néger kíséretében. A szobából
+               csaholva, vidám farkcsóválással ugrott ki a barna kutya és örvendezve nyaldosta
+               gazdája kezét.</p>
+            <p>De egyszerre a kutya dühösen, felborzolt szőrrel rohant a bokor felé és vad ugatással
+               ugrálta körül.</p>
+            <p>- Hé, mi van ott? - kérdezte meglepetten Doré.</p>
+            <p>A négerek oda világítottak fáklyáikkal.</p>
+            <p>- Hihihi! - böffent ki belőlük ellenállhatatlanul a komisz gyermekkacagás. Csak egy
+               valaki nem nevetett. Togó, aki szintén velük volt. Még a délután folyamán érkezett az
+               erdei sürgöny, hogy a fehér urak jönnek visszafelé és Togó Doré üdvözletére sietett.
+               Nem is járt még otthon, sejtelme sem volt, hogy a felesége nincs a kunyhójukban.</p>
+            <p>És most ott látta félreérthetetlen bizalmas helyzetben a fehér mérnökkel.</p>
+            <p>És mindenki őt neveti. Még a fehér nagyúr is, aki gúnyos mosolyra húzza a száját és
+               úgy jegyzi meg:</p>
+            <p>- Mi az, kedves Salmon úr, önnek ilyen furcsa idilljei vannak? És miért nem a saját
+               portáján? Ah, persze - kacagott fel -, attól tartott, hogy a féltékeny férj meglesi?
+               Itt természetesen senki sem gyanította! Bocsásson meg, hogy megzavartam!</p>
+            <p>És hahotázva ment a házába.</p>
+            <p>André égett a szégyentől. Dühében lekapta oldaláról a mindig ott lógó korbácsot és
+               szétcsapott a feketék között.</p>
+            <p>- Mit bámultok barmok? Lóduljatok!</p>
+            <p>A feketék ijedt ordítással rebbentek szét. De ebbe a hangzavarba élesen és idegtépően
+               vegyült egy borzalmas sikoly...</p>
+            <p>- Diga! - kiáltotta André magánkívül.</p>
+            <p>A boldogtalan lány ott feküdt tőle két lépésnyire mozdulatlanul, szétzúzott fejjel.
+               Mögötte Togó ördögi szilhuettje rajzolódott ki, amint még ütésre lendülő karral
+               szorongatta a hatalmas dorongot.</p>
+            <p>- Gyilkos! Gazember! - ordította magánkivül a mérnök.</p>
+            <p>A dorong újra előrelendült, mintha a mérnök fejét akarná szétrepeszteni. De
+               ugyanakkor eldördült André revolvere. Togó széttárt karral hanyattvágódott...</p>
+            <p>Iszonyú csend támadt. És ebben a nagy csendben élesen kihallatszott a szobából Robert
+               Doré harsogó hahotázása. Még mindig azon mulatott, hogy milyen furcsa helyzetben
+               találta André Salmont. És nem értette, hogy Louise mért nem akar vele nevetni.</p>
+            <p> VÉGE.</p>
+            
+         </div>
+      </body>
+	</text>
+</TEI>
