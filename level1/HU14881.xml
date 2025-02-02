@@ -1,96 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="HU14881" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
-	<teiHeader>
-		<fileDesc>
-			<titleStmt>
-			   <title>Silvia két táncosa</title>
-				<author>
-					<persName>
-						<surname>Forró</surname>
-						<forename>Pál</forename>
-					</persName>
-				   <date from="1884" to="1942">1884-1942</date>
-				   <idno type="VIAF">107985695</idno>
-				</author>
-				<respStmt>
-					<resp>ELTeC conversion</resp>
-					<name>
-						Palkó Gábor
-						<ref target="https://viaf.org/viaf/65989506"/>
-					</name>
-					<name>Fellegi Zsófia</name>
-					<name>Vétek Bence</name>
-					<name>Bajzát Tímea Borbála</name>
-				</respStmt>
-			</titleStmt>
-			<extent>
-				<measure unit="words">10020</measure>
-				<measure unit="pages">31</measure>
-				<measure unit="vols">1</measure>
-			</extent>
-			<publicationStmt>
-				<p>Published as part of ELTeC and ELTE Novel Corpus</p>
-			</publicationStmt>
-			<sourceDesc>
-				<bibl type="digitalSource">
-				   <title>Silvia két táncosa</title>
-				   <date>2016-01-07</date>
-					<publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-				   <ref target="https://mek.oszk.hu/14800/14881/"/>
-					<respStmt>
-						<resp>Original Electronic Edition</resp>
-					   <name>Vidiné Réfi Erzsébet</name>
-					   <name>Bajusz Gábor</name>
-					</respStmt>
-					<bibl type="printSource">
-					   <title>Silvia két táncosa</title>
-						<author>Forró Pál</author>
-						<pubPlace>Budapest</pubPlace>
-					   <publisher>Világv. Reg. Kiadóváll.</publisher>
-					   <date>1932</date>
-					   <ref target="https://mek.oszk.hu/14800/14881/"/>
-					</bibl>
-				</bibl>
-				<bibl type="firstEdition">
-				   <title>Silvia két táncosa</title>
-				   <author>Forró Pál</author>
-					<date>1932</date>
-				</bibl>
-			</sourceDesc>
-		</fileDesc>
-		<encodingDesc n="eltec-0">
-			<p/>
-		</encodingDesc>
-		<profileDesc>
-			<langUsage>
-				<language ident="hu">Hungarian</language>
-			</langUsage>
-		</profileDesc>
-		<xenoData>
-			<ns1:eltec>
-				<ns1:authorGender key="M"/>
-				<ns1:size key="short"/>
-				<ns1:canonicity key="low"/>
-				<ns1:timeSlot key="T5"/>
-			</ns1:eltec>
-		</xenoData>
-		<revisionDesc>
-			<change when="2024-12-07"/>
-		</revisionDesc>
-	</teiHeader>
-	<text>
-		<body>
-         
-        <div type="chapter">
+<TEI xml:id="HU14881" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:ns1="http://distantreading.net/eltec/ns">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Silvia két táncosa</title>
+            <author>
+               <persName>
+                  <surname>Forró</surname>
+                  <forename>Pál</forename>
+               </persName>
+               <date from="1884" to="1942">1884-1942</date>
+               <idno type="VIAF">107985695</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name> Palkó Gábor <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Vétek Bence</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">10020</measure>
+            <measure unit="pages">31</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Silvia két táncosa</title>
+               <date>2016-01-07</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/14800/14881/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Bajusz Gábor</name>
+               </respStmt>
+               <bibl type="printSource">
+                  <title>Silvia két táncosa</title>
+                  <author>Forró Pál</author>
+                  <pubPlace>Budapest</pubPlace>
+                  <publisher>Világv. Reg. Kiadóváll.</publisher>
+                  <date>1932</date>
+                  <ref target="https://mek.oszk.hu/14800/14881/"/>
+               </bibl>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Silvia két táncosa</title>
+               <author>Forró Pál</author>
+               <date>1932</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+      </profileDesc>
+      <xenoData>
+         <ns1:eltec>
+            <ns1:authorGender key="M"/>
+            <ns1:size key="short"/>
+            <ns1:canonicity key="low"/>
+            <ns1:timeSlot key="T5"/>
+         </ns1:eltec>
+      </xenoData>
+      <revisionDesc>
+         <change when="2024-12-07"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="chapter">
             <head>I.</head>
             <p>James Parker a hónapos szoba vaságyán ült és azon gondolkozott, hogy irjon-e
-               bucsuleveleket, mielőtt felakasztja magát? Mert azzal tisztában volt, hogy
-               öngyilkos lesz. Ma délelőtt foszlott el utolsó reménye, amikor egy jóakarója
-               ajánlólevelével alkalmaztatásra jelentkezett egy nagy cégnél. Az igazgató a szemébe
-               nevetett és azt mondta, hogy éppen most mondtak fel kétszáz régi emberüknek. Szó sem
-               lehet uj tisztviselő felvételéről.</p>
+               bucsuleveleket, mielőtt felakasztja magát? Mert azzal tisztában volt, hogy öngyilkos
+               lesz. Ma délelőtt foszlott el utolsó reménye, amikor egy jóakarója ajánlólevelével
+               alkalmaztatásra jelentkezett egy nagy cégnél. Az igazgató a szemébe nevetett és azt
+               mondta, hogy éppen most mondtak fel kétszáz régi emberüknek. Szó sem lehet uj
+               tisztviselő felvételéről.</p>
             <p>Hát persze a tőzsde! És a gazdasági világválság.</p>
             <p>Azt igazán mindenki tudhatná, hogy amikor milliárd dollárok usznak el napok alatt,
                akkor egyszerre megreng a föld a vállalatok alatt és naponta tizezrek válnak
@@ -110,8 +109,8 @@
             <p>James nem volt éppen érzelmes ember, de e pillanatban mégis könnyekkel volt tele a
                szeme. Sajnálta magát. Igazságtalanságnak tartotta, hogy harmincnyolc éves korában
                nyomorultul pusztuljon el, mint egy patkány. És tulságosan egészséges volt. Noha a
-               sok éhezéstől meglehetősen elgyengült, még mindig ruganyosak voltak az izmai, ép
-               volt minden szerve. Ilyen jó fizikumban szinte legyőzhetetlenül erős az étvágy.</p>
+               sok éhezéstől meglehetősen elgyengült, még mindig ruganyosak voltak az izmai, ép volt
+               minden szerve. Ilyen jó fizikumban szinte legyőzhetetlenül erős az étvágy.</p>
             <p>Pedig világos, hogy meg kell halnia. Olyan szabályosan halálra volt itélve, akár a
                Sing-Sing fegyház valamelyik rablógyilkosa. A különbség csak az volt, hogy ott a
                hóhér hajtja végre az itéletet, itt pedig őrá bizták, hogy éhen akar-e halni, vagy
@@ -135,9 +134,9 @@
                ha már meg kell halni, akkor inkább igy távozik a másvilágra.</p>
             <p>Hirtelen fanyar, dacos mosoly szökött az arcára. Pokoli ötlete támadt. Elővette
                frakkját és lázas gyorsasággal öltözni kezdett.</p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>II.</head>
             <p>A Majestic-szálloda halljában New-York legelőkelőbb közönsége szokott vacsorázni. Mr.
                Whiteman, a jazz-király személyesen dirigálta a legujabb slágereket és a tánckorongon
@@ -165,9 +164,9 @@
                izgalmas riport végső szálai nyulnak idáig?</p>
             <p>James Parker az egyik ezüst edényektől roskadozó, virágokkal diszitett asztal mellett
                ült és fejedelmi vacsorát evett. Rózsaszinü, édeskés izü nagy tengeri rákot romulárd
-               mártással, vajastésztába sütött bélszint francia köritéssel, fagylaltot, jégbe
-               hütött kaliforniai gyümölcsöket. Egyetlen cent sem volt a zsebében, de hidegen,
-               halálos elszántsággal evett. Már nem is az ételsort nézte, hanem azt, hogy mi a
+               mártással, vajastésztába sütött bélszint francia köritéssel, fagylaltot, jégbe hütött
+               kaliforniai gyümölcsöket. Egyetlen cent sem volt a zsebében, de hidegen, halálos
+               elszántsággal evett. Már nem is az ételsort nézte, hanem azt, hogy mi a
                legdrágább?</p>
             <p>Lassan, megfontoltan evett. Nem volt sietős a dolga. Tudta, hogy az élete a
                feketekávé után véget ér. Ez az ő utolsó vacsorája. Otthon jutott az eszébe, hogy a
@@ -208,9 +207,9 @@
             <p>Parker megrezzent. A kövér ujju idegen felállt asztala mellől és elhaladt mellette.
                Olyan szorosan ment el asztala mellett, hogy a kabátja érintette Parkert. Egy perccel
                utóbb visszaült helyére.</p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>III.</head>
             <p>Éjfél után egy óra volt. Parker a feketekávéjánál tartott. Noha sokat evett, arca
                ijesztően sápadt volt. Arra a szörnyü botrányra gondolt, amely néhány perc mulva ki
@@ -219,8 +218,8 @@
                elővenni revolverét és hidegvérüen fejébe röpiteni a golyót itt, az előkelő étterem
                kellős közepén, ahogyan azt otthon tervezte.</p>
             <p>És akkor jön az utálatos jelenet, a főpincér és a pincérek elképedése, szitkozódása,
-               valószinüleg meg is verik, azután rendőrt hivnak, beviszik a rendőrségre, biróság
-               elé kerül... bezárják...</p>
+               valószinüleg meg is verik, azután rendőrt hivnak, beviszik a rendőrségre, biróság elé
+               kerül... bezárják...</p>
             <p>Hát legyen igy! Legalább ennivalót kap. Fél év mulva kiszabadul és akkor megpróbál uj
                életet kezdeni.</p>
             <p>De Parker érezte, hogy most magának hazudik. Hogy ami következik, az igenis
@@ -266,9 +265,9 @@
             <p>A pincérek nevettek. Parker rettentő zavarral nézett Brevsterre, aki most egy tárcát
                nyujtott feléje.</p>
             <p>- Parancsoljon, uram. A pénze. Megszámolhatja. Egy dollár sem hiányzik belőle. </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>IV.</head>
             <p>Mikor a pincérhad elvonult, Parker még mindig nem tért magához határtalan
                meglepetéséből. Némán, verejtékezve, levegő után kapkodva meredt az idegenre, aki
@@ -292,10 +291,10 @@
                vitte a cigarettát a szájához, egyszer pedig pohara helyett az olajtartóhoz nyult és
                abból akart inni. De különösen az tünt fel, hogy noha az a szőke hölgy önnek
                észrevehetően tetszik, mégsem kérte fel táncra, holott egyedül ül asztalánál. Tehát
-               gondjai vannak, gátlásai, zavaró lelki körülmények. A szemében volt valami
-               félelmetes zavarodottság... nyugtalanság... félelem... Olyan volt, mint a menekülő
-               ember. És mikor fizetésre került a sor, nem lepett meg, hogy nem találta meg a
-               tárcáját... izé... szabad a nevét kérdeznem?</p>
+               gondjai vannak, gátlásai, zavaró lelki körülmények. A szemében volt valami félelmetes
+               zavarodottság... nyugtalanság... félelem... Olyan volt, mint a menekülő ember. És
+               mikor fizetésre került a sor, nem lepett meg, hogy nem találta meg a tárcáját...
+               izé... szabad a nevét kérdeznem?</p>
             <p>- James Parker, mükereskedő!</p>
             <p>- Szóval, mister Parker, én önt kisegitettem bizonyos előleggel. Abban a tárcában
                száz dollár van...</p>
@@ -329,11 +328,11 @@
                először hagyta el nyugalma.</p>
             <p>- Bocsásson meg, de önnek igazán nehéz kissé a felfogása. Kénytelen vagyok mindent a
                szájába rágni. Ön tehát felkéri táncra miss Silviát. Igyekszik minél előnyösebb
-               oldalról bemutatkozni. Ez nem fog nehezére esni. Amint észrevettem, miss Silvia
-               máris rokonszenvesnek tartja önt. Bevallom, magam szerettem volna megismerkedni
-               vele, de sajnos, nincsen szerencsém a nők körül. Nem vittem volna semmire. Silvia
-               romantikus jellem. Nála pénzzel nem lehet boldogulni. Ő a szivet keresi. Kénytelen
-               vagyok tehát magamat egy Don Juannal helyettesiteni.</p>
+               oldalról bemutatkozni. Ez nem fog nehezére esni. Amint észrevettem, miss Silvia máris
+               rokonszenvesnek tartja önt. Bevallom, magam szerettem volna megismerkedni vele, de
+               sajnos, nincsen szerencsém a nők körül. Nem vittem volna semmire. Silvia romantikus
+               jellem. Nála pénzzel nem lehet boldogulni. Ő a szivet keresi. Kénytelen vagyok tehát
+               magamat egy Don Juannal helyettesiteni.</p>
             <p>- Ön gunyolódik!</p>
             <p>- Sohasem beszéltem komolyabban életemben, mint e pillanatban. És nem szoktam száz
                dollár előleget adni tréfákra. Az udvarlással természetesen nem fejezte be feladatát.
@@ -359,15 +358,15 @@
                körülnéztem. Természetesen Silvia kisasszony szobájában is jártam. A pontos vázrajzot
                a helyiségről és a benne lévő butorokról meg fogja kapni tőlem. Silvia kisasszony a
                titkárnője Mr. Rocfordnak, a titkos levelezési osztály főnökének s ő kezeli a
-               legbizalmasabb aktákat, melyeket a szobájában lévő páncélszekrényben őriznek. Ennek
-               a páncélszekrénynek a kulcsát kell megszereznie...</p>
+               legbizalmasabb aktákat, melyeket a szobájában lévő páncélszekrényben őriznek. Ennek a
+               páncélszekrénynek a kulcsát kell megszereznie...</p>
             <p>- Csak nem gondolja, hogy be fogok törni?</p>
             <p>- Erre nem lesz szükség. Egyébként a részletekről majd később fogunk beszélni. Most
                nincs időnk. Rohamra kell indulnia. Én most félrevonulok a bárba. Mielőtt elhagyja a
                szállodát, odajön és beszámol az eseményekről. A viszontlátásra! Sok szerencsét! </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>V.</head>
             <p>Parker ugy indult miss Silvia felé, mint aki egy hipnotikus parancsnak
                engedelmeskedik.</p>
@@ -444,8 +443,8 @@
             <p>- Az angolon kivül németül és spanyolul beszélek.</p>
             <p>- Remek. A levelezési osztályra éppen spanyol levelezőt akartunk most keresni. Tudja,
                főleg Dél-Amerikával dolgozunk... Holnap reggel nyolckor jelentkezhet. Egyenesen
-               hozzám fordulhat. A levelezési osztály főnökét ugyanis én helyettesitem... De,
-               kérem, mért vág ilyen megrőkönyödött arcot?</p>
+               hozzám fordulhat. A levelezési osztály főnökét ugyanis én helyettesitem... De, kérem,
+               mért vág ilyen megrőkönyödött arcot?</p>
             <p>- Bocsásson meg, de mindez olyan valószinütlen... Én nem mint álláskereső közeledtem
                magához, amikor táncra kértem.,.</p>
             <p>- Hagyjuk ezt! Mi modern emberek már tulvagyunk az ilyen érzelmességeken. Tisztában
@@ -488,19 +487,17 @@
                lesz másolatot készitenie a páncélszekrény kulcsáról. Azután majd meglátjuk, hogyan
                alakulnak a dolgok. A legfontosabb parancs: hidegvér, nyitott szem, bátorság! Most
                menjen haza és aludjon. Holnap szüksége lesz pihent idegekre!</p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>VI. </head>
-            <list type="simple">
-               <item>A Sulivan &amp; Co. hatalmas telepe Newyork gyárnegyedében állt. Kivülről
-                  inkább kaszárnyának látszott, mert fegyveres katonaság teljesitett őrséget a
-                  kapuban. Minden be- és kimenő embert igazoltattak. A gyanusabbakat ki is kutatták,
-                  mert köztudomásu, hogy az ellenséges államok kémei, az anarhisták és a százféle
-                  néven szereplő különböző fanatikusok, a fegyver- és lőszergyárak ellen követnek el
-                  legsürübben merényleteket. A gyárban külön titkos rendőrök voltak alkalmazva,
-                  akiknek az volt a feladatuk, hogy állandóan mindenkit szemmel tartsanak.</item>
-            </list>
+            <p>A Sulivan &amp; Co. hatalmas telepe Newyork gyárnegyedében állt. Kivülről inkább
+               kaszárnyának látszott, mert fegyveres katonaság teljesitett őrséget a kapuban. Minden
+               be- és kimenő embert igazoltattak. A gyanusabbakat ki is kutatták, mert köztudomásu,
+               hogy az ellenséges államok kémei, az anarhisták és a százféle néven szereplő
+               különböző fanatikusok, a fegyver- és lőszergyárak ellen követnek el legsürübben
+               merényleteket. A gyárban külön titkos rendőrök voltak alkalmazva, akiknek az volt a
+               feladatuk, hogy állandóan mindenkit szemmel tartsanak.</p>
             <p>- Senkiben sem bizni! - ez volt a jelszó. Még a régi alkalmazott munkásokban sem,
                hiszen gyakran megtörtént, hogy a munkásruhában jelentkező napszámos valójában
                mérnök, vagy idegen állambeli magasrangu tiszt volt, aki igy lopta el a különböző
@@ -544,8 +541,8 @@
             <p>Parker érezte, hogy elpirul. Szörnyen megalázottnak érezte magát. Nem csoda. Különös
                érzés, mikor valaki éjjel beleszeret egy ragyogó fiatal nőbe, akinek szerelmet
                szeretne vallani, akivel tangót táncol és másnap reggel ugyanez a nő ugy bánik vele,
-               mint egy jelentéktelen kis senkivel, aki felett toronymagasságban áll és aki
-               tetszése szerint kenyeret ad neki, vagy az utcára kergetheti.</p>
+               mint egy jelentéktelen kis senkivel, aki felett toronymagasságban áll és aki tetszése
+               szerint kenyeret ad neki, vagy az utcára kergetheti.</p>
             <p>De hirtelen eszébe jutott, hogy hiszen neki bizonyos titkos megbizatása van, aktákat
                kell ellopnia. És e pillanatban valósággal örült ennek a gondolatnak. Mert gyülölte
                ezt a fölényes nőt és pokoli gyönyörüségnek érezte, hogy végül mégis ő fog diadalt
@@ -566,9 +563,9 @@
                keresnie: Mexikó!</p>
             <p>Silvia átadta az árjegyzéket.</p>
             <p>- Elmehet! Déli egy órakor tegyen jelentést, hogyan megy a munka? </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>VII.</head>
             <p>A munka nem ment nagyon jól. Parker meg volt zavarodva. Még mindig a tegnap esti
                hóditóan szép lányt látta maga előtt, akinek emlékét ez a mai mogorva és rideg
@@ -646,9 +643,9 @@
                mutatjuk meg... Köszönöm! Elmehet!</p>
             <p>Parker azt sem tudta, hogyan került vissza szobájába. Ugy érezte, hogy halálos
                veszedelemtől szabadult meg. </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>VIII.</head>
             <p>A párnázott ajtók mögött Conolly tábornok, a kémelháritó osztály parancsnoka ült
                Silviával.</p>
@@ -701,9 +698,9 @@
             <p>- Talán már holnapra, tábornok ur!</p>
             <p>- Köszönöm. És kivánom, hogy jó egészségben, ép bőrrel lássam viszont!</p>
             <p>- Magam is azon leszek, tábornok ur! </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>IX.</head>
             <p>Parkernek a lélekzete is elállt az izgalomtól és bámulattól, mikor miss Roscoe
                szobájába lépett.</p>
@@ -796,8 +793,8 @@
                titkos irattárában sorakoztak. Egy napon holtan találták az őrnagyot. Egy német kém
                pokoli kegyetlenséggel ölte meg. Ez a kém a mellé rendelt tisztek egyike volt, akinek
                sikerült teljesen beférkőznie az őrnagy bizalmába. Egy napon az őrnagy tettenérte a
-               főhadnagyot, amint fényképfelvételt készitett az egyik vázrajzról. A főhadnagy
-               látta, hogy leleplezték, nincsen menekülés és habozás nélkül leütötte egy bronz
+               főhadnagyot, amint fényképfelvételt készitett az egyik vázrajzról. A főhadnagy látta,
+               hogy leleplezték, nincsen menekülés és habozás nélkül leütötte egy bronz
                levélnehezitékkel az őrnagyot, azután megszökött. Az őrnagy két heti szenvedés után
                meghalt. És Silvia akkor határozta el, hogy hátralévő életét férje megbosszulására
                szánja.</p>
@@ -867,9 +864,9 @@
             <p>Silvia bólintott.</p>
             <p>- Nagyon helyes. Talán legjobb lesz, ha valamelyik revüszinházban gondoskodunk
                páholyról! </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>X.</head>
             <p>Brevster nagyon meg volt elégedve. A kezét dörzsölte örömében.</p>
             <p>- Hiszen maga nagyszerü fickó! - mondotta Parkernek. - A viaszlenyomat kitünően
@@ -881,10 +878,9 @@
             <p>- Én képtelen vagyok azokat az aktákat kilopni.</p>
             <p>- Ellenkezni mer?</p>
             <p>- Értse meg, nem gyávaságból mondom ezt. Ügyetlen vagyok. Hajszál hija, hogy már a
-               lenyomat készitésénél nem értek tetten. Mit ér vele, ha az akta ellopását
-               megkisérlem és nyomban lelepleznek? Magának az iratokra van szüksége. Én lemondok a
-               huszezer dollárról. Nem kérek egy centet sem. Beérem azzal az állással, melyet
-               nyertem.</p>
+               lenyomat készitésénél nem értek tetten. Mit ér vele, ha az akta ellopását megkisérlem
+               és nyomban lelepleznek? Magának az iratokra van szüksége. Én lemondok a huszezer
+               dollárról. Nem kérek egy centet sem. Beérem azzal az állással, melyet nyertem.</p>
             <p>Brevster gunyosan nevetett.</p>
             <p>- Remek! És mi lesz az aktával? Vagy azt hiszi, hogy én talán állásközvetitő vagyok?
                Hogy egyetlen célom gyámoltalan és tehetségtelen embereket jó és biztos állásokba
@@ -901,8 +897,8 @@
             <p>- Micsodát?</p>
             <p>- Nézze, mister Brevster. Én egész életemben korrekt ember voltam. Bármennyire kedvem
                és izlésem ellenére is van ez az aktalopás és bármennyire is megbántam már, hogy ebbe
-               a kalandba bocsátkoztam, most már vállalom a dolgot. De ismétlem: én nem vagyok
-               annak keresztülvitelére alkalmas. Mégis segitségére leszek. Még pedig éppen ezzel a
+               a kalandba bocsátkoztam, most már vállalom a dolgot. De ismétlem: én nem vagyok annak
+               keresztülvitelére alkalmas. Mégis segitségére leszek. Még pedig éppen ezzel a
                bemutatással. Ha ön személyes barátja lesz miss Silviának és az én ismeretségemre is
                hivatkozhatik, ugy semmi akadálya nem lesz annak, hogy időnkint megjelenik a
                Sulivan-gyárban és néhány percet tölt a szobámban. Én telefonon megbeszélendő
@@ -979,9 +975,9 @@
                Sokkal praktikusabb ember vagyok. A jó üzlet többet ér a legizzóbb szerelemnél
                is.</p>
             <p>Parker nem válaszolt. Némán kisérte Brevstert a következő utcasarokig, ahol elváltak. </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>XI.</head>
             <p>Másnap Parker idegesen, összetörve ment a hivatalba. Egész éjjel nem hunyta le a
                szemét. Nem értette sehogysem a helyzetet. Szerette Silviát és eddig ugy érezte, hogy
@@ -994,8 +990,8 @@
                szándékához.</p>
             <p>Feldultan, kimerült idegekkel érkezett a gyárba. Mikor iróasztala elé ült, érezte,
                hogy ez igy nem mehet tovább. Hozzá sem nyult a forditáshoz. Megfinomult és
-               felfokozott érzékenységében világosan hallotta, mikor a szomszéd szoba ajtaja
-               kinyilt és felismerte Silvia lépteit.</p>
+               felfokozott érzékenységében világosan hallotta, mikor a szomszéd szoba ajtaja kinyilt
+               és felismerte Silvia lépteit.</p>
             <p>A vér az arcába szökött, a szive hevesen dobogott.</p>
             <p>Attól félt, hogy megfullad. Olyan vad kétségbeesés fogta el, hogy egy pillanatra
                teljesen megzavarodott.</p>
@@ -1108,9 +1104,9 @@
             <p>Hirtelen felfigyelt. A másik szobából halk beszélgetés hallatszott. Felemelte a
                hallgatót. A kagyló süketen bugott. Silvia összeharapta ajkát. A mikrofon elromlott.
                Vagy valaki szándékosan némitotta el? </p>
-            
+
          </div>
-        <div type="chapter">
+         <div type="chapter">
             <head>XII.</head>
             <p>Tiz óra lehetett, mikor Brevster belépett Parker szobájába. Sugárzott a
                jókedvtől.</p>
@@ -1135,14 +1131,13 @@
             <p>Brevster éles pillantást vetett Parkerre.</p>
             <p>- Figyelmeztetem, hogy elég volt. A kezeim között van. Ha elárul, bizonyitani fogom,
                hogy én csak üldözöm magát. Detektiv vagyok. Akarja látni igazolványaimat? Szabályos
-               angol detektivigazolványok. Benjamin Green magánnyomozó Londonból, akit azért
-               küldtek New-Yorkba, hogy James Parker nemzetközi szélhámost nyomozza ki és
-               tartóztassa le. A Majestic főpincére emlékezni fog arra, hogyan tünt el rejtélyes
-               módon a pénztárcája a fizetésnél, a szállásadónője és a szomszédok pedig bizonyitani
-               fogják, hogy ön hónapok óta állás nélkül csavargott New-Yorkban és végül ez a kis
-               viaszdarab, melyet eltettem, eléggé bizonyitja, hogy milyen célból állt be a
-               Sulivan-gyárba... Jobb hát, ha csendes megadással viseli sorsát. Mindössze néhány
-               óráról van szó.</p>
+               angol detektivigazolványok. Benjamin Green magánnyomozó Londonból, akit azért küldtek
+               New-Yorkba, hogy James Parker nemzetközi szélhámost nyomozza ki és tartóztassa le. A
+               Majestic főpincére emlékezni fog arra, hogyan tünt el rejtélyes módon a pénztárcája a
+               fizetésnél, a szállásadónője és a szomszédok pedig bizonyitani fogják, hogy ön
+               hónapok óta állás nélkül csavargott New-Yorkban és végül ez a kis viaszdarab, melyet
+               eltettem, eléggé bizonyitja, hogy milyen célból állt be a Sulivan-gyárba... Jobb hát,
+               ha csendes megadással viseli sorsát. Mindössze néhány óráról van szó.</p>
             <p>Parker nehezen lélekzett. Megtörölte verejtékező homlokát. </p>
             <p>- Mit akar csinálni? - kérdezte Brevstertől.</p>
             <p>- Megvárom az alkalmas pillanatot. Ha miss Silvia kimegy a szobájából, belépek,
@@ -1164,10 +1159,10 @@
             <p>- Hm, - mondotta végre - ugy látszik mégis csak tévedtem. Miss Silvia magát tünteti
                ki a bizalmával, nem engem. Hát ez nagyon kellemes dolog. Én most bemegyek néhány
                percre miss Silviához, nehogy udvariatlannak tartson, azután ugy teszek, mintha
-               elmennék, valójában azonban visszajövök magához. Azután megvárom mig maga a
-               találkára megy és mialatt maguk kettesben turbékolnak, eltüntetem az aktákat...
-               Gratulálok Parker! Micsoda szerencséje van. Senkisem fog magára gyanakodni, hiszen
-               alibit igazolhat. Miss Silviával volt...</p>
+               elmennék, valójában azonban visszajövök magához. Azután megvárom mig maga a találkára
+               megy és mialatt maguk kettesben turbékolnak, eltüntetem az aktákat... Gratulálok
+               Parker! Micsoda szerencséje van. Senkisem fog magára gyanakodni, hiszen alibit
+               igazolhat. Miss Silviával volt...</p>
             <p>Megint a kezét dörzsölgette, azután gyors elhatározással Silvia ajtaja felé
                fordult:</p>
             <p>- Hát csak ügyesen Parker! És sok szerencsét! Boldog fickó! Micsoda hóditás!</p>
@@ -1222,15 +1217,15 @@
             <p>Éles csattanás hallatszott. A revolver dördült.</p>
             <p>De a lövés célt tévesztett. A kendőtől elvakult Brevster elhibázta a lövést és
                másodikra már nem került sor. A folyosóról fegyveres őrök rohantak a szobába.</p>
-            
+
             <p>Miss Silvia előadása világossá tette Parker hősies viselkedését és nagyszerü érdemét.
                A Sulivan-gyár hatalmas pénzajándékkal jutalmazta, amiért megakadályozta az akták
                ellopását.</p>
             <p>De a pénzbeli jutalomnál sokkal többet jelentett az a forró csók, mellyel miss Silvia
                örökre hozzácsatolta életét.</p>
             <p> VÉGE.</p>
-            
+
          </div>
       </body>
-	</text>
+   </text>
 </TEI>
