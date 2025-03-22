@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xml:id="HU14420" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+<TEI xml:id="HU00713" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>A megnyugvás ösvényein</title>
+            <title>Pjotruska</title>
             <author>
                <persName>
                   <surname>Karácsony</surname>
@@ -25,38 +25,38 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="words">81707</measure>
-            <measure unit="pages">187</measure>
-            <measure unit="vols">1</measure>
+            <measure unit="words">86622</measure>
+            <measure unit="pages">199</measure>
+            <measure unit="vols">2</measure>
          </extent>
          <publicationStmt>
             <p>Published as part of ELTeC and ELTE Novel Corpus</p>
          </publicationStmt>
          <sourceDesc>
             <bibl type="digitalSource">
-               <title>A megnyugvás ösvényein</title>
-               <date>2015-09-29</date>
+               <title>Pjotruska</title>
+               <date>2002-10-29</date>
                <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
-               <ref target="https://mek.oszk.hu/14400/14420/"/>
+               <ref target="https://mek.oszk.hu/00700/00713/"/>
                <respStmt>
                   <resp>Original Electronic Edition</resp>
-                  <name>Vidiné Réfi Erzsébet</name>
-                  <name>Erdélyi Zsolt</name>
-                  <name>Mészáros Attila</name>
+                  <name>Pásztor József</name>
+                  <name>Németh Ibolya</name>
+                  <name>Szabolcsi József</name>
                </respStmt>
             </bibl>
             <bibl type="printSource">
-               <title>A megnyugvás ösvényein</title>
+               <title>Pjotruska</title>
                <author>Karácsony Benő</author>
-               <pubPlace>Kolozsvár</pubPlace>
-               <publisher>Józsa Béla Athenaeum</publisher>
-               <date>1947</date>
-               <ref target="https://mek.oszk.hu/21500/21519/"/>
+               <pubPlace>Bukarest</pubPlace>
+               <publisher>Irodalmi Kvk.</publisher>
+               <date>1968</date>
+               <ref target="https://mek.oszk.hu/00700/00713/"/>
             </bibl>
             <bibl type="firstEdition">
-               <title>A megnyugvás ösvényein</title>
+               <title>Pjotruska</title>
                <author>Karácsony Benő</author>
-               <date>1943</date>
+               <date>1927</date>
             </bibl>
          </sourceDesc>
       </fileDesc>
@@ -73,11 +73,11 @@
            <ns1:authorGender key="M"/>
            <ns1:size key="medium"/>
            <ns1:canonicity key="high"/>
-           <ns1:timeSlot key="T6"/>
+           <ns1:timeSlot key="T5"/>
         </ns1:eltec>
      </xenoData>
      <revisionDesc>
-        <change when="2025-03-19"/>
+        <change when="2025-03-22"/>
      </revisionDesc>
   </teiHeader>
   <text>
