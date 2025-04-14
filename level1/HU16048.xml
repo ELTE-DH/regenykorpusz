@@ -1,0 +1,2029 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU16048" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Három pápai diák balatoni kalandozásai</title>
+            <author>
+               <persName>
+                  <surname>Lampérth</surname>
+                  <forename>Géza</forename>
+               </persName>
+               <date from="1873" to="1934">1873-1934</date>
+               <idno type="VIAF">121389801</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">18001</measure>
+            <measure unit="pages">42</measure>
+            <measure unit="vols">2</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Három pápai diák balatoni kalandozásai</title>
+               <date>2016-09-28</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/16000/16048/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Vajda Henrik</name>
+                  <name>Erdélyi Zsolt</name>
+                  <name>Fecz Ágnes</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>Három pápai diák balatoni kalandozásai</title>
+               <author>Lampérth Géza</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Singer-Wolfner</publisher>
+               <date>1902</date>
+               <ref target="https://mek.oszk.hu/16000/16048/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Három pápai diák balatoni kalandozásai</title>
+               <author>Lampérth Géza</author>
+               <date>1902</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc n="eltec-0">
+        <p/>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="hu">Hungarian</language>
+        </langUsage>
+     </profileDesc>
+     <xenoData>
+        <ns1:eltec>
+           <ns1:authorGender key="M"/>
+           <ns1:size key="short"/>
+           <ns1:canonicity key="low"/>
+           <ns1:timeSlot key="T4"/>
+        </ns1:eltec>
+     </xenoData>
+     <revisionDesc>
+        <change when="2025-04-04"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="group">
+            <head>
+              ELSŐ UTAZÁS
+            </head>  
+            <div type="chapter">
+               <head>
+                  Vasúton és kordén.
+               </head>
+               <p>Egy szép nyári reggelen három utas igyekezett a veszprémi országuton Nagy-Vázsony
+                  felé.</p>
+               <p>Mind a három pápai diák volt. A nevük: Jó Miklós, Gál Bandi és Gál Feri. Az első
+                  már nagy theológus diák, az utóbbi kettő még csak kis gimnázista. Bandi az első
+                  osztályt végezte épen, Feri meg a másodikat.</p>
+               <p>Úgy kerűltek össze, hogy Bandi és Feri testvérek voltak, Miklós pedig távoli
+                  rokonuk és tanítójuk. Együtt lakott velük Pápán, felvigyázott rájuk és segítette
+                  őket a tanulásban.</p>
+               <p>Volt is foganatja lelkiismeretes munkájának. Mind a két öcscse jeles bizonyítványt
+                  küldött haza év végén. Ennek köszönhette Bandi és Feri, hogy a vakáczióban egy kis
+                  kalandos vándorutat tehettek Miklós bácsival a szép Balaton vidékén.</p>
+               <p>Édes apjuk, a ki a délibábos alföldön lakott, mikor a jeles bizonyítványokat
+                  megkapta, ezt írta nekik:</p>
+               <p>Édes fiaim!</p>
+               <p>Minthogy olyan jól viseltétek magatokat és olyan szorgalmasan tanúltatok, szivesen
+                  megengedem, hogy Miklós bácsival leránduljatok szép magyar tengerünk, a Balaton
+                  partjára.</p>
+               <p>Mulassatok jól, használjátok föl okosan az időt.</p>
+               <p>Szerető atyátok</p>
+               <p> Gál András. </p>
+               <p>Legforróbb vágya teljesűlt ezzel a két eleven eszü, szorgalmas fiúnak. Mert Miklós
+                  bátyjuk, a ki a Balaton vidékén született és nevelkedett, oly sok szépet beszélt
+                  már nekik a Balatonról, hogy maguk is színről-színre óhajtották azt látni.</p>
+               <p>Veszprémig vasúton mentek. Ott mindjárt megnézték a sziklatetőre épűlt ősi várat s
+                  a vár kápolnáját, mely már-már ezer esztendős. Az első magyar király, Szent István
+                  és neje, Gizella királyné építtette. Máig is »Gizella kápolna« a neve.</p>
+               <p>Miklós bácsi jól ismervén az út hosszú voltát, kocsit akart fogadni, hogy azon
+                  utazzanak tovább. De Bandi és Feri egyre erősködtek, hogy ők most már csak gyalog
+                  akarnak menni. Ugy igazi utazás az utazás.</p>
+               <p>- Per pedes apostolorum! - fitogtatta a latin tudományát Feri.</p>
+               <p>- Az apostolok lovain! - fordította hamarosan Bandi, hogy ő is megmutassa, mit
+                  tud.</p>
+               <p>Miklós bácsi csöndesen mosolygott:</p>
+               <p>- Jó, jó, csak aztán majd meg ne sántuljanak azok a paripák.</p>
+               <p>A bükkös Bakony szélén haladtak előre a kanyargó országúton.</p>
+               <p>Már vagy három órát gyalogoltak, de a Balaton még mindig nem mutatkozott. Hiába
+                  erősítgette Miklós bácsi, hogy no most már mindjárt itt lesz, mindjárt
+                  meglátjuk.</p>
+               <p>A nyári nap is jól felhágott már az égre és erősen szórta tüzes sugarait a poros
+                  országútra.</p>
+               <p>A kis utasokról, a kik nem számítottak ilyen hosszú útra, javában csorgott már a
+                  verejték. De szólni egyik se mert. Pedig bizony jó lett volna már kocsira ülni.
+                  Minduntalan leheveredtek pihenni az útszéli árnyékos fa alá. Az »apostolok lovai«
+                  erősen csüggedeztek.</p>
+               <p>Bandi egyszerre csak észreveszi, hogy a hátuk mögött vidám ügetéssel jön egy
+                  kordé. Kétkerekű kis alkotmány ez, elébe egy szamár van fogva. Veszprémi kofák
+                  járnak ki rajta gyümölcsért a szomszédos falvakba és szőlőhegyekbe.</p>
+               <p>- Hahó, néni! megálljon! - kiált a döczögő alkalmatosság után s a másik perczben
+                  már fenn is van a kordén. Feri is követi a jó példát, de a kordén csak két ember
+                  számára van hely. Megalkusznak hát hamarosan a kofával, hogy engedje át a helyet
+                  Ferikének. A nénike leszáll s Miklós bácsival együtt gyalog ballag a kordéja után.
+                  Feri a gyeplőt fogja, Bandi meg az ostort, igy koczognak vidáman előre.</p>
+              </div>
+               <div type="chapter">
+                  <head>
+                     Az első állomás.
+                  </head>
+                  <p>Dél felé járt az idő, mire utasaink elérték Nagy-Vázsonyt. Itt útnak
+                     eresztették a kordés nénit és megpihentek.</p>
+                  <p>A kies fekvésű kis mezőváros nagyon megtetszett a fiúknak. Felerészben sziklás
+                     hegyre, felerészben virágos völgybe van a város építve. A sziklahegy oldalából
+                     kristályforrások vize buzog.</p>
+                  <p>A hegytetőn hatalmas váromladék van, melynek ma már csak az egyik tornya
+                     áll.</p>
+                  <p>- Miklós bácsi, úgy-e az a Kinizsy vára? - kiáltották a fiúk majdnem egyszerre,
+                     a mint megpillantották a régi viharverte falakat.</p>
+                  <p>- Eltaláltátok. Mindjárt megnézzük azt is. De előbb térjünk be ide a kis
+                     malomba. A krónika szerint itt töltötte a hős törökverő Kinizsy Pál
+                     gyermekéveit. Itt hordta a nehéz zsákokat, mint egyszerű molnárinas,
+                     reggeltől-estélig. Itt kereste kenyerét becsületes, nehéz munkával, hogy
+                     eltarthassa gyámoltalan öreg szülőit. A vidéken híre ment már rettenetes
+                     erejének. Bíztatták is egyre: menjen fel Budára, Mátyás udvarába. Fényes jövő
+                     vár ott reá, majd meglássa. De a jó fiú csak nem hallgatott a csábító szavakra.
+                     Mert hogyha ő innen elmenne, mi lenne az ő két öreg szülőjével? Ki viselné
+                     gondjukat?</p>
+                  <p>Egyszer aztán fényes hada élén erre jött Magyar Balázs, Mátyás király fővezére.
+                     Megállott a malom előtt, mert nagyon megszomjazott. Vizet kért a molnártól.</p>
+                  <p>- Eredj, fiam, Palkó - szólt az öreg molnár inasának - szolgáld ki a generális
+                     urat!</p>
+                  <p>Ki is szolgálta Palkó úgy, hogy az egész fényes ármádiának a szeme-szája
+                     elállott. Egy hatalmas malomkövet fogott tálczának, a mit három ember sem
+                     tudott megmozdítani, és azon nyujtott föl egy pohár vizet Magyar Balázsnak.</p>
+                  <p>- Ejnye, öcsém, - szólt álmélkodva a vezér, - téged az Úristen is katonának
+                     teremtett! Nem csapnál föl közibénk?</p>
+                  <p>- Föl én, vitéz uram, csak az édes szülőimről gondoskodnék valaki.</p>
+                  <p>- Majd gondoskodik Mátyás király. Gyere velünk.</p>
+                  <p>És Kinizsy elment s legkedvesebb katonája, leghíresebb hadvezére lett a
+                     királynak.</p>
+                  <p>A fiúk dobogó szívvel hallgatták az elbeszélést és meghatottan néztek körűl az
+                     egyszerű szalmafödeles hajlékban, melynek ablakából épen oda látni a várra.</p>
+                  <p>- S a várat is ő építette? - kérdé Bandi - azért hivják Kinizsy-várnak?</p>
+                  <p>- No arról meg én mondok el egy történetet, ha meghallgatnak az úrfiak, -
+                     vágott közbe most a molnármester, a ki büszke volt arra, hogy ő Kinizsy Pál
+                     utódja.</p>
+                  <p>- Meghallgatjuk! Meghallgatjuk! - kiáltották örömmel a fiúk.</p>
+                  <p>- De még szépen meg is köszönjük, - bíztatta Miklós az öreg mestert, és
+                     mindjárt elővette jegyzőkönyvét is, hogy fölírja magának az elmondandó
+                     történetet.</p>
+                  <p>- Hát úgy történt, kérem, kezdé az öreg molnár a maga egyszerű módján, - hogy a
+                     mi Kinizsy Pálunk mindig csak visszakivánkozott ide, az édes szűlőföldjére.
+                     Akkor is, a mikor már nagy úr volt, világhíres ember.</p>
+                  <p>Nem érezte ő jól magát fényes Budavárában sem. Itt épített hát magának várat
+                     oda a hegyoldalba ni. Hogy leláthasson ablakából erre a kis malomra. Ide hozta
+                     a feleségét is, a mikor megházasodott. Pecsétes levélben azt is meghagyta, hogy
+                     ha idegenben találna meghalni, a holt tetemét is ide hozzák, mert másutt a síri
+                     nyugodalma se lenne édes.</p>
+                  <p>El is hozták, ide temették el a várkápolna kriptájába. A sírja fölé
+                     márványkőből faragott ékes táblát tettek. Arra rávésték képes mását és sok
+                     vitézi tetteit. Hány csatában győzött, hány törököt ölt meg szörnyű
+                     buzogánya... Mert nem volt Kinizsynél rettenetesebb ellensége a töröknek.
+                     Gyűlölték is szörnyen. Megfojtották volna egy kanál vízben. De míg élt, nem
+                     árthattak neki. Hát a holta után akartak rajta bosszút állni. De meg is
+                     bűnhődtek érdemük szerint. Ugy esett, hogy egy szép holdvilágos éjjel két
+                     kontyos török lopózott be a várkápolnába, hogy a bent levő sok drága kincset
+                     elrabolja és a halott hős sírját feldúlja. A holdvilág besütött az ablakon s
+                     megvilágította ott Kinizsy márványból való, faragott képmását. Nosza az egyik
+                     török, a mint megpillantja a rettegett és gyülölt hős képét, mindjárt megösmeri
+                     és vad szitokkal kirántja övéből pisztolyát. Szentségtelen kézzel rásütötte
+                     fegyverét. De a kemény kő visszavágta a golyót s az egyenesen a török szivébe
+                     fúródott.</p>
+                  <p>- Allah, segíts!... ordított föl s halva rogyott össze. Vad czimborája meg nagy
+                     hősen kereket oldott. Talán meg sem állt Isztambulig, a hol még ma is rettegve
+                     emlegetik Kinizsy nevét a jámbor muzulmánok. Rettenetes gyaúr volt az a Kinizsy
+                     - mesélgetik - nemcsak életében, de még holta után is pusztította az igazhitű
+                     törököt!...</p>
+                  <p>Estére hajlott már az idő, mikor az öreg molnár elbeszélését bevégezte. Kezet
+                     szorítottak a jó emberrel mind a hárman, megköszönték a szivességét és búcsút
+                     vettek tőle.</p>
+                  <p>A hegyre siettek, hogy még napnyugta előtt megtekintsék a várat.</p>
+                  <p>A hajdan hatalmas sasfészek, mely annyiszor verte vissza diadalmasan török
+                     ostromát, ma már romokban hever. Csak az egyik sarok-tornya daczol még az
+                     idővel. A torony tetejére járható csigalépcső vezet. S a magasból felséges
+                     kilátás nyílik egyfelől a Bakony rengetegeire, másfelől a Balaton partján
+                     végighúzódó lankás hegyekre. Már a Balatonból is felcsillan oda egy
+                     iczike-piczike kis darab dél felől egy keskeny völgynyiláson. Olyan formán
+                     látszik a hegyek közűl, mintha a hegyek valami óriási tündérpalotának a falai
+                     volnának, az a kis vízrészlet meg a palota egyik ragyogó, csillogó ablaka.</p>
+                  <p>- Innen szokott végig nézni sasszemével Kinizsy Pál - magyarázta Miklós bácsi a
+                     fiúknak - nem közelít-e valahonnan a ravasz ellenség. S a béke napjaiban innen
+                     gyönyörködött ifjú hitvese oldalán a táj szépségeiben.</p>
+                  <p>- Ki volt Kinizsy felesége? - kiváncsiskodott Feri.</p>
+                  <p>- Magyar Benigna, Magyar Balázs leánya. Igen jámbor és istenfélő asszony volt.
+                     A vár közelében kolostort építtetett s míg férje csaták tüzében járt, ő ott
+                     imádkozott érette. Imádságos könyve máig is megvan.</p>
+                  <p>- Hát az micsoda falu? - kérdé Bandi egy közelben látszó sugár torony felé
+                     mutatva.</p>
+                  <p>- Az az én kis falum, - mondá Miklós bácsi örömtől csillogó szemmel. - Ott vár
+                     minket már az én édes jó anyám. Siessünk, fiúk, hogy ne várjon sokáig.</p>
+                  <p>Jó félórai gyaloglás után elérték utasaink a kis falut, a Jó Miklós
+                     szűlőföldjét.</p>
+                  <p>Épen estimára szólt a falu harangja, mikor bekopogtattak az egyszerű, kedves
+                     falusi ház ajtaján. A szegény öreg Jó néni alig talált szavakat fogadásukra.
+                     Ugy tele volt a szíve örömmel és boldogsággal, hogy egy évi távollét után
+                     virúló egészségben láthatta viszont édes jó fiát. A kis rokonoknak is kijutott
+                     a csókból, ölelésből:</p>
+                  <p>- Hozott Isten, édes kis cselédeim, csakhogy itt vagytok... csakhogy
+                     megjöttetek!... De úgy-e elfáradtatok, úgy-e megéheztetek?... No mindjárt lesz
+                     minden. Jó vacsora, puha ágy... Aztán csak nyugodjatok le, pihenjétek ki
+                     magatokat, édes lelkeim, mert látom, hogy nagyon elfáradtatok. Holnap reggel
+                     aztán megnézhetitek a Balatont. Mert itt van ám már közel. Csaknem a
+                     faluvégén.</p>
+                  <p>A szokatlan hosszú út fáradalma bizony elnyomta a kis utasokat.</p>
+                  <p>Jóízűen, édesen aludtak még reggel, a mikor Miklós már halkan, lábújjhegyen
+                     kiosont a szobából, hogy föl ne verje őket.</p>
+                  <p>Sorra látogatta odakünn édes anyja kis gazdaságát. Az udvart, az istállót, a
+                     Ráró lovat, a Boczi tehenet, a Sajó kutyát, azután a virágos kertet, a szép
+                     virúló rózsafákat, miket ő maga oltogatott.</p>
+                  <p>Édes gyönyörűség fogta el szívét mindezeknek láttára. Azok az oktalan
+                     teremtések, fák, virágok is mintha megismerték volna, hízelegve, nyájasan
+                     üdvözölték:</p>
+                  <p>- Isten hozott, kis gazdánk!</p>
+                  <p>Már jól fenn járt a nap az égen, mikor Bandi és Feri fölébredt.</p>
+                  <p>Feri mindjárt kérdezősködéssel kezdte a napot:</p>
+                  <p>- Kedves Jó néni, miért hívják ezt a falut Mencshelynek? Olyan különös név ez,
+                     bizonyosan régi név és valami jelentősége van.</p>
+                  <p>Jó néni szívesen elmondta a falu történetét, a mint a lakosok közt
+                     emberemlékezet óta szájrul-szájra jár:</p>
+                  <p>- Szent István királyról bizonyosan hallottatok, olvastatok is már. Tudjátok,
+                     hogy...</p>
+                  <p>- Ő volt a magyarok első királya, - vágott közbe Bandi.</p>
+                  <p>- És ő térítette az országot a keresztény hitre - tódította meg Feri. - Sok
+                     templomot, kápolnát építtetett. Veszprémben láttuk is a »Gizella kápolnát«. Azt
+                     is ő építtette.</p>
+                  <p>- Nos, hát épen ezért - folytatta Jó néni - nagyon meggyűlt a baja a szent
+                     királynak. Azok a magyarok, a kik őseik hitét nem akarták az uj hitért
+                     elhagyni, föllázadtak ellene. Kupa somogyi vezér állt a lázadók élére és
+                     hatalmas sereget vezetett Veszprém vára alá, ahol akkor István, feleségével,
+                     Gizellával együtt tartózkodott.</p>
+                  <p>István király, mielőtt az ostrom megkezdődött volna, nejét kiszöktette a
+                     várból, hogy valamelyik közeli faluban biztosságba helyezze. Már jól elhagyták
+                     Veszprémet és Vázsony körül jártak. Ekkor a király hátratekintve réműlve veszi
+                     észre, hogy a lázadók egy csapata üldözőbe fogta őket. Megsarkantyúzta hirtelen
+                     lovát és a közeli rengetegbe vágtatott. Mire üldözői odaértek, már nyomát
+                     vesztették.</p>
+                  <p>Egy ősz remete lakott a rengetegben, arra bízta a király feleségét, míg a rend
+                     és béke helyre áll. Ott is maradt Gizella királyné a remete gunyhójában, míg
+                     István a lázadó Kupa seregét széjjelverte és helyre állította az ország
+                     nyugalmát. Ekkor aztán hálából megmeneküléseért kápolnát építtetett arra a
+                     helyre, a hol a remete-gunyhó állt és elnevezte azt Menedék-helynek vagy
+                     Ments-helynek, mivelhogy ott menekült meg a haláltól.</p>
+                  <p>Itt állt a kápolna, a hol most a mi falunk van és attól kapta nevét a falu
+                     is.</p>
+                  <p>A míg Jó néni így mesélgetett, előkerült Miklós is. Megreggeliztek a fiúk és
+                     útra keltek, hogy végre-valahára meglássák a szép Balatont.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                     A Balaton.
+                  </head>
+                  <p>Közel a faluhoz, alig egy negyed órányira, van a Halom-tető. Tűzhányó hegy volt
+                     hajdanában, a mit nemcsak a hagyomány, de a mindenféle maig is látható kiégett,
+                     vöröses-barna kövek is bizonyítanak. Ma már csendes a hegy. Egyik oldalát
+                     erdőség, a másikat szőlők borítják.</p>
+                  <p>Oda vezette kis vendégeit egyenesen Miklós bácsi.</p>
+                  <p>A fiúk egész úton nyugtalankodtak, kiváncsiskodtak. Micsoda dolog ez, hogy még
+                     mindig nem látják a Balatont. Pedig Jó néni azt mondta, hogy itt van már közel,
+                     majdnem a falu végén.</p>
+                  <p>Ott van biz az, csakhogy a vizet eleven keretként körűlzáró dombos-erdős
+                     szőlő-hegyektől mindaddig nem lehet meglátni, mig az ember föl nem jut a
+                     tetőre.</p>
+                  <p>Közel voltak már hozzá. Még egy kis kapaszkodó a meredek oldalon és fenn voltak
+                     a csúcson.</p>
+                  <p>Hej de megdobbant a szivük egyszerre!</p>
+                  <p>Mintha valami csodás, bűbájos tündér-világba jutottak volna.</p>
+                  <p>Felettük északon a Bakony százados szálfái zúgatták lombos koronájukat
+                     sötét-zöld háttért alkotva. S a hegy déli lábánál, a nyári nap fényében, ott
+                     ragyogott, csillogott, tündöklött előttük a Balaton. A varázsos szépségű,
+                     bűbájos »magyar tenger«.</p>
+                  <p>Fönséges, megragadó látvány! A meddig a szem ellát: víz, mindenütt víz...</p>
+                  <p>De nem holt, élet nélkül való, érzéketlen víztömeg ám. Csupa élő, mozgó, érző
+                     elevenség a magyar tenger. Lelke van, a mely vele él, vele érez a magyar
+                     emberrel. Mély bánatában elborúl, sötét köntöst ölt magára... majd ha gyásza
+                     tűnik, földerűl tekintete. Ragyogó, csillogó, égszínkék és levélzöld ruhát ölt
+                     magára, felcziczomázza magát hófehér habfodrokkal s úgy mosolyog, úgy nevet
+                     ránk édesen, szelíden...</p>
+                  <p>Most épen a legjobb kedvében volt és a legragyogóbb öltözetében pompázott a
+                     Balaton.</p>
+                  <p>A fiúk szótlanúl, néma csodálattal tekintgettek jobbra, balra. Nem győztek
+                     betelni a nagy gyönyörűséggel. Nem tudták, mit bámuljanak inkább. A váltakozó
+                     kék, fehér, zöld szinekben csillogó rengeteg vizet-e, a rajta vígan tovasikló
+                     vitorlás hajókkal s a fölötte keringő fehérszárnyú sirályokkal, vagy azt a
+                     gyönyörű tündéri keretet, a mely köröskörűl befoglalja, mint egy drága
+                     gyémántot. Sűrű nádasok és lankás, szelíd lejtésű hegy-ormok alkotják a Balaton
+                     természetcsinálta keretét.</p>
+                  <p>A hegyek tetejét erdő borítja, oldalát virúló szőlők lepik, melyeknek üde
+                     zöldjéből vígan kandikál ki egy-egy pincze vagy nyaraló fehér fala, majd
+                     egy-egy falucska apró nádfödelű házai és sudár tornya. Igy van ez végesvégig a
+                     veszprémi és zalai oldalon. A zalai partokon, a nyugati részen emelkednek
+                     egymásután a regényes szép hegyek: Badacsony, Tátika, Csobáncz és Szigliget.
+                     Túlnan a somogyi partok ködbevesző körvonalai látszanak.</p>
+                  <p>- Jaj de szép!... jaj de nagy víz!... - tört ki a fiúkból az őszinte
+                     csodálkozás.</p>
+                  <p>- Pedig még korán sem látjátok egész szépségében, - magyarázta Miklós bácsi. -
+                     De még egész nagyságában sem. Az úgynevezett Kis-Balatont, mely a tó nyugoti
+                     végét alkotja, innen nem látjuk. Bizony nagy tó ez, nemcsak hogy
+                     Magyarországnak legnagyobb tava, de egész közép és dél Európában sincs hozzája
+                     nagyságra hasonló. Szépségre meg az egész világon nincs párja.</p>
+                  <p>Három vármegyére terjed: Veszprém, Somogy és Zalára. A hosszúsága... no hadd
+                     lássuk a földrajzi tudománytokat, mekkora a hosszúsága?</p>
+                  <p>- Nyolczvankét kilométer, - sietett Feri bebizonyítani, hogy megérdemelte a
+                     jeles osztályzatot.</p>
+                  <p>- A szélessége pedig tíz kilométer, jegyezte meg gyorsan Bandi.</p>
+                  <p>- Igen, tíz kilométer Füred és Siófok között, a hol a gőzhajó jár. Épen most
+                     jön át, nézzétek. De van olyan hely, a hol szélesebb is, például egy kicsit
+                     odébb, Gamásza és Füzfő között már tizenöt kilométer. Ez a legnagyobb
+                     szélessége. Van olyan hely is, a hol csak öt kilométer, például a Rév-Fülöp és
+                     Boglár között. Itt szintén gőzhajó jár. Legkeskenyebb amott Tihanynál, mert a
+                     tihanyi félsziget messze belenyúlik a vízbe. Ott csak másfél kilométer a
+                     szélessége.</p>
+                  <p>- Hát a nevét honnan vette a tó? - kérdé egyszerre Bandi.</p>
+                  <p>- Azt bizony bajos volna megmondani egész bizonyossággal. Régen, mielőtt Árpád
+                     apánk vitéz hadai meghódították a vidéket, sokféle nemzetség megfordult itt. A
+                     kelta nép is lakott itt egy ideig s az »Pelsó« vagy »Peisó« néven nevezte a
+                     tavat. Azután jöttek a rómaiak, ők is úgy nevezték, sőt az ő utána következő
+                     avarok is. Az avaroknak azonban már szláv eredetű jobbágyai is laktak itt a tó
+                     partján s valószínűen azok kezdték először »Balaton«-nak nevezni, mert ez a szó
+                     (Blato) az ő nyelvükön mocsarat jelent. A magyarok tőlük vették át a tó nevét,
+                     melyet néha »Balatin«-nak is mondtak.</p>
+                  <p>A rege azt mondja, hogy a Balaton helyén hajdan egy nagy város állott. De
+                     lakói, mint egykor Sodoma és Gomora lakói, bűnbe sűlyedtek s fejükre vonták
+                     Isten haragját. Egyszerre csak az egész város a föld alá sűlyedt... Bűnös lakói
+                     most odalent a mélységekben folyton imádkoznak és csak akkor jöhetnek ismét
+                     felszínre, ha mind leimádkozták bűneiket. Az elsűlyedt város templomának
+                     harangszava csöndes éjeken néha most is felhallatszik a vizek
+                     mélységéből...</p>
+                  <p>Ezt persze csak a babonás parti lakó hallja, a ki ilyenkor áhítattal vet
+                     keresztet magára. És elmond ő is egy imádságot a szerencsétlen szenvedők lelki
+                     üdveért...</p>
+                  <p>- Giling-galang... giling-galang... hangzott fel most egyszerre a csengő
+                     harangszó. Csakhogy persze nem a Balaton mélyéből, hanem a mencshelyi
+                     toronyból.</p>
+                  <p>- Giling-galang... giling-galang... – bimm-bamm... - feleltek rá egymásután a
+                     harangok vagy tíz faluban, a melyek mind ott feküsznek a Halom-tető körűl, a
+                     Balaton-völgyben. Ott van mindjárt Dörgicse és Akali, a hol a kitünő bor terem;
+                     Budavári, Szent-Antalfa, Zánka, Szepezd, távolabb Tihany és Balaton-Füred,
+                     Aszófő, Örvényes, Udvari.</p>
+                  <p>Delet harangoztak. Kis vándoraink végig tekintvén még egyszer a páratlan
+                     szépségű panorámán, haza felé indultak. Jó néni már várta őket pompás
+                     ebéddel.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                    Füred.
+                  </head>
+                  <p>Egy napot még ott töltöttek a fiúk, kipihenték jól magukat. S miután elég erőt
+                     gyűjtöttek a további kalandozásra, megköszönték Jó néninek a szíves
+                     fogadtatást, búcsút vettek tőle és Miklós bácsi társaságában útra keltek.
+                     Utazásuk első czélpontja Füred volt.</p>
+                  <p>Először magát a községet nézték meg. Balaton-Füred a vízparttól mintegy
+                     negyedórányira fekszik, a Tamás- és György-hegy lábánál. Csinos, szép magyar
+                     falu. Tősgyökeres magyar emberek lakják, a kik leginkább szőlő- és
+                     földműveléssel foglalkoznak.</p>
+                  <p>A mint a Balaton felé tartva elhagyjuk a falut, jól dolgozott szőlőskertek,
+                     szép nyaralók, villák sora kezdődik. Ezek között vezet a jó tíz perczig tartó
+                     árnyas fákkal szegett út a tulajdonképeni fürdőhelyre. A vidék népe ezt csak
+                     »Savanyú-víz« néven hívja. Az úttól jobbra, Arács falu felé, egy hatalmas
+                     épület vonja magára az utazók figyelmét. Ez a szeretetház, a hol szegény árva
+                     gyermekeket gondoznak és tanítanak.</p>
+                  <p>A mind sűrűbben sorakozó nyaralók között Miklós bácsi egyszerre csak megállt és
+                     egy csinos villára mutatott, a melyik ott áll az út jobb oldalán, egy kis
+                     magaslaton a Balaton fölött, ablakából gyönyörű kilátás nyílik a tóra és a
+                     tihanyi félszigetre.</p>
+                  <p>- Itt lakott sok nyáron át koszorús regényírónk: Jókai Mór. Itt írta
+                     halhatatlan műveit. Amott meg - magyarázott tovább Miklós - Blaháné nyaralójára
+                     mutatva, a »nemzet csalogánya« rakott fészket magának.</p>
+                  <p>A kis fürdői kápolna és a herczegprimás szép villája mellett elhaladva, a parti
+                     sétatérre értek.</p>
+                  <p>Gyönyörű kép tárult eléjök, a minőt csak a leghiresebb tengeri fürdők
+                     nyujtanak.</p>
+                  <p>Az árnyékos platánok és gesztenyefák alatt tarka csoportokban sétáltak a
+                     fürdővendégek, a kik messze földről jöttek ide gyógyulást és pihenést keresni.
+                     A vízen, a part hosszában, hajók raja ringatózott. Volt ott mindenféle vízi
+                     járómű, a minek Bandi és Feri hírét sem hallotta. Meg is csodálták ám a karcsú
+                     kis halászbárkákat, lélekvesztőket, benzin-motoros hajókat s a szép nagy fehér
+                     szárnyú vitorlásokat.</p>
+                  <p>A nyári nap tüze mind hevesebben sugárzott át a lombokon. A sétáló közönség
+                     egyre gyérűlt. Mindenki sietett a meleg elől a Balaton hűvös hullámaiba.</p>
+                  <p>- Fürödjünk meg - indítványozta Miklós bácsi. A fiúk szívesen kaptak az
+                     alkalmon.</p>
+                  <p>A fürdőház bent van a Balatonban. Czölöpökre épült nagy tornyos palota, melybe
+                     hosszú fahíd vezet a partról. A fürdőház homlokára, a bejárat fölé ez a vers
+                     van vésve:</p>
+                  <p>Lelked szép erejét a sors hullámai edzik,</p>
+                  <p> E tó testednek nyujt vidor életerőt!</p>
+                  <p>A híd közepén Bandi egyszerre csak megállt.</p>
+                  <p>- Miklós bácsi, milyen mély a Balaton? - kérdezte.</p>
+                  <p>Feri is kiváncsian várta erre a kérdésre a feleletet. Mint aféle alföldi fiú, ő
+                     sem tudott úszni és alkalmasint megszeppent egy kicsit Bandival együtt ettől a
+                     rengeteg víztől. Alighanem az volt a közös gondolatuk, hogy talán még sem lesz
+                     tanácsos bele menni a vízbe, mert hátha el találja őket nyelni...</p>
+                  <p>Miklós bácsi kitalálta titkos gondolatukat.</p>
+                  <p>- Hát biz ez sok helyen olyan mély, hogy ha a füredi templom tornyot
+                     beleállitanák, még a csillaga sem látszanék ki belőle. Közepes mélysége 7-10
+                     méter, de van olyan hely is Tihany mellett, a hol sokkal mélyebb. Ugy-e jó
+                     volna most, ha úszni tudnátok? Meg is kell tanúlnotok, mert az úszás nemcsak
+                     testedző férfias mulatság, hanem hasznos dolog is. Vízen járva sohasem tudja az
+                     ember, mikor kerűl veszedelembe. Akkor aztán nincs más menekülés, mint az
+                     úszás.</p>
+                  <p>A fiúk megfogadták, hogy a jövő évben be is fognak iratkozni Pápán az úszó
+                     tanfolyamra.</p>
+                  <p>- No de azért itt nincs mit félnetek, mert a fürdőben az úszni nem tudók
+                     számára is van hely. A nyílt vízre persze nem szabad kimennetek. Pedig az ám
+                     csak az igazi gyönyörűség; ott ringatózni a csacsogó, fodros hullámokon.</p>
+                  <p>Fürdés után megebédeltek s úgy folytatták sétájukat.</p>
+                  <p>A savanyúvíz-forrás felé tartottak, a mely árnyas fákkal beültetett, tágas tér
+                     közepén van. Egyenruhás szolgák osztogatják poharakban az egészséget adó pompás
+                     vasas és szénsavas ásványvizet.</p>
+                  <p>A forrástól nem messze áll egy érczszobor. Miklós bácsi odavezette a fiúkat s
+                     kegyelettel emlékezett meg arról, a kit az a szobor ábrázol. Kisfaludy Sándort
+                     ábrázolja, a koszorús költőt, a ki a Balaton vidékét, Csobánczot, Tátikát,
+                     Szigligetet oly remek szép, halhatatlan regékben megénekelte.</p>
+                  <p>- Ni-ni! itt szinészek is vannak, - kiáltott fel egyszerre Bandi, a mint egy
+                     vörös színlapot megpillantott. Nézzük meg a színházat.</p>
+                  <p>Nem messze a forrástól, ligetes erdőben áll a szép épület. A magyar múzsa
+                     temploma. Homlokán ez a felírás olvasható:</p>
+                  <p>Hazafiság a Nemzetiségnek.</p>
+                  <p>- A nemes tűzre lobbant hazafiság emelte ezt a csarnokot is - magyarázta Miklós
+                     bácsi - épen úgy, mint a költő érczszobrát. A honszerelem építette a nemzetiség
+                     egyik őrhelyéül, végvárául.</p>
+                  <p>Oh, szép idő volt az, a hazafias lelkesedésnek, felbuzdúlásnak kora, melynek
+                     élő örök emléke ez a Múzsa-csarnok. A szívünk megtelik melegséggel,
+                     ragyogással, ha annak az időnek történetét olvassuk.</p>
+                  <p>Az 1830-ik esztendő nyarán történt, hogy egy lelkes kis társaság ült együtt itt
+                     e helyen, a hol most a szinház áll, a terebélyes cserfák árnyékában.</p>
+                  <p>A társaság középpontja Kisfaludy Sándor, az ünnepelt költő volt. Körűle:
+                     Bezerédy István, Bezerédy György, Vigyázó Ferencz, Dabasi Halász Sámuel, Eörsi
+                     Nagy Antal, Mórocza Dániel, Fülöp József és több lelkes, derék hazafi.</p>
+                  <p>Szomorú dolgokról folyt a szó. Arról, hogy egész Magyarországon nincsen még
+                     állandó magyar szinház. Nincs a magyar nyelvnek, a magyar művészetnek temploma.
+                     A németnek bezzeg van tíz városban is már.</p>
+                  <p>- Szégyen ez és gyalázat, uraim! - mondá nemes felindulással Kisfaludy. - Mikor
+                     olyan istenáldotta nagy művészeink vannak, mint Megyery, Lendvay, Telepy,
+                     Komlóssy, Hubenay, Kántorné, Lendvayné, Komlóssyné, Balogh Nina, a kiknek
+                     nyomába sem léphet holmi jött-ment német komédiás. És ők nem juthatnak szóhoz
+                     Magyarország színházaiban. Ott a németek gajdolnak. Árpád nyelve száműzve van a
+                     pajtákba, ököristállókba, deszkabódékba... A német szinész jólétben,
+                     kényelemben, puha kalácson él Magyarországban, a magyar szinész száraz kenyéren
+                     és vízen s nincs hova fejét lehajtsa...</p>
+                  <p>Ujra mondom, uraim, szégyen-gyalázat ez. És minden lelkes hazafinak szent
+                     kötelessége, hogy ezt a szégyenfoltot lemosni segítse nemzetéről. Kezdjük meg a
+                     nagy munkát mi, építsünk Füreden, itt ezen a szent helyen: magyar nemzeti
+                     színházat!</p>
+                  <p>A gyujtó beszéd elhangzása után mindjárt fölállott Fülöp József, a ki mérnök
+                     ember volt.</p>
+                  <p>- Uraim! - mondá, - én már gondolkoztam ezen a dolgon s igérem, hogy huszonnégy
+                     óra alatt elkészítem a színház tervezetét.</p>
+                  <p>A szomszédos asztalnál is fölállott egy ember és a költő elé lépett.
+                     Tisztelettel megemelvén kalapját így szólt:</p>
+                  <p>- Kis-jókai Szabó István a nevem, komáromi kereskedő vagyok. Engedje meg,
+                     mélyen tisztelt hazánkfia, hogy ahhoz az épülethez én is hozzá járuljak valami
+                     csekélységgel. Tessék beírni, hogy az építéshez szükséges fát és zsindelyt
+                     ingyen s a magam költségén ide szállítom Komáromból.</p>
+                  <p>A vendéglős a ki tanúja volt e jelenetnek, szintén odajárúlt Kisfaludy elé s
+                     tizenöt darab ezüst huszast adott át neki az építkezés költségeire.</p>
+                  <p>A jelenlevő urak is sorra megnyitották erszényüket s egyszersmind megindították
+                     a gyűjtést a fürdővendégek és a szomszédos vármegyék közönsége között.</p>
+                  <p>A szükséges összeg csakhamar együtt volt.</p>
+                  <p>A füredi és vidékbeli kis nemesség és szegény jobbágyság a szükséges igás
+                     napszámot ajánlotta fel. S 1831. julius 2. és 3. napján már föl is avatták a
+                     színházat.</p>
+                  <p>Gyönyörű, lélekemelő ünnep volt az.</p>
+                  <p>Megjelent a szomszédos vármegyék fényes küldöttsége. Ott voltak Zala, Veszprém,
+                     Vas, Sopron, Győr, Somogy, Fehér és Tolna megye urai.</p>
+                  <p>Tisztes ünnepi köntösben seregestűl jött a falvak lakossága. Ifjú és öreg,
+                     férfi és nő, nemes és jobbágy, úr és szegény egyaránt. Úgy jöttek, mintha
+                     istentiszteletre, áldozatra jönnének.</p>
+                  <p>Arra is mentek. A hazaszeretet oltárán gyujtották meg az áldozat tüzét.</p>
+                  <p>A föllobogózott, fölvirágozott színházba a mint belépett az egyszerű sereg,
+                     egyszerre csak felcsendűlt ajkán a hazaszeretet dala. »Im, bejöttünk nagy
+                     örömmel a Te szentséges hajlékodba, Magyaroknak nagy Istene!«...</p>
+                  <p>A színigazgató Komlóssy Ferencz szavalta el ezután Kisfaludy Sándornak ez
+                     alkalomra szerzett költeményét. Majd az egész társaság együtt énekelte dobogó
+                     szívvel, büszke örömmel és áhítatos lélekkel azt a gyönyörű dalt, a mely
+                     szintén Kisfaludy honszerető szívéből fakadott:</p>
+                  <p>Adja Isten, hogy a magyart</p>
+                  <p> A félvilág uralja.</p>
+                  <p> S vérrel szerzett szabadsága</p>
+                  <p> Soha kárát ne vallja.</p>
+                  <p>Adja Isten - alkotmánya</p>
+                  <p> Mindörökké állhasson,</p>
+                  <p> S díszlésének semmi erő,</p>
+                  <p> S idővész ne árthasson!...</p>
+                  <p>Nem maradt ott egy szív sem megilletődés nélkül, egy szem se szárazon.</p>
+                  <p>Igy történt e színház építése és fölavatása - végezte elbeszélését Miklós
+                     bácsi. Áldás a költő és a lelkes honfiak emlékére!</p>
+                  <p>Ezalatt zeneszó zendűlt a parkban. Mindenki oda sietett. A parti sétatér
+                     hamarosan megtellett ismét közönséggel. Miklósék is oda tartottak.</p>
+                  <p>A zeneszóba egyszerre csak harsány kürt-, és harangjelzés vegyült.</p>
+                  <p>- Gőzhajó! - kiáltott Bandi a kikötő felé mutatva.</p>
+                  <p>Csakugyan akkor érkezett meg Siófokról a »Baross« gőzhajó. Ez a Balaton
+                     legnagyobb gőzöse és 1889 óta jár két kisebb társával a magyar tengeren. Előbb
+                     csak egy gőzhajója volt a Balatonnak, a »Kisfaludy« nevű, a mely a »legnagyobb
+                     magyar« gróf Széchenyi István kezdeményezésére 1847-ben épűlt. Annak előtte
+                     csak halászbárkák és kompok közlekedtek a két part között.</p>
+                  <p>- Hát télen hogyan közlekednek a Balatonon? - kérdezte Bandi.</p>
+                  <p>- Gyalogszerrel, - felelt Miklós bácsi - a kinek kocsija, lova van, az meg
+                     kocsival, lóval.</p>
+                  <p>- Na ahhoz nagy bátorság kell - jegyezte meg Feri.</p>
+                  <p>- Kell is, meg nem is. A ki nem ösmeri szegről-végre a Balatont, az nem mehet
+                     rá istenkisértés nélkül, bármily vakmerő legyen is. A ki meg ismeri, mint a
+                     parti lakosok, annak semmi baja sem eshetik. Csak meg kell várni, míg jól
+                     befagy, mintegy 5-6 hüvelyknyire, akkor aztán megbir bármi nagy terhet. A
+                     somogyiak rendesen ilyenkor hordanak a zalai és veszprémi partokról bort és
+                     követ, a zalaiak és a veszprémiek viszont gabonáért, takarmányért, szénáért,
+                     szalmáért, mennek át nagy szekerekkel Somogyba. Gyakran megtörténik az is, hogy
+                     zalai legény Somogyból hoz asszonyt a házhoz, veszprémi leány meg Somogyba megy
+                     férjhez. Ilyenkor vidám lakodalmi meneteket is lehet látni a Balaton jegén.
+                     Hanem persze az utat is ismerni kell. Mert vannak a vízben egyes helyek,
+                     úgynevezett »Heves«-ek, a hol meleg forrás buzog a fenéken. Ott aztán sohasem
+                     fagy be a víz, vagy legalább nem oly erősen, mint másutt. Ezeket óvatosan ki
+                     kell kerülni.</p>
+                  <p>- No már én még sem vállalkoznám ilyen útra, - szólt Bandi - hanem gőzhajón
+                     szeretnék utazni.</p>
+                  <p>Ehez már Ferinek is kedve lett volna.</p>
+                  <p>- No majd holnap abban is lesz részetek, - mondá Miklós bácsi, a ki épen egy
+                     nagy sárga plakátot olvasgatott, a mely a kikötő hídjára volt ragasztva.</p>
+                  <p>A sárga czédulán ez a hirdetés állott nagy betűkkel:</p>
+                  <p>HOLNAP KIRÁNDULÁS GŐZHAJÓN TIHANYBA!</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                     Tihany.
+                  </head>
+                  <p>Az éjszakát Füreden töltötték utasaink s reggel korán már ott voltak a »Baross«
+                     födélzetén, hogy Tihanyba rándúljanak.</p>
+                  <p>A nap akkor emelkedett épen a kenesei és aligai partok fölé. Minden kiránduló a
+                     födélzeten volt, hogy a felséges látványban gyönyörködjék.</p>
+                  <p>Napkelte a Balatonon! Tiszta, derűlt nyári reggelen olyan ragyogó látvány ez,
+                     hogy azt lefesteni, leírni méltó módon nem lehet. Azt látni kell.</p>
+                  <p>A csendes álomban szendergő tó, mikor az ifjú nap első bíborsugarainak csókját
+                     érezi, egyszerre fölébred néma nyugalmából. Leveti sötét hálóköntösét s bíbor
+                     palástot ölt magára. Élet, elevenség ömlik el rajta mindenfelé. A parti nádasok
+                     rejtelmes világából is zűrzavaros lárma hallatszik. Gágog a vadlúd, hápog a
+                     vadkacsa, sikolt a sirály, buffog a bölömbika, csiripel a nádi veréb... Egy-egy
+                     hatalmas szárnycsapás jelzi, hogy a hosszúlábú, hegyescsőrű gólya,
+                     kígyónak-békának rettegett ellensége is fölébredt álmából s vadászútra
+                     indúlt.</p>
+                  <p>A bíborszínben ragyogó hullámokat vígan szelte a hajó.</p>
+                  <p>A fiúk a gyönyörű panorámát nézték, a melyet a füredi hegyek s a szomszédos
+                     parti falvak: Aszófő, Örvényes, Udvari csinos fehér házikói és bíborpirban égő
+                     tornyai mutattak.</p>
+                  <p>Miklós bácsi a hajóskapitánynyal beszélgetett, a ki jó ismerőse volt.</p>
+                  <p>Közel voltak már Tihanyhoz. A hajó a meredek bazalt-falak mellett futott,
+                     melyek tetejéről a hatalmas apátsági templom tekint le a mélységbe.</p>
+                  <p>- No ha most a hajóm feneke hirtelen kilyukadna, akkor kútba esnénk mindnyájan
+                     - szólt tréfásan a kapitány. - Még pedig olyan mélybe, hogy a kémény teteje se
+                     látszanék ki belőle...</p>
+                  <p>- Hogy-hogy, kapitány uram? - kérdezte Miklós.</p>
+                  <p>A feleletre már a fiúk is kiváncsiak voltak, körűlfogták a jókedvű kapitány
+                     bácsit.</p>
+                  <p>- Hát csak úgy, - mondá a kapitány, - hogy ez a hely, a hol most vagyunk,
+                     legmélyebb része a Balatonnak. A halászok azt tartják, hogy a füredi tornyot is
+                     elnyelné. Ők nevezték el ezt a részt »Kút«-nak s a nép is csak e néven
+                     ismeri.</p>
+                  <p>A hajó feneke persze nem lyukadt ki, hanem vígan szállt tova czélja felé.
+                     Néhány percz múlva meg is állt közel a parthoz. S minthogy Tihanyban kikötő
+                     nincsen, a matrózok csónakon szállították partra a közönséget.</p>
+                  <p>Meredek hegyi út vezet föl a faluba.</p>
+                  <p>A mintegy öt kilométer hosszú és három kilométer széles félszigeten ma már csak
+                     egy falu van. Ennek a neve is Tihany. Régebben három volt, de kettő - Apáti és
+                     Újfalu - elpusztúlt s lakói részint Somogyba, részint Zalába költöztek.</p>
+                  <p>Kicsiny kis falu ez is, mindössze pár száz lélek lakja. Földművelő, hajós- és
+                     halászemberek. De érdekes története van és olyan nevezetességei, a milyenekkel
+                     kevés hely dicsekedhetik. Jönnek is az emberek messzeföldről a csudálatára.</p>
+                  <p>Leghíresebb a visszhangja.</p>
+                  <p>Erről már a fiúk is tanúltak, sokat hallottak is, olvastak is.</p>
+                  <p>- Először a visszhangot hallgassuk meg! - kérték Miklós bácsit.</p>
+                  <p>A hatalmas kéttornyú apátsági templom felé tartottak. A Balatonból mintegy száz
+                     méter magasságra emelkedő bazalt-hegy tetején áll ez az ős templom és északi
+                     oldala adja a híres visszhangot. De a visszhang csak úgy jön létre, ha a
+                     templom északi oldalától néhány száz lépésnyire eső »Nyárshegy« déli lejtőjének
+                     egy bizonyos pontjára állunk és onnan kiáltunk a templom fala felé.</p>
+                  <p>Mikor a fiúk arra a helyre értek, a honnan a visszhang hallható, Bandi erős
+                     csengő hangon elkiáltotta a Szózat két első sorát:</p>
+                  <p>Hazádnak rendületlenűl</p>
+                  <p> Légy híve, oh magyar!</p>
+                  <p>A kolostor ódon fala gyönyörűen visszaverte az egészet, úgy hogy Bandi még
+                     egyszer hallhatta egész szépen a saját hangját.</p>
+                  <p>- Van-e még valahol ilyen visszhang? - kérdezte Feri.</p>
+                  <p>- Magyarországon nincs, - felelt Miklós bácsi. - Külföldön azonban van még
+                     ennél nagyobb is. A leghiresebb visszhang Olaszországban hallható Milano
+                     mellett. Ott az úgynevezett Simonetta-villa huszonöt-harmincz szótagot, sőt
+                     erős hang kiáltása után ötven szótagot is visszaver. Érdekes Németországban a
+                     Rajna folyó mellett a Loreley-sziklák visszhangja is. Ott egy erős
+                     pisztolylövés hangja tizenötször-húszszor ismétlődik.</p>
+                  <p>A fiúk közelében egy érdekes idegen úr állott. Nagy koczkákkal tarkított
+                     ruhájáról és piros utazó könyvéről itélve angol lehetett. Ő is igen kiváncsi
+                     volt a tihanyi visszhangra s elkiáltott egy mondatot a maga nyelvén. Csakhogy
+                     járatlan lévén, nem jó helyre állt s így a kisérlet természetesen nem sikerűlt
+                     neki.</p>
+                  <p>Másodszor erősebben kiáltott, de a visszhang most is makacsúl hallgatott.</p>
+                  <p>Kiáltott harmadszor is - semmi válasz.</p>
+                  <p>Egy szurtosképű kis pásztorfiú, a ki a közelben nyáját legeltette és
+                     »kecskekörmöt« kínált a látogatóknak, végre megsokalta a dolgot. Odakiáltott az
+                     idegennek:</p>
+                  <p>- Jaj, bácsi, a mi visszhangunk csak a magyar szót érti meg; annak ugyan hiába
+                     beszél ángliusúl...</p>
+                  <p>Miklós bácsi odaintette a tréfás kedvű fiút és vett tőle néhány érdekes
+                     »kecske-körmöt«. Bandi és Feri nagy érdeklődéssel nézegették ezeket az apró
+                     furcsa kis holmikat, melyek teljesen hasonlítanak a kecske körméhez. Innen
+                     kapták a nevüket is. Tulajdonképen nem egyebek, mint megkövűlt csigák.</p>
+                  <p>- Hát aztán meg tudnád-e mondani, öcsém, hogy honnét származnak ezek a
+                     kecske-körmök? - kérdezte Miklós bácsi a fiútól.</p>
+                  <p>- Onnan la! - felelt röviden a gyerek és a Balaton-part felé mutatott, a hol a
+                     kecske-körmöket összeszedte.</p>
+                  <p>- De hát oda honnan kerűltek.</p>
+                  <p>- A víz fenekéről szórják ki a hullámok.</p>
+                  <p>- Hát a víz fenekére honnan jutottak azok a kecske-körmök? - vallatta tovább
+                     Miklós a fiút. - Ha szépen elmondod, kapsz egy koronát.</p>
+                  <p>Fölcsillant a szűkszavú fiú szeme erre és fényes jutalom reményében elmondta a
+                     kecske-köröm regéjét, a mely a visszhang regéjével összefonódva száll a nép
+                     között szájrúl-szájra.</p>
+                  <p>- Hát annak nagy sorja van, kérem, - kezdé a fiú nagy fontosan. - Úgy van az,
+                     hogy egyszer volt, hol nem volt - volt egyszer egy gyönyörűséges szép aranyhajú
+                     királyleány. A gyönyörűséges szép aranyhajú királylánynak sok gyönyörűséges
+                     szép aranyszőrű kecskéje. Itt legeltette őket mindennap a tóparton.</p>
+                  <p>Gazdag volt a királyleány, de azért mégis nagyon szegény volt. Nagy szépsége,
+                     nagy gazdagsága nem boldogította, mert néma volt szegény.</p>
+                  <p>Nagyon búsúlt e miatt a szépséges szép királyleány, midőn egyszer az ősz
+                     hullámkirály, a Balaton tündére jött hozzá.</p>
+                  <p>- Adj egy csésze friss tejet, szép királyleány, beteg a fiam nagyon; friss
+                     tejet kíván, attól megenyhűlne.</p>
+                  <p>A királyleány adott egy csésze friss tejet; a beteg fiú megitta, és meggyógyult
+                     tőle. A hullámkirály hálából meggyógyította a királyleányt, megoldotta a
+                     nyelvét. Gyönyörű szép hangja lett egyszerre, olyan, mint a pacsirtának.</p>
+                  <p>De a királyleány nagyon elbizakodott, kevély lett a szép hangjára; mindenkit
+                     lenézett, megvetett, a kinek nem volt olyan szép hangja. Csak magának
+                     énekelgetett, senki örömére, gyönyörűségére nem hallatta a hangját, még a jó
+                     Isten dicséretére sem.</p>
+                  <p>A hullámkirály fia egyszer megint beteg lett és a királyleány hangját szerette
+                     volna hallani. Azt mondta, hogy attól meggyógyulna. De hasztalan kérte a gőgös
+                     királyleányt, mert az nem nyitotta szóra ajkát. A tündérkirályfi bele is halt
+                     bánatába... Megharagudott ezért szörnyen az öreg hullámkirály és megkérte a
+                     testvérét, a bérczek tündérét, hogy büntesse meg a kevély királyleányt.</p>
+                  <p>A bérczek tündére is nagy haragra lobbant. Megnyitotta a hegyek torkát s három
+                     éjjel, három nap hányta a tüzet haragos mélyéből... A királyleánynak egész
+                     vagyonát porrá égette. Szép aranyszőrű kecskéi a tűz elől mind a Balatonba
+                     rohantak s oda vesztek. Azoknak a körmeit hányja partra most a hullám.</p>
+                  <p>A gőgös királyleányt meg bezárta a hegyek tündére egy barlangba, a melyik ott
+                     van a templom alatt. S az a büntetése, a mért olyan büszke volt a hangjára,
+                     hogy most akárki megszólítja, mindenkinek köteles felelni.</p>
+                  <p>Miklós bácsi megjutalmazta a mesemondó fiút.</p>
+                  <p>Ezután a nagyszerű kolostor belsejét tekintették meg. Benczés papok laknak
+                     benne. Egy szelíd-nyájas öreg pap fogadta őket, és végig kalauzolta a komor,
+                     visszhangos folyosókon. Megmutogatott nekik minden nevezetességet és szívesen
+                     mondta el a zárda történetét.</p>
+                  <p>- Zárdánkat, templomunkat és apátságunkat, - kezdé elbeszélését - boldog
+                     emlékezetű I. Endre királyunk alapította az 1055-ik esztendőben. Gazdag
+                     adományokkal látta el a szerzetet és gyakran időzött e szép helyen, a míg élt.
+                     Örök pihenésre is ide kivánkozott. Itt is temették el. Hamvai a templom alatt
+                     levő sírboltban pihennek. Nyugodjék békével!</p>
+                  <p>A király síremlékét és halotti ruháit is megmutatta az öreg páter. Ezek csak
+                     nem régen kerűltek elő a kriptából.</p>
+                  <p>Még egy érdekessége van a tihanyi zárdának. Egy viaszkép, a mely a híres Loyola
+                     Ignáczot ábrázolja, a ki a jezsuita-rendet alapította. Egy hiteles okirat azt
+                     is bizonyítja, hogy ez a viaszkép egyenesen a halott Loyola arczáról lett
+                     levéve.</p>
+                  <p>A régi zivataros időkben az apátság épületei erősségűl is szolgáltak. Különösen
+                     a tatárjáráskor s a mohácsi vész után jó menedék volt ez a köröskörűl vízzel
+                     védett hely a vidék lakosságának.</p>
+                  <p>Tihany várát sohasem tudta elfoglalni se tatár, se török, se német. A vár
+                     kapitányai között sok híres vitéz férfiú vala.</p>
+                  <p>Különösen Pisky Istvánról jegyzett föl nevezetes vitézi cselekedeteket a
+                     krónika.</p>
+                  <p>Pisky uram akkor volt Tihany-vár kapitánya, mikor Magyarország nagy részében
+                     török parancsolt. De Tihanyban akkor sem. A tihanyi vár büszke tornyára nem
+                     tudták feltűzni a félholdat Mohamed hívei akkor sem. Ott magyar lobogót
+                     lengetett a szellő!</p>
+                  <p>Szörnyen bosszantotta ez a dolog jó Ibrahim basát, a ki a Somogy-vidék
+                     parancsolója volt. Hatalmas úr és testi erejére szerfelett büszke férfiú.</p>
+                  <p>Az ő tiszte lett volna, hogy azt a kis sárfészket is a fényes porta hatalmába
+                     kerítse. Próbálkozott is mindenféleképen. Erőszakkal is, csellel is, de nem
+                     sikerűlt sehogyan sem.</p>
+                  <p>Haragjában egyszer aztán szörnyen goromba levelet írt Pisky Istvánnak.</p>
+                  <p>Tősgyökeres jó magyar nyelven írta, az igaz. Mert a törököknek az az egy jó
+                     erkölcsük legalább megvolt, hogy míg itt voltak nálunk s a kenyerünket ették,
+                     a nyelvünket is megtanúlták. Ebben különbek voltak a németnél, a ki sohasem
+                     tanúlt meg magyarúl, ma sem tanúl meg, ha magyar kenyéren is él. Hanem inkább
+                     mindig a maga nyelvét akarta ránk erőszakolni.</p>
+                  <p>De bármilyen jó magyarán volt is írva Ibrahim úr levele, azért Pisky István még
+                     sem tette ki az ablakába. Mert tele volt az a levél szemenszedett
+                     gorombasággal, szitokkal. Epébe mártotta a pennáját Ibrahim basa, a mikor
+                     megírta.</p>
+                  <p>Kivűl így czímezte:</p>
+                  <p>»Adassék az hazug, tökéletlen, hitetlen Pisky Istvánnak, Tihanyba tulajdon
+                     kezébe.«</p>
+                  <p>Belűl meg elnevezte a becsületes kapitányt »kurta disznó«-nak, »ország
+                     kóborlójá«-nak, »hitetlen gyaur«-nak és minden rossznak. Végűl aztán
+                     felszólította, hogy ha olyan nagy vitéz: álljon hát ki vele páros viaskodásra!
+                     Jőjjön ki ekkor és ekkor egy megjelölt helyre a Balaton jegére (télidőn volt).
+                     De senkit se hozzon magával, csak egy szál karddal jőjjön. Ő is azzal jön. Úgy
+                     vívjanak meg ketten életre és halálra, míg az egyik ott nem marad. Majd
+                     elválik, ki a legény a csárdában!...</p>
+                  <p>Pisky uram nagyot nézett, mikor ezeket az ok nélkül való gorombaságokat
+                     elolvasta. Hanem azért elfogadta a kihívást. Ne mondja, hogy gyáva a
+                     magyar.</p>
+                  <p>- Majd megtanítom én móresre ő kelmét! - dörmögött a bajusza alatt és elindúlt
+                     a kijelölt helyre.</p>
+                  <p>Ibrahim már ott várta.</p>
+                  <p>Hatalmas mohamed-ember volt a basa, alacsony, köpczös férfiú a kapitány.</p>
+                  <p>Úgy álltak szemben egymással ott a csikorgó jégen, mint hajdan Dávid és
+                     Góliáth.</p>
+                  <p>Ibrahim gúnyosan nézte végig Piskyt. Mintha csak azt mondta volna neki: »Na kis
+                     gyaur, készítsd el a testamentumodat és imádkozz, mert most mindjárt elküldelek
+                     a másvilágra!«</p>
+                  <p>Pisky rá sem nézett a törökre, csak hatalmas pallosforma kardját nézte végig s
+                     ezt gondolta magában: jól van, rendben van!</p>
+                  <p>Vitézekhez illő módon némán fegyverükkel köszöntötték egymást és
+                     összecsaptak.</p>
+                  <p>Szikrát vetettek a kardok s megroppant a jég a rettenetes támadás súlya
+                     alatt.</p>
+                  <p>Ibrahim támadott s egy hatalmas csapással ketté akarta hasítani Pisky
+                     fejét.</p>
+                  <p>A kapitány ügyesen elhárította a csapást s egy villámgyors ugrással úgy
+                     kólintotta fültövön az óriási törököt, hogy az szédelegve zuhant a jégre...
+                     Szerencsére csak a pallos foka érte Ibrahimot, mert ha az éle találja, úgy
+                     szétszelte volna tar fejét, hogy a hatalmas padisah valamennyi borbélya sem
+                     ragasztotta volna többé össze.</p>
+                  <p>Ájultan, tehetetlenűl feküdt a jégen Ibrahim és Pisky most már könnyű szerrel
+                     végezhetett volna vele. Nem is kellett volna egyebet tennie, csak hátat
+                     fordítani és ott hagyni a jégen. Egy fertály óra múlva csonttá fagyott volna ő
+                     vitézsége. Hanem a jó régi magyar virtus nem olyan volt ám, hogy a tehetetlen
+                     ellenségen bosszút álljon.</p>
+                  <p>Pisky uram letette diadalmas fegyverét, tarisznyájába nyúlt s egy jóféle
+                     törköly-pálinkával telt csutorát húzott elő. Letérdelt a basa mellé és addig
+                     töltötte szájába a tüzes italt, míg visszatért belé a lélek.</p>
+                  <p>Mikor aztán nagy nehezen föltápászkodott, karonfogta és elkísérte őt egész a
+                     somogyi partig, hogy valami baj ne érje a jégen.</p>
+                  <p>Ettől fogva a legjobb barátja lett Ibrahim basa Pisky kapitánynak. Nem fájt
+                     többé a foga Tihany várára sem. Örűlt őkegyelme, hogy ott nem hagyta a Balaton
+                     jegén.</p>
+                  <p>*</p>
+                  <p>Az öreg paptól elbúcsúzván, vissza indúltak utasaink a hajóra.</p>
+                  <p>Mikor a falut elhagyták, egyszerre búgó kürt, majd harangjelzés ütötte meg
+                     fülüket. Miklós elővette az óráját.</p>
+                  <p>- Teringettét! - szólt - elkéstünk. Az indulásra kitűzött idő lejárt, a hajó
+                     útra kelt.</p>
+                  <p>Egy kis magaslatra érve csakugyan láthatták, a mint a »Baross« vígan szelte a
+                     hullámokat Füred felé.</p>
+                  <p>A fiúk tanácstalanúl néztek egymásra. Mi lesz már most? Hogyan kerűlnek vissza
+                     Füredre?</p>
+                  <p>- No sebaj! nyugtatta meg őket nyomban Miklós bácsi. - Visszamegyünk gyalog.
+                     Ismerem az útat, nincs messze Füred. A part mellett egy jó kis séta az egész. A
+                     »remete barlang«-okat még úgy sem láttuk, most legalább megnézzük azokat
+                     is.</p>
+                  <p>A part sziklás oldalába vájt üregek ezek a remete-barlangok. A hegyekben künt
+                     tanyázó pásztor és halász-emberek vájhatták valamikor menedékhelyül vihar és
+                     szél ellen. Ma is jó búvóhelyei madárnak, vadnak s hajléktalan
+                     vándorembereknek.</p>
+                  <p>A néphit azt tartja róluk, hogy hajdan remeték lakták őket. Őszfürtű, jámbor
+                     aggastyánok, a kik a világtól elvonúlva imádkozással töltötték életük alkonyát.
+                     Gyökerekkel, szárított hallal és vad gyümölcscsel táplálkoztak.</p>
+                  <p>Sorba nézték őket a fiúk s azután a félsziget legmagasabb pontjára, a mintegy
+                     120 méter magas »Csúcshegy«-re mentek. Onnan ismét gyönyörű kilátás nyílik az
+                     úgynevezett nyugoti Balatonra, melyet a keleti résztől épen a tihanyi félsziget
+                     választ el.</p>
+                  <p>Túlnan, a somogyi parton szép új fürdőtelepek egész sora. A legszebb és
+                     legnagyobb mindjárt az első: Balaton-Földvár. Ezt követik: Szemes, Lölle és
+                     Boglár. A part hosszában robogva szalad végig a vasút. Eminnen, a zalai parton
+                     sudár jegenyefák közűl apró falvak fehér házai mosolyognak a nézőre. Távolabb
+                     Badacsony, Csobáncz, Szigliget regényes bércztetői sötétlenek.</p>
+                  <p>A mint a hegyről lefelé mentek, egyszerre csak ábrándos édes dal csendűlt
+                     feléjük a mélységből. Halászleányka énekelgetett lenn a parton:</p>
+                  <p>Oh, Tihanynak riadó leánya,</p>
+                  <p> Szállj ki szent hegyed közűl!</p>
+                  <p> Im, kit a sors eddig annyit hánya</p>
+                  <p> Partod ellenében ül...</p>
+                  <p>- Halljátok ezt a bűbájos dalt! - figyelmeztette Miklós bácsi a fiúkat - ez itt
+                     termett ezen a tündéri vidéken. Talán épen ezen a helyen fakadt a költő
+                     szívéből, a hol mi most állunk.</p>
+                  <p>- Én ismerem azt a szép költeményt - mondá Bandi - már olvastam valahol.</p>
+                  <p>- Én is ismerem, tudom is könyv nélkül - vágott közbe Feri. - Csokonai
+                     írta.</p>
+                  <p>- Úgy van - hagyta helyben Miklós bácsi. - Csokonai Vitéz Mihály írta ezt a
+                     gyönyörű költeményt. Száz éve annak már. Akkor járt itt Tihany bérczei között a
+                     halhatatlan költő. Ő is alföldi ember volt. Debreczenben született, ott is
+                     végezte iskoláit. Hanem azután vándorbotot vett kezébe, hogy bejárja az
+                     országot, lásson és tapasztaljon. Vándorútja elhozta ide a szép Dunántúlra is.
+                     Somogy-Csurgón tanárkodott egy ideig a református kollégiumban. De fölébredt
+                     szivében a honvágy és visszavonta szülőföldjére, a délibábos Hortobágyra. Fogta
+                     hát újra a vándorbotját és útnak eredt. Nem kocsin utazott, arra nem tellett
+                     neki. Vasúton sem, hiszen még akkor föl sem találták. Gyalogszerrel ment,
+                     mendegélt őkegyelme s erre hozta útja.</p>
+                  <p>Megbűvölte e vidék csodás szépsége, szíve csordúltig telt édes gyönyörűséggel
+                     és kicsordúlt belőle az a bűbájos dal. A költő rég porlad a debreczeni
+                     temetőben, emléke ma is él s dala ajkról-ajkra száll.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                   A halászkunyhóban.
+                  </head>
+                  <p>Vagy egy órai gyaloglás után a fiúk arra a kis lapályos földnyelvre jutottak, a
+                     mely a tihanyi félszigetet a szárazfölddel összeköti. Csak ezen az egy helyen
+                     lehet Tihanyt szárazon megközelíteni, mert egyébütt köröskörűl víz övezi.</p>
+                  <p>- Nini, itt valami nagy árok lehetett, - szólt Feri, a mint kifelé haladtak a
+                     szigetről. És egy hatalmas mélyedésre mutatott, a melyik egészen keresztűl
+                     vonúlt a kis földszoroson.</p>
+                  <p>- Az a régi háborús idők maradványa, - magyarázta Miklós bácsi. - Mikor tatár,
+                     török és német elől végső szükségében Tihanyba menekűlt a vidék népe, akkor
+                     húzták ezt a nagy árkot. Vizet eresztettek bele és így a félsziget szigetté
+                     vált s köröskörűl el volt zárva az ellenség útja.</p>
+                  <p>A már bedűlt és begyöpösödött árkot hátrahagyva, kiértek utasaink
+                     Tihanyból.</p>
+                  <p>Szemközt velök, mindjárt a parton két kis falu van: Aszófő és Örvényes. Ezeken
+                     át vezet a szárazföldi út Tihanyból Füredre. Azért hát arra felé
+                     igyekeztek.</p>
+                  <p>A parton haladva egyszerre csak szíves, magyaros köszöntés hangzik feléjük:</p>
+                  <p>- Szerencsés jó napot adjon az Úristen!</p>
+                  <p>A parttól mintegy tíz lépésnyire állt egy csinos kis halászkunyhó. Onnan jött a
+                     hang. Az öreg halászgazda köszöntötte őket.</p>
+                  <p>- Adjon Isten kelmednek is halász bácsi! - viszonozták a szíves köszöntést.</p>
+                  <p>- Ha meg nem sérteném kérdésemmel, honnan s merre úrfiak? - kérdezte az öreg
+                     halász.</p>
+                  <p>- Vándordiákok vagyunk, - felelt Miklós, - Tihanyban voltunk, de lekéstünk a
+                     hajóról, most Füredre tartunk.</p>
+                  <p>- Mindjárt gondoltam: de volna egy jó tanácsom, ha megszívlelnék.</p>
+                  <p>- Meg is köszönjük, halász bácsi.</p>
+                  <p>- Azt tanácslom, hogy ne tessék így gyalogszerrel neki vágni az utazásnak.</p>
+                  <p>- Aztán miért, halász bácsi? - kérdé Miklós, - hiszen közel van ide Füred.</p>
+                  <p>- Közelnek iszen közel van, csak az útja hosszú.</p>
+                  <p>A fiúk erre jóízűen nevettek. Azt hitték, hogy tréfálkozik az öreg halászgazda.
+                     Ha közel van, gondolták, akkor nem lehet az útja hosszú.</p>
+                  <p>Pedig az öregnek igaza volt. Mert Füred csakugyan közel van oda és ha az út
+                     egyenesen vezetne, a mint Miklós gondolta, akkor bizony csak egy jó séta volna
+                     az egész. Hanem kanyarogva, nagy kerülőkkel megy az út, így aztán jó hosszúra
+                     nyúlik odáig.</p>
+                  <p>- Más oka is van annak, a miért ezt tanácslom, - folytatta a halászgazda. -
+                     Alkalmasint kitör a »vész« még máma. (A »vész« szóval a »vihar«-t jelzi a
+                     balatonvidéki nép.)</p>
+                  <p>Na ezen még jobban elcsodálkoztak a fiúk. Hogy lehetne ma vihar, mikor olyan
+                     szép csendes, derűlt idő van. Felhő se látszik, szellő se moczczan.</p>
+                  <p>Feri meg is kérdezte:</p>
+                  <p>- Aztán honnan gondolja azt, halász bácsi, hogy kitör a vész, mikor semmi jel
+                     se mutatja?</p>
+                  <p>- Megmutatta a Balaton, - felelt röviden az öreg.</p>
+                  <p>Feri és Bandi persze nem értették meg ezt a feleletet. Miklós bácsi azonban
+                     megértette. Ő tudta már, hogy a tapasztalt halászemberek napokkal előre
+                     megmondják a Balaton színe és hullámzása után, hogy vihar lesz. És az itt a
+                     partvidéken nagyon hirtelen szokott kitörni.</p>
+                  <p>Azért most már maga is gondolkodóba esett, hogy mégsem lesz tanácsos gyalog
+                     folytatni az útat.</p>
+                  <p>- De hát hogyan menjünk tovább? - fordúlt kérdésével az öreghez. - Hol kapunk
+                     itt kocsit?</p>
+                  <p>- No ha csak az a baj, azon könnyen segíthetünk, - felelt nyugodtan a
+                     halászgazda, és odakiáltott az egyik halászlegényének:</p>
+                  <p>- Miska fiam! - szaladj csak bé a faluba a Kocsis Nagy Dani bátyádért. Fogjon
+                     be a jobbik kocsijába, aztán jőjjön hamarost, vigye az úrfiakat Füredre.</p>
+                  <p>A legény elment s így a kocsi-kérdés rendben volt.</p>
+                  <p>A halászgazda most emberei után nézett, a kik pőrére vetkőzve a csónakokban
+                     foglalatoskodtak. Az imént húzták ki a hálót s most a halászzsákmányt vették
+                     számba. Jó fogást csináltak, majd összeszakadt a háló a nagy teher alatt.
+                     Össze-vissza ugrált, ficzkándozott a sok különféle hal a hálóban; a halászok
+                     külön válogatták őket fajok szerint.</p>
+                  <p>Épen egy hatalmas nagy halat húztak ki most a hálóból, két markos halász alig
+                     birta a csónakba emelni.</p>
+                  <p>- Mi az? - kérdé Bandi.</p>
+                  <p>- Az a fogas-király, - felelt büszkén az öreg halász. - Szava elárulta, hogy
+                     nem mindennapi zsákmány az ilyen.</p>
+                  <p>Miklós bácsi azután megmagyarázta a fiúknak, hogy ez a Balatonnak legértékesebb
+                     és legízletesebb hala. Másutt nagyon ritka és egész Európában kapva-kapnak
+                     rajta. Kis korában, míg 3-4 kilós, süllőnek hívják, azontúl fogasnak. Vannak
+                     tízkilósak, sőt még nagyobbak is. Az ilyen nagyokat a halászok
+                     »fogas-király«-nak nevezik és nagy az örömük, ha egy-egy hálójukba kerűl, mert
+                     jó pénzt kapnak érte. Nyáron különösen ritkán lehet fogni, mert ilyenkor csak a
+                     mély vízben tanyázik. Télen azonban feljön a víz felszínére, a jég közelébe s
+                     akkor többet is fognak.</p>
+                  <p>- Hát télen hogyan halásznak? - kérdé Feri.</p>
+                  <p>- Ugy, hogy beviszik a hálót és a hol le akarják ereszteni, ott sorban lékeket
+                     vágnak a jégen. Ezeken leeresztik a hálót a vízbe s azután felhúzzák.</p>
+                  <p>- Veszedelmes lehet az, hátha egyszer csak beszakad a jég, - mondá Bandi.</p>
+                  <p>Erre már az öreg halász felelt:</p>
+                  <p>- Hát biz az nem gyerekjáték! De hát olyan a halászember élete, mint a katonáé.
+                     Mindig koczkán van, sohasem tudja, mikor veszti el.</p>
+                  <p>- Különösen a »rianás« veszedelmes a halászokra télen, - vette át a szót Miklós
+                     bácsi. - Igy hívják azt, a mikor a Balaton jege egyszerre csak menydörgésszerű
+                     robajjal meghasad és szétválik néha több kilóméter hosszúságban. Ilyenkor aztán
+                     menthetetlenűl halál fia az, a ki a jégen volt. A »rianást« azok az erős szelek
+                     okozzák, melyek télen a Balatonon járnak. Ezeknek a nyomása ugyanis oly
+                     súlylyal nehezedik a jégre, hogy az, bár észrevétlenűl, nagy messzeségbe
+                     behorpad a nyomás alatt s az alatta levő vizet kétfelé szorítja, a partok felé.
+                     Mikor a szél nyomása megszűnt, a kiszorított víz óriási erővel visszaömlik
+                     előbbi helyére, a jeget fölnyomja és kettéhasítja.</p>
+                  <p>A halászok ezalatt elkészűltek munkájukkal. Ott feküdt a sok hal külön
+                     csoportokban.</p>
+                  <p>Az öreg halászgazda sorba mutogatta őket a fiúknak. Különösen sok volt a garda.
+                     Ez igen sok van a Balatonban. Nagyon ízes és finom hal. Ugy is hívják: »a
+                     Balaton heringje«. Különösen őszkor nagy tömegekben jön a víz színére s
+                     ilyenkor igen sokat összefognak. Kettéhasítva, besózva és a napon megszárítva
+                     aztán elszállítják külföldre is, mint a heringet. A nép »látott hal«-nak
+                     nevezi. Külön csoportokba feküdtek: a ponty, kárász, czompó, a melyek mind
+                     mocsári halak s kevésbbé ízletesek. Továbbá: a csuka, keszeg, sügér, menyhal,
+                     őn és küsz. Ezek mind olcsóbb halak. Volt egy csomó harcsa is, a mely szintén
+                     igen ízletes és keresett hala a Balatonnak s néha 70-80 kilónyi nagyságra is
+                     megnő.</p>
+                  <p>A halászok kocsira rakták a gazdag zsákmányt és eltávoztak.</p>
+                  <p>Egyszerre csak különös zajra lettek figyelmessé a fiúk. Az imént még csendes,
+                     nyugodt Balaton hirtelen háborogni kezdett. A csacsogó-locsogó hullámok mind
+                     nagyobbra dagadtak s haragosan csattogva csapkodták a partot. A sirályok és
+                     halászmadarak, vésztjósló sikongással repdestek a víz felett... A méltóságos
+                     gólya, a kémkedő gém, a vígan gágogó vadludak és kacsák hirtelen eltűntek a
+                     partról és a nádas sűrűjébe huzódtak. A tihanyi hegyek mögűl fekete felhők
+                     tornyosúltak...</p>
+                  <p>- No, nem mondám? - szólt önérzettel az öreg halászgazda. - Itt a vész! Gyerünk
+                     a kunyhóba.</p>
+                  <p>Alighogy beértek a kis nádfödelű viskóba, teljes erővel kitört a zivatar.
+                     Fölséges látvány volt ezt nézni onnan a biztos fedél alúl!</p>
+                  <p>A víz színe haragos zöldre változott; csak a hullámok széleit szegte fehér
+                     tajtékprém. Házmagasságra dagadtak a tajtékos hullámok és harsogva csapkodták
+                     a partot. Megdördűlt az ég, szakadt az eső, czikáztak a villámok... A sötétzöld
+                     víztükörbe bele-belecsapott egy haragos szikra s a rémes lobbanás
+                     megvilágította a tihanyi hegyek ormait...</p>
+                  <p>Ezt sem gondolták volna a fiúk, hogy az a szelíd, szép Balaton ilyen haragos is
+                     tudjon lenni.</p>
+                  <p>No de nem soká tartott a haragja. Talán épen csak azt akarta megmutatni, hogy
+                     így is tud ám ő! És még így haragjában is fenségesen szép.</p>
+                  <p>Néhány percz múlva elvonúlt a zivatar, kiderűlt az ég s a Balaton ismét
+                     szelíden, nyájasan mosolygott...</p>
+                  <p>A kocsi is megérkezett ezalatt. Utasaink búcsút vettek az öreg halásztól és
+                     visszamentek Füredre.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                  Hazafelé.
+                  </head>
+                  <p>Egy napot még Füreden töltöttek a fiúk s a következő nap reggelén már ismét a
+                     »Baross« födélzetén találkozunk velük.</p>
+                  <p>A gőzös Almádi és Kenese érintésével épen Siófokra indúlt. S délre már nekik is
+                     ott kellett lenniök, mert édes apjuk ott várta őket.</p>
+                  <p>Bandi és Feri olyan nehezen váltak meg a szép Füredtől, a regényes Tihanytól;
+                     úgy szerettek volna még ott mulatni s minden kis zugot újra meg újra bejárni.
+                     De hát hiába, a kapott egy heti szabadságidő letellett, menniök kellett.</p>
+                  <p>A füredi kikötőt elhagyva ismét egy új vidék szépségeiben gyönyörködhettek. A
+                     hegyek lankás oldalairól csinos falvak mosolyognak le a Balatonra, a mely itt a
+                     legszélesebb. Ott vannak sorban Csopak, Alsó- és Felső-Örs faluk.</p>
+                  <p>- E két Örsön kivűl, - magyarázta Miklós bácsi, - még két ilyen nevű falu van a
+                     Balaton vidékén. Kővágó-Örs és Kis-Örs. Ezek amarra nyugotra vannak. Igen régi
+                     falvak, még a honszerzés idejéből valók. Árpád fejedelem vitézei közűl ezt a
+                     vidéket Örs vezér hódította meg s az ő nemzetsége szállta meg és birta először
+                     ezeket a helyeket. Felső-Örsön híres prépostság is volt és gyönyörű temploma ma
+                     is ritkítja párját, pedig valamikor 1250 körűl épűlt. Ezek a falvak még mind
+                     Zala megyéhez tartoznak, de a hajónk ebben a pillanatban épen két vármegye
+                     vizén megy. A hátsó fele Zalában van, az első Veszprémben... Igy ni, most már
+                     egészen veszprémi vizen járunk. Isten veled, szép Zala!</p>
+                  <p>- Hogyan lehet azt itt megtudni, hogy meddig tart Zala megye és hol kezdődik
+                     Veszprém? - kérdezte Feri. - Hiszen a víz mindenütt egyforma, határdombokat se
+                     lehet emelni, mint a szárazföldön szokás...</p>
+                  <p>- Hát csak úgy, - mondá Miklós bácsi, - hogy amott van, nézzétek, az almádi
+                     csárda. Az arról nevezetes, hogy az egyik fele Zala megyében van, a másik meg
+                     Veszprémben. Épen szemközt van vele túl, a somogyi parton az a hely, a hol a
+                     Siócsatorna kiszakad a Balatonból; annak fele meg Somogy megyébe esik, a másik
+                     fele pedig Veszprém megyébe. Már most, ha az almádi csárda csúcsfalától
+                     gondolatban egy egyenes vonalat húzunk a Sió torkolatáig, a vonaltól keletre
+                     eső víz Veszprém megyéé, a nyugotra eső víznek fele Zaláé, fele pedig
+                     Somogyé.</p>
+                  <p>A hajó most Almádi alatt állott meg. Almádi már Veszprém megyében van, régebben
+                     egyszerű szőlőhegy volt és Vörös-Berényhez tartozott. Ma már gyönyörű
+                     fürdőhely.</p>
+                  <p>Még Kenese alatt állt meg néhány perczre a gőzhajó. Kenese is régi tősgyökeres
+                     magyar falu a Balaton legkeletibb pontján. Ma már szintén igen eleven
+                     fürdőtelep. A falutól jobbra és balra magas partok övezik a Balatont.</p>
+                  <p>- Ezt hívják Balatonfőnek, - mondá Miklós bácsi a magas partsorra mutatva, -
+                     amott a falu fölött van a híres akarattyai csárda. Mellette egy öreg szilfa
+                     áll, melyről azt regélik, hogy már ezer éves. Lombsátora alól remek kilátás
+                     nyílik a Balatonra Tihanyon át egész Badacsonyig. Amott a szilfa
+                     szomszédságában van a Hatacs-hegy, a melyen 1532-ben országgyűlést tartottak.
+                     1584-ben pedig véres ütközet volt a magyar és török között a hegy tetején. Az
+                     az öreg szilfa mindezt végig nézte már. Ha szólni tudna, ej de sokat regélhetne
+                     régi dicsőségről, régi vitézségről...</p>
+                  <p>Délre járt az idő, mikor a »Baross« Siófokon kikötött.</p>
+                  <p>Forrón tűzött alá a nyári nap s a mosolygó Balaton lágyan zsongó
+                     hullámbeszéddel olyan csábítóan hivogatta a tikkadt utasokat hűvös
+                     karjaiba.</p>
+                  <p>Meg is fürödtek mind a négyen, még pedig a »nyilt tengerben«. Így mondják ezt
+                     Siófokon, mert az egész fürdő a tengeri fürdők mintájára van berendezve. A
+                     Balaton itt a legalkalmasabb a fürdésre. A part és a víz medre puha homokos,
+                     mintha szőnyegen járna az ember. A víz oly sekély, hogy 100 méternyire is be
+                     lehet gázolni a parttól. Ezen felűl majdnem állandóan pompás hullámverése van,
+                     a mi csak tengeri fürdőkben fordúl elő. Ennek az az oka, hogy a balatoni szél
+                     leginkább Kenese és Almádi felől fúj és Siófok felé hajtja a hullámokat, a
+                     melyek felüdítik, megedzik és meggyógyítják a fáradt, beteg testet.</p>
+                  <p>A jó öreg Gál bácsit is egészen felüdítette a fürdés. Nem győzte eléggé
+                     dícsérni a Balatont.</p>
+                  <p>- Adta lelke! - mondá nemes felindulással - miért is megy a magyar ember idegen
+                     országba üdűlni, mikor idehaza még tengeri fürdőt is kap. Nem jobb volna, ha az
+                     a sok pénz, a mi évenként külföldre vándorol, itthon maradna...</p>
+                  <p>És mikor a fiúk szépen megkérték, hogy jövőre is engedje el őket a szép
+                     Balaton-vidékre, szívesen beleegyezett.</p>
+                  <p>- De ha Isten éltet, - így szólt Miklóshoz, - még magam is eljövök, kedves
+                     öcsém.</p>
+                  <p>- Hozza Isten András bácsit! - mondá Miklós és búcsút véve, visszautazott a
+                     hajóval Füredre és onnan édes anyjához sietetett.</p>
+                  <p>A fiúk pedig vonatra űltek édes atyjukkal. Míg a gőzös a parton robogott, künn
+                     álltak a folyosón s mikor a Balaton egy fordulónál eltünt szemük elől,
+                     kalapjukat lóbálva, úgy búcsúztak el tőle, mint kedves jó baráttól szokás:</p>
+                  <p>- Isten veled, kedves szép Balaton! A viszontlátásig - jövőre.</p>
+                 
+               </div>
+            </div>
+         <div type="group">
+            <head>
+               MÁSODIK UTAZÁS
+            </head>
+            <div type="chapter">
+               <head>
+                  Indulás.
+               </head>
+               <p>A pápai kollégium kapuján sűrű rajokban tódúlt ki az ifjúság.</p>
+               <p>Kezében szorongatta ki-ki azt a kis papirosdarabot, a »Bizonyítvány«-t, a melyik
+                  annyi örömnek és szomorúságnak lehet okozója. Örömöt okoz a szorgalmas jó
+                  diáknak, szomorúságot a hanyag, rossz tanulónak. S az örömöt, a szomorúságot
+                  kétszeresen érzik az édes jó szülők, a kik olyan odaadó szeretettel gondoskodnak
+                  gyermekeik jövőjéről s a kiket megszomoritani bizony-bizony egy fiúnak sem volna
+                  szabad.</p>
+               <p>A két Gál fiú, Bandi és Feri, most sem okozott szomorúságot szülőinek. Mint eddig,
+                  most is jeles bizonyítványt kapott mindegyik. Pedig mindig több, nagyobb munka vár
+                  reájuk, mert már-már nagy diákká serdülnek. Bandi már a második osztályt végezte,
+                  Feri meg a harmadikat.</p>
+               <p>Vígan siettek szállásukra a fiúk. Örömük annál nagyobb volt, mert a jeles
+                  bizonyítvány azt jelentette számukra, hogy mielőtt haza térnének a szülői házba,
+                  ismét egy kis kalandos vándorutat tehetnek tanítójukkal és rokonukkal: Miklós
+                  bácsival - a szép Balaton vidékén.</p>
+               <p>Tavaly már jártak ott és kérésükre édes apjuk, a ki elébök ment Siófokig, akkor
+                  megigérte, hogy ha szorgalmasan tanúlnak, az idén ismét elmehetnek. Sőt az öreg
+                  úrnak is annyira megtetszett a bűbájos szép magyar tenger, hogy ő maga is el fog
+                  menni megint a fiúk elé, mikorra útjokat elvégzik.</p>
+               <p>Mire a fiúk szállásukra értek, Miklós bácsi már elkészitette az úti tervet.</p>
+               <p>- Holnap reggel indulunk. És pedig egyenesen Tapolczára megyünk, - szólt a fiúkhoz
+                  és egy előtte fekvő térképre mutatott. Ez a kis városka annak a gyönyörű vidéknek
+                  a középpontja, a melyet most be fogunk járni. Innen teszünk majd kirándulásokat a
+                  szomszédos helyekre: Badacsonyba, Csobánczra, Szigligetre...</p>
+               <p>Badacsony... Csobáncz... Szigliget...</p>
+               <p>Édes érzéssel töltötte el a fiúk szivét e kedves nevek hallása.</p>
+               <p>Látták már egyszer ezeket a regényes bérczeket, melyeknek repkényövezte
+                  várromjairól olyan bájos regéket zengett Kisfaludy Sándor. De csak messziről
+                  nézhették akkor a magasba nyúló ormokat. Akkor csak a keleti partvidéket járták
+                  be, Tihany és Füred táját. Tihany bércztetőjéről tekintették át a nyugoti
+                  partvidéket. S a távol ködében úgy tünt föl előttük a regényes bérczek sora: mint
+                  megannyi óriás, a kik egy letünt hőskorból maradtak itt és ma már nincs egyéb
+                  dolguk, mint az, hogy édes szép regéket mondjanak a kegyeletes utódnak régi
+                  dicsőségről...</p>
+              </div>
+               <div type="chapter">
+                  <head>
+                     A költő bölcsője és sírja.
+                  </head>
+                  <p>Másnap reggel már vígan robogott a vonat a fiúkkal Tapolcza felé.</p>
+                  <p>De nem mentek egészen odáig vonaton. Sümegen kiszálltak és ott tartották az
+                     első állomást.</p>
+                  <p>Sümeg még kissé távol esik a Balatontól. A Bakony végső nyulványainak, az
+                     úgynevezett sümegi és rendeki hegyeknek lábánál fekszik szép hullámos vidéken.
+                     Zalamegye északi részének főhelye. Érdekes kis város és magában is érdemes a
+                     megtekintésre. Különösen megkapja az utazót a hosszúkás és szabályos kerek
+                     dombalakú Várhegy, mely úgy látszik, mintha a város közepéből emelkednék
+                     ki.</p>
+                  <p>Tetején a régi erős vár csipkés bástyái és rommaradványai látszanak.</p>
+                  <p>De nem egyedűl a vár, mult idők e tiszteletre gerjesztő tanúja van ott, a miért
+                     minden magyar ember, kit arra visz útja, kell, hogy kegyelettel megálljon azon
+                     a helyen. Az édes szavú regemondó, a koszorús költő: Kisfaludy Sándor
+                     halhatatlan emléke leng Sümeg falai között.</p>
+                  <p>Ott ringott a bölcsője, ott piheni síri álmát...</p>
+                  <p>A Várhegy déli oldalán áll az egyszerű nemesi udvarház, a Kisfaludyak ősi
+                     fészke, szellős folyosójával, virágos kertjével. Ma is abban az állapotban van,
+                     a melyben akkor volt, mikor a költő meghalt. A veszprémi püspök vette meg és
+                     gondoztatta kegyelettel.</p>
+                  <p>Miklós bácsi legelőször is ebbe a házba vezette a fiúkat. Könnyű rátalálni a
+                     hajlékra, mert az előtte levő ligetes téren ott áll a költő szobra és a ház
+                     falán is aranybetűs márványtábla hirdeti, hogy ott született, élt és ott halt
+                     meg Kisfaludy Sándor.</p>
+                  <p>Kegyeletes érzéssel lépték át a küszöböt a fiúk. Egy nyugalmazott tiszttartó, a
+                     ház gondozója, fogadta őket és szives vendégszeretettel kalauzolta végig a
+                     hosszú oszlopos folyosón.</p>
+                  <p>Nagy, régi módi bolthajtásos terembe értek. Levett kalappal álltak meg itt,
+                     mint a templomban szokás. Az öreg úr lelkes szavakkal kezdett magyarázni: -
+                     Itt, ebben a szobában született a nagy költő 1772-ben, szeptember 27-én. Az
+                     édes apja nemes, nemzetes és vitézlő Kisfaludy Mihály uram volt, édes anyja
+                     Sándorfi Anna nagyasszony. Nyolcz gyermekkel áldotta meg az Isten Kisfaludyékat
+                     s ezek közűl a legidősebb volt Sándor.</p>
+                  <p>- Kisfaludy Károly, a szintén hírneves költő, - szólt közbe Miklós bácsi, -
+                     öcscse volt Sándornak. Ő fiatalon hunyt el, de emlékét örökké őrzi az
+                     irodalomtörténet. Az ő nevéről nevezték el a »Kisfaludy-társaság«-ot is.</p>
+                  <p>- Kisfaludy Károly is ebben a házban született? - kérdé Feri.</p>
+                  <p>- Nem. Ő már a győrmegyei Téthen született, mert Kisfaludyéknak ott is volt
+                     birtokuk és Sándor születése után oda költöztek.</p>
+                  <p>Az öreg úr másik terembe vezette vendégeit.</p>
+                  <p>- Ez volt a költő dolgozó szobája, - mondá, - ide tért vissza, mikor a vitézi
+                     életnek búcsút mondott. Mert édes apja a katonai pályára szánta. Megfordúlt
+                     idegen országokban. Itáliában és Francziaországban kardjával szolgálta a magyar
+                     dicsőséget.</p>
+                  <p>Testőr-tiszt is volt egyideig Bécsben, a királyi udvarban. Külső szépségre,
+                     délczeg testalkatra sem volt nála külömb legény a híres gárda-ezredben.
+                     Szellemével pedig minden társát felűlmúlta. Bár mindenütt szivesen látták a
+                     deli gárdistát, ő szivesen félrevonúlt a zajos társaságok, a léha mulatozások
+                     elől. Legboldogabb volt, ha szobájába, könyvei közé zárkozhatott. Szorgalmasan
+                     tanúlta az idegen nyelveket, olvasta a nagy írókat, hogy majdan a szellemi
+                     harcztéren is dicsőséget szerezhessen a magyar névnek.</p>
+                  <p>Egyszer két angol főúr érkezett Bécsbe. Sokat hallottak már a vitéz magyar
+                     gárdistákról, azért látni kivánták őket. Megkérték hát Eszterházy Miklós
+                     herczeget, a gárdisták kapitányát, hogy mutassa meg nekik a testőröket.</p>
+                  <p>Eszterházy a laktanyába vezette a főurakat.</p>
+                  <p>Véletlenűl épen Kisfaludy ajtaján kopogtattak először.</p>
+                  <p>- Bujj be! - kiáltott ki jó magyarosan Kisfaludy, a ki azt hitte, hogy
+                     valamelyik bajtársa jön látogatóba hozzá.</p>
+                  <p>A herczeg majd kővé meredt, a mikor a két magas vendéggel belépett.</p>
+                  <p>Az ifju gárdista íróasztala mellett ült, még pedig épen nem olyan öltözetben, a
+                     milyenben vendégeket szokás fogadni. Mellény és nyakravaló nélkűl, egyrét
+                     ingben ült ott s csak ezüst zsinóros kék nadrágja, s ezüst sarkantyús kordován
+                     csizmája volt rajta. Hosszúszárú selmeczi pipából erősen szívta a jó magyar
+                     dohányt.</p>
+                  <p>- Na, - gondolta a herczeg megdöbbenve, - vége a magyar becsületnek! Ezek a
+                     finnyás angolok ugyancsak szép hirét viszik haza majd a »vad magyar«-nak, a ki
+                     egy szál ingben s hosszúszárú pipával fogadja vendégeit...</p>
+                  <p>Maga Kisfaludy is meghökkent egy kicsit, mikor a hatalmas füstfelhőben
+                     megpillantotta a kapitányt és az idegen uraságokat. De csakhamar feltalálta
+                     magát. Magára kapta attiláját s ezüst sarkantyúját összecsapva, katonásan
+                     köszöntötte a herczeget és vendégeit.</p>
+                  <p>Eszterházy előbb magyarúl szólt hozzá, azután németűl, majd latinúl. Kisfaludy
+                     mind a három nyelven szépen, hiba nélkűl válaszolt. Az angolok kezdtek
+                     csudálkozni a »vad magyaron«, a ki három nyelvet beszél folyékonyan. De csak
+                     most jön még a java.</p>
+                  <p>- Mit dolgozott ön? - kérdé Eszterházy végűl Kisfaludytól franczia nyelven s az
+                     asztalán heverő könyvekre mutatott.</p>
+                  <p>- Tassót, a nagy olasz költőt fordítám nemzetünk nyelvére, kapitány uram! -
+                     felelt Kisfaludy a kérdésre ugyancsak hibátlan franczia nyelven.</p>
+                  <p>Ezt már az angol urak is megértették s még inkább elcsodálkoztak. Szinte hinni
+                     sem akarták. Az asztalhoz mentek, sorra vizsgálták a könyveket, csakugyan Tassó
+                     művei voltak. Ott volt már nagy részük magyar fordításban is. Kérésükre
+                     szivesen fordított le nekik Kisfaludy egyes részleteket ott helyben franczia
+                     nyelvre is.</p>
+                  <p>Az angolok megköszönték a szivességet és tisztelettel szorítottak kezet a
+                     daliás magyar testőrrel, a ki ime korán sem volt olyan »vad magyar«, mint a
+                     milyennek gondolták.</p>
+                  <p>Így mentette meg Kisfaludy Sándor tudományával is a magyar becsületet!</p>
+                  <p>- De csak nem volt maradása idegen földön, - folytatá elbeszélését az öreg úr,
+                     - visszavonta szive ide az édes szülőföldre. Vissza is jött. Ott hagyta a
+                     fényes katonaéletet. Itt telepedett le az atyai házban ifjú hitvesével Szegedy
+                     Rózával. Ebben a szobában írta gyönyörű dalait és bübájos regéit a magyar
+                     előidőkből. Bejárta a vidék halmait, bérczeit: Badacsonyt, Csobánczot,
+                     Szigligetet, Tátikát... s mindenikről mondott egy-egy szép regét. Ott a
+                     sarokban az iróasztala, a melyen írt. Amott a kandalló is, a melynek barátságos
+                     melegénél hosszú téli estéken elábrándozott hitvesével. Erről írta:</p>
+                  <p>Ülj mellém a kandallóhoz,</p>
+                  <p> Fel van szítva melege...</p>
+                  <p>- Oh ezt a szép verset én is tudom! - vágott közbe Feri és folytatta is
+                     mindjárt:</p>
+                  <p>Csobáncz-várról, édes-kedves</p>
+                  <p> Im halljad egy agg rege.</p>
+                  <p> Mult szüretkor Badacsonyon,</p>
+                  <p> Ezt Múzsámtól vettem én,</p>
+                  <p> Egykor midőn magam bolygék</p>
+                  <p> A hegy szirtes tetején...</p>
+                  <p>- És itt is halt meg, - végezte szavait az öreg úr, - hosszú szép élet után
+                     1844. október 28-án hetvenhét éves korában. Teste ott porlad künn a temetőben,
+                     de lelke, emléke örökké él a magyar szivekben...</p>
+                  <p>Az öreg úrtól búcsút vevén, a költő sírját látogatták meg, melyet szintén
+                     díszes emlékszobor jelez a sümegi temetőben. Onnan pedig a várba mentek.</p>
+                  <p>A várba a hegy északi lábától indúl fölfelé a hosszú kigyózó út és hármas
+                     bástyakapun át vezet a várudvarra. Az erősség még az Árpádok alatt épűlt és a
+                     török meg kurucz-világban sok vihart állott ki. Ma már puszta rom, omladék.
+                     Kőrózsák futják be az omladozó falakat, melyeknek résein át gyönyörű kilátás
+                     nyilik az alant elterülő városra és a halmos-völgyes vidékre. Bizonyára sokszor
+                     merengett ott a költő is és a romok között járó szellő sok szép regét súgott
+                     ihletett lelkének mult időkről, régi dicsőségről...</p>
+                  <p>Az éjszakát Sümegen töltötték a fiúk s másnap reggel kocsit fogadván, azon
+                     folytatták utjokat Tapolcza felé...</p>
+                  <p>Tágas szép völgyben vezetett utjok délnek a »hidegkúti csárdá«-ig, a hol ismét
+                     egy regényes váromladék tünt szemük elé.</p>
+                  <p>- Ez itt Tátika vára, - mondá Miklós bácsi, mikor a hegy tövébe értek és
+                     megállította a kocsit. S mig fölmentek a romokhoz, elbeszélte a fiúknak, hogy
+                     hajdan ez is erős hegyi vár volt. A Tátika-család építette, később a Gersei
+                     Pethők bírták s a kurucz-háborúk után rombolták le ugyanakkor, mikor Sümeg
+                     várát. Kisfaludy Sándor gyönyörű regében írta meg a vár egykori úrnőjének, a
+                     szép Szántó Manczinak szomorú történetét.</p>
+                  <p>- Hát az micsoda vár? - kérdi Bandi, mikor a hegytetőre értek és egy dél felé
+                     emelkedő sűrű erdővel borított hegytetőre mutatott.</p>
+                  <p>- Az Rezi vára, - mondá Miklós bácsi, - édes testvére Tátikának. Egy időben
+                     virágzott és egy időben pusztúlt el ezzel. Urai a Rezyek voltak.</p>
+                  <p>Leszállva a tetőről, tovább folytatták utjokat a fiúk erdős-völgyes szép
+                     vidéken, melyet csillogó patakok vize szel keresztűl. Azok is mind a Balaton
+                     anyai keblére sietnek, mely ott piheg, hullámzik már szelíden a zöldelő hegyek
+                     mögött.</p>
+                  <p>Sötét este lett, mire Tapolczára értek.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                     Tündérország.
+                  </head>
+                  <p>Másnap gyönyörű derűlt nyári reggelre virradtak.</p>
+                  <p>Korán fölkeltek s szállóbeli lakásukon megreggelizvén, siettek ki a
+                     szabadba.</p>
+                  <p>Mikor a csinos kis mezővárosból kiérve a vadvirágos rét bársonyos szőnyegéről
+                     széttekintettek a vidéken, a fiúk elragadtatással kiáltottak föl:</p>
+                  <p>- Miklós bácsi, hisz’ ez valóságos kis Tündérország!...</p>
+                  <p>Miklós bácsi mosolyogva felelt:</p>
+                  <p>- No, úgy-e, nem hiába beszéltem olyan nagy lelkesedéssel erről a vidékről?</p>
+                  <p>- Nincs több ilyen szép vidék Magyarországon!</p>
+                  <p>- De talán az egész világon sincs!</p>
+                  <p>E szavakkal adtak kifejezést a fiúk a táj szépsége fölött érzett
+                     elragadtatásuknak.</p>
+                  <p>S valóban: hazánk egyik legbájosabb, legváltozatosabb tájképében
+                     gyönyörködhetik itt az utazó. Nem délibábos rónatáj, nem is zord havasokkal
+                     borított alpesi vidék ez. Szelíden hullámos, halmos, völgyes tájék, kalászos
+                     mezőkkel, vadvirágos rétekkel, lombos erdőkkel, borágas bérczekkel. Egy
+                     hosszúkás, négyszög alakú medencze az egész, melynek völgyeiben fürge patakok -
+                     a Lesencze, Tapolcza és Eger-patak kristály-vize csörgedez. Északon, nyugaton
+                     és keleten erdővel és szőlőkkel borított bérczsorok zárják körűl a völgyet,
+                     délen a Balaton a szigligeti és badacsonyi öblökkel.</p>
+                  <p>És a merre szemünk néz: köröskörűl mint megannyi Istenkéz alkotta óriási gúla,
+                     emelkednek a regényes bérczek, tetejükön a repkény övezte váromladékokkal.</p>
+                  <p>Ott állnak sorban a hegyesdi, halápi és gulácsi hegyek. S ott emelkedik
+                     Badacsony, Csobáncz és Szigliget.</p>
+                  <p>Az északi részen különösen a hegyesdi és halápi hegy tünt föl a fiúknak.</p>
+                  <p>- Milyen különös alakja van annak, - mondá Feri a Haláp-hegyre mutatva, - én
+                     ilyen hegyet még soha sem láttam.</p>
+                  <p>- Valóban különös alakú hegy az, - magyarázta Miklós bácsi. - Az alapja kör, az
+                     emelkedése szabályos kúp, és a teteje egyenesre van metszve. Mintha csak valami
+                     óriás nyeste volna le ollóval. Valamikor tűzhányó hegy volt s a föld alól
+                     kitörő tüzek titkos ereje alkotta ilyenné.</p>
+                  <p>Bandi most egy távolabb eső, szintén gúlaalakú hegy iránt érdeklődött, a mely
+                     Tapolczától éjszakkeletre emelkedik az Eger patak völgyében.</p>
+                  <p>- Az ott Hegyesd, - mondá Miklós bácsi, - szintén egyike a legérdekesebb
+                     balatoni hegyeknek. Annak a teteje már nincs olyan laposan metszve, mint
+                     Halápé, sőt ugylátszik, mintha egészen hegyes csúcsban végződnék. Innen kapta a
+                     Hegyesd nevet is. Ha az ember alulról nézi, szinte lehetetlennek véli, hogy
+                     tetején valamikor vár lehetett.</p>
+                  <p>- No már az csakugyan lehetetlen, mondá Feri, - hiszen oly keskenynek látszik a
+                     hegy teteje, hogy még egy pásztor-kunyhó sem férne el rajta.</p>
+                  <p>- Pedig vár állt ott hajdanában, még pedig híres vár. A romjai még, úgy
+                     mondják, megvannak, majd megtekintjük. Magam is kiváncsi vagyok rájuk.</p>
+                  <p>Délután tehát Hegyesdre rándultak ki a fiúk.</p>
+                  <p>A hegy tövében csinos kis falu van, a melynek szintén Hegyesd a neve. Ott
+                     leszálltak a kocsiról és gyalogosan akarták folytatni utjokat föl a meredek
+                     tetőre.</p>
+                  <p>Az utczán egyszerre csak rákiált valaki Miklós bácsira:</p>
+                  <p>- Szervusz, Miki pajtás!</p>
+                  <p>Oda néztek, hát egy fiatal ember siet feléjük. Miklós bácsi rögtön megismerte
+                     régi iskolatársát: Csürös Pált.</p>
+                  <p>- Szervusz, Pali! - kiáltott vissza, - hát téged mi szél hordoz itt?</p>
+                  <p>- Azt én kérdezhetném inkább tetőled, mert én itthon vagyok itt. A hegyesdi
+                     tanító vagyok.</p>
+                  <p>- No ez szép dolog, Pali. Épen jó, hogy találkoztunk, a várat akarjuk megnézni,
+                     de nem igen tudom a följárást, mert még itt nem jártam.</p>
+                  <p>A fiatal tanító szivesen vállalkozott a kalauzolásra és így négyen indúltak
+                     neki a meredek útnak, a mely kígyózó csiga kanyarúlatokban vezet föl a 130
+                     méter magas hegyre. Meglátszik rajta, hogy valamikor, a mikor még daliás
+                     lovagok tánczoltatták ott tüzes paripáikat, jó karban volt tartva, de most már
+                     rossz állapotban van. Tüske, bozót benőtte s több helyen nagy szikladarabok
+                     torlaszolják el, melyek a tetőről gördűltek alá unalmukban.</p>
+                  <p>A fiúk ugyancsak megizzadtak, mire fölértek.</p>
+                  <p>Nem kellett, hogy egészen a tetőig menjenek, a romokra már előbb
+                     rábukkantak.</p>
+                  <p>- Az igazi vár, - magyarázta a tanító, - tulajdonképen itt volt, köröskörűl a
+                     hegycsúcs oldalain. Mert odafönt a tető olyan keskeny, hogy ott bizony nem fért
+                     volna el valamire való épület. Ott csak egy kis őrtorony volt, a honnan az őr
+                     éjjel-nappal éber szemmel vigyázott: nem jön-e ellenség? És egy vízfogó
+                     medencze, a melyben az esővizet felfogták és összegyűjtötték, mert kutat itt
+                     bajos lett volna ásni, a vizet felhozni sem volt könnyű mesterség.</p>
+                  <p>A várúr lakása, a várőrség tanyája, a fegyvertár, a lóistállók itt voltak
+                     köröskörűl a hegyoldalban.</p>
+                  <p>- Jó dolga lehetett annak a várúrnak, a ki itt lakott, - jegyezte meg Feri, -
+                     mert ezt a várat ugyan be nem tudta venni az ellenség.</p>
+                  <p>- Egyszer mégis bevette a török. Persze nem erővel, hanem csellel. 1560-ban
+                     történt. Nádasdy Tamás volt a vár ura akkor. Ő is annyira bízott a vár
+                     megvíhatatlan voltában, hogy mikor egyszer elment hazúlról, csak kis számú
+                     őrséget hagyott a várban. A kapu őrzését meg épen csak két emberre bízta.</p>
+                  <p>Rekkenő melegség volt s a víz már mind kiszáradt a hegytetőn levő vízfogóból.
+                     Az őrök szörnyen szomjaztak és úgy egyeztek meg, hogy az egyik menjen le
+                     vízért a faluba. Le is ment. Csakhogy Hamzsa bég, a fehérvári török úr épen
+                     akkor ért a vár alá portyázó csapatával. Emberei mindjárt fölismerték a magyar
+                     őrt, elfogták és a bég elé vezették. A ravasz Hamzsa bég csillogó aranyakkal
+                     megvesztegette a hűtlen, kapzsi embert, a ki a másik őrt is megnyerte az
+                     árúlásnak. Este aztán a megvesztegetett őrök szépen felvonták a kaput s a
+                     törökök észrevétlenül beosontak és felkonczolván a kis számú őrséget
+                     hatalmukba vették a várat.</p>
+                  <p>De nem soká büszkélkedett a félhold Hegyesd vár ormán!</p>
+                  <p>Nádasdy Tamás vitéz kapitánya Magyar Bálint egyesülten a pápai, győri, tihanyi
+                     és devecseri kapitányokkal, ostrom alá vette a várat. Tíz napi kemény harcz
+                     után be is vette, nem úgy mint a török: csellel, álnoksággal, hanem véres
+                     harczban: erővel, bátorsággal. A benn levő törökök vagy elestek, vagy fogságba
+                     jutottak. A vár azonban a heves ostrom alatt teljesen szétrombolódott s többé
+                     meg sem építették.</p>
+                  <p>A romok közűl most a tetőre mentek a fiúk, a hol még szintén látszanak a
+                     vízfogó medencze és az őrtorony nyomai. A remek kilátásban, mely a hegy
+                     tetejéről nyilik, sokáig gyönyörködtek. Este lett, mire visszakerűltek ismét
+                     tapolczai szállásukra.</p>
+                  <p>Vacsora közben megállapították a további úti tervet is.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                     Csobáncz.
+                  </head>
+                  <p>Reggel korán búcsút vettek a fiúk Tapolczától és útra keltek.</p>
+                  <p>A gyönyörű regényes vidéken lefelé haladva a Balaton felé először Csobáncz
+                     várát érték.</p>
+                  <p>A várhegy tövében fekvő Gyula-Keszi faluig mentek kocsin s onnan gyalog
+                     folytatták utjokat föl a várba.</p>
+                  <p>Csobáncz vára majdnem négyszáz méter magas hegy tetején áll, a melynek északi
+                     oldala oly meredek, hogy teljesen járhatatlan. A másik oldalon kellett tehát
+                     megközelíteni.</p>
+                  <p>Zöldelő szőlők, apró pinczék között vezet a szűk és mély, árkos, gödrös hegyi
+                     út a tetőre.</p>
+                  <p>Jó egy óráig tartott, a mig fölértek a tetőre.</p>
+                  <p>Összejárták a romokat, a melyeknek mohos barna falaira már erősen tűzött le a
+                     déli nap sugara. A várkaputól jobbra sűrű bozótos helyre akadtak s ledűltek
+                     egy kicsit hűvös árnyékába. Érdekes hely volt ez. Virágos kert nagyságú,
+                     köralakú területen össze-vissza nőve láttak ott somfát, iharfát, szömörczét,
+                     kecskerágót és vadrózsafát.</p>
+                  <p>- Ni-ni, Miklós bácsi, - kiáltott föl egyszerre csak az eleven szemű Bandi
+                     gyerek, - hiszen itt virágok is nyílnak! És pedig valóságos szelíd kerti
+                     virágok!</p>
+                  <p>Ferit is érdekelte a dolog, ő is fürkészni kezdett a cserjésben. Alig telt belé
+                     néhány percz, egy egész bokrétára való virágot szedtek össze a fiúk. Szegfűt,
+                     liliomot, zsályát, orgonavirágot.</p>
+                  <p>- Nem is tudtam, hogy ezek a virágok vadon is tenyésznek, - mondá csudálkozva
+                     Bandi. - Én ilyeneket csak kertben láttam eddig.</p>
+                  <p>- Nem is maguktól nőttek ezek itt, - okoskodott Feri, - de ugyan ki ültethette
+                     ide a bozótba őket?</p>
+                  <p>Miklós bácsi aztán megmagyarázta a dolgot.</p>
+                  <p>- Gyöngéd kezek ültették ezeket a virágokat ide sok száz évvel ezelőtt. Akkor
+                     még nem volt itt ilyen vad bozót. Szép virágos kert volt, a Gyulaffy-leányok
+                     virágos kertje. Innen kötöttek bokrétát a vész napjaiban a harczba induló hősök
+                     süvegéhez; innen fontak koszorút ünnepnapokon a kápolna oltárára Isten
+                     dicsőségére... Szegfűből, liliomból, orgonavirágból...</p>
+                  <p>Csudálatos, hogy minden, minden elpusztúlt, semmivé lett. A büszke tornyok, az
+                     erős bástyák, a vitéz daliák - mind az enyészet ölében pihennek, csak ezek a
+                     gyönge kis virágok maradtak meg a századok viharaiban. Ezek élnek, virulnak
+                     most is, ezek adnak hírt a késő utódnak, a Gyulaffy-lányok gyöngéd szivéről,
+                     szép lelkéről. Mert, a kik virágot ültettek, virágot ápolgattak itt azokban a
+                     viharos időkben, azok csak gyöngéd szivű, szép lelkű nők lehettek. Egyikökről,
+                     a bájos Gyulaffy Rózsáról Kisfaludy Sándor gyönyörű regét is írt. Az az, a
+                     melyik úgy kezdődik:</p>
+                  <p>Ülj mellém a kandallóhoz,</p>
+                  <p> Fel van szítva melege...</p>
+                  <p>- Mikor pusztították el a várat? - kérdé Feri, - úgy látszik, már régen
+                     romokban hever.</p>
+                  <p>- Bizony annak már innen-onnan kétszáz esztendeje, - felelt a kérdésre Miklós
+                     bácsi. - A kurucz-világ után pusztította el ezt is a német, mert nagyon
+                     kellemetlen dolgokra emlékeztették büszke falai. Jól kiporolták itt
+                     egynéhányszor a labancz-hadat a nyakas kurucz vitézek!</p>
+                  <p>Különösen nevezetes az 1707-ik évi csata.</p>
+                  <p>Csobáncz vára akkor a dicsőséges II. Rákóczy Ferencz birtokában volt s Domokos
+                     Ferencz kurucz ezredes volt a főkapitánya. Domokosnak egyszer Vár-Palotán akadt
+                     dolga s fegyveres vitézeinek egy részét is magával vitte. Csobánczon nem maradt
+                     több harmincz hajdunál. Nosza, a mint ezt megtudta Rabutin német generális,
+                     nyomban a vár alá küldte egyik tábornokát mintegy ezerötszáz főnyi zsoldossal.
+                     Pusztítsa el azt a hitvány fészket, - mondá neki, - azt a harmincz hajdut meg
+                     húzza karóba!</p>
+                  <p>Csakhogy ez nem ment ám olyan könnyen, mint a hogy Rabutin uram gondolta.</p>
+                  <p>A hirre, hogy jön a német: a szomszédos kastélyok nemessége is Csobáncz várába
+                     menekült. Lehettek vagy harminczan, férfiak és nők vegyest. Összesen tehát, a
+                     nőket is beleszámítva, hatvan főnyi magyar őrség állt szemben az ezerötszáz
+                     főnyi német sereggel. Száz Márton alkapitány és Dóczy Péter hadnagy
+                     parancsnokolt a várban. Összes hadi készletük két taraczkból, egy ötcsövű
+                     seregbontó ágyúból és két mázsa lőporból állott.</p>
+                  <p>A német tábornok egyszerre megkezdte az ostromot s egy jól irányzott
+                     ágyúlövéssel hamarosan betörette a vár kapuját.</p>
+                  <p>Ujjongva rohantak föl a németek a meredek hegyen, azt hitték, most már biztos a
+                     győzelem. Ám a kis magyar sereg, halálra szántan, oroszlán bátorsággal védte a
+                     kaput. Az úri asszonyok is részt vettek a küzdelemben. Mig a férfiak puskával,
+                     karddal, buzogánynyal harczoltak a bástyákon, addig ők a vár belsejében, úgy
+                     mint az egri hősnők, szurkot forraltak és hatalmas üstökben azt zúdították a
+                     fölfelé törekvő németek fejére; más részük köveket dobált alá.</p>
+                  <p>Hullott a német seregestűl. Elesett maga a tábornok is. Rajta kívül még ötven
+                     tiszt és vagy négyszáz közkatona hagyta ott a fogát Csobáncz vár falai alatt. A
+                     többi meg hanyatt-homlok elrohant, azt gondolván, hogy - szégyen a futás, de
+                     hasznos!</p>
+                  <p>Igy védelmezte meg a maroknyi kis magyar csapat Csobáncz várát s így vivták ki
+                     a csobánczi nők is az «egri nevet«.</p>
+                  <p>A kurucz hadak főgenerálisa, Bercsényi Miklós, mikor értesűlt a fényes
+                     győzelemről, elismerő okiratot küldött Száz Mártonnak és Dóczi Péternek,
+                     Rákóczy Ferencz pedig egy malmot és Badacsonyban egy szép nagy szőlőt
+                     adományozott a két hős vezérnek.</p>
+                  <p>Hanem a német annál nagyobb haragra gerjedt Csobáncz vára iránt. És mikor a
+                     háborúnak vége lett s ismét ő lett az úr Magyarországon, első dolga volt, hogy
+                     a szép Csobáncz várát porba rombolta. Csak a kormos falak és azok a kis virágok
+                     maradtak meg. De azok mai napig is hirdetik a németek csúfos vereségét s a
+                     magyarok fényes diadalát!</p>
+                  <p>Az érdekes romok történetével, viharos multjával megismerkedvén, még egyszer
+                     körüljárták a hegy peremét a fiúk és gyönyörködtek a páratlan szép kilátásban,
+                     melyet a Lesencze-völgyében szétszórt falvak, Szent-György, Gulács, Haláp
+                     nyujtanak. Dél felől a Balaton, nyugatról Szigliget és Badacsony alkotja
+                     keretét annak a bájos képnek, a melynél bájosabbat művész ecsetje sem
+                     alkothat.</p>
+                  <p>Csobánczot elhagyva Badacsonynak vették utjukat.</p>
+                  <p>Mindjárt a csobánczi hegy alatt, közel az úthoz két érdekes halmot pillantottak
+                     meg a fiúk. Az egyik halmot csupa kő borította, tövis és bogáncskóró nőtt
+                     rajta, a másikat szép zöld pázsit fedte és vadrózsabokor virágzott a
+                     tetején.</p>
+                  <p>Miklós bácsi is érdeklődéssel nézte a két halmot. Megállította a kocsit s egy
+                     kis paraszt fiútól, a ki épen ott legeltette nyáját, megkérdezte: nem tudna-e
+                     valamit a két különös halomról.</p>
+                  <p>A kis pásztorfiú így mondta el a két halom meséjét:</p>
+                  <p>- Volt egyszer egy fiatal vadász. Nagyon megszerette a vidék legszebb leányát
+                     és feleségűl akarta venni őt. De a leány már akkor egy szegény
+                     pásztor-legénynek a mátkája volt és annak a felesége is akart lenni. Haragra
+                     lobbant ezen a vadász. Mikor a pásztor-legény feleségűl vette a szép leányt,
+                     épen ezen az úton vitte haza csengős szánon, lobogós paripákkal, vidám násznép
+                     kiséretében. A vadász elbújt egy fa mögé és mikor az a szán közel ért hozzá, a
+                     melyik a menyasszonyt vitte, hirtelen fölkapta nyilát és sziven lőtte a szép
+                     leányt.</p>
+                  <p>A násznép üldözőbe fogta a gyilkos vadászt: hamarosan utolérték és ott helyben
+                     agyon is verték. Holttestére köveket dobáltak s később is, a ki erre járt,
+                     mindenki dobott rá egy követ a szívtelen gonoszra. Igy támadt az az egyik
+                     domb.</p>
+                  <p>A másik halom alatt a szép menyasszony nyugszik. Azt zöld pázsittal vonták be
+                     és vadrózsabokrot ültettek fölébe. A ki erre ment, áldást mondott a leány
+                     emlékére. Annak a neve «megáldott halom«.</p>
+                  <p>A fiúk a »megáldott halom«-ról egy-egy vadrózsát szakítottak emlékűl és tovább
+                     folytatták útjokat Badacsony felé...</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                    Badacsony.
+                  </head>
+                  <p>Delet harangoztak épen a szomszédos falvakban, mikor utasaink Badacsonyba
+                     értek.</p>
+                  <p>A fiúkat nagyon meglepte ez a hatalmas szép hegy és igazat adtak Miklós
+                     bácsinak, a ki igy mutatta be nekik Badacsonyt:</p>
+                  <p>- Ime, ez a Balaton-parti hegyek fejedelme!</p>
+                  <p>Valóban méltó e névre Badacsony, mert nemcsak legnagyobb, legszebb, de a
+                     leghíresebb is valamennyi hegytársa között. Híre-neve messze túlröpűl az ország
+                     határain is, mindenüvé, a hol azt a gyöngyöző tüzes nedűt ismerik, a melynek
+                     neve: »Badacsonyi bor«. Ott terem az ennek a szép nagy hegynek napsütötte
+                     oldalain.</p>
+                  <p>Mint valami hatalmas óriás, két öböl között könyököl be Badacsony a Balatonba.
+                     Alapja köralakú és területe mintegy 11 kilométer. A hegy déli lábát a Balaton
+                     hullámai mossák.</p>
+                  <p>Hajdan sűrű nádas borította ezt a helyet, melyben vízimadarak, vadludak,
+                     vadkacsák, gólyák és sirályok ezrei tanyáztak. Most fürdő-telep és kényelmes
+                     szálló várja ott az odaránduló vendégeket.</p>
+                  <p>A fiúk is bekvártélyoztak a »Hableány« szállóba, megebédeltek, egy kicsit
+                     kipihenték magukat s azután hosszú hegymászó botokkal fölfegyverkezve neki
+                     indúltak a hegytetőnek.</p>
+                  <p>Kalauz is ajánlkozott melléjük, de Miklós bácsi visszautasította, mert ő, mint
+                     balatonvidéki ember, már többször járt Badacsonyban és jól ismerte a hegy
+                     minden zegét-zugát.</p>
+                  <p>Egy darabig könnyen ment a gyaloglás, mert a hegy alsó része nem nagyon
+                     meredek. Szelíden emelkedik köröskörűl egészen a bazalt-tornyokig. Ezt a részt
+                     a hegy »alsó kupjá«-nak hívják s ez kelet, dél és nyugat felől gyönyörű
+                     szőlőkkel van beültetve. Kisebb-nagyobb pinczék, sajtóházak, szebbnél szebb
+                     villák között vezet az út fölfelé.</p>
+                  <p>- Na, fiúk, nézzétek, itt terem az a világhírű badacsonyi bor! - mondá Miklós
+                     bácsi a fiúknak és a körülöttük levő szép zöldleveles szőlő-tőkékre mutatott.
+                     Rakva voltak már a tőkék dús fürtökkel. Csakhogy a fürtök persze még zöldek,
+                     éretlenek voltak. Sajnálkoztak is a fiúk nagyon, hogy nem kóstolhatták meg a
+                     pompás badacsonyi szőlőt!</p>
+                  <p>Kelet felé tartottak s közel jártak már a meredek bazalt tornyokhoz. Miklós
+                     bácsi egyszerre csak megállt egy az út szélén fekvő egyszerű épület előtt.
+                     Levette kalapját s arczán mély meghatottság látszott. A fiúk önkéntelenül
+                     követték példáját s érezték, hogy most valami nevezetes helyre értek.</p>
+                  <p>- Köszöntsük szívből ezt az egyszerű kis hajlékot, - szólt Miklós bácsi
+                     lelkesen, - itt is a halhatatlan költő dicsősége ragyog. Itt is az ő nyomdokain
+                     járunk. Kisfaludy Sándoré volt ez a kis hajlék. Itt élte életének legboldogabb
+                     napjait; ifjú korában itt ismerkedett meg szép hitvesével: Szegedy Rózával.
+                     Férfiú korában ide rándúlt le nyaratszaka Sümegről. Itt ezen a tündéri helyen
+                     ihlette meg szivét a költészet s itt írta szép költeményeinek és regéinek nagy
+                     részét. »Csobáncz« regéje is itt érlelődött meg lelkében. Hisz maga vallja az
+                     előhangban:</p>
+                  <p>Mult szüretkor Badacsonyon</p>
+                  <p> Ezt Múzsámtól vettem én,</p>
+                  <p> Egykor, midőn magam bolygék</p>
+                  <p> A hegy szirtes tetején.</p>
+                  <p>Erről a helyről ezt írta a költő egyik levelében:</p>
+                  <p>»Halálom után, midőn már porladni fogok, ez oly hely leend Magyarországban,
+                     melyet megnézni el nem mulasztandja az utas; hova az utóbbi fiatal nemzedék,
+                     mint már most is a regéimben megénekelt váromladékokhoz, zarándokolni fog, hogy
+                     lássa azon helyet, hol egy tántorithatlan hazafinak szívvéréből azon szózatok
+                     hangzának ki, melyek a magyart hazaszeretetre gerjedni, nemzetiséget és ezzel
+                     nemzeti életet visszavívni, szóval a magyart önmagának visszaadni
+                     segítették«...</p>
+                  <p>Ne is mulaszsza el senki, a ki valamikor Badacsonyba kerűl, hogy
+                     elzarándokoljon Kisfaludy szőlőjébe Kisfaludy házához.</p>
+                  <p>A ház ablakai elől gyönyörű kilátás nyilik, balra az ábrahámi és kővágóőrsi
+                     hegyekre s a távolban Tihany ormaira. Dél felől a Balaton mosolyog föl a kis
+                     házikóra s túlnan a boglári domb és a somogyi halmok kéklenek. Hányszor
+                     révedezhetett el a költő e felséges tájkép szépségein!</p>
+                  <p>Kisfaludy Sándor szőlőjétől az úgynevezett »Koldusok útján« mentek fölfelé a
+                     fiúk s nemsokára egy kristályvizű forráshoz értek, melynek vize a sziklák
+                     közűl buzog elő. «Apáczák forrásá«-nak nevezi a nép.</p>
+                  <p>A forrás felett nagy sziklák meredtek elébök.</p>
+                  <p>- Na most már visszafordulhatunk, - mondá Feri, - itt tovább nem lehet
+                     menni.</p>
+                  <p>- Gyertek csak utánam, - szólt Miklós bácsi és kissé jobbra vezette a
+                     fiúkat.</p>
+                  <p>Hatalmas nyilás elé értek. A sziklatömeg mintha valami óriás ütése alatt
+                     széjjel nyílt volna azon a helyen. Csak két felől mered két magas sziklaoszlop
+                     az ég felé, közepén azonban szabad út nyilik a hegytetőre.</p>
+                  <p>- Ez a »vaskapu«, mondá Miklós bácsi - és csak ezen az egy helyen lehet a hegy
+                     tetejére jutni. Az út itt már mind meredekebbé vált s a szűk nyilást néhol
+                     óriási sziklagörgetegek torlaszolták el, a melyeket nagy nyári viharok
+                     alkalmával a hegy tetejéről alászakadó víz hozott magával. Ezeken bizony úgy
+                     kellett átmászniok a fiúknak. Miklós bácsi előre ment, horgas botját
+                     lenyujtotta s a fiúk belekapaszkodtak, annak segítségével kúsztak föl a
+                     sziklákra.</p>
+                  <p>Ugyancsak megizzadtak, mire a hegytetőre értek. No de végre mégis csak fölértek
+                     s a kép, a mely ott szemük elé tárúlt, kárpótolta őket minden fáradságért.</p>
+                  <p>- Hála Isten, csakhogy itt vagyunk! - kiáltották egyszerre s mindjárt
+                     leheveredtek a puha pázsitra, hogy egy kissé kipihenjék a hegymászás
+                     fáradalmait.</p>
+                  <p>Térés-tágas fensíkon mintegy négyszáz méter magasságban találták magukat,
+                     melynek egy része sűrű bozóttal, kökény-bokrokkal, vad szilvafa, illatos meggy
+                     (a miből a pipaszárak és sétapálczák készülnek) és vadrózsa-cserjékkel van
+                     benőve; a másik része gyöpös, pázsitos legelő.</p>
+                  <p>Minthogy Badacsony teteje fekszik a legmagasabban, innen nyilik legszebb
+                     kilátás is az egész Balaton-vidékre.</p>
+                  <p>Kelet felé végig repűlhet az ember tekintete a Balaton csillogó habjain. Tihany
+                     szürke ormai, Füred zöldelő ligetei fölött a kenesei partokig; sőt tiszta
+                     időben még azon is túl: Veszprém és Fehér vármegye síkjaira. Dél felé a vizen
+                     túl: ott látszik az egész somogyi partvidék. A part keskeny síkján, mindenütt a
+                     tó mentén, ott robog vígan a gőzkocsi érintve az egyre jobban fölvirágzó
+                     somogyi fürdőtelepeket; Siófokot, Balatonföldvárt, Fonyódot, Boglárt és a
+                     partvidéki falvakat. A háttérben a somogyi halmok hullámos sora emelkedik,
+                     mintegy természetalkotta bástya, mely a látóhatárt elzárja. Tolnába a
+                     szegzárdi dombokig, Baranyába a Mecsek-hegyig látni el, délnyugat felé egészen
+                     a szlavón és horvát hegyekig.</p>
+                  <p>Legmegkapóbb mégis a nyugati és északi oldal kilátása.</p>
+                  <p>Ott terűl el a hegy alatt a Lesencze és Tapolcza patakok völgye. Ebből
+                     emelkednek ki sorban azok a kúpalakú, kisebb-nagyobb hegyek, a melyek az öreg
+                     Badacsonyt úgy veszik körűl, mint a kotlós tyúkot a csirkéi... A nyugati
+                     oldalon ott emelkedik Szigliget s közel hozzá komor méltósággal Szent-György
+                     hegye. Érdekes hegy ez is nagyon. Kerek az alapja, kúpalakban emelkedik és a
+                     teteje laposra simítva. Épen olyan, mint Badacsony, mintha csak édes testvére
+                     volna. Talán épen egy pillanatban is alkotta meg őket hajdanta a föld mélyéből
+                     kitörő tüzek ereje. Mert tűzhányó hegy volt ez is. Oldalában, tövében, hol
+                     hajdan izzó láva hömpölygött, most virúló szőlőhegyek és békés falvak
+                     állanak.</p>
+                  <p>Amodább Csobáncz hegye látszik, majd Rezi és Tátika várrom-koronázta
+                     csúcsai.</p>
+                  <p>Északon a gulácsi és halápi hegycsúcsok mögött sűrű rengeteg erdők
+                     sötétlenek.</p>
+                  <p>- Ott van a híres Sárkány-erdő és Dabas-erdő - mondá Miklós bácsi a rengeteg
+                     felé mutatva. - Hej, furcsa élet folyt ott hajdanában! Kanászok és juhászok
+                     fészke volt az a sűrű erdő és sok dolgot adott a vármegye urainak meg a
+                     zsandároknak...</p>
+                  <p>- De szeretnék egy igazi bakonyi kanászt látni! - szólt Feri élénk
+                     érdeklődéssel, - sokat hallottam róluk mesélni.</p>
+                  <p>- Ma már azok is egészen megváltoztak, - felelt Miklós bácsi. - Nagyobbára
+                     békés, csöndes emberek, a kik nyugodtan legeltetik nyájukat az erdők sűrűjében.
+                     Azok a mesék a régi kanászokról szólanak, mert azok bezzeg izgága legények
+                     voltak! A ruhájuk is más volt, mint a mostaniaké. Prémes, pitykés rövid
+                     dolmányt, bő és rövid, sűrű ránczos gatyát viseltek. Fejükön kemény, magas
+                     szegletes kalap, lábukon magas sarkú, csikorgós rámás csizma volt s a vállukra
+                     nehéz czifra szűrt terítettek, a mit Veszprémben készítettek híres
+                     szűcsmesterek. Úgy is hívták ezt a ruhadarabot, hogy »veszprémi szűr«. És
+                     messze földről eljártak érte a pásztor emberek a veszprémi vásárra.</p>
+                  <p>A fiúk nagy érdeklődéssel hallgatták az elbeszélést és most már Bandi is
+                     kinyilatkoztatta, hogy ő is szeretne egy ilyen érdekes bakonyi kanászt látni.
+                     Megjegyezte azonban, hogy csak - messziről... Mert szembe állani vele nem volna
+                     épen kellemes dolog.</p>
+                  <p>Hanem hát messziről sem lehet már ma ilyent látni. Az életben hirmondójuk sincs
+                     már a régi bakonyi kanászoknak; ma már csak a mesében élnek.</p>
+                  <p>A Sárkány- és Dabas-erdő mögött, a Bakony hegyein is túl, a kéklő messzeségben,
+                     Feri éles szeme két hatalmas hegycsúcsot fedezett föl. Csak a körvonalai
+                     látszottak ugyan oda, de azért mindkettőnek az alakját jól ki lehetett
+                     venni.</p>
+                  <p>- Micsoda hegyek azok? - kérdezte Miklós bácsitól.</p>
+                  <p>- Az ott a Somló-hegy, - felelte Miklós bácsi és a kelet felől emelkedő hegyre
+                     mutatott.</p>
+                  <p>- Hiszen ez közel van Pápához, - érdeklődött Bandi, - akkor talán a város is
+                     ide látszik.</p>
+                  <p>Nézték is erősen: nem látnák-e meg a nagy templom kettős tornyát, vagy a
+                     kollégium tetejét.</p>
+                  <p>No bizony azokat sehogy sem tudták fölfödözni. Elmosódtak a ködös
+                     messzeségben.</p>
+                  <p>- Az a másik ott nyugot felől pedig Sághegye, - magyarázta tovább Miklós bácsi.
+                     - Mind a kettő hires kitünő boráról. A Ságh alatt elterülő vidéket hivják
+                     »Kemenes aljá«-nak.</p>
+                  <p>- Arról a vidékről írta Berzsenyi Dániel, - vágott közbe Feri, - azt a szép
+                     verset, mely igy kezdődik:</p>
+                  <p>Messze sötétedik már a Ság teteje,</p>
+                  <p> Ezentúl elfödi a Bakony erdeje,</p>
+                  <p> Szülőföldem, képedet...</p>
+                  <p> Megállok még egyszer, s reád visszanézek,</p>
+                  <p> Ti kékellő halmok, gyönyörű vidékek,</p>
+                  <p> Vegyétek bús könyemet!</p>
+                  <p>- Itt fakadt a költő szivéből az a szép költemény valamelyik halom tetején.
+                     Erre hozta útja, mikor Vasmegyéből Somogyba költözött. Megállt utoljára,
+                     bánatos szivvel és könnyes szemmel nézett vissza az eltünő szép vidékre és
+                     abban a búsongó versben bucsúzott el kedves szülőföldjétől.</p>
+                  <p>- Menjünk a romokhoz, - kérték most a fiúk Miklós bácsit. Már megszokták, hogy
+                     minden hegy tetején romokat látnak.</p>
+                  <p>- Mennénk ám, ha volnának, - hangzott a válasz. - Csakhogy Badacsony hegyén
+                     sohasem volt vár és így romja sem lehet.</p>
+                  <p>- Bizonyosan azért nem építettek ide, - okoskodott Feri, - mert nem tudták
+                     fölhordani a köveket.</p>
+                  <p>- Az meglehet, - hagyta helyben Miklós bácsi, - de talán attól is féltek az
+                     emberek, hogy egyszerre megint csak ki talál törni a tűz a hegy gyomrából.
+                     Mert Badacsony volt a leghatalmasabb tűzhányó az összes balatonvidéki hegyek
+                     között. Mindjárt meglátjuk nyomait.</p>
+                  <p>A fensík közepe felé mentek ezután s nemsokára egy hatalmas mélyedés elé
+                     értek.</p>
+                  <p>- Ime, ez az úgynevezett kráter, - mondá Miklós bácsi és a mélyedésre mutatott.
+                     - Ez volt a tűzhányó hegy torkolata, ezen át hányta ki magából forrongó tüzeit
+                     a hegy. A lávakövek még most is itt hevernek szerteszéjjel, mint néma hírmondói
+                     annak a borzalmas tűzvilágnak.</p>
+                  <p>A fiúk szétnéztek s csakugyan a mélyedés peremén különböző nagyságú barna színű
+                     lyukacsos köveket láttak. Egyet - egy ilyen lávadarabot mindenik eltett
+                     magának emlékűl.</p>
+                  <p>Már jól lehanyatlott eközben a nap s utolsó sugarait hintette lent a Balaton
+                     tükörére, melynek ezüstcsillogása egyszerre aranysárgára és égő vörösre
+                     változott.</p>
+                  <p>Felséges látvány volt onnan a hegy tetejéről nézni az alkonyfényben úszó nagy
+                     vizet. Mintha valami égő olajból lett volna vize és most egyszerre kigyuladt
+                     volna ragyogó, szikrázó fényességgel...</p>
+                  <p>A remek képben gyönyörködve visszafelé tartottak a fiúk, hogy a »Vaskapu«-n át
+                     ismét leszálljanak a völgybe.</p>
+                  <p>Egyszerre meglepődötten állottak meg.</p>
+                  <p>A hegy déli peremén egy szikláról hatalmas kőkereszt emelkedett előttük a
+                     magasba.</p>
+                  <p>- Hogyan kerűlhetett ez a kereszt ide, - tünődtek a fiúk.</p>
+                  <p>- Ranolder János veszprémi püspök állíttatta ide a magasságba ezt a keresztet,
+                     - mondá Miklós bácsi, - mintegy jelképéűl annak, hogy minden magasságok felett
+                     él és uralkodik még egy magasabb hatalom - az Isten! Jusson eszébe ez
+                     mindenkinek, a ki ezen a gyönyörű helyen, ezt a szent jelképet látja és
+                     boruljon le alázattal az Alkotó előtt.</p>
+                  <p>E perczben leáldozott a nap a távol hegyek mögött. A völgyi falvakban
+                     megcsendűlt az estharangszó, egymásután harmincz toronyban. Harmincz harang
+                     csengő szava olvadt össze s mint egy áhitatos zsoltár szállt fel a magasba
+                     Isten trónusához...</p>
+                  <p>Miklós bácsi és a fiuk levették kalapjukat s buzgó imát mondtak a kereszt
+                     tövében.</p>
+                  <p>Azután lefelé indultak.</p>
+                  <p>Mikor a Vaskapun nagy nehezen átvergődtek, megkönnyebbülten sóhajtottak föl a
+                     fiúk.</p>
+                  <p>- Hála Istennek, csakhogy itt vagyunk, most már jó utunk lesz lefelé.</p>
+                  <p>Még egyszer megálltak ott és fölnéztek arra a hatalmas sziklára, melyen a
+                     kereszt áll.</p>
+                  <p>Miklós bácsi jó erősen megütötte vas botjával az üreges sziklát s mily nagy lőn
+                     a fiúk ámulása, midőn a szikla az ütéstől erős csengő hangot adott.</p>
+                  <p>Miklós bácsi látva a fiúk csudálkozását, meg is magyarázta mindjárt a furcsa
+                     tünemény okát.</p>
+                  <p>- Ezek a sziklák, - mondá, - bazaltkövek. A bazaltkő pedig olyan természetű,
+                     mint az üveg. Nagyon tömött, kemény. A szine is csillogó és ha kővel és vagy
+                     vassal megütik, csengő hangot ad. A nép épen azért harangozó bércznek - zalai
+                     tájnyelven »harangozó börcz«-nek hivja ezt a sziklát.</p>
+                  <p>Elbucsúztak a harangozó bércztől is, és a szőlők között a szálló felé vették
+                     utjukat.</p>
+                  <p>A hegyi úton az öreg szőlő-csősz csatlakozott hozzájuk. Még ilyen időtájban nem
+                     érik a szőlő, nem igen van mire vigyáznia, hát unalmában is szivesen
+                     elbeszélget, ha valami élő lélekre talál a hegyekben.</p>
+                  <p>- ’Csés jó estét adjon Isten! - köszönt az öreg és tisztességtudással
+                     megemelintette zsíros kalapját. - Honnan jönnek az úrfiak, ha meg nem sértem
+                     kérdésemmel?</p>
+                  <p>- Fogadj Isten, bátya! - köszönt vissza Miklós bácsi, mi bizony onnan felűl, a
+                     hegytetőről jövünk.</p>
+                  <p>- Hm... - köhintett az öreg egyet és tovább fűzte a beszédet. - Hát akkor a
+                     »harangozó börcz«-öt is látták.</p>
+                  <p>- Láttuk bizony.</p>
+                  <p>- Hát aztán a meséjét tudják-e?</p>
+                  <p>- Már azt nem tudjuk, de ha elmondaná, szivesen meghallgatjuk.</p>
+                  <p>Az öreg csősz kiverte a pipáját (mert az az első!). Zsebre tette, azután néhány
+                     köhintéssel megköszörűlte a torkát és elkezdte a harangozó bércz meséjét:</p>
+                  <p>- Volt egyszer itt Badacsonyban két atyafi gyerek. Édes testvérek voltak.
+                     Ferkónak hivták az egyiket, Jóskának a másikat. Jóska gyönge, beteges, jószívü
+                     fiú volt, Ferkó tagbaszakadt, erős legény, de szörnyen gonosz lelkű. Kis szőlő
+                     és kis hajlék maradt rájuk az apjukról. Egyformán jussoltak belőle: Jóska az
+                     egyik felét, Ferkó a másikát. Meg is élhettek volna békességgel holtuk napjáig.
+                     Hanem a gonosz lelkű Ferkó egészen magának akarta a házat és elhatározta, hogy
+                     a szegény gyámoltalan Jóskát elteszi láb alól. Halászgató ember volt, hát úgy
+                     eszelte ki, hogy majd becsalja magával Jóskát a vizre és ott beletaszítja a
+                     Balaton közepébe; senki sem tudja meg soha.</p>
+                  <p>Egy kora hajnalon, mikor még sötét volt és a többi halászok aludtak, csakugyan
+                     fölverte álmából a szerencsétlen beteg fiút:</p>
+                  <p>- Öltözködj hamar, bejösz a vízre.</p>
+                  <p>- Mit csináljak én a vizen, bátyám? - kérdezte Jóska.</p>
+                  <p>- Az nem a te gondod!</p>
+                  <p>Ferkó egy nagy követ és kötelet tett a csónakba.</p>
+                  <p>Jóska rosszat sejtett, de nem mert ellenkezni, bele ült szépen a csónakba és
+                     eveztek befelé.</p>
+                  <p>Mikor körülbelűl a víz közepére értek, Ferkó megállitotta a csónakot és így
+                     szólt Jóskához:</p>
+                  <p>- Most meghalsz, mert ketten nem maradhatunk abban a kis hajlékban.</p>
+                  <p>Szegény Jóska rimánkodva kérte bátyját, hogy ne bántsa, hiszen ő nem vétett
+                     neki semmit. De a gonosz testvér nem ismert irgalmat. Csak annyit engedett meg
+                     öcscsének, hogy utoljára imádkozzék egyet.</p>
+                  <p>- Uram bocsáss meg azoknak, a kik ellenem vétettek... - imádkozott Jóska, mig
+                     Ferkó ez alatt a kötelet kötötte a kőre és hurkot készitett. Az volt a
+                     rettenetes szándéka, hogy a hurkot majd a szegény fiú nyakára veti és a kővel a
+                     Balaton fenekére sülyeszti.</p>
+                  <p>De mikor meghallotta, hogy öcscse érte imádkozik, zavarba jött s egy ideig
+                     tétovázott. Egész testében remegve odalépett végre az áldozathoz s
+                     szétfeszitette a hurkot, hogy öcscse nyakába akaszsza...</p>
+                  <p>Ebben a pillanatban megszólalt odafönt a harangozó börcz: bim-bam... bim-bam...
+                     Mintha Isten szava hangzott volna a magasból: »Gonosz fiú, mit csinálsz? Ha
+                     senki nem lát is, én látlak!«...</p>
+                  <p>Ferkó megtántorodott, a csónak megbillent alatta s ő a vízbe zuhant... A
+                     zsineg, a mit kezében tartott, esés közben a nyakára hurkolódott, magával
+                     rántotta a rákötött sulyos követ is, a mely a gonosz testvért egyszerre a
+                     Balaton fenekére sülyesztette.</p>
+                  <p>Jóska megmenekült és azóta mindennap kijárt a harangozó bérczre imádkozni a
+                     bátyja lelki üdvösségéért...</p>
+                  <p>Az öreg csősz itt elvégezte meséjét s a fiúk szinte megkönnyebbülten
+                     lélekzettek fel, hogy az a gonoszlelkű Ferkó vesztével és az ártatlan Jóska
+                     megmenekülésével végződött.</p>
+                  <p>Bucsút vettek a mesemondótól és a szállóba siettek, a hol már várta őket a jó
+                     vacsora. Pompás halpaprikást kaptak, a melyet frissen fogott balatoni halakból
+                     maga a halász-gazda készitett. Nincs ennek párja sehol a világon, már csak
+                     ezért magáért is érdemes volna elmenni a Balaton partjára. Dicsérték is a fiúk
+                     falatozás közben a kitünő eledelt és csak azt sajnálták, hogy édes apjuk nem
+                     volt ott és nem ehetett belőle. Mert tudták, hogy az is nagyon szereti a
+                     halpaprikást. Csakhogy az Alföldön ritkán lehet hozzájutni. Ilyen jóhoz meg
+                     soha.</p>
+                  <p>- Édes apa már eddig bizonyosan Keszthelyen van, - mondá Miklós bácsi, - mert
+                     úgy irta, hogy ma érkezik oda. Holnap mi is oda megyünk.</p>
+                  <p>A fiúk nagyon megörűltek a közeli viszontlátásnak.</p>
+                  <p>Vacsora után szobájukba tértek, hogy lepihenjenek. A sok gyaloglás, hegymászás
+                     után jó fog esni az éjjeli nyugalom.</p>
+                  <p>De mielőtt ágyba feküdtek volna, még sokáig elgyönyörködtek ablakukból azon a
+                     tündérmesébe illő képen, melyet a pihenő Balaton mutatott.</p>
+                  <p>Szép a Balaton nappal, mikor csupa élet, elevenség. A szivárvány minden szinét
+                     magára ölti tarka változatban. Most haragos zöld, majd égszinkék, aztán meg
+                     vakitó aranyszínben ragyog. Most elborúl, majd kiderűl tükre, mintha csak élő,
+                     érző lelke volna. A part felé siető fodros hullámok hátán s a sűrű nádasokban
+                     is zsong-zsibong az élet. Zajos vízi madarak: vadkacsák, vadludak lubiczkolva
+                     fürdenek a hűvös hullámokban, a fehérszárnyú sirályok sikongva czikáznak a viz
+                     felett. Ha egy-egy kárász, vagy garda közel jön a víz szinéhez, villámgyorsan
+                     csapnak le rá. A hosszúnyakú gém komoly méltósággal áll a sekélyes vizben s
+                     kigyót, békát kémlel a fenéken...</p>
+                  <p>De talán még szebb a Balaton éjjel, mikor pihen.</p>
+                  <p>A nap leáldozott. Az estharangok méla szava átzeng bérczen-völgyön s a vizek
+                     felett. Megszünik a napi munka, ember, állat hazasiet éjszakai pihenésre.
+                     Elpihen a Balaton is. Csónak, hajó nem szeli hullámait. Lármás lakói is
+                     egymásután elvonúlnak a nádas sűrűjébe fészkükre és búvóhelyeikre. A hegyek
+                     mögűl lassú méltósággal felemelkedik a hold, kigyulad a csillagok ragyogó
+                     milliárdja. A holdfényből, csillagsugárból ezüst fátyol szövődik a víz szinére.
+                     A holdnak és a csillagoknak tündöklő visszfénye ott ragyog a tó óriási ezüst
+                     tükrében. Mintha két eget látna az ember, egyet fent a magasságban s egyet lent
+                     a mélységben... A hab csak néha-néha loccsan, mikor egy-egy álmatlan virgoncz
+                     hal játékos kedvvel fölveti magát a víz szine fölé... A nádas is csak néha
+                     zörren meg, vadludak csöndes gágogó beszéde hallatszik ilyenkor. Talán azt
+                     kérdezgetik egymástól: Alszol-e, pajtás? Alszol-e már?... Ők is elnémúlnak,
+                     aztán mélységes csend borúl a tóra. Alszik minden... csak ott túl a somogyi
+                     bérczek oldalán virrasztanak a halvány fényű pásztortüzek.</p>
+                  <p>Sokáig gyönyörködtek ebben a bűbájos éjjeli képben a fiúk s már éjfélre járt az
+                     idő, mikor pihenésre hajtották fejüket.</p>
+                 
+               </div>
+               <div type="chapter">
+                  <head>
+                    Szigliget és Szentmihály hegye.
+                  </head>
+                  <p>Reggel korán kocsira ültek utasaink és Keszthely felé vették utjokat, hogy ott
+                     a fiúk édes apjával, nemzetes Gál András urammal, találkozzanak.</p>
+                  <p>Nyugoti irányba haladva csakhamar elértek Szigliget alá. Szigligetet
+                     Badacsonytól ugyanis csak egy völgy, az Eger patak völgye választja el.</p>
+                  <p>Szigliget érdekes, regényes bérczei már messziről megragadták a fiúk figyelmét.
+                     Hármas hegy ez voltaképen, melynek egyik magasabb csúcsán kisded falútól
+                     körűlvéve emelkednek a szigligeti vár barna falai. A várról és hajdani urairól
+                     szintén gyönyörű regét írt Kisfaludy Sándor.</p>
+                  <p>A faluba érve leszálltak a kocsiról és gyalog mentek föl a romok közé a fiúk,
+                     Miklós bácsi elmondta a szigligeti vár történetét:</p>
+                  <p>- A vár nagyon régen, IV. Béla király idejében épűlt.</p>
+                  <p>- Talán a tatárjárás után? - kérdezte Feri, a ki épen az idén tanúlta
+                     Magyarország történetét és tudta, hogy a tatárok a végzetes muhi csata után ezt
+                     a vidéket is tűzzel-vassal elpusztították. Csak három dunántúli vár menekült
+                     meg a mongolok dühétől: Esztergom, Székesfehérvár és Szent-Márton.</p>
+                  <p>- Igen, a tatárjárás után épült ez a vár, - felelt Miklós bácsi, - mikor az a
+                     garázda népség értesülvén Oktaj khán haláláról, hirtelen elhagyta az országot.
+                     A király engedelméből egy Tarus nevű pannonhalmi apát épitette a várat, mert
+                     erre jártában igen megtetszett neki Szigliget vidéke. Később a hatalmas Ujlaky
+                     család birtokába kerűlt és igen híres erősség volt. A török sokszor ostromolta,
+                     de sohasem tudta bevenni.</p>
+                  <p>Az Ujlakyak kezéből a dúsgazdag Lengyeltóthy-család tulajdonába ment át a
+                     szigligeti vár. Régi dicsősége azonban örökre letünt, mert nem volt többé a
+                     hazaszeretet szikla-oltára, s a magyar szabadság védő bástyája! A német időben,
+                     a kurucz és labancz világban dicstelen szerepet játszott Szigliget.</p>
+                  <p>Mig édes testvére és szomszédja, Csobáncz büszke daczczal verte vissza a német
+                     támadását, addig Szigliget térdet, fejet hajtott a haza ellensége előtt. Urai
+                     alázatos szolgái voltak a németnek. Csobánczot levegőbe is robbantotta azután
+                     a német, Szigligetet azonban megkimélte.</p>
+                  <p>De azért azt is elérte büntetése. A minden földi hatalomnál erősebb, nagyobb
+                     hatalom sujtotta porba. Az, a ki ott lakik a felhők felett és számon tartja az
+                     emberek bűneit.</p>
+                  <p>Egy viharos, zivataros nyáron tízszer ütött egymásután az ég haragja, a villám,
+                     Szigliget büszke várába s lerombolta, izzé-porrá égette... Az urai is mind
+                     kipusztultak, hirmondójuk sincs ma már.</p>
+                  <p>- Megérdemelték! - kiáltották egyszerre a fiúk nemes felháborodással.</p>
+                  <p>- Igen, megérdemelték! Mert a nemzet minden fiának ott kell lennie a nemzet
+                     minden küzdelmében. Ágyu elé, puskatűzbe kell állnia, vérpadra kell lépnie
+                     inkább, mint az ellenséggel czimborálnia. »Ez hazaárulás, olyan bűn, a melyre
+                     nincs irgalom sem földön, sem égen«...</p>
+                  <p>Szomorú érzések közt távoztak a fiúk Szigligetről és tovább folytatták utjokat
+                     Keszthely felé.</p>
+                  <p>Mikor Balaton-Ederics és Meszes-Györök falun áthaladtak, a Balaton és az
+                     országút között egy sírdomb alakú halom tünt szemükbe; a halom tetején kis
+                     kápolna állt.</p>
+                  <p>A kocsis, mikor látta, hogy utasai érdeklődéssel vizsgálják azt a halmot és
+                     kápolnát, minden kérdezés nélkűl elmondta, a mit róluk tudott.</p>
+                  <p>Az a »Szentmihály hegye«, - mondá és ostorával a halom felé mutatott. -
+                     Hajdanában nem volt kápolna rajta, hanem barlang volt a kápolna helyén. Abban a
+                     barlangban szentéletű remete lakott. Ott is van eltemetve és sírja fölött áll a
+                     kápolna. A nép bucsút jár oda.</p>
+                  <p>A fiúk leszálltak a kocsiról, hogy közelről is megtekintsék az érdekes halmot
+                     és kápolnát. Miklós bácsi ott aztán bővebben elmondta a Szentmihály hegyi
+                     remete történetét.</p>
+                  <p>- Gersei Pethő Menyhárt volt régen a török háborúk idején e vidék ura. Jó vitéz
+                     volt Menyhárt uram és apródjával Bodor Imrével sok háborút végig küzdött. A
+                     haja szála sem görbűlt meg soha. Hanem egyszer mégis majd ott hagyta a fogát a
+                     csatatéren. Egy óriási török hátulról észrevétlenül ráemelte kardját, hogy
+                     ketté hasítsa fejét. Ekkor ugratott oda Bodor Imre, halálosan főbe vágta
+                     kardjával a törököt s így megmentette urát.</p>
+                  <p>- Neked köszönöm az életemet, Bodor Imre, - szólt Menyhárt úr az apródhoz, -
+                     hálás leszek érte. Válaszsz akármit, a mi az én birtokom, neked adom.</p>
+                  <p>Menyhárt úr persze azt gondolta, hogy az apród valamelyik pusztáját vagy
+                     faluját fogja választani.</p>
+                  <p>De Bodor Imrének nem kellett se falu, se puszta.</p>
+                  <p>Ő mást választott. A szép Pethő Lillát, Menyhárt úr egyetlen leányát, kérte
+                     feleségűl.</p>
+                  <p>Szörnyű haragra lobbant a dúsgazdag úr, hogy az ő leánya kezét egy
+                     ágrólszakadt, szegény apród meri megkérni. Régen oda igérte ő azt már Dersffy
+                     László úrfinak.</p>
+                  <p>Csakhogy a szép Lilla kijelentette ám, hogy ő nem akar a kevély Dersffy
+                     felesége lenni, hanem egyedül csak Bodor Imréé.</p>
+                  <p>Erre aztán még jobban megharagudott Pethő Menyhárt és a szegény apródot
+                     elkergette udvarából. El is ment szegény Bodor Imre úgy, hogy hírét sem
+                     hallották többé. Mindenki azt hitte, hogy beleölte magát a Balatonba. A szép
+                     Lilla egyre busúlt, búslakodott utána. Hervadt, hervadozott a sír felé...
+                     Menyhért úr ekkor megbánta tettét és mindenütt kerestette az apródot, hogy ha
+                     megtalálják, hívják vissza és neki adja Lilla kezét. De késő volt már a
+                     megbánás. Lilla meghalt, Bodor Imrét nem találták sehol. Nem ölte ugyan magát a
+                     Balatonba, hanem elvonúlt a Szentmihály hegyi barlangba s ott remetéskedett,
+                     imádkozott halála napjáig. Halász emberek akadtak rá holttestére és ők temették
+                     el őt a halom tetején. Mikor Pethő Menyhért ezt megtudta, elvitette tetemét a
+                     családi sírboltba Lilla mellé. Ide, a halom tetejére pedig bűnbánása jeléűl
+                     kápolnát épittetett. S azóta bucsúra jár ide a vidék népe.</p>
+                  <p>- Kisfaludy Sándor is gyakran megfordúlt itt, - folytatta tovább elbeszélését
+                     Miklós bácsi - és egy gyönyörű regében meg is örökítette a »Szentmihály hegyi
+                     remete« bús történetét. Abban a regében így rajzolta meg Kisfaludy a
+                     Szentmihály-hegy képét:</p>
+                  <p>Szigliget és Keszthely között</p>
+                  <p> Bele unván borába,</p>
+                  <p> Melyet terem, a szőlőhegy -</p>
+                  <p> A Balaton tavába</p>
+                  <p> Hosszú keskeny nyelvet tolt be.</p>
+                  <p> Fél gombolyag képében,</p>
+                  <p> Gömbölyűen domborodott</p>
+                  <p> Hegyecske áll végében.</p>
+                  <p> Tetején egy kápolnának</p>
+                  <p> És remeték lakásának</p>
+                  <p> Omladéka látszik még:</p>
+                  <p> Mohos, mesés régiség…</p>
+                  <p>A »mohos, mesés régiség«-től bucsút vettek utasaink, s a szőlőhegyek között
+                     mindenütt a Balaton mentén vezető, lombos fákkal szegett szép uton csakhamar
+                     elértek Keszthelyre.</p>
+                  <p>Keszthelyen találkoztak a fiúk édes atyjukkal, a ki már az előző nap estéjén
+                     oda érkezett. Mindjárt elhatározták, hogy délután együtt nézik meg a város
+                     nevezetességeit s másnap reggel haza felé indúlnak. Siófokig hajón mennek,
+                     onnét meg gőzösön hazáig. A fiúk arra kérték Miklós bácsit, hogy menjen el ő is
+                     velök s majd ott meg ők mutatják meg az ő szülőföldjük: a délibábos Alföld
+                     szépségeit. Édes atyjuk is szives szavakkal hívta Miklóst, de az csak annyit
+                     igért meg, hogy most csak Siófokig kiséri el őket. Mert odahaza már nyugtalan
+                     lélekkel várja őt jó öreg édes anyja, a kit már tíz hónap óta nem látott. Azt
+                     dobogja a szive, hogy most hozzá kell sietnie!</p>
+                  <p>Gál András uram meghajolt a fiúi szeretet előtt, és csak azt igértette meg
+                     Miklóssal, hogy még a vakáczió folyamán elmenjen hozzájok látogatóba.</p>
+                  <p>Gál Andrást, mint gazdálkodó embert, különösen a gazdasági iskola érdekelte
+                     Keszthelyen. Először hát annak a megtekintésére indúltak.</p>
+                  <p>Útközben szemügyre vették a várost is. A fiúknak igen tetszett az eleven,
+                     kedves, csinos kis városka, mely már a Balaton legnyugotibb részén, az
+                     úgynevezett keszthelyi öböl partján épűlt.</p>
+                  <p>Nagyon régi hely. Az ásatások alkalmával előkerűlt régiségek bizonyítják, hogy
+                     már a rómaiak és hunok is telepet alkottak itt. Régebben, az Árpád-királyok
+                     korában »Gesztel« volt a neve. Egyfelől a Balaton vize, másfelől szép
+                     termékeny, hullámos síkság környezi. Legnevezetesbb épület a gróf Festetics
+                     család fejedelmi fénynyel épített kastélya.</p>
+                  <p>Mikor a gazdasági iskolához értek, Miklós bácsi elmondta a fiúknak, hogy ezt a
+                     hasznos intézetet, a melyben magyar gazdákat nevelnek, Festetics György gróf
+                     alapitotta 1798-ban. Az ő nevéről nevezték el »Georgicon«-nak.</p>
+                  <p>Nagy érdeklődéssel vizsgáltak meg mindent. Az intézet szép nagy épületét,
+                     kertjét, szőlő- és mezőgazdaságát. Az intézet növendékei ott sürögtek, forogtak
+                     a gazdaságban és ugyancsak izzadtak a munkában. Egyiknek ásó, másiknak kapa
+                     volt a kezében, harmadik az eke szarvát fogta.</p>
+                  <p>A fiúk ugyancsak elcsodálkoztak.</p>
+                  <p>- Milyen különös iskola ez, - mondották, - a hol a tanulók nem vakáczióznak,
+                     hanem egy ingre vetkőzve együtt dolgoznak a munkásokkal.</p>
+                  <p>- Hja, fiam! - szólt Gál András uram, - a jó gazdának nem csak a könyveket kell
+                     ám ismernie, hanem az ásó-kapa nyelét, meg az eke szarvát is; csak úgy
+                     boldogulhat az életben.</p>
+                  <p>Ezután a nagyszerü grófi kastélyt tekintették meg.</p>
+                  <p>Festetics György dicső emléke elevenedett ott meg lelkük előtt.</p>
+                  <p>Bölcs elméjű, kitűnő gazda s fenkölt lelkű, áldozatra kész hazafi volt gróf
+                     Festetics György. Méltó reá, hogy emléke előtt minden magyar ember tisztelettel
+                     emeljen kalapot! 1754-ben született és 1819-ben halt meg. Azon kivűl, hogy a ma
+                     is virágzó gazdasági tanintézetet fölállította, a magyar nemzeti szellem
+                     ébresztésének nagy munkájában is az elsők között volt. Fenkölt lelkének
+                     tanúbizonysága a »Keszthelyi Helikon« néven rendezett fényes ünnepségek. Minden
+                     évben kétszer tartott ilyen ünnepet a keszthelyi palotájában Festetics György.
+                     Meghívta erre az ünnepre a szomszédos vármegyék birtokos urait, a Dunántúl
+                     íróit és tudósait: Berzsenyi Dánielt, Kisfaludy Sándort stb.</p>
+                  <p>A helikoni ünnep isteni tisztelettel kezdődött. Azután jött a diszülés, melyen
+                     a gazdasági intézet növendékei szavaltak, a meghívott költők és tudósok új
+                     műveiket olvasták föl. Ezután lakoma, színi előadás és tánczmulatság
+                     következett, melyre a vidék népe is hivatalos volt.</p>
+                  <p>Méltán írta Festetics Györgyről egyik szép költeményében Kisfaludy Sándor:</p>
+                  <p>Te, a mit érsz, tudsz, birsz, teli szivvel</p>
+                  <p> És bő kézzel osztod, s közre bocsátod a</p>
+                  <p> Hazában. A mag, melyet így vetsz,</p>
+                  <p> Oh! mi dicsőt terem egykor itten.</p>
+                  <p>Bölcs magyar! élni fogsz.</p>
+                  <p> Neved dicső lesz, míg magyar él s lehel,</p>
+                  <p> És csillagát tisztelni tudja,</p>
+                  <p> A ki sugárt ragyogott nevére!</p>
+                  <p>A kastély megtekintése után még »Héviz»-re rándúltak ki utasaink. Héviz nyugot
+                     felé mintegy öt kilométernyi távolságban fekszik Keszthelytől. Csinos kis
+                     fürdőtelep, melynek jótékony természetes meleg vize sok szenvedőnek nyujt
+                     évenként enyhülést.</p>
+                  <p>Este volt, mikor visszatértek a városba. Az éjszakát ott töltötték s reggel a
+                     harsány kürtjelzésre siettek a »Baross« gőzhajó födélzetére.</p>
+                  <p>Pompás idő kedvezett az indulásnak.</p>
+                  <p>A fölkelő nap fényében csillogott, ragyogott a Balaton. A világos zöld víz
+                     ezüstfehér fodrokkal csipkézett habjait vigan szelte a fürge járású
+                     gőzhajó.</p>
+                  <p>Az utasok mind a födélzeten voltak, tele tüdővel szívták a reggeli üde levegőt.
+                     Szemmel, szivvel, lélekkel gyönyörködtek abban az Istenkéz-alkotta remek
+                     panorámában, a mely előttük elvonúlt. Onnan, a Balaton kellős közepéről nézve
+                     még szebbnek tünik föl Zala regényes partvidéke, mint egészen közelből.</p>
+                  <p>A fiúk még egyszer meglátták azt az egész szépséges tájat, a melyet olyan
+                     gyönyörűséggel kalandoztak be Miklós bácsival.</p>
+                  <p>Keszthely és a nyugoti partok mindjobban elmaradtak, a hogy haladt a hajó
+                     keletnek.</p>
+                  <p>Gál András uram egy perczre sem tudta levenni szemét a zöldelő halmokról,
+                     regényes romokról.</p>
+                  <p>A fiúk lelkesen, örömtől csillogó szemmel magyarázták édes atyjuknak az immár
+                     jól ismert vidék szépségeit és nevezetességeit.</p>
+                  <p>- Az ott Szentmihály-hegye, a hol a szegény Bodor Imre remetéskedett. Az a
+                     hármas csúcsú ott Szigliget-hegye, melynek büszke várát az ég haragja sujtotta
+                     porba... Amott Csobáncz dicsőséges tetője, a hol amúgy kuruczosan elbántak a
+                     labanczczal Száz Márton hajdui és a zalai asszonyok... S utána a balatoni
+                     hegyek fejedelme, az öreg Badacsony, a régi tűzhányó, melynek oldalán most
+                     tűzerejű bor terem. Ott a keleti oldalon fehérlik egy kis egyszerű hajlék:
+                     Kisfaludy Sándor háza, a hol a koszorús költő halhatatlan regéit írta...</p>
+                  <p>Gál András nagy örömmel hallgatta a fiúkat s nagy volt öröme és megelégedése,
+                     hogy nem veszett kárba az az idő, a mit fiai az utazással töltöttek. Szivük,
+                     lelkük megtelt nemes hevüléssel a táj szépségein s a mult idők dicső emlékein.
+                     Növekedett, gyarapodott szeretetük, ragaszkodásuk az édes drága honi földhöz,
+                     melynek minden rögére apáink vére hullt, mely drága szent kincsünk minekünk,
+                     mert »A nagy világon e’kivül nincsen számunkra hely.«</p>
+                  <p>A hajó Badacsony alatt nehány perczre horgonyt vetett, majd tovább folytatta
+                     útját a szomszédos Rév-Fülöp felé, a hol szintén kikötött. Rév-Fülöp régebben
+                     Kővágó-Eörs szőllőhegye volt, ma már szintén virúló fürdő-telep; szemben van
+                     vele a somogyi parton Boglár vasúti állomás, a honnan gőzhajó jár
+                     Rév-Fülöpre.</p>
+                  <p>Innen Tihany orma felé vette irányát a »Baross». Sorba tüntek elő és maradtak
+                     el a parti falvak csillogó tornyukkal és sudár jegenye fáikkal; Szepesd, Zánka,
+                     Akali, Dörgicse, valamennyi kitűnő bortermelő hely és lakói tősgyökeres
+                     magyarok.</p>
+                  <p>Mikor a dörgicsei völgykatlan irányában járt a hajó, Miklós bácsi sokáig néma
+                     meghatottsággal nézett észak felé, a hol a hegyek mögűl szülőfalujának tornya
+                     intett feléje. Forró könnycsepp csordúlt szeméből. Öreg édes anyjára gondolt, a
+                     ki már bizonyosan aggódó szeretettel várja őt, és sokszor kitekint az
+                     országútra: jön-e már az én édes fiam, jön-e már?...</p>
+                  <p>A fiúk is megösmerték a mencshelyi tornyot és hálásan emlékeztek meg atyjuk
+                     előtt az áldott lelkű Jó néniről, a ki tavaly ottlétükkor olyan meleg
+                     szeretettel fogadta őket. Kendőjüket lobogtatták a hegyek felé... Hátha künn
+                     áll a kedves Jó néni, hátha meglátja?...</p>
+                  <p>A hajó most irányt változtatott, megkerűlte a tihanyi félszigetet s az utasok
+                     előtt feltünt Siófok, a hol nemsokára ki is kötöttek.</p>
+                  <p>Miklós bácsi, a közeli viszontlátás reményében bucsút vett Gáléktól s a
+                     mindjárt visszainduló hajóval Füredre ment. Onnan édes jó anyjához sietett.</p>
+                  <p>A fiúk édes atyjukkal még körűlnéztek egy kicsit Siófokon, délután megfürödtek
+                     a hűvös hullámokban s este azután gőzösre ültek. A tüzes szemű vasparipa
+                     prüszkölve vágtatott velük a bérczes-völgyes szép Balaton-vidékről
+                     szülőföldjük: a délibábos Alföld rónatája felé.</p>
+                 
+               </div>
+            </div>
+      </body>
+  </text>
+</TEI>
