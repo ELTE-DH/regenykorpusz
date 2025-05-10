@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU22684" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A halál árnyékában</title>
+            <author>
+               <persName>
+                  <surname>László</surname>
+                  <forename>Ferenc</forename>
+               </persName>
+               <date from="1896" to="1951">1896-1951</date>
+               <idno type="VIAF">308184908</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">11301</measure>
+            <measure unit="pages">28</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>A halál árnyékában</title>
+               <date>2022-01-04</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/22600/22684/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Drótos László</name>
+                  <name>Szabó Attila</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>A halál árnyékában</title>
+               <author>László Ferenc</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Világv. Reg. Kiadóváll.</publisher>
+               <date>1933</date>
+               <ref target="https://mek.oszk.hu/22600/22684/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A halál árnyékában</title>
+               <author>László Ferenc</author>
+               <date>1933</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc n="eltec-0">
+        <p/>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="hu">Hungarian</language>
+        </langUsage>
+     </profileDesc>
+     <xenoData>
+        <ns1:eltec>
+           <ns1:authorGender key="M"/>
+           <ns1:size key="short"/>
+           <ns1:canonicity key="low"/>
+           <ns1:timeSlot key="T5"/>
+        </ns1:eltec>
+     </xenoData>
+     <revisionDesc>
+        <change when="2025-05-10"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+         <div type="chapter">
+            <head>
+               Az ismeretlen szerző szenzációs drámája.
+            </head>
+            <p>A ködös, téli délelőtt a színház irodájában éppen úgy kezdődött, mint mindennap.
+               Spielmann úr, a berlini Neues Theater titkára kissé álmosan ült le tíz óra tájban
+               íróasztalához és unottan kezdte bontani a postát. Számlák, egy amerikai színpadi
+               kiadó levele, egy csomó külföldi ujság, titkos drámairók erélyes sorai, amelyekben
+               beküldött kézirataikat reklamálták, néhány magánlevél az igazgató részére és megint
+               számlák, számlák végtelen sora... A Neues Theater sem dicsekedhetett azzal, hogy
+               pontosan fizet hitelezőinek, a szezón itt sem indult sok szerencsével és a színházi
+               válság felhői tornyosultak Berlin belvárosának intim kis színháza felett is...</p>
+            <p>A napi posta alján egy nagyobb csomag volt. Spielmann úr gyakorlott szeme azonnal
+               felismerte benne a kéziratköteget és a papírvágókéssel közömbösen vágta fel a
+               gondosan átkötött és lepecsételt csomagot. Már megint valami titkos drámaíró... -
+               gondolta bosszúsan. A munkanélküliség csak arra jó, hogy mindenki a drámaírásban
+               keressen menedéket és szegény színházi titkárok adminisztrációs munkáját
+               szaporítsa... Csak futó pillantást vetett a géppel írt ívek borító lapjára, amelyen
+               ez a cím volt olvasható:</p>
+            <p>„A halál árnyékában”.</p>
+            <p>Ez a cím csak megerősítette a derék titkárt abban a gyanújában, hogy valóban valami
+               titkos drámaíró kísérletéről van szó és már félre akarta tolni az egész
+               kéziratcsomót, amikor abból egy levél hullott eléje. A levelet is géppel írta küldője
+               és ami Spielmann urnak azonnal feltünt: a levélről hiányzott az aláírás. Most már
+               nagyobb érdeklődéssel kezdte olvasni a sorokat, amelyek a következőképpen
+               hangzottak:</p>
+            <p>„Igazgató Úr! Egy drámát küldök önnek, amelyet, remélem, el fog olvasni és így elő is
+               fog adni. A darab önmagáért beszél és ezért nem is fűzök hozzá semmiféle megjegyzést.
+               Csupán egy dologra akarom nyomatékosan felhívni figyelmét. Amint láthatja, sem a
+               dráma kéziratán, sem levelem végén nem szerepel a nevem. Senkisem fogja soha
+               megtudni, hogy ki vagyok. Ha darabomat a Neues Theater műsorára tűzi, a tantiemek
+               felvételéről gondoskodni fogok olyan módon, hogy még megbizottam sem fogja ismerni
+               kilétemet. Lehetséges azonban, hogy teljesen lemondok minden honoráriumról... Azt
+               hiszem, ezért ön fog legkevésbé haragudni... Figyelmeztetem azonban, hogy hiábavaló
+               minden kutatás, inkognitómat sohasem fogom levetni. Rámszabadíthatja a legügyesebb
+               riportereket, megpróbálkozhat akár a legagyafurtabb detektívekkel is, a nevemet nem
+               fogja soha megtudni sem ön, sem más... Ragaszkodnom kell ehhez a szigorú
+               titoktartáshoz, nem azért, mintha ezzel akarnék reklámot csinálni magamnak, hanem
+               sokkal komolyabb okok miatt, amelyeket hamarosan meg fog érteni ön is. Megigérem
+               azonban önnek, hogy abban az esetben, ha elfogadja előadásra „A halál árnyékában”
+               cimű drámámat, egészen rendkívüli reklámról is gondoskodom színháza részére, olyan
+               reklámról, amilyent eddig még nem találtak ki színdarab részére. Ma még csak annyit
+               közölhetek, hogy közvetlenül a darab bemutatója előtt olyan szenzációk fognak
+               történni, amelyek a legszorosabb összefüggésben lesznek a drámával és amelyek az
+               egész sajtót foglalkoztatják majd... Választ nem várok öntől, hogy darabomat
+               előadják-e, azt meg fogom tudni a lapok színházi rovatában leadott kommünikéikből.
+               Igazgató Úr, élvezze drámám olvasását úgy, ahogyan a megírását élvezte</p>
+            <p>A névtelen szerző.”</p>
+            <p>Spielmann úr meglepetése nőttön-nőtt a levél olvasása közben és most már egyáltalán
+               nem tartotta unalmasnak az előtte fekvő vaskos kéziratcsomagot. Bizonyára nyomban
+               hozzáfogott volna az olvasásához, ha ez a hatáskörébe tartozott volna. Igy azonban
+               felkapta a levelet és a kéziratot és izgatottan átsietett a dramaturghoz.</p>
+            <p>Gerhard Falkenheim dr. néhány perccel előbb érkezett a színházba. A magas, szikár
+               dramaturg-főrendező ott ült íróasztalánál és a reggeli lapokat olvasta. Addig
+               sohasem fogott munkájához, amíg tisztában nem volt a napi eseményekkel és át nem
+               böngészte a lapok színházrovatát. Amíg ezen túl nem esett - szokta mondani -, úgy
+               érezte, mintha analfabéta volna, akinek naponta előlről kell kezdenie a
+               tanulást...</p>
+            <p>Szórakozottan nézett fel ujságjai mögül és úgy kérdezte:</p>
+            <p>- No, mi ujság, Spielmann?</p>
+            <p>A titkár izgatottan referált:</p>
+            <p>- Különös kézirat érkezett a mai postával, doktor úr, egy furcsa levél kíséretében,
+               amelyet soronkívül hoztam be...</p>
+            <p>Falkenheim dr. figyelemre sem méltatta a kéziratcsomagot, hanem csak a levelet vette
+               át Spielmanntól. Átfutotta a sorokat, amelyeknek hangja és tartalma őt is meglepte.
+               Csak most vette kezébe a kéziratköteget, amelynek mintha a súlyát mérte volna le...
+               Lapozgatott a géppel írt ívek között, majd mosolyogva mondotta:</p>
+            <p>- A levél bizonyára érdekesebb, mint a dráma... Valami ismeretlen író, úgy látszik,
+               így akarja magára terelni a figyelmet... Ismerjük már az ilyen trükköket... Hát csak
+               hagyja itt, Spielmann...</p>
+            <p>A titkárt kissé megzavarta, hogy a dramaturg ilyen közömbösen fogadja a küldeményt,
+               vállat vont és kiment. Nagy lett volna azonban a meglepetése, ha látja, hogy távozása
+               után dr. Falkenheim azonnal abbahagyja az ujságolvasást és leplezetlen érdeklődéssel
+               veszi kezébe az ismeretlen szerző drámáját...</p>
+            <p>*</p>
+            <p>Délután két óra volt, amikor a dramaturg a kézirat végére ért. Ilyen elmélyedve talán
+               még sohasem olvasott kéziratot. Csak egyszer szakította meg néhány másodpercre az
+               olvasást, az első felvonás után, amikor az ajtóhoz sietett és bezárkózott szobájába,
+               nehogy valaki megzavarhassa... Aztán mohón olvasott tovább és közben izgatottan
+               szívta egyik cigarettát a másik után. A cigarettavégek egész tömege hevert a
+               hamutartóban, amikor dr. Falkenheim letette a kéziratköteget. Szinte kábult volt
+               attól a szuggesztív hatástól, amit a névtelen szerző drámája tett rá. Önkéntelenül is
+               nagyot nyújtózott, mintha ezzel a mozdulattal el akarná űzni az olvasottak lenyügöző
+               hatását. Kissé bosszankodott is önmagára, hogy ő, a tapasztalt színházi róka így át
+               tudja magát engedni egy ismeretlen író színművének...</p>
+            <p>Felállt és most érezte csak, hogy tagjai kissé meggémberedtek az órákon át tartó ülés
+               és olvasás alatt. Ujra nagyot nyújtózkodott és mintha most már visszatért volna a
+               nyugalma is, ami az előbb már csaknem elhagyta. A házi telefonon felhívta az
+               igazgatót.</p>
+            <p>- Benn vagy még, kérlek? - kérdezte.</p>
+            <p>- Éppen menni készülök - felelte Röhmer Róbert, a Neues Theater igazgatója. - Mi
+               ujság, Gerhard? Mi az, hogy egész délelőtt nem láttalak?</p>
+            <p>- Várj, kérlek, egy pillanatig. Azonnal átjövök, fontos közölni valóm van...</p>
+            <p>A következő percben a dramaturg már bennült Röhmer igazgató szobájában.</p>
+            <p>- Ez még nem fordult elő a prakszisomban - kezdte. - Egy ismeretlen szerző drámát
+               küldött be, amelyet most együltömben végigolvastam. Tudod, Róbert, hogy nem vagyok
+               egykönnyen elragadtatva valamitől, de most mégsem mondhatok egyebet: a legjobb dráma,
+               amit évtizedek óta olvastam. Remekmű...</p>
+            <p>A köpcös Röhmer igazgató joviális képén derűs mosoly jelent meg. A hangjában azonban
+               kis gúnyos árnyalat is volt, amikor csodálkozva megszólalt:</p>
+            <p>- Nem ismerek rád. Gerhard... Ennyire még nem láttalak lelkesedni. És ennyi jót tíz
+               év óta nem mondtál valamennyi színrekerült darabról... Ember, mi történt veled? Beteg
+               vagy?</p>
+            <p>- Nem tréfálok - felelte a dramaturg -, valóban szenzációs drámát küldött nekünk a
+               gondviselés egy ismeretlen szerző alakjában... A színház meg van mentve!</p>
+            <p>A kövér Röhmer most már nagyobb érdeklődéssel hallgatta a dramaturgot, de még mindig
+               nem akart hinni szavainak komolyságában. Csak amikor Falkenheim eléje tette a
+               titokzatos névtelen levelet és az igazgató elolvasta az öntudatos sorokat, kezdett ő
+               is izgalomba jönni.</p>
+            <p>- De hát ember, beszélj világosabban! - mondotta izgatottan rágcsálva vastag
+               szivarjának végét. - Mi ez tulajdonképpen? Társadalmi színmű? Iránydráma?
+               Kordráma?...</p>
+            <p>Falkenheim dr. egy pillanatig elgondolkozott.</p>
+            <p>- Egyik sem és talán mégis mindegyikből van benne valami - felelte. - Nem lehet
+               beskatulyázni, de hiszen ez nem is fontos. Lebilincselőbb a legizgalmasabb bűnügyi
+               drámánál és részben az is, emellett azonban a legtökéletesebb lélekfestés, amit
+               hosszú idő óta olvastam. Azt hiszem, nem túlzok, ha azt mondom, hogy Dosztojevszki
+               óta nem írta még meg senki megdöbbentőbb művészettel egy gyilkos
+               lelkiállapotát...</p>
+            <p>- A tartalma?</p>
+            <p>- El kell olvasnod! Még ma.</p>
+            <p>- Az természetes, hogy elolvasom, - felelte türelmetlenül az igazgató - de addig is
+               néhány szóval elmondhatod a lényegét...</p>
+            <p>- Ha kívánod, nem bánom, bár ebből úgysem látsz sokat... Egy író a dráma hőse, aki
+               mindenről a saját tapasztalatai alapján ír. Évekig csavarog az országutakon, amikor
+               egy nagy regényt akar írni a csavargók életéről... Hetekig jár be az elmeklinikára,
+               amikor egyik regényalakjának lelki elborulását akarja megírni... Távoli egzótikus
+               vidékekre utazik, amikor regényében ilyen miliőre van szüksége... Autón száguld a
+               legnagyobb tűzvészekhez, hogy személyes tapasztalása alapján írhasson a lángok
+               pusztításáról... Ott van a halálraítéltek kivégzésénél, hogy szemtől-szembe lássa a
+               halált... És amikor egyik regényében egy gyilkosról kell írnia, öl, hideg
+               megfontoltsággal gyilkol, hogy tapasztalásból tudja meg, mit érez egy gyilkos véres
+               tette után...</p>
+            <p>Röhmer igazgató még izgatottabban rágta szivarját és rekedten szólt közbe:</p>
+            <p>- Az ötlet nem rossz... Sőt határozottan érdekes. De a cselekmény? A drámai
+               összeütközés?</p>
+            <p>- Szerelmesének az anyját öli meg az író - folytatta a dramaturg - és a gyilkosság
+               rejtélyét nem tudják megoldani. Több embert gyanusitanak, ezek azonban sorra alibit
+               bizonyítanak. A híres íróra természetesen nem hárul a legcsekélyebb gyanú sem... A
+               regénynek óriási sikere van, minden kultúrnyelvre lefordítják. Az író ezután még
+               jobban ragaszkodik szerelmeséhez, sőt később feleségül is veszi. A gyilkosságról már
+               kezdenek teljesen megfeledkezni. Az íróban azonban örökké benne él a borzalmas tett
+               sötét emléke... Minden évben felkeresi a gyilkosság évfordulóján aljas merényletének
+               színhelyét és éppen ezáltal válik gyanussá... Azt hazudja ugyan, hogy a kegyelet
+               viszi a helyszínre, de fivérét, aki államügyész, nem tudja megtéveszteni. Az
+               ügyészben, aki mindenkinél jobban ismeri a gyilkosok természetrajzát, felébred a
+               szörnyű gyanú... Tudja, hogy így csak a gyilkost vonzza valami tettének
+               színhelyére... És az ügyész, nem mint hivatalos funkcionárius, hanem mint testvér,
+               egy drámai beszélgetés során kiveszi az íróból a töredelmes vallomást, amely már
+               úgyis égeti: ő ölte meg feleségének anyját... Felszabadul, amikor megosztotta titkát
+               valakivel... Csakhogy a fivér egyúttal államügyész is, akiben most viaskodni kezd a
+               testvéri szeretet a kötelességtudással. A viaskodás csak rövid ideig tart,
+               felülkerekedik az ügyész, akinek le kell tartóztatni a gyilkost... És a híres író,
+               aki fölött összeomlik minden, akitől most már iszonyodva fordul el fivére és
+               felesége, akit mindenkinél jobban szeret, végleg meghasonlik önmagával és a
+               világgal... Úgy érzi, hogy hivatásának a mártirja, hogy valami nagyot, bátrat
+               cselekedett az emberiség megjavításáért ezzel a gyilkossággal, amely csak arra volt
+               jó, hogy olyan regényt írjon, amely elrettentsen mindenkit az ölés ösztönétől... Már
+               csak lelki roncs az, aki a földi ítélőbirák elé kerül...</p>
+            <p>A Neues Theater igazgatója kidülledt szemekkel hallgatta dramaturgját, olyan feszült
+               figyelemmel, hogy még közbeszólni is elfelejtett. Pedig általában nem szívesen
+               hagyta szóhoz jutni az embereket... Csak most, hogy Falkenheim befejezte, ugrott fel
+               Röhmer és nagy léptekkel kezdett fel-alá járni a szobában.</p>
+            <p>- Elő kell keríteni a szerzőt, ha törik, ha szakad! - mondotta ellentmondást nem tűrő
+               hangon. - Délután elolvasom a darabot és legközelebbi újdonságunk ez lesz, nem pedig
+               az a hülyeség, aminek a próbáit már megkezdtük. Nincs sok vesztegetni való időnk. A
+               szerzőt meg kell találnunk a premierig...</p>
+            <p>Falkenheim dr. lemondó gesztussal felelte:</p>
+            <p>- Ebből a levélből következtetve, nem hinném, hogy ez olyan könnyen sikerülni fog...
+               De mindenesetre megpróbálhatjuk... Egyelőre csak arra vagyok még kíváncsi, hogy
+               ismeretlen szerzőnk milyen szenzációt készít elő számunkra? Mi lehet az a sohasem
+               látott reklám, amit igér és amiről írni fog az egész világsajtó?</p>
+            <p>- Reklám?! - nevetett az igazgató. - Az mindig jó! No, de arról majd gondoskodunk
+               magunk is... Hiszen egyelőre az a legjobb reklám, hogy a szerző ismeretlen... Már
+               holnap tele kell kürtölni a lapokat... Hadd lássa a titokzatos szerző, hogy milyen
+               gyors tempóban dolgozunk!</p>
+            <p>Röhmer a hóna alá vette a kéziratcsomagot és a dramaturggal együtt hagyta el a
+               színházat. Az öreg portás már rég nem látta a direktort és dr. Falkenheimet ilyen
+               jókedvűnek...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              Hajsza a titokzatos szerző után.
+            </head>
+            <p>A Neues Theater kommünikéi megtették a maguk hatását. A berlini lapok
+               szerkesztőségeiben megindult a találgatás, hogy ki lehet az ismeretlen szerző, bár a
+               színházi rovatvezetők eleinte kissé hitetlenül fogadták a színház hangzatos
+               bejelentését.</p>
+            <p>- Ismerjük már ezeket a trükköket, - mondotta Lenz, a legfélelmetesebb berlini
+               kritikusok egyike - mindig olyankor jelentkezik egy titokzatos, ismeretlen szerző,
+               amikor valamelyik színház bajban van... Csodálatos, hogy nem tudnak már valami
+               ujabbat kitalálni... Ez is csak azt bizonyítja, hogy milyen ötletszegények az
+               igazgatók...</p>
+            <p>A lesujtó véleményt sokan osztották, de mégis akadtak színházi ujságírók és
+               riporterek, akik ambicionálták az ismeretlen szerző leleplezését.</p>
+            <p>- Lehetséges, hogy közönséges reklámtrükk az egész - mondották ezek -, de akkor is
+               érdekes elsőnek kihozni, hogy ki bujik meg a névtelen szerző inkognitója
+               mögött...</p>
+            <p>És megindult a hajsza a titokzatos szerző után. Különösen a Berliner Tageszeitung
+               egyik munkatársa buzgólkodott. A fiatal Erich Hain már több nagy ujságírói
+               teljesítménnyel hívta fel magára a figyelmet. Lázasan nyomozott minden rejtélyes
+               ügyben, fáradhatatlanul vetette magát minden legcsekélyebb nyom után, akár bűnügyről,
+               panamáról, akár társadalmi botrányról volt szó. Örökké agilis volt, nem ismert
+               eseménytelen napot. Egyetértett az öreg szerkesztőknek azzal az elvével, hogy „ha
+               nincs esemény, csinálni kell”... Most is érdekességet látott a titokzatos névtelen
+               drámaíró esetében és ambicionálta, hogy ő legyen az, aki fényt derít a rejtélyes
+               ügyre. Akkor is, ha valóban valami ismeretlen író van a háttérben, akkor is, ha csak
+               reklámtrükk az egész.</p>
+            <p>Először a szerzők egyesületének főtitkárát kereste fel, aki jóbarátja volt. Sorra
+               vették az összes szerzőket, különösen azokat, akiknek az utolsó időben nem voltak
+               nagy sikereik darabjaikkal és kombinálni kezdtek, hogy melyikük lehet, aki most
+               ilyen úton próbál ismét beférkőzni a közönség kegyeibe. Ilyen meglehetősen sok volt,
+               úgy, hogy hamarosan zavarba jöttek a lehetőségek latolgatása közben.</p>
+            <p>- Mindenki gyanus, aki él... - mondotta nevetve a színpadi szerzők egyesületének
+               főtitkára. - Alig van olyan szerző, aki ne szorulna egy kis reklámra, vagy a
+               népszerűsítésnek hasonló módjára.</p>
+            <p>- Az, hogy mindenki - felelte Erich Hain - sajnos, nem elég nyom arra, hogy
+               leleplezhessem a titokzatos szerzőt. Kezemben volt már a színházhoz intézett levele
+               is, de azon sincs semmi áruló jel, amiből ki lehetne indulni. Közönséges
+               kézíratpapírra írta rejtélyes sorait, olyan írógéppel, amilyen ezerszámra akad
+               Berlinben. No, de nem baj, azért mégis ki fogom deríteni még a premier előtt, hogy ki
+               „A halál árnyékában” szerzője...</p>
+            <p>Minél nehezebb volt a feladat megoldása, annál inkább izgatta a fiatal ujságírót.
+               Minél rejtélyesebbnek látszott az ügy, annál több kedvvel fogott hozzá
+               felderítéséhez. A lapnál tudták ezt róla és szerkesztője szerette. Ha más nem
+               birkózott meg egy feladattal, bizonyos, hogy az ügy végül is Erich Hain kezébe
+               került.</p>
+            <p>- Detektívnek kellett volna menned - szokta mondani neki a rendőri rovatvezető, aki
+               különösen féltékeny volt sikereire -, azon a pályán jobban érvényesültél volna, mint
+               az ujságírás terén. Ha kívánod, szólok az érdekedben néhány jó szót a
+               detektívtestület főnökének. Most még nem késő, még változtathatsz pályát...</p>
+            <p>A többiek is gyakran ugratták Haint szenvedélyes „nyomozásai” miatt. Most is erről
+               beszéltek a szerkesztőségben. A lapok élénken foglalkoztak a titokzatos szerzővel, a
+               Neues Theater gondoskodott róla, hogy naponta ujabb kombinációk lássanak napvilágot
+               az ujságok színház rovatában. A közönség fantáziáját mindig izgatják az ilyen
+               rejtélyek és így a lapok bőven írtak az ügyről. Egyik-másik „jól értesült” színházi
+               rovatvezető már le is leplezte a titokzatos szerző személyét, a baj csak az volt,
+               hogy naponta más név szerepelt a lapokban, mint az új dráma szerzője és másnap mindig
+               ujabb cáfolat követte ezeket a „leleplezéseket”.</p>
+            <p>- Még leleplezik előtted a titokzatos szerzőt! - ugratta Haint egyik kollégája, az
+               öreg Weinberg. - Sietned kell fiacskám, mert különben lemaradsz.</p>
+            <p>Érdekes ember volt ez az „öreg Weinberg”. Mindenki így nevezte, holott valójában nem
+               is volt még olyan öreg. Josef Weinberget általában félbenmaradt tehetségnek
+               tartották, akitől annak idején sokat vártak, de aki nem váltotta be a hozzáfűzött
+               reményeket. Fiatal korában feltünt néhány szép verssel és érdekes novellával, később
+               azonban elfordult az irodalomtól és legfeljebb, ha színes riportokat írt. Túl volt
+               már a negyvenen, megcsontosodott agglegény lett belőle és egyetlen szenvedélye az
+               ital volt. A kocsisbortól a legerősebb pálinkáig minden italt meglehetős jól bírt és
+               a szerkesztőségben tudták, hogy akkor írja a legszebb, legokosabb cikkeket, ha
+               mámoros az alkoholtól. Az öreg Weinberget mindenki, mint megrögzött alkoholistát
+               kezelte, akin már úgysem lehet segíteni, de azért szerették. Jó kolléga volt, aki
+               sohasem bántott senkit. Az ugratásokban azonban mindig az első volt. Most is ő
+               évődött legjobban Erich Hainnal.</p>
+            <p>- Ne félts, apuskám - felelte az ujságíró -, most sem fogom a te segítségedet
+               kérni.</p>
+            <p>- Hiába is kérnéd - nevetett az öreg Weinberg -, én úgysem foglalkozom ilyen
+               csacsiságokkal. Hogyne, kikaparni a gesztenyét a színháznak, meg valami elkeseredett
+               titkos drámaírónak! A végén mi a köszönet benne? Még ők lesznek megsértve, hogy nem
+               írtál róluk elég hosszan. Csak csináld, fiacskám, de nélkülem! Én kiöregedtem már az
+               ilyen mókákból. Örülök, ha megírom a napi penzumomat, amire köteles vagyok, aztán
+               slussz. Rájössz majd még te is, hogy nekem van igazam...</p>
+            <p>- Nekem gyanus ez az Erich - szólt közbe a vitába Roheim doktor, a segédszerkesztő. -
+               Néha már arra kell gondolnom, hogy ő a titkos drámaíró és így akarja elterelni
+               magáról a gyanut, hogy ő hajszolja a rejtélyes szerzőt...</p>
+            <p>- Lehetséges... - ment bele a tréfába Erich Hain, aki már megszokta, hogy ilyenkor
+               mindenki ugratja mindaddig, amíg be nem hozza a pontosan felderített adatokat.
+               Olyankor aztán elhallgatnak és ha nem is hangzik el egyetlen dicsérő szó sem, mégis a
+               hallgatásukban, a cikk iránti érdeklődésükben van valami feltétlen elismerés.</p>
+            <p>Erich Hain tudta, hogy most is így lesz és minden ugratás után fokozott kedvvel
+               folytatta magánnyomozását. A színpadi szerzők már féltek tőle, mert valósággal
+               kikémlelte minden lépésüket, a művészklubokban szinte elbújtak előle az írók. Senki
+               sem érezte magát a színházi emberek közül biztonságban, amióta Erich Hain
+               megindította a hajszát a titokzatos szerző után.</p>
+            <p>*</p>
+            <p>A Neues Theaterben közben már megkezdődtek a próbák a névtelen szerző drámájából.
+               Röhmer Róbert igazgató ugyan nem osztotta mindenben kitünő dramaturgjának a
+               véleményét és nem volt annyira elragadtatva a darabtól, mint Falkenheim doktor, azért
+               mégis sürgősen műsorra tűzte a drámát. Röhmer igazgató jobban szerette ugyan a könnyű
+               fajsúlyú vígjátékokat a súlyos drámáknál, de volt annyi gyakorlati érzéke, hogy
+               belássa, mit jelent a titokzatos szerző személye és darabja iránt máris mutatkozó
+               izgalmas érdeklődés. Ezt az alkalmat vétek volna elszalasztani, tekintet nélkül a
+               darab értékeire: ezzel tisztában volt Röhmer már az első pillanatban. A mindjobban
+               kavargó hullámok azután még csak megerősítették abban az elhatározásában, hogy a
+               darabot minél előbb színre kell hozni. Alig telt el néhány nap, már kiosztották a
+               szerepeket és megkezdték a próbákat.</p>
+            <p>Néhány nap óta folytak már a próbák a Neues Theaterben, de a titokzatos szerző nem
+               adott magáról életjelt. Falkenheim doktor maga rendezte a darabot és egész délelőtt a
+               színpadon volt. A kövér Röhmer pedig ezalatt izgatottan leste naponta, mikor jön
+               ujabb levél, vagy egyéb hír a névtelen szerzőtől. Reggelenkint korábban jött a
+               színházba, mint máskor és első útja a titkári irodába vezetett.</p>
+            <p>- Semmi? - kérdezte alig palástolt izgalommal a titkártól és Spielmann úr naponta
+               kedvetlenebbül adta meg a már refrainszerű választ:</p>
+            <p>- Sajnos, semmi, igazgató úr...</p>
+            <p>A színház már kilövöldözte a reklám valamennyi nyilát, mind nehezebb volt már
+               ébrentartani az érdeklődést a titokzatos szerző darabja iránt. Elvégre nem lehetett
+               naponta más-más írót meggyanusítani a dráma szerzőségével, most már valami új
+               izgalomra, újabb rejtélyre lett volna szükség, hogy a sajtót a sablónos kommünikéknél
+               érdekesebb közleményekkel láthassák el. Hol maradnak az első levélben igért
+               szenzációk, amelyekről országszerte beszélni fognak? - kérdezte türelmét vesztve
+               Röhmer igazgató, amikor egymásután multak eseménytelenül a napok. - Úgylátszik,
+               csak trükk volt ez az igéret és most, hogy már műsorra tűztük a darabot, a szerző,
+               célját elérve, mélységesen hallgat. Előbb-utóbb azonban mégis kell jelentkeznie...
+               Vagy sohasem hallat többé magáról?</p>
+            <p>A titokzatos szerző pedig sokkal hamarabb és sokkal megdöbbentőbb módon adott hírt
+               magáról, semmint hitték volna.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               Rejtélyes gyilkosság a Spaeth-villában.
+            </head>
+            <p>A berlini Tiergarten előkelő villái között hatalmas angol kert közepén büszkélkedett
+               Ralf Spaeth rezidenciája. A híres berlini bankár, a Disconto-Kreditanstalt dúsgazdag
+               elnökigazgatója fejedelmekhez méltó villát rendezett be magának itt a
+               Lichtenstein-Allee közelében, a Tiergarten egyik legszebb helyén. Köröskörül fák és
+               hatalmas allék, néhány lépésnyire a Neuer See síma víztükre; mintha nem is egy
+               világváros kellős közepén lett volna ez a pompás villa, hanem valahol kinn, a szabad
+               természet ölén tervezte volna gazdag fantáziájú építész ezt a nyaralót.</p>
+            <p>Ralf Spaeth leányával, Erikával élt ebben a villában. A földszinten az öreg bankár
+               lakott, az emelet leánya részére volt berendezve. A hátsó szárnyépületben voltak a
+               cselédlakások és itt volt a garázs is. A Spaeth-villában Berlin szellemi- és
+               pénzarisztokráciája egyformán bejáratos volt. Úgy a bankár, mint leánya szerették a
+               művésztársaságot és szívesen gyüjtötték össze maguk körül Berlin bohémjeit egy-egy
+               estélyen. Egészen közel mégsem kerültek soha ezek a bohémek az elnökigazgatóhoz és
+               Erikához. Volt valami tartózkodás mindkettőjükben, valami alig észrevehető kis
+               fölény, amellyel mint valami páncéllal vették körül magukat akkor is, ha látszólag a
+               legközvetlenebbül, a legfesztelenebb módon szórakoztak vendégeikkel. A pénz fölénye
+               volt-e ez, vagy valami velük született zárkózottság, senki sem tudta és nem is
+               kutatta. Az írók, színészek, ujságírók jól érezték magukat a Spaeth-villában, talán
+               jobban, mint a pénzemberek, akik sohasem tudták megbocsátani Ralf Spaethnek a
+               sikereit és főképpen azt, hogy sohasem téved.</p>
+            <p>Az októbervégi reggelen még őszi napsütésben fürdött a Tiergarten. A november hideg
+               lehelete bujkált már a fák között, de a csalóka napsugarak még az elmult nyarat
+               idézték. A Spaeth-villában pontosan megállapított napirend szerint éltek. A bankár
+               sokkal elfoglaltabb ember volt, semhogy megengedhette volna magának a
+               rendszertelenségeket. Keveset aludt és akármilyen későn feküdt le, reggel
+               félkilenckor talpon volt, tíz órakor pedig elindult autóján a bankba. Egy-két órája
+               volt csak a Disconto-Kreditanstalt számára, mert a déli órákban majdnem naponta
+               sietnie kellett a pénzügyminisztériumba vagy máshova, fontos konferenciákra.</p>
+            <p>A fürdő már félórája várta a bankárt, de Ralf Spaeth ezen a reggelen nem volt olyan
+               pontos, mint máskor. Kurt, az inas már idegesen nézte ötpercenkint karkötőóráját.
+               Kilenc óra mult. Helén, a szobalány már másodszor érdeklődött, hogy készíthetik-e a
+               reggelit. Ez még nem fordult elő, amióta Kurt a vezérigazgató szolgálatában állt.
+               Szigorú utasítása volt ugyan arra, hogy ha a bankár egyszer véletlenül mégis
+               elaludna, keltse fel kilenc előtt, de erre még sohasem volt szükség.</p>
+            <p>- Fel kellene ébreszteni a vezérigazgató urat - vélekedett Helén maga is
+               bizonytalanul, de az inas húzódozott.</p>
+            <p>- Hátha mélyen alszik - mondotta idegesen - és a végén még kihuzom a lutrit, mert
+               megzavartam az álmát...</p>
+            <p>Amikor azonban már féltíz is elmult és a szobalány negyedszer érdeklődött, Kurt
+               rászánta magát, hogy bekopog gazdájának hálószobájába. A szobalány a hallban
+               hallgatódzott. Előbb gyengébb kopogást, majd mind erősebb dörömbölést hallott, de az
+               ajtót nem nyitotta ki senki. Az inas most már ököllel verte az ajtót. Semmi válasz.
+               Kurt sápadtan jött vissza.</p>
+            <p>- Nem merek egyedül benyitni - mondotta remegő hangon -, rossz érzésem van. Szólni
+               kellene a kisasszonynak.</p>
+            <p>Helén már szaladt az emeletre és egy perccel később Erikával tért vissza. A lány
+               hálóköntösben volt, a haja még borzas volt és szemeit még az álom fátyolosította el.
+               Igy az álomból felverve is határozottan ment apja hálószobája felé és rántott egyet a
+               kilincsen. Az ajtó meglepetésükre kinyilt. A megvetett ágy ott állt érintetlenül.
+               Egyetlen gyürődés sem volt a párnákon. Kétségtelen, hogy a bankár nem feküdt le az
+               éjszaka.</p>
+            <p>- De hiszen apának itthon kell lennie! - hagyta el először a nyugalma Erikát.</p>
+            <p>A következő pillanatban már a dolgozószoba előtt állt. Itt szokott Ralf Spaeth
+               olvasni, vagy dolgozni este lefekvés előtt. Itt tartotta az íróasztalon iratait és
+               aktatáskáját, amit másnapra elkészített és ezért ebbe a szobába nem volt szabad
+               belépni a személyzetnek reggel, mielőtt a bankár el nem hagyta a villát. Erika
+               belépett a dolgozószobába, de már a küszöbön visszarettent az eléjetáruló
+               látványtól. A hatalmas íróasztal fölé hajolva feküdt apja, előredülve, mozdulatlanul.
+               Egy másodpercig tartott csak a lány tanácstalansága.</p>
+            <p>- Orvost - kiáltotta és Kurt már rohant a telefonhoz.</p>
+            <p>Erika apja fölé hajolt. Az ősz hajfürtök csapzottan hullottak a bankár homlokába, az
+               arca halálsápadt volt. A lány megrázta a merev testet, amely azonban élettelenül
+               hanyatlott vissza. Most apja szívéhez hajolt. Kétségeire egyetlen biztató dobbanást
+               sem kapott válaszul.</p>
+            <p>Az orvos másodpercek alatt ott volt. Egy közeli villában lakott, régi barátja és
+               háziorvosa volt Ralf Spaethnek. Megrendülve rázta a fejét:</p>
+            <p>- Erika, legyen erős. Az édesapja meghalt.</p>
+            <p>Erika Spaeth most elvesztette erejét. Apja kihült testére vetette magát és görcsös
+               zokogás tört ki belőle. Az orvos szánakozva nézte. Egyetlen szóval sem akarta
+               megzavarni fájdalmát. Néhány percig tartott ez a kétségbeesett, tehetetlen, csukló
+               sírás, azután Erika felemelkedett.</p>
+            <p>- De hát mi történt? Hiszen este szegény apa még jókedvű volt... Szívszélhűdés? -
+               kérdezte.</p>
+            <p>- Minden bizonnyal az - felelte az orvos. - Azonnal meg fogom állapítani.</p>
+            <p>Utasítást adott az inasnak, hogy fektessék a halottat a széles bőrdiványra, amely a
+               dolgozószoba másik oldalán állt. Abban a pillanatban azonban, amikor óvatosan
+               felemelte Spaeth fejét az íróasztal üveglapjáról, hangos csörgéssel feldőlt az
+               asztalon egy pohár. Az orvos önkéntelenül is utánanyult. A kis borospohár fenekén
+               valami fehér por maradványa ülepedett meg.</p>
+            <p>- Mindent érintetlenül kell hagynunk - jelentette ki az orvos - és azonnal értesíteni
+               kell a rendőrséget.</p>
+            <p>Azután Erikához fordult és magyarázólag csak ennyit mondott:</p>
+            <p>- A csapás, Erika, annál súlyosabb, mert a jelek szerint apja nem természetes
+               halállal halt meg...</p>
+            <p>A rendőri bizottság percek alatt megérkezett. A vizsgálat azonban megállapította,
+               hogy Ralf Spaeth ismeretlen méregtől halt meg. Az első feltevés az volt, hogy
+               öngyilkosságot követett el. A dúsgazdag bankárnak nem lehetett ugyan semmi oka az
+               öngyilkosságra, de bűntényre mégsem lehetett következtetni, hiszen a szobában a
+               legnagyobb rend volt, dulakodásnak nem volt nyoma és nem is hiányzott semmi a nagy
+               műértékek közül, amelyek megtöltötték a bankigazgató dolgozószobáját. Sőt Spaeth
+               zsebében is érintetlenül megtalálták tárcáját, amelyben többszáz márka volt és
+               értékes aranyórája is a mellényzsebében volt. Az óra még járt.</p>
+            <p>Mi oka lehetett Ralf Spaethnek az öngyilkosságra? - kérdezte értetlenül a rendőri
+               bizottság vezetője és erre a kérdésre senki sem tudott választ adni. El sem
+               képzelhető azonban, hogyha valóban önmaga kereste a halált, ne hagyott volna
+               búcsúsorokat leányának, akit mindenkinél jobban szeretett. Megindult a kutatás a
+               búcsúlevél után. Az íróasztalon két estilap, néhány könyv és irat hevert és az
+               íróasztal fiókjában sem találtak búcsúlevelet. Sehol egy magyarázó szó, ami némi
+               fényt derítene a rejtélyre...</p>
+            <p>A rendőri bizottság egyik tagja felkiáltott:</p>
+            <p>- Mégis! Itt valami cédula van!</p>
+            <p>Az íróasztal üveglapja alá szorítva kis papírlap fehérlett. A búcsúlevél keresése
+               közben néhány könyv került az asztal lapjának erre a helyére és ezért nem vették
+               eddig észre a papírszeletet. A rendőri bizottság vezetője mohón nyult a papírdarab
+               után. Azon néhány gépírásos sor:</p>
+            <p>„Igy ad életjelet magúról „A halál árnyékában” titokzatos szerzője.”</p>
+            <p>*</p>
+            <p>A gyilkosság Berlinben a legnagyobb megdöbbenést keltette. A déli lapok már részletes
+               tudósításokat közöltek az első oldalon a főváros ismert és híres bankárjának
+               rejtélyes és tragikus haláláról. A fotóriporterek lefényképezték a villát, a
+               dolgozószobát és a tett színhelyén maradt titokzatos üzenetet. A rendőri riporterek
+               fantáziája erősen dolgozott, de minden kombináció ellenére, már ezekből az első
+               tudósításokból is látható volt, hogy a rendőrség rejtély előtt áll, amelyet nem lehet
+               egykönnyen felderíteni.</p>
+            <p>Az esti lapok már valamivel többet tudtak a rendőrség eddigi nyomozásának
+               eredményéről. Inkább még csak gyanuról lehetett szó, de ez a gyanú figyelemreméltó
+               volt. Elsősorban azt kellett megállapítani, hogy kivel töltötte utolsó estéjét az
+               öreg Spaeth. Leányának vallomásából teljes határozottsággal kiderült, hogy este
+               tízig együtt volt Erikával, akivel jókedvűen elbeszélgetett és terveket szőtt egy
+               januári riviérai utazásról. Este tízkor jelentkezett a vezérigazgató magántitkára:
+               Hans Dührer, akinek utasításokat és iratokat kellett átvenni másnapi fontos pénzügyi
+               tárgyalásokkal kapcsolatban. Erika ekkor visszavonult emeleti szobáiba és a bankár
+               titkárával a dolgozószobába ment. Kurt, az inas az előszobában várakozott gazdája
+               utasításaira. A rendőrség nyomban kihallgatta Hans Dührert, aki elmondotta, hogy
+               körülbelül féltizenkettőig volt Ralf Spaethnél. Ekkor elköszönt, a bankár azonban
+               váratlanul kijelentette, hogy elkiséri egy darabon.</p>
+            <p>- Enyhe, szép este van, - mondotta a titkár vallomása szerint - kedvem van egy kicsit
+               sétálni. Legalább kiszellőztetem a sok számot a fejemből, mert így úgysem tudok
+               elaludni...</p>
+            <p>Egy darabig együttmentek a Lichtenstein Alleen, a Zoologischer Garten közelében
+               azonban elváltak és a titkár a Budapester Strassen keresztül a földalatti villamos
+               állomása felé sietett. Úgy látta, hogy a vezérigazgató visszafordult a villa
+               irányába, lehetséges azonban, hogy továbbsétált. Kurt Wespermannak, az inasnak a
+               vallomása megegyezett a titkáréval abban, hogy féltizenkettő tájban távozott hazulról
+               gazdája Dührerrel együtt. Az ajtóból visszaszólt még neki, hogy mára nincs többé
+               szüksége rá, lefekhet. Nem is tud róla, hogy gazdája mikor tért vissza, mert ő
+               nyomban a hátsó épületszárnyba ment és nyugovóra tért.</p>
+            <p>A rendőrség mind a két embert gyanuba vette. Hiszen csak ők jöhettek számításba, mint
+               akik utoljára érintkeztek a bankárral. Ha Hans Dührer éjfél előtt el is hagyta a
+               villát Ralf Spaethtel együtt, nem látszott kizártnak, hogy később visszatért a
+               bankigazgatóval, akinek talán útközben eszébejutott, hogy valami iratot vagy
+               utasítást elfelejtett átadni a titkárnak. A bankár hazaérkezésének az inas vallomása
+               szerint nem volt tanuja és így nem kellett feltétlenül hitelt adni a titkár
+               vallomásának, hogy az állatkert közelében elvált gazdájától, hanem ugyanilyen joggal
+               fel lehetett tételezni azt is, hogy visszatért a bankárral a villába.</p>
+            <p>Viszont Kurt Wespermann vallomásának sem adtak teljesen hitelt. Ha igaz volt a titkár
+               vallomása, hogy Ralf Spaeth néhány perc mulva visszafordult a villába,
+               valószínütlennek látszott, hogy az inas már nem hallotta volna meg gazdájának
+               hazaérkezését, hiszen nem volt feltételezhető, hogy percek alatt sietett lefeküdni és
+               azonnal el is aludt volna. Különben is feltételezhető volt, hogy az inas megvárta a
+               bankár hazaérkezését és az éjszaka folyamán mindenesetre könnyen bejuthatott a
+               dolgozószobába.</p>
+            <p>Mindez azonban csak feltevés volt és annál nehezebbnek látszott a rendőrség helyzete,
+               mert egyik alkalmazottnak sem lehetett semmi oka arra, hogy megölje a bankárt, hiszen
+               értékeit érintetlenül találták és így rablógyilkosságnak még a feltevése sem
+               merülhetett fel. Az egész rejtélyt azonban még bonyolultabbá tette a gyilkosság
+               helyszinén talált papírlap a titokzatos drámaíró üzenetével. Első percben a
+               rendőrségen nem is tudták, hogy komolyan vegyék-e ezt a meglepő üzenetet. Nem
+               látszott lehetetlennek az sem, hogy a gyilkos kihasználva az utolsó napok
+               tömegpszichózisát, szándékosan élt ezzel a csellel, hogy félrevezesse a nyomozást és
+               azt a látszatot keltse, mintha a gyilkosságot a szenzációs eseményeket ígérő
+               titokzatos szerző követte volna el. A nyomozásnak azonban mindenesetre ki kellett
+               terjednie ennek a titokzatos szerzőnek a felderítésére is, hiszen most már egy
+               gyilkossági ügy középpontjába került. Feltételezték a rendőrségen azt is, ha valóban
+               visszaélt valaki az ismeretlen szerző személyével, akkor a titokzatos szerző
+               feltétlenül jelentkezni fog a rendőrségen, mert bármennyire fontos is számára a
+               szigorú inkognitó, semmiesetre sem fog egy közönséges gyilkosság gyanujába
+               keveredni.</p>
+            <p>Ha azonban mégis ez a rejtélyes drámaíró követte volna el a gyilkosságot, felmerült
+               az a kérdés, hogy a két gyanusított közül melyik lehet a titokzatos szerző. Kurt
+               Wespermann ebben az esetben számításba sem jöhetett, hiszen sokkal alacsonyabb
+               műveltsége volt, semhogy akármilyen ponyvadrámát is irhatott volna. Viszont ez volt
+               talán a legsúlyosabb gyanuok Ralf Spaeth magántitkára ellen. A detektívek egy órán
+               belül megállapították, hogy Hans Dührer szabad óráiban szenvedélyesen foglalkozott az
+               irodalommal és néhány novellája meg is jelent már a lapokban. Általában nem tartották
+               tehetségesnek, csak ügyes dilettánsnak, akinek annál nagyobbak voltak az ambíciói.
+               Így tehát egész valószínűnek látszott az a feltevés, hogy Dührer a titkos drámaíró,
+               aki az érvényesülés érdekében választotta ezt a furcsa módját az irodalom kapuján
+               való kopogtatásnak. Ha viszont valóban ő volt a titokzatos szerző, el lehetett vajjon
+               képzelni róla azt az esztelenséget, hogy azonnal így ki is szolgáltatja magát a
+               nyomozó hatóságnak? Hiszen a drámáját már elfogadták előadásra, mi szüksége volt még
+               arra, hogy gazdáját megölje?</p>
+            <p>Csupa megoldatlan kérdés, amely feleletre várt. Az esti órákban a rendőrség őrizetbe
+               vette ugyan úgy Hans Dührert, mint Kurt Wespermannt, de mindketten megmaradtak
+               eredeti vallomásuk mellett és így a rendőrség ugyanott volt, ahol a nyomozás első
+               órájában.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              Az ujságíró megindítja a hajszát a gyilkos után.
+            </head>
+            <p>Erich Hain, a Berliner Tageszeitung munkatársa a gyilkosság felfedezésének napján
+               délután öt óra tájban csengetett be a Spaeth-villába. Ijedt arcok fogadták. Az inas
+               és a magántitkár őrizetbevétele óta a személyzet már páni félelemmel fogadott minden
+               új látogatót, senki sem volt biztos benne, nem érte jönnek-e. Az ujságírók egymás
+               kezébe adták a kilincset a villában, egész nap kérdezgették a sofőrt, a szobalányt, a
+               szakácsnőt, a kertészt és a villa minden lakóját, kivéve Erika Spaethet, aki
+               összetörve zárkózott be szobájába. Nagynénje, egy nagyothalló idős hölgy volt
+               mellette, a lánynak azonban terhes volt ez a társaság is, jobban szeretett volna
+               egészen egyedül maradni.</p>
+            <p>Az ujságírót a bankár sofőrje vezette a dolgozószobába. Erich Hain csak néhány
+               sablónos kérdést intézett kísérőjéhez, aki közömbösen elismételte azt a keveset, amit
+               a tragédiáról tudott és amit ma már annyiszor mondott el. Az ujságíró nem is nagyon
+               figyelt a sofőr szavaira, hanem annál nagyobb figyelemmel nézett körül a
+               dolgozószobában. Ralf Spaeth holttestét már elszállították, egyébként még minden
+               érintetlenül úgy volt a szobában, mint reggel a gyilkosság felfedezésekor. A
+               dolgozószoba ablakai a nagy angol kertre nyiltak. Nem voltak magasak ezek az ablakok,
+               úgy hogy könnyen leugorhatott a tettes a kertbe. Az asztalon még ott állt a likőrös
+               készlet és egy használt boros pohár, a másikat, amelyben a méreg maradványát
+               találták, elvitték már vegyvizsgálat céljából. A hamutartóban néhány cigarettavég és
+               egy félig elszívott szivar. Kétségtelen, hogy a végzetes éjszakán látogatója volt a
+               bankárnak.</p>
+            <p>Erich Hain a legnagyobb gondossággal kutatta át tekintetével a szobát. Szokása volt
+               ilyen esetekben, hogy a rendőri bizottságtól függetlenül tartott helyszíni szemlét,
+               amit azzal indokolt, hogy nem szereti befolyásoltatni magát a rendőrség véleményétől.
+               Most is önállóan akarta megindítani a nyomozást, tisztán a saját ösztönében,
+               éleslátásában és szerencséjében bízva. Míg a sofőr beszélt, alaposan körülnézett a
+               szobában, azután így szólt:</p>
+            <p>- Köszönöm a felvilágosításokat és most kérem, jelentsen be Spaeth kisasszonynak.
+               Okvetlenül beszélnem kell vele.</p>
+            <p>A sofőr tagadóan rázta fejét:</p>
+            <p>- Lehetetlen kérem. A kisasszony nem fogad senkit. Nincs olyan állapotban...</p>
+            <p>- Jelentse neki, hogy a nyomozás sikere érdekében haladéktalanul beszélnem kell vele,
+               minden áron! - mondotta határozottan az ujságíró. - Mondja meg azt is, ha nem
+               beszélhetek vele, annak súlyos következményei lehetnek.</p>
+            <p>A sofőr vállat vont:</p>
+            <p>- Megpróbálhatom... - mondotta és kiment.</p>
+            <p>Erich Hain abban a pillanatban, hogy egyedül maradt a szobában, gyors mozdulattal az
+               íróasztalnál termett. Átkutatott mindent az asztal üveglapján és ki akarta nyitni a
+               fiókot is, de az zárva volt. A könyvek és ujságok között nem talált semmit, amit
+               nyomot jelentett volna. Nevetséges, amit csinálok - gondolta elmosolyodva - hiszen,
+               ha volt valami áruló nyom, azt már megtalálta a rendőri bizottság. Mit keresek
+               tulajdonképen? Maga sem tudta, hogy mi után kutat, de az ösztöne azt súgta, hogy
+               keresnie kell valamit a szobában, amit eddig talán nem fedeztek fel.</p>
+            <p>Sehol semmi. Már lemondóan abba akarta hagyni a kutatást, amikor eszébe jutottak a
+               fotelek. Amint tenyerét két sikertelen próbálgatás után becsusztatta a harmadik fotel
+               ülése és támlája közé, egy kemény tárgy akadt a kezébe. Parányi cukorkaszelence volt,
+               amit zsebben szoktak tartani. A szelence üres volt, de valami fehér por maradéka ült
+               az oldalán. Pillanat alatt átvillant agyán a gondolat, hogy ebben a szelencében volt
+               a méreg, tehát a szelence csak a gyilkosé lehetett. És ahogy most a kezében tartotta
+               az apró ezüst szelencét, ismerősnek tünt fel előtte. Meg mert volna esküdni, hogy a
+               szelencét látta már. De aztán elmosolyodott. Nevetséges, képzelődöm - gondolta. -
+               Hiszen ilyen szelence ezerszámra van forgalomban, közönséges tucatáru. Nem jelent
+               semmit, ha már láttam valakinél hasonlót...</p>
+            <p>Tisztában volt vele, hogy a kis szelencét azonnal be kellene szolgáltatnia a
+               rendőrségnek. De tudta már azt is, hogy senkinek sem fog szólni váratlan
+               felfedezéséről. Ha a rendőrség eddig nem találta meg a kis cukorkás dobozt, akkor
+               ezentúl sem fog tudomást szerezni annak felfedezéséről. Bizonyára van valami oka
+               annak, hogy pont az ő kezébe került az ezüst szelence. A csöppnyi tárgyat zsebébe
+               rejtette és épp tovább akart kutatni, amikor nyilt az ajtó és magas, karcsú fiatal
+               lány jelent meg a szobában. Erika Spaeth hófehér bőre és karcsú alakja még jobban
+               érvényesült a gyászruhában. Kérdően nézett az ujságíróra. Az egy pillanatig
+               lenyügözve nézte, majd bemutatkozott.</p>
+            <p>- Nem gondolja, hogy kíméletlenség az, amit csinál? - kérdezte Erika majdnem
+               ellenségesen. - A nyomozás érdekére hivatkozva lehivat és végül kiderül, hogy csak
+               érdekesebb anyagot akar egy ujságcikkhez...</p>
+            <p>- Végtelenül sajnálom, hogy meg kellett zavarnom fájdalmában, - felelte meleg hangon
+               az ujságíró - de, higyje el, nem túloztam, amikor a nyomozás érdekére hivatkoztam.
+               Bevallom, akkor inkább csak ürügyül üzentem ezt, mert okvetlenül beszélni akartam
+               magával, az elmult néhány perc alatt azonban történt valami, ami, azt hiszem, a
+               kezembe adta ennek a rejtélynek a megoldását.</p>
+            <p>A lány helyet mutatott egy karszékben és maga is leült. A jég meg volt törve.</p>
+            <p>- Kissé rejtélyesen hangzik az, amit mond - és kutatóan nézett az ujságíró szemébe. -
+               Nem fejezné ki magát világosabban?</p>
+            <p>- Egyelőre meg kell elégednie ennyivel - felelte Erich Hain. - Ha azt látom, hogy
+               őszintén felel kérdéseimre, én is hasonló őszinteséggel fogok mindent elmondani
+               magának. Azt szeretném, ha fegyvertársak lennénk. Hiszen apja gyilkosának a
+               felkutatásáról van szó.</p>
+            <p>- Nem értem... Hiszen a rendőrség teljes apparátussal folytatja a nyomozást. Mi
+               érdeke magának ebben az ügyben?</p>
+            <p>- Talán ujságírói hiúságból teszem, hogy én leplezzem le a gyilkost, talán másért...
+               Ezt egyelőre, kérem, ne kutassa. Nem akarom félrevezetni és bevallom, ebben a percben
+               még én sem tudok semmit, de minden reményem megvan, hogy hamarább fogok világosságot
+               deríteni erre a titokzatos ügyre, mint a rendőrség. Feltéve, hogy segít
+               munkámban.</p>
+            <p>Erika Spaeth vállat vont:</p>
+            <p>- Furcsa ember maga. Kissé titokzatos. De úgy érzem, őszinte. Kérdezzen.</p>
+            <p>- Elsősorban is, mit tud Kurt Wespermannról? - kérdezte az ujságíró. - Feltételezi
+               róla, hogy ő a gyilkos?</p>
+            <p>A lány elgondolkozott.</p>
+            <p>- Magam is egész nap ezen töröm a fejemet - felelte bizonytalanul. - Két éve állt
+               édesapám szolgálatában és ezalatt megbizható inasnak bizonyult. Nem tudom
+               elképzelni, miért ölte volna meg szegény apámat... Bár most utólag sok rosszat
+               mondanak róla. Szenvedélyes kártyás volt, vallja a személyzet és szabad napjain
+               titokzatos útjai voltak... Nem tudom...</p>
+            <p>- És Hans Dührer? - kérdezte váratlanul az ujságíró.</p>
+            <p>Erika elgondolkozva felelte:</p>
+            <p>- Kitünő családból származik, nagyműveltségű ember és nekünk régi bizalmasunk...
+               Borzasztó elgondolni is...</p>
+            <p>- Bocsásson meg, ha most tapintatlannak látszó kérdést intézek önhöz, - mondotta
+               Erich Hain - de arról beszélnek, hogy Hans Dührer szerelmes magába és édesapja
+               hallani sem akart róla, hogy feleségül menjen hozzá. Ez némileg megmagyarázná tettét.
+               Igaz ez?</p>
+            <p>A lány kipirulva, hevesen felelte:</p>
+            <p>- Borzasztó, hogy mit ki nem találnak... Szó sincs ilyesmiről! Igaz, hogy Dührerrel
+               baráti viszonyban voltam, de szerelemről vagy házasságról sohasem volt szó. Udvarolt,
+               mint annyian mások, de szerelem?... Ugyan kérem!</p>
+            <p>Olyan őszintén, határozottan mondotta ezt, hogy az ujságíró hitt neki. Maga sem tudta
+               miért, megkönnyebbülten sóhajtott fel.</p>
+            <p>- Még egy fontos kérdést - folytatta kis szünet után Erich Hain. - Ide a villába
+               bejáratosak voltak írók, színészek, bohémek is. Tekintettel a titokzatos szerző
+               rejtélyes üzenetére, amit az íróasztalon találtak, nincs gyanuja valakire ezek közül?
+               Valakire, aki talán hazakísérte éjszaka édesapját, feljött egy pohár likőrre és orvul
+               elkövette ezt a szörnyűséget? Valami íróemberre?</p>
+            <p>Erika megdöbbenve nézett rá:</p>
+            <p>- Erre nem is gondoltam eddig. Csak Kurt és Dührer szerepe volt gyanus... A színházi
+               emberek között rengeteg barátunk van. Igen sok szerző is. De hát kit lehet ezek közül
+               gyanusítani? Hiszen ilyen alapon mindenki gyanus lehet...</p>
+            <p>Kezébe temette az arcát. Az ujságíró szánakozva nézte vergődését. Valami biztatót
+               szeretett volna mondani.</p>
+            <p>- Kérem, Erika - önkéntelenül is keresztnevén szólította a lányt - legyen erős és
+               bizzon bennem. Segítségére leszek és erős a hitem, hogy sikerül megoldanom ezt a
+               rejtélyt.</p>
+            <p>- De hát miért nem mondja el azt, amit tud? - kérdezte a lány türelmetlenül.</p>
+            <p>- Ma még nagyon keveset mondhatnék, de remélem, egy-két nap mulva már biztató
+               eredményeket közölhetek. Miután azonban megigértem, hogy őszinte leszek, annyit
+               máris mondhatok, hogy egy váratlan leletre bukkantam itt, amíg az előbb magára
+               vártam.</p>
+            <p>Elővette a kis ezüst szelencét és megmutatta a lánynak.</p>
+            <p>- Édesapjáé volt ez a szelence? - kérdezte.</p>
+            <p>- Nem, sohasem láttam - felelte Erika határozottan.</p>
+            <p>- Dührernél sem?</p>
+            <p>- Nem emlékszem.</p>
+            <p>- Köszönöm, csak erre voltam kiváncsi. De meg kell igérnie, hogy erről a szelencéről
+               senkinek sem szól. A rendőrségnek sem.</p>
+            <p>Ebben a percben nyilt az ajtó és a szobalány egy férfit engedett be. Az ujságíró az
+               első pillanatban felismerte benne a detektívet.</p>
+            <p>- Spaeth kisasszony, újból átkutattuk a kertet és az egész környéket, de a hiányzó
+               kulcsoknak nem akadtunk a nyomára - mondotta a rendőrség embere. - Azt ajánlom, hogy
+               éjszakára lakattal zárják le a kaput.</p>
+            <p>Megbiccentette a fejét és távozott. Erich Hain a lányhoz fordult.</p>
+            <p>- Milyen kulcsokról van szó? - kérdezte leplezetlen érdeklődéssel.</p>
+            <p>- A kapu ma reggel is zárva volt, éppugy, mint máskor - mondotta Erika. - Vagyis a
+               gyilkos, aki csak a kapun keresztül távozhatott az elmult éjjel, bezárta maga mögött
+               az ajtót. Viszont édesapám zsebéből hiányzott az a kulcstömeg, amelyen a lakásbejárat
+               és a kapu kulcsa volt. Ez volt az egyetlen, amit a gyilkos magával vitt. A rendőrség
+               feltételezte, hogy a tettes a kapu bezárása után eldobta a kulcsot, de mint
+               hallhatta, nem találták meg.</p>
+            <p>Erich Hain elgondolkozott.</p>
+            <p>- Nem mutathatná meg, milyen volt az a kulcs, amely elveszett? - kérdezte.</p>
+            <p>Erika becsöngette a szobalányt és a következő percben már az ujságíró kezében volt a
+               kapukulcs.</p>
+            <p>- Ugyanilyen összehajtható kulcsot hordott szegény apám is állandóan magánál -
+               mondotta a lány.</p>
+            <p>- De hiszen ez egész különleges Wertheim-lakat kulcsa! - kiáltott fel az ujságíró. -
+               Nem közönséges kapukulcs. Kérem, engedje meg, hogy megtarthassam ezt a kulcsot.
+               Éjszakára ugyis lakattal fognak bezárkózni - tette hozzá mosolyogva - és így nem kell
+               attól tartania, hogy betörök.</p>
+            <p>Erika arcán ma elsőizben jelent meg egy futó mosoly. És amikor az ujságíró távozóban
+               kezet csókolt neki, hosszan nézett utána...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              A titokzatos szerző újból jelentkezik.
+            </head>
+            <p>A Neues Theater nem örült annak az életjelnek, amit a titokzatos szerző a
+               Spaeth-villában adott magáról. Bármennyire szüksége is volt Röhmer igazgatónak a
+               reklámra, ez már mégis túlzás volt. A színházat a legkellemetlenebb helyzetbe hozta
+               ez a megmagyarázhatatlan gyilkosság. A sajtó egy részében máris támadások indultak
+               meg a színház túlhajtott reklám-hadjárata ellen, amely ilyen megdöbbentő
+               következményekkel járt. Egyes lapok felvetették a kérdést, mi lesz ezekután a „A
+               halál árnyékában” előadásával? Fel sem tételezhető, hogy egy berlini színház
+               közönséges gyilkos darabját mutassa be és hogy a jóizlésű közönség végignézze ezt a
+               fércművet.</p>
+            <p>A színház nem győzte ellensúlyozni ezeket a támadásokat óvatos közleményeivel, melyek
+               elsősorban azt hangsúlyozták, hogy a Neues Theater nem tehető felelőssé azért, hogy
+               egy aljas gyilkos visszaél a titokzatos szerző nevével. Mert hogy a szerzőnek nincs
+               semmi köze a gyilkossághoz, az kétségtelen. A tettes nyilván csak félre akarja
+               vezetni a hatóságokat és ezért hagyta a gyilkosság színhelyén a furcsa üzenetet. Egy
+               ilyen rossz tréfa miatt nem kívánhatja senki, hogy a színház levegye műsoráról a
+               darabot, amelynek bemutatóját már néhány nap mulva tervezik. Halvány célzás volt
+               ezekben a kommünikékben arra is, hogy a Neues Theater már tudja ki a darab szerzője,
+               aki azonban semmiesetre sem hajlandó megnevezni magát.</p>
+            <p>Ebből azonban egy szó sem volt igaz. A színháznál épúgy nem sejtették, hogy ki a
+               titokzatos szerző és hogy valóban azonos-e Ralf Spaeth gyilkosával, mint ahogy a
+               rendőrséget sem vitte közelebb az eddigi nyomozás a rejtély megfejtéséhez. Hans
+               Dührer szerepe mindenesetre gyanús volt. A lakásán megtartott házkutatás során több
+               verset, novellát és színdarab-vázlatot találtak, a legszorgosabb kutatás sem vezetett
+               azonban „A halál árnyékában” fogalmazványának, vagy egy másolat-példányának a
+               nyomára. De minden ilyen áruló jelet azonban könnyen megsemmisíthetett a szerző és a
+               titkár íróasztalában talált sok megkezdett kézirat mindenesetre terhelő bizonyítékot
+               jelentett.</p>
+            <p>Meglehetősen nyomott hangulatban folytak a próbák a Neues Theaterben, amikor néhány
+               nappal Spaeth meggyilkolása után újabb meglepő esemény történt. A reggeli postával
+               Gerhard Falkenheim dr. dramaturg-főrendező levelet kapott a titokzatos szerzőtől.
+               Megint az ismert gépírásos sorok, ismét meglepő tartalom. A levél így hangzott:</p>
+            <p>„Doktor Úr,</p>
+            <p>Önhöz intézem ezúttal soraimat, mert tudom, hogy milyen lelkesen foglalkozik
+               darabommal. Az előadás azt hiszem, jó is lesz. Az eddigi próbák tapasztalata alapján
+               azonban lenne egy-két megjegyzésem. Az első a rendezésre vonatkozik. Kissé
+               mozgalmasabb tempót kellene adni az egésznek. Remélem, nem haragszik ezért az őszinte
+               megjegyzésemért, amellyel egyáltalán nem akarom Önt, a kitünő rendezőt tanítani.
+               Súlyosabb kifogásom van a főszereplő Theodor Thurner ellen, aki túlságos álpáthosszal
+               játssza meg a gyilkos lelkiismeretfurdalásait. Higyje el nekem a kitünő művész, hogy
+               a gyilkosok nem forgatják annyit a szemüket és nem nyögnek olyan nagyokat, mint
+               ahogy ő csinálja a darab nagy jelenetében. Ezt én jobban tudom, mint ő és Önök
+               általában. Ezért kérem a következő próbák során sziveskedjék Thurnert leszoktatni
+               erről a hazug kulisszahasogatásról. Ennyit az előadásra vonatkozólag.</p>
+            <p>Volna még egy üzenetem Röhmer igazgató számára is. Nem szeretném, ha a közbejött
+               események miatt levenné a műsorról a darabot. Elvégre én csak beváltottam ígéretemet,
+               hogy olyan reklámmal szolgálok színháza részére, amilyenhez hasonlóval nem
+               dicsekedhetik egyetlen színház vagy darab sem. Ez volna a hála önzetlen
+               fáradozásomért? Nem ajánlom, hogy a színház abbahagyja darabom próbáit. Mások a
+               Spaeth sorsára juthatnak. Mert vegyék végre tudomásul az urak, hogy Ralf Spaeth
+               halálba küldője azonos az Önök</p>
+            <p>Titokzatos Szerzőjével.”</p>
+            <p>A levél határtalan konsternációt keltett a színháznál. Falkenheim doktor
+               halálsápadtan olvasta a határozott sorokat, Theodor Thurnerben bennrekedt a szó
+               dühében, a kövér Röhmer igazgatót pedig a guta kerülgette ijedtségében. A játék most
+               már kedélytelenné kezdett válni. Elvégre egy gyilkos, mint háziszerző, mégis csak
+               kellemetlen. És a fenyegető hang...</p>
+            <p>- Kellett nekünk a reklám? - pattogott Röhmer Róbert. - Most megkaptuk, de nincs
+               köszönet benne!</p>
+            <p>Kétségtelen volt, hogy ezt a levelet nem lehet eltitkolni a rendőrség előtt. Hiszen a
+               legaggasztóbb az volt, hogy a gyilkos ittjár a próbákon, köztük van most is
+               talán... Ha valóban Hans Dührer ölte volna meg a bankárt és ő lenne a titokzatos
+               szerző, akkor hogyan szerezhetett volna tudomást arról, hogy mi történik a próbákon
+               és hogy Thurner hogyan játssza meg a nagy jelenetet? A titokzatos szerző itt ül a
+               nézőtéren a délelőtti próbákon, amelyekre pedig csak néhány, egész benfentes embert
+               és néhány ujságírót bocsátanak be. Hiszen így szűk körre terelődik a gyanú, csak
+               azokra, akik jelen lehetnek a próbákon. Úgylátszik, valamennyien ismerik a titokzatos
+               szerzőt, csak nem tudják róla, hogy ő az... Vagy csak újabb rossz tréfa volna ez a
+               levél? A titokzatos szerző csak kihasználja a gyilkosság keltette izgalmat és azért
+               levelez így velük, hogy rájukijesszen, holott a próbákon valóban résztvesz ugyan, de
+               a Spaeth-gyilkossághoz semmi köze? Újabb rejtély, amely megoldásra vár.</p>
+            <p>Azonnal detektívek mennek ki a színházba, - mondották a rendőrfőnökségről telefónon -
+               hogy kihallgatásokat végezzenek arról, kik vettek eddig részt a próbákon és hogy
+               lefoglalják a levelet.</p>
+            <p>Alig tette le Röhmer igazgató a kagylót, Erich Hain lépett be a szobájába.</p>
+            <p>- Szabadna látnom a levelet, direktor úr? - köszöntött be az ujságíró.</p>
+            <p>Röhmer megdöbbenve nézett rá.</p>
+            <p>- Milyen levélről beszél? - kérdezte álmélkodva.</p>
+            <p>Az ujságíró nevetett:</p>
+            <p>- Ne tettesse magát, direktorom, magából rossz színész lett volna. Hála a
+               szimatomnak, én mindig a legjobbkor érkezem. Nem tehetek róla, hogy az ajtón
+               keresztül kihallgattam a rendőrséggel folytatott egész telefónbeszélgetését.</p>
+            <p>Itt már nem használt volna a tagadás. Röhmer lesújtva adta át a levelet Erich
+               Hainnak, aki szakértő szemekkel vizsgálta a gépírásos sorokat.</p>
+            <p>- Magának újabb szenzáció, nekem újabb kellemetlenség... - nyögte Röhmer.</p>
+            <p>- Ne féljen igazgató úr, - nyugtatta meg az ujságíró - ezúttal nem írom meg azt a
+               kétségkívül érdekes dolgot, amit itt most megtudtam. Képzelheti, ha lemondok egy
+               ilyen szenzációról, komoly okom van rá. A levélnek azonban más lapban sem szabad
+               nyilvánosságra kerülni. A rendőrség semmiesetre sem fogja kiadni, már csak azért sem,
+               nehogy ezzel balfogásának bizonyítékát adja és maguknak is a legszigorúbban titokban
+               kell tartani az esetet.</p>
+            <p>Röhmer csak most csodálkozott igazán.</p>
+            <p>- Nem irja meg ezt a szenzációt? Nem ismerek magára!</p>
+            <p>- A napi szenzációnál most fontosabb a titokzatos szerzőnek, vagyis a gyilkosnak a
+               kézrekerítése.</p>
+            <p>- Tehát maga is azt hiszi, hogy a két személy azonos? - dadogta ijedten az
+               igazgató.</p>
+            <p>- Biztos vagyok benne! - kiáltotta az ujságíró és köszönés nélkül elrohant.</p>
+            <p>Ezen a napon már detektívek figyeltek mindenkit, aki a színházban megfordult.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             A gyilkos nyomában.
+            </head>
+            <p>Erich Hainról megállapították a szerkesztőségben, hogy néhány nap óta teljesen
+               megváltozott. Ideges, rapszódikus ötletei vannak, ingerlékeny.</p>
+            <p>- És cukorkát szopogat, - mondotta nevetve a segédszerkesztő - mint valami öregúr.
+               Ezüst étuiből kínálja a cukorkáit szenvedélyesen.</p>
+            <p>Az ujságíró, akiről szó volt, mintha csak végszóra toppant volna be. Alig
+               helyezkedett el asztalánál, máris felkelt újra és végigkínálta kartársait a kis
+               ezüstszelencében levő cukorkával. Ahogy eléjük tartotta a szelencét, furcsán, kutatón
+               nézett a szemükbe. Ez néhány nap óta szenvedélyévé vált. Kávéházban, művészklubban,
+               szerkesztőségben mindenkit végigkínált cukorkáival. Az öreg Weinberg nem tudta
+               visszafojtani bosszúságát.</p>
+            <p>- Hányszor mondjam még, hogy nem élek édességekkel!? - kiáltotta ingerülten, amikor
+               Erich Hain eléje tartotta a szelencét.</p>
+            <p>Egyéb furcsa ötletekkel is bosszantotta Erich Hain ezen a napon szerkesztőségbeli
+               kollégáit.</p>
+            <p>- Egy daktiloszkópus barátom hajlandó az urakról ujjlenyomatokat készíteni - mondotta
+               váratlanul. - Rólam már csinált. Ki kiváncsi az ujjlenyomatára?</p>
+            <p>Holtz, a törvényszéki riporter nevetett:</p>
+            <p>- Úgylátszik, neked már az agyadra megy a nyomozási láz. Most már rólunk is
+               daktiloszkópiai felvételeket akarsz?</p>
+            <p>Weinberg rekedten dohogott:</p>
+            <p>- Megőrült szegény... Vagy vicc akar ez lenni?</p>
+            <p>Erich Hain figyelte az arcokat.</p>
+            <p>- No, nem kötelező - mondotta nevetve. - Azt hittem, kellemesebb így barátilag, mint
+               a rendőrségen...</p>
+            <p>Ezt a daktiloszkópiai ötletét is elsütötte lépten-nyomon. Az ismerősei nem értették,
+               hogy mi célja van vele.</p>
+            <p>Holott Erich Hain ezekben a napokban semmit sem csinált cél nélkül. A Spaeth-villában
+               a gyilkosság után hiába keresett a rendőrség áruló ujjlenyomatokat, sem a bútorokon,
+               sem az íróasztal lapján, sőt a borospoharakon sem találtak áruló nyomot. A gyilkos
+               úgylátszik gondosan letörölt minden kilincset és tárgyat, amihez hozzányult, mielőtt
+               elhagyta volna a bankár dolgozószobáját. A kis ezüstszelencén azonban voltak
+               ujjlenyomatok. Sajnos, a nagy sietségben, amikor az ujságíró megtalálta a szőnyeg
+               alatt a kis dobozt, nem volt elég óvatos és összefogdosta a fém-tárgyat. Egy
+               daktiloszkópus barátja, akit valami ürüggyel kért meg a szelence megvizsgálására,
+               kétféle elmosódott ujjnyomot talált rajta. Az egyik megfelelt az ő ujjlenyomatának, a
+               másik idegen ujj nyoma volt. Kétségkívül a gyilkosé. Ennek az újjnak a tulajdonosát
+               kellett volna megtalálni. De hogyan? Nem kényszeríthet mindenkit arra, hogy
+               daktiloszkópiai felvételt készíttessen! Tudta, hogy ezen a nyomon nem sokra megy. Így
+               inkább csak azért vetette fel az ötletet mindig közvetlenül a cukorkával való
+               kínálás után, hogy megfigyelje az arcokon, milyen hatást vált ki az ártatlan szelence
+               és utána az ujjlenyomatra való célzás. Pszichológiai eszközökkel kellett dolgoznia és
+               az utolsó két nap alatt már furcsa és meglepő felfedezéseket tett. Mit bánta, hogy
+               sokan bolondnak tartják, amikor úgy érezte, hogy már nyomában van a gyilkosnak.</p>
+            <p>*</p>
+            <p>A szerkesztőségből egyenesen a Spaeth-villába sietett. Erika már jóbarátként fogadta.
+               Mindennapos vendég volt a villában és a lány már olyan bizalmasan beszélt vele,
+               mintha évek óta jóbarátságban volnának. Erich Hain már maga sem volt tisztában vele,
+               hogy a nyomozás kedvéért keresi-e fel a Spaeth-villát, vagy Erikáért. A lány
+               határozottan érdekelte. Volt valami hűvös előkelőség és meleg közvetlenség Erikában
+               és meghatóan sok gyerekes bizalom, amikor Erich Hainnal beszélt. Szinte hiányzott már
+               a lánynak, ha egyszer elmaradt az újságíró látogatása. Ezekben a szomorú napokban
+               apja temetése után azok az órák jelentették a derűt, amikor Erich Hain bekopogott.
+               Vakon bízott már benne és tudta, hogy az újságíró csak jót akar.</p>
+            <p>- Nos, Erich? - kérdezte most Erika, amikor az ujságíró belépett.</p>
+            <p>Hain kezet csókolt a lánynak és sokatmondóan bólintott:</p>
+            <p>- Azt hiszem, jó úton járok, Erika. Az első perctől fogva ismerősnek tünt fel a kis
+               ezüst szelence, hiába törtem azonban a fejemet, nem tudtam visszaemlékezni rá, hogy
+               kinél láttam. Már azt hittem, tévedek, hiszen nem ez az egyetlen ilyen szelence és
+               ezek a kis ezüstdobozok végeredményben úgy hasonlítanak egymáshoz, mint egyik tojás a
+               másikhoz. Most azonban már kezdek emlékezni arra, hogy valóban ezt a szelencét láttam
+               valakinél.</p>
+            <p>- Helyesnek bizonyulna tegnapi feltevése? - kérdezte megdöbbenve a lány.</p>
+            <p>- Azt hiszem, igen és ebben az esetben egy-két napon belül leleplezhetjük a gyilkost.
+               Most azonban ügyesnek kell lennünk. A maga segítsége nélkül nem járhatunk a dolog
+               végére.</p>
+            <p>Erika meleg pillantással nézett rá:</p>
+            <p>- Hiszen tudja, hogy mindenben engedelmeskedem magának. Vagy eddig nem így
+               történt?</p>
+            <p>Erich Hain megszorította a lány kezét:</p>
+            <p>- Maga a legédesebb lány, akit eddig ismertem! És a legokosabb! A legideálisabb
+               fegyvertárs...</p>
+            <p>- Jól esik az elismerése... - mondotta halkan Erika. - De maradjunk a tárgynál. Mi a
+               teendőm?</p>
+            <p>- A cél érdekében most meg kell tenni mindent - felelte az ujságíró -, egy estére
+               félbe kell szakítania a gyászt is. Megboldogult édesapja se venné ezt a látszólagos
+               kegyeletlenséget rossznéven, hiszen gyilkosának leleplezéséről van szó. Holnap este
+               tizenegykor legyen kérem a Mohrenstrasse és Friedrichs-Strasse sarkán levő
+               Klosterkellerben. Igen jó polgári étterem és főképpen borairól híres. Társaságban
+               jövök oda a Neues Theater próbájáról. Lehet, hogy többen leszünk, lehet, hogy csak
+               ketten. Magát mindenesetre nem az igazi nevén mutatom be.</p>
+            <p>- A többit már tudom - mondotta a lány. - Ahogy tegnap megbeszéltük.</p>
+            <p>- Úgy van. Csak ügyesen játssza Erika a szerepét!</p>
+            <p>Erika Spaeth melegen megszorította az ujságíró kezét:</p>
+            <p>- Ne féltsen, Erich. Inkább vigyázzon magára jobban. Nem tudom miért, de
+               féltem...</p>
+            <p>Erich Hain fütyörészve ment végig a Lichtenstein Alleen. Rég volt ilyen boldog. A
+               lány utolsó szavai csengtek a fülében. Erika félti...</p>
+            <p>*</p>
+            <p>Otthon meglepetés várta Erich Haint. Egy levél feküdt az asztalán. A háziasszonya
+               szerint délután kézbesítette a posta. A már ismert gépírásos sorok, melyek a
+               következőképpen szóltak:</p>
+            <p>„Szerkesztő Úr,</p>
+            <p>kár beleütni az orrát olyan dolgokba, amelyekhez semmi köze. Jóakaratulag
+               figyelmeztetem, hagyja abba ezt az értelmetlen nyomozást, mert bajba keveredik.
+               Ugyis hiábavaló minden próbálkozása, engem nem fog leleplezni. Ezzel szemben könnyen
+               juthat Ralf Spaeth sorsára. Viszontlátásra darabom premierjén!</p>
+            <p>A Titokzatos Szerző.”</p>
+            <p>Ez a levél egyáltalán nem hozta zavarba Erich Haint. Sőt teljesen beleillett
+               számításaiba.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             A kulcs kinyitja a kaput...
+            </head>
+            <p>A Neues Theater házi főpróbáján csak kevesen voltak. Az érdeklődés ugyan szokatlanul
+               nagy volt a rejtélyes darab iránt, hiszen egész Berlint izgalomba hozták a titokzatos
+               szerző körül zajló események, de a színház ügyelt arra, hogy a házifőpróbára a
+               kritikusokon és néhány ismert ujságírón kívül más ne jusson be. Valami fojtott
+               izgalom volt így is a nézőtéren.</p>
+            <p>A zsöllye harmadik sorában ült Erich Hain, a Berliner Tageszeitung kritikusával,
+               Leonhard doktorral és az öreg Weinberggel.</p>
+            <p>- Meg leszel lepve, fiacskám - mondotta Weinberg délután a szerkesztőségben. -
+               Elmegyek veled ennek az ostobaságnak a főpróbájára. Annyit összefirkáltatok már róla,
+               hogy most már engem is érdekel. A multkor csak a második felvonást láttam az egyik
+               próbán, most végigkínlódom az egészet. Hadd lássam, mi az, amiről annyit beszél
+               Berlin...</p>
+            <p>A darabtól és az előadástól mintha nem lett volna különöskép elragadtatva az öreg
+               Weinberg. Leonhard doktor incselkedett vele:</p>
+            <p>- Mit értesz hozzá, öregem?! Te csak maradj a jó borok mellett...</p>
+            <p>A titokzatos szerző drámája nagy hatást tett a házifőpróba közönségére. Pedig
+               hétpróbás, nehéz közönség volt ez, a legszigorúbb kritikusok, a legfinnyásabb ízlésű
+               színházi esztéták. Ezeket már nem vezették félre a Röhmer-féle kommünikék, sem az az
+               általános láz, amit ez a darab felidézett. Vagy talán mégsem tudták teljesen kivonni
+               magukat ők sem az utolsó hetek eseményei alól?</p>
+            <p>A társalgóban felvonás közben mindenesetre szokatlanul lelkes volt a hangulat és ha
+               hangzottak is el kifogások, általában sikerszag volt a levegőben. Weinberg szótlan
+               érdeklődéssel hallgatta a kritikusok véleményét és csak akkor mosolyodott el, amikor
+               néhányan Erich Haint kezdték ugratni.</p>
+            <p>- Elérkezett a premier, Erich - raccsolta egy monoklis színházi ujságíró - és te még
+               mindig nem leplezted le a titokzatos szerzőt!</p>
+            <p>- Hagyjátok, ő maga az! - mondotta nevetve egy másik.</p>
+            <p>- No, nem tételezem fel Hainról, hogy ilyen jó darabot tud írni... - adta meg a
+               kegyelemdöfést egy pápaszemes idősebb kritikus.</p>
+            <p>Erich Hain mosolyogva hallgatta a csipdelődéseket, majd jelentős hangsúllyal csak
+               ennyit mondott:</p>
+            <p>- Tudtommal holnap este van csak a bemutató. Addig még kézrekerülhet a titokzatos
+               szerző...</p>
+            <p>- Egy szerző, akit a rendőrség le akar csukni - szólalt meg Weinberg -, pedig nem is
+               olyan rossz a darabja. Veszedelmes precedens lesz ez a többi színpadi szerző
+               számára...</p>
+            <p>Röhmer igazgató lépett a beszélgető csoporthoz:</p>
+            <p>- Legalább nemcsak a szinházakat zárják be - mondotta akasztófahumorral -, hanem a
+               szerzőket is...</p>
+            <p>A csengő az utolsó felvonás megkezdését jelezte. A nézőtéren ismét feszült figyelem
+               váltotta fel a társalgók kedélyes hangulatát és a darab végén felhangzott a házi
+               főpróbákon ritka taps.</p>
+            <p>A kapuban Leonhard doktor elköszönt Haintól és Weinbergtől:</p>
+            <p>- Megbocsáttok, de sietnem kell, vendégeink vannak - és már intett is egy
+               taxinak.</p>
+            <p>Erich Hain most az öreg Weinberghez fordult:</p>
+            <p>- Nem innánk meg egy pohár bort a titokzatos szerző egészségére?</p>
+            <p>- A borral kapcsolatos tervekben mindig benne vagyok - felelte Weinberg.</p>
+            <p>- Akkor gyerünk talán a Klosterkellerbe. Ép a napokban dicsérted a boraikat. Meg
+               aztán vacsorázni is szeretnék.</p>
+            <p>A Friedrich-Strasse felé indultak. Útközben alig váltottak néhány szót. Csak a
+               Mohrenstrasse sarkán szólalt meg Weinberg:</p>
+            <p>- Itt vagyunk.</p>
+            <p>Az étteremben, közel a bejárathoz ott ült már Erika. Erich Hain azonnal észrevette és
+               egy futó mosolyt küldött feléje. Amikor az asztalához értek, meglepetést színlelve
+               állt meg:</p>
+            <p>- Csókolom a kezét! Csakhogy egyszer magát is látom.</p>
+            <p>Az öreg Weinberg szórakozottan nézett körül a teremben.</p>
+            <p>- Megengedi, hogy bemutassam Weinberg kollégámat? - hallotta most Erich Hain
+               hangját.</p>
+            <p>Kelletlenül odalépett a lányhoz és érthetetlenül dörmögte a nevét.</p>
+            <p>- Nem vár társaságot? - kérdezte most Hain a lánytól. - Nem? Pompás! Úgy sincs szabad
+               asztal a teremben. Ha megengedi, betársulunk...</p>
+            <p>- Nagyon szívesen... - felelte Erika mosolyogva.</p>
+            <p>A következő percben már hárman ültek a kis asztalnál.</p>
+            <p>- Régi jópajtásom - fordult most Erich Hain az öreg Weinberg felé, Erikára mutatva. -
+               Elza Jung, iparművésznő. Gyerekkori barátság, de ebben a nagyvárosi hajszában,
+               sajnos, ritkán találkozik az ember azokkal, akik a legközelebb állnak hozzá...</p>
+            <p>Erika futó mosollyal fogadta ezt a rejtett vallomást. Ma este még szebb volt, mint
+               máskor. Valami kislányos báj és asszonyos szépség keveréke áradt belőle. Jókedvűnek
+               látszott és hamar összebarátkozott a kissé mogorva Weinberggel is. Előbb az
+               ismeretlen szerző darabjáról beszélgettek.</p>
+            <p>- Csakugyan olyan érdekes a darab? - kérdezte Erika.</p>
+            <p>- Nekem határozottan tetszik - felelte Erich Hain.</p>
+            <p>- És magának? - fordult a lány most Weinberg felé.</p>
+            <p>- Jobb az átlagnál... - mondotta diplomatikusan az öreg ujságíró.</p>
+            <p>- És vajjon a titokzatos szerző csakugyan azonos Spaeth bankár gyilkosával? - vetette
+               fel a kérdést Erika.</p>
+            <p>- Ugyan, ostobaság! - felelte Weinberg. - A színház és a lapok fujták fel az
+               ügyet.</p>
+            <p>A vacsorához már nehéz bort ittak és egy óra mulva a palackok glédában sorakoztak az
+               asztal mellett.</p>
+            <p>- A titokzatos szerző egészségére! - mondotta Erich Hain, aki állandóan talált
+               ürügyet később is az exre.</p>
+            <p>- A barátságunkra! - koccintott Erikával.</p>
+            <p>- A borivókra! - nevetett össze Weinberggel.</p>
+            <p>- A szenvedélyesen nyomozó ujságírókra! - hajtotta fel poharát az öreg Weinberg, aki
+               bírta ugyan az italt, de azért már mámorosan fénylettek a szemei.</p>
+            <p>Hosszú és zavaros előadásba kezdett az alkohol gyönyöreiről.</p>
+            <p>- Nem véletlen az, hogy Amerikában nemzeti ünnepként ülték meg a szesztilalom
+               eltörlését - mondotta kissé akadozva. - Épp az ottani példa mutatja, hogy az alkohol
+               épolyan szükséglete az embernek, mint a kenyér, vagy akár a levegő... A bor teszi
+               elviselhetővé az életet és ahol nincs bor, ott elviselhetetlen az élet... A
+               szesztilalom alatt a sokat ócsárolt <hi xml:id="Hlk154074302">gangszterek</hi> voltak
+               az amerikaiak jótevői... Nélkülük alighanem már rég lázadás tört volna ki az
+               Egyesült-Államokban... Roosevelt azonban felismerte az igazi szükségleteket... Éljen
+               Roosevelt!</p>
+            <p>Megint ittak és Weinberg tovább folytatta zavaros fejtegetéseit. Mind többet beszélt,
+               az elfogyasztott bor arányában növekedett a szókincse is. Alig lehetett
+               ráismerni.</p>
+            <p>Éjfél után két órakor az öreg Weinberg már határozottan részeg volt. Erika félve
+               húzódott el mellőle, de az öreg állandóan közelebb tolta a székét. Mindenáron meg
+               akarta győzni a lányt, hogy az iparművészet magasabbrendű, mint például az irodalom,
+               mert anyaggal dolgozik és így legalább van valami gazdasági haszna is, míg az
+               irodalom nemzetgazdasági szempontból legfeljebb csak a papírgyártás és a
+               nyomdafestékfogyasztás terén biztosít hasznot...</p>
+            <p>Erich Hain titokban összemosolygott Erikával, azután a fizetőpincért hívta.
+               Weinbergnek még nem volt kedve hazamenni.</p>
+            <p>- Feljönnek hozzám még egy pohár konyakra - mondotta Erika kedvesen és csak így
+               sikerült leszerelni az öreg ellentállását.</p>
+            <p>Amikor a taxi a Spaeth-villa előtt megállt, Erika megismételte meghivását.</p>
+            <p>- Itthon vagyok - mondotta -, most feljönnek hozzám egy kis pótivásra!</p>
+            <p>- Pótivás nem rossz... - dörmögte az öreg Weinberg, miközben kisegítették a
+               kocsiból.</p>
+            <p>A Tiergarten fái között olyan sűrű volt a köd, hogy alig láttak egy lépésnyire az
+               éjszakában. A Spaeth-villa kapuja előtt álltak.</p>
+            <p>- Ismeretlen környék... - motyogta Weinberg. - Ha most itthagynátok, biztosan
+               eltévednék ebben a ködben... De ugye, nem hagytok itt, gyerekek?</p>
+            <p>Nevetve megnyugtatták, azután Erika kezét a csengő gombjára helyezte. Percekig
+               vártak, de senki sem nyitott kaput. Most Erich Hain nyult a csengőhöz. Ujabb percek
+               teltek el, anélkül hogy valaki bebocsátotta volna őket.</p>
+            <p>- No, hol az az ital? - türelmetlenkedett rekedten az öreg Weinberg. - Ha nem
+               engednek be, leülünk itt kinn...</p>
+            <p>És már le is akart ülni a földre. Erich Hain alig tudta visszatartani.</p>
+            <p>Erika a retiküljében keresgélt.</p>
+            <p>- Igazán zavarban vagyok - mondotta idegesen -, most látom, hogy nem vittem magammal
+               a kapukulcsomat. Pedig gondolnom kellett volna rá, hogy ebben az átkozott házban nem
+               lehet felzavarni álmából a házfelügyelőt... Talán megpróbálná maga, Erich, hátha
+               nyitja valamelyik kulcsa a kaput...</p>
+            <p>Erich Hain szolgálatkészen nyult a kulcsai után. Végigpróbálta valamennyit a kapu
+               zárjában, de egyik sem nyitotta azt.</p>
+            <p>- Sajnos, nem megy... - mondotta lemondóan. - De talán Weinberg kulcsai között akad
+               használható... Ha nem, megyünk tovább valami lokálba.</p>
+            <p>Az öreg Weinberg körülményesen gombolta ki a télikabátját. A kulcsok után
+               tapogatódzott.</p>
+            <p>- Van itten kulcs bő választékban... - dörmögte -, próbáljátok meg.</p>
+            <p>Két kulcscsomót adott át Erich Hainnak, aki mohón nyult a kötegek után. A következő
+               percben már egy összehajtható kulcsot nyitott szét a fiatal ujságíró és
+               beleillesztette a zárba. A kapu kinyilt...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             A rejtély megoldása.
+            </head>
+            <p>- Csak hogy már bejutottunk... - mondotta az öreg Weinberg, mialatt az angol kerten
+               keresztülmentek.</p>
+            <p>Erika előre sietett. Az utolsó napok izgalmát csak most érezte abban a hirtelen
+               fáradtságban, amely erőt vett rajta. Az ivást ugyan egész este csak mimelte, de
+               mostani idegállapotában mégis kimerítette ez a furcsa komédia, amelybe
+               belekényszerült és a következő percek várható izgalma előre ólmos súllyal
+               nehezedett rá. Felgyujtotta a villanyt apja dolgozószobájában, amely az előre
+               megbeszélt terv szerint megdöbbentő elrendezésben várta Erich Haint és Weinberget. Az
+               íróasztalon a likőröskészlet és néhány borospohár, mellettük az áruló ezüstszelence
+               és az üveglap alatt, ugyanazon a helyen, ahol a gyilkosság után megtalálták, a
+               gyilkos üzenetének másolata. Minden teljesen úgy volt rekonstruálva, mint azon a
+               borzalmas éjszakán, amikor Ralf Spaethet megölték.</p>
+            <p>Weinberg hunyorogva nézett szét a szobában. A küszöbön egy pillanatra megtorpant,
+               aztán tanácstalanul bámult Erich Hainre, majd a lányra. Még mielőtt szólhatott volna,
+               Erika megelőzte.</p>
+            <p>- Foglaljanak helyet, - mondotta közömbös hangon - mindjárt hozom az italt.</p>
+            <p>Kisietett és a dolgozószobától távoleső hallból telefonon felhívta a rendőrséget.
+               Weinberg közben mintha fokozatosan kijózanodott volna. Erich Hain cigarettára
+               gyujtott, de nem vette le tekintetét Weinbergről. Az mintha csak most ébredne
+               tudatára a valóságnak. Az íróasztalon észreveszi a kis ezüstszelencét. Önkéntelenül
+               is a kezébe veszi és közelebbről megnézi. A pillantása most az asztal üveglapja alá
+               szorított gépírásos papírlapra esik. Nem tudja, ébren van-e, vagy álmodik, azt hiszi,
+               hogy a bor mámora játszik vele. Fáradtan egy karosszékbe rogy...</p>
+            <p>Néhány perc múlik el így izgalmas némaságban, amikor nyílik az ajtó és Erika egy
+               ismeretlen úrral tér vissza. Sparber, a detektívtestület főnöke. A rendőrségi autó
+               percek alatt itt volt.</p>
+            <p>- Még egy vendéget hoztam... - mondja kissé elfogódva Erika.</p>
+            <p>Erich Hain a detektívfőnök elé lép.</p>
+            <p>- Főfelügyelő úr, - mondta határozottan Weinbergre mutatva - itt ül a titokzatos
+               szerző és Ralf Spaeth gyilkosa!</p>
+            <p>Weinberg hátsó zsebéhez nyúl, de Sparber éber szeme észreveszi szándékát, odaugrik és
+               kicsavarja kezéből a kis gyöngyházrevolvert. Két rendőrt hív be, akik közreveszik a
+               mámorából kijózanodott Weinberget.</p>
+            <p>- Részletes vallomásomat majd a rendőrségen teszem meg, - szólal most meg Erich Hain,
+               - most talán csak néhány szóval magyarázom meg főfelügyelő úrnak, hogyan jöttem rá,
+               hogy Josef Weinberg ölte meg Ralf Spaethet. Ezt a kis ezüstszelencét találtam itt a
+               gyilkosságot követő napon, a fotelba szorulva. A rendőri bizottság figyelmét
+               elkerülte ez a tárgy. Magamhoz vettem és remélem, utólag már nem veszik az urak
+               rossznéven, hogy nem szolgáltattam be. A szelence ismerősnek tűnt fel, de nem tudtam
+               határozottan visszaemlékezni, hogy kinél láttam. Cukorkát tettem bele és
+               végigkínáltam mindenkit, akit a szelence tulajdonosának sejtettem. Az volt az
+               impresszióm, hogy szerkesztőségbeli kollegáim egyikénél láttam azelőtt ezt a
+               szelencét. És valóban, amikor Weinberget kínáltam a szelencével, észrevettem, hogy
+               hirtelen eltorzul az arca. Viccesen azt is ajánlottam, hogy csináltassunk
+               daktiloszkópiai felvételeket és Weinberg ekkor is elárulta magát egy pillanatra a
+               tekintetével. Megjegyzem, sohasem mertem volna éppen őt gyanuba venni, ha a Neues
+               Theaternek nem írta volna meg a gyilkosság után levelét. A próbákon azonban olyan
+               kevesen voltak bejáratosak, hogy e levél után már szűk térre korlátozódott
+               nyomozásom. A véletlen is segítségemre volt. Egy este a szerkesztőségben láttam,
+               amint Weinberg elővette kulcsait. Köztük azonnal felfedeztem a Spaeth-villa eltűnt
+               kapukulcsát, amelytől a gyilkos, úgylátszik, nem tudott szabadulni. Ezért ma este
+               megrendeztük Spaeth kisasszonnyal ezt a komédiát, leitattam Weinberget, akinek
+               fogalma sem volt, hogy hova hozzuk és alkoholmámorában gyanutlanul ideadta kulcsait,
+               amikor azt hazudtuk, hogy nem tudjuk kinyitni a villa kapuját. A kulcsok között volt
+               a megölt bankár kulcsa, amely kinyitotta a kaput. Ez maga is megdönthetetlen
+               bizonyíték, hiszen egészen speciális Wertheim-zárról van szó. Csak ennyit kívánok
+               egyelőre mondani. Végtelenül fáj, hogy kollegámról kellett megállapítanom, hogy
+               gyilkos... Az a meggyőződésem, hogy nem épelméjű...</p>
+            <p>A detektívfőnök most Weinberghez fordult:</p>
+            <p>- Nos, mit szól mindezekhez? - kérdezte.</p>
+            <p>Az öreg Weinberg csodálatos változáson ment keresztül néhány perc alatt. Meggörnyedt,
+               halottsápadt arcán hideg veríték ütött ki, a tekintete zavaros volt. Most valóban
+               öreg volt.</p>
+            <p>- Hát igenis öltem! - kiáltotta rekedten. - Csakhogy az urak tévednek, ha azt hiszik,
+               hogy először öltem embert... Már huszonötéves koromban gyilkoltam!...</p>
+            <p>Meglepett csend fogadta a váratlan szavakat. Weinberg a homlokához kapott, néhány
+               másodpercre elakadt, aztán csendesebben, szakadozottan folytatta:</p>
+            <p>- Az úgy volt, hogy összevesztem a szeretőmmel. Hilde Bush táncosnő volt, talán
+               emlékeznek még az urak rejtélyes halálára... Bár nagyon régen volt... Egy délután
+               fent voltam nála. Szakítani akartam vele... Jelenetet csinált, fenyegetőzött... Szó
+               szót követett, végül is revolvert rántott rám... Ki akartam csavarni a kezéből és a
+               fegyver közben elsült... Hilde szó nélkül összerogyott és pillanatok alatt meghalt...
+               Meg voltam rémülve... Eszemet vesztve menekültem a lakásból... A kis táncosnő
+               életkörülményei olyanok voltak, hogy mindenki öngyilkosságra gondolt... A nyomozás
+               nem tudta ennek az ellenkezőjét bebizonyítani és én megmenekültem.</p>
+            <p>Erika rémülten huzódott egészen közel Erich Hainhoz és szörnyüködve nézte Weinberget.
+               Az eszelősen nevetett:</p>
+            <p>- Megmenekültem?!... Húsz év óta nem volt egyetlen nyugodt éjszakám sem... Hilde
+               véres homloka ott kísértett minden lépésemnél. Ekkor kezdtem inni... Csak a bor adott
+               pillanatnyi feledést... Húsz év óta fojtottam magamba ezt a szörnyű titkot, holott
+               sokszor úgy éreztem, nem birok ellenállni az emésztő vágynak, hogy kikiáltsam az
+               egész világnak: «Gyilkos vagyok!» A félelem azonban mindig legyőzte ezt a vágyat...
+               Valahogyan azért mégis meg kellett szabadulnom a borzalmas titok terhétől... Irás
+               volt a kenyerem, tehát írni kezdtem egy drámát, amelyben a gyilkos lelkiállapotát
+               akartam megmutatni. Tizenöt év óta írtam ezt a darabot... Tízszer átírtam, ujra
+               eldobtam... Nem voltam vele megelégedve... Közben lassan elhalványultak az emlékek és
+               valami kényszerítő érzés vett erőt rajtam, hogy ujra öljek... De mindig leküzdöttem
+               magamban ezt az eszelős akaratot... Aztán elküldtem a darabot a színháznak...
+               Egyetlen célom volt most már, hogy előadják... Hogy így gyónhassam meg szörnyű
+               bűnömet színészek száján keresztül, a színpadról...</p>
+            <p>Weinberg kimerülten elhallgatott. Ismét a homlokához nyult, levegő után
+               kapkodott.</p>
+            <p>- És miért ölte meg Ralf Spaethet? - kérdezte a detektívfőnök.</p>
+            <p>Az öregember révetegen nézett körül.</p>
+            <p>- Igen... Ralf Spaeth... Erre magam sem tudok határozott választ adni... Az utolsó
+               hetekben kínzó fejfájások gyötörtek... Úgy éreztem sokszor, hogy kettéreped a
+               koponyám... Éjszakánkint attól féltem, hogy megőrülök... Nem mertem egyedül maradni
+               a szobában, nem mertem lefeküdni... Ittam és cél nélkül ődöngtem az uccákon... Közben
+               újra és újra elfogott a vágy, hogy öljek... Így csatangoltam azon a végzetes estén is
+               itt a fasorban... Éjfél lehetett, amikor Ralf Spaethtel találkoztam... Évek óta
+               ismertem. Megszólított, hogy merre járok errefelé vagy valami hasonlót kérdezett.
+               Együtt mentünk tovább... Beszélgettünk... Én nem tudtam odafigyelni a szavaira, a
+               homlokomat mintha tüzes abroncsok szorították volna össze. Aztán ideértünk a villához
+               és Ralf Spaeth felhívott egy pohár likőrre... Talán negyedórát sem voltam itt
+               összesen... Pillanatok alatt kényszerítő vágyat éreztem, hogy öljek. A színháznak is
+               megigértem, hogy bemutató előtt valami szenzációról gondoskodom... A gépírásos
+               cédulát már napok óta magamnál hordtam... Tudtam, hogy előbb-utóbb történni kell
+               valaminek... Ilyen jó alkalom sohasem kínálkozhatott volna... Senki sem látta, amikor
+               a villába bejöttem... Évek óta a zsebemben volt ez a kis szelence a méreggel... Egy
+               óvatlan pillanatban Ralf Spaeth poharába öntöttem a port... Aztán gyönyörködve
+               néztem végig, amíg meghalt... Csak másodpercekig tartott az egész... Senki sem vette
+               észre, amikor kisurrantam a villából... Amikor bejöttünk, Ralf Spaeth az íróasztalra
+               tette a kapukulcsot... Ezt magamhoz vettem... Bezártam magam mögött a kaput és a
+               kulcsot akaratom ellenére zsebretettem... Tudtam, hogy el kellene dobnom, de nem
+               lehetett... Kellett, hogy valami emlékem maradjon erről az éjszakáról... Azóta sem
+               tudtam szabadulni a kulcstól... A többit már tudja, főfelügyelő úr.</p>
+            <p>Feszült csend volt a szobában. A detektívfőnök hangja szakította meg ezt a
+               csendet.</p>
+            <p>- Most velünk jön, Weinberg! - mondotta.</p>
+            <p>A meggörnyedt öregember felegyenesedett. Őrült fény lobbant meg a szemében.</p>
+            <p>- De előbb még megölöm ezt a lányt! - ordította Erika felé rohanva.</p>
+            <p>A rendőrök azonnal lefogták. Erika oltalmat keresőn önkéntelenül belekarolt Erich
+               Hainba. Weinberg eszelősen ordított:</p>
+            <p>- Meg akarom ölni!... Ma este, mihelyt megláttam, elhatároztam, hogy megölöm...
+               Kisértetiesen hasonlít Hildére... Engedjék, hogy megöljem!...</p>
+            <p>A detektívfőnök intett a rendőröknek és azok csak erőszakkal tudták kituszkolni a még
+               mindig ordítozó embert.</p>
+            <p>- Úgylátszik, csakugyan nem épelméjű, - mondotta a detektívfőnök Erikának és Hainnak
+               - azonnal a rendőrorvos elé állítjuk. Szerkesztő ur ráér majd reggel befáradni a
+               rendőrfőnökségre, hogy jegyzőkönyvbe vegyük vallomását. Jóéjszakát.</p>
+            <p>A megilletődés csendjében most csak ketten maradtak: Erika és a fiatal ujságíró.
+               Sokáig nem szólt egyikük sem. Aztán a lány hosszan, melegen megszorította Erich Hain
+               kezét.</p>
+            <p>- Nagyon hálás vagyok magának, Erich... - mondotta halkan. - Hiszen nemcsak apám
+               gyilkosát kerítette kézre, hanem megmentette az én életemet is...</p>
+            <p> VÉGE</p>
+            
+         </div>
+      </body>
+  </text>
+</TEI>
