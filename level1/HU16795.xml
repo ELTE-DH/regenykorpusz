@@ -1,0 +1,1674 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU16795" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Belvedere</title>
+            <author>
+               <persName>
+                  <surname>Ligeti</surname>
+                  <forename>Ernő</forename>
+               </persName>
+               <date from="1891" to="1945">1891-1945</date>
+               <idno type="VIAF">50292909</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">16526</measure>
+            <measure unit="pages">39</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Belvedere</title>
+               <date>2017-04-24</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/16700/16795/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vitos Zsófia</name>
+                  <name>Molnár Éva</name>
+                  <name>Drótos László</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>Belvedere</title>
+               <author>Ligeti Ernő</author>
+               <pubPlace>Kolozsvár</pubPlace>
+               <publisher>Lapkiadó rt.</publisher>
+               <date>1921</date>
+               <ref target="https://mek.oszk.hu/16700/16795/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Belvedere</title>
+               <author>Ligeti Ernő</author>
+               <date>1921</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc n="eltec-0">
+        <p/>
+     </encodingDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="hu">Hungarian</language>
+        </langUsage>
+     </profileDesc>
+     <xenoData>
+        <ns1:eltec>
+           <ns1:authorGender key="M"/>
+           <ns1:size key="short"/>
+           <ns1:canonicity key="low"/>
+           <ns1:timeSlot key="T5"/>
+        </ns1:eltec>
+     </xenoData>
+     <revisionDesc>
+        <change when="2025-05-11"/>
+     </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+         
+         <div type="chapter">
+            <head>I. FEJEZET</head>
+            <p>Rigától Prágáig röpitett egy kórházvonat és letett, ütött-kopott katonát a letnai
+               ideggyógyintézetben. Fáradt sugarakkal, gyilkos hidegfürdőkkel, a tussok hideg
+               korbácsával paskolták a testemet és déltájban kiültem a belvederei parkban gyüjtöttem
+               vizes arcomra a napsugarakat, mellre szívtam az augusztusi délelőtt hársfával és
+               füaromákkal elegyes illatait, fáradtan hullott ölembe Jammes verseskönyve, szikráztak
+               sárgás fényben a padok és szikrázott lenn a hegy lábánál a Moldova. Fejem felett
+               arany legyecske szállott. Éltem.</p>
+            <p>Éltem és lassanként elsülyedt az időben egy muló élet kulisszája. A felgöngyölődő
+               szallagnak csak egy-két színe vibrált fel előttem. Idegen volt a varsói zsidónegyed,
+               a breszki elhamvadt város, az át-megjárt orosz faluk a savanyú szélben, a végtelen
+               mászkálások az éccakában a trénnel, az állásokra ráereszkedő esőfüggöny, melybe
+               elvétve világitórakéta hasitott be és a fényszóró nagy szeme, ha pillantása hegyekből
+               rejtett völgyekbe fordult alá. Itt: zsongott az élet. Kis gyerekek hemperegtek a
+               pázsiton, cipőjükbe becsúszott az aranyos kavics, hajukba belopta magát a hegyes
+               fűszál és katicabogár.</p>
+            <p>Az életnek nincs se vége, se hossza - pepecseltem el a gondolattal. Mellettem öreg
+               cseh anyóka öltögette a harisnya szemeit egymásba. Elszakadt szálak kapcsolódtak
+               távolba néző szemem előtt fátyollá, élet sokszínü kendeje, beleszövődvén mult napok
+               izes szálai és a levegőben kergetődző ökörnyál, rézsutosan eső napfoltok és remegő
+               levelek zöldje.</p>
+            <p>Két-három új barátom volt akkortájt. Alacsony, tömött kolozsvári doktor az egyik.
+               Pocakján pettyes fehér mellény, aranylánc, vastag, polgári ékszer. Kurta lábaival
+               vidáman szökdécselt a sétányon. Szerette a nőket szemmel és minden kalandvágya,
+               melyet az otthoni élet és a kisvárosi megszokottság guzsba kötött, most felszabadult
+               és fegyelmezetlenül tombolta ki magát az arany Prága vérforraló nyarában. Mosolygó
+               ábrázattal, óránként megujuló frisseséggel próbálkozott a Belvedere nőinél, ravaszul
+               kacsintva hagyta ott névjegyeit a padokon, a kis, négyszögletü névjegyeket behajtva,
+               rajtuk a felirással: Univ. Prof. dr. Schwartz.</p>
+            <p>Néha be sem mutatkozott. Észrevétlenül oda simult a nőhöz, belecsipett a karjaiba, ha
+               ültek, megérintette fehér harisnyájukat. Ha a szeme közé vihogtak, boldog volt és már
+               hitte is, hogy nemzeti missziót teljesit, hogy most itt van a csehek között, a
+               lovagias magyar nemzet fegyverbarátságát közvetiti. Leszidták, elfordultak tőle? Fel
+               se vette. Tréfásan megfenyegette ujjával a menekülő fehérnépeket és nyugodtan, mintha
+               semmi kudarc sem történt volna, magyarázgatta nekem:</p>
+            <p>- Én mondom magának, Prágában minden nő kapható, csak tudni kell velük bánni.</p>
+            <p>De arról egész Prágában senki sem tudott, hogy dr. Schwartznak egy szeretője is lett
+               volna.</p>
+            <p>A másik barátom, kivel flangéroztam a parkban, szelid arcu, budapesti technikus volt.
+               Arcán néhány szál szakáll serkent, gyerekes kék szemével áhitatosan és félénken
+               tapogatta a leányokat, kik ringatódzva jöttek át a gyepen, kezükben rakett és mellük
+               ritmikusan domborodott a csipkebluz mögött. Dr. Schwartz vállalta ifju barátunk
+               kitanitását a széptevésben. Soha meg nem történt raffinériákról mesélt órákhosszat, a
+               nők meghóditásának titkáról és különösen neki fejtette ki nagy előszeretettel
+               elméletét, hogy minden nőt meg lehet hódítani.</p>
+            <p>- Fiatal ember, minden nő a magáé, csak ki kell nyujtania a kezét. Azután megcsipni a
+               gazdag nőt, van itt milliomos leány elég, elvenni, hazahozni Magyarországra.
+               Bizony.</p>
+            <p>Aladár a technikus talán be is látta ez elmélet helyességét, de elpirult, ha egy nő a
+               szemébe nézett. Félt ilyen acélos nézésektől, amelyek egyszerre mindent megláttak
+               rajta és összefoglaltak. Csak az áhitat élt benne, hogy jó volna kéz a kézben, nézni
+               a kertre leszállingózó estét, de azokat, akik meleg nézéssel fütötték fel arcába a
+               vért és karjuk érintése csendesen izent neki, tovább hagyta lebegni. Megelégedett egy
+               divatárus kisleánnyal a Zizkovból, ártatlan találkákat adott a régi városháza előtt
+               és feketesört fizetett esténként egy mohafedte kültelki pivovarban.</p>
+            <p>Ezek az emberek fontosak voltak nekem, aminthogy minden fontos, ami az életemmel
+               legkisebb mértékben is összefügg. Kisvárosi ember vagyok, érzékeny család sarja,
+               nagy célok felé nem törtető, kissé passziv, mint minden ember, kinek a szük városi
+               horizont nem engedi meg, hogy kalandorrá nőjje ki magát. Ahogy a pásztorember ismer
+               minden csillagot az égen és tudja a nap járását és tekintettel kiséri a felhők
+               iramát, úgy engem kis eseményeim szemlélővé tettek, megfigyeléseim ha nem is
+               tökéletesek, az csak azért van, mert nem tudok objektiv maradni. A dolgok körülöttem
+               nem sűrűsödnek tapasztalattá, minden gennyesen és véresen a szivem alá türemlik, ott
+               él tovább megbujva, rejtve. Jön valahonnan szeptemberi szél, lekoppan egy érett kék
+               hasu gyümölcs, orromba szökik ismerős illat, körülszálldos régi veretü szó, kibuggyan
+               álmomban elfeledt kacagás hegyi patakja, megszállja torkomat kőszénfüst vagy
+               monostorok felől harangszót kerget ide a szél, mintha petróleummal öntöttek volna le,
+               minden oldalomon égek. Egyszerre világossá válik a sok összefüggés és édes istenem,
+               annyi az összefüggés és minden összefügg egymással. Mint egy megbolondult
+               postahivatalban, egymásba gabalyodnak a távíró szálak, Budapest vonalon
+               beleordítanak a székely havasi kolompcsilingelésbe és ha emlékeim régi versek zöld
+               lankáival korrespendálnak, belesajditnak életem hurjai. Triviálitás és sablon,
+               vannak mozdulatok és mellékzöngék, melyek életem egész zeneszerkezetét zengésbe
+               hozzák. Néha megkisérlem kikapcsolódni életemből. Mint az indiánus a hömpölygő
+               folyamon úgy heverni életem partja mellett, elvétve rátenni a fülemet a bő habokra,
+               hogy hallgathassam és megsejdithessem elkövetkezendő lépések neszét. Ez volna talán
+               az ugynevezett tárgyilagosság, mely egynehány íróknak jellemzetes sajátja. Fiókom
+               tele van hasonló kisérletekkel, melyek a régi recipe szerint egy-egy tőlem látszólag
+               független eseményt nem nagy fáradsággal eltalált pointirozással gyurtak eleven
+               agyaggá, de ma már, ki tudja, fejlődés ez vagy visszafejlődés, számos problémáim
+               helyét csak egy probléma foglalta le, hogy úgy mondjam nagyobbszabásu kérdés, mely a
+               paleolit korszaktól kezdve - vagy talán még régebbről - a szénkészletek teljes
+               kiapadásáig - vagy talán még tovább - minden területet betölt, egyetemes
+               világtörténelem: életem. Épen ezért bátor vagyok szives olvasóim figyelmét felhívni,
+               hogy nincsen módomban úgy előadni a dolgokat, mint vannak. Egy csepp vizbe még
+               Dickens sem szoritott tengert és ha önök mégis azt hiszik, Dickens legkevésbbé hitte
+               volna. Minden író kifelé illuzionista és az úgynevezett tehetségétől függ, hogy
+               mennyire lesz kókler. De befelé valamennyien, kik pennát forgatunk, nagy üstökösök és
+               kis egek álló csillagai, egyformán nem tudjuk magunkat kifejezni, különösen akkor
+               nem, ha felelősségünk tudatában önönmagunkról beszélünk.</p>
+            <p>Barátaim, akik érző, eleven emberek voltak és külön-külön a firmamentum pályáin, mint
+               a mindenség keringtek, valóban benyultak életembe, de fontosságok nem volt nagyobb,
+               mint ott a Belvederén a pilseni sörnek, lábam alatt sárguló homoknak, a rododendron
+               kerti ágyaknak és egy drótkerítés mögül előkandikáló korhadt száru rózsabokornak. Az
+               emlitettek csak zárai és lakatjai életemnek, csupán arra jók, hogyha közülük
+               akármelyiket látnám, vagy csak emlékezetem pitvarába kerülne, minden eszembe jutna.
+               Alakjukat szándékosan kicsinyeltem le és csak magamat tolom előtérbe, mint Zuluoga
+               spanyoljait és ha magam mellett megtürök hasonló nagyságban és lendületben bárkit is,
+               azt csak magamért, luxusból, ajándékozásból teszem.</p>
+            <p>Barátaimmal hosszasan nem vitatkoztam. Bevallom, szívesen bocsátkoztam elvi
+               jelentőségű vitába, de mint szemérmetes, vidéki ember, lehetőleg kerültem az
+               alkalmat, hogy magamból is adjak valamit. Több izben megremegtem és vér szökött az
+               arcomba, hogy most elárultam magamat, szerencsére legtöbb embernek megvan a jó
+               tulajdonsága, hogy észrevétlenül megy el fontos és életet reprezentáló dolgok
+               mellett. Minden embernek más és más mult áll a háta mögött és ez teszi lehetővé, hogy
+               még ha el is mondanók egymás titkait, akkor se értenők meg egymást. Nem találok
+               rosszabb felosztást, mely a nyelv külömbözősége szerint osztályoz, hiszen minden
+               ember, akár magyar, akár német, akár cseh, a saját, egyedüli nyelvén beszél, melyet
+               már a szomszéd sem ért meg. Ez a tény indokolja álláspontomat, hogy ha van emberek
+               megkülömböztetésének jogosultsága, ez csak a külön-külön emberi lehet, ami
+               végeredményben egy a nemes értelemben vett kozmopolitizmussal.</p>
+            <p>Magamnak szavakkal körülbástyázása, gesztusokkal védekezése bizonnyal kényelmi
+               szempont és semmiesetre sem belső szükség. Nem győzöm eléggé hangsúlyozni, hogyha
+               családi nevelésem magányosságra kárhoztatott is, emberekkel szívesen érintkezem és
+               szükségesnek tartom, hogy fajtám egy-egy sikerültebb emberpéldánya állandóan
+               kezemügyébe essék. Minden plein-air úntat, ha nem látok magam körül élő lényt és
+               bármennyire is sikerült az irodalomnak a maga relativ eszközeivel vér és
+               hús-figurákat újrateremtenie, kell öt érzésünknek az emberi test közelsége, párája,
+               bolondsága és szenvedése.</p>
+            <p>Prágában magam is részt vettem barátaim hancurozásában. A társaságért sok mindent
+               megtesz, elkövet az ember.</p>
+            <p>Szivesen emlékezem vissza két leányra, akik testvérek voltak, egészségesek, ápoltak
+               és a fiatalság uri gőgje dagasztotta idomaikat: Nevüket sokáig nem tudtam, de
+               Schwartz, aki a Belvederén mindenkit ismert, mondotta róluk, hogy egy nyugalmazott
+               alezredes leányai. Ez természetesen nem volt igaz, aminthogy dr. Schwartz, mint
+               minden bőbeszédü ember, könnyen túltette magát apróbb kijelentéseken, melyek
+               összefüggés nélkül hirtelen eszébe jutottak. Én kényelmesen engedtem át magamat ez
+               illuziónak, mert emlékeim gyerekszobájában üveg bura alatt pihent két kincstári
+               kisasszony, Steinwänder osztrák őrnagy Lilije és Grätchenie, kikkel pirosan és
+               remegve korcsolyáztam a tornakerti jégpályán és akik egy zárkózott, előkelő és
+               keresztény élet ismeretlen titkait lengették felém. Nevezett prágai hölgyek, ha nem
+               hasonlitottak volna arcuk egy némelyes kifejezésében egymáshoz, két idegen lény
+               érzését keltették volna fel bennem. Az egyik, az idősebb, magasabb volt; szeme
+               nyugodt és acélos járása energikus és lépései fiusak, fölényesség és komolyság
+               mozdulataiban, hangosan nem nevetett soha. A másik: rakoncátlan fiatal gyerek, a kis
+               csikók rugalmasságával, kacér, ragyogó szem, a pisze orr mögött hangja, mint játékos
+               citera csengett, egyik kerti padtól a másikig, érthetetlenül lággyá morzsolta a
+               kemény, német hangzókat és amikor az ugró férfi szemek beletapadtak a nézésükbe, a
+               kisebbik mert visszanézni, de a nagyobbik öntudatosan, fölényesen rugta maga előtt a
+               kavicsokat és tekintete biztosan, könyörtelenül verte vissza a tolakodó pillantását a
+               szembejövőknek és hogy a háta mögött mi történt, arról nem akart tudni semmit.</p>
+            <p>Dr. Schwartz természetesen bemutatkozott nekik. A nagyobbik keresztbe tett lábakkal
+               ült a padon, a kisebbik egy vörös Engelhorns regénnyel legyezgette magát és
+               felnevetett, amikor Schwartz gömbölyü feje előre hajolt és arannyal tömött fogai tört
+               németségü mondatokat hevenyésztek feléjük. A nagyobbik felállott és egyetlen nézéssel
+               utasitott vissza minden merényletet.</p>
+            <p>- Gyere, Marie! - szólott hugának és hazamentek.</p>
+            <p>Dr. Schwartz mosolyogva jött vissza padunkhoz, vidáman forgatván botját a
+               levegőben.</p>
+            <p>- Rendben van fiuk. A nők igent mondottak, csupán arra kérnek bennünket, hogy
+               tekintettel édes apjuknak, az öreg alezredesnek szertartásos érzületére, ne itt a
+               sétatéren mutatkozzunk be, ahol mindenki ismeri őket. A kisebbik egyébként megígérte
+               nekünk, hogy eljön délután a kávéházba.</p>
+            <p>Bár a siker, melyet dr. Schwartz közbenjárására elértünk, fantasztikusnak látszott,
+               éltünk a gyanuperrel, hogy látva a hölgyek viselkedését, a dologság nem épen úgy
+               volt, ahogy azt dr. Schwartz ékesen előadta.</p>
+            <p>A továbbiak igazolták is gyanunkat. Másnap a nők szívtelenül elmentek elfordított
+               fejjel mellettünk, még a kisebbik is adta az előkelőt és amikor dr. Schwartz utánuk
+               kiabált, látható megbotránkozással más szerpentin útra tértek el.</p>
+            <p>- Itt valami baj van - csóválta a fejét dr. Schwartz, amikor mi szemrehányó
+               tekintettel fordultunk felé. Alighanem, maga, fiatal barátom, tapintatlan mérnök úr,
+               rontotta el az egészet.</p>
+            <p>A technikus élénken tiltakozott, hogy ő nem illetlenkedett, a doktor részéről az csak
+               kifogás. És a nőkkel való megismerkedés ezek után végérvényesen megbukott.</p>
+            <p>Ilyen szomoru megoldásba nem mehettünk bele. Elhatároztuk, hogy a mérnökjelöltnek
+               másnap oda kell menni a hölgyekhez és nevünkben bocsánatot kell kérni.</p>
+            <p>Másnap, amikor délelőtt tiz óra tájban a leányok újra megjelentek, a mérnökjelölt oda
+               is ment. A kisebbik csengettyüzve kacagott, a nagyobbik barátunk szeme közé
+               vágta:</p>
+            <p>- Tőlünk ne kérjen bocsánatot, hagyjon bennünket békében. Nincs szükségünk a maguk
+               barátságára.</p>
+            <p>Le voltunk forrázva. Hiába szólitottuk meg másnap, harmadnap, iksz alkalommal megint
+               a nők hajthatatlanok maradtak.</p>
+            <p>Ami engem illet, ez az állhatatosság felette imponált nekem. A leányok mégis csak,
+               minden szemtelenkedésünk dacára is kijöttek a sétatérre. A nagyobbik leány szeme
+               olykor végigsuhant rajtam és ebben a nézésben volt valami, ami arcomba kergette a
+               vért. A pillantás ezeket mondotta: nem neked szól a megvetésem, de nekik. Ők
+               utálatosak, de te nem. Undorodom tőlük, de te tetszel nekem. Miért vagy velük? Miért
+               vagy velük, te, árva, kétcsillagos kis magyar katona, száz másik magyar katonával,
+               önkéntessel, tiszttel, doktorral? Kik neked e betegek, hogy együtt loholsz velük
+               kórházakból kaszárnyákba? Miért vagy velük? Miért közös az életed az övékkel, miért
+               nem vagy egyedül, mint én? Lásd, megvetésemet neked is oda dobom, pedig te különb
+               vagy. Végtére is nem mondhatom neked, hogy szeress, még veled szóba állok! Végtére is
+               nem szólithatlak meg, nem inthetlek magamhoz, amikor velük vagy.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>II. FEJEZET</head>
+            <p>Néhány nap mulva teljesen egyedül maradtam. Barátaimmal nem törődtem. A kezelést
+               áttettem a korai reggeli órákba és utána nyomban ki, a sétatérre. A leányok, frissek
+               és áldottak legyenek ők, már künn voltak. Széles, tenyérnyi foltokban zuhogott a nap
+               heve a padokon. Leültem, újságot vettem a kezembe és azzal a büszkeséggel, melynek
+               forrása öntudatlan védekezés, elnéztem a fejük felett. A nagyobbikat, talán mert én
+               voltam a durcás, elneveztem magamban Trotzkopfnak és csak egy oldalpillantással
+               néztem reá, amint könyvébe és himzésébe mélyedt, kósza levelet simitott el szoknyája
+               szélén vagy kitörült arcából egy odatévedt hajszálat. Olyankor, egy pillanat alatt,
+               beteg az orvossággal, vagy szomjas a vízzel tesz így, e leány minden szépségét fel
+               akartam szürcsölni magamba.</p>
+            <p>Elvétve pillantásaink összetaláltak. A két nézés összetapadt, két acélos penge
+               verekedett egymással: hohó - mondotta az ő szeme - kellek neked! - Igen, akarlak -
+               szúrtam felé a tekintetemet. - Kis fiu vagy te hozzám - vágott vissza fölényes
+               mosollyal ajka körül. - Mégis akarlak, azért is - és szememet a pupillájába
+               mélyitettem. Ajka tiltakozón elgörbült: - Mit is törődöm veled?! - Könyörgöm, -
+               buktam előre fél testtel - ne utasits el magadtól. - Eh, más dolgom is van -
+               fordított egyet a könyvben... - Kisvártatva felém fordult: mit olvasok? Úgy tartom a
+               könyvet, hogy legalább a cimét láthassa. Megnézi, nem érdekli. - Unalmas vagy barátom
+               te is, a könyved is - kigyózott egyet japán vágású szemöldöke. - Te talán külömbet
+               olvasol? Mutasd a könyved! Megérti, hogy mit akarok és a könyvet azért is az ölébe
+               ejti. Majd feláll, végig megyen mellettem, hogy öt perc mulva visszaforduljon és
+               akkor elém tartja a cimlapot: Jacobsen. Igen, ő Jacobsent olvassa, még nem tudom,
+               talán éppen a Niels Lyhnét. Drága aranyos gyermek, be jó vagy te hozzám... Most talán
+               megfordult volna a végzet, ha Marlitton merengtél volna el, vagy Hahn Hahn Ida
+               grófnőn.</p>
+            <p>Másnap én is egy Jacobsen kötetet szorongatok a kezembe. Észreveszi, elmosolyodik.
+               Feláll, áthajtja fejét a terraszon és hosszasan elnéz a siklós Moldva és a hidak
+               felett. És valahogy úgy áll ott, mint Jacobsen Grubbe Máriája. Tudja jól, hogy tudom:
+               látom, miattam áll a folyondáros terrasszon. Hogy lássam, körülfonjam a testét.
+               Termete egy siluettbe nyúlik. Leszakit egy virágot. Rám néz. Könnyü mosoly. Nem, még
+               nem szabad.</p>
+            <p>Kis huga olvas a padon. Nem is tudja, hogy közöttünk már szövődik valami. Eszembe
+               jut, mint egy gyerekdal: Az új háló fog már ágabogaival mind a kettőnket....</p>
+            <p>Végre kijönnek barátaim; ismeretlen barátnőm hálásan veszi tudomásul, amint
+               elmenekülök előlük, mielőtt hangos aplombbal hozzám csörtetnének. A fiuk leülnek
+               szemközt és folytatják ellenük a szélmalom harcot. A kisebbik nevetve állja az
+               offenzivát. Tetszik neki a játék. De a nagyobbik arca még keményebb lesz, szinte
+               szigoru. Ha akarná, édes apja, az alezredes becsukatná valamennyit az egyesbe, mig
+               meg nem feketednek. Dr. Schwartz kurtavasat kapna és nyolc napig bőjtölne. A
+               nagyobbik megelégszik azzal, hogy durcásan nószogatja hugát a hazamenetelre.
+               Immel-ámmal fölkapaszkodik a padról és lesöpri magáról a galyakat. Hazamennek. Már
+               tudom, hogy melyik irányban laknak. Megkerülik a nagyobbik köröndöt a kioszk mögött
+               és ahol, a barokkútnál megsűrüsödik az ösvény, befordulnak. Lassan utánuk megyek. A
+               nagyobbik szeme megsejditi, hogy a tömött bokorban, tul a parellel futó kerti úton
+               őket kisérem. És én? Reszketve lesem, amint felhőzik fehér ruhája és vékony nyaka
+               becsúszik a zöld levelek közé, mint egy szalag. Járása biztos, öntudatos. És hogy én
+               kisérem őt, muszáj kisérnem, a világ legtermészetesebb dolgának tartja.</p>
+            <p>De a sétatér bejáratánál, ahol utcasor kezdődik, megállok. Nem kisérem tovább. Úgy
+               érzem, máris sokat engedett meg nekem.</p>
+            <p>Másnap is ők jönnek ki hamarább. Jacobsen ma otthon marad. Új könyv: Meyrinck.
+               Megbocsátom neki, bizonyára személyes ismerőse, esetleg atyafiság. Rendben van. Leül
+               és a szemjátékot tovább folytatjuk. Marie, a kisebbik, kinek nevét egy halk,
+               egymásközti beszélgetésből jegyeztem meg, ha szemem nem csal, észrevett valamit.
+               Amikor meglát, nyugtalanul rám néz, odasug valamit nénjének, aki egy árnyalattal
+               elpirult. Istenem, talán nem is igaz, csak én szeretném hinni, kezdek nőni a
+               szemében. Ma zárkózottabb, mint tegnap. Fél talán, hogy egy lépéssel közelebb
+               merészelek hozzá. Közben megérkeznek „barátaink”, a lányok be sem várják. Trotzkopf
+               kisasszony itt hagy bennünket. - Smlecsno, pocskat mné - kiabálja a doktor izetlenül
+               utánuk, jóllehet, tudja, hogy németek a lányok és nem csehek. Én is eltünök - a
+               bokrok mögött. Körben egy pillantást kapok még, mélységes, belülről jövő
+               szemrehányást! Látod, ilyenek a te barátaid! Magyarok. Hát miért nem védelmezel meg
+               ellenük? Légy lovagias és torkold le őket.</p>
+            <p>Mély alázattal, én nem tehetem. Az ő kegyelmükből vagyok még a gyógyintézetben,
+               hercegnőm és ha kirugnak a csapathoz, sohasem látlak többet. És máskülönben sem
+               akarom elárulni magamat. Ha tudnád, érzéseimben mily titkolódzó vagyok és mily
+               szemérmetes. Napról-napra fontosabb vagy hercegnőm nekem és napról-napra jobban
+               titkollak.</p>
+            <p>Mindazonáltal merész vagyok. A sétatér kapujánál megállok, de nem fordulok vissza.
+               Utánuk megyek. Marie észreveszi, ujra sug valamit. Hercegnőm nem vesz észre.
+               Szótalan, egy füszálat harapdál, nem válaszol Marienak. Befordulnak egy utcába,
+               elmélkedek, hogy legalább a házuk előtt kapok utravalóul egy pillantást. De barátnőm
+               ajka szigoru s én jól tudom, hogy kinlódol miattam, de nem szánlak meg. Nem, ma nem
+               veszlek tudomásul.</p>
+            <p>Trotzkopf.</p>
+            <p>Öt percig állok házuk előtt, várom, hátha az egyik ablakban meglátom őket.
+               Akaratlanul is a szivemet tartom a kezemmel, hátha mégis. Nem tudok távozni. És
+               később elmegyek, összerágom a cigarettát s elkeseredve egy gázlámpához hajitom.</p>
+            <p>De legalább tudom, hogy hol laknak.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>III. FEJEZET</head>
+            <p>És ez így megy nap-nap után. Úgy teszünk, mintha a véletlenség hozna össze bennünket
+               a Belvederen, nem a szántszándék. Kerüljük egymást, pillantásainkat összekapcsoljuk,
+               újra visszarántjuk. Az önkinzás játéka ez is, mi hetekig játszunk. Korrespondálunk
+               egymással, fontoskodó és titokzatos morse jeleket váltunk, ismerjük egymást.
+               Megtudom, Helénnek hívják. Nevét, mint egy lopott holmit, gyüröm a szivem alá,
+               lakásomon betünként szedem szét, összerakom, földre ejtem, százszor leírom,
+               elguritom, amforává formásitom és vállaimra emelem. Hangosan mondom, fütyülöm,
+               énekelem, zenét komponálok mellé. Néha azt hiszem: csillag, ki minden időkön
+               fényeskedik. Végig zuhanok a diványon és behunyom szemeimet és hangosan kérdezem
+               magamtól: Csillag, van-e még ilyen csillag a világon? Van... Vékony hegedü...
+               valahonnan a koponyám legmélyéből, zárt ablakok mögül, elrejtett lichthof árnyékából
+               szüremlik át édes mellékzöngéivel az emlék. Erzsinek hívják. Egy név, melyet
+               összeszoritott fogakkal felejteni akartam. Üvegbura alá tettem és behúztam
+               gyászflórral. És most diadalmasan süt ki a sötétből, mint világitó korall a tenger
+               fenekén. Helén nevét suttogom - tudatosan az új nő nevét, ki itt dobol most a
+               szivemen és... és Erzsi hajának bódulatát érzem öntudatlanul. Erzsivel ülök a
+               szobában, vörös, görög frizurája az államat surolja és mégis az álmodozások
+               fantasztikus rododendronkertjéből Helén arca hasit ki fehér villogással. Hajfürtök,
+               szavak, fehér cipők, kis szallagok bazárja, minden együtt. Végig simítom gyors
+               mozdulattal a homlokom táját. Suttogok, lábujjhegyen jár a hangom. Lássuk csak -
+               mondom magamban - hát úgy történt, hogy Erzsi meghalt. És Helén most született...
+               azaz hogy Erzsi nem halt meg, de föltámadt... Halotti ingében mást temettünk el, de
+               él ő és Helén ruhájában rejtőzködik... Lássuk Helént, nógatom magam. Helént akarom.
+               Minden gondolatommal meg akarom fogni az arcát és az emlékek lágy és érzékeny
+               anyagjából eleven szobrát próbálom kigyurni. Némely mozdulata biztosan alakul ki az
+               alaktalanságból. Ringó járás, kék horgolt kabát, nyakba eső, sűrű barna copf, pufók,
+               barokk angyal a kútnál, a Belvedere: igen, ez Helén és a tartománya... De mi ez?
+               Helén borongó szépségére egy gúnyos mosoly sötétlő árnyalata tévedt Szavakat hallok
+               és e szavakat nem Helén mondja el... Hanem Erzsi. Fejemre húzok egy diván-párnát,
+               hogy elhessegessem az arcát. Én most őt akarom. Egyedül őt... Nem megy. Helén szája
+               fölé, mintha egy fényképre egy másikat vetitenének, rajzolódik az Erzsi arca és
+               beleordítom a süket, puha csendbe: Helén, ne engedd el a kezemet. Még nem késő
+               semmi.</p>
+            <p>Akarj erősebb lenni, Helén kis szivem, mard be magadat tüzesebb vonalakkal az
+               agyamba... Helén... Úgy, úgy. Igen... Visszajöttél, te vagy, egész te vagy. Marieval
+               kéz a kézben méssz, most mögötted összecsapnak a bokrok, maradj meg az éles
+               beállitásban... Kérem, művésznő, ne mozogjon. Nyugodtan menjen előre a színen, valami
+               egész álmatag hangon forduljon félarccal a közönség felé. Ne hanyagolja el a
+               partnerét... Nem jó. Nyugodtan előre megy, azzal a félálmos testtartással, a nézőtér
+               felé, egy pillantás, de most gyorsan a hősre nézzen, igen, igen, a hősre... Több
+               figyelmet művésznő, az Isten szerelméért... Ó, Helén. Egyetlenegy. Most tisztán
+               látlak, bárcsak így maradnál, de úgy félek, hogy szertefoszlik az arcod. Csak egy
+               pillanatra... Hát, hogy is volt csak... Délelőtt 11 órakor hazamentél. Kissé felleges
+               ég alatt. Marie a jobb karjával beléd kapaszkodott és engedte magát, hogy húzzad. Te
+               bólintottál és egyik kezed himbálódzott a könyvvel. A Kolostor-utcán egy öreg urnak
+               köszöntél oda. Jó kedved volt, ballábadat kissé hátrafelé emelted, tovább topogtál,
+               mit tudom, négy negyedes taktus. Én mögötted ötven lépésre. Te nem néztél vissza, de
+               tudtad, mindig tudtad, hogy ott vagyok. A láthatatlan szolga, mert sohasem néztél
+               hátra. Egyszer, emlékszel, visszanéztél, nem is akartad. Én rád néztem, tudom
+               határozottan, egyetlen nézés voltam, a kezem, a hátam, mivel a falnak támaszkodtam
+               megszünt létezni. Minden csak téged nézett.</p>
+            <p>Balkonodról, zárt ablakok mögül, kiugró kaszkádok között kinéztél. Kihajoltál,
+               kerestél. Hajad a nyakadba esett, bluzod kígombolódzott. Integetni kezdtél a
+               kezeddel. Tarka japáni pongyola volt rajtad, a kis fehér mopszli felkapaszkodott a
+               fekete, bársony karosszékbe, felállottál, az ablakfára hajtottad a fejedet...
+               Istenem, hiszen ez már nem Helén. Elmosódott, az emlék arcát már felitta. Ez Erzsi és
+               Nagyvárad és a Pável-utca... És Helén? Ő nem is integetett nekem, még csak nem is
+               hajlott ki a balkonon... Rettenetes, meg kell bolondulni!</p>
+            <p>A nyár már a végét járta. Helén ritkábban jelent még a sétatéren. Marie pedig
+               egyáltalában nem jött ki. Heves főfájások gyötörték, melyek talán bizonytalan
+               érzéseimmel voltak összefüggésben. Vagy talán mindez a túlzásba vitt hidegvízkúrának
+               volt az eredménye?! Nem tagadhatom, hogy szemmel-láthatólag soványodtam. Nem is
+               restellem bevallani, - intimus feljegyzéseim előreláthatólag kevesek kezébe kerülnek
+               el, - hogy mód felett hiú vagyok és sokszor, fél órákon keresztül nézem magamat a
+               tükörben. Arcom minden vonását ismerem vagy legalább is ezt hiszem magamról. És
+               rájöttem, hogy épen saját arcunk az, ami számunkra mindig idegen marad. Nem becsülöm
+               túl arcom kifejezési lehetőségeit, de bizonyos rejtett fájdalmakat vettem észre
+               rajta, kik szeszélyes gyűrődésekben, szarkalábakban és hajtásokban bújtak meg.
+               Rendkivüli fiziognomiaí tanulmányaim újra visszavetettek a magányosság tornyába és
+               körülbástyázottabban mint valaha, menekültem titkommal az emberek elől.</p>
+            <p>Így éltem.</p>
+            <p>Helén pedig, mint mondottam, ritkábban, mind ritkábban járt ki és kósza tekintete
+               néha megkeresett, néha akarata ellenére is elfogott engem. Egy lépést kell csak
+               megtennem - biztattam magamat - hozzá kell menned, most már mindent megvezekeltél,
+               szólj neki, akármit, mindegy, hiszen úgyis csak közömbös szavakra vetemedhetsz, nem
+               fog elútasítani. Láttad, ma reggel is hogy nézett. Mire vársz? - kérdezte árnyas
+               pillantása alól - lassan összeomlik a nyár és a falevelekkel hüvös szél perel.</p>
+            <p>A lépést, egyetlen lépést nem volt erőm megtenni.</p>
+            <p>Helén egyszer kijött Marieval is, együtt, öt percre, augusztus huszonnyolcadikán,
+               feljegyeztem a naptáromban, mert ragaszkodom az emlékekhez és két kézzel rántom őket
+               vissza a tovaszáguldó időből. Előtte való este nagy vihar volt a Belvederen. Kövér
+               eső sárossá mosta a homokot, reggelre nyomorék levelek feküdték meg a sétányt. Helén
+               frissülve járt a fellobbanó új napon és hazamenet elejtette zsebkendőjét. Nem vette
+               észre, sem huga, a zsebkendő földrehullását. De nekem látnom kellett, mert szemem
+               rendeltetésének fogja fel, hogy mindent észrevegyen, ami Helénnel történik. Hiszen
+               ismertem cipőit, szalagjait a hajában és szemének parázsából olvastam ki, hogy
+               nyugodtan telt-e el a napja, vagy a fiatal leányok neuraszteniája gyötörte? Helén
+               elejtette zsebkendőjét és engem, ki mindig száz lépésnyire követtem őt, mintha sziven
+               ütöttek volna. Most, most - kiáltottam ujjongva - most rohanj oda, add át neki, mond
+               el, hogy boldog vagy. Szavak villantak fel agyamban, kész, kis mondatok, kiket
+               álomtalan éccakákon gondoltam végig, felkészülve, hogy mit mondjak neki, ha egyszer
+               majd szemtől szembe kerülök vele.</p>
+            <p>Csöndesen utánalopództam, lépteimet meggyorsitottam, hogy utólérjem a leejtett
+               zsebkendőt. És akkor megtörtént a katasztrófa. Amint odatartok, a keresztútnál
+               hirtelen befordul egy utcaseprő, ki a lehullott leveleket hordta össze lapátjával
+               garmadába. Meglátta a zsebkendőt és utána nyult.</p>
+            <p>- Tegye le - sugtam oda - én akarom odavinni.</p>
+            <p>- De hiszen ez nem a magáé - válaszolt nagy bután, szemeket meresztve - hanem azé a
+               kisasszonyé.</p>
+            <p>- Mindegy. Én akarom odavinni. Értette?! - A beszédre hirtelen megfordult Helén és én
+               elhallgattam. Az utcaseprő pedig odavitte a zsebkendőt. Helén, Marie pedig hátra sem
+               nézve tovább mentek. Gyökeret vert a lábam, remegni kezdtem és meggörnyedve fordultam
+               vissza.</p>
+            <p>- Vége mindennek, rettenetes - dadogtam - most már sohasem merek Helén szeme elé
+               kerülni.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>IV. FEJEZET</head>
+            <p>Valahogyan máról-holnapra lehült a levegő és szordinót kapott az egész Belvedere. Egy
+               árnyalattal elborultak a prágai templomok zöld kupolái, tornyok, házak, öreg malmok,
+               emberek, hajóhidak fáradtabban könyököltek ki a Moldovára, mint valaha. Helént tiz
+               napja nem láttam, házukat, Belvederét, istenem! Újra összekerültem „barátaimmal”. A
+               bólogató fák között jártunk, amikor a kertbe vezető úton megpillantottam Helént. Mély
+               szemrehányás vizesedett szemében, megtört fény mögött ott lappangott egy kis
+               szomoruság. Szeptember első napjai aggatták-e rá szomoruságukat, vagy talán nem is
+               volt szomoru? Bizonyára minden a hangulattól függ, talán én mártottam be fekete
+               tussba a világot és öntöttem a fák koronája közé a csöndes bánat szépia tentáját. A
+               lappangó ősz első heteiben érzékenységem még jobban pattintotta idegeimet. A távoli
+               vonat füttye mélyebben markolt a szivem alá és egy-két elárvult regatta a Moldován
+               jobban fájt mindennél. Helén ott sétált az őszben, mozdulatait táncos levegő
+               dédelgette, közben meg-megállt és távoli felhőkön merengett. A felső vendéglő előtt
+               egy padra ült. Baloldalomon a technikus haladt és mikor előtte vitt el útam,
+               csendesen, nagyon csendesen, de hogy Helén mégis meghallja, jegyeztem meg:</p>
+            <p>- Igen, barátom, holnap átmegyek Prágába, a pótszázadhoz. Ma vagyok utoljára a
+               Belvederén. Helén szeme - ó jól láttam, tudtam és a vér bibora sikoltva szaladt szét
+               ereimben - félénken riadt reám és szemem röptében fogta el ezt a könyben fürdetett
+               nézést. Felkaptam a villámsugárt, két szemünk egymásba tapadt, de a két pillantás nem
+               verekedett. Fogta egymást, mint két kétségbeesett ember, halálugrás előtt, a sülyedő
+               hajón.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>V. FEJEZET</head>
+            <p>Délután megnéztem még búcsúképpen a házukat. Az alkonyati csöndességben megritkultak
+               a járókelők, tompábban hangzottak a lépések; egy kerítésnél meglapultam, mint egy
+               koldus. Merően szegeztem oda a lefüggönyözött ablakokra nézésemet: Helénnek ki kell
+               jönnie, látnia kell még engem. Alig egy percig tartott minden idegszálam hipnotikus
+               játéka, félrenyilott a függöny és a csukott ablaküvegen keresetül megjelent Helén
+               fájdalmas arca. Köszöntem neki ügyetlenül és mély meghajlással, reszketett közben a
+               kezem. Istenem, mi ez megint! Hiszen ott... Erzsi áll. Már felejtem Helént, elsülyedt
+               az égő alkonyatban. Előre hajlok, mintha nem hinnék a szememnek. Erzsi ott, ott az
+               ablakban, ujjongtam, nem vesztettem el, nem veszett el öt tél és öt nyár, újra ott
+               van, lesz, kikisér, áhit és parancsol a szemével, a sóhaját is hallom, száll, körbe
+               fog, mint az ölelés, ó, Erzsi, Erzsi, egyetlen Erzsi, most rátapasztja homlokát a
+               hideg ablaküvegre, most letörli a befútt üvegen sóhaja páráját, nem szól semmit,
+               végtelen pantomimika ez, de mi mégis beszélünk, szavakat dobunk egymásnak, játszunk
+               velük, mint a labdákkal, kifogjuk, visszadobjuk.</p>
+            <p>Erzsi...</p>
+            <p>A Kőrös mormol titokzatos scherzókat... És a templom kupoláján fényfoltok ülnek meg
+               zölden. Távolból hallkuló ostorcsertités. Imitt a sétatér és hervatag konfetti
+               gubbaszt a kihűlt délutánon. Körülnézek. Ismerős jeleket keresek; alkonyi házak
+               arabeszkjeit, kik boldogságom tanui voltak. Mi? Micsoda? Hiszen ezek a házak nem
+               azok, a törpe földszint itt emeletnyi magasságba szökkent, a lassanként elmuló
+               kocsizörgés itt villanyos csilingelés, ez Prága és ott a balkonon, fehér színek és
+               eleven hús szövedéke: nem Erzsi. Mi az hát, mi úgy integet felém, mint ismerős a
+               vonat ablakából. Felujjongó?! Diadalmas?... Az érzés. Újra a régi érzés, mely a muló
+               idővel nem változott, egy palettára kever multat és jelent és azt váltja ki belőlem,
+               ami voltam. Lejátszott dallamok futnak ki a szivem alól, friss életerővel, a
+               hangkeverés új csodájával, mert önnönmagamat teremtem újjá. Akkora gyorsasággal
+               vibrálnak most egy csokorban a mult elszakadt szálai, hogy amint végig futnak
+               ujjaimon a gondolatok - gondolat és érzés az mindegy, aminthogy minden már csak:
+               emlékezet - a fizikai fájdalom hasogatásával kinlódom át őket.</p>
+            <p>Nedves szememet megtörülöm. Tisztán látok. Helén előre hajlik és int nekem. Körül
+               nézek, hátha másnak szól. Lehetséges? Nem, nem tévedhettem! Tekintetét felém küldi,
+               senki sincs az utcán. Helén!! Hónapok passzivitása megteremtette a maga robbantó
+               aktivitását. Könnyekkel mostam alá egy sziklát és sóhajokkal rezegtettem meg egy
+               virágágyat. Helén tehát tudja, hogy mennem kell e városból, de nem ereszt. Lasszókat
+               dob ki a balkonból és hurkot csavar a derekam körül. És mégis rabszolgája vagyok és
+               mégis: győztem. Valami megnyugtat, mintha langyos fürdő emelné lábaimat. Hol van már
+               Erzsi és hogy sülyed el mellettem a világ, hogy fakul el minden, mint egy haldokló
+               orcájáról a pir, hogyan száll minden valóságra egyetlen függöny, hogy megtépázott
+               alakom gyertyává egyenesedjék és égig érő tűzcsóvává s fényeskedjék a végtelen, sötét
+               időre a tátongó, komoly kárpitok között, föl, föl, kapkodó árnyékkal a falán,
+               széttárt karjaim elfutó vonalában: győztem.</p>
+            <p>Meddig is tartott ez a nézés, melyben a lelki spektrum minden színe összeolvadt?...
+               Öreg asszony jött ki a kapun és felém tartott. Csak most, ahogy karjaim közé szoritom
+               zsibongó fejemet, otthon, az íróasztalomon, néhány hét lehütő távolán át érzem csak,
+               ahogy felém jött és megszólitott. Akkor csak azt hallottam, hogy egy szó testté vált,
+               kitapintható, élő anyaggá, ahogy izent. Jött tőle irdatlan szférákon az izenet és
+               karján vezetett egy öregasszonyt. Az izenet jött és az ordított be a fülembe. Földre
+               sütött szemekkel hallgattam, mint biblikus időben a kinyilatkoztatást a megszállott
+               próféták, ólmot égetett a fülembe, hogy megbolonduljak mindentől és ne halljak semmi
+               mást, csak ezt:</p>
+            <p>- A kisasszony azt izeni, ne menjen el, Uram! Várja őt meg este hét órakor a
+               sarkon.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VI. FEJEZET</head>
+            <p>Amikor ez a kis jelenet lejátszódott, délután öt óra volt. A nap kifáradt már az
+               égen, mint az öreg asszony szendergő álom előtt a szempillákat, egymásután teregette
+               le alkonyi tülljeit. Helénék ablakán legördült a rolló. Vettem magam, kiültem egy kis
+               kávéház terraszára, a rugdalódzó oleander-bokrok közé, kik fázékonyan bujtak
+               egymáshoz és halkszavu virágnyelven konverzáltak egymással. Figyeltem őket, amint
+               csevegtek szűzi és nagy dolgokról, csendesen belediskuráltam megjegyzéseimmel, mert
+               nekem is közöm volt, hogy mi a véleményük a hervadásról, a tajtékos vörös felhőkről,
+               a lecsüngő esőfüggönyökről. Itt-ott, emeleti ablakokban lámpa villant, parányi,
+               kerek lángok bukkantak elő, kokadt fényük el-meghimbálódzott a sötétben, imbolygó
+               szempillájuk felém pislantott és ultraviolett finomsággal ők is részt kértek a
+               megelevenendő dolgok litániáján. Vigasztalan esőfoltok, tócsák az aszfalton, ezüstös
+               árnyalatokban, tova lebegő súlynélküli árnyékok a falon, utcákon, vértelenül,
+               villanyos kocsik, valahonnan érkezők és ismét elhaladók, melyeket szikrázva fog el
+               kékes fényében az idegfonál, hogy újra elejtsen egy elhalványuló világban. Gondolatok
+               így váltak a kitapintás valóságává; minden dolog így került a közvetlen, az emberi
+               érintkezés közelségébe - ám érces hangon egy torony a félhetet ütötte, szaladj hát
+               szenzációkra szentelt élet a vágy szárnyain, a szomjuság hajóján, a reszketés
+               villamosán utána!</p>
+            <p>Utána!</p>
+            <p>Utána rohantam és vártam őt, azzal a feszültséggel, mely végtelen életemben csak
+               párszor adatott meg. E feszültség állott hirtelen hátam mögé, mint színpadi
+               előadásokon sülyesztők fölött Mírákel, a csodadoktor, vagy amikor kölyök koromban egy
+               második emeleti ablakban, Budapesten jött fagyos acéllal a doktor, hogy megnyisson
+               fülem mögött egy irtóztatóan sűrű és feldagadt kelést. Ez a feszültség, amikor
+               füzesabonyi aranyvetések között, négy szál deszkában az első halottat láttam, a
+               kimuló, elhallgatott embert, szerencsétlen nagyapámat.</p>
+            <p>És ugyanaz a feszültség, amikor váradi napsütésben két, lelkes karral nyúltam az
+               Erzsi nyakába és meritettem fel szivem végtelen és parttalan és meritetlen kútjából:
+               a csókot.</p>
+            <p>Helén jött. Fekete pillangó. Karcsú, lágy testén szürke felöltő. Félve jött felém és
+               mégis egyenesen hozzám. Ahogyan magam előtt láttam őt, a sorsot láttam, a hívásomra
+               feltámasztott fátumot, a földre lecsapó zengő vihart. És ahelyett, hogy ujjongtam
+               volna és ezüst kanál csengette volna üveg szivemet, a mellemet ráztam, mint
+               engesztelő napon a gyászoló zsidók. Most, most... Menekülj, mondottam magamnak,
+               boritsd két hideg tenyeredet pápista arcodra, fuss! Fölkeltetted a vizözönt, az ár a
+               nyakadig ér. Erdő szélére kerültél ki, szemben a táguló horizonttal, rohanj vissza az
+               erdőbe, ág-bogas életedbe, a földig torpanó fák, ott gyökerek kulcsolódnak mélyen a
+               föld alá, szeszélyes karok tartanak függönyt a fejed felett és komoly, kifeszitett
+               ponyváján az égnek előre fénylik a csillag.</p>
+            <p>Helén jött, megfogtam a kezét. Kis, meleg madárkát tartottam az ujjaim között avagy
+               talán kalimpáló szivet. Valamit akartam mondani és csak annyi csordult ki
+               belőlem:</p>
+            <p>- Köszönöm.</p>
+            <p>Meddig állottunk ott? Az idő hangosan csattant, a tengeren egy hab fodrozott fel, mi
+               az? Talán egy örökkévalóság volt, talán egy félpillanat, amig a világitó óra mánusa
+               egy másodpercet előre szökött.</p>
+            <p>- Köszönöm, hogy eljött - mondottam - lássa, fáj ez a nagy boldogság.</p>
+            <p>- Nem lett volna szabad eljönnöm - felelte Helén -, nem is tudom, hogy hogyan
+               határozhattam el magam erre a lépésre... Talán mert maga elutazik?</p>
+            <p>- És maga eljött, hogy útravalóval lásson el? Egy percre csak, hogy mindig emlékezzem
+               e percre... Hát ezért?!</p>
+            <p>- Ne mondja azt, hogy mindig fog emlékezni. Az ember mindig felejt.</p>
+            <p>- Az ember mindig emlékezik. Semmit sem lehet elfelejteni. Minden ami történik
+               velünk, visszamarad. A folyó lemossa a part homokjait, de viszi magával. Talán a
+               mélybe is lehordja, de az ott marad, annál biztosabban, minél mélyebben.</p>
+            <p>- Ha elmegy Prágából, meddig emlékezik még reám? Vissza viszi útja Magyarországba,
+               jó, van egy emléke. Én! De mi az magának? Száz emléke volt és ezer emléke lesz. Mi
+               leszek én közöttük, e tarka vásáron, elmos az idő és maga is mosolyogni fog, hogy
+               hetekig állott az ablakom alatt...</p>
+            <p>Mentünk a Belvedere felé. Nem nézett reám és úgy éreztem, hogy még nagyon messze van
+               tőlem. De mellettem ment, neki megnyitottam a száj zsilipjeit, hogy szavak
+               holdvilággal zúgva fürdessék meg a testét. (Ó, mentem így már, éppen így, Erzsivel,
+               Kőrös partján, szagos kertek mellett, a tikkasztó borus bolt alatt...)</p>
+            <p>- Mindig fogok magára gondolni és emlékezni, mert én nem felejtek el semmit. Ha száz
+               emlékem lesz, vagy százezer, mind belém kapaszkodik, ki torkomon, ki szivemen. Az idő
+               új fordulatában hanyat fekszem majd az ágyamra, gyömöszölöm magam alatt a derekaljat,
+               oltom és gyújtom magam alatt a villanyt, elázott cigarettavégek áporodott illata a
+               hamutálcán, mind élő kínok a kín miatt. Maga. És télvízben kifordul a hóra lakkos
+               félcipő: maga. És eltévelyeg a zongorán egy gyönge, szakadozott skála: maga. És
+               táncteremben hófehér kar szeli ketté a levegőt: maga. És gyümölcsök között, szupék
+               után valaki zsebkendőjét a keblébe gyüri: maga. És bordó-vörös páholyból, aki
+               vörösebb, mint a kardinális gombja maga. És drámákban meghalnak valakiért és égbomlás
+               között tengerre szállanak északi sarkot keresni: maga és regények és kalandok
+               szépségétől ájultan a kanapéra zuhanni: maga, maga...</p>
+            <p>Szabadon csapott fel a hang belőlem, én tudtam a fizikai fájást. Gátakat zúzott szét
+               a visszafojtott szenvedély, hogy zuhogjon, mint a megbolondult vízvezeték.
+               Végre.</p>
+            <p>- Ki maga - kérdezte Helén és ezüst húrok rezegtek a hangjában. - Ki maga és miért
+               mondja ezt nekem és... és... bocsásson meg, hánynak mondotta már ugyanezt?</p>
+            <p>- Hánynak mondottam, tudni akarja, hát igen...! Ahogyan itt állok, pucéran a
+               vihederben, kapkodva árbócfoszlányok, úszó fadarabok, tönkök és mentőgummik után,
+               hajótörött, kiszolgáltatva a multnak avagy katafalk tetejében, mindezt csak magának
+               mondom. Egyedül magáé áldozati oltáron ez egyenes füst, maga, szirtem, kigőgösödő
+               Ararát.</p>
+            <p>- Istenem, hát másnak senkinek... ó...</p>
+            <p>- Vagy mondottam is másnak soknak, mindenkinek?! Mit tudom én?! Mindegy. Mi köze
+               hozzá?! Hullák szerelmeiből loptam ki a vért és keverem ájult ereimbe. E szavakat
+               végigtáncoltattam a világon, napok és éccakák kötélhintáján, szerelmeket rugtam
+               félre a lábammal, én, én, ki viharvert arcomat hajtottam oda egy lány térdeihez,
+               muzulmán odahajtott bánata a szent sírhoz. És szavakkal korbácsoltam magamat, másokat
+               is, pedig úgy szerettem őket, olyan nagyon.</p>
+            <p>Helén megállott, rámnézett, csillogó szememben olvasni próbált. Szentek hídján a
+               kőszentek közelebb hajoltak, hogy lássák, mint ég el az ember, lángoló bokra az
+               éccakának.</p>
+            <p>- És most minden a magáé. Nézze, Helén, szelíd vagyok, penitens, hallgasson meg. Most
+               minden a magáé. Amit valaha nekik adtam, ácsorgásaimat és piruló homlokomat, íme -
+               alázatosan, illedelmesen megtérve hajtom meg maga előtt.</p>
+            <p>- Olyan ez, mint az irodalom. Amit mond... Nem-de nem színész, egy lányismerősöm, aki
+               ismeri magát, az mondja, maga költő.</p>
+            <p>- Drága Helén, mondja meg barátnőjének, hogy nem vagyok költő. Nem több, nem
+               kevesebb, mint minden más ember. Ember vagyok a lappangó fantasztikumommal, fájdalmas
+               grimaceimmel, titkossá rejtett szenvedéseimmel, gyökértelen életemmel, holnapba haló
+               elmulásommal. Bocsásson meg nekem... Ember vagyok!</p>
+            <p>Mentünk tovább szótlanul. Kifelé a városba, a Moldován túl, mögöttünk a mult
+               rekvizituma, százszínű Prága felé.</p>
+            <p>- Hova megyünk? - eszmélt fel Helén, amikor már a Nemzeti előtt állottunk,
+               villanyosok körtáncában. - Nyolc óra elmult, jöjjön, kisérjen haza... és beszéljen...
+               még, még... magáról.</p>
+            <p>Beszéltem. Fáradtan, megerőltetések után, hegyre ér az ember, megereszkedett inakkal
+               cammog le a völgybe. (Apámról, édes anyámról beszéltem, néhány észrevétel a
+               fajtámról, védelmeztem „barátaim”-at és rátereltem Helén figyelmét az általános
+               emberi gyöngékre. Rövid impressziók - és meglehetősen felületesek a cseh-német
+               ellentétről - megkérdeztem, hogy milyen könyveket olvas és nyugodt hangon jelentettem
+               ki, hogy hézagpótló olvasmányoknak nem vagyok hive. Helén hugáról beszélt,
+               barátnőről, zongora studiumairól. Megkérdezte, hogy mi vagyok civilben, mert minden
+               kétségen felül áll, hogy nem lehet megélni irodalomból, kijelentettem, hogy
+               úgynevezett ügyvédjelölt vagyok és ha szükség lesz rá, úgynevezett ügyvéd. Harctéri
+               szenvedéseimről beszéltem és hogy fejlődésemben mennyire visszavetett a háború. Helén
+               megismertetett hadbavonult rokonaival és életének hirtelen eszébe ötlő mozzanataival.
+               Mindketten éreztük, hogy e beszélgetés nem az igazi. Csak az: beszélgetés, amihez
+               közvetlenül köze van az embernek. Hogy nekünk más a mondanivalónk, nem az, ami
+               esetleg külön-külön érdekelne bennünket, hanem az, ami tisztán csak a mi kettőnk
+               dolga.)</p>
+            <p>Mikor újra felértünk a Belvederéhez, Helénnek kissé megremegett a hangja.</p>
+            <p>- Hát tényleg elmegy?!</p>
+            <p>- Mennem kell. Kitesznek a kórházból. Be kell rukkolnom a póttesthez. Onnan pár nap
+               mulva a hadrakelt sereghez küldenek ki.</p>
+            <p>- Próbálja meg, csináljon valamit. - Nagy melegséget éreztem ki a Helén hangjából. -
+               Ha csak lehet, maradjon még itt egy pár napig. Isten vele, a viszontlátásig.</p>
+            <p>Ott vagyok a Belvederén, utána néztem, ki tudja, látom-e még? Furcsa és
+               elemezhetetlen érzés volt ez az első beszélgetés után. Heves fejfájás gyötört,
+               támolyogva mentem haza, útközben többször meg kellett támaszkodnom a barakkoknál.
+               Elgondolkoztam szavak hiábavalóságán, szidtam magam, hogy fegyelmezetlenül
+               viselkedtem, gyermek, végiggondoltam újra beszélgetésünket, mit mondott ő és mit
+               feleltem én és hogy az én szavaim pontosan mit váltottak ki belőle? Idéztem a
+               mellékzöngéket, a hang árnyalatait, eláradt pátoszomra gondoltam és pongyola
+               mondatszerkezeteimre, újból átéltem a szavakat, amik csak profanizálni tudnak és
+               végül utáltam magamat, veszekedtem és hadonásztam nehéz karjaimmal, melyek fájtak,
+               mintha nehéz görcs esett volna beléjük.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VII. FEJEZET</head>
+            <p>Reggel beteg voltam.</p>
+            <p>- Tizennégy napi szolgálatmentesség és azután bevonul a századhoz - mondotta dr.
+               Schwartz hivatalos komolysággal az ambulancián.</p>
+            <p>Mily boldogság! Tizennégy napig még enyém volt a Belvedere. Szeptember nyolcadikán
+               újra kijött Helén és Marie. Fáradtan, összegyűrve ültem meg a padot. Helén alakja
+               kiviláglott a sűrű zöldből. Lépése, amikor köszöntöttem, egy pillanatra meglassult.
+               Majd vontatottan ment tovább. Hátha most hozzájuk csatlakoznék és kihasználnám e
+               tétovázás pillanatnyi előnyét? Helén megérezhette, hogy mit gondolok és visszanyerve
+               minden biztonság érzését, előre sietett. Ismeretségünket titkolni akarta huga előtt.
+               Pedig hogy vártam reggel, bár már kijönnének ők és most künn vannak és hozzájuk nem
+               merek lépni.</p>
+            <p>Helén végigment a sétányon és visszafordult és újra vissza. Hűséges kutya szemeim
+               félénken kisérték. Fel kéne pattanni, oda kéne rohanni hozzá! De hol a bátorság,
+               amikor még szeméremmel van tele a szivünk?! Felvettem egy újságlapot a padról és
+               olvasni kezdtem. És ezeket olvastam ki:</p>
+            <p>- Nevetséges, hogy hogy állasz itt, hiszen Helénék miattad jöttek ki. Mit félsz
+               tőlük? Egyszer csak muszáj lesz hivatalosan is megismerkedned velük.</p>
+            <p>Kis csalódásfélét véltem látni a Helén arcán, utánuk szaladtam és meg se várva, hogy
+               a Helén arcába kerüljek, háta mögött suttogni kezdtem néhány dadogó, konvencionális,
+               de fáradtságtól fuldokló szót. Helén és Marie hátrafordultak.</p>
+            <p>Beszélgettünk. Egyszerre csak egy emberrel tudok beszélni. A társaságokban mindig
+               csodálkozással pillantottam arra a hallatlanul biztos emberre, aki matróz-úszással
+               fúrja magát át a feje felett összecsapó szóáradaton keresztül. Nála a társalgás
+               szimultán sakkjáték, egyszerre többel játszani, lekapcsolni a királynét, önelégülten
+               véget vetni a partinak. Én csak külön-külön tudom közölni a magam mondanivalóját. Kik
+               az én embereim? Elfogni őket az emelkedettség ritka percében, igen. Befútt kávéházi
+               ablakok mögött ülni és mint egy pillangót elkapni a mások akaratlan sóhajait. Vagy
+               titokzatos és felderengős szavakat otthagyni a búcsúzó tenyerében, hogy ott fenn, a
+               magányos hotelszoba árnyán melegedjenek fel pirkadón, mint a hajnalhasadás.</p>
+            <p>Furcsa volt nekem, hogy beszélnem kellett egy másik leány előtt is, rólam és neki.
+               Mert mit mondhatok a nagy világon Marienak, ami érdekelné őt vagy ami érdekelne
+               engem?</p>
+            <p>De beszélnünk kellett és én beszéltem. Megkérdeztem tőle, mit csinál az öreg
+               alezredes, mire ők nevetve válaszolták, hogy tévedés van a dologban, mert apjuk
+               egyáltalán nem katonatiszt. Ellenben nyomdai műintézetük van, graphik anstalt -
+               ejtette ki Marie bizonyos öntudattal - és hogy anyjuk egyik nagynénike látogatására
+               néhány nap mulva Königgrätzbe fog utazni. Marie külön érdeklődött a technikus
+               iránt.</p>
+            <p>- Kedves fiunak látszik - nyilvánitotta, mire felajánlottam, hogy szíves
+               engedelmükkel be fogom mutatni. Tudat alatt arra gondoltam, hogy így tehermentesitem
+               magamat Marietól és magam maradok Helénnel. Ami Helént illeti, boldoggá tette, hogy
+               néhány napig még maradok, de nyugtalanította, hogy szokatlanul sápadt a színem, nem
+               tudta megérteni, miért cigarettázok olyan sokat, végül lelkemre kötötte, hogy
+               délután köpeny nélkül ne menjek ki az utcára. Marienak meg külön meg kellett igérnem,
+               hogy másnap a technikust is magammal hozom.</p>
+            <p>Helénéket hazakisértem és egy árva szót sem kottyantottam ki, hogy mennyit
+               szenvedek.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>VIII. FEJEZET</head>
+            <p>Szeptember kilencedikén nem jött ki Helén. Tizedikén délelőtt vártam a Belvederében.
+               Helén megint nem jött ki. Talán mert a hűvös szél összeborzolta a fákat és vörös hold
+               lógott az ég alján. Délután öt óra tájban megállottam a házuk előtt. Házak csupán az
+               utca egyik oldalán voltak, a másik beépitetlen terület, nyárvégi pázsittal, szakadozó
+               drót-kerítéssel, állásfák tömkelegével, de néhány megrakott, gyümölcsös
+               gesztenyefával. Állottam az egyik gesztenyefa alatt, köpenyegemet összehúztam, néztem
+               a lefüggönyözött ablakokra. Mit tudom én, hogy mit akartam? Céltalanul állani. Régi
+               dalfoszlányokat fütyörészni. Kis gondolatokat feldobni a levegőbe, mint papírosból
+               játékkarikákat, aztán kifogni őket egy pálcikán. Várni, mig a negyedórák, a félórák,
+               az órák eltelnek. Fázni. Szenvedni.</p>
+            <p>Közben, mint a silbak fel és alá járogattam. Mindenkit, aki bement a házba megnéztem
+               és azt is, aki lejött. Ez talán hozzájuk tartozik, villant fel egy-egy arc a
+               kapualjban, rokona, apja, anyja Helénnek? Talán a hordár is hozzájuk megy fel az első
+               emeletre, bekopogtat, valaki üzenetét hozza. Kiét? Ki izen neki? Kivel levelezik?
+               Kinek ír Biedermayer-íróasztalánál keresztbe tett lábakkal ülve ottan, holmi
+               írásokat, azt, hogy... „Kedves barátnőm, kimegyek hozzátok”, vagy azt: „egy fiatal
+               magyar ember üldöz reménytelen szerelmével”, vagy azt - naplóba: „...Nem tudom,
+               folytassam-e a barátságot, már két napja nem láttam”, vagy azt, papírlapra, sebesen,
+               öntudatlanul, feltörekvő energiák hatása képen! „szeretem, szeretem, szeretem...”
+               vagy: „Ernő, Ernő, Ernst, Ernst, Ernst...”</p>
+            <p>Vagy talán nincs is fenn. A lefüggönyözött ablakok mögött oly tompa fénnyel szürődik
+               a lámpafény, mintha ellenzővel letakarva az éjjeli szekrényen virrasztaná őt...
+               Beteg? Összegyüri a párnákat, sírva harapja ki hegyes fogaival párna csücskéből a
+               tollat? A feje fáj? Láza van? A doktor hőmérőt húz ki a hóna alól, odatartja a
+               lámpáshoz, fejét csóválja: 39? Vagy tán semmi baja sincs a világon, csak kényeskedik
+               és kemény, fius lábaival rugdossa a paplant?</p>
+            <p>Vannak-e gondolatai? Hoppá, eszem, babonázd meg gondolatai járását, rugaszkodj
+               utánuk. Kisérd, mint megcsalt férj a hazulról menekülő hitvest pályáján, hogy
+               csél-csap gondolatai hova lendülnek ki, mit akarnak, hol ostromolnak? Rajta,
+               kémleljétek ki, mit gondol ő, mit akar és mit tesz most? Pupillák, húzódjatok össze,
+               mereven, vizsgálgassátok az ablakot: mit gondol most Helén? Gondol-e uzsonnákra, sok
+               gyümölcsre, ananászra, gondol-e dörgölődző, hűséges agarakra, ruhafodrokra, angol
+               szavakra, multjának eseményeire? Istenre, hugára, születésre, színekre, szagokra, a
+               hőre, mely kiárad a néma bútorokon, karjára, mit maga előtt tart merengve, ujjaira,
+               zongorára, zongora kisasszonyra? Beethovenre és a művész teremtő munkájára, körmeire,
+               kik szeszélyesen ragyognak, mint a tükördarabok, gyűrűjére, kit a megfeszült kis
+               ujjon ízületekre vonszol, kövekre, zafírra és brilliánsra, sziámi rubinra vagy
+               Ceylonra... Gondolatok, akik biztosan búttok elő a fantázia stellungjaiból s mint
+               köd-katonaság apró hólepelben csúsztok el a drótakadályokig, emlékeztessétek Helént
+               az ellenségre, Oroszországra, Baranovicsire, kötözőhelyre, tábornokokra,
+               vöröskeresztes démonokra, magazinokra, éhes gebékre, vastag őrmesterekre, füttyre,
+               kommandóra, nyerítésre, sóhajra, szuszogásra, horkolásra, sírásra, tüsszentésre,
+               ordításra, vajjon mindezt ismeri-e Helén? És ismerem-e én az ő világát, abban a
+               szövevényben, ahogyan ő éli s vajjon tudja-e Helén, amit én és tudom-e én azt, amit ő
+               tud? Szeretem hinni, hogy ami az én gondolataimat betölti, neki sem lehet idegen,
+               hiszen azt szeretem benne, hogy én: ő vagyok, ő: én, árnyékom, hozzám tartozik, egy
+               gesztus, ami az enyém. Közel van hozzám, úgy fedi testemet, mint hajnali ködben a
+               köpenyeg, úgy melegit befelé a szája, mint a cigaretta.</p>
+            <p>Helén, egyetlen, nézd itt állok ablakaid előtt, reggeltől estig, esttől éjfélig,
+               éjféltől reggelig. Közben millió kört keringtek a csillagok, százezer mértföldeket
+               rohantak égő üstökösök ismeretlen ürben, elmúlott az idő. Helén, fellegek jöttek az
+               időben és tovanyargaltak, szellők születtek ákáclevelek alatt és elrohantak számumnak
+               a Szaharára, százezer virág hullott le, százezer születés a négy világtájon és
+               hétszázezer halál, millió mozdulatok suhantak végig, millió szó hangzott el pattanva
+               és dacolva a füsttel, visszajöhetlenül minden, de én itt állok, Helén, ablakod előtt,
+               hogy fognám hálónak: lélekzetedet, tengernek: könnyeidet, őszi szélnek:
+               sóhajtásaidat. Helén! Itt állok ablakod előtt, árvíz ér fel ablakodig: himnuszaim.
+               Ököl veri ablakodat: a szavam; tűzvész lángol az éccakádban: a szivem. Ébredj, Helén!
+               Szemem sugára, mint a holdkórost vezessen ágyadtól ablakodig. Nézd, én megdöglöm itt.
+               Nézd, én megdöglöm itt, de neked ezt látnod kell. Neked azt látnod kell, hogy hogyan
+               sistereg fel egy egész világ. Egy egész világ. Helén, nyomd oda arcod az
+               ablaküveghez, kulcsold össze görcsösen ujjaidat, teljes erővel támaszkodj az
+               ablakfához, értsd meg Helén, egy egész világ roskad itt össze, verd magad a padlóra
+               és seperje hajad a földet, mint a végtelen iszalagja, Helén, nagyon mélyről jön a
+               hangom, apokaliptikus döbbenetekből: egy világ hömpölyög ablakod előtt és én
+               megdöglök itt.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>IX. FEJEZET</head>
+            <p>Másnap délelőtt benn voltam Prágában és mit tesz Isten, a német színház előtt
+               elfogtam Helént. Kék ruha volt rajta, fedetlen nyak, hátul hajában széles, fiatalos
+               fekete szalag, félre csapott velour kalap, magasszárú cipő a lábán, mely erősebbé
+               tette lépéseit és elvette lábának azt az enyhe, finom képét, amely úgy élt bennem,
+               mint egy hajlékony mozdulat, papucsba rejtődző gyönyörüség, súlynélküli csuda.</p>
+            <p>Helén mosolygott.</p>
+            <p>- Nem voltam idehaza négy napig. Anyukát kisértem el Königgrätzbe. Hát maga mit
+               csinált? Mondja, nincs kedve jönni velünk a színházba? Hogy mit adnak? Szöktetés a
+               szerájból! Nos hát, előre, váltson három jegyet!</p>
+            <p>Bementem, megváltottam a jegyeket, közben valahonnan, valamelyik üzletből előkerült
+               Marie is.</p>
+            <p>- Adja ide a két jegyet, a harmadikat pedig tartsa magánál. Most pedig mesélje el,
+               hogy mit csinált négy nap óta? Nem hiányzottam magának?</p>
+            <p>- Mit mondjak, eltelt ez a négy nap is. Felkeltem, lefeküdtem. Eltelt. Ha lehetne,
+               mig a háború tart, kitörülni a napokat... átaludni, ágyban feküdni, minden reggel
+               behozná valaki a Prager Tageblatt-ot, megnézni, nincs-e még béke, tovább feküdni.</p>
+            <p>- És semmit sem dolgozni, csak heverni lustán a dívánon - nevetett Helén. - Maguk
+               magyarok mind ilyenek!</p>
+            <p>- Hogy mit szeretnénk és hogy mit csinálunk meg, az két nagyon is különböző dolog.
+               Valahogyan ez egész életünk tragédiája. Minden nap minden órájában szeretnők úgy
+               elhelyezni magunkat, ahogy vágyaink jelentkeznek. Ami másképen annyit jelent, hogyha
+               nem sikerül magunkat egészen bevinni valamely nap munkájába, úgy az a nap elveszett.
+               Minden, amihez nincs közöm, ami nem belőlem jön, hidegen hágy. Valahogy úgy hat a
+               testemen, mint egy kegyetlen pánt, ami most, mint öt szoros ujj, kapja össze
+               csuklómat: az, hogy itt állok maga előtt és nem tudom oda adni magamat úgy, amint
+               szeretném. Hogy uniformis van rajtam, hogy a napot akarom nézni, mint verődik vissza
+               a reflex a maga arcán és ehelyett fel-le emelem kezemet tiszteknek, akikhez nincs
+               közöm, mégis kikényszerítenek egy mozdulatot belőlem. Itt lát maga előtt valakit. Én.
+               Mit lát belőlem? Egy önkéntes káplárt, derékszíj nélkül, betegállományban. Vagy
+               beszéljek magának regattáról a Dunán, hogy fedetlen fejjel, megfeszült karokkal,
+               napnak kitárt mellel küzködnek evezőim a mély és örök vizen! Egy önkéntes káplár áll
+               maga előtt, mint egy kép, mely mögött nincs mélység, gyerekrajz egy síkban,
+               kriksz-kraksz, mit lát, mit sejt maga abból? A maga szemében csak egy arc elernyedt
+               passzivitása látszik, én, de hiányzik a távlat készsége, a háttér, a kíséret: a
+               múltam. Hiányzik sokszínű nyakkendőimnek szeszélyes egymásutánja a szekrény ajtón,
+               hiányoznak útazásaim, kis kalandok és az a mindig új arculat, akit a változó idő
+               formál. Behúnyja szemét, akkor is kit lát? Egy káplárt. De többet, ha akarná is,
+               aligha. (Mert úgy-e bár, akarjuk, hogy egymásnak a legtöbbet igérő pózban
+               mutatkozzunk be?) Nem látja angol útazó sapkám szélét, étkezőkocsi sarkában egy
+               globetrotter szivarfüstjét, ki játékosan száll az ablakon percenként újuló mezők
+               felé. Nem látja arcomat kipirultan és szeszektől, esti láztól duzzadtan, a táncterem
+               csillogásában az atropin önfeledtségén keresztül csillogva, a táncteremben, ahol
+               sötét frakk hangsúlyozza a mozdulatokat és felszabadult arc akaratos profilja
+               diadalmaskodik a fehér ingmell felett.</p>
+            <p>Nem ismeri azt a tekintetet, mely könyvek útvesztőiben pirul ki, a reménykedés
+               bámulatával a villanyfényes íróasztalnál és amikor az én arcom glóriában fürdik,
+               minden a félhomály jelentéktelenségébe halkul. Nem ismeri maga a gyorskorcsolyások
+               röptét, a Caprini-gépre szálló útast, a pódiumon ágálót, ki csak önön szavát
+               hallgatja és rettenetes életösztönnel védekezik ezer szem kereszttüze elől? Mit ismer
+               maga rajtam? Mit tudja azt, hogy ki vagyok? Nem káplár, Helén, higyje el nekem. Nem
+               egy passziv, szenvedő beteg és szerelmes és összetört, vagy mit tudom én?! Adjatok
+               nekem óceánt, keresztülúszom, vezessetek elém megkótyagosodott, véres szemű bikát,
+               lenyűgözöm. Tengerésznek születtem. Helén, a végtelen matrózának, ki egy nagy bámulás
+               a messzi partok csodái felé, matróz, Helén, orromban tizezer méteres viz illatával,
+               kapaszkodva a kötélhágcsón, mig összepaskol hab és jeges szél. De
+               propeller-kapitánynak... Prag, Podol, Kuchelbad... Ó, miért nincsenek szférák, hogy
+               felreppenve lásson, tornyok, hogy elfáradjon a szeme, mig oda felkisér, Helén. Helén,
+               miért vagyok bitófája e furcsa, idegen életnek, kosztümös pojáca, senki, káplár,
+               rohadt szám, akit maga, ha elmasiroznék harmincmagammal, észre sem venne, jobb, bal,
+               jobb, bal, betartani a lépést, vigyázz és pihenj.</p>
+            <p>- Pihenjen, barátom, pihenjen - szólt Helén, ki nyugodtan hallgatott végig, mint egy
+               koncert darabot, melynek tempo acceleratoja őt is heves izgalomba hozta. Helénben
+               nagy türelem volt, hogy végighallgassa az embert és Istenem, muszáj most
+               visszagondoljak, Erzsiben is. Két áldott testvér, egymásnak adván bűvszereiket, hogy
+               végigsimítsák hallgatásukkal a szememet és én a magam kultuszának boldog révületébe
+               zuhanjak. (Följegyzem magamnak: fontos, hogy egynémely férfit a nők meghallgassanak.
+               Bizonnyal egyedül ez a fontos.)</p>
+            <p>Marie is kötelességének érezte, hogy hallgasson. Hallgatólagosan tudomásul vette,
+               hogy neki nincs köze az egész játékhoz. Helénnek a testvére is el fog jönni a
+               színházba, én ülök közbül és ők meg körülöttem. Igy beszéltük meg. Marie mindent
+               tudomásul vett, jóakaratú semlegességgel nézte az ügyet, okos, kis feje tudta, hogy
+               csak így illeszkedhetik mellénk, hogy reá különösebb szükség nincs. És mert így
+               érezte, kitörő örömmel szabadította ki magát körünkből, amikor az Elisabeth-Brückénél
+               megpillantotta iskolatársnőjét, akit nyomban hangos hallalival hozzánk
+               csatlakoztatott és ahogy bemutatta, már bele is csimpaszkodott a karjával, előre
+               szaladva, gyors lépéssel, nagy hangon, csacska leány-titkokat sugdosott a fülébe.</p>
+            <p>A Pulverturmnál feltápászkodtunk a villamosra. Megállottunk a tömött kocsi perronján;
+               Helén egyik kezével belekapaszkodott a fogantyuba. Karja az átlátszó tüll alatt, mint
+               karcsú kigyó kapaszkodott a magasba. Ott, előttem állott, az álló emberek
+               tömkelegében, illatok tömkelegéből diadalmasan kikerülve. Egyetlen illata szerte
+               terjengett, ahogy a leszállók és felszállók odadobták egymásnak és a nagy kavargásban
+               a testét éreztem magamon, akkor vált tudatossá, hogy akarom ezt a nőt, két karom
+               kívánkozásával, a felfővő test meggondolatlanságával. Nem szólottunk egymáshoz
+               sokáig, a közömbösség ráfújja páráját a legcsillogóbb ablaküvegre is, vagy tán a
+               pillanat parancsa dobolt rajtam, hogy átgyúrjam, feldolgozzam magamban, amit e szemek
+               láttak, szavak szétdobáltak és mozgásba hoztak. Hirtelen lepett meg, mint egy
+               nyillalás, hogy mit is akarok én e lánytól? Félénken búvott meg e gondolatok között a
+               szócska, melyet kiejteni csak legritkább esetben szabad, az istenhívők
+               megdöbbenésével, ha tán villámlás és mennydörgés jönne utána, hogy: szeretem...</p>
+            <p>Tiltakozva hessegettem el, lefölényeskedtem, visszagyürtem, birkóztam e szóval,
+               hiába, mint egy szúnyog csipett a karomba és fullánkjával hol az egyik, hol a másik
+               gondolatomat szurdosta össze. Mérge, mely az öntudatlan érzések kútjából merült fel
+               lassanként, benne volt már a testemben. És ájulását kívántam a múltnak, hogy
+               lefüggönyözött szobában, csukott ajakkal haldokoljak, szeretem, szeretem, szeretem,
+               hallottam tisztán rettenetes pergését, zakatolt a villanyos, szeretem, csengett a
+               csengő sze-re-tem és mint a szerpentin-szalagok, tekerőztek a betűk a rohanó
+               cégtáblákon és a házak falain, nincs menekvés, zuhant agyamon a pöröly. Szemem falta
+               a testét Helénnek. Uram isten, itt állok vele szemtől-szemben, a konok, önmagában
+               bizakodó, a magányos voltával dicsekvő, fájdalmak ápolója, én. Vaskazettában őriztem
+               kincsemet, szentélyben, ápolt fájdalmam frigyládáját és csak azoknak szóltam enmagam
+               hórebi hegyén, kiket kiválasztottam, hogy megmutatnám nekik, de jaj, nem elégszenek
+               meg a nézéssel, kinyujtják kezüket utána, hogy letépnék rólam és gémberedett
+               ujjaimból elrabolnák.</p>
+            <p>Megpróbáltam okosan beszélni magammal.</p>
+            <p>- Nevetséges, egyszerü beképzeltség, nem komoly emberhez méltó. Valóban, téged
+               okosabbnak hittelek. Te és szerelem? Hát komoly ez, mond? Hiszen így a legnagyobb
+               következetlenségekbe esel. Mindig hangsúlyozod, más: felületes, minél közelebb esik
+               hozzád valami, annál inkább: a tiéd. Mi az, hogy szerelem? Oda akarod adni magadat
+               te, szerencsétlen? Hát ki ő? Tedd a kezed a szivedre, hát megért ő téged?!
+               Hihetetlen. Emlékeztetlek: egyszer már megégette a gyertya az ujjadat. Mit sóhajtozol
+               úgy, mit kapkodol egy név után... Nos?... Hát Erzsi, igen, reá gondoltam. Mit értél
+               vele? Mindent odaadtál, kiégett kohó voltál, sikátorok züllött és kósza kutyája,
+               revolvercső hűsítette már a melled. Na látod? Úgy-e, hogy csak egy seb maradt belőle,
+               felfakadó kelés... Mit mondasz? Hogy neked jól esik a szenvedés? Rendben van. Újra
+               meggyőzzelek, hogy a szenvedés megaláz, erőtlenné, férfiatlanná és nevetségessé
+               tesz? A fajtádra figyelmeztetlek, erre a szívós, dolgozó fajtára... Megint előjössz
+               az érveddel, hogy neked kell a fájdalom, mint a mindennapi kenyér. Nyugodt óráidban
+               egy kissé fantasztikusnak találnád magad és ideádat. Van még egy ütőkártyád? - Hogy
+               Erzsi szeretett és együtt égtetek magasra? Ugyan kérlek... Erzsi nyugodtan éli
+               világát, szép és új tavaszokba viharzik, szerelem táplálja erejét, reamstek, égő
+               Refosco, lila dalmát borok, meghízik tőlük... Ellentmondasz. Tévedsz, ha ezzel le
+               tudod tagadni az igazságot. Azért is kimondom, ő, csak tanult rajtad. Ehh... nőknél a
+               szerelem nem hagy oly mély nyomot, mint nálatok férfiaknál. Jött, elment,
+               bárányfelhő. Hogy te mindennap magadra csatolod ezt a gyerek-bánatot, mint az
+               imaszijjat, ez a te gyengeséged. Bizony na, nem értelek. Kacagtató az ellenvetésed:
+               nem érték, de irodalom. Óh, az az irodalom. Mintha férfiasságból nem születtek volna
+               új értékek. Kisvárosi pózok ezek, fölöttük a szűk keretek atmoszférája... Hogy ettől
+               nem tudsz megszabadulni? Mert nem is próbáltad. Mert nyakas vagy, enervált, taknyos.
+               Itt Prágában érezhetnéd meg igazán, hogy friss, új lehetőségek állanak előtted. Csípd
+               nyakon, törd le, gázolj keresztül. Előtted egy leány, főzd puhára, taposs rá, csókolj
+               vért az ajakából, de ne nyavalyogj... Rázod a fejedet, nem tudlak meggyőzni...
+               Ismerlek, nem első eset már ez, így fogsz megrothadni a felhőkarcolók aljában is...
+               De csak egyre kérlek még. Állj meg, ne add magad tovább. Zárd be jól az ajtókat, csak
+               a külső pitvarban találjon szállást a nő. Barátom vagy, egyetlen bizalmasod,
+               kitartok melletted. Nesze, itt sisak, fedd be veled a fejedet. Imitten a lándzsa,
+               szúrd méregbe: Erzsi... Hogy ez nem lovagias fegyver?! Miért nem hivatkozol mindjárt
+               a nemzetközi jogra? Mit törődsz vele, te holdkóros, fő az, hogy épen kerülj ki a
+               küzdelemből.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>X. FEJEZET</head>
+            <p>A villanyos átdübörgött a Moldva hídján. Gyors kanyarulattal befordult a
+               Belvederénél. Helén intett a leányoknak. Leszállottunk...</p>
+            <p>A villamos megállónál álldogáltak. Dr. Schwartz és a technikus ravaszul mosolyogtak
+               és különösen a doktor lóbálta nagy vigyorgások között panama-kalapját.</p>
+            <p>- Kik ezek a maga barátai? - kérdezett Helén. E kérdés elől nem volt kitérés,
+               kénytelen voltam foglalkozni velük. Elmondtam, ami bennem élt róluk, két
+               gyorsfénykép, enyveshát. Helén nem volt megelégedve. Még kevésbé Marie, akinek
+               tetszett a technikus.</p>
+            <p>- Maga önző - duzzogott Helén - mindig csak magáról beszél. Ha másvalakiről kérdezek,
+               félrebiggyeszti a száját, hogy hagyjuk, ez nem érdekli magát. Hát azt hiszi, hogy
+               nincsen meg külön minden embernek a maga érzésvilága?</p>
+            <p>Csöndesen elmosolyodtam. (Hiszen ez az én tragikumom, minden ember tragédiája, hogy
+               nincs két egymáshoz hasonló levél a földön.) - Úgy-e, hogy ún már, elviselhetetlennek
+               tart? - jajongtam. El akar űzni magától? Hát mit mondjak róluk? Schwartz doktor léha,
+               üres ember, negyvenöt éves, hamis fogsora van, de nagyszerü pacienturája. Prágában
+               jól ismerik, az öreg Thun-Hohenstein hercegnő háziorvosa. Szereti szidni a zsidókat,
+               pedig ő is az. Napszámba udvarol, legcsekélyebb eredmény nélkül, mostanság egy
+               hadbavonult lókupec feleségének csapja a szelet, tudja, annak a hirtelen-szőke
+               asszonynak, akivel a multkor láttuk az uszoda előtt. Tegnap vett neki
+               szilszkín-gallért, de már a szeme másfele kacsint, meg akar ismerkedni egy őrnagy
+               elvált feleségével, de az is fütyül a barátságára, mire egy grabeni divatkereskedő
+               feleségének mutatkozott be, aki abban a reményben, hogy megszökik az urától és a
+               doktorhoz megy, meghívta libamájra. A doktor nem áll a kötélnek, sem Chopinnel, sem
+               fehér pongyolával nem hagyja magát befonni. Havi jövedelme egyébként ötszáz forint,
+               Basedow-kórban szenved és januárig segédszolgálatra van minősítve... Vagy a
+               technikusról akar információkat? Huszonegyéves, nőtlen, izraelita, műegyetemi
+               hallgató, perfekt magyar-német, gyorsírás, gépírás és billiard, adósságai plusz,
+               jövedelme mínusz, frontszolgálatra ezidőszerint alkalmatlan, de őrszolgálatra igen,
+               a hadiesküt letette... Mit akar, drága Helén, elégedjék meg ennyivel! Az információs
+               iroda vagy cseléd-elhelyező, amely ennél többet tud, az csal.</p>
+            <p>- Elég, elég - vágott közbe Helén kacagva és egy fűszálat tépett szét a fogai között.
+               Mára tökéletesen elég. Marie azonban a szemem közé nézett és csendesen mondotta:</p>
+            <p>- Mutassa be nekem a technikust.</p>
+            <p>Helén a házuk előtt rövid kézszoritásra nyújtotta a kezét. Hallatlanul jókedve volt,
+               csúfondáros mosoly játszott az ajka körül, Marie meg egyenesen a szemem közé
+               nevetett.</p>
+            <p>Sohasem fogom kiismerni a nőket...</p>
+            <p>Ballagtam visszafelé a városba. De valami bizonytalan érzés újból kihajtott.
+               Hiányzott valami, aminek nevét nem tudom. Öntudatlanul megállottam a balkon alatt és
+               láttam, hogy Helén elmereng a függönyök mögött. Észrevett és mindketten elpirultunk.
+               Helén kihajolt az ablakon; ledobott egy virágot. Jelt adott. Ujjait mutatta, hogy öt.
+               Nyomban a másik két ujját, a mutató- és a középujját.</p>
+            <p>Összesen hét, este hét órakor találkozunk a színház előtt.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XI. FEJEZET</head>
+            <p>A délután nyugodtan telt el. Kettőkor megebédeltem, kettőtől háromig aludtam,
+               háromkor elmentem a Continentalba. Végiglapoztam az összes illusztrált lapokat, még a
+               Neue Rundschaun is keresztül ettem magamat. Kiszíttam néhány dritte Sorte-t,
+               levelezőlapokat írtam, odaültem egy barátomhoz, a nemzeti kérdésről vitatkoztam,
+               hallatlanul nyugodt voltam és nem néztem az órára sem. De úgy öt óra után, amikor a
+               Vencel-téren felkerülve a múzeum háta mögött csatangoltam, újra eszembe jutott Helén.
+               Valahogy elcsitult bennem annak kérdése, hogy azzal maceráljam magamat ki ő és mit
+               akarok tőle? Talán inkább a diadalmas érzés döngette mellemet, az, hogy Helén jön.
+               Biztosan, velem, érettem. A céltalan tapogatódzásokból, a hangot nem lelt
+               kínlódásokból, a nagy bizonytalanságból egy bizonyosság: jön. Egész történetem a
+               nővel végigszaladt bennem. Hetekkel ezelőtt elérhetetlen csoda, tiz napja ismerem,
+               mert ő akart megismerni, ma már ledobván félénkségét, mint egy belépőt a
+               táncteremben, jön. És ahogyan elnéztem magamat, észre kellett vennem: egyenesebb
+               tartásom, lépteimet acélos áram öntözi, ujjaimból villanyos szikrák pattognak ki. Nem
+               tudom megtalálni a helyes szót, talán izgatott voltam. Valahogy úgy éreztem, mintha
+               új ruha lett volna rajtam. Egy mérnök felesége mosolygott reám, fölényesen tovább
+               mentem, mert tudtam, hogy irigyek reám. Ha tudná hogy milyen messze van már tőlem,
+               hogy közöttünk az útat sívó homok temette el, hogy én már a célhoz értem, un homme
+               arrivée. Helén jön.</p>
+            <p>A színház foyerjában vártam be Helént és Mariet. Adakozó hévvel segitettem le hosszú,
+               iskolás leánykabátját, átnyujtottam a ruhatárosnőnek, dédelgetően simitottam át a
+               prémgallért. Helén és Marie megállottak az álló tükör előtt. Helén a tükörben engem
+               keresett és mosolygott. Tudta, hogy szép és némán leste, hogy miképen szívom be
+               magamba hajának szédült barnaságát. Kényszeritett a magam belső dialógusába: szép
+               vagy Helén. Látom a szemed csillogását. A hajadat tíz percig fésülted, a blúz kék
+               színe jól áll neked, nyakad és vállad fehér, ápolt vagy, irigylésre méltó. A legfőbb
+               jót tetted velem: szivembe adtad a büszkeséget. Megajándékoztál az illúzióval, hogy
+               most hozzád tartozom. Az emberek irigyelnek, mert látniok muszáj, akaratuk ellenére
+               is, hogy mily szép vagy így rajtam keresztül.</p>
+            <p>- Ó, Helén, - suttogtam, de ő nem akarta meghallani. Nemes főtartással ment végig a
+               folyosón. Egy lépéssel mögötte mentem én, szinte ugyanazon vonalban. Emberek,
+               nézzetek ide, ő most az enyém. Az én védelmem alatt áll, kezemben tarthatom látcsövét
+               és ajkammal foghatom fel lélekzetét. Emberek, ha mondani akar valamit, akkor hozzám
+               szóljatok, csakis hozzám. Hányan vagytok emberek? Ezren, ötezren és akárhányan is
+               vagytok, egyiketeknek sincs köze e remegő, büszke leányhoz, csak nekem.</p>
+            <p>...A függöny legördül. Szöktetés a szerályból, Mozart muzsika. Az elhomályosított
+               nézőtér felett felzúg a Presto. Helén közelebb buvik mellém, szinte érzem, hogy süt a
+               lába az enyém mellett. „Hier soil ich dich sehen Konstantze, dich, mein Glück...”
+               Helén mereven néz a pulpitus felé s csak koronkint kegyeskedik pillantását szememre
+               fordítani. Talán Helén suttogott valamit, én nem beszéden keresztül korrespondálok.
+               Tekintetek és mozdulatok közvetitik nekem a lényeget, a kvintesszenciát és minden
+               közlendő Ding an sich-jét. A szavaknak is van melegségük, de a gyúlencse, mi
+               összegyűjti a sugarakat: a mozdulat. Gesztus: sűrűsített beszéd. És csak a néma
+               gyermeknek érti édes anya szavát.</p>
+            <p>Egymásra nézünk, szemünknek van egy furcsa, befelé élő astigmatizmusa; mi csak
+               egymást látjuk. A látásnak egyik törvénye, hogy a recehártyán fordítva rajzolódnak a
+               képek, a mi nézésünk külön törvénye, hogy nem azt látjuk, amit nézünk és látunk
+               anélkül is, hogy néznénk. Helén nem néz reám és mégis lát. De most megborzadok.
+               Mintha valaki kopogtatna az ajtón. Erzsi sem néz ide és mégis lát. Nagy barna szeme
+               lekigyódzik a páholyból és lenn a parketten pörköli a zsakettemet. A hátam mögött
+               van, ó oly biztos vagyok benne és fellángol a félemeleten, mint egy gyertya. Vörös
+               selymeken, páholy bőrszék, bronzvörös haj gőgös magasságban, vörös rózsák ziháló
+               illatában: Erzsi... És nem merek sem előre nézni, sem hátra nézni. Erzsi, Helén: egy
+               szem. És ömleszti e szem vörös hullámait bordó cseppekben, tengernyi patakokban, mint
+               a felmetszett erek az öngyilkos fürdőkádjában. Pattannak az erek, bugyborékol a vér,
+               kegyetlen szúrós taktusra ömlik és Osmin groteszk prestissimojával, az én külön
+               muzsikám, szilaj stakattok és fáradt lentok, új ér felszakadásáig, immár bömböl a
+               teljes orcseszter, ujjongva hull a vér a csillárokból, eszeveszett karneválja a
+               vérnek.</p>
+            <p>Ehh... fantázia!... Szivem táncol egy éteri sugáron.</p>
+            <p>Helén nézi az előadást. Én is nézem. Füleimhez tartom kezemet, mint a hallócsövet,
+               figyelek az úgynevezett szavakra. Mennyire nem érdekelnek a puszta mondatok, de
+               csitt, Belmonte áriájában ott hadonászik karjaival az isteni Mozart. Fagottok,
+               klárinétok, hárfák, hegedük, castagnettek, tamburok diskurálnak egymással, csak ezek
+               mondanak valamit, a szó puszta edény. Mozart a bábjátékos térdére ülteti a bábukat és
+               beszél. Csakis az ő szavát hallom. A szó, ahogy felbömböl benne a zengés, élettelenül
+               hull vissza, de a hang átsugárzik a magasba, szökőkút és cseppenként gyöngyözik
+               vissza a nézőtérre.</p>
+            <p>Második felvonás. Mint templomi csengő cseng fel a mezzo szoprán, welche Wonne,
+               welche Luft... mi a szó, ha nem volna az élő hang, ki csirázzon a kebeléből és
+               Belmonte tenorjában ölelkezve, mint a rejtély.</p>
+            <p>A hős most átkarolja a nőt, akit szeret, vinné magával. Mond neki valamit? Miért?
+               Szereti, átkarolja, viszi magával, elég ennyi, én értem. Minek ezt magyarázni?
+               Sokszor mondják a szerelmesek: légy az enyém! Miért mondják egymásnak? Hogy is tudják
+               ezt a szót kiejteni: vallomást sohasem szakad elmondani szájjal. Ha a szemével nem
+               adta tudtára végérvényesen, akkor már késő. Rossz színész. Nem hallom ki a hangjában,
+               hogy életét a sors idáig, e kijelentés megfogalmazásáig hozta volna. A hős a nő háta
+               mögé áll és ezt sugja a nőnek: megyek veled, a világ végéig, szeretlek. Mi ez?
+               Botrányos, hogy hogyan hazudnak mind a ketten. A világ végéig? Hát hol a kezdet és
+               hol a vég? Istenem...</p>
+            <p>Elfordítom szememet a színpadról - Helént nézem. Legyél az enyém... vajjon ki
+               tudnám-e mondani neki? Ha nem szeretném úgy, akkor igen. De így... Helén, drága,
+               kicsi leány, kedves és egyetlen, tudnád-e utána mondani... Megyek veled, a világ
+               végéig, szeretlek... Hát hova jönnél velem? Hiszen amig a szót kimondanád, már
+               elrohantam melletted, mint a gyorsvonat.</p>
+            <p>Az orcseszter szakadatlanul harsog és én a zene hullámaiba vetem magam, de jó úszni
+               színpadra nem figyelni, képzeletet instruálni, szépen, csöndesen belül külön darabot
+               megrendezni. A zene hullámaiból ütöm fel a fejemet és Helént nézem. A csipkéit,
+               ahogy megrezzennek a teste felett. Szoknyája homályba vesző fodrait, feszülő
+               harisnyáját, cipője csokrát és kisajátitom magamnak azt a lábat, ki tétován surolja
+               az enyémet. Sejtem a vonalait, ismerni vélem hajlását, ajkamon érzem a színét,
+               ütőeremen a villanyosságát. A dolgozó képzelet szemérmetlen, dobja-veti a
+               ruhadarabokat. Rejtett útak felé vezeti a test mozdulatait... Helén, bocsáss meg
+               nekem! Ha tudnád, hogy mire gondolok...</p>
+            <p>Együttlétünknek minden részletét nem tudom leírni. Elmondhatnám, hogy jött új
+               felvonásköz, ujjongtak a csillárok, a tömegidegzet felszabadult, hangos szókat
+               keresett, fix pontot, melyen szeliden meglapulhasson. Ez: a felvonásköz. Nem lényeges
+               kelléke az érzés meghatározásának, melyet a tömeg érzett és én az adott aktuális
+               pillanatban a tömegben, a tömeggel és a tömegben külön és a tömeg nélkül feldolgozni
+               kényszerültem, de vannak lényegtelenebb momentumok is: a folyosó arany tükrei, a
+               barokkos ornamentumok, a tiszti ruhák hajtókái és vállszalagai, a fel-feltünedező
+               nők, akik mind külön benyomás, külön testtartás, külön kilépés és én rossz, hibás
+               fülemmel is megéreztem, hogy egyik másképen járkál a hátam mögött, mint a másik. A
+               perc elemzésénél valamennyien mint momentumok bukkantak fel és azt sem mondhatnám,
+               hogy nem fontosak. Hiszen: vannak, sőt megvannak, hiszen eszünkbe jutnak. Mindnyája
+               eszembe jut, hogy meghatározza azt a látszólag tőlem messzeállót, a belőlem
+               kikapcsolódót, akit már, valahogy, kissé zavarosan, úgy sejtem, évek óta akarok
+               kioperálni magamból: Helént. Üszkösödő sebemet, kit Helénnek nevezek el, óvatosan
+               határolnám körül lancettákkal, egyéb hideg csipeszekkel, de a seb: a testem, belőle
+               lett, vérem átömlesztette, egy sejt a többiek között és ha spiritusban látnám magam
+               előtt (úgy, ahogy tudatossá tenni valamit, a spritusszal) akkor is azt mondanám, íme
+               ez: én belőlem van. A fogorvosnál mindig elkértem foghúzás után selyempapírba
+               gyömöszölve azt a kétágu csontocskát, melyen megaludt kevés vérem. Lehet, hogy
+               hiperesztézia, de kihúzott gyermekfogaim ma is fájnak. (E pillanatban az íróasztalnál
+               ülök, félkezemmel a halántékomat szorítom és elkövetem, ami a leglehetetlenebb műtét:
+               emlékeimet rekonstruálni. Elhalt, kiszáradt rostokba vezetem a vért, hogy egészséges
+               pulzusra keringjen és ha nem tudnám azt, hogy öntudatlanul, a nap minden szakában,
+               még az álom sülyedő percében is mindnyájan így cselekszünk, személyesnek és
+               betegesnek tünne számomra a munka. Tiltakozom minden „személyes” ellen, sőt szent
+               meggyőződésem, hogy az agymunka szédületes oktávfogásaíra sohasem lehet a patetikus
+               nagy szót megtalálni.)</p>
+            <p>Helén az Alia Turca alatt, a zenekar kavargó krescendójában kezembe tette a kezét.
+               Fészkébe bútt a madárka. Talán a vihartól, ki gőzölögve porzott fel a muzsikából,
+               mint a robbanás a földturrások között, vagy tán belülről pattantotta szét a
+               vaskamarát, a magányosságot, lehet: az mindegy és az egy. Biblikusan erős ekrazit az,
+               mely lyukat kergett a magánosságon, ó szívem, fészkébe bújt a madárka, tenyerembe, de
+               hova bujjak én, hol az Isten tenyere, hogy elmenekülhessek hajlásaiban?!</p>
+            <p>Helén közelebb hozza szivemhez fejét, Mit dem Geliebten sterben ist seliges
+               Entzücken... Ó, Mozart, erősebb lüktetése a kezednek, végtelenbe tévedt taktusod és
+               Helén feje a csillárok alatt odazuhan a mellemre. Már vibrált a perc és a végzet már
+               rugdosta alattunk padlót. De nem. Még nem feküdtünk alá haboknak. Zúgott, harsogott
+               mögöttünk az össze-vissza, partnélküli tenger, állottunk, úgy-ahogy és amikor
+               összecsapott a vizár egymást becéző, simuló hajunk riadtan rebbent széjjel.</p>
+            <p>Előadás után Helénét megvárta az öreg cseléd. A Dajka, mondottam magamban - átérezve
+               minden találkozás végzetszerüségét, - ki akkor tájt és most újra látom a pillanatot -
+               lerohant az emeletről, kezében Helén szivével, marasztalt, hogy maradjak, Helén vár.
+               Marieval előrementek, én és Helén utánuk. Nem szólottunk - semmit. Remegtünk is a
+               szótól.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XII. FEJEZET</head>
+            <p>Bizonyára Helén is gondolkodik. De mi gonoszak vagyunk. Csak a mi gondolatunk köti le
+               érdeklődésünket. Egész úton magammal voltam elfoglalva. Az motoszkált a fejemben,
+               hogy szerelmes vagyok, alázkodom, küzdelemben veszek részt és végül is győznöm kell.
+               A győzelemért folyik a párbaj. Minden erőlködésem, vigyázz állásom, fegyverzetem
+               ezért van, a győzelemért. E pillanatban azt hiszem, hogy minden a szerelemnek
+               egyetlen lendítő kereke. Minden teher, melyet az elmult hetek öntudatlan pillanatai
+               összehordtak, csupán azért van, hogy föléjük emelődve egy diadalordítással a templom
+               tornyára tüzhessem a zászlót.</p>
+            <p>A győzelem látszólag útban van és el fog a kétség, hogy mi is a győzelem? Milyen
+               attitűddel közöljem e hadi tényt Helénnel? Mert ha elárulom, hogy szeretem, akkor
+               legyőztek. A szerelem, mint lelki adottság nem megy veszendőbe, de gőgömet, kiről
+               úgy hiszem, több minden szerelemnél és mindennél, mint a friss venyigét töri ketté
+               Helén. Elborzadok a gondolatra, ha vállamat odafektették légyen a porondhoz. Ha pedig
+               elmenekülök, most, most, akkor gyáva vagyok, mert a bizonytalan elől oldottam
+               kereket. Vagy épen a nagy bizonyosság elől?</p>
+            <p>Úgy döntök, hogy e pillanatban nem szabad elhagynom az arénát. Cél: Helénnek meg kell
+               csókolnia engem. Nem tudom még, hogy szeret. Nekem kell a bizonyosság. Bele
+               pusztulnék abba, ha nem kerekednék felül. Amikor a gőgömet, szemérmemet és magamat
+               féltem, épen a gőgöm akarja, parancsolja, hogy ujjongva minden fölé felülkerekedjék.
+               Mert mi történik? Én szeretem Helént. Ha ő nem szeret viszont, kivert kutya vagyok.
+               És ahogy küzd bennem a sziv e két ellentétes áramlata, újból hevesen dobog a szivem,
+               hátha szeret Helén s akkor mi lesz? Győztem, de cserébe oda kell dobnom önmagamat.
+               Nekem nem szabad Helént szeretnem. Nekem nem szabad egyáltalán szeretni.</p>
+            <p>Pedig be jó volna tudni, hátha Helén még is szeret.</p>
+            <p>Fejem zsibong, egész életem bugybol most, mintha vulkánon törtek volna fel. Szótlanul
+               megyünk a bokrok szilhuettjével haránt, tekintetünk az ezüst Moldovára esik lassan,
+               megyünk fölfelé a szerpentin úton. Helén lépése meglassul egy-egy fordulónál.
+               Megállunk, Helén újból a Moldován hintáztatja szemét. A folyó felett hajók árnyai.
+               Templomok zöld kupolái, zegzúgos tetők, házak nem látszanak, csupán a tetők. Mint
+               különböző kalapok, süvegek és ládák a padlón, egy szintben a kupolák. Mint a
+               barrikádok. A padon jóval előttünk ülnek Marie és az öregasszony. Kacagnak, megvárnak
+               bennünket.</p>
+            <p>Feljebb megyünk. Helénhez odasimulok, gondolat nélkül, mint egy selyemkendő. Az
+               éccaka sűrűjéből kitapintom a kezét. Egy pillanatig remeg a kis kéz, de tétován
+               átengedi magát. Odaemelem a kart a mellem magasságába, ráhajolok és a hajlásba,
+               mintha forró vasat olvasztottak volna, tapasztom oda a számat. Helén karja
+               visszarándul, arcomat friss és bő vérhullám locsolja keresztül. Megtörtént. Helén
+               lesüti az arcát. Tovább megyünk. Feljebb. A hold csillogóbb ezüsttel sikálja végig a
+               víz tükrét, a horizont kitágul, már látszanak az összes hidak valahol messze, a
+               lassanként emelkedő háztömkelegekben, utca keresztmetszetek között rémlik a múzeum.
+               Feljebb megyünk, feljebb, feljebb. A bokrok árnyai megnyulnak, árnyaink a kavicsos
+               úton egymásba fonódnak, átkulcsolják egymást, inganak-lengenek, mint a hazajáró
+               lelkek. Marie megint előre került, mint egy gyöngyöző forrásvizet, felettem hallom a
+               kacagását.</p>
+            <p>De mi nem szólunk semmit. Helénnek újra elkapom a karját, reáborulok és mint akit
+               mákonnyal itattak, részegen húzom el ajkamat a karján a vállától le a tenyeréig.
+               Helén megáll. Szédülök és tenyerébe hajtom a fejemet. Feljebb megyünk. Szorosan
+               egymás mellett, testünk egymáshoz tapad, mintha láthatatlan kezek egybeszőtték volna.
+               Öntudatlanul érzem már a teste hajlását is. Fenn kacagás, megszakadó általszüremlő
+               csilingelése a hangnak. Feljebb megyünk. A legfelsőbb sétányon vagyok, az allén, a
+               hegy tetején, ahol először pillantottam meg Helént. Súlynélküliek vagyunk,
+               ellebegtünk a testtől és elszakadtunk a világtól. Lenn korlátlan távlatokba vész az
+               arany Prága, köröttünk a folyó kék, tömör iszalagja. Helén megint megáll, rám néz.
+               Kezünk egymáséban, ujjaink egy szövedék szálai. Hirtelen kirántom a kezemet,
+               magamhoz szorítom Helént, arcát az arcomhoz. Valahogy kifordul a fejünk, Helén orrát
+               a szemem alatt érzem. Küzködünk egymással, tisztán hallom, hogy Helénnek felnyilik a
+               blúza, egy kapocs elpattant. Nedvesen érzem már az ajkát is, aki ferdülten zuhant az
+               enyémre. Felső ajka kimaradt, utána kapok, szűkülő száját fogaimmal présben szoritom
+               össze. Kezem átkarolja a nyakát és ujjaim külön babrálnak a hajában. Minden ujjam
+               külön gyönyört keres. A hüvelykujjam görcsösen nyomja a nyakát, mint doktor kanala a
+               beteg nyelvét. A másik kezem is tétova. Mellén lesiklik, aranyláncocskát tapint. És
+               mit csinál az én mellem? Rajta keresztül hallgatom Helén lélegzetét. És mit csinálnak
+               térdeim? Alázatosan roggyannak összeütődve halkan a Helénéhez. És mit csinál lázas,
+               felszabadult, nyomorult testem és mit csinál lelkesülő agyam, ki fel-le fut az egész
+               testben, útasít, bátorít, kerget, korbácsol, mint bomló csapatok élén, kétségbeesett
+               harcos a rohamban?</p>
+            <p>Mindez pillanatokig tartott. Bíborosan vált el ajka az enyémtől, lassan vált le róla,
+               mint matrica a papírosról. Sötét alagútban jártunk, hol elsötétedett az út, csak
+               árnyékokat és illatokat éreztünk és hogy kiértünk, újra láttuk a holdat nyargalva és
+               leesőben a felhők között, bukó ballon, nyugodt volt minden és kristály éles, mint
+               alagút után a táj, ha elmultak a kőszénfüstök, kirajzolva leveleken vonal és
+               rezzenet.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XIII. FEJEZET</head>
+            <p>Ma éjjel szájon csókoltam egy leányt és most mély vergődésemben magának postázom a
+               szivemet, Erzsi! Maga volt az első négy éven át és négy év óta senkisem jött maga
+               után. Csak egy idegen leányzó érkezett el hozzám, mint valaha gyermekkorában a
+               sétatér végében, a délutánok puha levegőjén egy katonazenekar szaggatott hangja és a
+               langyos lassú szél elszakadt, ismerős hangfoszlányokat sodrott felém. Egy tenger
+               tarajosodik lábam elé és az ágaskodó hullámhegyek hajótörött palackját közelítik
+               felém. Izenet, ákom-bákom életem napsütött messzeségéből, tömören áll előttem a
+               levegő, mint az üveg-fal, ki kéne a kezemet nyújtanom maga után, Erzsi. Ma éjjel
+               véresre csókoltam valakit, kiért szivemet sürgettem a csillagok alatt és nem tudom és
+               nem tudom és nem tudom, kinek a szájaizét érzem az ajkamon, az övét avagy a magáét.
+               Csöndesen megfogtam a kezét, fehér foltocska kandikált ki egy szikla szirt mögül és
+               morzsoltam a verset... aus alten Märchen winkt es, hervor mit weísser Hand...
+               Halántéka érintette az enyémet, forró volt már a halántékom, mintha valaki már régtől
+               ott felejtette volna gyöngyöző sűrü páráját. Hangosan éjfelet vert a szivem és... a
+               hátam mögött kigyúlni láttam egy templomtornyot és a toronyban valaki eszeveszetten
+               kongatta a harangot. A szemébe néztem a pupillák bűvös, merő tekintetéből a maga arca
+               bámult vissza. Mit akar tőlem, Erzsi? Nézd, kis bogaram, mit akarsz tőlem? Egyszer
+               lefelé jöttünk a váradí hegyről, a fák össze-vissza zsongtak a kertekben, fehéren
+               izzott a por, édesen hideg volt a kútvíz, azt hittem én vagyok a legboldogabb...
+               Elengedted a kezem. Ütődve, véres karral és horzsolt combokkal gurultam le a hegyi
+               úton, rongy, kiivott parasztkancsó, zizegő konzervbádog és most, újra kitartott
+               mellel megyek a hegynek, fel, feljebb, a győzelemmel oldalamon, nemde nem kacagva
+               kapdosod el a szivemet, te kegyetlen pillangó űző, mit tegyek, hát nem lehet neked
+               megmagyarázni: hagyj békét! Mit merülsz fel meredve kemény daccal a hátam mögött,
+               egyik kezedet kiáltó számra tartva, másikat kolduló két szememre... Mely nyelven,
+               kinek dialektikájával tudnám magam megértetni, hogy maga csak volt. Most Heléne von
+               Stieber úrileányt szeretem, komolyan, őszintén, tudatosan, az elhatározás
+               merészségével. Értse meg jól, kérem, magának semmi köze e hölgyhöz. Eltekintve
+               bizonyos áthidalhatatlan társadalmi ellentétektől úgy vélem, nevezett úri leány
+               szellemi kvalitások tekintetében is külömb önnél... Hogy mennyiben?... E nő ragyogó
+               fiatalsága, lappangó energiái nekem a megújhodás, a teremtő munka lázát kölcsönzik.
+               Én dolgozni akarok. Kikivánkozom a szűk keretekből, melyekbe maguk belegyömöszöltek,
+               le akarom zárni magukat, nekem terveim vannak az élettel, küldetést érzek e helyen
+               nem vázolható célok elérésére... Mit nevet? Mit lehet ezen oly cinikusan nevetni?
+               Hogy annak idején magának pont ugyanezeket mondottam?!...</p>
+            <p>Rettenetes! Nem képzeltem volna, hogy évek multán is ily pontosan emlékezzen
+               szavaimra. Bűnbánóan, megtépázva borulok a maga emléke elé. Szerettem. De miért kínoz
+               tovább? Miért nem rugdos el lábaival, kik oly kéjjel gázoltak bokáig a fűben, más
+               világtájakon, hogy elfelejtsen, ne tudjak semmit magáról? Helén, aki bizonyára
+               megvetné a maga manirjait és lehetetlen szeszélyeit és cseppet sem érez hajlandóságot
+               magával még holmi utcai ismeretséget sem tartani, Helén szeret engem. Határozottan
+               tiltakozom úgy a Helén nevében is, hogy maga feltolja magát az ő vagy az én
+               barátnőmnek. Mi a mi dolgainkat már csak elvégezzük ketten. Nem vall társaságbeli
+               viselkedésre, nem ladylike, hogy bennünket állandóan megzavar úgynevezett jóindulatú
+               beavatkozásaival. Ha jól meggondolom a dolgot, négy év óta folyton-folyvást nyomon
+               kisér és érzelmeimben befolyásol. Egyenesen visszatetsző, hogy legbensőbb élményeimet
+               úgy szórja össze-vissza, mint féltékeny feleség ura íróasztalfiókját.</p>
+            <p>Néha úgy világit ide szemével, mint a tolvajlámpa, ami mellett a betörő safe-ek
+               kincseit feszegeti. Csókjaim, öleléseim, vágyódásaim, könyveim, könyeim, sóhajaim
+               mind fertőzöttek a maga jogtalan beavatkozásától. Ha nem félnék a büntető
+               törvénykönyv paragrafusaitól, leútaznék a maguk ronda kis, provinc városába és
+               megfojtanám magát.</p>
+            <p>...Erzsi könyörgöm, hagyjon magamra. Csak most az egyszer. Ütött-vert koldus vinnyog
+               a küszöbénél, hogy csak most az egyszer hagyja őt fellélegzeni. Csak most az egyszer,
+               mert ez halálos jó lenne neki.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XIV. FEJEZET</head>
+            <p>Másnap reggel könyvekkel megrakódva vártam Helént.</p>
+            <p>- Most már úgy-e bár jóbarátok leszünk? - mondottam. Szeretném, ha megismerné
+               könyveimet. Így talán még közelebb jutunk egymáshoz. Mert a csók, az még
+               semmi...</p>
+            <p>- Hálás vagyok magának. De hátha nem tetszenek a könyvei?</p>
+            <p>- Az lehetetlen. Kell, hogy tessenek magának. Most már maga fog helyettem is
+               gondolkodni.</p>
+            <p>- Szóval muszáj - kacagott Helén. - Szóval le akar sülyeszteni vagy fel akar emelni
+               egy fejedelmi mozdulatává. Függelék lennék a maga kezében, egy gesztus, mely jól áll
+               magának. Akárcsak egy cigaretta a pozitura kedvéért. Nagyszerű.</p>
+            <p>- Nem, nem, ne értsen félre, de azt akarom, hogy az én szememmel lássa a világot.</p>
+            <p>- A maga szemével a világot fáradtnak, szeszélyesnek, kissé ködösnek és kissé
+               bizonytalannak látnám. Talán jobb volna, ha én kölcsönözném oda a szememet magának?
+               Hogy mindent frissnek, zsengének, harmatosnak, fürdöttnek lásson.</p>
+            <p>Helén gondolata meglepett és nagy ürességet éreztem a szivem táján. Tudatlanul mindig
+               meg voltam győződve, hogy diadalom nem teljes. Mit ér a győzelem, ha Helén nem
+               egészen az enyém. És most tudatosan látom, hogy nem az enyém, mert nem akar olyanná
+               lenni, mint én. Helén más, mint én. A néma szépségbe ki tudom vetíteni magamat,
+               imaginációm istennőt teremthet belőle, de gondolatokra ráparancsolni nincs
+               hatalmamban. És ez nagyon fájt.</p>
+            <p>- De maradjunk csak a könyveknél. Milyen élményeket tud nyújtani magának egy könyv? -
+               kérdi Helén.</p>
+            <p>- Nekem: sokszor többet, mint maga a természet. Mély az élet, de Dosztojevszki
+               írásain még mélyebb. Szép egy elhagyott park, de ahogy Böcklin...</p>
+            <p>- Nem hiszek a könyvélményekben. A művészet megszépitheti a természetet. De nekem a
+               forrás vize az erdőben kell, nem pedig eredeti házhoz szállított csomagolásban.</p>
+            <p>- Nemcsak a művészet szépíti meg a természetet. A természet nem szólal meg, ha nincs
+               újjá teremtő fantázia.</p>
+            <p>- Mit akar ezzel mondani?</p>
+            <p>- Azt, hogy nekem egy Baedecker és néhány térkép elég az asztalon, hogy szélességében
+               lássam a világot. Az összefüggéseket. Ez itt Párizs és hipp-hopp, én már a Westenden
+               sétálok. Ez itt Madrid, Tajo, Duero, Guadalquivir. És a Pireneusok, Alpesek,
+               Himalaja. Nagasaki és Sztambul. Kairó és Nílus deltája. Szirokkók, tájfunok, bórák.
+               És fehérek és sárgák és göndör feketék és rézvörösek. És torokhangon beszélnek, egy
+               szótagokkal, lágyan csurognak a betük szájukban, mint a datolya. És elnyujtva
+               akcentuálnak és mássalhangzókat torlasztanak egymásba. És a nők meztelenek, nem
+               tudnak a szeméremről. Egyiknek szeme kék, a másik szeme fekete és minden bánat az
+               övék. Olasz leány tengerbe mossa lábait és olajos bőrén a nap csillog. Spanyol nő
+               ferditi legyezőjét, a háttér befelé mélyül mögötte. És a francia nők tangócipőben.
+               Csipkékben tünik el a láb. Amerikai leány Fokk-gépe felhők fölé emelkedik. Zsidó nő;
+               korsó a vállán. Török nő nargoli füstben. Arab nő, elfoly a homokban. Japán nő,
+               mosolyt csöngettyűz. Indus nőnek kigyó a combján és teste táncban, vörös izzásig.
+               Orosz ballett, plain-air színház Flandriában. Wanderbilték lakomája a Fifthy-avenuen.
+               Dokk-munkások döglenek meg Pattersonban, és a szőke Hansok szeme kifordul a
+               lövészárkok mélyén. És mennyi minden a világon, ami csak úgy eszébe jut az embernek!
+               Mennyi ember, mennyi mozgás. A jelen kaleidoszkópja. Megőrült ringlispiel, egektől
+               pokolig szaladó villámvonat. És mind látom. Hallom. Szaglom. Fogom. Kapkodok utánuk
+               görcsösen, tovatünő uszályok, foszlány habok, vattacsomók...</p>
+            <p>- Igen, ez a fantázia. Olvasmányok, képek, nosztalgiák.</p>
+            <p>- Hallgasson, nagyon kérem. - Vattacsomók és feléjük szállok, mint a sirálymadár,
+               megpihenek vállukon és újból elszállok. Fantázia. Színes lampion. Égő kukker,
+               közelre hord és távolít. És illúzióim! Keverem őket mint patikus tégelyeit, sok
+               színes üveg, bazárok csecse-becséje. És minden az enyém. Ez én vagyok. Érti Helén? Az
+               egész világ.</p>
+            <p>- Nekem meg semmit se hagy meg belőle. Hát azt hiszi más nem így van ezzel?! És hogy
+               másnak nincs joga élni? - tette hozzá csöndesen.</p>
+            <p>- Mit más?! Én vagyok és még sincs senkim. És nincs semmim. Kitagadott, kisemmizett,
+               bélpoklos.</p>
+            <p>Helén felém hajolt és szótól sebes számat végig öntötte tikkatag párájával.</p>
+            <p>- De nincs egyedül. Én maga mellett vagyok és kitartok maga mellett. Akarja?</p>
+            <p>- Mert mi vagyok én? Magányos koldus vagyok, kopasz fa a keresztútnál, elszabadult
+               bóbita a savanyú szélben. Minden folyik, minden elfolyik, minden elmulik és kétszer
+               nem léphetsz egy folyóba. És nyomodat hiába keresed, nyomodat összefujja a zápor,
+               olyan girhes vagy, olyan rongy és olyan gyalázatos. Hát ki vagyok én - és már
+               önönmagamnak ordítottam, börtöneim között, sötét deszkámon, a vizes téglát
+               tapogattam, nyirkos porát a vakolatnak. És gályarab voltam, hanyattfeküdtem a
+               forró-forró deszkán, két kezem kinyújtom, vízszintes keresztfán, ólmozottan,
+               lábaimban görcsökkel, elkínzott prédikátor. Rettenetes nap heve szárította torkom,
+               ingemet feszítette és kitikkasztotta nyelvem.</p>
+            <p>- Szeretem magát - suttogta Helén. Ezt a pátoszt, ezt az isteni kétségbeesést
+               szeretem.</p>
+            <p>Azután elhallgatott. Lesütötte a szemét és ujjaival szétmarcangolt egy feleletet.
+               Végtelen szünet után újból rám emelte a szemét:</p>
+            <p>- Hát maga szeret engem?</p>
+            <p>Torkom felé új áradat indult, új özönvize a szivnek, de valahol megakadt a hang, mint
+               rohanó autó az országút kavicsában. Megtántorodtam. Csak annyit tudtam mondani:</p>
+            <p>- Szeretem, úgy szeretem - mint önmagamat.</p>
+            <p>- És... és mit szeret bennem? - (ma úgy érzem, hogy Helénnek elhalványodott az
+               arca...)</p>
+            <p>- És mit szeret bennem?!</p>
+            <p>- Magán? Helén!... azt a pátoszt, azt az isteni kétségbeesést.</p>
+            <p>- Ó - hallgatott el Helén. Azután hazamentünk.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XV. FEJEZET</head>
+            <p>Kaptam a következő levelet:</p>
+            <p>- Szeretem magát. Maga az első szerelmem. Egyszerüen tudom csak kifejezni magamat,
+               pedig mi leányok, éjjel és napközben sok csacsiságot gondolunk össze, melyek
+               bizonyára mélyek és titokzatosak. Szeretem magát, miért, nem kutatom. Bizonyára
+               rájönnék valamire. Én csak arra gondolok most és szüntelenül, hogy vajjon maga
+               szeret-e engem? Tegnap esti beszélgetésünk után, ahogy emlékezetemben visszaidéztem,
+               azt kell hinnem, hogy a maga szerelme valami nagyon furcsa, valami, ami romlásba
+               döntene mind a kettőnket. Maga nem szeret engem. Nem, nem, ha szeretne, nem így
+               beszélne velem. Lehet, hogy én tévedek, de az ösztöneim sugják, hogy egy más ember
+               boldogtalanságával nem tudna engem boldoggá tenni. És hogy én sem tudom magát mássá
+               tenni, nem is akarom, mert így szép maga, nemes fiatalember és nem is tudom magam
+               kifejezni. Megdöbbentően nagy vagy, ilyennek gondoltalak, erősnek, aki egy világot
+               tart a vállán. De a következő pillanatban gyönge lesz és én hogy bízzam arra a
+               férfire életemet, aki egyszer sírt előttem? Megzavar gondolataimban, mikor mond
+               igazat, mikor nem? Bocsásson meg, ha ismétlésekbe esem, de oly nehéz kiismerni magát.
+               Igaz, én is próbálkozom magammal, hogy mi is az én életem, de nem megy, nagyon
+               komplikált és talán fájdalmas is. Nagyon sok minden van, amit nem tudok felderíteni.
+               Az azonban bizonyos, hogy egészen nem kellek magának. Hát én nem érzek? Én vak
+               vagyok? Azt hiszi, hogy csak maga él úgynevezett lelki életet. Meg kell mondjam, ha
+               mindjárt rosszul is esik, de én nehezen fogok belenyugodni abba, ha nem mint
+               egyenrangú felet tekint engem. Úgy képzelem, maga átadja teljesen nekem magát és én
+               viszont. De az, bocsásson meg, lealacsonyítás, hogy nekem nincs külön életem, külön
+               akaratom. Oly furcsákat mondott a tegnap is. Gondolkozzék csak. Egy életen át lennék
+               maga mellett, csak nyugtasson meg. E sorokat éjjel írom, mindenki alszik. Nem merem
+               elölről elolvasni, mert félek, hogy olyasmit írtam, ami bántja. Inkább összecsókolom,
+               elküldöm magának</p>
+            <p>Helén</p>
+            <p>Este tájban kaptam meg e levelet, hazamenet nyomban elnyúltam az ágyon. Fázón, mint a
+               lázbeteg, gubóztam be az éjszaka sötétjébe. Órám a kis asztalon szabályosan vert.
+               Egyetlen fénypont: nyütt szivarom bronzbarna feje volt. Kesernyés ízek a
+               szájpadlásomban. Hanyatt az ágyon, mint a hajótörött, akit a viharok magányos
+               szigetre dobtak ki és csuromvíz gúnyában, csapzott hajjal, tapadó rongyok, tengeri
+               füvek között idézi óceántúli életét.</p>
+            <p>A levelen tépelődtem, melyről biztos volt, hogy jönnie kellett: a Leszámolás. Hogy is
+               volt csak?... „Mellette leszek egy életen át? Akarja?” Úgy hatnak reám e szavak, mint
+               a friss tűzrakás, melege fölé tartom nedves ruháim, gémberedett szivemet. Szeret,
+               szeret, tikk-takkolt az órám és Helén csókja újból ajkamon égett. A csókját próbáltam
+               elemezni, néhányszor végigsimítottam a homlokom és behúnytam a szememet, mert mindent
+               el akartam felejteni, csak ezt a csókot nem. Hunytátok már be szemeiteket, testvéreim
+               a neureszténiában? Mintha trambolinról vízbe ugranál és érzed, hogy mint nehezülsz
+               lefelé és fejed fölött vastagon csap össze a hullám. Behunytam a szememet. Mit láttok
+               olyankor? Nálam sötét kárpiton csillagok szaladnak mindétig, gyorsabban, gyorsabban,
+               gyorsabban, mint az eső. Majd sárga, sáfrányszínű koszorúk gyulladnak,
+               körbetáncolnak maguk körül, most újra csillagok, de alulról felfelé záporozók. És
+               aztán sötétség, akkor mintha úsznék, mind mélyebbről magasabbra törném fel magamat
+               és... alulról a víz színe felé apró buborékokban felgyűrűzött egy másik csók. Az
+               Erzsié. Újra tisztán láttam. Csókja a vetések között, csipőig a zizegő
+               kalásztengerben. Csókszédület hajók fedélzetén. És csók és minden. És nem tovább.
+               Aléltan megtántorodni egymás karjában, sohasem akartam többet. És sohasem értem el
+               többet.</p>
+            <p>Kísérlet, közeledés, vége. Idegen kútba vedret meríteni, de soha nem érni feneket.
+               Mindent csak félig... Egészen nem kellek senkinek. Egészen nem kell nekem senki.</p>
+            <p>Helénnek van igazsága. Én nagy beteg vagyok. Magányosságban szenvedek. A magányos
+               ember társat keres és amikor már fogja kezét valaki, akkor érzi magát
+               legmagányosabbnak. Ezért maradt a dolog annyiban Erzsivel és ezért érzem
+               magányosságomat legtragikusabbnak nagy emberi közeledések után. Hányszor jutott
+               eszembe e nyavalya, hogy emberek, nincs egymáshoz közünk s éppen akkor, nem amikor a
+               legvadabb ölelésre feszítjük meg karjainkat. Mert mi ez a magányosság? Ott ahol a
+               legfontosabbak, a legmeztelenebbek, isten pucérai vagyunk, sőt Isten, eszmélünk fel,
+               hogy nincs senki, aki meg tudna bennünket érteni. Mások vagyunk, külön anyag, mint a
+               többiek. Mily könnyü Jamesnek, az amerikai filozófusnak? „Mindnyájunkban vannak
+               energiák, melyeket a színtelen nyárspolgári élet egy pillanatra elaltat, amelyek
+               azonban a kivételesnek, a tragikusnak érintésére felébrednek és akkor eljutunk a
+               cselekvés heroikus állapotához. Hiába, ő az akarat filozófusa! De nálam éppen e nagy
+               feleszmélésnek, a clairyence pillanatában omlik össze minden.</p>
+            <p>Igazsága van Helénnek. Én más vagyok, mint ő és ez létünk tragikuma. Nem is tehetsz
+               te mássá, édes, mert nekem nem te parancsolsz, hanem a mult. Mennyire nem
+               parancsolhatok én sem neked!... Az én multamban benne van Erzsi. Tiédben senki, talán
+               apád és anyád szerelme. Ki tudja, ajkad vonaglásán keresztül kik leveleznek? És
+               vajjon az Erzsi csókjában ki volt benne? Érzéki, húsos száján valaha én gyerekkorok
+               fülleteg erotikáját szívtam magamba. És még tovább! Elkalandoznak a gyökerek anyám
+               csókjáig, a nagyapáméig. Áll mögöttem irdatlan őserdő; a multam. Itt-ott világosan
+               láthatók éles sziluettek és előrebukó ága-boga a sűrűnek. De hogy mi van benn az
+               őserdőben, mit zúg össze-vissza a dzsungel, nem tudom. Csak azt tudom, hogy minden
+               előrehajlásomnál felzúg az orchester. Szeretni valakit, megfosztani valakit. Egészen
+               akarni, elvenni, elrabolni, legyilkolni a multját. Teljesen, egészen kell bírni
+               valakit - zokogtam, párnáimba áztatván keserű könyeimmel az ágyat, mint vigiliáns, ki
+               Krisztus öt sebéért ostorozza magát.</p>
+            <p>Lássuk csak, hogy is történt.</p>
+            <p>Megcsókoltam Helént. Ez az egész. Ha elgondolom hónapok idegtáncát, a csók után,
+               milyen csalódás. Hátha tudtad, - szólok magamhoz - hogy csak ennyi, miért kínoztad el
+               magadat? Vagy nem tudtad, hogy így lesz? Miért lenne éppen most másképen, amikor
+               mindig így volt? „Maga nem szeret engem.” Hát akkor kit szerettél Helénben? Erzsit?
+               És Erzsin? A többi gyerekeken, végig, süldő leányokon, kasszában ülő
+               háremszépségeken, zongoratanitónőkön és cselédeken? Elsápadsz, nem mered elmondani.
+               Gondolod, hogy ütött az utolsó órád. Eszmélni kell, hé! Térdre! Érzed a sors
+               korbácsütéseit válladon! Hogy patakzik a véred és mégis - milyen édes! Nincs
+               bátorságod bevallani? Hóhérok, vigyétek a kínzókamrába. Ez itt a spanyolcsizma,
+               látod? Ez meg itt egy nyakcsigolyaszorító. Amaz meg tüzes vas. Na, édes fiam!
+               Így-így, hajolj a fülemhez. Hát mit szerettél rajtuk? Helénen, Erzsin, valamennyin?
+               Elborzaszt a szó, amit suttogsz. Nyomorult vágyaidat szeretted rajtuk, beteg
+               idegeidet, pusztuló önmagadat.</p>
+            <p>Az önszerelem, önmagunk hívságos áhitata - ez volt a szó, mely hajnaltájban, tragikus
+               taglócsapással sujtott le rám. Hányszor próbáltam már gondolataimat más,
+               ezüstpapírba beburkolni, most, mint egy üres koponya vigyorog felém e szó, az éjjeli
+               szekrényen. Ezért ölelkezik Helén arca az Erzsiével, mert mind a két arc a te
+               profilod, ember, egyik jobbról, a másik meg balról. Te vetkőztetted le a fátyolos
+               leányságukat és te öltöztetted fel őket e felfokozott szerelem bársonyába. A te
+               titokzatos véred biztatta őket az életen keresztül és íme most te dobod őket a
+               kandallóba, ám ott tüzes csóvákkal és sistergésekkel tovább élnek. Nyomorult vagy
+               bizonnyal, mert csak önmagadat szereted bennük.</p>
+            <p>De ez nem tragédia. A tragédia az, amikor Helén a szemembe vágja: „Én vak vagyok, azt
+               hiszi, csupán maga él úgynevezett lelki életet?” Ők mind élnek, akarnak, forrongó
+               matériák és dadogva is, de saját illúziójukat vetitik kifelé. Gazember vagyok, hogy
+               leleplezem őket és boncasztalra viszem, amikor csókjuk még a szájamon illatozik. Ez
+               az, mintha drága testüket egy szál ingben tenném ki az utcára. De mentségem, hogy
+               legkomiszabb magammal szemben vagyok. Itt, isten és ember előtt, tévelygéseim
+               elkomoruló szigetjén ordítom: őket csak megalázom, de amit magammal végzek,
+               autodafé, felnégyelés és testemet patkányokkal maratom széjjel.</p>
+            <p>Szeretnék odamenni mindenkihez és külön-külön megmagyarázni, hogy ez a probléma nem
+               is olyan egyszerű. Igaz, hogy holnap vissza mehetnék Helénhez, mosolya ismét nekem
+               szólna és az ajka, melyet úgy hajóztam hónapokon keresztül, mint a Jóreményfokot,
+               most zöldágként magától hajlana felém. Csak egy szót kéne szólani hozzá, egy kis
+               hazugságot, amit megtesz százezer ember és jönne velem az ismeretlenbe. És családom
+               volna, gyerekeim, sok hüvösen tartott fehérnemüm a szekrényben... Élet. De nem merem
+               megtenni, egy lépést sem tovább, félek önönmagamtól.</p>
+            <p>Helén, mi egymást sohasem látjuk többet. Közöttünk áll a Hazugság és lábainknál
+               kettéválik a sziklafal. Beteljesülő szerelem, nem kellesz nekem! Eltollak magamtól és
+               ti álmok, ledorongollak benneteket! És ti jók, kik közeledtetek hozzám, verjetek
+               véresre korbácsaitokkal és üldözzetek a hetedik határba!</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XVI. FEJEZET</head>
+            <p>Belenéztem a tükörbe, megijedtem saját arcomtól. El voltam tökélve, hogy Helénnel
+               többet nem beszélek. Nem, nem, nem beszélek, mondottam magamban és lábam
+               önkénytelenül is a Belvederébe vitt. Mintha egy külön életet élt volna a lábam,
+               független tőlem, nem akaratomból, sőt akaratom ellenére. Az állomás felé indultam és
+               visszaértem a parkba: látni őt. Hogy vágytam arra, hogy elébe boruljak, cipője orrát
+               könnyeimmel megnedvesitsem. Rohant a villanyos a Moldova partján, bukdácsoltam
+               felfelé a hegyi úton, egy perc még és látni fogom őt. - Nem. Már-már fel voltam a
+               hegytetőn és az utolsó fél másodpercben kezem ökölbe szaladt, amint a láthatatlan
+               ellenséggel viaskodtam, a tudatossá vált igazsággal. És - brutális erők dobtak vissza
+               a sötétbe, ahonnan felkivánkoztam.</p>
+            <p>Kevés pár hetemet kétségbeesett erőfeszitéssel próbáltam elmorzsolni. Csodálkozva
+               néztem a technikusra, aki nap-nap után asszonytest melegével fütötte magát
+               pirosra.</p>
+            <p>- Megismerkedni egy-kettőre megy. A magyar fiúnak van keletje. Egy félóra mulva a
+               lakásodon van - mondotta a technikus egy estén.</p>
+            <p>- És sohasem voltál szerelmes?</p>
+            <p>- Soha - mondotta meggyőződéssel.</p>
+            <p>- És soha nem gondoltál arra, mily szép lehet szerelmed, a komoly fák tisztult
+               árnyalatában, a tökéletesség páholyában, mily szép! És mily jó, kezének ujjait
+               egyenként elővenni, egyenként becézni és végigcsókolni, mily jó! Tenyerébe fejet
+               hajtani és ruhái redőjébe sírni. Az ablaka előtt állani, csendben fütyörészni, mig
+               fel nem szalad a függöny. És búcsúzni tőle nehezen és szemünknek két fonala nyúlik
+               velünk, ahogy távolodunk és elzengeni az éjben szíveken keresztül a fájás minden
+               érccsengésével: jó éjszakát....</p>
+            <p>De ez utolsó sorokat már magamnak mondtam. A technikus diadalordítással szaladt el
+               mellőlem, mert a láthatáron feltünt számára a nő.</p>
+            <p>Dr. Schwartz még mindig abban kéjelgett, hogy lányoknak obscén szavakat suttogott a
+               fülébe és bár a nők egy biztató kézmozdulatáig sem ért el, boldog volt,
+               belehízott.</p>
+            <p>A Rudolfinum előtt sétáltunk dr. Schwartzcal. Torzó elméletemet fejtegettem neki, a
+               milói Vénusz szépségeit. A zseni, ki azt márványba gyúrta, megérezte, hogy kar nélkül
+               kell hagyni a szobrot, mert befejezetlenül maga a tökéletesség. Mert a művészet vesse
+               el a régi iskolai felfogást „kerekded, arányos, befejezett”, de nyisson meg
+               perspektívákat szántszándékos be nem fejezettségével. Aktivitásra késztetni a
+               szemlélőt, hogy a le nem kötött aktivitásán keresztül megérezze a nagy
+               összefüggéseket és hogy teremtő képzeletével, mely minden polgári lélekben egyformán
+               szunnyad - töltse ki a hézagokat. Szidtam a regényeket, melyek poénra dolgoznak, egy
+               körül nem határolt valami és az élet nem dolgozik csattanóra.</p>
+            <p>- Semmit be nem fejezni. Amikor a legédesebb, akkor eltolni a poharat. Kell a
+               szenvedés!!</p>
+            <p>- De hiszen ez bolondság - kacagott dr. Schwartz és hevesen csapdosta újfent
+               tenyerével a combját. Ha a nő tetszik nekem, én neki és amikor megcsókolhatnám, akkor
+               azt mondjam, hohó, nem babám, ezt tiltja a modern műélvezés elmélete, hehehe...</p>
+            <p>Néha mint siketnéma ődöngtem a Vencel-téren vagy a Grabenen. Mennyi nő, mennyi
+               kacagás, mennyi párosodás, mennyi életerő, Jesszusom! Itt-ott felgyúltak a villanyok
+               magányos alkovok homályán, vélnéd látni a testek állati viaskodását. Hajófedélzetén
+               lementem a Moldova partjai mellett, a habokban feszülve úsztak a nagyszerű
+               férfitestek, ritmikus karmozgásai az izmoknak. Távol feltünt és elsülyedt az
+               alkonyatban a regatta. Kuchelbad zöld pástján kombinék fehérje villant. Kerti lámpák
+               kerek fényében, a vörös abrosz felett a durva cigarettafüstös ajkak egymáshoz értek.
+               Pivovarok gőzében ellankadva kokadt le csaposlegények feje széles-ölű, cseh leány
+               kötényébe. Táncos barokban kigyózva szorultak egymáshoz a térdek. Bordélyokban a vad
+               ösztönök anarchismusával harapták egymást a némberek. Vasárnap délután. Cédán állott
+               az önteltség gőgjében a szerelem nagyvására és én a magam elboruló kis életével
+               legszebb szerelmek ravatalánál. Nem, nem úgy állok e szerelmek ágyufejénél, mint jó
+               pap a füstölőnél, de, mint az apagyilkos.</p>
+            <p>Nők mentek el mellettem, oldalomhoz riszálták tomporukat. Néha autóban is felvillant
+               egy nő és szeme nyilát biztosra zúditotta felém.... Brrr, cselédleányok és grófnők,
+               undorodok tőletek.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>XVII. FEJEZET</head>
+            <p>Beszélgettem magammal. Alteregom oda ült a másik szalmazsákra, cigarettát sodort.</p>
+            <p>- Ne kergesd el az illúziókat, mert ha azok nincsenek, nem él életed egy fabatkát
+               sem. Keresd, hazudd a narkotikumot, mert a valóság undorító, csupán az „égi” mázot
+               lehet elviselni, ami a durva lényeget befoncsorozza. Hazugság nélkül nincs
+               boldogság.</p>
+            <p>- De ha nincs, miért ébresztettétek fel bennem a hazugságot, a keserü kijózanodást?
+               Miért tartjátok vissza karjaimat, melyek ölelni akarnak? Miért tiltottátok meg, hogy
+               a tavaszt: tavasznak lássam és a csókot: csóknak. Miért?</p>
+            <p>- Nem szereted Helént?</p>
+            <p>- Önönmagamat szeretem.</p>
+            <p>- Hát akkor mit mászkálsz ablaka alatt? Miért nem írsz neki?</p>
+            <p>- Elveszíteném a boldogtalanságomat.</p>
+            <p>- Te magad akartad így. A palackot, melyben a kijózanodás szellemóriásai elzárva
+               zsugorodtak, magad nyitottad meg kegyetlen kézzel. Miért? Mert nem vagy normális.
+               Bolond vagy.</p>
+            <p>- Nem vagyok bolond. Józan vagyok. Azzal a józansággal, ahogy emberek meghalnak az
+               utolsó percben.</p>
+            <p>- Látod, azt hiszed, hogy most valami okosat mondottál. Honnan tudod, hogy a
+               haldoklók józanok. Hátha átömlenek rózsaszínü álomba és valami nagy mámor, hallatlan
+               extázis hintáztatja tagjaikat. Megint egy illuzió. Megint.</p>
+            <p>- Lehet, nem vonom kétségbe. Talán, amit én illuziónak tartok, valóban az, és az is
+               az, amit én hideg józanságnak, az operáló kés biztosságának mondok. Mit bánom én?
+               Egyetlen valóság, hogy harcban állok veled, késsel, pikával szurkálom a tükörmásomat,
+               párviadal súlyos bandázzsal, végkimerülésig. Mit bánom én? Ez a valóság.</p>
+            <p>- Kényszerképzet.</p>
+            <p>- Minden kényszerképzet? Csók, mögötte a másik csókkal, szerelem, félig éretten
+               lehulló, önönmagunk keresése, minden? Legyen. De a szenvedésem, az nem illuzió. Ez az
+               Atlasz, tartja világomat. Miért nem akarjátok elhinni, hogy vannak emberek, akik a
+               bánat nélkül nem tudnak örülni?! Hogy életüket azzal emésztik: el akarunk szakadni
+               sok földi salaktól és nem tudunk. Nem ismered azt az érzést, ami elfogja az embert a
+               negyedik emelet ablakában? Két kézzel fogja a párkányt, mert valami arra készteti,
+               hogy ugorjon le a mélységbe? Vannak emberek, akik biztonság érzésüket elveszítik,
+               amikor a dolgok mélyébe akarnak nézni. És így lesz minden mozdulat félszeg, mert
+               hiányzik az önbizalom. Nem tudunk cinikusok lenni, de nem tudunk örülni sem.</p>
+            <p>- Szóval minden kis örömödben kevéske keserüség mindig van, mint kávé alján a
+               zacc.</p>
+            <p>- Ravasz.</p>
+            <p>- Gúnyolodol, pedig úgy van.</p>
+            <p>- Fenét van úgy. Megint egy illuzió. Próbálj, akarj megváltozni. Ha nem tudsz lenni
+               egészen idealista, légy egészen cinikus. Valami.</p>
+            <p>- All right. Meg fogom próbálni. Meg fogom próbálni. Igazod van: muszáj. Hátha az
+               öndresszura elvisz odáig, hogy mindent mosolyogva veszek tudomásul. Sőt még az
+               életet is...</p>
+            <p>(Valljuk be, e platonikus jellegü elbeszélgetések önönmagammal, nem voltak jók arra,
+               hogy megnyugtassanak és hogy Helénnel szerelmi ügyemet újból felelevenítsem. Nem
+               tudom, jól fejtettem ki, miért kellett e szakitásnak megtörténnie? Kétségbe kéne
+               esnem, ha jól. Mert világosan érzem, hogy oda nyultam be, a tudatalatti világ oly
+               szféráiba, ahol csak hiperviolett sugarakkal lehet dolgozni. Ez egy lelki válság, és
+               mit sem érne, ha szavakkal hajszálpontosan körül tudnám bástyázni. A cél előtti
+               meghökkenések, erőszakos visszariadások nem az okfejtő regényírók moziszerüségével
+               bukkannak fel lelki élményeim között. Karsztok hegyi patakja ez, feltűnik és újra
+               elbú. És amit még elmondandó vagyok, csupán azért teszem, mert nem esne jól, ha
+               egynémelyek - kevés nőismerőseim jelesen - szeszélynek avagy póznak tartanák e
+               históriát. Magam részéről, amikor itélőszéket tartottam magam felett, bizonyos
+               bőbeszédűséggel tálaltam fel, hogy úgymondjam e bűncselekmény antiaktáít.</p>
+            <p>Tek. kir. törvényszék! Igen tisztelt esküdt urak! Tiltakozom az ellen, hogy a fent
+               elmondottakat önök egyszerüen klinikai esetnek könyveljék el. Ha kellő
+               objektivitással tudnék kritikát gyakorolni, azt mondanám, ez normális következménye
+               egy normálisan végiggondolt fiatal életnek. Ez az élet nem passziv, mert passzivnak
+               lenni annyit jelent, mint eltolni minden örömet magunktól. Még csak nem is cinikus,
+               mert bár hiábavalónak tartja önönmagát összilluzióival együtt, sajnálja, hogy az
+               illuziókat elveszítette. Az atéista siratja így a maga elkallódott vallásosságát.
+               Talán a mai, most kibontakozó embertípusnak egy iskolai példája, ez azonban nem
+               jelenti az én értelmezésemben holmi típusok létezését. Főjellemvonás: a be nem
+               fejezettség. A befejezett ember, ahogy ő mondogatja, tisztában van önmagával.
+               Pályaválasztásában: VII. fizetési osztály után VI-ik jön és az V., esetleg itt
+               megáll. Ma tizezer korona vagyona van, holnap húszezer, néhány év múlva 1 millió és
+               itt megáll. Szerelemben: Megkérni, elvenni, gyermekeket nemzeni határozott számban és
+               nemben, nagyapa lenni, esetleg dédnagyapa és itt megáll. Vagy: lecsókolni a nőt,
+               szeretővé avatni, hét hétig mutogatni, kidobni, mely eljárást az ideális lelkületüek
+               végkielégítésnek is hívnak. Érintkezésben: mindenkinek eleget tenni, de mégis
+               bizonyos distanzeot tartani, mindenkit meghallgatni és mindenkinek igazat adni.
+               Művészetben: Első felvonás, második felvonás, stb. költői igazságszolgáltatás stb. A
+               befejezett ember mindig tudja, hogy mit csinál. Nem kalandoz mellékösvényen, nem
+               hazardirozik.</p>
+            <p>A be nem fejezett embernél a véletlen: törvényszerűség és egész élete a vis majorok
+               labdajátéka. Pályaválasztásában nagyobb fontosságot tulajdonit az esetlegességnek,
+               mint az akaratnak; a csillagképleteknek, mint a szívós munkálkodásnak. Érintkezésben:
+               nem tud elhelyezkedni, minden szociális adottsága ellenére is magányosnak érzi magát.
+               Meg van győződve, hogy az élet nem a születésnél kezdődik és nem a halálnál végződik.
+               Önönmagát egy végtelen szövedék darabkájának tartja, oly picinek és szálai másokba
+               kapaszkodnak és ha a himalájai embertestvérének kitépik a karját, az neki is fáj. A
+               befejezett ember: izolált jelenség, megáll a maga lábán. A be nem fejezett ember:
+               minduntalan az összefüggéseket érzi és így elveszíti a talajt a lába alól.
+               Szerelemben: nem tudja az erotikát elválasztani a gondolati elemtől, még helyesebben,
+               erotikus, mert erotikusnak lenni: az ösztöni életet gondolati elemmel szaturálni.
+               Művészetben elfogadja a milói vénusz elméletét, nagy rajongója a torzónak, szolgája a
+               fantáziának, nála az illuziók elvesztése az Infernónak csak egy szűkebb messzebbre
+               sötétedő körét jelenti. A be nem fejezett ember a Bajazzó és a Don Quijotte keveréke,
+               de ez nem méltatás, mert hamis ideálizmusában mind a két úr önzőbb volt, mint bárki e
+               földön.</p>
+            <p>Igen tisztelt hölgyeim és uraim! Elvtársak! A belvederei kaland, amint méltóztattak
+               észrevenni, nem nélkülözi a szerelem érzéki és nem érzéki kellékeit. Hősömben egy
+               furcsa szabású fiatal embert ismertek meg önök. A boncasztalon kipreperáltuk egy
+               fiatal ember hulláját, szigorló urak, egy fiatal emberét, aki megalomániában
+               szenvedett, mert azt hitte, hogy csak ő fontos és más senki. A technikus, Dr.
+               Schwartz, Helén és Erzsi kisasszonyok szokatlan módon a háttérbe kerültek és így még
+               most sincs módunkban tudomást szerezni, kik ők, milyen erkölcsi habitust viselnek
+               stb. stb. Pedig ők is egy külön világ, vágyakkal, paroxismussal, függetlenül másoktól
+               mulandóságnak és válásoknak kitéve. ...De hagyjuk ezt!</p>
+            <p>Az élet konturjai egy cirkusz pompáját vetítik felénk. Egy hölgy a magas iskolát
+               lovagolja, sziporkázó üveg gyöngyök között ugrik át az abroncsokon, mint tündér a
+               légben, ó és - előadás után hazamegy, lemossa a mastixot és ötért szafaládét
+               étkezik. És én... én... A klown, ki a szerelmi cirkusz minden szőnyegének betolásánál
+               ott vagyok, pepecselek velük, mintha nekem volna legtöbb dolgom a világon, közbe orra
+               bukom, harsány kacaj és túss a polgári zenekarban, a befejezett emberek megigazítják
+               a szőnyeget, 11 órára befejezik munkájukat, söröznek és a söntésben megeresztik a
+               nadrágszijjaikat. Ó boldog befejezettek...</p>
+            <p>E sorokat akkor írom, amikor a végzet kipofoz a Belvedere gyönyörü bokraiból. Hevesen
+               lüktet a szivem, még egyszer látni Helént, még egyszer, egyetlen egyszer, mielőtt,
+               trallalla, elvonul az ezred. Helén nem kap választ és joggal hiheti, hogy nem
+               szeretem. Pedig mindenkinek látnia kell, hogy Helén nagyon nagyon a szivemhez nőtt -
+               a magam módja szerint. Jobb, hogy e kis német leány nem talál rá e naplójegyzetre és
+               így nem tudja meg, hogy miként csókolom én egy életen keresztül örök létre a milói
+               vénusz hiányzó márványkarját. Ringassa őt tovább a Belvedere, fűszerezze új
+               lombsátor, csiklandozza inyét a Junius, én a be nem fejezett szerelem szobrát naponta
+               fogom átgyúrni emlékképek futó homokjából percekig élő szoborképbe, de e pillanatban
+               csak ő él és lángol, mint mártir alatt a máglyarakás.</p>
+            <p>...És hogy holnap mi lesz velem, nem tudom?!</p>
+            <p> Vége.</p>
+            
+         </div>
+      </body>
+  </text>
+</TEI>
