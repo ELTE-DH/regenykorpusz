@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU15548" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Az első kaland</title>
+            <author>
+               <persName>
+                  <surname>Nagy</surname>
+                  <forename>Károly</forename>
+               </persName>
+               <date from="1909" to="1942">1909-1942</date>
+               <idno type="VIAF"></idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">10493</measure>
+            <measure unit="pages">27</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Az első kaland</title>
+               <date>2016-05-31</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://mek.oszk.hu/15500/15548/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Drótos László</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>Az első kaland</title>
+               <author>Nagy Károly</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Világv. Reg. Kiadóváll.</publisher>
+               <date>1934</date>
+               <ref target="https://mek.oszk.hu/15500/15548/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Az első kaland</title>
+               <author>Nagy Károly</author>
+               <date>1934</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+      </profileDesc>
+      <xenoData>
+         <ns1:eltec>
+            <ns1:authorGender key="M"/>
+            <ns1:size key="short"/>
+            <ns1:canonicity key="low"/>
+            <ns1:timeSlot key="T5"/>
+         </ns1:eltec>
+      </xenoData>
+      <revisionDesc>
+         <change when="2025-06-15"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>- Szóval nem jön el, Bandi?</p>
+         <p>- Nem, kedves, semmiesetre sem jöhetek.</p>
+         <p>- És holnap? A férjem csütörtökön megérkezik. Olyan rövid az idő.</p>
+         <p>- Holnap?... Igen, holnap feljöhetek.</p>
+         <p>- Drága! Hány órakor?</p>
+         <p>- Hatkor. Megfelel?</p>
+         <p>- Hogyne, mindig és minden idő megfelel, amit maga ajánl.</p>
+         <p>- Hát, kezét csókolom, Ili.</p>
+         <p>- Viszontlátásra, kedves.</p>
+         <p>Kármán András, a Nagy Szakértő letette a kagylót és felsóhajtott. Ez ma már a harmadik
+            telefonbeszélgetése volt, hasonló témáról, de mindig más nővel. Kellemes dolog, ha az
+            embert szeretik a nők, de néha terhes egy kicsit. Különösen az elfoglalt embernek
+            terhes, már pedig Kármán elfoglalt ember volt. Még alig huszonnyolc éves és máris
+            dusgazdag, nagy karriert befutott épitész. Nem is villa az, amit nem ő épít. Ez a
+            specialitása. Na, meg a nők. A nők döntően fontos szerepet játszanak az életében. Ő a
+            szerelmi ügyek, kis kalandok és halálos szerelmek nagy szakértője. Egy híres svéd
+            táncosnő, aki egyszer Pesten vendégszerepelt, öngyilkos lett miatta. Egy nem kevésbbé
+            híres budapesti társaságbeli úriasszony viszont őt akarta lelőni. Pedig Kármán András
+            mindkét esetben ártatlan volt, illetve csak közvetve tehetett a dologról. Egyszerűen nem
+            tudta háromfelé vágni magát. Ha egy férfit túlságosan szeretnek a nők, akkor nincs
+            segítség, az ellen nem tehet semmit, legfeljebb azon igyekezhet, hogy a lehetőség
+            szerint mindegyiket eltitkolja mindegyik elől.</p>
+         <p>Ettől eltekintve, vagy hogy ne legyünk nagyképűek, talán épp ezért Kármán András
+            elégedett ember volt. Minden nőre, aki előfordult az életében, szívesen gondolt vissza,
+            csak egy volt, egyetlen egy, aki, ha történetesen eszébe jutott, akkor ökölbeszorult a
+            keze és ölni tudott volna.</p>
+         <p>Ez a nő volt az első kaland az életében.</p>
+         
+         <p>A VIII. B) osztályból pokoli lárma harsogott a néptelen folyosóra. A kis Kende, a hosszú
+            Kleinnal tizenhárom perce verekedett a katedrán. Az első pad tetején állt a szeplős
+            Ivánffy és szónoklatot tartott a közelgő érettségiről, de senki sem figyelt rá, az
+            utolsó padban csendesen üldögélt a roppanterejű Horváth és iszonyú karját a
+            művészhajlamú Mányoki vállán nyugtatta. Meztelen nők fényképei hevertek előttük,
+            gondosan beágyazva a történelem könyvbe, a mohácsi vész és Buda visszafoglalása közé.
+            Óvatosan nézegették a képeket és nem törődtek a külvilággal, noha a külvilág ezúttal még
+            a megszokottnál is jobban ordított. A cvikkeres Zsák Feri a tenyérnyire kinyitott
+            ajtónál állt és cinkelt. (Cinkelni: Vigyázni, leselkedni, vesd össze - falazni.
+            Diákszótár 26. old.)</p>
+         <p>Gürtler, a legjobb tanuló, jóideig tehetetlenül üldögélt latin könyve előtt, aztán
+            vállat vont, zsebéből nagy vattadarabot vett elő és bedugta a füleit. Ezután a
+            védművelet után újult erővel fogott neki a magolásnak.</p>
+         <p>A lárma már elérte a tetőfokát, mikor Zsák Feri elugrott az ajtótól és vékony, sivító
+            hangján elrikoltotta magát.</p>
+         <p>- Cink, Sulyok!</p>
+         <p>A lárma elhalt. A kis Kende és a hosszú Klein lihegve, kócosan és vörösrepofozva
+            befejezte a negyedórás boxmeccset, a szeplős Ivánffy leszállt a pad tetejéről, a
+            nagyerejű Horváth és a művészhajlamú Mányoki nyugdíjba helyezte a meztelen nőket és
+            Gürtler, a legjobb tanuló, kihúzta füléből a vattát.</p>
+         <p>Most felpattant az ajtó és belépett rajta Sulyok, a megvesztegethetetlen. Sulyok a
+            matematika tanára volt, aranykeretű cvikkert és fekete szakállt hordott és még soha
+            senki nem látta mosolyogni. Ő volt a VIII. B) osztály főnöke.</p>
+         <p>Határozott, kemény léptekkel ment fel a katedrára, szivarzsebéből zsebkendőt húzott elő,
+            leporolta a széket és leült. Beírta az órarendjét a naplóba, kifújta az orrát és
+            csiptetője felett körülkémlelt az osztályban.</p>
+         <p>Halálos csend volt. Sulyok elővette a noteszét.</p>
+         <p>- Egy utolsó alkalmat adok annak az öt fiatalembernek, akiknek a nyolc év nem volt elég,
+            hogy fokozatosan megtanuljanak mindent. Kijönnek a katedrára Galambos, Horváth, Kármán,
+            Máté és Weiss.</p>
+         <p>A kiszólítottak csendesen felsorakoztak a katedrán.</p>
+         <p>- Figyelmeztetem önöket, hogy szedjék össze magukat, mert mint mondtam, ez az utolsó
+            alkalom. Ebben a táskában - itt az asztalra helyezett aktatáskára mutatott - már
+            megvannak a kidolgozott érettségi tételek. Szokásom ellenére könnyíteni akarom a
+            dolgukat, bár nem érdemlik meg és ezért hasonló példákat adok fel önöknek.</p>
+         <p>És diktálni kezdte.</p>
+         <p>- A + B...</p>
+         
+         <p>Már mindnyájan elmentek, csak Galambos, Horváth, Kármán, Máté és Weiss maradt az
+            osztályban. Galambos az ajtóhoz lépett, kikémlelt rajta, aztán gondosan becsukta és
+            felült az első pad tetejére.</p>
+         <p>- Fiúk - kezdte -, azért mondtam, hogy maradjatok itt, mert életbevágóan fontos dolgot
+            kell megbeszélnünk. Ma újra elkapott minket ez a nyavalyás Sulyok és ha ez egyáltalán
+            lehetséges, még rontottunk a helyzetünkön. Az érettségi a nyakunkon van, tehát itt
+            sürgősen tenni kell valamit.</p>
+         <p>- Igen, de mit? - mondta szomorúan Weiss.</p>
+         <p>- Hallgass végig! Nekünk az írásbelin minden áron meg kell oldani a példákat.</p>
+         <p>- Ez az, ami lehetetlen - szólt közbe ismét Weiss.</p>
+         <p>- Weiss, ha nem hagysz beszélni, megkérem Horváthot, hogy hajtson össze és tegyen be a
+            katedra alá!</p>
+         <p>Weiss bizalmatlan pillantást vetett Horváth rettenetes vállaira és többé meg sem
+            mukkant.</p>
+         <p>- Mi csak egyet tehetünk - folytatta Galambos. - Meg kell szerezni az érettségi példákat
+            és előre kidolgozni, vagy kidolgoztatni Gürtlerrel.</p>
+         <p>- De hogy lehet megszerezni? - kérdezte Máté.</p>
+         <p>- El kell lopni!</p>
+         <p>Weiss ismét szeretett volna közbeszólni, de Galambos és Horváth ránéztek, mire jobbnak
+            látta, ha hallgat.</p>
+         <p>- Nekem már félig-meddig meg is van a tervem. Figyeljetek ide. Az egész dolog akkor
+            jutott eszembe, mikor Sulyok azt mondta, hogy a táskájában vannak a példák. Sulyok a
+            táskát hazaviszi. Éjjel egy vagy kettő közülünk álkulccsal betör, lemásolja a példákat
+            és...</p>
+         <p>- Ez egy marhaság! - vágott közbe Kármán. - Ezt nem tudjuk megcsinálni.</p>
+         <p>Galambos gyors pillantást vetett rá.</p>
+         <p>- Tudom - mondta aztán nyugodtan - csak azért mondtam, hogy mindannyiunk előtt világos
+            legyen, hogy itt egyetlen út van.</p>
+         <p>- Éspedig?</p>
+         <p>- Éspedig a következő: Sulyoknak, mint tudjuk, nagyon csinos, fiatal szobalánya van. A
+            példákat a szobalány fogja ellopni. Hogy azonban ezt megtegye, el kell csábítani.</p>
+         <p>- Elcsábítani?!</p>
+         <p>Minden szem hirtelen Kármán felé fordult.</p>
+         <p>- Úgy értitek, hogy én?... - mondta Kármán zavartan.</p>
+         <p>- Természetesen te, - felelte gyorsan Galambos. - Te vagy az osztály Don Juan-ja. Neked
+            ez gyerekjáték lesz.</p>
+         <p>- No de...</p>
+         <p>- Nincs „no de”! Itt egy érdek van csak. Hogy ne bukjunk meg.</p>
+         <p>- De fiúk, én nem tehetem, én...</p>
+         <p>- Szerelmes vagy. Tudjuk - mondta Galambos. - A cél azonban szentesíti az eszközt.
+            Margit nem fog megtudni semmit. És ha mégis megtudná, hát megbocsátja.</p>
+         <p>- Ő? Soha!</p>
+         <p>- De igen. Én csak ismerem a hugomat. Ő nagylelkű és szabadgondolkozó. Meg kell tenned!
+            Te tetszel a nőknek. Biztos, hogy meghódítod a szobacicát. Úgy-e, megteszed, Bandi?</p>
+         <p>- Meg kell tenned! - mondták a többiek is.</p>
+         <p>Kármán idegesen harapdálta a száját. Sokáig gondolkozott, aztán felvetette a fejét és
+            rekedten mondta:</p>
+         <p>- Megteszem!</p>
+         <p>- Bravó! - kiáltotta Galambos és a többieknek is felderült az arcuk. - Akkor rendben van
+            minden. És igyekezni fogok, hogy Margit ne tudjon meg semmit. Mikor fogsz hozzá?</p>
+         <p>- Ma délután. Elmegyek Sulyokhoz, mikor a kávéházban van. Majd gondolkozom valami
+            ürügyön. A lány egyedül lesz és... meglátjuk, mire megyek vele.</p>
+         <p>- Alapjában véve még irigyellek is egy kicsit - mondta Horváth. - Én láttam azt a
+            szobalányt. Nagyszerű nő. Szívesen helyettesítenélek...</p>
+         <p>- Nem, nem - szólt közbe Galambos. - A nők nem szeretik az ilyen izomkolosszusokat, vagy
+            ha igen, hát bizalmatlanok egy kicsit velük szemben. A Kármán-féle szép szőke trubadúr
+            jobban megfelel a célnak. No, menjünk haza!</p>
+         
+         <p>Délután négy óra volt, mikor Kármán Bandi dobogó szívvel becsengetett a Práter-utcai ház
+            egyik másodikemeleti ajtaján. A szobalány ajtót nyitott.</p>
+         <p>- A tanár úr nincs itthon - mondta.</p>
+         <p>Kármán tudta ezt, mert már félórája álldogált a szemközti kapuban, lesve, mikor megy el
+            Sulyok.</p>
+         <p>- Nincs itthon? Hm, ez baj.</p>
+         <p>- Miért tetszik keresni? Dolgozatfüzetek miatt?</p>
+         <p>- Meg akartam tőle kérdezni valamit.</p>
+         <p>- Maga a Kármán úr, úgy-e?</p>
+         <p>- Igen, én vagyok. Kedves, hogy emlékszik a nevemre. Igaz, hogy én is emlékszem a
+            magáéra, Jucika... azt is tudom, hogy szereti a jó cigarettát. Véletlenül van is nálam
+            egy pár darab kitünő egyiptomi...</p>
+         <p>- Tessék bejönni egy pillanatra. Csak nem fog idekint álldogálni.</p>
+         <p>Bementek a leány szobájába. Kármán körülnézett. Hosszú, keskeny, tiszta szoba volt,
+            rézágy, asztal, két szék és fehér szekrény. A falon az ágy fölött négy fénykép. Az egyik
+            iparoskülsejű fiatalembert ábrázolt, a másik három Rudolf Valentinót különböző
+            szerepeiben.</p>
+         <p>Bandi most a lányt vette szemügyre. Nagyon csinos, szőke, jóalakú és széplábú leány
+            volt, fekete ruhája és fehér köténye francia képeslapok figuráira emlékeztették a
+            fiút.</p>
+         <p>- Foglaljon helyet nálam, Kármán úr.</p>
+         <p>Bandi leült és elővette a cigarettásdobozt.</p>
+         <p>- Parancsoljon, Jucika! - mondta.</p>
+         <p>Rágyújtottak. Bandi zavartan mosolygott.</p>
+         <p>- Ha most látna minket a tanár úr.</p>
+         <p>- Az bizony kellemetlen volna, Kármán úr.</p>
+         <p>- Tudja mit Juci, ne mondja nekem, hogy Kármán úr: mondja, hogy Bandi. Jó?</p>
+         <p>- Jó Bandi... Szeretem ezt a nevet.</p>
+         <p>- Jucika, én egy vallomással tartozom magának Én nem a tanár úrhoz jöttem most. Tudtam,
+            hogy nincs itthon. Meglestem, mikor elment. Én magához jöttem.</p>
+         <p>Juci tágranyitotta a szemét.</p>
+         <p>- Hozzám?</p>
+         <p>- Igen. Maga már régóta tetszik nekem. Mikor feljöttünk néha a dolgozatfüzetekért, én
+            mindig magát néztem. Juci, én... én szeretem magát.</p>
+         <p>A leány meglepődve hallgatta, de láthatóan imponált neki a szép és elegáns Kármán
+            szerelme és egy kicsit közelebb húzta a székét a fiúéhoz. Bandi megfogta a kezét.</p>
+         <p>- Juci - mondta és felállt a helyéről - mit gondol most maga rólam és arról, amit
+            közöltem magával?</p>
+         <p>- Én... hogy is mondjam, Kármán úr, izé... Bandi... én nagyon csodálkozom, hiszen már
+            másfél éve ismer, minden hónapban legalább egyszer fent volt és soha rám se nézett.</p>
+         <p>- Téved, higyje el, hogy téved!</p>
+         <p>Közelebb lépett a lányhoz, átölelte és meg akarta csókolni. Juci hirtelen felállt és
+            nekifeszítette két könyökét a fiú mellének. Ellenállása azonban egyre csökkent.</p>
+         <p>Megcsókolta. Egy kicsit megszédült és hirtelen megjelent előtte Galambos Margit szép
+            fekete feje, okos, komoly, barna szeme és finomvonalú szája, amelyet másfél év alatt
+            összesen háromszor csókolt meg. Margittal szemben valahogy mindig elvesztette a
+            bátorságát, pedig tudta, hogy tetszik a lányoknak. Még nem volt tizenkilenc éves és már
+            több szép sikert könyvelhetett el. De Margit, az más... Margit egy szent.. és most
+            megcsalja...</p>
+         <p>Mindez egy pillanat alatt átszaladt az öntudatán, de aztán győzött fiatal vére. A szép,
+            szőke, meglehetősen ápolt leány felgyujtott benne valamit. Szorosan és merészen ölelte
+            magához.</p>
+         <p>- Nem, ne!... - mondta Juci. - Nem szabad.</p>
+         <p>- Miért ne szabadna?</p>
+         <p>- Nekem vőlegényem van.</p>
+         <p>- Nem törődöm vele. Nem törődöm semmivel. Juci, hát nem tetszem magának?</p>
+         <p>- De igen, tetszik, - felelte elgyengűlve és halkan a leány.</p>
+         <p>- Hát akkor...</p>
+         <p>- De nem, most nem. Jöhet valaki és...</p>
+         <p>- Hát akkor este. Visszajövök este. Ne mondja, hogy nem. Okvetlen visszajövök. Úgy-e
+            maga is akarja?</p>
+         <p>Juci lehajtotta a fejét és csendesen, szótlanul bólintott.</p>
+         <p>- Hánykor jöjjek?</p>
+         <p>- Fél tízkor. A tanár úr valami bankettre megy. Már elő is készítettem a fekete
+            ruháját.</p>
+         <p>- Fél tízkor itt leszek. Viszontlátásra kedves.</p>
+         <p>Hirtelen lehajolt és újra szájoncsókolta. Aztán tenyerébe fogta az állát és a szemébe
+            nézett. Meglepődve látta, hogy a leány szeme könnyes.</p>
+         <p>- Mi az, miért sír, Juci?</p>
+         <p>- Nem... semmi... én... ez olyan hirtelen jött... Maga nekem mindig tetszett, de sosem
+            nézett rám. És most... olyan boldog vagyok.</p>
+         <p>Gyors mozdulattal megfogta a fiú kezét és megcsókolta. Kármán zavartan rántotta el a
+            kezét. Zavart volt még akkor is, mikor lement a lépcsőn és elindult hazafelé. Túlságosan
+            sikerült a dolog, jobban mint gondolta. Ez a leány úgy viselkedik, mintha máris
+            szerelmes volna. Igaz ugyan, hogy így biztosabban elvállalja a példák ellopását, de nem
+            lelkiismeretes dolog, ilyen érzelmi megnyilvánulásokat kihasználni.</p>
+         <p>Elhessegette magától a kényelmetlen ötletet. Vállat vont.</p>
+         <p>- Most már mindegy, - gondolta - nem táncolhatok vissza.</p>
+         
+         <p>A sötétben csak Kármán cigarettájának parazsa látszott. Izzó kis pont volt, mely néha
+            tüzes vonalat írt le a levegőben, amint a fiú a cigarettát szájához vette.</p>
+         <p>- Te nem gyujtassz rá? - kérdezte.</p>
+         <p>- Nem. Most nem kívánom - felelte Juci és két telt fehér karját a feje alá hajtotta.</p>
+         <p>- Min gondolkozol?</p>
+         <p>- Azon, ami történt. Úgy meg vagyok zavarodva. És szégyenlem magam egy kicsit.</p>
+         <p>- Megbántad?</p>
+         <p>A leány átölelte Kármán nyakát.</p>
+         <p>- Nem bántam meg semmit - csókolta a fülébe. - Örülök neki.</p>
+         <p>Kármán agyában veszettül kergették egymást a gondolatok.</p>
+         <p>- Szólni kellene már... telik az idő... Már tizenkét óra is van talán...</p>
+         <p>Gyöngéden végigsimitotta a leány forró testét.</p>
+         <p>- Jucikám, nekem mennem kell.</p>
+         <p>- Ne menjen még. Olyan jó, hogy itt van.</p>
+         <p>- Bolond vagy kedves. Nem maradhatok itt reggelig. Késő van.</p>
+         <p>- Holnap eljön?</p>
+         <p>- El... illetve... ha lehet... Még nem tudom.</p>
+         <p>Hirtelen a leányhoz fordult.</p>
+         <p>- Juci. Én kérni akarok valamit. Megteszed ugy-e?</p>
+         <p>- Mindent, amit akar.</p>
+         <p>- Te tudod, hogy már csak napok választanak el az érettségitől. És kis baj van.
+            Sulyoknál elbukom, ha nem segítsz. És rajtam kívül elbukik még négy fiú...</p>
+         <p>Elhallgatott. Kereste a szavakat. Most jött a dolog nehezebb része.</p>
+         <p>- Mit segíthetek én, Bandi?</p>
+         <p>- Csakis te segíthetsz. Megbeszéltük a fiúkkal... Sulyoknak már ki vannak dolgozva a
+            példák, amiket az érettségin fel fog adni. Az aktatáskájában tartja. Ezeket a példákat
+            el kell lopni.</p>
+         <p>Súlyos csend nehezedett a szobára.</p>
+         <p>- El kell lopni - folytatta Kármán. - Én lemásolom és elviszem... és meg vagyunk mentve.
+            Juci! Neked kell ellopni!... A fiúk...</p>
+         <p>Valami reccsent a sötétben. Juci gyors mozdulattal felült és szikrázó szemmel nézte a
+            fiút.</p>
+         <p>- Mit nézel Juci? Megteszed, úgy-e?</p>
+         <p>- Megbeszélte a fiúkkal, mi? - sziszegte a fogai közt. - Szóval ezért történt minden?
+            Nem én kellettem, hanem a példák?</p>
+         <p>- De Juci...</p>
+         <p>- Hallgass! - kiáltotta a lány és először tegezte. - Hallgass és takarodj innen azonnal!
+            Megbeszélted a fiúkkal, úgy-e? Az csak egy buta szobalány; megszédíted a csókjaiddal és
+            azt teszi, amit akarsz. Úgy-e, ezt mondtad?</p>
+         <p>- Juci ne beszélj! Nem szabad így beszélned...</p>
+         <p>- Hát neked szabad volt ezt tenned velem? Mi az neked, te szép fiú, megfőzni egy szegény
+            leányt, aztán kizsarolni, hogy a segítségetekre legyen. Piszkos zsaroló.</p>
+         <p>Minden átmenet nélkül visszarogyott a párnára és hangosan sírni kezdett. Kármán
+            tehetetlenül ült mellette. Erre a fordulatra nem számított. Nem gondolta, hogy a leány
+            rögtön átlát a dolgon. Bátortalan mozdulattal megsimogatta a zokogó nő fejét.</p>
+         <p>- Juci, én nem tehetek róla... én..</p>
+         <p>- Ne nyúlj hozzám! - kiáltotta rekedten a leány és újra felugrott, mintha tüzes vassal
+            érintette volna meg. - Ilyen becstelenség!... Ha úgy jött volna hozzám, őszintén, ha
+            elmondta volna, miről van szó, de így rászedni, ilyen aljasul... Menjen innen, mondtam
+            már, hogy menjen innen, de azonnal!</p>
+         <p>- Juci, gondold meg...</p>
+         <p>- Te gondoltad volna meg, mielőtt ezt tetted velem. Azt hitted, hogy mert én csak
+            szobalány vagyok, hát velem mindent lehet? Hát nem lehet. Te! kedvem volna megfojtani
+            téged...</p>
+         <p>Kármánt teljesen megzavarta a váratlan vereség és az, hogy végeredményben igazat is
+            kellett adnia a leánynak.</p>
+         <p>Szomorúan felkászolódott és hozzálátott az öltözködéshez. Bár már valóban későre járt az
+            idő, mégis vontatottan tapogatott ide-oda, húzta az időt és várta, hogy a leány
+            megenyhül egy kicsit. Juci azonban még mindig lihegett a felindulástól, dühtől lobogó
+            szemmel nézte a fiú piszmogását.</p>
+         <p>Kármán végül is felöltözött. Egy bátortalan lépést tett az ágy felé és kinyujtotta a
+            kezét, de rögtön vissza is húzta.</p>
+         <p>- Hát... viszontlátásra Juci... és igazán sajnálom, hogy...</p>
+         <p>Elhallgatott és elindult kifelé. A leány nem fogadta a köszönését. Kármán bajlódott egy
+            ideig az előszobaajtóval, végül azonban sikerűlt kinyitni. Kilépett a lépcsőházba.
+            Tapogatódzva indult el a vaksötétségben. Alig haladt azonban néhány fokot lefelé, mikor
+            hirtelen vakító fénytől káprázott el.</p>
+         <p>A lépcsőházban hirtelen kigyúlt a villany. A fiú szívdobogva hajolt át a korláton.
+            Valaki jön felfelé... Feketeruhás, kissé görbehátú alak. Cvikkeres. Szent Isten, hiszen
+            ez Sulyok!</p>
+         <p>Kármán egy pillanatig mozdulatlanul állt. Kicsit szédült és a szíve hangosan dobogott.
+            Aztán magához tért a hirtelen rémülettől és három gyors lépéssel beugrott ismét az
+            előszobába.</p>
+         <p>Beleütközött Juciba, aki felkapott egy pongyolát és ép elindult, hogy bezárja az
+            ajtót.</p>
+         <p>- Juci, - suttogta gyorsan és izgatottan - Sulyok itt van... könyörgöm, engedjen vissza
+            a szobájába. Ha itt talál, végem van.</p>
+         <p>- Nem engedem! - mondta hidegen a leány.</p>
+         <p>- Juci, ne tegyen tönkre!... azonnal itt lesz... jön fel a lépcsőn. Juci, kicsapnak. Ép
+            az érettségi előtt. Tudom, hogy nem érdemlem meg, de legyen jó hozzám. Ha igaz volt,
+            amit mondott, hogy kedves vagyok magának...</p>
+         <p>A leány egy pillanatig gondolkozott. Kintről közvetlen-közelről lépések
+            hallatszottak.</p>
+         <p>- Menjen be, - mondta végül és maga is a gyorsan besurranó fiú után ment.</p>
+         <p>Gondosan betette az ajtót és leült az ágy szélére. Kármán mereven állt a fal mellett és
+            nem mert megmoccanni.</p>
+         <p>Kint csoszogás hangzott, kulcsnyíkorgás, lépések, aztán egy ajtó kinyílt és bezárult.
+            Csend lett. Kármán megmozdult.</p>
+         <p>- Ide hallgasson - mondta hirtelen a leány. - Ha maga azzal kezdte volna a dolgot, hogy
+            legyek a segítségére, talán megtettem volna, anélkül, hogy kértem volna valamit.
+            Maguknak nagyon kell az a vacak... azok a példák. Hát én hajlandó vagyok holnapután
+            estére megszerezni. Meggondoltam a dolgot.</p>
+         <p>- Juci!</p>
+         <p>- Hallgasson végig! Hajlandó vagyok megszerezni ötszáz pengőért.</p>
+         <p>Egy pillanatra rettenetes csend következett. A leány diadalmasan és hideg nyugalommal
+            nézte a fiút. Érezte, hogy most bosszút állt.</p>
+         <p>Kármán egy darabig nem jutott szóhoz. Végül dadogva mondta:</p>
+         <p>- Kérem. Majd megbeszélem a fiúkkal... majd meglátom.</p>
+         <p>Juci gúnyosan mosolygott.</p>
+         <p>- Megbeszéled, úgy-e? Mint azt a másik dolgot? Hát csak beszéld meg. Ötszáz pengő. Egy
+            fillérrel sem kevesebb. És most elmehetsz.</p>
+         
+         <p>Kármán maga sem tudta, hogy ért haza. Agyában lázasan száguldottak a gondolatok. Érezte,
+            hogy rettenetes baklövést követett el, de az mással is megtörténhetett volna. A fiuk nem
+            tehetnek szemrehányást. Ő megtette, amit kívántak tőle. Ennél a gondolatnál nem tudta
+            megállni, hogy rossz kedve ellenére el ne mosolyodjon egy kicsit. Hát igen, a fiúk nem
+            egészen ezt akarták, az biztos. No, mindegy. A nő teljesen megvadult, azt nem lehet most
+            már leszerelni szépszóval és udvarlással. Csakugyan honnan kell beszerezni a pénzt? Na,
+            ez jó kis munka lesz.</p>
+         <p>Jómódú családból való volt, de azért száz pengő mégis csak nagy pénz. Majd kérdezgetik,
+            hogy minek kell? Esetleg Ede bácsitól is kérhet. Csak az öregek ne ébredjenek fel...</p>
+         <p>Halkan nyitotta ki az ajtót. Lábujjhegyen ment végig az előszobában és besurrant a
+            szobájába. Gyorsan levetkőzött és lefeküdt. Fülig rántotta a paplant és pár pillanat
+            mulva egészséges, mély álomba merült.</p>
+         <p>Másnap kicsit kábultan indult az iskolába. Elegáns aktatáskáját hóna alá szorította és
+            sietett, mert már csak pár perc híja volt a nyolc órának.</p>
+         <p>Mikor végigment a folyosón, épületes látványban volt része. A VIII. A) osztály
+            büszkesége, Surányi, összeszólalkozott Horváthtal, az ő Horváthjukkal. Surányi, az MTK
+            nehézsúlyú birkózója volt és a VIII. A) osztály időnkint bizonyos gőggel emlegette a
+            VIII. B) előtt, hogy csak olyan osztálynak van létjogosultsága, amelyikbe számottevő
+            sportemberek járnak.</p>
+         <p>A számottevő sportember - ép mikor Kármán odaért, - önérzetesen megfeszítette
+            negyvenötös bikanyakát és egy olyan káromkodást közölt Horváthtal, hogy a szintén ott
+            álldogáló Vikinek becézett öreg takarítónő ijedtében elejtette a szemétlapátot.</p>
+         <p>Horváth ekkor megmozdult. Felemelte egyik hatalmas öklét, a nehézsúlyú birkózó álla alá
+            feszítette és lökött egyet rajta.</p>
+         <p>Kármán már sokszor megcsodálta Horváth iszonyú erejét, de ami most következett, az
+            végképp kiüzte az álmot a szeméből.</p>
+         <p>Surányi ugyanis a lökéstől egyszerűen repülni kezdett. Repült vagy öt métert és elterült
+            a földön. Horváth utánament, megfogta a gallérját, lerántotta, aztán a közel százkilós
+            embert a hóna alá kapta és elindult vele a VIII. A) felé.</p>
+         <p>Mikor a folyosó végére ért, megtorpant. Virág, a latin tanár jött vele szemben.</p>
+         <p>- Na, mi az, kérem, mi van itt? - kérdezte.</p>
+         <p>Horváth megállt, de nem eresztette el áldozatát.</p>
+         <p>- Tanár úr kérem, a szegény Surányi rosszúl lett. Viszem be az osztályba.</p>
+         <p>- Úgy, rosszúl lett? Az más. Csak vigye be, kérem.</p>
+         <p>Horváth azután nyugodtan folytatta az útját. Becipelte a porhanyósra főtt bajnokot a
+            terembe, lefektette a katedrára és egyetlen szó nélkül távozott.</p>
+         <p>Mikor beért az osztályába, a másik három érdekelt már Kármán körül tolongott. A
+            felhevült Herkules is csatlakozott a csoporthoz és lihegve érdeklődött, hogy mi
+            újság.</p>
+         <p>Galambos dühösen mérte végig.</p>
+         <p>- Jobb lenne, ha fölös energiádat másra tartogatnád, minthogy Surányival birkózol.
+            Szerencsétlen hústorony! Tudod milyen baj van?</p>
+         <p>- Nem tudom.</p>
+         <p>- Ess kétségbe és halj meg!</p>
+         <p>- Ne szavalj már, hanem mondd meg, mi a baj?</p>
+         <p>Galambos pár szóval közölte vele a dolgot. A fiúk izgatottan hadartak össze-vissza.
+            Kármán tehetetlenül vonogatta a vállát.</p>
+         <p>- Gyerünk az utolsó padba - proponálta Weiss.</p>
+         <p>Hátravonultak az utolsó padba és töviről hegyire megtárgyalták a dolgot. Galambos vitte
+            a szót.</p>
+         <p>- Szerencsés helyzetben vagyunk, mert úgy tudom mindannyiunknak tehetős emberek a
+            szülei. Meg tudjátok szerezni a pénzt?</p>
+         <p>- Azt hiszem, igen - mondta Máté.</p>
+         <p>- Nehezen fog menni, de talán sikerül - tette hozzá Weiss.</p>
+         <p>- Nekem megvan - mondta nyugodtan Horváth és kivett a tárcájából száz pengőt. - Tegnap
+            kaptam a nővéremtől.</p>
+         <p>- Az más - mondta Galambos. - Akkor bocsáss meg az előbbi szavaimért és óra után
+            nyugodtan tovább verheted Surányit.</p>
+         <p>Most belépett Kolozs, a magyar tanár. Mikor újra leültek, Galambos folytatta:</p>
+         <p>- Én is összeszedem valahogy a dohányt. És te, Bandi?</p>
+         <p>Kármán felvonta a vállát.</p>
+         <p>- Meg kell lenni, tehát meg is lesz.</p>
+         <p>- Helyes. Ma este nyolckor gyertek fel hozzám. Hozzátok el a pénzt. Kármán magához veszi
+            és elintézi végleg ezt a nyavalyás ügyet.</p>
+         
+         <p>- Na mi ujság Bandi?</p>
+         <p>- Ne haragudj apa, hogy zavarlak, kérni szeretnék valamit.</p>
+         <p>Kármán Oszkár vezérigazgató hátradőlt a nagy karosszékben és várakozásteljesen nézett
+            fiára.</p>
+         <p>- Na, csak ki vele fiatalember - mondta jókedvűen - egész őszintén, mintha az apáddal
+            beszélnél!</p>
+         <p>Kármán elmosolyodott.</p>
+         <p>- Nagyon kedves tőled, apa és én... igazán zavarban vagyok, hogy megint zaklatlak,
+            de...</p>
+         <p>- Na ne dadogj már; mit kertelsz? Na, itt van egy cigaretta, gyújts rá és beszélj.</p>
+         <p>- Apa, nekem pénz kellene...</p>
+         <p>Kármán Oszkár felkapta a fejét.</p>
+         <p>- Már megint pénz? Nem gondolod, hogy túlzásba viszed a dolgot? Voltaképpen mire költöd
+            te a pénzed?</p>
+         <p>Bandi zavartan vonogatta a vállát.</p>
+         <p>- Hát... kell mindenféle, apróságok és...</p>
+         <p>- Érettségi előtt, sőt két héttel az érettségi előtt egyéb gondod is lehetne, mint pénzt
+            költeni. A te korodban nekem nem volt tíz pengő zsebpénzem hetenként. Egyébként neked
+            még ennél is több van, mert az anyád is ad titokban, nagyon jól tudom.</p>
+         <p>- Biztositlak, apa...</p>
+         <p>- Ne biztosíts! Haszontalanságokra költöd a pénzt. Csak nem tudom, mire. Költséges
+            passzióid vannak?</p>
+         <p>- Nincsenek.</p>
+         <p>- Talán... Légy hozzám őszinte, fiam. Elvégre felnőtt ember vagy...</p>
+         <p>- Hidd el, magam sem tudom. Társaságokba járok. Itt is, ott is elmegy egy pár pengő.
+            Néha egy csokor virág, meg cigaretta, villamos, autóbusz... szóval elmegy a pénz.</p>
+         <p>- Igen. És most mennyi kellene?</p>
+         <p>- Ötven pengő.</p>
+         <p>- Mire?</p>
+         <p>- Hát... van egy adósságom.</p>
+         <p>- Te tartozol valakinek? Hát tudod, ez aztán szemtelenség. Abból a pénzből, ami te
+            tőlünk kapsz, családok élnek meg. Vedd tudomásul, nem tűröm, hogy adósságokat csinálj.
+            Itt van az ötven pengő, de ez volt az utolsó eset, hogy a zsebpénzeden kívül
+            kisegítettelek. Meg ne tudjam többé, hogy adósságot csinálsz. Megértettél?</p>
+         <p>- Igen apa. Köszönöm.</p>
+         <p>- Várj egy pillanatig. Az anyád panaszkodik, hogy sokat jársz későn haza. Igazán
+            kibirhatnád már az érettségiig éjszakázás nélkül. Na eredj, mert le akarok feküdni egy
+            órára.</p>
+         <p>- Köszönöm apa, kezétcsókolom.</p>
+         <p>- Szervusz.</p>
+         <p>Bandi felszabadultan ment el otthonról. Most már biztos volt benne, hogy a pénzt meg
+            tudja szerezni. Az apja igazán gavallér volt és aránylag könnyen adta oda az ötven
+            pengőt. Még szerencse, hogy nem kérdezősködött szigorúbban, mert azt igazán nem lehetett
+            megmondani, hogy mire kell...</p>
+         
+         <p>Kármánnak valóban nem került nagy nehézségébe a dolog. Megvágta a nagyanyját, egy
+            nagybácsit és két nagynénit és végül elégedetten állapította meg, hogy az előírt száz
+            pengő helyett százharmincat szerzett. Cigarettára gyujtott és fütyörészve indult
+            Galambos lakása felé.</p>
+         <p>Margit nyitott ajtót. Kármán gyönyörködve nézte a tizenhétéves, csinos, kékesfeketehajú
+            lányt és amíg kezet csókolt, erős lelkiismeretfurdalást érzett a tegnapi éjszaka
+            miatt.</p>
+         <p>- Mi újság, Bandi? - kérdezte a leány. - Miért nem jelentkezett tegnap?</p>
+         <p>- Ki sem mozdultam otthonról, Gitti. Sok dolgom volt. A matematika nagy gondokat
+            okoz.</p>
+         <p>- Jaj, ne is említse. Pista is úgy kétségbe van esve. Mondja, csakugyan olyan vadállat
+            az a Sulyok?</p>
+         <p>- Vadállat? Az nem is kifejezés - sóhajtotta Kármán, míg leült az egyik gobelin-székre.
+            - Higyje el nekem, Gitti, hogy egy királytigristől szívesebben tanulnék, mint tőle.</p>
+         <p>- Mi lesz, ha elbuktatja magukat?</p>
+         <p>- Na, ott még nem tartunk - mondta Kármán és megtapogatta a zsebét.</p>
+         <p>- Úgy féltem magukat. Magát, meg Pistát.</p>
+         <p>Kármán hálásan nyult Gitti keze után és sorra végigcsókolta minden ujját.</p>
+         <p>- Gittikém, szeret egy kicsit?</p>
+         <p>- Miért kérdez ilyeneket, Bandi? Tudja jól, hogy szeretem.</p>
+         <p>- És akkor is szeretne, Gitti, - folytatta önkínzó hangon a fiú, - ha én valami olyat
+            tennék, vagy tettem volna, ami méltatlan magához és hozzám?</p>
+         <p>Margit csodálkozva nézte Kármánt.</p>
+         <p>- Nem értem a kérdést. Maga igazán nem tehet olyat, ami... vagy talán történt
+            valami?</p>
+         <p>- Nem, nem - mondta gyorsan a fiú -, ezt csak úgy kérdeztem.</p>
+         <p>- Ne kérdezzen ilyeneket. Higyje el, hogy szeretem. Engem nem kell próbára tenni.</p>
+         <p>Ajtónyikorgás hallatszott és Galambos lépett be.</p>
+         <p>- Na, mi az, megzavartam az ifjú jegyespárt? Bocsánat.</p>
+         <p>- Látja, Gitti, ez a Pista nem akar minket komolyan venni - mondta nevetve Kármán és
+            kezet fogott Galambossal.</p>
+         <p>Margit mosolyogva borzolta össze a bátyja haját.</p>
+         <p>- Nem baj, Bandi, ő azért a mi pártunkon van. Úgy-e, Pista?</p>
+         <p>- A legnagyobb mértékben. Nem is állhatnék nagyobb bosszút ezen a gazemberen, minthogy
+            hozza adom a húgomat. Na, de minek most erről beszélni? Még az messze van. Jó pár év
+            telik bele, míg odáig juttok, ha ugyan közben meg nem unjátok egymást.</p>
+         <p>- Mi tudunk várni - mondta Kármán.</p>
+         <p>- Ez szép tudomány. Gitta, - fordult a leányhoz, - készíttess nekünk egy kis
+            feketekávét.</p>
+         <p>Margit felállt. Keskeny, fehér kezét végighúzta Kármán vállán és kiment a szobából.
+            Galambos a barátjához fordult.</p>
+         <p>- Van pénz?</p>
+         <p>- Van. Hát neked?</p>
+         <p>Galambos önérzetesen ütött zsebére.</p>
+         
+         <p>Kármán Bandi mozdulatlanul feküdt a diványon. Foga közt cigaretta parázslott, mellette a
+            hamutartóban számtalan cigarettavég. Most megmozdult. Homlokára szorította a kezét és
+            megpróbált egy kis rendet teremteni lüktető agyában.</p>
+         <p>- Hogy is volt csak?... - gondolta - hiszen ez borzalmas! Hogy is történt?</p>
+         <p>A fiúk tegnapelőtt este átadták a pénzt. Emlékezett rá, hogy Weissnak még két pengő
+            hiányzott és azt ő pótolta. Másnap közölte a fiúkkal... nem, ez később volt már.
+            Menjünk szépen, sorjában... Ötszázharminc pengő volt nála. Talán ez a harminc pengő
+            fölösleg tette, hogy vacsora után olyan mehetnékje támadt. Képtelen volt otthonmaradni.
+            Vette a kalapját és elment. Először a moziba akart menni, de aztán meggondolta a dolgot.
+            Ép egy lokál előtt haladt el és erről eszébe jutott, hogy valami gyönyörü néger
+            táncosnőt hirdettek és... ő még életében háromszor volt lokálban.... A szülei kint
+            alusznak Mátyásföldön...</p>
+         <p>- Ej no! Van harminc pengőm - gondolta. - Miért ne mennék be?</p>
+         <p>Csak azt az ötszáz pengőt ne vette volna magához! Na, mindegy. Afelől igazán
+            bemehet.</p>
+         <p>Betért egy moziba, mert még korán volt bárba menni. Kis mozi volt, a mulató mellett és
+            valami cow-boy filmet adtak. Elég érdekes volt. A cow-boyok nagyszerűen lovagoltak és
+            folyton lövöldöztek. És volt egy lány, aki Margitra hasonlított, de csak külső
+            megjelenésben, mert egyébként elég veszedelmes fehérszemély volt. Fák és bokrok mögül
+            lövöldözött a békés járókelőkre, bandavezéri minőségben és feltűnően biztos kézzel.
+            Mikor aztán elérte a költői igazságszolgáltatás, a közönség megkönnyebbülten sóhajtott
+            fel. A film egyébként általános vérengzésbe fulladt. Mindenki megölt mindenkit, mint
+            mondták: vérbosszúból. Utoljára tizenhat emberrel felrobbant és beomlott egy hegy, végül
+            csak ketten maradtak, egy férfi és egy nő, de ez kellett, a happy-end miatt.</p>
+         <p>Utána... igen, utána bement a lokálba, hogy megnézze a néger táncosnőt... Valóban nagyon
+            szép volt és hogy táncolt?! Folyton nevetett és csillogtatta vakítóan fehér fogait. Ő
+            feketét rendelt és egy üveg magyar pezsgőt, remekül érezte magát. Mikor félkettőkor
+            kifizette a huszonnégypengős számlát, a borravalók kiosztása után maradt még két
+            pengője. Holnap vasárnap van - gondolta -, úgysem megyek sehová, csak este, Jucihoz...
+            végleg elintézem ezt a kellemetlen ügyet... A lokálban egyébként ismerőse is volt, Máté,
+            aki egy vidéki nagybácsit kalauzolt ide... </p>
+         <p>Kicsit még üldögélt, aztán fölkerekedett. A ruhatárban nagy volt a tolongás és a pezsgő
+            is a fejébe szállt egy kissé. Örült, amikor kiért a szabad levegőre.</p>
+         <p>Mire hazaért, ólmos álmosság vett rajta erőt. Alig volt ereje levetkőzni. Nagyot
+            nyujtózott és csengetett.</p>
+         <p>Irén, a szobalány jött be.</p>
+         <p>- Kérek reggelit, Irén! - mondta.</p>
+         <p>- Fiatalúr, a nagyságos úr és a nagyságos asszony kimentek a mátyásföldi villába. Azt
+            üzenik, hogy a fiatalúr ne menjen ki, hanem tanuljon.</p>
+         <p>Kármán mérgesen dörmögött magában.</p>
+         <p>- Jó, jó, tanuljon... mintha ez használna valamit most már...</p>
+         <p>Erről eszébe jutott a ma esti dolog és míg a lány kiment a reggelit elkészíteni, ő
+            kiugrott az ágyból és a tárcája után nyúlt.</p>
+         <p>Irtózatos ijedtség nyilalt keresztül rajta. A tárca nem volt a hátsó nadrágzsebben, ahol
+            mindig tartotta. Mi ez? Talán véletlenül máshová tette?</p>
+         <p>Ideges, remegő ujjakkal kutatta át minden zsebét. Nem, itt nem lehet tévedés. A tárca
+            eltünt. Eltünt! Az ötszáz pengővel együtt...</p>
+         <p>Egy pillanatra sikerült legyűrni az izgalmát. Újra kezébe vette a fekete-szürkecsíkos
+            nadrágot és figyelmesen megvizsgálta a zsebet.</p>
+         <p>A kis gomblyukas szalag - aminek segítségével a zsebet be lehetett gombolni - fent a
+            varrásnál le volt vágva. Úgy lógott a gombon.</p>
+         <p>Tehát zsebtolvaj fosztotta ki. Valaki látta nála a lokálban a tömött pénztárcát. A
+            ruhatárban nagy volt a tolongás... akkor... akkor történt...</p>
+         <p>Leroskadt az ágyra és kezeibe temette arcát.</p>
+         <p>- Mi lesz most? - gondolta kétségbeesve.</p>
+         <p>Az, hogy megkérdezte Irént, nem látta-e a tárcát, már nem jelentett semmit. Irén nem
+            látta, a ruhákat még nem kefélte ki... hiszen ezt ő is sejtette. Megingathatatlanul
+            biztos volt benne, hogy a tárcát akkor vették ki, a ruhatárban.</p>
+         <p>Aztán az ijedt, kapkodó öltözködés, rohanás Galamboshoz, Galambos csodálkozó arca és
+            összevont szemöldöke... nem, akkor még nem mondott semmit, csak aztán, mikor Máté
+            megérkezett.</p>
+         <p>Hogy is volt csak? A dolognak erre a részére volt a legkínosabb visszaemlékezni.</p>
+         <p>Máté bejött, jókedvű volt és megrázta a kezét.</p>
+         <p>- Na öreg, kialudtad magad?</p>
+         <p>- Máté - szólt közbe Galambos - Kármántól ellopták a pénzt.</p>
+         <p>Máté meglepetésében leült a legközelebbi karosszékbe.</p>
+         <p>- Ellopták?</p>
+         <p>- Igen. Azt mondja, hogy a ruhatárban nagy volt a tolongás és valószínűleg akkor
+            történt.</p>
+         <p>Máté most felállt. Ideges kézzel cigarettára gyujtott, aztán furcsa, hideg hangon
+            kérdezte:</p>
+         <p>- Mondd, Kármán, te mindig pezsgőt iszol, ha egyedül mész egy lokálba?</p>
+         <p>- De kérlek, hogy jön ide most ez a kérdés?</p>
+         <p>- Az én véleményem ugyanis az, hogy az ember olyankor rendel egy coctailt és passz.
+            Legalábbis a magunkfajta fiatalember. Ez tökéletesen elegendő. Vagy mondjuk iszik előbb
+            egy feketét. Nem igaz Pista?</p>
+         <p>- Jó, jó - felelte Galambos -, de mit akarsz ezzel mondani?</p>
+         <p>- Semmit - és visszaült a helyére.</p>
+         <p>Erre ő is megszólalt.</p>
+         <p>- Ne beszélj félmondatokban. Mondd meg, mit akarsz?</p>
+         <p>Máté akkor újra felállt. Izgatottan gyűrte, morzsolta a cigarettát, aztán halkan, de
+            nagyon hideg, határozott hangon mondta:</p>
+         <p>- Kármán András, terád bíztuk a pénzünket és te most könnyedén tudtunkra adod, hogy a
+            pénzt ellopták. Mit gondolsz, kötelesek vagyunk mi ezt elhinni?</p>
+         <p>- Te megőrültél!</p>
+         <p>- Lehet, de annyira mégsem őrültem meg, hogy az ilyen maszlagokat bevegyem. Én - és itt
+            lassan szótagolva engedte ki fogai közt a szavakat -, én nem hiszem el, amit beszélsz! A
+            pénzt nem lopták el! A pénzt elköltötted!</p>
+         <p>Itt megint zavaros lett a gondolatmenete. Arra emlékezett csak, hogy Galambos
+            szétválasztotta őket. Máté kissé szédülten ült attól az ökölcsapástól, amit
+            nyilvánvalóan ő helyezett el az állán, előírásosan, úgy ahogy a boxiskolában
+            tanulta.</p>
+         <p>Aztán Galambos higgadt hangja hallatszott.</p>
+         <p>- Bandi, ezt a dolgot nem lehet verekedéssel elintézni. Itt bizonyítani kell.</p>
+         <p>- De hiszen Máté ott volt! Láthatta, hogy, csak egy üveg pezsgőt ittam. Egy üveg pezsgő
+            nem került ötszáz pengőbe!</p>
+         <p>Máté megvetően vonta fel a vállát.</p>
+         <p>- Nagyon jól tudod, hogy én előbb mentem el, mint te. Hogy aztán mi történt, azt már nem
+            láthattam.</p>
+         <p>- Meg lehet kérdezni a főpincért - mondta Galambos.</p>
+         <p>- Ugyan kérlek - legyintett Máté. - Csak egy lokál van a világon? Aki már az elején
+            pezsgővel kezdi, az betérhet egy második bárba is... esetleg egy harmadikba,
+            hacsak...</p>
+         <p>- Nos, mit akarsz mondani?</p>
+         <p>- Hacsak fel nem szedett már az elsőben valami macskát, aki aztán kifosztotta.</p>
+         <p>Ő ismét közbe akart szólni, de Galambos megelőzte.</p>
+         <p>- Honnan volt pénzed, Bandi?</p>
+         <p>- Száz pengő helyett százharmincat szedtem össze. Úgy volt, hogy együtt volt már
+            nyolcvan pengő, amikor elmentem a nagyanyámhoz, hogy a hiányzó húszat is megszerezzem. A
+            nagyanyám ép jókedvében volt és húsz helyett ötvenet adott. Máté, ne mosolyogj
+            gúnyosan, mert megint odakenek egyet!</p>
+         <p>- Nem kensz oda! - kiáltotta indulatosan Galambos. - Te most vádlott vagy és nekünk az a
+            feladatunk, hogy kivizsgáljuk a dolgodat. Én nem vagyok egy véleményen Mátéval, de az
+            biztos, hogy a dolog ránknézve katasztrofális és nem maradhat ennyiben. Nincs kizárva,
+            bár nem tartom valószínűnek, hogy ezt a pénzt esetleg meg tudod szerezni, ha mondjuk
+            közlöd a dolgot az apáddal, vagy mit tudom én, hogyan, de a te ügyed még akkor sincs
+            befejezve. Ha az derülne ki, hogy te csakugyan... hm... tisztességtelenül jártál el -
+            maradj nyugton! -, akkor mi levonjuk a konzekvenciákat. Akkor én nem fogom megengedni,
+            hogy a húgomnak udvarolj és nem fogom fenntartani veled a további nexust. Azt hiszem,
+            értjük egymást.</p>
+         <p>- Értjük - mondta erre ő sötét arccal. - Remélem, ki fog derülni, hogy ártatlan vagyok,
+            de akkor viszont én fogom levonni a konzekvenciákat az eljárásotokból...</p>
+         <p>- Ez a te dolgod - mondta Galambos hidegen. - Most eredj el innen. Én értesítem a másik
+            két fiút. Jó lesz, ha ma délután próbálsz valamit csinálni, mert a... barátnőd, a Juci
+            este vár és... nekünk az életünk függ ettől a ma esti látogatástól. Holnap majd az
+            iskolában tovább beszélünk a dologról. Remélem, a tételeket akkor már magaddal hozod,
+            mert ahogy én a mi Horváth barátunkat ismerem...</p>
+         <p>- Nem kell fenyegetődznöd. Mindent el fogok követni!</p>
+         <p>Megfordult és elment.</p>
+         <p>Hát igen, így történt. És most itt fekszik a díványon, ahelyett, hogy hozzálátna...
+            mihez? Mit tehet ő most? A pénzt nem lehet megszerezni. Az apja már így is... nem,
+            érettségi utánig nincs pénz... pláne ötszáz pengő. Ilyen fantasztikus telefonszámot ki
+            sem merne ejteni az apja előtt. És még ha esetleg, valami csoda folytán meg is szerezné,
+            a becsülete oda van. Ezek a gazemberek nem hiszik, hogy... jó volna meghalni!...
+            csakugyan, erre a megoldásra nem is gondolt... meghalni... jaj, az anyám! Ha
+            meghalnék....</p>
+         <p>Csengettek. Vajjon ki lehet? Talán valamelyik fiú. Kopognak.</p>
+         <p>- Lehet - kiáltja és lehunyja a szemét, mert már undorodik az újabb magyarázatoktól és
+            fél a megaláztatástól.</p>
+         <p>- Bandi!</p>
+         <p>Kármán a kedves, puha, kissé remegő hangra kinyitja a szemét és felugrik.</p>
+         <p>- Gitti! Hogy kerül ide? - kérdi határtalan meglepetéssel.</p>
+         <p>Ez a meglepetés nem volt túlzott. Gitti volt már ugyan náluk, de az más volt. Akkor
+            Gitti anyja jött vizitbe az ő anyjához. Most azonban... ez egészen más. Senki sincs
+            itthon és ez a lány egyedül...</p>
+         <p>- Bandi - mondja Gitti bizonytalan hangon - sürgősen beszélnem kell veled.</p>
+         <p>- Tegez! - villan át Kármán fején. Ez is a legritkább esetek közé tartozik. - Mi ez?
+            Talán már tudja?</p>
+         <p>- Foglalj helyet, parancsolj, vedd le a kabátod - udvariaskodik, de Margit elhárítja,
+            leül a divány szélére és kigombolja a kabátot, de nem veti le.</p>
+         <p>- Tessék cigaretta - mondja a fiú és rágyujtanak. </p>
+         <p>Margit egy pillanatig gondolkozva fújja a füstöt maga elé, aztán összehúzott
+            szemöldökkel, kemény hangon megszólal:</p>
+         <p>- Most pedig el fogsz mondani mindent, töviről hegyire!</p>
+         <p>Kármán ijedten nézett a lányra.</p>
+         <p>- Hogy érted ezt?... mit mindent?</p>
+         <p>- Ne komédiázz! Mi történt? Mi van veled? Pistánál ott vannak a fiúk. Úgy ordítoznak,
+            hogy nem lehet hallgatni. Órák óta tárgyalnak, Egyes szavakat, félmondatokat hallottam,
+            de abból is megértettem, hogy te valami rettenetes dolgot csináltál. Hát mit csináltál?
+            Horváth azt mondta, hogy idejön és darabokra tör. Mindent tudni akarok. Beszélj!</p>
+         <p>Kármán idegesen szívja a cigarettát.</p>
+         <p>- Kérlek... arról van szó... a fiúk megbíztak valamivel. Pénzt adtak és... a pénzt
+            ellopták tőlem. Most azt hiszik, hogy elmulattam, vagy nőkre költöttem és...</p>
+         <p>- Ez aljasság! - kiáltja hirtelen Margit. - Ki állítja ezt?</p>
+         <p>- Elsősorban Máté.</p>
+         <p>- Aljasság! Aljasság! - mondja felindultan a leány és Kármán hálásan néz rá.</p>
+         <p>- Az a szerencsétlenség, hogy tegnap este elmentem egy mulatóba és Máté is ott volt és
+            látta, hogy pezsgőt ittam. A pénzt is valószínűleg ott lopták el.</p>
+         <p>Margit feláll és kabátzsebébe dugott kézzel jár fel-alá a szobában, majd hirtelen
+            Kármánhoz fordul:</p>
+         <p>- Ki az a Juci?</p>
+         <p>Kármán csuklani kezd a hirtelen rémülettől.</p>
+         <p>- Juci az... az egy lány... a Sulyok szobalánya. Azt akartuk, hogy lopja el a példákat,
+            az érettségi példákat, hogy lemásolhassuk. Arra kellett a pénz, mert nem sikerült
+            a...</p>
+         <p>- Mi nem sikerült?</p>
+         <p>- Semmi. Nem fontos. Nem sikerült máskép.</p>
+         <p>- Hogyan máskép?</p>
+         <p>- Ne kérdezz, Gitti. Érd be azzal, hogy csak pénzért volt hajlandó.</p>
+         <p>- Nem érem be. Nagyon kérlek, mondj el mindent, illetve egészítsd ki azt, amit
+            akaratlanul is meg kellett hallanom a fiúk beszélgetéséből. Azt hiszem, megérdemlem
+            tőled, hogy őszinte légy.</p>
+         <p>- Mit hallottál a fiúktól?</p>
+         <p>- Hogy Juci kidobott. Miért dobott ki? És hogy elügyetlenkedted a dolgot, hogy
+            ügyetlenkedted el?</p>
+         <p>Kármán fellélekzik.</p>
+         <p>- Hát ez igaz - mondja. - A fiúk azt mondták, hogy talán el tudom intézni, ha
+            szépszóval... szóval, ha megkérem. Ha feltárom előtte a helyzetünket. Esetleg ígérhetek
+            is neki valami kis ajándékot... de hát nem sikerült.</p>
+         <p>- Ez minden?</p>
+         <p>- Ez minden.</p>
+         <p>- És most mi lesz?</p>
+         <p>- Nem tudom, Gitti. Rettenetes helyzetben vagyok. A szüleimtől nem kérhetek pénzt. A
+            rokonaimtól sem. Különösen ennyit. Nem tudok mit csinálni... legjobb volna...</p>
+         <p>- Hallgass! Tudom, mit akarsz mondani. Erre ne merj gondolni! Odaadnám a platina
+            karkötőórámat, de az anyám azonnal észrevenné.</p>
+         <p>- Nagyon drága vagy... de én úgy sem fogadnám el.</p>
+         <p>Kétségbeesve eresztette le a kezét.</p>
+         <p>- Rajtam nem lehet segíteni!</p>
+         <p>Margit ismét elkezdi a sétát fel-alá a szobában. Összevont szemöldökén látszik, hogy
+            erősen gondolkozik. Aztán megkeményedik a két finom vonal a szájánál, mint aki
+            elhatározta magát valamire, Kármánhoz fordul.</p>
+         <p>- Szóval semmiképpen sem tudsz segíteni a dolgon?</p>
+         <p>A fiú erőtlenül ül a díványon.</p>
+         <p>- Semmiképpen - mondja alig hallhatóan.</p>
+         <p>- Nekem... nekem most el kell mennem Bandi. Van egy kis dolgom. Egy óra mulva
+            visszajövök. Okvetlenül ki fogunk eszelni valamit. A dolog nem maradhat ennyiben.</p>
+         <p>Bandi legyint, mint aki azt akarja mondani, hogy úgyis hiába minden, de azért hálásan
+            megcsókolja a leány kezét.</p>
+         <p>Aztán Gitti elmegy.</p>
+         <p>Kármán lehunyt szemmel feküdt a diványon. Nem tudta, mennyi idő telt el, mióta Margit
+            elment tőle. Nem tudott gondolkozni. Egyet érzett megfellebbezhetetlen biztonsággal:
+            ezen a dolgon úgy sem lehet segíteni!</p>
+         <p>- Megbélyegeznek... becstelen fráter leszek a szemükben és megbukom az érettségin -
+            gondolta. - Ha ugyan eljutok az érettségig. De azt hiszem, erre nem fog sor kerülni...
+            Azt hiszem, az ember ilyen esetben szokott öngyilkos lenni...</p>
+         <p>Hirtelen felugrott és átment az apja dolgozószobájába. Párpercig keresgélt az
+            iróasztalfiókban és mikor visszajött, kezében kis Browning-revolvert tartott.</p>
+         <p>Az ablakhoz lépett és megvizsgálta a pisztoly tölténytárát. Nem vette észre, hogy nyílik
+            az ajtó, csak akkor fordult meg, mikor Gitti megszólalt.</p>
+         <p>- Tedd le a revolvert! Nem kell főbelőni magad - mondta hideg hangon, minden izgalom
+            nélkül.</p>
+         <p>- Nem kell?... Hogy érted ezt, Gitti?... Mi van veled?... Mi történt?...</p>
+         <p>Értetlenül nézett a leány feldúlt arcába. Margit egy óra alatt hihetetlen változáson
+            ment át. Szeme alatt fekete karikák húzódtak, arca piros volt, szeme égett és a keze
+            remegett. Retiküljéből sűrűn teleírt fehér papírlapot vett elő és szó nélkül nyujtotta
+            Kármán felé.</p>
+         <p>- Mi ez? - kérdezte a fiú.</p>
+         <p>- A matematikai érettségi példák. Remélem, a másolásnál nem csináltam hibát. Holnap
+            odaadhatod a fiúknak.</p>
+         <p>- Gitti!</p>
+         <p>- Nem kell hálálkodnod. Nem fontos.</p>
+         <p>- Hogy... hogyan... szerezted meg?</p>
+         <p>- Üljünk le, mindent megmagyarázok. Nem, nem a diványra. Jó lesz nekem itt a széken is.
+            Tudomásodra hozom, hogy a mai napon a mi kis regényünk befejeződött. Ne szólj közbe,
+            nincsen semmi értelme! Nem vagy százszázalékig hibás, mert nyilvánvalóan a fiúk
+            beszéltek rá, de... viszont hagytad magad rábeszélni. Én, hogy megmentselek,
+            megalázkodtam a... szeretőd előtt. Egy szobalány előtt, de ezzel megtettem mindent,
+            amivel a szerelmünknek tartoztam...</p>
+         <p>Kis szünetet tartott. Ideges ujjait végighúzta a homlokán, aztán tompa hangon
+            folytatta:</p>
+         <p>- Tudom, hogy nagy bajban voltatok. Azt is tudom, hogy különösen téged, meg a bátyámat
+            rosszindulatúan kezelt Sulyok. Ha nem is volt becsületes eljárás a példákat
+            megszerezni, de... szükséges rossz volt. Lehetett volna benned annyi becsületérzés, hogy
+            máskép próbáld elintézni a dolgot. Megaláztál egy egyszerű lányt és megaláztál engem.
+            Én, aki úgy néztem rád mindig mint a legkülönb emberre, most gyűlöllek. Egy szegény
+            szobalányt ilyen aljasul, ilyen lelkiismeretlenül...</p>
+         <p>- Gitti, hallgass meg!...</p>
+         <p>- Ne szólj közbe! Nem hallgatlak meg. Még félre is vezettél. Hiába kértelek, hogy légy
+            őszinte és mondd el, hogyan történt minden. Attól a lánytól kellett megtudnom. Mikor azt
+            mondtam neki, hogy a menyasszonyod vagyok, gúnyosan mosolygott és a szemembe vágta,
+            hogy... már tudod, mit? Azt hittem, mikor elmentem innen, hogy leghelyesebb lesz, ha én
+            beszélek vele. A nők jobban megértik egymást. Tudtam, hogy Sulyok hol lakik, eleget
+            hallottam Pistától. Felmentem. Ott aztán elővettem minden rábeszélőkészségemet. Sírtam,
+            könyörögtem, végre a lány belement, hogy a kedvemért megteszi. Sulyok a kávéházban
+            volt. Megkerestük a példákat és lemásoltam. Közben reszkettem, hogy megjön Sulyok. Az a
+            lány jobbindulatú volt hozzám, mint te. Megtette, amire kértem, de megmondta, hogy nem
+            érdemled meg tőlem ezt az áldozatot. Elmondott mindent. Én majd elsüllyedtem
+            szégyenemben, de hálás vagyok neki, mert kinyitotta a szememet. Ami azt illeti, hogy
+            azzal a pénzdologgal gyanúsítanak, természetesen nem hiszem el, hogy képes volnál
+            ilyesmire. Próbáld elintézni, ha tudod. Amit akartak azért a pénzért, az most már
+            megvan, a fiúknak mondj, amit akarsz. Én természetesen nem szerepelhetek ebben az
+            ügyben. Nem akarom, hogy belekeverjenek. Azt hiszem, nincs is több közölnivalóm.
+            Befejeztem mindent. Érted, Bandi? Mindent!</p>
+         <p>Felállt, begombolta a kabátját és kezet nyujtott a fiúnak, de nem engedte, hogy az
+            megcsókolja a kezét. Kármán arca vörösen ízzott, nyelve nehezen forgott, amikor
+            megszólalt.</p>
+         <p>- Gitti, ha tudnád...</p>
+         <p>Margit ajka mellett a kemény vonás megenyhült egy kicsit.</p>
+         <p>- Tudom... nem okollak egészen téged.. s a többiek és a körülmények... Nekem is nehéz és
+            keserves lesz, de beláthatod, hogy ezek után...</p>
+         <p>Erősen megszorította a fiú kezét és kisietett a szobából.</p>
+         <p>Kármán egyedül maradt és leroskadt a diványra. Révedező szemmel nézte a sűrűn teleírt,
+            tintafoltos, kissé gyűrött, megváltó papírlapot, amelyen ismerős kölnivízszag érzett.
+            Narcisse Bleu. Gitti kedvenc kölnije.</p>
+         <p>Végigdobta magát a díványon, arcát kezébe temette és fojtottan, fájdalmas rázkódással
+            sírni kezdett.</p>
+         
+         <p>Másnap, mikor belépett az osztályba, a négy fiút az utolsó padsorban találta. Láthatóan
+            komolyan tárgyaltak és kutató pillantást vetettek a feléjük közeledő Kármán arcába.</p>
+         <p>Kármán szó nélkül a zsebébe nyúlt és a papírlapot letette eléjük a padra. Weiss
+            felkapta, belepillantott és nagyot ordított.</p>
+         <p>- Megvan!</p>
+         <p>- Kuss! Fogd be a szád! - kiáltotta fojtott hangon Galambos.</p>
+         <p>Kezébe vette a papírt és figyelmesen megvizsgálta.</p>
+         <p>- Rendben van, Bandi. Hogy csináltad?</p>
+         <p>- Nem fontos - felelte Kármán hidegen. - Azt hiszem, az a fő, hogy megvan.</p>
+         <p>- Természetesen nem kell megmondanod - mondta Weiss. - A te dolgod. Ezek után
+            pedig...</p>
+         <p>- Ezek után - szólt közbe Horváth - nincs sok időnk. Gürtlert be kell avatni a dologba
+            és becsületszavát kell venni, hogy titokban tartja. Ő megcsinálja nekünk a példákat.</p>
+         <p>Galambos felállt.</p>
+         <p>- Gürtler! - kiáltotta.</p>
+         <p>Gürtler odajött. Galambos karonfogta és egy ablakhoz vonta. Halkan magyarázott neki.
+            Gürtler okos arcán nagy meglepetés látszott. A fiúk izgatottan figyelték. Galambos
+            széles gesztusokkal, nagyon komolyan beszélt. Gürtler a fejét ingatta.</p>
+         <p>- Nem akarja elvállalni! - rémüldözött Weiss.</p>
+         <p>- El fogja vállalni - mondta Máté -, Gürtler jó fiú.</p>
+         <p>Galambos még mindig beszélt. Gürtler arcvonásai kissé megenyhültek. Mondott valamit és
+            bólintott. Galambos erre átölelte a vállát és odavitte a többiekhez.</p>
+         <p>- Hát, fiúk, - mondta Gürtler és most már mosolygott. - Megcsinálom ezt a disznóságot,
+            mert véleményem szerint nem érdemlitek meg, hogy Sulyok elbuktasson. Különösen Kármán és
+            Galambos, akikre nyolc éve pikkel. Meggyőződésem, hogy Máté és Weiss is tud annyit, hogy
+            kaphasson egy elégségest. Na - tette hozzá nevetve -, most, hogy megnyugtattam a
+            lelkiismeretemet, most beszéljük meg a dolgot. A példákat ötször csinálom meg.
+            Mindegyiket másképp. Mindegyikbe megfelelő hibákat fogok becsúsztatni, mert nem
+            valószínű, hogy bármelyikőtök hiba nélkül oldja meg. Így kizárt dolog, hogy kiderüljön a
+            csalás. Mert ha ez kiderülne, hát országos botrány volna és együtt repülnénk. Na, ide
+            azt a papírt! Holnapra meglesz.</p>
+         <p>- Köszönöm - mondta Kármán és megrázta Gürtler kezét. Aztán valamennyien felpattantak a
+            helyükről, mert jött Sulyok.</p>
+         
+         <p>Az érettségi előtt egyszer látta még Margitot. Egy délután kiment a vasúthoz egyik
+            nagynénje elé és ahogy fel-alá sétált a perronon, egyszer csak ott állt előtte a leány.
+            Szürke porköppeny volt rajta, derekán szoros övvel és ugyanolyan sapka. Szokása szerint
+            zsebredugott kézzel állt, aztán lassan kihúzta a kezét és Kármán felé nyujtotta.</p>
+         <p>- Búcsúzzunk el, Bandi. Elutazom.</p>
+         <p>- Elutazik? Hová?</p>
+         <p>- Berlinbe megyek egy festőiskolába. Azt hiszem, tehetséges vagyok. Rajzoló akarok
+            lenni. Örülök, hogy a véletlen elém hozta. Vagy nem véletlen?</p>
+         <p>- De igen. Egy nagynénémet várom. Igazán nem tudhattam, hogy elutazik.</p>
+         <p>- Persze, persze... Pistával még most sem érintkezik.</p>
+         <p>- Természetesen nem.</p>
+         <p>- Ez a maga dolga. Hát akkor..</p>
+         <p>- Gitti, én nem tudom kellőképpen megköszönni magának, amit értem tett...</p>
+         <p>- Nem is azért tettem, hogy megköszönje.</p>
+         <p>- Tudom. Csak az ejt kétségbe, hogy ezzel egyidejűleg el is veszítettem magát. Illetve
+            tulajdonképpen, csak most veszítem el, hiszen elutazik. Eddig még reméltem...</p>
+         <p>Margit csendesen ingatta a fejét.</p>
+         <p>- Nem, Bandi engem maga akkor vesztett el. Hogy én elutazom, az most már csak végleges
+            elintézése a dolognak. Mikor azzal a leánnyal beszéltem... az borzasztó volt. Ilyet nem
+            szabad volt egy nővel tenni. Ezt nem azért mondom, mert szolidaritást vállalok vele,
+            hanem mert a lány szereti magát.</p>
+         <p>- Szeret?</p>
+         <p>- Szereti. Hiábavalóan és kilátástalanul. És megalázottan. De abban is biztos vagyok,
+            hogyha találkoznának és maga köszönne neki, nem fogadná a köszönését. És most még
+            valamit mondok magának. Tudja, hogy miért adta ő nekem ide azt a papírt?</p>
+         <p>- Mert maga... mert maga...</p>
+         <p>- Nem mert én könyörögtem. Az kevés lett volna, ha ő tényleg bosszút akar állni, vagy ha
+            tényleg keresni akart volna a dolgon, hanem mert úgysem fogadta volna el az ötszáz
+            pengőt.</p>
+         <p>- Nem fogadta volna el?</p>
+         <p>- Nem. Ne tulajdonítson nekem többet, mint amennyit valóságban tettem. Ő csak meg akarta
+            magukat és elsősorban magát kínozni egy kicsit. Ha maga jelentkezett volna a pénzzel, ő
+            odaadta volna a példákat és nem fogadta volna el a pénzt. Nagylelkübb lett volna, mint
+            maga volt. Pedig csak egyszerű leány. Szerette volna megcsinálni ezt a nemes gesztust.
+            Meg is érdemelte volna.</p>
+         <p>- De hiszen ez borzasztó - dadogta Kármán -, hiszen akkor még csak gyűlölni sem
+            lehet...</p>
+         <p>- Gyűlölni! - kiáltotta leány. - Itt csak egy valakinek van oka a gyűlöletre. Neki.</p>
+         <p>- Neki - mondta csendesen a fiú. - És magának úgy-e?</p>
+         <p>- Nekem nem, Bandi. Én igazán nem gyűlölöm. Csak ép nem tudom többet szeretni magát.</p>
+         <p>- Őmiatta.</p>
+         <p>- Nem őmiatta. Miért, mert megcsalt vele? Mi az, hogy megcsalt? Nekünk nem volt
+            viszonyunk. Nem mondom, azt hittem, hogy valaha házasság lesz a dologból, de nem
+            kivánhattam, hogy maga addig ne nézzen rá egy nőre. Modern lány vagyok. Mondom, nem
+            erről van szó, hanem arról, hogy igy rászedte azt a szegény lányt. A
+            lelkiismeretlenségről van szó és én ezt nem tudom megbocsátani.</p>
+         <p>Egy pillanatig gondolkozott, aztán kezet nyújtott a fiúnak.</p>
+         <p>- Hát viszontlátásra, Bandi. Örülök, hogy találkoztunk. Levélben akartam ezt megírni, de
+            még jobb volt élőszóval megmondani.</p>
+         <p>- Hová siet, hiszen még nem megy a vonata?</p>
+         <p>- A váróterembe. A szüleim, meg a bátyám nem tudják, mi van velem?</p>
+         <p>Mégegyszer megszorította a fiú kezét s elment az elsőosztályú váróterem irányába.</p>
+         
+         <p>Hát megvolt az érettségi!</p>
+         <p>Nem volt olyan rettenetes, ahogy képzelték. Általában, a diákok és tanárok, kissé
+            eltúlozzák a dolgot. Igaz, Sulyok az írásbelin nagyon megszorította őket, sőt Galambost
+            majdnem felfüggesztette, mert súgott valamit Horváthnak, de aztán mégsem függesztette
+            fel. Lehet, hogy azt gondolta, minek bántsam szegényt, a példákat úgy sem tudja
+            kidolgozni. Galambos azonban kidolgozta. Volt benne ugyan hiba, dehát egy elégségest
+            mégis meg kellett adni. Nagy meglepetésre Kármán, Máté, Weiss és Horváth is elkerülte a
+            halálos ítéletet.</p>
+         <p>A szóbelin sem volt semmi hiba. A művészhajlamú Mányoki valóságos irodalmi előadást
+            tartott a magyar nyelv- és irodalomból, a cvikkeres Zsák Feri történelemből
+            brillirozott, Horváth ugyan Tacitust állandóan összetévesztette Aristotelessel, de az
+            érettségi biztos jóindulatú öregúr volt és elnézően mosolygott, mikor pedig Gürtler, a
+            legjobb tanuló végzett s felállt az asztaltól, a biztos külön gratulált neki.</p>
+         <p>Estére a ligeti nagyvendéglőben gyűltek össze bankettre. A fiúk izgatottak voltak,
+            valamennyien sokat cigarettáztak, csak azok viselkedtek fölényesen, akik az iskolai
+            szabályok megkerülésével, az utolsó évet már elég szabadon élték át. (Galambos, Kármán,
+            Máté, stb.)</p>
+         <p>Sulyok is megérkezett, kezet fogott mindenkivel és meglepően szívélyes volt. Mikor
+            Kármán megállt előtte, kissé összehúzta szemöldökét és így szólt:</p>
+         <p>- No, Kármán, nem gondoltam, hogy maga ilyen könnyen idáig jut. Azt hiszem, egy kis
+            pótérettségi nem ártott volna.</p>
+         <p>Most Kármán húzta össze a szemöldökét. Csendesen leverte a cigarettájáról a hamut és
+            kissé rekedten mondta:</p>
+         <p>- Gondolja, tanár úr, hogy olyan könnyű volt? Én nem mondhatnám.</p>
+         <p>Mikor helyet foglaltak a hosszú asztalnál, Sulyoknak megint feltünt valami.</p>
+         <p>- Mi az, Kármán, miért nem ül a barátai közé?</p>
+         <p>A fiúk felfigyeltek. Kármán az asztal végén ült a kis Kende és a hosszú Klein között.
+            Galambos, Weiss, Horváth és Máté egymás mellett ültek az asztal elején. Sulyok még
+            hozzátette:</p>
+         <p>- Rosszúl fejeztem ki magam. Természetesen itt mindenki barátja egymásnak. Úgy értettem,
+            hogy a közelebbi barátai nélkülözik önt.</p>
+         <p>És a Galambos-különítményre mutatott.</p>
+         <p>A fiúk nem értették a dolgot. Galambosék kissé zavarodottan hallgattak és mereven nézték
+            az előttük álló söröskorsókat. Kármán egy pillanatig gondolkozott, aztán merev arccal
+            mondta:</p>
+         <p>- Bocsánatot kérek, de a tanár úr ezúttal téved. Nekem Kende és Klein a legközelebbi
+            barátom.</p>
+         <p>Galambos hirtelen felkapta a söröskorsót és nagyot húzott belőle. Kende és Klein nem
+            tudták mire vélni a dolgot, de mindenesetre meghatódtak egy kicsit. Mindig valami
+            csodálattal néztek fel a már régen intenzív társadalmi életet élő Kármánra és most
+            önérzetesen feszítették a mellüket a vakítóan fehér keményített szmoking-ing alatt.</p>
+         <p>Ettől az incidenstől eltekintve, a bankett a legjobb hangulatban folyt le. A fiatalabb
+            tanárok néhány fiúval összetegeződtek, az idősebbek csendesen eltünedeztek, a lárma mind
+            nagyobb lett és a fiúk egy meglepő felfedezést tettek. A nagyerejű Horváth nem tudta
+            asztal alá inni Sulyokot.</p>
+         <p>- Ilyet még nem láttam, - súgta oda Gürtlernek hatalmas tenyere mögül. - Én aztán igazán
+            bírom a bort, de ez úgy iszik, mint a homok.</p>
+         <p>Aztán Sulyokhoz fordult és felemelte poharát:</p>
+         <p>- Na még egyet, tanár úr, az egész iskola egészségére!</p>
+         <p>Sulyok odakoccintotta a poharát, ivott, aztán megigazította a szemüvegét.</p>
+         <p>- Nézze, kedves Horváth, mondok én magának valamit. Ha maga azt hiszi, hogy engem el tud
+            áztatni, akkor téved. Tudja kiket könnyű leitatni? Az iszákosokat. Nekem megvan az az
+            adottságom, hogy bár néha egy év is eltelik anélkül, hogy egy pohár bort innék, ha
+            aztán mégis elkezdek inni, akkor nem árt meg egyhamar.</p>
+         <p>Horváth egy kicsit elkeseredett, hogy szép terve így füstbement, de aztán nyugodt hangon
+            mondta:</p>
+         <p>- Na, tanár úr, akkor erre iszunk!</p>
+         <p>És ittak.</p>
+         <p>Féltizenkettő tájban, mikor már elhangzott néhány beszéd, közkívánatra Sulyok is felállt
+            és beszélni kezdett:</p>
+         <p>- Kedves barátaim! Önök a mai napon elérkeztek az élet kapuja elé. Egyesek sok, mások
+            kevés munka, de annál több szerencse árán értek ide, de egyikük se gondolja azt, hogy
+            most már kiléphetnek az életbe. Az a kapu zárva van. Kemény vállak és éles könyökök
+            kellenek ahhoz, hogy el tudják hárítani ezt az akadályt. Botond, a legendás erejű harcos
+            rést ütött Bizánc kapuján a buzogányával. Önöknek az energiájuk és becsületes akaratuk
+            legyen az a buzogány, amellyel rést tudnak ütni az élet és érvényesülés acélpántos
+            kapuján...</p>
+         <p>- Éljen! Éljen!...</p>
+         <p>- Remélem, meg fogják állni helyüket az életben is. Szívből kívánom ezt önöknek én, aki
+            nyolc éven át osztályfőnökük voltam és a legszebb tárgyra, a matematikára tanítottam
+            önöket, sok szeretettel és elnézéssel...</p>
+         <p>- Na, erről lehetne csevegni, - súgta oda Máté Weissnak.</p>
+         <p>- Most pedig, miután nem kötik önöket többé iskolai szabályok, azt proponálom, hogy
+            menjünk el innen valami szolid mulatóhelyre. Tudom, hogy amúgy is mennének és azt
+            szeretném, ha ez a debű, (mert hiszen először mennek ilyen helyre) mondom, ha ez a debű
+            az én jelenlétemben történne meg.</p>
+         <p>- Éljen, éljen! - kiáltozták a fiúk össze-vissza, aztán egy hang:</p>
+         <p>- De hová menjünk?</p>
+         <p>Különböző ajánlatok, nevek, mulatóhelyek s dancingok nevei röpködtek a levegőben, amiből
+            kiviláglott, hogy a Sulyok által emlegetett debű már régen megtörtént és az „érett
+            emberek” között kevés akad, aki még nem fordult meg hasonló helyen.</p>
+         <p>Sulyok felemelte a kezét, mire elcsendesültek.</p>
+         <p>- Nem vagyok mulatós ember és nagyon ritkán megyek máshová, mint legfeljebb
+            zenés-kávéházba, de az a rengeteg plakát és hirdetés, amibe most úton-útfélen
+            beleütközöm, nem kerülhette el a figyelmemet. Az Argentina mulatóról beszélek, amelyik
+            valami négertáncosnőt hirdet. Bevallom, erre én is kíváncsi vagyok, mert sokat
+            foglalkozom a színes emberfajta térhódításával. Menjünk talán oda.</p>
+         <p>Az Argentina-mulató és a néger táncosnő említésére öt fiú kapta fel a fejét. Kármán
+            elsápadt, Máté elpirult.</p>
+         <p>- Mi ez? - gondolta Kármán. - Sejt valamit ez az ember?</p>
+         <p>Kutatóan nézett Sulyok arcába, de azon semmi gyanúsat nem látott. A fiúk egyébként is
+            megszavazták már az Argentina-mulatót. Fizettek és elindultak.</p>
+         <p>Kármán összeszorított foggal ment Kende mellett. A fiúk zajongtak, énekeltek, amig egy
+            rendőr csendre nem intette őket. Sulyok két fiatalabb tanárral hosszabb fejtegetésbe
+            merülve ment. Arról beszélt, hogy a színes emberek okvetlenül túlélik majd a fehéreket,
+            mert több az energiájuk és alkalmazkodókészségük.</p>
+         <p>Közben a mulató elé értek.</p>
+         <p>- Na, szervusz - mondta röviden Kármán Kendének.</p>
+         <p>- Mi az, te nem jössz be?</p>
+         <p>- Nem.</p>
+         <p>- Miért?</p>
+         <p>- Fáj a fejem. Sokat ittam.</p>
+         <p>- Ne bolondozz, olyan klassz muri lesz. Megnézzük azt a fekete macskát.</p>
+         <p>- Nem megyek.</p>
+         <p>- Gyere be, te marha, a Sulyok megharagszik!</p>
+         <p>- Akkor megharagszik!</p>
+         <p>- Nem vagy kíváncsi a néger tyúkra?</p>
+         <p>- Nem.</p>
+         <p>Galambos, aki félfüllel hallgatta a beszélgetést, most odalépett Kármánhoz.</p>
+         <p>- Nem akarsz bejönni?</p>
+         <p>- Te ezen csodálkozol?</p>
+         <p>- Hát tudod... lehet, hogy igazad van, de azért...</p>
+         <p>- Nincs de azért! Én ide nem megyek. Ha akartok, mentsetek ki a tanárok előtt.
+            Szervusztok!</p>
+         <p>Nem fogott kezet senkivel sem. Megemelte a kalapját és elment.</p>
+         
+         <p>Már három hete, hogy leérettségizett, de nem tudott komolyan örülni az eredménynek. A
+            példák ellopása, a huszárvágás, ahogy a militarista hajlandóságú Horváth elnevezte a
+            dolgot, nem szivárgott ki. Mindenki elégedett volt. Kármán szülei ragyogtak a
+            boldogságtól, Bandi aranyórát és tekintélyes pénzösszeget kapott, de mindez nem
+            vidította fel.</p>
+         <p>Közben a fiúk szétszéledtek. Galambos a hugához utazott Berlinbe, Horváth jelentkezett
+            egy tábornok-nagybácsinál s beállt katonának, Weiss elhatározta, hogy textilmérnök lesz
+            és Máté Ausztráliába utazott egy távoli rokonához, mert már régi vágya volt, hogy ott
+            telepedjék meg.</p>
+         <p>Kármán maga sem volt teljesen tisztában azzal, hogy voltaképpen mi baja. Komolyan
+            vizsgálta önmagát és arra a megállapításra jutott, hogy Margit hiányzik ugyan neki, de
+            nem ez az oka állandó rossz hangulatának.</p>
+         <p>És egy este bevallotta magának, hogy a Juci-eset bántja. Azt a lányt ő csúnyán rászedte
+            és az mégis jó volt hozzá. Jucit fel kell keresni. Jucinak elégtételt kell adni!</p>
+         <p>Egészen felderült erre a gondolatra. Érettségije óta az első eset volt, hogy jókedvűen
+            vacsorázott, nevetgélt, gyöngéd bókokat mondott az anyjának új ruhájára és vacsora után
+            borsos viccekkel traktálta az apját, mikor átmentek az úriszobába, hogy elszívjanak egy
+            cigarettát.</p>
+         <p>Másnap délután elment Sulyokhoz. Kifulladva ért fel a harmadik emeletre és az ajtó előtt
+            rémülten állt meg. Az ajtó lakattal volt bezárva. Lerohant a házmesterhez.</p>
+         <p>- Sulyok tanár úr nincs itthon? - kérdezte.</p>
+         <p>- Nincs. Elutazott.</p>
+         <p>- Hová?</p>
+         <p>- Balatonkenesére. Nyaralni.</p>
+         <p>- Úgy... elutazott... és... senki sincs itthon, kérem?</p>
+         <p>- Ki volna? A lány elment.</p>
+         <p>- Elment? Végleg?</p>
+         <p>- Végleg hát! Mi van azon csodálkozni való?</p>
+         <p>Kármán már az utcán volt. Gondolat nélkül sietett végig a Práter-utcán, aztán felült egy
+            villamosra.</p>
+         <p>- Meg kell találnom! Meg kell találnom! - mondta dühösen, összeszorított foggal. - De
+            hogyan? Hopp! Hiszen az egyszerű! Bejelentőhivatal is van a világon!</p>
+         <p>A bejelentőhivatal jó ötletnek bizonyult.</p>
+         <p>„Gergely Julianna 26 éves, szobalány. Báró Horn Gáspár ny. alezredes. Andrássy-út
+            42.”</p>
+         <p>Hát most ott volt az Andrássy-út 42 alatt, de nem mert belépni a kapun. Elvégre még sem
+            mehet fel egy idegen lakásba azzal, hogy a szobalányt keresi!</p>
+         <p>Végre kieszelte, hogy másnap korán reggel beül a szembenlévő kávéházba. A véletlenre
+            bízza magát. A délelőtt folyamán csak kijön az a lány.</p>
+         <p>Féltizenkettőkor kijött. Kis fekete pongyola volt rajta, szép szőke haja csillogott a
+            napfényben. Bement a házban lévő csemegeüzletbe. Kármán felugrott, fizetett és kiment a
+            kávéházból. Besietett a kapu alá és várta a leányt. Még nem tudta, mit fog neki mondani
+            és nagyon izgatott volt. Megtapogatta a zsebében a kis selyempapírba csomagolt
+            feketeszalagos arany karkötőórát, amelyet tegnap vásárolt.</p>
+         <p>Cipőkopogás, Juci belépett a kapun és tágranyílt szemmel hőkölt vissza.</p>
+         <p>- Juci!</p>
+         <p>A lány szótlanul, meglepődve állt. Arcából lefutott minden vér.</p>
+         <p>- Juci, én eljöttem. Megkerestem magát. Köszönettel és magyarázattal tartozom. Belátom,
+            hogy... hogy maga... lovagiasabban viselkedtél, mint én... Meg tudod nekem
+            bocsátani?</p>
+         <p>Izgatott csend. Valaki lejön a lépcsőn. Elmegy mellettük és kilép a kapun.</p>
+         <p>- Nem felel, Juci?</p>
+         <p>A leány felemeli a fejét és csendesen mondja:</p>
+         <p>- Én nem haragszom már magára.</p>
+         <p>- Nem igaz, maga haragszik rám. Minden oka megvan rá. Bocsásson meg nekem. Nem is tudja,
+            nem is hiszi, hogy én szívesen gondolok vissza arra az éjszakára... nézze, ezt a kis
+            emléket hoztam magának. A hely és a pillanat nem alkalmas, de mit csináljak?</p>
+         <p>Kibontotta a papírt és átnyujtotta az órát.</p>
+         <p>Juci szó nélkül nézett rá és nagyokat lélekzett. Egy mozdulattal eltolta a fiú kezét. Az
+            előbbi sápadtság helyett most vérvörös volt az arca. Aztán lassan megfordult és eltünt a
+            lépcsőházban.</p>
+         <p>Kármán tanácstalanul állt egy darabig. Rettenetesen szégyelte magát. Gépiesen eltette a
+            karkötőórát és minden átmenet nélkül dühbejött.</p>
+         <p>- Megint marhaságot csináltam! - gondolta. - Ugy viselkedtem, mint egy bugris, ő pedig
+            úgy, mint egy... igen, mint egy úrinő, akit nem lehet megfizetni...</p>
+         
+         <p>Két hónap telt el. Kármán, ha nem is felejtette el a dolgokat, kezdett megnyugodni. Új
+            barátai, új társasága volt és régi osztálytársait, különösen a négy fiút egyáltalán nem
+            látta. Egy délután azonban csengetést hallott és éppen találgatta, hogy ki jöhet hozzá,
+            mikor kopogtak az ajtaján és Galambos lépett be a szobába.</p>
+         <p>- Te? - kérdezte Kármán meglepődve.</p>
+         <p>- Én vagyok, - mondta Galambos. - Remélem, nem kellemetlen, hogy felkereslek?</p>
+         <p>- Semmiesetre, csak csodálkozom..</p>
+         <p>- Ezt megértem. Azért jöttem, hogy a magam és a fiúk nevében, addig is, míg ők
+            személyesen felkeresnek, ünnepélyesen bocsánatot kérjek tőled azért, mert akkor
+            meggyanusítottunk.</p>
+         <p>- Ennek igazán örülök, de... történt talán valami?</p>
+         <p>- Igen, történt. Ezt a levelet kaptam Ausztráliából.</p>
+         <p>És átnyujtott Kármánnak egy levelet, aki kibontotta és izgatottan olvasni kezdett.</p>
+         <p>„Kedves Galambos! Már régen készülök ennek a levélnek a megírására, de bizonyos
+            körülmények miatt, csak most tehetem meg, hogy közöljem veled, amit mulhatatlanul
+            fontosnak tartok.</p>
+         <p>Azon az éjszakán, a mulatóban, én loptam el Kármántól az ötszáz pengőt. Kármánt
+            rehabilitálni kell.</p>
+         <p>Igy történt: Én már évek óta foglalkoztam azzal a gondolattal, hogy kijövök ide,
+            Sidney-be és itt létalapot csinálok magamnak. Ehhez pénz kellett. Takarékosan éltem,
+            gyüjtöttem a pénzt és néhány közeli rokonom is megígérte, hogy segíteni fog.</p>
+         <p>Két héttel az érettségim előtt egyik nagybátyám, aki apámnak ezer pengővel tartozott,
+            kijelentette, hogy nem adhatja ide a pénzt, amit pedig apám nekem igért. Ez a dolog
+            felborította minden számításomat.</p>
+         <p>Nagyon el voltam keseredve. Akkor este aztán megláttam Kármánnál a tömött pénztárcát
+            és... nem is tudom, mi történt velem, de éreztem, hogy meg kell szereznem a pénzt.</p>
+         <p>Előbb mentem el. Valami ürüggyel elbúcsúztam a rokonomtól, akivel voltam és
+            visszasiettem a lokálba. Az üvegajtón át figyeltem, mikor indul? Kijött a ruhatárba. Az
+            amúgyis szűk helyiség tömve volt. Engem nem vett észre. Ekkor már megért bennem a terv.
+            Amint Kármán a ruhatári pulthoz lépett, én zsebkéssel elvágtam a nadrágzsebét begomboló
+            szalagot és általatok jólismert kézügyességemmel könnyűszerrel kiemeltem a tárcát.</p>
+         <p>A ti szemetekben nagyot vétkeztem az ellen a fiú ellen. Nekem ugyanis más véleményem
+            van a morálról, mint nektek, én külön törvényeket szabtam magamnak. Ez az én dolgom,
+            erről nem akarok beszélni.</p>
+         <p>Hogy mégis megírom most ezt a levelet, annak kizárólag egy oka van. Én rövidesen
+            befejezem földi pályafutásomat. A maláriának egy olyan veszedelmes fajtáját kaptam meg,
+            amelyet nem bír el a szervezetem. Az állandó láz hetek alatt tette tönkre a szívemet,
+            mely különben is gyenge volt. Szóval, rövidesen vége a komédiának. Nem nagy baj, mert én
+            sosem becsültem sokra az életet. Azt hiszem nincs olyan tehetségem az élethez, mint
+            például a fivéremnek. Nem nagy kár értem.</p>
+         <p>Szóval ezt a levelet ennek tudd be. Nem lelkiismeretfurdalás indított rá, csak... talán
+            valami pillanatnyi ellágyulás. E levéllel egyidejűleg átutaltam az ötszáz pengőt. Add
+            vissza a fiúknak, a rámeső százat fordítsd jótékonycélra.</p>
+         <p>Több mondanivalóm nincs is. Talán egyszer megérted, hogy az ember nem mindig ura morális
+            kötelezettségeinek. Üdvözöl Máté Sándor.”</p>
+         
+         <p>Kármán végigolvasta a levelet, aztán elgondolkozva engedte le a kezét.</p>
+         <p>- Szegény Máté! - mondta halkan.</p>
+         <p>- Sajnálod? - kérdezte Galambos.</p>
+         <p>- Igen.</p>
+         <p>- Pont te sajnálod?</p>
+         <p>- Pont én.</p>
+         <p>- Nem értem.</p>
+         <p>- Pedig könnyen érthető. Én nem ítélem úgy el, ahogy más tenné. Ő mindig furcsa ember
+            volt. Persze nem akarom és nem is lehet mentegetni az eljárását, de megértem.</p>
+         <p>Galambos hallgatott egy ideig.</p>
+         <p>- Túl jó fiú vagy, Bandi, - mondta aztán. - Na hagyjuk! Akarsz nekem nagy szívességet
+            tenni?</p>
+         <p>- Parancsolj.</p>
+         <p>- Csak kérek! Én nagyon megbántottalak. Bocsánatot kértem. Ha valóban megbocsátasz, amit
+            remélek, bár nem érdemlem meg, gyere el most hozzám.</p>
+         <p>- Most?</p>
+         <p>- Igen. Ne gondolkozz, gyere el. Én nagyot vétettem a barátságunk ellen, de ez a
+            barátság ma is él.</p>
+         <p>- Jól van, menjünk.</p>
+         <p>Pár perc mulva Galamboséknál voltak. Kármánnak összeszorította valami a mellét, mikor
+            belépett az előszobába.</p>
+         <p>Galambos szobájából hangok hallatszottak. Mikor benyitottak, egy elegáns, karcsú
+            fiatalember és egy óriástermetű huszárönkéntes, nagyot kurjantva ugrott fel és sietett
+            eléje. Weiss és Horváth. Kármán azonban alig látta őket. Szeme révedezve siklott végig
+            azon a csinos fiatal lányon, aki az egyik fotelben ült és mosolyogva nézett rá.</p>
+         <p>- Gitti! - mondta Kármán és a lányhoz sietett.</p>
+         <p>- Látogatóban vagyok itthon - mondta a leány. - Nem akartam addig visszautazni, amíg nem
+            láttam magát.</p>
+         <p>A szobalány kerekes asztalon feketekávét és likőrt gurított be. A hangulat csakhamar
+            nagyon emelkedett volt.</p>
+         <p>Galambos, Horváth és Weiss, egyik pohárral a másik után hajtották fel a különböző színű
+            likőröket, Kármán és Margit pedig a sarokban beszélgettek.</p>
+         <p>- Milyen szépen indult a mi életünk Gitti - mondta Kármán. - Kár hogy...</p>
+         <p>- Nem kár! Semmi sem kár - vágott közbe a leány. - Szép volt és mindig szívesen fogok
+            visszagondolni rá.</p>
+         <p>- Én nem.</p>
+         <p>- Miért?</p>
+         <p>- Mert amilyen szép volt, olyan csúnyán végződött.</p>
+         <p>- Látja, nekem megvan a tehetségem ahhoz, hogy csak a szépet lássam benne.</p>
+         <p>Horváth az asztalnál nagyot nevetett.</p>
+         <p>- Én még most sem értem, hogy Kármán hogy tudta végül kiszedni a példákat abból a
+            nőből?</p>
+         <p>Weiss titokzatosan mosolygott.</p>
+         <p>- Hja, a nők kedvence igazán tud magán segíteni, ha bajba kerül.</p>
+         <p>Galambos idegesen nézegetett a sarokba, ahol Gitti és Kármán ültek.</p>
+         <p>- Hagyjuk ezt fiúk. A fő, hogy átcsúsztunk valahogy azon a vacak érettségin. Beszéljünk
+            inkább másról.</p>
+         <p>- Helyes - mondta Horváth -, nekem holnapután be kell vonulnom a gyakorlatra és
+            szeretnék addig egy nagyot lumpolni. Remélem, velem tarttok? Szólunk Kármánnak is.</p>
+         <p>- Hagyjátok - mondta halkan Weiss. - Kármán most el van foglalva.</p>
+         <p>Gitti elgondolkozva nézte a fiút.</p>
+         <p>Hallgattak, aztán Kármán megszólalt.</p>
+         <p>- Mondja Gitti, tényleg bevégződött?</p>
+         <p>A lány komolyan bólintott.</p>
+         <p>- Igen Bandi. Én rájöttem arra, hogy maga nem férjnek való. Túlságosan szeretik a nők,
+            semhogy jó férj lenne magából. Erre én akkor jöttem rá, amikor szakítottunk és én nagyon
+            szenvedtem maga miatt. Higyje el ez így a legjobb. Nálam kitünően megy a festés, művész
+            leszek, belőlem sem lenne jó feleség. Magának azonban mindig jóbarátja maradok.</p>
+         <p>Az utolsó szavakat már felemelt hangon mondta. Horváth meghallotta, felkapott két
+            poharat és odavitte hozzájuk. Pengve vágta össze lakkcsizmáján a sarkantyúkat.</p>
+         <p>- Na gyerekek - kiáltotta - akkor erre iszunk.</p>
+         
+         <p>Amint már a regény elején is megjegyeztem, Kármán Andrást, a szerelmi ügyek Nagy
+            Szakértőjét, jobban szerették a nők, semmint ezt könnyű lett volna elviselni. Néha
+            bizony terhes is volt egy kicsit.</p>
+         <p>Mindazonáltal - vagy hogy ne legyünk nagyképűek, - talán épp azért Kármán András
+            elégedett volt. Minden nőre, akit ismert, szívesen gondolt vissza, csak egy volt,
+            egyetlen nő, aki ha történetesen eszébejutott, akkor ökölbeszorult a keze és ölni tudott
+            volna.</p>
+         <p>Ez a nő volt az első kaland az életében.</p>
+         <p> VÉGE.</p>
+         
+      </body>
+   </text>
+</TEI>
