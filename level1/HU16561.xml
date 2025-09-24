@@ -1,0 +1,1325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU16561" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Az első kaland</title>
+            <author>
+               <persName>
+                  <surname>Nagy</surname>
+                  <forename>Károly</forename>
+               </persName>
+               <date from="1909" to="1942">1909-1942</date>
+               <idno type="VIAF"></idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">10321</measure>
+            <measure unit="pages">24</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>Klári érettségije</title>
+               <date>2017-02-14</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://www.mek.oszk.hu/16500/16561/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Drótos László</name>
+                  <name>Fecz Ágnes</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>Klári érettségije</title>
+               <author>Nagy Károly</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Világv. Reg. Kiadóváll.</publisher>
+               <date>1935</date>
+               <ref target="https://mek.oszk.hu/15500/15548/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>Klári érettségije</title>
+               <author>Nagy Károly</author>
+               <date>1935</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+      </profileDesc>
+      <xenoData>
+         <ns1:eltec>
+            <ns1:authorGender key="M"/>
+            <ns1:size key="short"/>
+            <ns1:canonicity key="low"/>
+            <ns1:timeSlot key="T5"/>
+         </ns1:eltec>
+      </xenoData>
+      <revisionDesc>
+         <change when="2025-09-24"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="chapter">
+            <head>1.</head>
+            <p>Néhány ember megállt az uccán. Voltak, akik megcsóválták a fejüket és tovább mentek,
+               a legtöbb azonban ott maradt és nyujtogatta a nyakát, a harmadik emeleti ablak felé.
+               Budapest a kiváncsi álldogálók városa. Ha egy bicikli felfordul és elgörbül az első
+               kereke, percek alatt huszonnégy ember veszi körül és nézi érdeklődve a
+               szerencsétlenül járt kereket és a károm­kodó biciklistát, aki dörmögve és sziszegve
+               porolja le a ruháját és dörzsölgeti felhorzsolt csuklóit. Az uccai alkalmi árusnak,
+               aki ellenállhatatlan és utánozhatatlan folttisztító és egyben tányérragasztó szert
+               árul, potom húsz fillérért, szintén megvan a közönsége, nem kevésbbé az epilepsziás
+               embernek, aki egyébként elengedné ezt a szerencsét, sőt érdeklődve nézik azt is, ha a
+               rendőr valami szabálytalanság miatt felír egy soffőrt, vagy bekísér az őrszobába egy
+               részeg embert.</p>
+            <p>Ezúttal azonban a járókelőknek minden okuk megvolt arra, hogy megálljanak és
+               megszem­léljék a szokatlan esetet. Egyesek, akiknek sietős dolguk volt, sajnálkoztak,
+               hogy nem marad­hatnak, a gyülekezet zöme azonban ott maradt, egy darabig csodálkozva
+               nézelődött, később pedig nevetgélve, hangosan vitatkozva tárgyalt a nem mindennapi
+               látványról.</p>
+            <p>A nem mindennapi látvány egy csontváz volt. Csontvázat láthattunk már eleget,
+               múzeumban, egyetemen és még néhány illetékes helyen. Tudjuk, hogy a karok és a
+               lábszárak feltünően véko­nyak, a szikkadt medencecsont olyan, mintha agyagból volna,
+               melyről lepattogzott a zománc, hogy a koponyán három lyuk van, amelyek azelőtt szemek
+               és orr néven voltak for­galomban, hogy a száj, melyből csak két fehér fogsor maradt,
+               pont úgy fest, mintha vigyorog­na, mondom, ezt mind tudjuk.</p>
+            <p>A szóbanforgó csontváz azonban jóval érdekesebb látványt nyujtott, mint a
+               fentemlített, sablonos, szabályszerű emberi maradvány. Ez a csontváz elsősorban abban
+               különbözött többi kollégájától, hogy fején kissé rozoga állapotban lévő cilindert
+               viselt, kicsit kackiásan féloldalt csapva, volt rajta azonkívül egy elegáns,
+               fényesgombos női kabát, lábán pedig gumitalpú, fehér tornacipő. Két karjával az ablak
+               két oldalához támaszkodott, egyik tornacipős lábát pedig olyan mozdulattal tartotta
+               az ablakpárkányon, mintha mindjárt le akarna ugrani a har­ma­dik emeletről.</p>
+            <p>A nép pedig egyre gyűlt. Lehettek már negyvenen és biztos volt, hogy perceken belül
+               meg­akad a forgalom az aránylag elég mozgalmas mellékuccában. Megjegyzések röpködtek
+               a leve­gőben.</p>
+            <p>- Jó pofa az öreg szivar! - mondta egy suszterinas és rágyújtott egy
+               cigarettavégre.</p>
+            <p>- Ezt a cilindert negyvennyolcban csinálták - jegyezte meg egy vattázott vállu ifjú,
+               akinek karjába egy szalmasárgahajú lány kapaszkodott, elszántan és
+               meggyőződéssel.</p>
+            <p>Egy rövidlátó nénike, aki a tizenötméter magasságban csak színeket és vonalakat
+               látott, ijedten sikítozott.</p>
+            <p>- Jaj, mért nem fogják meg azt az embert? Kiugrik, egész biztosan kiugrik!
+               Rendőr!</p>
+            <p>- Ne lármázzon, mutter - szólt rá a suszterinas és kiköpte a cigarettacsonkot, - mert
+               ha az ott fent meghallja, megharagszik és a nyakába ugrik.</p>
+            <p>- Jaj! - sivalkodott a néni és ijedten ugrott hátra.</p>
+            <p>Villamos közeledett eszeveszett csilingeléssel. Az emberek összébbhúzódtak. Egy
+               pillanatig magukkal voltak elfoglalva. Mire ismét felnéztek az ablakba, a csontváz
+               eltünt.</p>
+            <p>- Úgylátszik, meggondolta magát - mondta a néni. - Megjött az esze. Mégsem ugrik
+               le.</p>
+            <p>Az uccasarkon egy rendőr tünt fel és a tömeg eloszlott.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>2.</head>
+            <p>Az «Apaffi Mihályné» leánygimnázium VIII. osztályából nagy lárma és vidám nevetés
+               hang­zott ki a néptelen folyosóra. A tizperces szünetet már régen lecsengették, de a
+               lányok nem is vették észre. Zakariás minden figyelmüket lefoglalta.</p>
+            <p>Zakariás a csontváz volt. Ugyanaz a csontváz, amely miatt odalent az uccán egész
+               tömeg hullámzott. A lányok adományozták neki a szépenhangzó és markáns nevet.</p>
+            <p>Természettani óra következett és ők már a tízperc elején behozták Zakariást a
+               szertárból. A fizikai előadótermet tatarozták, tehát minden alkalommal ide kellett
+               cipelni a fizika- és természetrajzórához szükséges kellékeket.</p>
+            <p>A lányok nem sokat törődtek Zakariással. Őszintén szólva unták egy kicsit. Gergely
+               Vilma az orrát puderozta nagy szakértelemmel, a kövér Péterffy Kató diszkréten
+               megsugta Pál Magdá­nak, hogy ismét fogyott tizenhét dekát, «tizenhét kiló se látszana
+               meg rajtad» - jegyezte meg az arra haladó Mák Marietta, «pukkadj meg!» - mondta
+               dühösen Péterffy Kató és diszkréten továbbsuttogott Pál Magda fülébe. Gács Éva
+               viszont indiszkrét hangossággal arról beszélt, hogy tegnap a Szigeten teljes másfél
+               óráig sétált Pistával és hogy Pista becsületszentségére kijelentette, hogy többé nem
+               néz rá Veér Adriennre, Kővágó Gizi, a jeles tanuló fizikai kép­leteket firkált a
+               táblára, egyedül Kovács Klári állt összevont szemöldökkel Zakariás előtt és
+               elgondolkozva nézte.</p>
+            <p>- Mit nézel Zakariáson? - kérdezte Mák Marietta.</p>
+            <p>- Nem gondolod, hogy Zakariás kezd unalmas lenni? - válaszolt, szintén kérdéssel
+               Klári.</p>
+            <p>- De igen - felelte Mák Marietta. - Épp azért kérdeztem, hogy mi van rajta
+               néznivaló.</p>
+            <p>- Van egy ötletem - felelte Klári - Zakariással kapcsolatban.</p>
+            <p>- A te ötleteid mindig megborzongatják a hátamat.</p>
+            <p>- Miért?</p>
+            <p>- Mert rendszerint osztályfőnöki megrovás a vége.</p>
+            <p>Egymás mellett álltak. Egyformán magasak, egyformán szépek és szőkék, egyformán
+               tizen­nyolc­évesek voltak, az ormótlan formaruha is jól festett nyulánk, izmos
+               testükön, egyformán nevetett a szemük és már ott bujkált arcukon a levegőben lógó
+               tréfa eljövendő izgalma.</p>
+            <p>- Mi az ötlet? - kérdezte Marietta.</p>
+            <p>Klári a padjához ment és elővett a táskájából egy összecsukott öreg klakkot.</p>
+            <p>- Mi ez? - kérdezte Marietta.</p>
+            <p>- Láthatod, cilinder.</p>
+            <p>Kiugratta és fejébe csapta. A kopott, korhadt kalap is jól állt szőke, hullámos
+               haján. A többi lány észrevette és körésereglett.</p>
+            <p>- Jaj, de guszta, mutasd, hadd próbáljam fel! - kiabálták.</p>
+            <p>- Idehallgassatok, - mondta Klári - ezt a klakkot otthon találtam és azért hoztam el,
+               hogy valami hasznos dolgot műveljünk vele. Mit gondoltok, nem volna szükséges, hogy
+               felpró­báltassuk Zakariással.</p>
+            <p>- De igen - hangzott az általános beleegyezés.</p>
+            <p>A klakkot összenyomták, hogy keskenyebb legyen és feltették Zakariás fejére.</p>
+            <p>- Remek! - kiáltotta Gács Éva. - Ha Pista látná, mindjárt lenne rá egy jó mondása.
+               Neki mindig van egy jó mondása.</p>
+            <p>- Biztosan otthon készül rá, mielőtt veled találkozik - jegyezte meg gúnyolódva
+               Kővágó Gizi és okos szemével hunyorított egyet.</p>
+            <p>- Nem készül rá! - csattant fel Gács Éva. - Ő sosem volt sem eminens, sem stréber. Ő
+               már diákkorában is tennisz- és ping-pongbajnok volt és nem foglalkozott egyébbel.</p>
+            <p>- Ne veszekedjetek, majmok! - kiáltott rájuk Klára, - inkább hallgassatok ide! Van
+               egy új ötletem.</p>
+            <p>- Halljuk!</p>
+            <p>- Öltöztessük fel Zakariást. Cilindere már van. Marietta add ide a kabátod!</p>
+            <p>Felhuzták a kabátot a csontvázra.</p>
+            <p>- Zakariás határozottan kezd kialakulni! Péterffy add ide a tornacipődet!</p>
+            <p>- Miért pont én? - kérdezte Péterffy Kató.</p>
+            <p>- Mert neked van az osztályban a legnagyobb lábad. Ha jól tudom, negyvenes.</p>
+            <p>Kató rákvörös lett.</p>
+            <p>- Feltünően szemtelen vagy - mondta mérgesen. - Úgy éljek, hogy csak
+               harminckilences.</p>
+            <p>- Jó, jó, csak add ide!</p>
+            <p>A fehér tornacipő felkerült Zakariás lábára.</p>
+            <p>- És most - mondta ünnepélyesen Klára, - vigyük az ablakhoz.</p>
+            <p>Zakariást állványostól együtt felkapták és az ablakhoz vitték. A csontváz
+               egyáltalában nem látszott sértődöttnek, hogy így kifigurázzák, sőt jóindulatúan
+               vigyorgott sárga fogaival. El­tűrte, hogy Klári, aki olyan serényen dolgozott, mintha
+               elfogta volna az alkotás láza, a nyitott ablak párkányára tegye egyik tornacipős
+               lábát, eltűrte, hogy két kezét zsinórral megerősítsék az ablakfákon és vigyorogva
+               nézte, hogyan gyülekezik odalent, láthatólag őmiatta a tömeg.</p>
+            <p>Kitűnő mulatság volt.</p>
+            <p>A lányok hangos nevetésébe ebben a pillanatban kijózanítóan vágott bele egy
+               jócsengésű, kemény hang:</p>
+            <p>- Mi ez?</p>
+            <p>Hirtelen csend támadt. A fizikatanár, dr. Vértes lépett be, anélkül, hogy észrevették
+               volna. Negyvenév körüli, komoly arcú, csinos férfi volt és az ötödikesektől a
+               nyolcadikosokig, átlag minden harmadik lány szerelmes volt bele. Most mozdulatlan
+               arccal nézte Zakariást, aztán Gács Évához fordult.</p>
+            <p>- Hozzák el az ablaktól! Hagyjanak mindent rajta és vigyék fel a katedrára!</p>
+            <p>Gács Éva ijedt igyekezettel engedelmeskedett. Gergely Vilma segített neki, a többi
+               lány szét­rebbent és igyekezett a lehető legrövidebb úton a helyére jutni. Zakariás
+               felvonult a katedrára, úgy, ahogy volt, teljes harci mezben, dr. Vértes pedig
+               utánaindult.</p>
+            <p>Az osztályban néma csend volt. Vértes enyhe undorral szemlélte Zakariást, aztán
+               hirtelen az osztályhoz fordult:</p>
+            <p>- Hát lássuk csak... - kezdte, - kié ez a cipő?</p>
+            <p>Csend. Vértes egy árnyalattal felemeli a hangját.</p>
+            <p>- Kérem, jelentkezzék a cipő tulajdonosa!</p>
+            <p>Péterffy Kató szepegve felállt. Kövér arca sápadt volt. Telt piros szája ijedten
+               rebbent meg.</p>
+            <p>- Vegye le a cipőjét erről a csontvázról és álljon ide a fal mellé - mondta a
+               tanár.</p>
+            <p>Kató elindult. Úgy ment végig a padsorok között, mint Maria Antoinette, mikor a
+               guillotine felé indult.</p>
+            <p>A tanár ismét a csontvázra tekintett.</p>
+            <p>- Menjünk tovább! - mondta a tanár. - Kié a kabát?</p>
+            <p>- Enyém - állt fel Gács Marietta.</p>
+            <p>- Vegye le róla és álljon a kolléganője mellé! Kié ez a klakk?</p>
+            <p>- Az enyém - mondta Kovács Klára, aki már a kérdés feltevése előtt felállt.</p>
+            <p>- Hát persze, gondolhattam volna. Vegye le róla és álljon ide!</p>
+            <p>Egy pillanatig ismét csend volt. Zakariásról ismét lekerültek a ruhadarabok és a
+               csontváz visszasüllyedt előbbi szomorú szürkeségébe. Vigyorgásába most, mintha egy
+               kis bánat is vegyült volna.</p>
+            <p>- Na, lássuk csak - kezdte ismét dr. Vértes. - Ki csinálta ezt?</p>
+            <p>- Mi hárman - felelte Gács Marietta.</p>
+            <p>- Pardon, tanár úr, én csak a cipőt adtam... - szólt közbe gyorsan Péterffy Kató.</p>
+            <p>- A lábát is segítettél felrakni az ablakpárkányra - jegyezte meg szárazon
+               Marietta.</p>
+            <p>Kovács Klára elhatározta magát.</p>
+            <p>- Kérem, tanár úr, mindennek én vagyok az oka. Én hoztam a cilindert... én mondtam,
+               hogy öltöztessük fel. A lányok csak segítettek.</p>
+            <p>- Hogy maga volt a dolog értelmi szerzője, ebben egy pillanatig sem kételkedtem. Maga
+               mindig gondoskodik tanárainak és tanárnőinek egy kis kiadós bosszúságról. A
+               magaviselete tűrhetetlen és javíthatatlan. A természetrajz és fizika sokkal kevésbbé
+               foglalkoztatja, mint ezek a buta viccek... Péterffy és Gács, magukat beírom az
+               osztálykönyvbe, mert rongálták a szertár kellékeit. Menjenek a helyükre!</p>
+            <p>Pár pillanatig csak a tanár tollának percegése hallatszott.</p>
+            <p>- Kovács Klára! Magát szintén beírtam az osztálykönyvbe. Nem akartam előterjeszteni
+               ügyét a tanári konferencia elé, mert már így is van két osztályfőnöki megrovása.
+               Egyébként miért csinál ilyeneket?</p>
+            <p>Klára kicsit felvonta gömbölyű, izmos vállát.</p>
+            <p>- Lehetek őszinte, tanár úr?</p>
+            <p>- Természetesen.</p>
+            <p>- Hát bevallom... az iskola azért nem tudott kellő komolyságra szoktatni, mert én sem
+               akartam. Jókedvű természetű vagyok és szeretek jókedvű lenni.</p>
+            <p>- De sajátmaga alatt vágja a fát! Magának van az intézetben a legrosszabb híre... ezt
+               természe­tesen az iskolai fegyelem szempontjából értem. Úgy viselkedik, mint egy
+               másodikos kis­gye­rek és én úgy is fogom megbüntetni, mintha az volna. Menjen a
+               helyére és vegye tudomásul, hogy egytől háromig be lesz zárva. Itt marad az
+               osztályteremben. Ajánlom, hogy elmélkedjék egy kicsit ezalatt a jó magaviselet
+               előnyei és a rossz magaviselet hátrányai fölött.</p>
+            <p>- Tanár úr, ezt ne tessék kívánni!</p>
+            <p>- Mit?</p>
+            <p>- Hogy a bezáráson kívül még elmélkedjem is. Nem hiszem, hogy őszinte volna ez az
+               elmél­ke­dés.</p>
+            <p>A tanár alig észrevehetően elmosolyodott.</p>
+            <p>- Nem lehet magán segíteni, Kovács Klára. Üljön le! Három órakor bejön magáért az
+               altiszt. Addig nem mehet el. Megértette?</p>
+            <p>- Igen.</p>
+            <p>- Hát kérem... Kővágó, hol hagytam abba a múlt órán a magyarázatot?...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>3.</head>
+            <p>Klári egyedül maradt a teremben. Néhányszor fel-alá sétált a katedra előtt, mint egy
+               ketrecbe­zárt, fiatal párduc. Kicsit dühös volt, de szemében most is ott bujkált a
+               jókedv. Egy pillanatig arra gondolt, hogy meghal unalmában ez alatt a szörnyű hosszú
+               két óra alatt, de aztán vállat vont:</p>
+            <p>- Majd elmúlik ez is!</p>
+            <p>Megállt a csontváz előtt, melyet majd csak a takarításkor visznek vissza a szertárba,
+               egy darabig csendesen nézte, aztán a következő kis szónoklatba kezdett:</p>
+            <p>- Látod, Zakariás, most miattad szenvedek. Lehet, hogy megérdemlem, mert profán módon
+               bántam veled. Nem tudom, mi lehettél, mikor még izmok és hús simultak rád és bőr
+               feszült rajtad; lehet, hogy gazdag voltál, lehet, hogy szegény, lehet, hogy csinos
+               férfi voltál, lehet, hogy csúnya, de az biztos, hogy férfiasan tűrted ezt a méltatlan
+               játékot. Most megkaptad az elégtételt is, nem szólhatsz egy szót sem. Bezártak
+               miattad, mint egy taknyos kölyköt. Tinta­levesre és papírgaluskára, ha elemista
+               emlékeim nem csalnak. Úgy-e, sajnálsz egy kicsit Zakariás? Na, nem baj! Ne lógasd a
+               fejed, én se lógatom. Legyünk férfiak. Hidd el nekem, Zakariás, hogy én egész rendes
+               kislány vagyok. Nem vagyok olyan rossz, mint hiszik. Egy hibám van, hogy szeretek
+               nevetni. De hát olyan nagy bűn ez, Zakariás?</p>
+            <p>A kérdésre természetesen nem kapott választ.</p>
+            <p>Zakariás határozottan barátságos arcot vágott. Klára szeretettel nézett végig rajta,
+               aztán ott­hagyta és beült a padjába. Elővette az irodalomtörténetet és olvasgatott
+               egy darabig. Mikor azt is elunta, az ablakhoz ment és kihajolt rajta. Egy ideig
+               szórakozottan nézte az uccán járó-kelő embereket, de egyszerre hirtelen megélénkült
+               az arca. A Rákóczi-út felől négy- vagy öt kocsiból álló autósor fordult be és
+               közeledett lassú gördüléssel. Az első kocsiban két férfi ült és Klára visszaemlékezve
+               a tegnap olvasott ujsághírre, azonnal felismerte Sven Mont­morencyt, a nagy
+               filmszínészt.</p>
+            <p>- Úgy vonul be, mint egy fejedelem! - gondolta némi irigységgel. - Jön egy kicsit
+               ünnepeltetni magát. Szét fogják szedni a nők.</p>
+            <p>Sokáig nézett vágyakozó szemmel az eltünt autók után.</p>
+            <p>- Ez az ember még szebb, mint a filmen. Tetőtől-talpig férfi. Azt hiszem, halálosan
+               bele tudnék bolondulni. Megérte ezt a kétórai fegyencéletet, hogy láthattam, mikor
+               megérkezik. A lányok meg fognak pukkadni az irigységtől.</p>
+            <p>Elsétált az ablaktól. Leült és a filmekre gondolt, amelyekben Sven Montmorency
+               játszott. Beleképzelte magát a szerencsés színésznők szerepébe, akik a nagy Sven
+               partnerei voltak és akiket a filmek végén tüzesen és utánozhatatlan mozdulattal ölelt
+               magához. Klári, mint akinek váratlan ötlete támad, egyszerre felugrott és a csontváz
+               elé sietett.</p>
+            <p>- Idehallgass, Zakariás! Bennünket jóbarátokká kovácsolt a balsors, veled közlöm
+               tehát meg­ingathatatlan elhatározásomat. Ezennel és ünnepélyesen megigérem neked,
+               hogy a három nap alatt, amíg Sven Montmorency Budapesten tartózkodik, alkalmat fogok
+               találni rá és meg­csóko­lom. Ezt elhiheted nekem!</p>
+            <p>Az ajtó csikorogva kinyilt és az iskolai altiszt dugta be a fejét.</p>
+            <p>- Kovács kisasszony, három óra van!</p>
+            <p>- Köszönöm, porkoláb, már itt sem vagyok!</p>
+            
+         </div>
+         <div type="chapter">
+            <head>4.</head>
+            <p>Másnap délután, pontosan négy órakor, az alsó Szigetről a felsőre vezető úton Kovács
+               Klára, az «Apaffi Mihályné» leánygimnázium növendéke, megcsókolta Sven Montmorency-t,
+               a nagy filmbonvivánt.</p>
+            <p>Az izgalmas aktus hiteles történetét alábbiakban adjuk:</p>
+            <p>Sven Montmorency a Sziget csodálatos virágpompájától elbűvölve sétált a széles
+               autóúton. Minden pillanatban fényképészek vették körül. Kattogtak a masinák, lobbant
+               a magnézium és «a nagy Sven» egykedvűen tűrte. Minden pillanatban nők vették körül,
+               fiatal és kevésbé fiatal asszonyok, csitrilányok, autogramm- és emlékkönyvvel a
+               kezükben, mindenki boldog volt, aki a közelébe férkőzhetett, vagy hozzáérhetett. A
+               titkárja és az ismert színházi szerkesztő minden erejüket latbavetették, hogy
+               megvédjék a folyton újra kezdődő invázió ellen.</p>
+            <p>A színész most előresietett egy kicsit. Befordult az egyik fasorba és fellélegzett,
+               mert egy pillanatra egyedül maradt De csak egy pillanatra. Mintha a földből nőtt
+               volna ki, egyszerre egy szürke matrózblúzos, sötétkék szoknyás, szőkehajú, nagyon
+               csinos leány állt előtte.</p>
+            <p>Montmorency nem haragudott meg.</p>
+            <p>- Nos - mondta mosolyogva és németül, - autogramm?</p>
+            <p>- Nem - felelte a leány.</p>
+            <p>- Hát mi?</p>
+            <p>- Csók.</p>
+            <p>Montmorency elcsodálkozott. Nem nagyon, csak épp annyira, amennyire egy sztárnak
+               illik.</p>
+            <p>- Hogy érti ezt, kislány?</p>
+            <p>- Igy.</p>
+            <p>Klári felágaskodott, vérpiros arccal és remegő kezekkel, aztán gyors mozdulattal
+               átölelte a filmszínészt és megcsókolta.</p>
+            <p>Oldalt ismét lobbant a magnézium. Klári minden tagjában reszketve álldogált egy
+               pillanatig és szája sírásra görbült.</p>
+            <p>- Ne haragudjon - mondta lázasan az izgalomtól. - Már meg is bántam a dolgot.
+               Rettenetesen szégyellem magam... Urilány nem viselkedik így... de megigértem
+               Zakariásnak és szavamnak akartam állni...</p>
+            <p>- Zakariásnak? Ki az a Zakariás?</p>
+            <p>- A csontváz - felelte Klári és elszaladt.</p>
+            <p>- Milyen kár - fordult oda a nagy Sven az egyik fotóriporterhez, - milyen nagy kár
+               érte. Ilyen csinos, szép lány és bolond.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>5.</head>
+            <p>A lányok a színházi ujság fölé hajoltak és izgatottan tárgyalták az esetet. Klári egy
+               pad tetején ült és sírt. Szemmelláthatóan, régóta és kiadósan sírt, mert a szeme
+               vörös volt és a szemhéja duzzadt. Mák Marietta mellette állt és szidta:</p>
+            <p>- Megőrültél? Egészen elment az eszed? Pár hónappal az érettségi előtt csinálsz
+               ilyeneket? Tudod, hogy én is benne vagyok minden zriben, de ezt nem mertem volna...
+               És ha már okvet­len kellett, hát nem tudtál átöltözni előbb? Az iskolai formaruhában
+               kellett?...</p>
+            <p>- Innen egyenesen a Szigetre rohantam, mert nem tudtam, mikor megy ki - zokogta Klári
+               keservesen.</p>
+            <p>- És nem tudtál vigyázni, hogy az a hülye le ne fényképezzen? Most mit fogsz
+               csinálni? Erzsi néni már adott neked két osztályfőnöki megrovást. Ha ez az ujság a
+               kezébe kerül, pedig ez valószínű, akkor... tudod, mi lesz akkor?</p>
+            <p>- Kicsapnak! - bőgött Klára.</p>
+            <p>- Úgy van, kicsapnak!...</p>
+            <p>Idegesen szaladgált fel és alá, aztán ismét megállt Klári mellett.</p>
+            <p>- Azért egy kicsit irigyellek is - mondta csendesen.</p>
+            <p>- A kicsapásért?</p>
+            <p>- Fenét! A csókért.</p>
+            <p>- Ugyan eredj, - mondta dühösen Klári - nem is volt jó.</p>
+            <p>- Ne beszélj ilyeneket! Miért ne lett volna éppen ez a csók jó?</p>
+            <p>- Mert nem volt benne semmi különös. Igaz, hogy rettenetesen izgatott is voltam és
+               szégyel­tem magam. Még el sem engedtem és máris megbántam... és akkor jön a marha és
+               lefotogra­fál. Borzasztó... csókolózás közben...</p>
+            <p>Újra sírni kezdett.</p>
+            <p>Az osztály egyszerre elcsendesedett. Mindenki felállt. Az ajtóban magas,
+               szürkülőhajú, idősebb hölgy állt.</p>
+            <p>- Erzsi néni! - súgta Mák Marietta.</p>
+            <p>Klári lemászott a padról és rémülten bámult az osztályfőnöknőre, aki lassú léptekkel
+               felment a katedrára. Hóna alatt ott volt az osztálynapló és még valami, amit Klári
+               kimeredt szemmel nézett. A szinházi ujság.</p>
+            <p>- Üljenek le - mondta a tanárnő csendesen. - Kővágó maga jőjjön ki és üljön a
+               katedrára! Ügyeljen, hogy csend és rend legyen itt, mert nekem dolgom van és nem
+               tartom meg az órát.</p>
+            <p>Kővágó Gizi kisompolygott és leült a katedrán álló íróasztal elé. A tanárnő
+               mégegyszer végignézett az osztályon és pillantása Klárin pihent meg.</p>
+            <p>- Kovács Klára, maga vegye a kabátját és könyveit. Utánam jön az igazgatói
+               irodába.</p>
+            <p>Gyors léptekkel elhagyta a termet. Klári könyveivel és kabátjával a hóna alatt,
+               összetörve vánszorgott utána.</p>
+            <p>Mikor az ajtó bezárult mögöttük, fokozott erővel tört ki a zaj. Kővágó Gizi erre
+               öklével meg­döngette az asztalt és mindenkit túlkiabált.</p>
+            <p>- Ne ordítsatok, mert én iszom meg a levét, ha itt ilyen lárma lesz! Csendesen is
+               meg­beszélhetjük a dolgot...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>6</head>
+            <p>Tizennégy tanár és tanárnő ült a hosszú, zöld asztal mellett. Klára az asztal szélén
+               állt és lehajtotta a fejét. Az igazgató, egy kétcentiméteres ceruzavéggel
+               megkopogtatta az előtte lévő vizestálcát és megszólalt:</p>
+            <p>- Kedves kartársaim, így nem megyünk sokra. Ez a leány, aki ennyire meg tudott
+               feledkezni magáról, nem számíthat semmiféle elnézésre. Csodálom, hogy tisztelendő
+               úrnak más a véle­ménye.</p>
+            <p>A hitoktató-tisztelendő, kövérkés kezével végigsimította borotvált arcát.</p>
+            <p>- Bocsánat, - mondta - az, hogy én a vallás és erkölcs nevében és szolgálatában ülök
+               itt, nem jelenti egyúttal azt, hogy az ilyen valóban elítélendő esetnél ne ismerjek
+               könyörületet. Éppen, mert Krisztus szolgája és szerény szószólója vagyok, keresem a
+               mentőkörülményeket. Mondd csak, leányom, mióta ismered te ezt a színészt?</p>
+            <p>- Nem ismerem, tisztelendő úr...</p>
+            <p>Erzsi néni, az osztályfőnöknő felszisszent.</p>
+            <p>- Miket akar itt elhitetni velünk, Kovács? Ezzel a konok tagadással csak rontja a
+               helyzetét. Nem ismeri, csak csókolózik vele?</p>
+            <p>- Csakugyan nem ismertem. Akkor láttam először.</p>
+            <p>- Még rosszabb - mondta az igazgató. - Nem szégyel ilyet bevallani? Először lát
+               valakit és azonnal odaáll vele csókolózni?</p>
+            <p>A magyar tanárnő, egy szemüveges, szigorú arcú hölgy közbevágott:</p>
+            <p>- Mit tudhatjuk mi, akik csak jót és szépet tanítunk és plántálunk tanítványaink
+               lelkébe, mit tudhatjuk, nem volt-e közöttük sokkal több, mint ez a csók. A mai
+               fékezhetetlen fiatalság...</p>
+            <p>Lemondóan legyintett és elhallgatott.</p>
+            <p>- Na, kérem, kérem - mondta a tisztelendő, - ez talán túlzás. Azért, mert egy
+               leánynak rossz az iskolai magaviselete, még lehet tisztalelkű és erkölcsös.</p>
+            <p>A szemüveges tanárnő felvonta a vállát és megvetően nézett el Klára feje felett. A
+               pap folytatta:</p>
+            <p>- Mondd csak, lányom, talán az a színész erőszakoskodott veled? Ez könnyen
+               elképzelhető - fordult a kollégákhoz, - ezek az elkényeztetett komédiások sokmindent
+               megengednek maguk­nak és nem törődnek vele, hogy felelőtlenül kompromittálnak egy
+               leányt.</p>
+            <p>- Ugyan kérem, - mondta türelmetlenül az osztályfőnöknő, - tessék megnézni ezt a
+               képet! Ez minden kétséget és vitát kizár. A vádlott, mert hiszen nem kívánhatja, hogy
+               másképp nevez­zem, mint láthatjuk, két karjával átfogta ennek a férfinek a vállát.
+               Kifejezetten aktív szerepet játszik. A férfi keze le van eresztve. Hozzá nem nyult a
+               lányhoz. Kell ide kommentár? Kény­telen vagyok én is azt gondolni, hogy e mögött a
+               csókolózás mögött, igenis, van valami, amire gondolni sem akarok...</p>
+            <p>Klári sírni kezdett.</p>
+            <p>- Kérem szépen... - zokogta, - ne tessék rólam ilyesmit feltételezni. Bevallom, hogy
+               meggon­do­latlan voltam, de ez még nem jelent semmit. A meggondolatlanság még nem
+               rosszaság... És különben is Zakariás az oka mindennek.</p>
+            <p>- Ki az a Zakariás?</p>
+            <p>- A csontváz.</p>
+            <p>- Ne beszéljen itt össze-vissza! Ez nem segít magán. Mondja el részletesen, mi
+               történt?</p>
+            <p>- Igen. Az úgy volt, hogy felöltöztettem Zak... a csontvázat és Vértes tanár úr
+               bezárt. Ott voltam egyedül az osztályteremben... illetve nem is voltam egészen
+               egyedül, mert ott volt a csontváz is. De azért mégis nagyon unatkoztam és mérges is
+               voltam Vértes tanár úrra... bocsánat... mert én mégis csak tizennyolcéves vagyok és
+               ez a büntetés olyan gyerekes volt és megalázó... Aztán az ablakhoz mentem és éppen
+               akkor érkezett meg Sven Montmorency, a filmszínész és akkor, nem is tudom, hogyan
+               támadt az ötletem...</p>
+            <p>- Micsoda ötlet?</p>
+            <p>- Hogy nekem meg kell csókolnom...</p>
+            <p>- Hallatlan! - mondta Lujza kisasszony, a szemüveges magyar tanárnő - kit ért
+               azalatt, hogy meg kell csókolnia? Ki kényszerítette magát erre?</p>
+            <p>- Nem kényszerített senki, csak eszembejutott, hogy a lányok az osztályban mind
+               szerelmesek a szép Sven-be... illetve... ebbe a Montmorencybe és hogy meg fognak
+               pukkadni, ha ez a dolog sikerül nekem.</p>
+            <p>- Micsoda kifejezéseket használ itt? Megpukkadni! Ezt tanulta több, mint hét év alatt
+               az Apaffi Mihályné leánygimnáziumban?</p>
+            <p>- Bocsánat! Rosszul fejeztem ki magam. És ami a tanulást illeti, - nekem mindig
+               kitünő bizonyítványom volt.</p>
+            <p>- Ne vitatkozzék a tantestülettel! - mondta az igazgató és a kétcentiméteres
+               ceruzával meg­kopog­tatta a vizestálcát.</p>
+            <p>- Igenis. Hát szóval én akkor megfogadtam, hogy megcsókolom és kimentem a Szigetre.
+               Az első napon nem sikerült, a másodikon azonban arra jött, ahol én vártam és
+               akkor...</p>
+            <p>- És akkor?..</p>
+            <p>Klára lehajtotta a fejét.</p>
+            <p>- Megcsókoltam - suttogta szomorúan.</p>
+            <p>- Mit szólt hozzá, amikor megcsókolta?</p>
+            <p> - Én, vagy ő?</p>
+            <p>- Ő. Mondott valamit?</p>
+            <p>- Nem. Nagyon meglepődött. De én is. És rettenetesen szégyeltem magam, de akkor már
+               későn volt. Olyan zavarban voltam, hogy sírni kezdtem. Azt mondtam, hogy már meg is
+               bántam a dolgot.</p>
+            <p>Erzsi néni, az osztályfőnöknő, türelmetlenül dobolt az asztal zöld posztóján.</p>
+            <p>- Hallja csak, Kovács, nagyon valószínűtlen dolgokat mesél itt. Egy férfit nem olyan
+               egyszerű és nem olyan könnyű megcsókolni.</p>
+            <p>Klárának kiszaladt a száján:</p>
+            <p>- Dehogynem, Erzsi néni, csak akarni kell.</p>
+            <p>Az osztályfőnöknő hidegen mérte végig.</p>
+            <p>- Kénytelen vagyok elismerni a maga szakértelmét ezen a téren. Mikor az én generációm
+               volt a maga korában, a lányok nem voltak ennyire tapasztaltak.</p>
+            <p>A főtisztelendő úr köhécselni kezdett:</p>
+            <p>- Hát, kérem... khm... hm... azt hiszem, el lehet dönteni azt a kérdést, hogy Kovács
+               Klára előadása, illetve vallomása, fedi-e az igazságot! Ki kell hallgatni a másik
+               szereplőt is.</p>
+            <p>Az igazgató ideges lett.</p>
+            <p>- Ugyan főtisztelendő uram, hogy gondolja ezt? Hisz ez nem bírósági tárgyalás. Erre
+               nem lehet megidézni senkit.</p>
+            <p>A pap derülten nézett az igazgatóra.</p>
+            <p>- Tudom, tudom, de az a véleményem, hogy vannak derék emberek és hogy úgy mondjam,
+               kevésbé derék emberek. Véleményem szerint levelet kellene írni ennek az úrnak és
+               megkérni, hogy fáradjon be ide az iskolába. Na mármost, ha ez az úr derék ember,
+               akkor be is fog jönni. Hiszen ha megírjuk neki, hogy miről van szó, be fogja látni,
+               hogy kötelessége segítségünkre lenni az ügy kivizsgálásánál. Azt hiszem, igazgató úr,
+               elfogadhatja az ajánlatomat.</p>
+            <p>Az igazgató gondolkozott egy darabig.</p>
+            <p>- Tekintve, - mondta végül - hogy a történteken kívül egy ki nem mondott, de igen
+               súlyos gyanút kell tisztáznunk Kovács Klárával kapcsolatban, megpróbálhatjuk a
+               dolgot. Ha, amit nem tartok valószínűnek, a színész eljön és azt vallja, hogy valóban
+               nem volt semmi köze Kovács Klárához, akkor, de csakis akkor megmenekülhet attól, hogy
+               az ország összes közép­iskoláiból kicsapják.</p>
+            <p>Klára sápadtan, könnyes szemmel hallgatta az igazgatói ukázt. Maga sem tudta, hogyan
+               tántorgott ki a folyosóra.</p>
+            <p>- Nem jön el, ez igazán képtelenség! - gondolta. - Egy ilyen embert nem lehet
+               becitálni az iskolába. Neki ezer más dolga és gondja van, semmint velem törődjék.
+               Kicsapnak az ország összes... ilyen szégyent!</p>
+            <p>- Nos, lányom, miért nem mégy haza?</p>
+            <p>Klára felriadt. Az öreg tisztelendő állt előtte.</p>
+            <p>- Főtisztelendő úr - mondta - nagyon köszönöm, hogy így védelmébe vett.</p>
+            <p>- Nincs mit lányom, nincs mit. Kötelességem volt, amely együtt jár a hivatásommal.
+               Csak az lehet jó pap, aki papi voltát hivatásnak és nem foglalkozásnak fogja fel.
+               Enyhén itélj, hogy enyhén itéltess magad is. És most légy őszinte hozzám, Kovács
+               Klára!</p>
+            <p>- Tessék.</p>
+            <p>- Neked... khm... elvégre felnőtt hajadon vagy khm... neked valóban nem volt... semmi
+               köze­lebbi... hogy is mondjam?...</p>
+            <p>Zavartan elhallgatott.</p>
+            <p>- Nem, főtisztelendő úr, valóban nem volt semmi.</p>
+            <p>- Biztos ez?</p>
+            <p>- Biztos.</p>
+            <p>- Akkor hát rendben van a dolog.</p>
+            <p>- Nincs rendben főtisztelendő úr. Ez az ember nem fog eljönni. Kizárt dolog.</p>
+            <p>A pap meglepődött.</p>
+            <p>- Kizárt dolog? Dehát miért?</p>
+            <p>- Főtisztelendő úr, ez az ember világhírű filmszínész. Olyan, aki titkárt tart, csak
+               azért, hogy legyen valaki, aki felbontja a szerelmesleveleit, melyeket kilószámra kap
+               naponta. Azonfelül azt hallottam, hogy nemcsak szórakozni jött, hanem az új filmjében
+               néhány magyarországi felvételt is csinálnak. Tehát dolga van. Hogy kívánhatom én,
+               hogy akkor még ilyesmivel töltse az idejét?</p>
+            <p>A pap elgondolkozott.</p>
+            <p>- Hát nézd csak, gyermekem... ha nem volnék meggyőződve arról, hogy te szeleburdi
+               kislány vagy ugyan, de semmiesetre sem rossz, akkor nemcsak, hogy nem adnék neked
+               tanácsot, de nem is keltem volna a védelmedre. Az iskola komoly és szent dolog. Olyan
+               komoly és majd­nem olyan szent, mint a templom. Az iskolát nem szabad olyan módon
+               kompromittálni, ahogy azt te tetted. Viszont mondom, hogy jónak és becsületesnek
+               tartalak, tehát ajánlok neked valamit. Keresd fel ezt a színészt... te a nagynénédnél
+               élsz úgy-e?</p>
+            <p>- Igen.</p>
+            <p>- Kérd meg őt, hogy kísérjen el. Nem tartom illendőnek, hogy egyedül menj. A
+               színésznek mondj el mindent. Akkorra már talán a levelünket is megkapta. Mondd el
+               neki, milyen sok függ attól, ha ő eljön és megerősíti a te vallomásodat. Persze, ha
+               valóban olyan igaz, amit vallottál, mint ahogy én hiszem. Én erősen remélem, hogy el
+               fog jönni és akkor... akkor még nincs veszve minden.</p>
+            <p>Klára könnyes szemmel hallgatta. Maga is csodálkozott rajta, hogy ő, aki egész
+               életében mindig nevetett, mostanában mennyit sír. Az öreg pap megsimogatta a haját, ő
+               pedig elkapta a kezét és megcsókolta.</p>
+            <p>- Köszönöm a tanácsot, főtisztelendő úr. Ezt fogom tenni. Nemcsak azért, mert nagyon
+               szé­gyel­ném, ha kicsapnának az összes középiskolákból, hanem még sokkal inkább
+               azért, mert tudom, hogy mivel gyanúsítanak. Ezt nem akarom eltűrni. Ezt nem érdemlem
+               meg az iskolától.</p>
+            <p>Csengettek. Az éles csengőhang végigvisított a folyosókon. - Latin óra következik -
+               gondolta Klára és lehajtott fejjel ment ki az épületből.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>7.</head>
+            <p>Több mint félóráig sétált Klára a nagy dunaparti szálló előtt, mig végre elhatározta,
+               hogy bemegy. Egyedül jött és ezért némi lelkiismeretfurdalást érzett a főtisztelendő
+               úrral szemben, de mégis jobbnak látta, ha nem hoz magával senkit.</p>
+            <p>A portás megnézte a kulcstáblát.</p>
+            <p>- Igen, itthon van, de nem hiszem, hogy fogadjon valakit. Nőket különösen nem.</p>
+            <p>- De nekem mindenképpen beszélnem kell vele. Ez életbevágóan fontos. Létkérdés.</p>
+            <p>- Mindenki ezt mondja. Mindenkinek létkérdés - mondta a kövér, pirosarcú portás. -
+               Aztán velem veszekszik, hogy minek engedem fel magukat.</p>
+            <p>Vállat vont.</p>
+            <p>- Felőlem megpróbálhatja a kisasszony, de meg ne mondja, hogy tudok róla! Ha az inasa
+               beengedi, hát menjen be. Nem az én dolgom.</p>
+            <p>Klári elindult a lépcsők felé. A portás odafordult a liftboyhoz.</p>
+            <p>- Meg vannak bolondulva ezek a csirkék. Nem tudom, mit esznek ezen a nyurga
+               égimeszelőn. Még a feleségem is azt kérdezi folyton, hogy milyen, mit beszél, mit
+               csinál? Pedig ő már nem mai csirke.</p>
+            <p>A liftboy vigyorgott.</p>
+            <p>- Még utóbb féltékeny lesz, Sándor bácsi.</p>
+            <p>- Lesz a fene. Ez csak olyan asszonyszeszély. Tudod, az asszonyok néha bolondok egy
+               kicsit, de arravaló az igazi férfi, hogy helyrerázza a kótyagos fejüket. Én pedig
+               igazi férfi vagyok, a fene essen belé!</p>
+            <p>Ellenségesen nézett a liftboyra, mint aki ellentmondást vár, a liftboy azonban jónak
+               látta, ha hallgat. A portás erre megszorította a nadrágszíját és elégedetten
+               dörmögte:</p>
+            <p>- Nahát, azért mondom.</p>
+            <p>Klára közben felért az első emeletre. Megilletődve ment végig a finom, csendes
+               folyosón. Kicsit habozott, aztán kopogtatott a tizennyolcas apartemante ajtaján.</p>
+            <p>Ezen a reggelen Sven Montmorency későn kelt. Nem volt filmfelvétel és a színész a
+               legtel­jesebb kényelemmel igyekezett élvezetessé tenni a pihenést.</p>
+            <p>Féltizenkettőkor fogott hozzá, hogy feltörje a második tojást. A sonka és a
+               paradicsomos szardinia kitűnő volt és Sven Montmorency, ebben a nyugodt pillanatban
+               határozottan szép­nek találta az életet.</p>
+            <p>Antoin, az inas zavarta meg ezt a kellemes egyedüllétet.</p>
+            <p>- Művész úr - mondta - egy hölgy van itt. Idegen hölgy.</p>
+            <p>Sven közömbösen pillantott fel.</p>
+            <p>- Mondtad neki, hogy nem vagyok itthon?</p>
+            <p>Mondtam.</p>
+            <p>- Akkor rendben van. - És ismét elmerült az aranysárga belsejű tojás csendes
+               szemlélésében.</p>
+            <p>- Bocsánat - mondta Antoin - nincs rendben.</p>
+            <p>Sven letépte tekintetét a tojásról.</p>
+            <p>- Ha megmondtad, hogy nem vagyok itthon, miért nincs rendben?</p>
+            <p>- Mert nem hitte. Kitelefonált a filmgyárba, azt mondja. Ott megmondták, hogy nincs
+               felvételi nap.</p>
+            <p>- Hm... a nevét nem mondta meg?</p>
+            <p>- Nem. Annyit mondott, hogy igen fontos ügyben jött.</p>
+            <p>- Semmiesetre sem lehet elküldeni?</p>
+            <p>- Nem hinném.</p>
+            <p>Montmorency sóhajtott.</p>
+            <p>- Hát... akkor bocsásd be.</p>
+            <p>Pár pillanat mulva belépett Klári. Egyszerü, de elegáns kosztűmben volt, kicsit
+               zavartan mosoly­gott, azután összeszedte magát és a színészhez lépett.</p>
+            <p>Montmorency felállt.</p>
+            <p>- Montmorency vagyok, - mondta - parancsoljon velem. Foglaljon helyet.</p>
+            <p>Klári leült.</p>
+            <p>- Nem ismer meg?</p>
+            <p>A színész kutatóan nézte a lányt. Megrázta a fejét.</p>
+            <p>- Ne haragudjék, de nem. Rossz az arcmemóriám. Különösen a nőket illetően. Hisz
+               annyian vannak és bocsásson meg, olyan egyformák. Mind csak egyet akarnak.</p>
+            <p>- Mit?</p>
+            <p>- Engem.</p>
+            <p>- Meg kell hagyni, hogy maga cseppet sem értékeli le magát.</p>
+            <p>- Hát Istenem... népszerű vagyok. Szóval... ismerjük mi egymást, vagy nem?</p>
+            <p>- Ismerjük. Én vagyok az a leány, aki öt nappal ezelőtt a Margitszigeten megcsókolta
+               magát.</p>
+            <p>Montmorency a homlokára ütött.</p>
+            <p>- Hát persze! Na erre illett volna emlékezni, ámbár...</p>
+            <p>- Ámbár?...</p>
+            <p>- Ámbár budapesti tartózkodásom alatt - lódította - eddig tizenheten csókoltak meg
+               olyan körülmények között, mint maga.</p>
+            <p>- Ó, hát ez szörnyű, hogy én milyen szerencsétlen vagyok!</p>
+            <p>- Nana, kislány, csak nem féltékeny? Tehetek én róla, hogy másnak is tetszem, nemcsak
+               magának?</p>
+            <p>- Dehogy vagyok féltékeny! Azért mondtam, hogy szerencsétlen vagyok, mert tizenheten
+               csókolták meg és mégis pont azt az egy csókot kellett lefényképezni, amit velem
+               váltott.</p>
+            <p>- Pardon, nem váltottam, csak kaptam.</p>
+            <p>- Nem igaz, maga visszacsókolt!</p>
+            <p>- Nem csókoltam vissza! Én a legritkább esetben csókolok vissza. De most ne
+               vitatkozzunk ezen. Azt mondta, hogy lefényképezték?</p>
+            <p>- Igen. Itt van a lapban, nézze!</p>
+            <p>- Á, á... nagyon ügyes felvétel! A magyar fotoriporterek kitünőek.</p>
+            <p>- A magyar fotoriportereket vigye el az ördög!</p>
+            <p>- Nono! Annyira bántja ez a kép? Velem csókolózni nem kompromittáló. Ez inkább valami
+               dicsőségféle.</p>
+            <p>- Elengedtem volna ezt a dicsőséget. Vegye tudomásul, hogy e miatt a kép miatt engem
+               kicsapnak az iskolából.</p>
+            <p>- Ó, hát maga diáklány?</p>
+            <p>- Igen, de most ki fognak csapni. Kilenc hónappal az érettségi előtt. Maga miatt.</p>
+            <p>- Hát ne haragudjék, de akármerről nézem ezt a dolgot, én annál a csóknál nagyon
+               passzív szerepet játszottam. Igazán nem kértem magát, hogy csókoljon meg.</p>
+            <p>- De hagyta.</p>
+            <p>- Hát mit csináltam volna. Én csak egy szegény, védtelen férfi vagyok, a nők pedig
+               olyan erőszakosak.</p>
+            <p>- Erőszakosak?... Egy férfit nem olyan egyszerű és nem olyan könnyű megcsókolni. Ezt
+               az osztályfőnöknőm is mondta.</p>
+            <p>A színész elmosolyodott.</p>
+            <p>- Dehogynem, kedves, csak akarni kell. És ha egy leány szerelmes...</p>
+            <p>- De én nem vagyok az!</p>
+            <p>Montmorency meglepődött.</p>
+            <p>- Micsoda? Maga nem szerelmes belém? Szinte hihetetlen. Hát akkor miért csókolt
+               meg?</p>
+            <p>- Szeszélyből. Ostoba, buta, szamár szeszélyből!</p>
+            <p>A nagy Sven most komolyan megharagudott.</p>
+            <p>- Kérem, kérem, ez talán túlzás! Engem megcsókolni nem ostobaság...</p>
+            <p>- Jaj, nem akartam megbántani! Bocsásson meg! Maga kétségkívül nagyon csinos férfi és
+               nagy művész. Kedvenc filmszínészem, de nem vagyok szerelmes magába.</p>
+            <p>- Hát akkor miért jött ide?</p>
+            <p>- Mert bajban vagyok. Maga miatt, bár maga valóban nem tehet róla. Az iskolában nagy
+               felfordulás van és nem tudom, hogy mi lesz a vége, de ez még aránylag a kisebbik baj.
+               Ami legfőképpen idehozott, az, hogy én rólam most azt hiszik, hogy magával... hogy
+               maga, meg én... szóval... érti?</p>
+            <p>- Hogyne érteném. Nem tudom, hogy miért olyan kétségbeejtő ez, hiszen a nők azzal
+               rend­szerint el szoktak dicsekedni, ha valami dolguk van velem, sőt még azok is,
+               akikkel semmi dolgom sincs.</p>
+            <p>- Elhiszem, de ez egészen más eset.</p>
+            <p>- Rendben van, de mit tehetek én?</p>
+            <p>- Hallgasson meg! Maga egy levelet fog kapni. Az iskolából. Ebben megkérik, hogy
+               jöjjön el és tanúskodjon. Biztos voltam benne, hogy nem jön el, hát azért vagyok itt.
+               Nagyon szépen kérem, szakítson időt magának és tegyen tanuvallomást. Nekem ez nagyon
+               fontos. Mondja el, hogy mi történt? Magának a segítségemre kell lennie. Ez utóvégre
+               kötelessége.</p>
+            <p>Montmorency arckifejezése elhidegült és megmerevedett. Klára azonnal észrevette, hogy
+               rosszul fogta meg a dolgot és sietett helyreigazítani.</p>
+            <p>- Azt mondtam, hogy ez kötelessége. Ez így is van. Elvégre én nem tehetek arról, hogy
+               maga olyan ellenállhatatlan. Mikor magát megláttam, nem volt más gondolatom, csak az,
+               hogy magát meg kell csókolnom, ha addig élek is!</p>
+            <p>Montmorency vonásai egy pillanat alatt megenyhültek.</p>
+            <p>- Na igen, igen, hisz ezt meg tudom érteni! Hát nem bánom... Ha behívnak, hát
+               szakítok ma­gamnak annyi időt és eljövök. De figyelmeztetem, hogy semmi ünneplés!
+               Semmi ceremónia! Készítse elő a tanárait vagy tanárnőit, hogy az ilyesmit roppantul
+               unom.</p>
+            <p>Klári elmosolyodott, de most már ügyelt arra, amit mond.</p>
+            <p>- Amint óhajtja. Majd vigyázok, hogy ne zaklassák túlságosan. És köszönöm a
+               kedvességét. Viszontlátásra.</p>
+            <p>- Viszontlátásra.</p>
+            <p>Mikor Klári örömtől ragyogó arccal eltünt az ajtó mögött, Montmorency elégedetten ült
+               vissza a jéghidegre hült tojás mellé.</p>
+            <p>- Szegény kislány! - mondta. - Dehát mit csináljak, ha ilyen ellenállhatatlan
+               vagyok?...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>8.</head>
+            <p>Mák Marietta hátbavágta Kővágó Gizit.</p>
+            <p>- Ramon Novarro egy nyálas kölyök, te pedig hülye vagy, fiam.</p>
+            <p>- Nem igaz!</p>
+            <p>- Mi, hogy hülye vagy?</p>
+            <p>- Nem igaz, hogy nyálas. Ramon gyönyörű férfi. Minden filmjét legalább ötször
+               megnézem.</p>
+            <p>Mák Marietta a lányokhoz fordult.</p>
+            <p>- Halljátok? Azt mondja, Ramon. Csuda jóban vannak!</p>
+            <p>Gizi dühösen toporzékolt.</p>
+            <p>- Igenis, jóba vagyunk. Már háromszor is írtam neki. Egyszer jött is válasz,
+               Hollywoodból. Egy dedikált fénykép. Igaz, hogy nem ő küldte, hanem a titkárja, dehát
+               ő nem ér rá. Nagyon elfoglalt ember szegénykém...</p>
+            <p>A csoport hirtelen felbomlott, mert Klára jelent meg a folyosó végén. A lányok
+               megrohanták.</p>
+            <p>- Mi van Klári? Bejön? Mikor jön be? Mi történt?</p>
+            <p>- Bejön. Tizenegykor itt lesz. Legalább is azt hiszem. Engem ugyanis tizenegyre
+               rendeltek be. Furcsa állapot, mi? Mikor egy diáklány csak akkor jöhet be a saját
+               iskolájába, ha berendelik...</p>
+            <p>Részvéttel vigasztalták.</p>
+            <p>- Na ne szomorkodj Klári, talán mégis megúszod.</p>
+            <p>Klára megrázta a fejét.</p>
+            <p>- Nem valószínű. De szégyenben mégsem maradok. Ha bejön. Különben miért vagytok a
+               folyosón még mindig? Féltizenegy van.</p>
+            <p>- Elmaradt az óra. Erzsi néninek dolga van. Persze a te ügyedben.</p>
+            <p>Vagy egy negyedóráig beszélgettek, amikor Gács Éva lélekszakadva hozzájuk rohant.</p>
+            <p>- Gyerekek, jön! Most fordult be a kapun! Már a lépcsőházban van!</p>
+            <p>- Kicsoda? Sven? - kérdezte Kővágó Gizi.</p>
+            <p>Mák Marietta dühösen fordult hozzá.</p>
+            <p>- Sven? - kérdezte baljóslatú hangon. - Csak így, egyszerűen Sven? Ramon már nem
+               elég? Ezzel is ilyen jóba vagy? Vigyázz magadra Kővágó, mert perceken belül a
+               hajadnak esem!</p>
+            <p>Gizi a többiekhez fordult.</p>
+            <p>- Mit akar ma tőlem ez a kellemetlen nőszemély? Féltékeny mindenkire, aki csinosabb,
+               mint ő.</p>
+            <p>- Csinosabb?! Te csinosabb? Haha!</p>
+            <p>Gács Éva közbevetette magát.</p>
+            <p>- Megőrültetek? Most álltok oda veszekedni, mikor ő itt van az épületben. Inkább
+               vegyetek magatokhoz papírt és ceruzát, hogy autogrammot kérhessünk.</p>
+            <p>Pillanatok alatt felszerelték magukat irkákból kitépett lapokkal és ceruzával.
+               Izgatottan tódultak a lépcsőház felé, ahol egy fordulóban már feltünt Montmorency
+               szálas alakja.</p>
+            <p>Elragadtatott, lázas suttogások röpködtek a levegőben.</p>
+            <p>- Milyen elegáns!</p>
+            <p>- Nézd, hogy csillog a haja.</p>
+            <p>- Milyen édes kis bajusza van!</p>
+            <p>- És hogy fogja azt a cigarettát!</p>
+            <p>Montmorencynek felderült az arca. Mióta belépett az épületbe, állandóan azt várta,
+               hogy felpattannak az ajtók, fékeveszett lányok indiánüvöltéssel tódulnak a folyosóra
+               és legalább is vállukon viszik az igazgatói irodáig. A levélben, amelyben megkérték,
+               hogy jöjjön be, fél­tizen­egy órát írtak. Nyilvánvaló, hogy egy kis ünnepségre
+               készülnek és arra illik pontosan megjelenni. Na és az igazság az, hogy ő percek óta
+               mászik felfelé a lépcsőkön és semmi ünnep­lés. Néptelen folyosók. Kriptaszerű csend.
+               Igaz, hogy ő megkérte Klárát, hogy ne molesztál­ják ilyen butaságokkal, de csacska
+               gyermek, ilyet nem kell ennyire komolyan venni!</p>
+            <p>Hát nincs itt hiba! Papírlapok és ceruzák nyúlnak feléje, a szélrózsa minden
+               irányából. Alig győzi leírni a nevét. Az egyik lány, bizonyos Kővágó Gizi nevű, egész
+               közel furakodik hozzá, elővesz valahonnan egy eredeti Sven Montmorency fotografiát és
+               azt nyujtja át aláírás végett.</p>
+            <p>Megtörténik. Gizi diadalmas pillantást vet Mák Mariettára és egész hangosan, de
+               magyarul mondja.</p>
+            <p>- Köszönöm, édes Sven!</p>
+            <p>Mák Marietta homlokán kidagadnak az erek.</p>
+            <p>Nagyobb baj azonban nincs, mert az igazgatói iroda ajtaja kinyílik és megjelenik az
+               igazgató.</p>
+            <p>- S’il vous piait, Monsieur Montmorency! - mondja és szigorúan szól rá a
+               megbolygatott hangya­bolyra.</p>
+            <p>- Micsoda dolog ez, lányok? Menjetek be azonnal az osztályba! Egy percen belül senkit
+               se lássak itt! Kovács Klára, maga itt marad az ajtó előtt és megvárja, amíg
+               szólítom!</p>
+            <p>Klári halotthalványan engedelmeskedik.</p>
+            <p>A lányok elindulnak az osztályterem felé és még hallják, ahogy az igazgató így
+               szól.</p>
+            <p>- Elnézését kérem, művész úr. Nem akartam, hogy zavarják, azért is írtam, hogy
+               féltizenegy­kor szíveskedjék jönni, mert ilyenkor mindenkinek az osztályban a helye.
+               Dehát ezek a lányok...</p>
+            <p>Az igazgatói iroda becsapódik. A lányok bevonulnak az osztályba. Boldogan
+               szorongatják az autogrammokat. Többen Kővágó Gizit veszik körül és a képet nézik.
+               Gizi magasraemeli a képet, aztán leereszti és megcsókolja. Mák Marietta epésen jegyzi
+               meg.</p>
+            <p>- Szegény Ramon. Megszakadna a szive, ha ezt látná!</p>
+            <p>*</p>
+            <p>Kovács Klára pedig idegesen sétál fel és alá az igazgatói iroda előtt.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>9.</head>
+            <p>Paula tantit, Klári nagynénjét, aki a leányt szülei halála óta nevelte, kétszer is
+               behívták az iskolába. A tankerületi főigazgató is beleszólt a dologba és három nap
+               mulva kihirdették a döntést. Klárát kicsapták. Csak ebből a gimnáziumból csapták ki
+               és az itéletet nem közlik más intézettel, de mégis kicsapták.</p>
+            <p>Kicsapták annak ellenére, hogy a hitoktató-tisztelendő és Vértes dr., a
+               természettantanár - a szigorú Vértes - minden erejüket és rábeszélőképességüket
+               latbavetve, küzdöttek Klára érdekében.</p>
+            <p>Klára úgy ment ki a gimnáziumból, mint akit a villám sujtott. Már nem sírt, de úgy
+               érezte, mintha valaki megfogta volna a torkát és konok erővel szorítaná. Úgy érezte,
+               hogy vége az életének, hogy mindent eljátszott ezzel a szörnyű meggondolatlansággal.
+               Eddigi csínyjei, jókedvű tréfái mindig örömet okoztak neki. Érett esze és
+               intelligenciája folytán teljes mér­tékben tudta értékelni jó kedélyének és humorának
+               minden előnyét. Most azonban nagyon túllőtt a célon és a megbánás már nem
+               segített.</p>
+            <p>Órákig kóborolt a városban. Átment a Lánchídon és a Margithídon jött vissza. Ezt a
+               körutat háromszor tette meg. Hipnotizáltan nézte a vizet, de életösztöne és
+               elpusztíthatatlan életereje visszatartotta az öngyilkosságtól. Három óra volt, mikor
+               hazaért.</p>
+            <p>- Jaj, Klárikám, már nem tudtam, mit csináljak aggodalmamban - mondta Paula tanti és
+               szemein látszott, hogy sírt.</p>
+            <p>Klára lassan letette a kabátját és a kalapját.</p>
+            <p>- Paula tanti - mondta csendesen - kicsaptak.</p>
+            <p>- Gondoltam - felelte sóhajtva a néni. - Azért is aggódtam, mert tudom, hogy milyen
+               hirtelen és meggondolatlan vagy. Akárcsak megboldogult édesapád.</p>
+            <p>Klárának könny szökött a szemébe. Magas, karcsú és fiatal apjára gondolt, aki épp
+               olyan vidám volt, mint ő, épp olyan félvállról vette az életet, mint ő és akitől
+               egészséges humorát örökölte.</p>
+            <p>- Nem, Paula tanti, nem leszek öngyilkos emiatt - mondta és keményen összeszorította
+               a fogát.</p>
+            <p>- Hát persze, hogy nem, kislányom. De most idehallgass! Én nem szidlak össze, nem
+               verlek meg, nem csinálok jeleneteket, de végre mégis meg kell beszélnünk, hogy most
+               mi lesz? Nem gondolod, hogy fellebbezni kellene? Talán a kultuszminiszterhez...</p>
+            <p>Klára legyintett.</p>
+            <p>- Nem érdemes, úgysem sikerülne. És mondok neked valamit, Paula néni. Ha engem kilenc
+               hónappal az érettségi előtt kicsaptak, akkor úgylátszik, meg van írva, hogy érettségi
+               nélkül kell boldogulnom. Én fatalista vagyok. Most azután magam veszem a kezembe a
+               sorsomat. Mennyi pénzem van nekem, Paula tanti?</p>
+            <p>- Van még vagy ezer pengő abból, ami szegény apád után maradt. A többi elment a
+               tanítta­tá­sodra, akárhogy is spóroltam.</p>
+            <p>- Rendben van. Ötszáz pengőt kérek.</p>
+            <p>- Minek?</p>
+            <p>- Mert elutazom.</p>
+            <p>- Hová?</p>
+            <p>- Azt még nem tudom. Itt nem maradhatok Pesten. Nem akarok találkozni senkivel.
+               Németül és franciául tudok. Külföldön akarok elhelyezkedni. Te tudod, hogy mindig
+               erre vágytam és érettségi után úgyis elmentem volna. Hát az érettségi elmarad, de az
+               utazás nem.</p>
+            <p>Paula néni sírni kezdett.</p>
+            <p>- Mindig erősebb volt az akaratod, mint az enyém. Azért is nem tudtalak jobban
+               nevelni. Azért lettél olyan fékezhetetlen. Mit csináljak? Ha el akarsz menni, úgyis
+               elmégy.</p>
+            <p>Klára lehajolt és megcsókolta a néni kezét.</p>
+            <p>- Drága vagy, nénikém. Igazi jóbarátom vagy és csak te értettél meg engem mindig.
+               Meg­látod, fogsz te még örülni nekem.</p>
+            <p>- Adja Isten, kislányom! És most egyél végre valamit!</p>
+            <p>Klára az asztalhoz ült és enni kezdett. A néni csendesen tett-vett körülötte, aztán
+               kiment a konyhába, hogy veszekedjen egy kicsit a cseléddel. Klára evés közben kezébe
+               vette az ujságot és szórakozottan lapozgatott benne. Szeme egyszerre megakadt egy
+               cikken és a vér az arcába szökött.</p>
+            <p>«Sven Montmorency visszautazik Párisba és megkezdi új filmjének, «A maharadzsa
+               kalandjá»-nak felvételeit.»</p>
+            <p>Klára letette az ujságot. Tenyerébe hajtotta a fejét és mélyen elgondolkozott. Mikor
+               a néni behozta a tésztát, Klára már nyugodt volt. Szemébe lassankint visszatért a
+               jókedv.</p>
+            <p>- Látod nénikém - mondta - Sven Montmorency visszautazik Párisba. Alig tíz napig volt
+               itt és ez alatt az idő alatt milyen sok minden történt. Pedig ő nem is tehet róla.
+               Csak magamat vádolhatom. Megkaptam, amit megérdemeltem. Úgylátszik, mégis meg kell
+               egy kicsit komo­lyodnom.</p>
+            <p>Paula tanti elmosolyodott.</p>
+            <p>- Klárikám, nem kellene ezt a megkomolyodást azzal kezdeni, hogy beiratkozz egy másik
+               gimnáziumba?</p>
+            <p>Klára megrázta a fejét.</p>
+            <p>- Nem. Azt csak jövőre lehetne és én nem tudnám elviselni, hogy egy évvel később
+               érettsé­gizzem, mint a barátnőim.</p>
+            <p>Odakint berregni kezdett az előszoba csengője.</p>
+            <p>- Maradj csak kislányom! - mondta a néni - majd én ajtót nyitok. Te csak egyél.
+               Biztosan a postás lesz.</p>
+            <p>Pár pillanat mulva izgatottan sietett vissza.</p>
+            <p>- Klári - suttogta alig hallhatóan - ő az!</p>
+            <p>- Ki az az ő?</p>
+            <p>- A színész.</p>
+            <p>Klári meglepődve ugrott fel.</p>
+            <p>- Montmorency?</p>
+            <p>- Igen. Nem akarod magad rendbehozni egy kicsit?</p>
+            <p>- Nem, nem! Csak nem fogom várakoztatni? Vajjon mit akar?</p>
+            <p>- Nem tudom. Beszélni óhajt veled.</p>
+            <p>Klára gyorsan lerakta az edényeket az asztalról. Mire végzett, Paula néni bevezette
+               Mont­morencyt.</p>
+            <p>- Jónapot, Demoiselle - mondta - csodálkozik rajta, hogy itt vagyok?</p>
+            <p>- Nagyon, - felelte Klára - de örülök is neki. Foglaljon helyet. Tessék cigaretta!
+               Örülök, mert megköszönhetem legalább a kedvességét. Igazán szép volt magától, hogy
+               eljött az iskolába.</p>
+            <p>- El kellett mennem. Mikor maga elment tőlem, átgondoltam a dolgot. Én valóban
+               felelős vagyok egy kicsit a történtekért. Ma aztán, mivel kíváncsi voltam az
+               eredményre, betele­fonáltam az iskolába. Hallom, hogy, sajnos, hiábavaló volt a
+               tanuskodásom. Magát kicsapták.</p>
+            <p>- Nem volt hiábavaló, - felelte Klára. - Kizárólag az én iskolámból csaptak ki. Ha
+               akarnék, bárhová beiratkozhatnék. Ezt magának köszönhetem. De most mar nem járok
+               többé iskolába. Új alapokra akarom helyezni az életemet.</p>
+            <p>Montmorency nagyot szívott cigarettájából.</p>
+            <p>- Hát ez az, - mondta. - Ezért vagyok itt. Miután maga tudomásomra hozta és én magam
+               is beláttam, hogy bizonyos mértékben felelős vagyok a sorsáért, elhatároztam, hogy
+               teszek magáért valamit. Jó fiú voltam mindig és a nőkkel szemben tudtam a
+               kötelességemet. Hall­gasson ide! Én holnap visszautazom Párisba. Intézze el a dolgait
+               és egy hét mulva jöjjön utánam. Biztosan szeretne filmszínésznő lenni?</p>
+            <p>Klári mosolygott.</p>
+            <p>- Micsoda kérdés? Melyik lány nem szeretne?</p>
+            <p>- Hát én majd csinálok valamit. Maga szép, formás, fiatal, ha ehhez még van is egy
+               kis tehet­sége, akkor lehet magából valami. Jöjjön el és jelentkezzék nálam.
+               Mindössze egy feltételem van.</p>
+            <p>- És pedig?</p>
+            <p>- Nehogy azt higyje, hogy akarok magától valamit és főleg maga ne akarjon tőlem
+               semmit. Maga azt mondta, hogy nem szerelmes belém. Ezt ugyan nem értem, dehát
+               előfordulnak néha ilyen furcsaságok. Mindenesetre örvendetes, hogy végre akadt
+               valaki, aki nem engem akar, hanem beéri valami kevesebbel is.</p>
+            <p>Klára csillogó szemmel, Paula néni kábultan hallgatta a filmszínészt. Paula néni
+               valóban nem hallott még ilyet. Az ajánlat nagyon szép volt, de ahogy előadták, az
+               felvérezte az idős hölgy lelkét. Nem birta megállni, hogy oda ne szóljon Klárának,
+               persze magyarul.</p>
+            <p>- Klári, te ezt tűröd?</p>
+            <p>- Hogyne tűrném. Igazat beszél és nem tehet róla. Ennek a beszédnek a nők az
+               okai.</p>
+            <p>Montmorencyhez fordult.</p>
+            <p>- Kedves Monsieur Montmorency, nagyon köszönöm az ajánlatát. Természetesen elfogadom.
+               Szeretnék látni valakit, aki nem fogadná el. Amúgy is külföldre akartam menni, hogy
+               szeren­csét próbáljak, így azonban igazán könnyű lesz. Nagyon szép magától, amit tesz
+               és én igen hálás vagyok.</p>
+            <p>Melegen megszorította a színész kezét és mosolyogva mondta.</p>
+            <p>- Miután pedig már nem vagyok az Apaffi Mihályné leánygimnázium növendéke, nyugodtan
+               kijelenthetem, hogy a lányok meg fognak pukkadni.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>10.</head>
+            <p>Gould, a nagy rendező - a félelmetes W. S. Gould - megpróbálta kiszabadítani karját
+               az acélos szorításból, de nem sikerült neki. Pierre D’Arnier, a fiatal író, erős fiú
+               volt.</p>
+            <p>- Csak még ezt az egyet hallgassa meg Mester! Adva van egy asszony...</p>
+            <p>Gould dühösen vágott közbe.</p>
+            <p>- Nézze D’Arnier, maga egyenesen az életemre tör. Amikor csak teheti, leteper és
+               szörnyűbb­nél szörnyűbb filmtémákat pödör belém. Ha van egy félóra szabad időm és ki
+               akarom pihenni magam, ki akarom szellőztetni magamból ezeknek a tehetségtelen
+               marháknak még az emlékét is, akkor maga ront nekem a hülyeségeivel. Ahelyett, hogy
+               belátná, hogy magából soha nem lesz szcenáriumíró és ebben a tudatban, nyugodtan
+               felakasztaná magát, napról-napra idejön és halálragyötör. Értse meg: minden rossz,
+               amit kitalál! Rossz, amit eddig mondott és rossz, amit ezután szándékszik mondani.
+               Nna! És most menjen a fenébe, mert kétszer egymásután bele­rúgok a sípcsontjába.</p>
+            <p>Pierre elnézően mosolygott.</p>
+            <p>- Nincs semmi baj, Maestro Gould. Elismerem, hogy maga a világ leggorombább
+               filmrende­zője, mert tudom, hogy erre sokat ad. Jobban örül neki, mintha a
+               zsenialitását dicsérnék. Pedig igazán nagy ember. Egy dologban azonban téved. Belőlem
+               mégis szcenáriumíró lesz. Hallgas­sa meg ezt! Adva van két lány...</p>
+            <p>Gould felordított.</p>
+            <p>- Gazember, gyilkos! Az előbb még csak egy asszony volt, most már két lány?...</p>
+            <p>- Az egy másik téma. Ez most jutott eszembe.</p>
+            <p>- Eressze el a karomat, piszkos bankrabló! Ha a megboldogult apja nem lett volna
+               jóbarátom, felhasítanám a hasát! Takarodjék innen, mert agyonverem!</p>
+            <p>- Jó, jó, ne mérgelődjön. Beszéljünk másról. Ki az a kislány, aki a szobacicát
+               játssza a maharadsa-filmben?</p>
+            <p>- Mit tudom én? Montmorency szabadította rám. Az az állat mindjárt megsértődik, ha
+               egy kérését nem teljesítem. Egyébként elég csinos.</p>
+            <p>- Van tehetsége?</p>
+            <p>- Körülbelül annyi, mint magának.</p>
+            <p>- Akkor zseniális lehet a kicsike.</p>
+            <p>- Hogyne, különösen a ping-pongban, vagy a sakkozásban. Különben mit kérdezősködik?
+               Hiszen ismeri. Már két napja együtt látom magukat.</p>
+            <p>- Gondoltam, hátha mond valami újat róla. Tetszik nekem a kislány.</p>
+            <p>- Semmi közöm a szívügyeihez. Menjen a fenébe, mert felvétel lesz!</p>
+            <p>- Megyek már. És ne aggódjék az új filmje miatt, mert hozom a témát.</p>
+            <p>Elrohant, mert a nagy Gould irtózatosan káromkodni kezdett és hozzá akarta vágni a
+               botját. A műterem ajtajában Kláriba ütközött.</p>
+            <p>- Á, jónapot, kedves Clara! Rég nem beszéltem magával.</p>
+            <p>- Bizony, - mosolygott a lány - van már egy órája.</p>
+            <p>- Úgy, csak egy órája? Nekem heteknek tünt fel. Van még itt dolga?</p>
+            <p>- Nincs. Mára végeztem, Monsieur D’Arnier.</p>
+            <p>- Volna kedve beülni velem a bisztróba és megvacsorázni?</p>
+            <p>- Szívesen. Roppant éhes vagyok.</p>
+            <p>- Akkor mehetünk is. Vegye a kalapját.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>11.</head>
+            <p>W. S. Gould, akit Európa egyik legnagyobb rendezőjének tekintettek, valóban a
+               leggorom­bább ember volt a filmszakmában. Tizenöt esztendővel ezelőtt tünt fel és
+               igen különös körül­mények között csinált karriert.</p>
+            <p>Leszerződött egy filmgyárhoz és néhány hét alatt elkészült első filmjével. A
+               színészek, színész­nők és maga a szerző is rengeteget panaszkodtak a rendezőre,
+               elviselhetetlen modora miatt. Mikor a film elkészült, a gyár igazgatója magához
+               hivatta.</p>
+            <p>- Nézze, Gould, maga befejezte nálunk az első filmjét. Gratulálok. Azt hiszem, a film
+               jó. Viszont mondanom kell valamit. Legyen szíves és fékezze az indulatait. Itt nem
+               lehet a színésznőket lemarházni, ezt jegyezze meg!</p>
+            <p>Gould elvörösödött mérgében.</p>
+            <p>- Az én feladatom az, hogy jó filmet csináljak. Ha a film csakugyan jó, senkinek
+               semmi köze hozzá, hogyan értem el az eredményt!</p>
+            <p>Az igazgató dühösen válaszolt, Gould még dühösebben replikázott, szó szót követett és
+               két perc mulva a rendező felkapta a direktort és kihajította az ablakon.</p>
+            <p>A ház magasföldszintes volt. Olyan magas volt a földszint, hogy az igazgató
+               kificamította a bokáját. Gouldot azonnal elbocsátották állásából.</p>
+            <p>A filmet pár hét mulva bemutatták. Olyan óriási siker volt, hogy a világ minden
+               filmszínháza hónapokig tartotta műsoron. Mindenki halálrakereste magát a filmen, csak
+               a rendezőnek nem volt állása.</p>
+            <p>A gyár, a sikeren felbuzdulva négy filmet csináltatott egymás után. A négy film
+               akkorát bukott, hogy milliókat fizettek rá. Erre gyorsan visszahívták Gouldot, aki
+               duplájára emeltette a fizetését és belevétette a szerződésébe, hogy olyan goromba
+               lehet, amilyen csak tud.</p>
+            <p>Ettől a pillanattól kezdve mindenki reszketett W. S. Gouldtól. Tombolt, dühöngött, a
+               színé­szeket és színésznőket lehülyézte és hasbarúgással fenyegette, de olyan
+               filmeket csinált, hogy senki sem tudott rá haragudni.</p>
+            <p>Ez a Gould szaladgált fel és alá tajtékzó dühvel ezen a szép márciusi reggelen a
+               műteremben. «A maharadsa kalandja» utolsó felvételeit csinálták. A nagy Gouldnak főtt
+               a feje, mert rögtön hozzá akart fogni az új filmhez és még mindig nem volt
+               szövegkönyve. Ezen az alapon úgy káromkodott, hogy még a kölcsönvett katonalovak háta
+               is borsódzott tőle a filmgyár istállói­ban.</p>
+            <p>Klára, akivel a rendező aránylag eléggé meg volt elégedve, az egyik ablaknál üldögélt
+               és D’Arnier-vel beszélgetett.</p>
+            <p>- Hihetetlen - mondta - hogy ez a Gould milyen goromba! Én nem tudom, hogyan tűrik el
+               a többiek?</p>
+            <p>- Mit csináljanak? - felelte D’Arnier. - Gould olyan nagy művész, hogy pótolhatatlan.
+               Magá­nak még szokatlan, de ők már fel sem veszik.</p>
+            <p>- Na, én bizony nem tűrném, hogy ilyeneket mondjon nekem. Nem tudom, mit csinálnék,
+               de biztos, hogy botrány lenne.</p>
+            <p>Gould ismét felordított.</p>
+            <p>- Állj!</p>
+            <p>Odaállt a főszereplő színésznő elé és kivörösödve bömbölte:</p>
+            <p>- Mondd, Sylvia, te öregségedre egész meghülyültél? Testvérek közt megvagy már
+               negyven éves és a legelemibb dolgokat is elrontod, mint egy kezdő. Most kezdd előlről
+               az egész jelenetet és ha még egy hibát csinálsz, darabokra törlek!</p>
+            <p>- De most csak kikaparja a szemét?! - mondta Klára.</p>
+            <p>A primadonna szó nélkül megfordult és elfoglalta előbbi helyét. Csak onnan mondta,
+               egész halkan.</p>
+            <p>- Tudhatná, hogy nem vagyok még harminckét éves sem!</p>
+            <p>- Hallgass! Nem érdekelnek a megjegyzéseid! Felvétel!!</p>
+            <p>A jelenet kitűnően sikerült. Gould pár percig pihent. D’Arnier odalépett hozzá.</p>
+            <p>- Azért mondhatom magának, Mester, hogy ilyen csúnyaszájú, durva parasztot, mint
+               maga, még nem láttam!</p>
+            <p>Gould arca felderült.</p>
+            <p>- Nekem maga hiába hízeleg! A filmjeit mégsem csinálom meg!</p>
+            <p>Pár perc mulva kezdődött a következő jelenet. A rendező Klárát szólította. Minden
+               símán ment. Gould láthatóan meg volt elégedve, mikor egyszerre Klára felvétel közben
+               felborította az aranyhalakkal telt üvegedényt. Legalább húsz méter film
+               elromlott.</p>
+            <p>Gould akkorát káromkodott, hogy a gyengébb idegzetűek befogták a fülüket, aztán Klára
+               elé állt.</p>
+            <p>- Trampli! - üvöltötte.</p>
+            <p>Klára elpirult.</p>
+            <p>- Süket is vagy? Azt mondtam: trampli!</p>
+            <p>- Mit mondott?</p>
+            <p>D’Arnier kétségbeesve integetett Klárának, hogy hallgasson, Klára azonban se látott,
+               se hallott.</p>
+            <p>- Nekem merte mondani, hogy trampli? - kiáltotta. - Hát ez a magáé! Fogja!</p>
+            <p>Felemelte a kezét és nagy lendülettel pofont vágta Gouldot.</p>
+            <p>A pofon csattanását ájult csend követte. D’Arnier halálsápadtan nézte Klárit,
+               mindenki más azonban a rendezőt figyelte tompa rémülettel. Klári remegő szájjal,
+               egészen elgyengülve állt néhány pillanatig, aztán megfordult és megroggyant léptekkel
+               kifelé indult.</p>
+            <p>- Na, ezt megcsináltad! - mondta magában. - Már megint nem gondolkoztál, hanem
+               átadtad magad az indulataidnak. Hogy lehet valaki ilyen szerencsétlen természetű?
+               Most mehetsz vissza Budapestre, mondjuk, gépírónőnek! Sosem lesz belőled semmi!</p>
+            <p>Már az egyik kijáratnál volt, mikor utánasüvöltött a főrendező hangja.</p>
+            <p>- Állj!</p>
+            <p>Klára megállt, de nem volt ereje, hogy visszaforduljon.</p>
+            <p>- Gyere ide!</p>
+            <p>Klára erőt vett magán és megindult visszafelé.</p>
+            <p>- Biztos, hogy megöl, - gondolta - ez még a jobbik eset, de lehet, hogy meg fog
+               verni, itt, mindenki előtt. Jó volna meghalni!</p>
+            <p>De azért tovább vonszolta magát, a rendező felé, remegő lábbal, mintha szuggesztió
+               alatt volna. Mikor Gould elé ért, megállt és félájultan várt, hogy mi lesz?</p>
+            <p>Egy végtelennek tetsző perc telt el. A rendező és Klára szótlanul álltak egymással
+               szemben. Mindenki előrenyujtott fejjel, halálos csendben figyelt. És ekkor megtörtént
+               a csoda.</p>
+            <p>Gould kinyújtotta a kezét és rátette Klára vállára. Kicsit megszorította és gyengén
+               megrázta.</p>
+            <p>- Na - mondta - térj magadhoz! Ez váratlan volt, de jól csináltad. Határozottan
+               egyéniség vagy. Most már elhiszem, hogy lehet belőled valami. Ne reszkess itt, a fene
+               egyen meg! Nem bántlak. Szeretem a kemény embereket. Mikor tizenöt évvel ezelőtt
+               kidobtam az igazgatómat az ablakon, én is éreztem, hogy egész ember vagyok. A szamár
+               megsértődött és elbocsájtott. Aztán persze visszahívott. Én nem csinálom végig veled
+               ezt a komédiát. Hogy van tehetséged, ezt már ennél a filmnél láttam, de nem tudtam,
+               hogy egyéniség vagy. Most már tudom. Hol­nap délelőtt bejössz az irodába és új
+               szerződést csinálunk. Te játszod a legközelebbi film fő­szerepét. Ha megbukol vele,
+               ráérek akkor kirúgni innen. Most eredj a pokolba, ma nincs több felvétel.</p>
+            <p>A körülállók nyitott szájjal, bámulva hallgatták. Klára úgy ment ki, mint egy
+               alvajáró. Pierre D’Arnier Gouldhoz lépett és mielőtt a rendező védekezhetett volna,
+               jobbról-balról megcsó­kolta. Gould káromkodott egyet, de a káromkodás elveszett a
+               csókot követő tapsviharban.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>12.</head>
+            <p>Másnap délelőtt D’Arnier és Gould együtt sétáltak a filmgyár hatalmas udvarán.</p>
+            <p>- Látja, maga marha - mondta a rendező, - ha egy szemernyi tehetsége volna, most maga
+               is karriert csinálhatna!</p>
+            <p>- Hogyan?</p>
+            <p>- Hogyan? Hogyan? Miféle hülye kérdés ez? Hát nem látja, hogy meg vagyok akadva?
+               Ettől a kis vadmacskától várok valamit. Szívesen hozzáfognék akár holnap már a
+               filmjéhez. Biztos, hogy sikerülne. Az én megérzéseim nem szoktak csalni. És nem
+               csinálhatok semmit, mert nincs szövegkönyvem. Maga napról-napra marhaságokkal gyötör,
+               de még soha nem volt egy egészséges ötlete.</p>
+            <p>D’Arnier szomorúan lehorgasztotta a fejét és továbblépdelt a főrendező mellett.
+               Egyszerre felcsillant a szeme.</p>
+            <p>- Mester - mondta - most aztán igazán van egy jó ötletem!</p>
+            <p>Gould legyintett.</p>
+            <p>- Magától én csak egyetlen jó ötletet várok. Ha egyszer eszébe jut, hogy nem ír több
+               szcená­riu­mot.</p>
+            <p>- Hallgasson végig. Ez igazán jó ötlet. Ne türelmetlenkedjen!</p>
+            <p>Gould lemondóan legyintett.</p>
+            <p>- Na, kezdje el! Máskép úgy sem szabadulok magától.</p>
+            <p>- Hát kérem... Adva van egy diáklány. Nyolcadikos gimnazista. Egyszer eszébe jut egy
+               tréfa. Fogja magát és az iskolában felöltözteti Zakariást.</p>
+            <p>- Stop! Ki az a Zakariás?</p>
+            <p>- A csontváz.</p>
+            <p>- Mondja, maga egészen hülye?</p>
+            <p>- Nem.</p>
+            <p>- Akkor folytassa.</p>
+            <p>D’Arnier folytatta. Szemrebbenés nélkül mondta végig Klára történetét. Mikor a
+               pofonhoz ért, a rendező felszisszent.</p>
+            <p>- De hiszen maga ennek a Clara Kovácsnak az esetét mesélte el nekem!</p>
+            <p>D’Arnier bólintott.</p>
+            <p>- Igen. Talán nem jó téma?</p>
+            <p>- De jó. Meglepően jó. Persze azt a pofonhistóriát majd máskép csináljuk. Egyébként
+               azonban meghagyunk mindent, úgy, ahogy elmesélte. Látja, mindig mondtam, hogy ne
+               csüggedjen, mert magából még lesz valami. Ez az ötlet sok pénzt ér.</p>
+            <p>D’Arnier nem akart hinni a füleinek.</p>
+            <p>- Mondja, Mester, nem tréfál?</p>
+            <p>Gould dühbejött.</p>
+            <p>- Tréfáljon magával a hóhér, azon a bizonyos utolsó hajnalon! Most tűnjön el és írja
+               le ezt a témát három gépelt oldalon. Délben jőjjön be az irodába. Magával is
+               megcsináljuk a szerződést!</p>
+            
+         </div>
+         <div type="chapter">
+            <head>13.</head>
+            <p>Az ezután következő hónapokra Klára csak valami rózsaszínű ködfátyolon keresztül
+               emlé­kezett vissza. Mikor azon az emlékezetes délelőttön Pierre-rel együtt kilépett
+               az igazgatói iroda ajtaján, zsebében a mesébeillő szerződéssel, úgy érezte, hogy most
+               indul csak el az élete. Ami azelőtt történt, csak jelentéktelen próbálkozás volt.</p>
+            <p>Azután elkezdődött a munka. Klára a pokol kínjait szenvedte végig. A rendező
+               elviselhetet­lenebb volt, mint valaha. Klára minden este sírva ment haza a stúdióból.
+               D’Arnier alig győzte vigasztalni.</p>
+            <p>- Meg kell érteni ezt az embert, Clara! Ez most egy lapra tette fel tizenötévi
+               munkája minden eredményét. Ha maga megbukik, ő is megbukott. A mi nagy császárunk,
+               Napoleon is addig volt félelmetes és megdönthetetlen, amíg egyszer csatát nem
+               vesztett. Gouldnak sem szabad csatát veszteni.</p>
+            <p>Montmorency is bíztatta Klárát. Partnere volt a filmben és Klári nagyon megszerette a
+               szálas, rettenetesen hiú férfiprimadonnát. Hálás volt neki, hiszen ő indította el.
+               Montmorency viszont minden baját neki panaszolta el. A nőügyek úgy összetornyosultak
+               a feje felett, hogy már ki sem látszott belőle.</p>
+            <p>- Mit csináljak? - kérdezte Kláritól. - Adjon tanácsot, hiszen ezt nem lehet kibírni.
+               Jaj, de jó volna, ha egy évig nem látnék nőt.</p>
+            <p>- Utazzon el! - mondta Klára. - Fogadja el a Hollywoodból felkínált szerződést.</p>
+            <p>- Miért, Hollywoodban talán nincsenek nők?</p>
+            <p>- De vannak. Ezek azonban újak lesznek. Különben is maga csak beszél a levegőbe. Nem
+               tudna ellenni a nők nélkül egy hétig sem.</p>
+            <p>- Na, majd még meglátom, mit csinálok. Hát magával mi van? Még mindig nem szerelmes
+               senkibe?</p>
+            <p>- Nem - felelte Klára.</p>
+            <p>- Na, nekem megmondhatja. Ma olyan jóbarátok vagyunk, mintha maga is férfi volna.
+               Tehát?...</p>
+            <p>- Hát tudja, ez a Pierre D’Arnier helyes fiú.</p>
+            <p>- Ahá! Csakhogy ezzel nekem nem mond újat.</p>
+            <p>- Hogyhogy?</p>
+            <p>- Tegnap maga, Pierre, órákig mesélte nekem, hogy ő milyen helyes fiú, milyen rendes
+               ember, milyen tehetséges és milyen jó gyerek.</p>
+            <p>- Magának mesélte? Dehát miért?</p>
+            <p>- Hogy mondjam meg magának. Járjak az érdekében. Azt mondta: Tudod öregem, én kitűnő
+               társalgó vagyok, mulatságos fiú, de a nőkkel nem tudok bánni. Te olyan nagy nőcsábász
+               vagy. Főzd meg nekem ezt a kislányt. Hidd el, a legtisztességesebb szándékaim
+               vannak.</p>
+            <p>Klára elpirult.</p>
+            <p>- Igazán? Csakugyan ezt mondta?</p>
+            <p>- Csakugyan.</p>
+            <p>- Ezt az utóbbit is mondta?</p>
+            <p>- Igen. Ez az ember képes rá és megnősül, ha maga is akarja. Borzasztó. Olyan szépen
+               indult a karrierje. Na, megyek, mert nagyon elszomorodtam. Mit mondjak neki?</p>
+            <p>- Mondja meg, hogy az ilyesmit négyszemközt szeretem elintézni az illető
+               leánykérőkkel.</p>
+            <p>- Értem. Majd megmondom neki. Hallatlan! Felcsaptam szerelmi postásnak. Úgylátszik,
+               öreg­szem...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>14.</head>
+            <p>Május elején bemutatták Klára filmjét. A siker minden képzeletet felülmult. Az
+               idegenekkel szemben nehezen felmelegedő párisiak egyszerre ölelték szívükre a magyar
+               leányt. A bemuta­tó közönsége elragadtatott nyíltszíni tapsokban tört ki. A siker
+               általános volt. Montmorency élete legkiválóbb alakítását nyujtotta. Gould
+               brillírozott.</p>
+            <p>Másnap Gould és Montmorency meghívót kapott az elnöki palotába. A meghívót kézbesítő
+               tisztviselő, régi filmgyári habitué, megsúgta mindkettőjüknek, hogy jól
+               borotválkozzanak meg.</p>
+            <p>- Miért? - kérdezte Gould.</p>
+            <p>- Mert a becsületrend átnyujtásánál, régi szokás szerint az elnök megcsókolja a
+               kitüntetettet.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>15.</head>
+            <p>Klára meghatva forgatta az előtte fekvő magyar újságot. D’Arnier mellette ült és
+               mosolyogva nézte. Klára újra hozzálátott, hogy tizedszer is elolvassa az
+               újsághírt.</p>
+            <p>«Az Odeon filmszínház csütörtök este mutatja be először Budapesten, az új párisi
+               magyar filmcsillag, Kovács Klára filmjét. A fiatal filmszínésznő meglepően rövid idő
+               alatt csinált karriert. Budapest közönsége kíváncsian várja az új sztár
+               bemutatkozását, mi pedig örülünk, hogy ismét egy magyar sikert regisztrálhatunk.»</p>
+            <p>Klára lefordította a cikket D’Arnier-nek.</p>
+            <p>- Csütörtökön lesz - mondta. - Körülbelül akkor kezdődnek nálunk az érettségi
+               vizsgák. Engem kicsaptak, de azért mégiscsak fogok érettségizni. Csakhogy máskép,
+               mint az osztály­társnőim. De higyje el, Pierre, hogy ép úgy drukkolok, mint ők...</p>
+            <p>D’Arnier szerelmesen simogatta meg a leány kezét.</p>
+            <p>- Hazamegy, Clara? - kérdezte.</p>
+            <p>- Természetesen. Csak illik ott lenni az érettségimen? De legyen nyugodt. Rövidesen
+               vissza­jövök. Nekem már ki van jelölve itt az utam, amelyen haladnom kell. Nem is
+               tudnék letérni róla...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>16.</head>
+            <p>Az igazgató úr kicsit zavartan köhögött, mielőtt megszólította Vértes dr.-t, a
+               természettan­tanárt.</p>
+            <p>- Kedves kollégám - mondta - ne haragudjék, de a mai estét nem tölthetjük együtt.
+               Bánt a dolog, mert évek óta minden csütörtökön összeültünk arra a kis sakkpartira,
+               dehát... hogy is mondjam csak... családi körülmények gátolnak.</p>
+            <p>Dr. Vértes megkönnyebbülten sóhajtott fel, de azért komoly arccal mondta.</p>
+            <p>- Igazán sajnálom, kedves direktorom, dehát ha komoly okai vannak, az mindennél
+               fontosabb.</p>
+            <p>- Maga mit csinál az estjével?</p>
+            <p>- Ó, majd csak eltöltöm. Néhány új fizikai könyvem érkezett. Ön tudja, hogy engem nem
+               nagyon érdekel egyéb...</p>
+            <p>- Hát akkor viszontlátásra! Ma már nem látjuk egymást.</p>
+            <p>De látták. Még pedig igen furcsa körülmények között.</p>
+            <p>Az Odeon mozi két széksorát megtöltötte a VIII. osztály növendékgárdája.
+               Természetesen az „Apaffi Mihályné» leánygimnázium nyolcadik osztályáról beszélünk.
+               Mák Marietta és Kővágó Gizi egymás mellett ültek a legnagyobb egyetértésben. Gács Éva
+               egy bizonyos Gyuriról beszélt Péterffy Katónak, aki kövérebb volt, mint valaha.</p>
+            <p>- Gyuri remek pofa - mondta Gács Éva. - Olyan jókat mond.</p>
+            <p>- Biztosan betanulja otthon, mielőtt találkozna veled! - szólt oda Kővágó Gizi.</p>
+            <p>- Pukkadj meg! - mondta dühösen Gács Éva.</p>
+            <p>- Mondd, Évikém, nem gondolod, hogy fogytam valamit? - kérdezte Péterffy Kató.</p>
+            <p>- De igen, drágám. Mennyit fogytál?</p>
+            <p>- Körülbelül negyven dekát.</p>
+            <p>Mák Marietta tölcsért csinált a kezéből, úgy súgta:</p>
+            <p>- Negyven kiló sem látszana meg rajtad.</p>
+            <p>Péterffy Kató kiöltötte a nyelvét, de gyorsan visszahúzta.</p>
+            <p>- Gyerekek, végünk van! Nézzétek azt a páholyt. Vértes van ott!</p>
+            <p>Mák Marietta előrehajolt.</p>
+            <p>- Jó Isten, csakugyan. És az igazgató úr!</p>
+            <p>- Ó!!</p>
+            <p>- Elcsípnek bennünket a moziban, pár nappal érettségi előtt!</p>
+            <p>Péterffy Kató izgatottan súgta:</p>
+            <p>- Ugye mondtam, hogy nem illik ilyenkor moziba jönni. Igazuk volna, ha botrányt
+               csinálnának.</p>
+            <p>De nem csináltak. E pillanatban egymással voltak elfoglalva.</p>
+            <p>- Lám, lám, direktorom - mondta dr. Vértes - zavartan igazgatva a nyakkendőjét - lám
+               lám... ezt a véletlent.</p>
+            <p>- Igen... hm... elmaradt a családi... őőő... összejövetel. De ön sincs a
+               fizika-könyvei mellett, amint látom.</p>
+            <p>- Nem, mert, hogyis mondjam, kiderült, hogy rosszakat küldtek. Gondoltam, megnézek
+               egy filmet, ha már erre jártam...</p>
+            <p>- De hisz ön nem a Rákóczi-út környékén lakik, hanem Óbudán.</p>
+            <p>Dr. Vértes izgatottan köhögött.</p>
+            <p>- Valóban? - kérdezte csodálkozva. - Hát ön, hogy került ide, direktorom?</p>
+            <p>- Hát... gondoltam, megnézem annak a haszontalan lánynak a filmjét. Mégiscsak hozzánk
+               járt iskolába, több, mint hét évig...</p>
+            
+         </div>
+         <div type="chapter">
+            <head>17.</head>
+            <p>- Gyerekek, ott van Klári!</p>
+            <p>Klári ott ült az egyik páholyban. Mellette a színházi újság szerkesztője és Paula
+               néni. Mikor a film végétért, a közönség óriási tapsviharban tört ki és Klára felállva
+               a páholyban, lehajtott fejjel fogadta a tapsokat.</p>
+            <p>Ekkor kopogtak a páholy ajtaján. Az igazgató és dr. Vértes lépett be. Az igazgató úr
+               nagy zavarban volt.</p>
+            <p>- Kedves ő ő ő... kedves Klára. Ha megengedi, szívből gralulálok. Maga igen nagy
+               művész és az «Apaffi Mihályné» leánygimnázium boldog, hogy maga odajárt közénk... Mi
+               mindig büszkék leszünk magára.</p>
+            <p>Odalépett a leányhoz és kissé szögletes mozdulattal kezet csókolt neki. Klára könnyes
+               szem­mel kérdezte:</p>
+            <p>- Hát átmentem az érettségin, igazgató úr?</p>
+            <p>- Jelesen ment át, fiam...</p>
+            <p>Klári szédült egy kicsit, mikor végigment a páholyfolyosón. A moziközönség tapsa és
+               éljen­zése adott ütemet minden lépésének. Mikor a kijárathoz ért, meglepődve állt
+               meg.</p>
+            <p>- Éljen Klári!</p>
+            <p>Igen. A VIII. osztály testületileg várta. Klára számított rá, de azért mégis úgy
+               örült, mintha valami nagy és meglepő ajándékot kapott volna valakitől.</p>
+            <p>Kővágó Gizi előrelépett.</p>
+            <p>- Üdvözöllek Kovács, annak az osztálynak nevében, amely kitermelt magából téged, hogy
+               a köznek ajándékozzon. A filmen szép és kitűnő voltál, ennélfogva, szívből keblünkre
+               ölelünk. Remélem, hogy még nem vagy túlbüszke és ezért meghívunk a jövő héten lezajló
+               érettségi bankettre, ahol az egészségedre való mértéktelen ivás folytán iszonyúan be
+               akarok rúgni...</p>
+            <p>Klára sírt is, nevetett is. Megcsókolta Kővágó Gizit, aztán sorba, mind a harminckét
+               lányt. A közönség ismét tapsolt. Egy fotóriporter szorgalmasan fényképezett.</p>
+            <p>- Hát engem már mindig le fognak fényképezni, ha csókolózom? - kérdezte Klári.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>18.</head>
+            <p>TÁVIRAT</p>
+            <p>
+               Mmlle Clara Kovács Budapest
+            </p>
+            <p>
+               Sikerhez gratulalok Stop Nagyon hianyzik nekem Stop Gould koenyoeroeg 
+               hogy irjak neki uj filmet Stop Meg meggondolom Stop Siessen vissza Stop
+                  Zakariast csokolom
+            </p>
+            <p>
+               D’Arnier
+            </p>
+            <p> VÉGE.</p>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
