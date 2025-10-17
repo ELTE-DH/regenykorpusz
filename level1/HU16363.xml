@@ -1,0 +1,2103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xml:id="HU16366" xml:lang="hu" xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A kis Kelemen története : Regény kicsik és nagyok számára</title>
+            <author>
+               <persName>
+                  <surname>Rákosi</surname>
+                  <forename>Jenő</forename>
+               </persName>
+               <date from="1842" to="1929">1842–1929</date>
+               <idno type="VIAF">84419870</idno>
+            </author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>
+                  Palkó Gábor
+                  <ref target="https://viaf.org/viaf/65989506"/>
+               </name>
+               <name>Fellegi Zsófia</name>
+               <name>Bajzát Tímea Borbála</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">21573</measure>
+            <measure unit="pages">48</measure>
+            <measure unit="vols">1</measure>
+         </extent>
+         <publicationStmt>
+            <p>Published as part of ELTeC and ELTE Novel Corpus</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="digitalSource">
+               <title>A kis Kelemen története : Regény kicsik és nagyok számára</title>
+               <date>2016-12-21</date>
+               <publisher>Magyar Elektronikus Könyvtárért Egyesület</publisher>
+               <ref target="https://www.mek.oszk.hu/16300/16366/"/>
+               <respStmt>
+                  <resp>Original Electronic Edition</resp>
+                  <name>Varjú Mária</name>
+                  <name>Vidiné Réfi Erzsébet</name>
+                  <name>Rónyainé Varga Tünde</name>
+                  <name>Mészáros Attila</name>
+               </respStmt>
+            </bibl>
+            <bibl type="printSource">
+               <title>A kis Kelemen története : Regény kicsik és nagyok számára</title>
+               <author>Rákosi Jenő</author>
+               <pubPlace>Budapest</pubPlace>
+               <publisher>Singer - Wolfner</publisher>
+               <date>1895</date>
+               <ref target="https://www.mek.oszk.hu/16300/16366/"/>
+            </bibl>
+            <bibl type="firstEdition">
+               <title>A kis Kelemen története : Regény kicsik és nagyok számára</title>
+               <author>Rákosi Jenő</author>
+               <date>1891</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-0">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="hu">Hungarian</language>
+         </langUsage>
+      </profileDesc>
+      <xenoData>
+         <ns1:eltec>
+            <ns1:authorGender key="M"/>
+            <ns1:size key="short"/>
+            <ns1:canonicity key="low"/>
+            <ns1:timeSlot key="T3"/>
+         </ns1:eltec>
+      </xenoData>
+      <revisionDesc>
+         <change when="2025-10-17"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="chapter">
+            <head>
+               I. Bevezetés.
+            </head>
+            <p>Kedves fiatal barátaim, ti nem szoktatok ujságot olvasni, nem is tudjátok, mennyi
+               szeren­csétlenség történik a világon. De ha nagyobbak lesztek és olvastok ujságot is,
+               jusson mindig eszetekbe, hogy ugy, mint a hogy nappalból éjjel, az éjjelből nappal
+               lesz: a szerencsétlenség sem külön magában álló dolog, hanem szerencséből lesz és
+               ismét szerencse is lesz belőle. Csakhogy az ujságok az összefüggést nem tudhatják,
+               mert egy-egy eset mindig magában áll előt­tük. A nagy szerencsét leirják s nem
+               tudják, mikor lesz forrásává a nagy szerencsét­len­ségnek, s megirják a
+               szerencsétlenséget s nem láthatják, miből lett, vagy nem lett-e nagy szerencse
+               okozója vagy éppen iskolája. Igy van az a történet is, a melyet most el fogok nektek
+               beszélni. Azt kell belőle megtanulni, hogy szükséges a szerencsétlenséget csüggedés,
+               a szerencsét elbizakodás nélkül viselni, mert mind a kettő Istentől van és ha
+               alázatosan viseled, Istenhez vezérel.</p>
+            <p>Néhány évvel ezelőtt a következő esetet közölték a hirlapok:</p>
+            <p>»Borzasztó esetről értesitenek bennünket Pozsonyból. Nem messze - mindössze nehány
+               kilométernyire - a régi koronázó városhoz, a Duna partján áll egy kis ház. Évek óta
+               egy jámbor házaspár lakik benne kis fiával. Szerényen, elvonultan, kis fiok
+               nevelésének éltek, a ház körüli földeket müvelve, melyek az övéik voltak. Tegnapelőtt
+               az apa bejött a városba, a hol dolga akadt s csak későn este tért haza kedves
+               tanyájára. Feltünt neki, hogy háza ablaka nem világit elejbe az éjjeli sötétségben s
+               nem aggodalom nélkül, mintegy balsejtelemtől űzve, kettőztetett lépésekkel sietett
+               hajlékát elérni. Lakása ajtaját nyitva találja; ijedten lép be, mert rendes dolog
+               volt, hogy esti szürkülettel be szokták csukni az ajtót, - és nejét szólítja, de
+               feleletet nem kap. Beljebb megy s az ambituson megbotlik valamiben. Lehajlik,
+               megtapogatja: egy emberi test. Szörnyü ijedelem szállja meg, megrázza a testet,
+               feleségét nevén szólitja, de feleletet nem kap. Azt hitte, az asszony el van ájulva,
+               fiát kiabálta, de mind hasztalan. Rémes aggodalmak közt és gyöt­rő gondolatoktól
+               megszállva indul a hely felé, a hol a gyertyát s gyujtót tartották, hogy világot
+               gyujtson, de minduntalan megbotlik valamiben. Mintha minden a lakásban ki volna
+               mozdítva helyéből. A gyertyát sem találja helyén. Akkor jut eszébe, hogy zsebé­ben is
+               van gyujtó. Reszkető kézzel iparkodik egy szálat meggyujtani, de csak nehezen
+               sikerült neki roppant izgatottságában. Végre ég a gyujtó. A lámpás eltörve a földön
+               hever. Ott fekszik a gyertyatartó is, benne egy darab gyertya, felveszi és
+               meggyujtja, s a mint a gyenge világitó szer fénye végig reszket a szobán, emberünk
+               látja, hogy az egész lakás fel van dulva, fenekestül fel van forgatva. Szinte
+               megdermedve a helyzet rettentő voltától, feleségéhez tántorodik, melléje térdel s
+               leteszi a gyertyát a földre. A földön elterült nő fejét fölemeli s rekedt hangon
+               szólítja. De a nő meg van halva, nyakán a foj­to­gatás erőszakos jelei. A boldogtalan
+               férfi elejti nejét a földre, hogy szinte koppan a feje és rémesen kiáltozza
+               gyermekét. De néma csendesség felel neki, oly csendesség, hogy szinte hallani
+               lehetett a Duna moraját, a mint a partot csapkodja. Mellőzzük annak leirását, mint
+               kutatta fel a ház minden részét, majd a tájékát. Mert látta, hogy itt erősza­kosság
+               történt és remélte, hogy tán a fiu elbujt valahol. De eredménytelen volt minden
+               keresése. Még az éjjel bejött Pozsonyba, felverte a rendőrséget és mint egy őrült
+               sza­lad­gált nyom után. Elsőbben is egy embert sikerült találnia, valami
+               pásztorfélét, a ki látott a házhoz közel csónakot kikötni, két emberrel. A csónakosok
+               Pozsony felől érkeztek. Itt Pozsonyban meg volt állapítható az, hogy két ember, a
+               kiknek személyleirása meglehe­tősen hasonlított azokéhoz, a kiket a pásztorember
+               látott, csónakot vásárolt és estefelé el­evezett tényleg a kis házikó irányában.
+               Ennél többet senki sem tudott, sem azt a két embert, bár többen látták, nem ismerte
+               itt senki. Csak az volt még kiderithető, hogy az a két ember vasuton érkezett, a
+               vasuti jegyszedő emlékezett rájok. De már ez nem biztos, mert egy ily eset igen
+               termékenynyé szokta tenni az emberek fantáziáját. A szegény, leg­kedvesebbjéből
+               kifosztott ember, mikor kutatásai ennyit kiderítettek, kétségbe­esésében maga is
+               csónakra ült, nyilván, hogy járja a partokat s vizeket, mert meg van győ­ződve arról,
+               hogy a vizen vitték el boldogtalan gyermekét. Azóta neki is se hire se hamva,
+               házikója elhagyottan áll. A rendőrség egészen tanácstalan e rejtelmes esettel
+               szemben.«</p>
+            <p>Ez volt megirva az ujságban.</p>
+            <p>Egy párszor azután máskor is volt még róla szó, de mindig csak az, hogy semmi sem
+               derült ki a dologban. Egyszer még irták, hogy a szerencsétlen apa sem került meg
+               többé, aztán többet nem irtak róla s az emberek végre egészen megfelejtkeztek a
+               dologról.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               II. Kelemen a libák nélkül.
+            </head>
+            <p>Somberek egy kis falu a Duna-Tisza közén. Egy utcából áll, annak se mind a két szélén
+               voltak házak. Az utolsó házikók közül egyben lakott Kati asszony, özvegy Cserebók
+               Péterné, a ki nagy aggodalmak közt jár ki s be a házában, majd szük udvarán végig;
+               aztán ki-kiáll az utca­ajtóba és kémlelve nézeget a mező felé. Már a kanász, már a
+               csordás is hazahajtott és ő mégis hiába várja a Kelemen gyereket drága libáival. Mi
+               érte a gyereket? Nem esett-e kár a libákban? Halálos aggodalom szállta meg a szegény
+               asszonyt. Minek is bizta kedves állatjait arra a gyerekre! Máskor, mikor senki se
+               őrizte őket, olyan pontosan jöttek mindennap haza gegegve a szomszédok libáival!
+               Most, hogy őrzőjük is van, ime, ilyen veszedelem esik meg rajtok. Igaz, hogy már négy
+               hete jár ki velök Kelemen és még mindig haza is jött velök, de hát a
+               szerencsétlenségnek egy nap is elég arra, hogy koldussá tegyen egy szegény özvegy
+               asszonyt. Mert nagy kincs ám annak hat olyan liba, a milyent ő nevelt! Aztán itt van,
+               szól az esteli harangszó és még se gyereknek, se libának se hire se hamva! Kati
+               asszony keresztet vet és imádkozni próbál. De összezavarja az angyali üdvözlet. Csak
+               tudná merre keresni, elejbe menne, gondolja magában és igazgatja ösztönszerüleg
+               fejkendőjét meg a kötényét, pedig a nélkül is rendben van mindenik. De ha jóravaló
+               ember az utcára lép, hát gondja van magára, hogy bolondnak ne nézzék.</p>
+            <p>- Mi baj, Kati hugom, kérdi Gereben János gazda, a ki vállán kaszával ballagott el a
+               ház előtt. Jó estét adjon Isten.</p>
+            <p>- Adjon Isten, János gazda. Ugyan nem látta-e azt a Kelemen gyereket a libáimmal? Még
+               sincs itthon, pedig már éjfél lesz innen-onnan.</p>
+            <p>- Hát arra bizta a libáit?</p>
+            <p>- Arra, lelkem, de bár ne biztam volna, nem volnék most ilyen kárban.</p>
+            <p>- Biz én nem láttam se gyereket, se libát, mond a gazdaember, most felelve az első
+               kérdésre.</p>
+            <p>- Végem van, végem van! Kiáltja Kati, a mi mutatja, hogy aggodalmában már szinte a
+               fejét kezdi veszteni.</p>
+            <p>- Megmondták kendnek Kati már akkor, minek fogadja be azt a kis csavargót. Most hát
+               megvan, a mit keresett.</p>
+            <p>- Ugyan ki fogadná, mond erre Kata asszony álmélkodva, be a koldust, ha nem a szegény
+               ember? Mi lett volna vele olyan betegen és elnyomorodottan, a hogy a falunkba
+               vetődött?</p>
+            <p>- Hát hiszen én föl nem panaszlom, feleli Gereben János, kend siratja a libáit, nem
+               én!</p>
+            <p>- Jaj drága szép madaram, hat libám! siránkozék Kati.</p>
+            <p>- Láttam én máskor azt a gyereket a libákkal, folytatja Gereben János. Nem a
+               liba-gyöpre vitte ám az, hanem elkalandozott velök. Ott legeltette mindig a
+               kastélybeli angol kert alatt. Aztán hallottam azt is, hogy kisebb gondja is nagyobb
+               volt a libáknál, hanem az angol kert keritésére ágaskodott, aztán beszélgetett meg
+               játszott a kontyesz-kisasszonynyal.</p>
+            <p>- Uram bocsá! kiáltá Kata; a vérit veszem annak az istentelennek!</p>
+            <p>- Még ilyet somberki parasztgyerektől nem láttak. A mieink legföllebb ha baraczkot
+               vagy figét lopni másztak be az urasági kertész-kertbe. No, de nyugodalmas jóétszakát
+               kivánok kendnek, Kati.</p>
+            <p>És ezzel tovább ment Gereben János. Kati asszony pedig ugy meg volt rettenve, hogy
+               hat libáját már hatfelé, a gyereket pedig hétfelé látta. Ment is a sövény mellé botot
+               keresni azzal az eltökélt szándékkal, hogy most már elindul, megkeresni az
+               elmaradottakat. A mint azonban ismét az utczára lép, hát ott áll előtte egy kis fiu,
+               pőre parasztruhában, kis kalap a fején, ölében pedig egy nyöszörgő kis kutya.</p>
+            <p>Kati asszony meglátja, eláll a szava, égnek mered a két keze, még az is, a melyikben
+               bot nem volt és egy nagy nagy lélekzet után csak ennyi jött ki belőle:</p>
+            <p>- Hát a libák?</p>
+            <p>- Ne ijedjen meg, édes Kati néném, szól a fiu, nem esett semmi bajuk.</p>
+            <p>- Hát neked?</p>
+            <p>- Nekem sincsen semmi bajom.</p>
+            <p>- Hát a kutyádnak?</p>
+            <p>- A kutyámnak? És ezzel a vinnyogó kis állatot arcához szoritotta és maga is sirástól
+               elfojtott hangon folytatá: a szegény Pajtás-nak leütötte két lábát a Krumpli
+               Csicsa.</p>
+            <p>- Az urasági csősz? Hát annak mi köze a kutyádhoz?</p>
+            <p>- A Pajtás nem hagyta a libákat.</p>
+            <p>- Hát az én libáimhoz mi köze a Krumpli Csicsának.</p>
+            <p>- Behajtotta.</p>
+            <p>- Behajtotta! És mint a villám csapott le Katalin asszonynak két fölemelt keze.
+               Behajtotta! Igy őrzöd te az én drága jószágomat? Igy fizetsz te énnekem, nyomorultnak
+               a miért megszán­talak? Vége a világnak, mert tudom, hogy az a gyehenna ispán ki nem
+               adja darabját öt garason alul. Jaj, jaj szegény özvegy fejemnek, drága libáimnak! Mit
+               csináljak, mit csináljak!</p>
+            <p>És Kati asszony sirva indult be udvarába. Kelemen utána ment és vitte a kutyáját.</p>
+            <p>- Édes Kati néném!</p>
+            <p>- Hozzám ne szólj, te! Te megrontóm te! Inkább szedd össze a motyódat, aztán Isten
+               nevében menj kutyástul, mindenestül, mert engemet már a sir szélire vittél.</p>
+            <p>Kelemen a kutyát letette egy alkalmas vacokba a konyhában, aztán odalépett Kata
+               asszony­hoz, megfogta a kezét és megcsókolta és igy szólt: »Édes jótévő anyám, ne
+               haragudjék rám. Ne üzzön el magától. Nagy kárt tettem, de majd helyre hozom. Az Isten
+               áldja meg jó anyai szívét.«</p>
+            <p>- Mit hozhatsz helyre te! Ha ott lett volna a szemed a libákon, akkor most nem volna
+               mit helyrehozni.</p>
+            <p>- Belementek az urasági zabba. Én ugyan mindjárt észre vettem, a Pajtás szaladt is
+               már, hogy megterelje, de akkorra már ott termett a csősz, azt tartom, ott hevert az
+               árokban s onnan került elő és elhajtotta. A Pajtás neki esett, de az a goromba ember
+               botot fogott rá s elütötte a két első lábát. Aztán se kérés, se könyörgés nem
+               használt, behajtotta.</p>
+            <p>- Jól van, mond Kata asszony. Hát most azonnal fogod magad és elmégy Czinczér
+               uramhoz, az ispány urhoz és megkérleled. Ha kiadja a libákat, te meg megfogadod, hogy
+               ezentul jobban vigyázol, akkor én sem haragszom.</p>
+            <p>- Nem, Czinczér urhoz nem megyek, feleli mintegy ijedten a gyermek.</p>
+            <p>- Nem mégy? És miért nem mégy?</p>
+            <p>- Nem merek.</p>
+            <p>- Bántott valamikor?</p>
+            <p>- Nem, nem bántott.</p>
+            <p>- Hát akkor mért nem mersz odamenni?</p>
+            <p>- Félek tőle.</p>
+            <p>- De mitől félsz, ha nem bántott?</p>
+            <p>- A minap, mikor ott kün ültem a gyepü alatt, a mint nézek, egyszerre csak megszóllal
+               valaki a gyepü mögött. A mint a szavát meghallottam, akkorát dobbant a szivem, hogy
+               majd kiesett. Ugy rémlett, hogy ismerem, a ki beszélt, mintha már hallottam volna. S
+               a mint oda nézek, hát látom, hogy igazán ismerem, de a beszédét még nem hallottam
+               soha. Az ispán volt. Mikor aztán tovább beszélt, a szava is más volt, csak olyan volt
+               már, mint más emberré.</p>
+            <p>- Van jó dolgod, hogy ezért ne merj hozzá menni!</p>
+            <p>- Édes, ne küldjön hozzá, félek tőle.</p>
+            <p>- Hát a libáim, mondja az asszony, ott hagyjam a drágákat?</p>
+            <p>- Majd azokat kikérem mástól.</p>
+            <p>- Nem parancsol abba más, csak az ispán ur.</p>
+            <p>- Majd kikérem a kontesz kisasszonytól.</p>
+            <p>- Jó hogy mondod! csattan föl most Kata asszony. Hallottam, hogy az az oka az egész
+               kárnak, hogy te őtet őrzöd, nem a libákat. Hogy a keritésre mászol meg más efféle.
+               Aztán itt van ni, én vallom a kárát.</p>
+            <p>- Ne haragudjék, édes, kikérem a libákat a kontesztől.</p>
+            <p>- Azt gondolod talán, annak nem nagy pénz libánkint öt garas? Az se adja, ha az ispán
+               nem adja!</p>
+            <p>- A kontesz igen jó kis lány; mindig hi, hogy játszam vele, meg hogy meséljek neki.
+               Aztán könyveket hoz ki, azokból egyszer én olvasok, egyszer meg ő olvas.</p>
+            <p>- Itt van ni! Akkor hogyne menne kárba a liba, mikor ilyen oktalansággal töltitek el
+               az időt. Ha még legalább segitene a libákra vigyázni. No, egy-kettő, elmégy az
+               ispánhoz, hogy le ne fekügyék, talán megkönyörül rajtunk.</p>
+            <p>Nem volt mit tenni, Kelemen elindult félelmes utjára. De a kapuból visszaszaladt.</p>
+            <p>- Mégis itt vagy, rivalkodik rá az asszony, kezében egy kis tányérral, melyből a
+               nyöszörgő kutyát kinálta valamivel.</p>
+            <p>Kelemen, a mint ezt meglátta, oda rohant, könyei kicsordultak és bőven omlottak,
+               nyaka köré fonta kis karjait az asszonynak s zokogás közt mondá: »Édes drága anyám,
+               csak azért jöttem vissza, hogy megkérjem, adjon valamit a Pajtásnak. De már a maga
+               gyémánt szive előbb megszánta szegényt.« És ezzel megcsókolta az asszonyt.</p>
+            <p>- Elmegyek, ha meg is esz az az ember, mondá és kiszaladt a házból.</p>
+            <p>- Hogy lehet már egy állatot igy szeretni, dörmögte Kati asszony, de ő is törülgette
+               hozzá a szemét, pedig bizony se füst, se semmi nem volt a konyhában, a mitől
+               kicsordult volna a könyje.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               III. Az ispán.
+            </head>
+            <p>Elindult hát Kelemen fel a falunak, a falu tulsó vége felé. Ott volt a Somberky
+               grófok kastélya és egy melléképületben a gazdasági udvar és az ispán lakása. Nyár
+               volt, de már este volt. A falusi nép már elvonult, csak itt-ott akadt valaki, egy-egy
+               ember, a ki haza igyekezett, egy-egy beszélgető pár. Az éjtől és sötétségtől nem félt
+               Kelemen. Nem volt több nyolcz-kilenc évesnél, de többet próbált már, mint más ilyen
+               sorsu ember egy egész életén át próbált. Somberek csak nem rég idő óta a hazája, Kata
+               asszony nem rég az ő édes anyja. Kivoltáról, mivoltáról nem sokat tudott mondani. Nem
+               tudta megnevezni a helyet, honnan ide szakadt, nem tudta más nevét, mint a Kelement.
+               Oláhcigányoktól szökött meg, egy darabig csavargott és Somberekbe kimerülve, kiéhezve
+               érkezett. Az előljáróság váltig faggatta kiléte és hovatar­to­zandósága iránt, de ő
+               erre nem tudott megfelelni. Kata asszonynak azóta beszélt mindenféle csodát, a mi
+               mese is lehetett, valóság is, de a ki azt nem tudja, ki fia és hovávaló, annak a
+               józan parasztnép nem sokat ád a zavaros beszédeire. A biró el akarta toloncolni, de
+               mert nem tudták, merre vigyék, kapva kaptak Cserebók Péterné, a fiu első jótevője
+               ajánlatán, hogy ő neki ugyis se fia, se lánya, se vagyona, hát eltartja a
+               gyereket.</p>
+            <p>Igy rekedt Kelemen Somberken. Rongyaiból kiszedte, szennyjéből kifürösztötte és
+               szabott reá helyes parasztruhát a jó asszony s hü gondviselője lett neki is, meg a
+               kutyának is, mely a fiuval jött. Kelemen pedig hálás jó fiu volt s bizony neki is
+               nagyon fájt, hogy Kata asszonyt a libákkal ilyen bajba sodorta. Iparkodott hát szivét
+               megkeményiteni s ballagott az urasági major felé, a hol az ispán lakott.</p>
+            <p>De persze, az ember fölteszi magában, hogy ilyen meg olyan vitéz lesz, s mikor aztán
+               köze­ledik a pillanat, akkor elkezd a szive dobogni és elveszi az erejét. Kelemen is
+               igy járt. Maga se tudta mért, de hogy egyszer ugy megijedt az ispán szavától, mintha
+               meg lett volna babo­názva, olyan ösztönszerü félelem tartotta keblét megszállva. S
+               igy, mikor közelébe jutott a háznak, megállt, hogy magát egy kissé megerősitse. De a
+               helyett csak még nagyobb félelem szállta meg, hogy a házból perlekedő hangokat
+               hallott.</p>
+            <p>- Talán éppen rosszkor is jöttem, gondolta magában. Ha az ispán ur ugy sincsen jó
+               kedvében, akkor inkább engem is a libákhoz csukat, nemhogy kieresztetné a
+               libákat.</p>
+            <p>Mit csináljon, igy folytatta okoskodását: visszatérjen liba és semmi nélkül? Akkor
+               Kata asszony igazán méltán haragudnék. Ha már egyszer ennyire eljött, még is csak meg
+               kellene próbálni. De mit is csinálnak ottben? - És szeme a fényre irányult, a mely a
+               ház egyik oldalán levő ablakon át az udvarra vetődött.</p>
+            <p>- Én bizony benézek az ablakon, mondá magában, aztán majd meglátom, be merjek-e
+               menni, vagy sem.</p>
+            <p>És ezzel fölkapaszkodott az ablak alatt levő padra s lassan odatolta képét az ablak
+               üvegéhez.</p>
+            <p>A szobában ketten voltak, egy férfi és egy asszony: az ispán és a felesége. Az ember
+               folyton gorombán perelt, de nem oly hangosan, hogy Kelemen valamit megérthetett
+               volna. Az asszony sápadt volt és csendes megadással hallgatta férje durva szavait,
+               csak ritkán szólt közbe. Végre azonban, mintha türelme kimerült volna, felállt ülő
+               helyéből, kezeit az égfelé emelve igy szólt: Isten a tanum, hogy kevés boldog és
+               nyugodt percem volt melletted; de pokol az életem azóta -</p>
+            <p>- Mióta? kiáltotta az ispán oly fenyegető hangon, hogy Kelemennek a szive verése is
+               elállt s arca sápadtan a félelemtől feszült az ablakhoz.</p>
+            <p>- Mióta? ismétlé a férj. Merd kimondani ezt a szót, merd kimondani, ha azt akarod,
+               hogy a kezemtől halj meg!</p>
+            <p>És ezzel megragadta a megrettent asszonyt a torkánál fogva s egyet forditott rajta
+               ugy, hogy az asszony, ki eddig arccal volt az ablak felé, de szemét le nem vette
+               férjéről, háttal került az ablakhoz, az ispán pedig szembe.</p>
+            <p>- Mióta, te kigyó! mond ujra az ispán és megrázta a gyenge asszonyt, de hirtelen
+               ellökte magától s egy orditással hátratántorodott, szemét mereven az ablakra
+               szögezve.</p>
+            <p>Az asszony nem tudta mire vélni e fordulatot s ijedten szedte magát össze s
+               közeledett a férje felé.</p>
+            <p>Ez azonban rekedten, levegőért kapkodva nyöszörgé: Ki van ott az ablakon, ki van ott
+               az ablakon? És tehetetlenül zuhant a földre.</p>
+            <p>Az ispánné az ablakhoz sietett, de nem látott senkit. Majd az urához, a ki
+               élettelenül feküdt a földön. Dörzsölte, locsolta s csak nehezen téritette magához,
+               aztán a cselédségért szaladt, ágyba tették és orvosért küldték a kocsit, mert az
+               orvos nem lakott a faluban.</p>
+            <p>Kata asszony pedig nyughatatlanul várta a fiut az utcaajtóban. Egyszerre csak jön
+               futva, eszeveszetten Kelemen, s ugy neki szaladt, majd legázolta.</p>
+            <p>- Mi az, mi az? kérdi Kata asszony megijedve.</p>
+            <p>De a fiu csak integetett s huzta be a jó asszonyt a házba. Ott ráborult. »Nem, édes,
+               nem, nem tőle, nem az ispántól! Ne kivánja, nem lehet!« Ennél többet nem tudott
+               mondani, de vacogott a foga, reszketett egész testében és görcsösen tartotta a
+               tehetetlen öreg asszonyt, a ki immár maga is meg volt félemlitve, elfelejtett libát,
+               mindent és csak simogatta a szinéből kikelt fiut, csendesitő szókat intézvén
+               hozzá.</p>
+            <p>Kelemen ott aludt el a Kata asszony ölében, de még álmában is meg-megrándult a teste
+               és kis keze bele-belekapaszkodott a szegény özvegy asszony ruhájába.</p>
+            <p>Igy virradtak meg másnap is ketten: a szegény özvegy és a szegény árva Kata asszony
+               viskójában.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             IV. A kontesz-kisasszony.
+            </head>
+            <p>Másnap elég jó állapotban volt a kis zsellérházbeli család. Kata asszony is, Kelemen
+               is, ki­heverték az este izgalmait és Pajtás is, ámbár még kényes volt az egyik első
+               lábára, de kijött a vaczkából, hogy kis gazdájának kedveskedjék.</p>
+            <p>Csak persze a libák nem voltak még meg.</p>
+            <p>A faluban hire volt, hogy este megütötte a szél Czinczér urat, az ispánt. A kocsisné
+               beszélte el már kora hajnalban, mert az ő urát küldték el még az este a doktor után.
+               A doktor megjött, megnézte a beteget, irt neki orvosságot is és el is ment. Az igazat
+               megvallva, az ispánt kevesen sajnálták. Gorombakezü, hirtelen ember volt, haragos és
+               káromkodó, kevés volt a népszerüsége. Jobban sajnálták a feleségét, a ki valamikor
+               belső volt a kastélyban, onnan vette el az ispán. De szegény nem sok jó napot látott,
+               mióta férjhez ment.</p>
+            <p>Hogy miképpen történt az esteli szerencsétlenség, azt nem tudta senki sem. A cselédek
+               hallották ugyan a pörlekedést, de ez olyan mindennapos dolog volt, hogy attól ma is
+               egész­séges lehetne Czinczér ur. Még legtöbbet tudott a dologról Kelemen, a ki el
+               mondotta Kata asszonynak, a mit látott. De bár bolondságnak tartotta az
+               özvegyasszony, hogy ennyitől valaki ugy holtra rémüljön, mint Kelemen, mégis belátta,
+               hogy ez ilyen gyerekkel megtörténhetik.</p>
+            <p>De már most mi lesz a libákkal?</p>
+            <p>Kata asszony kikereste a ládafiából egy féltett kezkenőjét s szomorúan bontogatta a
+               csücskeit: oda volt bogozva valamelyes aprópénz; próbáljuk meg, tán van annyi, hogy
+               ki lehet rajta váltani a behajtott állatokat.</p>
+            <p>Kelemen azonban erre nem volt hajlandó. »Tegye el édes azt a drága pénzt, mondá.
+               Megpróbálom én a nélkül is. Mondom, hogy a kis konteszt kérem meg érte.«</p>
+            <p>Kata asszony ebbe ugyan nem hitt, de ha a gyerek annyira bizik a dologban, hát hadd
+               próbálja meg. S Kelemen elindult a kastély felé. Őgyelgett a kert alatt, bement az
+               udvar felé, messziről a gazdasági udvart is nézegette, a hol az ispán betegen feküdt,
+               de a kit keresett, azt ezuttal nem látta meg sehol. Ismét elindult tehát az angol
+               kert aljába: ott mindig megtalálta, mikor nem kereste, hátha most is csak ugy lesz. A
+               mint a kastély kapuja tájékáról kikanyarodik a mező felé, ott találkozik a kis
+               Czinczér Pistával, az ispán fiával.</p>
+            <p>- Nini Pista, te ma már a mezőről jösz?</p>
+            <p>- Onnan ám! felel a cingár, sápadt fiu élénk szemjárással, már korán reggel óta ott
+               vagyok.</p>
+            <p>- Hiszen máskor sohase vagy ott. Mi vitt ki ma igy magadban?</p>
+            <p>- Hja, mond a gyerek mintegy diadallal: ma beteg az apám! Azt teszek, a mit akarok,
+               ma nem ver meg senki!</p>
+            <p>Kelemen két nagy szeme elborult, mintha megnedvesedett volna. Egy kis darabig nézte a
+               jókedvü véznaságot, aztán odalépett hozzá, megsimogatta szeretettel s igy szólt:</p>
+            <p>- Szegény Pista! Te nem tudod, milyen baj az, ha az ember árva. De tán még
+               keservesebb, ha az embernek apja, anyja van és mégis árva.</p>
+            <p>Pista nem értette Kelemen beszédét, csak annyit érzett belőle, hogy jó indulatból
+               eredt. Rámosolygott hát Kelemenre s ennyit mondott neki:</p>
+            <p>- Délután megint kimegyek a mezőre! Ezzel pipacscsal fölbokrétázott kalapját feltette
+               szőke fejére s indult hazafelé. Kelemen pedig lekanyarodott az uton az angol kert
+               alá.</p>
+            <p>Alig ért oda, a hol széles dülő ut választja el az angol kertet a mezőségtől, - nem
+               messze van a kékes szint játszó zabföld, a melyről a libákat behajtották, - már
+               messziről hallja a nevét. A kis kontesz kiabálta, kinek aranyfürtös feje látszott az
+               alacsony kőkerítés fölött. Belül egy nagy kőre állt s ugy nézett ki a mezőre, nyilván
+               Kelement kémlelte. Barátságosan köszöntötte egymást a két gyermek.</p>
+            <p>- Mért jöttél ma olyan későn, Kelemen? A délelőtti séta ideje már végire jár. Már azt
+               hittem, el se jösz.</p>
+            <p>- A nevelő kisasszony nincsen itt? kérdi Kelemen.</p>
+            <p>- De igen, amott van a padon, könyvet olvas. Mindjárt kell vele menni zongorázni.</p>
+            <p>- Pedig én nagy bajban vagyok és magát akarom megkérni, hogy segitsen rajtam.</p>
+            <p>- Hát akkor mért jöttél ilyen későn, kérdi a lányka. Mért nem siettél jobban. Én
+               mindjárt segitek ha tudok. Mi bajod van?</p>
+            <p>- Hát a libáim, mondja a fiu.</p>
+            <p>- Az ám ni, a libáid nincsenek itt, meg a Pajtás sincsen itt.</p>
+            <p>- Ez mind összetartozik. Tegnap este, mikor a kontesz elhivott, hogy megnézzük a
+               kertben a madárfészket, a mig itt benn jártam a kertben, a libáim belementek a zabba,
+               és éppen mikor kimásztam a keritésen, akkor termett ott a Krumpli Csicsa és
+               behajtotta.</p>
+            <p>- Ki az a Krumpli Csicsa?</p>
+            <p>- Az a csősz, a ki a mezőt őrzi.</p>
+            <p>- Mi az, behajtani?</p>
+            <p>- Elhajtotta, elvette, nem adja vissza.</p>
+            <p>- Miért?</p>
+            <p>- Mert a zabba mentek.</p>
+            <p>- Hát a libának nem jó a zabba menni?</p>
+            <p>- De jó, hanem nem szabad. Azért büntetésül behajtották.</p>
+            <p>- Hát most mit kell csinálni?</p>
+            <p>- Ki kellene váltani a libákat, de édes azt mondja, elkérnek egy libáról öt garast
+               is.</p>
+            <p>- Az sok pénz? kérdi a kis lány.</p>
+            <p>- Bizony nagyon sok, pedig a liba is hat.</p>
+            <p>- Több mint száz forint?</p>
+            <p>- Nem több, de mégis nagyon sok.</p>
+            <p>- Hát akkor hogy kezdjünk hozzá?</p>
+            <p>- Meg kellene kérni az ispán urat, hogy adja ki ugy.</p>
+            <p>- Igen, de azt hallottam, hogy az ispán meghalt.</p>
+            <p>- Nem halt meg, csak nagyon beteg, nem birja a szavát.</p>
+            <p>- Igen, igen, azt mondták. Én azt hittem, hogy az mindegy.</p>
+            <p>- Nem mindegy, de azzal azért most mégsem lehet beszélni.</p>
+            <p>- Akkor mit csináljunk? töprenkedik a grófkisasszony.</p>
+            <p>- Én azt gondoltam, ha talán a kontesz kisasszony megkérné szépen a gróf urat. Annak
+               az az öt garas se sok.</p>
+            <p>- Jaj, Kelemen, az nagyon szigoru ám.</p>
+            <p>- Nem jó ember? Kérdi a fiu.</p>
+            <p>- De nagyon jó. Soha sem bánt, mindent kapok, anélkül, hogy akármit kérnék, kérni nem
+               is szabad. De mindig rossz kedve van, soha se beszél, soha se nevet.</p>
+            <p>- Az baj. Pedig én nagyon biztam benne. Szegény Kati néni! Mi lesz, ha nem viszem
+               haza a libáit. A Pajtás is oda van. Annak leütötte a lábát.</p>
+            <p>- Kicsoda?</p>
+            <p>- Krumpli Csicsa.</p>
+            <p>- Hiszen akkor inkább a Krumpli Csicsát kellett volna behajtani! Az övé nagyobb
+               vétek, mint a libáké!</p>
+            <p>Ezt Kelemen is belátta, de ez nem oldotta meg a kérdést és a tanácskozás fenakadt.
+               Végre megint csak a fiu szólalt meg.</p>
+            <p>- Hát maga nagyon fél a gróf urtól?</p>
+            <p>- Bizony félek én, Kelemen.</p>
+            <p>- Én is féltem az ispány urtól, mégis elmentem hozzá. Én el mernék menni a gróf urhoz
+               is, csak eresztenének be.</p>
+            <p>- Hát olyan nagy szerencsétlenség az a hat liba, kérdi a kis leány álmélkodva.</p>
+            <p>- Bizony nagy az! Egyebe sincsen a Kati néninek, még is felfogadott engemet meg a
+               Pajtást fiának.</p>
+            <p>A grófkisasszony elgondolkozott, körülnézett és mintha félne, hogy meghallják, kissé
+               fojtott hangon igy szólt:</p>
+            <p>- Ha te mersz, Kelemen, akkor én is merek. A gróf ur itt van ilyenkor a park tulsó
+               részén, a sötét alléban. Gyere, mászszál be csöndesen, aztán menjünk oda együtt.</p>
+            <p>Kelemen e szóra minden további felelet nélkül óvatosan felkapaszkodott a keritésre és
+               be­ug­rott. A kontesz csöndet intett és ujjával egy orgonabokorra mutatott, a hol a
+               nevelő kisasszony ült egy könyv olvasásába elmerülve. Azután megfogta Kelemen kezét
+               és vitte magával. Mint két kis nyulacska, ugy bujkáltak bokorról-bokorra, a mig egy
+               sürü fasorhoz nem értek. Ott a grófkisasszony megállt a sürüben és óvatosan
+               kikukucsált.</p>
+            <p>- Nem látom, szólt suttogva. Itt szokott sétálni, de nem szereti, ha valaki utána
+               jön. Talán már el is ment.</p>
+            <p>De a szó hirtelen elállt az ajakán, mert arról az oldalról, a melyhez háttal álltak s
+               a merre csak most fordult, egy magas, száraz, sápadt arczu, szigoru szemü ur
+               közeledett feléjük, tekintetét élesen rájok szögezve.</p>
+            <p>- Mi ez? Mit keres maga itt, szólalt meg az öreg ur. És ki ez a fiu?</p>
+            <p>- Én - én - dadogta a konteszka, nem tudom, - ez a fiu a Kelemen.</p>
+            <p>- Jőjjön ki onnan a sürüből, szólt erősen a gróf. Hol van Mari kisasszony?</p>
+            <p>- Mari kisasszony? mond a kis lány nagy zavarban, félénken lépve ki Kelemen mellől, a
+               ki kalapját levette és mereven néz a grófra. Mari kisasszony ott van az
+               orgonabokorban, olvas.</p>
+            <p>- Miért jött el tőle? S micsoda illetlen dolog itt egy parasztfiuval a bokrok közt
+               bujkálni! Rögtön menjen vissza Mari kisasszonyhoz.</p>
+            <p>- Igen, megyek, mond a lány, ki már közelebb állt a siráshoz, mint a nevetéshez,
+               megyek, de kérem, ne bántsa Kelement és adja vissza neki a libákat, kérem, nagyon
+               szépen kérem - és ezzel nagy sirásra fakadva oda lépett sebten a grófhoz és
+               megcsókolta a kezét.</p>
+            <p>A gyermek őszintesége és együgyü félelme ugy látszik meghatotta a sötét arcu férfiut.
+               Két szeme bár sötéten égett, némi jósággal nézett Kelemenre, mig a kis leány kezét a
+               gróf keze erősen megszoritotta.</p>
+            <p>Kelemen némán állt a sürüben, nagy szeméből nagy könycseppek sürün gurultak végig az
+               orcáján.</p>
+            <p>Ez különös látvány volt a grófnak: két siró gyermek, a ki tőle libákat kér vissza.
+               Egy isme­retlen parasztfiu s az ő unokahuga, a kit gyermekéül tartott. Egy mosoly
+               cikázott át beborult arcán, ritka vendége az ő vonásainak. Ha megkérdeznék tőle,
+               hamar nem is tudná meg­mondani, mikor mosolygott utólszor. További kérdő szavára a
+               kis kontesz elmondta neki az egész szerencsétlenséget, meg hogy miként jöttek rá,
+               hogy a grófhoz folyamodjanak. Kelemen ezalatt folyton a sürüben állt s le nem vette
+               szemét a grófról. Igen szép fekete szeme volt, nagy tüzzel ragyogott és szép, tiszta
+               volt hosszukás, halavány arca. A gróf, a mint egyszer oda nézett, szinte rajta
+               felejtkezett és mintegy gyönyörködni látszott benne.</p>
+            <p>A mint a kis lány elvégezte beszédét, a gróf kivette jegyzőkönyvét, néhány szót irt
+               egy név­jegyre s átadta hugocskájának.</p>
+            <p>- Ezt vigye Kelemen a majorba, erre kiadják a libákat.</p>
+            <p>A kontesz átvette a névjegyet, de egyszersmind ujra megcsókolta a gróf kezét, azzal a
+               sürühez lépett s Kelemen felé nyujtotta a névjegyet. Kelemen hirtelen kilépett,
+               megragadta és meg­csókolta a kis lány kezét, aztán a grófhoz lépett, elkapta a kezét
+               és szintén megcsókolta.</p>
+            <p>- Köszönöm, szólt s hangja szinte megcsuklott a sirástól. Köszönöm és ketten, Kati
+               néni meg én, nagyon szépen fogunk ma este imádkozni magokért kettejökért.</p>
+            <p>És ezzel elsietett, boldogan.</p>
+            <p>A kis kontesz pedig a grófhoz fordult.</p>
+            <p>- Kérem, mondá kis kezét összetéve, ne haragudjék!</p>
+            <p>- Jól van, jöjjön ide, mondá a gróf s lehajolt és megcsókolta a kis lányt, de
+               hirtelen felegye­nesedett ismét, mondván: most pedig azonnal menjen vissza Mari
+               kisasszonyhoz.</p>
+            <p>- Megyek, mond a kis lány; de ma én is nagyon szépen fogok imádkozni valakiért. Ezzel
+               ellebegett.</p>
+            <p>A gróf mély szomorusággal nézett utána.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               V. A libák Kelemen nélkül.
+            </head>
+            <p>Kelemen nagy diadallal vitte haza a libákat és apróra elmondott fogadott anyjának
+               mindent. Kati néni nagy álmélkodással hallgatta a dolgot, meg-megcsóválta a fejét,
+               össze-összecsapta a kezét. Ilyen csodát még Somberek nem látott. Régen tenyésztenek
+               már Somberken libákat, de e történethez hasonlóról nem tudhattak a legöregebb
+               libatenyésztők se. De bármily nagy volt is Kata asszony elcsodálkozása, nem vala
+               akkora, hogy a fejét elvesztette volna. Sőt Kelemen ugy tartotta, hogy nénémasszonya
+               nagyon is józanul itéli meg az esetet, mert Kati ezeket mondá:</p>
+            <p>- No most, Kelemen, a mit megigértél, azt leimádkozzuk. De hogy erről a dologról ne
+               beszélj te senkinek se a faluban, mert végünk van, ha az uraságnak a fülébe jut, hogy
+               a falu szájára adtuk őket. A másik meg az, hogy te ezentul az én tudtommal oda ne
+               merj többet menni az angol kert alá. Nem nézhetik az urak azt jó szemmel, ha
+               kisasszonykáik ilyen ágrólszakadt parasztgyerekekkel vannak. Legeltesd te is a
+               libákat ott, a hol más böcsületes ember libái legelnek.</p>
+            <p>- De édes, hiszen látja, hogy nem haragudtak meg, mondja a gyerek.</p>
+            <p>- Ugy lesz, a hogy mondtam. Adjunk hálát az Istennek, hogy egyszer kikeveredtünk a
+               bajból. Semmi szükségünk, hogy még egyszer belekeveredjünk.</p>
+            <p>És ezzel vége volt appelláta nélkül. Kata asszony igy akarta, igy parancsolta és
+               Kelemen, akárhogy fájt is neki, szót fogadott és mindig másfelé hajtotta a libákat és
+               nem találkozott többé a kis konteszszel.</p>
+            <p>Ment is a dolog hiba nélkül jól. Ment egy hétig, talán két hétig. De ekkor az a
+               különös dolog ismétlődött, hogy Kelemen megint nem jött haza rendes időben a
+               libákkal. Kata asszony izgatottan járt-kelt az udvarán s éppen ki akart menni a kapu
+               elé a mikor látja, hogy meg-meg Gereben János ballag el azon. Megvárta, hogy tovább
+               menjen s csak akkor indult kifelé. De mily nagy volt álmélkodása, mikor látja, hogy
+               hat libája szép libasorban, elül a gunár, nagy beszélgetéssel kanyarodik be az
+               udvarra.</p>
+            <p>- Hát a gyereket hol hagytátok? rivall az asszony a ludakra. De persze ezek nem
+               szeretnek az egyenes kérdésre világosan felelni, s csak egyre azt hajtották, hogy
+               gegegege, gegegege!</p>
+            <p>Kata asszony várt egy darabig, meg kiment; majd tüzet gyujtott a konyhán, de csak nem
+               került meg a Kelemen. Immár sötétedett is az idő és még se jött.</p>
+            <p>- Ezt valami érte! gondolá magában szivdobogva az asszony. Bizonyosan engedetlen volt
+               és még is elment, tilalmam ellenére, a kontesz kisasszonyhoz s most őt csukták be az
+               ólba! Uram isten, mit tegyek. El köllene tán nézni a kastély felé.</p>
+            <p>Alig hogy ezt gondolta, ledobta a konyhakötényét és ünneplőt kötött s egy szebb
+               fejkezkenőt vett elő, hogy utnak eredjen. De ebben a pillanatban lépett nehány férfi
+               ember az udvarára, lámpással.</p>
+            <p>- Szüzanyám, Isten anyja! Kiáltja megrettenve Kata, a gyereket hozza kelmetek?</p>
+            <p>- Nem hozunk mi senkit, inkább keresünk, szólal meg egy öregebb ember, urasági
+               hajdu.</p>
+            <p>- A gyereket keresi kentek? kérdi ujra az asszony.</p>
+            <p>- Miféle gyereket, Kati? kérdi a hajdu.</p>
+            <p>- A Kelemen gyereket, lelkem. A libáim nála nélkül jöttek haza. Attól félek, valami
+               érte.</p>
+            <p>- Hát akkor csakugyan együtt vesztek el, mondá a hajdu.</p>
+            <p>- Kivel együtt?</p>
+            <p>- A kontesz kisasszonynyal.</p>
+            <p>- Uram légy velem, jajgatott erre Kata asszony. Hát az is elveszett?</p>
+            <p>- El az. Már egész alkonyat óta keressük. Tűvé tettük érte a kertet, a falut; a
+               kastély föl van fordulva, az uraság - uram bocsáj - majd az eszét veszti, s nem
+               találjuk sehol. Akkor mondja valaki, hogy tán ide jött, mert a Kelemen gyerekkel
+               sokat látták beszélgetni.</p>
+            <p>- Végünk van, végünk van! kiáltozta Kata asszony kezeit tördelve, mondtam én, hogy ez
+               lesz belőle! Jaj, miért is értem én meg ezt a napot!</p>
+            <p>Kata asszony nem tudta jajveszéklését folytatni, mert e pillanatban ugrott be
+               villámsebesen az udvarra a keritésen keresztül Pajtás és szükölve rohanta meg az
+               asszonyt.</p>
+            <p>- Itt a kutyája, kiáltá nagy izgalommal az asszony. No, Pajtás, hol hagytad a
+               gazdádat?</p>
+            <p>A kutya az asszonyra ugrott, elkapta a kötényét, megrázta, aztán eleresztette s a
+               kapu felé futott. Meg-meg visszajött, egyre nyöszörgött, ismét az asszony kötényét
+               ráncigálta s ujra a kapunak szaladt.</p>
+            <p>- Ez a kutya tud róla, ez hirt adni jött: gyerünk utána, mondták szinte mind egy
+               szájjal. S a mint e szóra neki fordultak mind a kapunak, a kutya csaholva indult el
+               előttük.</p>
+            <p>A kapuban egy másik csapat az utjokat állja, élükön a gróffal.</p>
+            <p>- Nos, mi az, mi ujság? szól a gróf.</p>
+            <p>- Megkövetem a méltóságos urat, mond a hajdu, a konteszkisasszony nincs itt. Hanem
+               innen meg elveszett a Kelemen gyerek. Itt ez a kutya most jött haza vinnyogva s mi
+               utána indulunk, mondok, hogy nyomra visz. Ha megkerül a Kelemen gyerek, tán a
+               kisasszonynak is nyomára akadunk.</p>
+            <p>- Menjetek hamar a majorba, hozzatok egy pár nyergelt lovat, mond a gróf, és
+               fegyvert, a mi akad. Hátha szükségünk lesz reá! Én is megyek a kutya nyomán.</p>
+            <p>- Jaj méltósága, csókolom a kezét, ne tessen haragudni, én mondtam annak a gyereknek,
+               de hát Isten kezében van mindnyájunk feje.</p>
+            <p>Kata asszony volt, a ki igy jajgatott. A gróf csak azt mondta rá: Előre, gyerünk!</p>
+            <p>És mentek, a kutya elül, nyomában azok, a kiknek lámpásuk volt, azután a többiek, a
+               gróf és Kata asszony, a ki természetesen egyre azt hajtogatta: Jaj, mi lesz velem,
+               jaj nekem szegény özvegynek!</p>
+            <p>Pajtás gyorsan szökdécselt előre, folyton csaholva, meg-megállt hátra nézni, s mikor
+               látta, hogy követik, ujra megindult. Keresztül ment a falu alatti libagyepen, aztán
+               rátért egy széles marhajáró utra, a melynek végiben van egy régi téglavető, azontul
+               egy óriási legelő, mely a szomszéd falu határáig ér.</p>
+            <p>A rohanó társaság már elhagyta a téglavetőt s a kutya mégis csak egyre futott előre,
+               de mind idegesebb lett az ugatása, a mint pedig a legelőre ért, eszeveszett csaholást
+               és ugrándozást kezdett.</p>
+            <p>- Itt kell lenniök, szólt a gróf s a kutyához sietett, egy lámpást kiragadva az egyik
+               béres kezéből.</p>
+            <p>És ott volt, de csak Kelemen. Sápadtan, vérbeborult arccal feküdt ott, fél könyökére
+               támasz­kodva, s az érkezőkre vetve bádgyadt nagy szemét.</p>
+            <p>- Jaj nekem, mi történt veled, drágám, egyetlenem, édes aranyos gyermekem!
+               sikoltozott Kati asszony s odavetette magát a fiura, felölelte s ölébe fektette,
+               kötényével a fiu halálra vált arcát törülgetve.</p>
+            <p>- És Lotti, hova lett Lotti, kérdi izgatottan a gróf.</p>
+            <p>Kelemen felnéz a grófra, keze a kutyát babrálja, a mely nyöszörögve udvarol szegény
+               gazdá­jának.</p>
+            <p>- Vizet, sóhajt Kelemen.</p>
+            <p>- Itt van a csordáskut, hamar hozzatok neki vizet, kiált a gróf s egy legény sebten
+               kiválik a társaságból, hogy vizet meritsen a mintegy száz lépésnyire lévő kutból.</p>
+            <p>- Ki bántott, édes gyermekem, szól ismét Kati asszony. Jaj, ha ez a drága jószág, ez
+               az okos kutya nem volna, itt haltál volna meg nálunk nélkül. Hol fáj, mid fáj?</p>
+            <p>A fiu kezét a fejéhez emelte s a lámpafénynél világosan lehetett homlokán egy mély,
+               zuzott sebet látni, melyből most is szivárgott a vér. A béres futva jött vissza a
+               kuttól, esetlen kalapja karimájában hozva a vizet. Kelemen ivott egy kortyot, a
+               többibe Kati mártotta be a gróf zsebkendőjét s megtörülgette a fiu homlokát.</p>
+            <p>Kelemen szemlátomást megerősödött az italtól s felelni próbált a gróf ismételt
+               kérdéseire.</p>
+            <p>A konteszt oláhcigányok hurcolták el. Őt leütötték. S mutatta az irányt is, a melyben
+               mene­kültek. De hogy jutni most a nyomukba? Pedig ha azonnal üldöznék őket,
+               valószinüleg könnyen elérnék. Mig ha másnapra halasztják, a cigányok nagy előnyt
+               nyernek s ki tudja, nem tesznek-e kárt a konteszben is.</p>
+            <p>Kelemen, hallgatva a gróf ez előadását, felemelkedett Kata asszony öléből s kutyáját
+               szóli­totta. Pajtás oda ugrott s Kelemen egy ruha darabot tartott elejbe: a
+               grófkisasszony ruhájának volt a rongya. S a mint a kutya a rongyot megszagolta,
+               Kelemen fél térden állva felemelte kezét. »Aló Pajtás, aló, keresd!« mondá és intett
+               a kutyának.</p>
+            <p>Pajtás nyöszörögve ugrott ki az embercsoportból, szaglászva futkosott ide s oda s
+               felcsaholva, mint mikor a kopó nyomra akad, neki állott egy iránynak s nézett vissza
+               az emberekre.</p>
+            <p>E pillanatban érkezett a hajdu három paripával, puskával, vasvillákkal.</p>
+            <p>- Rajta, mond a gróf, a kutya megtalálta nyomukat, el fog rajta csapázni. E fiut
+               vigyétek be a kastélyba, ott fektessétek le, hivjatok hozzá rögtön orvost, az anyja
+               pedig maradjon mellette.</p>
+            <p>- Csókolom a kezét, méltóságos uram, szólt közbe Kati.</p>
+            <p>- A többiek jöjjenek utánam, a kinek ló jut, lovon, a kinek nem jut, gyalog! Aló
+               Pajtás, aló, keresd!</p>
+            <p>S ezzel lóra ült, vállára vetette a puskát s a kutya nyomában indult.</p>
+            <p>- Aló Pajtás, aló, keresd! kiáltá Kelemen a távozók után s ájulva esett vissza Kata
+               asszony ölébe.</p>
+            <p>A kutról ismét hoztak vizet, fellocsolták, azután egy pár vasvillából s egy közeli
+               magányos fa ágaiból saroglyát hevenyésztek, ráfektették a fiut s elindultak lassan
+               ballagva a falu felé, mig a cigányok üldözésére indult csapat lovainak dobogása, a
+               gróf egy-egy vezénylő szava és a kutya ideges ugatása mind messzebb-messzebb távozott
+               s a lámpások bolygó világát elnyelte a nyári éjszaka.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             VI. Lotti kisasszony esete.
+            </head>
+            <p>A kastélyban természetesen mindenki talpon volt ez éjjel, de legkülönösebben Mari
+               kis­asszony, a nevelőnő, a ki minduntalan kiszaladt a kastély elé megnézni, nem
+               hoznak-e legalább hirt az eltünt Lotti konteszről. Ő volt hát, a ki az első
+               visszatérőket fogadta s az ájuláshoz volt közel (nem tudom ez este már hányadszor)
+               mikor látta, hogy valakit saroglyán hoznak. Azt hitte természetesen, hogy a
+               kontesz.</p>
+            <p>- Hála Isten, hogy nem ő, mondá, mikor megtudta, hogy Kelemen fekszik félholtan a
+               gyalog­ágyon. Tudtam, hogy ez a mihaszna parasztkölyök csinálta a bajt. De legalább
+               elvette jutalmát.</p>
+            <p>- Ne káromolja a kisasszony az Istent és hagyjon békét ennek a szegény gyereknek!
+               csattant fel sértett szivével Kata asszony. Ki tudja, hogy-mint történt a dolog. Az
+               egy igazság az, hogy a kisasszony nem tudta megőrizni a konteszt; ennek a fiunak meg
+               még a kutyája is több hasznot tud, mert az vitt bennünket ehez a szerencsétlenül járt
+               gyerekhez és annak a nyomán üldözik a cigányokat is, a kik elhurcolták a
+               konteszkisasszonyt.</p>
+            <p>- Elhurcolták a cigányok! sivalkodott Mari kisasszony. Oh istenség, mily borzalmas
+               eset. S ezzel a faképnél hagyva a jövevényeket, visszafordult a kastélyba, egyre azt
+               kiabálva: Elhur­col­ták a cigányok!</p>
+            <p>Szerencsére a zajra ott termett szobalány és inas és ezek teljesitették a gróf
+               rendeleteit. Kelemennek jó puha ágyat vetettek, hoztak neki finom bort, főztek teát,
+               levest és elküldtek a doktorért. Kata asszony pedig oda ült betege ágya mellé s onnan
+               nem is tágitott. Leste a lélek­zetét és vigyázott minden mozdulatára. Innia adott és
+               ha azt hitte, melege van, legyezgette, a fejét pedig hidegvizes ruhával
+               borogatta.</p>
+            <p>Kelemen, mintha nem is tudná, mi történik körülötte, kábultan feküdt az ágyban. Igy
+               találta az orvos is, a ki mintegy két óra mulva, immár éjfélután későn megjelent,
+               megvizsgálta a fiut s azt találta, hogy csunya fejsebén kivül, mely tompa eszközzel
+               ejtetett s beszakasztotta a kopo­nyáját, egyéb baja nincsen. Az orvos jeget hozatott
+               a jégveremből, s jeges ruhával borogattatta a sebet.</p>
+            <p>Már hajnal felé járt az idő, midőn uj zaj verte fel a kastélyt. Mari kisasszony
+               megint kiszaladt s most valóságosan elalélt, mert csakugyan az üldözők csapatja tért
+               vissza, élén a gróffal, a ki lóháton, ölében, levetett kabátjába burkolva hozta Lotti
+               kisasszonyt. A kontesz kifáradtan el­aludt volt a gróf karja közt, egyéb baja nem
+               volt, csakhogy semmi ruha sem volt rajta s két kis fülegombja volt véres. Átvette őt
+               is a cselédség s ágyacskájába dugta. A gróf még Kelemenről tudakolózott, s aztán ő is
+               a kastélyba ment.</p>
+            <p>Másnap reggel Mari kisasszonyt kérette magához. A nevelőkisasszony reszketett mint a
+               nyár­falevél, a mikor a sötét tekintetü gróf előtt megállott.</p>
+            <p>- Mikép történhetett az a tegnapi eset, kisasszony? kérdi a gróf a megrettent
+               leánytól.</p>
+            <p>- Nem tudom, gróf úr, meg nem foghatom. Nem hagytam a konteszt magára.
+               Jártunk-keltünk a parkban, ültünk is. Mire észrevettem, hogy nincs körülöttem, már
+               nem is találtam többé.</p>
+            <p>- Én megtiltottam kegyednek, hogy Lottit azzal a parasztfiuval foglalatoskodni
+               engedje.</p>
+            <p>- Nem foglalatoskodott, gróf úr, felelé Mari kisasszony. Ama bizonyos eset óta nem
+               látták egymást.</p>
+            <p>- Egész tegnapig, ugy látszik, egészité ki Somberky gróf a kisasszony beszédét.</p>
+            <p>- Ugy van, tegnapig; de esküszöm, gróf ur, hogy nem vagyok képes kitalálni, miként
+               jöhettek össze.</p>
+            <p>- Talán megtudjuk Lottitól; kérem, legyen szives idehozni.</p>
+            <p>Mari kisasszony boldog volt, hogy mehetett. Nem volt rossz leány, de jobb se volt
+               annál a sok felületes teremtésnél, kikre oly könnyen van bizva a gyermekek testi és
+               lelki üdve, a kik elméláznak, könyvet olvasnak s többet vannak magokkal elfoglalva,
+               mint növendékeikkel. Azért semmi sem kivánatosabb, mint az, hogy ugy a szülék, mint a
+               gyermekek nagyon meg­becsüljék az igazán jó nevelőket. Ezek mindnyájunknak a
+               legönzetlenebb jótevői. Kevés jutalomért és gyakran kevés háláért ezek teszik nekünk
+               a legterhesebb és a legbecsesebb szolgálatot.</p>
+            <p>Félénken jött be a gróf szobájába Mari kisasszony oldalán a kis Lotti. A kalandját,
+               ugy látszik, már teljesen kiheverte; friss és piros volt a jó álomtól, a melyet
+               élvezett. Félénksége attól eredt, hogy Mari kisasszony nem mulasztotta el neki
+               megmondani, hogy most vigyázzon magára, mert ugy szólván törvény elé megy. Mind a
+               ketten megkönnyebbülve lélegzettek fel, hogy a grófot nem találták a szobájában.</p>
+            <p>Somberky addig is, mig a kisasszony Lottiért ment, átnézett Kelemenhez, hogy mily
+               állapot­ban van, nem lehetne-e tőle valamit megtudni. Kelemen azonban alig látszott
+               élni. Homlok­sebe csunya kék volt, s erősen meg volt duzzadva. Szomoruan ült ágya
+               mellett Kata asszony.</p>
+            <p>- Se szól, se beszél ez, kérem alázatosan, mondá a szegény asszony, Isten tudja,
+               lesz-e még belőle valaha a régi.</p>
+            <p>- Az orvos mit mondott? kérdi a gróf.</p>
+            <p>- Jaj, csókolom a kezét, sopánkodék Kata, az is csak olyan. Nem engedi, hogy egyebet
+               tegyek a fejére jeges rongynál, pedig én még az anyámtól tudok olyan frastromot, hogy
+               az mindenre jó.</p>
+            <p>- Szót kell fogadni az orvosnak, mond a gróf. Nem tudja, jó asszony, folytatá, hogy
+               mint került a két gyermek össze?</p>
+            <p>- Az eszem is megáll ettől a dologtól, méltóságos uram. De tudom, hogy a Kelemen nem
+               hibás, mert én annak a lelkére kötöttem, hogy a konteszkisasszonyhoz többet el ne
+               merjen menni. És kérem alázatosan, egy szó nem sok, de ez a gyerek - Isten áldja meg
+               a tanitó mes­te­rét - egy szónyi nem igazat soha se mondott, nem hogy még olyat tett
+               volna, a mitől el volt tiltva.</p>
+            <p>- Jól van, mond a gróf. Csak vigyázzon rá jól, s remélem, egy-két nap alatt jobban
+               lesz. És ezzel visszament szobájába, a hol már ott találta a kis Lottit.</p>
+            <p>A kis Lotti a gróf szólitására oldalogva és görbe szájjal közeledett. - Ne félj, igy
+               biztatta a gróf. Nem kell félned. Én már nem haragszom, de tudni akarok mindent.</p>
+            <p>- Mondd csak, kis lányom, igy folytatta, megfogva Lotti kezét; mondd csak,
+               emlékszel-e arra, a mi tegnap volt?</p>
+            <p>- Emlékszem, suttogá a kis lány.</p>
+            <p>- És el tudnád-e nekem szépen mondani?</p>
+            <p>- El tudnám, talán, el tudnám.</p>
+            <p>- Hát halljuk, hogy mint volt?</p>
+            <p>- Hát ugy volt, hogy nekem nem volt szabad többet a Kelemennel játszani. Aztán mikor
+               Mari kisasszony a kertészszel beszélgetett, mert a kertész rózsát szemzett és azt
+               mutogatta Mari kisasszonynak, akkor én fölálltam a kőre és azt gondoltam, legalább
+               meglátom Kelement.</p>
+            <p>- És megláttad?</p>
+            <p>- Nem. Azóta soha sem láttam. Hanem láttam egy asszonyt. Az azt mondta, hogy jaj be
+               szép ruhám van, meg szép fülbevalóm. Meg hogy én mit nézek. Én azt mondtam, hogy én
+               nem bánom a fülbevalómat, de a Kelement nézem. És aztán még beszélgetett és azt
+               mondta, hogy ő látta Kelement és Kelemen kérdezett engem és hogy nagy bajban van,
+               abból csak én tudnám kiszabaditani. Aztán én mindjárt gondoltam, hogy megint
+               behajtották a libáit és azt mondtam annak az asszonynak, hogy csak küldje Kelement
+               ide, majd én segitek rajta. De ő azt mondta, hogy őt a Kelemen küldte ide, hogy
+               engemet vezessen hozzá, különben nagy szerencsétlenség éri. Én aztán láttam, hogy a
+               Mari kisasszony még mindig a kertészszel beszél és tudtam, ha szólok neki, akkor nem
+               ereszt és én nem segithetek a Kelemenen. Meg még az az asszony azt is mondta, hogy
+               mindjárt visszajövünk és én akkor kimásztam és elmentünk.</p>
+            <p>- Hát azután? biztatta a gróf a kis lányt, nagy izgatottsággal hallgatván
+               elbeszélését. Hová mentetek?</p>
+            <p>- Messze, sokáig, arra kifelé! mond Lotti. De mikor láttam, hogy nem látom Kelement,
+               az asszony csak azt mondta, hogy mindjárt ott leszünk. De én már félni kezdtem és
+               sirtam, és akkor egyszerre az ut mellett a gödörben azt kiáltja valaki: kontesz! Oda
+               nézek, a Kelemen volt. Oda akarok szaladni, de az asszony nem ereszti el a kezemet,
+               hanem nagyon gorombán kezd kiabálni és aztán szaladtunk. Én mindig azt kiáltoztam:
+               Kelemen, segits. És Kelemen meg a Pajtás szaladtak utánunk, és Kelemen megfogta a
+               másik kezemet, a Pajtás meg ugatott és az asszony meg pörölt, ütötte Kelement; de
+               Kelemen ő bele kapaszkodott és igy nagy sirással és lármával mentünk odább, mert az
+               az asszony mindig csak huzott. Aztán már este is lett és mikor az utról kiértünk, ott
+               volt egy kut és az az asszony azt mondta: beledoblak oda a kutba mindkettőtöket. És
+               én már nagyon sikoltoztam, és a Pajtás nagyon ugatott, a Kelemen megfogta a ruhámat
+               és a ruhám elszakadt, aztán egy csunya szakállas, borzas ember kiugrott az árokból,
+               nagy bot volt a kezében és igen lármázott, és a nagy bottal megütötte a Kelement, a
+               Kelemen elesett, engem meg az a csunya ember az ölébe vett és elvittek.</p>
+            <p>A grófnak a verejték gyöngyözött homlokán. Mari kisasszony halálsápadtan hallgatta az
+               el­beszélést, s meg kellett támaszkodnia, hogy le ne essék a lábáról.</p>
+            <p>- Hát azután, gyermekem? kérdi a gróf.</p>
+            <p>- Azután soká szaladtak velem s az erdőszélhez értünk, a hol tűz volt és sok csunya
+               borzas ember meg asszony. Ugy beszéltek, hogy nem lehetett megérteni, de a tüzet
+               hamar eloltották. Kocsijok is volt kettő, azt befogták, a gyermekeket felrakták s
+               engem is és elmentünk. Aztán soká mentünk az erdőben. Mikor az erdőből kiértünk,
+               megálltak és tanakodtak. Akkor eng­emet kivettek a kocsiból, leszedték a ruhámat és
+               kitépték a fülbevalómat. Aztán ellöktek, én elestem, örültem, hogy otthagytak, de
+               féltem is magam az erdőben, aztán sirtam, aztán nem tudom, mi volt, s egyszer csak
+               hallottam, hogy ugat a Pajtás és azt gondoltam, hogy a Kelemen jön értem és nagyon
+               megörültem, mert már igen fáztam és akkor lódobogást hallottam, és akkor...</p>
+            <p>- Akkor érkeztünk mi, a Kelemen kutyája volt az utmutatónk, az mentett meg tégedet
+               is, az mentette meg Kelement is, mond a gróf, kiegészitve az elbeszélést. Jer most,
+               megmutatom neked a Kelement!</p>
+            <p>- A Kelement! Itt van? kiáltá a leány. Oh papa, milyen jó fiu az a Kelemen!</p>
+            <p>És elmentek hárman: a gróf, Mari kisasszony és Lotti, Kelemen betegágyához.
+               Lábujjhegyen léptek be, a gróf fölemelte egy székre a kis lányt és suttogva
+               mondá:</p>
+            <p>- Ott van, nézd!</p>
+            <p>- Oh istenem, be nagyon halavány! mondá a kis leány, és könyei kicsordultak.</p>
+            <p>- Most kérem, Mari kisasszony, vigye el Lottit.</p>
+            <p>- Jó Isten, gyógyitsd meg szegény Kelement, mond a kis leány s nevelő kisasszonyával
+               el­távo­zott.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             VII. Egy régi levél.
+            </head>
+            <p>A gróf még ott maradt a beteg ágyánál és hosszasan nézte Kelement. El volt telve e
+               gyermek cselekedetével a lelke. Az együgyü parasztasszony hivalkodása a fiu igazmondó
+               természe­tével, a kis lány ragaszkodása hozzá, a mi vonzó és kedves tulajdonságokra
+               mutat; és a hősies védelem, melyben magát ama ragadozó cigánynép ellen kockáztatta s
+               melynek mostan sulyos sebesültje: mindez ellenállhatatlan erővel ostromolta zárkózott
+               szivét Kelemen javára. Elszo­rult a gondolatra, hogy e kedves és tehetséges fiu
+               áldozatává is lehet e kalandjának. Majd az jutott eszébe, hogy mily ellentétben van
+               mindez e gyermek paraszti sorsával. Lehet-e az, hogy ily tulajdonságok fejlődjenek
+               valakiben oly környezetben s oly foglalkozás mellett, minőben Kelemen töltötte eddigi
+               életét. Ez figyelmét a szegény asszonyra terelte, a ki a fiu betegágyát virrasztotta.
+               Intett s mindketten a szomszéd szobába léptek, a hol suttogó hangon a következő
+               párbeszéd folyt le közöttük.</p>
+            <p>- Azt mondják, kezdé a gróf, hogy Kelemen nem a kelmed fia?</p>
+            <p>- Nem az, kérem alásan, de már jobban nem szeretném, ha az volna is, sem ő is jobban
+               már meg nem becsülhetne, ha tulajdon édesanyja volnék is.</p>
+            <p>- Valami atyjafia talán?</p>
+            <p>- Nem az; semmiféle nemzetségem sem nekem.</p>
+            <p>- Nem is a faluba való?</p>
+            <p>- Nem, csókolom a kezét.</p>
+            <p>- Hát kik a szülei és hova valók?</p>
+            <p>- Azt már a jó Istenen kivül senki sem tudja, még maga a gyerek sem.</p>
+            <p>- Hát miképpen került kelmedhez?</p>
+            <p>- Ugy volt az, kérem alásan, hogy cigányokkal kódorgott. Lopták-e, találták-e, azt
+               nem mond­ta világosan, mert jobb szereti azt mondani, hogy nem tudja se ezt, se azt.
+               De megunta náluk, mert csunya tolvaj, gyilkos nép az, és hogy rá ne kapassák őtet is,
+               hát megszökött tőlük. Aztán elkelebólált, de hogy Somberekbe ért, ugy el volt
+               csigázva, hogy már csak ide-oda szédelgett. Igy vetődött be hozzám, nem régebben,
+               csak az idén tavaszszal. Azóta van itt.</p>
+            <p>- A biró nem vonta kérdőre mint csavargó gyermeket?</p>
+            <p>- Dehogy nem. Fakgatta az eleget, de nem tudott belőle kivenni semmit. Nevét se tudja
+               mást, mint Kelement. Szerették volna elküldeni hazájába, de arról se tudott sokat.
+               Ide-oda herce­hurcálták, de csak nem boldogultak vele. Én meg azalatt megszerettem a
+               szelid, jámbor ter­mészetét s megmondtam a birónak, hogy ha a törvény utját nem
+               állja, én szivesen elvállalom a gyereket, a mig élek. A biró meg örült, hogy
+               elvethette a gondját, aztán igy maradtunk.</p>
+            <p>- És kelmednek se mondott többet?</p>
+            <p>- Nem az nekem. Meg nem is igen firtattam biz én. Minek? Most már igy is ugy is az
+               enyim.</p>
+            <p>- És nincsen semmi holmija se?</p>
+            <p>- De bizony van. Volt egy kis rossz gunyája, a mit a cigányok meghagytak rajta, meg
+               valami avétt kendőbe holmija takargatva: az otthon van.</p>
+            <p>- Menjen el, jó asszony és hozza el nekem ezt a holmit.</p>
+            <p>- Jaj, csókolom a kezit, piszkos, ócska jószág az, nem ilyen finom uri kezekbe
+               való.</p>
+            <p>- De csak hozza el. Én addig itt maradok a fiunál.</p>
+            <p>Bizony jó lesz, gondolta magában Kata asszony, legalább körülnézek a házam tájékán
+               is, és elsietett.</p>
+            <p>A gróf nem izgatottság nélkül várta az asszony visszajövetelét. Ez azonban nem
+               történt meg nagyon gyorsan, legalább a grófnak ugy tetszett. Kétszer-háromszor is az
+               ablakhoz lépett megnézni, jön-e már Kata. Végre jött. Uj kendő volt a fején, ünneplő
+               szoknya rajta, a kezében egy kis csomag.</p>
+            <p>- Nem kérdezett a lelkem, a mig oda voltam? E szókkal lépett be. Csak egy kis
+               tisztességes ruhát váltottam, folytatá: mondok, ha már itt vagyok a kastélyban, én
+               miattam se szégyen­kez­zék senki se.</p>
+            <p>- Elhozta a csomagot?</p>
+            <p>- Itt van, méltóságos uram. De mondom, nem arra való, hogy uri kezek fogdossák. És
+               ezzel átadta a csomagot, melyet a gróf átvett s eltávozott.</p>
+            <p>Szobájába érve, rögtön hozzálátott a kibontásához. Dohos iszapszag áradt ki a
+               csomagból, a mint a foszlányos kendőt, melybe be volt csavargatva, le kezdte róla
+               fejteni. A kendőben egy erős bőrtárca volt, szinehagyott, szinte foszladozó
+               bőrtárca.</p>
+            <p>Óvatosan nyitotta ki a gróf. Mindenféle papiros volt benne, egymáshoz ragadva, sárga,
+               foltos, piszkos darabkák. Alig lehetett megismerni, mi volt egyik-másik. A mi be volt
+               belőle irva, az irás fel volt ázva, elmosódva, egymásba folyva, teljesen
+               olvashatatlan.</p>
+            <p>Volt e papirok közt egy levél is, még pedig boritékban. A rája irt cim olvashatatlan,
+               a posta­bélyeg leázva, barnássárga volt már a boriték színe. A gróf óvatosan veszi ki
+               belőle a levelet és széthajtja. Ez itt-ott jobb karban van. Tele van irva, de a lapok
+               egymáshoz ragadva, meg­száradt iszap van benne, a sarok elmosódva, de itt-ott egy szó
+               olvasható.</p>
+            <p>A gróf szorgosan kutatja át az olvasható szókat, de értelemmé nem képes összefüzni.
+               Addig nézi az összefolyt sorokat, mig végre szeme kifárad és gondolatai visszatérnek
+               a fiura. Le kell arról mondani, hogy eredetéről valamit megtudjon. E tárca nyilván
+               viz alatt volt sokáig, ott ment tönkre a tartalma. Mily különös szeszélye a sorsnak,
+               a mely igy intézkedik egy emberi lélekről. E fiut kilöki a világba, irományokat is ád
+               vele, de irományai értéktelenek, mert olvashatatlanok. A fiut egy nyomorult
+               özvegyasszony felfogadja, s ez e fiura nézve még jó­tétemény volt. Közbe jön a kaland
+               Lottival, és a fiu most itt fekszik a grófi kastélyban. A gróf a gyermek magaviselete
+               által erkölcsileg kötelezve van arra, hogy beleavatkozzék a sorsába. Ime, mily utakon
+               formálja a gondviselés az ember sorsát!</p>
+            <p>Ily gondolatok közt fogja a gróf a levelet, hogy többi tartalmával együtt visszategye
+               a tárcába. Ekkor egy szón megakad a szeme. „-berki:” ezt olvassa egy sor elején.
+               Igen, igen, ez berki, kis b betüvel irva. És ime az előző sor végén, ott áll a szó
+               másik része: Som-! Somberky, ez az ő neve, ebben a levélben!</p>
+            <p>Somberky gróf kimondhatatlan izgalommal ugrik fel asztala mellől. Szive oly hevesen
+               dobog, hogy szinte hallani lehet. Egy borzasztó gondolat lepi meg s egy rémes eset
+               emléke cikázik át agyvelején.</p>
+            <p>- Istenem, Istenem, ne kisérts, igy kiált fel s szemei lángolnak, sápadt arca égni
+               kezd. Ne kisérts, Istenem, mert kétszer nem tudom elviselni verésedet.</p>
+            <p>És mohón vizsgálja ismét a levelet. Ugy rémlik neki, hogy most már többet ért belőle,
+               ámbár most is csak összefüggéstelen szavakat olvas. Végre felhagy e kinos betüzéssel,
+               gondosan beteszi a levelet boritékába és a tárcába, melyet asztala fiókjába csuk,
+               azután gyors léptekkel indul ismét a beteg fiu szobája felé.</p>
+            <p>Most is halaványan fekszik ott Kelemen, nyájas arca eltorzulva homloksebe által,
+               melyre Kata asszony éppen most teszi a borogatást.</p>
+            <p>A mint a fehér kendő eltakarja a sebet, a fiu felnyitja szemét s az ott álló grófra
+               néz bágyadt szép fekete szemével. És a gróf szeme őrült vágygyal tapad a fiu arcára.
+               Ott is olvasható vonásokat keres, onnan is szeretne valamit kibetüzni és neki most
+               ugy tetszik, ez arcon is vannak összefüggéstelen szók s ott is egy nevet olvas, ezt a
+               nevet: Somberky.</p>
+            <p>A fiu ismét lehunyja szemét s ezzel a varázs meg van törve, a gróf lecsuklik az ágy
+               mellé. Sir-e, gondolkozik-e, alig lehet megmondani. Kata asszony félve néz reá s nem
+               meri megszólitani.</p>
+            <p>E pillanatban az ajtó megnyilik s az orvos lép be rajta.</p>
+            <p>A gróf fölriad s elejbe siet.</p>
+            <p>- Mit szól a kis beteghez, doktor ur?</p>
+            <p>- Azt hiszem, nincsen komolyabb baja. Az ütés erős volt, a seb nagy, sok vért
+               vesztett! de komoly baj nincsen. A sebet begyógyitjuk, a vért pótolni fogjuk, de a
+               dolog lassan megy, a gyermek igen ki van merülve, nem egyhamar fog libát őrizni.</p>
+            <p>- Doktor ur, mond a gróf, bánjék vele ugy, gondjaival vegye ugy körül, mintha az én
+               gyermekem volna. Ön nem tudja, tette hozzá, látva a doktor arcának meglepett
+               kifejezését, mily bátor, nemes, mily előkelő lélek lakik e kis libapásztorban.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             VIII. A gróf.
+            </head>
+            <p>Ha Somberky Ákos grófot a levél, melyet talált, mód nélkül felizgatta, nem lehet
+               csodálnunk, mert volt a gróf multjában egy nagyon szomoru eset, a mely e levél
+               láttára benne egész gyötrő erejével megujult.</p>
+            <p>A gróf nem volt még öreg ember, de igen egyenes és mély érzésü szive a megpróbáltatás
+               folytán annyit fájt, hogy a szép ember előkelő alakja megtört, haja megszürkült idő
+               nap előtt, arca elvesztette fiatal frisseségét, lelke elborult. Csak a szemében
+               maradt meg a régi tüz.</p>
+            <p>Mintegy harminc éves ember lehetett, mikor mint fiatal férj teljes erővel és
+               kecsegtető remé­nyekkel állt szemben az élettel. Akkor született egy kis fia: öröme,
+               boldogsága neki, örököse vagyonának és nyilván atyja előkelő jellemének és fiatal
+               anyja vonzó bájainak. Képzelhető, mily gonddal vették körül a gyermeket. Mégis, hogy
+               hogy nem történt, ez a grófi gyerek alig egy pár hetes korában egy éjjel, mikor a
+               gróf nem volt otthon, eltünt a kastélyból, és semmi keresés nem vitte a boldogtalan
+               apát a gyermek nyomába. Hasztalan volt minden: befolyás, vagyon, képzelhetetlen
+               fáradság. A gyermeket mintha csak a föld nyelte volna el. Talán nem lett volna a
+               dolog lehetséges, ha a fiatal grófné sulyos beteg nem lett volna. De ő maga is mások
+               gondjára volt szorulva, neki mindjárt, a mikor feltünt a szerencsétlenség, meg sem
+               mondhatták. A gróf maga is egy akkor ott járt fővárosi orvost kisért el a közeli
+               városba. Mikor hazajött, s megtudta az esetet, képzelhetetlen erővel érezte a
+               csapást, de már nem volt képes elháritani. Neje akkor tudta meg, a mikor kezdett
+               jobban lenni, de őt is ugy megrenditette a szerencsétlenség, hogy visszaesett
+               betegségébe és rövid idő mulva áldozata lett.</p>
+            <p>Ezóta a gróf komor, magába vonult ember lett. Éveket eresztett el maga felett a
+               nélkül, hogy bármivel s bárkivel törődött volna. Remeteéletet élt, még rokonságával
+               sem törődött. Ezek, különösen egy ifjabb testvére, a ki könnyelmü életet folytatott
+               és sok keserüséget hozott a családra, vagyonát eltékozolta, s egy szerencsétlen
+               házasságban élt, csak évek mulva tudták a grófot megközeliteni. Somberky Ákos
+               valamely segitséget rendelt a számukra s utóbb, tör­téne­tünk kezdete előtt pár évvel
+               magához vette kis leányukat, Lottit, mint a Somberky-vagyon egyetlen örökösét.
+               Elzárkózott életmódjával azonban nem hagyott fel, jó volt, szelid volt, de még a kis
+               leány társaságát is kerülte. Ideje legnagyobb részét könyvtárában és a park egy sötét
+               fasorában töltötte. A vidéken nem is igen nevezték másnak, mint a somberki
+               remetének.</p>
+            <p>Ilyen körülmények közt történtek az események, a melyeket eddig elbeszéltünk.
+               Somberky grófot egész valójából kiragadta a kis Lotti eltünése, melyben ismétlését
+               látta saját gyermeke sorsának. Azért és jó szive által is hajtva, indult el maga az
+               eltünt leány után. De kimond­hatatlan lett az izgalma, midőn ez események folytán
+               hirtelen fordulóval szemben látta magát egy lehetőséggel, a melyet immár régen
+               kizártnak kellett tartania. Ha most is reá gondolt, a kezét szívére kellett
+               szoritania, ugy dobogott az a sziv édesen félelmes érzésektől. Mert hiszen a csodával
+               lenne határos és a gondviselésnek lenne őrületes játéka, ha ez a fiu, a ki most
+               betegen fekszik az ő kastélyában, betegen a védelemtől, melylyel Lottiért kitette
+               magát; ha e fiu ugyanaz volna, a ki kilenc-tiz évvel ezelőtt oly rejtelmes módon tűnt
+               el e házból; a ki most épp oly rejtelmes utjain a gondviselésnek kerül oda vissza; ha
+               e fiu az ő gyermeke volna.</p>
+            <p>Igaz, hogy ennek semmi bizonyitéka nem volt. Egy félig elrothadt levél nehány
+               olvasható szava közt e név Somberky, és semmi egyéb. Hozzá a fiu nemes indulatai,
+               férfias jelleme, lágy arcvonásai és szép fekete szeme. Mindez egy felgerjedt apai
+               szeretetnek annyi táplálékot adott, hogy Somberky gróf lelke folyton e gondolat
+               bilincseiben vergődött. Távoztatta magá­tól és ismét őrületes szenvedéllyel ölelte
+               magához. Igy hánykolódott álmatlan éjszakákon és nyughatatlan napokon át és leste a
+               pillanatot, a mikor Kelemen már annyira lesz, hogy beszél­ni lehessen vele.</p>
+            <p>A fiu azonban csak lassan kezdett épülni és éppen fődolog volt, hogy beszélgetéssel
+               nem volt szabad őt fárasztani. Ha ágyából fel akart kelni, azonnal megszédült és
+               visszahanyatlott. Ha több kérdést intéztek hozzá, kimerült. Végre is azonban kezdett
+               megerősödni és a gróf enge­del­met kapott az orvostól, hogy huzamosabban próbáljon
+               vele beszélni. Ez, hogy huzamosabban beszélni, csak forma volt, melyet a gróf a
+               doktorral szemben használt. Ő magában tudta, hogy oly dologról óhajtja Kelement
+               kikérdezni, a mi esetleg nagyon fel is izgathatja a fiut. Ezt azonban a doktornak nem
+               mondta, de el volt tökélve, hogy vigyázni fog.</p>
+            <p>A kérdéses levélcsomagot magához vette s a fiu ágyához ült.</p>
+            <p>- Hogy vagy, fiam, kérdezé nagy jósággal és melegséggel a hangjában.</p>
+            <p>- Jól, mond Kelemen, nagyon jól. Ha igy fekszem, ugy tetszik, semmi bajom sincsen
+               már.</p>
+            <p>- Emlékszel-e rá, hogy mint történt ez a dolog?</p>
+            <p>- Nagyon jól emlékszem, mond a fiu. S mióta itt fekszem, azóta sokszor megtörtént
+               velem.</p>
+            <p>- Hogy-hogy sokszor? kérdi a gróf.</p>
+            <p>- Mindig láttam azt a cigányasszonyt, a hogy vitte a kis konteszt, aztán el akartam
+               érni, de nem tudtam, aztán mikor már elértem volna, beleestem egy mély gödörbe. Aztán
+               egy kis vártatva megint csak láttam, megint szaladtam utána s megint beleestem a
+               gödörbe.</p>
+            <p>- Igen, mond a gróf, ezek lázas látományaid voltak.</p>
+            <p>- De most már soha sem látom, mondá a fiu.</p>
+            <p>- Jele, hogy már jobban vagy és nemsokára egészen meggyógyulsz. - Tudod, hogy miként
+               történt az eset?</p>
+            <p>- Én a téglavetőben voltam a libákkal és láttam őket jönni. Elsőbben csodálkoztam, de
+               aztán nagyon megijedtem, mert megismertem a cigányasszonyt.</p>
+            <p>- Megismerted?</p>
+            <p>- Meg. Azok közül való volt, a kikkel én is voltam. Igen csunya, rossz asszony.</p>
+            <p>- Hát cigányokkal is jártál, kérdi a gróf s reszkető kezével mintegy véletlenül a fiu
+               paplanára tette a csomagot, de kezét nem vette le róla.</p>
+            <p>- Igen, jártam, mond a fiu, jobbjával homlokát megsimitva; de régen és nem sokáig,
+               mert nagyon gonosz emberek voltak. S ezzel fölemelt kezét letette, éppen a gróf
+               kezére, onnan a csomagra. A gróf kissé felemelte a csomagot, ugy, hogy a fiu keze
+               rajta volt és szeme rája esett.</p>
+            <p>Kelemen mintegy elámulva nézte a csomagot. A gróf lázas figyelemmel csüggött a
+               gyermek arcán. Kelemen önkéntelenül mondá: Nini, hogy került ez ide?</p>
+            <p>- Kata asszony hozta el, mond a gróf halkan. Ismered?</p>
+            <p>- Hogy ne! Ez a halott ember tárcája.</p>
+            <p>- A halott ember tárcája?</p>
+            <p>- Igen, az, a halott ember tárcája.</p>
+            <p>- Tudod is, kérdi a gróf a remény és félelem érzésétől szorongatva, tudod is, hogy mi
+               van benne?</p>
+            <p>- Azt nem tudom, felelé a fiu minden izgalom nélkül. Csak elvettem tőle és
+               eltettem.</p>
+            <p>A gyermek rémes szavai, hozzá természetes nyugalma alig kimondható mértékben fokozták
+               fel a gróf izgalmát. Egy csomó kérdést kellett volna tennie, hogy kifejezze mind azt,
+               a mit tudni szeretett volna, de alig tudta, mit kérdezzen először. Végre is a fiu
+               iránti gond lépett gondolatában előtérbe s azt kérdezte tőle, nem fárasztja-e a
+               beszéd?</p>
+            <p>- Talán nem, feleli a fiu. A méltóságos gróf olyan kegyes és jó hozzám. Bár tudnék
+               valamit tenni vagy mondani, a mivel megmutathatnám, mennyire szeretnék a kedvében
+               járni.</p>
+            <p>Somberky Ákos grófot nagy vágy fogta el, hogy ráboruljon erre a halavány képü beteg
+               pa­raszt­fiura és megcsókolja. Szeme elborult, megnedvesedett, ajkát erősen egymásra
+               szori­totta s jobbjával megsimitotta a gyermek arcát.</p>
+            <p>- Elsőbben is azt fogod kedvemre tenni, szólt egy kis vártatva, ha szépen
+               meggyógyulsz. Most nem fakgatlak tovább. Pihenj, alugyál egyet. Majd máskor tovább
+               beszélgetünk erről a dolog­ról, a mely engemet nagyon érdekel.</p>
+            <p>Ezzel fölkelt s távozni készült. Kelemen megfogta a kezét s véghetetlen jósággal
+               nézvén a gróf arcába, ajakához tette a kezét és megcsókolta.</p>
+            <p>A gróf eltávozott. Az igazat megvallva, nem is csupán a gyermek iránti kimélet
+               hagyatta el vele a beszélgetést. Erős, szinte beteges vágygyal kivánt a fiu
+               beszédeiből valamiről megbizo­nyosodni; de a nyugalom, a melylyel Kelemen a halott
+               ember tárcájáról szólt, megdöbbentette s azt a félelmet keltette föl benne, hogy
+               hátha annak, a mit hallani óhajtott, éppen az ellenke­ző­jéről fog
+               megbizonyosodni.</p>
+            <p>Sokáig járt fel s alá a szobájában, majd a kertbe ment sétálni, de gondolatai
+               makacsul üldözték mindenütt s egy pillanatra sem tudott lelke megpihenni. Mindig csak
+               a fiuhoz vágyódott, ott szeretett volna ülni az ágya mellett, kezét fogni, édes arcát
+               simogatni, beszédeire hallgatni, gyönyörködni lelkének szép elfogulatlanságában és
+               egyensulyában.</p>
+            <p>Évek óta beleszoktatta már magát a gondolatba, hogy visszavonultan, örömtelenül,
+               mogorva zárkózottságában tölti el idejét. Kedvetlenül tette azt is, hogy Lottit
+               magához fogadta. Nem is igen törődött vele. Erre is inkább az birta rá, hogy rossz
+               indulatu testvére hatása alul elvegye a kis leányt, a ki vagyonát örökölni fogja, s
+               maga neveltesse. Eleintén azt gondolta, némileg érde­kelni fogja a lány fejlődése és
+               gyarapodása. Erőszakolta magát, hogy törődjék vele, de a dolog nem szünt meg
+               kellemetlennek lenni reá nézve s igy a kis leány mind jobban-jobban a nevelőkre
+               maradt s ő végleg elvonultságába temetkezett.</p>
+            <p>Most áll be ez a fordulat a különös események folytán. Mint mikor egy kis véletlenül
+               támadt résen a ragyogó napnak egy vékony sugara hatol be egy sötét pince éjszakájába,
+               ugy esett hir­telen egy váratlan, csalóka reménysugár az ő szivének éjjelébe, s
+               benépesitette a vágyaknak, a rég eltemetett boldogság kivánkozásainak ingó-bingó
+               képeivel.</p>
+            <p>Iszonyuan vergődött ama tehetetlenség tudatában, hogy sem esze, sem képességei, sem
+               gaz­dagsága, sem tapasztalása, sem világi állása, sem semmi nem tehet semmit a
+               javára. Minden csak attól függ, hogy mit fog neki beszélni ez a kis gyermek, a ki
+               most jő vissza a halál torká­ból. Emlékszik-e ez a fiu mindenre, vagy csak azokra a
+               dolgokra, melyek őt felvilágosit­hat­ják? Nem csak egy különös véletlen csalfa
+               káprázatossága-e mindaz, a mi vele történik? Nem álmot jár-e, a melyből nehány nap,
+               nehány óra mulva kénytelen lesz felébredni, hogy csak annál sivárabb és szomorubb
+               legyen további élete? Oh mert sokféle szerencsétlenség és bánat van az életben, de
+               tudjátok meg, hogy semmiféle bánatnak oly éles körmei nincsenek, mint a melyet
+               szerető atyák és anyák gyermekeikért szenvednek el.</p>
+            <p>Természetes ezek után, hogy Somberky gróf semmi iránt nem érdeklődött ugy, mint
+               Kelemen iránt. A mi időt a gyermek állapota engedett, azt mind mellette töltötte,
+               vele beszélgetve. S minthogy a fiu szemlátomást erősödött, lassan-lassan, ismételt
+               beszélgetések által kivette be­lőle mindazt, a mire a gyermek emlékezett, de
+               fájdalom, nem tudta kivenni, a mire ő vágyott. Mi nem fogjuk e szakgatott
+               beszélgetéseket ide irni, hanem egyfolytában mondjuk el mindazt szépen rendbe szedve,
+               a mit a gróf ur Kelementől részenként hallott. Elmondjuk ugy, a hogy Somberky Ákos
+               gróf nekünk elbeszélte, mikor már az egészet tudta, de elmondjuk lehetőleg Kelemen
+               szavaival, melyeket a gróf is használt elbeszélésében, mintha nekünk is itt Kelemen
+               mondaná el viszontagságos történetét.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             IX. A kis házikóban.
+            </head>
+            <p>Egy nagy folyóviz mellett laktunk hárman, igy beszélte körülbelül Kelemen a maga
+               sorsát, a papa, Ágnes asszony, meg én egy házikóban. Falu nem volt közel, embereket
+               nem igen lát­tunk. Sokszor hallottam emlegetni a várost, a mely nem is lehetett
+               messze, mert oda gyakran bejártak hol a papa, hol Ágnes néni, és ha reggel elment
+               valamelyik és azt mondta, a városba megy, akkor ebédre megint otthon is volt. Vagy ha
+               délután ment, hazajött vacsorára.</p>
+            <p>Ágnes néni igen jó asszony volt. Sokszor emlegette, hogy ő nevelt fel, ő volt a
+               dajkám. Oly gyöngéden bánt velem, mintha csak a gyermeke lettem volna. A papa
+               szomoru, hallgatag ember volt. Ő tanitott és sokat foglalkozott velem, de soha sem
+               tett ugy, mint a ki szereti az embert. Nem cirógatott meg, nem ölelt meg, nem
+               játszott velem, de mindenre tanitott.</p>
+            <p>És városokról, országokról ámbár tanultunk, azt soha sem mondta meg, ha kérdeztem is,
+               hogy hol lakunk, meg minek hivják a várost, a hova el szokott járni. Ha pedig emberek
+               be is jöttek a házba, ámbár meg volt tiltva, hogy szóba álljak a jövőkkel-menőkkel,
+               csak igen ritkán láttam olyan embert, a ki ugy beszélt volna, mint én, hogy meg is
+               értettem volna.</p>
+            <p>Egyszer estefelé édes atyám ismét elment a városba s mi ketten maradtunk Ágnessel.
+               Hamar lett este, mert az idő borus is volt és mi szokás szerint becsuktuk a ház
+               ajtaját és a szobába mentünk. Itt volt a lefekvés ideje is, és én kezdtem levetkőzni,
+               mikor az ajtón kopogtattak. Ágnes kiment, de meg volt ijedve, mert azt mondta, hogy a
+               papa nem igy szokott kopogtatni. Az asztal meg volt még teritve, mert atyámat
+               vacsorával is vártuk. Egy palack fejér bor és egy palack vörös bor volt oda készitve,
+               s egy ágyon, mely a szobában állt, frissen sült kenyér volt sorba rakva. Én a
+               kopogásra ujra felöltöttem kabátomat, a mint hallom, hogy künn Ágnes nénivel férfiak
+               perelnek. Azután egy recscsenést hallottam s Ágnes néni ijedten szaladt be a szobába,
+               engem megragadott és vitt a másik szoba felé. Ekkor azonban az ajtón egy férfi lépett
+               be s kifelé szólt a másiknak, hogy vigyázzon az ajtóra.</p>
+            <p>Az, a ki bejött, erős, magas ember volt, arcát nagy szakáll boritotta s gorombán
+               beszélt.</p>
+            <p>Nem annyira a beszédökből, mint inkább Ágnes rémületéből értettem meg, hogy valami
+               nagy baj készül reánk. Szegény Ágnes sápadtan, reszketve fogott engemet és perelt a
+               jövevények­kel.</p>
+            <p>Lassan megértettem, hogy én rólam van a szó s hogy értem jöttek. Az, a ki a szobában
+               volt, beszólitotta a másikat. »Elláttuk ugyan magunkat mindenfélével, igy szólt, de
+               az ember soha se tudja ilyen uton, hogy mi éri, szedd össze ezt a kenyeret s bort s
+               vidd a csónakba.« Ezt mondta az, a ki a szobában volt s a másik csakugyan
+               felnyalábolt egy pár kenyeret, felkapta a boros palackokat és eltünt.</p>
+            <p>- De én nem megyek el! kiáltottam én.</p>
+            <p>- Hohó, fiacskám, szólt a goromba ember. Arról majd teszünk és nem sokat fogunk
+               kérdez­getni.</p>
+            <p>- A mig én élek, el nem viszitek, kiáltozá Ágnes asszony és szorosan átölelt.</p>
+            <p>- Hát akkor meghalsz és elviszszük ugy, mond az idegen és felénk közeledett s rátette
+               kezét Ágnesre.</p>
+            <p>Ágnes asszony rémülten kiáltozott.</p>
+            <p>- Csendesen, vén bolond, mert megfojtalak, rivalt rá oly borzasztó tekintettel és oly
+               irtóztató hangon az idegen ember, hogy bennem szinte megfagyott a vér. Aztán megrázta
+               az öreg asszonyt, de ez nem eresztett el engemet, és én is csak annál erősebben
+               kapaszkodtam belé.</p>
+            <p>Ekkor jött be megint a másik.</p>
+            <p>- Fogd ezt a porontyot és dobd a csónakba, mondá neki a mi sanyargatónk, s a mint az
+               a másik hozzánk lépett, borzasztó küzdelem kezdődött.</p>
+            <p>- Ágnes néni, ne hagyjon, sivalkodtam én.</p>
+            <p>De Ágnes csak azt kiabálta: Kelemen fiam, Kelemen! Egyszerre csak lehulltak rólam a
+               karjai s engemet magához rántott az egyik zsivány, mert azt hiszem, csak zsiványok
+               lehettek, és hurcolt kifelé. Még annyit hallottam, a mint a másik azt mondta: Most
+               pedig gyorsan, hol vannak a gazdád irományai. Nem érünk rá sokat tereferélni.</p>
+            <p>Engemet hurcolt ki a másik, ki a szabadba, onnan a folyó partjára s belökött a
+               csónakba.</p>
+            <p>- Meg ne moccanj itt, mondá gorombán, mert a vizbe doblak.</p>
+            <p>Én nem is moccantam. Ugy rémlett, hogy mozdulni sem tudok. A zsivány ott állt a
+               parton és figyelni látszott arra, a mi a házban történik. Ott pedig nagy csattogás és
+               csörömpölés volt. Ugy látszik, Ágnes néni vonakodott kiadni az irományokat, a mi
+               alatt bizonyosan pénzt értettek, mert hallottam sokszor, hogy a rossz emberek
+               rendszerint pénzért törnek békés embe­rek házára.</p>
+            <p>Egyszerre csak nagy csörömpöléssel törik ki az ablak. Azt hiszem, szegény Ágnes néni
+               azt remélte, hogy ha nem enged mindjárt, időközben megérkezik a papa vagy máshonnan
+               jön segitsége. Az is, a ki a parton állt, türelmetlenkedni látszott. Odalépett a
+               csónakhoz s fölém hajolt, s a mint látta, hogy ugy fekszem ott, a hova lökött, mintha
+               mozdulni sem tudnék, csöndes, de gyors lépésekkel a házhoz közeledett, még egyszer
+               visszanézett s aztán eltünt a házban.</p>
+            <p>Engem ekkor egy vakmerő gondolat szállt meg. Elszököm, gondolám magamban s hirtelen
+               felugrottam s a csónak orrához közeledtem, a hol egy leszurt cövekhez volt
+               erősitve.</p>
+            <p>A cövek a partba volt szurva s a kötél ráakasztva.</p>
+            <p>De ha megszököm, nem mehetek messze s bár éjjel van, megtalálhatnak könnyen. A házban
+               csendesség is lett, gondoltam, hogy dolgukat elvégezték s rögtön jönnek utánam. Ekkor
+               meg­fogtam a kötelet, kivetettem a cövekből s a csónak meglóbálódott és a sik vizre
+               ment. A viz elkapta, megforgatta s a csónak uszni kezdett viz mentén.</p>
+            <p>Ekkor láttam a két alakot kijönni a házból. Gyorsan szaladtak le a partra s szörnyü
+               átkozó­dásba kezdtek, hogy a csónakot nem látták.</p>
+            <p>- Ott uszik, elszabadult! kiáltá az egyik.</p>
+            <p>- Lőjj utána, szólt a másik.</p>
+            <p>Én Isten kezébe ajánltam magamat s leborultam a csónak fenekére.</p>
+            <p>Hallottam még őket igen csunyán veszekedni, ugy is tetszett, mintha a part mentén
+               velem jönnének, egyszer-egyszer, mintha oda is kiáltottak volna; de én nem keltem
+               fel, szivem félel­mesen dobogott, ajkammal csöndesen Istent hivtam s a viz szeliden
+               vitte a csónakomat.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               X. Pajtás.
+            </head>
+            <p>Az őszi éj reáteritette fátylát a Dunára, melynek habjai szeliden, susogva vitték
+               hátukon a csónakot. Kelement a riadalmak kimeritették, a fáradság s álmatlanság
+               elnyomta. Ugy elaludt a csónak fenekén, mintha ágyában lett volna s mire felébredt,
+               ismeretlen tájakon utazott s a nappali világosság kezdte elüzni az éjt. A partok
+               laposak és néptelenek voltak, a viz nagyon széles. A csónakban körülnézett s azt
+               látta, hogy az mindenfélével nagyon jól van fölszerelve. Itt egy nagy tarisznya, ott
+               egy teli zsák, egy pár kenyér, egy pár palack és egy balta voltak a csónakon, hozzá
+               egy bunda is, melylyel most reggeli hüssel jól esett takaróznia. Két otromba evező is
+               volt a csónakon, de ő azokat alig tudta mozditani. Éhséget is érzett s elsőbben is
+               kenyeret akart vágni; de ehhez kis tollkése nem lévén elégséges, ösztönszerüleg a
+               tarisznyára fordult a figyelme. Belenézett és majdnem jó kedve lett, a mikor sajtot
+               és fehér cipót, hideg sertéshust, egy poharat és palackot talált benne. Evett egy
+               falatot s a palackból töltött: erős pálinkaféle volt benne. Csak éppen hogy a
+               nyelvére vette, inni nem tudott belőle. De ez a kevés is igen jót tett neki. Kedves
+               benső melegség járta át s az élet kedve és vágya hatalmasan ébredt fel benne.</p>
+            <p>Miként jut partra és hová: ez a gondolat foglalta el először is. Azután meg, hogy
+               onnan mi­képpen kérdezősködik haza. Jó esze ez utóbbira nézve adott is neki tanácsot,
+               de a dologban mégis kételkedett. Azt gondolta, ha kiütődnék a parthoz, akkor part
+               mentén fölfele menne, s igy oda kellene jutnia kis házikójukhoz. Csak arról nem volt
+               most sejtelme, hogy mennyire jöhetett el már onnan és meglehetne-e ily nagy utat neki
+               tennie?</p>
+            <p>A mint igy tünődik, messze a partról hallózást hallott. A part ott hosszant magas
+               volt s a ma­gas parton ugy látszott neki, hogy pásztorgyerekek integetnek és
+               kiabálnak feléje. Hogy mit akarnak, arról sejtelme sem volt. De a gyermekek egyre
+               integettek és kiabálták: hahó, hahó!</p>
+            <p>Kelemen pedig csak bámult rájok, azon tünődve, hogy ezek mit gondolnak vajjon a
+               magányo­san, látszólag gazdátlanul uszó csónakról; és a mint feléjök bámul, ugy
+               rémlik neki, hogy a viz sodra valami mozgó tárgyat hajt feléje.</p>
+            <p>Nézi, nézi... az ám, gondolja, az valami állat, de nem vizi állat, sőt ellenkezőleg,
+               mintha nagyon is nagy baj volna neki, hogy a vizben van. Csakugyan, egy kis kutya, a
+               mely fogyó erejének végső maradványaival küzködik dicstelen sorsa ellen. És a viz
+               éppen a csónak irá­nyá­ban viszi. A pásztorok bizonyosan ezért integettek. Ha igy
+               marad, mindjárt összeérnek, a csónak meg a kutya. Kelemen kihajol, hogy készen
+               legyen. Ha megmentheti, legalább ketten lesznek. A szegény kis állat alig tudja már
+               magát a vizen tartani. Kétségbeesetten, de mind bágyadtabban kapál két első lábával.
+               Már egészen közel van, szeme rá esik a csónakból ki­hajolt fiura. A halálos küzdelem
+               félelme és a remény, melyet egy emberi lény közelsége kelt, néznek ki szeméből
+               Kelemenre, egy végső erőfeszítés, egy vinnyogó hang, mely a vizbe fullad s a kutya
+               elmerül abban a pillanatban, a mikor már-már érintette a fiu keze. Kelemen oly
+               hirtelen kapott utána, hogy majdnem kiesett a csónakból, és szinte sirva fakadt, hogy
+               a dolog nem sikerült.</p>
+            <p>E pillanatban ismét az a szortyogó hang üti meg a fülét s ime a kutya a csónak
+               elejéhez csapó­dott evezőlapát mellett evickél. Kelemen hirtelen odaszökik, megfogja
+               a veszendőt. - Meg­vagy, kiáltja diadallal s beemeli a csónakba. Mint egy elázott
+               rongydarabról, ugy csurgott le a viz a kutyáról. Kelemen lesimitotta megcsapzott
+               irháját s a csónakba tette az állatot. A kutya nyöszörgött s reszketett, de hálásan
+               nézte erőtlen szemével a fiut, ki most egy kis pálinkát öntött a tenyerébe s
+               bedörzsölte vele a kutya orrát. Azután ráteritette a bunda egy szárnyát, gondolván
+               legjobb lesz neki, ha fel tud melegedni. És ezzel a fiu ismét a maga sorsával
+               kez­dett foglalkozni. Az a félelem szállta meg, hogy mi lesz vele, ha a zsiványok
+               üldözőbe veszik és a mi valószinü, el is érik. Mert azok ugyan evezni is fognak s
+               tehát sokkal gyorsabban utaznak. Milyen balga volt, gondolta magában, az az ötlete,
+               hogy partra jutván, megpróbál visszamenni parthosszat haza. Hiszen akkor is könnyen
+               ellenségei kezébe juthat. Legjobb lenne, ha emberek közé kerülhetne, kiknek
+               elmondhatná esetét s a kik pártul foghatnák. De semmiképp sem tudott a csónaknak
+               parancsolni, az evezőkkel bánni se tudott, meg nem is birt velök. A viz meg mind
+               szélesebb lett. Ugy tetszett neki, mintha a folyó több ágra szakadna, szinte egész
+               tenger lett már. A partok alacsonyak, alig lát belőlük valamit. A viz lomhán
+               höm­pölyög s csónakja lassan uszik lefelé. Aggodalmasan nézett körül, nem lát-e hajót
+               vagy csónakot. Félt is tőle, hogy lát, meg óhajtotta is, hogy lásson. Mert félt
+               üldözőitől és óhajtott mentők kezébe jutni. De nem látott senkit. E közben megint
+               kutyájára gondolt. Ha az Isten ugy akarja, küld valakit, a ki kiemeljen engemet is
+               nyomoruságomból, a hogy engemet kül­dött, hogy kiemeltem a szegény veszendő állatot,
+               gondolá magában s Istenbe vetett hite ismét felviditotta lelkét. Felvetette a bundát
+               a kutyáról.</p>
+            <p>- No pajtás, szólt, hogy érzed magadat? A kutya hálásan nézett rá összekuporodott
+               helyzetéből s a mint Kelemen hozzá nyult, megnyalta a kezét és megcsóválta a
+               farkát.</p>
+            <p>- Hohó, pajtás, hiszen már jól vagyunk! Hegyes fülü pásztorkutya volt, melynek faja,
+               mint hallottam, a török hódoltságból maradt Magyarországon.</p>
+            <p>- Ha már így szólitottalak, maradjon a neved Pajtás, mond a fiu s ismét betakarta,
+               minekutána megveregette s rajta hagyta a kezét is, mert az állat már kellemesen át
+               volt melegedve.</p>
+            <p>Különös erőt és önérzetet ad az embernek a tudat, hogy valaki vagy valami reá van
+               bizva, arról neki kell gondoskodni, reá vigyázni, megoltalmazni. Ez rövid perczek
+               alatt jobban meg­ér­leli, mint más körülmények közt hosszu idő és egész csoportját az
+               erényeknek hivja lelké­ben életre. Megszállja a felelősség nemes érzete Istennel
+               szemben s a gyermeket is férfias er­köl­csökkel ruházza fel, s ha mindjárt csak egy
+               oktalan állat is a gyámoltja. A felsőbbség ér­zel­me megfontoltabbá, itéletében
+               érettebbé, érzésében lemondóbbá, cselekedeteiben buzgóbbá és kitartóbbá, valamint
+               önzetlenebbé teszi. Kelemen is szinte érzett magában valami átalakulást, hogy egy,
+               bár alárendelt lény, ime neki köszönte életét, okos szemével mint jótevőjére
+               pillan­tott fel s tőle várja további sorsát, tőle, a ki pedig érzése szerint maga is
+               a legnyomorultabb és legkétségbeesettebb helyzetben volt.</p>
+            <p>E gondolatok átjárták egész valóját s neki ugy tetszett, hogy semmitől sem kell
+               félni, csak el ne hagyja magát. Isten ime őrködött e szegény állat életén, hogy
+               hagyná cserben őt, a ki imád­kozni tud hozzá, és szeret is hozzá imádkozni.</p>
+            <p>Az égre tekintett most Kelemen, Istent hiva és Istennek ajálva sorsát s a mint édes
+               imád­sá­gában elmerülve nézi az eget, egy erős lökést érez s ime csónakja megáll.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             XI. Kikötés.
+            </head>
+            <p>A lökés után, a mely Kelement révedezéséből hirtelen fölkeltette, a csónak
+               villámsebességgel fordult egyet s hosszában neki ütődött valamely kemény tárgynak s
+               annyira oldalt hajlott, hogy a viz is belélocscsant. Igy aztán megállt, félfele egy
+               ujjnyira a viztől. Ha még egy kis nyomást kap, menthetetlenül megtellik. Kelemen
+               átlátta helyzete veszedelmes voltát, mielőtt tudta volna, mitől van. De csakhamar ezt
+               is meglátta: földhöz jutott, de ez egy sziget sarka volt, mert jobbra is nagy viz
+               volt, balra is. A sziget e végén egy a folyóba dült fa hevert, csonka ágakkal. Ki
+               tudja, mióta volt itt e fa. Mert törzse mint egy hid ért ugyan ki a szárazra, de
+               töredezett és lerothadt koronája fele a vizben volt, egy-két vastag ága pedig
+               kimeredezett a vizből. Egy ily ágba ütődött a csónak, hozzá fordult a fához, de egy
+               vizalatti ágba bele­akasztódott az egyik evezőlapát s ugy odafordult, hogy attól
+               hajolt félre a csónak.</p>
+            <p>Kelemen ijedten, tanácstalanul áll egy pillanatig. Hogy a megszorult evezőlapáttal
+               megbir­kózzék, arra nem lehetett gondolni. Kiszabaditani nem tudja, azt rögtön
+               belátta. Ha pedig megtalálja mozditani, kérdés, nem billenik-e meg még jobban a
+               csónak. Egyáltalán miként fog innen elszabadulni? Annyira csak egy hajszálnyira volt
+               féloldalt a viztől, hogy igy is nem lehetett tudni, véletlenül nem fordul-e még
+               jobban a csónak, s akkor ő maga is és mindene, a mi a csónakban van, legalább is
+               bőrig ázik. Az pedig most nagy baj volna, mert bajos lenne megszáritkoznia s mindent
+               ismét jó karba hoznia. Nincs más mód, mint kirakodni a vesze­delmes helyzetbe jutott
+               csónakból s aztán megvárni, mig a csónak jobb helyzetbe kerül, vagy meglesni más
+               hajósokat, a kik innen elmenthetnék.</p>
+            <p>E dologhoz szegény Kelemen lehető gyorsan és nagy óvatossággal hozzá is látott. Fogta
+               egyenkint a tarisznyát, a bundát, a kenyereket, a palackokat, a baltát, a kutyát s
+               kicepelte a partra. Ez persze nagyon lassan ment és igen fárasztó munka volt. Sok
+               órán át tartott, mert igen bajos volt - s óvatosan is kellett - a csónakról a fára
+               kapaszkodni, annak a törzsén végig­menni s bevinni a holmit a szárazra. A
+               kirakodásnál még sok mindenfélét talált Kelemen a csónakon, a mire most nem is igen
+               hederitett, a mi azonban később nagy áldás lett rá nézve. A bundán kivül volt egy
+               nagy kabát a csónakon, melynek zsebei tele voltak becses holmival. Egy nagy zsebkés,
+               egy zsebkendő, egy szép gyujtó skatulya, tele gyujtóval és még egy pakli kénes
+               gyujtó. Gyujtó volt még a bunda egyik zsebében is és ugyanebben kucsma. A hajón egy
+               csomagban volt kétszersült és egy nagy darab szalonna és egy jó marék só. Egy nagy
+               kenyér­vágó kés is volt a holmi közt. A hajóról Kelemen leszedett minden kötelet s
+               végül megpró­bálta kiemelni az egyik evező lapátot is, azt, a melyik szabadon volt.
+               Alig hogy ezt kiemelte, a csónak rögtön a viz alá merült. Ez tartotta volt némi
+               egyensulyban. A mint ez egyensuly megszünt, a viz a csónakba tódult s a csónak a
+               fatörzs alá fordult. Alig volt Kelemennek ideje, hogy a fára kapaszkodjék. Dobogó
+               szivvel nézte onnan csónakja sorsát s a gondolat büvös ijedelme alatt állt, hogy
+               akárhova jutott is, akárhol kötött is ki, itt kell maradnia.</p>
+            <p>A hogy fennállt a fa törzsén, a viz felett, önkéntelenül körülnézett: a folyót látta
+               csendes mél­tó­sággal feléje hömpölyögni, a sziget sarka kétfelé osztotta s az egy
+               nagy folyóból két nagy folyó lett e helyen. De neki ugy tetszett, mintha az elvált
+               ágak megint elválnának s itt nem a partok közt van egy folyó, hanem mintha szigetek
+               volnának vizektől körülvéve. Lassan for­dult a part felé. Ott látta halomban
+               kihordott holmiját, mellette Pajtás ült hegyezett fülekkel, Kelemenre szegzett
+               szemével. S a mint a fiu megindult, partra ugrott, a kutya farkcsóválva, barátságosan
+               közeledett feléje. Kelemen megsimogatta s uj nevén szólitotta kutyáját s ez, mintha
+               felelni akarna neki, jókedvü csaholással s ugrándozással kedveskedett kis gazdájának.
+               Mikor Kelemen visszanézett, egy recscsenést hallott. A megszorult evezőrud tört össze
+               s a csónak végkép lefordult a viz alá. Hol vagyok, s mi lesz itt velem, susogta
+               Kelemen, körül­nézve a parton és csüggedten ült le megmentett rakománya mellé. Pajtás
+               hozzákuporodott s hizelegve szoritotta a fiuhoz fejét. Kelemen elérzékenyülve
+               simogatta a kutyát és könyei sürün peregtek végig arczán.</p>
+            <p>Jó darabig mélázott igy, mig végre eszébe jutott a szörnyü sors, melyből kimenekült.
+               Ama két gonosztévő hangja még egyre fülében csengett s meg volt arról győződve, hogy
+               nagy sze­rencsétlenséget került el, hogy kezükből kimenekült. Világos, hogy több oka
+               van örülni, mint busulni. És mindenekfelett többet ér helyzetével foglalkozni és
+               valamit tenni, semmint ölébe tett kézzel keseregni.</p>
+            <p>Ezt meggondolván, ugy érezte, hogy éhes is. Hogy oly gazdagon van ellátva
+               ennivalóval, az még a jó kedvét is fölkeltette. Jóizűt falatozott hát a tarisznya
+               tartalmából s megkóstolta az egyik palackbeli bort. Természetesen jól tartotta
+               Pajtást is. Mikor készen voltak, friss erővel gondolta meg a helyzetét. Elsőbben is
+               meg kell tudnia, hol kötött ki. Van-e falu vagy ház a közelben, laknak-e emberek e
+               földön és mifélék. Szépen összerakta holmiját és a bundával leteritette s utnak
+               indult, még pedig part mentén. A part fövényes volt, beljebb kissé avaros volt a
+               föld. Füzbokrok és magas fü, melynek egy része feküdt és száraz volt, a friss pedig a
+               száraz felett buján tenyészett. Az egész part mentén mindenütt egyforma volt ez; de
+               alig ment tiz percet, fordulóra ért, a mint fordult, már viz ellen ment és további
+               negyedórai séta után ismét a holmijához ért.</p>
+            <p>- Tehát szigeten vagyok, még pedig kicsinyen, mondá magában. S csak most tünt fel
+               neki a nagy csöndesség, a mely körülvette. Ha ember vagy állat lakná, magát vagy
+               nyomát kellene látnom vagy neszét hallanom. Ha falu vagy emberi lakás volna a
+               szigeten, házat, füstöt látnék. De semmit nem látott, a mint befelé nézett, csak
+               itt-ott egy fát. Madár szállt a levegőben, meg is pihent a fán, más élő lény mintha
+               nem is volna ezen a szigeten.</p>
+            <p>- Magam vagyok-e, mondá s kutyájára nézve: ketten vagyunk-e itt e földön? tevé hozzá
+               s kis szivét megint csak aggodalom szállta meg. Nem is volt már egyéb az ő kis szive,
+               mint egy hajlék, melynek ajtaján a remény s az aggodalom felváltva jártak ki és be,
+               egymásnak adván a kilincset.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             XII. A sziget.
+            </head>
+            <p>Mind e mélázások, szemlélődések és körültekintések közben lassan elmult a nap nagyobb
+               része a nélkül, hogy Kelemen élő lényt vagy csak hajót is látott volna, pedig a vizet
+               iparkodott mindig szemmel tartani. Ugy látszik, oly ágában volt a Dunának, a melyet
+               hajó nem járt, a melyhez közel helység nem volt. Gondolta, tanácsos volna a sziget
+               belső részeit is megnézni, de mégis inkább arra határozta el magát, hogy holmija
+               mellett marad a nap hátralevő részén és a vizre vigyáz, nem jön-e még tán hajó rajta.
+               Hisz a hol lakott, ott rendesen látott gőzösöket is közlekedni a vizen.</p>
+            <p>De a nappal elmult, az este reája ereszkedett és ő egy hangot nem hallott, élő lényt
+               vagy hajót nem látott. Holmijának a part fövenyén jó helye volt, maga fogta a bundát,
+               belebujt s holmija mellé feküdt, Pajtás meg ő hozzá huzódott.</p>
+            <p>Igy töltötték a puszta ég alatt a második éjjelt, az elsőt a szigeten. Rémes
+               csendesség vette őket körül. Fejük felett a csillagsátor, alattuk a föld, körülöttük
+               a viz, egyhangu zugó folyá­sával. A kelő nap ébresztette fel őket. Kelemen jól
+               kialudta magát, de mégis csüggedés fogta el. Párszor fölébredt éjjel, de mindig az
+               éjszaka néma csöndessége vette körül. Hajó zakato­lása nem zavarta álmát. Busan
+               keresett magának reggelire valót, melyet természetesen meg­osztott kutyájával. S
+               mikor jól lakott s a Duna vizéből jóizüt ivott rá, mindjárt vidámabb lett.
+               Csónakjának már semmi nyoma sem volt, a világtól végképp elzártnak érezte magát. Mit
+               volt mit tennie, fölkerekedett, minekutána holmiját rendbe rakta s bundájával
+               leteritette volt, s neki indult a szigetnek.</p>
+            <p>A viztől nehány ölnyire merő homok volt minden, azontul gyér fü kezdte boritani a
+               homokot s végül erős, éles fü, mely évről-évre egymáson nőtt s erősen vastagon
+               takarta a földet. Emberi kéz munkája nem látszott rajta sehol. Ugy látszik, e kis
+               darab földre nem tart számot senki. Itt-ott füzes bokrok, egész kis ligetek voltak s
+               vagy három-négy fa, ebből is egy félig, egy pedig teljesen kiszáradva meredezett az
+               égnek. Egy-két órai bolyongással Kelemen bejárta az egész kis szigetet. Nehány apró,
+               füttyös madár, egy pár vizimadár reppent fel közeledése zajára, melyeknek Pajtás
+               vigan utána ugatott, s végül egy nyul ugrott fel, melytől Kelemen erősen megijedt,
+               jobban, mint a nyul ő tőle. Mert a jó Bence füleit hegyezve ült hátsó lábára s ugy
+               nézett a kis jövevényre. De már Pajtás nem vette ily flegmatikusan a dolgot. Ideges
+               csaho­lással ugrott a nyul után s engedelmessége nagy próbát állt, mikor Kelemen
+               vissza­parancsolta. Pajtás csak nyöszörögve engedelmeskedett.</p>
+            <p>Az állatok szelidsége, a sziget gondozatlan állapota hamar meggyőzte Kelement arról,
+               hogy e sziget Isten tudja mikor látott emberi lényt. A nyul is alkalmasint csak
+               remetéje a szigetnek, a ki tán téli fagy idején vetődött e helyre s olvadáskor itt
+               rekedt. S főleg a nyul terelte Kelement arra a gondolatra, hogy nyilván ez lesz az ő
+               sorsa is, és bajos lesz innen addig menekülnie, a mig télapó természetes hidat nem
+               épit számára jégből.</p>
+            <p>E gondolat kezdte őt elfoglalni s immár abból a szempontból kezdte vizsgálni a
+               szigetet, hogy hol és miképp keressen védelmet az időjárás ellen. Ez különben is
+               sürgős kérdés, mert tél nélkül is eső minden nap eshetik s akkor csekély, de mind
+               nagyobb és nagyobb becsben feltünő holmija elázik és megromlik, itt pedig bajos lesz
+               akármihez is hozzájutni.</p>
+            <p>Délre járt az idő, a mikorra e gondolatok teljesen elfoglalták. Leült hát azzal a
+               szándékkal, hogy előbb megebédel, azután pedig megfelelő helyet keres, a mely némi
+               védelmére szol­gálhat rossz idő esetén.</p>
+            <p>A mint azonban kezébe vette a tarisznyát, akkor rohanta csak meg a nagy ijedség.
+               Miből fog élni e szigeten, ha készlete elfogy. Volt ugyan négy egész kenyere, ezt a
+               jó dajkája sütötte, ne­hány zsemle s egy megszegett kenyér, volt még a hideg husból,
+               volt egy jó darab szalonná­ja, két üveg bora s egy üveg pálinkája. Oh és a becses
+               gyujtó! Mind ez valódi kincs lett e pilla­nat­ban, de meddig fog ez tartani: arra
+               alig volt mértéke, feltette hát magában, hogy lehető fösvé­nyen bánik mindennel.
+               Pajtás is aggodalommal töltötte el: azt is táplálni kell. Alig evett egyebet
+               ez­ut­tal kenyérnél s egy falat hust hozzá. Bort, pálinkát jól eldugaszolt: az csak
+               ritkán veendő elő, az legyen a patikája, ha kimerül, megfázik, vagy éppen betegség
+               éri. A ruhájáért is aggódni kez­dett. Jó és szép, erős ruhája volt, de ha leszakad
+               róla, nem lesz hol másikat venni, hát kimélni kell. Le is vetette a mi föltétlenül
+               szükséges nem volt s szépen eltette a többi holmi közé.</p>
+            <p>Igy indult szerény ebédje után ujra a sziget belsejébe, hogy magának tanyát keressen.
+               Sokat járt mindenfelé, elsőbben a füzesekben keresett. Azt gondolta, hogy a bokrok
+               árnyéka óvni fogja a széltől, a galyakat összebogozza s csinál aljukba valami fészek
+               félét. De ha ő bundájában itt meg is huzza magát, hova teszi eső elül a holmiját. A
+               mellett e bokrok alja iszapos föld és rossz szagu, nyilván egészségtelen is.
+               Hozzájárul, hogy innen a vizre se lát ki: ha hajó menne erre, nem venné észre.</p>
+            <p>A sziget alsó fele a felsőhöz képest szemlátomást emelkedett s mintegy száz ölnyire a
+               parttól meglehetős homokdomb állt. E domb füvel volt benőve s a mint Kelemen fölment
+               rajta, látta, hogy apró szürke állatok szaladoznak rajta ide-oda cikkázva s hirtelen
+               eltünnek. Ürgék voltak ezek, melyek senki által nem háborgatva szépen elszaporodtak a
+               szigeten. Pajtásnak nagy mulatság volt egyiket a másik után megkergetni. Egy-egy
+               csipke-, egy-egy kökénybokor állt a dombon. Kelemen épp oly kevéssé ismerte ezt, mint
+               az ürgét. De megkóstolta mindeniknek zöldelő gyümölcsét, hanem kegyetlen arcot vágott
+               tőle. Ez, gondolta magában, kevés táplá­lékot fog nekem adni. A mint fölért a domb
+               tetejére, ott a domb mintegy le volt vágva, a sivó homok látszott ki a gyep alatt s
+               igy mintegy két-három terrászban esett le az emelkedés a viz szinéig. Nyilván a nagy
+               viz mosta le a dombot, s a part pereme, mely kissé előállt, hirtelen rossz idő ellen
+               némileg megvédelmezheti az embert.</p>
+            <p>Ide fogok hordozóskodni, gondolta magában Kelemen és rögtön hozzá is fogott.
+               Darabonkint cepelte oda holmiját, semmit ott nem hagyva, még az evező lapátot sem.
+               Elhozta mind, a part alá rakta s igy esteledett be másodszor a szigeten. Az erős
+               munka, melyet teljesitett, kellemes megelégedéssel töltötte el, s mikor jókedvvel
+               gondolta magában, hogy most vacsorázni fog, akkor vette észre, hogy Pajtás, a ki
+               mindig ide-oda szaladgált vele s a holmit néha meg is fogta, mintha segiteni akarna
+               vinni, nincsen körülötte. Kelemen szomoruan gondolt a kutyára, mert el volt tökélve,
+               hogy éppen csak egy falatocskát fog enni. Mindig csak reggel és délben fogja magának
+               a bővebb evés luxusát megengedni. Aludni lehet egy kissé éhesen is. De persze ez
+               okoskodást nem lehetett Pajtásnak megmagyarázni s Pajtás nem fogja ezt a dolgot olyan
+               nyugodtan venni.</p>
+            <p>Mig Kelemen igy töprenkedék, egyszerre vig nyafogással szökdécsel feléje kutyája,
+               szájában egy barna tömeget hozva, melyet oda érve, letesz gazdája elé. Egy pompás,
+               gömbölyü, kövér ürge volt.</p>
+            <p>- Ohó, Pajtás, te pecsenyét fogtál magadnak? Ez már valami! Igy majd csak megélünk.
+               No nesze, edd meg!</p>
+            <p>De bizony Pajtás csak nem ette meg, hanem körülugrosta, ugatott, felvette, Kelement
+               meg­kerülte vele, ujra elejbe tette, azután megint felvette, megint odatette. Világos
+               volt, hogy nem magának, hanem kis gazdájának szánta a kitünő falatot s nyilván nagyon
+               csodálkozott, hogy szőröstől-bőröstől ott mindjárt meg nem ette.</p>
+            <p>Kelemen fogta a kis vadat, lehuzta a bundáját s aztán fölvagdosta s darabonkint adta
+               az ügyes vadásznak. Igy mindketten magokkal megelégedve hajtották fejöket álomra.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+             XIII. Kelemen hajlékot készit.
+            </head>
+            <p>Igy multak napok, melyek alatt különféle tapasztalatokat szerzett Kelemen.
+               Nevezetesen nem volt ugyan egyszer sem rossz idő, de mégis belátta, hogy tartósan nem
+               lehet igy ellakni a barátságos part alatt. A hogy ugy a földre volt rakva és
+               letakarva, holmija is romlani kezdett. Különösen kenyere részben nagyon kezdett
+               száradni, részben penészedett. Ezen ugy segitett, hogy összes kenyérkészletét
+               felvágta szeletekre s a napon megszárogatta. Ehhez a kétszersült adta neki a
+               gondolatot. Igy ha száraz is, könnyen töri darabokra s vizben megáztatva megeszi.
+               Aztán jobban is számon tudja igy tartani. Minden napra számit egy darabot s egy
+               falatot a husból vagy a szalonnából s valami a szigeten csak akad még hozzá, ha egyéb
+               nem, hát - ürgepecsenye.</p>
+            <p>De a kenyérnek is és a többi holminak is jobb hely kell, mint a hol eddig tartotta.
+               Ez után kellett nézni. Hogy épitő anyaga nem igen akad a szigeten, azt már tudta, s
+               ha még anyaga lett volna is, nem volt hozzá se elég szerszáma, se elég tudománya.
+               Legkecsegtetőbb volt hát rá nézve a parti fecskék épitő stilusa, a kik hosszu
+               folyosót vájnak kisded csőrükkel a homok­partba s a folyosó végin egy kis téresebb
+               üreget fészkük számára.</p>
+            <p>Kelemen is fogta a nagy kést, melyet a csónakban talált s elkezdte a homokpartot
+               faragcsálni. Elsőbben is egy gyermekmagasságu, a saját testénél kétszerte szélesebb
+               ajtót vágott s ezen ásott be, szépen faragván a homokot s mind beljebb hatolva a domb
+               alá. Mikor mintegy ölnyire benn volt, akkor kezdte tágitani s lassan, természetesen
+               hosszu napok alatt, egy jókora szo­bát vágott a domb alá. A homokot pedig, melyet
+               lefaragott, mind kihordotta, szobája fene­két jól megtaposta, padmalyát pedig oly
+               magasra faragta, a hogy csak elérte. Igy vágott magá­nak mintegy két négyszögölnyi
+               barlangot. Azután egypár vakablakot s polcot faragott a falak­ba. A munka könnyen
+               ment, mert mindenütt homokot talált, mely aránylag száraz is volt. Mikor ennyire
+               elkészült, hozzálátott a butorozáshoz, a mi azt jelenti, hogy holmiját szépen
+               behordta s elrakta, kit ide, kit oda. Az evező lapátját alája tette a kenyerének, s a
+               szeleteket szépen, de hézagosan egymásra rakta, ugy, hogy homokot nem ért a kenyér és
+               a levegő is járta.</p>
+            <p>A bundát leteritette egy sarokba, az volt az ágya. Mikor mindezzel készen volt, igen
+               meg volt magával elégedve. Már ily zsenge korában élvezte ez uton azt a
+               gyönyörüséget, a melyet az embernek az szerez, ha a maga keze munkájával gondoskodik
+               magáról.</p>
+            <p>A mint azonban eképp a hajlékkészités gondjától megszabadult s ugy találta, hogy
+               pompás lakást épitett magának, élelmiszereinek gondja vette igénybe. Mindig a
+               hajlékával lévén elfoglalva, mindig is a készből élt és nem szerzett hozzá semmit, s
+               azt vette észre, hogy a leg­nagyobb takarékosság és néminemü müvészi koplalás mellett
+               is hamar fogy a készlete. El­ha­tározta hát, hogy holnap megint körutat tesz a
+               szigetén, tisztán abból a célból, hogy keressen valamit, a mivel napi kosztját
+               kiegészithetné s becsesebb készletét kimélhetné.</p>
+            <p>Ezzel a gondolattal vonult vissza este odujába, hogy lefeküdjék. Itt, jó ágyán jutott
+               először eszébe, mily hasonlatos az ő sorsa Robinzonéhoz, kinek a történetét már
+               korábban olvasta, egy karácsonykor ajándékba kapott könyvből. »Mennyire más ez a
+               dolog valóságban, mondá magának, mint a hogy az ember elképzeli!« Mert őt is,
+               valamint tán minden ifju embert, el­kapta a vágy, hogy szeretné azt a vonzó s érdekes
+               kalandos életet átélni, mely Robinzon tör­ténetében meg van irva. Most ő valósággal
+               Robinzon sorsára jutott. De milyen más ez, mint a milyennek ő képzelte! Sokat kell
+               fáradni, aggódni, sőt félni. Sokat nélkülözni és éhezni. A mi leirva és olvasva kicsi
+               dolognak látszik, de a valóságban igen keserves. Hozzá volt szokva a rendes
+               mosakodáshoz, a tiszta ruhához. Néha terhére is volt, mikor jó dajkája mosdatta és
+               tisztát váltatott vele. Milyen alkalmatlan és terhes a tisztátlanság, azt most érezte
+               csak, mikor se mosdást nem végezhetett alaposan, mert nem volt törülközője, se
+               váltani való ruhája nem volt. Azután mily borzalmas a magányosság, mikor egy
+               teremtett lélekhez nem szólhat, hanem ha oktalan kis kutyához. És ha szorgos munkája
+               nem volt, esős rossz napokon, mily gyötrő az unalom, a mely megüli! Behuzódott jó
+               szobácskájába, de ott a sötétség fogadta és az ült mellette néma csöndességben. »Mily
+               balgák vagyunk, hogy a képzeletünknek átadva magunkat, megkivánunk olyat, mondá
+               mindezt elgondolva, a mitől hogy Isten megóvjon bennünket, imádkoznunk kellene.«</p>
+            <p>Másnap reggel elindult Kelemen a sziget belsejébe felfedező utjára. Elment a
+               csipkebokrok és a kökény mellett. A csitkenye már piros, a kökény már szép kék volt,
+               de ehetetlen volt minde­nik. Tovább menve a gazdag száraz fü ötlött szemébe: ezzel
+               jobban megvethetné az ágyát, gondolta magában. Hozzá is látott nagy kése segitségével
+               és learatott egy jó csomót, boglyába rakta s figyelmét a három-négy fa vette igénybe.
+               Különösen a száraz adta neki a gondolatot, a mely eddig még meg nem kisértette: ez
+               pompás lesz tüzelőnek. Tüzre ugyan eddig nem igen volt szüksége, de van gyujtója s ha
+               ugy fordul, tüzet is rakhat. Föltette magában, hogy a leg­közelebbi napokban
+               favágásra adja magát s ellátja tanyáját fával. Egy másik fa sötét zöld lombjára esett
+               most a szeme. Ahhoz indult hát s nagy meglepetésére teritve találta az alját apró
+               körtével. Vad körtefa volt, tele terméssel. Kelemen rendkivül megörült ez Isten
+               áldásá­nak s mohón sietett egy körtébe beleharapni. Jaj, de az bár zöld, de kemény
+               nem volt, mégis igen fanyar izü volt. Azonban a magja fekete, tehát a gyümölcs érett
+               volt. A mint ezen tünődik, veszi észre, hogy a földre hullt gyümölcs egy része
+               egészen meg volt barnulva, felvett egy ily barna körtét s a szagát kellemesnek
+               találta. Gondolta hát, hogy nem rothadt, s beléharapott. Oh mily kedves dolog! A
+               gyümölcsöt pompásnak találta. Tele is szedte rögtön a kalapját s diadallal vitte
+               haza. Olybá érezte magát, mintha teritett asztalra akadt volna. Vigan tért vissza
+               boglyájáért, melyet két fordulóra kötelébe nyalábolva szintén haza szállitott.</p>
+            <p>Innen tul vadkörtén vigan éldegélt Kelemen. Néha ugy érezte ugyan, hogy egy kissé
+               nehéz tiszta gyümölcsön élni, de ilyenkor megengedett magának vagy egy korty
+               pálinkát, vagy egy kis bort, a mely helyrehozta a gyomrát. Most fogta balaskáját,
+               melyet szintén mint tudjuk a csónakban talált s nekiesett a száraz fának. Egész nap
+               azon ült, vagdosta ágait és közbe-közbe megpihenve, eltekintett a magasabb kilátóról
+               a vidéken jobbra és balra. De nem látott, csak avart, füzest és vizet. E közben egyik
+               ág a másik után hullt le recsegve s már csak a vastagabb részek voltak fönn, a többi
+               szerte volt a földön. Ennyivel egyelőre beérte Kelemen s apránkint oduja elé
+               szállitotta fakészletét is és a part alatt szépen fölrakta rendben. Nem is állta meg,
+               kihozott egy csomó száraz füvet, s mikor az esti szürkület leszállt, tüzet rakott a
+               lakása előtt.</p>
+            <p>Jaj be nagy vidámság fogta el őt a szokatlan látványra, a mint a tüz pattogott és
+               lobogott s a füstje kavarogva szállt az ég felé, kis hija, hogy táncra nem kerekedett
+               körülötte, mint valami tüzimádó pogány.</p>
+            <p>A véletlen még megtetézte hangulata e kis ünnepét, mert Pajtás most hozott megint egy
+               jó pufók ürgét.</p>
+            <p>- De már most megkóstoljuk a pecsenyédet, mond Kelemen s azonnal hozzá is látott.
+               Lev­etkőztette a bundást, beleit Pajtásnak adta, leszaladt a vizre, megmosta, aztán
+               visszasietett, egy ágat megfaragott nyársnak, ráhuzta az ürgét és nekiült
+               megsütni.</p>
+            <p>Szépen, óvatosan piritotta meg a kövér állatot, a mely rövid idő mulva kitünő
+               pecsenyeillatot bocsájtott ki magából. Szegény Kelemennek szinte összefutott szájában
+               a nyála. Mily ingerlő illat. Nem is tudja már, mikor evett utolszor meleget. De még
+               Pajtás is érzi a pecsenye szagát: szükölve ugrándozott kis gazdája körül, a ki
+               nekipirult arccal szakácskodott a tüz körül.</p>
+            <p>Végre megvolt az ürgesült.</p>
+            <p>Kelemen fölkereste a nagy gonddal eltett sót, kissé fösvényesen, de megsózta
+               pecsenyéjét, leült közel a tüzhöz, elővette zsebkését és elkezdett falatozni.</p>
+            <p>Oh, de mily felséges vacsora volt ez! Soha Kelemen ilyen finom pecsenyét nem evett. Ő
+               leg­alább szentül hitte ezt és hálásan cirógatta meg érte Pajtást, a kivel
+               természetesen megoszto­zott a vacsorán.</p>
+            <p>Azután szépen besöpörte a tüzet hamuval, kitárta két kezét az ég felé, a mely
+               csillagaival felette tündöklött s gyermeki szivvel gondolt Istenre, a ki őrködik
+               felette és hü társát Pajtást hiva, behuzódott tanyájára s a tiszta szivek álmába
+               merült.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              XIV. Berendezkedés télre.
+            </head>
+            <p>Az idő kezdett már hüvösre válni, kivált a reggelek voltak már nagyon csipősek. A
+               füvön dér mutatkozott, a falevelek megsárgultak, a körte már több volt a fa alatt,
+               mint a fán. Kelemen érezte, hogy közeledik a zord évszak, a tél, s aggódott, hogy mi
+               lesz a körtéből, a mely ez időben majdnem kizárólagos tápláléka volt s lehetővé tette
+               neki, hogy kenyerét és szalonnáját kimélje. Tünődött rajta, mint lehetne a körtét
+               eltenni télire, mert azt gondolta, hogy a fa alatt nem lehet meghagyni, mivel ott
+               megrothad. Végre sok tünődés után azt gondolta, meg kellene próbálni, nem lehetne-e
+               aszalt állapotban eltenni. Hozzá látott tehát egy kis kemence vájásá­hoz. A dolog
+               könnyen és gyorsan ment. Jó széles fenekét csinált, hogy sok körte férjen bele,
+               elfütötte s mikor gondolta, hogy jól át van melegedve, kihuzta a tüzet, egy csomó
+               körtét belökött s a tüzet a kemence szájához söpörte, s ott lassan élesztgette, hogy
+               kemencéje ki ne hüljön.</p>
+            <p>Mikor ez megvolt, elment füvet aratni. Ajtó nem volt a lakásán s már az őszi hideg is
+               néha ugy belopózott, hogy védelemről kellett gondoskodnia. Jól megteritette hát füvel
+               a lakását, körül is rakta s néhány erős csomót kötött, hogy azzal berakja az
+               ajtaját.</p>
+            <p>Hogy a fü, melylyel szobája fala alját körülrakta, sok helyet el ne vegyen a kis
+               tanyából, el­ment füzágat vágni, hogy azzal odatüzdelje a falhoz a füvet. E
+               foglalkozás közben látja, hogy ott a füzek körül Pajtás szörnyü nagy buzgalommal
+               kapar a földben. Bele-bele dugja orrát a lyukba, nagyokat fuj és röffent és ujra
+               kapar. Kíváncsi volt rá, hogy mit fog kikaparni kutyája s oda ment hozzá. Ekkorra
+               Pajtás már egy egész darab földet fölkapart s a mint mind a négy lábával szórja ki a
+               földet, valami diónyi, de jó öreg diónyi golyócskákat dobál ki. Kelemen felvesz egyet
+               s majdnem sápadt lett a meglepetéstől s szinte dadogva mondta: Istenem, jó Istenem,
+               ez - krumpli!</p>
+            <p>Elszólitotta a kutyát s vizsgálni kezdte a helyet s ime a könnyü iszapos földben
+               megtalálta a növényt és a gyümölcsét. Nagy buzgalommal fogott a kereséséhez, a mikor
+               megismerte már a szárát s tetemes mennyiséget talált; de mind elsatnyult, apró
+               gyümölcsöt. Hanem ez igy is fejedelmi találék volt. Oly szerencse, a minőről álmodni
+               sem mert. Nyilván a viz sodorta ide, akár a magját, akár magát a gyümölcsét s abból
+               szaporodott el. Hiszen mi minden nem kerül az áldott vizbe, akár véletlenül, akár
+               szándékosan! Talán egy krumpliföldet mosott ki a Duna valahol. Talán pajkos
+               pásztorgyerekek krumplit sütöttek s mulatságból bedobáltak egy csomót a vizbe! Talán
+               csónakon vitték e drága gyümölcsöt s a csónakot szerencsétlenség érte s ugy került
+               ide a jóizü portékának a magja. Nagy buzgalommal keresgélte már most Kelemen a
+               burgonyafészkeket; napokat töltött el azzal, hogy mindig azt keresgélt s valóban szép
+               csomót szedett össze. Némely napon három-négy kalapra valót is. Ennek is vermet ásott
+               és oda szépen elrakta. Mily lakoma volt az, a mikor az első sült kolompért ette, azt
+               a párolgó, jó lisztes eledelt, melynek parfümje szinte megrészegiti az éhes embert. A
+               király, legdrágábban teritett asztalánál nem eszik jobb izüen, mint a hogy ő ette
+               első sült krumpliját!</p>
+            <p>Az aszalás is szépen ment. Minden másod-harmad-napra megaszalódott egy kemencére való
+               körte, a melyet aztán Kelemen jó száraz helyen eltett. Hiszen könnyü volt neki
+               kemencét, vermet, kamarát ásni: a homokpartban hely volt elég. Henyélni való ideje e
+               szerint mentül kevesebb maradt. Mert az aszalás és a krumplisütés a fáját emésztette,
+               azt ki kellett egésziteni. Az ajtónyilásokat betömni sok füre volt szüksége. A körtét
+               is szedte, krumplit is keresett, igy hát gyorsan mult le róla az ősz is.</p>
+            <p>Mielőtt azonban még a tél rájött volna, oly esemény történt, a mely borzalommal
+               töltötte el s melyet meg kell irnunk.</p>
+            <p>Egy embertársa került a szigetre, de néma, mert halott.</p>
+            <p>Egy napon ugyanis, a mikor keresgélései közben a sziget felső végére ért, oda, a hol
+               maga is kikötött, Pajtás, a ki hiven kisérte őt minden kirándulásán, feltünő
+               nyughatatlansággal szükölt ott a fatörzsök mellett, a mely Kelemen csónakját
+               elmeritette. Kelemen oda megy s irtózattal látja, hogy ott iszaptól eléktelenitve
+               félig a vizben, félig már szárazon egy emberi test fekszik.</p>
+            <p>Egy boldogtalan, a ki nyilván a vizbe esett! És már régen kell a vizben lennie, mert
+               ruhája, haja össze van csapzódva, arca fakó, szintelen, foszlányos. Akárki volt,
+               immár oly rémes állapotban van, hogy édes anyja sem ismerhetne rá.</p>
+            <p>Mit csináljon vele szegény Kelemen, ez a gondolat szállta meg elsőbben is, hogy
+               rémületéből magához tért. A halottakat el szokás temetni. Ezt ugyan senkisem temeti
+               el, ha csak ő nem. Ugy érezte, mintha e nyomorult holttest őt megpróbálni jött volna
+               ki a vizből: megpróbálni a bátorságát és a jámborságát. Akár hogy csinálja is, el
+               fogja temetni.</p>
+            <p>De hozzányuljon-e kezével e foszladozó testhez? Ettől megborzadt. És mégis,
+               valamiképpen meg kell fogni! Nézi, vizsgálja s megragadja nyirkos kabátja szárnyát
+               kétségbeesett erőfeszi­téssel, hogy próbálja a testet kihuzni a vizből. Azt sem
+               látja, mit csinál, mi történik vele, csak azon veszi magát észre, hogy a földön
+               hever, kezében a foszló kabát felével, a holttest pedig ott fekszik, a hol volt.</p>
+            <p>A kabát elszakadt s a szegény fiu egyensulyt vesztve elesett.</p>
+            <p>Erővel nem megy a dolog, ezt most már belátta. A halottat kezénél fogva megfogni
+               szintén nem volt bátorsága. Hiszen megeshetnék, hogy most meg a keze szakad ki! Fogta
+               tehát hü kését, a mely a sok földvájásban már szinte felére vásott és elkezdett vele
+               a halott irányában árkot ásni. Jó hosszu munka volt, egész napja beletelt, a mig egy
+               ember-hosszuságu árkot huzott, egész a halott ember fejéig. Most egy keskenyebb kis
+               árkocskával a halott mellett, ezt összekötötte a Dunával, ugy, hogy a viz kezdett az
+               árokba folyni s elmosta a halott mellől s alatta a homokot. Ekkor Kelemen megfogta a
+               halott két vállán összes ruháit s lassan a viz segitségével becsusztatta az
+               árokba.</p>
+            <p>Egyszer ott levén, letérdelt melléje, dobogó szivvel, remegő ajkkal és kulcsolt
+               kézzel imád­ságot mondott és homokkal betemette. Fölhalmozott rá annyi homokot, hogy
+               egész domb emelkedett fölötte s aztán otthagyta.</p>
+            <p>Kimerülve, fogvacogva, szinte lázasan sietett ezután tanyájára s ugy érezte, még
+               mióta e szigeten van, ilyen nehéz napja nem volt.</p>
+            <p>Egy korty pálinkát ivott s azzal feküdt le. Ifju természete legyőzte felzaklatott
+               idegeit s az éjt elég türhető álomban tölté.</p>
+            <p>Másnap reggel ellátogatott a sirhoz. Az természetesen illetetlenül állott. De a
+               leszakadt kabát­rész ott hevert a sir mellett. Kelemen felvette az immár megszáradt
+               ruhadarabot, hogy azt is a sirba temesse s akkor vette észre, hogy a kabátdarabon
+               zseb, a zsebben valamely tárgy van. Egy beiszapolt tárca volt.</p>
+            <p>Ki tudja, talán e tárcában nyoma van annak, hogy ki volt e szerencsétlen halott
+               ember. Ha már kivül maradt a siron, megőrzöm, hátha az Isten engemet innen kiment s
+               valakit érdekel ez az eset s az ez által fogja megtudni tőlem.</p>
+            <p>Szegény Kelemen nem tudta, hogy ő az, a kit ez a dolog érdekelt!</p>
+            <p>Két darab ágból kezdetleges keresztet tüzött Kelemen a sirra s azzal ismét
+               hazaballagott, hogy immár megint a maga nyomoruságáról gondoskodjék.</p>
+            <p>Az eset fenekestől felzaklatta érzékeny és jámbor lelkét; de a tél közeledése annyi
+               dolgot adott neki, hogy a körülményekkel való szakadatlan küzdelem csakhamar
+               visszaadta neki lelke egyensulyát.</p>
+            <p>Mert tudjátok meg, hogy semmi sem jobb vigasztaló bánatban és semmi sem jobb
+               szóra­koztató a szerencsétlenségben, mint a hasznos munka, a kötelesség hü
+               teljesitése.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              XV. A tél.
+            </head>
+            <p>Végre rájött a kis szigetlakókra a tél, minden kegyetlenségével. Fagy, szélvihar, hó
+               járta napról-napra. Ez volt csak Kelemen nagy próbája. A nap nagy részét is sötét
+               barlangjában tétlenül kellett töltenie. Ha kiment is, fogyatékos ruházatánál fogva
+               csak kevés időig maradhatott künn. Rendszerint fát vágott ilyenkor, a mitől teste
+               kimelegedett. Kezét és lábát ürgebőrrel védte. Gyenge, hajlékony füzgallyal tüzött
+               össze magának téli keztyüt, ugy, hogy az ürgebőr szőrét befelé forditotta. De ez oly
+               kezdetleges munka volt, hogy dolgozni éppen nem lehetett vele. Cipőjét is azzal
+               boritotta be. Azután kifejtette bundájának az ujjait s két lábszárára huzta fel s
+               vállán keresztül vetett madzaggal akgatta magára. A madzagot köteléből fejtette ki. A
+               bekecset, mely szintén a csónakban volt, a melyben a gyujtót is találta, téli kabát
+               gyanánt hasz­nálta, ha csak sétálni ment. De olyan nagy volt neki, hogy majd
+               elveszett benne.</p>
+            <p>De semmi szenvedés, se hidegség, se fagy, se étlenség, mert végre is az aszalt körte,
+               egy falat kenyér, egy-egy falat szalonna egy pár sült burgonya nem nagyon gazdag
+               étlap és sokszor kellett magát Kelemennek kiéheztetnie, hogy meg ne unja gyomra ezt a
+               - kosztot, de mindez semmi sem volt a sok sötétséghez és a sok unalomhoz képest, a
+               mely a kényszerü tétlenséggel járt. Ha legalább egy kis faggyugyertyája s könyve lett
+               volna! Mily boldognak érezte volna magát.</p>
+            <p>Ürgevadászatra néha eljártak, de nem sok szerencsével. Az ürgepecsenye azonban mind
+               Pajtás számára tartatott fenn, a ki az aszalt körtét nem nagyon kedvelte. Le is
+               soványodott a szegény állat nagyon s elkócosodott az irhája; de azért jámbor és
+               szófogadó volt. Az is meg­esett, hogy egy-egy ürgét a lyukából ástak ki, a mi igen
+               nagy dolog volt, mert igen mély volt a lyuk. A lyukban azonban, mikor a fenekére
+               értek, ürge helyett egy mérges hörcsögöt találtak, mely dühösen szembe szállt velök;
+               de Pajtás elbánt vele. Hanem volt ott még valami: egy nagy csomó fümag és
+               vadgabonaszem, a mit a hörcsög magának télire összehordott, és volt még száraz vad
+               körte is. De ezzel nem volt mit csinálni, hát ott hagyták.</p>
+            <p>Unalmában végül már az jutott Kelemennek eszébe, hogy jó volna megpróbálni a
+               kosárfonást. Annyi sok szép sárga és piros füzvessző volt a szigeten, az nagyon
+               alkalmas az effélére, s bár nincsen valami nagy szüksége a háztartásban kosárra:
+               időtöltésnek jó lesz. Tehát kezdett kosarat fonni. Nem nagyon jól ment, nem tudott
+               neki formát adni, de mégis megörült, mikor az első esetlen kosara készen volt. Az idő
+               jobban elmult e mellett.</p>
+            <p>Egyszer, csikorgó hidegben, egy igen kegyetlen éjszaka után, kiment Kelemen
+               füzfavesszőért. De mily nagy volt a meglepetése, mikor az avarban egy csapat madarat
+               lát közel a füzeshez bukdácsolni. Feléjök megy, de biz a madarak nem röppentek fel.
+               Iparkodtak futva menekülni, de az is csak nehezen ment. A hideg, az éhség ugy
+               elcsigázta szegényeket, hogy csak ugy tipegtek, szédelegtek ide-oda. Egy csapat
+               fogoly volt. Ugy látszik valahol megkergették, ki­zavarták őket, s itt szálltak meg e
+               szigeten. De étlen lévén, s a fagy ellen se jól védve, már-már veszendők voltak.
+               Kelemen könnyen összefogdosta valamennyit (volt vagy tiz darab) s elvitte lakására.
+               Ott két kész kosár alá leboritotta őket s most eszébe jutott a hörcsög éléstára.
+               Elhozta a tartalmát s a szegény fogoly-csapat mohón esett neki az elejbe hintett
+               sovány eledel­nek. Csinált nekik azután Kelemen egy kis ólat a partban, azt jól
+               kirakta száraz avarkészle­téből s elejbe füzvesszőből font ajtót, melylyel
+               betámasztotta. Itt vigan éldegélt a szegény madárcsapat, s olyan szelid lett végre,
+               hogy akár tán ki is lehetett volna ereszteni. De ettől óvakodott Kelemen. Mert hiszen
+               végre is pecsenye lett a madarakból. Minden másodnap leölt Kelemen egyet a szegény
+               Pajtás számára. Igy élt a kutya majdnem egy hónapig csupa fogoly­pecsenyén.</p>
+            <p>Egy izben nehány vadkacsához jutottak ilyen formán. Ólmos eső esett s attól oly jeges
+               és csapzott lett a szárnyuk, hogy mikor a partra jöttek, Pajtásnak sikerült egy párt
+               elfognia.</p>
+            <p>Igy éltek, Kelemen és a Pajtás, azt nem is emlitve, hogy egyszer meg az egerek
+               kezdtek el­szaporodni Kelemen szobájában. Ez is Pajtás hasznára vált. Némely napon
+               volt, hogy hármat is fogott a fürge állat. De mindez természetesen nem akadályozta
+               meg azt, hogy mindketten: gazda és kutya, kegyetlenül le ne fogyjanak. Kelemen
+               kenyérkészletének is már a végén járt. Pálinkája rég elfogyott, bora is már alig
+               volt. A burgonyaverme is nagy hézagokat mutatott. Aggódva nézett szegény fiu a
+               jövőbe. Hozzá semmiképp se tudta magát az iránt tájékozni, hogy mennyi lehet még
+               hátra a télből. Elmult-e vajjon már a szép karácsony? A gyermekek kedves ünnepe? Mily
+               boldogság, gondolá magában, az ilyen elhagyatottsághoz képest a leg­szegényebb sors
+               is, ha csak valakije van az embernek, a kivel legalább szót válthat.</p>
+            <p>Mily boldog volt még Robinzon is ő hozzá képest. Annak legalább társa akadt,
+               termékeny volt a szigete, voltak tejelő állatjai és nem volt ilyen borzasztó tele,
+               hanem nyár volt körülötte mindig.</p>
+            <p>De az ilyen csüggetegség nem sokáig tartotta gondolatait megszállva. »Hiszen, mondá
+               csak­hamar magában, hiszen körülményeim közt még boldognak mondhatom magamat, hogy
+               egészséges vagyok s az voltam az egész idő alatt és gondoskodhattam magamról s e
+               szegény állatról, melyet a vizből kimentettem. Érzem, Isten vigyáz reám s nem hagyott
+               el egészen s jóra forditja nyomoruságomat.«</p>
+            <p>Sóváran leste Kelemen a vizet is egész télen, nem fagy-e be s nem nyujt-e módot neki
+               arra, hogy elmeneküljön. De sohase volt olyan tartós a fagy, hogy beállitotta volna
+               az egész nagy vizet.</p>
+            <p>Igy hát csak biztatta magát türelemmel és Istenbe vetett hitével s iparkodott
+               munkával győzni a szörnyü lassusággal haladó időt.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              XVI. Veszedelem.
+            </head>
+            <p>Egy szép derült napon ugy tetszett Kelemennek, mintha a téli nap már melegebben sütne
+               le reája, mint eddig. A folyó még jeges volt a szélein, közepén jégtáblák uszkáltak,
+               de a levegő enyhébbnek tetszett neki. Talán a tavasz közeledik, gondolá s bár neki a
+               tavasz se hozhatott egyebet barátságosabb időnél, mégis némi méla öröm szállta meg
+               elcsigázott s már-már el­csüggedt elméjét. Éléstárai nagyon kifogytak, a végső nyomor
+               ideje kérlelhetetlenül látszott reája közeledni, mert immár sehol nem remélt semmit
+               se találhatni. Csigából állt már, kevés burgonya és vad körte mellett, az eledelök.
+               De már csigát is alig találtak a szigeten. Igy nem csuda, ha Kelemen mindig busabb
+               lett s a tavasz gondolata sem volt képes őt igazán fel­viditani. Mikor azonban más
+               nap e derült idő után felvirradt és lakása elé kilépett, csodál­kozással vette észre,
+               hogy a jég eltakarodott a sziget környékéről, ellenben a viz csak fele annyira van az
+               ő tanyájától, mint eddig volt. Fölsietett dombjára körül nézni, s nem kis rémületet
+               okozott neki az ott kinálkozó látvány, fele szigete jóformán viz alatt volt. A halott
+               ember sirjának a keresztjét is ellepte vagy talán csak elmosta a hullám. A körtefa
+               vizben áll, a füzes ligeteknek csak a csucsa áll ki a folyóból, mely már szinte közel
+               jár a dombhoz, a melyen Kelemen állt.</p>
+            <p>Mi lesz vele, ha a viz egészen ellepi a szigetet! El kell neki is vesznie! Hát azért
+               élte tul mind e borzasztó sanyaruságot, hogy most érje utól a fojtó hullám? Akkor tán
+               jobb lett volna, ha elmerül a csónakjával együtt, a mely idehozta.</p>
+            <p>Izgatottan ment le a viz partjára és lesve-leste a viz emelkedését és rémülettel
+               látta, hogy ha ez meg nem fordul, akkor egy napon belül viz alatt lesz egész kis
+               tanyája. Keservesen elsirta magát e szerencsétlenség érzetében. Nem tudta ugyan már,
+               hogy mit sirat, hiszen veszteni valója alig volt, reménye semmi, de mégis keserves
+               zokogásra fakadt.</p>
+            <p>De a dagadó árt az ő sirása meg nem apasztotta s az önfentartás kötelessége erőt vett
+               rajta. Remegve fogott hozzá a mentés munkájához. Koldus holmiját felhordta a domb
+               tetejére. Elsőbben is fakészletét és füporcióit, a melyekkel lakását, kemencéjét,
+               vermeit óvta. A fücso­mók közt csinált helyet kevés burgonyakészletének s a mi még
+               ennivalója volt. Köteléről, baltájáról nem felejtkezett meg, végül felvitte bundáját
+               és egyéb rongyait s a halott ember tárcáját. Itt tanyázott hát a puszta ég alatt
+               megint s szemlélte kétségbeesetten, mint lepi el az ár a szigetet lépésről-lépésre.
+               Már lakása küszöbénél volt s ott locsogott a viz. A száraz terület mind összébb
+               szorult, alig volt, mire beesteledett, a szigetnek negyven-ötven ölnyi területe
+               szárazon.</p>
+            <p>Megadással hajtotta le fejét, átkarolva hű társát, Pajtást és kishitüen susogta,
+               mintha a szegény lompos állatnak meg kellene értenie: »A mint Isten akarja, én
+               tehetetlen vagyok!« De buzgón imádkozott, bágyadt szemét a csillagokra szegezve.
+               Onnan jöhet segedelem, másunnan már nem. Hisz talán már nincs is a földön ember, a ki
+               ő reá gondolhatna. De Isten senkit sem felejt ki számitásaiból. »Az ő akaratára
+               hajtom le árva fejemet« igy suttogott és Isten álmot külde reá.</p>
+            <p>Másnap reggel, a mint fölébredt, a viz ott locsogott közvetlen közelében. Körül volt
+               fogva, mozdulhatatlanul. Lakása viz alatt, minden viz alatt. Meddig tart, hogy tán ő
+               is viz alatt leszen!</p>
+            <p>És a Duna mocskos, felzavart hullámai haragosan kavarogtak ide s tova és mint egy
+               dula­kodva hemperegtek odább. A viz szine tele volt jégdarabbal, szalmával,
+               mindenféle szemettel. Gerenda, butordarabok, deszka uszott s kerengett a vizen
+               mindenfelé. Az árviz pusztitásainak hirdetői ezek. Oh, hisz ime tele van a viz mente
+               szerencsétlenséggel, még háztetőket is sodor magával a haragos elem: mi kicsiség
+               mindehhez képest az, a mit a viz Kelemennel tehet.</p>
+            <p>Busan vizsgálta körül az elcsüggedt fiu szük tanyáját, de a mint füköteggel besáncolt
+               fekvő helyéről ki akar lépni, méla mosolyra fakadt az arca azon, a mit meglátott.
+               Társaságuk meg­szaporodott: ott ült közvetlen mellettük a nyulacska, a száraz füvet
+               rágicsálva, a nyul, a melyet idejövetelekor látott először s mely azontul is
+               néhányszor megmutatta magát a sziget lakóinak. A viz ide kergette őt, kivévén belőle
+               a nagyobb félelem a viztől, az embertől s állattól való kisebb félelmet.</p>
+            <p>Kelemen megsimogatta a szegény fülest, a mely könyörgő szemmel hunyorgatott fel reá s
+               remegve türte a simogatást. Azon csodálkozott csak Kelemen, hogy Pajtás nem bántotta
+               a vendéget, de ennek természetes magyarázata volt. Egy csomó egér és ürge is ide
+               menekült s a fükötegek alatt keresett menedéket: Pajtás ezekre vadászott s igen bő
+               reggelire tett szert ez­uttal.</p>
+            <p>Egy falat szalonna, egy darab kenyér - az utolsó mindenik - és egy korty bor
+               Kelemennek is visszaadták életerejét s a gyermek most az uszó holmira forditotta
+               figyelmét. Ha egy nehány gerendát és deszkát elfoghatna, gondolá, azon megkisérthetné
+               a menekülést, itt, táplálék hiján ugy sem igen lenne maradása. Kötele még van, azt
+               szétszedte sodrott részeire, a melyekkel összeguzsolhatná a gerendákat.</p>
+            <p>Hozzá is látott a dologhoz és nem kis örömére, nem siker nélkül. Elfogott három
+               tutaj-szálfát s egy pár deszkát s egymáshoz kötözgette. De e munkájában többször
+               kellett a vizbe gázolnia s egyébként is átnedvesedett, ugy, hogy végül abba kellett
+               hagynia, tüzet rakott és kezdte magát száritgatni.</p>
+            <p>Nagy rémületére azonban azt vette észre, hogy a föld erősen át van ázva alatta. Ekkor
+               jutott eszébe, hogy a viz belül is mossa a dombot, az ő szobájában. Meddig tarthat, a
+               mig a domb, az ő mostani tanyája, bedül s nem lesz már hová menekülnie. A mint igy
+               tünődik, oly lökést kap a tanyája, hogy azt hitte, itt is van már a válságos
+               pillanat; felugrik s csakugyan ugy érzi, mintha omladoznék alatta a föld. De
+               felállván, egy örömkiáltás szakad ki gyermekszivéből. Most látja, mitől kapta a domb
+               ezt a romboló lökést. Egy ép tutaj uszott neki a tanyájának s megturta a földet.</p>
+            <p>- Istenem, Istenem, kiáltá, látom a kezedet, látom angyalodat; a kezet, a kit érettem
+               kinyujtasz, angyalodat, a kit érettem elküldtél.</p>
+            <p>Nagy izgalmában hirtelen nem is tudta, mihez fogjon.</p>
+            <p>- Előre, Pajtás, előre! kiáltá s elkezdé elsőbben azt a nehány deszkaszálat a tutajra
+               cepelni. Majd a fükötegeket, azután tüzelőfát. A kalapjában hordott a deszkára
+               homokot, végül körte készletét, bundáját és szerszámját vitte át és elhelyezkedett a
+               tutajon.</p>
+            <p>Pajtás nem volt rest, hamar utána ment, de a nyulacska határozatlanul bámult az uj
+               intéz­kedésekre és nyughatatlanul baktatott körül a kis sziget maradványain.</p>
+            <p>Kelemen pedig elsőbben is tüzet rakott a tutajon s folytatta száritkozását. Egyszerre
+               csak egy nagy locscsanást hall, s látnia kell, a mint a kis dombja beszakad s az ő
+               régi tanyájából ki­bugygyan a viz, s a nyulacska egy szökéssel a tutajon termett.</p>
+            <p>Ezzel egy félóra mulva a sziget végképp eltünt a viz alatt. A tutaj még horzsolta a
+               földet, de már mozogni kezdett a viz nyomásától. Még egy kis idő s a hullám hátára
+               emeli a tutajt, kavarogva megforgatja s a kis társaság, két oktalan állatka és
+               szegény Kelemenünk uszni kezd lefelé a Dunán.</p>
+            <p>Nem rajzolom immár a tenger félelmet, a melyet e különös uszótársaságnak kiállania
+               kellett. Egy-egy jégtábla, egy-egy gerenda vagy más holmi neki ütődött,
+               meg-megbillentette a tutajt, akárhányszor egy-egy részét viz alá merítette. Még a
+               tüzet is eloltotta rajta. De végre is Kelemen hozzá szokott a veszedelmekhez és
+               kevesbbé ijedt meg. Nagyobb baj volt, hogy nem volt mit enniök tán kétszer huszonnégy
+               órán át, a melyet a tutajon töltöttek, Kelemen az ön­megadás álomszerü állapotába
+               volt merülve, Pajtás kinosan vonitott, ellenben a nyul szorgal­masan rágicsálta a
+               füvet, hegyezett füllel ugrándozva ide-oda a tutajon, midőn valahára hajózásuknak tán
+               harmadik napján emberi hangok ébreszték föl fél aléltságából. E rég hallott hangok
+               kimondhatatlan érzést keltettek benne, egész testét izgalom rázta meg, élet és
+               meleg­ség szállt minden tagjába. Felugrott s kétségbeesetten kiabált segitségért.
+               Embereket látott a parton, kik csáklyákkal, botokkal az uszó holmit fogdosták ki a
+               vizből. Őket is arra vitte a viz, mert ezek az emberek nagy ügyességgel ott álltak
+               fel, a hol a folyó sodra közvetlen a part mel­lett ment el. Végre egy csáklya
+               belevágódik a tutajba, a tutaj egyet rándul s a parthoz ütődik.</p>
+            <p>Az első a nyul volt, a mely a helyzettel élt. Kiugrott a partra és köszöntés és bucsu
+               nélkül vigan vitte el az irháját. Kelemen egész testében remegve, magánkivül
+               tántorodott a part felé és Pajtást kiabálva ájultan rogyott megmentőinek a
+               karjába.</p>
+            <p>Vége van, azt hitte, szenvedéseinek, mert előtte most megmenekedni annyi volt, mint
+               végére jutni nyomoruságának. A végső percig nem merte hinni a csodát, melyet most
+               megtörténni látott s az ebbeli izgalom megfosztotta eszméletétől.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+              XVII. Fordulat.
+            </head>
+            <p>- Oláh cigány csapat volt, igy beszélte Kelemen a grófnak, a mely megmentett. A viz
+               által hordott holmira vadásztak, igy lettek a megmentőim. Hálásan csatlakoztam
+               hozzájok. Ők, magok is szegény nyomorultak, jó gondomat viselték, ugy, hogy különben
+               is meg lévén edzve, magamhoz tértem gyorsan s velök jártam az országot. De nem sokáig
+               tudtam ez uj életben gyönyörködni. Jó szivü nép, de a mellett borzasztóan nyers és
+               durva. Azt is hamar észre vettem, hogy merő lopásból élnek. Minden egyéb csak ürügy
+               arra, hogy lopniok lehes­sen. Engemet is iparkodtak rátanitni, de mert soha se tettem
+               meg, a mi ilyest rám biztak, végre csak ingyenélőnek neveztek és sokat megvertek. Tán
+               el is kergettek volna, de a koldulásban több szerencsém volt, mint a többi
+               gyermeknek. Néha többet szereztem koldulással, mint egy másik társam lopással. Mikor
+               aztán teljesen kitavaszodott, nem akartam tovább ez életet folytatni, megszöktem a
+               cigányoktól s koldulva, bujdosva jutottam ide, a hol Kata asszony gyermekének
+               fogadott.</p>
+            <p>Az a cigányasszony, a ki a konteszt elragadta, abból a csapatból való volt.
+               Ráismertem, egy igen gonosz természetü asszony, a ki igen sokszor megrugdosott
+               engemet is.</p>
+            <p>Eképpen végezte Kelemen elbeszélését, melyet a gróf nem ritkán könyezve hallgatott. A
+               mit azonban remélt, hogy világosság derül a levélre, a melyben a nevére akadt, az nem
+               teljesedett be. Nem tudott többet, mint előbb, sejtelmek és óhajtások, fölgerjedt égő
+               vágyak rabja maradt.</p>
+            <p>- Kevés öreg ember hal meg, mond a gróf megsimogatva a halavány fiu arcát, a kit
+               hosszu életében annyi szenvedés ér, a mennyit te láttál, szegény fiu.</p>
+            <p>- Oh gróf ur, mondá a fiu, megragadva a gróf simogató kezét - oh gróf ur, de sok
+               jóságot is láttam, sok örömet is éreztem és megtanultam, mily csekélységekkel tudja
+               az Isten az embert boldoggá tenni; és megtanultam, hogy soha sem szabad kételkedni az
+               Isten irgalmasságában.</p>
+            <p>Ezzel megcsókolta a gróf kezét; a gróf pedig az érzelmek egész özönétől megrohanva,
+               hirte­len eltávozott a fiu szobájából és a harmadik szobába sietett, leborult és
+               görcsösen zokogott.</p>
+            <p>- Oh Istenem, mondá, a ki oly csodákat tettél e szegény árva fiuval, tekints az én
+               bánatos életemre is és könyörülj meg rajtam.</p>
+            <p>És oda borulva maradt az asztalra. A leszálló nap biborveresen bocsájtá be áldozó
+               sugarait az ablakon s tündéri világitásba boritá a szobát.</p>
+            <p>A gróf érzelmeitől leigázva maradt leborult helyzetében.</p>
+            <p>Egyszerre csak egy rémes kiáltás riasztja fel, a mit egy sulyos test zuhanása
+               követett.</p>
+            <p>Hirtelen felugrik s rohan a fiu szobája felé, honnan e zaj jönni látszott, féluton
+               sápadtan, magából kikelve siet elejbe a fiu, de rémületében alig tud szólni.</p>
+            <p>- Ő az, ő az, kiáltá rekedten és szakadozottan, ő az -</p>
+            <p>- Kicsoda, kérdi a gróf rémülten, a fiut elkapva.</p>
+            <p>- Az egyik rabló. Már most harmadszor hallom, nem kételkedem, kérem, oltalmazzon meg!
+               S ezzel félájultan hullt a gróf karjaiba.</p>
+            <p>Somberky egy közeli ágyra tette a fiut s a gyermek szobájába sietett.</p>
+            <p>Ott a földön elterülve, halva találta az ispánt.</p>
+            
+         </div>
+         <div type="chapter">
+            <head>
+               XVIII. Vége.
+            </head>
+            <p>A gróf becsengette embereit, meghagyta nekik, hogy szedjék fel a halottat. A fiu
+               mellé hivatta Kata asszonyt s maga előre sietett az ispán lakására, a hol az ispán
+               feleségét magát találta.</p>
+            <p>- Mért jött fel az ispán a kastélyba, kérdé a szokatlan látogatáson s tán a gróf
+               izgatott voltán is nem kevéssé megzavarodott asszonyt.</p>
+            <p>- Most gyógyult föl a betegségéből s a méltóságos urtól elbocsájtását akarta kérni.
+               Azt hiszi, nem birja már a szolgálatot.</p>
+            <p>- Az elbocsájtás megvan, mondá a gróf; de nem tőlem, hanem a bosszuálló Istentől.</p>
+            <p>- Uram Jézus, mi történt, kiáltá az ispánné megrettenve.</p>
+            <p>- Férje meghalt a kastélyban. Adja elő azonnal minden irományát, leveleit s a mi
+               följegyzése bárhol található.</p>
+            <p>A mint ezt a gróf mondá, emberi hangok s léptek hallatszottak künn a folyósón.</p>
+            <p>- Most hozzák a férje holttestét, szólt a gróf, kitárta az ajtót s bebocsájtotta az
+               embereket a holttesttel.</p>
+            <p>- Végünk van, végünk van, jajgatott az asszony s leroskadt fia mellé, a ki az
+               emberekkel kiváncsian sompolygott be, és átkarolva a fiut, kinos zokogásra fakadt. Ez
+               alatt az emberek az ágyra tették a halottat. Eltorzult arccal, megmerevedett nyitott
+               szemekkel nézett a halott a semmibe.</p>
+            <p>A gróf intett az embereknek, a kik eltávoztak.</p>
+            <p>- Kegyelem, méltóságos uram, kegyelem, rimánkodott az asszony, szánjon meg engem
+               nyo­mo­rultat és nyomorult árvámat.</p>
+            <p>- Mit tettetek, szólj!</p>
+            <p>- Keservesen megbünhödtem mindenért, a miben részes vagyok. Nem volt egy nyugodt
+               pillanatom, nem volt egy boldog percem ebben az életben.</p>
+            <p>- Mit tettetek, beszélj, boldogtalan, rivalt a gróf az asszonyra, mire az ispánné fia
+               sirni kezdett.</p>
+            <p>- Vigye ki e fiut és számitson irgalomra, ha töredelmes lesz, mond a gróf, mire az
+               asszony fiát kituszkolta.</p>
+            <p>- Mit tettetek, kérdé a gróf harmadszor is.</p>
+            <p>- Férjem, akkor vőlegényem, azzal a fenyegetéssel vett reá, hogy elhagy, ha meg nem
+               teszem. Belső szobalány voltam a grófnénál. A grófné beteg volt. A dajkát könnyen
+               kijátsztam, el­loptam a gyermeket és férjem kezére adtam.</p>
+            <p>- Nyomorult, kiáltá a gróf, kezét fölemelve.</p>
+            <p>- Nem volt választásom, mond a szerencsétlen asszony, nem tudtam neki
+               ellenszegülni.</p>
+            <p>- Azután mi történt?</p>
+            <p>- Férjem a fiatal gróf által küldött emberrel -</p>
+            <p>- Micsoda fiatal gróf? kérdi eliszonyodva Somberky.</p>
+            <p>- A méltóságos ur öcscse, mond az asszony. Az örökség végett történt, a mint férjem
+               beszélte. Igy remélte a fiatal ur, hogy megszerzi a vagyont, ha elpusztitja az
+               örököst.</p>
+            <p>- Elpusztitja! mond a gróf megborzadva. És a szivtelen gonosz rám merte bizni a
+               leányát!</p>
+            <p>- A férjem azzal a kiküldött emberrel együtt elvitte és oda adta egy cimborájoknak,
+               hogy annak a kezén pusztuljon el. Az azonban nem állt a szavának, hanem megnevelte a
+               gyerme­ket, a mit most két éve tudtunk meg. Akkor a fiatal gróf meghagyta, hogy
+               menjenek utána s végezzenek vele. A gyermeket Pozsony mellett egy magányos házban
+               nevelték. Férjem s a másik oda mentek, azzal a szándékkal, hogy a fiut elrabolják,
+               csónakon elviszik s a Dunába eresztik. De Isten nem engedte meg szándékukat. Ott a
+               gyermek dajkáját megfojtották, maga a gyermek pedig csodálatosan elmenekült. Ma se
+               tudjuk, hová lett. A kemény emberek utána eredtek, de már későn, nem találták sehol.
+               Hanem még valaki kereste a szegény fiut, a nevelő atyja: ezzel a két ember
+               összetalálkozott a Dunán s a mit nem tehettek meg a gyermeken, az megesett majd mind
+               a hármukon. Ott dulakodtak két csónakon a Duna közepén. Borzasztó gyilkos
+               élethalál-harcot vivtak. A férjem társa egy ökölcsapástól a vizbe esett, viszont az
+               én férjem a gyermek nevelő atyjára mért oly csapást, hogy mindketten a vizbe
+               fordultak. A másik kettő örökre oda veszett, a férjem egy darabig tartotta magát s
+               halászok mentették ki félholtan.</p>
+            <p>- Oh fiam, nevelő atyádat temetted el ama siralmak szigetén, nyögte a gróf s zokogva
+               hanyat­lott egy székbe.</p>
+            <p>- De férjem nem ugy jött haza, a hogy elment. Borzasztó látományai voltak gyakran és
+               ha hirtelen megijedt, a nehéz betegség törte ki. Iszonyu volt vele az élet. Oh
+               kegyelem, gróf ur, kegyelem az irgalmas Isten nevében, a ki gyengéknek és bünösöknek
+               teremtett bennünket.</p>
+            <p>- Temettesse el a férjét, én megbocsájtok mindent és gondoskodni fogok arról, hogy
+               fiából becsületes embert nevelhet. Mert nem ember van hivatva emberen bosszut állani.
+               Az Isten számon tart mindent és számon kér kicsit és nagyot egyaránt.</p>
+            <p>Ezzel elhagyta a gróf az ispán hajlékát és sietve, majdnem futva igyekezett Kelemen
+               szobáját elérni.</p>
+            <p>- Fiam, elveszett fiam, édes drága megtalált fiam! Igy kiáltozott, magához ölelte és
+               csókjaival boritotta el az álmélkodó Kelement, immár most a fiatal Somberky grófot.
+               Mert atyja röviden mindent elmondott neki, a mi e pillanatban elmondható volt a
+               helyzet megvilágitására.</p>
+            <p>- De hogy történt itt a dolog az ispánnal, kérdi azután a gróf.</p>
+            <p>- Az mondják, hogy a gróf urat -</p>
+            <p>- Atyádat, gyermek! szakitá a fiut félbe a gróf.</p>
+            <p>- Hogy tégedet keresett, mondja a fiu véghetetlen gyöngédséggel a hangjában, mire
+               atyja meg­ölelte, - s ide utasitották, mert itt voltál. De éppen akkor mentél volt
+               innen el a másik szobába. Az ispán belép s megszólal. Én a félhomályban ülve elsőbben
+               is borzasztó hangjától ijedtem meg s elkiáltom magam: Ki az, mit akar, segitség! Az
+               ispán megrettenve rám mereszti szemét s rémesen igy kiált: Te vagy, te vagy mégis. És
+               ezzel felém jő, de egy szörnyü kiál­tás­sal összeesett. Én pedig menekültem
+               utánad.</p>
+            <p>Még valaki volt ám azonban a szobában, a ki mind ezeket hallotta s az izgatottan
+               beszélgetők figyelmét csendes sirással vonta magára.</p>
+            <p>- Kata néném, drága jó édes anyám, szólt hozzá a fiu.</p>
+            <p>- Jaj nekem, jaj nekem, sirt Kati asszony, jaj szegény nyomorult fejemnek. Ne tessék
+               fölvenni méltósága, hogy én meg csak igy-ugy bántam vele, mint egy nyomorult magam
+               fajtával, meg még, hogy uram bocsá, szidtam is, meg még libát is őriztettem vele. Jaj
+               tessen kérem aláza­to­san megbocsájtani szegénységemnek, parlagi paraszteszemnek, az
+               én nagy vétkességemnek!</p>
+            <p>- Megbocsájtani, Kata asszony, szólt a gróf, mig a fiu könyes szemmel hol egyikre,
+               hol a másikra nézett. Megbocsájtani? Maga az én legnagyobb jótevőm, a szivét
+               foglalnám aranyba, azt az aranyost, ha lehetne, meg ha ugyis szinarany nem volna. De
+               a mit ember emberért tehet, azt én kelmedért megteszem. Itt marad nálunk a
+               kastélyban, a mi kivánsága lesz, telje­sit­jük, csak győzzön kivánni, édes Kata
+               néni.</p>
+            <p>- Jaj, csókolom a kezét a méltóságos urnak, mond pityeregve a jó asszony, nem való
+               vagyok én ilyen uri házba, jobb nekem ott az alvégen és ha bántódásom nem lesz, hát
+               Isten nevében majd csak elélek ott holtomig.</p>
+            <p>- Hát én, vágott most be Kelemen. Hát én, édes, engem itt hágy? Engem megtagad? Nekem
+               már nem akar édes anyám lenni? Hát engemet már nem szeret?</p>
+            <p>- Édes lölköm, gyerekem, édes Kelemen fiam, ne szakaszd meg szivemet, tört ki most a
+               jó asszony szive, kitárta két kezét s magához ölelte a fiut. Dehogy hagylak el,
+               dehogy nem szeretlek. Jó fiam voltál, Isten áldjon meg érte, Isten fizessen meg
+               érte.</p>
+            <p>És hullott két öreg szeméből a köny, mint a zápor és hullott Kelemenre, elszáradt
+               ajakának édes anyai csókja. Aztán megragadta a gróf kezét, megcsókolta s elment
+               jajgatva, kötényével szemét törülgetve, mintha most már minden libája örökre
+               elveszett volna s azt kellene elsirat­nia.</p>
+            <p>A kivel pedig az utcán összetalálkozott, annak annyit hadart összefüggetlenül a
+               grófról, a Kelemenről, a ki szintén gróf, a libákról, a melyeken ez a dolog
+               kezdődött, meg a hirtelen halál­lal kimult ispánról, hogy az emberek utána néztek s
+               azt mondák:</p>
+            <p>- A vén Kati megbolondult.</p>
+            <p>Azonban hamar hire ment a történetnek a faluban s akkor Kati néninek igen nagy
+               böcsülete lett. Kis hija, hogy meg nem kérték még feleségül is.</p>
+            <p>A fiatal gróf, a ki kapzsiságból s könnyelmü élete miatt mind e szerencsétlenséget
+               felidézte, elmenekült Amerikába. Kelemen és Lotti pedig ezentul együtt növekedtek s
+               igen sok örömet szereztek Somberky Ákos grófnak, ki ujra vidám lett s nagy öregséget
+               ért.</p>
+            <p>Természetesen Pajtásnak is ezentul jó dolga volt, s ha a fiatal gróf elment Kata
+               asszonyt meglátogatni Lottival, mindig elkisérte s mig a gyermekek Katát vették körül
+               szeretetükkel, addig Pajtás a libaól körül ólálkodott. Ugy tetszik, mintha jobb
+               szerette volna azt az életet, a mikor még hivatala volt s a libákat kelle
+               terelgetnie. Mert tanuljátok meg, hogy a tétlen, henye, dologtalan élet még a
+               jóravaló kutyának sem kell.</p>
+            
+         </div>
+      </body>   
+   </text>
+</TEI>
