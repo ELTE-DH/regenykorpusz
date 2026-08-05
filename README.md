@@ -1,18 +1,17 @@
 # ELTE Novel Corpus
 
-The ELTE Novel Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 601 Hungarian novels at Level 1 and 400 novels at Level 2. Besides the texts, the corpus contains the annotation of structural units and the grammatical features of words in TEI XML format. The novels of the corpus are from the 19th century and from the first half of the 20th century.
+The ELTE Novel Corpus is a database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 601 Hungarian novels. Besides the texts, the corpus contains the annotation of structural units and the grammatical features of words in TEI XML format. The novels of the corpus are from the 19th century and from the first half of the 20th century.
 
-## Numeric properties (level2):
+## Numeric properties:
 
-The numbers below present the numeric properties of the level2 novels. The novels of level1 are currently being expanded. 
-- number of novels: 400
-- number of authors: 119
-- number of tokens: 26.8 million
-- number of words: 21.4 million
+- number of novels: 601
+- number of authors: 174
+- number of tokens: 36.6 million
+- number of words: 29.2 million
 
 ## Metadata of the novels:
 
-The level1\_metadata.tsv file contains the main metadata for level1 novels and the level2\_metadata.tsv file contains the main metadata for level2 novels. WARNING: Since level1 novels are currently being expanded, it is possible that the level1\_metadata.tsv file is not up to date, that is, some novels added newly are not included in the TSV file.
+The metadata.tsv file contains the main metadata for each novel.
 
 ## TEI Levels
 
@@ -64,10 +63,10 @@ The folder contains the level1 and level2 files with headers in the format of EL
 
 - [Gábor Palkó](https://github.com/gaborpalko)
 - [Tímea Borbála Bajzát](https://github.com/bajzattimi)
+- [Péter Horváth](https://github.com/horvathpeti99)
 - Emma Takács
 - Bence Vétek
 - [Zsófia Fellegi](https://github.com/zsofiafellegi)
-- [Péter Horváth](https://github.com/horvathpeti99)
 - [Balázs Indig](https://github.com/dlazesz)
 - [Bence Vida](https://github.com/VidaBence)
 - [Botond Szemes](https://github.com/SzemesBotond)
