@@ -18,7 +18,11 @@ The metadata.tsv file contains the main metadata for each novel.
 The source of the corpus was the collection of the [_Hungarian Electronic Library_](http://mek.oszk.hu).
 
 1. The texts from the Hungarian Electronic Library were converted into TEI XML format based on the [Text Encoding Initiative](https://tei-c.org/). The TEI XML files contain the annotation of structural units and the metadata of the novels. The conversion was partly done manually (level1).
-2. Then, we tokenized the novels and annotated the grammatical features of words by using [e-magyar](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts (level2).
+2. Then, we tokenized the poems and annotated the grammatical features of words by using [_e-magyar_](https://github.com/nytud/emtsv), an NLP tool chain for Hungarian texts. The level2 folder contains the TEI XML files in which the morphosyntactic features (values of the msd attributes) are annotated in the format of universal dependencies, while the level2\_emMorph folder contains the same files in which the morphosyntactic features are annotated in its own, [_emMorph_](https://e-magyar.hu/en/textmodules/emmorph_codelist) format of e-magyar.
+
+# eltec folder:
+
+The folder contains the level1 and level2 files with headers in the format of [ELTeC](https://www.distant-reading.net/eltec/). These files are not valid for TEI, we do not recommend to use them. 
 
 # Elements and attributes
 
@@ -54,10 +58,6 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 - `@lemma` : lemma
 - `@pos `: part of speech
 - `@msd` : morphosyntactic features ([Universal Dependencies](https://universaldependencies.org/))
-
-# eltec folder:
-
-The folder contains the level1 and level2 files with headers in the format of ELTeC. These files are not valid for TEI, we do not recommend to use these files. 
 
 # Contributors:
 
