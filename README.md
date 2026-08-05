@@ -1,6 +1,6 @@
 # ELTE Novel Corpus
 
-The ELTE Novel Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 400 Hungarian novels. Besides the texts, the corpus contains the annotation of structural units and the grammatical features of words in TEI XML format. The novels of the corpus are from the 19th century and from the first half of the 20th century.
+The ELTE Novel Corpus is a continuously expanding database developed by the [_Department of Digital Humanities at Eötvös Loránd University_](https://elte-dh.hu/). Currently, the corpus contains 601 Hungarian novels at Level 1 and 400 novels at Level 2. Besides the texts, the corpus contains the annotation of structural units and the grammatical features of words in TEI XML format. The novels of the corpus are from the 19th century and from the first half of the 20th century.
 
 ## Numeric properties (level2):
 
