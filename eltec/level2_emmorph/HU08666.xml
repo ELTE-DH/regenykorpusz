@@ -68,22 +68,24 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2024-11-01"/>
-			<change when="2026-07-17">lemma, pos and msd annotation</change>
+			<change when="2026-08-14">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<p xml:id="p1">
-				<s xml:id="s1">
-					<w xml:id="w1" lemma="Sándor" pos="PROPN" msd="[/N][Nom]">Sándor</w>
-					<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w2" lemma="Miklós" pos="PROPN" msd="[/N][Nom]">Miklós</w>
-					<w xml:id="w3" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
-					<w xml:id="w4" lemma="jános" pos="ADJ" msd="[/Adj][Nom]">János</w>
-					<w xml:id="w5" lemma="testvér" pos="NOUN" msd="[/N][Pl.Poss.1Sg][Dat]">testvéreimnek</w>
-				</s>
-			</p>
-			<div xml:id="div1" type="chapter">
+			<div xml:id="div1" type="other">
+				<p xml:id="p1">
+					<s xml:id="s1">
+						<w xml:id="w1" lemma="Sándor" pos="PROPN" msd="[/N][Nom]">Sándor</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w2" lemma="Miklós" pos="PROPN" msd="[/N][Nom]">Miklós</w>
+						<w xml:id="w3" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
+						<w xml:id="w4" lemma="jános" pos="ADJ" msd="[/Adj][Nom]">János</w>
+						<w xml:id="w5" lemma="testvér" pos="NOUN" msd="[/N][Pl.Poss.1Sg][Dat]">testvéreimnek</w>
+					</s>
+				</p>
+			</div>
+			<div xml:id="div2" type="chapter">
 				<head>I. FEJEZET.</head>
 				<p xml:id="p2">
 					<s xml:id="s2">
@@ -4937,7 +4939,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div2" type="chapter">
+			<div xml:id="div3" type="chapter">
 				<head>II. FEJEZET.</head>
 				<p xml:id="p124">
 					<s xml:id="s326">
@@ -9755,7 +9757,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div3" type="chapter">
+			<div xml:id="div4" type="chapter">
 				<head>III. FEJEZET.</head>
 				<p xml:id="p223">
 					<s xml:id="s652">
@@ -15669,7 +15671,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div4" type="chapter">
+			<div xml:id="div5" type="chapter">
 				<head>IV. FEJEZET.</head>
 				<p xml:id="p318">
 					<s xml:id="s1036">
@@ -16994,7 +16996,7 @@
 						<w xml:id="w10992" lemma="az" pos="PRON" msd="[/Det|Pro][Pl][Nom]">azok</w>
 						<w xml:id="w10993" lemma="szeret" pos="VERB" msd="[/V][Prs.NDef.3Pl]">szeretnek</w>
 						<w xml:id="w10994" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-						<w xml:id="w10995" lemma="más" pos="ADJ" msd="[/Adj|Pro][Pl][AnP][Ins]">másokéval</w>
+						<w xml:id="w10995" lemma="más" pos="NOUN" msd="[/N|Pro][Pl][AnP][Ins]">másokéval</w>
 						<w xml:id="w10996" lemma="foglalkozik" pos="VERB" msd="[/V][Inf]">foglalkozni</w>
 						<pc xml:id="pc2961" join="left" pos="PUNCT">.</pc>
 					</s>
@@ -18664,7 +18666,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div5" type="chapter">
+			<div xml:id="div6" type="chapter">
 				<head>V. FEJEZET.</head>
 				<p xml:id="p388">
 					<s xml:id="s1260">
@@ -22999,7 +23001,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div6" type="chapter">
+			<div xml:id="div7" type="chapter">
 				<head>VI. FEJEZET.</head>
 				<p xml:id="p510">
 					<s xml:id="s1561">
@@ -27015,7 +27017,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div7" type="chapter">
+			<div xml:id="div8" type="chapter">
 				<head>VII. FEJEZET.</head>
 				<p xml:id="p612">
 					<s xml:id="s1865">
@@ -30614,7 +30616,7 @@
 						<pc xml:id="pc5381" join="left" pos="PUNCT">,</pc>
 						<w xml:id="w19711" lemma="amely" pos="PRON" msd="[/N|Pro|Rel][Dat]">melynek</w>
 						<w xml:id="w19712" lemma="építés" pos="NOUN" msd="[/N][Poss.3Sg][Supe]">építésén</w>
-						<w xml:id="w19713" lemma="dolgozik" pos="VERB" msd="[/V][Prs.Def.1Sg][Punct]">dolgozom.</w>
+						<w xml:id="w19713" lemma="dolgozik" pos="VERB" msd="[/V][Prs.NDef.1Sg][Punct]">dolgozom.</w>
 						<pc xml:id="pc5382" join="left" pos="PUNCT">»</pc>
 					</s>
 				</p>
@@ -35217,7 +35219,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div8" type="chapter">
+			<div xml:id="div9" type="chapter">
 				<head>VIII. FEJEZET.</head>
 				<p xml:id="p767">
 					<s xml:id="s2357">
@@ -38469,7 +38471,7 @@
 					<s xml:id="s2559">
 						<w xml:id="w24853" lemma="sír" pos="NOUN" msd="[/N][Ter]">Sírig</w>
 						<w xml:id="w24854" lemma="hű" pos="ADJ" msd="[/Adj][Nom]">hű</w>
-						<w xml:id="w24855" lemma="Ági" pos="PROPN" msd="[/N][Poss.2Sg][Nom][Punct]">Ágid.</w>
+						<w xml:id="w24855" lemma="ági" pos="ADJ" msd="[/Adj][Poss.2Sg][Nom][Punct]">Ágid.</w>
 						<pc xml:id="pc6768" join="left" pos="PUNCT">»</pc>
 					</s>
 				</p>
@@ -38559,7 +38561,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div9" type="chapter">
+			<div xml:id="div10" type="chapter">
 				<head>IX. FEJEZET.</head>
 				<p xml:id="p822">
 					<s xml:id="s2565">
@@ -42092,7 +42094,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div10" type="chapter">
+			<div xml:id="div11" type="chapter">
 				<head>X. FEJEZET.</head>
 				<p xml:id="p898">
 					<s xml:id="s2808">
@@ -52037,7 +52039,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div11" type="chapter">
+			<div xml:id="div12" type="chapter">
 				<head>XI. FEJEZET.</head>
 				<p xml:id="p1095">
 					<s xml:id="s3552">
@@ -54341,7 +54343,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div12" type="chapter">
+			<div xml:id="div13" type="chapter">
 				<head>XII. FEJEZET.</head>
 				<p xml:id="p1156">
 					<s xml:id="s3720">

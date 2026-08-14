@@ -68,151 +68,153 @@
 		</profileDesc>
 		<revisionDesc>
 			<change when="2024-11-01"/>
-			<change when="2026-07-17">lemma, pos and msd annotation</change>
+			<change when="2026-08-14">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<p xml:id="p1">
-				<s xml:id="s1">
-					<w xml:id="w1" lemma="a" pos="DET" msd="[/Det|Art.Def]">A</w>
-					<w xml:id="w2" lemma="szives" pos="ADJ" msd="[/Adj][Nom]">szives</w>
-					<w xml:id="w3" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
-					<w xml:id="w4" lemma="nyájas" pos="ADJ" msd="[/Adj][Nom]">nyájas</w>
-					<w xml:id="w5" lemma="olvasó" pos="NOUN" msd="[/N][Abl]">olvasótól</w>
-					<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w6" lemma="mikor" pos="PRON" msd="[/Adv|Pro|Int]">mikor</w>
-					<w xml:id="w7" lemma="ez" pos="PRON" msd="[/Det|Pro][Pl][Acc]">ezeket</w>
-					<w xml:id="w8" lemma="az" pos="DET" msd="[/Det|Art.Def]">az</w>
-					<w xml:id="w9" lemma="igénytelen" pos="ADJ" msd="[/Adj][Nom]">igénytelen</w>
-					<w xml:id="w10" lemma="sor" pos="NOUN" msd="[/N][Pl][Acc]">sorokat</w>
-					<w xml:id="w11" lemma="út" pos="NOUN" msd="[/N][Subl]">útra</w>
-					<w xml:id="w12" lemma="bocsát" pos="VERB" msd="[/V][Prs.Def.1Sg]">bocsátom</w>
-					<pc xml:id="pc2" pos="PUNCT">,</pc>
-					<w xml:id="w13" lemma="alázatos" pos="ADJ" msd="[/Adj][_Manner/Adv]">alázatosan</w>
-					<w xml:id="w14" lemma="bocsánat" pos="NOUN" msd="[/N][Acc]">bocsánatot</w>
-					<w xml:id="w15" lemma="kér" pos="VERB" msd="[/V][Prs.NDef.1Sg]">kérek</w>
-					<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
-				</s>
-				<s xml:id="s2">
-					<w xml:id="w16" lemma="meg" pos="PART" msd="[/Prev]">Meg</w>
-					<w xml:id="w17" lemma="kell" pos="VERB" msd="[/V][Prs.NDef.3Sg]">kell</w>
-					<w xml:id="w18" lemma="mond" pos="VERB" msd="[/V][Inf.1Sg]">mondanom</w>
-					<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w19" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
-					<w xml:id="w20" lemma="ez" pos="PRON" msd="[/Det|Pro][Nom]">ez</w>
-					<w xml:id="w21" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-					<w xml:id="w22" lemma="bolondos" pos="ADJ" msd="[/Adj][Nom]">bolondos</w>
-					<w xml:id="w23" lemma="furcsa" pos="ADJ" msd="[/Adj][Nom]">furcsa</w>
-					<w xml:id="w24" lemma="mese" pos="NOUN" msd="[/N][Nom]">mese</w>
-					<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w25" lemma="nagyon" pos="ADV" msd="[/Adv]">nagyon</w>
-					<w xml:id="w26" lemma="régen" pos="ADV" msd="[/Adv]">régen</w>
-					<pc xml:id="pc6" pos="PUNCT">-</pc>
-					<w xml:id="w27" lemma="25" pos="NUM" msd="[/Num|Digit][Nom]">25</w>
-					<w xml:id="w28" lemma="év" pos="NOUN" msd="[/N][Ins]">évvel</w>
-					<w xml:id="w29" lemma="ezelőtt" pos="ADP" msd="[/Post]">ezelőtt</w>
-					<pc xml:id="pc7" pos="PUNCT">-</pc>
-					<w xml:id="w30" lemma="történik" pos="VERB" msd="[/V][Pst.NDef.3Sg]">történt</w>
-					<pc xml:id="pc8" join="left" pos="PUNCT">.</pc>
-				</s>
-				<s xml:id="s3">
-					<w xml:id="w31" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">Egy</w>
-					<w xml:id="w32" lemma="hosszu" pos="NOUN" msd="[/N][Nom]">hosszu</w>
-					<w xml:id="w33" lemma="negyedszázad" pos="NOUN" msd="[/N][Nom]">negyedszázad</w>
-					<w xml:id="w34" lemma="telik" pos="VERB" msd="[/V][Pst.NDef.3Sg]">telt</w>
-					<w xml:id="w35" lemma="el" pos="ADV" msd="[/Prev]">el</w>
-					<w xml:id="w36" lemma="azóta" pos="PRON" msd="[/Adv|Pro]">azóta</w>
-					<pc xml:id="pc9" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w37" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
-					<w xml:id="w38" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-					<w xml:id="w39" lemma="csöndes" pos="ADJ" msd="[/Adj][Nom]">csöndes</w>
-					<pc xml:id="pc10" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w40" lemma="kis" pos="ADJ" msd="[/Adj|Attr][Nom]">kis</w>
-					<w xml:id="w41" lemma="budai" pos="ADJ" msd="[/Adj][Nom]">budai</w>
-					<w xml:id="w42" lemma="Hattyu-utca" pos="PROPN" msd="[/N][Ine]">Hattyu-utcában</w>
-					<w xml:id="w43" lemma="él" pos="VERB" msd="[/V][Pst.NDef.3Sg]">élt</w>
-					<w xml:id="w44" lemma="két" pos="NUM" msd="[/Num|Attr][Nom]">két</w>
-					<w xml:id="w45" lemma="szép" pos="ADJ" msd="[/Adj][Nom]">szép</w>
-					<w xml:id="w46" lemma="fiatal" pos="ADJ" msd="[/Adj][Nom]">fiatal</w>
-					<w xml:id="w47" lemma="leány" pos="NOUN" msd="[/N][Nom]">leány</w>
-					<pc xml:id="pc11" join="left" pos="PUNCT">...</pc>
-				</s>
-				<s xml:id="s4">
-					<w xml:id="w48" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">Egy</w>
-					<w xml:id="w49" lemma="negyedszázad" pos="NOUN" msd="[/N][Poss.3Sg][Nom]">negyedszázada</w>
-					<w xml:id="w50" lemma="az" pos="PRON" msd="[/Det|Pro][Dat]">annak</w>
-					<pc xml:id="pc12" pos="PUNCT">,</pc>
-					<w xml:id="w51" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
-					<w xml:id="w52" lemma="Kemenes" pos="PROPN" msd="[/N][Nom]">Kemenes</w>
-					<w xml:id="w53" lemma="Sándor" pos="PROPN" msd="[/N][Nom]">Sándor</w>
-					<pc xml:id="pc13" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w54" lemma="az" pos="PRON" msd="[/Det|Pro][Nom]">az</w>
-					<w xml:id="w55" lemma="akkor" pos="PRON" msd="[/Adv|Pro]">akkor</w>
-					<w xml:id="w56" lemma="nagyon" pos="ADV" msd="[/Adv]">nagyon</w>
-					<w xml:id="w57" lemma="divatos" pos="ADJ" msd="[/Adj][Nom]">divatos</w>
-					<w xml:id="w58" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
-					<w xml:id="w59" lemma="hires" pos="ADJ" msd="[/Adj][Nom]">hires</w>
-					<w xml:id="w60" lemma="író" pos="NOUN" msd="[/N][Nom]">író</w>
-					<pc xml:id="pc14" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w61" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">egy</w>
-					<w xml:id="w62" lemma="délelőtt" pos="ADV" msd="[/N][_Tmp_Loc/Adv]">délelőtt</w>
-					<pc xml:id="pc15" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w63" lemma="kuszált" pos="ADJ" msd="[/Adj][Nom]">kuszált</w>
-					<pc xml:id="pc16" pos="PUNCT">,</pc>
-					<w xml:id="w64" lemma="görbebetüs" pos="ADJ" msd="[/Adj][Nom]">görbebetüs</w>
-					<pc xml:id="pc17" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w65" lemma="szürke" pos="ADJ" msd="[/Adj][Nom]">szürke</w>
-					<w xml:id="w66" lemma="konceptuspapir" pos="NOUN" msd="[/N][Subl]">konceptuspapirra</w>
-					<w xml:id="w67" lemma="írt" pos="ADJ" msd="[/Adj][Nom]">írt</w>
-					<w xml:id="w68" lemma="levél" pos="NOUN" msd="[/N][Acc]">levelet</w>
-					<w xml:id="w69" lemma="kap" pos="VERB" msd="[/V][Pst.NDef.3Sg]">kapott</w>
-					<pc xml:id="pc18" join="left" pos="PUNCT">...</pc>
-				</s>
-				<s xml:id="s5">
-					<w xml:id="w70" lemma="és" pos="CONJ" msd="[/Cnj]">És</w>
-					<w xml:id="w71" lemma="ez" pos="PRON" msd="[/Det|Pro][Pl][Nom]">ezek</w>
-					<w xml:id="w72" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-					<w xml:id="w73" lemma="csunya" pos="ADJ" msd="[/Adj][Nom]">csunya</w>
-					<w xml:id="w74" lemma="görbe" pos="ADJ" msd="[/Adj][Nom]">görbe</w>
-					<w xml:id="w75" lemma="bet" pos="NOUN" msd="[/N][Poss.3Pl][Nom]">betük</w>
-					<w xml:id="w76" lemma="tragikomikus" pos="ADJ" msd="[/Adj][_Manner/Adv]">tragikomikusan</w>
-					<w xml:id="w77" lemma="összekuszál" pos="VERB" msd="[/V][Pst.Def.3Pl]">összekuszálták</w>
-					<w xml:id="w78" lemma="egész" pos="ADJ" msd="[/Adj][Nom]">egész</w>
-					<w xml:id="w79" lemma="élet" pos="NOUN" msd="[/N][Poss.3Sg][Acc]">életét</w>
-					<pc xml:id="pc19" join="left" pos="PUNCT">.</pc>
-				</s>
-				<s xml:id="s6">
-					<w xml:id="w80" lemma="a" pos="DET" msd="[/Det|Art.Def]">A</w>
-					<w xml:id="w81" lemma="többi" pos="ADJ" msd="[/Adj|Pro][Acc]">többit</w>
-					<w xml:id="w82" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-					<w xml:id="w83" lemma="kegyes" pos="ADJ" msd="[/Adj][Nom]">kegyes</w>
-					<w xml:id="w84" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
-					<w xml:id="w85" lemma="jóindulatu" pos="NOUN" msd="[/N][Nom]">jóindulatu</w>
-					<w xml:id="w86" lemma="olvasó" pos="NOUN" msd="[/N][Nom]">olvasó</w>
-					<w xml:id="w87" lemma="irgalom" pos="NOUN" msd="[/N][Poss.3Sg][Subl]">irgalmára</w>
-					<w xml:id="w88" lemma="bizik" pos="VERB" msd="[/V][Prs.NDef.1Sg]">bizom</w>
-					<pc xml:id="pc20" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w89" lemma="talán" pos="ADV" msd="[/Adv]">talán</w>
-					<w xml:id="w90" lemma="valahogy" pos="PRON" msd="[/Adv|Pro]">valahogy</w>
-					<w xml:id="w91" lemma="üggyel-bajjal" pos="ADV" msd="[/Adv]">üggyel-bajjal</w>
-					<w xml:id="w92" lemma="majd" pos="ADV" msd="[/Adv]">majd</w>
-					<w xml:id="w93" lemma="eligazodik" pos="VERB" msd="[/V][Prs.NDef.3Sg]">eligazodik</w>
-					<w xml:id="w94" lemma="ő" pos="PRON" msd="[/N|Pro][Ine][3Sg]">benne</w>
-					<pc xml:id="pc21" join="left" pos="PUNCT">,</pc>
-					<w xml:id="w95" lemma="ha" pos="SCONJ" msd="[/Cnj]">ha</w>
-					<w xml:id="w96" lemma="végigolvas" pos="VERB" msd="[/V][Prs.Def.3Sg]">végigolvassa</w>
-					<w xml:id="w97" lemma="ez" pos="PRON" msd="[/Det|Pro][Acc]">ezt</w>
-					<w xml:id="w98" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
-					<w xml:id="w99" lemma="régi" pos="ADJ" msd="[/Adj][Nom]">régi</w>
-					<w xml:id="w100" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
-					<w xml:id="w101" lemma="furcsa" pos="ADJ" msd="[/Adj][Nom]">furcsa</w>
-					<w xml:id="w102" lemma="kis" pos="ADJ" msd="[/Adj|Attr][Nom]">kis</w>
-					<w xml:id="w103" lemma="történet" pos="NOUN" msd="[/N][Acc]">történetet</w>
-					<pc xml:id="pc22" join="left" pos="PUNCT">.</pc>
-				</s>
-			</p>
-			<div xml:id="div1" type="chapter">
+			<div xml:id="div1" type="other">
+				<p xml:id="p1">
+					<s xml:id="s1">
+						<w xml:id="w1" lemma="a" pos="DET" msd="[/Det|Art.Def]">A</w>
+						<w xml:id="w2" lemma="szives" pos="ADJ" msd="[/Adj][Nom]">szives</w>
+						<w xml:id="w3" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
+						<w xml:id="w4" lemma="nyájas" pos="ADJ" msd="[/Adj][Nom]">nyájas</w>
+						<w xml:id="w5" lemma="olvasó" pos="NOUN" msd="[/N][Abl]">olvasótól</w>
+						<pc xml:id="pc1" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w6" lemma="mikor" pos="PRON" msd="[/Adv|Pro|Int]">mikor</w>
+						<w xml:id="w7" lemma="ez" pos="PRON" msd="[/Det|Pro][Pl][Acc]">ezeket</w>
+						<w xml:id="w8" lemma="az" pos="DET" msd="[/Det|Art.Def]">az</w>
+						<w xml:id="w9" lemma="igénytelen" pos="ADJ" msd="[/Adj][Nom]">igénytelen</w>
+						<w xml:id="w10" lemma="sor" pos="NOUN" msd="[/N][Pl][Acc]">sorokat</w>
+						<w xml:id="w11" lemma="út" pos="NOUN" msd="[/N][Subl]">útra</w>
+						<w xml:id="w12" lemma="bocsát" pos="VERB" msd="[/V][Prs.Def.1Sg]">bocsátom</w>
+						<pc xml:id="pc2" pos="PUNCT">,</pc>
+						<w xml:id="w13" lemma="alázatos" pos="ADJ" msd="[/Adj][_Manner/Adv]">alázatosan</w>
+						<w xml:id="w14" lemma="bocsánat" pos="NOUN" msd="[/N][Acc]">bocsánatot</w>
+						<w xml:id="w15" lemma="kér" pos="VERB" msd="[/V][Prs.NDef.1Sg]">kérek</w>
+						<pc xml:id="pc3" join="left" pos="PUNCT">.</pc>
+					</s>
+					<s xml:id="s2">
+						<w xml:id="w16" lemma="meg" pos="PART" msd="[/Prev]">Meg</w>
+						<w xml:id="w17" lemma="kell" pos="VERB" msd="[/V][Prs.NDef.3Sg]">kell</w>
+						<w xml:id="w18" lemma="mond" pos="VERB" msd="[/V][Inf.1Sg]">mondanom</w>
+						<pc xml:id="pc4" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w19" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
+						<w xml:id="w20" lemma="ez" pos="PRON" msd="[/Det|Pro][Nom]">ez</w>
+						<w xml:id="w21" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
+						<w xml:id="w22" lemma="bolondos" pos="ADJ" msd="[/Adj][Nom]">bolondos</w>
+						<w xml:id="w23" lemma="furcsa" pos="ADJ" msd="[/Adj][Nom]">furcsa</w>
+						<w xml:id="w24" lemma="mese" pos="NOUN" msd="[/N][Nom]">mese</w>
+						<pc xml:id="pc5" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w25" lemma="nagyon" pos="ADV" msd="[/Adv]">nagyon</w>
+						<w xml:id="w26" lemma="régen" pos="ADV" msd="[/Adv]">régen</w>
+						<pc xml:id="pc6" pos="PUNCT">-</pc>
+						<w xml:id="w27" lemma="25" pos="NUM" msd="[/Num|Digit][Nom]">25</w>
+						<w xml:id="w28" lemma="év" pos="NOUN" msd="[/N][Ins]">évvel</w>
+						<w xml:id="w29" lemma="ezelőtt" pos="ADP" msd="[/Post]">ezelőtt</w>
+						<pc xml:id="pc7" pos="PUNCT">-</pc>
+						<w xml:id="w30" lemma="történik" pos="VERB" msd="[/V][Pst.NDef.3Sg]">történt</w>
+						<pc xml:id="pc8" join="left" pos="PUNCT">.</pc>
+					</s>
+					<s xml:id="s3">
+						<w xml:id="w31" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">Egy</w>
+						<w xml:id="w32" lemma="hosszu" pos="NOUN" msd="[/N][Nom]">hosszu</w>
+						<w xml:id="w33" lemma="negyedszázad" pos="NOUN" msd="[/N][Nom]">negyedszázad</w>
+						<w xml:id="w34" lemma="telik" pos="VERB" msd="[/V][Pst.NDef.3Sg]">telt</w>
+						<w xml:id="w35" lemma="el" pos="ADV" msd="[/Prev]">el</w>
+						<w xml:id="w36" lemma="azóta" pos="PRON" msd="[/Adv|Pro]">azóta</w>
+						<pc xml:id="pc9" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w37" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
+						<w xml:id="w38" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
+						<w xml:id="w39" lemma="csöndes" pos="ADJ" msd="[/Adj][Nom]">csöndes</w>
+						<pc xml:id="pc10" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w40" lemma="kis" pos="ADJ" msd="[/Adj|Attr][Nom]">kis</w>
+						<w xml:id="w41" lemma="budai" pos="ADJ" msd="[/Adj][Nom]">budai</w>
+						<w xml:id="w42" lemma="Hattyu-utca" pos="PROPN" msd="[/N][Ine]">Hattyu-utcában</w>
+						<w xml:id="w43" lemma="él" pos="VERB" msd="[/V][Pst.NDef.3Sg]">élt</w>
+						<w xml:id="w44" lemma="két" pos="NUM" msd="[/Num|Attr][Nom]">két</w>
+						<w xml:id="w45" lemma="szép" pos="ADJ" msd="[/Adj][Nom]">szép</w>
+						<w xml:id="w46" lemma="fiatal" pos="ADJ" msd="[/Adj][Nom]">fiatal</w>
+						<w xml:id="w47" lemma="leány" pos="NOUN" msd="[/N][Nom]">leány</w>
+						<pc xml:id="pc11" join="left" pos="PUNCT">...</pc>
+					</s>
+					<s xml:id="s4">
+						<w xml:id="w48" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">Egy</w>
+						<w xml:id="w49" lemma="negyedszázad" pos="NOUN" msd="[/N][Poss.3Sg][Nom]">negyedszázada</w>
+						<w xml:id="w50" lemma="az" pos="PRON" msd="[/Det|Pro][Dat]">annak</w>
+						<pc xml:id="pc12" pos="PUNCT">,</pc>
+						<w xml:id="w51" lemma="hogy" pos="SCONJ" msd="[/Cnj]">hogy</w>
+						<w xml:id="w52" lemma="Kemenes" pos="PROPN" msd="[/N][Nom]">Kemenes</w>
+						<w xml:id="w53" lemma="Sándor" pos="PROPN" msd="[/N][Nom]">Sándor</w>
+						<pc xml:id="pc13" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w54" lemma="az" pos="PRON" msd="[/Det|Pro][Nom]">az</w>
+						<w xml:id="w55" lemma="akkor" pos="PRON" msd="[/Adv|Pro]">akkor</w>
+						<w xml:id="w56" lemma="nagyon" pos="ADV" msd="[/Adv]">nagyon</w>
+						<w xml:id="w57" lemma="divatos" pos="ADJ" msd="[/Adj][Nom]">divatos</w>
+						<w xml:id="w58" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
+						<w xml:id="w59" lemma="hires" pos="ADJ" msd="[/Adj][Nom]">hires</w>
+						<w xml:id="w60" lemma="író" pos="NOUN" msd="[/N][Nom]">író</w>
+						<pc xml:id="pc14" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w61" lemma="egy" pos="DET" msd="[/Det|Art.NDef]">egy</w>
+						<w xml:id="w62" lemma="délelőtt" pos="ADV" msd="[/N][_Tmp_Loc/Adv]">délelőtt</w>
+						<pc xml:id="pc15" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w63" lemma="kuszált" pos="ADJ" msd="[/Adj][Nom]">kuszált</w>
+						<pc xml:id="pc16" pos="PUNCT">,</pc>
+						<w xml:id="w64" lemma="görbebetüs" pos="ADJ" msd="[/Adj][Nom]">görbebetüs</w>
+						<pc xml:id="pc17" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w65" lemma="szürke" pos="ADJ" msd="[/Adj][Nom]">szürke</w>
+						<w xml:id="w66" lemma="konceptuspapir" pos="NOUN" msd="[/N][Subl]">konceptuspapirra</w>
+						<w xml:id="w67" lemma="írt" pos="ADJ" msd="[/Adj][Nom]">írt</w>
+						<w xml:id="w68" lemma="levél" pos="NOUN" msd="[/N][Acc]">levelet</w>
+						<w xml:id="w69" lemma="kap" pos="VERB" msd="[/V][Pst.NDef.3Sg]">kapott</w>
+						<pc xml:id="pc18" join="left" pos="PUNCT">...</pc>
+					</s>
+					<s xml:id="s5">
+						<w xml:id="w70" lemma="és" pos="CONJ" msd="[/Cnj]">És</w>
+						<w xml:id="w71" lemma="ez" pos="PRON" msd="[/Det|Pro][Pl][Nom]">ezek</w>
+						<w xml:id="w72" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
+						<w xml:id="w73" lemma="csunya" pos="ADJ" msd="[/Adj][Nom]">csunya</w>
+						<w xml:id="w74" lemma="görbe" pos="ADJ" msd="[/Adj][Nom]">görbe</w>
+						<w xml:id="w75" lemma="bet" pos="NOUN" msd="[/N][Poss.3Pl][Nom]">betük</w>
+						<w xml:id="w76" lemma="tragikomikus" pos="ADJ" msd="[/Adj][_Manner/Adv]">tragikomikusan</w>
+						<w xml:id="w77" lemma="összekuszál" pos="VERB" msd="[/V][Pst.Def.3Pl]">összekuszálták</w>
+						<w xml:id="w78" lemma="egész" pos="ADJ" msd="[/Adj][Nom]">egész</w>
+						<w xml:id="w79" lemma="élet" pos="NOUN" msd="[/N][Poss.3Sg][Acc]">életét</w>
+						<pc xml:id="pc19" join="left" pos="PUNCT">.</pc>
+					</s>
+					<s xml:id="s6">
+						<w xml:id="w80" lemma="a" pos="DET" msd="[/Det|Art.Def]">A</w>
+						<w xml:id="w81" lemma="többi" pos="ADJ" msd="[/Adj|Pro][Acc]">többit</w>
+						<w xml:id="w82" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
+						<w xml:id="w83" lemma="kegyes" pos="ADJ" msd="[/Adj][Nom]">kegyes</w>
+						<w xml:id="w84" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
+						<w xml:id="w85" lemma="jóindulatu" pos="NOUN" msd="[/N][Nom]">jóindulatu</w>
+						<w xml:id="w86" lemma="olvasó" pos="NOUN" msd="[/N][Nom]">olvasó</w>
+						<w xml:id="w87" lemma="irgalom" pos="NOUN" msd="[/N][Poss.3Sg][Subl]">irgalmára</w>
+						<w xml:id="w88" lemma="bizik" pos="VERB" msd="[/V][Prs.NDef.1Sg]">bizom</w>
+						<pc xml:id="pc20" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w89" lemma="talán" pos="ADV" msd="[/Adv]">talán</w>
+						<w xml:id="w90" lemma="valahogy" pos="PRON" msd="[/Adv|Pro]">valahogy</w>
+						<w xml:id="w91" lemma="üggyel-bajjal" pos="ADV" msd="[/Adv]">üggyel-bajjal</w>
+						<w xml:id="w92" lemma="majd" pos="ADV" msd="[/Adv]">majd</w>
+						<w xml:id="w93" lemma="eligazodik" pos="VERB" msd="[/V][Prs.NDef.3Sg]">eligazodik</w>
+						<w xml:id="w94" lemma="ő" pos="PRON" msd="[/N|Pro][Ine][3Sg]">benne</w>
+						<pc xml:id="pc21" join="left" pos="PUNCT">,</pc>
+						<w xml:id="w95" lemma="ha" pos="SCONJ" msd="[/Cnj]">ha</w>
+						<w xml:id="w96" lemma="végigolvas" pos="VERB" msd="[/V][Prs.Def.3Sg]">végigolvassa</w>
+						<w xml:id="w97" lemma="ez" pos="PRON" msd="[/Det|Pro][Acc]">ezt</w>
+						<w xml:id="w98" lemma="a" pos="DET" msd="[/Det|Art.Def]">a</w>
+						<w xml:id="w99" lemma="régi" pos="ADJ" msd="[/Adj][Nom]">régi</w>
+						<w xml:id="w100" lemma="és" pos="CONJ" msd="[/Cnj]">és</w>
+						<w xml:id="w101" lemma="furcsa" pos="ADJ" msd="[/Adj][Nom]">furcsa</w>
+						<w xml:id="w102" lemma="kis" pos="ADJ" msd="[/Adj|Attr][Nom]">kis</w>
+						<w xml:id="w103" lemma="történet" pos="NOUN" msd="[/N][Acc]">történetet</w>
+						<pc xml:id="pc22" join="left" pos="PUNCT">.</pc>
+					</s>
+				</p>
+			</div>
+			<div xml:id="div2" type="chapter">
 				<head>              I.            </head>
 				<p xml:id="p2">
 					<s xml:id="s7">
@@ -2605,7 +2607,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div2" type="chapter">
+			<div xml:id="div3" type="chapter">
 				<head>              II.            </head>
 				<p xml:id="p51">
 					<s xml:id="s122">
@@ -5868,7 +5870,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div3" type="chapter">
+			<div xml:id="div4" type="chapter">
 				<head>             III.            </head>
 				<p xml:id="p110">
 					<s xml:id="s293">
@@ -8022,7 +8024,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div4" type="chapter">
+			<div xml:id="div5" type="chapter">
 				<head>              IV.            </head>
 				<p xml:id="p133">
 					<s xml:id="s387">
@@ -9037,7 +9039,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div5" type="chapter">
+			<div xml:id="div6" type="chapter">
 				<head>             V.            </head>
 				<p xml:id="p167">
 					<s xml:id="s447">
@@ -10496,7 +10498,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div6" type="chapter">
+			<div xml:id="div7" type="chapter">
 				<head>              VI.            </head>
 				<p xml:id="p197">
 					<s xml:id="s523">
@@ -12882,7 +12884,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div7" type="chapter">
+			<div xml:id="div8" type="chapter">
 				<head>               VII.            </head>
 				<p xml:id="p251">
 					<s xml:id="s657">
@@ -14812,7 +14814,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div8" type="chapter">
+			<div xml:id="div9" type="chapter">
 				<head>              VIII.            </head>
 				<p xml:id="p311">
 					<s xml:id="s765">
@@ -16065,7 +16067,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div9" type="chapter">
+			<div xml:id="div10" type="chapter">
 				<head>               IX.            </head>
 				<p xml:id="p349">
 					<s xml:id="s828">
@@ -17933,7 +17935,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div10" type="chapter">
+			<div xml:id="div11" type="chapter">
 				<head>              X.            </head>
 				<p xml:id="p416">
 					<s xml:id="s942">
@@ -19848,7 +19850,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div11" type="chapter">
+			<div xml:id="div12" type="chapter">
 				<head>              XI.            </head>
 				<p xml:id="p462">
 					<s xml:id="s1053">
@@ -22565,7 +22567,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div12" type="chapter">
+			<div xml:id="div13" type="chapter">
 				<head>          XII.            </head>
 				<p xml:id="p529">
 					<s xml:id="s1244">
@@ -24128,7 +24130,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div13" type="chapter">
+			<div xml:id="div14" type="chapter">
 				<head>             XIII.            </head>
 				<p xml:id="p561">
 					<s xml:id="s1337">
@@ -25466,7 +25468,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div14" type="chapter">
+			<div xml:id="div15" type="chapter">
 				<head>            XIV.            </head>
 				<p xml:id="p584">
 					<s xml:id="s1412">
@@ -28897,7 +28899,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div15" type="chapter">
+			<div xml:id="div16" type="chapter">
 				<head>              XV.            </head>
 				<p xml:id="p709">
 					<s xml:id="s1647">
@@ -31162,7 +31164,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div16" type="chapter">
+			<div xml:id="div17" type="chapter">
 				<head>               XVI.            </head>
 				<p xml:id="p767">
 					<s xml:id="s1785">
@@ -33243,7 +33245,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div17" type="chapter">
+			<div xml:id="div18" type="chapter">
 				<head>             XVII.            </head>
 				<p xml:id="p809">
 					<s xml:id="s1926">
@@ -35364,7 +35366,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div18" type="chapter">
+			<div xml:id="div19" type="chapter">
 				<head>           XVIII.            </head>
 				<p xml:id="p850">
 					<s xml:id="s2051">
@@ -37666,7 +37668,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div19" type="chapter">
+			<div xml:id="div20" type="chapter">
 				<head>        XIX.            </head>
 				<p xml:id="p932">
 					<s xml:id="s2225">

@@ -77,25 +77,27 @@
 		</xenoData>
 		<revisionDesc>
 			<change when="2024-11-01"/>
-			<change when="2026-07-09">lemma, pos and msd annotation</change>
+			<change when="2026-08-14">lemma, pos and msd annotation</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
-			<p xml:id="p1">
-				<s xml:id="s1">
-					<w xml:id="w1" lemma="ajánl" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Ajánlom</w>
-					<w xml:id="w2" lemma="e" pos="ADV" msd="PronType=Art">e</w>
-					<w xml:id="w3" lemma="könyv" pos="NOUN" msd="Case=Acc|Number=Sing">könyvet</w>
-				</s>
-			</p>
-			<p xml:id="p2">
-				<s xml:id="s2">
-					<w xml:id="w4" lemma="Anikó" pos="PROPN" msd="Case=Nom|Number=Sing">Anikó</w>
-					<w xml:id="w5" lemma="leány" pos="NOUN" msd="Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1">leányomnak</w>
-				</s>
-			</p>
-			<div xml:id="div1" type="chapter">
+			<div xml:id="div1" type="other">
+				<p xml:id="p1">
+					<s xml:id="s1">
+						<w xml:id="w1" lemma="ajánl" pos="VERB" msd="Definite=Def|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">Ajánlom</w>
+						<w xml:id="w2" lemma="e" pos="ADV" msd="PronType=Art">e</w>
+						<w xml:id="w3" lemma="könyv" pos="NOUN" msd="Case=Acc|Number=Sing">könyvet</w>
+					</s>
+				</p>
+				<p xml:id="p2">
+					<s xml:id="s2">
+						<w xml:id="w4" lemma="Anikó" pos="PROPN" msd="Case=Nom|Number=Sing">Anikó</w>
+						<w xml:id="w5" lemma="leány" pos="NOUN" msd="Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1">leányomnak</w>
+					</s>
+				</p>
+			</div>
+			<div xml:id="div2" type="chapter">
 				<head>I.</head>
 				<p xml:id="p3">
 					<s xml:id="s3">
@@ -2808,7 +2810,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div2" type="chapter">
+			<div xml:id="div3" type="chapter">
 				<head>II.</head>
 				<p xml:id="p28">
 					<s xml:id="s130">
@@ -5234,7 +5236,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div3" type="chapter">
+			<div xml:id="div4" type="chapter">
 				<head>III.</head>
 				<p xml:id="p59">
 					<s xml:id="s259">
@@ -7344,7 +7346,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div4" type="chapter">
+			<div xml:id="div5" type="chapter">
 				<head>IV.</head>
 				<p xml:id="p79">
 					<s xml:id="s354">
@@ -11768,7 +11770,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div5" type="chapter">
+			<div xml:id="div6" type="chapter">
 				<head>V.</head>
 				<p xml:id="p162">
 					<s xml:id="s610">
@@ -15363,7 +15365,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div6" type="chapter">
+			<div xml:id="div7" type="chapter">
 				<head>VI.</head>
 				<p xml:id="p277">
 					<s xml:id="s834">
@@ -18880,7 +18882,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div7" type="chapter">
+			<div xml:id="div8" type="chapter">
 				<head>VII.</head>
 				<p xml:id="p365">
 					<s xml:id="s1070">
@@ -21829,7 +21831,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div8" type="chapter">
+			<div xml:id="div9" type="chapter">
 				<head>VIII.</head>
 				<p xml:id="p446">
 					<s xml:id="s1261">
@@ -24750,7 +24752,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div9" type="chapter">
+			<div xml:id="div10" type="chapter">
 				<head>IX.</head>
 				<p xml:id="p495">
 					<s xml:id="s1413">
@@ -27632,7 +27634,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div10" type="chapter">
+			<div xml:id="div11" type="chapter">
 				<head>X.</head>
 				<p xml:id="p553">
 					<s xml:id="s1576">
@@ -31826,7 +31828,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div11" type="chapter">
+			<div xml:id="div12" type="chapter">
 				<head>XI.</head>
 				<p xml:id="p639">
 					<s xml:id="s1830">
@@ -32527,7 +32529,7 @@
 						<w xml:id="w22009" lemma="mi" pos="PRON" msd="Case=Dat|Number=Plur|Person=1|PronType=Prs">nekünk</w>
 						<w xml:id="w22010" lemma="rendelt" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing">rendelt</w>
 						<w xml:id="w22011" lemma="hely" pos="NOUN" msd="Case=Del|Number=Sing">helyről</w>
-						<w xml:id="w22012" lemma="távozik" pos="VERB" msd="Definite=Def|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">távoznánk.</w>
+						<w xml:id="w22012" lemma="távozik" pos="VERB" msd="Definite=Ind|Mood=Cnd|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act">távoznánk.</w>
 						<pc xml:id="pc5371" join="left" pos="PUNCT">&quot;</pc>
 					</s>
 				</p>
@@ -35454,7 +35456,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div12" type="chapter">
+			<div xml:id="div13" type="chapter">
 				<head>XII.</head>
 				<p xml:id="p727">
 					<s xml:id="s2080">
@@ -38802,7 +38804,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div13" type="chapter">
+			<div xml:id="div14" type="chapter">
 				<head>XIII.</head>
 				<p xml:id="p774">
 					<s xml:id="s2257">
@@ -44856,7 +44858,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div14" type="chapter">
+			<div xml:id="div15" type="chapter">
 				<head>XIV.</head>
 				<p xml:id="p883">
 					<s xml:id="s2613">
@@ -46810,7 +46812,7 @@
 						<w xml:id="w31808" lemma="trón" pos="NOUN" msd="Case=Del|Number=Sing|Number[psor]=Plur|Person[psor]=3">trónjukról</w>
 						<w xml:id="w31809" lemma="letaszított" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing">letaszított</w>
 						<w xml:id="w31810" lemma="király" pos="NOUN" msd="Case=Nom|Number=Plur">királyok</w>
-						<w xml:id="w31811" lemma="vér" pos="NOUN" msd="Case=Sub|Number=Sing|Number[psor]=Sing|Person[psor]=3">vérére.</w>
+						<w xml:id="w31811" lemma="vér" pos="NOUN" msd="Case=Sub|Number=Sing|Number[psed]=Sing">vérére.</w>
 						<pc xml:id="pc7610" join="left" pos="PUNCT">&quot;</pc>
 					</s>
 				</p>
@@ -47080,7 +47082,7 @@
 						<w xml:id="w32014" lemma="mocsok" pos="NOUN" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3">mocskával</w>
 						<w xml:id="w32015" lemma="és" pos="CONJ" msd="_">és</w>
 						<w xml:id="w32016" lemma="gaz" pos="ADJ" msd="Case=Nom|Degree=Pos|Number=Sing">gaz</w>
-						<w xml:id="w32017" lemma="őrület" pos="NOUN" msd="Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=3">őrületével.</w>
+						<w xml:id="w32017" lemma="őrület" pos="NOUN" msd="Case=Ins|Number=Sing|Number[psed]=Sing">őrületével.</w>
 						<pc xml:id="pc7648" join="left" pos="PUNCT">&quot;</pc>
 					</s>
 				</p>
@@ -48680,7 +48682,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div15" type="chapter">
+			<div xml:id="div16" type="chapter">
 				<head>XV.</head>
 				<p xml:id="p936">
 					<s xml:id="s2815">
@@ -51371,7 +51373,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div16" type="chapter">
+			<div xml:id="div17" type="chapter">
 				<head>XVI.</head>
 				<p xml:id="p974">
 					<s xml:id="s2959">
@@ -53436,7 +53438,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div17" type="chapter">
+			<div xml:id="div18" type="chapter">
 				<head>XVII.</head>
 				<p xml:id="p1000">
 					<s xml:id="s3067">
@@ -56851,7 +56853,7 @@
 					</s>
 				</p>
 			</div>
-			<div xml:id="div18" type="chapter">
+			<div xml:id="div19" type="chapter">
 				<head>XVIII.</head>
 				<p xml:id="p1060">
 					<s xml:id="s3268">
