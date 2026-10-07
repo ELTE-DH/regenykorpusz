@@ -61,17 +61,7 @@ The folder contains the level1 and level2 files with headers in the format of [E
 
 # Contributors:
 
-- [Gábor Palkó](https://github.com/gaborpalko)
-- [Tímea Borbála Bajzát](https://github.com/bajzattimi)
-- [Péter Horváth](https://github.com/horvathpeti99)
-- Emma Takács
-- Bence Vétek
-- [Zsófia Fellegi](https://github.com/zsofiafellegi)
-- [Balázs Indig](https://github.com/dlazesz)
-- [Bence Vida](https://github.com/VidaBence)
-- [Botond Szemes](https://github.com/SzemesBotond)
-- [Eszter Szlávich](https://github.com/sz-eszter)
-
+Contributors have been anonymised for peer review.
 
 # License
 
