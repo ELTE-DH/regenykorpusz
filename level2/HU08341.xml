@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/COST-ELTeC/Schemas/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns1="http://distantreading.net/eltec/ns" xml:id="HU08341" xml:lang="hu">
 	<teiHeader>
 		<fileDesc>
@@ -15,12 +16,10 @@
 				</author>
 				<respStmt>
 					<resp>ELTeC conversion</resp>
-					<name>
-												Palkó Gábor						
-						<ref target="https://viaf.org/viaf/65989506"/>
-					</name>
+					<name>Palkó Gábor<ref target="https://viaf.org/viaf/65989506"/></name>
 					<name>Fellegi Zsófia</name>
 					<name>Bajzát Tímea Borbála</name>
+					<name>Horváth Péter</name>
 				</respStmt>
 			</titleStmt>
 			<extent>

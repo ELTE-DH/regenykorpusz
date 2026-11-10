@@ -61,7 +61,14 @@ The folder contains the level1 and level2 files with headers in the format of [E
 
 # Contributors:
 
-Contributors have been anonymized for peer review.
+- [Tímea Borbála Bajzát](https://github.com/bajzattimi)
+- [Gábor Palkó](https://github.com/gaborpalko)
+- [Péter Horváth](https://github.com/horvathpeti99)
+- Bence Vétek
+- Emma Takács
+- [Zsófia Fellegi](https://github.com/zsofiafellegi)
+- [Balázs Indig](https://github.com/dlazesz)
+- [Bence Vida](https://github.com/VidaBence)
 
 # License
 
@@ -71,4 +78,9 @@ All texts of the corpus are in the public domain.
 
 # Acknowledgements
 
-Acknowledgments have been anonymized for peer review.
+The authors acknowledge the support of the National Laboratory for Digital
+Heritage. Project no. 2022-2.1.1-NL-2022-00009 has been implemented with the
+support provided by the Ministry of Culture and Innovation of Hungary from the
+National Research, Development and Innovation Fund, financed under the
+2022-2.1.1-NL funding scheme.
+
