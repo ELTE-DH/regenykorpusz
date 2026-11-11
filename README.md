@@ -13,7 +13,7 @@ The ELTE Novel Corpus is a database developed by the [_Department of Digital Hum
 
 The metadata.tsv file contains the main metadata for each novel.
 
-## TEI Levels
+## TEI Levels:
 
 The source of the corpus was the collection of the [_Hungarian Electronic Library_](http://mek.oszk.hu).
 
@@ -24,7 +24,7 @@ The source of the corpus was the collection of the [_Hungarian Electronic Librar
 
 The folder contains the level1 and level2 files with headers in the format of [ELTeC](https://www.distant-reading.net/eltec/). These files are not valid for TEI, we do not recommend to use them. 
 
-# Elements and attributes
+# Elements and attributes:
 
 ## Level1 -- annotation of structural units and adding metadata to texts
 
@@ -70,13 +70,13 @@ The folder contains the level1 and level2 files with headers in the format of [E
 - [Balázs Indig](https://github.com/dlazesz)
 - [Bence Vida](https://github.com/VidaBence)
 
-# License
+# License:
 
 The content of the repository is licensed under the [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/4.0/) license.
 
 All texts of the corpus are in the public domain.
 
-# Acknowledgements
+# Acknowledgements:
 
 The authors acknowledge the support of the National Laboratory for Digital
 Heritage. Project no. 2022-2.1.1-NL-2022-00009 has been implemented with the
